@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: dcdn.instacart.com
+User-Agent: Opera/9.80 (Windows NT 6.1; WOW64) Presto/2.12.388 Version/12.16
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:26:08 GMT
+Server: AmazonS3
+Via: 1.1 7a18a0a1d9929dae345690b88b08dd5e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uDiGjbZg5NCQHMholuwtXGoVOc7VNYGZGb-vXSqeVNiz8TFxCRkuLQ==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XNHH5KDWKABZJF1J</RequestId><HostId>vTJW1JBiLqavvfswb3M4eo1Cjo5/CMivz6aZhq9XPVhW0Ckv1ypeyTuCj4gJAbMweqlqYQ5ZGxw=</HostId></Error>
+0
+
+
+
+
+https://dcdn.instacart.com:443

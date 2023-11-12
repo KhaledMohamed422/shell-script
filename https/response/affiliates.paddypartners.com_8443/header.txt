@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: affiliates.paddypartners.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.13.81_10003810) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba3e49117a4c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:25 GMT
+Expires: Tue, 07 Nov 2023 18:44:40 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=R%2FCX4pociL9%2FZ9l0kNMY4otzteDKUu%2FM2ZL%2BHE8vG2E%2BZ6i3nnTwjdZ8VuQFsDgt%2FcO0xUzw41WSEF8EkgZVdSFHC0BCKgoG%2BB8ypmTElbHSKy2iL49ePu9BDH2oWomzmwiE8Au5Y0F3xVPrE%2FhbYBX0DQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=0Ocd_SPTVdGmJvuj4S_ORmSU_z0vvrIjdLxC69MtV5Y-1699382665-0-AWnFjTcxsmcafWgJOvPOpYG0N3UZRDXgf0FY6eSMcFyO3E8dn56P7ff7sVsqA2osdJ4/gkJ2OKukzwOVKQFU3X0=; path=/; expires=Tue, 07-Nov-23 19:14:25 GMT; domain=.paddypartners.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+15ec

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: sso-test-tenant.authcloud.staging.trusona.net
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0 SeaMonkey/2.28
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:00:35 GMT
+Location: https://sso-test-tenant.authcloud.staging.trusona.net/
+Server: CloudFront
+Via: 1.1 7b314c2b827b3a655861e27775634208.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WIo4guuAaTB6Wpt33t0tc5j8Q0k6_zEzFHd8ew8PJKRK1dCJgOtRqg==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Redirect from cloudfront
+

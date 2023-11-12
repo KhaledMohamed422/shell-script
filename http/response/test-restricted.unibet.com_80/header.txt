@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: test-restricted.unibet.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061024 Firefox/2.0 (Swiftfox)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:00:16 GMT
+Location: https://test-restricted.unibet.com/
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_desktop; Domain=test-restricted.unibet.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

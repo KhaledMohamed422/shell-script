@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: hubble-failover.bitgo-test.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227ccb7797dfadf-DUS
+Date: Tue, 07 Nov 2023 18:57:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitgo.cloudflareaccess.com/cdn-cgi/access/login/hubble-failover.bitgo-test.com?kid=106b4f96da885b215a477c10b853cfbf6721c111d64340c569a969b31defb269&redirect_url=%2F&meta=eyJraWQiOiIxOWRkYWJjZWZkYjU5MWZhNDJlYjUyZThhMzQwZjMzYzU0NjI4NzNlNTMwMDM1ODYxYzdiNjg2ZjEzNjFkYTU5IiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTM4MzQyMiwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjEwNmI0Zjk2ZGE4ODViMjE1YTQ3N2MxMGI4NTNjZmJmNjcyMWMxMTFkNjQzNDBjNTY5YTk2OWIzMWRlZmIyNjkiLCJob3N0bmFtZSI6Imh1YmJsZS1mYWlsb3Zlci5iaXRnby10ZXN0LmNvbSIsImFwcF9zZXNzaW9uX2hhc2giOiJmN2EwY2VhMmZjZmNhYzI0OTJmYjk1ZDc2MjQ0NGM3Y2I2M2RmODE5ODY0OWUyNDczMzY4MmE2MGM4YzM3MTdjIiwibmJmIjoxNjk5MzgzNDIyLCJpc193YXJwIjpmYWxzZSwiaXNfZ2F0ZXdheSI6ZmFsc2UsInR5cGUiOiJtZXRhIiwicmVkaXJlY3RfdXJsIjoiXC8iLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX2RuIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sImF1dGhfc3RhdHVzIjoiTk9ORSJ9.Vvgrgzi_4o0tQkG5zYpPQ3r-3DUvj5PyIdSfp-oAFyFlXDAfNzRr06-x--9kQjzgJysgREhRW-HOIouhrxPY5CkINetcJ08AiTLNvAUqeldx6vUl9oLeWjlt0ojDoEUmavhph9ZSRYMofOR3cMOs2Os7ppi2NFjY1fsGHnj-P_q5WsmrDYtMhPyWErMUU1KN8IISXTx3LkEPj_whOr9oaZ7Z-abvu8Kf8B8-GQsB8Cb7-i_Uyy2RMkWlfxQAQLdKfMFD7TEyLylJuA1kFWwtXkBHESBjFM39lYr39fokoOw38WeTL4Xr4V7IG4E1noRPd8B_irKcBsS0Orm1ttKq5Q
+Server: cloudflare
+Set-Cookie: CF_AppSession=n2b2d59ac51b9e481; Expires=Wed, 08 Nov 2023 18:57:02 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://hubble-failover.bitgo-test.com:8443

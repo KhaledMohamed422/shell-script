@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: static.dash.staging.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227e3201fe31620-DUS
+Date: Tue, 07 Nov 2023 19:12:20 GMT
+Expires: Tue, 07 Nov 2023 20:12:20 GMT
+Location: https://static.dash.staging.cloudflare.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://static.dash.staging.cloudflare.com:8080

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: amc-base-pri.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 Epiphany/3.8.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 377
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:39:49 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B4955E54CE13635EFDA09
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B4955E54CE13635EFDA09</RequestId>
+  <HostId>amc-base-pri.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://amc-base-pri.cn-hangzhou.oss.aliyun-inc.com:80

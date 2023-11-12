@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: api.cloud.com
+User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1;  http://www.google.com/bot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Citrix-Error-Section: backend
+Citrix-Transactionid: 58ad7cc2-b1db-4064-887f-236b8f23481a
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:11:22 GMT
+Request-Context: appId=cid-v1:f0b1a654-ef0e-4519-ac01-26d26df4ed78
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+https://api.cloud.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: messaging.betfair.it:8080
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb2939917a4f-DUS
+Date: Tue, 07 Nov 2023 18:55:58 GMT
+Expires: Tue, 07 Nov 2023 19:55:58 GMT
+Location: https://messaging.betfair.it/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gJpqFR7TEeJKFmAgyGEiXfpD4vbNGMOL4wigOIZ%2BbniuLSLtwI60SBzOR34wwaWC8yXq6%2FCZNqD7bOrhSeu4AkDekP5UH3EL%2Bo4f%2FK8LhukbJ2a0%2FrVn7w6i3mds1Ltpm7tJJ8Gyw8eHIg4%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=JrSdcMvXjCDAydibHVXDusg3Q2.Q.7lG5ZnIT6cnJ6s-1699383358-0-AUUk04o2JaJn2O1I7Zhjv8kAcZsD7PM6S6E9K8sk6KLicKvNslEQAiG051EPYg+4oAZqwgfILiReXp1njceK6dc=; path=/; expires=Tue, 07-Nov-23 19:25:58 GMT; domain=.betfair.it; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://messaging.betfair.it:8080

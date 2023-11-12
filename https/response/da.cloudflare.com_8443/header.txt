@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: da.cloudflare.com:8443
+User-Agent: BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e6631d047a40-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:14:34 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5AIPxqe8FjCjR4HnhwZcu7YJH1YpBPejkNU8bkl9O7%2BKcDwv42j8IABrWcjgFRb%2B6JANGoktImEwjJnrD0RFbs2dfJkRLU9smJUZWdAM6vAaJVts10LsNAhCJamPhBinLgNmK3UjWIg%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://da.cloudflare.com:8443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: inventory-helper.itcloud.coveo.com
+User-Agent: Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/0.8.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:28:43 GMT
+Via: 1.1 6ae82cc0c8a39c993134c2be90b4d120.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODrOVHq7oAMEDdw=
+X-Amz-Cf-Id: tncZHBF13rBDqSaUK8XwqkESfhyUHoisknJZYUP4BglYiBa7XlG1kw==
+X-Amz-Cf-Pop: FRA60-P3
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: fcade9c6-2f68-4f75-8beb-81e3abb04ed0
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://inventory-helper.itcloud.coveo.com:443

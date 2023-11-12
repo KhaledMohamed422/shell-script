@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: updates.nerdwallet.com
+User-Agent: Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4) Gecko Netscape/7.1 (ax)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82277feb9e8f215d-DUS
+Date: Tue, 07 Nov 2023 18:04:37 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nerdwallet.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=62PTz1yzhItsvrGCD959J%2Fj7w9ORkllPi2ra6U4aRgU2Ua89qXXg7B%2By0Gvt2iaR1zlAwq7sPR4l21GtGcXZUwlCa2kc8nMGBVOKoE0YsPRnoBFfcMXSoOLvIJ4e15cInMrymHQVCYP7"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://updates.nerdwallet.com:80

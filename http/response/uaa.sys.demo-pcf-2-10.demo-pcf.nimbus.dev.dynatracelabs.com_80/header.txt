@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: uaa.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Security-Policy: script-src 'self'
+Date: Tue, 07 Nov 2023 22:00:24 GMT
+Location: https://uaa.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com:8443/
+Server-Timing: dtRpid;desc="1921904792", dtSInfo;desc="0"
+Set-Cookie: dtCookie=v_4_srv_8_sn_60855BEC598ED7DA0E0CAB77A7AFFEFC_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; Path=/; Domain=.dynatracelabs.com
+X-Oneagent-Js-Injection: true
+X-Vcap-Request-Id: c1e44f7a-99c6-4887-7af2-b80d5065bd0a
+Content-Length: 0
+
+
+
+
+http://uaa.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com:80

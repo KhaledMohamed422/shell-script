@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: cdn.creditkarma.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; moto g(7) plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy: base-uri 'self';connect-src 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net https://www.google-analytics.com https://stats.g.doubleclick.net https://www.sentry.io https://sentry.io https://*.sentry.io https://rs.fullstory.com;default-src 'nonce-93256accaf13400ce5a19085dd57a4e9' 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net;font-src 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net data: https://fonts.gstatic.com;frame-ancestors https://www.creditkarma.com https://accounts.creditkarma.com https://*.apply.creditkarma.com;frame-src https://tags.creditkarma.com https://creditkarmacdn-a.akamaihd.net;img-src 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net https://creditkarma-cms.imgix.net/ https://creditkarma.imgix.net/ https://ck-content.imgix.net/ https://ck-assets.imgix.net/ https://www.google-analytics.com https://seal.digicert.com https://stats.g.doubleclick.net https://www.google.com data: https://d29u10q7qlh006.cloudfront.net https://financialprovider-e2e-logos.platform.intuit.com https://financialprovider-logos.platform.intuit.com;media-src https://creditkarma-cms.imgix.net;object-src 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net;script-src 'nonce-93256accaf13400ce5a19085dd57a4e9' 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net https://www.google-analytics.com https://www.googleadservices.com https://seal.digicert.com https://js-agent.newrelic.com 'strict-dynamic' 'report-sample' https://rs.fullstory.com data: 'nonce-87a30214eab6c69c71fc5d2b8fc3f558';style-src 'self' *.creditkarma.com https://creditkarmacdn-a.akamaihd.net *.nr-data.net 'unsafe-inline' data: https://fonts.googleapis.com;worker-src 'self';report-uri https://sentry.io/api/1213169/security/?sentry_key=6ccb2738843e424b8bc559905d29b115
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:14:14 GMT
+Expires: Tue, 07 Nov 2023 19:14:14 GMT
+Origin-Dc: us-central1
+Origin-Env: production
+Pragma: no-cache
+Server: CK-FG-server
+Set-Cookie: CKTRKID=2EE7105F886B4D909A155955219C4366; Max-Age=315360000; Expires=Fri, 04 Nov 2033 19:14:14 GMT; Secure; SameSite=Strict; Domain=.creditkarma.com; Path=/
+Set-Cookie: FID=1; Max-Age=315360000; Expires=Fri, 04 Nov 2033 19:14:14 GMT; Secure; HttpOnly; SameSite=Strict; Domain=.creditkarma.com; Path=/
+Set-Cookie: CKTRACEID=da1a4e97-eb23-4e82-925b-75d3b283398f; Max-Age=1209600; Expires=Tue, 21 Nov 2023 19:14:14 GMT; Secure; HttpOnly; SameSite=Strict; Domain=.creditkarma.com; Path=/
+Set-Cookie: ck_web=Fe26.2**779283562b179529428ea0fd3084ac39955b6351883a32d942a12db28af2b14e*0SsmwyEnXfAqnnGHbFK06w*154JvfjKCOKH1iE0tJAXgYyOq2apWWBLFag7ssdE27vbjgALVXVH_u91gxiXlDdJop9U5dyNwtUOyMXMBfY0ZTY-5QCCC15MGYDWsJxE8SBTeUHoeStU2387QXoFxSRPHOKP6T4hFUN4VqJXakrO-cF6wtikv2GMnlX5rRTpFUGMPtgy_NDNJppAy2uTNqFd**51f7cecb47929fb4103c7e23f15e841c44bdab9c301021ccb8a1155e142437c2*QSEJFNh8EOKctXe3iM54FhFsg9RFVSGyvH708psxM-w; Max-Age=31536000; Expires=Wed, 06 Nov 2024 19:14:14 GMT; Secure; HttpOnly; SameSite=Strict; Domain=www.creditkarma.com; Path=/
+Set-Cookie: _abck=6D8297CEA60D2A898FE4DD9F511BCDD9~-1~YAAQvxZlX64hr6SLAQAApe40qwrtF+RY0MS0KVaTMYYb7PR4H3KPic2p4P3ZQt9wbaDeeMstXABrv3a6nrevEKpLRiTxz6ihhNrGNhdjsF+krV9bfrwJd9J8fdOo3PaMd76WxSSHS9sAgnVgyrccviDC9GLLehP/svC+xyeEhOyeECbTW/XXq5Zkv3aX4Nkd4iszH1lYDjPU5Bo9AzyZJj1FqLgx3vMVD9IeDhwpLFxx8Cho9U0532rWZZ5hBYvaHrlp0JFS9X5pjBBkH7uFUgVYFzajquZl4r39DJ1dbb+VtvvNTX0Ad+Z8EnypAM1C5oiswK6Rso9actkdvOpPD6KrMrcRRtdE9vVEeRzzTPOTYiKg4LQjKbDcbej789bEYx0=~-1~-1~-1; Domain=.creditkarma.com; Path=/; Expires=Wed, 06 Nov 2024 19:14:14 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=B21287BE0F1975EAE87575F58F669FD9~YAAQvxZlX68hr6SLAQAApe40qxXkeyuTBdl7K0ViUia3Ku/UxIHMIwkeHOZYGylToqSiMLZktZfbitJs4GruYjcXYLMXDZSx/lv4Y7CE77/vyjhs3X6T3lDhwx8cgk4ngkhJvNejHq+iKsoUGreguA3Ivt3LBKwRJb/c/IJ1+oq1h/0g0h4jHYeqF9a6nuM2RGttM3sjtvByoq+vvnrtVYpTIWSnL0mKyJxwARW3Ns5KVCAasaQzGbn03Ay4SYAg6oRk7jdqp7vgX5YtTf82kfJdgW4LOj63eHw0IEpHvezu9wmd1+supQ==~3293745~3621427; Domain=.creditkarma.com; Path=/; Expires=Tue, 07 Nov 2023 23:14:12 GMT; Max-Age=14398
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: accept-encoding
+X-Akamai-Transformed: 9 - 0 pmb=mTOE,1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

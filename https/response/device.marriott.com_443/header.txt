@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: device.marriott.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20130108 Firefox/10.0.12 SeaMonkey/2.7.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 170
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:26:11 GMT
+Location: https://mdmconsole.marriott.com/AirWatch/default.aspx
+Set-Cookie: WS1UEMCOOKIE=02cb048f69-4469-4bo8zNQpsi097QMw4Me0PJJxbzjroQSU6F5uZMAFKoTWOlnn_KAbOx8tfTgS8R9WSQZEc; path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

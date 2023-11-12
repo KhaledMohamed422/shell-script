@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: telescope-mobile-content-dev.infra-ext.activision.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-M317F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 111
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:04:37 GMT
+Expires: Wed, 08 Nov 2023 05:04:37 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPo8K4xJAmBLop1dFvPxKOsw-bjeRCXRqMtIzPPrm-6kxCFQ-fyd8HGnlCd8A34-5In5lKGzSEgxZK2NWzI7ZtuX
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message></Error>
+
+
+https://telescope-mobile-content-dev.infra-ext.activision.com:443

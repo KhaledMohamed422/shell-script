@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>装修市场</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="data-spm" content="a2111b" />
+<link rel="shortcut icon" href="//gtd.alicdn.com/tps/i3/T18O3jXkFdXXX51Yfd-32-32.ico" type="image/x-icon" />
+<link rel="stylesheet" href="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/common/components/nav/index.css" />
+<link rel="stylesheet" href="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/common/components/footer/index.css" />
+<script src="//assets.alicdn.com/s/kissy/1.2.0/kissy-min.js"></script>
+<script src="//g.alicdn.com/??sj/sportalapps/1.0.0/global/1.0/seller-global-min.js,sj/sportalapps/1.0.0/global/1.0/anti-ie6.js,/tbc/webww/1.1.5/webww-min.js" charset="gbk"></script>
+<script src="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/common/vendor/vendor.js"></script>
+<script src="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/common/components/nav/index.js"></script>
+
+<script type="text/javascript" src="https://g.alicdn.com/dt/tracker/3.2.0/tracker.Tracker.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  var tracker = new window.Tracker({
+    pid: 'tspzxmarket'
+  });
+  // 监听 window.onerror 事件并打点
+  tracker.onGlobalError();
+</script>
+</head>
+<body data-spm="8459806"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=215045c016994398914873591e1360&asid=AQAAAAATZUtlKJyTKAAAAACtOUcar9p0Gg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+	<div class="zx-nav">
+	<div class="site-nav fuwu-header-2016 J_header2016" id="J_fuwuHeader2016">
+		<div class="site-nav-bd">
+			<ul class="site-nav-bd-l left">
+				<li class="site-nav-menu h5-download"><a href="//www.taobao.com/go/act/focus/qianniu.php" target="_blank" title="新增“自动回复”功能"> <i class="iconfont icon-phone"></i><span>卖家手机端</span>
+				</a> <span class="seperator"></span></li>
+
+				<li class="site-nav-menu login-info">
+					
+					<div>
+						<!-- 未登录处理 -->
+						<span>亲，欢迎来淘宝！</span> <a target="_top" href="https://login.taobao.com/member/login.jhtml?sub=true&amp;redirectURL=http%3A%2F%2Fzx.taobao.com%2F&amp;f=top">请登录</a> <a target="_top" href="https://member1.taobao.com/member/newbie.htm">免费注册</a>
+					</div>
+				</li>
+				<li><div id="J_Tmsg" class="tmsg"></div>
+<script>
+    ;(function(S) {
+        var version = parseFloat(S.version),
+            isOnline = !~location.host.indexOf('daily.taobao.net');
+
+        // 添加 tbc 包配置
+        if (version > 1.1) {
+            S.config({
+                packages: [{
+                    name: 'tbc',
+                    path: isOnline ? '//g.alicdn.com/tbc/' : '//g-assets.daily.taobao.net/tbc/',
+                    ignorePackageNameInUri: true
+                }]
+            });
+
+            // 兼容 KISSY 1.2
+            if (version === 1.2) {
+                S.config({
+                    map: [
+                        [/(\/tbc\/)tbc\//g, '$1']
+                    ]
+                });
+            }
+        }
+    })(KISSY);
+</script>
+
+<script>
+    KISSY.ready(function(S) {
+        S.use('core', function(S) {
+            var doc = document,
+                version = parseFloat(S.version),
+                isOnline = !~location.host.indexOf('daily.taobao.net'),
+                isHighVersion = version >= 1.2;
+
+            var uv = '1.4.25',
+                v = '3.3.14';
+
+            var getCookie = function(name) {
+                var m = doc.cookie.match('(?:^|;)\\s*' + name + '=([^;]*)');
+
+                return (m && m[1]) ? decodeURIComponent(m[1]) : '';
+            };
+
+            var isLogin = function () {
+                var nick = getCookie('_nk_') || getCookie('tracknick'),
+                    login = getCookie('_l_g_'),
+                    lgc = getCookie('lgc');
+
+                return !!(login && nick || lgc);
+            };
+
+            var renderTmsgBase = function() {
+                var tmsg = S.DOM.get('#J_Tmsg'),
+                    temp = '' +
+                            '<div class="J_Menu menu" data-fn-name="fn-tmsg">' +
+                            '   <div class="menu-hd J_Tmsg_Basic tmsg_basic">' +
+                            '       <span class="J_Tmsg_Logo">' +
+                            '           <span class="J_Tmsg_Logo_Loading tmsg_logo_loading"></span>' +
+                            '           <span class="J_Tmsg_Logo_Icon tmsg_logo_icon iconfont" style="display:none">&#349</span>' +
+                            '           <span class="J_Tmsg_Logo_Text tmsg_logo_text">消息</span>' +
+                            '           <span class="J_Tmsg_Logo_Unread tmsg_logo_unread"></span>' +
+                            '       </span>' +
+                            '       <b class="tmsg_basic_arrow"></b>' +
+                            '   </div>' +
+
+                            '   <div class="menu-bd">' +
+                            '       <div class="J_Tmsg_Panel_Apps tmsg_panel_apps"></div>' +
+                            '   </div>' +
+                            '</div>' +
+
+                            '<div class="J_Tmsg_Panels tmsg_panels" style="_display:none">' +
+                            '    <div class="J_Tmsg_Panel_Detail tmsg_panel_detail"></div>' +
+                            '    <div class="J_Tmsg_Panel_history tmsg_panel_history"></div>' +
+                            '    <div class="J_Tmsg_Panel_Strong tmsg_panel_strong"></div>' +
+                            '    <div class="J_Tmsg_Panel_Setting tmsg_panel_setting"></div>' +
+                            '</div>';
+
+                S.DOM.html(tmsg, temp);
+            };
+
+            var initTmsg = function() {
+                var url = isOnline ? '//g.alicdn.com/tbc/' : '//g-assets.daily.taobao.net/tbc/',
+                    com = isLogin() ? ( '??umpp/' + uv + '/index-min.js,tmsg/' + v + '/index-min.js' ) : ( 'umpp/' + uv + '/index-min.js' );
+
+                // 登陆用户
+                if (isLogin()) {
+                    renderTmsgBase();
+
+                    S.getScript(url + com, function() {
+                        if (isHighVersion) {
+                            S.use('tbc/umpp/' + uv + '/', function() {
+                                S.use('tbc/tmsg/' + v + '/');
+                            });
+                        }
+                    });
+                }
+
+                // 访客
+                else {
+                    if (isHighVersion) {
+                        S.use('tbc/umpp/' + uv + '/');
+                    }
+                    else {
+                        S.getScript(url + com);
+                    }
+                }
+            }();
+        });
+    });
+</script></li>
+			</ul>
+			<ul class="site-nav-bd-r right">
+
+
+<script src="//g.alicdn.com/rock/rock-base/0.0.24/RockCore.promise.js"></script>
+<style type="text/css">.index-experience-new-version{display:inline-block;}.experience-new-version-normal-text{font-size:12px;color:#185FF1!important;cursor:pointer;display:inline-block;}</style>
+<li class="site-nav-menu">
+    <span id="index-experience-new-version-container" class="index-experience-new-version" href=""></span>
+</li>
+
+
+<li class="site-nav-menu" data-spm="54321-ddsy">
+    <a href="https://fuwu.taobao.com" target="_blank">服务市场首页</a>
+</li>
+
+
+
+<li class="site-nav-menu menu" data-spm="54321-ddwd">
+    <a href="https://fuwu.taobao.com/ser/my_service.htm" target="_blank">我的服务<i class="iconfont icon-down"></i></a>
+    <div class="site-nav-menu-bd">
+        <div class="menu-bd-content my-tb">
+            
+            <a href="https://fuwu.taobao.com/ser/order/biz_order_list.htm?tabIndex=1" target="_blank">我的订单</a>
+            
+            <a href="https://fuwu.taobao.com/ser/order/biz_order_list.htm?tabIndex=2" target="_blank">待付款</a>
+            
+            <a href="https://fuwu.taobao.com/ser/my_service.htm?tabIndex=3" target="_blank">即将到期</a>
+            
+            <a href="//fuwu.taobao.com/score/my_score.htm" target="_blank">待评价</a>
+            
+            <a href="https://fuwu.taobao.com/ser/myFav.htm" target="_blank">我的收藏</a>
+            
+        </div>
+    </div>
+</li>
+
+
+
+<li class="site-nav-menu menu" data-spm="54321-mjzx">
+    <a href="https://myseller.taobao.com/seller_admin.htm" target="_blank">卖家中心<i class="iconfont icon-down"></i></a>
+    <div class="site-nav-menu-bd">
+        <div class="menu-bd-content my-tb">
+            
+            <a href="https://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_blank">已卖出宝贝</a>
+            
+            <a href="https://sell.taobao.com/auction/merchandise/auction_list.htm" target="_blank">出售中宝贝</a>
+            
+        </div>
+    </div>
+</li>
+
+
+
+<li class="site-nav-menu menu" data-spm="54321-mytb">
+    <a href="https://www.taobao.com" target="_blank">我的淘宝<i class="iconfont icon-down"></i></a>
+    <div class="site-nav-menu-bd">
+        <div class="menu-bd-content my-tb">
+            
+            <a href="https://buyertrade.taobao.com/trade/itemlist/list_bought_items.htm" target="_blank">已买到宝贝</a>
+            
+            <a href="https://lu.taobao.com/newMyPath.htm" target="_blank">我的足迹</a>
+            
+        </div>
+    </div>
+</li>
+
+
+
+<li class="site-nav-menu menu" data-spm="54321-bz">
+    <a href="http://r.fuwu.taobao.com/docs/doc.htm?spm=a219a.7629140.0.0.K8YBNS&treeId=253&articleId=105718&docType=1" target="_blank">规则中心<i class="iconfont icon-down"></i></a>
+    <div class="site-nav-menu-bd">
+        <div class="menu-bd-content my-tb">
+            
+            <a href="https://sellerhelp.taobao.com/market/service/index.php" target="_blank">更多帮助</a>
+            
+        </div>
+    </div>
+</li>
+
+
+<li class="site-nav-menu site-nav-last" data-spm="54321-fws">
+    <span class="seperator"></span>
+    <a href="https://open.taobao.com/" target="_blank">服务商专区</a>
+</li>
+<script src="//g.alicdn.com/taefed/revision-fuwu/0.3.54/experienceNewVersion/index.js"></script> </ul>
+		</div>
+	</div>
+	
+	<div>
+<div></div>
+
+
+<script type="text/javascript">
+  var allowBanner = ['/', '/ser/index.htm', '/index.htm'];
+  var isFuwuIndexBannerUrl = location.hostname === 'fuwu.taobao.com' && allowBanner.indexOf(location.pathname) > -1;
+//   var isFuwuIndexBannerUrl = location.href == 'https://fuwu.taobao.com/' || location.href == 'https://fuwu.taobao.com/index.htm' || location.href == 'https://fuwu.taobao.com/ser/index.htm';
+  var isFuwuListPage = location.href.indexOf('ser/list.html') > 0;
+  if (!(isFuwuIndexBannerUrl || isFuwuListPage)) {
+    var atmosphereWrap= document.querySelector('.atmosphere-2017-index-wrap');
+    if (atmosphereWrap) {
+      atmosphereWrap.style.display='none';
+    }
+  }
+</script>
+<script src="//g.alicdn.com/crm/anywhere/0.4.5/lib/include.js" crossorigin></script>
+<script>
+    // 此脚本用于给店小蜜页面加上万象窗口
+    function getServiceCode() {
+        var reg = /service_code=([\w|-]*)&?/g;
+        var result = reg.exec(window.location.href);
+        return result ? result[1] : '';
+    };
+    var awMap = {
+        'A-DXMLLB': {
+            sourceId: 18,
+            bizCode: 'PCDianXiaoMiWindow'
+        },
+        'A-DXMZXB': {
+            sourceId: 19,
+            bizCode: 'PCDianXiaoMiWindow'
+        },
+        'A-DXM': {
+            sourceId: 20,
+            bizCode: 'PCDianXiaoMiWindow'
+        }
+    };
+    window.onload = function() {
+        var serviceCode = getServiceCode();
+        var awConfig = awMap[serviceCode];
+        if (!awConfig) return;
+        AW.init({
+            sourceId: awConfig.sourceId,
+            bizCode:  awConfig.bizCode
+        });
+    }
+</script></div>
+	
+	<div class="topNav">
+		<div class="container">
+			<div class="top-con">
+				<h1>
+					<a href="/"> 
+						<img src="https://img.alicdn.com/tps/TB1f8zQPXXXXXaKXVXXXXXXXXXX-520-94.png" width="100%" alt="" />
+					</a>服务市场-装修市场
+				</h1>
+				<div class="search-wrap">
+					<div class="search-bar">
+						<div class="select-box">
+							<div class="s-text-wrap">
+								<p class="s-text"></p>
+								<span class="iconfont icon-xiala"></span>
+							</div>
+							<ul class="s-cate-list">
+								<li><a href="javascript:void(0)" data-viewMarket="zxDianpu">PC店铺模板</a></li>
+								<li><a href="javascript:void(0)" data-viewMarket="zxWuxianDianpu">无线店铺模板</a></li>
+								<li><a href="javascript:void(0)" data-viewMarket="zxWeihaibao">微海报模板</a></li>
+							</ul>
+						</div>
+						<input type="text" class="search-box" value="" placeholder="搜索你需要的模板" /> 
+						<a href="javascript:void(0)" data-href="/list.html" class="search-btn">搜索</a>
+					</div>
+					<!-- <ul class="search-text">
+						<li style="border: 0; padding-left: 0"><a href="javascript:void(0)">双十一大促模板</a></li>
+						<li><a href="javascript:void(0)">热搜词二</a></li>
+						<li><a href="javascript:void(0)">热搜词三</a></li>
+						<li><a href="javascript:void(0)">热搜词四</a></li>
+					</ul> -->
+				</div>
+				<div class="tab-bar">
+					<a href="javascript:void(0)">我的模板</a> <span></span>
+					<div class="drop-menu">
+						<a target="_blank" href="//siteadmin.taobao.com/template/templateManager.htm">我的PC店铺模板</a>
+						<a target="_blank" href="//wangpu.taobao.com/templateList.htm">我的无线店铺模板</a>
+					</div>
+				</div>
+			</div>
+			<div class="page-nav">
+				<ul class="nav-list clearfix">
+					<!-- tms坑口： http://tms.alibaba-inc.com/web/pages/137004/design -->
+				</ul>
+				<a target="_blank" href="//zxdesigner.taobao.com/design/register.htm" class="designer-btn">设计师后台</a>
+				<a target="_blank" href="//zxdesigner.taobao.com/design/register.htm" class="rz-btn">设计师入驻</a>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<!-- 当前所处环境 -->
+	<input type="hidden" id="J_env" value="online" />
+	
+	<div class="zx-layout">
+    <link rel="stylesheet" href="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/page/home/index.css" />
+    <div class="tl-content">
+
+        <div class="tl-banner">
+            <div class="tl-banner-left">
+                <ul class="zx-slide">
+                </ul>
+            </div>
+        </div>
+        <!-- {/* 无线店铺 新品模板 */} -->
+        <div class="tl-h5">
+
+            <div class="tl-h5-hot">
+                <div class="titleWrap">
+                    <span class="tl-title">无线店铺 <b>畅销</b>模板</span>
+                    <a class="tl-more" target="_blank" href="https://zx.taobao.com/list.html?viewMarket=zxWuxianDianpu&amp;sort=sale-show">点击查看更多
+                        ></a>
+                </div>
+
+                <ul class="h5-hot-slider temp-list">
+
+                </ul>
+            </div>
+
+            <div class="tl-h5-new">
+
+                <div class="titleWrap">
+
+                    <span class="tl-title">无线店铺 <b>新品</b>模板</span>
+                    <a class="tl-more" target="_blank" href="https://zx.taobao.com/list.html?viewMarket=zxWuxianDianpu&amp;sort=time-desc">点击查看更多
+                        ></a>
+                </div>
+                <ul class="h5-new-slider temp-list">
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="tl-h5">
+            <div class="tl-h5-hot">
+                <div class="titleWrap">
+                    <span class="tl-title">PC店铺 <b>畅销</b>模板</span>
+                    <a class="tl-more" target="_blank" href="https://zx.taobao.com/list.html?viewMarket=zxDianpu&amp;sort=default&amp;version=1">点击查看更多
+                        ></a>
+                </div>
+
+                <ul class="pc-hot-slider temp-list">
+
+                </ul>
+            </div>
+
+            <div class="tl-h5-new">
+                <div class="titleWrap">
+                    <span class="tl-title">PC店铺 <b>新品</b>模板</span>
+                    <a class="tl-more" target="_blank" href="https://zx.taobao.com/list.html?viewMarket=zxDianpu&amp;sort=time-desc&amp;version=1">点击查看更多
+                        ></a>
+                </div>
+                <ul class="pc-new-slider temp-list">
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="tl-banner2">
+            <div class="tl-banner-left2">
+                <ul class="zx-slide2">
+                </ul>
+            </div>
+        </div>
+
+        <div class="tl-discount-wrap">
+            <div class="tl-discount">
+
+                <div class="titleWrap">
+                    <span class="tl-title"><b>促销打折</b></span>
+                </div>
+                <ul class="discount-slider temp-list">
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="fuwu-footer-top">
+        <ul>
+            <li>
+                <h1>阿里巴巴<br />官方装修市场</h1>
+                <span>安全可靠0风险</span>
+            </li>
+            <li>
+                <h1 style="line-height: 76px;">所见即所得</h1>
+                <span>旺铺一键套用</span>
+            </li>
+            <li>
+                <h1>陪伴10年<br />数百万店铺首选</h1>
+                <span>总计售出1000万+次模板</span>
+            </li>
+            <li>
+                <h1>万套模板<br />高频上新</h1>
+                <span>总有一套适合你</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/common/components/slide/index.js"></script>
+    <script src="//g.alicdn.com/sj/zhuangxiu-market/0.0.22/page/home/index.js"></script>
+</div>
+
+	<div class="zx-footer"><div class="fuwu-footer-2016">
+    <div class="footer-bd">
+        <div class="map-links clearfix" data-spm="54321-xssl">
+            
+            <dl>
+                <dt>新手上路</dt>
+                
+                <dd><a href="//service.taobao.com/support/8101118.htm?spm=a1z13.1113645.0.0.yMfjID" target="_blank">新手指南</a></dd>
+                
+                <dd><a href="//www.taobao.com/go/act/sale/fwscjggjlc5bz.php?spm=a1z13.1113645.0.0.s1vGLZ" target="_blank">挑选服务</a></dd>
+                
+            </dl>
+            
+            <dl>
+                <dt>我是商家</dt>
+                
+                <dd><a href="https://fuwu.taobao.com" target="_blank">订购服务</a></dd>
+                
+                <dd><a href="https://fuwu.taobao.com/ser/my_service.htm" target="_blank">使用服务</a></dd>
+                
+            </dl>
+            
+            <dl>
+                <dt>我是服务商</dt>
+                
+                <dd><a href="https://i.fuwu.taobao.com/isv/modify_isv_info.htm?spm=a1z13.1113645.0.0.EMsIsu" target="_blank">成为服务商</a></dd>
+                
+                <dd><a href="https://i.fuwu.taobao.com/isv/modify_isv_info.htm?spm=a1z13.1113645.0.0.EMsIsu" target="_blank">管理服务</a></dd>
+                
+            </dl>
+            
+            <dl>
+                <dt>交易保障</dt>
+                
+                <dd><a href="https://service.taobao.com/support/seller/knowledge-1134367.htm" target="_blank">服务期限</a></dd>
+                
+                <dd><a href="https://service.taobao.com/support/seller/knowledge-1125141.htm" target="_blank">服务取消</a></dd>
+                
+                <dd><a href="https://service.taobao.com/support/seller/knowledge-1134354.htm" target="_blank">线下服务售后</a></dd>
+                
+            </dl>
+            
+          
+            <dl>
+                <dt>服务市场无线端</dt>
+                <dd><img src="//img.alicdn.com/tps/TB1P4.KKFXXXXa3aXXXXXXXXXXX-112-135.png" class="qr"></dd>
+            </dl>
+        </div>
+        <div class="line"></div>
+        <div class="friends-links" data-spm="54321-hzhb">
+            <p>
+                
+                <a href="http://www.alibabagroup.com/cn/global/home" target="_blank">阿里巴巴集团</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https:&#x2F;&#x2F;www.taobao.com&#x2F;?spm=a1z51.7919648.0.0.ISdJql&amp;id=shouye_taobao" target="_blank">淘宝网</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://www.tmall.com/?spm=a1z13.1113645.0.0.JeSUZC" target="_blank">天猫</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://www.aliyun.com/" target="_blank">阿里云</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://www.alipay.com/" target="_blank">支付宝</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://alimarket.m.taobao.com/markets/qnww/qnmobile" target="_blank">千牛</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://wangpu.taobao.com/" target="_blank">旺铺</a>
+                
+                <span>|</span>
+                
+                
+                <a href="http://open.taobao.com/" target="_blank">开放平台</a>
+                
+                <span>|</span>
+                
+                
+                <a href="http://cloud.tmall.com/" target="_blank">聚石塔</a>
+                
+                <span>|</span>
+                
+                
+                <a href="http://www.yushanfang.com/" target="_blank">数据银行</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://ecrm.taobao.com/jxt/jxtHomepage.htm" target="_blank">客户运营平台</a>
+                
+                <span>|</span>
+                
+                
+                <a href="https://omnichannel.taobao.com/show2/index.htm" target="_blank">全渠道</a>
+                
+                <span>|</span>
+                
+                
+                <a href="http://ipp.alibabagroup.com/iprapplication.htm" target="_blank">商标保护</a>
+                
+                
+            </p>
+            <p class="para2">
+                
+                <small>
+                    Copyright &copy;2003 - 2018 Taobao 版权所有
+                </small>
+            </p>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
+0
+
+
+
+
+https://zx.taobao.com:443

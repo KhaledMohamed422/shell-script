@@ -1,0 +1,19 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title>[FF] wishing well</title><link rel="shortcut icon" href=https://freefiremobile-a.akamaihd.net/common/web_event/image_home/images/favicon.png><link href=https://freefiremobile-a.akamaihd.net/common/web_event/wishingwell/css/app.ba140d1a6e59004a178c4facd97cc342.css rel=stylesheet></head><body><div id=app class=swiper-container></div><div class=wp_pop><div class=wp_content><div class=wp_pop_img></div><p class=wp_tips>Please rotate your phone for the best browsing experience</p></div></div><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/wishingwell/js/manifest.195f04aff561479ac241.js></script><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/wishingwell/js/vendor.0ebe4fcccb09bf32e7b0.js></script><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/wishingwell/js/app.3bc850a7d6bab4443372.js></script></body><script async src="https://www.googletagmanager.com/gtag/js?id=G-PY9FLDJNVM"></script><script>window.onload = () => {
+    document.addEventListener('touchstart', (event) => {
+      if (event.touches.length > 1) {
+        event.preventDefault();
+      }
+    }, { passive: false });
+
+    let lastTouchEnd = 0;
+    document.addEventListener('touchend', (event) => {
+      const now = (new Date()).getTime();
+      if (now - lastTouchEnd <= 300) {
+        event.preventDefault();
+      }
+      lastTouchEnd = now;
+    }, false);
+  }</script><script src=https://dl.dir.freefiremobile.com/common/web_event/gaFe/GA.8c8849937e3958e738c4.js></script></html>
+
+
+https://newyearwish.sea.freefiremobile.com:443

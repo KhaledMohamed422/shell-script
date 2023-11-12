@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: expense.seagroup.com
+User-Agent: Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Length: 177
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:15:03 GMT
+Location: https://expense.sea.com/
+Server: openresty/1.19.9.1
+Via: 1.1 google
+

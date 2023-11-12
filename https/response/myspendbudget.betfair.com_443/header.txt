@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: myspendbudget.betfair.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bb929c157166-DUS
+Date: Tue, 07 Nov 2023 18:45:20 GMT
+Location: https://identitysso.betfair.com/view/login?product=my-account&redirectMethod=GET&url=https%3A%2F%2Fmyspendbudget.betfair.com%2F
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YT4R2h%2F8Hbuw%2BmdK6LmSFnKcpNk2reNezxjhfn3IeObB8BLVOhVyxMXhzYurgS739j9avDiNFf4Bx3E25AJZvUiHCvbRpTcwy9UegtqvXFmbWQwXt8cFkpoDfhVeXShXTlyYkksWkQITkGw%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: vid=cd677130-7d9d-11ee-b32e-fa163ea783ce; Max-Age=315360000; Expires=Fri, 04-Nov-2033 18:45:20 GMT; Domain=betfair.com; Path=/
+Set-Cookie: wsid=cd677131-7d9d-11ee-b32e-fa163ea783ce; Max-Age=315360000; Expires=Fri, 04-Nov-2033 18:45:20 GMT; Domain=betfair.com; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://myspendbudget.betfair.com:443

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: log-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; MAR-LX1B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 504 Gateway Time-out
+Connection: close
+Content-Length: 560
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:33 GMT
+Proxy-Status: 0000201504005043
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=305, origin; dur=6067
+X-Origin-Response-Time: 6067,23.48.215.197
+X-Parent-Response-Time: 6371,23.15.178.132
+X-Tt-Logid: 202311081840265B9F19F55A0BBF7981D7
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a2f0ce06e257e8ac38332c94846d8406ac446cca590a779fd1999c5461691003457b2f98a18e6006fbae94257460f3d06e0ba73b2725b96e703db63a6eaea89c00dcbb300d39c79901c34b6c3af37b54c
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

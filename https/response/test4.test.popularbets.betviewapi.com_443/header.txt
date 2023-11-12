@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: test4.test.popularbets.betviewapi.com
+User-Agent: Opera/9.80 (Windows NT 5.2; U; en) Presto/2.2.15 Version/10.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:57:21 GMT
+Via: 1.1 7831c78db9d585e32d354900cc00dca6.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCpGwHQkDoEEdNQ=
+X-Amz-Cf-Id: DHIX9PkroUhhaIIo3EVUcQeolW6MwM42JtW7_w_l2FzCDZIbT7JkwQ==
+X-Amz-Cf-Pop: FRA56-P4
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: c8c4bdb3-6a1f-4d60-be2b-28e09618ba0b
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://test4.test.popularbets.betviewapi.com:443

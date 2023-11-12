@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: seller.test.grofer.io
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 303
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:18 GMT
+Server: AmazonS3
+Via: 1.1 507b5edb20d0e1a0b73c8687f53defa8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: b10iKxiICxNi7jaKQkhEU7_cGLEXH6SW0bH6Jio6piVHPZDrQSBDvA==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+

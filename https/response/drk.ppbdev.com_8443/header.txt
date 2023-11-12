@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: drk.ppbdev.com:8443
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bab7998a2199-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:45 GMT
+Expires: Tue, 07 Nov 2023 18:45:00 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zJplBGuwpXoFJtJTXpT%2F7knnjq2yeY7I79liMEYWCGx66Rk3njTUQYyRNHonKKqCdxqnmf4oiyET54e4FScUG24jKt55Jz86UzJoki9hgLOArxWDh4WKuQypHzw36oNV2Q7GGpU%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=JgEg0d.ejZw71Vh7c8mOB.gd0fuy1mnEjoTFKcOk6bc-1699382685-0-ASrPoPrGweWiTqA9Pv47cK9iqihu/bND23suxu1NxsA8s46I5RQDL3Gyxiy81H8RH+j93Ec0yz9rzrGd9o9uXSQ=; path=/; expires=Tue, 07-Nov-23 19:14:45 GMT; domain=.ppbdev.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

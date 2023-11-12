@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: kyc.test.betsson.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:37 GMT
+Server: CloudFront
+Via: 1.1 ee2048df65547b37474e8ef0b1176514.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uBvUXwQZ7bSG3Vhi5YE6oymyGt03qGXQv-uhjzYxy5APRfI7Pir8wQ==
+X-Amz-Cf-Pop: DUS51-P3
+X-Cache: Error from cloudfront
+

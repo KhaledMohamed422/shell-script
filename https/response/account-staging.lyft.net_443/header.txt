@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: account-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 22:01:22 GMT
+Server: envoy-iad
+Set-Cookie: sessId=d33b8882-2e00-41e9-8dc0-7f7e6cfcba29L1699394482; Domain=.lyft.net; Path=/; Expires=Sun, 05 Nov 2028 22:01:22 GMT; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000
+Vary: Accept-Encoding
+Via: 1.1 c8398cf797b03d1d2d2deda33fe571f0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PJ-qhNFDGFT0IJ50B-qom2bV0vz4SFMCXKyXEDQ7cwE2tEh4VlRGCg==
+X-Amz-Cf-Pop: AMS50-C1
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 23
+X-Frame-Options: DENY
+X-Request-Id: b885541f-9c3e-4a6a-999a-692c54be79c2
+
+12b9c

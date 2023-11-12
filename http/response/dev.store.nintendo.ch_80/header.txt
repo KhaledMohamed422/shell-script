@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: dev.store.nintendo.ch
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://dev.store.nintendo.ch/
+Refresh: 0;url=https://dev.store.nintendo.ch/
+Server: Vercel
+
+Redirecting...
+
+
+http://dev.store.nintendo.ch:80

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: static-hr-blog-ghost.semrush.net
+User-Agent: Mozilla/4.8 [en] (Windows NT 5.1; U)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 111
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 07:31:51 GMT
+Expires: Wed, 08 Nov 2023 07:31:51 GMT
+Server: UploadServer
+Vary: Origin
+X-Guploader-Uploadid: ABPtcPoWpi85hWkMyauIpcFvRzpgG5VFnB6uzfQfu1WMEP4GaQ9m_-TrhQftIIDQyQxo4Z5wRQagy0ovfvXNl0Y82vBe
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message></Error>
+
+
+https://static-hr-blog-ghost.semrush.net:443

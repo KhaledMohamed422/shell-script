@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: myactivity.betfair.es
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb2ffca3cae1-DUS
+Date: Tue, 07 Nov 2023 18:56:00 GMT
+Expires: Tue, 07 Nov 2023 19:56:00 GMT
+Location: https://myactivity.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oDDdRgEC8XIgClD38Lnt1Tj%2BIc5a%2FdbMTjcHj3JuYsJkaqhwJCSkyXXiptIvjjm%2FWlCMAucYlDyLm128296jso6WdZvT2%2BmgHRdWnmfEo2pTq7Eg6O6T5KQHL%2F2fVi40Dm07WdHT6w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=IRKYFaf.G1SzDXLhOqsA7tiKauI4FY425kmCkA3ozX4-1699383360-0-ARiZCJ3Vav/hIauStQ2xJzySFDVGUc8ujLewANpSVsuTBsm2Rqr6KCfnyuCvRe8+MP2gTPB9mMMEGl9NYWLF4lM=; path=/; expires=Tue, 07-Nov-23 19:26:00 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://myactivity.betfair.es:80

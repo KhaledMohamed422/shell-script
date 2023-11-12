@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: code.nintendo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 19:28:04 GMT
+Server: AmazonS3
+Via: 1.1 4b28b963946514dd2cf9a90f74a8034a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: rR81RG8_V2MQIY8e4qAUHrfSfQVa5JPgaWUVp0gQBXVnETWMf4Noig==
+X-Amz-Cf-Pop: AMS54-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3EBKEVCH95PB43G1</RequestId><HostId>tLpt9CVoevp3XmFBPf9WCY1tJzVRs3InJJ2zvd9k5ofe7IoUh2fg9c3rZ3fM/iNzziNH+Yr4NBU=</HostId></Error>
+0
+
+
+
+
+https://code.nintendo.com:443

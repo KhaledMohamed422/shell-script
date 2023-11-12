@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: beta.myplenity.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e6c37b852181-DUS
+Content-Security-Policy: default-src https: wss: ; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *; font-src 'self' data: *; connect-src 'self' *; frame-src 'self' *
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:59 GMT
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Request-Context: appId=cid-v1:b7a02810-72c5-45dd-98de-7ed0b1f1d5e6
+Server: cloudflare
+Set-Cookie: TiPMix=96.52591592387687; path=/; HttpOnly; Domain=beta.myplenity.com; Max-Age=3600; Secure; SameSite=None
+Set-Cookie: x-ms-routing-name=self; path=/; HttpOnly; Domain=beta.myplenity.com; Max-Age=3600; Secure; SameSite=None
+Set-Cookie: ASP.NET_SessionId=kzmvzqv5tpbxksy5zckaibsz; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: ARRAffinity=8e40e88517914b50a7ab096a52b642c3e56a9991ca2cba1a3cbe683bb2af633e;Path=/;HttpOnly;Secure;Domain=beta.myplenity.com
+Set-Cookie: ARRAffinitySameSite=8e40e88517914b50a7ab096a52b642c3e56a9991ca2cba1a3cbe683bb2af633e;Path=/;HttpOnly;SameSite=None;Secure;Domain=beta.myplenity.com
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

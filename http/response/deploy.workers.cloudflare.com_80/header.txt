@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: deploy.workers.cloudflare.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-N770F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Mobile Safari/537.36 EdgA/101.0.1210.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227ddd1de17215d-DUS
+Date: Tue, 07 Nov 2023 19:08:43 GMT
+Expires: Tue, 07 Nov 2023 20:08:43 GMT
+Location: https://deploy.workers.cloudflare.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://deploy.workers.cloudflare.com:80

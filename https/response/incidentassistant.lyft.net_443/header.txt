@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: incidentassistant.lyft.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:26 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9pbmNpZGVudGFzc2lzdGFudC5seWZ0Lm5ldC8iLCAic3ZjIjogImluY2lkZW50YXNzaXN0YW50Lmx5ZnQubmV0In0%3D%7C10.45.174.167%7C1699394606%7C86bf004c4182cadc0c1f0b2466d0e93c37acba5248c31a82f0e93977a8e4ae90
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

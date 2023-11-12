@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: shopping-cart-staging.lystit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) Gecko/16.0 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822cbf760c6e1539-DUS
+Date: Wed, 08 Nov 2023 09:21:48 GMT
+Expires: Wed, 08 Nov 2023 10:21:48 GMT
+Location: https://shopping-cart-staging.lystit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://shopping-cart-staging.lystit.com:80

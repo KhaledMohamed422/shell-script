@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: blog.hypr.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G925R6 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=3600,max-age=120
+Cf-Ray: 822bd91f2dd3162c-DUS
+Date: Wed, 08 Nov 2023 06:44:33 GMT
+Location: https://blog.hypr.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xl13T5%2FhJ1Pu6WJxolE6RE%2BpEJ8SGPyNgT5yoe3ysNK0Ysv68XWciBT4vJ0RRC0hKjtTDhqzeoKPm4bihkqxCWc%2FOgVdmMNacdnCRkC7AHbLHXbzRhHAGUUp5rdZ19M%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=IR0sZKz_Z_fuFrDVMhCR4lt7vQqyMtAl_i.4H25lq0M-1699425873-0-AV5xLm9aXP/EH+2Qm7anRix3HZDk2O4Sh5PsFBYu2/yGCYQJ8Ts2OvGokGifQShXu8hWVC7QK94TImAjDjZJo6I=; path=/; expires=Wed, 08-Nov-23 07:14:33 GMT; domain=.blog.hypr.com; HttpOnly
+Set-Cookie: __cfruid=400dd0041c7049367267fd48902284c3a8d6a628-1699425873; path=/; domain=.blog.hypr.com; HttpOnly
+Vary: Accept-Encoding
+X-Hs-Https-Only: worker
+Content-Length: 0
+
+
+
+
+http://blog.hypr.com:80

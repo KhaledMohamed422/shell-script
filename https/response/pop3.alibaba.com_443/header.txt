@@ -1,0 +1,66 @@
+GET / HTTP/1.1
+Host: pop3.alibaba.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:17:11 GMT
+Eagleid: 2166c38616994386317072531e39f9
+S_group: tao-session
+S_ip: 457079564a7551314673482f6f6b6d4e
+S_status: STATUS_NORMAL
+S_tag: 2199023255812|136314880^|^^
+S_tid: 2166c38616994386317072531e39f9
+S_ucode: CN:CENTER
+S_v: 4.0.3.1
+Server: Tengine
+Server-Timing: rt;dur=0.024,eagleid;desc=2166c38616994386317072531e39f9
+Set-Cookie: x5secdata=xdac472959eeb8cdef779587fdf1ab4f3994f39aa5af7e257a1699438631c-213664603a-1093394997abaad2aaababa_default__bx__pop3.alibaba.com%3A443; Max-Age=20; Expires=Wed, 08-Nov-2023 10:17:31 GMT; Domain=alibaba.com; Path=/;SameSite=None;Secure
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Ufe-Result: A6
+Vary: Accept-Encoding
+
+cac
+
+
+
+<a id="a-link"></a>
+<script>
+  localStorage.x5referer = "http://pop3.alibaba.com/";	
+  var link = document.getElementById("a-link");
+  var isMobile = navigator.userAgent.match(/.*(iPhone|iPad|Android|ios|SymbianOS|Windows Phone).*/i);
+  var host = isMobile ? "https://login.m.taobao.com/login.htm?from=sm&ttid=h5@iframe&redirectURL=" : "https://login.taobao.com/member/login.jhtml?redirectURL=";
+  try {
+	var hostValue = window.location.host;
+	var parts = hostValue && hostValue.split('.');
+	var exp = new Date();
+	var maxAge = -100;
+	exp.setTime(exp.getTime() + maxAge);
+	var cookie = 'x5secdata=;maxAge=' + maxAge + ';expires=' + exp.toUTCString() + ';path=/;domain=.' + parts.slice(-2).join('.') + ';';
+	document.cookie = cookie;
+	document.cookie = cookie + 'Secure;SameSite=None';
+  } catch(e) {}
+  link.href = host + "https%3a%2f%2fpop3.alibaba.com:443%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3D779587fdf1ab4f3994f39aa5af7e257a______52a6e73a15e56c282f4a810f0de9bcd1___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c99768b1cf5ae701c64b6c7bf14b7d3e103ee395861147cd0e7dfdbfa2751ed6dd13483cf0ab4cb3c93900d38d7e0fb8cec637127ba1d5cee61747535d9595c532c7d68b8b7690bfa0932b9438e67f7ba058e6bb41bc95b1295a62d49acb740e89cef392c40716410df492bafa7e7e666a42d3274f7e9153711cf1ed7f969dea0483c0cc18eeb1d58f400fa5aca6b39d9df3a296c83cdac646ac0f8d9852c858c&uuid=779587fdf1ab4f3994f39aa5af7e257a";
+  link.click();
+ window._config_ = {
+   "action": "login",
+   "url": "https://login.taobao.com/member/login.jhtml?style=mini&newMini2=true&from=sm&full_redirect=false&redirectURL=https%3a%2f%2fpop3.alibaba.com:443%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D779587fdf1ab4f3994f39aa5af7e257a%26_lgt_%3D779587fdf1ab4f3994f39aa5af7e257a______52a6e73a15e56c282f4a810f0de9bcd1___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c99768b1cf5ae701c64b6c7bf14b7d3e103ee395861147cd0e7dfdbfa2751ed6dd13483cf0ab4cb3c93900d38d7e0fb8cec637127ba1d5cee61747535d9595c532c7d68b8b7690bfa0932b9438e67f7ba058e6bb41bc95b1295a62d49acb740e89cef392c40716410df492bafa7e7e666a42d3274f7e9153711cf1ed7f969dea0483c0cc18eeb1d58f400fa5aca6b39d9df3a296c83cdac646ac0f8d9852c858c",
+   "h5url": "https://login.m.taobao.com/login.htm?from=sm&ttid=h5@iframe&redirectURL=https%3a%2f%2fpop3.alibaba.com:443%2F_____tmd_____%2Fpage%2Fclose_iframe_page%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26uuid%3D779587fdf1ab4f3994f39aa5af7e257a%26_lgt_%3D779587fdf1ab4f3994f39aa5af7e257a______52a6e73a15e56c282f4a810f0de9bcd1___eaebc79cac1eb5d2f7d8b4595e00ec73344a42d5a0b8cf56539c823cd24ac06c99768b1cf5ae701c64b6c7bf14b7d3e103ee395861147cd0e7dfdbfa2751ed6dd13483cf0ab4cb3c93900d38d7e0fb8cec637127ba1d5cee61747535d9595c532c7d68b8b7690bfa0932b9438e67f7ba058e6bb41bc95b1295a62d49acb740e89cef392c40716410df492bafa7e7e666a42d3274f7e9153711cf1ed7f969dea0483c0cc18eeb1d58f400fa5aca6b39d9df3a296c83cdac646ac0f8d9852c858c",
+   "dialogSize": {"width": "", "height": ""}
+};
+</script>
+<!--rgv587_flag:sm-->
+0
+
+
+
+
+https://pop3.alibaba.com:443

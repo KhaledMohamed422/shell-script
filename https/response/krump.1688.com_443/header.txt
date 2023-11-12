@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: krump.1688.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Internal Server Error
+Connection: close
+Content-Length: 215
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 09:59:09 GMT
+Eagleeye-Traceid: 215042ff16994375497193769e8e49
+Server: Tengine/Aserver
+
+{"timestamp":1699437549726,"path":"/","status":500,"error":"Internal Server Error","message":"RSOCKET-900400: Service not found after retries. Service not found ginkgo:com.1688#invoke:krump:","requestId":"579ff0d3"}
+
+
+https://krump.1688.com:443

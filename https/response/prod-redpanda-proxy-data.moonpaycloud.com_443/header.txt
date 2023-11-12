@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: prod-redpanda-proxy-data.moonpaycloud.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 36
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 10:17:43 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=743034750744-oigkc9ujmh0k5g8qkhefusa3c6pgnv16.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/743034750744-oigkc9ujmh0k5g8qkhefusa3c6pgnv16.apps.googleusercontent.com:handleRedirect&code_challenge=DxTLnYrv34SNu2Ird0uwRiQTG4i369PQTlWBYVHsvYw&code_challenge_method=S256&cred_ref=true&state=AZFKIDEEGHB5eTddcJSLvHSlcQ8ET-i_09nosG9mbWhe2b0Iv7okBjPjmQUJ6VTVeGnqae-caNnnDC_53kf6K_FV8YvD2s-TShHwkqRoPi0oyTUJLoYtYNy-IsDtaaZuSUpRgYhxWj9BSgyGOxhYN6uknX6_s92_gsACSKQPcGGBwo9vIAAvA1L0CSKqtqPCY4yh_adw39NKG--uGsN6qj-PY8YAz6dDFqu44NgV_AMBeFn2Ij5lpSp4myv6bCtq0Zp-_-YVIz45YVocOIdsXWN5qRL5JP-89iiCS_lh6bvBRCNCrwQ6QcRQygJrADfLprjKelZzN8CCxhNP0cLaZMiZUKd4m8-kypiJxMLIN5YugoRzrBgtYlM8w7EIx3oUkbi2MXgt8tNOs7ryolcuBZGeSgzx4y3_9LtiDQnp1MsWy_V6pY6jCeBxl2p0RT_tdKPzx7I2XA8pY8syOMSetyFpd6dGD1A-_cZZp0nmQ2QzStDV-9BR7iFWE0Bog5jGHIL80BPoEnWoUVcVLLzsi6E6Ho87cdwxER7EvcZykdk2ri2-qEHOWbOt0mw43yEbWbz51x0vzRF8YYRlIBMbdSgK38_Jc43ggGwgJoF5_pM6geC2gclem2Njcgzfvk5MIoIpvTbK7x17rQuxK09bn8ZcH358r7UGKR5A84RhRUcRB6cusxfA2xHJcmpmlbzjBY2GeiBUqrExoLtb7Ei8iZwp2PY0t4sVeOKKZ357Q_y3PdaLCBAH9eyhJrn5qMz-_Qb8G2toRYbrkhCxMO5JjbK72UkZ3zDFSObEqePh5NdismnVuG2X0k2mHdPG0dqFYigxh35uCDoqHRChQANuMC4br1zx_MBeQRliP7B_2clXjzL4myWqoluzEHg0SgdwUItHmqn2EmthWDfq8lDIaZLJtsTN1hi5l7DOeY3siPkBy1XNv1mK2CacCSuipmI-Ta_imSLvEUQJ4Smiszvxz93AirG1SW87yDHNwlV3gZTxMnmVICKmK2bFisJl5ZAqesKvG5ZrstvlDEwzhzc2LV-tPfvrdKAqLqndVdVRhR6cQW1bDDZIDTEpGumqiEYJtC1dv1NAnQoyLoLJnMJcYqCiZf_fGoyZ1zM
+Set-Cookie: GCP_IAP_XSRF_NONCE_o0ldg5je3a6xH5ppLBPztg=1; expires=Wed, 08-Nov-2023 10:27:43 GMT; path=/; Secure; HttpOnly; SameSite=none
+Via: 1.1 google
+X-Goog-Iap-Generated-Response: true
+
+Invalid IAP credentials: empty token
+
+
+https://prod-redpanda-proxy-data.moonpaycloud.com:443

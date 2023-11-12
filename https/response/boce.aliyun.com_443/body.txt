@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>阿里云网站运维检测平台</title>
+    <link rel="shortcut icon" href="https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico"
+          type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="拨测工具, 免费拨测, 域名，DNS，域名检测，域名诊断，DNS检测，DNS诊断, 阿里云拨测, 拨测, 测速, 测网速, 网站测速, 网速测试, ping检测,域名污染,域名被墙,dns查询,站长工具"/>
+    <meta name="description"
+          content="一站式的网站、网络运维工具，可自助诊断域名、dns、网站、备案等建站中常见问题；提供强大的网络拨测工具，通过全球各地探测点对服务做http、ping、dns、路由等拨测，检测网络质量分析服务故障；免费支持查询全球IP地址地理位置，准确靠谱。  阿里云拨测,免费拨测拨测工具，未来本平台还将为IT从业者提供更多效率工具，敬请期待"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no"/>
+
+    <meta name="data-spm" content="a2cle">
+
+    <script language="javascript">
+        var nav_tab_index = -1;
+    </script>
+    <!-- 基础资源 -->
+
+            <script type="text/javascript">
+            var url = window.location.href;
+            if (url.indexOf("https") < 0) {
+                url = url.replace("http:", "https:");
+                window.location.replace(url);
+            }
+
+        </script>
+                        <meta name="nav-config" content="topbar=channel,footer=default">
+        <!-- 展示配置/要和data-role保持一致 -->
+        <link rel="stylesheet" href="//g.alicdn.com/aliyun/nav-loader/css/index.css">
+        <script src="//g.alicdn.com/aliyun/nav-loader/js/index.js"></script>
+        <link rel="stylesheet" href="//gw.alipayobjects.com/os/lib/alicloudfe/components/1.3.33/dist/??xconsole.css"/>
+
+    <script>
+        var language = "zh"
+        var ONE_CONSOLE_TOOL = {
+            extend: function (o, n) {
+                if (!o) o = {};
+                if (!n) n = {};
+                for (var p in n) {
+                    o[p] = n[p];
+                }
+                return o;
+            }
+        };
+        window.__public_path__ = '//g.alicdn.com/cloudmonitor/site-probe/0.1.30/';
+    </script>
+    <style>
+        #app {
+            min-height: 80px;
+            overflow: visible;
+            background-image: url('https://img.alicdn.com/imgextra/i4/O1CN016I1IcU1eHyRKo96oG_!!6000000003847-2-tps-2880-1118.png');
+        }
+
+        #app .loading {
+            font-size: 14px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+                </style>
+
+    <style>
+        .content {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .contentTitle {
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 30px;
+            height: 80px;
+            line-height: 80px;
+        }
+
+
+        .containerTitle {
+            width: 100%;
+            display: flex;
+            display: inline-flex;
+            background-color: rgb(247, 247, 247);
+            height: 56px;
+        }
+
+        .itemTitle {
+            width: 33.3%;
+            text-align: center;
+            line-height: 56px;
+            font-size: 14px;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 240px;
+            display: flex;
+            display: inline-flex;
+            padding-top: 20px;
+        }
+
+        .item {
+            width: 100%;
+            font-size: 2rem;
+            border: none;
+            border-left: 0.5px solid #d9d9d9;
+            padding: 20px 0 32px;
+            text-align: left;
+            position: relative;
+            padding-bottom: 80px
+        }
+
+
+        .item-last {
+            border-right: 1px solid #d9d9d9;
+        }
+
+        .itemTip {
+            font-weight: 500;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #000;
+            margin-bottom: 12px;
+        }
+
+        .item1 {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 12px;
+            color: #5a5a5a;
+        }
+
+        .itemNum {
+            font-weight: 400;
+            font-size: 14px;
+            padding-left: 20px;
+            position: absolute;
+            bottom: 50px;
+        }
+
+        .buttonCurrent {
+            position: absolute;
+            bottom: 2px;
+            width: 100%;
+            height: 42px;
+            display: flex;
+            display: inline-flex;
+        }
+
+        .buttonCurrent1 {
+            cursor: pointer;
+            width: 50%;
+            border: 0.5px solid #c0c6cc;
+            border-right: 0;
+            color: #ff6a00;
+            height: 100%;
+            font-size: 12px;
+            display: inline-block;
+            text-align: center;
+            line-height: 42px;
+        }
+
+        .buttonCurrent2 {
+            cursor: pointer;
+            width: 50%;
+            border: 0.5px solid #c0c6cc;
+            color: #ff6a00;
+            border-color: #ff6a00;
+            height: 100%;
+            font-size: 12px;
+            display: inline-block;
+            text-align: center;
+            line-height: 42px;
+        }
+
+        .buttonCurrent1:hover {
+            border: 0.5px solid #c0c6cc;
+            color: #333;
+        }
+
+        #d22 {
+            display: none;
+        }
+
+        #d23 {
+            display: none;
+        }
+
+        .but {
+            position: absolute;
+            top: -3px;
+            right: 0;
+        }
+
+        .cycle {
+            display: inline-block;
+            width: 9px;
+            height: 10px;
+            border-radius: 5px;
+            background: #B3AEAE;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .cycle:hover {
+            background: black;
+        }
+
+        #cycle1 {
+            background: black
+        }
+
+        #app {
+            height: 500px;
+        }
+
+        .zijian-describe {
+            text-align: center;
+            margin-bottom: 44px;
+            font-family: PingFangSC;
+        }
+
+        .zijian-describe .zijian-describe-inner {
+            padding-top: 130px;
+        }
+
+        .zijian-describe .title {
+            font-weight: 400;
+            font-size: 30px;
+            color: #5a5a5a;
+            margin-bottom: 10px;
+        }
+
+        .zijian-describe .des {
+            font-weight: 300;
+            font-size: 16px;
+            color: #ff6a00;
+            margin-bottom: 10px;
+        }
+
+        .zijian-describe .des a {
+            color: #ff6a00;
+        }
+
+        .zijian-describe .des-more {
+            font-weight: 300;
+            font-size: 14px;
+            color: #848484;
+        }
+        .product-name {
+            font-size: 14px;
+            width: 100%;
+            background-color: rgb(247, 247, 247);
+            height: 56px;
+            line-height: 56px;
+            text-align: center;
+            position: absolute;
+            top:-56px;
+        }
+        .isp-and-city-select {
+            display: block;
+        }
+
+        .product-dl {
+        }
+
+                                                            
+
+        @media screen and (max-width: 500px) {
+            .container {
+                width: 100%;
+                display:  block;
+            }
+            .container .itemNum {
+                position: static;
+                height: 30px;
+                margin: 10px 0;
+            }
+            .container .product-name {
+                top:-2px;
+            }
+            .container .buttonCurrent {
+                position: static;
+                margin-bottom: 10px;
+                display: flex !important;
+            }
+            .container .item1 {
+                line-height: 24px;
+                margin-top: 20px;
+            }
+            .container .item {
+                padding: 20px  0 0px;
+                border-left: 0;
+                padding-bottom: 2px
+            }
+            .container .item-last {
+                border-right: 0;
+            }
+
+            .content {
+                width: 90%;
+                margin-left: 5%;
+            }
+            .content  .product-dl .item1 {
+                min-height: 128px;
+            }
+
+            .content  .but {
+                position: absolute;
+                bottom: 57px;
+                right: 0;
+            }
+
+        }
+    </style>
+    <script>
+        var ALIYUN_CONSOLE_MESSAGE = {};
+        var ALIYUN_CONSOLE_CUSTOM_MESSAGE = {};
+
+    </script>
+    <script src="//lang.alicdn.com/mcms/cms-probe-site/0.0.7/mcms_cms-probe-site.json"></script>
+    <script>
+        var aliyunConsoleI18nMessage = {};
+        aliyunConsoleI18nMessage = ONE_CONSOLE_TOOL.extend(window["cms-probe-site"]["zh_CN"], aliyunConsoleI18nMessage);
+        var ALIYUN_CONSOLE_I18N_MESSAGE = aliyunConsoleI18nMessage;
+    </script>
+
+    <script>
+        var ALIYUN_CONSOLE_GLOBAL = {};
+        var ALIYUN_CONSOLE_CONFIG = {
+            LANG: "zh",
+            LOCALE: "zh-CN",
+            portalType: 'one',
+            STATIC_API: {},
+            SEC_TOKEN: 'mock-sec-token',
+            CHANNEL_FEATURE_STATUS: {},
+            CHANNEL_LINKS: {},
+            REGIONS: [],
+            FEATURE_STATUS: {},
+            regions: [],
+            MAIN_ACCOUNT_PK: '',
+            CURRENT_PK: '',
+            isZijianApp: true,
+        };
+        var RISK_INFO = {
+            GETUA: function () {
+                return 'mock-collina-ua'
+            },
+            UMID: 'mock-umid',
+        };
+        const dynamicRegionList = [{RegionId: 'cn-hangzhou'}];
+        window.postMessage(
+                {
+                    type: 'TOGGLE_REGIONBAR_STATUS',
+                    payload: {regionList: dynamicRegionList},
+                },
+                location,
+        );
+    </script>
+</head>
+<body data-spm="14465449" id="zijian"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0b87b7b216994367157881467e2bee&asid=AQAAAACrWEtlX9sYMAAAAABSwLM6+pNWHg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+<div data-role-topbar="channel"></div>
+    <!--头部标记，值需要和meta标签里的保持一致 -->
+    <script>
+    window.configSetting = {
+        hideNavLinks: false,
+    }
+</script>
+<script>
+    let regionList = [];
+
+    var ALIYUN_CONSOLE_GLOBAL = {};
+
+    window.__apiInspector = {
+        config: {
+            trackInfo: {
+                product: 'Vpc',
+            },
+        },
+    }
+
+</script>
+<script>
+    let btArr = ['d21', 'd22', 'd23']
+    let colorArr = ['cycle1', 'cycle2', 'cycle3']
+    let i = 0;
+
+    let timer;
+
+    function playTime() {
+
+        timer = setInterval(() => {
+
+            if (i > 2) {
+                i = 0;
+            }
+            getCheck(i)
+
+            i++;
+        }, 3000)
+    }
+
+    playTime()
+
+    function clearTime() {
+        clearInterval(timer)
+    }
+
+    function getCheck(currentI) {
+        i = currentI;
+        document.getElementById('d21').style.display = 'none';
+        document.getElementById('d22').style.display = 'none';
+        document.getElementById('d23').style.display = 'none';
+
+        document.getElementById('cycle1').style.background = '#B3AEAE';
+        document.getElementById('cycle2').style.background = '#B3AEAE';
+        document.getElementById('cycle3').style.background = '#B3AEAE';
+
+        document.getElementById(btArr[currentI]).style.display = 'inline-block';
+        document.getElementById(colorArr[currentI]).style.background = 'black';
+    }
+
+
+</script>
+<div id="app">
+    <div class="zijian-describe">
+        <div class="zijian-describe-inner">
+            <div class="title">
+                网络拨测工具
+            </div>
+            <div class="des">
+                <a href="https://www.aliyun.com/product/jiankong" target="_blank">
+                    阿里云云监控
+                </a>
+                •
+                <a href="https://www.aliyun.com/activity/daily/naam" target="_blank">
+                    网络分析与监控
+                </a>
+            </div>
+            <div class="des-more">
+                全球200+网络拨测节点，模拟用户访问域名/IP，帮助发现网络、站点可用性问题。
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="content" id="content">
+    <div class="isp-and-city-select">
+
+
+    </div>
+    <div class="contentTitle">
+        热销产品推荐
+    </div>
+    <div class="container">
+                                            <div class="item" onmouseover="clearTime()" onmouseout="playTime()" style="position: relative;">
+                    <div class="product-name">
+                        阿里云DNS
+                    </div>
+                    <div class="product-dl">
+                        <div class="but">
+                            <div id="cycle1" class="cycle" onclick=" getCheck(0)"></div>
+                            <div id="cycle2" class="cycle" onclick=" getCheck(1)"></div>
+                            <div id="cycle3" class="cycle" onclick=" getCheck(2)"></div>
+                        </div>
+                                                    <div id="d21">
+
+                                <div class="itemTip">
+                                    云解析DNS
+                                </div>
+                                <div class="item1">
+                                    一种安全、快速、稳定、可靠的权威DNS解析管理服务，企业上网必备。它能够帮助企业和开发者将易于管理识别的域名转换为计算机用于互连通信的数字IP地址，从而将用户的访问路由到相应的网站或应用服务器。
+                                </div>
+                                <div class="itemNum">
+                                    <span style="color:#ff6a00 ;">
+                                        ¥40.8
+                                    </span>
+                                    /年起
+                                </div>
+                                <div class="buttonCurrent">
+                                    <div class="buttonCurrent1" onclick='window.open("https://www.aliyun.com/ntms/wanwang/domain/dns")'>
+                                        查看详情
+                                    </div>
+                                    <div class="buttonCurrent2"
+                                         onclick='window.open("https://common-buy.aliyun.com/?spm=5176.71615.J_5585722290.3.36987d0af9qQEW&commodityCode=alidns_pre&request=%7B%22version%22%3A%22version_personal%22%2C%22dns_security%22%3A%22no%22%2C%22domain_numbers%22%3A1%2C%22ord_time%22%3A%22%5B1%2C%5C%22Year%5C%22%5D%22%7D&aly_as=IZACF7qV9#/buy")'>
+                                        立即购买
+                                    </div>
+
+                                </div>
+                            </div>
+                                                    <div id="d22">
+
+                                <div class="itemTip">
+                                    全局流量管理
+                                </div>
+                                <div class="item1">
+                                    通过DNS实现应用服务的就近访问接入、多地址负载均摊，同时根据健康检查进行DNS Failover，实现应用服务的同城多活故障隔离和异地容灾。适用于同城多活、两地三中心、运营商多线路切换、不同区域访问加速等场景。
+                                </div>
+                                <div class="itemNum">
+                                    <span style="color:#ff6a00 ;">
+                                        ¥128
+                                    </span>
+                                    /月起
+                                </div>
+                                <div class="buttonCurrent">
+                                    <div class="buttonCurrent1" onclick='window.open("https://www.aliyun.com/product/alidnsgtm")'>
+                                        查看详情
+                                    </div>
+                                    <div class="buttonCurrent2"
+                                         onclick='window.open("https://common-buy.aliyun.com/?spm=5176.cnalidnsgtm.0.0.6054136coat0Le&commodityCode=dns_gtm_public_cn&request=%7B%22ord_time%22:%221:Year%22,%22order_num%22:1,%22PaymentMode%22:%22subscription%22,%22PackageEdition%22:%22standard%22%7D")'>
+                                        立即购买
+                                    </div>
+
+                                </div>
+                            </div>
+                                                    <div id="d23">
+
+                                <div class="itemTip">
+                                    公共DNS
+                                </div>
+                                <div class="item1">
+                                    递归解析服务。适用于APP、IOT等终端接入，防APP劫持和精准调度场景。提供SDK、API的接入方式，支持DoH/DoT/HTTP/HTTPS解析。全球节点，每月提供1000万次的免费HTTPDNS解析。
+                                </div>
+                                <div class="itemNum">
+                                    <span style="color:#ff6a00 ;">
+                                        ¥0.04
+                                    </span>
+                                    /万次
+                                </div>
+                                <div class="buttonCurrent">
+                                    <div class="buttonCurrent1" onclick='window.open("https://www.aliyun.com/activity/dns/pubdns_launch")'>
+                                        查看详情
+                                    </div>
+                                    <div class="buttonCurrent2"
+                                         onclick='window.open("https://dns.console.aliyun.com/#/pdns/dashboard")'>
+                                        立即购买
+                                    </div>
+
+                                </div>
+                            </div>
+                                            </div>
+
+
+                </div>
+            
+                    
+                                    
+                    <div class="item">
+                        <div class="product-name">
+                            云监控
+                        </div>
+                        <div class="itemTip">
+                            网络分析与监控
+                        </div>
+                        <div class="item1">
+                            通过分布在全球的200多个网络拨测节点，对域名或IP发起网络拨测请求，掌握全球不同省市运营商网络到您服务的可达性、时延等情况。支持创建http(s)/dns/ping/tcp/udp等定时拨测任务，可从地域运营商等维度分析拨测结果数据，出现异常时可配置告警提醒。
+                        </div>
+                        <div class="itemNum">
+                                                            <span style="color:#ff6a00 ;">
+                                    ¥10
+                                </span>
+                                /万次起
+                                                    </div>
+                        <div class="buttonCurrent">
+                            <div class="buttonCurrent1" onclick='window.open("https://www.aliyun.com/activity/daily/naam")'>
+                                查看详情
+                            </div>
+                            <div class="buttonCurrent2"
+                                 onclick='window.open("https://common-buy.aliyun.com/?commodityCode=cms_naam_public_cn&from_biz_channel=boce")'>
+                                立即购买
+                            </div>
+                        </div>
+                    </div>
+
+                            
+                    
+                                                        
+                    <div class="item item-last">
+                        <div class="product-name">
+                            云网管
+                        </div>
+                        <div class="itemTip">
+                            云网管CMN
+                        </div>
+                        <div class="item1">
+                            基于阿里云多年网络基础运维经验打造的云上智能运维Saas服务，提供从网络规划、建设交付到运维的网络全生命周期能力。支持对不同设备厂商各种型号网络设备、服务器、智能终端的统一监管控，帮助提高运维效率及提高IT基础设施稳定性。
+                        </div>
+                        <div class="itemNum">
+                                                    </div>
+                        <div class="buttonCurrent">
+                            <div class="buttonCurrent1" onclick='window.open("https://www.aliyun.com/product/developerservices/cmn")'>
+                                查看详情
+                            </div>
+                            <div class="buttonCurrent2"
+                                 onclick='window.open("https://common-buy.aliyun.com/?&commodityCode=cmn_aliyun_public_cn")'>
+                                立即购买
+                            </div>
+                        </div>
+                    </div>
+
+                            
+        
+    </div>
+    <link rel="stylesheet" href="//g.alicdn.com/cloudmonitor/site-probe/0.1.30/index.css">
+    <link rel="stylesheet"
+          href="//g.alicdn.com/hmod??ace-2021-yunxiaobao-guide/0.0.10/index.css,ace-common-aliyun-index-title/0.0.4/index.css,ace-common-row-aliyun-free-trial/0.0.4/index.css,ace-common-row-aliyun-standard/0.0.8/index.css,ace-common-row-basic-product-datas/0.0.6/index.css,ace-common-row-entry-alicloud-service/0.0.5/index.css,ace-common-row-industry-solutions/0.0.8/index.css,ace-dpl-home-map/0.0.10/index.css,ace-dpl-home-new-banner/0.0.16/index.css,ace-dpl-home-product-category/0.0.12/index.css,ace-dpl-home-product-category/0.0.12/index.css,ace-dpl-home-row-best-practices/0.0.9/index.css,ace-homepage-2020-hmod-footer/0.0.79/index.css,ace-homepage-2020-topbar/0.0.741/index.css,ace-index-card-product-trial-service/0.0.4/index.css">
+    <script src="//g.alicdn.com/cloudmonitor/site-probe/0.1.30/index.js"></script>
+        <!--尾部标记，值要和meta标签里的保持一致 -->
+    <div style="height: 30px;margin-top: 100px">
+
+    </div>
+</div>
+<div data-role-footer="default"></div>
+
+</body>
+</html>
+0
+
+
+
+
+https://boce.aliyun.com:443

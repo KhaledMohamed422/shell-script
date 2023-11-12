@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: staging1.netp.duckduckgo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A217F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:37 GMT
+Server: nginx
+
+{"message":"not found"}
+
+
+https://staging1.netp.duckduckgo.com:443

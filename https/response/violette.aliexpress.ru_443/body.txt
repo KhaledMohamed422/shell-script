@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script charset="utf-8" src="https://g.alicdn.com/mtb/lib-flexible/0.3.2/flexible.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/code/lib/qrcodejs/1.0.0/qrcode.min.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/mtb/lib-windvane/3.0.6/windvane.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/mtb/lib-mtop/2.6.3/mtop.js" crossorigin></script>
+    <script charset="utf-8" src="//g.alicdn.com/secdev/entry/index.js" crossorigin></script>
+    <link rel="stylesheet" href="https://g.alicdn.com/bsop-static/sufei-punish/0.1.47/build/main.css">
+</head>
+
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","userid=&aplus&ali_beacon_id=&ali_apache_id=&ali_apache_track=&ali_apache_tracktmp=&dmtrack_c={}&hn=aeshop%2dcoresi10992aae253811e80e33460fca1cf1ce%2dg6zvn&asid=AQAAAADlYktlgycHcgAAAAB6RUnVJnKeRg==&sidx=C+mp3NN/WzIZm4MaPGutCcokj9S+2fs8tI4kC74YtWfviin1CBJrGaH9/AiA4VZX6EiIo7tpb3VQ4T+vlZpFz3OiTHrchiSmPwqFMBpwdEM5j4lr0v3oj3pwslfypplsAFceAu8l52T4oi5tuB57EPGBk89VTOMxbZ/saAKH7n8=",id="beacon-aplus",src="//assets.alicdn.com/g/alilog/??aplus_plugin_aefront/index.js,mlog/aplus_v2.js")
+</script><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=211675cb16994393333552604e1b9a&asid=AQAAAADlYktl/SReIAAAAAA7gvvI19iIcA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <punish-component />
+    <script>
+        window._config_ = {
+            "renderTo": "#nocaptcha",
+            "NCTOKENSTR": "d7e24b29a360a15ac962a3ec3f1e16dd",
+            "action": "captcha",
+            "HOST": "violette.aliexpress.ru:443",
+            "PATH": "/home.htm",
+            "FORMACTIOIN": "/home.htm/_____tmd_____/verify/",
+            "BXSTEP": "100",
+            "SECDATA": "xd0c449efd26581e22d7e24b29a360a15ac962a3ec3f1e16dd1699439333a-785182023a1730906274abaac2aaa__bx__violette.aliexpress.ru%3A443%2Fhome.htm",
+            "NCAPPKEY": "X82Y__21b9e0bd5d61532cba4f741e5be26e8d",
+      		"isUpgrade": "false",
+            "customImage": "https://img.alicdn.com/tfs/TB1e9RZrmR26e4jSZFEXXbwuXXa-680-495.png",
+            "logo": "https://img.alicdn.com/tfs/TB1arM9tk9l0K4jSZFKXXXFjpXa-420-142.jpg",
+            "logoLink": "https://aliexpress.com/",
+      		"copyright": "©️ 2010-2020 AliExpress.com.",
+            "noCaptchaCallback": "",
+            "language": "",
+            "languageConfig": "",
+            "url":"/home.htm/_____tmd_____/punish?x5secdata=xd0c449efd26581e22d7e24b29a360a15ac962a3ec3f1e16dd1699439333a-785182023a1730906274abaac2aaa__bx__violette.aliexpress.ru%3A443%2Fhome.htm",	
+            "languageConfigJson": "",
+            "noCaptchaLanguage": "",
+      		"js": "",
+      		"css": "",
+      		"crossSite": "0",
+      		"qrcode": "1-JLKaNgoVrJYqPsPx4W3Q|ZUti5Q|ZyuIog_0"
+        };
+    </script>
+<!--rgv587_flag:sm-->
+  	<script>
+      	var ncLanguage = location.search.match(/ncLanguage=([^&]+)/);
+      	ncLanguage = ncLanguage && ncLanguage[1];
+      	if (ncLanguage) {
+      		window._config_.noCaptchaLanguage = ncLanguage;
+      	}
+      	var custom_config = {"templateName":"AE默认模板"};
+      	var templateName = "";
+      	if (typeof custom_config === "object") {
+      		templateName = custom_config["templateName"] || "";
+      		window._custom_config_ = window._custom_config_ || {};
+      		for (var key in custom_config) {
+      			window._custom_config_[key] = custom_config[key];
+      		}
+      	}
+    </script>
+</body>
+<script charset="utf-8" src="//g.alicdn.com/bsop-static/sufei-punish/0.1.47/build/punishpage.min.js" crossorigin></script>
+<script charset="utf-8" type="text/javascript"
+    src="https://g.alicdn.com/dt/tracker/4.0.0/??tracker.Tracker.js,tracker.interfaceTrackerPlugin.js,tracker.performanceTrackerPlugin.js"
+    crossorigin></script>
+<script type="text/javascript">
+    var tracker = new window.Tracker({
+        uidResolver: function () {
+            // 具体获取 userId 逻辑自行实现
+            return "d7e24b29a360a15ac962a3ec3f1e16dd__1.1.1";
+        }, pid: 'punish-page', plugins: [[window.interfaceTrackerPlugin], [window.performanceTrackerPlugin, { sampleRate: 1 }]]
+    });
+    tracker.install();
+  	var urlAction = window.location.href.match(/action=([^&]+)/);
+  	urlAction = urlAction ? urlAction[1] : window._config_.action;
+    tracker.log({
+        code: 11,  // 系统自动生成，请勿修改 100%
+        c1: 'd7e24b29a360a15ac962a3ec3f1e16dd',
+  		c2: '0.1.47',
+        msg: '新版处置模板 ' + templateName + ' ' + urlAction,  // 异常信息，推荐传入
+        sampleRate: 1.00,  // 目前采样率为 100.00%
+    });
+</script>
+
+</html>
+0
+
+
+
+
+https://violette.aliexpress.ru:443

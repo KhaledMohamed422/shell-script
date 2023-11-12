@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: formula1.api.semrush.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:35.0) Gecko/20100101 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 21
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 07:18:19 GMT
+Server: nginx
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Request-Id: c2d252475994fd20d11a5b5c15058249
+
+query type not found
+
+
+
+https://formula1.api.semrush.com:443

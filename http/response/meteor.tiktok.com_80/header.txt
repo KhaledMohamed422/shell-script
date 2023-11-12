@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: meteor.tiktok.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.3) Gecko/20100406 Firefox/3.6.3 (Swiftfox)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:37 GMT
+Location: https://meteor.tiktok.com/
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=290, origin; dur=2
+X-Origin-Response-Time: 2,23.218.219.5
+X-Parent-Response-Time: 286,23.55.109.148
+X-Tt-Logid: 20231108184036A9967052D332C3B232CE
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a517fef2c97c1ebe51912ef62cc20573b4db068a0ced32aaa39d2236d67c4a6233fe6d43816b091389b6ee085f28189979648fed3ef56c19791538bef35f46c50
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

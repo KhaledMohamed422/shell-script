@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: usvpn.shein.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Server: BigIP
+Set-Cookie: LastMRH_Session=5d0c570c;path=/;secure
+Set-Cookie: MRHSession=d62a15f1d1484519f6ccf9695d0c570c;path=/;secure
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure
+Content-Length: 0
+
+
+
+
+https://usvpn.shein.com:443

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: discovery-ds-public.grab.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_8_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 189
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:20:27 GMT
+Server: AmazonS3
+Via: 1.1 916d412afdd39cf0d9689036f0f43bb4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kuWULj9H2ah-nT6SQinI9SzTD21B4ZfS_wkv_hXJa6ytO2g5OgO86g==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>87E0J2TK4EDG3HCP</RequestId><HostId>1uli7gdNoFrbSsHzVJAGEw7cAbUGd2dQGPWCuMjCBOyFZhf3MPWKSYqm/L05DXMSRO/6QHP8J4M=</HostId></Error>
+0
+
+
+
+
+https://discovery-ds-public.grab.com:443

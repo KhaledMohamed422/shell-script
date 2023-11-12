@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: www.engage.aries-prodreplica.marriott.com
+User-Agent: Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; DEVICE INFO) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Akamai-Grn: 0.3a284317.1699378234.235e7bc
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:34 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:34 GMT
+Location: /default.mi
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: nginx
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=157
+Server-Timing: origin; dur=24
+Server-Timing: ak_p; desc="1699378234283_390277178_37087164_18086_22207_5_35_-";dur=1
+Set-Cookie: MI_SITE=perf1;path=/;SameSite=None;Secure
+Set-Cookie: x-mi-tag=rel-R23.9.4,E2E Drop1 rel-R23.9.4 ram-e2e12 green;path=/;SameSite=None;Secure
+Set-Cookie: akacd_empowerresappuatcnfirst=3876831033~rv=74~id=a7468cfc84f3fb15d54741243c69abf3; path=/;; Secure; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+X-Robots-Tag: noindex
+

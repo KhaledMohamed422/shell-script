@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: malaysia.playstation.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: http://asia.playstation.com/my
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://malaysia.playstation.com:80

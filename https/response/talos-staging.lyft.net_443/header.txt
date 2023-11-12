@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: talos-staging.lyft.net
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:32 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly90YWxvcy1zdGFnaW5nLmx5ZnQubmV0LyIsICJzdmMiOiAidGFsb3Mtc3RhZ2luZy5seWZ0Lm5ldCJ9%7C10.0.181.19%7C1699394732%7C31748f8a3116c6944c0327292cfbb6be8e8fe1b582b4fae4c1340f6c7c631bff
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

@@ -1,0 +1,48 @@
+GET / HTTP/1.1
+Host: rda.marksandspencer.app
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaE7-00/010.016; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.3 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache, no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 02:30:08 GMT
+Pragma: no-cache
+Set-Cookie: SESSION=YWE5NGU2ZDQtNjFkZS00NTIyLTk1ZDItN2U1M2VjYWJmZjRj; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        </head>
+    <body onload="document.forms[0].submit()">
+        <noscript>
+            <p>
+                <strong>Note:</strong> Since your browser does not support JavaScript,
+                you must press the Continue button once to proceed.
+            </p>
+        </noscript>
+        
+        <form action="https&#x3a;&#x2f;&#x2f;identity.dp.mnscorp.net&#x2f;saml&#x2f;idp&#x2f;profile&#x2f;redirectorpost&#x2f;sso" method="post">
+            <div>
+                                
+                <input type="hidden" name="SAMLRequest" value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c2FtbDJwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1sMnA9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpwcm90b2NvbCIgQXNzZXJ0aW9uQ29uc3VtZXJTZXJ2aWNlVVJMPSJodHRwczovL3JkYS5tYXJrc2FuZHNwZW5jZXIuYXBwL3NhbWwvU1NPIiBEZXN0aW5hdGlvbj0iaHR0cHM6Ly9pZGVudGl0eS5kcC5tbnNjb3JwLm5ldC9zYW1sL2lkcC9wcm9maWxlL3JlZGlyZWN0b3Jwb3N0L3NzbyIgRm9yY2VBdXRobj0idHJ1ZSIgSUQ9ImE1YjU5YmVjYWliZjM1ZDgzaDM1MWMxMjNpNDM5ZTIiIElzUGFzc2l2ZT0iZmFsc2UiIElzc3VlSW5zdGFudD0iMjAyMy0xMS0wOFQwMjozMDowNy44MzRaIiBQcm90b2NvbEJpbmRpbmc9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpiaW5kaW5nczpIVFRQLVBPU1QiIFZlcnNpb249IjIuMCI+PHNhbWwyOklzc3VlciB4bWxuczpzYW1sMj0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmFzc2VydGlvbiI+Y29tOm1uczpyZGE6c2VjdXJpdHk6c2FtbDpzcDpwcm9kOmF6dXJlPC9zYW1sMjpJc3N1ZXI+PGRzOlNpZ25hdHVyZSB4bWxuczpkcz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnIyI+PGRzOlNpZ25lZEluZm8+PGRzOkNhbm9uaWNhbGl6YXRpb25NZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzEwL3htbC1leGMtYzE0biMiLz48ZHM6U2lnbmF0dXJlTWV0aG9kIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI3JzYS1zaGExIi8+PGRzOlJlZmVyZW5jZSBVUkk9IiNhNWI1OWJlY2FpYmYzNWQ4M2gzNTFjMTIzaTQzOWUyIj48ZHM6VHJhbnNmb3Jtcz48ZHM6VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMC8wOS94bWxkc2lnI2VudmVsb3BlZC1zaWduYXR1cmUiLz48ZHM6VHJhbnNmb3JtIEFsZ29yaXRobT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS8xMC94bWwtZXhjLWMxNG4jIi8+PC9kczpUcmFuc2Zvcm1zPjxkczpEaWdlc3RNZXRob2QgQWxnb3JpdGhtPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwLzA5L3htbGRzaWcjc2hhMSIvPjxkczpEaWdlc3RWYWx1ZT55S3M3K3ZSeTRjMjVGWVN4RFJnTDF2UmM1OGs9PC9kczpEaWdlc3RWYWx1ZT48L2RzOlJlZmVyZW5jZT48L2RzOlNpZ25lZEluZm8+PGRzOlNpZ25hdHVyZVZhbHVlPmJ0K21YQVQxeTZjeXc5SFdFOWlqbWVaZVdnSnZackZ6RWpPSllOM0FJd3ZLQWtmT2tXQXl3eE5xbUhPWGxuVW8zSU85RUZSUU5WRzdpR2tuR0FHcVNRUEtyclk0SkQ5VVNUby96RHdiSm1FZDBScHBmZUgrNk43a2RWaWYvbU56MW5FNWp5QnJKYkNJTyt0dmVoejRYMWhoaEZFU3dIc3JmN0RzS2d6WExGOUNXUDcvOFdKYjA2ZWxqa2JFUURzcFJLWHY1WFp2dlcxdm1ERUlydm9SYnE2Z2VGdGVoSzFOdDMzVFk0NU5WUnhqZE50cGJ5K2Z6eEFjMlNGN2EwT0JGQ0xOOU11dVJiREFhK1l5SE1yeiszY1lwYzBCYk4rQ0c0U0tWRnRsUnY0Z1N0c29BSlBzanZPU0pJNkc2NUdjUE5JSVlIN1NlbEhUZ1FiMU1hN3RUZz09PC9kczpTaWduYXR1cmVWYWx1ZT48ZHM6S2V5SW5mbz48ZHM6WDUwOURhdGE+PGRzOlg1MDlDZXJ0aWZpY2F0ZT5NSUlEbXpDQ0FvT2dBd0lCQWdJRUdvY2FIekFOQmdrcWhraUc5dzBCQVFzRkFEQjlNUXN3Q1FZRFZRUUdFd0pIUWpFUE1BMEdBMVVFCkNCTUdURzl1Wkc5dU1ROHdEUVlEVlFRSEV3Wk1iMjVrYjI0eEdqQVlCZ05WQkFvVEVVMWhjbXR6SUdGdVpDQlRjR1Z1WTJWeU1RNHcKREFZRFZRUUxFd1ZHYjI5a2N6RWdNQjRHQTFVRUF4TVhjbVJoTG0xaGNtdHpZVzVrYzNCbGJtTmxjaTVoY0hBd0lCY05NVGt3T0RJeQpNVGcwTXpVNFdoZ1BNakV4T1RBM01qa3hPRFF6TlRoYU1IMHhDekFKQmdOVkJBWVRBa2RDTVE4d0RRWURWUVFJRXdaTWIyNWtiMjR4CkR6QU5CZ05WQkFjVEJreHZibVJ2YmpFYU1CZ0dBMVVFQ2hNUlRXRnlhM01nWVc1a0lGTndaVzVqWlhJeERqQU1CZ05WQkFzVEJVWnYKYjJSek1TQXdIZ1lEVlFRREV4ZHlaR0V1YldGeWEzTmhibVJ6Y0dWdVkyVnlMbUZ3Y0RDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRApnZ0VQQURDQ0FRb0NnZ0VCQUx3ZTlnOWRJOUQ0SGVybi9TQWdzUS8yM21XUWlmVnZyTnpKMXZ6d2x0dFNZM2dlZWJBc3Y5NWRjQ1JNCmgrRmxJdFIrZVJNd0kxMXYzTEhvNXB5bTBLbk14ZGJsdi8xQnQzUGI0VE4wajExUkdjOCthTmlaQXZWZk1iOElDRHpGcWh5Q1dzWTQKZXNHTmpkWENDeFMvclZwbGNVUDRrRlAwTDZ2SktVbkk4Yk85Ty9KQU4rU1htQ2pmRW1ja1JzQVh2RTNTY3RlNHNOMVJtdzlyd3VCdwpZVE5nQzdCMmd0WXYzc0NCR1lmYStZNjQxcGRhZ2JkNTRUL2QzUXdtVGhoU3p6bkdtRGZOa3VOSTBZUDBmT093WmViWjk5ck1Bb0R6Cm0vaEZZNG5xRDBXZkIxZjRxNGYyV01tN1cyWFk5a0llQU5UTWV6bjM4NXVXc0MwMXEvV0tSNU1DQXdFQUFhTWhNQjh3SFFZRFZSME8KQkJZRUZENzhVS2pyR2FjYzFwN2FlTVFBMzIvd0cvMXBNQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUIwTGh3RjVGRnB0ZldrYi9xcAprUnQ3K2IwSVBieTh3UGM4Vy9VQlRjQ3ZOL0YwR096VkFLQVpMUy9VN2dhWlZDVUhFZXBGaXFUTW9lc1NSZDRUZGdSSEsvRHFOYnl1ClRzdTdmcjh1bTIxbisrTDlMZnRpK0c3OUcvUWtlTzR3NWpoU25xa2ZEdVFPNUFNNlRqdDNTL1FadXJwZEN5VnczcTU3bW53ZjhGSlcKUmdaWVF4R2c3RTBGYTBTaitRSTBodHlwZXJsRDZOTE40dFdpMUdHVUdMbEpBVWdTeUJ1Y0VPR0t2S21ENWVrVnZLNXJjN2pGWTd5RgpYcHBWV0MzK2dVaDRQakZiSitQUGlaL3ZFOHVYYkQ4UzRnQk9BdVFMTFhvR1oxdUpDQXo1cjNOalFZdU0wSUNiNDJZNkdrVEhOYnpPCk9kK3NRUFVNcWY2R2xlNmlhV1ZyPC9kczpYNTA5Q2VydGlmaWNhdGU+PC9kczpYNTA5RGF0YT48L2RzOktleUluZm8+PC9kczpTaWduYXR1cmU+PC9zYW1sMnA6QXV0aG5SZXF1ZXN0Pg=="/>                
+                                
+            </div>
+            <noscript>
+                <div>
+                    <input type="submit" value="Continue"/>
+                </div>
+            </noscript>
+        </form>
+            </body>
+</html>
+
+
+https://rda.marksandspencer.app:443

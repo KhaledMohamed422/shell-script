@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: billing.ozow.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061024 Firefox/2.0 (Swiftfox)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8228d385082f2ba6-FRA
+Date: Tue, 07 Nov 2023 21:56:27 GMT
+Expires: Tue, 07 Nov 2023 22:56:27 GMT
+Location: https://billing.ozow.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://billing.ozow.com:8080

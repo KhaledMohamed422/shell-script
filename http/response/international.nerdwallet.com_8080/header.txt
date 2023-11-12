@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: international.nerdwallet.com:8080
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0 SeaMonkey/2.28
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82277e729a38716f-DUS
+Date: Tue, 07 Nov 2023 18:03:36 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nerdwallet.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0YrDmSDTOuHioTkNsvgA5C5WKikXJztMmQhzmTusU2%2Ffof4UjihdINjgwQsDNGtp7Gzw%2B%2FLIbAoUhP9iXt3YhF7xaaX7xGKJbxlq1S1rlGc8rXKKOBt%2FXZ9V%2F%2FiPqzx%2F9XMXjsYY9E0uT9EjHxuAnCFB3QU%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://international.nerdwallet.com:8080

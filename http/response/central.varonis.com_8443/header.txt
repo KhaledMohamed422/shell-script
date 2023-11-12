@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: central.varonis.com:8443
+User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:15:46 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 0ed38c9bf2351c38cb17be81862e7b51
+
+4109

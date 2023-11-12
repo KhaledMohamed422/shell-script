@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: msoid.playstation.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A217F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-store, no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:24:10 GMT
+Expires: -1
+Location: https://www.office.com/login#
+Nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+P3p: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+dub2"}]}
+Set-Cookie: fpc=AkglsxO3SKtKlZWOE2NgWoM; expires=Thu, 07-Dec-2023 23:24:11 GMT; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: esctx=PAQABAAEAAAAmoFfGtYxvRrNriQdPKIZ-gq-9wwVbg9s41dVqIJF9W1Y7Re7htSEDmGZlpmYgpnxKE3iFWgNyA1a4sv0kcouo4E4fANmPMyDSwWGBWGt-6Xw71Ngypzny1cMU66U4M9BX0AkrZ_mEoj5wlRuWmLRtJeCYYxxgCL-YUtJuVz6EatLqvkxLq1NXG1-Z5AeWUYMgAA; domain=.msoid.playstation.com; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+Set-Cookie: stsservicecookie=estsfd; path=/; secure; samesite=none; httponly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Ests-Server: 2.1.16693.3 - WEULR1 ProdSlices
+X-Ms-Request-Id: 9db47817-1586-47f5-b7cd-1369b396ac00
+X-Xss-Protection: 0
+

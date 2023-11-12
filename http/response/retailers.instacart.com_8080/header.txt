@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: retailers.instacart.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273d783ddffadc-DUS
+Date: Tue, 07 Nov 2023 17:19:15 GMT
+Expires: Tue, 07 Nov 2023 18:19:15 GMT
+Location: https://retailers.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ezhhz1bqq3O%2BUBlNKGOQXen%2BtwwfKbOrgVGojO48wbQC%2FIsTy7xegRhEmrdxwILa11t1OjcvMOoCc8Nw7PCduJVqDd8qZCox5fRo51K2arm0CSZQPJzPgG76xjdFTIwFCfgxSFf04clu1KSDG%2BY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=XL09JY9zXwrbwieQMQU0rvXjvN.ZEIMYYRiGI0tPsYk-1699377555-0-AXX5zMXedRabY7JXoHNC6oMtMscNC40WEhEhvEVrLT9/tqnXVC6Bf0brX5pH/vj5wgeaXEp8ox3SPrpb7m7T2J0=; path=/; expires=Tue, 07-Nov-23 17:49:15 GMT; domain=.retailers.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://retailers.instacart.com:8080

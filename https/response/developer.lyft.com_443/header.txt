@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: developer.lyft.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 27
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=900
+Cf-Cache-Status: MISS
+Cf-Ray: 8228dc83bbb1cb19-DUS
+Content-Language: en
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 22:02:35 GMT
+Location: /docs
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Vary: Accept, Accept-Encoding
+Via: 1.1 vegur
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: Deny
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to /docs
+
+
+https://developer.lyft.com:443

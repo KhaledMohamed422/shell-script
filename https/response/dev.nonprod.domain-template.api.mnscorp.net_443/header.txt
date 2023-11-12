@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: dev.nonprod.domain-template.api.mnscorp.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 126
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:27:28 GMT
+X-Azure-Ref: 20231108T022728Z-dpuw8737wx5711b7pd63prd4s000000001hg000000026mez
+X-Cache: CONFIG_NOCACHE
+
+{"message":"Not Found","_links":{"self":{"href":"/","templated":false}},"_embedded":{"errors":[{"message":"Page Not Found"}]}}
+
+
+https://dev.nonprod.domain-template.api.mnscorp.net:443

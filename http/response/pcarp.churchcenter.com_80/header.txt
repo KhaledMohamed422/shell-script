@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: pcarp.churchcenter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:00:36 GMT
+Location: https://pcarp.churchcenter.com/
+Server: CloudFront
+Via: 1.1 3f3b012fad703fdac0f14efdb7b78b6e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ycSOZ_IJ84fP9wxJFIN1ygSpdxpS2L1PX_9YiI2ka-dE3acwV5Gv0A==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

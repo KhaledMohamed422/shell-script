@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: hermes.mwb-threatintel.com:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9pre) Gecko/2008072421 Minefield/3.0.2pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227df438e4e7a42-DUS
+Date: Tue, 07 Nov 2023 19:09:42 GMT
+Expires: Tue, 07 Nov 2023 20:09:42 GMT
+Location: https://hermes.mwb-threatintel.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s1yRnITlSLjI1zaO5YncNVLr5uoGQXlWibbErxGDEvZC7gQQUSATH74PPTpQUqPugjFuw12sKxIP4eAm%2BLjNGvgFum0ouR1RWQnj%2B8iP9XPkOvCbRKhyblXaVMocgsIe5hw9zmn18KmW7drmlP3nQ7MZ"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://hermes.mwb-threatintel.com:8080

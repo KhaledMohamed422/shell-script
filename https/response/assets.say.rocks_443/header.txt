@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: assets.say.rocks
+User-Agent: Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-HK) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=60
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:22:13 GMT
+Server: AmazonS3
+Via: 1.1 d79861a030d3421826a919f9c2b00146.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1wo-5G8eeX3rbUBlvQeCGJtEWU_6La1Y6vaJPNenaMvxNumbUUsKUQ==
+X-Amz-Cf-Pop: FRA56-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>X5V07KGJQ11DN5M5</RequestId><HostId>ZFYLo4K6RuhyycOQIT9zakg4j77eLxdlSuoGGrMnTAGpkxOHBM2GcXdLwVEp2RvHewDmD/KsXXo=</HostId></Error>
+0
+
+
+
+
+https://assets.say.rocks:443

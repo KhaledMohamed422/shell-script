@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: podval.aws.indriverapp.com
+User-Agent: Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 936
+Content-Security-Policy: frame-ancestors 'self'; upgrade-insecure-requests;  report-uri https://csp.ib.console3.com/_csp
+Content-Security-Policy-Report-Only: default-src 'none'; base-uri 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; upgrade-insecure-requests; report-uri https://csp.ib.console3.com/_csp
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:03:58 GMT
+Server: CloudFront
+Via: 1.1 e0bdfd4f00aaa5b927cf38c4eda059ca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WxSo2jqVuU8tXwJy9-4ukeFSUtTJvEfsGj_ZiRspnK7cvvhfo5M1Rg==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+

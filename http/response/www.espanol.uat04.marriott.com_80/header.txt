@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www.espanol.uat04.marriott.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; Redmi 4 Prime) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 288
+Akamai-Grn: 0.9eb10f17.1699377630.1ac75d5d
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:20:30 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:20:30 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699377630879_386904478_449273181_14_14402_3_0_-";dur=1
+Www-Authenticate: Basic realm="Secure Area"
+

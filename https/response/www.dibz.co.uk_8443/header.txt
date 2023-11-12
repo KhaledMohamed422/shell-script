@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www.dibz.co.uk:8443
+User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bcae4d5ecad9-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:46:05 GMT
+Expires: Tue, 07 Nov 2023 18:46:20 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=kljp1LfRDhKer8tiEp4PX8eBBAl5o4kxdvUc9GQuq8A-1699382765-0-AZnT+A18LmuS37No98Yl2SHE+HrkgYi0kEqWAVAoDAnwFH6cn0UT3Lr3PshJT3Yyw5kMQKhMJzTuiFsPkNHJjXI=; path=/; expires=Tue, 07-Nov-23 19:16:05 GMT; domain=.dibz.co.uk; HttpOnly; Secure; SameSite=None
+Set-Cookie: vid=f11d02e5-49f9-442a-a731-ff1d5903975b; Path=/; Max-Age=31557600
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+15e5

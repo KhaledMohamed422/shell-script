@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: erwann.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14526.89.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.133 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:56:59 GMT
+Via: 1.1 b6a92d65d66a7dd6d685a94e79bd1aba.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCpDYHSSjoEEp8g=
+X-Amz-Cf-Id: zaNCWOnrtbObq8_lT1RCNGyieFrth136rQ0KBZGFW8AKKxQbSyhouA==
+X-Amz-Cf-Pop: LHR61-C2
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 1a5754fb-ee87-4235-9a84-cee848d409f3
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://erwann.test.popularbets.betviewapi.com:443

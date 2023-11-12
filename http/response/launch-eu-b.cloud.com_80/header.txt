@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: launch-eu-b.cloud.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy-Report-Only: script-src 'unsafe-inline' https://*.cloud.com https://www.googletagmanager.com https://www.recaptcha.net https://*.gstatic.com https://www.google.com/recaptcha 'nonce-1V+yp8A4fGyYTJNtM36qi1qsWrE=' 'strict-dynamic';style-src 'self' https://*.cloud.com https://*.gstatic.com;img-src 'self' data: https://*.cloud.com https://*.gstatic.com https://www.googletagmanager.com;object-src 'none';base-uri 'self';frame-ancestors 'self';connect-src http: wss://*.nssvc.net/ wss://*.cloud.com;report-uri http://launch-eu-b.cloud.com/CspViolationReport;
+Date: Tue, 07 Nov 2023 22:53:28 GMT
+Location: https://launch-eu-b.cloud.com/
+Server: Microsoft-HTTPAPI/2.0
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+http://launch-eu-b.cloud.com:80

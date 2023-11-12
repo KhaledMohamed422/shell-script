@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: app-offline.t12.callsign.com
+User-Agent: Mozilla/5.0 (Android 4.2; rv:19.0) Gecko/20121129 Firefox/19.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 162
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:30 GMT
+Server: awselb/2.0
+Via: 1.1 39e6266db143f6443f194d8c60e22480.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: j3u7XXXsxbEVXV81FIWiYceXLWeGUmWj51NHAhCsLEXVAzEJlqaMZg==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+

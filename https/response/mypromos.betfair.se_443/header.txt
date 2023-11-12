@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: mypromos.betfair.se
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bb927f467a43-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:20 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JkegYzF%2B4tyM%2F18LWxz0%2FUaiVbOCvGhZjsd0GEb81pBGhuuVsEu3LUjc5QaWtAs5OCB718j4GN3U0RB5gJ%2FIQnR%2Fdr%2Fbwg2pFkRwhAp1WbXPIJnO7eYbhANDZa3jXEtBD91oE7c%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=Qmpx3x6376c6PN2LRUnqc_ganJhjIexz.jx6.11iUx8-1699382720-0-Ae7PvjQTpMOvovhObESPFByBaIi77cKFRHmayV5YEVsto2FdWJAVsCJgHXdEsT0FPMlKxosSiR2aWNB02TuL1WY=; path=/; expires=Tue, 07-Nov-23 19:15:20 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+
+54
+{"timestamp":"2023-11-07T18:45:20.474Z","status":404,"error":"Not Found","path":"/"}
+0
+
+
+
+
+https://mypromos.betfair.se:443

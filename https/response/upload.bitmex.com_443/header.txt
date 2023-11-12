@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: upload.bitmex.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 422 Unprocessable Entity
+Connection: close
+Content-Length: 18
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:07:34 GMT
+Server: nginx
+Vgs-Request-Id: 1c764a424023b9d8141be13ed0ac6f7a
+Via: 1.1 reverse-proxy-02-f5d4b59fd-kl5wr
+
+Unexpected Request
+
+
+https://upload.bitmex.com:443

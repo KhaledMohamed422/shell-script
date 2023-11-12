@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: maintenance.paddypower.com:8443
+User-Agent: Nokia6230i/2.0 (03.80) Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bb558b46874d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:10 GMT
+Expires: Tue, 07 Nov 2023 18:45:25 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=obqZl4SpwAqYo6gLbXtHJ32niF9V%2BGxqr2ABWxHUigaoBd5FHmCY8edmVZNt6DOq3LAb0Ld9xiTudB9pDeC3T8kO7ckb4rw4eT0I8yABtDtklfVsCx5grICgMlXEfDRGERPf8Un7pF0Oin3fRMweync%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=bYAGU5l8SpRKSw3thOohqsk6ZCRuo9.IVFiSyDMhlKg-1699382710-0-AQTl+M4ZVDkJfauVaIcfzqZmSdpQlb9zoEF1cKcyJZ84d/8vpDzsWKFWhbJ4L+HpVCi/3mBIGEaF+hAbhOiwiKg=; path=/; expires=Tue, 07-Nov-23 19:15:10 GMT; domain=.paddypower.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

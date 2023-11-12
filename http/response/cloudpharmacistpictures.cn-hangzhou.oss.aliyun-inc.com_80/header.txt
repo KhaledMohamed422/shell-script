@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: cloudpharmacistpictures.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 383
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:45:04 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4A90BB838335397D966B
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4A90BB838335397D966B</RequestId>
+  <HostId>cloudpharmacistpictures.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://cloudpharmacistpictures.cn-hangzhou.oss.aliyun-inc.com:80

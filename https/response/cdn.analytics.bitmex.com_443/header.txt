@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: cdn.analytics.bitmex.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Age: 259
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=300
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822781391f66c4c2-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:31 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Mon, 25 Jun 2018 17:54:06 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=fyr585yQzWOEG5bbjA6uCcnK3RtkYp50jhUucw4HrDI-1699380331-0-AUCPJQzRW28LBsTLx7FB+I87J8XiXoAf2YLN4jOgfaZDF/KkN19JozlMwZOxVd4D6IOE8OzFrMNldoc51YIKwWY=; path=/; expires=Tue, 07-Nov-23 18:35:31 GMT; domain=.bitmex.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Via: 1.1 c6b364b1181abfafd7a69f210841edca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QjVgpbuo170aAsQNEWZlWZWukHcEW9svFZJSPdllqfNnjJu0CXg-Ew==
+X-Amz-Cf-Pop: FRA6-C1
+X-Amz-Version-Id: null
+X-Cache: Error from cloudfront
+
+31
+Cannot GET - Invalid path or write key provided.
+
+0
+
+
+
+
+https://cdn.analytics.bitmex.com:443

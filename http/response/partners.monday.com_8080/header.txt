@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: partners.monday.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0.112941
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822cb426fe76cb09-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 09:14:05 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ESttV9%2FoAFlQXghb5Gn%2BTO4EPKX8awk%2FmVitX6mQMJaTEGc30I9IPKtxGuTmyxd5uhLSGpn4E64Znow5Qu%2Fdc3OfBdxU8w3tHUcVSeuqmCkH5E%2FwMqZJp2Q4MzzCbzVkbK04PtDFM%2BAL0Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+http://partners.monday.com:8080

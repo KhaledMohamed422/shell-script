@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: my.cdn.wealthsimple.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7; en-us) AppleWebKit/534.20.8 (KHTML, like Gecko) Version/5.1 Safari/534.20.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273c548fdb1539-DUS
+Date: Tue, 07 Nov 2023 17:18:28 GMT
+Expires: Tue, 07 Nov 2023 18:18:28 GMT
+Location: https://my.cdn.wealthsimple.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=m7n9.nNW6i10c4xvW5w5idweGzOyi7AOeldC.SagKpY-1699377508-0-AQc54APVYG6PpEqhw50vTQghjMcGq0cenuyjVGRYFam/1mt9lGqzOUnu/dorR9yDgEyIwFSAC/rDBPl5g7bWRg8=; path=/; expires=Tue, 07-Nov-23 17:48:28 GMT; domain=.cdn.wealthsimple.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://my.cdn.wealthsimple.com:8080

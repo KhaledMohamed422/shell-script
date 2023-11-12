@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ua2dev.coveo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Language: en-US
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com https://staticdev.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:31:00 GMT
+Location: https://platformdev.cloud.coveo.com/admin/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 5f4e38d2-1ea6-4c73-9c1d-d946ccad9a04
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://ua2dev.coveo.com:443

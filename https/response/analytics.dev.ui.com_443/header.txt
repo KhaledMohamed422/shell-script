@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: analytics.dev.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 459
+Accept-Ranges: bytes
+Content-Security-Policy: default-src 'self' 'unsafe-eval'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; font-src fonts.gstatic.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; connect-src *.ui.com; img-src 'self' data:;
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:42:57 GMT
+Etag: "64b4ffdc-1cb"
+Last-Modified: Mon, 17 Jul 2023 08:46:20 GMT
+Server: nginx/1.25.1
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1
+

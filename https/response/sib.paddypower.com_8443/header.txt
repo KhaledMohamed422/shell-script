@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: sib.paddypower.com:8443
+User-Agent: Mozilla/5.0 (iPhone; CPU OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/28.0  Mobile/15E148 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bc481fb6fafa-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:49 GMT
+Expires: Tue, 07 Nov 2023 18:46:04 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2B1ZfMmR%2FDWP8AqafV83vujQZno7Fqzk%2FPggjzlVAlUPpL4xsMkQK2%2B2BZTxO0GXxVlk7LRpAWuJg0EX%2B3BybdqK5X7BC%2Bvh%2FwrbNHht4oESx1vih%2F9MVVKFo23zxdfWDyIyW8FUNRvTM"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=j4lFGTPlZaEwo91lceIH_qHRQg73ns0hQe.cD2luvQ8-1699382749-0-AV8sK8SeIXkWVT97ND/3QFjfeL6l/plK7kldw8C+6escwnB7/aaw54iZ9mnNoPbRmDCrv1ZEVGWBo0QXOyv7Zl0=; path=/; expires=Tue, 07-Nov-23 19:15:49 GMT; domain=.paddypower.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

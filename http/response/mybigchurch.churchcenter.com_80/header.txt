@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: mybigchurch.churchcenter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:58:15 GMT
+Location: https://mybigchurch.churchcenter.com/
+Server: CloudFront
+Via: 1.1 3aad72975c9da06e6d0903ad874f0b54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XO7XU6Y5Sl8MlsSumlng1T0C0FdAehIbKBAMEO5gmoueYIuY9cbNnA==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: www.romwe.com
+User-Agent: Java/1.6.0_13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 142
+Cache-Control: max-age=0
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 19:46:44 GMT
+Expires: Wed, 08 Nov 2023 19:46:44 GMT
+Location: https://de.romwe.com/?ref=www&rep=dir&ret=de
+Server: openresty
+

@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: datasheets-server.dev.svc.ui.com
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 26
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'self'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:49:41 GMT
+Etag: W/"1a-NHZUAzP5hreHHlezWDSKL5iDLPI"
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 6faa38f38a1fee24a829fec7c748876c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: to1sVEWroFvmbZhHX7zNw5_WWHB1zGEYtKy-IXP9d71t5FujYgOqGw==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Error from cloudfront
+X-Content-Security-Policy: default-src 'self'
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Ratelimit-Limit: 300
+X-Ratelimit-Remaining: 299
+X-Ratelimit-Reset: 1699419038
+X-Webkit-Csp: default-src 'self'
+X-Xss-Protection: 1; mode=block
+
+{"datasheets":"generator"}
+
+
+https://datasheets-server.dev.svc.ui.com:443

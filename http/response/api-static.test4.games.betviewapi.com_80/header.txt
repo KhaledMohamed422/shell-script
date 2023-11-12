@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: api-static.test4.games.betviewapi.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1083) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1469.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:55:29 GMT
+Location: https://api-static.test4.games.betviewapi.com/
+Server: CloudFront
+Via: 1.1 46546eb404789d29bf372f6a3fe43876.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tuNlNQFfqPvdC7xTDpgL2uLd_-xpLTM6osZtk3Ey0VDnrYVVbQX3FQ==
+X-Amz-Cf-Pop: FRA56-C1
+X-Cache: Redirect from cloudfront
+

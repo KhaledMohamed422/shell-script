@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: ssg-preview.qubit.com
+User-Agent: Mozilla/5.0 (X11; U; Linux ppc; en-US; rv:1.8.1.13) Gecko/20080313 Iceape/1.1.9 (Debian-1.1.9-5)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 139
+Content-Security-Policy: default-src 'none'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:35 GMT
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

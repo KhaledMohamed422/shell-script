@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: pai-eas.us-east-1.aliyun.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/101.0.4951.58 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:16:13 GMT
+Location: https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fpai-eas.us-east-1.aliyun.com%2F
+Server: envoy
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 0
+
+71
+<a href="https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fpai-eas.us-east-1.aliyun.com%2F">Found</a>.
+
+
+0
+
+
+
+
+https://pai-eas.us-east-1.aliyun.com:443

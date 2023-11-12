@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www-uat3.nintendo.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-AU) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IT
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 425
+Accept-Ranges: bytes
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:22:48 GMT
+Retry-After: 0
+Server: Varnish
+Strict-Transport-Security: max-age=300
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-fra-etou8220079-FRA
+X-Timer: S1699471368.001696,VS0,VE0
+
+
+<?xml version="1.0" encoding="utf-8"?>

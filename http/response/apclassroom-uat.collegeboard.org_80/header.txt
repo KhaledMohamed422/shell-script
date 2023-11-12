@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: apclassroom-uat.collegeboard.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Content-Security-Policy-Report-Only: default-src 'self'; img-src 'self' data: heapanalytics.com *.appcues.com *.appcues.net res.cloudinary.com twemoji.maxcdn.com *.collegeboard.org embed-ssl.wistia.com fast.wistia.com *.learnosity.com forms.paperscorer.com media.academicmerit.com learnositymediaprocessed.s3.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.heapanalytics.com heapanalytics.com *.appcues.com *.appcues.net cdn.split.io assets.adobedtm.com *.collegeboard.org *.learnosity.com fast.wistia.com *.youtube.com cdn.cookielaw.org www.desmos.com; style-src 'self' 'unsafe-inline' blob: heapanalytics.com *.appcues.com *.appcues.net fonts.googleapis.com fonts.google.com fast.wistia.com *.collegeboard.org *.learnosity.com https://s3.amazonaws.com www.desmos.com; connect-src heapanalytics.com *.browser-intake-datadoghq.com *.appcues.com *.appcues.net wss://*.appcues.net wss://*.appcues.com *.litix.io *.wistia.com embedwistia-a.akamaihd.net cdn.cookielaw.org geolocation.onetrust.com *.youtube.com *.split.io *.collegeboard.org cb-telemetry.academicmerit.com client-api.auryc.com mt.auryc.com api.rollbar.com *.learnosity.com wistia.com fast.wistia.net clickhelp.co status.us10.clickhelp.co cb.academicmerit.com; worker-src 'self' blob:; font-src 'self' data: heapanalytics.com fonts.gstatic.com *.wistia.com https://s3.amazonaws.com *.learnosity.com; frame-src 'self' *.appcues.com *.learnosity.com; child-src blob:; media-src 'self' blob: embedwistia-a.akamaihd.net embed-fastly.wistia.com fast.wistia.com assets.learnosity.com learnositymediaprocessed.s3.amazonaws.com
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:12:02 GMT
+Location: https://apclassroom-uat.collegeboard.org/
+Server: CloudFront
+Via: 1.1 013a54c6b9caf01f403c247789c7256c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: X-7G4SJTSnR_nIqJaKWP6tkuZHExM7e74wRo-W6igWSuOcCKvjtgRQ==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Redirect from cloudfront
+X-Content-Type-Options: nosniff
+

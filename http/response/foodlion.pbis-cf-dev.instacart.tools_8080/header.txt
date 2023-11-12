@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: foodlion.pbis-cf-dev.instacart.tools:8080
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227399deb71c4db-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:16:37 GMT
+Expires: Tue, 07 Nov 2023 17:16:52 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=rYeiKCd4ZawVIH4Diew7xY2_DEHoEiQBij3BzVaUECA-1699377397-0-AZv5EPbb98R1lCQ4jOlePhrf3lX8FE6kELPX5v7iqz6KROH23ec8m7BIONEIHWGf9UAvn48X6Hqt122BCh+5Ic8=; path=/; expires=Tue, 07-Nov-23 17:46:37 GMT; domain=.foodlion.pbis-cf-dev.instacart.tools; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11bc

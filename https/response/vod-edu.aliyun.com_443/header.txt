@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: vod-edu.aliyun.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G991U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Origin: http://edu.aliyun.com
+Ali-Swift-Global-Savetime: 1699439348
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:29:08 GMT
+Eagleid: de49212d16994393480293036e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache34.l2cn1827[,0], vcache16.cn5626[36,36,403-1280,M], vcache25.cn5626[40,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:29:08 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

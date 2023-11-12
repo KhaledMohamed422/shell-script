@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: s3.tradingview.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/30.0.1599.114 Safari/537.36 Puffin/4.8.0.2965AT
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:23:11 GMT
+Server: AmazonS3
+Via: 1.1 dbd13e5e9621f4e45e6a452ed9862bf0.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: O6kvRR5yiW1zhFtoMM6B8EV9FgANaNOa2W4q31ynudNN8KIJXkMXpg==
+X-Amz-Cf-Pop: AMS50-C1
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4NX8S5S5GXCBZ1VK</RequestId><HostId>h5R2hHQkNgsMmiAbOseZzydWLWKA0pMl0HuD+JXUjKqA1PLhTQiYjK5YV1ZFBE7BexkHjcRFdiFdF48hLvFoRpgzaIMVxSVmQRPYUa5ythg=</HostId></Error>
+0
+
+
+
+
+http://s3.tradingview.com:80

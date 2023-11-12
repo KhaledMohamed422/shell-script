@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: api16-core-delay-alisg.tiktokv.com
+User-Agent: msnbot-media/1.1 ( http://search.msn.com/msnbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:19 GMT
+Expires: Wed, 08 Nov 2023 18:43:19 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=195, origin; dur=227
+X-Akamai-Request-Id: 293d38ba.8e93eba
+X-Cache: TCP_MISS from a23-15-178-54.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-48-172-74.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 227,23.48.172.74
+X-Parent-Response-Time: 422,23.15.178.54
+X-Tt-Logid: 20231108184317D19C3441BD42C5B5C004
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a4362be8f3e9f2c176a79a78851d23fa9244a43586e8810cfa0bcac0b5c99a34bc7862135e2f6bc6ba5ef0a1f179c75e7e799422b309cef51908d630c3dde2797
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

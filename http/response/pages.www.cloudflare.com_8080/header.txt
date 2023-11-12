@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: pages.www.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; de-DE) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e11bed306a85-DUS
+Date: Tue, 07 Nov 2023 19:10:57 GMT
+Expires: Tue, 07 Nov 2023 20:10:57 GMT
+Location: https://pages.www.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=U75%2Fkn0GAZ4%2BE6zQ1Ii7WHbFiNoWz2wihgCPfjnm4o8QfhtxBQkoKFQ1%2BAvbrd%2BIddrgNSTpGnokitArFXNUMWWhdE%2FW4oDHQusARglNPxiBD7V1L%2FtXxGz8nJnxV1OJCuYm59G7BM48GoCRTn1T"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=5CeJWD35nC7WWtbYiPy4xRIgQAUefjVDMYptPuRa0G0-1699384257-0-AecM2vivCFTXqwHCuFtustlCrEcv2H7eIzlmaXsFlY2+/51YxQeSa8los9Ktk7lwsZPfzeIFr72Jw+7Q7Mhr+P59llhLH9X0nW7q99r6tjja; path=/; expires=Tue, 07-Nov-23 19:40:57 GMT; domain=.www.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://pages.www.cloudflare.com:8080

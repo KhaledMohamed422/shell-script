@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: integration.typeform.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:21:43 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=dGwBJm4za7HEEkTu/vqIa688HsL7h+pujckoDz/aEzL6aCrmI41dF0mcN4Dfn+9fqcowmH2b4LDNTDRxbCvXD+IHTuPCbcLL5X68iPqr4YjQErjv180IIqtNE4DVpyTm+lWm3d5JnAlMicsBbm1qR96eVeyVg6iZkSfecMgASVGk; Expires=Tue, 14 Nov 2023 23:21:43 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=dGwBJm4za7HEEkTu/vqIa688HsL7h+pujckoDz/aEzL6aCrmI41dF0mcN4Dfn+9fqcowmH2b4LDNTDRxbCvXD+IHTuPCbcLL5X68iPqr4YjQErjv180IIqtNE4DVpyTm+lWm3d5JnAlMicsBbm1qR96eVeyVg6iZkSfecMgASVGk; Expires=Tue, 14 Nov 2023 23:21:43 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://integration.typeform.com:443

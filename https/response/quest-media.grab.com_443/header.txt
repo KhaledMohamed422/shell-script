@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: quest-media.grab.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2539 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 142
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:36:14 GMT
+Server: AmazonS3
+Via: 1.1 0b9e85cfe8fe19b385db56d32b4ce802.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XR1w5SlWKa-B8FLy5ATmV20POSu2jJ9rYnHjCnDSDvU1clqTn_T8KA==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>T585XDA161DK9J72</RequestId><HostId>iWCn1EQ1OjtjpyXJk1diTBaFv/I2TRxNjyLvty762pTEQHFczllmyWEDB6UfpxVBUGr/FiaAFj4=</HostId></Error>
+0
+
+
+
+
+https://quest-media.grab.com:443

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: links.zapier.com
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Security-Policy: base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub46dd5cf52153d917fc1d5e91ff3a600d&dd-evp-origin=content-security-policy&ddsource=csp-report; frame-ancestors 'self' https://links.iterable.com; object-src 'none'; worker-src 'self' blob:; script-src 'report-sample' 'unsafe-eval' 'unsafe-inline' 'strict-dynamic' https: 'nonce-RS7mPoZhxD1SyeePlfmZuA=='
+Date: Wed, 08 Nov 2023 02:22:29 GMT
+Location: https://zapier.com
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Request-Time: 3
+Server: iterable-links b20d
+Set-Cookie: XSRF-TOKEN=ac170c19e27959ffb296f263537693cb81bc6890-1699410149931-0c99e38d6b5b3780f268a4d8; SameSite=Lax; Path=/
+Vary: Origin
+Via: 1.1 1fd323b9134f7d940dac0d007036a604.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YadMaFDtrOSCKc-QMSTcfknCjga1cROBksMfdc5aOLK0dOPBofjRqQ==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://links.zapier.com:80

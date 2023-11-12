@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: api-static.staging.games.betviewapi.com
+User-Agent: Mozilla/5.0 (X11; U; Linux armv6l; rv 1.8.1.5pre) Gecko/20070619 Minimo/0.020
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:55:29 GMT
+Location: https://api-static.staging.games.betviewapi.com/
+Server: CloudFront
+Via: 1.1 8b360b28aeb67c1982fcc466a05eef02.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lUKNZMoY3XkChK_y65cgU0ar9ouFuOTg7jiN6fPPpJN182g_it0rRg==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Redirect from cloudfront
+

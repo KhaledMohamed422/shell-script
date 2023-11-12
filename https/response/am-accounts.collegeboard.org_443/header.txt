@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: am-accounts.collegeboard.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 UNAUTHORIZED
+Connection: close
+Content-Length: 39
+Access-Control-Allow-Credentials: true
+Content-Security-Policy: default-src; self; collegeboard.org; *.collegeboard.org
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:21:57 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+
+{"msg":"Missing Authorization Header"}
+
+
+
+https://am-accounts.collegeboard.org:443

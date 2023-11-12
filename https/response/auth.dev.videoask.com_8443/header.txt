@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: auth.dev.videoask.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 82294238d9897181-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 23:12:01 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=u2Fp8VZFdQrSzYuAR4ciLwRzrCoAmSn6sb5vP2CUBKQ-1699398721-0-AQieHm1/7k7XAbtz7g9JntWmNgBrndcW/cFYE/b8AshUB/4XfQ6eW3Y8e0HW2S0R0AE81IZM2vhIXA+8Nw2Vp5o=; path=/; expires=Tue, 07-Nov-23 23:42:01 GMT; domain=.auth.dev.videoask.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://auth.dev.videoask.com:8443

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: redirect.finary.com:8443
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 8.0.0; SM-A520F Build/R16NW)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Ray: 822d12ca3e37cb15-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:18:41 GMT
+Etag: W/"51e783fd5a708988aec6fcdb9bab02e1"
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SIaDCCwC7tsD3KpyJxLSDCI8jg9%2FV1n6UGutUwiBZXb94enzmnfth0QZooNwNU06lZhoRGYonZdlvVOXECfOQYiT7m27DubKMFMDR7TmN05xxZTNSz6wzMgSZFMIbgsAKQ20IL9kmau7rBg%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+a48

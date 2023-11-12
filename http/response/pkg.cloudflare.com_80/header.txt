@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: pkg.cloudflare.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e131dc17c4a4-DUS
+Date: Tue, 07 Nov 2023 19:11:01 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://pkg.cloudflare.com/index.html
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://pkg.cloudflare.com:80

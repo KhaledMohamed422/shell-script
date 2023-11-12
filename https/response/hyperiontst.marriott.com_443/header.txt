@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: hyperiontst.marriott.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.1; DragonFly) KHTML/4.1.4 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Akamai-Grn: 0.bea72917.1699378048.1357f33e
+Cache-Control: no-cache,no-store,max-age=0
+Date: Tue, 07 Nov 2023 17:27:28 GMT
+Expires: 0
+Location: https://extranetdev.marriott.com/userauth/as/authorization.oauth2?response_type=code&code_challenge=IqWxFIkMwxHiJ4W38PhVzusKdE-H1DE1dlHLLBhlYUM&code_challenge_method=S256&client_id=PA_EXT_WAM&redirect_uri=https%3A%2F%2Fhyperiontst.marriott.com%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoibm80QXFFOGhxTVBiUE1vYWgzTXB2emxFWF9rIiwic3VmZml4IjoiMnowYWdSLjE2OTkzNzgzNDgifQ..sAws1APErDUcRUL5Q5hTvg.UI4_ryhhvxzsMWg-5acuDx1jI-g2cJaAHf0f_dcH8MR1LHrjHXgZ4C6gpnO8NzmV7bYNuqwmXwdvf-aCsXNC-j1u-zg9hpNbxeqIwduHGGnUoHhZCSwtlycIQmx5K64DUXWLJAf6EEh5dI1wHto49eWDJblcfj_1z-UfTXqdx0WpHKUYU8xlmRbd0ryrvI-z.oKmT9jKSX5Cqu8VVBfpaSA&nonce=wIGkXhxfO_-G3rLGeeQ29yDSQyBuWTElWEnmd0XIgoY&acr_values=RED%20X509&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fhyperiontst.marriott.com%2F&vnd_pi_application_name=Hyperion+Test
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=215
+Server-Timing: origin; dur=18
+Server-Timing: ak_p; desc="1699378048542_388605886_324531006_23316_7002_4_10_-";dur=1
+Set-Cookie: AWSALB=oQMzQNQB+n/qP9MxSzYVXWOW5Laz6csYjy7vC05fdHed1Q01oRLKRpCq6s0QTRBM3ZBEVEyM5MCZSj0T9wlmU75oDrz5s+YDH2PbGgC84tKCYZVutU3r1TFMe13B; Expires=Tue, 14 Nov 2023 17:27:28 GMT; Path=/
+Set-Cookie: AWSALBCORS=oQMzQNQB+n/qP9MxSzYVXWOW5Laz6csYjy7vC05fdHed1Q01oRLKRpCq6s0QTRBM3ZBEVEyM5MCZSj0T9wlmU75oDrz5s+YDH2PbGgC84tKCYZVutU3r1TFMe13B; Expires=Tue, 14 Nov 2023 17:27:28 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: nonce.2z0agR.1699378348=79efc621-cce2-4894-b2fa-7812a428cf35; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_EXT.Hyperion=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.Hyperion=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://hyperiontst.marriott.com:443

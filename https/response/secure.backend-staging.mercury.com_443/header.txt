@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: secure.backend-staging.mercury.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a64d44df6242b-IAD
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:24 GMT
+Ec2-Instance-Id: i-039e58e9eb6e72710
+Ec2-Instance-Name: mercury-web-backend-1.staging.internal.mercury.com
+Git-Commit: e7db8e1de3469619451818a3f847fa3507689838
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/staging/datasets/backend/trace?trace_id=d878e197d29fc9f86a1f297c713c1948&trace_start_ts=1699407024&trace_end_ts=1699414224
+Server: nginx
+Set-Cookie: _SESSION=TdzG12QtvLgg1jwc2+auT4ApO7GB9bdcA71lVBVN/ZY/blvHf4rAbzpoirojC1u6bL9g6MGsre58l5/+LKfVOv73a5H+uTJZfq9F7S6IjJHJf1D/3HW4JCE6apNWjxUDiZGIHsd9QFUyjTPExaFWBBQUexSCzAcGbhI4G0yZpnPvICQtAdY=; Path=/; Expires=Wed, 08-Nov-2023 04:30:15 GMT; Domain=backend-staging.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=P9f84rnp5VEUdndoPWhVfb04wDezFBMq7WO9TYPh; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=NSIxBEylWAmWJhy84pzj_nknFTU0gUkdq64PD1S0XjA-1699410624-0-AS3EsgSMXGMdPX+UaQ4re79zXUpD8PXX9gpGkl+ufsgIqHcQenc5YAYE9hRXAiZlrNcLhfBy+4JKCgl4q86HCiE=; path=/; expires=Wed, 08-Nov-23 03:00:24 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-d878e197d29fc9f86a1f297c713c1948-6c1b7e435c2b5602-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+Vgs-Request-Id: f355cad45172a22f9b2367432dd1442f
+Via: 1.1 reverse-http-proxy-69744fc8dc-6d25b
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 74
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://secure.backend-staging.mercury.com:443

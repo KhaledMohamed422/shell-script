@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: lite.tinder.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1478.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: must-revalidate, public, max-age=3600
+Content-Security-Policy: default-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline' blob:; img-src * data: blob:; media-src * data:
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:45:12 GMT
+Etag: W/"5d7e6-ACisLHk1hSW6hkzc5itx9TDHOKU"
+Referrer-Policy: origin-when-cross-origin
+Server: nginx
+Set-Cookie: AWSALB=BljEE25bOFAHTLdimoxt51kPq32nDBoU0sztnKd0I6HTjp7w9h3K2MlN7T6HlVFp42DCDUrwfM0lKWhI6X7vYoPHjMnvnJVUr96Pi2B4SRwVblTQDKQ77K3kAfXJ; Expires=Wed, 15 Nov 2023 18:45:12 GMT; Path=/
+Set-Cookie: AWSALBCORS=BljEE25bOFAHTLdimoxt51kPq32nDBoU0sztnKd0I6HTjp7w9h3K2MlN7T6HlVFp42DCDUrwfM0lKWhI6X7vYoPHjMnvnJVUr96Pi2B4SRwVblTQDKQ77K3kAfXJ; Expires=Wed, 15 Nov 2023 18:45:12 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 11e924fe383f6400148d019b996a5864.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1RV4Z94lb5KyV6OGwQbS5GxsGnwLB_UEbRlooxbUxc1WC3eDfkSmUg==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: on
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Render-Method: ssr
+X-Robots-Tag: noindex
+X-Xss-Protection: 1; mode=block
+
+5d7e6

@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: waf-gke-antibot.antibot.preprod.fin.ag
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari/600.1.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 146
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:32:34 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: app-clgroup-environment.t00-clgroup.a2develop.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 960
+Content-Security-Policy: default-src 'self'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:31 GMT
+Permissions-Policy: autoplay=(), camera=(self), encrypted-media=(), fullscreen=(), geolocation=(self), microphone=(self), midi=(), payment=(), sync-xhr=(), usb=(), vr=()
+Referrer-Policy: strict-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 803246727539350977d724c9e4a027c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: I1PrJxDGx0e0egRZ_kfzia_WJFuHpk6UEiMqofX3Db4dk0fOOlmQvw==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

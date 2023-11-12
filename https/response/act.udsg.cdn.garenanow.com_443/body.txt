@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Arena of Valor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta property="og:site_name" content="Arena of Valor">
+<meta property="og:title" content="Arena of Valor">
+<meta property="og:description" content="Arena of Valor">
+<meta property="og:url" content="https://www.arenaofvalor.com/">
+<link rel="stylesheet" href="/web2017/css/index.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110867566-2"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-110867566-2');
+
+(function(){
+	var a=navigator.userAgent;
+	if(-1!=a.indexOf("iPhone")||-1!=a.indexOf("iPad")||-1!=a.indexOf("iPod")||-1!=a.indexOf("Android")){
+		self.location="/m/";
+	}
+	var domain=window.document.domain;
+	if(domain == "rov.proximabeta.com" || domain == "sok.proximabeta.com")
+	{
+		self.location= "https://www.arenaofvalor.com";
+	}
+})();
+</script>
+</head>
+<body>
+<div class="main">
+	<div class="wrap">
+		<div class="topbar">
+    <ul class="topbar-menu">
+        <a href="/" class="logo" onclick="gtag('event','logo' ,{'event_label':'top_bar_logo_return_home'})">
+            <div class="logo-icon"></div>
+        </a>
+        <li class="topbar-text">
+            <a href="/" title="GAME" onclick="gtag('event','menu' ,{'event_label':'menu_to_game'})">GAME</a>
+            <ul class="children">    
+                <li><h3><a href="/web2017/getStartedList.html" onclick="gtag('event','menu' ,{'event_label':'menu_to_get_started'})"><span>Get Started</span></a></h3></li>
+                <li><h3><a href="/web2017/gameModesList.html" onclick="gtag('event','menu' ,{'event_label':'menu_to_game_modes'})"><span>Game Modes</span></a></h3></li>                
+            </ul>
+        </li>
+        <li class="topbar-text">
+            <a href="/web2017/herolist.html" onclick="gtag('event','menu' ,{'event_label':'menu_to_heroes'})" title="HEROES">HEROES</a>
+        </li>
+        <li class="topbar-text">
+            <a href="/web2017/newsList.html" onclick="gtag('event','menu' ,{'event_label':'menu_to_news'})" title="NEWS" >NEWS</a>
+        </li>
+        <li class="topbar-text">
+            <a href="/web2017/esportsList.html" onclick="gtag('event','menu' ,{'event_label':'menu_to_esports'})" title="ESPORTS" >ESPORTS</a>
+        </li>
+        <li class="topbar-text">
+            <a href="javascript:;" title="COMMUNITY">COMMUNITY</a>
+            <ul class="children">    
+                <li><h3><a href="https://www.facebook.com/ArenaofValor/" onclick="gtag('event','menu' ,{'event_label':'menu_to_facebook'})"  target="_blank"><span>Facebook</span></a></h3></li>
+                <li><h3><a href="https://www.instagram.com/arenaofvalor/" onclick="gtag('event','menu' ,{'event_label':'menu_to_instagram'})"  target="_blank"><span>Instagram</span></a></h3></li>
+                <li><h3><a href="https://www.twitter.com/ArenaofValor" onclick="gtag('event','menu' ,{'event_label':'menu_to_twitter'})"  target="_blank"><span>Twitter</span></a></h3></li>
+                <li><h3><a href="https://discord.gg/hwtF5zs" target="_blank" onclick="gtag('event','menu' ,{'event_label':'menu_to_discord'})"><span>Discord</span></a></h3></li>
+                <li><h3><a href="https://www.reddit.com/r/arenaofvalor/" target="_blank" onclick="gtag('event','menu' ,{'event_label':'menu_to_reddit'})"><span>Reddit</span></a></h3></li>
+            </ul>
+        </li>
+        <li class="topbar-text" id="link-support">
+            <a href="javascript:AIHELP.show();" title="SUPPORT" onclick="gtag('event','menu' ,{'event_label':'menu_to_support'})">SUPPORT</a>
+        </li>
+    </ul>
+</div>  
+
+<style>
+    .show_AIhelp {   
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        border-radius: 4px;
+        border: none;
+        padding: 10px 30px;
+        background: #f9c633;
+        color: #444;
+        outline: none;
+    }
+
+    .elvaBox {    
+        width: 375px;
+        height: 500px;
+        position: fixed;
+        right: 1rem;
+        bottom: 4rem;
+        z-index: 999;
+    }
+
+
+    .close {   
+        position: absolute;
+        right: -10px;
+        top: -16px;
+        width: 30px;
+        height: 30px;
+        background: #f9c633;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        background: #bbb;
+        transition: all .3s ease;
+    }
+
+    .close:before {
+        position: absolute;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: #444;
+        transform: rotate(45deg);
+        top: 14px;
+        left: 6px;
+    }
+
+    .close:after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #444;
+        transform: rotate(-45deg);
+        top: 14px;
+        left: 6px;
+    }
+    #app{
+        top:50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/2.0.3/fingerprint2.min.js" integrity="sha256-KHjiYfRgjv+1nTnungHdPqfBbH/2C0cO6AMgCciZQJk=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://aihelp.net/static/js/elvactrl.js"></script>
+<script type="text/javascript" src="/web2017/js/supportLink.js"></script>
+
+
+		<div class="section1">
+			<h1 class="hide">5v5 moba</h1>
+			<div class="s1_put c">
+				<a href="https://play.google.com/store/apps/details?id=com.ngame.allstar.eu" target="_blank" class="google sp fl" onclick="gtag('event','download' ,{'event_label':'download_googlePlay'});"></a>
+				<a href="https://itunes.apple.com/app/id1150318642" target="_blank" class="appstorw sp fr" onclick="gtag('event','download' ,{'event_label':'download_appstore'});"></a>
+			</div>
+			<a href="javascript:showVideo();" class="btn_vd"></a>
+		</div>
+		
+		<div class="section2">
+			<div class="slide1">
+				<div class="slide1_content">
+					<ul class="list_slide1" id="rollNews">
+						<li>
+    <a href="/webplat/info/news_version3/26190/33375/33738/33739/m19427/201903/798977.shtml">
+        <img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20190319/396451090514444.png"/>
+        <!--img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20190319/396451090514444_BigAbbr.png"/--> 
+    </a>
+</li>
+<li>
+    <a href="/webplat/info/news_version3/26190/33375/33738/33739/m19427/201812/782271.shtml">
+        <img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20181217/9348505281263.png"/>
+        <!--img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20181217/9348505281263_BigAbbr.png"/--> 
+    </a>
+</li>
+<li>
+    <a href="/webplat/info/news_version3/26190/33375/33738/33739/m19427/201906/812617.shtml">
+        <img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20190604/57560184496359.png"/>
+        <!--img src="//overseas-img.qq.com/upload/webplat/info/bodproximabeta/20190604/57560184496359_BigAbbr.png"/--> 
+    </a>
+</li>
+						
+					</ul>
+				</div>
+				<ul class="pointer" id="pointer">										
+				</ul>
+				<a href="/web2017/newsList.html"  class="btn_more sp db"  onclick="gtag('event','button' ,{'event_label':'view_more_news'});"></a>
+
+			</div>
+			<h2 class="tit1 sp db">MEET THE HEROES</h2>
+			<div class="slide2_box">
+				<div class="slide2">
+					<div class="slide2_content">
+						<ul class="list_slide2" id="heroes">
+							
+						</ul>
+					</div>
+					<a href="javascript:;" class="slide2_prev sp"></a>
+					<a href="javascript:;" class="slide2_next sp"></a>
+				</div>
+			</div>	
+			<a href="/web2017/herolist.html" class="slide2_all sp" onclick="gtag('event','button' ,{'event_label':'view_more_hero'});">VIEW  ALL</a>
+		</div>
+		<div class="section3">
+			<h2 class="tit2 sp db">DOWNLOAD NOW</h2>
+			<p class="text">
+				Experience Arena of Valor, <br />
+				an epic new 5v5 multiplayer online battle arena (MOBA) designed by Tencent Games!<br />
+				Master unique and powerful heroes, like Batman, <br />
+				while teaming up with friends. Create the most dominating team<br />
+				the MOBA world has ever seen! DC LOGO, BATMAN and all related characters <br />
+				and elements & TM DC Comics.<br />
+				Call on your teammates to join you in the jungle! Fight your way out in classic 5v5 combat in real time! Draw first blood, carry your team, and become Legendary in the arena!
+			</p>
+			<div class="s3_put c">
+				<a href="https://play.google.com/store/apps/details?id=com.ngame.allstar.eu" onclick="gtag('event','download' ,{'event_label':'home_bottom_download_googlePlay'});" target="_blank" class="google sp fl"></a>
+				<a href="https://itunes.apple.com/app/id1150318642" target="_blank" class="appstorw sp fr" onclick="gtag('event','download' ,{'event_label':'home_bottom_download_appstore'});"></a>
+			</div>
+		</div>
+		  
+        <div class="foot c">
+    <a class="footer-logo sp" href="javascript:void(0);"></a>
+    <div class="footer-company-info">
+        <div class="footer-share">
+            <ul class="c">
+                <li><a href="https://www.facebook.com/ArenaofValor/" class="sp share-pic1"></a></li>
+                <li><a href="https://www.twitter.com/ArenaofValor" class="sp share-pic2"></a></li>
+                <li><a href="https://www.instagram.com/arenaofvalor/" class="sp share-pic3"></a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <ul class="c">
+                <li><a href="javascript:AIHELP.show();">Contact Us </a></li>
+                <li><a href="https://www.arenaofvalor.com/terms.html">Term of Use </a></li>
+                <li><a href="https://www.arenaofvalor.com/privacy.html"> Privacy </a></li>
+            </ul>
+        </div>
+        <div class="footer-company-desc">
+            © 2016-2017 Proxima Beta Pte Limited. All Rights Reserved
+        </div>
+    </div>
+    <div class="foot-btn">
+        <a class="" href="https://itunes.apple.com/app/id1150318642" target="_blank" onclick="gtag('event','download' ,{'event_label':'foot_download_appstore'})">
+            <img src="/web2017/images/pc/btn_ios.jpg" width="100%"/>
+        </a>
+        <a class="https://play.google.com/store/apps/details?id=com.ngame.allstar.eu" onclick="gtag('event','download' ,{'event_label':'foot_download_googlePlay'})" target="_blank" href="https://play.google.com/store/apps/details?id=com.ngame.allstar.eu" >
+            <img src="/web2017/images/pc/btn_gp.jpg" width="100%"/>
+        </a>
+
+    </div>
+</div>
+
+
+	</div>
+	</div>
+<div class="video_player" id="vplayer"></div>
+
+<script type="text/javascript" src="/web2017/js/jquery-1.9.1.min.js" ></script>
+<script src="/web2017/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="/web2017/js/common.js" ></script>
+<script type="text/javascript" src="/web2017/js/scale.js" ></script>
+<script type="text/javascript" src="/js/heroList.js" ></script>
+<script type="text/javascript">
+	//roll news
+	$(".slide1").slide({
+		titCell:".pointer",
+		interTime:2000,
+		delayTime:200,
+		mainCell:".list_slide1",
+		autoPage:true,
+		effect:"leftLoop",
+		autoPlay:true,
+		trigger:'click',
+		vis:3,
+		endFun:function(i,c){
+			$('.list_slide1 li').eq(i+2).addClass('on').siblings().removeClass('on');
+			$('.list_slide1 .on').stop(true).animate({
+				'padding-top':'0'
+			},200).siblings().stop(true).animate({
+				'padding-top':'105px'
+			},200);
+		}
+	});
+
+	//heroes
+	var heroes={
+		dataUrl:judge_test[isTest]['domain'] + "/fcgi-bin/gift.fcgi?heroid=0&ticket=" + judge_test[isTest]['ticket'],
+		getData:function(){
+			var self=this,str='';
+			$.ajax({				
+				type: "GET",				
+				url: self.dataUrl,
+				dataType: "jsonp",
+				jsonp: "callback",				
+				success: function(data){								
+					if(data.err_code == 0) {						
+						var d=data.data,len=d.length;						
+						for(var i=0; i<len; i++){
+							//test data							
+							if(d[i].heroid=="112" || d[i].heroid=="114" || d[i].heroid=="135" || d[i].heroid=="184" || d[i].heroid=="501"){ 
+								
+								str+='<li><a href="/web2017/heroDetails.html?id='+d[i].heroid+'" onclick=\'gtag("event","hero_pic" ,{"event_label":"'+d[i].name+'"})\'><img src="https://www.arenaofvalor.com/images/heroes/pic_785_654/'+d[i].heroid+'.png" width="785" height="654" class="img_dim"/><img src="https://www.arenaofvalor.com/images/heroes/pic_o_785_654/'+d[i].heroid+'.png" width="785" height="654" class="img_lit"/><img src="https://www.arenaofvalor.com/images/heroes/pic_o_785_654/'+d[i].heroid+'.png" width="785" height="654" class="img_hov"/><p class="more">LEARN  MORE</p></a></li>';
+							}
+						}						
+					}
+					$("#heroes").html(str);
+					self.slide()
+				}
+			})			
+		},
+		slide:function(){
+			$(".slide2").slide({
+				interTime:2000,
+				delayTime:200,
+				mainCell:".list_slide2",
+				autoPage:true,
+				effect:"leftLoop",
+				autoPlay:true,
+				vis:5,
+				prevCell:'.slide2_prev',
+				nextCell:'.slide2_next',
+				endFun:function(i,c){
+					$('.list_slide2 li').eq(i+3).addClass('on').siblings().removeClass('on');
+				}
+			});
+		}
+	}
+	heroes.getData();
+	
+	
+	function showVideo(){
+		$('.video_player').css('z-index', '100');
+		$('#vplayer').append('<iframe class="video_frame" src="https://www.youtube.com/embed/JM_UdSUW1ao" frameborder="0" allowfullscreen></iframe>'+
+		'<a class="video_close" href="javascript:closeVideo()" title="X">X</a>'+
+		'<div id="vmask" class="video_mask" onclick="javascript:closeVideo()"></div>');
+		gtag('event','button' ,{'event_label':'show_pop_video'});
+	}
+	function closeVideo(){
+		$('#vplayer').html("");
+		$('.video_player').css('z-index', '-1');
+		gtag('event','button' ,{'event_label':'hide_pop_video'});
+	}
+</script>
+<script language="javascript" src="/js/ping.js"></script>
+<script>	
+	//tcss
+	if(typeof(pgvMain) == 'function'){
+		pgvMain({virtualDomain: "sok.qq.com"})
+	}
+</script>
+</body>
+</html
+
+
+
+https://act.udsg.cdn.garenanow.com:443

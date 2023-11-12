@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: blog.callsign.com:8443
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5fa37fe07a46-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:52 GMT
+Expires: Wed, 08 Nov 2023 02:27:07 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rq2GbZVTB0N2sCNYDpbj2YowamBBjsrn0w%2FFe7C%2Bmaxm3O7lv4okLvfn4KNc2YrpL%2FTyyEyY4Bkr6c9TRZSz6scdmbEucgFGBAYua8IYqMgBus23GCFX1AzFtTuXo%2Bu%2BLDKu5EI%2FWlc%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=T4YSSJOjSpis1yAbI__lM3g.OhpgthTbEfij_5ElPKU-1699410412-0-AWiogjL32Z1acLgHDWQHZc0aus1D5L0tXZF5aZGYeS0U4rNolP9E3IHalw2Y9TKz6N9Racu+2H48C4lOz21oFZg=; path=/; expires=Wed, 08-Nov-23 02:56:52 GMT; domain=.blog.callsign.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=42df0d8e7f9347d5aff5e5c389939162668f619f-1699410412; path=/; domain=.blog.callsign.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

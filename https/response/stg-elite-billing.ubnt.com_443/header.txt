@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: stg-elite-billing.ubnt.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 05:04:01 GMT
+Via: 1.1 a4f5633e78f92f983940236e96220232.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OEB-VFDVPHcEYQA=
+X-Amz-Cf-Id: v5RBxA3zDjYpgNx4GyLt7qU0AxKrlGhVmrvR3NVZ7pJhZJTCBMHhwA==
+X-Amz-Cf-Pop: AMS58-P1
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: eaa9e2a5-ef2d-4bcc-af69-1fdd728b4a87
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://stg-elite-billing.ubnt.com:443

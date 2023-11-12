@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: drew-cert.apps.verygood.systems
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:59 GMT
+Server: nginx
+Vgs-Request-Id: 9b721fd106856e8e2688c0bc7d488fbc
+Via: 1.1 reverse-http-proxy-6bb4dd5bc4-jf4th
+X-Envoy-Upstream-Service-Time: 3
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 9b721fd106856e8e2688c0bc7d488fbc.
+
+
+https://drew-cert.apps.verygood.systems:443

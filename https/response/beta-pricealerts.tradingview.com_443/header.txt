@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: beta-pricealerts.tradingview.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.54 Safari/535.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 137
+Age: 53202
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 13:58:12 GMT
+Server: tv
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Via: 443, 1.1 045d55468661252b6be78e701e36b492.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sdeb40zjL2FWfYFr8Kg1HS6KqnpXFR41fAKcxwzpvBAwBNWlAVE_Tw==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Hit from cloudfront
+
+{"s":"error","id":"6buj-154384","r":null,"errmsg":"code=no_such_endpoint, err=no such endpoint: GET /","err":{"code":"no_such_endpoint"}}
+
+
+https://beta-pricealerts.tradingview.com:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-7.apps.verygood.systems
+User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/37.8918; U; en) Presto/2.12.423 Version/12.16
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 156
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:50 GMT
+Server: nginx
+Vgs-Request-Id: 4c16bcdaaf9a563dbad8f2e819e22b0e
+Via: 1.1 reverse-http-proxy-6f8b595cbc-cxdzj
+X-Envoy-Upstream-Service-Time: 2
+
+Rate limit reached. Please contact us (support@verygoodsecurity.com) in case you need to increase your limits. Request id: 4c16bcdaaf9a563dbad8f2e819e22b0e.
+
+
+https://certificate-provisioning-test-live-7.apps.verygood.systems:443

@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: abgw-ru2-acs1.acronis.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent,X-Amz-Object-Map,Range,Content-MD5,if-match
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,ETag,X-Amz-Meta-Custom-Header,X-Amz-Notary-Provider,X-Amz-Cert,X-Amz-Notary-Hash,X-Amz-Notary-Protocol
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:10:00 GMT
+Server: nginx
+X-Amz-Err-Code: NoSuchBucket
+X-Amz-Err-Message: The specified bucket does not exist
+X-Amz-Req-Time-Micros: 2036
+X-Amz-Request-Id: 8000000000000017000730018e48de15
+
+84
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message></Error>
+0
+
+
+
+
+https://abgw-ru2-acs1.acronis.com:443

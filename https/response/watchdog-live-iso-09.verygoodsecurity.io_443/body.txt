@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<title>Boomerang - ECHO service | Very Good Security</title>
+<body>
+
+<h1>Boomerang - ECHO service | Very Good Security</h1>
+<h3>Example of the request</h3>
+<pre>
+curl https://boomerang.verygoodsecurity.io/post --silent \
+  -H "Content-type: application/json" \
+  -d '{"aaaaa": "bbbb"}' | jq .
+{
+  "url": "http://boomerang.verygoodsecurity.io/post",
+  "headers": {
+    "host": "boomerang.verygoodsecurity.io",
+    "content-type": "application/json",
+    "x-forwarded-for": "178.137.17.100",
+    "user-agent": "curl/7.64.1",
+    "x-forwarded-port": "443",
+    "accept": "*/*",
+    "content-length": "17",
+    "x-forwarded-proto": "https"
+  },
+  "data": "{\"aaaaa\": \"bbbb\"}",
+  "json": {
+    "aaaaa": "bbbb"
+  }
+}
+</pre>
+
+
+<h4>Note</h4>
+<p>
+    <ul>
+        <li>response is always json with content type "application/json"</li>
+        <li>if you pass request with ContentType "application/json" - then payload will be parsed and placed into json field</li>
+        <li>only 3 types of requests are supported
+            <ul>
+                <li>GET - /get</li>
+                <li>POST - /post</li>
+                <li>PUT - /put</li>
+            </ul>
+        </li>
+    </ul>
+</p>
+
+</body>
+</html>
+0
+
+
+
+
+https://watchdog-live-iso-09.verygoodsecurity.io:443

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: book.zomato.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-G980F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Redirect
+Connection: close
+Content-Length: 150
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:05:25 GMT
+Location: https://www.zomatobook.com/
+Permissions-Policy: fullscreen=(*)
+Referrer-Policy: strict-origin
+Server: ZomatoBook/2.0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Powered-By: ZomatoBook
+X-Xss-Protection: 1; mode=block
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.zomatobook.com/">here</a></body>
+
+
+https://book.zomato.com:443

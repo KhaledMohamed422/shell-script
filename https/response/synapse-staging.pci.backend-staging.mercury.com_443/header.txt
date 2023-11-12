@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: synapse-staging.pci.backend-staging.mercury.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a6565ff823901-IAD
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:48 GMT
+Ec2-Instance-Id: i-039e58e9eb6e72710
+Ec2-Instance-Name: mercury-web-backend-1.staging.internal.mercury.com
+Git-Commit: e7db8e1de3469619451818a3f847fa3507689838
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/staging/datasets/backend/trace?trace_id=34fba3646398892deab6b67b457fc929&trace_start_ts=1699407048&trace_end_ts=1699414248
+Server: nginx
+Set-Cookie: _SESSION=SY9wMDz9PBnBQWWB+nWXoexguT1aY3GOz2yfGenl8AVV6CxS6i8f69mQ7UZWNwpRx77PFRXzrqUMu4G83mA//0bVQgh0kS56xvln70C9Z8zfbdu2GKF8oWRGw545sdqnX/UdUl0UepaPinmkYvSMegOR7E/TkfO2uAysP65RI74pqQ9omjM=; Path=/; Expires=Wed, 08-Nov-2023 04:30:40 GMT; Domain=backend-staging.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=GEdKmmQmTBdjRF980pfSqTq0I33Z4KZNYJCEpASp; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=li1XOGD1M7r8W7Fl1VnuSpoN4wEZGABpbK9OHlwoVKk-1699410648-0-AdjT7dD3UWJb9bHq+0Gkfh+2Tt2v7D6F07Ythj3MxYc4tQtJlK4Xr+X8XLCqAvXfHkbaCImdDaxSUbA17vlOPD8=; path=/; expires=Wed, 08-Nov-23 03:00:48 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-34fba3646398892deab6b67b457fc929-7fbd3281fe2aed8e-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+Vgs-Request-Id: 7d9d2cb80265a480e829de66cddf7d04
+Via: 1.1 reverse-http-proxy-69744fc8dc-5d7ct
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 63
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://synapse-staging.pci.backend-staging.mercury.com:443

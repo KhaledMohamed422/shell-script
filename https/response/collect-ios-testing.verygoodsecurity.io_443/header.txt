@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: collect-ios-testing.verygoodsecurity.io
+User-Agent: Mozilla/4.0 (compatible; GoogleToolbar 4.0.1019.5266-big; Windows XP 5.1; MSIE 6.0.2900.2180)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 66
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:53 GMT
+Server: nginx
+Vgs-Request-Id: a8d8d36dc32175d48a1b7e53f40bef55
+Via: 1.1 reverse-http-proxy-69744fc8dc-6d25b
+X-Envoy-Upstream-Service-Time: 49
+
+Invalid upstream URI. Request id: a8d8d36dc32175d48a1b7e53f40bef55
+
+
+https://collect-ios-testing.verygoodsecurity.io:443

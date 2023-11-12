@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: dummy.cert.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/2.1 Mobile Safari/535.19 Silk-Accelerated=true
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+

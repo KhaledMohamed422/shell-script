@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: whoami.uat.qms.grab.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:45.9) Gecko/20100101 Goanna/3.2 Firefox/45.9 PaleMoon/27.4.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Date: Tue, 07 Nov 2023 20:12:55 GMT
+Location: https://whoami.uat.qms.grab.com/
+Server: Caddy
+Content-Length: 0
+
+
+
+
+http://whoami.uat.qms.grab.com:80

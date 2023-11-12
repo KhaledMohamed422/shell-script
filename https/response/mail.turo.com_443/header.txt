@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: mail.turo.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; motorola edge 20 pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:06:41 GMT
+Server: AmazonS3
+Via: 1.1 a2ce61e5ddc66736c9e2bfb6581fa2da.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: phMuiqIE1wUmXLQfJk_K-j3bJiTmbDTLCnal7sAs-HG_lleWjLGjFA==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>RN85RQWE4TCGMHJA</RequestId><HostId>1rwfonFdtERYFul+cjBQO9HVGRAoi09oTpb40xX6JPblXlkoEchEg6gd+7vsmSb3pZ3NsVFOG0k=</HostId></Error>
+0
+
+
+
+
+https://mail.turo.com:443

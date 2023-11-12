@@ -1,0 +1,44 @@
+GET / HTTP/1.1
+Host: dev-store-eu.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b316aea736a9b-DUS
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:50:04 GMT
+Location: https://dev-store-eu.ui.com/password
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fBbGKh0paluyP1q9NT8Ug7XpSQwAWpvcThdHx%2BnDaZFVrkD5v0wc4m7x2NdSv2avO77fR6SyUy0WupEmdUVUBOkXSFHTvo6mbCUdLzYw%2FtmkAwhNkg%2FbgHhGnWW9cSbLO3drj7w%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=7, db;dur=2, asn;desc="51167", edge;desc="DUS", country;desc="DE", theme;desc="76956991533", pageType;desc="index", servedBy;desc="jdf5", requestID;desc="060577a2-af6e-45ed-8f58-421daec9ce51"
+Server-Timing: cfRequestDuration;dur=35.999775
+Strict-Transport-Security: max-age=7889238
+X-Cache: allow
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west4,gcp-europe-west4
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 060577a2-af6e-45ed-8f58-421daec9ce51
+X-Shardid: 343
+X-Shopid: 2902753325
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 343
+X-Sorting-Hat-Shopid: 2902753325
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+https://dev-store-eu.ui.com:443

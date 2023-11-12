@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: stage.zellepay.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-F926B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ffab01e7c874d-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 18:46:31 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1006
+
+
+https://stage.zellepay.com:8443

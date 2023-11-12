@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: test.info.device.test.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:41:16 GMT
+X-Amz-Apigw-Id: OGCebEhFvHcEpuA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 38763959-21f6-4ce4-9d2d-528870596e0b
+X-Amzn-Trace-Id: Root=1-654be45c-4f91f8327351180d50b0eb47
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://test.info.device.test.gbo.noa.nintendo.com:443

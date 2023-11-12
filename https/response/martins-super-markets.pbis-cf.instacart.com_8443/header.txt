@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: martins-super-markets.pbis-cf.instacart.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82274a8c9bb22181-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:28:10 GMT
+Expires: Tue, 07 Nov 2023 17:28:25 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=kcOrj.UIhYMyji8Rf9nNipWa7Xv3z8jllDawccKr2MA-1699378090-0-AU5XF0+VlUAwqj/p56kNlu2YNVXQu6zSFeDNWlShmifWxN4eRE5VbcMMNpGaUP8qpnrPET/QJ6spshj0nIHernk=; path=/; expires=Tue, 07-Nov-23 17:58:10 GMT; domain=.martins-super-markets.pbis-cf.instacart.com; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11c3

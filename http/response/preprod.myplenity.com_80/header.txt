@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: preprod.myplenity.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 153
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e66f7f81c4b8-DUS
+Content-Security-Policy: default-src https: wss: ; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *; font-src 'self' data: *; connect-src 'self' *; frame-src 'self' *
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Location: https://preprod.myplenity.com/
+Server: cloudflare
+Set-Cookie: ARRAffinity=b30741fb66500bb10620975e89129c5132edd383b2aa72881ed8fb999a1a836e;Path=/;HttpOnly;Domain=preprod.myplenity.com
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://preprod.myplenity.com/">here</a></body>
+
+
+http://preprod.myplenity.com:80

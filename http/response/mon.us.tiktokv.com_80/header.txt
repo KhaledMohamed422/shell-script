@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: mon.us.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:40 GMT
+Server: nginx
+Server-Timing: cdn-cache;desc=miss, edge;dur=0, origin;dur=1
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000032-IAD
+X-Timer: S1699468840.453997,VS0,VE1
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+
+234

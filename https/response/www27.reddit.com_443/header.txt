@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www27.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Pixel Build/NHG47N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:58:11 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf6hu2vxd.2.1699390690946.Z0FBQUFBQmxTcVRqbHdINlNid1ZpeDZteG1jTG1qWGNhSEZBNlNjQUVLc0xFalFDV0Jfd09CQnhELTlTZUx2VzBXR2d0OU5RX083akkzWlhwTmRGTWwxcTlBUGdQaVBCcGZRMEcyQzhZclg4S3NXcXE4QWt0TTRxa1NocFgzOER3T0RWTWZndXFvRjY; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:58:11 GMT; secure
+Set-Cookie: session_tracker=jlgmpqclijmjqjmdoj.0.1699390690949.Z0FBQUFBQmxTcVRqRXRuTTVpRzlfZWZNMldWV0R1VHF6UGVVN0c0X2ZnRHYyWDlKaG5BcW5lM0lKQ3lBdHR2LTNTVk85cWRzLUNheldmWDM2UXNQZkdFYk5oSmwzd3duWTF3cTRPNFc0ZzNkTEFxQ0VsVk5uTGR0aXl4Y045aWFSeW43bGM4c3lwbG0; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:58:11 GMT; secure
+Set-Cookie: edgebucket=1AVFo4p1eU1vdpeHQt; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

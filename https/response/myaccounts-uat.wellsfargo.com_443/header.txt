@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: myaccounts-uat.wellsfargo.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G955F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/92.0.4515.166 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 250
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval' *.wellsfargo.com *.wellsfargo.net ; frame-ancestors 'self'; report-uri /channeltechpublic/csp-reports;
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:35:20 GMT
+Location: https://myaccounts-uat.sec.wellsfargo.com/
+Set-Cookie: myaccounts_443_infra_1=!3DBRk8YfS7UQduyi0PTt8e1qd4sDNioQWbJqXKEATMLmWnbqtvtyWl2Qfj1zmP/R8Rpqz8mLHLwqBA==; path=/; Httponly; Secure
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

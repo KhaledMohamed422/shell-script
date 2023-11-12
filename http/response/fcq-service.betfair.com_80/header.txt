@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: fcq-service.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b78b6ca27a43-DUS
+Date: Tue, 07 Nov 2023 18:42:35 GMT
+Expires: Tue, 07 Nov 2023 19:42:35 GMT
+Location: https://fcq-service.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ua2iI8RASCb5H8P2T6zhMKdQ%2BOv31a2KA%2BWs%2BEnqebZhquO7jnSf1Q9tl1sWi0v1h4j1RdqN4w5ChBuS%2BpeOFaX68zNkd288NQN%2FgL2piYAnCZhGCLsNOnQ7M%2FuEqhWczdrCsbXANIvg"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://fcq-service.betfair.com:80

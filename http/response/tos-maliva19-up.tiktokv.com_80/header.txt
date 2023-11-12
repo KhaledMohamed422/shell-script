@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: tos-maliva19-up.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 504 Gateway Time-out
+Connection: close
+Content-Length: 560
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:07 GMT
+Proxy-Status: 0000201504005043
+Server: TLB
+Server-Timing: cdn-cache;desc=miss, edge;dur=88, origin;dur=6005
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-iad-kjyo7100156-IAD, cache-fra-etou8220085-FRA
+X-Timer: S1699468921.423889,VS0,VE6093
+X-Tt-Logid: 2023110818420039D798F6F15D32678D34
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ae54836f443a60471d50a6193d7383ad60c6735924a60d40c8f11563be6ae6601705780f73fbaabb15fbf6de4d03a71cb176f78a2a659928c329a2bbd001be8d82c8630e391021a1362aeea88b68ca401
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+

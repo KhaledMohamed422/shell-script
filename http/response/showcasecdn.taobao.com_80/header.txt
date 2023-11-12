@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: showcasecdn.taobao.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 369
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699435309
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:21:49 GMT
+Eagleid: 6a0fda9816994353096517644e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache4.l2et2[67,66,403-1280,M], cache42.l2et2[68,0], cache6.cn879[70,70,403-1280,M], cache4.cn879[72,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B532D1F4874363453133C
+X-Oss-Server-Time: 52
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:21:49 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B532D1F4874363453133C</RequestId>
+  <HostId>showcase001.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://showcasecdn.taobao.com:80

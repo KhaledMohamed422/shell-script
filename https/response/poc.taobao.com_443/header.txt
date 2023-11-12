@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: poc.taobao.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.309.0 Safari/532.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Internal Server Error
+Connection: close
+Content-Length: 634
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:17:06 GMT
+Eagleeye-Traceid: 2150440d16994386260141714e1920
+Server: Tengine/AServer-Ingress/3.0.15
+Ups-Target-Key: poc.taobao.com
+

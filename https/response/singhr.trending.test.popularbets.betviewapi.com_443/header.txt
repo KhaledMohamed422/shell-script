@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: singhr.trending.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; CPH2373) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:57:15 GMT
+Server: AmazonS3
+Via: 1.1 d05d62f18b6532eb36f4d53b3337857c.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: R-ysnEBgc3nKQFScV8P-6NSabZ3PAA3jZ_rcBf9G5s299sDtL3MT5A==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>R5EMDSB49YW02965</RequestId><HostId>0Yz3I9wwe/QiKQeo1vMuSw0AQtSP7LPXRcoTxs19QSDYbJA70NlKgnyyv96fITY0XC/kyt3TAuo=</HostId></Error>
+0
+
+
+
+
+https://singhr.trending.test.popularbets.betviewapi.com:443

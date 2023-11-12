@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: register.betfair.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b8ec2847cb22-DUS
+Date: Tue, 07 Nov 2023 18:43:31 GMT
+Expires: Tue, 07 Nov 2023 19:43:31 GMT
+Location: https://register.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TmXcpPKuuSOeZBZ9JnZ%2B0YEiSpTSwyogfRiPrlzuMbMeuovpMm2XZXxA3ht40NJi5UcQg3zJNBbnfx2tGw4B%2BcbDXG9nPVz6y89X083SrL4d49PZt3FSo0FUjoUqNbAMup4WO%2BGsn1nWRsc%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://register.betfair.com:8080

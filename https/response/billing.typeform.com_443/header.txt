@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: billing.typeform.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.1; OpenBSD) KHTML/4.1.4 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:12:59 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=NXwDz51ahradpB1fJcHNDywTElofX61TIArjnhzZoRDfVQ7EXu5/KojWTj/HQFb3V/BRe9uWtvBiyY2SLxyhpU36lw43V7hhgsvl997htcpFuuD84s//lcJe2b/LQoV1XotPKGzmV/iBqhwPluMs9hztg9OTujjTYm3X4QU4uxiB; Expires=Tue, 14 Nov 2023 23:12:59 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=NXwDz51ahradpB1fJcHNDywTElofX61TIArjnhzZoRDfVQ7EXu5/KojWTj/HQFb3V/BRe9uWtvBiyY2SLxyhpU36lw43V7hhgsvl997htcpFuuD84s//lcJe2b/LQoV1XotPKGzmV/iBqhwPluMs9hztg9OTujjTYm3X4QU4uxiB; Expires=Tue, 14 Nov 2023 23:12:59 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://billing.typeform.com:443

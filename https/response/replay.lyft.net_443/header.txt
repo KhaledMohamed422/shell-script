@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: replay.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:58 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9yZXBsYXkubHlmdC5uZXQvIiwgInN2YyI6ICIqLmx5ZnQubmV0In0%3D%7C10.44.106.14%7C1699394698%7C65ccec1bb7ce56c4c86100278bb854ee94470b5cd8345f96738b6695a1d413e5
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+

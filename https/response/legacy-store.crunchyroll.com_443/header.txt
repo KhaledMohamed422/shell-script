@@ -1,0 +1,44 @@
+GET / HTTP/1.1
+Host: legacy-store.crunchyroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e8adbd5b21ab-DUS
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:16:08 GMT
+Location: http://store.crunchyroll.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=G7%2BJa3gKA1JaIqtloc6euhwRAu1g7%2FRwpxPBb5Iumk%2FzkeLqmwmkaBuY3tbQz0WKKUD%2FQ261bIINFd0FPRjW6AJ8eprdE75bJIGnSdO00vquR%2Fd6UHpvNHfZOABptkJIS411YHfaFZ98Xexef90%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=8, db;dur=3, asn;desc="51167", edge;desc="DUS", country;desc="DE", pageType;desc="index", servedBy;desc="gcrp", requestID;desc="d4794b1c-7801-4638-9600-eaa06d5d1c3a"
+Server-Timing: cfRequestDuration;dur=49.999714
+Strict-Transport-Security: max-age=7889238
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Redirect-Reason: http_required
+X-Request-Id: d4794b1c-7801-4638-9600-eaa06d5d1c3a
+X-Shardid: 43
+X-Shopid: 1426489388
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 43
+X-Sorting-Hat-Shopid: 1426489388
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+https://legacy-store.crunchyroll.com:443

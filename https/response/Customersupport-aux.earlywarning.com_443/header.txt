@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: Customersupport-aux.earlywarning.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.49 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Server: BigIP
+Set-Cookie: LastMRH_Session=b3189ac4;path=/;secure
+Set-Cookie: MRHSession=814c17808f6df98f81bd85c5b3189ac4;path=/;secure
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure
+Content-Length: 0
+
+
+
+
+https://Customersupport-aux.earlywarning.com:443

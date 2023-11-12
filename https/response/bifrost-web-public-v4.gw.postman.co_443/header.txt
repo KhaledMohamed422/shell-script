@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: bifrost-web-public-v4.gw.postman.co
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 07:11:05 GMT
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+56
+{"version":"0.6.10","uptime":259252,"mem":0.16454667921953856,"load":[0.78,0.54,0.45]}
+0
+
+
+
+
+https://bifrost-web-public-v4.gw.postman.co:443

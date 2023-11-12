@@ -1,0 +1,49 @@
+GET / HTTP/1.1
+Host: shippingsupplies.whatnot.com
+User-Agent: nook browser/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b44afddc46a85-DUS
+Content-Language: en
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:03:13 GMT
+Etag: "cacheable:1d7e80cdf5168343f90aa24f31156238"
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MZor3%2BHYE18soaPF%2BsqJk61bo7IADe9pJTq%2BVbjzRunOVYbKM%2BToOhfqDRJG5MDTSpgA2lvtfbjGkVuwe%2FSep4ldZswtvh9IoYEIaba1EDVma42%2B0bC8AnTKowL4HPLMGpFubW1l3a03Syq4GIs%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=11, db;dur=3, asn;desc="51167", edge;desc="DUS", country;desc="DE", theme;desc="148119912723", pageType;desc="index", servedBy;desc="9flr", requestID;desc="fc46c91d-87b0-4ed5-8ea0-37e0d117c80a"
+Server-Timing: cfRequestDuration;dur=72.000027
+Set-Cookie: secure_customer_sig=; path=/; expires=Fri, 08 Nov 2024 05:03:13 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=US; path=/; expires=Fri, 08 Nov 2024 05:03:13 GMT
+Set-Cookie: cart_currency=USD; path=/; expires=Wed, 22 Nov 2023 05:03:13 GMT
+Set-Cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22US%22%2C%22sale_of_data_region%22%3Afalse%7D; domain=whatnot.com; path=/; expires=Thu, 09 Nov 2023 05:03:13 GMT; SameSite=Lax
+Set-Cookie: _shopify_y=1d50c009-a657-4e85-9952-3235338ce041; Expires=Thu, 07-Nov-24 05:03:13 GMT; Domain=whatnot.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=64ac35b1-5df1-4c47-916b-b632a1ace30b; Expires=Wed, 08-Nov-23 05:33:13 GMT; Domain=whatnot.com; Path=/; SameSite=Lax
+Set-Cookie: _orig_referrer=; Expires=Wed, 22-Nov-23 05:03:13 GMT; Domain=whatnot.com; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _landing_page=%2F; Expires=Wed, 22-Nov-23 05:03:13 GMT; Domain=whatnot.com; Path=/; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=7889238
+X-Cache: hit, server
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: fc46c91d-87b0-4ed5-8ea0-37e0d117c80a
+X-Shardid: 274
+X-Shopid: 73301623059
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 274
+X-Sorting-Hat-Shopid: 73301623059
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+18031

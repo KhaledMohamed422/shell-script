@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: salesnetdev.marriott.com
+User-Agent: Opera/9.80 (J2ME/MIDP; Opera Mini/8.0.35626/37.8918; U; en) Presto/2.12.423 Version/12.16
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 6439
+Akamai-Grn: 0.bea72917.1699378162.1359eb0b
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:22 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=233
+Server-Timing: origin; dur=31
+Server-Timing: ak_p; desc="1699378162140_388605886_324659979_26320_7424_4_10_-";dur=1
+Set-Cookie: AWSALB=Acbzd7NkRq53MErYV/bqjnyE37xEXV6FX80cLTj4sAxNqFTntKc6HS3dRTi/tQjLWktjFXsIIjcozOZ+nie7hD1JnqbAaRT1d+W6owCGG9Sxdfa/KfKlX0qBMHAe; Expires=Tue, 14 Nov 2023 17:29:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=Acbzd7NkRq53MErYV/bqjnyE37xEXV6FX80cLTj4sAxNqFTntKc6HS3dRTi/tQjLWktjFXsIIjcozOZ+nie7hD1JnqbAaRT1d+W6owCGG9Sxdfa/KfKlX0qBMHAe; Expires=Tue, 14 Nov 2023 17:29:22 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: PF-TEST=y6gHHosQBhRa247i9hOzQK; Path=/; Domain=.marriott.com; Secure; HttpOnly
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+

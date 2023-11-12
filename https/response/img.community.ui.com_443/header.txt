@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: img.community.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 OPR/28.0.1750.40
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 1278
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:54:25 GMT
+Etag: W/"4fe-QxRmzCE1r86FBEKFVgC1CT1IfOk"
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 36cd2d0f34e25c2dc5099656a60bedac.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jUCkHqswS8s3OHmaq6r6apmf1xsz-un2AT4C3qD8Dhz2YQFSlNymaQ==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"errors":[{"message":"This operation has been blocked as a potential Cross-Site Request Forgery (CSRF). Please either specify a 'content-type' header (with a type that is not one of application/x-www-form-urlencoded, multipart/form-data, text/plain) or provide a non-empty value for one of the following headers: x-apollo-operation-name, apollo-require-preflight\n","extensions":{"code":"BAD_REQUEST","stacktrace":["BadRequestError: This operation has been blocked as a potential Cross-Site Request Forgery (CSRF). Please either specify a 'content-type' header (with a type that is not one of application/x-www-form-urlencoded, multipart/form-data, text/plain) or provide a non-empty value for one of the following headers: x-apollo-operation-name, apollo-require-preflight","","    at new GraphQLErrorWithCode (/app/node_modules/@apollo/server/dist/cjs/internalErrorClasses.js:10:9)","    at new BadRequestError (/app/node_modules/@apollo/server/dist/cjs/internalErrorClasses.js:84:9)","    at preventCsrf (/app/node_modules/@apollo/server/dist/cjs/preventCsrf.js:35:11)","    at ApolloServer.executeHTTPGraphQLRequest (/app/node_modules/@apollo/server/dist/cjs/ApolloServer.js:525:50)","    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"]}}]}
+
+
+
+https://img.community.ui.com:443

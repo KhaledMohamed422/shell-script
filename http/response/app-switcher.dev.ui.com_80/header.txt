@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: app-switcher.dev.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.151 Whale/3.14.134.62 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 178
+Cache-Control: no-cache
+Cache-Control: public,must-revalidate,proxy-revalidate,max-age=0
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:04:11 GMT
+Expires: Wed, 08 Nov 2023 04:04:10 GMT
+Location: https://app-switcher.dev.ui.com/
+Server: nginx
+

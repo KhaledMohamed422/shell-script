@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: blog.tradingview.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14588.98.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.59 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:45:13 GMT
+Location: https://www.tradingview.com/blog/
+Server: tv
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Via: 1.1 a6848167f38570c4e775e8ba04d1f1d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sfAJa-njLJcpjfahEb171bt0eIhdp1FQ_siuncuuc1IrFNimsUs2Kg==
+X-Amz-Cf-Pop: DUS51-P1
+X-Cache: Miss from cloudfront
+

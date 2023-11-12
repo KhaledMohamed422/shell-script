@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: receipt.grab.com
+User-Agent: BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 20:39:00 GMT
+Server: CloudFront
+Via: 1.1 24f924c22589fd0429b4463876b2c576.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: b0LvvlrCqQ-C1HtWt0m1veobrURjNukdOBOczD7Lsgu4q-S_nZ5AGg==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://receipt.grab.com:443

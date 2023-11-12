@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: virtualbuy-cdn-daily.alibaba.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.309.0 Safari/532.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699435593
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:26:33 GMT
+Eagleid: de49212516994355936224338e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache27.l2cn1827[,0], vcache25.cn5626[30,65,403-1280,M], vcache17.cn5626[72,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:26:33 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

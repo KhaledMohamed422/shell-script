@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: dev-api.779615562591.hellopublic.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:27:26 GMT
+Referrer-Policy: same-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Via: 1.1 8f4bc83dd77c2931f6260310f57dde66.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fr3fMzk-2iissj8j2bX13yk4voPWVCidOP_lBKCWe6TCaBxWfukbrw==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>72SE8ZE47AG8SQQ7</RequestId><HostId>yOjjA3qkbbOJCMxpWFJETMhZ1xS0hA0GAW/NguBq+StckDJWN2gEEQiHxwVBmmQuiZ74lPuMLlc=</HostId></Error>
+0
+
+
+
+
+https://dev-api.779615562591.hellopublic.com:443

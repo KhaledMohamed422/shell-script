@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: reward-omega-cdn.grab.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-A605G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 5
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:57:20 GMT
+Server: AmazonS3
+Via: 1.1 c091804e03ab5aaaa5fa50ae3fb748d2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CexAQBXUwexI-oeyJ8YYF4OVRj_WOC58R9Mhbt6OeEcKvbekeII0-A==
+X-Amz-Cf-Pop: LHR50-P4
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>8D0KQBEYKBYQ1YEY</RequestId><HostId>UYBcUNsBeNqbsWPIW2qByO06MtljepC5LuPMTpKCcM9GD0H0ax5BjU2zGn11b6Gcg8TonKQ+p7c=</HostId></Error>
+0
+
+
+
+
+http://reward-omega-cdn.grab.com:80

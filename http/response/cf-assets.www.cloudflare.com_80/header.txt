@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cf-assets.www.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227dd3728246a7f-DUS
+Date: Tue, 07 Nov 2023 19:08:18 GMT
+Expires: Tue, 07 Nov 2023 20:08:18 GMT
+Location: https://cf-assets.www.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BF8FVVoqt%2FrStvQnwbNmFOnyjgZjwQwsNgxVKbtDTIKuugBPP1RMzNFnWchZYqfD8vqhpS1oCBzWX73j7IFKcxnEC0ag8udL%2BKrrvhLLCv3L8NPrNBOeWIfgp%2FAvZODfruKcuS%2FfN%2FhNVxTaeHk%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=OyNXdCGMSrB_oKxyb9_SSwE2GLo2sNiG4Eq5F.WUFLo-1699384098-0-Ae10IlJlbvL2xqllYNu3hWyhaePGdWFCF+Ci0KheTtqXExZnBMuhS5jj4JjKBb6uGgk6DI1YDmKZYma6U4QxxI0p0EKPGIR+5ojzb/S/e8LB; path=/; expires=Tue, 07-Nov-23 19:38:18 GMT; domain=.www.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://cf-assets.www.cloudflare.com:80

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Error 403</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: Noto Sans;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/403_indriver/NotoSans-Regular.d23b9a38.woff2) format("woff2"),
+          url(/403_indriver/NotoSans-Regular.52d8ac2a.ttf) format("truetype");
+        unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F, U+400-45F, U+490-491, U+4B0-4B1, U+2116, U+900-97F,
+          U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC,
+          U+A830-A839, U+A8E0-A8FB, U+1F??, U+370-3FF, U+102-103, U+110-111,
+          U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB,
+          U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+          U+2C60-2C7F, U+A720-A7FF, U+??, U+131, U+152-153, U+2BB-2BC, U+2C6,
+          U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: Noto Sans;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/403_indriver/NotoSans-Bold.20787fd9.woff2) format("woff2"),
+          url(/403_indriver/NotoSans-Bold.c8bca258.ttf) format("truetype");
+        unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F, U+400-45F, U+490-491, U+4B0-4B1, U+2116, U+900-97F,
+          U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC,
+          U+A830-A839, U+A8E0-A8FB, U+1F??, U+370-3FF, U+102-103, U+110-111,
+          U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB,
+          U+100-24F, U+259, U+1E??, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113,
+          U+2C60-2C7F, U+A720-A7FF, U+??, U+131, U+152-153, U+2BB-2BC, U+2C6,
+          U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      :root {
+        --turtle-80: #005f1f;
+        --turtle-05: #defde1;
+        --turtle-40: #1edb4e;
+        --turtle-10: #befcc6;
+        --turtle-70: #00892e;
+        --turtle-60: #00ac3c;
+        --turtle-50: #00c73c;
+        --turtle-90: #003026;
+        --turtle-30: #48ea6a;
+        --turtle-20: #7ff592;
+        --chick-05: #fff7e3;
+        --primitives-extensions-water-40: #65dcb4;
+        --crab-10: #ffd1d0;
+        --primitives-extensions-sense-10: #ffe1e8;
+        --panda-80: #323942;
+        --chick-40: #ffb423;
+        --primitives-extensions-storm-70: #974997;
+        --chick-20: #ffdf8d;
+        --primitives-extensions-storm-20: #f9d1fe;
+        --primitives-extensions-fire-80: #702f05;
+        --primitives-extensions-air-60: #3890c3;
+        --primitives-extensions-sense-90: #37141f;
+        --crab-30: #ff847e;
+        --primitives-extensions-air-40: #6ec7f4;
+        --panda-70: #495563;
+        --primitives-extensions-wind-20: #ddd9ff;
+        --primitives-extensions-fire-10: #fff1e7;
+        --whale-40: #55a9ff;
+        --primitives-extensions-sand-60: #d49e06;
+        --primitives-extensions-wind-10: #f1f0fb;
+        --primitives-extensions-water-50: #43c89f;
+        --primitives-extensions-earth-40: #9ede3f;
+        --primitives-extensions-wind-80: #3a356e;
+        --crab-70: #a53531;
+        --primitives-extensions-fire-20: #ffdac8;
+        --primitives-extensions-sand-70: #a97909;
+        --chick-50: #f90;
+        --whale-05: #e8f7ff;
+        --primitives-extensions-earth-10: #e5fdc1;
+        --whale-30: #7cc2ff;
+        --primitives-extensions-earth-50: #83ca19;
+        --primitives-extensions-storm-80: #682d66;
+        --primitives-extensions-water-20: #aef5d8;
+        --chick-70: #aa5a00;
+        --primitives-extensions-sand-80: #76510a;
+        --primitives-extensions-sand-90: #372807;
+        --primitives-extensions-sense-70: #9d4159;
+        --primitives-extensions-earth-20: #cff695;
+        --primitives-extensions-water-90: #093026;
+        --panda-30: #bdc2ce;
+        --panda-85: #272c33;
+        --primitives-extensions-air-90: #0a2736;
+        --primitives-extensions-wind-60: #7a74c9;
+        --panda-25: #c9cdd6;
+        --primitives-extensions-earth-70: #5c8b13;
+        --primitives-extensions-fire-40: #ffa382;
+        --primitives-extensions-sense-50: #ea6d85;
+        --primitives-extensions-fire-70: #a24919;
+        --primitives-extensions-air-20: #b7f0ff;
+        --primitives-extensions-fire-30: #ffc0a6;
+        --chick-80: #753800;
+        --primitives-extensions-air-80: #174d6b;
+        --primitives-extensions-sand-40: #face2e;
+        --primitives-extensions-wind-50: #9993ed;
+        --panda-60: #636e7a;
+        --primitives-extensions-sense-30: #fab;
+        --primitives-extensions-earth-60: #72ae16;
+        --panda-03: #fafafa;
+        --whale-50: #338ffc;
+        --primitives-extensions-air-30: #93defe;
+        --primitives-extensions-air-10: #d9fcff;
+        --primitives-extensions-water-60: #33ac88;
+        --chick-90: #3b1900;
+        --primitives-extensions-air-50: #4aabe5;
+        --primitives-extensions-earth-30: #b8ec69;
+        --panda-05: #f5f5f6;
+        --primitives-extensions-water-10: #d2fcea;
+        --primitives-extensions-sense-40: #f78ca1;
+        --primitives-extensions-sand-20: #ffe692;
+        --primitives-extensions-fire-60: #ce6538;
+        --primitives-extensions-water-70: #24896c;
+        --primitives-extensions-wind-70: #5a549f;
+        --whale-80: #274774;
+        --primitives-extensions-earth-90: #213107;
+        --primitives-extensions-fire-90: #391400;
+        --primitives-extensions-air-70: #27719b;
+        --primitives-extensions-water-80: #155f4b;
+        --panda-35: #afb5c2;
+        --panda-40: #a2a9b7;
+        --whale-70: #2f64a9;
+        --primitives-extensions-sand-50: #f3c000;
+        --primitives-extensions-storm-40: #e69eee;
+        --primitives-extensions-sense-20: #ffc7d3;
+        --primitives-extensions-storm-90: #351432;
+        --primitives-extensions-wind-40: #b6afff;
+        --chick-30: #ffce51;
+        --whale-90: #17263b;
+        --whale-10: #d0eeff;
+        --primitives-extensions-storm-60: #b966be;
+        --whale-60: #337bd6;
+        --panda-50: #848e9c;
+        --primitives-extensions-sense-80: #6d2a3d;
+        --primitives-extensions-wind-30: #cac4ff;
+        --primitives-extensions-sand-30: #ffdb5f;
+        --primitives-extensions-fire-50: #f2845e;
+        --panda-90: #1c2024;
+        --primitives-extensions-sense-60: #c75871;
+        --whale-20: #a5d9ff;
+        --primitives-extensions-storm-30: #f1b9f8;
+        --primitives-extensions-storm-10: #fde8ff;
+        --chick-10: #fff1c0;
+        --primitives-extensions-wind-90: #1b1837;
+        --primitives-extensions-storm-50: #d582df;
+        --primitives-extensions-sand-10: #fff2c3;
+        --panda-10: #ebeced;
+        --primitives-extensions-earth-80: #41600d;
+        --panda-15: #e0e2e6;
+        --panda-white: #fff;
+        --panda-black: #000;
+        --primitives-extensions-water-30: #89ebc6;
+        --chick-60: #d87b00;
+        --crab-05: #ffe9e8;
+        --crab-60: #d13d35;
+        --crab-90: #3a1817;
+        --crab-80: #722927;
+        --crab-50: #f64337;
+        --crab-40: #ff6158;
+        --crab-20: #ffaaa6;
+        --line-height-xs: 16px;
+        --line-height-s: 20px;
+        --line-height-m: 24px;
+        --line-height-l: 28px;
+        --line-height-xl: 32px;
+        --line-height-xxl: 40px;
+        --line-height-xxxl: 50px;
+        --font-size-xs: 12px;
+        --font-size-s: 14px;
+        --font-size-m: 16px;
+        --font-size-l: 20px;
+        --font-size-xl: 24px;
+        --font-size-xxl: 32px;
+        --font-size-xxxl: 48px;
+        --font-family-noto: "Noto Sans", sans-serif;
+        --font-family-landing: Stolzl, sans-serif;
+      }
+      .theme-light {
+        --background-tertiary: #d5d8df;
+        --extensions-text-and-icon-alwaysdark: #323942;
+        --text-and-icon-primary: #323942;
+        --text-and-icon-disabled: #afb5c2;
+        --text-and-icon-accent: #338ffc;
+        --text-and-icon-oncolor: #fff;
+        --extensions-text-and-icon-alwayslight: #fff;
+        --text-and-icon-brand: #00ac3c;
+        --text-and-icon-secondary: #848e9c;
+        --extensions-text-and-icon-warning: #f90;
+        --extensions-text-and-icon-error: #d13d35;
+        --border-disabled: #ebeced;
+        --extensions-background-inverseprimary: #323942;
+        --background-brand: #00ac3c;
+        --extensions-border-error: #d13d35;
+        --extensions-background-error: #d13d35;
+        --extensions-background-overlaylight: #fff;
+        --extensions-background-alwaysdark: #1c2024;
+        --extensions-background-warning: #ffce51;
+        --background-disabled: #fafafa;
+        --extensions-background-overlaydark: #000;
+        --border-brand: #00ac3c;
+        --extensions-background-lightaccent: #e8f7ff;
+        --background-primary: #fff;
+        --extensions-background-lighterror: #ffe9e8;
+        --extensions-background-lightbrand: #defde1;
+        --border-primary: #e0e2e6;
+        --extensions-background-alwayslight: #fff;
+        --background-secondary: #f5f5f6;
+        --extensions-border-accent: #338ffc;
+        --extensions-background-surface: #fff;
+        --background-accent: #338ffc;
+        --statement-text-and-icon-alwaysdarkpressed: #495563;
+        --statement-background-alwayslightpressed: #f5f5f6;
+        --additional-background-additional03: #fff1c0;
+        --additional-shadow-primary: #000;
+        --statement-background-inverseprimarypressed: #1c2024;
+        --additional-background-progressbutton: #005f1f;
+        --statement-background-tertiarypressed: #bdc2ce;
+        --information-text-and-icon-sandmedium: #d49e06;
+        --statement-text-and-icon-errorpressed: #a53531;
+        --information-text-and-icon-windmedium: #7a74c9;
+        --information-text-and-icon-firemedium: #ce6538;
+        --information-text-and-icon-earthmedium: #72ae16;
+        --statement-text-and-icon-secondarypressed: #bdc2ce;
+        --information-text-and-icon-watermedium: #33ac88;
+        --statement-text-and-icon-primarypressed: #495563;
+        --information-text-and-icon-airmedium: #3890c3;
+        --statement-text-and-icon-accentpressed: #337bd6;
+        --information-text-and-icon-stormmedium: #b966be;
+        --statement-text-and-icon-oncolorpressed: #f5f5f6;
+        --information-text-and-icon-sensemedium: #c75871;
+        --statement-text-and-icon-brandpressed: #00892e;
+        --statement-text-and-icon-warningpressed: #d87b00;
+        --information-background-airdark: #174d6b;
+        --information-background-sandlight: #fff2c3;
+        --information-background-waterlight: #d2fcea;
+        --information-background-windlight: #f1f0fb;
+        --information-background-firelight: #fff1e7;
+        --information-background-earthlight: #e5fdc1;
+        --information-background-airlight: #d9fcff;
+        --information-background-stormlight: #fde8ff;
+        --information-background-senselight: #ffe1e8;
+        --additional-background-additional02: #848e9c;
+        --additional-background-brandstatic: #00ac3c;
+        --statement-border-focused: #48ea6a;
+        --statement-background-brandpressed: #00892e;
+        --statement-border-brandpressed: #00892e;
+        --statement-background-lightbrandpressed: #befcc6;
+        --statement-background-warningpressed: #ffb423;
+        --statement-border-primarypressed: #e0e2e6;
+        --statement-background-accentpressed: #337bd6;
+        --statement-background-additional01pressed: #e55f12;
+        --statement-border-accentpressed: #337bd6;
+        --statement-border-errorpressed: #a53531;
+        --statement-background-primarypressed: #f5f5f6;
+        --statement-background-errorpressed: #a53531;
+        --statement-background-secondarypressed: #ebeced;
+        --additional-background-additional01: #ff6500;
+        --line-height-xs: 16px;
+        --line-height-s: 20px;
+        --line-height-m: 24px;
+        --line-height-l: 28px;
+        --line-height-xl: 32px;
+        --line-height-xxl: 40px;
+        --line-height-xxxl: 50px;
+        --font-size-xs: 12px;
+        --font-size-s: 14px;
+        --font-size-m: 16px;
+        --font-size-l: 20px;
+        --font-size-xl: 24px;
+        --font-size-xxl: 32px;
+        --font-size-xxxl: 48px;
+        --font-family-noto: "Noto Sans", sans-serif;
+        --font-family-landing: Stolzl, sans-serif;
+      }
+      :root {
+        --ab-main-black: #1c1c1c;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-family: var(--font-family-noto);
+        color: var(--ab-main-black);
+      }
+      .page {
+        box-sizing: border-box;
+        height: 100%;
+        align-items: flex-end;
+        gap: 64px;
+        padding-right: 98px;
+        display: flex;
+      }
+      .page__image {
+        max-width: 834px;
+        width: 80%;
+        font-size: 0;
+        line-height: 0;
+      }
+      .page__message {
+        grid-template-columns: auto;
+        align-self: flex-start;
+        row-gap: 40px;
+        margin-top: 232px;
+        display: grid;
+      }
+      .message__code {
+        grid-template-columns: max-content max-content;
+        align-items: baseline;
+        gap: 28px;
+        display: grid;
+      }
+      .message__code .description {
+        letter-spacing: -0.2px;
+        color: var(--text-and-icon-secondary);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 44px;
+      }
+      .message__code .code {
+        letter-spacing: -0.2px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 44px;
+      }
+      .message__explanation {
+        letter-spacing: -0.2px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 44px;
+      }
+      .message__hint {
+        letter-spacing: -0.2px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 44px;
+      }
+    </style>
+  </head>
+  <body class="theme-light">
+    <div class="page">
+      <div class="page__image">
+        <picture>
+          <img src="./403_indriver/image.d692bb35.svg" alt="man-with-phone" />
+        </picture>
+      </div>
+      <div class="page__message">
+        <div class="message__primary">
+          <div class="message__code">
+            <span class="code">403</span>
+            <span class="description">That’s an error</span>
+          </div>
+          <div class="message__explanation">
+            You have no permission to access
+          </div>
+        </div>
+        <div class="message__hint">Please enable company VPN</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+0
+
+
+
+
+http://lena.indriver.com:80

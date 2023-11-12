@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: medialab.alibaba-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 426
+Ali-Swift-Global-Savetime: 1699438098
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:08:18 GMT
+Eagleid: 2ff6029c16994380981302393e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[599,599,403-1280,M], cache14.l2de2[601,0], cache16.ru3[736,736,403-1280,M], cache8.ru3[742,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B5E1238B0ED3037B5E3B4
+X-Oss-Server-Time: 1
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:08:18 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B5E1238B0ED3037B5E3B4</RequestId>
+  <HostId>ascp-pkg-materials.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <Bucket>ascp-pkg-materials</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+https://medialab.alibaba-inc.com:443

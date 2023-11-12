@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: beast.sticker.cdn.magisto.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 04:44:47 GMT
+Server: CloudFront
+Via: 1.1 2ba7b49ec4c4de4e67297e603c89a5e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ljcGXXxcDG6j8larrcUGSFeRsDVxjjeLj694-fbwKxBTd5mXxhj1Xg==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://beast.sticker.cdn.magisto.com:443

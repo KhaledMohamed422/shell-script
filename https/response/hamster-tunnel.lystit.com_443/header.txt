@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: hamster-tunnel.lystit.com
+User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822cf08b9d98fb5c-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 09:55:19 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1010
+
+
+https://hamster-tunnel.lystit.com:443

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: sandboxapis.newegg.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; POCO F1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 76
+Accept-Ranges: bytes
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:39:12 GMT
+Expires: Wed, 08 Nov 2023 19:39:12 GMT
+Nel: {"report_to": "default", "max_age": 2592000}`);
+Pragma: no-cache
+Report-To: {"group":"default","max-age":10886400,"include_subdomains":"true","endpoints":[{"url":"https://pf.newegg.com/csp"}]};
+Strict-Transport-Security: max-age=31536000
+X-Edge: output
+X-Lasttime: 1699472353
+X-Nid: 5z6I9D8O0M3472725z
+X-Nvtc: 248326808.0001.bbe060f03.1699472352.1699472352.1699472352.1
+X-Served-By: 110008
+X-Ver: 03032001
+X-Xss-Protection: 1; report=https://pf.newegg.com/csp?source=xss
+
+{"errorCode":"403","errorMessage":"We were unable to locate your API Key."}
+
+
+
+https://sandboxapis.newegg.com:443

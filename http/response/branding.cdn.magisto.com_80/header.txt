@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: branding.cdn.magisto.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:06:27 GMT
+Server: AmazonS3
+Via: 1.1 968007545c497b68cc41825f11e930ba.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: ue1pGNEiNo8aC4HFwbaG7RGridkKJheBFVEUb9XwfTic1PqDN5ZS9Q==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7YPHBRHRFJ2P81NK</RequestId><HostId>HZAxOUi0+za5kenY8SNd6GVWj8VOLPdcRKVqZgN//bGaVECXqqvg/whmoDWjt3GWkqbxzSxe3Ho=</HostId></Error>
+0
+
+
+
+
+http://branding.cdn.magisto.com:80

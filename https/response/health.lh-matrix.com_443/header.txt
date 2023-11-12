@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: health.lh-matrix.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; AC2001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 122
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 03:34:17 GMT
+X-Amz-Apigw-Id: OD009G7loAMEcgg=
+X-Amzn-Requestid: e7ac7ef8-73f3-44e1-a113-196f8bebecc4
+X-Amzn-Trace-Id: Root=1-654b01b9-7c30bc754de2a3b35435e0ab;Sampled=1;lineage=62c53ec0:0
+X-Health-Revision: 9caf64119bbde7ebda461567197c475daae8c637
+X-Stack: lh-matrix
+
+{
+  "service": "health",
+  "stack": "lh-matrix",
+  "revision": "9caf64119bbde7ebda461567197c475daae8c637",
+  "code": 200
+}
+
+
+https://health.lh-matrix.com:443

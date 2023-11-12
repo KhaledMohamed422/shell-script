@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: help.creditkarma.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public,max-age=600
+Content-Security-Policy: upgrade-insecure-requests
+Content-Security-Policy: frame-ancestors 'self' *.force.com creditkarma1.lightning.force.com support.creditkarma.com https://accounts.creditkarma.com https://sh-exp-ck.app.intuit.com https://tax.creditkarma.com portal.creditkarma.com
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:15:40 GMT
+Expires: Tue, 07 Nov 2023 19:25:40 GMT
+Last-Modified: Tue, 07 Nov 2023 19:15:40 GMT
+P3p: CP="CUR OTR STA"
+Referrer-Policy: origin-when-cross-origin
+Server: sfdcedge
+Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Wed, 06-Nov-2024 19:15:40 GMT; Max-Age=31536000
+Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Wed, 06-Nov-2024 19:15:40 GMT; Max-Age=31536000
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOW-FROM 'self'
+X-Powered-By: Salesforce.com ApexPages
+X-Sfdc-Request-Id: a363800e8e1bd004de4dca0db0367e00
+X-Xss-Protection: 1; mode=block
+
+6f6
+

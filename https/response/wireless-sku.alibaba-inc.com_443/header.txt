@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: wireless-sku.alibaba-inc.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_1 like Mac OS X; zh-CN) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19B81 UCBrowser/13.7.2.1636 Mobile AliApp(TUnionSDK/0.1.20.4) dv(iPh14,5);pr(UCBrowser/13.7.2.1636);ov(15_1_1);ss(390x844);bt(UC);pm(0);bv(0);nm(0);im(0);nt(1);
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 429
+Ali-Swift-Global-Savetime: 1699439668
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:34:28 GMT
+Eagleid: a3b55c9e16994396682901780e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[328,328,403-1280,M], cache20.l2de2[330,0], ens-cache15.de5[341,340,403-1280,M], ens-cache10.de5[343,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B6434419DF7383186D9C9
+X-Oss-Server-Time: 15
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:34:28 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B6434419DF7383186D9C9</RequestId>
+  <HostId>sku-real-time-update.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>sku-real-time-update</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+https://wireless-sku.alibaba-inc.com:443

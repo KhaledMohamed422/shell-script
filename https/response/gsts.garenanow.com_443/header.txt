@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: gsts.garenanow.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 271
+Alt-Svc: h3-Q050=":443"; ma=93600,quic=":443"; ma=93600; v="46,43"
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:15:35 GMT
+Expires: Tue, 07 Nov 2023 19:15:35 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+

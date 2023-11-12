@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: previewmapping.ue1.d1.tstaging.com
+User-Agent: Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 18:46:07 GMT
+Server: AmazonS3
+Via: 1.1 75a13c74495137fb5435dc4030981df6.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: NeTbX4h2GU5dFgqWYzoqXYpsV7jpppkd2R2mFnC55N3FLaIsAzyLQw==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CF17FVBSXX59311B</RequestId><HostId>UtO5SmnjqooGk+RQHgPou7PPQiJHUpNAD/Lun9R6+rkylnphE/oYiqr+bW3EdUNKvmwSN+ck3NI=</HostId></Error>
+0
+
+
+
+
+https://previewmapping.ue1.d1.tstaging.com:443

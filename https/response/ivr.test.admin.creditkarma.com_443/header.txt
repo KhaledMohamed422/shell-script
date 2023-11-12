@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: ivr.test.admin.creditkarma.com
+User-Agent: Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 60
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 19:15:58 GMT
+Server: envoy
+Via: 1.1 google
+X-Envoy-Upstream-Service-Time: 1
+
+{"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+
+https://ivr.test.admin.creditkarma.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: download.uid.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-M315F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:50:26 GMT
+Server: AmazonS3
+Via: 1.1 d20f19c14113bb86116d01e6cb4e2844.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: x5ZHULFzGxABGwEDwqZ-QZwF0J_L1ftlAK0DbrGNsBPDn14LjSv_-g==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>98T3WKJBPFRRJVW2</RequestId><HostId>DnNz5ln4Nt8mfl3s3UR8vKEGX+Gw3d4ss2/mfQoTZDwqgX0kC1+bPAF3MY8blSOTxxOMwF3axU4=</HostId></Error>
+0
+
+
+
+
+https://download.uid.ui.com:443

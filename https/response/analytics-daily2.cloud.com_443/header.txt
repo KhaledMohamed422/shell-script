@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: analytics-daily2.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 856
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: http://localhost:1337
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'none'; script-src https://* 'strict-dynamic' 'unsafe-inline'  'nonce-JYrn1hakCKGZPglOFqbMjA=='; connect-src 'self' blob: https://cdn-to-delete.azureedge.net https://cas-api-cdn-ep-daily.azureedge.net https://*.cloud.com https://*.nsdevrocks.net https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://casapf-ase-linux-dev.casdal-ase-devtest-env.p.azurewebsites.net/ https://casdal-ase-daily.cas-ase-api-daily.p.azurewebsites.net/ localhost:8080/ localhost:8000/ https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://ccpendo.blob.core.windows.net https://pendo-static-6508245000126464.storage.googleapis.com https://cdn.pendo.io https://bam.nr-data.net https://apigw.analytics-daily.cloud.com/DAL/graphql https://cas-api-gw-ase-daily.cas-ase-api-daily.p.azurewebsites.net/DAL/graphql https://apigw.analytics-daily.cloud.com/DAL/graphql https://*.citrixworkspacesapi.net https://*.ctxwsstgapi.net https://cis.citrix.com https://*.cloudnacho.com https://*.mapbox.com https://o167200.ingest.sentry.io/api/5388354/store/ https://casstorageuilogdaily.blob.core.windows.net/ https://docs.citrix.com; img-src 'self' data: blob: image/svg+xml image/png https://cdn-to-delete.azureedge.net https://cas-api-cdn-ep-daily.azureedge.net https://*.cloud.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://*.storage.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn-to-delete.azureedge.net https://cas-api-cdn-ep-daily.azureedge.net https://*.cloud.com https://cdn-web.citrix.com/can.cdn/marketing/assets/fonts/citrix-fonts-linking.css https://*.storage.googleapis.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://cas-api-gw-ase-cdn-daily.azureedge.net https://tagmanager.google.com https://fonts.googleapis.com https://cas-api-gw-ase-cdn-devtest.azureedge.net https://cas-ui-cdn-ep-daily2.azureedge.net; font-src 'self' data: https://*.cloud.com https://*.cloudburrito.com https://cdn-web.citrix.com https://fonts.gstatic.com; child-src blob: ;worker-src blob: ;frame-src *;frame-ancestors 'self';object-src 'none';
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:07 GMT
+Location: https://citrix.cloud.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3MtZGFpbHkyLmNsb3VkLmNvbS87UTBNdFVsTkJMVk5JUVRJMU5pMHlPekUyT1Rrek9UZzJOamM3WW1ZNVlqRmlaamRoWkRKaE1XWTBaVE5sWWpRNVl6WXpZamcxTjJOak5UZzdVa3BXU1RoamRYUTBRbEJsYjNscFRGSjJkakZVYjBONk9EZDNRMU5NZGtGcGFXWnpZMnRaT0VRMk5rTkZRWFZSYm01dlIydEhZMGcxZG0xeFRWSmhXazAyZW04cmVuZzJVak5XWlhCS1NFcFZTVW93TlVkU1puZG9OR3BGUm1SNVJ5OVRSVGhEZUdaV1RqQnVZbTVsUlN0amFXSjFXRmxQYjJ0bFNEQlZkMDE1TUcxUU1VSTFjV0YzTkV0R2NVUnFaa1ZZUVZCbFVURXJjVnBtZVZCdFFreDNPSFkyT1VkNk5XWXpOalV2VVhNM0wwTktkVnByWm01NWMzZDNPR0l4UWtwNVNYTkVUVEZvVVdOcU5FUldibmRvYVU1eVlUQmpWbVZYVERoTk1XcGpiVGMzVVhCS1dHOUxjM1ZsTWxwTFRqaHFWRUZPVGtoSlowSnNTWE41T1d4dWRDc3pURk5XWVdWeFQyOTJSSHBzVG5OWlJqVlNUWEY2Tlc1UE0ybzBabVpSUldKRlIxZElVa2RQWWk5cmNETjRjVUo1VjJKS2JITTROemhtTTFSU2F6RndUMnd2UnpkVFdreFdaeXN4V1ZWV01VNW5QVDA3UTBGVGMyVnlkbWxqWlhNPQ
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin, Accept, Accept-Encoding
+X-Azure-Ref: 20231107T231107Z-w9nn9c6g1h3kfefm501an6bv3s000000011g00000000n647
+X-Cache: CONFIG_NOCACHE
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 5
+X-Powered-By: Express
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://citrix.cloud.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3MtZGFpbHkyLmNsb3VkLmNvbS87UTBNdFVsTkJMVk5JUVRJMU5pMHlPekUyT1Rrek9UZzJOamM3WW1ZNVlqRmlaamRoWkRKaE1XWTBaVE5sWWpRNVl6WXpZamcxTjJOak5UZzdVa3BXU1RoamRYUTBRbEJsYjNscFRGSjJkakZVYjBONk9EZDNRMU5NZGtGcGFXWnpZMnRaT0VRMk5rTkZRWFZSYm01dlIydEhZMGcxZG0xeFRWSmhXazAyZW04cmVuZzJVak5XWlhCS1NFcFZTVW93TlVkU1puZG9OR3BGUm1SNVJ5OVRSVGhEZUdaV1RqQnVZbTVsUlN0amFXSjFXRmxQYjJ0bFNEQlZkMDE1TUcxUU1VSTFjV0YzTkV0R2NVUnFaa1ZZUVZCbFVURXJjVnBtZVZCdFFreDNPSFkyT1VkNk5XWXpOalV2VVhNM0wwTktkVnByWm01NWMzZDNPR0l4UWtwNVNYTkVUVEZvVVdOcU5FUldibmRvYVU1eVlUQmpWbVZYVERoTk1XcGpiVGMzVVhCS1dHOUxjM1ZsTWxwTFRqaHFWRUZPVGtoSlowSnNTWE41T1d4dWRDc3pURk5XWVdWeFQyOTJSSHBzVG5OWlJqVlNUWEY2Tlc1UE0ybzBabVpSUldKRlIxZElVa2RQWWk5cmNETjRjVUo1VjJKS2JITTROemhtTTFSU2F6RndUMnd2UnpkVFdreFdaeXN4V1ZWV01VNW5QVDA3UTBGVGMyVnlkbWxqWlhNPQ
+
+
+https://analytics-daily2.cloud.com:443

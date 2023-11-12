@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: beta.betfair.com:8443
+User-Agent: Lynx/2.8.7dev.4 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.8d
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227ba5549a26a7f-DUS
+Date: Tue, 07 Nov 2023 18:44:29 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.betfair.com/exchange/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KxHiVhTQGxVs2iey62fBnp%2BvL9K5uwzYZfpghHAM2kxKKM6ES%2FEJ%2FKZwv%2FL7vcXLRvg7TYahMPnVEzaVwOyYEPxZ9PUsB3mdZO1Y6848zRM69u3BRHJP4BhbI%2FWI14YseMd1hq%2BVeQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://beta.betfair.com:8443

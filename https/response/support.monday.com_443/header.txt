@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: support.monday.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822d1d3fbf8a717e-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:25:50 GMT
+Location: https://support.monday.com/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xxAik5eFDJ4xO0wnnTAECOIin9pgT9RoDLttOuK2jmbTdL%2F76GckaoumW%2FPrJkf0uZusaApHCbYNFWqM0zOsQo8WC2cGlAf1a7vPVxwR5FI2OuNhANq1PwNtt6jIjobGFXl0KA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=bmhlQmMxUW12dEZ1U3NHU2ZpaGFyRnVhK0tYdFl5elZURDIzQW8zZGRiVmNnL2hYclltZGY0OEVOKzJ1MFBxRXdZNHRLOFJqS1JseldBSkJwN2lMb2c9PS0tWXN1bkVGY0o4ZzZXUHplOWxGbWFuZz09--9424d996911bd73e987b2a722ee41b6eaaa9b52b; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=69d2b72e7c8f3f255288e522e10e7a3bc7b4f77a-1699439150; path=/; domain=.support.monday.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=259200;
+X-Request-Id: 822d1d3fbf8a717e-DUS
+X-Request-Id: 822d1d3fbf8a717e-DUS
+X-Runtime: 0.033944
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-f869b8b58-2nq2m
+X-Zendesk-Processed-Host-Header: support.monday.com
+X-Zendesk-Zorg: yes
+
+5f

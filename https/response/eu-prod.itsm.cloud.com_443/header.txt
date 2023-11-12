@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: eu-prod.itsm.cloud.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 839
+Citrix-Transactionid: 7e163790-72f5-41e8-a567-7659eee9b174
+Content-Security-Policy: default-src 'self' cloud.com *.cloud.com *.itsm.cloud.com *.citrixworkspacesapi.net *.googletagmanager.com *.google-analytics.com *.customer.pendo.io *.pendo.io www.cloud.com;script-src 'self' 'unsafe-inline' cloud.com *.cloud.com *.itsm.cloud.com *.citrixworkspacesapi.net *.googletagmanager.com *.google-analytics.com *.customer.pendo.io *.pendo.io www.cloud.com;style-src 'self' https: 'unsafe-inline' cloud.com *.cloud.com *.itsm.cloud.com *.citrixworkspacesapi.net;font-src 'self' https: data: cloud.com *.cloud.com *.itsm.cloud.com *.citrixworkspacesapi.net;img-src 'self' https: data: cloud.com *.cloud.com *.itsm.cloud.com *.citrixworkspacesapi.net;base-uri 'self';form-action 'self';frame-ancestors 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests
+Content-Type: text/plain; charset=utf-8
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 07 Nov 2023 23:18:37 GMT
+Location: https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9ldS1wcm9kLml0c20uY2xvdWQuY29tLztRME10VWxOQkxWTklRVEkxTmkweU96RTJPVGt6T1RreE1UWTdPRFF3TkRnek9ERTNPVGRoTm1RM05HWXhNVE5pT1RneU1ERTJNbUkxWXpVN2NHNVdZa3hXYkc5WVFuTk9Xa2Q2VDBReldrUXJURVJhVG5aNE1WcHVUVXQ1TTBZcmQwNVNaM0owUWpWM1VVUnJVbVJsTkZwVGNsbHFWVkE0TUdaNVNHMXJWRmhJTlUxcU1UaEthM3B0ZUdKb1R6RnliamxPVVZkMU1tRm9hMFppUkN0M05rbERjR1ZXZFVoV01IZGFMemRpWm1sa1pVWnNXbk5CY0RoWWFIYzRUVUpxUTBZdk1raFNjbTB4ZG04MmJYQjBlak5EY1ZwU2JXWkJNMUU1ZGpjeWNHTnNiMDEyYUROMlVVMHdaa3M1T0ZGYVNHMVpPVmwxT1M5S0wwVm5WVWRrVVhreVFtSnVlU3MxSzJWc1JFaHBlbGt4V1dwamVEUlNOMkpPTmpJemRXSm9XbEU0V1RWV2RGVjZkVk5MY0RsS1F5OVZUR2hDYkV4RlVucGhNa3R5WnpaTFIxQjFlazVQT0VOeFV6Wm5UR1pzUm10amNWWTNTMUF5Wms5VVIyaGhPVFZITm1wNmNHaFBWRWxQYVRsa1pqQnhOek5ZTURoVmFGbHJlWEpWY3paSVNHUnVXRFZyVTA1NlVIbzRLM1kxVlZoQlBUMDdTVlJUVFE9PQ
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin, Accept
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9ldS1wcm9kLml0c20uY2xvdWQuY29tLztRME10VWxOQkxWTklRVEkxTmkweU96RTJPVGt6T1RreE1UWTdPRFF3TkRnek9ERTNPVGRoTm1RM05HWXhNVE5pT1RneU1ERTJNbUkxWXpVN2NHNVdZa3hXYkc5WVFuTk9Xa2Q2VDBReldrUXJURVJhVG5aNE1WcHVUVXQ1TTBZcmQwNVNaM0owUWpWM1VVUnJVbVJsTkZwVGNsbHFWVkE0TUdaNVNHMXJWRmhJTlUxcU1UaEthM3B0ZUdKb1R6RnliamxPVVZkMU1tRm9hMFppUkN0M05rbERjR1ZXZFVoV01IZGFMemRpWm1sa1pVWnNXbk5CY0RoWWFIYzRUVUpxUTBZdk1raFNjbTB4ZG04MmJYQjBlak5EY1ZwU2JXWkJNMUU1ZGpjeWNHTnNiMDEyYUROMlVVMHdaa3M1T0ZGYVNHMVpPVmwxT1M5S0wwVm5WVWRrVVhreVFtSnVlU3MxSzJWc1JFaHBlbGt4V1dwamVEUlNOMkpPTmpJemRXSm9XbEU0V1RWV2RGVjZkVk5MY0RsS1F5OVZUR2hDYkV4RlVucGhNa3R5WnpaTFIxQjFlazVQT0VOeFV6Wm5UR1pzUm10amNWWTNTMUF5Wms5VVIyaGhPVFZITm1wNmNHaFBWRWxQYVRsa1pqQnhOek5ZTURoVmFGbHJlWEpWY3paSVNHUnVXRFZyVTA1NlVIbzRLM1kxVlZoQlBUMDdTVlJUVFE9PQ
+
+
+https://eu-prod.itsm.cloud.com:443

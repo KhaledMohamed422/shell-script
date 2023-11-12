@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: zaklady.unibet.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.4; Linux 2.6.32-22-generic; X11; en_US) KHTML/4.4.3 (like Gecko) Kubuntu
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:00:51 GMT
+Location: https://zaklady.unibet.com/
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_desktop; Domain=zaklady.unibet.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: M
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: dalink.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.49 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 370
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:49:12 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B599814A30E3632195116
+X-Oss-Server-Time: 9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B599814A30E3632195116</RequestId>
+  <HostId>dalink.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://dalink.cn-hangzhou.oss-pub.aliyun-inc.com:443

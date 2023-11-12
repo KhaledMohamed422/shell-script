@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: sandbox-ads.tiktok.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:22 GMT
+Expires: Wed, 08 Nov 2023 18:46:22 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=503, origin; dur=10
+X-Akamai-Request-Id: 14615c5a.7e28c7f
+X-Cache: TCP_MISS from a23-55-109-150.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Cache-Remote: TCP_MISS from a23-211-140-46.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Origin-Response-Time: 10,23.211.140.46
+X-Parent-Response-Time: 512,23.55.109.150
+X-Tt-Logid: 20231108184620B45D56821FA43C0F4D5B
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a3b30e0b4af6f59d81315bcf708da831dc797ef3d65d5631936657b4d11a9ff27b7e11ee18de81ead58d7e520b847ea5892175dd0ad7bf8d280e1ac300cbbddcf
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

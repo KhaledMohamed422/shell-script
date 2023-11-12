@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: azure-mc.test.mnscorp.net
+User-Agent: SAMSUNG-S8000/S8000XXIF3 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1 FirePHP/0.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 129
+Audit-Id: 8f2d77d8-ef0c-4c2b-bef3-bb2b21f57765
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:26:42 GMT
+
+{"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"Unauthorized","reason":"Unauthorized","code":401}
+
+
+
+https://azure-mc.test.mnscorp.net:443

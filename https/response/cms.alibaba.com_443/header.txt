@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: cms.alibaba.com
+User-Agent: SonyEricssonT610/R201 Profile/MIDP-1.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 125
+Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version,x-fc-instance-id
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 09:47:37 GMT
+Eagleeye-Traceid: 213e1fe116994368571657076e6cb1
+Server: Tengine/Aserver
+X-Fc-Error-Type: FCCommonError
+X-Fc-Request-Id: 1-654b5939-acd354055bd2b635dfee8f64
+
+{"ErrorCode":"DomainRouteNotFound","ErrorMessage":"no route found in domain 'cms.alibaba.com' for path '/' and method 'GET'"}
+
+
+https://cms.alibaba.com:443

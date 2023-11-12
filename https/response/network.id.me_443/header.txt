@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: network.id.me
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:29:16 GMT
+Expires: Wed, 08 Nov 2023 02:29:16 GMT
+Link: <https://network.id.me/wp-json/>; rel="https://api.w.org/"
+Link: <https://network.id.me/wp-json/wp/v2/pages/41>; rel="alternate"; type="application/json"
+Link: <https://network.id.me/>; rel=shortlink
+Permissions-Policy: geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=959
+Server-Timing: origin; dur=27
+Server-Timing: ak_p; desc="1699410555574_34674366_701278305_98557_11680_4_28_-";dur=1
+Strict-Transport-Security: max-age=63072000
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 22732 0 pmb=mRUM,1
+X-Cache-Group: normal
+X-Cacheable: SHORT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

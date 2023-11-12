@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: spotlight.tiktok.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 136
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:31 GMT
+Expires: Wed, 08 Nov 2023 18:46:31 GMT
+Location: https://www.tiktok.com/404
+Pragma: no-cache
+Proxy-Status: 0000201302026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=338, origin; dur=28
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+X-Akamai-Request-Id: 2b1de3dc.7d53c6c
+X-Cache: TCP_MISS from a23-15-178-38.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-75-21-30.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 28,23.75.21.30
+X-Parent-Response-Time: 360,23.15.178.38
+X-Tt-Logid: 2023110818463096A59E5AA21A7626E5ED
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a3bae65462067d79fb76e5dc661b35901c4e876b269720ff53aea594844904448f5d80ab210ed4c30bb58b1a7032184a3b25aa948de0f0b50f2cb9c13d3bd60b4
+X-Tt-Trace-Id: 00-23110818463096A59E5AA21A7626E5ED-5925401E0882FF71-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

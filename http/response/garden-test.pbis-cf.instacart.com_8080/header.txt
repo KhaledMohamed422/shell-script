@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: garden-test.pbis-cf.instacart.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-gb) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.5603M
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822739b30babc4ae-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:16:40 GMT
+Expires: Tue, 07 Nov 2023 17:16:55 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=zcNmKF6wS0qXE_.AbXGcOAaAe00y.4VBJHz2CvAFm1A-1699377400-0-Ac+iAssLvQi0q7cOLo90Qm/IQSn9lmMJGbg0DioItIXyYHVyA4qxbxKP6pbMy3jH5cdcFzXI06eYUcLBCifzUXI=; path=/; expires=Tue, 07-Nov-23 17:46:40 GMT; domain=.garden-test.pbis-cf.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11b9

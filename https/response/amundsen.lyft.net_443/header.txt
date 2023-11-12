@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: amundsen.lyft.net
+User-Agent: Offline Explorer/2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:01:30 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9hbXVuZHNlbi5seWZ0Lm5ldC8iLCAic3ZjIjogIioubHlmdC5uZXQifQ%3D%3D%7C10.45.116.90%7C1699394490%7Cacf593b0eb542215b1cd0443b2a9354c0ed1517fb9901220d89f04bed94b37c4
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

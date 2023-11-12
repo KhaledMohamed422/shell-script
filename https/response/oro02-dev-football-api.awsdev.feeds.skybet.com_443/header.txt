@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: oro02-dev-football-api.awsdev.feeds.skybet.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/20100101 Firefox/5.0 Iceweasel/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:23 GMT
+X-Amz-Apigw-Id: OCnWjEO9DoEEQdg=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 0b5194d9-66dc-484f-985e-8d07cbc5c6d3
+
+{"message":"Forbidden"}
+
+
+https://oro02-dev-football-api.awsdev.feeds.skybet.com:443

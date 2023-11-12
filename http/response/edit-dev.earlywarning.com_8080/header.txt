@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: edit-dev.earlywarning.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ff025c98f6a7c-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 18:39:19 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1006
+
+
+http://edit-dev.earlywarning.com:8080

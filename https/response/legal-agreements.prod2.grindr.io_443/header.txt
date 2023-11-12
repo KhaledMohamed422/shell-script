@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: legal-agreements.prod2.grindr.io
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:28:55 GMT
+Server: AmazonS3
+Via: 1.1 987865b81ba895db5b3f56f8ae175c84.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N2SclBYNx_etgt0w1R8xuIYnd-R4lfiFWjR40yaieMskwP2OlGCR7w==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7340NP82WNB9164H</RequestId><HostId>nBi4jCtisoaxYuYSboDxM0tRaA4mxcQt1iMtAkg0p9PRvd8gwnSNY33yBRiPYb1qCkU2SF8UBBE=</HostId></Error>
+0
+
+
+
+
+https://legal-agreements.prod2.grindr.io:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: monitoring-api.gw.postman.com
+User-Agent: Mozilla/5.0 (iPod touch; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML like Gecko) Version/7.0 Mobile/11D167 Safari/123E71C
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 188
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c13a3483e6a83-DUS
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 07:24:31 GMT
+Link: <https://monitoring-api.gw.postman.com/>; rel="self"
+Server: cloudflare
+Set-Cookie: __cf_bm=e8xjmG_.BH_QRgHA.ejxdKObjZmm5OdBca8QRXH6Ue8-1699428271-0-AZnLKDql51q3skIdjavy5edLey8hdnMOBVvMNz5wxH0opFKAFo65gL4QIsUYSu9y+zNbnry3IBUUXIg3M3SGvHY=; path=/; expires=Wed, 08-Nov-23 07:54:31 GMT; domain=.postman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=PwbzJnjnULSD92PoFdi3UF.aUZlr7pDDksPHcJ5wGVE-1699428271004-0-604800000; path=/; domain=.postman.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Srv-Span: v=1;s=28399eaff23f9add
+X-Srv-Trace: v=1;t=7953273ab17b716d
+
+{"meta":{"url":"https://monitoring-api.gw.postman.com/"},"error":{"name":"authenticationError","message":"You are not authenticated by the server.","createdAt":"2023-11-08T07:24:30.954Z"}}
+
+
+https://monitoring-api.gw.postman.com:443

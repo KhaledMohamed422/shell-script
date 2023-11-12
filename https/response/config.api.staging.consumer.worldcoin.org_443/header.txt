@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: config.api.staging.consumer.worldcoin.org
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:15:11 GMT
+Vary: Accept-Encoding
+Via: 1.1 ef32d25cab1f0dec4c6ff87f7986fe02.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uhK4Ke1J6u-C-DNgFQexWewPQ4KpMlZ9hkDAQtziAz1h6RSJlczboQ==
+X-Amz-Cf-Pop: HAM50-C3
+X-Amzn-Requestid: 0ade9a53-3c91-4289-b14c-5983c1a98bed
+X-Amzn-Trace-Id: root=1-654ac4ff-2efa41e32e91eb1b14c6521e;sampled=0;lineage=10ebe06f:0
+X-Cache: Miss from cloudfront
+
+499
+{"FF_BASE_URL":"http:\/\/ff.api.staging.consumer.worldcoin.org","LOGOUT_AVAILABLE":true,"MAINTENANCE_MESSAGE":"","ASSETS_BASE_URL":"https:\/\/assets.api.staging.consumer.worldcoin.org","FEATURE_FLAGS_RELOAD_THRESHOLD":300,"FEV_TIMEOUT_IN_SECONDS":10,"WLD_UNISWAP_FEE_POOL":10000,"RPC_PROVIDER_URL_STRING":"https:\/\/matic-mumbai.chainstacklabs.com","DATA_CUSTODY_OPT_OUT_VERIFICATION_DURATION":30,"FINGERPRINT_MAX_RETRIES":5,"SWAP_DEADLINE_SECONDS":30,"DELAYED_VERIFICATION_PERIOD_SECONDS":180,"WEBVIEW_AIRDROPS_LEVEL_URL":"https:\/\/staging.airdrops-web-view.worldcoin-app.com\/api\/level","ANDROID_MINIMUM_REQUIRED_VERSION":"2.2.0.10","SLIPPAGE_TOLERANCE":0.1,"QR_CODE_BASE_URL":"https:\/\/qr.api.staging.consumer.worldcoin.org\/api","WLD_SLIPPAGE_TOLERANCE":0.2,"DATA_CUSTODY_OPT_IN_VERIFICATION_DURATION":45,"POSTHOG_PROXY_URL":"https:\/\/posthog.api.staging.consumer.worldcoin.org","IOS_MINIMUM_REQUIRED_VERSION":"2.2.6","UNISWAP_FEE_POOL":500,"BACKEND_API_URL":"https:\/\/api.staging.consumer.worldcoin.org\/v1\/graphql","WSS_BACKEND_API_URL":"wss:\/\/api.staging.consumer.worldcoin.org\/v1\/graphql","UNISWAP_ROUTER_ADDRESS":"0x9634D45FADB4FE63b818d82c5722C0Ef91378298"}
+0
+
+
+
+
+https://config.api.staging.consumer.worldcoin.org:443

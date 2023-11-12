@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: api-certification.wellsfargo.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+X-Backside-Transport: FAIL FAIL
+
+{ "errors":[ { "error_code":"404-003", "description":"Requested API does not exist.", "api_specification_url":"https://developer.wellsfargo.com" } ] }
+
+
+https://api-certification.wellsfargo.com:443

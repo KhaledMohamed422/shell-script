@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: asia-files.tus.vimeo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.143 Safari/537.36 Edg/100.0.1185.57
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 222
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 04:43:35 GMT
+Via: 1.1 google
+
+You've found Hazaran, a service for uploading tus files. To use this service, you want a URL that has "/files/" in the name, such as https://files.tus.vimeo.com/files/vimeo-prod-src-tus-us/78e0cccead49ee7108ea25bb59bbd4f7.
+
+
+https://asia-files.tus.vimeo.com:443

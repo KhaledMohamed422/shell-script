@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: dl-us-production.freefiremobile.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Config/99.2.4111.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 300
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:08:46 GMT
+Expires: Tue, 07 Nov 2023 19:08:46 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPrTBeKSTwhE0qR8kpqq-jfd80fkRpzEopvPkvKR8xl0uAVZRnajjQefHMqJxw7X7Io7S_IZvYbriw
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource (or it may not exist).</Details></Error>
+
+
+http://dl-us-production.freefiremobile.com:80

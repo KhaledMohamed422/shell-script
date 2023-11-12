@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: eu.safety-enforcement.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.15 Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Byted-Trace-Id: 34a0cf0a0000000061882011:4b4d093bd1b20:4b4d093bd1b1f:5
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:44:15 GMT
+Expires: Wed, 08 Nov 2023 18:44:15 GMT
+Jaeger-Baggage: 
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=252, origin; dur=66
+Server-Timing: inner; dur=47
+Traceparent: 02-0000000034a0cf0a0000000061882011-0004b4d093bd1b20-05
+Tracestate: 
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 13317585.24c0740
+X-Cache: TCP_MISS from a72-247-154-141.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-218-219-39.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Origin-Response-Time: 66,23.218.219.39
+X-Parent-Response-Time: 318,72.247.154.141
+X-Pumbaa-Web-Avail: 1
+X-Tt-Logid: 20231108184414AFED43F4F2468463D173
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a26dcb08bb9637f4e13b0c38765a5a38eb90c9664057923517f78555ae62ba559907c591ac4442063bb577476ef9aa8125f34e68c1219927a7091c07197c4c833007953147bc735d8d1d07f9c1174ddb5fefa96ea709a14960271a2382329e2be
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X-Xss-Protection: 1; mode=block
+

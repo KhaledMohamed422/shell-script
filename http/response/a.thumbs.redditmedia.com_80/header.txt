@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: a.thumbs.redditmedia.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7;en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Accept-Ranges: bytes
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 19:34:51 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 0.05, "failure_fraction": 0.05}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Retry-After: 0
+Server: snooserv
+Vary: Accept-Encoding,Origin
+Via: 1.1 varnish, 1.1 varnish
+
+404 Not Found
+
+
+http://a.thumbs.redditmedia.com:80

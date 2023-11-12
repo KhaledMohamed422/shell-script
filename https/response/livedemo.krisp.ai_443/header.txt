@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: livedemo.krisp.ai
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 OPR/19.0.1326.56
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274a14dbb2715c-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:27:52 GMT
+Server: cloudflare
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: 2YYzziIMTyZ7DBvC/fP9+FslgUCETBuB6SyMqDZu/f/konWUie/CDHyEQKVrYjWg6YoVqcvsRyHS6brbt+/008rIK8XZQ5jY4zeQAzd+o9Q=
+X-Amz-Request-Id: AMFT0F7E9TEX9ST3
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AMFT0F7E9TEX9ST3</RequestId><HostId>2YYzziIMTyZ7DBvC/fP9+FslgUCETBuB6SyMqDZu/f/konWUie/CDHyEQKVrYjWg6YoVqcvsRyHS6brbt+/008rIK8XZQ5jY4zeQAzd+o9Q=</HostId></Error>
+0
+
+
+
+
+https://livedemo.krisp.ai:443

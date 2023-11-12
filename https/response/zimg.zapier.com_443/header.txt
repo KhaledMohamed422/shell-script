@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: zimg.zapier.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:31:46 GMT
+Server: AmazonS3
+Via: 1.1 3dd91613764eafe7ad199013ce202442.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: NWLUjpd-ABpWtLytKoY0Fg2320GWyqxZCr5IFRwAHLr-spUgdU-Neg==
+X-Amz-Cf-Pop: FRA56-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8T30HWKWV343KFS4</RequestId><HostId>cqFWVjTiolCEn7cgZfpgqLCz9o0lIYMjX7c/VVZvZk3sg0SRRrzOgR855ZIh5PrAh0c2yqdRskQ=</HostId></Error>
+0
+
+
+
+
+https://zimg.zapier.com:443

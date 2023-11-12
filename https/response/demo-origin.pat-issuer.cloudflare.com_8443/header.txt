@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: demo-origin.pat-issuer.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 20
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 8227e68aca4f2151-DUS
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:14:40 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cm3Aec1tMDYI0keqVmyfEf9bh0wk1y0qB%2F2H1Gqq5sfGwerMlJu9YpoWCvTpK9BVbmWk822bdwZDXMbruveRaPMA2NyIh%2FWmYlptHAGOUYwss%2FXrodvdOs%2Bg%2FrxsUEulrIqeQ6kt8CABoGhse3ePUc0Te6eqMFKVZqpJiHQ%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+Unsupported resource
+
+
+https://demo-origin.pat-issuer.cloudflare.com:8443

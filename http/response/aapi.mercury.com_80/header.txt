@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: aapi.mercury.com
+User-Agent: libwww-perl/5.820
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822a55292cb21621-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:19:42 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=jMIoEK_ozi0ywZUKxkAfmSItrlj9WBO7jWIdcLMTWv4-1699409982-0-ASyYt8jxrXtI7Ycw0nkoKXjB4uCF0ND5mkkM5QBaA8Aprbz5E5iV3uypetYJAgM3B9ZUuf3rLKe0tH2AjWOoDeU=; path=/; expires=Wed, 08-Nov-23 02:49:42 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1010
+
+
+http://aapi.mercury.com:80

@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: auth.sandbox.latchaccess.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; MAR-LX1B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 54
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b28407ad39c12-FRA
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 04:43:49 GMT
+Location: https://sandbox.latchaccess.com/
+Ot-Baggage-Auth0-Request-Id: 822b28407ad39c12
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 175066112c9d764a
+Ot-Tracer-Traceid: 01b4548a1e4237d1
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-000000000000000001b4548a1e4237d1-175066112c9d764a-01
+Tracestate: auth0-request-id=822b28407ad39c12,auth0=true
+Vary: Accept,Accept-Encoding
+Via: 1.1 88cabd6b8652306789c6bc8090fbcb1a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kXZi1Vo4sAXLHVYMa6VHX7eSGLRr_DanJ8MfPk9AGw7Ca2cRpK9vxg==
+X-Amz-Cf-Pop: FRA56-P6
+X-Auth0-Requestid: 04006c1258599d19a0d2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://sandbox.latchaccess.com/
+
+
+https://auth.sandbox.latchaccess.com:443

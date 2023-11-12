@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: customer-service.ch2.test.betsson.com
+User-Agent: Mozilla/4.8 [en] (X11; U; SunOS; 5.7 sun4u)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:02:16 GMT
+Server: CloudFront
+Via: 1.1 de7a608ee8aa91b02488536faf8169a0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7Q_zoAYpiQkvd-_g4v1h3mpcmfCx0BQQT_V2Ou4SDwmA0N5ESIyUoA==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Error from cloudfront
+

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: test.staging.runnr.in
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:07:29 GMT
+Server: CloudFront
+Via: 1.1 42b60ee17f7593fff72ca1cb725d6c9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gQLYwAzXkVfapJuNlI0vIj8byjkhgkl5s1DQJDcsZGcaMZCvpSpqGA==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: v.cdn.vine.co
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G935F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:03:12 GMT
+Server: AmazonS3
+Server-Timing: x-cache;desc= ,x-tw-cdn;desc=VZ
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: aHvSWE8g+jX3BX0YPRJQJmiHWy2emYX03VzPEuwJoyH+wJghB6Ouhm/uO7gm2HuPxate9H3xq+E=
+X-Amz-Request-Id: N2MWF2PCVT6Z2J6W
+X-Cache: MISS
+X-Tw-Cdn: VZ
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>N2MWF2PCVT6Z2J6W</RequestId><HostId>aHvSWE8g+jX3BX0YPRJQJmiHWy2emYX03VzPEuwJoyH+wJghB6Ouhm/uO7gm2HuPxate9H3xq+E=</HostId></Error>
+0
+
+
+
+
+http://v.cdn.vine.co:80

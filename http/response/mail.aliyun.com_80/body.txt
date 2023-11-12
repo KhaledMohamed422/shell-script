@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+</head>
+<body>
+    <input name="reurl" id="reurl" value="https://mail.aliyun.com:443/" type="hidden"/>
+
+    <script type="text/javascript" nonce="dC0xMDAwMzItblIyYlhM4411">
+        var reurl = document.getElementById("reurl").value;
+
+        if (reurl) {
+            var pageHash = window.location.hash;
+
+            if (pageHash.indexOf('#') == 0) {
+                pageHash = pageHash.substring(1);
+            }
+
+            if (pageHash) {
+                reurl += '#' + pageHash;
+            }
+        }
+
+                    window.location.href = reurl;
+            </script>
+</body>
+</html>
+
+
+http://mail.aliyun.com:80

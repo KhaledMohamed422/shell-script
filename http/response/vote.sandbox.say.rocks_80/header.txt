@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: vote.sandbox.say.rocks
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://vote.sandbox.say.rocks/
+Refresh: 0;url=https://vote.sandbox.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://vote.sandbox.say.rocks:80

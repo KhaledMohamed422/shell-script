@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en-US" class="no-js">
+<head>
+	
+	<script src="//cmp.osano.com/AzydZ7TEEX0GW2hin/9f9f154f-e5d2-4860-8e05-02e23cafd4bf/osano.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /><title>Newegg Developer Portal</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" hreflang="zh-hans" href="//developer.newegg.com/zh-hans/" />
+<link rel="alternate" hreflang="zh-hant" href="//developer.newegg.com/zh-hant/" />
+<link rel="alternate" hreflang="en" href="//developer.newegg.com/" />
+<link rel="alternate" hreflang="x-default" href="//developer.newegg.com/" />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Newegg Developer Portal &raquo; Feed" href="//developer.newegg.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Newegg Developer Portal &raquo; Comments Feed" href="//developer.newegg.com/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/developer.newegg.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='bbpress_unread_posts_Style-css' href='//developer.newegg.com/wp-content/plugins/bbpress-unread-posts/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='FontAwesome_5-css' href='//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/fonts/css/fontawesome-all.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdevart_vertical_menu_front-css' href='//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/frontend/css/front_end.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='//developer.newegg.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='//developer.newegg.com/wp-includes/css/classic-themes.min.css' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bbp-default-css' href='//developer.newegg.com/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='//developer.newegg.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sbscrbr_style-css' href='//developer.newegg.com/wp-content/plugins/subscriber/css/frontend_style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='//developer.newegg.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bsp-css' href='//developer.newegg.com/wp-content/plugins/bbp-style-pack/css/bspstyle.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='dashicons-css' href='//developer.newegg.com/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='//developer.newegg.com/wp-content/themes/salient/css/font-awesome-legacy.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='//developer.newegg.com/wp-content/themes/salient/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='salient-grid-system-css' href='//developer.newegg.com/wp-content/themes/salient/css/grid-system.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-styles-css' href='//developer.newegg.com/wp-content/themes/salient/css/style.css' type='text/css' media='all' />
+<style id='main-styles-inline-css' type='text/css'>
+html body[data-header-resize="1"] .container-wrap, html body[data-header-format="left-header"][data-header-resize="0"] .container-wrap, html body[data-header-resize="0"] .container-wrap, body[data-header-format="left-header"][data-header-resize="0"] .container-wrap { padding-top: 0; } .main-content > .row > #breadcrumbs.yoast { padding: 20px 0; }
+html:not(.page-trans-loaded) { background-color: #ffffff; }
+</style>
+<link rel='stylesheet' id='nectar-basic-bbpress-css' href='//developer.newegg.com/wp-content/themes/salient/css/third-party/bbpress.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar_default_font_open_sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css' href='//developer.newegg.com/wp-content/themes/salient/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='skin-ascend-css' href='//developer.newegg.com/wp-content/themes/salient/css/ascend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='salient-wp-menu-dynamic-css' href='//developer.newegg.com/wp-content/uploads/salient/menu-dynamic.css' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='//developer.newegg.com/wp-content/plugins/js_composer_salient/assets/css/js_composer.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//developer.newegg.com/wp-content/uploads/pum/pum-site-styles.css?generated=1668576392' type='text/css' media='all' />
+<link rel='stylesheet' id='dynamic-css-css' href='//developer.newegg.com/wp-content/themes/salient/css/salient-dynamic-styles.css' type='text/css' media='all' />
+<style id='dynamic-css-inline-css' type='text/css'>
+@media only screen and (min-width:1000px){body #ajax-content-wrap.no-scroll{min-height:calc(100vh - 76px);height:calc(100vh - 76px)!important;}}@media only screen and (min-width:1000px){#page-header-wrap.fullscreen-header,#page-header-wrap.fullscreen-header #page-header-bg,html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header,.nectar_fullscreen_zoom_recent_projects,#nectar_fullscreen_rows:not(.afterLoaded) > div{height:calc(100vh - 75px);}.wpb_row.vc_row-o-full-height.top-level,.wpb_row.vc_row-o-full-height.top-level > .col.span_12{min-height:calc(100vh - 75px);}html:not(.nectar-box-roll-loaded) .nectar-box-roll > #page-header-bg.fullscreen-header{top:76px;}.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 74px)!important;}.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded),.admin-bar .nectar-slider-wrap[data-fullscreen="true"]:not(.loaded) .swiper-container{height:calc(100vh - 74px - 32px)!important;}}.nectar-button.medium{border-radius:3px 3px 3px 3px;padding:10px 15px;font-size:12px;color:#FFF;box-shadow:0 -2px rgba(0,0,0,0.1) inset;}.nectar-button.medium.see-through,.nectar-button.medium.see-through-2,.nectar-button.medium.see-through-3{padding-top:9px;padding-bottom:9px}.nectar-button.medium i.icon-button-arrow{font-size:16px}body[data-button-style^="rounded"] .nectar-button.medium:not(.see-through):not(.see-through-2):not(.see-through-3).has-icon,body[data-button-style^="rounded"] .nectar-button.medium:not(.see-through):not(.see-through-2):not(.see-through-3).tilt.has-icon{padding-left:42px;padding-right:42px}body[data-button-style^="rounded"] .nectar-button.medium:not(.see-through):not(.see-through-2):not(.see-through-3){padding:12px 18px;}.nectar-button.medium.has-icon,.nectar-button.medium.tilt.has-icon{padding-left:42px;padding-right:42px}.screen-reader-text,.nectar-skip-to-content:not(:focus){border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important;}
+</style>
+<link rel='stylesheet' id='enlighterjs-css' href='//developer.newegg.com/wp-content/plugins/enlighter/cache/enlighterjs.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='salient-child-style-css' href='//developer.newegg.com/wp-content/themes/salient-child/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-salient_redux-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400' type='text/css' media='all' />
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/wpdevart-vertical-menu/includes/frontend/js/front_end.js' id='wpdevart_vertical_menu_js-js'></script>
+<script type='text/javascript' id='wpml-cookie-js-extra'>
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js' id='wpml-cookie-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient-child/advanced_sidebar_menu.js' id='advanced_sidebar_menu-js'></script>
+<script type='text/javascript' id='ai-js-js-extra'>
+/* <![CDATA[ */
+var MyAjax = {"ajaxurl":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php","security":"3fc1d23d77"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/advanced-iframe/js/ai.min.js' id='ai-js-js'></script>
+<script type='text/javascript' id='whp6105front.js5328-js-extra'>
+/* <![CDATA[ */
+var whp_local_data = {"add_url":"https:\/\/developer.newegg.com\/wp-admin\/post-new.php?post_type=event","ajaxurl":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/js/front.js' id='whp6105front.js5328-js'></script>
+<link rel="https://api.w.org/" href="//developer.newegg.com/wp-json/" /><link rel="alternate" type="application/json" href="//developer.newegg.com/wp-json/wp/v2/pages/5247" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="//developer.newegg.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="//developer.newegg.com/wp-includes/wlwmanifest.xml" />
+
+<link rel="canonical" href="//developer.newegg.com/" />
+<link rel='shortlink' href='//developer.newegg.com/' />
+<link rel="alternate" type="application/json+oembed" href="//developer.newegg.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.newegg.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="//developer.newegg.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.newegg.com%2F&#038;format=xml" />
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WLBMHFD');</script>
+
+
+<script type="text/javascript">
+// whats-new page, just have eng version . it's blog page, will find differnece language post
+if (location.pathname==='/zh-hans/whats-new/'){ location.href='/whats-new/'; }
+if (location.pathname==='/zh-hant/whats-new/'){ location.href='/whats-new/'; }
+</script>
+
+<script type="text/javascript"> var root = document.getElementsByTagName( "html" )[0]; root.setAttribute( "class", "js" ); </script><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<link rel="icon" href="//developer.newegg.com/wp-content/uploads/2019/01/cropped-logo_ne-32x32.png" sizes="32x32" />
+<link rel="icon" href="//developer.newegg.com/wp-content/uploads/2019/01/cropped-logo_ne-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="//developer.newegg.com/wp-content/uploads/2019/01/cropped-logo_ne-180x180.png" />
+<meta name="msapplication-TileImage" content="https://developer.newegg.com/wp-content/uploads/2019/01/cropped-logo_ne-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			
+#advanced_iframe {
+ overflow: hidden;
+}
+@media screen and (max-width: 1425px) { 
+ #advanced_iframe{ height: 900px!important;}
+}	
+@media screen and (max-width: 1125px) { 
+ #advanced_iframe{ height: 1000px!important;}
+}	
+@media screen and (max-width: 1000px) { 
+ #advanced_iframe{ height: 900px!important;}
+}
+@media screen and (max-width: 940px) { 
+ #advanced_iframe{ height: 1000px!important;}
+}
+@media screen and (max-width: 768px) { 
+ #advanced_iframe{ height: 1050px!important;}
+}
+@media screen and (max-width: 593px) { 
+ #advanced_iframe{ height: 1200px!important;}
+}
+@media screen and (max-width: 480px) { 
+ #advanced_iframe{ height: 1350px!important;}
+}
+@media screen and (max-width: 455px) { 
+ #advanced_iframe{ height: 1400px!important;}
+}
+@media screen and (max-width: 430px) { 
+ #advanced_iframe{ height: 1450px!important;}
+}
+@media only screen and (max-width: 1000px) and (min-width: 690px){
+	.container, .post-area.standard-minimal.full-width-content article.post .inner-wrap {
+		max-width: 100%!important;
+	}
+}
+@media only screen and (max-width: 690px){
+	.container, div.slider-nav, .post-area.standard-minimal.full-width-content article.post .inner-wrap {
+		max-width: 100%!important;
+		}
+}
+@media only screen and (max-width: 690px) and (min-width: 480px){
+	body .container, body div.slider-nav, .post-area.standard-minimal.full-width-content article.post .inner-wrap {
+		max-width: 100%!important; 
+		}
+}
+		</style>
+		<style type="text/css" data-type="vc_custom-css">.btn{ width: 60%;text-align: center;}</style><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1560817629874{margin-top: 15px !important;}.vc_custom_1560817686269{margin-top: 15px !important;}.vc_custom_1560816867735{margin-top: 15px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head><body class="home page-template-default page page-id-5247 ascend wpb-js-composer js-comp-ver-6.6.0 vc_responsive" data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="default" data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal" data-cae="easeOutCubic" data-cad="750" data-megamenu-width="contained" data-aie="none" data-ls="fancybox" data-apte="standard" data-hhun="0" data-fancy-form-rcs="default" data-form-style="default" data-form-submit="regular" data-is="minimal" data-button-style="slightly_rounded_shadow" data-user-account-button="false" data-flex-cols="true" data-col-gap="default" data-header-inherit-rc="false" data-header-search="true" data-animated-anchors="true" data-ajax-transitions="true" data-full-width-header="true" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="false" data-responsive="1" data-ext-responsive="true" data-ext-padding="90" data-header-resize="1" data-header-color="custom" data-transparent-header="false" data-cart="false" data-remove-m-parallax="" data-remove-m-video-bgs="" data-m-animate="0" data-force-header-trans-color="light" data-smooth-scrolling="0" data-permanent-transparent="false" >
+	
+	<script type="text/javascript">
+	 (function(window, document) {
+
+		 if(navigator.userAgent.match(/(Android|iPod|iPhone|iPad|BlackBerry|IEMobile|Opera Mini)/)) {
+			 document.body.className += " using-mobile-browser ";
+		 }
+
+		 if( !("ontouchstart" in window) ) {
+
+			 var body = document.querySelector("body");
+			 var winW = window.innerWidth;
+			 var bodyW = body.clientWidth;
+
+			 if (winW > bodyW + 4) {
+				 body.setAttribute("style", "--scroll-bar-w: " + (winW - bodyW - 4) + "px");
+			 } else {
+				 body.setAttribute("style", "--scroll-bar-w: 0px");
+			 }
+		 }
+
+	 })(window, document);
+   </script><a href="#ajax-content-wrap" class="nectar-skip-to-content">Skip to main content</a><div id="ajax-loading-screen" data-disable-mobile="1" data-disable-fade-on-click="0" data-effect="standard" data-method="standard"><div class="loading-icon none"><div class="material-icon">
+									 <div class="spinner">
+										 <div class="right-side"><div class="bar"></div></div>
+										 <div class="left-side"><div class="bar"></div></div>
+									 </div>
+									 <div class="spinner color-2">
+										 <div class="right-side"><div class="bar"></div></div>
+										 <div class="left-side"><div class="bar"></div></div>
+									 </div>
+								 </div></div></div>	
+	<div id="header-space"  data-header-mobile-fixed='false'></div> 
+	
+		<div id="header-outer" data-has-menu="true" data-has-buttons="yes" data-header-button_style="default" data-using-pr-menu="false" data-mobile-fixed="false" data-ptnm="false" data-lhe="default" data-user-set-bg="#00283a" data-format="default" data-permanent-transparent="false" data-megamenu-rt="0" data-remove-fixed="0" data-header-resize="1" data-cart="false" data-transparency-option="0" data-box-shadow="small" data-shrink-num="6" data-using-secondary="0" data-using-logo="1" data-logo-height="52" data-m-logo-height="45" data-padding="12" data-full-width="true" data-condense="false" >
+		
+<header id="top">
+	<div class="container">
+		<div class="row">
+			<div class="col span_3">
+								<a id="logo" href="https://developer.newegg.com" data-supplied-ml-starting-dark="false" data-supplied-ml-starting="false" data-supplied-ml="false" >
+					<img class="stnd skip-lazy default-logo dark-version" width="221" height="52" alt="Newegg Developer Portal" src="//developer.newegg.com/wp-content/uploads/2018/11/logo_newegg_developer_portal_s.png" srcset="https://developer.newegg.com/wp-content/uploads/2018/11/logo_newegg_developer_portal_s.png 1x, https://developer.newegg.com/wp-content/uploads/2018/11/logo_newegg_developer_portal.png 2x" />				</a>
+							</div>
+
+			<div class="col span_9 col_last">
+									<a class="mobile-search" href="#searchbox"><span class="nectar-icon icon-salient-search" aria-hidden="true"></span><span class="screen-reader-text">search</span></a>
+																		<div class="slide-out-widget-area-toggle mobile-icon slide-out-from-right" data-custom-color="false" data-icon-animation="simple-transform">
+						<div> <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed">
+							<span class="screen-reader-text">Menu</span><span aria-hidden="true"> <i class="lines-button x2"> <i class="lines"></i> </i> </span>
+						</a></div>
+					</div>
+				
+									<nav>
+													<ul class="sf-menu">
+								<li id="menu-item-4434" class="cs-cursor-default menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nectar-regular-menu-item menu-item-4434"><a title="API"><span class="menu-title-text">API</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-2405" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-2405"><a href="https://developer.newegg.com/newegg_marketplace_api/"><span class="menu-title-text">Documentation</span></a></li>
+	<li id="menu-item-4918" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-4918"><a href="https://developer.newegg.com/client-library/"><span class="menu-title-text">Client Library (SDK)</span></a></li>
+	<li id="menu-item-4443" class="menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-4443"><a target="_blank" rel="noopener" href="https://www.newegg.com/sellers/index.php/integration-providers/"><span class="menu-title-text">Integration Providers</span></a></li>
+</ul>
+</li>
+<li id="menu-item-167" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-167"><a href="https://developer.newegg.com/status/"><span class="menu-title-text">Status</span></a></li>
+<li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-page nectar-regular-menu-item menu-item-182"><a href="https://developer.newegg.com/whats-new/"><span class="menu-title-text">What&#8217;s New</span></a></li>
+<li id="menu-item-4471" class="cs-cursor-default menu-item menu-item-type-custom menu-item-object-custom nectar-regular-menu-item menu-item-4471"><a title="Selling on Newegg" target="_blank" rel="noopener" href="https://www.newegg.com/sellers/index.php/platforms/"><span class="menu-title-text">Selling on Newegg</span></a></li>
+<li id="menu-item-wpml-ls-6-en" class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children nectar-regular-menu-item menu-item-wpml-ls-6-en"><a title="English" href="https://developer.newegg.com/"><span class="menu-title-text">
+<span class="wpml-ls-native" lang="en">English</span></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-6-zh-hans" class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-zh-hans wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-6-zh-hans"><a title="Chinese (Simplified)" href="https://developer.newegg.com/zh-hans/"><span class="menu-title-text">
+<span class="wpml-ls-native" lang="zh-hans">简体中文</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Chinese (Simplified)<span class="wpml-ls-bracket">)</span></span></span></a></li>
+	<li id="menu-item-wpml-ls-6-zh-hant" class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-zh-hant wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item nectar-regular-menu-item menu-item-wpml-ls-6-zh-hant"><a title="Chinese (Traditional)" href="https://developer.newegg.com/zh-hant/"><span class="menu-title-text">
+<span class="wpml-ls-native" lang="zh-hant">繁體中文</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Chinese (Traditional)<span class="wpml-ls-bracket">)</span></span></span></a></li>
+</ul>
+</li>
+							</ul>
+													<ul class="buttons sf-menu" data-user-set-ocm="off">
+
+								<li id="search-btn"><div><a href="#searchbox"><span class="icon-salient-search" aria-hidden="true"></span><span class="screen-reader-text">search</span></a></div> </li>
+							</ul>
+						
+					</nav>
+
+					
+				</div>
+
+				
+			</div>
+					</div>
+	</header>		
+	</div>
+	
+<div id="search-outer" class="nectar">
+	<div id="search">
+		<div class="container">
+			 <div id="search-box">
+				 <div class="inner-wrap">
+					 <div class="col span_12">
+						  <form role="search" action="//developer.newegg.com/" method="GET">
+															<input type="text" name="s" id="s" value="Start Typing..." aria-label="Search" data-placeholder="Start Typing..." />
+							
+						
+												</form>
+					</div>
+				</div>
+			 </div>
+			 <div id="close"><a href="#"><span class="screen-reader-text">Close Search</span>
+				<span class="icon-salient-x" aria-hidden="true"></span>				 </a></div>
+		 </div>
+	</div>
+</div>
+	<div id="ajax-content-wrap">
+<div class="container-wrap">
+	<div class="container main-content">
+		<div class="row">
+			
+		<div id="fws_654be18777ed2"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row top-level full-width-section  vc_row-o-equal-height vc_row-flex  vc_row-o-content-middle  "  style="padding-top: 100px; padding-bottom: 100px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg"  style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col force-tablet-text-align-center force-phone-text-align-center no-extra-padding"  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<h2 style="font-size: 52px;line-height: 56px;text-align: left;font-family:Roboto Condensed;font-weight:700;font-style:normal" class="vc_custom_heading" >Newegg Marketplace SDK</h2>
+<div class="wpb_text_column wpb_content_element  vc_custom_1560817629874" >
+	<div class="wpb_wrapper">
+		<p>Newegg Marketplace SDK is provided to help programmers easily integrate their application with the Newegg Marketplace API. Included are definitions for the data objects models to create the requests and resolve the response, it also supports a retry mechanism and asynchronous API calls. Multiple levels of Logs and Multiple Logs targets are supported as well. The SDK can be configured to keep the credentials of the API, to help handle exceptions from the API, and it supports simulated calling for testing.</p>
+	</div>
+</div>
+
+
+
+
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		<div id="fws_654be18778c57"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row full-width-section  vc_row-o-equal-height vc_row-flex  vc_row-o-content-middle  "  style="padding-top: 100px; padding-bottom: 100px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg using-bg-color"  style="background-color: #f2f2f2; "></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col force-tablet-text-align-center force-phone-text-align-center no-extra-padding"  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<h2 style="font-size: 52px;line-height: 56px;text-align: left;font-family:Roboto Condensed;font-weight:700;font-style:normal" class="vc_custom_heading" >Client Libraries</h2>
+<div class="wpb_text_column wpb_content_element  vc_custom_1560817686269" >
+	<div class="wpb_wrapper">
+		<p>Newegg provides client libraries with code samples for each operation of the API sections. Currently we support two languages: .Net and Java.</p>
+<p>Click the icons below to access the libraries in each coding language.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap" data-alignment="default"><div style="height: 30px;" class="divider"></div></div><div id="fws_654be18779f0c" data-midnight="" data-column-margin="default" class="wpb_row vc_row-fluid vc_row inner_row  "  style=""><div class="row-bg-wrap"> <div class="row-bg" ></div> </div><div class="row_col_wrap_12_inner col span_12  left">
+	<div  class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding"   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<a class="nectar-button medium regular accent-color  regular-button btn"  style=""  href="https://github.com/Newegg/newegg-marketplace-sdk-dotnet" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>.Net</span></a>
+		</div> 
+	</div>
+	</div> 
+
+	<div  class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding"   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			<a class="nectar-button medium regular accent-color  regular-button btn"  style=""  href="https://github.com/Newegg/newegg-marketplace-sdk-java" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Java</span></a>
+		</div> 
+	</div>
+	</div> 
+
+	<div  class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding"   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div>
+	</div> 
+
+	<div  class="vc_col-sm-3 wpb_column column_container vc_column_container col child_column no-extra-padding"   data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0">
+		<div class="vc_column-inner" >
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div>
+	</div> 
+</div></div>
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		<div id="fws_654be1877a7c4"  data-column-margin="default" data-midnight="dark"  class="wpb_row vc_row-fluid vc_row full-width-section  vc_row-o-equal-height vc_row-flex  vc_row-o-content-middle  "  style="padding-top: 100px; padding-bottom: 100px; "><div class="row-bg-wrap" data-bg-animation="none" data-bg-overlay="false"><div class="inner-wrap"><div class="row-bg"  style=""></div></div></div><div class="row_col_wrap_12 col span_12 dark left">
+	<div  class="vc_col-sm-12 wpb_column column_container vc_column_container col force-tablet-text-align-center force-phone-text-align-center no-extra-padding"  data-padding-pos="all" data-has-bg-color="false" data-bg-color="" data-bg-opacity="1" data-animation="" data-delay="0" >
+		<div class="vc_column-inner" >
+			<div class="wpb_wrapper">
+				<h2 style="font-size: 52px;line-height: 56px;text-align: left;font-family:Roboto Condensed;font-weight:700;font-style:normal" class="vc_custom_heading" >API Status</h2>
+<div class="wpb_text_column wpb_content_element  vc_custom_1560816867735" >
+	<div class="wpb_wrapper">
+		<p>View the current status of Newegg Marketplace API service availability.</p>
+	</div>
+</div>
+
+
+
+<div class="divider-wrap" data-alignment="default"><div style="height: 30px;" class="divider"></div></div><a class="nectar-button medium regular accent-color  regular-button"  style=""  href="https://developer.newegg.com/status/" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>Access Newegg Marketplace API Service Status</span></a>
+			</div> 
+		</div>
+	</div> 
+</div></div>
+		</div>
+	</div>
+	</div>
+
+<div id="footer-outer" data-midnight="light" data-cols="4" data-custom-color="true" data-disable-copyright="false" data-matching-section-color="false" data-copyright-line="false" data-using-bg-img="false" data-bg-img-overlay="0.8" data-full-width="1" data-using-widget-area="false" data-link-hover="default">
+	
+	
+  <div class="row" id="copyright" data-layout="default">
+	
+	<div class="container">
+	   
+				<div class="col span_5">
+		   
+			<p>&copy; 2023 Newegg Developer Portal. </p>
+		</div>
+			   
+	  <div class="col span_7 col_last">
+      <ul class="social">
+              </ul>
+	  </div>
+    
+	  	
+	</div>
+  </div>
+		
+</div>
+
+
+	<div id="slide-out-widget-area-bg" class="slide-out-from-right dark">
+				</div>
+
+		<div id="slide-out-widget-area" class="slide-out-from-right" data-dropdown-func="default" data-back-txt="Back">
+
+			
+			<div class="inner" data-prepend-menu-mobile="false">
+
+				<a class="slide_out_area_close" href="#"><span class="screen-reader-text">Close Menu</span>
+					<span class="icon-salient-x icon-default-style"></span>				</a>
+
+
+									<div class="off-canvas-menu-container mobile-only">
+
+						
+						<ul class="menu">
+							<li class="cs-cursor-default menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4434"><a title="API">API</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2405"><a href="https://developer.newegg.com/newegg_marketplace_api/">Documentation</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4918"><a href="https://developer.newegg.com/client-library/">Client Library (SDK)</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4443"><a target="_blank" rel="noopener" href="https://www.newegg.com/sellers/index.php/integration-providers/">Integration Providers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://developer.newegg.com/status/">Status</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-182"><a href="https://developer.newegg.com/whats-new/">What&#8217;s New</a></li>
+<li class="cs-cursor-default menu-item menu-item-type-custom menu-item-object-custom menu-item-4471"><a title="Selling on Newegg" target="_blank" rel="noopener" href="https://www.newegg.com/sellers/index.php/platforms/">Selling on Newegg</a></li>
+<li class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-6-en"><a title="English" href="https://developer.newegg.com/"><span class="wpml-ls-native" lang="en">English</span></a>
+<ul class="sub-menu">
+	<li class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-zh-hans wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-6-zh-hans"><a title="Chinese (Simplified)" href="https://developer.newegg.com/zh-hans/"><span class="wpml-ls-native" lang="zh-hans">简体中文</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Chinese (Simplified)<span class="wpml-ls-bracket">)</span></span></a></li>
+	<li class="menu-item wpml-ls-slot-6 wpml-ls-item wpml-ls-item-zh-hant wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-6-zh-hant"><a title="Chinese (Traditional)" href="https://developer.newegg.com/zh-hant/"><span class="wpml-ls-native" lang="zh-hant">繁體中文</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Chinese (Traditional)<span class="wpml-ls-bracket">)</span></span></a></li>
+</ul>
+</li>
+
+						</ul>
+
+						<ul class="menu secondary-header-items">
+													</ul>
+					</div>
+					
+				</div>
+
+				<div class="bottom-meta-wrap"></div>
+				</div>
+		
+</div> 
+
+	<a id="to-top" class="
+		"><i class="fa fa-angle-up"></i></a>
+	<div style="display:none" class="fm-form-container fm-theme4"></div><div style="display:none" class="fm-form-container fm-theme4"></div><div style="display:none" class="fm-form-container fm-theme4"></div><div id="pum-24213" class="pum pum-overlay pum-theme-24186 pum-theme-default-theme popmake-overlay pum-overlay-disabled pum-click-to-close click_open" data-popmake="{&quot;id&quot;:24213,&quot;slug&quot;:&quot;contact-us&quot;,&quot;theme_id&quot;:24186,&quot;cookies&quot;:[{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-24213&quot;,&quot;key&quot;:&quot;&quot;,&quot;session&quot;:false,&quot;path&quot;:&quot;1&quot;,&quot;time&quot;:&quot;1 month&quot;}},{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-24213&quot;,&quot;time&quot;:&quot;1 month&quot;,&quot;session&quot;:false,&quot;path&quot;:&quot;1&quot;,&quot;key&quot;:&quot;&quot;}},{&quot;event&quot;:&quot;on_popup_close&quot;,&quot;settings&quot;:{&quot;name&quot;:&quot;pum-24213&quot;,&quot;time&quot;:&quot;1 month&quot;,&quot;session&quot;:false,&quot;path&quot;:&quot;1&quot;,&quot;key&quot;:&quot;&quot;}}],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:[&quot;pum-24213&quot;],&quot;extra_selectors&quot;:&quot;#feed_back&quot;}}],&quot;mobile_disabled&quot;:true,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:&quot;1&quot;,&quot;overlay_disabled&quot;:&quot;1&quot;,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;custom&quot;,&quot;responsive_min_width&quot;:&quot;0px&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100px&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;300px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;right bottom&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;10&quot;,&quot;position_right&quot;:&quot;10&quot;,&quot;position_fixed&quot;:&quot;1&quot;,&quot;animation_type&quot;:&quot;slide&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;bottom&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:&quot;1&quot;,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" 
+								   >
+
+	<div id="popmake-24213" class="pum-container popmake theme-24186 size-custom pum-position-fixed">
+
+				
+
+				
+
+		
+
+				<div class="pum-content popmake-content" tabindex="0">
+			<div role="form" class="wpcf7" id="wpcf7-f24216-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f24216-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="24216" />
+<input type="hidden" name="_wpcf7_version" value="5.6.4" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f24216-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+<input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+</div>
+<p><label> Name *<br />
+    <span class="wpcf7-form-control-wrap" data-name="your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> The email we can reach you *<br />
+    <span class="wpcf7-form-control-wrap" data-name="your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> Subject *<br />
+    <span class="wpcf7-form-control-wrap" data-name="your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> Comments *<br />
+    <span class="wpcf7-form-control-wrap" data-name="your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span> </label></p>
+<p><input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit" /></p>
+<input type='hidden' class='wpcf7-pum' value='{"closepopup":false,"closedelay":0,"openpopup":false,"openpopup_id":0}' /><div class="wpcf7-response-output" aria-hidden="true"></div></form></div>
+		</div>
+
+
+				
+
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<script>document.body.classList.remove("no-js");</script><script type="text/html" id="wpb-modifications"></script><link rel='stylesheet' id='whp7380tw-bs4.css-css' href='//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/inc/assets/css/tw-bs4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='whp9277font-awesome.min.css-css' href='//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/inc/fa/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='whp2255front.css-css' href='//developer.newegg.com/wp-content/plugins/wp-security-hardening/modules/css/front.css' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_google_fonts_roboto_condensed300300italicregularitalic700700italic-css' href='https://fonts.googleapis.com/css?family=Roboto+Condensed%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='fm-style-4-css' href='//developer.newegg.com/wp-content/uploads/form-maker-frontend/css/fm-style-4.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancyBox-css' href='//developer.newegg.com/wp-content/themes/salient/css/plugins/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='nectar-ocm-core-css' href='//developer.newegg.com/wp-content/themes/salient/css/off-canvas/core.css' type='text/css' media='all' />
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/jquery/ui/menu.min.js' id='jquery-ui-menu-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/dom-ready.min.js' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/i18n.min.js' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/dist/a11y.min.js' id='wp-a11y-js'></script>
+<script type='text/javascript' id='jquery-ui-autocomplete-js-extra'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-includes/js/jquery/ui/autocomplete.min.js' id='jquery-ui-autocomplete-js'></script>
+<script type='text/javascript' id='my_acsearch-js-extra'>
+/* <![CDATA[ */
+var MyAcSearch = {"url":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/nectar/assets/functions/ajax-search/wpss-search-suggest.js' id='my_acsearch-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js' id='swv-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/developer.newegg.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+var wpcf7 = {"api":{"root":"https:\/\/developer.newegg.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/contact-form-7/includes/js/index.js' id='contact-form-7-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.easing.js' id='jquery-easing-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.mousewheel.js' id='jquery-mousewheel-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/priority.js' id='nectar_priority-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/transit.js' id='nectar-transit-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/waypoints.js' id='nectar-waypoints-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/imagesLoaded.min.js' id='imagesLoaded-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/hoverintent.js' id='hoverintent-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/jquery.fancybox.min.js' id='fancyBox-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/third-party/superfish.js' id='superfish-js'></script>
+<script type='text/javascript' id='nectar-frontend-js-extra'>
+/* <![CDATA[ */
+var nectarLove = {"ajaxurl":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php","postID":"5247","rooturl":"https:\/\/developer.newegg.com","disqusComments":"false","loveNonce":"2e092dd77d","mapApiKey":""};
+var nectarOptions = {"quick_search":"false","mobile_header_format":"default","left_header_dropdown_func":"default","ajax_add_to_cart":"0","ocm_remove_ext_menu_items":"remove_images","woo_product_filter_toggle":"0","woo_sidebar_toggles":"true","woo_sticky_sidebar":"0","woo_minimal_product_hover":"default","woo_minimal_product_effect":"default","woo_related_upsell_carousel":"false","woo_product_variable_select":"default"};
+var nectar_front_i18n = {"next":"Next","previous":"Previous"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/themes/salient/js/init.js' id='nectar-frontend-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/salient-core/js/third-party/touchswipe.min.js' id='touchswipe-js'></script>
+<script type='text/javascript' id='popup-maker-site-js-extra'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.16.14","pm_dir_url":"https:\/\/developer.newegg.com\/wp-content\/plugins\/popup-maker\/","ajaxurl":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/developer.newegg.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"24186","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"analytics_route":"analytics","analytics_api":"https:\/\/developer.newegg.com\/wp-json\/pum\/v1"};
+var pum_sub_vars = {"ajaxurl":"https:\/\/developer.newegg.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-24213":{"triggers":[{"type":"click_open","settings":{"cookie_name":["pum-24213"],"extra_selectors":"#feed_back"}}],"cookies":[{"event":"on_popup_close","settings":{"name":"pum-24213","key":"","session":false,"path":"1","time":"1 month"}},{"event":"on_popup_close","settings":{"name":"pum-24213","time":"1 month","session":false,"path":"1","key":""}},{"event":"on_popup_close","settings":{"name":"pum-24213","time":"1 month","session":false,"path":"1","key":""}}],"disable_on_mobile":true,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"24186","size":"custom","responsive_min_width":"0px","responsive_max_width":"100px","custom_width":"300px","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"slide","animation_speed":"350","animation_origin":"bottom","open_sound":"none","custom_sound":"","location":"right bottom","position_top":"100","position_bottom":"10","position_left":"0","position_right":"10","position_from_trigger":false,"position_fixed":true,"overlay_disabled":true,"stackable":true,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":true,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":24213,"slug":"contact-us"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1668576392' id='popup-maker-site-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/popup-maker/assets/js/vendor/mobile-detect.min.js' id='mobile-detect-js'></script>
+<script type='text/javascript' src='//www.google.com/recaptcha/api.js?render=6Lf2hWgeAAAAAEYQKH7vaQfC-NZx79Gip0Jfqkp1' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lf2hWgeAAAAAEYQKH7vaQfC-NZx79Gip0Jfqkp1","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/contact-form-7/modules/recaptcha/index.js' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/enlighter/cache/enlighterjs.min.js' id='enlighterjs-js'></script>
+<script type='text/javascript' id='enlighterjs-js-after'>
+!function(e,n){if("undefined"!=typeof EnlighterJS){var o={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":true,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"mocha","language":"generic","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""}};(e.EnlighterJSINIT=function(){EnlighterJS.init(o.selectors.block,o.selectors.inline,o.options)})()}else{(n&&(n.error||n.log)||function(){})("Error: EnlighterJS resources not loaded yet!")}}(window,console);
+</script>
+<script type='text/javascript' src='//developer.newegg.com/wp-content/plugins/js_composer_salient/assets/js/dist/js_composer_front.min.js' id='wpb_composer_front_js-js'></script>
+<!-- start Simple Custom CSS and JS -->
+<style>.osano-cm-dialog--type_bar{display:none;}</style>
+<script>
+	function showOsanoBar(){Osano.cm.addEventListener('osano-cm-initialized', () => {if (window.Osano.cm.countryCode != 'us') {document.querySelector('.osano-cm-dialog--type_bar').setAttribute('style','display:flex;');}});}window.addEventListener('DOMContentLoaded',showOsanoBar);
+
+	function elementReady(selector) {
+		return new Promise((resolve, reject) => {
+			const el = document.querySelector(selector);
+			if (el) {resolve(el);}
+			new MutationObserver((mutationRecords, observer) => {
+				// Query for elements matching the specified selector
+				Array.from(document.querySelectorAll(selector)).forEach((element) => {
+					resolve(element);
+					//Once we have resolved we don't need the observer anymore.
+					observer.disconnect();
+				});
+			})
+				.observe(document.documentElement, {
+				childList: true,
+				subtree: true
+			});
+		});
+	}
+
+	elementReady('button.osano-cm-widget > svg').then((e)=>{e.style.display='none'});
+	elementReady('#ot-sdk-btn').then((e)=>{e.addEventListener('click',function(){window.Osano.cm.showDrawer('osano-cm-dom-info-dialog-open');})});
+
+</script>
+
+
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<script type="text/javascript">
+window.addEventListener("load", function(){
+let pp1=document.getElementById('copyright');
+let pp2=pp1.getElementsByTagName('p');
+  
+let item=document.createElement("a");
+item.innerText='Cookies Preferences';
+item.href='#';
+item.id='ot-sdk-btn';
+pp2[0].append(' | ');
+pp2[0].append(item);
+
+});
+</script>
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.pum-close, .popmake-close{
+  display: none;
+}</style>
+<!-- end Simple Custom CSS and JS -->
+</body>
+</html>
+
+
+https://developer.newegg.com:443

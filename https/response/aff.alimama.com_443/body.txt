@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html>
+  <head><script>window.__alp_abtest_bucket__='{"shunt":"0_0_1"}'</script><script src="//g.alicdn.com/mtb/wpk/2.0.3/wpk.js"></script><script>try{getLego2WPK({"bid":"","env":"","rate":0.1})}catch(e){window.getLego2WPK=function(){return {report:noop,reportFlow:noop,reportError:noop,reportApiError:noop,setConfig:noop,install:noop,installAll:noop,uninstall:noop,diagnose:noop};function noop(){}}}</script>
+    <title>淘宝联盟</title>
+    <meta charset="utf-8">
+    <meta name="data-spm" content="a2e114">
+    <link type="image/x-icon" href="https://img.alicdn.com/tfs/TB18kfPHQY2gK0jSZFgXXc5OFXa-64-64.ico" rel="shortcut icon">
+    <script src="https://g.alicdn.com/cell/lib-zepto/0.0.2/index.js"></script>
+    <style>
+        html{
+          min-width: 1280px;
+        }
+        html,body,*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+          font-family: Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+        }
+        #pageBanner{
+          width: 100%;
+          position: relative;
+        }  
+        #pageBanner .bannerImg{
+          width: 100%;
+        }
+        #pageHeader{
+          padding: 5px 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background: transparent;
+          z-index: 100;
+        }
+        #pageHeader.pageHeader-fixed{
+          position: fixed;
+          background: #101145;
+        }
+        .header-left{
+          padding: 10px 0 5px;
+        }
+        .header-left img{
+          height: 20px;
+        }
+        .header-right{
+          float: right;
+          line-height: 40px;
+          height: 40px;
+        }
+        .header-right a{
+          display: inline-block;
+          margin-left: 32px;
+          color: #fff;
+          font-size: 16px;
+          text-decoration: none;
+        }
+        .header-content{
+          position: absolute;
+          top: 30%;
+          left: 0;
+          width: 100%;
+          text-align: center;
+        }
+        .header-content .title{
+            background: url(https://img.alicdn.com/tfs/TB1LLYJIHH1gK0jSZFwXXc7aXXa-1072-198.png) no-repeat;
+            background-size: contain;
+            display: inline-block;
+            width: 536px;
+            height: 99px;
+        }
+        .header-content .actions{
+          padding-top: 60px;
+        }
+        .header-btn{
+          display: inline-block;
+          width: 400px;
+          text-align: left;
+          border-radius: 60px;
+          height: 88px;
+          position: relative;
+          padding: 14px 56px;
+          vertical-align: middle;
+          text-decoration: none;
+        }
+        .header-btn .header-btn-title{
+          line-height: 30px;
+          font-size: 22px;
+          color: #FFFFFF;
+          font-weight: bold;
+        }
+        .header-btn .header-btn-info{
+          line-height: 20px;
+          font-size: 14px;
+          color: #FFFFFF;
+          margin-top: 6px;
+        }
+        .header-btn .header-btn-arror{
+          position: absolute;
+          right: 56px;
+          top: 30px;
+          width: 32px;
+        }
+        #goPubBtn{
+          background-image: linear-gradient(228deg, #3AB7E9 0%, #7B24E8 100%);
+          box-shadow: 8px 8px 16px 0 rgba(128,20,138,0.59);
+        }
+        #goPubBtn:hover{
+          background-image: linear-gradient(228deg, #00A6E9 0%, #7317E8 100%);
+        }
+        #goAdBtn{
+          background-image: linear-gradient(228deg, #FF822E 0%, #B719E1 100%);
+          box-shadow: 8px 8px 16px 0 rgba(184,13,115,0.50);
+          margin-right: 32px;
+        }
+        #goAdBtn:hover{
+          background-image: linear-gradient(228deg, #FF7619 0%, #B200E1 100%);
+        }
+        #pageInfo{
+          padding: 30px 0;
+          text-align: center;
+        }
+        .part-container{
+          width: 1180px;
+          margin: 0 auto;
+        }
+        .even-section{
+          background: #F9F9F9;
+        }
+        .odd-section{
+          background: #fff;
+        }
+        #pageInfo .info-section{
+          display: inline-block;
+          vertical-align: middle;
+          height: 86px;
+          overflow: hidden;
+          text-align: left;
+        }
+        #pageInfo .info-split{
+          height: 54px;
+          width: 1px;
+          background: #e6e6e6;
+          margin-top: 2px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 68px;
+          margin-right: 68px;
+        }
+        #pageInfo .info-title{
+          color: #FF822E;
+          padding-top: 6px;
+          font-size: 0;
+          text-align: center;
+        }
+        #pageInfo .info-title span{
+          display: inline-block;
+          vertical-align: baseline;
+        }
+        #pageInfo .info-title-big{
+          font-size: 32px;
+          font-weight: bold;
+        }
+        #pageInfo .info-title-normal{
+          font-size: 20px;
+        }
+        #pageInfo .info-title-split{
+          margin-left: 30px;
+        }
+        #pageInfo .info-desc{
+          line-height: 26px;
+          font-size: 16px;
+          color: #666666;
+          margin-top: 10px;
+        }
+        .part{
+          padding: 74px 0 64px;
+          text-align: center;
+        }
+        .part-title{
+          line-height: 48px;
+          font-size: 34px;
+          color: #333333;
+        }
+        .part3-content{
+          padding: 60px 0 48px;
+          width: 100%;
+        }
+        #part3Img{
+          width: 100%;
+        }
+        #pageFooter{
+          font-size: 12px;
+        }
+        #pageFooter a{
+          text-decoration: none;
+        }
+        .union-footer {
+          position: relative;
+          max-width: 100%;
+          text-align: center;
+          padding: 20px 180px 14px;
+          margin: auto;
+          border-bottom: 1px solid #e6e6e6;
+        }
+        .union-footer .logo{
+          position: absolute;
+          top: 20px;
+          left: 0px;
+          width: 140px;
+          height: 140px;
+          background-image: url(https://img.alicdn.com/tfs/TB120uSF.T1gK0jSZFhXXaAtVXa-386-386.png);
+          background-size: contain;
+          overflow: hidden;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+        .union-footer .products {
+          display: flex;
+          justify-content: space-around;
+          line-height: 28px;
+        }
+        .union-footer .products .label {
+          opacity: 0.5;
+          margin-bottom: 10px;
+        }
+        .union-footer .products .item a:hover{
+          color: #FF822E;
+        }
+        .union-footer a:link, .union-footer a:visited {
+          color: #333;
+        }
+        .union-footer a:active, .union-footer a:focus, .union-footer a:hover, .union-footer a:visited {
+          outline: 0;
+          text-decoration: none;
+        }
+        .union-footer .QRcode {
+          position: absolute;
+          top: 20px;
+          right: 0px;
+          line-height: 22px;
+          color: rgba(33, 33, 33, 0.5);
+          width: 70px;
+          height: 70px;
+          margin: 20px 0px 15px;
+        }
+        .footer-remote{
+          margin: auto;
+          padding: 30px 0;
+          text-align: left;
+        }
+        .footer-remote-links{
+          line-height: 28px;
+        }
+        .remote-link{
+          padding-left: 10px;
+          padding-right: 10px;
+          position: relative;
+        }
+        .remote-link, .remote-link:active, .remote-link:focus, .remote-link:visited{
+          color: #999;
+        }
+        .footer-remote-links .text{
+          color: #999;
+        }
+        .footer-remote-links .remote-link:first-child{
+          padding-left: 0;
+        }
+        .remote-link img {
+          border-style: none;
+          width: auto\9;
+          height: auto;
+          max-width: 100%;
+          vertical-align: middle;
+          -ms-interpolation-mode: bicubic;
+        }
+        .footer-remote-links .remote-link:after {
+          content: "";
+          position: absolute;
+          top: 3px;
+          right: 0;
+          width: 0;
+          height: 12px;
+          border-left: 1px solid #ccc;
+        }
+        .footer-remote-links .remote-link:last-child:after {
+          display: none;
+        }
+        .footer-remote-links .remote-link:hover {
+          color: #333;
+        }
+        .part1-content{
+          background: url(https://gw.alicdn.com/tfs/TB1c4OuI4v1gK0jSZFFXXb0sXXa-2364-1242.png) no-repeat;
+          background-size: 100% 100%;
+          width: 1180px;
+          height: 620px;
+          margin-top: 62px;
+          position: relative;
+        }
+        .part1-left-panel{
+          position: relative;
+          width: 600px;
+        }
+        .part1-left-turntable{
+          width: 354px;
+          height: 354px;
+          background: url(https://gw.alicdn.com/tfs/TB1DAJnD5_1gK0jSZFqXXcpaXXa-718-720.png);
+          background-size: 100% 100%;
+          border-radius: 100%;
+          position: absolute;
+          top: 62px;
+          left: 153px;
+          transform: rotate(0deg);
+          -webkit-transition: -webkit-transform .5s;
+          transition: transform .5s;
+        }
+        .part1-left-turntext{
+          position: absolute;
+          top: 62px;
+          left: 153px;
+          width: 354px;
+          height: 354px;
+          transform: rotate(0deg);
+          -webkit-transition: -webkit-transform .5s;
+          transition: transform .5s;
+
+          transform-origin: center;
+        }
+        .part1-left-turntext .text{
+          padding: 0 10px;
+          z-index: 2;
+          line-height: 30px;
+          font-size: 16px;
+          color: #666666;
+          transform: rotate(0deg);
+          -webkit-transition: -webkit-transform .5s;
+          transition: transform .5s;
+          cursor: pointer;
+          transform-origin: center;
+        }
+        .part1-left-turntext .text1{
+          position: absolute;
+          top: 48px;
+          left: 173px;
+        }
+        .part1-left-turntext .text2{
+          position: absolute;
+          top: 166px;
+          left: 263px;
+        }
+        .part1-left-turntext .text3{
+          position: absolute;
+          top: 282px;
+          left: 173px;
+        }
+        .part1-left-turntext .text4{
+          position: absolute;
+          top: 228px;
+          left: 27px;
+        }
+        .part1-left-turntext .text5{
+          position: absolute;
+          top: 93px;
+          left: 27px;
+        }
+        .part1-left-turntext-pre{
+          position: absolute;
+          top: 102px;
+          left: 326px;
+          padding: 0 10px;
+          width: 100px;
+          height: 44px;
+          font-weight: bold;
+          font-size: 16px;
+          color: #666666;
+          cursor: pointer;
+          z-index: 10;
+        }
+        .part1-left-turntext-next{
+          position: absolute;
+          top: 338px;
+          left: 326px;
+          padding: 0 10px;
+          width: 100px;
+          height: 44px;
+          font-weight: bold;
+          font-size: 16px;
+          color: #666666;
+          cursor: pointer;
+          z-index: 10;
+        }
+        .part1-left-center{
+          position: absolute;
+          top: 160px;
+          left: 252px;
+          border-radius: 100%;
+          width: 100px;
+          height: 56px;
+          border: 32px solid #FFDFC9;
+          line-height: 28px;
+          font-weight: bold;
+          font-size: 20px;
+          padding: 22px 0;
+          box-sizing: content-box;
+          color: #FF7518;
+          background: #fff;
+          z-index: 10;
+        }
+        .part1-left-activeRegion{
+            position: absolute;
+            right: -8px;
+            top: 80px;
+            z-index: 5;
+            width: 288px;
+            height: 338px;
+        }
+        .part1-left-activeText{
+          position: absolute;
+          top: 222px;
+          left: 446px;
+          line-height: 30px;
+          font-size: 22px;
+          color: #FFFFFF;
+          z-index: 10;
+        }
+        .part1-left-icon{
+          position: absolute;
+          z-index: 10;
+        }
+        .part1-right-panel{
+          position: absolute;
+          top: 0;
+          left: 640px;
+          width: 540px;
+          height: 480px;
+          -webkit-box-align: center;
+          text-align: left;
+          display: none;
+        }
+        .part1-right-panel.active{
+          display: -webkit-box;
+        }
+        .part1-right-panel-title{
+          line-height: 22px;
+          font-size: 16px;
+          color: #333333;
+          display: inline-block;
+          padding: 10px 0;
+          margin-bottom: 10px;
+          border-bottom: 3px solid #FF822E;
+        }
+        .part1-right-panel-desc{
+          line-height: 33px;
+          font-size: 24px;
+          color: #333333;
+          margin-bottom: 20px;
+        }
+        .part1-right-panel-img{
+          width: 500px;
+        }
+        .part2-content{
+          position: relative;
+          padding: 96px 26px 78px;
+        }
+        .part2-left-panel{
+          background: url(https://gw.alicdn.com/tfs/TB1wIG8DG61gK0jSZFlXXXDKFXa-1882-1012.png) no-repeat;
+          background-size: 100% 100%;
+          width: 1128px;
+          height: 506px;
+          margin: 15px 0;
+          padding: 60px 240px 0 70px;
+        }
+        .part2-right-panel{
+          position: absolute;
+          top: 96px;
+          right: 0;
+          height: 532px;
+          width: 204px;
+          background: #FFFFFF;
+          border: 1px solid #FF6B08;
+          border-radius: 4px;
+          margin: 0 16px;
+        }
+        .part2-right-panel .item{
+          text-align: center;
+          padding: 28px 0;
+          cursor: pointer;
+        }
+        
+        .part2-right-panel .item.active{
+          margin-left: -18px;
+          margin-right: -18px;
+          margin-top: -1px;
+          background-image: radial-gradient(36% 50%, #FF791F 36%, #FF6B08 81%);
+          border-radius: 8px;
+          width: 238px;
+          height: 220px;
+          padding: 38px 0 32px;
+        }
+        .part2-right-panel .item .text{
+          line-height: 24px;
+          font-size: 16px;
+          color: #666666;
+        }
+        .part2-right-panel .item .icon{
+          display: none;
+        }
+        .part2-right-panel .item.active .icon{
+          display: inline-block;
+          width: 47px;
+          margin-bottom: 18px;
+        }
+        .part2-right-panel .item.active .text{
+          line-height: 28px;
+          font-weight: bold;
+          font-size: 20px;
+          color: #FFFFFF;
+        }
+        .part2-left-content{
+          height: 0;
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+        }
+        .part2-left-content.active{
+          height: 446px
+        }
+        .part2-left-text{
+          font-size: 14px;
+          color: #6336FF;
+          text-align: left;
+          margin: 22px 0 0 16px;
+          background-image: linear-gradient(45deg, #6336ff05, #6336ff1c);
+          display: inline-block;
+          line-height: 32px;
+          padding: 0 24px;
+          border-radius: 20px;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .part2-left-content img{
+          position: absolute;
+          top: 400px;
+          -webkit-transition: top 1s cubic-bezier(0.1, 0.4, 0.1, 1);
+          transition: top 1s cubic-bezier(0.1, 0.4, 0.1, 1);
+        }
+        .part2-left-content.active .img1.up{
+          top: 180px;
+        }
+        .part2-left-content.active .img2.up{
+          top: 65px;
+        }
+        .part2-left-content.active .img3.up{
+          top: 260px;
+        }
+        .part2-left-content.active .img4.up{
+          top: 120px;
+        }
+        .part2-left-content.active .img5.up{
+          top: 210px;
+        }
+        .part2-left-content.active .img6.up{
+          top: 103px;
+        }
+        .part2-left-content.active .img7.up{
+          top: 250px;
+        }
+        #part2Nav3Content.active .img1.up{
+          top: 120px;
+        }
+        #part2Nav3Content.active .img4.up{
+          top: 70px;
+        }
+        #part2Nav3Content.active .img3.up{
+          top: 232px;
+        }
+        #part2Nav3Content.active .img5.up{
+          top: 232px;
+        }
+    </style>
+  </head>
+  <body data-spm="14922392"><script>with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","req_url=" + encodeURIComponent(location.href) + "&category=&aplus" + (typeof __alp_abtest_bucket__ === "string" ? "&lens_extinfo=" + encodeURIComponent(__alp_abtest_bucket__) : ""),id="tb-beacon-aplus",src="//g.alicdn.com/alilog/mlog/aplus_wap.js")</script>
+    <div id="body">
+      <div id="pageHeader">
+        <div class="part-container">
+          <div class="header-right">
+              <a href="https://www.alimama.com/index.htm" target="_blank" rel="noopener noreferrer" class="header-link">阿里妈妈首页</a>
+              <a href="https://ad.alimama.com/" target="_blank" rel="noopener noreferrer" class="header-link">淘宝联盟·商家中心</a>
+              <a href="https://pub.alimama.com/" target="_blank" rel="noopener noreferrer" class="header-link">淘宝联盟·生态伙伴</a>
+          </div>
+          <div class="header-left">
+              <img src="https://gw.alicdn.com/tfs/TB1IYPkDND1gK0jSZFyXXciOVXa-242-36.png">
+          </div>
+        </div>
+      </div>
+      <div id="pageBanner"> 
+          <img class="bannerImg" src="https://img.alicdn.com/tfs/TB1I._AHHj1gK0jSZFOXXc7GpXa-2880-1200.jpg">
+          <div class="header-content">
+              <div class="title">
+              </div>
+              
+              <div class="actions">
+                  <a class="header-btn" id="goAdBtn" href="https://ad.alimama.com/" target="_blank" rel="noopener noreferrer">
+                      <div class="header-btn-title">我是商家</div>
+                      <div class="header-btn-info">我有预算，需要营销解决方案</div>
+                      <img class="header-btn-arror" src="https://gw.alicdn.com/tfs/TB1Oiq6DSf2gK0jSZFPXXXsopXa-48-40.png">
+                  </a>
+                  <a class="header-btn" id="goPubBtn" href="https://pub.alimama.com/" target="_blank" rel="noopener noreferrer">
+                      <div class="header-btn-title">我是生态伙伴</div>
+                      <div class="header-btn-info">我有流量和服务能力，寻求商业共赢机会</div>
+                      <img class="header-btn-arror" src="https://gw.alicdn.com/tfs/TB1Oiq6DSf2gK0jSZFPXXXsopXa-48-40.png">
+                  </a>
+              </div>
+          </div>
+      </div>
+      <!-- <div id="pageInfo" class="even-section">
+        <div class="part-container">
+          <div class="info-section">
+            <div class="info-title">
+              <span class="info-title-big">2000万</span>
+              <span class="info-title-normal">+ 推广者</span>
+            </div>
+            <div class="info-desc">全场景流量覆盖，精准营销</div>
+          </div>
+          <div class="info-split"></div>
+          <div class="info-section">
+            <div class="info-title">
+              <span class="info-title-big">9亿</span>
+              <span class="info-title-normal">+ 商品库</span>
+            </div>
+            <div class="info-desc">阿里优质广告主，全品类商业化商品库</div>
+          </div>
+          <div class="info-split"></div>
+          <div class="info-section">
+            <div class="info-title">
+              <span class="info-title-big">10000亿</span>
+              <span class="info-title-normal">+ 年成交</span>
+            </div>
+            <div class="info-desc">链接生态两端，创造商业价值</div>
+          </div>
+        </div>
+      </div> -->
+      <div id="part1" class="part odd-section">
+        <div class="part-container">
+          <div class="part-title">全场景流量覆盖，一站式服务提供</div>
+          <div class="part1-content">
+              <div class="part1-left-panel">
+                <div class="part1-left-turntable" id="part1Turntable"></div>
+                <div class="part1-left-turntext" id="part1TurnText" data-curid="2" data-angle="0">
+                  <div class="text text1" id="part1TurnText1" data-id="1">内容生态</div>
+                  <div class="text text2" id="part1TurnText2" data-id="2">社交生态</div>
+                  <div class="text text3" id="part1TurnText3" data-id="3">区域生态</div>
+                  <div class="text text4" id="part1TurnText4" data-id="4">媒体合作</div>
+                  <div class="text text5" id="part1TurnText5" data-id="5">电商导购</div>
+                </div>
+                <div class="part1-left-turntext-pre" id="part1TurnPre"></div>
+                <div class="part1-left-turntext-next" id="part1TurnNext"></div>
+                <div class="part1-left-center">生态<br/>角色</div>
+                <img class="part1-left-activeRegion" src="https://img.alicdn.com/tfs/TB1ZiKFHW61gK0jSZFlXXXDKFXa-598-688.png">
+                <div class="part1-left-activeText" id="part1ActiveText">社交生态</div>
+                <img class="part1-left-icon" src="https://gw.alicdn.com/tfs/TB14KsTDQL0gK0jSZFxXXXWHVXa-166-166.png" style="left:230px;top:-6px;width:60px;">
+                <img class="part1-left-icon" src="https://gw.alicdn.com/tfs/TB1IGgQDND1gK0jSZFsXXbldVXa-160-162.png" style="left:132px;top:342px;width:57px;">
+                <img class="part1-left-icon" src="https://gw.alicdn.com/tfs/TB1EdZ1DRr0gK0jSZFnXXbRRXXa-150-150.png" style="left:380px;top:368px; width:60px;">
+              </div>
+              <div>
+                <div class="part1-right-panel" id="part1RightContent1">
+                  <div>
+                      <div class="part1-right-panel-title">内容生态</div>
+                      <div class="part1-right-panel-desc">内容达人平台全覆盖</div>
+                      <img class="part1-right-panel-img" src="https://img.alicdn.com/tfs/TB10F1EI7L0gK0jSZFtXXXQCXXa-1000-420.png">
+                  </div>
+                </div>
+                <div class="part1-right-panel active" id="part1RightContent2">
+                  <div>
+                      <div class="part1-right-panel-title">社交生态</div>
+                      <div class="part1-right-panel-desc">千万从业者社交场景全域覆盖，年交易额数千亿，服务上亿消费者</div>
+                      <img class="part1-right-panel-img" src="https://img.alicdn.com/tfs/TB15IGjGkL0gK0jSZFxXXXWHVXa-1000-294.png">
+                  </div>
+                </div>
+                <div class="part1-right-panel" id="part1RightContent3">
+                  <div>
+                      <div class="part1-right-panel-title">区域生态</div>
+                      <div class="part1-right-panel-desc">覆盖新蓝海下沉市场</div>
+                      <img class="part1-right-panel-img" src="https://img.alicdn.com/imgextra/i1/O1CN01ePIAJY1JMSGD2lycq_!!6000000001014-2-tps-1000-288.png">
+                  </div>
+                </div>
+                <div class="part1-right-panel" id="part1RightContent4">
+                  <div>
+                      <div class="part1-right-panel-title">媒体合作</div>
+                      <div class="part1-right-panel-desc">多场景公域流量触达，PC/无线/OTT跨屏全覆盖</div>
+                      <img class="part1-right-panel-img" src="https://img.alicdn.com/tfs/TB1wOdDF7L0gK0jSZFAXXcA9pXa-1000-444.png">
+                  </div>
+                </div>
+                <div class="part1-right-panel" id="part1RightContent5">
+                  <div>
+                      <div class="part1-right-panel-title">电商导购</div>
+                      <div class="part1-right-panel-desc">综合垂直媒体全渗透，年佣金过亿超10家</div>
+                      <img class="part1-right-panel-img" src="https://img.alicdn.com/tfs/TB1KfJHF7T2gK0jSZFkXXcIQFXa-1000-378.png">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="part2" class="part even-section">
+        <div class="part-container">
+          <div class="part-title">强竞争力商业供给，撬动万亿市场</div>
+          <div class="part2-content">
+            <div class="part2-left-panel">
+              <div id="part2Nav1Content" class="part2-left-content active">
+                <img class="img1" src="https://gw.alicdn.com/tfs/TB1SKgzE2b2gK0jSZK9XXaEgFXa-244-244.png" style="width:122px;left:97px;">
+                <img class="img2" src="https://img.alicdn.com/tfs/TB1iyJCF7P2gK0jSZPxXXacQpXa-152-150.png" style="width:76px;left:210px;">
+                <img class="img3" src="https://gw.alicdn.com/tfs/TB1mzFIFYj1gK0jSZFuXXcrHpXa-206-204.png" style="width:103px;left:228px;">
+                <img class="img4" src="https://gw.alicdn.com/tfs/TB1.ukIEYj1gK0jSZFuXXcrHpXa-280-276.png" style="width:140px;left:320px;">
+                <img class="img5" src="https://gw.alicdn.com/tfs/TB1CegBEYr1gK0jSZFDXXb9yVXa-216-214.png" style="width:108px;left:486px;">
+                <img class="img6" src="https://gw.alicdn.com/tfs/TB1h6FIFYj1gK0jSZFuXXcrHpXa-188-186.png" style="width:106px;left:592px;">
+              </div>
+              <div id="part2Nav2Content" class="part2-left-content">
+                <img class="img1" src="https://img.alicdn.com/tfs/TB13tgFE4D1gK0jSZFyXXciOVXa-248-248.png" style="width:122px;left:97px;">
+                <img class="img2" src="https://gw.alicdn.com/tfs/TB1APZFEYH1gK0jSZFwXXc7aXXa-156-154.png" style="width:78px;left:210px;">
+                <img class="img3" src="https://gw.alicdn.com/tfs/TB1wFUAE4D1gK0jSZFsXXbldVXa-212-208.png" style="width:106px;left:228px;">
+                <img class="img4" src="https://gw.alicdn.com/tfs/TB1ALkBEYr1gK0jSZFDXXb9yVXa-286-282.png" style="width:143px;left:320px;">
+                <img class="img5" src="https://gw.alicdn.com/tfs/TB1DJ.EEYH1gK0jSZFwXXc7aXXa-220-218.png" style="width:110px;left:486px;">
+                <img class="img6" src="https://gw.alicdn.com/tfs/TB1lysAEVP7gK0jSZFjXXc5aXXa-194-192.png" style="width:97px;left:592px;">
+                <img class="img7" src="https://gw.alicdn.com/tfs/TB14mszE7L0gK0jSZFtXXXQCXXa-190-190.png" style="width:95px;left:646px;">
+              </div>
+              <div id="part2Nav3Content" class="part2-left-content">
+                <img class="img1" src="https://img.alicdn.com/tfs/TB1.ut0HRr0gK0jSZFnXXbRRXXa-244-244.png" style="width:122px;left:97px;">
+                <img class="img3" src="https://img.alicdn.com/tfs/TB1sZhTHNv1gK0jSZFFXXb0sXXa-206-204.png" style="width:103px;left:238px;">
+                <img class="img4" src="https://img.alicdn.com/tfs/TB1XDBwI7Y2gK0jSZFgXXc5OFXa-280-276.png" style="width:140px;left:340px;">
+                <img class="img5" src="https://img.alicdn.com/tfs/TB16Z8Vaz39YK4jSZPcXXXrUFXa-182-180.png" style="width:95px;left:516px;">
+                <img class="img6" src="https://img.alicdn.com/tfs/TB1CFrjaepyVu4jSZFhXXbBpVXa-188-186.png" style="width:95px;left:632px;">
+              </div>
+              <div id="part2Nav4Content" class="part2-left-content">
+                <div class="part2-left-text">大促超级红包发放+大促赛马补贴</div>
+                <img class="img1" src="https://gw.alicdn.com/tfs/TB1UU7EEYj1gK0jSZFOXXc7GpXa-244-244.png" style="width:122px;left:97px;">
+                <img class="img2" src="https://img.alicdn.com/tfs/TB1dWZBE.T1gK0jSZFrXXcNCXXa-152-150.png" style="width:76px;left:210px;">
+                <img class="img3" src="https://gw.alicdn.com/tfs/TB1qfoCE.T1gK0jSZFhXXaAtVXa-206-204.png" style="width:103px;left:228px;">
+                <img class="img4" src="https://gw.alicdn.com/tfs/TB1gpsGE1H2gK0jSZJnXXaT1FXa-280-276.png" style="width:140px;left:320px;">
+                <img class="img5" src="https://gw.alicdn.com/tfs/TB1xYICE4z1gK0jSZSgXXavwpXa-216-214.png" style="width:108px;left:486px;">
+                <img class="img6" src="https://gw.alicdn.com/tfs/TB1X2oCE.T1gK0jSZFhXXaAtVXa-188-186.png" style="width:94px;left:592px;">
+                <img class="img7" src="https://gw.alicdn.com/tfs/TB1x5EKE8r0gK0jSZFnXXbRRXXa-184-186.png" style="width:92px;left:646px;">
+              </div>
+            </div>
+            <div class="part2-right-panel">
+              <div class="item active" id="part2Nav1">
+                <img class="icon" src="https://gw.alicdn.com/tfs/TB19X..DUH1gK0jSZSyXXXtlpXa-142-142.png">
+                <div class="text">百万电商</div>
+                <div class="text">广告主预算</div>
+              </div>
+              <div class="item" id="part2Nav2">
+                <img class="icon" src="https://gw.alicdn.com/tfs/TB11wZ.DKT2gK0jSZFvXXXnFXXa-140-140.png">
+                <div class="text">本地生活</div>
+                <div class="text">平台/广告主预算</div>
+              </div>
+              <div class="item" id="part2Nav3">
+                <img class="icon" src="https://gw.alicdn.com/tfs/TB1S8RbD4D1gK0jSZFKXXcJrVXa-140-140.png">
+                <div class="text">阿里集团</div>
+                <div class="text">拉新推广预算</div>
+              </div>
+              <div class="item" id="part2Nav4">
+                <img class="icon" src="https://gw.alicdn.com/tfs/TB1bKZ_DUz1gK0jSZLeXXb9kVXa-140-140.png">
+                <div class="text">阿里集团</div>
+                <div class="text">IP联运</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="part3" class="part odd-section">
+        <div class="part-container">
+          <div class="part-title">平台服务升级，高效链接供需两端</div>
+          <div class="part3-content">
+            <img id="part3Img" src="https://img.alicdn.com/tfs/TB1Cpv2HQY2gK0jSZFgXXc5OFXa-2344-1222.png">
+          </div>
+        </div>
+      </div>
+      <iframe id="footFrame" src="https://mo.m.taobao.com/page_201912120119435#!/footer/full?bizCode=unionMedia&products=true&width=1280&colorBrand=%23FF822E" style="width:100%;height:440px;border:none;background:#f7f8fa;">
+      </iframe>
+      <!-- <div id="pageFooter" class="even-section">
+        <div class="part-container" style="width:1280px;">
+          <div class="union-footer" data-spm="fproducts">
+            <div class="logo"></div>
+            <div class="products">
+              <div class="group">
+                <div class="label">我是生态伙伴</div>
+                <div class="item">
+                  <a href="https://pub.alimama.com/" target="_blank" rel="noopener noreferrer">生态伙伴中心</a>
+                </div>
+                <div class="item">
+                  <a href="https://pub.alimama.com/fourth/school/index.htm" target="_blank" rel="noopener noreferrer">联盟学院</a>
+                </div>
+                <div class="item">
+                  <a href="https://help.alimama.com/?#!/product/index?id=8306480&amp;categoryId=" target="_blank" rel="noopener noreferrer">客服中心</a>
+                </div>
+                <div class="item">
+                  <a href="https://rule.alimama.com/?#!/product/index?type=list&amp;id=405" target="_blank" rel="noopener noreferrer">规则中心</a>
+                </div>
+                <div class="item">
+                  <a href="https://market.m.taobao.com/app/qn/toutiao-new/index-pc.html?#/service/fm_305?_k=mp4p0u" target="_blank" rel="noopener noreferrer">社区论坛</a>
+                </div>
+                <div class="item">
+                  <a href="https://mo.re.taobao.com/union/pages/app" target="_blank" rel="noopener noreferrer">联盟APP</a>
+                </div>
+              </div>
+              <div class="group">
+                <div class="label">我是商家</div>
+                <div class="item">
+                  <a href="https://ad.alimama.com/index.htm" target="_blank" rel="noopener noreferrer">商家中心</a>
+                </div>
+                <div class="item">
+                  <a href="https://ad.alimama.com/index.htm#!/index?curValue=nav_1" target="_blank" rel="noopener noreferrer">产品介绍</a>
+                </div>
+                <div class="item">
+                  <a href="https://ad.alimama.com/minisite/course/index.htm" target="_blank" rel="noopener noreferrer">商家学院</a>
+                </div>
+                <div class="item">
+                  <a href="https://help.alimama.com/?#!/product/index?id=8306483&amp;spm=" target="_blank" rel="noopener noreferrer">客服中心</a>
+                </div>
+                <div class="item">
+                  <a href="https://rule.alimama.com/?#!/product/index?type=list&amp;id=403" target="_blank" rel="noopener noreferrer">规则中心</a>
+                </div>
+              </div>
+              <div class="group">
+                <div class="label">我是开发者</div>
+                <div class="item">
+                  <a href="https://open.alimama.com/" target="_blank" rel="noopener noreferrer">开放平台</a>
+                </div>
+                <div class="item">
+                  <a href="https://tbk.bbs.taobao.com/detail.html?postId=8127005" target="_blank" rel="noopener noreferrer">能力地图</a>
+                </div>
+                <div class="item">
+                  <a href="https://open.taobao.com/api.htm?docId=24517&docType=2" target="_blank" rel="noopener noreferrer">文档中心</a>
+                </div>
+              </div>
+            </div>
+            <div class="QRcode"></div>
+          </div>
+          <div data-spm="fchains">
+            <div>
+              <div class="footer-remote">
+                <div class="footer-remote-links"> 
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alimama.com"> <span>关于阿里妈妈</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alimama.com/home/about-1.htm"> <span>联系客服</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//open.taobao.com/"> <span>开放平台</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//jubao.alibaba.com"> <span>廉正举报</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alimama.com/home/about-4.htm"> <span>意见反馈</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//terms.alicdn.com/legal-agreement/terms/suit_bu1_ali_mama_division/suit_bu1_ali_mama_division201709111812_13128.html"> <span>法律声明</span></a> 
+                </div>
+                <div class="footer-remote-links"> 
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alibabagroup.com/cn/global/home"> <span>阿里巴巴集团</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.taobao.com/"> <span>淘宝网</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.tmall.com/"> <span>天猫</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//ju.taobao.com/"> <span>聚划算</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.aliexpress.com/"> <span>全球速卖通</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alibaba.com/"> <span>阿里巴巴国际交易市场</span></a>
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.1688.com"> <span>1688</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alimama.com/index.htm"> <span>阿里妈妈</span></a>
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.fliggy.com"> <span>飞猪</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.aliyun.com"> <span>阿里云计算</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alios.cn"> <span>AliOS</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//aliqin.tmall.com"> <span>阿里通信</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.etao.com/"> <span>一淘</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//wanwang.aliyun.com/"> <span>万网</span></a> 
+                </div>
+                <div class="footer-remote-links"> 
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.autonavi.com/"> <span>高德</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.uc.cn/"> <span>UC</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.umeng.com/"> <span>友盟</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.xiami.com/"> <span>虾米</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.damai.cn/"> <span>大麦</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.dingtalk.com/"> <span>钉钉</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alipay.com"> <span>支付宝</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.youku.com/"> <span>优酷</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.tudou.com/"> <span>土豆</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="https://s.alibaba.com"> <span>阿里安全</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alibabapictures.com/simp/0-home.html"> <span>阿里影业</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.alisports.com/cn/"> <span>阿里体育</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.mybank.cn/"> <span>网上银行</span></a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.taobao.tw/"> <span>淘宝台湾</span></a> 
+                </div>
+                <div class="footer-remote-links"> 
+                  <span class="remote-link"> 
+                    <span>© 2007-现在 阿里妈妈版权所有</span>
+                  </span>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//beian.miit.gov.cn/"> <span>增值电信业务经营许可证：浙B2-20070195</span></a> 
+                </div>
+                <div class="footer-remote-links"> 
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//idinfo.zjamr.zj.gov.cn/bscx.do?method=lzxx&amp;id=3301843301080000022791">
+                    <img src="https://img.alicdn.com/tfs/TB1D24er.T1gK0jSZFrXXcNCXXa-65-70.png" width="20">
+                  </a>  
+                  <a class="remote-link" target="_blank" rel="noopener noreferrer" href="//www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000075">
+                    <img src="https://img.alicdn.com/tfs/TB1hIher4z1gK0jSZSgXXavwpXa-20-20.png" width="20"> 
+                    <span>浙公网安备 33010002000075号</span>
+                  </a> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <script>
+    (function(){
+      function part1Rotate(angle){
+        var parentEl = $('#part1TurnText')
+        var part1Turntable = $('#part1Turntable')
+        var parentTextEl = $('#part1TurnText')
+        var curangle = parentTextEl.attr('data-angle')
+        curangle = parseInt(curangle)
+        angle = curangle + angle
+        var textAngle = 0 - angle
+        parentEl.attr('data-angle', angle)
+        
+        for(var i=0; i<5;i++){
+          $("#part1TurnText"+(i+1)).css({
+            transform: 'rotate('+textAngle+'deg)',
+            webkitTransform: 'rotate('+textAngle+'deg)'
+          })
+        }
+        part1Turntable.css({
+          transform: 'rotate('+angle+'deg)',
+          webkitTransform: 'rotate('+angle+'deg)'
+        })
+        parentEl.css({
+          transform: 'rotate('+angle+'deg)',
+          webkitTransform: 'rotate('+angle+'deg)'
+        })
+      }
+      function part1TextSwitch(curId){
+        var curEl = $('#part1TurnText'+curId)
+        var part1ActiveText = $('#part1ActiveText')
+        var parentTextEl = $('#part1TurnText')
+        parentTextEl.attr('data-curid', curId)
+        var selectedText = curEl.text()
+        setTimeout(function(){
+          part1ActiveText.text(selectedText)
+          $('.part1-right-panel').removeClass('active')
+          $('#part1RightContent'+curId).addClass('active')
+        }, 500)
+      }
+    //   var footFrame = document.getElementById('footFrame')
+    //   footFrame.onload = function () {
+    //     console.log(12)
+    //     var contentWindow =footFrame.contentWindow
+    //     var document = contentWindow&&contentWindow.document
+    //     if(document){
+    //       var css = '.clearfix a:hover{ color: #FF822E }';
+    //       var style = document.createElement('style');
+    //       if (style.styleSheet) {
+    //         style.styleSheet.cssText = css;
+    //       } else {
+    //         style.appendChild(document.createTextNode(css));
+    //       }
+    //       document.getElementsByTagName('head')[0].appendChild(style);
+    //     }
+    //   }
+      $(document).ready(function(){
+      var autoRotateNum = 1
+      var internal = setInterval(function(){
+        part1TextSwitch(autoRotateNum)
+        part1Rotate(72)
+        var parentTextEl = $('#part1TurnText')
+        parentTextEl.attr('data-curid', autoRotateNum)
+        autoRotateNum = autoRotateNum>1?(autoRotateNum -1):5
+      }, 3000)
+      $('#part2Nav1Content img').addClass('up')
+      $(window).scroll(function(){
+      //滚动的高度
+        var scrollTop=$(this).scrollTop();
+        if(scrollTop > 5 ){
+          $("#pageHeader").addClass('pageHeader-fixed');
+        }else{
+          $("#pageHeader").removeClass('pageHeader-fixed');
+        }
+      })
+      $('.part2-right-panel .item').on('click', function(e){
+        var el = $(e.target);
+        console.log('e',e)
+        if(!el.hasClass('item')){
+          el = $(e.target).parent('.item')
+        }
+        var id = el.attr('id')
+        $('.part2-right-panel .item').removeClass('active')
+        $('.part2-left-content').removeClass('active')
+        el.addClass('active')
+        $('#'+id+'Content').addClass('active')
+        $('#'+id+'Content img').addClass('up')
+      })
+      $('.part1-left-turntext .text').on('click', function(e){
+        clearInterval(internal)
+        var el = $(e.target);
+        var parentEl = $('#part1TurnText')
+        var id = el.attr('data-id')
+        id = parseInt(id)
+        var activeId = parentEl.attr('data-curid')
+        activeId = parseInt(activeId)
+        var distance = activeId - id
+        if(distance<0 && distance<-2){
+          distance = 5+distance
+        }
+        if(distance>0 && distance>2){
+          distance = distance-5
+        }
+        var angle = distance * 72
+        part1TextSwitch(id)
+        part1Rotate(angle)
+      })
+      $('#part1TurnPre').on('click', function(e){
+        clearInterval(internal)
+        var el = $(e.target);
+        var parentTextEl = $('#part1TurnText')
+        var activeId = parentTextEl.attr('data-curid')
+        activeId = parseInt(activeId)
+        var id = activeId>1?(activeId - 1):5
+        part1TextSwitch(id)
+        console.log(id)
+        part1Rotate(72)
+      })
+
+      $('#part1TurnNext').on('click', function(e){
+        clearInterval(internal)
+        var el = $(e.target);
+        var parentTextEl = $('#part1TurnText')
+        var activeId = parentTextEl.attr('data-curid')
+        activeId = parseInt(activeId)
+        var id = activeId<5?(activeId + 1):1
+        part1TextSwitch(id)
+        part1Rotate(-72)
+      })
+      })
+    })()
+    </script>
+  </body>
+</html>
+0
+
+
+
+
+https://aff.alimama.com:443

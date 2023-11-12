@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            body {
+                height: 100%;
+                font-family: Helvetica, Arial, sans-serif;
+                color: #6a6a6a;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], select, textarea {
+                color: #262626;
+                vertical-align: baseline;
+                margin: .2em;
+                border-style: solid;
+                border-width: 1px;
+                border-color: #a9a9a9;
+                background-color: #fff;
+                box-sizing: border-box;
+                padding: 2px .5em;
+                appearance: none;
+                border-radius: 0;
+            }
+            input:focus {
+                border-color: #646464;
+                box-shadow: 0 0 1px 0 #a2a2a2;
+                outline: 0;
+            }
+            button {
+                padding: .5em 1em;
+                border: 1px solid;
+                border-radius: 3px;
+                min-width: 6em;
+                font-weight: 400;
+                font-size: .8em;
+                cursor: pointer;
+            }
+            button.primary {
+                color: #fff;
+                background-color: rgb(47, 113, 178);
+                border-color: rgb(34, 103, 173);
+            }
+            .message-container {
+                height: 500px;
+                width: 600px;
+                padding: 0;
+                margin: 10px;
+            }
+            .logo {
+                background: url(https://globalurl.fortinet.net:8010/XX/YY/ZZ/CI/MGPGHGPGPFGHDDPFGGHGFHBGCHEGPFBGAHAH) no-repeat left center;
+                height: 267px;
+                object-fit: contain;
+            }
+            table {
+                background-color: #fff;
+                border-spacing: 0;
+                margin: 1em;
+            }
+            table > tbody > tr > td:first-of-type:not([colspan]) {
+                white-space: nowrap;
+                color: rgba(0,0,0,.5);
+            }
+            table > tbody > tr > td:first-of-type {
+                vertical-align: top;
+            }
+            table > tbody > tr > td {
+                padding: .3em .3em;
+            }
+            .field {
+                display: table-row;
+            }
+            .field > :first-child {
+                display: table-cell;
+                width: 20%;
+            }
+            .field.single > :first-child {
+                display: inline;
+            }
+            .field > :not(:first-child) {
+                width: auto;
+                max-width: 100%;
+                display: inline-flex;
+                align-items: baseline;
+                virtical-align: top;
+                box-sizing: border-box;
+                margin: .3em;
+            }
+            .field > :not(:first-child) > input {
+                width: 230px;
+            }
+            .form-footer {
+                display: inline-flex;
+                justify-content: flex-start;
+            }
+            .form-footer > * {
+                margin: 1em;
+            }
+            .text-scrollable {
+                overflow: auto;
+                height: 150px;
+                border: 1px solid rgb(200, 200, 200);
+                padding: 5px;
+                font-size: 1em;
+            }
+            .text-centered {
+                text-align: center;
+            }
+            .text-container {
+                margin: 1em 1.5em;
+            }
+            .flex-container {
+                display: flex;
+            }
+            .flex-container.column {
+                flex-direction: column;
+            }
+        </style>
+        <title>Invalid Connection</title>
+    </head>
+    <body><div class="message-container">
+    <div class="logo"></div>
+    <h1>FORTINET Webfilter</h1>
+    <h3>This Connection is Invalid. SSL certificate expired.</h3>
+    <p>A secure connection to origin-smoketest.collegeboard.org cannot be established.</p>
+    <p>When you try to connect securely, sites will present trusted identification to prove that you are going to the right place. However, this site's identity can't be verified.</p>
+    <table><tbody>
+        <tr>
+            <td>Site</td>
+            <td>origin-smoketest.collegeboard.org</td>
+        </tr>
+        <tr>
+            <td>Certificate CN</td>
+            <td>*.collegeboard.org</td>
+        </tr>
+        <tr>
+            <td>Certificate Authority</td>
+            <td>DigiCert SHA2 High Assurance Server CA</td>
+        </tr>
+        <tr>
+            <td>Certificate Validity</td>
+            <td>
+                <div>Not Before: Jun  9 00:00:00 2015 GMT</div>
+                <div>Not After: Sep  6 12:00:00 2018 GMT</div>
+            </td>
+        </tr>
+        <tr>
+            <td>Certificate Chain</td>
+            <td><pre>-----BEGIN CERTIFICATE-----
+MIIFbDCCBFSgAwIBAgIQAw6H3KdcPAaSs1AK0vPHOTANBgkqhkiG9w0BAQsFADBw
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMS8wLQYDVQQDEyZEaWdpQ2VydCBTSEEyIEhpZ2ggQXNz
+dXJhbmNlIFNlcnZlciBDQTAeFw0xNTA2MDkwMDAwMDBaFw0xODA5MDYxMjAwMDBa
+MH0xCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhOZXcgWW9yazERMA8GA1UEBxMITmV3
+IFlvcmsxKzApBgNVBAoTIkNvbGxlZ2UgRW50cmFuY2UgRXhhbWluYXRpb24gQm9h
+cmQxGzAZBgNVBAMMEiouY29sbGVnZWJvYXJkLm9yZzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAM5wKhZb0/+MdqXLCPsnta5jUHBvly5AI4UYipheTMfd
+pzACh5xpWiZE4GbnkMxghEN54T3ZIwjkIVnaQF7OHrmBIAo9AZxJkpkEWv6thOoE
+Hn7/6IPlZGL5oGADL/IyUlK7g8ICLXa3lCrBhxYbn91lNEEoDp0VgWdMCUTvsMbw
+m4O8pxLWvTi6dfSdp7ATJgVbB8o9JIvuh8Aphce9dM0qGs0tx7Z12oYhQ3GkDYSg
+n7IhtRE+guu/q7ED9pDHekWx4gaK94QQAJOS/af9bKq4f6Ijth42xXTrKOo2rpBR
+iY9khtqHh+jAB5vXARrscuoSMNdYMGR2eq6P47N/eAUCAwEAAaOCAfMwggHvMB8G
+A1UdIwQYMBaAFFFo/5CvAgd1PMzZZWRiohK4WXI7MB0GA1UdDgQWBBTfQfuvGYcd
+YdDK6akLxTTTBoUGcDAvBgNVHREEKDAmghIqLmNvbGxlZ2Vib2FyZC5vcmeCEGNv
+bGxlZ2Vib2FyZC5vcmcwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUF
+BwMBBggrBgEFBQcDAjB1BgNVHR8EbjBsMDSgMqAwhi5odHRwOi8vY3JsMy5kaWdp
+Y2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzQuY3JsMDSgMqAwhi5odHRwOi8vY3Js
+NC5kaWdpY2VydC5jb20vc2hhMi1oYS1zZXJ2ZXItZzQuY3JsMEIGA1UdIAQ7MDkw
+NwYJYIZIAYb9bAEBMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0
+LmNvbS9DUFMwgYMGCCsGAQUFBwEBBHcwdTAkBggrBgEFBQcwAYYYaHR0cDovL29j
+c3AuZGlnaWNlcnQuY29tME0GCCsGAQUFBzAChkFodHRwOi8vY2FjZXJ0cy5kaWdp
+Y2VydC5jb20vRGlnaUNlcnRTSEEySGlnaEFzc3VyYW5jZVNlcnZlckNBLmNydDAM
+BgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4IBAQBHdYLIjO7OObu1XsDOo0V4
+Paq7rkp7unpTL4wPJCLSYjO0tBzMAO6CjIcmvWJbOdTpFVXRJjiG9MqEJsH+FIVw
+7yz3ypFoREKnckXIfqCa0UFwbHzWSg0y/5o49Nj6RgP0X39oUI3VGALAcQR7a7H+
+LPAFW8UclNrf7PU9JQtnJ9cEQfuCY+zvsKRq/O4qqJqvnuHeOzVE0E6OJ6Sy3/df
+sucIrh45YYxnuyqbDZU5o5fm1iPx7YiC+VV9Pvt8gdNRbcz/5ci7Cr9+geZrcLkn
+1M5BHLyWtBoe3izkc39QR608h+7TiZd2Q6TtNM5mem2jeoJO/tqP7MAfM2MZXMiz
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIEsTCCA5mgAwIBAgIQBOHnpNxc8vNtwCtCuF0VnzANBgkqhkiG9w0BAQsFADBs
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j
+ZSBFViBSb290IENBMB4XDTEzMTAyMjEyMDAwMFoXDTI4MTAyMjEyMDAwMFowcDEL
+MAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3
+LmRpZ2ljZXJ0LmNvbTEvMC0GA1UEAxMmRGlnaUNlcnQgU0hBMiBIaWdoIEFzc3Vy
+YW5jZSBTZXJ2ZXIgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2
+4C/CJAbIbQRf1+8KZAayfSImZRauQkCbztyfn3YHPsMwVYcZuU+UDlqUH1VWtMIC
+Kq/QmO4LQNfE0DtyyBSe75CxEamu0si4QzrZCwvV1ZX1QK/IHe1NnF9Xt4ZQaJn1
+itrSxwUfqJfJ3KSxgoQtxq2lnMcZgqaFD15EWCo3j/018QsIJzJa9buLnqS9UdAn
+4t07QjOjBSjEuyjMmqwrIw14xnvmXnG3Sj4I+4G3FhahnSMSTeXXkgisdaScus0X
+sh5ENWV/UyU50RwKmmMbGZJ0aAo3wsJSSMs5WqK24V3B3aAguCGikyZvFEohQcft
+bZvySC/zA/WiaJJTL17jAgMBAAGjggFJMIIBRTASBgNVHRMBAf8ECDAGAQH/AgEA
+MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw
+NAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2Vy
+dC5jb20wSwYDVR0fBEQwQjBAoD6gPIY6aHR0cDovL2NybDQuZGlnaWNlcnQuY29t
+L0RpZ2lDZXJ0SGlnaEFzc3VyYW5jZUVWUm9vdENBLmNybDA9BgNVHSAENjA0MDIG
+BFUdIAAwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQ
+UzAdBgNVHQ4EFgQUUWj/kK8CB3U8zNllZGKiErhZcjswHwYDVR0jBBgwFoAUsT7D
+aQP4v0cB1JgmGggC72NkK8MwDQYJKoZIhvcNAQELBQADggEBABiKlYkD5m3fXPwd
+aOpKj4PWUS+Na0QWnqxj9dJubISZi6qBcYRb7TROsLd5kinMLYBq8I4g4Xmk/gNH
+E+r1hspZcX30BJZr01lYPf7TMSVcGDiEo+afgv2MW5gxTs14nhr9hctJqvIni5ly
+/D6q1UEL2tU2ob8cbkdJf17ZSHwD2f2LSaCYJkJA69aSEaRkCldUxPUd1gJea6zu
+xICaEnL6VpPX/78whQYwvwt/Tv9XBZ0k7YXDK/umdaisLRbvfXknsuvCnQsH6qqF
+0wGjIChBWUMo0oHjqvbsezt3tkBigAVBRQHvFwY+3sAzm2fTYS5yh+Rp/BIAV0Ae
+cPUeybQ=
+-----END CERTIFICATE-----
+</pre></td>
+        </tr>
+    </tbody></table>
+</div></body>
+</html>
+
+
+
+
+https://origin-smoketest.collegeboard.org:443

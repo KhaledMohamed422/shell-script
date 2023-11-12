@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: xlog-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; es-es; SonyEricssonX10i Build/R1FA016) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:31 GMT
+Server: TLB
+Server-Timing: inner; dur=4
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=89
+X-Akamai-Request-Id: 1f94588d
+X-Cache: TCP_MISS from a2-19-121-221.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Origin-Response-Time: 89,2.19.121.221
+X-Tt-Logid: 202311081842304D73F52411FE2B983B09
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ac7dfadae7cb3eb85411f2f5914e6ab490d4df322e1825cd783cbcdb408f612d548c29123d9263e33fb0ac7a8fda8ef41dfdfa376bd0a7a36cdc8f378b2c398a19339b95ae5e276bcb0f851643976db1b
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://xlog-va.tiktokv.com:80

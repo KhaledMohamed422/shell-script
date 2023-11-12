@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: cdn.my.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; MAR-LX1M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 300
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Type
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:13:29 GMT
+Expires: Wed, 08 Nov 2023 19:13:29 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPrQ6xyCgl9iF1dkN4wnA6fHT3m8QlGOgBIai7GXtJsXSyHShKIVRSeH89lmOqlK4jwg5aBFTkN_AA
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource (or it may not exist).</Details></Error>
+
+
+http://cdn.my.nintendo.com:80

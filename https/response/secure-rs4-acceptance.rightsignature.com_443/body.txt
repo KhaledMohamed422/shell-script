@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    
+<meta name="ember-rs/config/environment" content="%7B%22modulePrefix%22%3A%22ember-rs%22%2C%22defaultLocale%22%3A%22en%22%2C%22environment%22%3A%22acceptance%22%2C%22rsFullname%22%3A%22https%3A%2F%2Fsecure-rs4-acceptance.rightsignature.com%22%2C%22rsUSFullname%22%3A%22https%3A%2F%2Fsecure-rs4-acceptance.rightsignature.com%22%2C%22rsEUFullname%22%3A%22https%3A%2F%2Fsecure-rs4-acceptance.rightsignature.eu%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22awsBucket%22%3A%22rightsign-acceptance%22%2C%22cloudfront_distribution%22%3A%22https%3A%2F%2Fd2vwc5js1yw1r9.cloudfront.net%2F%22%2C%22EmberENV%22%3A%7B%22environment%22%3A%22acceptance%22%2C%22available_locales%22%3A%5B%22de%22%2C%22de-de%22%2C%22en%22%2C%22es%22%2C%22es-es%22%2C%22fr%22%2C%22fr-fr%22%2C%22it%22%2C%22it-it%22%2C%22ja%22%2C%22ja-jp%22%2C%22nl%22%2C%22nl-nl%22%2C%22pt%22%2C%22pt-br%22%2C%22zh%22%2C%22zh-cn%22%5D%2C%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22flashMessageDefaults%22%3A%7B%22timeout%22%3A3000%2C%22extendedTimeout%22%3A300%2C%22priority%22%3A200%2C%22sticky%22%3Afalse%2C%22showProgress%22%3Afalse%2C%22preventDuplicates%22%3Atrue%7D%2C%22api%22%3A%7B%22endpoint%22%3A%22https%3A%2F%2Fapi-rs4-acceptance.rightsignature.com%2Fv1%22%2C%22host%22%3A%22https%3A%2F%2Fapi-rs4-acceptance.rightsignature.com%22%2C%22namespace%22%3A%22v1%22%7D%2C%22ember-simple-auth%22%3A%7B%22crossOriginWhitelist%22%3A%5B%22https%3A%2F%2Fsecure-rs4-acceptance.rightsignature.com%22%2C%22https%3A%2F%2Fsharefile.rightsignature.com%22%2C%22https%3A%2F%2Fapi-rs4-acceptance.rightsignature.com%22%5D%2C%22authenticationRoute%22%3A%22login%22%2C%22routeAfterAuthentication%22%3A%22documents%22%2C%22routeIfAlreadyAuthenticated%22%3A%22documents%22%7D%2C%22APP%22%3A%7B%22name%22%3A%22ember-rs%22%2C%22version%22%3A%220.0.0%2B5d40224c%22%7D%2C%22stripe%22%3A%7B%22publishableKey%22%3A%22pk_test_Ohd4HVN7S547DQOstUr7AgrL%22%7D%2C%22pendo%22%3A%7B%22apiKey%22%3A%22a69d40bb-a591-4183-4ffd-55271e2843d4%22%7D%2C%22launchDarkly%22%3A%7B%22clientSideId%22%3A%225f5bc781985fe90a4d087141%22%7D%2C%22moment%22%3A%7B%22allowEmpty%22%3Atrue%2C%22includeTimezone%22%3A%22all%22%2C%22includeLocales%22%3A%5B%22de%22%2C%22es%22%2C%22fr%22%2C%22it%22%2C%22ja%22%2C%22nl%22%2C%22pt-br%22%2C%22zh-cn%22%5D%7D%2C%22vantiv%22%3A%7B%22id%22%3A%22041000%22%2C%22paypageId%22%3A%22k6pPFWCy9cdvorpx%22%2C%22url%22%3A%22https%3A%2F%2Frequest.eprotect.vantivpostlive.com%22%2C%22reportGroup%22%3A%22RightSignature%22%7D%2C%22newRelic%22%3A%7B%7D%2C%22drift%22%3A%7B%7D%2C%22env%22%3A%22acceptance%22%2C%22marketingHost%22%3A%22https%3A%2F%2Frs4-acceptance.rightsignature.com%22%2C%22bugsnag%22%3A%7B%7D%2C%22ember-modal-dialog%22%3A%7B%7D%2C%22emberSpectrumColorPicker%22%3A%7B%22includeStyles%22%3Atrue%7D%2C%22exportApplicationGlobal%22%3Atrue%2C%22currentRevision%22%3A%225d40224cee%22%2C%22longRevision%22%3A%225d40224cee49b7fdfcc72c8e208264552383748d%22%2C%22tag%22%3Anull%2C%22branch%22%3Anull%7D" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://d2vwc5js1yw1r9.cloudfront.net/apple-touch-icon-3c7b9c48c743ee80d2327a85b60ed618.png">
+    <link rel="icon" type="image/png" href="https://d2vwc5js1yw1r9.cloudfront.net/favicon-32x32-87fb4917cdd4c0c3fd81cdc60657ee2f.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://d2vwc5js1yw1r9.cloudfront.net/favicon-16x16-1ba2f4e743a416b30299c98fe894cd40.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="https://d2vwc5js1yw1r9.cloudfront.net/safari-pinned-tab-16fb56264846ecaf0ad9285a546a3bcc.svg" color="#5bbad5">
+    <meta name="theme-color" content="#5bbad5">
+
+    <link href='//fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://d2vwc5js1yw1r9.cloudfront.net/assets/vendor-e67fbe0ba791d8e0d278a5bf6ca6a1ff.css"> -->
+    <link rel="stylesheet" href="https://d2vwc5js1yw1r9.cloudfront.net/assets/ember-rs-a7e1996c60949b20d9f40831f47adb35.css" id="applicationStylesheet">
+    
+  </head>
+  <body>
+    
+    <script src="https://d2vwc5js1yw1r9.cloudfront.net/assets/vendor-4cfc0f3e9b6ae53cf8470c73f0b43953.js"></script>
+    <script src="https://d2vwc5js1yw1r9.cloudfront.net/assets/ember-rs-510ca5c053c09923994cac8c8f23ef8f.js"></script>
+    <div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+  <!-- App Version: 0.0.0 -->
+  <!-- Commit SHA:  5d40224cee -->
+</html>
+
+
+
+https://secure-rs4-acceptance.rightsignature.com:443

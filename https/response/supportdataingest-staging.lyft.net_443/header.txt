@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: supportdataingest-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.11) Gecko/2009060215 Firefox/3.0.11 (.NET CLR 3.5.30729)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 22:05:29 GMT
+Server: envoy-iad
+X-Envoy-Upstream-Service-Time: 1
+X-Request-Id: 86052a70-4c40-4021-9ef5-d4782a2ff63c
+
+RBAC: access denied
+
+
+https://supportdataingest-staging.lyft.net:443

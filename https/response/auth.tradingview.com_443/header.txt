@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: auth.tradingview.com
+User-Agent: Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 150
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:43:49 GMT
+Server: tv
+Via: 1.1 cf65dbfe06da8e543052ca7066d0e458.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QzL8UyEoVmibseFvF4MeR6cWRpKJW7W3rvi_sFBzgS2eIqZuZPOj6w==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Error from cloudfront
+

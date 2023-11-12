@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: l.monday.com
+User-Agent: Mozilla/5.0 (X11; U; OpenBSD i386; en-US) AppleWebKit/533.3 (KHTML, like Gecko) Chrome/5.0.359.0 Safari/533.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 134217
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=0, s-maxage=2592000
+Cf-Cache-Status: HIT
+Cf-Ray: 822cf6446ccccad9-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 09:59:13 GMT
+Ki-Cache-Tag: 85e68af5-8e83-49b5-821f-8a25f7983464,e2be761c8df60eb7e5082e6b22ca1638be3e14a9918e464c87f41ebedf9da8b5
+Ki-Cache-Type: Edge
+Ki-Cf-Cache-Status: HIT
+Ki-Edge: v=20.2.4;mv=2.4.2
+Ki-Origin: g1p
+Last-Modified: Sun, 05 Nov 2023 09:15:56 GMT
+Link: <https://mondaylegal.kinsta.cloud/wp-json/>; rel="https://api.w.org/", <https://mondaylegal.kinsta.cloud/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json", <https://mondaylegal.kinsta.cloud/>; rel=shortlink
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FNSHy3ZpAHjZuxm%2FkX4QVOYdofTA%2Fnd6oIlYIX1fb3MbQUg%2FWREchsgqbAZHes9A9F27aaPSOrhTW%2BMozowQPd%2FdA0mvL1BFx9lEGW%2BwLPVGtEdDl8JjSYFNpbg5Mg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+X-Kinsta-Cache: HIT
+
+67a64

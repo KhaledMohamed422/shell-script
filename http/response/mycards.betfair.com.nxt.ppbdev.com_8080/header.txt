@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: mycards.betfair.com.nxt.ppbdev.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b8658e1c6a88-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:10 GMT
+Expires: Tue, 07 Nov 2023 18:43:25 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ghQTC6h5Mh%2BWHHfH5To3r2BAI4Fmjnu6fSr6Qz8Rb7qhGUCT41V%2FD9zP82FHurKH3UCKIIzg43lu%2F9AyKbwgJzuzP4sWq0DXlvhoooZQStdcWnB%2F8BlehZeC51qhiYigY7pU%2Fxt3%2F%2FEPQLhVND7Fx5wzs8q1Zajr9g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=9suWIjIYu9bpJXMlFnFAAzDCHnK2bIJGXi8fTF2PAOY-1699382590-0-ATGIhgZJ9W7l4JWm93DzN06/1eg8qna0Hh/IFCCXUDwg1Sw5IDvaVmtr98C9Vuq4oCnDoYXriZSA66McklcXbtA=; path=/; expires=Tue, 07-Nov-23 19:13:10 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

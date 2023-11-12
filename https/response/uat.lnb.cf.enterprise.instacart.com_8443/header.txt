@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: uat.lnb.cf.enterprise.instacart.com:8443
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12; Microsoft ZuneHD 4.3)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227412c69d77172-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:21:46 GMT
+Expires: Tue, 07 Nov 2023 17:22:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=VcwOPYIj6QJ5YCxaOq5ZXAo5V2k9MUdjz83RbUfEO1M-1699377706-0-AVh8Y8F+v5INqtV4LDg8y6EYCU+/w6F8tSR9zE3gdFcJHhcrv6OP5FPuXDmzf9zpkHiBPWbDXgu3tqBQWzBBKJg=; path=/; expires=Tue, 07-Nov-23 17:51:46 GMT; domain=.uat.lnb.cf.enterprise.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11bb

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: one-staging.dynatracelabs.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8228d75f6caacb1e-DUS
+Date: Tue, 07 Nov 2023 21:59:04 GMT
+Expires: Tue, 07 Nov 2023 22:59:04 GMT
+Location: https://one-staging.dynatracelabs.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rIKtjk99KUwWzda7cgB8OoCT3LTGXbsEuMQrjWMShu%2Fgt8GUbTEipxLkB09%2Ba2ChGQISxjjqkBoqFtfaKDyYEYmHS7cirQqJl%2FbIj8bawRHQ2YmqqLPe79kc83g8hdwsTArR1p5pz5MkThFxYNAS"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=d78cc93bf7e197da04c74b9e8ce8f8e85232eb3d-1699394344; path=/; domain=.one-staging.dynatracelabs.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://one-staging.dynatracelabs.com:80

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: hey.monday.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.846.563 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Wed, 08 Nov 2023 09:55:44 GMT
+Engine: Rebrandly.redirect, version 2.1
+Location: https://hey.monday.com/?rb.routing.mode=proxy&rb.routing.signature=326510
+Strict-Transport-Security: max-age=15552000
+Content-Length: 0
+
+
+
+
+https://hey.monday.com:443

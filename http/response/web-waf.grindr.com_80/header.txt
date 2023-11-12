@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: web-waf.grindr.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 915
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:24:53 GMT
+Server: CloudFront
+Via: 1.1 08d7dbeb0736051b46014fbaac0a421e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BrtJy3x1h89mvfN9nTEnX1se6eN7_oHMTl8B6PaTUOuggjxBeyjpRQ==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Error from cloudfront
+

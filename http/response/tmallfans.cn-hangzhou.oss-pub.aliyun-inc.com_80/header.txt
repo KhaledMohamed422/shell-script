@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: tmallfans.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; NetBSD x86; en-us) AppleWebKit/666.6+ (KHTML, like Gecko) Chromium/20.0.0000.00 Chrome/20.0.0000.00 Safari/666.6+
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 373
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:24:46 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B53DEE54CE1363555B924
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B53DEE54CE1363555B924</RequestId>
+  <HostId>tmallfans.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://tmallfans.cn-hangzhou.oss-pub.aliyun-inc.com:80

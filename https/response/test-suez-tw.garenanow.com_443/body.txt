@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Suez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css"
+    />
+    <link rel="stylesheet" href="./static/global.css" />
+  </head>
+
+  <body>
+    <div class="markdown-body"></div>
+    <div id="ftr"></div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js"
+    integrity="sha256-0Ed5s/n37LIeAWApZmZUhY9icm932KvYkTVdJzUBiI4="
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    fetch("/static/doc_test.md")
+      .then(resp => resp.text())
+      .then(text => marked(text))
+      .then(
+        html => (document.querySelector(".markdown-body").innerHTML = html)
+      );
+    fetch("/static/footer.txt")
+      .then(resp => (resp.ok ? resp.text() : ""))
+      .then(text => (document.getElementById("ftr").innerHTML = text));
+  </script>
+</html>
+
+
+
+https://test-suez-tw.garenanow.com:443

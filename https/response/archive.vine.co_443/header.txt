@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: archive.vine.co
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:17:45 GMT
+Server: AmazonS3
+Via: 1.1 da4de4427d18bee1d3254f1bbdad25f2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: sLZXIG1lb5aNsgk-acDS4h5Uo2UxNJPF1DpMeXEi-MOHIxeGqAF4uA==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AGBBKFJGRPAWSEED</RequestId><HostId>LwAMIIS0noxOKN6buOtqrO6FNYpXbvBu8G4PocuB3xJyJX2nya7Q1ar8YtYkV08yh4zER1qtwrg=</HostId></Error>
+0
+
+
+
+
+https://archive.vine.co:443

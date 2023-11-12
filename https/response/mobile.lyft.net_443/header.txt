@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: mobile.lyft.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:00 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9tb2JpbGUubHlmdC5uZXQvIiwgInN2YyI6ICJtb2JpbGUubHlmdC5uZXQifQ%3D%3D%7C10.42.103.217%7C1699394640%7C28f44c42cbdd89ac03ea1fca9ff34195519cee1c069c28f15079637b148cdf34
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

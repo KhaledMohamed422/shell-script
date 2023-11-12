@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: prod.prod.proxy-management-api.api.mnscorp.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:23:30 GMT
+X-Azure-Ref: 20231108T022330Z-4b80m9ypkt6913wy09gqa48gp400000001kg000000004sge
+X-Cache: CONFIG_NOCACHE
+
+default_403
+
+
+http://prod.prod.proxy-management-api.api.mnscorp.net:80

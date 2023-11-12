@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: elevate.monday.com:8080
+User-Agent: Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822c8fcd8f707181-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 08:49:16 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v%2FQuirwKYxZfULX8m2ndHOGG3%2BQ47QEztg9mwlkiB%2BDQambST6QXqcC534i5DVXR%2BTHPSkc5WNnlHIf%2F%2BrHtqFcQNQQbh1kJ3mSXvx7xtBb2B4djZ%2B%2FhWXz9VjvR0GkcN62La0bTdKDk"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+http://elevate.monday.com:8080

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.crunchyroll.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227df3a9b251619-DUS
+Date: Tue, 07 Nov 2023 19:09:40 GMT
+Expires: Tue, 07 Nov 2023 20:09:40 GMT
+Location: https://help.crunchyroll.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q5zC6cVdCyD0mZFm0qA1WwwSjJhKmgKfN4r5p4WoX1kAj2CyeZg6Jp%2FCV1x8Pj1ZXaXJDzgIx%2FIj0ruZgBSScLO04C%2B%2BOA9L3Byl1eTy7OEsbgycdD3XzTl9SkxhdD7b0SnLI5mwQKAMGxI%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=7b7c4d916064db55f3d9b0fb626048c413ad920b-1699384180; path=/; domain=.help.crunchyroll.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help.crunchyroll.com:8080

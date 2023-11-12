@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: brandhub.fed-prod.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:12:27 GMT
+Location: https://brandhub.fed-prod.collegeboard.org/
+Server: CloudFront
+Via: 1.1 6fc439c8bc0a64a7ab978ce699795274.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: J04Vn1wY-ESwCFnImXF4ZL3RTmcAPPO3D9nmHxSo7MJWSYxvpiwbbQ==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Redirect from cloudfront
+

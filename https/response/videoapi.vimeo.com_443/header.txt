@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: videoapi.vimeo.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; BNTV250 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 74
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 05:09:04 GMT
+Via: 1.1 google
+
+response 404 (backend NotFound), service rules for the path non-existent 
+
+
+
+https://videoapi.vimeo.com:443

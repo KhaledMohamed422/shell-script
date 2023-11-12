@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: apieds.betfair.it
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_2; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227ca759a341536-DUS
+Date: Tue, 07 Nov 2023 18:55:30 GMT
+Expires: Tue, 07 Nov 2023 19:55:30 GMT
+Location: https://apieds.betfair.it/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XPAxKA0ABV9vxqiZMfHQaVqQZshtv4VDXT0scDfSK83nz%2B%2BFwDc9bxYnKonZJ7zlt0J%2BQcS7atE1cWUKvLlXQdoT2tV12UTUAfH3SW33vPFL4LJr9%2FqOXagRLfU9xbDmqxQ6"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=gdr_e3XnYXiwzSKAzLO7Ndc1HIsGMEIngQhRlqr3YIQ-1699383330-0-AW6Xe/Jvq1Qic9MNdxiohF9pA/RZozm1Pr4Vw494crW2ZQWz8hizL7gkIbzMgqd7fWAg12qn2Idxsjq1wHqV4VU=; path=/; expires=Tue, 07-Nov-23 19:25:30 GMT; domain=.betfair.it; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://apieds.betfair.it:80

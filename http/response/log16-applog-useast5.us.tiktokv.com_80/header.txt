@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: log16-applog-useast5.us.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/BuildID) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:26 GMT
+Expires: Wed, 08 Nov 2023 18:40:26 GMT
+Pragma: no-cache
+Proxy-Status: 0000201502005104
+Server: nginx
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=18
+X-Akamai-Request-Id: 57687b5f
+X-Cache: TCP_MISS from a23-33-41-88.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Check-Cacheable: YES
+X-Origin-Response-Time: 18,23.33.41.88
+X-Tt-Logid: 20231108184026A73DDE035B57623777BC
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a4447a61c3cdf75baa26a44bc044c52dd207f3ff0bcf58f6cbb69c701493a4afca32c65d301574bed48c11583ae4a4c72ddcef8a4e8602e00a7db31182f956da3
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

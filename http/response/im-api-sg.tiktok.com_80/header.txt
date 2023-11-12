@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: im-api-sg.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.27 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:00 GMT
+Expires: Wed, 08 Nov 2023 18:40:00 GMT
+Location: https://im-api-sg.tiktok.com/
+Pragma: no-cache
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=466, origin; dur=9
+X-Akamai-Request-Id: df567c7.48886f4
+X-Cache: TCP_MISS from a23-15-178-28.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-75-21-9.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 9,23.75.21.9
+X-Parent-Response-Time: 475,23.15.178.28
+X-Tt-Logid: 2023110818395914EA771972B9292B79E1
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a147a3a31957ebae30125f8746590c2bf93cd2f023e334c1e29cc2d76eee5d9b44e9b86a2d679815055341dae9a742fcfc46e4323482d41e4c3e02661ddc04a15
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: rc.scatec.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:02:00 GMT
+Location: https://rc.scatec.io
+Set-Cookie: GCLB=CN_Mv9G6593a0gE; path=/; HttpOnly; expires=Thu, 09-Nov-2023 05:02:00 GMT
+Via: 1.1 google
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- 自定义头部导航 -->
+    <meta name="nav-config" content="topbar=retina-next" />
+    <meta http-equiv="origin-trial" content="AnKux5Er87AGFZysNXnkEFXECxVo2ij/kcbED4vYul5EpHTZC1JgEleyBCNfQdGpIT89rj1njy23mw9o0FPDOQoAAABoeyJvcmlnaW4iOiJodHRwczovL3JldGluYS5hbGl5dW4uY29tOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTcwOTg1NTk5OX0=">
+    <link
+      rel="stylesheet"
+      href="https://g.alicdn.com/aliyun/nav-loader/css/index.css"
+    />
+    <script
+      async
+      src="https://g.alicdn.com/aliyun/nav-loader/js/index.js"
+    ></script>
+    <!-- 自定义头部导航 -->
+    <link
+      rel="shortcut icon"
+      href="https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico"
+      type="image/x-icon"
+    />
+    <title>视频云多媒体AI体验中心</title>
+    <link
+      rel="stylesheet"
+      href="//g.alicdn.com/apsara-media-box/imp-web-player/2.18.0/skins/default/aliplayer-min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//g.alicdn.com/cdn-fe/retina-next/0.5.2/vendors.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//g.alicdn.com/cdn-fe/retina-next/0.5.2/main.css"
+    />
+  </head>
+
+  <body>
+    <div id="retina-next" data-role-topbar="retina-next"></div>
+    <div id="root"></div>
+    <script>
+      const targetNode = document.getElementById("retina-next");
+      const config = { attributes: true, childList: true, subtree: true };
+      const callback = (mutationList, observer) => {
+        const TITLES = {
+          audio: { title: "视频云音频实验室", regexp: /Audio.+/ },
+          mediaBox: {
+            title: "MediaBox音视频SDK WEB体验馆",
+            regexp: /MediaBox.*/,
+          },
+          default: { title: "视网膜-视频云多媒体AI体验中心" },
+        };
+        for (const mutation of mutationList) {
+          if (mutation.type === "childList") {
+            if (mutation && mutation.addedNodes.length > 0) {
+              for (const node of mutation.addedNodes) {
+                if (node && node.querySelector) {
+                  const title = node.querySelector(
+                    ".aliyun-topbar-element.subtitle.header-container-left"
+                  );
+                  if (title && title.children[0]) {
+                    let newTitle = TITLES.default.title;
+                    Object.keys(TITLES).forEach((key) => {
+                      if (
+                        window.location.hash &&
+                        TITLES[key].regexp?.test(window.location.hash)
+                      ) {
+                        newTitle = TITLES[key].title;
+                      }
+                    });
+                    title.children[0].innerText = newTitle;
+                    document.title = newTitle;
+                  }
+                }
+              }
+            }
+          } else if (mutation.type === "attributes") {
+            console.log(
+              `The ${mutation.attributeName} attribute was modified.`
+            );
+          }
+        }
+      };
+      const observer = new MutationObserver(callback);
+      observer.observe(targetNode, config);
+      var UPLOAD_CONFIG = {
+        disableAll: false,
+        disableDate: [Date.now() - 1000, 1654703999000],
+      };
+      if (/MediaBox.*/.test(window.location.hash)) {
+        const styleNode = document.createElement("style");
+        styleNode.innerText = "body > div.aliyun-module { display: none }";
+        document.body.appendChild(styleNode);
+      }
+    </script>
+    <script
+      src="//g.alicdn.com/apsara-media-box/imp-web-player/2.18.0/aliplayer-min.js"
+      charset="utf-8"
+      type="text/javascript"
+    ></script>
+    <script src="//g.alicdn.com/cdn-fe/retina-next/0.5.2/vendors.js"></script>
+    <script src="//g.alicdn.com/cdn-fe/retina-next/0.5.2/main.js"></script>
+    <script src="https://www.aliyun.com/resource/website/header_footer/footer?_render_mode=block"></script>
+    <script src="https://www.aliyun.com/resource/_assets/tail"></script>
+    <style>
+      .ace-retina-nav {
+        display: none;
+      }
+    </style>
+  </body>
+</html>
+
+0
+
+
+
+
+https://retina.aliyun.com:443

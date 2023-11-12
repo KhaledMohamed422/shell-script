@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: secureshare-api-staging.wealthsimple.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; us; rv:1.9.1.19) Gecko/20110430 shadowfox/7.0 (like Firefox/7.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82274c7f6c837a5e-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:29:30 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=2592000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1005
+
+
+https://secureshare-api-staging.wealthsimple.com:443

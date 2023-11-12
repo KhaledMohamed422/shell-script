@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: admin.quip.com
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC6-01/011.010; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.2 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:41:47 GMT
+Expires: 0
+Location: https://admin.quip.com/account/login?next=https%3A%2F%2Fadmin.quip.com%2F
+Referrer-Policy: origin
+Server: nginx
+Set-Cookie: id=pm-Uc266OQY; Domain=.quip.com; expires=Sat, 05 Nov 2033 04:41:47 GMT; Path=/; Secure
+Set-Cookie: tid=TdWgcLCVL0M; Domain=.quip.com; expires=Sat, 05 Nov 2033 04:41:47 GMT; Path=/; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+https://admin.quip.com/account/login?next=https%3A%2F%2Fadmin.quip.com%2F
+
+
+https://admin.quip.com:443

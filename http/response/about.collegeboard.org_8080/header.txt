@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: about.collegeboard.org:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822732a7ba33cb11-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:11:52 GMT
+Expires: Tue, 07 Nov 2023 17:12:07 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11ae

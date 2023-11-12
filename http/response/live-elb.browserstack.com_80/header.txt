@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: live-elb.browserstack.com
+User-Agent: SonyEricssonW810i/R4EA Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 178
+Content-Security-Policy: script-src https: http: 'unsafe-eval' 'unsafe-inline'; frame-ancestors https://*.browserstack.com; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src https: http:
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:56:36 GMT
+Location: https://live-elb.browserstack.com/
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block;
+

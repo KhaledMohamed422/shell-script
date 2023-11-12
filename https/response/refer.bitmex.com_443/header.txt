@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: refer.bitmex.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; de) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 45
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822783c9f9237a46-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:15 GMT
+Location: https://www.bitmex.com/
+Server: cloudflare
+Set-Cookie: promo_type=%5B%22referralGateway%22%5D; Max-Age=31536000; Domain=.bitmex.com; Path=/; Expires=Wed, 06 Nov 2024 18:07:15 GMT
+Set-Cookie: promo_id=2qTb0R; Max-Age=31536000; Domain=.bitmex.com; Path=/; Expires=Wed, 06 Nov 2024 18:07:15 GMT
+Set-Cookie: __cf_bm=xSfa9nu.8kUaboxUQrEwJZN3BUCiT7JFioqSzbZsxDw-1699380435-0-AUQ7u2k83ddMOjB1LjEpPByg1855xHSYZiSMaQpJ1v731TUKpr5fakF3kKwD4sPf8Cspg2LsC6jB9qcPbm9qGEo=; path=/; expires=Tue, 07-Nov-23 18:37:15 GMT; domain=.bitmex.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Vary: Accept
+X-Powered-By: Express
+
+Found. Redirecting to https://www.bitmex.com/
+
+
+https://refer.bitmex.com:443

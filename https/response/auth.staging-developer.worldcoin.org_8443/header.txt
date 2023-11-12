@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: auth.staging-developer.worldcoin.org:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 822942500c427a5a-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 23:12:05 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=VS2pJ9A3PauvEbtnTEi0Cq0gm.8qCdyC4.FLDjTv0YQ-1699398725-0-AeCCbtlOBmvxcTN7ZYyoJZcnQ8pXWs1wT3pPMUzPAW5SY1hQfUZlDZ++cl24WnuW6+k3qISs+s0qJby/rPhjZO4=; path=/; expires=Tue, 07-Nov-23 23:42:05 GMT; domain=.auth.staging-developer.worldcoin.org; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://auth.staging-developer.worldcoin.org:8443

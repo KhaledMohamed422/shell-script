@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: app.mercury.com:8443
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A346 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:20:03 GMT
+Server: cloudflare
+

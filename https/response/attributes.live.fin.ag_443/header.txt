@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: attributes.live.fin.ag
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:11:50 GMT
+Via: 1.1 84c210424bc648cf84cb9425addd241e.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODOYlGGaYosEaUw=
+X-Amz-Cf-Id: CETPK4jVdVbEmXLGu17tqHKB1yDMtBl-veET31GwA9Cj5fiiaGcC7w==
+X-Amz-Cf-Pop: HAM50-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: dedd9bf1-248e-426a-948f-50dcab6ebfed
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://attributes.live.fin.ag:443

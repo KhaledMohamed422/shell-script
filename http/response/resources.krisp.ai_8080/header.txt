@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: resources.krisp.ai:8080
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82273d77fa59caf5-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:19:15 GMT
+Expires: Tue, 07 Nov 2023 17:19:30 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lp8LCou15RBVJTX2oTsc5MfwZrDc29loU%2BU4MYPeJM59DG9TS%2B%2FqObkKPtBvaqXyVEzA%2FhHM7JaKLLb93jxqgvmtjCwzSp9kDMteQXyJD%2FN1LH7%2F%2BuhLV1mhJU6xZaGDOhAMrb5m5pIJ"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=UciBbNtXq9Jmdy9VOMUpLBfQfoBgOyyToTR19Z1eeuM-1699377555-0-AancNuCAXx9i+XfaW+aJZbJN8/+fKttYT14dIWkdXLlu/84SLE85DeiqMFsK069DLcI2tdUVmTXb7PF8ufAmtkc=; path=/; expires=Tue, 07-Nov-23 17:49:15 GMT; domain=.resources.krisp.ai; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=774b573f6b5934fd0fc205a4faab7d798e3b7362-1699377555; path=/; domain=.resources.krisp.ai; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

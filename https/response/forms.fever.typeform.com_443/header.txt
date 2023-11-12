@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: forms.fever.typeform.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:19:19 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=LQ42zV/U7cnNgXojDT4EsLK5exiDfhv+1t8c4U30HJ5GplGlAmEq9ynkRW5clMmZG5rvguk7a646M6A9kEsxaBE2k5yEGzoQn1aDWEDvK/EJUNsQjXadPdnxxLy6hyVknL50iaKY618qYP8g5NXE3YTAiNHyfLdbKdT5u4ASDzMY; Expires=Tue, 14 Nov 2023 23:19:19 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=LQ42zV/U7cnNgXojDT4EsLK5exiDfhv+1t8c4U30HJ5GplGlAmEq9ynkRW5clMmZG5rvguk7a646M6A9kEsxaBE2k5yEGzoQn1aDWEDvK/EJUNsQjXadPdnxxLy6hyVknL50iaKY618qYP8g5NXE3YTAiNHyfLdbKdT5u4ASDzMY; Expires=Tue, 14 Nov 2023 23:19:19 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://forms.fever.typeform.com:443

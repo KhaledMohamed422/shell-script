@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: dev-unms-go.ubnt.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36 OPR/18.0.1284.49
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 FOUND
+Connection: close
+Content-Length: 217
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:11:00 GMT
+Location: http://dev-unms-go.ubnt.com:8080/api/
+Server: gunicorn/19.8.1
+X-Request-Id: 16fcfb63-08c9-48a8-bd18-d48948218a6f
+

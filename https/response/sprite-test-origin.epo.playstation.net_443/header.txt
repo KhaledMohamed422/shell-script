@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: sprite-test-origin.epo.playstation.net
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 23:29:54 GMT
+Location: https://sprite-test.epo.playstation.net/sprite/login
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+
+11d

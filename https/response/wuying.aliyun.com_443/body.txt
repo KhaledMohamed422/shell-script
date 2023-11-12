@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <base href="/">
+  <meta name="assetBase" content="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="wuying">
+
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="无影云电脑">
+  <link rel="apple-touch-icon" href="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/icons/Icon-192.png">
+
+  
+  <link rel="icon" type="image/png" href="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/favicon.png">
+  <title>无影云电脑</title>
+  <link rel="manifest" href="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/manifest.json">
+  <script>
+    var serviceWorkerVersion = '409936657';
+    var entrypointUrl = "https://g.alicdn.com/cloudstream/cloudspace/6.4.5/main.dart.js";
+  </script>
+  <script src="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/flutter.js" defer="defer"></script>
+</head>
+
+<body>
+  <script>
+    window.environment = 'prod';
+    window.release = '6.4.5';
+    window.buildTime = '20231027094845';
+    window.__bl = {
+      config: {
+        pid: "g0q12s4m1e@0e86c1cc353843c",
+        appType: "web", 
+        release: window.release, 
+        environment: window.environment,
+        imgUrl: "https://arms-retcode.aliyuncs.com/r.png?", 
+        sendResource: true, 
+        enableLinkTrace: true, 
+        behavior: true, 
+        useFmp: true, 
+        enableSPA: true, 
+        enableConsole: true,
+        disableHook: true,
+        username: localStorage.getItem('ro.sd.username')
+      }
+    }
+    
+    var dpiString = '(resolution: '+ window.devicePixelRatio + 'dppx)';
+    window.dpiNearest = window.devicePixelRatio;
+    matchMedia(dpiString).addListener(()=>{
+      if(window.devicePixelRatio < window.dpiNearest){
+        window.location.reload();
+      }
+      window.dpiNearest = window.devicePixelRatio;
+    })
+  </script>
+  <script type="text/javascript" src="https://sdk.rum.aliyuncs.com/v1/bl.js" crossorigin></script>
+  <div id="loading" style="display:none;">
+    <div class="gif"></div>
+    <div id="progress-custom"></div>
+  </div>
+</body>
+<script src="https://g.alicdn.com/sls/sls-js-sdk/0.3.0/web-track-browser.js"></script>
+<script src="https://g.alicdn.com/cloudstream/cloudspace/6.4.5/schedule.js"></script>
+<script src="https://g.alicdn.com/aliyun-ecs/webclient-assets/1.1.0/webclient/eds-webclient-sls.min.js"></script></html>
+0
+
+
+
+
+https://wuying.aliyun.com:443

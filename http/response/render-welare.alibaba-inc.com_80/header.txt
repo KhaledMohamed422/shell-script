@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: render-welare.alibaba-inc.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; ONE A2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 426
+Ali-Swift-Global-Savetime: 1699434992
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:16:32 GMT
+Eagleid: 7515b28516994349922384403e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache75.l2cn3007[157,156,403-1280,M], cache16.l2cn3007[159,0], kunlun5.cn5263[229,253,403-1280,M], kunlun4.cn5263[257,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B51F007D4B931396F997A
+X-Oss-Server-Time: 1
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:16:32 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B51F007D4B931396F997A</RequestId>
+  <HostId>ascp-pkg-materials.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <Bucket>ascp-pkg-materials</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+http://render-welare.alibaba-inc.com:80

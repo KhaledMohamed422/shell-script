@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: auth.rechargeapps.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G990E) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/17.0 Chrome/96.0.4664.104 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 822741ec9a726a89-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 17:22:17 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://auth.rechargeapps.com:8443

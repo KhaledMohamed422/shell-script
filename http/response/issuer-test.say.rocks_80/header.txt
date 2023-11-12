@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: issuer-test.say.rocks
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://issuer-test.say.rocks/
+Refresh: 0;url=https://issuer-test.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://issuer-test.say.rocks:80

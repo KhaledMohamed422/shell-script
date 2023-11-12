@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 4ba16751-testnoexistdomain-bcc738dc-this-exist.docker.1-costatest-alb-okta-default-w3.dev-go.ubnt.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 145
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:36:18 GMT
+Location: https://4ba16751-testnoexistdomain-bcc738dc-this-exist.docker.1-costatest-alb-okta-default-w3.dev-go.ubnt.com:8443/
+Server: nginx/1.22.1
+

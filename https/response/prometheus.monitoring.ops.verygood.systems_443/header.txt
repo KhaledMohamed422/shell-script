@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: prometheus.monitoring.ops.verygood.systems
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:57:13 GMT
+Location: https://vgs-prod-logs-logs.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=5k0fh621268ib7vl9erb0vvif5&redirect_uri=https%3A%2F%2Fprometheus.monitoring.ops.verygood.systems%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=ru%2FTxb2KUYdf5e5AvFCTsoqqD13HT%2BZ5vLddfB5Ja1tMR1ytC8VH4i23ew%2BduTmFigmaFuK0o1dI7rY%2B2kzI%2BAxErD42WnEnXU%2By3KIzxaBTLkONpltolLMv0m4P0%2FUaKWOFoXFWn4kwzYpVWpLsssd6VlYkQLzMZs4TpYbd%2F5jJLj69JHNFv1fChkN8NaiJp7ytqrzU85m0dXrQm%2FBGGAU60FLPRYQSjOjeXlVIR2Yf95FGm0ik3g%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=YZjxBzsoI28B10e1; Expires=Tue, 07 Nov 2023 19:12:13 GMT; Path=/; Secure; HttpOnly
+

@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: github-releases.githubusercontent.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.77 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:28:14 GMT
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish, 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: STPq/obcXlt1LEVKY/GwNGAuo8m8AYJQdm2hLxHtvQwSMJwJUAcUPIUXALZ8e/zobh1CDNoCBEc=
+X-Amz-Request-Id: 8DBVX4RJ5WNARD2C
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Fastly-Request-Id: f007be35651b92a1dca3f715b73c20be3444a2a7
+X-Served-By: cache-iad-kcgs7200156-IAD, cache-fra-eddf8230078-FRA
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8DBVX4RJ5WNARD2C</RequestId><HostId>STPq/obcXlt1LEVKY/GwNGAuo8m8AYJQdm2hLxHtvQwSMJwJUAcUPIUXALZ8e/zobh1CDNoCBEc=</HostId></Error>
+0
+
+
+
+
+https://github-releases.githubusercontent.com:443

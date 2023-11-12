@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: qa-dapa.dap-auth-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; ZE520KL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'; base-uri 'self'; img-src 'self'; script-src 'self'; style-src 'self' https:; object-src 'none'; frame-ancestors 'self'; font-src 'self' https:; form-action 'self'; manifest-src 'self'; connect-src 'self'
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:11 GMT
+Expect-Ct: enforce, max-age=86400
+Referrer-Policy: same-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=86400; includeSubdomains
+Via: 1.1 547a50460a0cda7ae3dafb1c0b6d0e1a.cloudfront.net (CloudFront), 1.1 c37b7e69b10b90188d923a2d02d4e71a.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCcMLFf9IAMED8A=
+X-Amz-Cf-Id: gywNupOl5FS4tpKC48pMBAcpys1KdYvg1k8fXqFhL24d_-r5c8b6wQ==
+X-Amz-Cf-Pop: FRA56-C1
+X-Amz-Cf-Pop: DUS51-P4
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: a3d0e85f-3d2e-4d14-a81f-86d30c200772
+X-Amzn-Trace-Id: Root=1-654a73e7-6ec8d4d7121fc977087b2ff4
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+{"message":"Missing Authentication Token"}
+
+
+https://qa-dapa.dap-auth-nonprod.collegeboard.org:443

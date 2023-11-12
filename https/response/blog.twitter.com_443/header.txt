@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: blog.twitter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Age: 240229
+Cache-Control: max-age=0
+Content-Security-Policy: default-src 'self' ; connect-src 'self' https://*.twitter.com https://s1259914507.t.eloqua.com; font-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com data:; frame-src 'self' https://twitter.com https://*.twitter.com; img-src 'self' https://*.twimg.com https://*.twitter.com https://twitter.com https://*.google-analytics.com https://*.analytics.google.com https://cdn.cms-twdigitalassets.com https://*.g.doubleclick.net https://www.google.com/ads/ga-audiences data:; media-src 'self' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com; object-src 'self' ; script-src 'self' 'sha256-ppW1Vv+qSVcs+/pIj1ZXvMiCLoyHyCdRqtDMeK9fQ9w=' https://cdn.syndication.twimg.com https://*.twitter.com https://static.ads-twitter.com 'nonce-809353f1843e58fffccc86ffcdeb62e' https://cdn.cms-twdigitalassets.com; style-src 'self' 'unsafe-inline' https://*.twimg.com https://*.twitter.com https://cdn.cms-twdigitalassets.com; report-uri https://twitter.com/i/csp_report; frame-ancestors 'self'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:19:46 GMT
+Expires: Tue, 07 Nov 2023 20:19:46 GMT
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938838638745536; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:19:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: ct0=f374107311ab0c984dd047d76f249ff6; Max-Age=21600; Expires=Wed, 08 Nov 2023 02:19:46 GMT; Path=/; Domain=.twitter.com; Secure
+Strict-Transport-Security: max-age=631138519
+Vary: Cookie,Accept,X-Twitter-Internal,X-Twitter-IP-Tags
+X-Connection-Hash: 755e20dfbe6d92bfcb86d9404b85d3200ddf25253f02beb3eb1ed059cc525273
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 115
+X-Transaction-Id: 35df0cddd615fbe1
+X-Xss-Protection: 0
+
+d27e

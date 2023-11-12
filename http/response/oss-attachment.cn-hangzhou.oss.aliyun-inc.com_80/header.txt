@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: oss-attachment.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Opera/10.61 (J2ME/MIDP; Opera Mini/5.1.21219/19.999; en-US; rv:1.9.3a5) WebKit/534.5 Presto/2.6.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 374
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:10:30 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B50861286C5383621BD7B
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B50861286C5383621BD7B</RequestId>
+  <HostId>oss-attachment.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://oss-attachment.cn-hangzhou.oss.aliyun-inc.com:80

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: crl.pki.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 AtContent/96.5.9594.95
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:13:57 GMT
+Set-Cookie: crl-svdc_pki_infra_1=!m86zGYV2H4/7nDOJO2CL7uHyC+eXQWCZEUPH8UygKwprunKz7Liq0VNl1Km/UL99Jg3+9Ll42wdbpQk=; path=/; Httponly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<h1>Error 404</h1>
+
+
+http://crl.pki.wellsfargo.com:80

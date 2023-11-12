@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: app.bitgo.com
+User-Agent: BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 138
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227cc320c3f216f-DUS
+Content-Security-Policy: script-src 'self' 'wasm-unsafe-eval' 'sha256-CYbTHuiHdGzyz4ps2+dF/Y8La6TekwHLac9k9oYed2w=' https://analytics.bitgo.com;style-src 'self' 'unsafe-inline';object-src 'none';font-src 'self';img-src 'self' https://analytics.bitgo.com data: 'self' https://api.bitgo.com https://app.bitgo.com https://analytics.bitgo.com
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:56:41 GMT
+Location: https://app.bitgo.com/web
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block; report=/xss/report
+

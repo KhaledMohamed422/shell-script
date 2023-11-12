@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: account.acronis.com
+User-Agent: Mozilla/3.01Gold (Win95; I)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: Content-type, Accept, Authorization, X-XSRF-Token
+Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS
+Content-Security-Policy: default-src 'none'; style-src 'self'; script-src 'self' 'unsafe-eval' 'sha256-+rMbrN42W52Azks87jXlSMiQstiBmYQBk2LZBm+TWVU=' 'sha256-JqXWRhC4VFdCYgRJ2eYAXgqtbc4tb3E0eY8RmVW+l9s=' https://d2iz77ew530gcg.cloudfront.net https://j.6sc.co https://www.googletagmanager.com https://www.google-analytics.com https://www.analytics.google.com; img-src 'self' https://b.6sc.co https://adservice.google.com https://ad.doubleclick.net https://www.google.com https://www.google-analytics.com https://www.analytics.google.com https://googleads.g.doubleclick.net; connect-src 'self' https://www.acronis.com https://www.google.com https://www.google-analytics.com https://www.analytics.google.com https://googleads.g.doubleclick.net; font-src 'self' data:; frame-src https://www.acronis.com https://support.acronis.com http://support.acronis.com; frame-ancestors 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:10:07 GMT
+Etag: W/"651a8618-940"
+Last-Modified: Mon, 02 Oct 2023 08:58:00 GMT
+P3p: CP=IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+940

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: marketingportal-uat.zellepay.com:8443
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:45.0) Gecko/20100101 Firefox/45.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:37 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: e422c29ff945046de042d2dff3adb5c2
+
+4109

@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: rs-uk99-cloud.acronis.com
+User-Agent: Mozilla/5.0 (SymbianOS 9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:28:01 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: 59d42608e3374b24a3f9c893b103c35d
+X-Request-Id: 0b91d6e300d30c92fc563407aaf8f1f2
+
+b8
+<?xml version='1.0' encoding='utf-8'?>
+<methodResponse><params><param><value><string>Acronis Registration Server (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://rs-uk99-cloud.acronis.com:443

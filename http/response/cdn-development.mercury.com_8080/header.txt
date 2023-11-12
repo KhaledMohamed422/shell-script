@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cdn-development.mercury.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a56681a207166-DUS
+Date: Wed, 08 Nov 2023 02:20:33 GMT
+Expires: Wed, 08 Nov 2023 03:20:33 GMT
+Location: https://cdn-development.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=xMSpzQ58OshesWWDAvo9MZACIqQV1y.VgC120K186yo-1699410033-0-AZhRf6RJ5uai3v2MErqYaKlFy86/GeLa/np+mITFwyQeFemP5fCOJq2YC+y8DaP0uDat6Tz/JkRWQZ7GJjj91Ro=; path=/; expires=Wed, 08-Nov-23 02:50:33 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://cdn-development.mercury.com:8080

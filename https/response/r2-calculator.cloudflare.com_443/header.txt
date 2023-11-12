@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: r2-calculator.cloudflare.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ea40de547a54-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:17:12 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PqbV9DvOkUPrF0sXdFA0dvdqVibdceSt90P0VE%2FdnbehjPqZHG4A5gReXk6vR2a8gBzu9hBLyKVrb6N%2BLBfIJfZ3HoixttvgAgmzNWi%2F6Y7YqC09zyupMMgfnjjXHaELqHvuHLTnw%2F5XNbvqyXKz"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+3917

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: api-offline.shein.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:2.2a1pre) Gecko/20100101 Firefox/4.2a1pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 133
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 19:12:46 GMT
+Etag: W/"85-jdYyFV3niG6D8/g+5xPLvEuDqEI"
+Server: openresty
+Via-Shein-Gateway: c-offline-package-nest
+X-Powered-By: Express
+
+{"code":404,"errorCode":404,"message":"Cannot GET /","errorMessage":"Cannot GET /","url":"/","date":"11/9/2023 3:12:46 AM","data":{}}
+
+
+http://api-offline.shein.com:80

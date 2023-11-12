@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ads.reddit.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 273
+Accept-Ranges: bytes
+Cache-Control: private, s-maxage=0, max-age=0, must-revalidate, max-age=0, must-revalidate
+Content-Security-Policy-Report-Only: default-src 'self' *.redd.it *.reddit.com *.redditmedia.com *.redditstatic.com;form-action 'self' www.facebook.com;frame-ancestors 'self';frame-src js.stripe.com service.force.com www.facebook.com 'self' *.redd.it *.reddit.com *.redditmedia.com *.redditstatic.com;worker-src 'self' blob:;img-src blob: data: *.reddit.com *.redditmedia.com hexagon-analytics.com p.adsymptotic.com px.ads.linkedin.com reddit-client-uploads.s3.amazonaws.com reddit-image.s3.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com reddit-client-uploads.s3.us-east-1.amazonaws.com reddit.visualforce.com www.facebook.com www.google-analytics.com www.google.ca www.google.com 'self' *.redd.it *.reddit.com *.redditmedia.com *.redditstatic.com;media-src blob: data:;script-src 'self' www.redditstatic.com cdn.lr-in.com cdn.segment.com cdn.siftscience.com connect.facebook.net js.stripe.com service.force.com snap.licdn.com www.google-analytics.com www.googletagmanager.com *.salesforceliveagent.com static.lightning.force.com reddit.my.salesforce.com redditinc.force.com 'nonce-2f8fb58b3389b6c39df648beef40b22a';font-src 'self' data: *.redditmedia.com *.redditstatic.com;style-src 'self' 'unsafe-inline' www.redditstatic.com service.force.com redditinc.force.com;connect-src 'self' wss://*.wss.redditmedia.com *.reddit.com *.redd.it *.redditmedia.com *.redditstatic.com api.segment.io cdn.segment.com js.stripe.com r.lr-in.com cdn.linkedin.oribi.io reddit-ads-bulk-upload-csv.s3.amazonaws.com reddit-ads-bulk-upload-media.s3.amazonaws.com reddit-client-uploads.s3.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-media.s3.amazonaws.com reddit-uploaded-video.s3-accelerate.amazonaws.com redditinc.force.com stats.g.doubleclick.net web.delighted.com www.facebook.com;child-src blob:;report-to csp;base-uri 'self';object-src 'none';script-src-attr 'none';upgrade-insecure-requests
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 20:16:34 GMT
+Location: https://accounts.reddit.com/adsregister?dest=https%3A%2F%2Fads.reddit.com%2F&referrer=https%3A%2F%2Fads.reddit.com%2F
+Report-To: {"group":"csp","max_age":31536000,"endpoints":[{"url":"https://w3-reporting-csp.reddit.com/reports"}],"include_subdomains":true}
+Set-Cookie: token_v2=eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNjk5NDc0NTk0LjY5OTkzMiwiaWF0IjoxNjk5Mzg4MTk0LjY5OTkzMiwianRpIjoiSUgzVERBRzZHOTJOdW14S3NuS1ViUndfWHNtSUVBIiwiY2lkIjoiNGpMaDgwNVpKMjduV0EiLCJsaWQiOiJ0Ml9uZjN3ejcxdXAiLCJsY2EiOjE2OTkzODgxOTQ2OTksInNjcCI6ImVKeGtrVkdPaERBSWh1X1NaMDh3Vjlsc05yWEZHYksyR0tCT3ZQMEdXeHlUZmZJSFBpajhmb1dZQlRKcW1Fd3h4QnltQUNYaTZ0X0hTTXBHVllnTlRJbGF0WmJFa0RPcUdOdUhMR3RFWTE0b1NueUVLV0NHcXFnbVY5eWh4QnFmRUtaUUtDZXFDejR2cll4elUyTHBHUjlWS0s4MHFMRllvVnhKeHhUU0YzalBScUpEQ3F4TFY4cHhXVEQxNEkyX2FPcVFObi0yM3hqM3FGQkFKRDdCTXVOcWhvM1lEcE80MjN1aTNKSTJoaXg2ckNjcGJTN243ZEptU1l5emNYdGZ6MTRienBnY1E5TXI2dU91MzR3bjduNWVSWThkR0xaNjNVTXZ1OWRldjJJSENtWGdxTVJPZkJLT1hMNzgyQy1CZW0zNnYzQnJzY00zUmFweXcyOUpSODBYSjA3ZEM5OV9BUUFBX18tZDMtVUQiLCJmbG8iOjF9.XHoNLQilpgTzQQiygMzL3j-IEjnyfcnFUUtY1dVE6Xsh18T142LsbZY1mL_TUVPhyoZThU--pkk-xeFOiPKMZvZr7qZ4i0CDXNtRKMNxd7CRauLwpCm8QM1b_xDnHrFstfqNp_88MuyfktytWg0kChKUnqEV9WLpJdm5juWAl-p-Tn-YyrCtUVKztHVdJ5MoU1vR5_5E9c_PmwG-_C2hAREpqXxu121ucjZ7HwiSuAKjeAXZGfs9TlTEMGkyzHZ-w_91HvKllAAXKwRAShBc-X_Od3L2_3RSmV_W3I9lIBXGJ2_luXcFJQQIusBkaNeqmQ7RoAzSXfsicGe9Dx793A; Path=/; Domain=reddit.com; Expires=Wed, 08 Nov 2023 20:16:34 GMT; HttpOnly; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+Redirecting to <a href="https://accounts.reddit.com/adsregister?dest=https%3A%2F%2Fads.reddit.com%2F&amp;referrer=https%3A%2F%2Fads.reddit.com%2F">https://accounts.reddit.com/adsregister?dest=https%3A%2F%2Fads.reddit.com%2F&amp;referrer=https%3A%2F%2Fads.reddit.com%2F</a>.
+
+
+https://ads.reddit.com:443

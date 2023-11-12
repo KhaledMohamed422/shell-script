@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: admin.stage.typeform.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:10:26 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=+cqh98TD2Y8C3GxlhwNJra9rWQ/E+OtunpTL8n8MlX4O1SXvT6HeCACVfdo++Gut1V70T2GVYPWRw/y+tPhdE581K2y3aSKOyD9NufNeorbM22m6RMGnSfa3uaK+8zDYxcy3SZDZFEV6RTKBFqi6mCd/0i/qWwCykOjHYHap7CIg; Expires=Tue, 14 Nov 2023 23:10:26 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=+cqh98TD2Y8C3GxlhwNJra9rWQ/E+OtunpTL8n8MlX4O1SXvT6HeCACVfdo++Gut1V70T2GVYPWRw/y+tPhdE581K2y3aSKOyD9NufNeorbM22m6RMGnSfa3uaK+8zDYxcy3SZDZFEV6RTKBFqi6mCd/0i/qWwCykOjHYHap7CIg; Expires=Tue, 14 Nov 2023 23:10:26 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://admin.stage.typeform.com:443

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: universal.hellopublic.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:31:02 GMT
+Server: AmazonS3
+Via: 1.1 367a4718be97a49df7ac0500a986437a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: YYGS9qTjNS9GtfMWFs3Xth0JTS2WY6eUHGEbtx_l4HK6yJGXJqmqBA==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>G1SMXARHEJ77AQWW</RequestId><HostId>2pppUEVDrnYTDlranRx47vEGtfl8LBwhgybOX8oBbvyIr5j8dJyaQHNWhK2PHEGECbFHyqFZaCM=</HostId></Error>
+0
+
+
+
+
+https://universal.hellopublic.com:443

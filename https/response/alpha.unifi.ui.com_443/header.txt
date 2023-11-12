@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: alpha.unifi.ui.com
+User-Agent: Opera/9.64 (X11; Linux i686; U; Linux Mint; nb) Presto/2.1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 04:42:45 GMT
+Server: CloudFront
+Via: 1.1 6c43684b05a77c1925eb58e93105a976.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PFbVNpgNfRuAgpn2CPQdl6C3HhDpcgjbrgSfEXvhUX_JArB5NcrFGg==
+X-Amz-Cf-Pop: AMS1-P3
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://alpha.unifi.ui.com:443

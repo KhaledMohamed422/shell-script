@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: blog.id.me
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Cache-Control: max-age=0, no-cache, no-store
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a5fa4ca9c9142-FRA
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:52 GMT
+Expires: Wed, 08 Nov 2023 02:26:52 GMT
+Location: https://network.id.me/insights-home/
+Permissions-Policy: geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()
+Pragma: no-cache
+Referrer-Policy: origin
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=3
+Server-Timing: origin; dur=112
+Server-Timing: ak_p; desc="1699410412263_399876322_639459440_11525_9422_4_5_-";dur=1
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-14.apps.verygood.systems
+User-Agent: SonyEricssonK750i/R1CA Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:49 GMT
+Server: nginx
+Vgs-Request-Id: 8823a50a0f05437d77df088c536e5b36
+Via: 1.1 reverse-http-proxy-6f8b595cbc-bljq2
+X-Envoy-Upstream-Service-Time: 3
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 8823a50a0f05437d77df088c536e5b36.
+
+
+https://certificate-provisioning-test-live-14.apps.verygood.systems:443

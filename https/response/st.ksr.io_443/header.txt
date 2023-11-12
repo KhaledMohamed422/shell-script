@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: st.ksr.io
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-M317F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:47 GMT
+Via: 1.1 58c21e16c9e093deb494fbb4de260efa.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCcR3FfToAMEMbw=
+X-Amz-Cf-Id: UlV71aZ18nL9lOHXe6mjIUVAYK2vW0_lYHY368Qlyd15lckiwimOgg==
+X-Amz-Cf-Pop: FRA56-C1
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 37e731e9-c459-441e-8622-3902b52eaed4
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://st.ksr.io:443

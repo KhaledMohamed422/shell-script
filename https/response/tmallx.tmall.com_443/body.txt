@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"
+  ></meta>
+  <link rel="shortcut icon" href="//assets.alicdn.com/p/mall/base/favicon.ico"></link>
+  <title>下载天猫</title>
+  <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, menu, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    main, menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, main, menu, nav, section {
+      display: block;
+    }
+    *[hidden] {
+        display: none;
+    }
+    body {
+      line-height: 1;
+    }
+    menu, ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+  </style>
+  <style>
+    @media screen and (max-width: 2000px) {
+      .img {
+        margin: 0 auto;
+        display: flex;
+        width: 500px;
+        height: auto;
+        align-self: center;
+      }
+      .download {
+        display: flex;
+        margin: 100px auto 0 auto;
+        background-image: linear-gradient(90deg,#ff335e,#ff0036);
+        width: 300px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        border-radius: 20px;
+        justify-content: center;;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      .img {
+        width: 100%;
+      }
+      
+    }
+    
+  </style>
+</head>
+<body>
+  <img
+    id="js-img"
+    class="img"
+    src="https://gw.alicdn.com/imgextra/i4/O1CN01tVshUV1YwNesl2TdO_!!6000000003123-0-tps-1080-1071.jpg"
+    alt="" />
+    <div class="download" id="js-download">下载天猫APP</div>
+  <script>
+    var iosUrl = 'https://itunes.apple.com/cn/app/tian-mao-shi-shang-gou-wu/id518966501?acm=lb-zebra-27655-1248516.1003.4.1019739&scm=1003.4.lb-zebra-27655-1248516.OTHER_14694026084481_1019739';
+    var androidUrl = 'https://appdownload.alicdn.com/publish/tmallandroid/8.10.0-101134-0/206200@tmallandroid_8.10.0.apk?acm=lb-zebra-27655-1248513.1003.4.6371172';
+    var pcUrl = 'https://pages.tmall.com/wow/portal/act/app-download';
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+    var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+    var clickHandler =function() {
+      console.log('click')
+      if(isIOS) {
+        window.open(iosUrl, '_blank');
+      } else if(isAndroid) {
+        window.open(androidUrl, '_blank');
+      } else {
+        window.open(pcUrl, '_blank');
+      }
+    };
+    var downloadEle = document.getElementById('js-download');
+    var imgEle = document.getElementById('js-img');
+    downloadEle.onclick = clickHandler;
+    imgEle.onclick = clickHandler;
+  </script>
+  
+
+
+  
+</body>
+</html>
+0
+
+
+
+
+https://tmallx.tmall.com:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: api.bitgo-test.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 138
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ca7489f06a88-DUS
+Content-Security-Policy: script-src 'self' 'wasm-unsafe-eval' 'sha256-CYbTHuiHdGzyz4ps2+dF/Y8La6TekwHLac9k9oYed2w=' https://analytics.bitgo-test.com;style-src 'self' 'unsafe-inline';object-src 'none';font-src 'self';img-src 'self' https://analytics.bitgo-test.com data: 'self' https://api.bitgo-test.com https://app.bitgo-test.com https://analytics.bitgo-test.com
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:55:30 GMT
+Location: http://api.bitgo-test.com/web
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block; report=/xss/report
+

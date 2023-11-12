@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="https://vo-cdn.8x8.vc/static/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <title>Jitsi as a Service – World's easiest way to add meetings to your apps</title>
+    <meta name="title" content="Jitsi as a Service – World's easiest way to add meetings to your apps">
+    <meta name="description" content="The simplest integration available out there allows you to embed our meeting into your own website or mobile app with just few clicks.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jaas.8x8.vc/">
+    <meta property="og:title" content="Jitsi as a Service – World's easiest way to add meetings to your apps">
+    <meta property="og:description" content="The simplest integration available out there allows you to embed our meeting into your own website or mobile app with just few clicks.">
+    <meta property="og:image" content="https://vo-cdn.8x8.vc/static/metatags-header.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jaas.8x8.vc/">
+    <meta property="twitter:title" content="Jitsi as a Service – World's easiest way to add meetings to your apps">
+    <meta property="twitter:description" content="The simplest integration available out there allows you to embed our meeting into your own website or mobile app with just few clicks.">
+    <meta property="twitter:image" content="https://vo-cdn.8x8.vc/static/metatags-header.png">
+    <style>
+      body, html {
+        background-color: #fff;
+        font-size: 15px;
+        font-family: Inter;
+        margin: 0;
+        padding: 0;
+      }
+
+      @keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(359deg);
+        }
+      }
+
+      .content {
+        background: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+
+      a {
+        color:inherit;
+        text-decoration: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="container">
+        <div id="loadFailed" class="content">
+          Couldn't load component
+        </div>
+        <div id="renderFailed" class="content">
+          Couldn't render component
+        </div>
+        <div id="success" class="content"></div>
+      </div>
+    </div>
+    <script>
+      document.title = "8x8 Jitsi as a Service"
+      const link = document.createElement('link');
+      link.rel = 'shortcut icon';
+      link.href = 'https://vo-cdn.8x8.vc/static/jaas-logo.ico';
+      document.getElementsByTagName('head')[0].appendChild(link)
+
+      const COMPONENT_URL = "https://meet-config.jitsi.net/prod"
+      const LOGIN_URL = ''
+      const STATUS_URL = ''
+
+      const container = document.querySelector('#container')
+      const loadFailed = container.querySelector('#loadFailed')
+      const renderFailed = container.querySelector('#renderFailed')
+      const success = container.querySelector('#success')
+
+      const activate = el => el.style.zIndex = 1
+
+      const loadComponent = () => new Promise((resolve, reject) => {
+        const script = Object.assign(document.createElement('script'), {
+          async: true,
+          onerror: reject,
+          onload: resolve,
+          src: COMPONENT_URL
+        })
+        document.head.appendChild(script)
+      })
+
+      const renderComponent = () => window.EghtMeetings.renderAt(success, null, true)
+
+      loadComponent()
+        .catch(() => activate(loadFailed))
+        .then(renderComponent)
+        .then(() => activate(success))
+        .catch(() => activate(renderFailed))
+
+    </script>
+  </body>
+</html>
+
+
+
+https://jaas.8x8.vc:443

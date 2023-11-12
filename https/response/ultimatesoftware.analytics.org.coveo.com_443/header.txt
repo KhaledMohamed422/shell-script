@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: ultimatesoftware.analytics.org.coveo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:31:01 GMT
+Location: https://platform.cloud.coveo.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 2fc82828-d998-493e-abd6-b6be21eb059e
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://ultimatesoftware.analytics.org.coveo.com:443

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: rs-gr01-cloud.acronis.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.31 (KHTML like Gecko) Chrome/26.0.1410.63 Safari/537.31
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:28:00 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: cl5cg03jmk3fpl5iqvr0
+X-Request-Id: 0678068c91c704b37d910dd77b05a5c8
+
+b4
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse><params><param><value><string>Acronis Storage Manager (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://rs-gr01-cloud.acronis.com:443

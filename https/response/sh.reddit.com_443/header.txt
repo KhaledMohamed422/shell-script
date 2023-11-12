@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: sh.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; ALE-L21 Build/HuaweiALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: private, s-maxage=1, max-age=1, must-revalidate
+Content-Security-Policy: child-src 'self' blob: accounts.google.com;connect-src 'self' events.redditmedia.com o418887.ingest.sentry.io *.redd.it *.reddit.com www.redditstatic.com vimeo.com alb.reddit.com accounts.google.com/gsi/ w3-reporting.reddit.com reddit-uploaded-media.s3-accelerate.amazonaws.com reddit-uploaded-video.s3-accelerate.amazonaws.com reddit-subreddit-uploaded-media.s3-accelerate.amazonaws.com wss://*.wss.redditmedia.com wss://gql-realtime.reddit.com api.giphy.com js.stripe.com;default-src 'self';font-src 'self' data:;form-action 'none';frame-ancestors 'self' *.reddit.com *.snooguts.net;frame-src 'self' www.reddit.com www.youtube-nocookie.com player.vimeo.com *.redditmedia.com cdn.embedly.com redgifs.com www.redgifs.com accounts.google.com/gsi/ www.google.com/recaptcha/ recaptcha.google.com/recaptcha/ js.stripe.com hooks.stripe.com;img-src 'self' data: blob: https:;manifest-src 'self' www.redditstatic.com;media-src 'self' blob: data: *.redd.it www.redditstatic.com;object-src 'none';script-src 'self' 'unsafe-inline' 'unsafe-eval' www.redditstatic.com js.stripe.com 'nonce-5q6Xm0e4Rt+tXml+UNTCgQ==';style-src 'self' 'unsafe-inline' www.redditstatic.com *.reddit.com accounts.google.com/gsi/style;style-src-attr 'unsafe-inline';worker-src blob:;report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports
+Content-Security-Policy-Report-Only: object-src 'none';script-src 'nonce-5q6Xm0e4Rt+tXml+UNTCgQ==' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https:;frame-ancestors 'self' *.reddit.com *.snooguts.net;base-uri 'self';report-to csp;report-uri https://w3-reporting-csp.reddit.com/reports
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 20:41:14 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"csp","max_age":31536000,"endpoints":[{"url":"https://w3-reporting-csp.reddit.com/reports"}],"include_subdomains":true}
+Server: snooserv
+Set-Cookie: loid=000000000nf5g5rw3k.2.1699389674235.Z0FBQUFBQmxTcURxWGZwYVQ3VzhQZ3FDR2RqbzlyRC1IeXlTV3dEc1c0Tm9oamo2QzIzYTdmd2U1cVlZV0c4R21idjN5S05mMldfcEptLVVBdnRjSk13aGZtb1lHN19EZmxqamFkLTlDdjdPc1lSM1lVVEdoTXV3YWFGdzZxRkVJYUFCLUp1b0dxbFQ; path=/; expires=Thu, 06 Nov 2025 20:41:14 GMT; domain=.reddit.com; samesite=none; secure
+Set-Cookie: session_tracker=bjlmcpqiflhgcbegmp.0.1699389674238.Z0FBQUFBQmxTcURxMWFONlNhOFNuOXBQSTJuSkZoWDJPRFp0WjhiVkJFcHJfdS1IRHZWRWFJQnM5N1RVRmpoYkdkV09ZMEtEY3ZvV2R3QTlCVUZQay1MUG1rUFFacjJvN252RVdTVFY5MVAwUS1TQmYweXhaZ3lfQ0d2YVVEd2w2WEh2ZmR1akRmQms; path=/; domain=.reddit.com; secure; SameSite=None; Secure
+Set-Cookie: csrf_token=4b1a4ea6cc9ed82874e2d9d1377db9f4; path=/; domain=.reddit.com; samesite=strict; secure
+Set-Cookie: token_v2=eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNjk5NDc2MDc0LjIzNTczNiwiaWF0IjoxNjk5Mzg5Njc0LjIzNTczNiwianRpIjoiQzBZbEZRYkkySTdGUnNuV3dOdlk4WEhXTDdkUmpBIiwiY2lkIjoiMFItV0FNaHVvby1NeVEiLCJsaWQiOiJ0Ml9uZjVnNXJ3M2siLCJsY2EiOjE2OTkzODk2NzQyMzUsInNjcCI6ImVKeGtrZEdPdERBSWhkLWwxejdCX3lwX05odHNjWWFzTFFhb2szbjdEVm9jazcwN2NENHBIUDhuS0lxRkxFMnVCS0c0eXBsNzgxNFdMSVZNMDVRR3RheEFrcWIwSkRXV2Q1b1NGV3hHNW5LbEhTczBlR0NhVXVXU3VTMzB1TFFKemQxWTlPekVxTXBsNVVGVm9QVlVqVzFNWVh0aWZMT3gycENLNjNJcUUxZ1d5bWZ4b2g5eTlkWS1mN2JmaEhZd3JLZ0tEX1RPdUZWd1lfSERGSFpfVDAxNnRpNVkxTjdyUVdxZjYzRzc5bG16ME96Y2ZxN25yNDFrWEk2aC1RbjI3NjVmUWdjZWVWNW0xQUdNV01PUE11eklPdnlyRHFCeVFRRmpDZUxUQ09USzVkdF9DYlpyMDdfRzdSTV9mRFBpcGpmODFnelVjd25pMEtmeDlSc0FBUF9fSV9yYXVRIiwiZmxvIjoxfQ.l0u3yY5JQlZtP7zHJqfvJr7Mjrpwc8RuyWY4n7RlCv2T8o-DmMzKZcvlEfF3UAV4IP_hglDoeFg_JIm9p0yiNXhS9xxHc1PWOhrn5Nb6TaIHx_-kEYZaKUk84sMRWzgl6ux3-_Rw-TNkoayr9nkVB7bP_3zN5siGVBLxKsp3xcZlNhvGIWCxUZ53JBPSw0ZZh7BHYYscyhNrWCat992GNZb85hh5J_NJ4r1-DLMIEBXy9zHijyYSR3L8FrtIW85sZ3PT2Ny5n_9mun5F7SY6wZmSNtujBMdzuVrK5JZRrp7k6P5Ezm_F82_F1uP42hmjXLvegA6J7Hbk7aSX183Dvw; Path=/; Domain=reddit.com; Expires=Wed, 08 Nov 2023 20:41:14 GMT; HttpOnly; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Accept-Encoding,accept-language
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Is-Wrs: false
+X-Xss-Protection: 1; mode=block
+
+707b7
+

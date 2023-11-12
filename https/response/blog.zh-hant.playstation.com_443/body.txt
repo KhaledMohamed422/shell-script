@@ -1,0 +1,1865 @@
+<!doctype html>
+<html lang="zh-TW" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<script>document.documentElement.classList.remove("no-js");</script>
+
+	<script>
+		var currentDarkModeOption = localStorage.getItem( 'darkMode' );
+
+		if ( currentDarkModeOption && currentDarkModeOption === 'dark' ) {
+			document.documentElement.classList.add( 'prefers-color-mode-dark' );
+		}
+
+		if ( currentDarkModeOption && currentDarkModeOption === 'light' ) {
+			document.documentElement.classList.add( 'prefers-color-mode-light' );
+		}
+	</script>
+
+	<style type="text/css">
+		/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+		html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}link{display:none}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+	</style>
+
+	<script type='text/javascript' integrity='sha384-i71OEuMI87vo0q94//H1X3COuH813FezrjTZ1rDz083QMU8P6l+HNjXA4xMjhpPZ' src='https://blog.zh-hant.playstation.com/vendor/altis/aws-analytics/assets/polyfill-ie11-es6.min.js?ver=3' id='altis-analytics-polyfill.io-js' nomodule></script>
+<script type='text/javascript' id='altis-analytics-js-before'>
+var Altis = Altis || {}; Altis.Analytics = {"Ready":false,"Loaded":false,"Consent":{"CookiePrefix":"_altis_consent","Enabled":false,"Allowed":["functional","statistics-anonymous"]},"Config":{"PinpointId":"cd3d6850bd4f4175bc847b0277045dbd","PinpointRegion":"us-east-1","PinpointEndpoint":null,"CognitoId":"us-east-1:b97d392b-7eb8-41ef-9001-d9c59929e145","CognitoRegion":"us-east-1","CognitoEndpoint":null,"ExcludeBots":true},"Noop":false,"Data":{"Endpoint":{"Location":{"Country":"DE"}},"AppPackageName":"playstationblog","AppVersion":"","SiteName":"PlayStation.Blog \u7e41\u9ad4\u4e2d\u6587","Attributes":{"frontPage":true,"blog":"https:\/\/blog.zh-hant.playstation.com","network":"https:\/\/blog.playstation.com\/","blogId":8,"networkId":1},"Metrics":{}},"Audiences":[{"id":4063475720,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"AR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"EC","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SV","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"HN","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MX","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"VE","type":"string"}]}]}},{"id":202360640,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"AE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AD","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BD","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BW","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CD","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DJ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"EE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"EG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ES","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ET","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"FI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"FJ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"FR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GB","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"HU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"HR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IN","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IS","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"JO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"KE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"KG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"KW","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"KZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LB","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LV","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MC","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MD","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ME","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MW","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"OM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"QA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"RO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"RS","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"RU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SN","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TJ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TN","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"VA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"XK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"YE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ZA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ZM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ZW","type":"string"}]}]}},{"id":493781949,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"SG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ID","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"VN","type":"string"}]}]}},{"id":740343651,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"AL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"AT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"BG","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CH","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CY","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"CZ","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"DK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"EE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ES","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"FI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"FR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GB","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"GR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"HU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"HR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IN","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IS","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"IT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"JO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"KW","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LB","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LU","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"LV","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MC","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MD","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"ME","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"MT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"NO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"OM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PL","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"PT","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"QA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"RO","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"RS","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SE","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SI","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"SM","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"TR","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"UK","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"VA","type":"string"}]}]}},{"id":4079745168,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"CA","type":"string"},{"field":"endpoint.Location.Country","operator":"=","value":"US","type":"string"}]}]}},{"id":18169,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"TW","type":"string"}]}]}},{"id":18168,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"AU","type":"string"}]}]}},{"id":18167,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"JP","type":"string"}]}]}},{"id":17678,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"TW","type":"string"}]}]}},{"id":17676,"config":{"include":"all","groups":[{"include":"any","rules":[{"field":"endpoint.Location.Country","operator":"=","value":"HK","type":"string"}]}]}}]};Altis.Analytics.onReady = function ( callback ) {if ( Altis.Analytics.Ready ) {callback();} else {window.addEventListener( 'altis.analytics.ready', callback );}};Altis.Analytics.onLoad = function ( callback ) {if ( Altis.Analytics.Loaded ) {callback();} else {window.addEventListener( 'altis.analytics.loaded', callback );}};
+</script>
+<script type='text/javascript' integrity='sha384-x2FDOrDeFw80gJ30QOTHMQlAdgfUhA7tQKVOIrJkiP4dZTP55Aiq2Gkb8qGygHXj' src='https://blog.zh-hant.playstation.com/vendor/altis/aws-analytics/build/analytics.76ffa5e7.js' id='altis-analytics-js' async></script>
+<script type='text/javascript' id='altis-experiments-js-before'>
+window.Altis = window.Altis || {};window.Altis.Analytics = window.Altis.Analytics || {};window.Altis.Analytics.Experiments = window.Altis.Analytics.Experiments || {};window.Altis.Analytics.Experiments.BuildURL = "https:\/\/blog.zh-hant.playstation.com\/vendor\/altis\/aws-analytics\/build";window.Altis.Analytics.Experiments.Goals = {"click_any_link":{"name":"click_any_link","event":"click","label":"Click on any link","selector":"a","closest":null,"args":{"validation_message":"You need to add at least one link to this content to track conversions."}},"submit_form":{"name":"submit_form","event":"submit","label":"Submit a form","selector":"form","closest":null,"args":{"validation_message":"You need to add a form to this content to track conversions."}}};
+</script>
+<script type='text/javascript' integrity='sha384-JiUjEj6rgrQpINk/tMM3r+h4Dg44Tg44wjlUQOPXcdpiN6WEiuaoNpZuxLonBI0F' src='https://blog.zh-hant.playstation.com/vendor/altis/aws-analytics/build/experiments.76ffa5e7.js' id='altis-experiments-js' async></script>
+<title>PlayStation.Blog 繁體中文</title>
+<meta name='robots' content='max-image-preview:large' />
+		<link rel="canonical" href="https://blog.zh-hant.playstation.com"/>
+		<link rel='dns-prefetch' href='//blog.zh-hant.playstation.com' />
+<link rel='dns-prefetch' href='//playstation-prod.altis.cloud' />
+<link rel='preconnect' href='https://c.evidon.com' />
+<link rel='preconnect' href='https://l.evidon.com' />
+<link rel='preconnect' href='https://s.btstatic.com' />
+<link rel='preconnect' href='https://s.thebrighttag.com' />
+<link rel="alternate" type="application/rss+xml" title="訂閱《PlayStation.Blog 繁體中文》&raquo; 資訊提供" href="https://blog.zh-hant.playstation.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="訂閱《PlayStation.Blog 繁體中文》&raquo; 留言的資訊提供" href="https://blog.zh-hant.playstation.com/comments/feed/" />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://blog.zh-hant.playstation.com/wp-includes/css/classic-themes.min.css?ver=6.2.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #1f1f1f;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--dark-grey: #363636;--wp--preset--color--grey: #999;--wp--preset--color--satin-blue: #0072c3;--wp--preset--color--light-blue: #00a2ff;--wp--preset--color--dark-blue: #002f67;--wp--preset--color--pale-blue: var( --pale-blue );--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='5e35a90c3433f898404960ab70623dd1-css' integrity='sha384-HilUNdJ6jnOV1WxbrgOE5V8LJlwgALxXCD9pmVDAjfppEKYxDlaTzDJo+dpYisvy' href='https://blog.zh-hant.playstation.com/content/themes/playstation-2018/css/2692ee635fa819a742e1-main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='0ddd92a39da6deea2c3be764db5ae463-css' integrity='sha384-5K5tJic93bt4Fw6qHSYTB5h9+abrn9nFoMOvudhC5TxCZt+RpYwGUXgoV91rLqBG' href='https://blog.zh-hant.playstation.com/content/themes/playstation-2018/css/2692ee635fa819a742e1-front-page.css' type='text/css' media='all' />
+<script type='text/javascript' id='evidon-cookie-notice-js-extra'>
+/* <![CDATA[ */
+var psnCookieNotice = {"evidonId":"6063","rootDomain":"playstation"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='evidon-cookie-notice-js-before'>
+	window.PS_Blog = window.PS_Blog || {};
+
+	window.PS_Blog.consentCallback = function() {
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-1795022-10', 'auto');
+	ga('send', 'pageview');
+			if ( ! document.getElementById( 'adobe-analytics' ) ) {
+			const scriptTag = document.createElement( 'script' );
+			scriptTag.setAttribute( 'id', 'adobe-analytics' );
+			scriptTag.setAttribute( 'src', '//assets.adobedtm.com/3dc13bcabc29/51371216b955/launch-e57e603e27e9.min.js' );
+			scriptTag.setAttribute( 'type', 'text/javascript' );
+			scriptTag.setAttribute( 'async', '' );
+
+			document.head.appendChild( scriptTag );
+		}
+
+		DataLayer.default.pageview({
+			primaryCategory: psnAnalytics.primaryCategory,
+			pageTypes: {
+				'/': 'list',
+				'/page/*': 'list',
+				'/tag/*': 'list',
+				'/category/*': 'list',
+				'$//(\/[12]\d{3}\/(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01]))\/(.*)/gi': 'detail',
+			},
+			app: {
+				env: psnAnalytics.app.env,
+				name: 'blog',
+				version: psnAnalytics.app.version
+			},
+			locale: psnAnalytics.locale,
+			user: psnAnalytics.user.psnId ? {
+				plus: false,
+				id: psnAnalytics.user.psnId,
+			} : null,
+		} );
+
+		if ( psnAnalytics.search ) {
+			DataLayer.default.search( psnAnalytics.search );
+		}
+			}
+	
+</script>
+<script type='text/javascript' integrity='sha384-N7e2Mbu+n9DH4FnqT+mOMSURYGFRokTWAgwj6WnLcShZNzPFgEYx09bVIVL91OcO' src='https://blog.zh-hant.playstation.com/content/plugins/psn-cookie-notice/assets/evidon.js?ver=1.2' id='evidon-cookie-notice-js'></script>
+<link rel="https://api.w.org/" href="https://blog.zh-hant.playstation.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.zh-hant.playstation.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.zh-hant.playstation.com/wp-includes/wlwmanifest.xml" />
+
+<meta property="og:title" name="og:title" content="PlayStation.Blog 繁體中文" />
+<meta property="og:type" name="og:type" content="website" />
+<meta property="og:image" name="og:image" content="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/05/cropped-playstation-falily-logo.png" />
+<meta property="og:locale" name="og:locale" content="zh_TW" />
+<meta property="og:site_name" name="og:site_name" content="PlayStation.Blog 繁體中文" />
+<meta property="twitter:card" name="twitter:card" content="summary" />
+<meta property="article:author" name="article:author" content="https://blog.zh-hant.playstation.com/author/steve-peer/" />
+	<link rel="stylesheet" href="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/css/2692ee635fa819a742e1-fonts.css" media="print" onload="this.media='all'; this.onload=null;">
+	<link rel="icon" href="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/05/cropped-playstation-falily-logo.png?fit=32%2C32" sizes="32x32" />
+<link rel="icon" href="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/05/cropped-playstation-falily-logo.png?fit=192%2C192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/05/cropped-playstation-falily-logo.png?fit=180%2C180" />
+<meta name="msapplication-TileImage" content="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/05/cropped-playstation-falily-logo.png?fit=270%2C270" />
+</head>
+
+<body class="home blog hfeed">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#primary">跳往內容</a>
+
+	
+		<div class="pre-header">
+		<div class="sony-banner">
+	<a href="https://www.playstation.com"><img src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/sonylogo-2x.jpg" alt="playstation.com" class="sony-logo" /></a>
+</div>
+<div class="page-banner ">
+	
+<template data-fallback data-parent-id="47b6845c-e78f-4830-b981-e13001e712d2"><img fetchpriority="high" src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/990cdf7e4760cd2c2f1d733c3cf4f4beec76c600.png" class="page-banner__takeover-img geolocated-header-image wp-image-20897" srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/990cdf7e4760cd2c2f1d733c3cf4f4beec76c600.png?resize=1900%2C470&amp;zoom=1 1900w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/990cdf7e4760cd2c2f1d733c3cf4f4beec76c600.png?resize=1900%2C470&amp;zoom=0.5 950w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/990cdf7e4760cd2c2f1d733c3cf4f4beec76c600.png?resize=1900%2C470&amp;zoom=0.25 475w" sizes="100vw" width="1900" height="470" alt=""></template>
+
+
+<personalization-block client-id="47b6845c-e78f-4830-b981-e13001e712d2"></personalization-block></div>
+	</div>
+	
+	<header id="masthead" class="site-header sticky">
+		
+<nav id="site-navigation" class="navigation__primary above-fold" aria-label="Main menu">
+
+	<div class="logo-menu-wrap">
+	<div class="site-logo-link">
+		<a href="https://www.playstation.com" class="playstation-logo">
+			<span class="screen-reader-text">playstation.com</span>
+				<svg class="icon icon--brand-ps icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M1.5 15.51c-1.58-.44-1.84-1.37-1.12-1.9.66-.49 1.8-.86 1.8-.86l4.67-1.66v1.89l-3.36 1.2c-.59.21-.69.51-.2.67.48.16 1.36.11 1.95-.1l1.61-.58v1.69c-.1.02-.22.04-.32.05-1.62.27-3.34.16-5.03-.4zm9.85.2l5.24-1.87c.6-.21.69-.51.2-.67-.48-.16-1.36-.11-1.95.1l-3.49 1.23v-1.96l.2-.07s1.01-.36 2.43-.51c1.42-.16 3.16.02 4.52.54 1.54.49 1.71 1.2 1.32 1.69-.39.49-1.35.84-1.35.84l-7.12 2.56v-1.88zm.62-12.1c2.76.95 3.69 2.13 3.69 4.78 0 2.59-1.6 3.57-3.63 2.59V6.16c0-.57-.1-1.09-.64-1.23-.41-.13-.66.25-.66.81v12.08l-3.26-1.03V2.38c1.39.26 3.41.86 4.5 1.23zm7.25 13.1c0 .04-.01.07-.03.08-.02.02-.06.02-.1.02h-.21v-.21h.22c.03 0 .05 0 .07.01.04.03.05.06.05.1zm.15.48c-.01 0-.02-.02-.02-.03 0-.01-.01-.03-.01-.06V17c0-.05-.01-.08-.03-.1l-.04-.04c.02-.02.04-.03.06-.05.02-.03.03-.07.03-.11 0-.09-.04-.15-.11-.18a.29.29 0 0 0-.14-.03H18.76v.75h.14v-.31h.2c.04 0 .06 0 .08.01.03.01.04.04.04.08l.01.12c0 .03 0 .05.01.06 0 .01.01.02.01.03v.01h.15v-.04l-.03-.01zm-.88-.31c0-.15.06-.29.16-.39a.552.552 0 0 1 .94.39.552.552 0 1 1-.94.39.513.513 0 0 1-.16-.39zm.55.67c.18 0 .35-.07.47-.2a.65.65 0 0 0 0-.94.641.641 0 0 0-.47-.19c-.37 0-.67.3-.67.67 0 .18.07.34.2.47.13.12.29.19.47.19z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			</a>
+		<a href="https://blog.zh-hant.playstation.com" class="blog-title">
+			PlayStation<span class="highlight-blog">.Blog</span>
+		</a>
+	</div>
+	<button class="menu-toggle" aria-label="顯示選單" aria-expanded="false">
+		<svg class="icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100">
+			<g class="svg-menu-toggle">
+				<path class="line line-1" d="M5 13h90v14H5z"/>
+				<path class="line line-2" d="M5 43h90v14H5z"/>
+				<path class="line line-3" d="M5 73h90v14H5z"/>
+			</g>
+		</svg>
+		<span class="screen-reader-text">Menu</span>
+	</button>
+	<div class="region-menu-wrap flex">
+		<div class="primary-menu-container">
+			<ul id="primary-menu" class="header__nav"><li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="/">Home</a></li>
+<li id="menu-item-274" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-274"><a href="https://blog.zh-hant.playstation.com/category/ps5/">PS5</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-88"><a href="https://blog.zh-hant.playstation.com/category/ps4/">PS4</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"><a href="https://blog.zh-hant.playstation.com/category/psvr/">PS VR</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a href="https://blog.zh-hant.playstation.com/category/ps-plus/">PS Plus</a></li>
+<li id="menu-item-278" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-278"><a href="https://blog.zh-hant.playstation.com/category/ps-store/">PS Store</a></li>
+</ul>		</div>
+
+		
+<div class="site-header__region-selector-wrap">
+	<button class="site-header__region-select region-select" aria-expanded="false">
+		<span class="screen-reader-text">Select a region</span>
+		<span class="screen-reader-text">Current region:</span>
+		<span class="region-name">繁體中文</span>
+
+			<svg class="icon icon--caret-down down-arrow icon-arrow-down icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path fill-rule="evenodd" class="icon-primary-color" d="M0 5.8l1.83-1.79L10 12.34l8.17-8.33L20 5.8 10 15.99z"/>	</svg>
+		</button>
+
+	
+<div class="site-header__region-selector-dropdown region-selector-dropdown">
+	<ul class="site-header__region-selector-link-list region-selector-link-list">
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.playstation.com/" class="region-link">English</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.fr.playstation.com/" class="region-link">French</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.de.playstation.com/" class="region-link">German</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.it.playstation.com/" class="region-link">Italian</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ja.playstation.com/" class="region-link">Japanese</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ko.playstation.com/" class="region-link">Korean</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.br.playstation.com/" class="region-link">Portuguese (Br)</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ru.playstation.com/" class="region-link">Russian</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.latam.playstation.com/" class="region-link">Spanish (LatAm)</a>			</li>
+					<li class="site-header__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.es.playstation.com/" class="region-link">Spanish (EU)</a>			</li>
+			</ul>
+</div>
+</div>
+	</div>
+</div>
+	<div class="login-search-wrap">
+	<div class="dark-mode">
+		<div class="dark-mode__message">
+			<p class="dark-mode__message--text" aria-live="polite"></p>
+		</div>
+		<button class="dark-mode__toggle with-tooltip" type="button" aria-label="Toggle Dark Mode">
+				<svg class="icon icon--lightbulb icon--26 icon--" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M6.3 17.12h7.32v-1.35H6.3v1.35zm0 1.69c0 .66.54 1.19 1.2 1.19h4.93c.66 0 1.19-.53 1.19-1.19v-.25H6.3v.25zM17.55 7.59c0 2.29-1.44 5.07-3.6 6.74H5.98c-2.16-1.67-3.6-4.45-3.6-6.74C2.37 3.4 5.77 0 9.97 0c4.19 0 7.58 3.4 7.58 7.59z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			</button>
+	</div>
+	<span id="js-login-link">
+		<a href="https://ca.account.sony.com/api/authz/v3/oauth/authorize?client_id=0399155d-250c-47ab-b77a-228dcafea40d&#038;response_type=code&#038;scope=openid+id_token%3Apsn.basic_claims+user%3AbasicProfile.get+kamaji%3Auser.subscriptions.get&#038;redirect_uri=https%3A%2F%2Fblog.zh-hant.playstation.com%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dhandle_login%26return_to%3Dhttps%253A%252F%252Fblog.zh-hant.playstation.com%252F%2523login&#038;service_entity=urn:service-entity:psn" class="login-link">
+			登入		</a>
+	</span>
+	<button class="nav-button-search" aria-expanded="false">
+			<svg class="icon icon--search icon--26 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M7.43 12.54c-2.82-.01-5.11-2.29-5.11-5.11 0-2.82 2.29-5.11 5.11-5.11 2.82.01 5.11 2.29 5.11 5.11a5.126 5.126 0 0 1-5.11 5.11zm6.39-1.34c.65-1.11 1.03-2.4 1.03-3.78 0-4.1-3.32-7.42-7.42-7.43A7.437 7.437 0 0 0 0 7.43c0 4.1 3.32 7.42 7.42 7.43 1.38 0 2.67-.38 3.78-1.03L17.38 20 20 17.38l-6.18-6.18z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			<span class="screen-reader-text">搜尋</span>
+	</button>
+
+	<div class="navigation__search">
+	<form class="nav-search-form" method="get" action="https://blog.zh-hant.playstation.com/" role="search">
+		<label for="search-input" class="screen-reader-text">搜尋PlayStation.Blog</label>
+		<input type="text" name="s" id="search-input" required placeholder="搜尋PlayStation.Blog" class="nav-search-form__input">
+		<button class="nav-search-form__submit" aria-label="Submit search">
+				<svg class="icon icon--search icon--26 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M7.43 12.54c-2.82-.01-5.11-2.29-5.11-5.11 0-2.82 2.29-5.11 5.11-5.11 2.82.01 5.11 2.29 5.11 5.11a5.126 5.126 0 0 1-5.11 5.11zm6.39-1.34c.65-1.11 1.03-2.4 1.03-3.78 0-4.1-3.32-7.42-7.42-7.43A7.437 7.437 0 0 0 0 7.43c0 4.1 3.32 7.42 7.42 7.43 1.38 0 2.67-.38 3.78-1.03L17.38 20 20 17.38l-6.18-6.18z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			</button>
+	</form>
+</div>
+</div>
+
+</nav>
+
+<div class="mobile-menu-container">
+
+	<div class="mobile-search-container">
+	<form class="mobile-search-container__form" method="get" action="https://blog.zh-hant.playstation.com/" role="search">
+		<label for="mobile-search-input" class="screen-reader-text">搜尋PlayStation.Blog</label>
+		<input type="text" name="s" id="mobile-search-input" required placeholder="搜尋PlayStation.Blog" class="mobile-search-container__input">
+		<button class="mobile-search-container__submit" aria-label="Submit search">
+				<svg class="icon icon--search icon--26 icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M7.43 12.54c-2.82-.01-5.11-2.29-5.11-5.11 0-2.82 2.29-5.11 5.11-5.11 2.82.01 5.11 2.29 5.11 5.11a5.126 5.126 0 0 1-5.11 5.11zm6.39-1.34c.65-1.11 1.03-2.4 1.03-3.78 0-4.1-3.32-7.42-7.42-7.43A7.437 7.437 0 0 0 0 7.43c0 4.1 3.32 7.42 7.42 7.43 1.38 0 2.67-.38 3.78-1.03L17.38 20 20 17.38l-6.18-6.18z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			</button>
+	</form>
+</div>
+	<ul id="mobile-menu" class="header__nav--mobile"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="/">Home</a></li>
+</ul><div class="mobile-menu-container__user-actions">
+			<div class="logged-out-user-actions">
+				<svg class="icon icon--brand-ps-circle-color psn-icon" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><g><linearGradient id="brand-ps-circle-colored" gradientUnits="userSpaceOnUse" x1="31.781" y1="-199.975" x2="32.21" y2="-200.591" gradientTransform="matrix(26 0 0 -28 -821 -5597)"><stop offset="0" stop-color="#00c0f3"/><stop offset="1" stop-color="#007dc5"/></linearGradient><path d="M10.29 20c-.94 0-4.26-.23-6.77-2.96C1.27 14.6 1 11.82 1 10.02 1 6.19 2.44 4.16 3.51 3 6.02.23 9.34 0 10.28 0s4.26.23 6.77 2.96c2.24 2.45 2.51 5.22 2.51 7.02 0 3.83-1.44 5.87-2.51 7.02-2.5 2.77-5.82 3-6.76 3z" fill="url(#brand-ps-circle-colored)"/><g fill="#fff"><path d="M9.01 4.61v9.55l2.13.69v-8c0-.37.18-.64.45-.55.36.09.41.45.41.82v3.2c1.31.64 2.35 0 2.35-1.74 0-1.78-.59-2.56-2.4-3.15-.67-.23-2.03-.64-2.94-.82"/><path d="M11.55 13.47l3.44-1.23c.41-.14.45-.32.14-.46-.32-.09-.9-.09-1.27.05l-2.27.82v-1.28l.14-.05s.68-.23 1.58-.32 2.08 0 2.94.37c1 .32 1.13.78.86 1.14-.27.32-.86.55-.86.55l-4.7 1.65v-1.24M5.12 13.34c-1.04-.28-1.22-.92-.72-1.28.45-.32 1.18-.59 1.18-.59l3.03-1.1v1.23l-2.17.78c-.41.13-.46.32-.14.45.32.09.9.09 1.27-.05l1.04-.37v1.14c-.05 0-.14.05-.23.05a7.2 7.2 0 0 1-3.26-.26"/></g><g fill="#fff"><path d="M13.76 14.62h-.27v-.09h.68v.09h-.27v.77h-.14zM14.62 15.39l-.22-.73v.73h-.14v-.86h.18l.27.77.28-.77h.18v.86h-.14v-.73l-.32.73z"/></g></g>	</svg>
+				<a href="https://ca.account.sony.com/api/authz/v3/oauth/authorize?client_id=0399155d-250c-47ab-b77a-228dcafea40d&#038;response_type=code&#038;scope=openid+id_token%3Apsn.basic_claims+user%3AbasicProfile.get+kamaji%3Auser.subscriptions.get&#038;redirect_uri=https%3A%2F%2Fblog.zh-hant.playstation.com%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dhandle_login%26return_to%3Dhttps%253A%252F%252Fblog.zh-hant.playstation.com%252F%2523login&#038;service_entity=urn:service-entity:psn" class="login-comment">登入</a>
+		</div>
+	</div>
+
+<div class="mobile-menu-container__regions">
+	<button class="mobile__region-select region-select" aria-expanded="false">
+		<span class="screen-reader-text">Select a region</span>
+		<span class="screen-reader-text">Current region:</span>
+		<span class="region-name">繁體中文</span>
+
+			<svg class="icon icon--caret-down down-arrow icon-arrow-down icon--16 icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path fill-rule="evenodd" class="icon-primary-color" d="M0 5.8l1.83-1.79L10 12.34l8.17-8.33L20 5.8 10 15.99z"/>	</svg>
+		</button>
+
+	
+<div class="mobile__region-selector-dropdown region-selector-dropdown">
+	<ul class="mobile__region-selector-link-list region-selector-link-list">
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.playstation.com/" class="region-link">English</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.fr.playstation.com/" class="region-link">French</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.de.playstation.com/" class="region-link">German</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.it.playstation.com/" class="region-link">Italian</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ja.playstation.com/" class="region-link">Japanese</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ko.playstation.com/" class="region-link">Korean</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.br.playstation.com/" class="region-link">Portuguese (Br)</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ru.playstation.com/" class="region-link">Russian</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.latam.playstation.com/" class="region-link">Spanish (LatAm)</a>			</li>
+					<li class="mobile__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.es.playstation.com/" class="region-link">Spanish (EU)</a>			</li>
+			</ul>
+</div>
+</div>
+</div>
+	</header>
+
+	<main id="primary" class="site-main container split-width-container">
+
+		<h1 class="screen-reader-text">PlayStation.Blog 繁體中文</h1>
+
+		<div class="main-content home-main-section">
+
+					<section class="content-section lead-posts">
+				<h2 class="screen-reader-text">焦點故事</h2>
+	<article class="post-card post-card--featured post-21094 post type-post status-publish format-standard has-post-thumbnail hentry category-psvr category-ps5 tag-ghostbusters-rise-of-the-ghost-lord tag-ps-vr-2 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-ghostbusters/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img fetchpriority="high" width="1088" height="612" src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a4cb16b36f394a8320833b08839a4ad5efa1c1c8.jpg?resize=1088%2C612&amp;crop_strategy=smart" class="post-card__image skip-lazy wp-image-21096 wp-post-image" alt="《Ghostbusters: Rise of the Ghost Lord》加入兩種免費的遊戲模式" decoding="async" sizes="(min-width: 1440px) 780px, (min-width: 960px) 51vw, 100vw" srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a4cb16b36f394a8320833b08839a4ad5efa1c1c8.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a4cb16b36f394a8320833b08839a4ad5efa1c1c8.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a4cb16b36f394a8320833b08839a4ad5efa1c1c8.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a4cb16b36f394a8320833b08839a4ad5efa1c1c8.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-ghostbusters/" class="post-card__title-link">
+				《Ghostbusters: Rise of the Ghost Lord》加入兩種免費的遊戲模式			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/riley-c/" >
+							Riley Cooper						</a>
+						<span class="post-card__author-title">
+							Sony Pictures Virtual Reality 製作副總裁						</span>
+					</p>
+				</div>
+					</div>
+
+					<p class="post-card__subhead">
+				魔鬼剋星集結至 Heist &amp; Seek 與 Infestation 模式一同抓鬼			</p>
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21094"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21094"
+	aria-label="1 讚"
+>
+	1</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20949 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-ps4 tag-ps5 tag-106">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231027_genshinimpact/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20950 wp-post-image lazy" alt="《原神》4.2版本：罪人舞步旋" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8bd0069c9ae3ba26cf67f1185fd8dd37044070e3-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 375px, (min-width: 960px) 26vw, (min-width: 600) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231027_genshinimpact/" class="post-card__title-link">
+				《原神》4.2版本：罪人舞步旋			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/zhenzhong/" >
+							Zhenzhong Yi						</a>
+						<span class="post-card__author-title">
+							miHoYo 工作室技術總監						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20949"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20949"
+	aria-label="2 讚"
+>
+	2</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-21087 post type-post status-publish format-standard has-post-thumbnail hentry category-ps-plus tag-ps-plus">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-psplus/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21089 wp-post-image lazy" alt="PlayStation Plus 11月份遊戲：《四海兄弟II：決定版》、《七龍珠 破界鬥士》、《異形：特戰菁英》" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/bf20f69b77199c83c07c8f21a153aaee1ae4758b.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/bf20f69b77199c83c07c8f21a153aaee1ae4758b.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/bf20f69b77199c83c07c8f21a153aaee1ae4758b.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/bf20f69b77199c83c07c8f21a153aaee1ae4758b.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/bf20f69b77199c83c07c8f21a153aaee1ae4758b.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 375px, (min-width: 960px) 26vw, (min-width: 600) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-psplus/" class="post-card__title-link">
+				PlayStation Plus 11月份遊戲：《四海兄弟II：決定版》、《七龍珠 破界鬥士》、《異形：特戰菁英》			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/adam-michel/" >
+							Adam Michel						</a>
+						<span class="post-card__author-title">
+							SIE遊戲服務內容資深經理 						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21087"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21087"
+	aria-label="0 讚"
+>
+	</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20742 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/12/20231012-ps5/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20743 wp-post-image lazy" alt="PS5主機年末新造型" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/c011d11ce2849e01678c0be0e0f095a8c67d2e48.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/c011d11ce2849e01678c0be0e0f095a8c67d2e48.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/c011d11ce2849e01678c0be0e0f095a8c67d2e48.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/c011d11ce2849e01678c0be0e0f095a8c67d2e48.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/c011d11ce2849e01678c0be0e0f095a8c67d2e48.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 375px, (min-width: 960px) 26vw, (min-width: 600) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/12/20231012-ps5/" class="post-card__title-link">
+				PS5主機年末新造型			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/sid-shuman/" >
+							Sid Shuman						</a>
+						<span class="post-card__author-title">
+							Content Communications資深總監						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月12日				</span>
+
+				<span>
+										<span class="post-card__meta-item post-card__meta-comments-count with-tooltip" aria-label="1 則留言">
+							<svg class="icon icon--comment-solid icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M8.98 15.48h9.52a1.499 1.499 0 0 0 1.5-1.5V1.33C20 1.34 20 0 18.49 0H1.51C.67 0 0 .67 0 1.51v12.47c0 .83.67 1.51 1.51 1.51h1.31v4.52l6.16-4.53z" class="icon-primary-color"/>	</svg>
+							1					</span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20742"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20742"
+	aria-label="40 讚"
+>
+	40</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+		</section>
+		<section class="content-section trending-posts">
+	<h2 class="content-section__title">熱門文章</h2>
+
+	<div class="four-across-grid">
+		<article class="post-card four-across-grid__post-card post-20945 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-ps4 tag-ps5 tag-star-ocean">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027_starocean/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20947 wp-post-image lazy" alt="《Star Ocean The Second Story R》如何重製並革新 PlayStation 時期的經典原版冒險" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/972955957cb02c4ef4991683e739d61e25e764ff.jpeg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/972955957cb02c4ef4991683e739d61e25e764ff.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/972955957cb02c4ef4991683e739d61e25e764ff.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/972955957cb02c4ef4991683e739d61e25e764ff.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/972955957cb02c4ef4991683e739d61e25e764ff.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 275px, (min-width: 1170px) 20vw, (min-width: 960px) 40vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027_starocean/" class="post-card__title-link">
+				《Star Ocean The Second Story R》如何重製並革新 PlayStation 時期的經典原版冒險			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/kei-k/" >
+							Kei Komaki						</a>
+						<span class="post-card__author-title">
+							Square Enix 的製作人 						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月27日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20945"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20945"
+	aria-label="8 讚"
+>
+	8</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card four-across-grid__post-card post-20912 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-marvels-spider-man-2 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-sm2-2/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20914 wp-post-image lazy" alt="《Marvel’s Spider-Man 2》上市專訪：Bryan Inithar分享開場動畫、美國手語、輔助功能等內容" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/fe48b3847905ea19b16deecef881312c6591b53a-scaled.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 275px, (min-width: 1170px) 20vw, (min-width: 960px) 40vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-sm2-2/" class="post-card__title-link">
+				《Marvel’s Spider-Man 2》上市專訪：Bryan Inithar分享開場動畫、美國手語、輔助功能等內容			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/gillen-mcallister/" >
+							Gillen McAllister						</a>
+						<span class="post-card__author-title">
+							SIE 內容傳播資深專員						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月26日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20912"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20912"
+	aria-label="12 讚"
+>
+	12</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card four-across-grid__post-card post-20922 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-metal-gear-solid tag-ps4 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027-mgs/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20923 wp-post-image lazy" alt="《Metal Gear Solid》二十五週年紀念：潛行動作遊戲經典系列作的演變" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/3b0a0ae5f9d5a36a789724ca43e28b0f5d8e6158.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/3b0a0ae5f9d5a36a789724ca43e28b0f5d8e6158.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/3b0a0ae5f9d5a36a789724ca43e28b0f5d8e6158.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/3b0a0ae5f9d5a36a789724ca43e28b0f5d8e6158.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/3b0a0ae5f9d5a36a789724ca43e28b0f5d8e6158.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 275px, (min-width: 1170px) 20vw, (min-width: 960px) 40vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027-mgs/" class="post-card__title-link">
+				《Metal Gear Solid》二十五週年紀念：潛行動作遊戲經典系列作的演變			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/h-kemps/" >
+							Heidi Kemps						</a>
+						<span class="post-card__author-title">
+							PlayStation Blog特派員 						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月27日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20922"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20922"
+	aria-label="9 讚"
+>
+	9</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card four-across-grid__post-card post-21045 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-call-of-duty-modern-warfare-3 tag-ps4 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-codmw3/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21048 wp-post-image lazy" alt="揭露在 PlayStation 獨家推出的《決勝時刻：現代戰爭III 2023》特戰兵「神偷」創作概念" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/b5a63c2a1c205c59707ebf8a07178c6d58909db4.jpeg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/b5a63c2a1c205c59707ebf8a07178c6d58909db4.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/b5a63c2a1c205c59707ebf8a07178c6d58909db4.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/b5a63c2a1c205c59707ebf8a07178c6d58909db4.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/b5a63c2a1c205c59707ebf8a07178c6d58909db4.jpeg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1430px) 275px, (min-width: 1170px) 20vw, (min-width: 960px) 40vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-codmw3/" class="post-card__title-link">
+				揭露在 PlayStation 獨家推出的《決勝時刻：現代戰爭III 2023》特戰兵「神偷」創作概念			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/david-h/" >
+							David Hodgson						</a>
+						<span class="post-card__author-title">
+							Activision						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21045"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21045"
+	aria-label="1 讚"
+>
+	1</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+	</div>
+</section>
+
+
+			<section class="content-section latest-posts">
+
+				<h2 class="content-section__title content-section__title--primary">
+					最新發佈文章				</h2>
+
+									<div class="load-more-posts-container">
+					<article class="post-card post-20984 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-mlb-the-show-23 tag-ps4 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-mlb/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20986 wp-post-image lazy" alt="在《MLB The Show 23》中體驗季後賽" decoding="async" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/9a233161c1b2b00577ba316d1cdcc9c4fd3e5304.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-mlb/" class="post-card__title-link">
+				在《MLB The Show 23》中體驗季後賽			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/steve-peer/" >
+							Steve Peer						</a>
+						<span class="post-card__author-title">
+							San Diego Studio資深專案經理						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20984"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20984"
+	aria-label="0 讚"
+>
+	</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-21033 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-ps5 tag-1188">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-avatar/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21035 wp-post-image lazy" alt="在《阿凡達：潘朵拉邊境》裡飛上青天 —— 第一手報告" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a3970f347725e34ca0177c74510ba355b27636b5.png" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a3970f347725e34ca0177c74510ba355b27636b5.png?resize=1088%2C612&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a3970f347725e34ca0177c74510ba355b27636b5.png?resize=1088%2C612&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/a3970f347725e34ca0177c74510ba355b27636b5.png?resize=1088%2C612&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-avatar/" class="post-card__title-link">
+				在《阿凡達：潘朵拉邊境》裡飛上青天 —— 第一手報告			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/h-kemps/" >
+							Heidi Kemps						</a>
+						<span class="post-card__author-title">
+							PlayStation Blog特派員 						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21033"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21033"
+	aria-label="2 讚"
+>
+	2</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-21039 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-ea-sports-wrc tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-easportswrc/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21040 wp-post-image lazy" alt="《EA Sports WRC》現已在 PS5 上推出沉浸式虛擬體驗" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/f36bafe2943cc62800dfbce115ee393b55a4e023.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/06/20231106-easportswrc/" class="post-card__title-link">
+				《EA Sports WRC》現已在 PS5 上推出沉浸式虛擬體驗			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/jon-a/" >
+							Jon Armstrong						</a>
+						<span class="post-card__author-title">
+							Codemasters 遊戲設計師與拉力賽車手 						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月06日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21039"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21039"
+	aria-label="2 讚"
+>
+	2</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<template data-audience="17676" data-parent-id="faf7dee8-b71e-482f-b6b3-17503bb77905" data-goal=""><article class="post-card post-21062 post type-post status-publish_geocontent format-standard has-post-thumbnail hentry category-ps5 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/02/20231102-ps11hk/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21067 wp-post-image lazy" alt="PlayStation雙11超強優惠！ 2023年11月3日至16日期間購買PlayStation 5最高可節省港幣930元 " decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/4d500d918c393cae295b3850926763adc4129726-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/02/20231102-ps11hk/" class="post-card__title-link">
+				PlayStation雙11超強優惠！ 2023年11月3日至16日期間購買PlayStation 5最高可節省港幣930元 			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/06/avatar-blog-psf.jpg?fit=450%2C450" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/ps-cm/" >
+							PlayStation Community Manager						</a>
+						<span class="post-card__author-title">
+													</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月02日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21062"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21062"
+	aria-label="4 讚"
+>
+	4</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+</template><template data-fallback data-parent-id="faf7dee8-b71e-482f-b6b3-17503bb77905" data-goal=""></template><personalization-block class="alignnone" client-id="faf7dee8-b71e-482f-b6b3-17503bb77905"></personalization-block><template data-audience="17678" data-parent-id="f9f093f4-157c-4247-8ee3-90d6058b66a6" data-goal=""><article class="post-card post-21061 post type-post status-publish_geocontent format-standard has-post-thumbnail hentry category-ps5 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/02/20231102-ps11tc/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-21066 wp-post-image lazy" alt="PlayStation雙11超強優惠！ 2023年11月3日至16日期間購買PlayStation 5最高可節省新台幣3,900元" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/11/2d74d87c749fc8776834f9418b837b1544cf08ce-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/02/20231102-ps11tc/" class="post-card__title-link">
+				PlayStation雙11超強優惠！ 2023年11月3日至16日期間購買PlayStation 5最高可節省新台幣3,900元			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2020/06/avatar-blog-psf.jpg?fit=450%2C450" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/ps-cm/" >
+							PlayStation Community Manager						</a>
+						<span class="post-card__author-title">
+													</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月02日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="21061"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="21061"
+	aria-label="15 讚"
+>
+	15</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+</template><template data-fallback data-parent-id="f9f093f4-157c-4247-8ee3-90d6058b66a6" data-goal=""></template><personalization-block class="alignnone" client-id="f9f093f4-157c-4247-8ee3-90d6058b66a6"></personalization-block><article class="post-card post-20991 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-horizon-forbidden-west tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/11/01/20231101horizonforbiddenwest/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20993 wp-post-image lazy" alt="《地平線 西域禁地》：創造活靈活現的人物" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/8e4adca913afb76efa708dc076914d79e66b41b2-scaled.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/11/01/20231101horizonforbiddenwest/" class="post-card__title-link">
+				《地平線 西域禁地》：創造活靈活現的人物			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/n-lee/" >
+							Narae Lee						</a>
+						<span class="post-card__author-title">
+							Guerrilla資深社群經理						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年11月01日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20991"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20991"
+	aria-label="4 讚"
+>
+	4</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20997 post type-post status-publish format-standard has-post-thumbnail hentry category-psvr category-ps5 tag-arizona-sunshine-2 tag-ps-vr-2 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/30/20231030-arizonasunshine/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20998 wp-post-image lazy" alt="《亞利桑那陽光2》預定12月7日登陸PS VR2，體驗次世代VR末日災難" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/593404e333e87f3be6e6fdc065459ac8ec8f6c3e.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/593404e333e87f3be6e6fdc065459ac8ec8f6c3e.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/593404e333e87f3be6e6fdc065459ac8ec8f6c3e.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/593404e333e87f3be6e6fdc065459ac8ec8f6c3e.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/593404e333e87f3be6e6fdc065459ac8ec8f6c3e.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/30/20231030-arizonasunshine/" class="post-card__title-link">
+				《亞利桑那陽光2》預定12月7日登陸PS VR2，體驗次世代VR末日災難			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/nick-w/" >
+							Nick Witset						</a>
+						<span class="post-card__author-title">
+							 Vertigo Games資深遊戲設計師 
+						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月30日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20997"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20997"
+	aria-label="5 讚"
+>
+	5</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20965 post type-post status-publish format-standard has-post-thumbnail hentry category-ps-store tag-ps-store">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027-musthavesale/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20967 wp-post-image lazy" alt="「必備精選優惠」活動於 PlayStation Store 登場" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/51b2ae73709df90ef7508623facff05e0fe6bc45.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/27/20231027-musthavesale/" class="post-card__title-link">
+				「必備精選優惠」活動於 PlayStation Store 登場			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/thomas-p/" >
+							Thomas Parkin						</a>
+						<span class="post-card__author-title">
+							數位促銷專員						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月27日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20965"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20965"
+	aria-label="3 讚"
+>
+	3</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20890 post type-post status-publish format-standard has-post-thumbnail hentry category-ps4 category-ps5 tag-mail-time tag-ps4 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-mailtime/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20892 wp-post-image lazy" alt="溫馨田園風冒險遊戲《Mail Time》現已登陸 PS5 和 PS4" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/2afbcc8511dfcb5d394a541ec51e7bc0e978b5a4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-mailtime/" class="post-card__title-link">
+				溫馨田園風冒險遊戲《Mail Time》現已登陸 PS5 和 PS4			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/katie-v/" >
+							Katie VanClieaf						</a>
+						<span class="post-card__author-title">
+							Freedom Games 社群媒體經理						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月26日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20890"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20890"
+	aria-label="7 讚"
+>
+	7</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20860 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-marvels-spider-man-2 tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-sm2/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20861 wp-post-image lazy" alt="《Marvel’s Spider-Man 2》照片模式全面解析：詳盡介紹功能特色和上手提示" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/62762740149e81ed310119bb73ad6139bcde7cd4.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/62762740149e81ed310119bb73ad6139bcde7cd4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/62762740149e81ed310119bb73ad6139bcde7cd4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/62762740149e81ed310119bb73ad6139bcde7cd4.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 1440px) 564px, (min-width: 960px) 33vw, 50vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/26/20231026-sm2/" class="post-card__title-link">
+				《Marvel’s Spider-Man 2》照片模式全面解析：詳盡介紹功能特色和上手提示			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/gillen-mcallister/" >
+							Gillen McAllister						</a>
+						<span class="post-card__author-title">
+							SIE 內容傳播資深專員						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月26日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20860"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20860"
+	aria-label="20 讚"
+>
+	20</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+					</div>
+
+					
+<div class="load-more-wrapper">
+		<button class="load-more-button" data-paged="1" data-post__not_in="54,21094,20949,21087,20742,20160,19904,20776,20945,20912,20922,21045" data-posts_per_page="10" data-order="DESC" data-maxpages="145">
+		顯示更多			<svg class="icon icon--caret-down icon--12 icon--blue" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path fill-rule="evenodd" class="icon-primary-color" d="M0 5.8l1.83-1.79L10 12.34l8.17-8.33L20 5.8 10 15.99z"/>	</svg>
+		</button>
+
+	<div class="loading-indicator">
+			<svg class="icon icon--ps-grid icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><g fill-rule="evenodd" clip-rule="evenodd" transform="translate(183)"><path d="M-181.78,7.77h6.14V1.63h-6.14V7.77z M-182.93,8.91h8.43V0.48h-8.43V8.91z" class="icon-primary-color icon--part-1"/><path d="M-168.26,2.16l3.35,5.66h-6.56L-168.26,2.16z M-168.28,0l-5.04,8.91H-163L-168.28,0z" class="icon-primary-color icon--part-2"/><polygon points="-174.57,11.48 -175.44,10.6 -178.81,13.97 -182.12,10.66 -183,11.54 -179.69,14.85 -182.97,18.13 -182.1,19.01 -178.81,15.73 -175.47,19.07 -174.59,18.2 -177.94,14.85" class="icon-primary-color icon--part-3"/><path d="M-168.27,18.17c1.88,0,3.4-1.52,3.4-3.4s-1.52-3.4-3.4-3.4s-3.4,1.52-3.4,3.4S-170.15,18.17-168.27,18.17z M-168.27,10.14c2.56,0,4.63,2.07,4.63,4.63c0,2.56-2.07,4.63-4.63,4.63c-2.56,0-4.63-2.07-4.63-4.63C-172.9,12.21-170.83,10.14-168.27,10.14z" class="icon-primary-color icon--part-4" /></g>	</svg>
+			<br />
+		讀取中	</div>
+</div>
+
+				
+			</section>
+
+			
+		</div>
+
+		
+<aside class="sidebar home-sidebar sticky">
+	<div id="playstation_spotlight_posts-2" class="widget widget_playstation_spotlight_posts">		<h2 class="widget__title">推薦文章</h2>
+
+		<div class="widget__body widget-spotlight-posts">
+
+		<article class="post-card post-20160 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-ps5 tag-state-of-play">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/09/15/20230915-ps5/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20294 wp-post-image lazy" alt="隆重介紹PS5配件的新金屬配色「地心系列」，即將於今年年末推出" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/09/18b1dc8059832d70d55947ee06133f09166f8e58.jpg?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/09/18b1dc8059832d70d55947ee06133f09166f8e58.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/09/18b1dc8059832d70d55947ee06133f09166f8e58.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/09/18b1dc8059832d70d55947ee06133f09166f8e58.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/09/18b1dc8059832d70d55947ee06133f09166f8e58.jpg?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 960px) 240px, 100vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/09/15/20230915-ps5/" class="post-card__title-link">
+				隆重介紹PS5配件的新金屬配色「地心系列」，即將於今年年末推出			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/isabelle-tomatis/" >
+							Isabelle Tomatis						</a>
+						<span class="post-card__author-title">
+							SIE硬體、PSVR、周邊設備與周邊設備授權副總裁						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年09月15日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20160"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20160"
+	aria-label="14 讚"
+>
+	14</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-19904 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-playstation-link tag-playstation-portal tag-ps5 tag-pulse-elite tag-pulse-explore">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/08/24/20230824-ps5/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-19906 wp-post-image lazy" alt="PlayStation第一款遙控遊玩專用裝置PlayStation Portal remote player 將於今年下半年上市，建議售價為USD$199.99" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/08/96bf449e5ce5cb57e74ba884831b7491dd5f6235.png" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/08/96bf449e5ce5cb57e74ba884831b7491dd5f6235.png?resize=1088%2C612&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/08/96bf449e5ce5cb57e74ba884831b7491dd5f6235.png?resize=1088%2C612&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/08/96bf449e5ce5cb57e74ba884831b7491dd5f6235.png?resize=1088%2C612&amp;zoom=0.25 272w" data-sizes="(min-width: 960px) 240px, 100vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/08/24/20230824-ps5/" class="post-card__title-link">
+				PlayStation第一款遙控遊玩專用裝置PlayStation Portal remote player 將於今年下半年上市，建議售價為USD$199.99			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/hideaki-nishino/" >
+							Hideaki Nishino						</a>
+						<span class="post-card__author-title">
+							平台規劃與管理資深副總裁						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年08月24日				</span>
+
+				<span>
+										<span class="post-card__meta-item post-card__meta-comments-count with-tooltip" aria-label="2 則留言">
+							<svg class="icon icon--comment-solid icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M8.98 15.48h9.52a1.499 1.499 0 0 0 1.5-1.5V1.33C20 1.34 20 0 18.49 0H1.51C.67 0 0 .67 0 1.51v12.47c0 .83.67 1.51 1.51 1.51h1.31v4.52l6.16-4.53z" class="icon-primary-color"/>	</svg>
+							2					</span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="19904"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="19904"
+	aria-label="40 讚"
+>
+	40</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+<article class="post-card post-20776 post type-post status-publish format-standard has-post-thumbnail hentry category-ps5 tag-access-controller tag-ps5">
+
+	<a href="https://blog.zh-hant.playstation.com/2023/10/16/20221016-accesscontroller/" class="post-card__image-link" tabindex="-1" aria-hidden="true" rel="bookmark"><div class="post-card__featured-asset">
+	<img width="1088" height="612" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/placeholder.svg" class="post-card__image wp-image-20781 wp-post-image lazy" alt="深入瞭解Access控制器的開發過程，並搶先一睹其無障礙的包裝設計" decoding="async" loading="lazy" data-src="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart" data-srcset="https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=2 2176w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1.5 1632w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=1 1088w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.5 544w, https://blog.zh-hant.playstation.com/tachyon/sites/8/2023/10/af1a60d3c179cebaef49ca2a199ac938be4c184d.png?resize=1088%2C612&amp;crop_strategy=smart&amp;zoom=0.25 272w" data-sizes="(min-width: 960px) 240px, 100vw" /></div>
+</a>
+	<div class="post-card__content">
+
+		<h3 class="post-card__title">
+			<a href="https://blog.zh-hant.playstation.com/2023/10/16/20221016-accesscontroller/" class="post-card__title-link">
+				深入瞭解Access控制器的開發過程，並搶先一睹其無障礙的包裝設計			</a>
+		</h3>
+
+		
+		<div class="post-card__bylines">
+							<div class="post-card__author">
+					<img class="avatar avatar-40 photo" src="https://static-resource.np.community.playstation.net/avatar/default/DefaultAvatar.png" alt="" />
+
+					<p class="post-card__author-name">
+						<a href="https://blog.zh-hant.playstation.com/author/hideaki-nishino/" >
+							Hideaki Nishino						</a>
+						<span class="post-card__author-title">
+							平台規劃與管理資深副總裁						</span>
+					</p>
+				</div>
+					</div>
+
+		
+		<footer class="post-card__meta">
+
+			<div class="post-card__meta-item-wrap">
+				<span class="post-card__meta-item post-card__meta-date">
+					<span class="screen-reader-text">發佈日期:</span>
+					2023年10月16日				</span>
+
+				<span>
+					
+					
+					<button
+						class="js-like-button post-card__meta-item post-card__like-button with-tooltip"
+						data-post-id="20776"
+						data-button-type="post-card"
+						aria-label="讚"
+					>
+							<svg class="icon icon--heart icon--16 icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.38 1.77C17.43.68 16.12 0 14.67 0c-1.45 0-2.76.68-3.71 1.77-.41.47-.73 1.03-.99 1.64-.27-.61-.59-1.17-1-1.64C8.02.68 6.7 0 5.25 0 3.8 0 2.49.68 1.54 1.77.59 2.87 0 4.37 0 6.04c0 1.67.59 3.18 1.54 4.27L9.96 20l8.42-9.69c.95-1.09 1.54-2.6 1.54-4.27 0-1.67-.59-3.17-1.54-4.27" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+						</button>
+					
+<span
+	class="post-card__likes js-like-count with-tooltip"
+	data-post-id="20776"
+	aria-label="5 讚"
+>
+	5</span>
+				</span>
+			</div>
+
+		</footer>
+	</div>
+
+</article>
+
+		</div>
+		</div><div id="playstation_stay_connected-2" class="widget widget_playstation_stay_connected">		<h2 class="widget__title">社交平台官方帳戶</h2>
+
+		<ul class="widget-list widget-list--mobile-grid">
+							<li class="widget-list__item">
+					<a href="/social-media/" class="widget-list__link">
+							<svg class="icon icon--social-facebook widget-list__icon icon--social-colors icon--" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M20,10A10,10,0,1,0,8.44,19.88v-7H5.9V10H8.44V7.8a3.52,3.52,0,0,1,3.77-3.89,15.72,15.72,0,0,1,2.24.19V6.56H13.19a1.45,1.45,0,0,0-1.63,1.56V10h2.78l-.45,2.89H11.56v7A10,10,0,0,0,20,10Z" class="icon-primary-color"/><path d="M13.89,12.89,14.34,10H11.56V8.12a1.45,1.45,0,0,1,1.63-1.56h1.26V4.1a15.72,15.72,0,0,0-2.24-.19A3.52,3.52,0,0,0,8.44,7.8V10H5.9v2.89H8.44v7a10.2,10.2,0,0,0,3.12,0v-7Z" class="icon-secondary-color"/>	</svg>
+							<span>Facebook</span>
+					</a>
+				</li>
+			
+			
+							<li class="widget-list__item">
+					<a href="/social-media/" class="widget-list__link">
+						<img class="widget-list__icon" alt="" src="https://blog.zh-hant.playstation.com/content/themes/playstation-2018/images/ig.png" />
+						<span>Instagram</span>
+					</a>
+				</li>
+			
+							<li class="widget-list__item">
+					<a href="/social-media/" class="widget-list__link">
+							<svg class="icon icon--social-youtube widget-list__icon icon--social-colors icon--" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path class="icon-primary-color" d="M20,7.93a7.78,7.78,0,0,0-.83-3.74,2.62,2.62,0,0,0-1.55-.92A72.57,72.57,0,0,0,10.05,3a72.33,72.33,0,0,0-7.55.27,2.68,2.68,0,0,0-1.33.67c-.81.75-.87,2-1,3.12a42.56,42.56,0,0,0,0,5.87,8.29,8.29,0,0,0,.27,1.81A2.72,2.72,0,0,0,1.09,16a2.58,2.58,0,0,0,1.35.7,41,41,0,0,0,5.89.3c3.17.05,6,0,9.24-.25A2.65,2.65,0,0,0,19,16a2.33,2.33,0,0,0,.55-.88A9.43,9.43,0,0,0,20,12.05C20,11.53,20,8.47,20,7.93ZM13.37,9.8h0s0,0,0,0c-1.51.83-3.49,1.77-5.37,2.79V7c1.79.93,3.54,1.84,5.37,2.82Z" transform="translate(-0.08 -3)"/><polygon points="7.92 9.59 7.92 3.98 13.29 6.8 7.92 9.59" style="fill:#fff"/>	</svg>
+							<span>YouTube</span>
+					</a>
+				</li>
+			
+							<li class="widget-list__item">
+					<a href="/social-media/" class="widget-list__link">
+							<svg class="icon icon--social-twitch widget-list__icon icon--social-colors icon--" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><polygon points="15.71 9.29 12.86 12.14 10 12.14 7.5 14.64 7.5 12.14 4.29 12.14 4.29 1.43 15.71 1.43 15.71 9.29" class="icon-secondary-color"/><path d="M5,0,1.43,3.57V16.43H5.71V20l3.58-3.57h2.85L18.57,10V0ZM17.14,9.29l-2.85,2.85H11.43l-2.5,2.5v-2.5H5.71V1.43H17.14Z" transform="translate(-1.43 0)" class="icon-primary-color"/><rect x="12.14" y="3.93" width="1.43" height="4.29" class="icon-primary-color"/><rect x="8.21" y="3.93" width="1.43" height="4.29" class="icon-primary-color"/>	</svg>
+							<span>Twitch</span>
+					</a>
+				</li>
+			
+			
+					</ul>
+		</div><div id="playstation_more_playstation-2" class="widget widget_playstation_more_playstation">		<h2 class="widget__title">More PlayStation</h2>
+
+		<ul class="widget-list">
+							<li class="widget-list__item">
+					<a href="https://store.playstation.com/" class="widget-list__link">
+							<svg class="icon icon--brand-store-color widget-list__icon" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><g transform="translate(1116 889)"><path d="M-1106.96-888.3c.13 0 .27 0 .37.07-.84 1.16-.97 3.36-1.01 4.2h.57c.03-1.09.23-2.98.87-3.85.77.8 1.24 2.63 1.41 3.85h.57c-.17-1.37-.67-3.29-1.54-4.27.13-.07.27-.1.4-.1.27 0 .5.14.74.42.84.95 1.21 3.15 1.28 3.96h.57c-.07-.91-.44-2.98-1.24-4.13-.4-.56-.84-.84-1.34-.84-.34 0-.64.1-.87.32-.27-.17-.57-.24-.84-.21-1.51.18-1.91 2.63-1.98 4.87h.57c.06-2.64.57-4.19 1.47-4.29z" fill="#f58357"/><linearGradient id="brand-store-color" gradientUnits="userSpaceOnUse" x1="-1233.777" y1="-676.873" x2="-1233.188" y2="-677.607" gradientTransform="matrix(20.6781 0 0 -20.6053 24400.027 -14832.11)"><stop offset="0" stop-color="#00c0f3"/><stop offset="1" stop-color="#007dc5"/></linearGradient><path d="M-1098.93-884.06c0-.07-.07-.14-.13-.14l-1.51-.21h-6.07c-3.32 0-5.47.03-6.07.07-.1 0-.17.07-.17.14-.03.56-.17 2.91-.37 6.51-.2 3.82-.3 5.88-.34 6.44 0 .07.07.14.13.17l6.01.95 5.94.95c.03 0 .1 0 .13-.04l2.95-1.96c.07-.07.13-.14.1-.24l-.6-12.64z" fill="url(#brand-store-color)"/><g fill="#fff""><path d="M-1104.975-873.842h-.24v-.07h.51v.07h-.2v.59h-.07zM-1104.335-873.252l-.2-.56v.56h-.07v-.66h.1l.17.56.16-.56h.11v.66h-.07v-.56l-.14.56z"/></g><g fill="#fff""><path d="M-1108.403-881.473v7.28l1.58.53v-6.09c0-.28.13-.49.34-.42.27.07.3.35.3.63v2.45c.97.49 1.75 0 1.75-1.3 0-1.33-.47-1.93-1.78-2.42-.54-.21-1.51-.52-2.19-.66"/><path d="M-1106.523-874.723l2.55-.95c.3-.11.34-.24.1-.35-.23-.07-.67-.07-.94.04l-1.68.63v-.98l.1-.03s.5-.18 1.17-.25c.67-.07 1.54 0 2.18.28.74.24.84.6.64.88-.2.25-.67.42-.67.42l-3.46 1.3v-.99zM-1111.323-874.823c-.77-.21-.91-.7-.54-.98.34-.24.87-.42.87-.42l2.28-.84v.95l-1.64.6c-.3.1-.34.24-.1.35.23.07.67.07.94-.03l.77-.28v.84c-.07 0-.1.03-.17.03-.76.13-1.57.06-2.41-.22"/></g></g>	</svg>
+							<span>PlayStation Store</span>
+					</a>
+				</li>
+			
+							<li class="widget-list__item">
+					<a href="https://www.playstation.com/explore/playstation-plus/" class="widget-list__link">
+							<svg class="icon icon--brand-plus-color widget-list__icon" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><g transform="translate(744 1022)"><linearGradient id="brand-plus-color" gradientUnits="userSpaceOnUse" x1="-709.958" y1="-809.403" x2="-709.383" y2="-809.843" gradientTransform="matrix(21.2836 0 0 -22.5177 14370.514 -19243.668)"><stop offset=".034" stop-color="#ffe850"/><stop offset="1" stop-color="#ffc20e"/></linearGradient><path d="M-725.19-1011.76l-.58-4.6c-.04-.19-.11-.35-.25-.42-.14-.08-.29-.15-.47-.12l-4.96.73-.65-5.26c-.04-.19-.11-.35-.25-.42-.11-.12-.29-.15-.43-.15l-4.35.65a.39.39 0 0 0-.22.08c-.11.04-.14.12-.22.15-.04.08-.07.15-.11.23s-.04.15 0 .27l.68 5.26-4.96.73a.39.39 0 0 0-.22.08c-.07.04-.14.12-.18.15-.04.08-.07.15-.11.23-.04.08-.04.15 0 .27l.58 4.6c.04.19.11.35.25.42.11.12.29.15.47.12l4.96-.73.68 5.26c.04.19.11.35.25.42.11.12.29.15.47.12l4.35-.65c.07 0 .18-.04.22-.08.07-.04.14-.12.18-.15.04-.08.07-.15.11-.23.04-.08.04-.15 0-.27l-.68-5.26 4.93-.69c.07 0 .18-.04.22-.08.07-.04.14-.12.18-.15.04-.08.07-.15.11-.23 0-.09.04-.16 0-.28z" fill="url(#brand-plus-color)"/><path d="M-728.6-1015.67c-1.04.15-1.8 1.19-1.65 2.3.14 1.11 1.12 1.92 2.16 1.76 1.04-.15 1.8-1.19 1.65-2.3-.15-1.11-1.12-1.91-2.16-1.76zm.43 3.41c-.68.12-1.37-.42-1.44-1.19-.11-.73.4-1.46 1.12-1.53.68-.12 1.37.42 1.44 1.19.06.73-.4 1.42-1.12 1.53zM-734.9-1020.81l-1.58 4.22 4.28-.61-2.7-3.61zm-.57 3.37l.76-2.03 1.29 1.73-2.05.3zM-741.37-1013.64l.47 3.72 3.49-.5-.47-3.72-3.49.5zm1 2.96l-.29-2.34 2.19-.31.29 2.34-2.19.31zM-732.63-1007l1.51 1.23-.4.53-1.51-1.22-1.15 1.61-.5-.42 1.15-1.62-1.51-1.19.39-.53 1.51 1.23 1.15-1.62.51.43z" fill="#c58930"/><linearGradient id="brand-plus-color-b" gradientUnits="userSpaceOnUse" x1="-710.717" y1="-809.035" x2="-710.201" y2="-809.564" gradientTransform="matrix(22.6019 0 0 -23.5083 15322.19 -20036.025)"><stop offset="0" stop-color="#c58930"/><stop offset="1" stop-color="#9b6c21"/></linearGradient><path d="M-725.29-1011.26l-1.19 1.65c-.11.12-.25.23-.4.27l-3.6.54-.18-1.46 4.96-.77c.07 0 .18-.04.22-.08.08-.03.15-.07.19-.15zm-5 6.87c-.07.04-.14.08-.22.08l-4.35.65c-.18.04-.32-.04-.47-.12-.11-.12-.22-.27-.25-.42l-.68-5.26-4.93.69c-.18.04-.32-.04-.47-.12-.11-.12-.22-.23-.22-.42l-.58-4.6v-.27c.04-.08.07-.15.11-.23l-1.19 1.65c-.11.15-.14.35-.14.5l.58 4.6c.04.19.11.35.25.42.11.12.29.15.47.12l4.96-.69.68 5.26c.04.19.11.35.25.42.11.12.29.15.47.12l4.35-.65c.18-.04.32-.12.4-.27l1.19-1.65c-.07.11-.14.15-.21.19zm-7.38-16.23v-.27c.04-.08.07-.15.11-.23l-1.19 1.65c-.11.12-.14.31-.11.5l.5 3.8 1.37-.19-.68-5.26z" fill="url(#brand-plus-color-b)"/></g><g fill="#fff""><path d="M15.072 16.683h-.32v-.11h.75v.11h-.32v.92h-.11zM16.042 17.603l-.25-.84v.84h-.14v-1.03h.18l.28.88.29-.88h.18v1.03h-.14v-.84l-.29.84z"/></g>	</svg>
+							<span>PlayStation Plus</span>
+					</a>
+				</li>
+			
+			
+			
+					</ul>
+		</div>
+	
+<footer class="footer">
+	<div class="footer__top">
+		<div class="container flex flex-direction-column">
+			
+<div class="footer__region-select-wrapper">
+	<button class="footer__region-select region-select" aria-expanded="false">
+		<span class="screen-reader-text">Select a region</span>
+		<span class="screen-reader-text">Current region:</span>
+		<span class="region-name">繁體中文</span>
+
+			<svg class="icon icon--caret-down down-arrow icon-arrow-down icon--16 icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path fill-rule="evenodd" class="icon-primary-color" d="M0 5.8l1.83-1.79L10 12.34l8.17-8.33L20 5.8 10 15.99z"/>	</svg>
+		</button>
+
+	
+<div class="footer__region-selector-dropdown region-selector-dropdown">
+	<ul class="footer__region-selector-link-list region-selector-link-list">
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.playstation.com/" class="region-link">English</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.fr.playstation.com/" class="region-link">French</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.de.playstation.com/" class="region-link">German</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.it.playstation.com/" class="region-link">Italian</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ja.playstation.com/" class="region-link">Japanese</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ko.playstation.com/" class="region-link">Korean</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.br.playstation.com/" class="region-link">Portuguese (Br)</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.ru.playstation.com/" class="region-link">Russian</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.latam.playstation.com/" class="region-link">Spanish (LatAm)</a>			</li>
+					<li class="footer__region-selector-list-item region-selector-list-item">
+				<a href="https://blog.es.playstation.com/" class="region-link">Spanish (EU)</a>			</li>
+			</ul>
+</div>
+</div>
+
+			<div class="footer__back-to-top">
+				<a class="footer__back-to-top--link" href="#masthead">
+					<span class="footer__back-to-top--text">回到頁首</span>
+						<svg class="icon icon--back-to-top icon--12 icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><g fill-rule="evenodd" clip-rule="evenodd"><path d="M.77 18.39L2.46 20 10 12.51 17.55 20l1.68-1.61L10 9.23z" class="icon-primary-color"/><path d="M0 9.16l1.83 1.61L10 3.28l8.17 7.49L20 9.16 10 0z" class="icon-primary-color"/></g>	</svg>
+					</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer__bottom">
+		<div class="container">
+			<div class="footer__logos-and-copyright">
+				<div class="footer__logos">
+						<svg class="icon icon--brand-ps footer-logo ps-logo icon--white" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M1.5 15.51c-1.58-.44-1.84-1.37-1.12-1.9.66-.49 1.8-.86 1.8-.86l4.67-1.66v1.89l-3.36 1.2c-.59.21-.69.51-.2.67.48.16 1.36.11 1.95-.1l1.61-.58v1.69c-.1.02-.22.04-.32.05-1.62.27-3.34.16-5.03-.4zm9.85.2l5.24-1.87c.6-.21.69-.51.2-.67-.48-.16-1.36-.11-1.95.1l-3.49 1.23v-1.96l.2-.07s1.01-.36 2.43-.51c1.42-.16 3.16.02 4.52.54 1.54.49 1.71 1.2 1.32 1.69-.39.49-1.35.84-1.35.84l-7.12 2.56v-1.88zm.62-12.1c2.76.95 3.69 2.13 3.69 4.78 0 2.59-1.6 3.57-3.63 2.59V6.16c0-.57-.1-1.09-.64-1.23-.41-.13-.66.25-.66.81v12.08l-3.26-1.03V2.38c1.39.26 3.41.86 4.5 1.23zm7.25 13.1c0 .04-.01.07-.03.08-.02.02-.06.02-.1.02h-.21v-.21h.22c.03 0 .05 0 .07.01.04.03.05.06.05.1zm.15.48c-.01 0-.02-.02-.02-.03 0-.01-.01-.03-.01-.06V17c0-.05-.01-.08-.03-.1l-.04-.04c.02-.02.04-.03.06-.05.02-.03.03-.07.03-.11 0-.09-.04-.15-.11-.18a.29.29 0 0 0-.14-.03H18.76v.75h.14v-.31h.2c.04 0 .06 0 .08.01.03.01.04.04.04.08l.01.12c0 .03 0 .05.01.06 0 .01.01.02.01.03v.01h.15v-.04l-.03-.01zm-.88-.31c0-.15.06-.29.16-.39a.552.552 0 0 1 .94.39.552.552 0 1 1-.94.39.513.513 0 0 1-.16-.39zm.55.67c.18 0 .35-.07.47-.2a.65.65 0 0 0 0-.94.641.641 0 0 0-.47-.19c-.37 0-.67.3-.67.67 0 .18.07.34.2.47.13.12.29.19.47.19z" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+	
+					
+									</div>
+
+				<p class="footer__copyright">
+					&copy; 2023 Sony Interactive Entertainment Inc. All Rights Reserved.				</p>
+
+				<nav aria-label="Footer links" class="footer-nav-wrapper">
+					<div class="menu-footer-container"><ul id="menu-footer" class="footer__nav"><li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="https://asia.playstation.com/cht-hk/about/terms-and-conditions/">條款及細則</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="https://asia.playstation.com/cht-hk/about/privacy-policy/">隱私權政策</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="https://asia.playstation.com/cht-hk/about/terms-and-conditions/#intellectual-property">知識產權資訊</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22"><a href="https://www.playstation.com/legal/">法律文件及聲明</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23"><a href="/comment_policy/">留言守則</a></li>
+</ul></div>				</nav>
+			</div>
+		</div>
+	</div>
+</footer>
+</aside>
+
+	</main>
+
+</div>
+
+<template id="tmpl-user-profile">
+	<div class="user-dropdown-button-wrap">
+		<button class="user-dropdown" aria-expanded="false">
+			<img id="js-user-avatar" class="user-avatar" src="" alt="" width="40" height="40">
+			<span id="js-display-name"></span>
+				<svg class="icon icon--caret-down down-arrow icon--grey" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path fill-rule="evenodd" class="icon-primary-color" d="M0 5.8l1.83-1.79L10 12.34l8.17-8.33L20 5.8 10 15.99z"/>	</svg>
+			</button>
+		<ul class="user-dropdown-list">
+			<li class="user-dropdown-list-item">
+				<a class="sign-out-link" href="https://ca.account.sony.com/api/authn/v3/signOut?client_id=0399155d-250c-47ab-b77a-228dcafea40d&#038;redirect_uri=https%3A%2F%2Fblog.zh-hant.playstation.com%2Fwp-login.php%3Faction%3Dlogout%26redirect_to%3Dhttps%253A%252F%252Fblog.zh-hant.playstation.com%2523login%26_wpnonce%3D18801bec40">登出</a>
+			</li>
+		</ul>
+	</div>
+</template>
+
+<template id="tmpl-comment-reply-link">
+	<a
+		rel="nofollow"
+		class="comment-reply-link"
+		href=""
+		data-commentid=""
+		data-postid=""
+		data-belowelement=""
+		data-respondelement="respond"
+		data-replyto="回覆給「%s」"
+		aria-label="回覆給「%s」"
+	>
+			<svg class="icon icon--reply icon--blue" aria-hidden="true" viewBox="0 0 20 20" focusable="false" version="1.1">
+		<title></title><path d="M18.97 16.51c.08-.1.17-.2.24-.31.11-.16.19-.34.28-.52.05-.11.12-.22.16-.34.08-.21.13-.43.18-.65.03-.11.06-.21.08-.32.06-.34.09-.7.09-1.07 0-3.12-3.4-7.55-11.59-7.92l-.49-3.22L0 9.43l9.49 2.89-.5-3.19c6.31.15 8.93 3.5 8.93 5.84 0 2.39-2.5 3.14-4.27 3.19.38.04.74.05 1.08.05.09 0 .16-.02.25-.02.2 0 .38-.02.56-.04.26-.02.51-.06.74-.1.17-.04.33-.08.49-.12.21-.06.42-.13.61-.22.14-.06.28-.12.41-.2.17-.1.34-.2.49-.32.11-.08.23-.17.33-.26.12-.13.25-.28.36-.42" fill-rule="evenodd" class="icon-primary-color"/>	</svg>
+			回覆	</a>
+</template>
+<script type='text/javascript' id='psn-data-layer-js-extra'>
+/* <![CDATA[ */
+var psnAnalytics = {"primaryCategory":"home","app":{"env":"production","version":"Altis v15 | WordPress 6.2.3"},"user":{"psnId":null},"locale":"zh-hant-tw","search":""};
+/* ]]> */
+</script>
+<script type='text/javascript' integrity='sha384-13tIj/guB3aETCpqkW6nLy488KwWbok16O/1/Q7ZVX6bJgrnu60Rf3+BHSUZiMK9' src='https://blog.zh-hant.playstation.com/content/mu-plugins/psn-analytics/assets/js/data-layer.js?ver=1.0' id='psn-data-layer-js'></script>
+<script type='text/javascript' id='fc835d2fc2acc9d5afe7293c42a7c3b0-js-extra'>
+/* <![CDATA[ */
+var audienceDefs = {"regions":{"LATAM":["AR","BO","BR","CL","CO","CR","DO","EC","SV","GT","HN","MX","NI","PA","PY","PE","UY","VE"],"SIEE":["AE","AD","AL","AM","AO","AT","AU","AZ","BA","BD","BE","BG","BH","BW","BY","CD","CH","CM","CY","CZ","DE","DK","DJ","DZ","EE","EG","ES","ET","FI","FJ","FR","GB","GE","GH","GI","GR","HU","HR","IE","IL","IN","IS","IT","JO","KE","KG","KW","KZ","LB","LI","LT","LU","LV","MA","MC","MD","ME","MG","MK","MT","MU","MW","MZ","NA","NG","NL","NO","NZ","OM","PG","PK","PL","PT","QA","RO","RS","RU","SA","SE","SI","SK","SM","SN","SO","SZ","TJ","TM","TN","TR","TZ","UA","UG","UK","UZ","VA","XK","YE","ZA","ZM","ZW"],"SEA":["SG","ID","MY","TH","PH","VN"]},"collections":{"PEGI":["AL","AT","BA","BE","BG","CH","CY","CZ","DK","EE","ES","FI","FR","GB","GI","GR","HU","HR","IE","IL","IN","IS","IT","JO","KW","LB","LT","LU","LV","MA","MC","MD","ME","MK","MT","NL","NO","OM","PL","PT","QA","RO","RS","SE","SI","SK","SM","TR","UA","UK","VA"],"ESRB":["CA","US"]}};
+/* ]]> */
+</script>
+<script type='text/javascript' integrity='sha384-T8GK3GBtfW9ccr7Tmt82KKaGROfq+Ll+kkZAu4XL8IU0wngmhNhcUTPdDGAey/9z' src='https://blog.zh-hant.playstation.com/content/mu-plugins/psn-geotargeting/build/1db63549a37d7edb887a-geotargeting-frontend.js' id='fc835d2fc2acc9d5afe7293c42a7c3b0-js'></script>
+<script type='text/javascript' integrity='sha384-TCsjLsXHp8iuU/U0yvNBQptaNPjxJ68g/yN7Jbloxcuf69M/tgYcKyph4SitQP5c' src='https://blog.zh-hant.playstation.com/vendor/humanmade/hm-gtm/assets/events.js?ver=2.0.2' id='hm-gtm-js'></script>
+<script type='text/javascript' id='altis-consent-api-js-extra'>
+/* <![CDATA[ */
+var consent_api = {"consent_type":"optin","waitfor_consent_hook":"","cookie_expiration":"30","cookie_prefix":"_altis_consent"};
+/* ]]> */
+</script>
+<script type='text/javascript' integrity='sha384-fQFYxzRcH+4fHMvmT/1adKFwr6cUkpU9xth0Z7xdHLfNZNXh3p5L5W8Db5S7wpkR' src='https://blog.zh-hant.playstation.com/vendor/altis/consent-api/src/wp-consent-api.min.js?ver=6.2.3' id='altis-consent-api-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca' id='wp-dom-ready-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5' id='wp-hooks-js'></script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae' id='wp-i18n-js'></script>
+<script type='text/javascript' id='wp-i18n-js-after'>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type='text/javascript' src='https://blog.zh-hant.playstation.com/wp-includes/js/dist/a11y.min.js?ver=ecce20f002eda4c19664' id='wp-a11y-js'></script>
+<script type='text/javascript' id='94b6589ef43951edf4585d35592d4d51-js-extra'>
+/* <![CDATA[ */
+var psTheme = {"ajaxURL":"https:\/\/blog.zh-hant.playstation.com\/wp-admin\/admin-ajax.php","profileURL":"https:\/\/blog.zh-hant.playstation.com\/wp-json\/ps\/v1\/auth","postID":"0","bylines":[],"commentsOpen":"1","nonces":{"auth":"9e68c0fdd6","loadMore":"ac58721789","interactionLike":"777cccf78e"},"strings":{"morePostsA11y":"\u5df2\u986f\u793a\u66f4\u591a\u6587\u7ae0"},"ageLimit":"17","isCommentsAgeGateEnabled":"","placeholder":"https:\/\/blog.zh-hant.playstation.com\/content\/themes\/playstation-2018\/images\/placeholder.svg","serverTimeOffset":"8","timeFormatting":{"locale":"zh-TW","dateFormat":"Y\u5e74m\u6708d\u65e5","timeFormat":"g:i a","atString":"at"},"closeButton":"Close","downloadLink":"Download"};
+var playstation2018ScreenReaderText = {"expand":"\u986f\u793a\u9078\u55ae","collapse":"\u96b1\u85cf\u9078\u55ae","openMenu":"\u986f\u793a\u9078\u55ae","closeMenu":"\u96b1\u85cf\u9078\u55ae"};
+var psLikes = {"likeButton":{"label":"\u8b9a","iconClass":"icon--grey"},"unlikeButton":{"label":"\u53d6\u6d88\u8b9a","iconClass":"icon--pink"}};
+var psDiscovery = {"data":[],"positions":["0"]};
+var darkModeMessages = {"on":"\u5df2\u555f\u7528\u6df1\u8272\u6a21\u5f0f","off":"\u5df2\u555f\u7528\u6dfa\u8272\u6a21\u5f0f","default":"\u5df2\u91cd\u8a2d\u6a19\u6e96\u8a2d\u5b9a","toggleDark":"\u555f\u7528\u6df1\u8272\u6a21\u5f0f","toggleLight":"\u555f\u7528\u6dfa\u8272\u6a21\u5f0f","toggleReset":"\u91cd\u8a2d\u81f3\u6a19\u6e96\u8a2d\u5b9a"};
+/* ]]> */
+</script>
+<script type='text/javascript' integrity='sha384-2EZLQ7zUyb/EsTekLBtiDlfXNPjaOROKIvdUdN2/AT37sxPMWgual6dBn6pwiP34' src='https://blog.zh-hant.playstation.com/content/themes/playstation-2018/js/ea54d6f4f383cf14520a-theme-entry.js' id='94b6589ef43951edf4585d35592d4d51-js'></script>
+	<script type="text/javascript">
+		if ( navigator && navigator.serviceWorker ) {
+			navigator.serviceWorker.register( 'https://blog.zh-hant.playstation.com/content/themes/playstation-2018/service-worker.js' );
+		};
+	</script>
+	
+</body>
+</html>
+<!--
+	generated 58 seconds ago
+	generated in 0.440 seconds
+	served from batcache in 0.003 seconds
+	expires in 242 seconds
+-->
+
+0
+
+
+
+
+https://blog.zh-hant.playstation.com:443

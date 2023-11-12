@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: cdn.damo.alibaba.com
+User-Agent: Opera/9.80 (Windows NT 5.1; U; zh-tw) Presto/2.8.131 Version/11.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 349
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699436795
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:46:35 GMT
+Eagleid: a3b55c9616994367945185778e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[799,799,403-1280,M], cache5.l2de2[801,0], ens-cache15.de5[804,803,403-1280,M], ens-cache2.de5[807,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B58FB35EB26323360FFD6
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:46:35 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B58FB35EB26323360FFD6</RequestId>
+  <HostId>cdn.damo.alibaba.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://cdn.damo.alibaba.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: amp.reddit.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Date: Tue, 07 Nov 2023 19:35:42 GMT
+Location: https://amp.reddit.com/
+Retry-After: 0
+Server: Varnish
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://amp.reddit.com:80

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: gmd.betfair.es
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 13
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ccb14ddacafd-DUS
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:57:01 GMT
+Expires: 0
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Pragma: no-cache
+Referrer-Policy: no-referrer
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jehnQ%2BhAXg9i7F5BoksSYp2nNVtcRnULUnXtj%2FACvcGz%2Fo0tkdwrP2QuLv4SxIRI%2BBupPCtSCSTYExXLAU8esX9rLsOntI8zs%2BNoL8mOAg0V5tsCD2vjvUGozWtpUsMg"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=VQMUwQdSfdXbv6jUhT9ff.zHw2DiF8VDJOUuKtFFymc-1699383421-0-ARZT0di5atXKe09fqpRsasjIxBVKV6weSA1oA8NQ5YDYENq3wD1H6cSInH9ivau5bHjA+hJAeeCQ+OpdWKPDhmE=; path=/; expires=Tue, 07-Nov-23 19:27:01 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+
+Access Denied
+
+
+https://gmd.betfair.es:443

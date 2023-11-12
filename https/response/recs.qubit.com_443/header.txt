@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: recs.qubit.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:08 GMT
+Vary: Accept-Encoding
+Via: 1.1 google
+
+101
+{"_links":{"self":{"href":"/"},"recs":{"href":"/vc/recommend/2.1/<tracking_id>?strategy=<>&seed=<>&n=<>"},"legacy_recs_v2_0":{"href":"/vc/recommend/2.0/<tracking_id>?strategy=<>&n=<>"},"status":{"href":"/status"},"health":{"href":"/health/<tracking_id>"}}}
+
+0
+
+
+
+
+https://recs.qubit.com:443

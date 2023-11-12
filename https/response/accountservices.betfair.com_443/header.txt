@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: accountservices.betfair.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ba3748466a89-DUS
+Date: Tue, 07 Nov 2023 18:44:24 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RGnDqrs2hdOvZQpdCeBs8L9jmmgUxwP1uGKvZQnTP6zQrrYu3tBl67StH%2FwOYk04Um%2BBGJPA%2FNIMaVbYJFO1F1%2BeZHI6NSIYF4aeT9rSAMoAwCkQFrAJ%2BVKffIRunfIQsCH00C9XY9fVEYkd8A%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://accountservices.betfair.com:443

@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: ca.trip.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Security-Policy-Report-Only: default-src * data: blob:; connect-src  https://*.tripcdn.com *.c-ctrip.com https://*.trip.com   https://*.ctrip.com https://*.doubleclick.net https://*.google.com https://*.tiktok.com https://*.bing.com https://*.mapbox.com https://*.skyscanner.net https://*.tripcdn.cn https://*.google-analytics.com https://*.braze.com https://*.yandex.ru https://*.googleapis.com https://*.facebook.com https://*.googletagmanager.com https://*.gstatic.com https://wcs.naver.com https://wcs.naver.net https://connect.facebook.net https://cdn.2trk.info https://b98.yahoo.co.jp https://widget.trustpilot.com https://s.yimg.jp https://altopd.com wss://im.trip.com;script-src 'unsafe-eval' 'unsafe-inline' https://*.naver.net https://*.trip.com https://*.tripcdn.com https://*.tripcdn.cn https://*.c-ctrip.com https://*.google.com https://*.doubleclick.net https://*.googletagmanager.com https://*.google-analytics.com https://unpkg.com https://altopd.com https://*.tiktok.com https://*.facebook.net https://*.bing.com https://*.googleapis.com https://*.yahoo.co.jp https://*.2trk.info https://*.yimg.jp https://*.trustpilot.com https://appx-t2 https://*.skyscanner.net https://*.alipayobjects.com https://*.rakuten.com https://*.qunarzz.com https://*.googleadservices.com https://*.yandex.ru https://*.qq.com https://*.ctrip.com https://*.innity.net https://*.ucweb.com https://*.baidu.com https://*.googlesyndication.com https://*.jsdelivr.net https://*.tripcdn.com https://hublosk.com https://*.yimg.com https://boxclone.com https://*.hotjar.com https://*.google.ae https://*.valuecommerce.com https://*.google.de https://jullyambery.net https://*.innity.com https://appx https://*.criteo.com https://*.apaylater.com https://*.maynhtml.com https://*.google.com.my https://*.google.com.hk https://*.mapbox.com blob:; style-src 'unsafe-inline' https://*.tripcdn.com https://*.trip.com https://*.tripcdn.cn https://*.google.com https://*.googleapis.com https://*.fontawesome.com https://*.honey.io https://*.gstatic.com https://*.c-ctrip.com https://*.cloudflare.com data: ; child-src 'self' https://*.ctripcorp.com https://*.invol.co https://*.googlesyndication.com https://*.google.com https://*.trustpilot.com https://*.facebook.com https://*.lcmark.net https://*.ubpixel.com https://*.altopd.com https://*.youtube.com https://*.2trk.info https://*.2trck.pro https://*.doubleclick.net https://*.kakao.com https://*.dotomi.com https://*.tkqlhce.com https://*.criteo.com https://*.infobip.com https://*.ucweb.com https://*.moontrkr.com https://*.matterport.com https://*.trckqq.com https://*.trip.com https://altopd.com https://invol.co https://stvkr.com https://redirtrack.tech https://noop.style https://*.admitad.com https://*.kittyswell.one https://*.keloogux.world https://childrenshoppingguide.com https://*.youtube-nocookie.com https://*.factoryhotsales.shop https://*.skillmatrix.live https://shoppingderby.com blob:; object-src https://*.trip.com; report-uri https://www.trip.com/security/csp-report; report-to /security/csp-report;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:11:41 GMT
+Etag: W/"f099-hl1e4MytwzNADdviv9TEn9leo7s"
+Expires: 0
+Pragma: no-cache
+Server: nginx/1.20.1
+Set-Cookie: UBT_VID=1699427501154.bc72uuu2GuUF;domain=.trip.com;path=/;expires=Thu, 12 Dec 2024 07:11:41 GMT
+Set-Cookie: kafka_result={"isDirectVisit":"1","hasUrlLocale":"1","hasCookieLocale":"0","isUrlCookieSame":"0","isJump":"0","jumpType":"targetLocale","platform":"online"}; Domain=trip.com; Expires=Thu, 07 Nov 2024 07:11:41 GMT
+Set-Cookie: ibu_online_home_language_match={"isRedirect":false,"isShowSuggestion":true,"lastVisited":true,"region":"de","redirectSymbol":false,"site_url":[],"suggestion":["en-ca","","de-de"]}; Domain=trip.com; Expires=Thu, 07 Nov 2024 07:11:41 GMT
+Set-Cookie: ibulanguage=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: ibulanguage=EN; Max-Age=2592000; Domain=trip.com; Path=/
+Set-Cookie: ibulocale=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: ibulocale=en_ca; Max-Age=2592000; Domain=trip.com; Path=/
+Set-Cookie: cookiePricesDisplayed=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: cookiePricesDisplayed=CAD; Max-Age=2592000; Domain=trip.com; Path=/
+Set-Cookie: _abtest_userid=e484b955-7e84-44a5-b92a-0454f6ce5c83; domain=.trip.com; max-age=86400000; path=/; SameSite=None; Secure
+Vary: Accept-Encoding
+Vary: User-Agent
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Readtime: 283
+X-Trip-App-Idc: SIN-AWS
+X-Trip-App-Name: online-home
+X-Trip-App-Version: 2.29.0
+X-Trip-Region: sg
+X-Trip-Region: de
+X-Xss-Protection: 1; mode=block
+

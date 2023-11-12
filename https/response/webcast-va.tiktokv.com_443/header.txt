@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: webcast-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy-Report-Only: report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_pns#bb0c3850-9784-4f6c-9852-d406c3485863; report-to csp-endpoint; upgrade-insecure-requests; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: data: bytedance: *.bytedapm.com *.byteintl.net *.byteoversea.com *.fdmimgs.com *.fdmstatic.com *.googleusercontent.com *.ibytedtos.com *.ibyteimg.com *.ifdmimgs.com *.ifdmstatic.com *.tiktok.com *.tiktokcdn.com *.tiktokv.com *.ttwstatic.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:47:01 GMT
+Expires: Wed, 08 Nov 2023 18:47:01 GMT
+Pragma: no-cache
+Reporting-Endpoints: csp-endpoint="https://mon-va.byteoversea.com/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=91, origin; dur=4
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 13a6eab5.4677807
+X-Cache: TCP_MISS from a23-15-178-93.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-32-17-141.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 4,23.32.17.141
+X-Parent-Response-Time: 94,23.15.178.93
+X-Tt-Logid: 20231108184700E36C94879F7080F8C62C
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aece260f690a8b61586e4d8729b8a0356011c6349c3260e0d86f7b9e17286760cd27bdb500f4f54e346ad197b3197ed354d192ae7e8501ef74ce4f82cd67e7070
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

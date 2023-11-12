@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: forward.churchcenter.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:51:53 GMT
+Location: https://forward.churchcenter.com/
+Server: CloudFront
+Via: 1.1 44b457512f742b4e48fc7f0c87d8ed92.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Rgs-g2xX3P0XmMUmjYDdJ6BT34KVy43hpmy4f6XCmWfmArRvAqeejA==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

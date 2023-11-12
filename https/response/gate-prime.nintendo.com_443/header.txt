@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: gate-prime.nintendo.com
+User-Agent: Mozilla/5.0 (compatible; alexa site audit/1.0; +http://www.alexa.com/help/webmasters; )
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 152
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 19:31:48 GMT
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

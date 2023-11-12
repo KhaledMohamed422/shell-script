@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: updates.exodus.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; VOG-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 207
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822ac93589e3cb2b-DUS
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 03:38:56 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=P5TfVyxXLZN6iSWvXKgHZyqN2sZK7s0soTYR8Y9Vbsg-1699414736756-0-604800000; path=/; domain=.exodus.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Ms-Request-Id: ff388145-901e-004d-39f5-11bc73000000
+
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Error><Code>InvalidUri</Code><Message>The request URI is invalid.
+RequestId:ff388145-901e-004d-39f5-11bc73000000
+Time:2023-11-08T03:38:56.6987731Z</Message></Error>
+
+
+https://updates.exodus.com:443

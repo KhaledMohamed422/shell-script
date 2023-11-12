@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: rma.dev.svc.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:45.9) Gecko/20100101 Goanna/3.2 Firefox/45.9 PaleMoon/27.4.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 05:02:21 GMT
+Expect-Ct: max-age=0, enforce
+Referrer-Policy: no-referrer,strict-origin-when-cross-origin
+Set-Cookie: AWSALB=eqi24INFkqalagw5xiPi+uCMsXE9WEaHvBsc0iYh/LnbCl5JC8SAWNxpOFFvRDIiHNAbxMwn046rnOEnbTvbxHXfKSg4xXQ+8HoeWptfkqdIT6ohSVZ1QCbzGoL4; Expires=Wed, 15 Nov 2023 05:02:21 GMT; Path=/
+Set-Cookie: AWSALBCORS=eqi24INFkqalagw5xiPi+uCMsXE9WEaHvBsc0iYh/LnbCl5JC8SAWNxpOFFvRDIiHNAbxMwn046rnOEnbTvbxHXfKSg4xXQ+8HoeWptfkqdIT6ohSVZ1QCbzGoL4; Expires=Wed, 15 Nov 2023 05:02:21 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+
+{"errors":[{"status":"404","title":"Not Found"}]}
+
+
+https://rma.dev.svc.ui.com:443

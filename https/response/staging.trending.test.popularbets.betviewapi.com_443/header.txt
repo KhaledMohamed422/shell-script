@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: staging.trending.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:57:17 GMT
+Server: AmazonS3
+Via: 1.1 bd96095bb3c15c742ab4d72d1fecba6c.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: WcJinu9maoctwlRDhaKPo5SPNyL6WywflkDJciF06jhQGO32PfI_XQ==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FFDR3FMSJNRZCFAX</RequestId><HostId>xAcuHgt9EwzuMhYvqQ2lfi3YMoc0+ptMqCHA6MmVlNZryhtZruk9hGhF4/PwepNaFU37UmoU9kA=</HostId></Error>
+0
+
+
+
+
+https://staging.trending.test.popularbets.betviewapi.com:443

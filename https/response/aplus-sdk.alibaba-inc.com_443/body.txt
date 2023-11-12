@@ -1,0 +1,70 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="aplus-core" content="aplus.js">
+<meta name="aplus-apm-track" content="on">
+<meta name="aplus-gokey-isolate" content="off">
+<meta name="aplus-waiting" content="MAN">
+<link rel="shortcut icon" href="https://dev.g.alicdn.com/dt-f2e/aplus-demo-web/1.0.1/images/favicon.ico">
+<link rel="stylesheet" href="https://dev.g.alicdn.com/dt-f2e/aplus-demo-web/1.0.1/umi.7ab43a5e.css">
+<script id="babel-polyfill" src="https://g.alicdn.com/code/lib/babel-polyfill/7.12.1/polyfill.min.js"></script>
+<script id="utils">
+        window.urlUtils = {
+          getArgsFromUrl: function(paramKey){
+            var searchParams = new URLSearchParams(location.search);
+            if(paramKey){
+              return searchParams.get(paramKey);
+            }else{
+              var args = {};
+              for(var pair of searchParams.entries()) {
+                args[pair[0]] = pair[1];
+              }
+              return args;
+            }
+          }
+        }
+      </script>
+<script id="aplus-demo-initial-script">
+        try{
+          var originalCodeList =  JSON.parse(localStorage.getItem('APLUS_DEMO_INITIAL_SCRIPT'))
+        }catch(error){
+          console.log('aplus-demo-initial-script-error1',error);
+        }
+        if(Object.prototype.toString.call(originalCodeList)!=='[object Array]'){
+          originalCodeList = [];
+        }
+        originalCodeList.forEach(function(item){
+          try{
+            eval(item.value);
+          }catch(error){
+            console.log('aplus-demo-initial-script-error2',error);
+          }
+        });
+        var searchParams = new URLSearchParams(location.search);
+        searchParams.forEach(function(value, key){
+          var metaTag =  document.createElement('meta');
+          metaTag.name = key;
+          metaTag.content = value;
+          document.head.prepend(metaTag);
+        });
+      </script>
+<script id="vconsole" src="https://g.alicdn.com/code/lib/vConsole/3.14.6/vconsole.min.js"></script>
+</head>
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=213e1f1116994365614934228e94e2&asid=AQAAAAARWEtlyJecQwAAAAD4yyyjunjzsA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+<div id="root"></div>
+<script src="https://dev.g.alicdn.com/dt-f2e/aplus-demo-web/1.0.1/umi.166e414f.js"></script>
+<script id="debug-script">
+        window.vConsoleInstance = new window.VConsole();
+      </script>
+
+</body></html>
+0
+
+
+
+
+https://aplus-sdk.alibaba-inc.com:443

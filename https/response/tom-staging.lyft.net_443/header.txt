@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: tom-staging.lyft.net
+User-Agent: Peach/1.01 (Ubuntu 8.04 LTS; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:39 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly90b20tc3RhZ2luZy5seWZ0Lm5ldC8iLCAic3ZjIjogInRvbS1zdGFnaW5nLmx5ZnQubmV0In0%3D%7C10.45.102.174%7C1699394739%7C4213a39130559fbe15a39ee0927d0b9ddac7d6470e1bad1d12e0862cfb69a016
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

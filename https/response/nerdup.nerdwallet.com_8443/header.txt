@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: nerdup.nerdwallet.com:8443
+User-Agent: Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822782ff897e6a7c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:06:43 GMT
+Expires: Tue, 07 Nov 2023 18:06:58 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=rlvPkplUGJ3UqbkTR._kpW9ByAwIRogYNi0NHVy7utM-1699380403-0-AXoGuO4suCWwaLNiFt27aYKta8WCQ72fW7E0gf7yrv+OcpU2QkxmVUFwafl0mBMRi3IhR5yZX+kWBVRIx5v+/HIeue2CyVDNw/jo0Bq6C+Uh; path=/; expires=Tue, 07-Nov-23 18:36:43 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a6

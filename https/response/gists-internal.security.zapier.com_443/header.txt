@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: gists-internal.security.zapier.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: private
+Date: Wed, 08 Nov 2023 02:28:15 GMT
+Location: https://zapier.okta.com/oauth2/v1/authorize?client_id=0oa5podf6nrLhqm7v5d7&nonce=0e1c280db5a91d97dfb7936297234a3fa2c8b05aa850fc205090346b1e637f3d&redirect_uri=https://gists-internal.security.zapier.com/login&response_type=code&response_mode=query&scope=openid&state=none
+Server: CloudFront
+Via: 1.1 a2ce61e5ddc66736c9e2bfb6581fa2da.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dFZV6fP0cAMJV30-j65jnFliB9royeROYyaUa0tJLXaGtXVObXP9AA==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+
+
+https://gists-internal.security.zapier.com:443

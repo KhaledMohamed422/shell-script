@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: mobileap.trip.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; HWI-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 OK
+Connection: close
+Connection: Keep-Alive
+Location: https://dnspod.qcloud.com/static/webblock.html?d=mobileap.trip.com:8080
+
+
+
+
+http://mobileap.trip.com:8080

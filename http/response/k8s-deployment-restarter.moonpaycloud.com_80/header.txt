@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: k8s-deployment-restarter.moonpaycloud.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822c9a412bff7a3a-DUS
+Date: Wed, 08 Nov 2023 08:56:24 GMT
+Expires: Wed, 08 Nov 2023 09:56:24 GMT
+Location: https://k8s-deployment-restarter.moonpaycloud.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://k8s-deployment-restarter.moonpaycloud.com:80

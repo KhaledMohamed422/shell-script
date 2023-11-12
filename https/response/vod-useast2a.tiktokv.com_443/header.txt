@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: vod-useast2a.tiktokv.com
+User-Agent: Mozilla/5.0 (Android 4.2; rv:19.0) Gecko/20121129 Firefox/19.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 171
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:59 GMT
+Expires: Wed, 08 Nov 2023 18:46:59 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: inner; dur=11
+Server-Timing: cdn-cache; desc=MISS, edge; dur=279, origin; dur=636
+X-Akamai-Request-Id: 23a35c8
+X-Cache: TCP_MISS from a23-15-178-87.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 865,23.15.178.87
+X-Tt-Logid: 20231108184658F1ADD51E6E6D73639D5F
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a99cbd05fe037ca965d1246f935d6e18fb13a68f8a3521bae6bcdde30c9cb4c1a83ff080f9e793357326fe90b91ec308183a708eace362f97395879f9f7237245964d78629e35e3c7aed1543c5755b151
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+{"ResponseMetadata":{"RequestId":"20231108184658F1ADD51E6E6D73639D5F","Error":{"CodeN":100002,"Code":"MissingParameter","Message":"The request is missing %s parameter."}}}
+
+
+https://vod-useast2a.tiktokv.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: vote.say.rocks
+User-Agent: Mozilla/5.0 (X11; CrOS aarch64 14388.61.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.107 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://vote.say.rocks/
+Refresh: 0;url=https://vote.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://vote.say.rocks:80

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ads.cloud.flipkart.com
+User-Agent: MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 188
+Content-Security-Policy: base-uri 'self'; connect-src 'self' *; default-src 'self' https://*.flipkart.com https://*.flixcart.com http://*.flixcart.com https://www.googletagmanager.com blob:; font-src 'self' https://*.flixcart.com data: https://fonts.gstatic.com; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://accounts.google.com/ blob:; img-src 'self' * data: blob:; media-src http://*.akamaized.net https://*.akamaized.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.ravenjs.com https://*.flixcart.com http://*.flixcart.com https://static-assets-web.flixcart.com http://static-assets-web.flixcart.com https://apis.google.com/js/api.js https://fonts.googleapis.com/css https://www.googletagmanager.com blob: 'nonce-3031649198'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://fonts.googleapis.com/css; worker-src 'self' https://*.flipkart.com blob:
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 22:01:26 GMT
+Location: https://console.cloud.flipkart.com/c/auth/init?client_id=ads&redirect_uri=https://ads.cloud.flipkart.com/central_login_callback&scope=openid%20email%20profile%20roles
+Server: nginx
+Set-Cookie: nonce=ss-3031649198; Max-Age=13434242; Path=/; Expires=Thu, 11 Apr 2024 09:45:28 GMT; HttpOnly
+Set-Cookie: _csrf=iT9AU9ACs23FOxpm3TDNe_nZ; Path=/
+Set-Cookie: ORIGINAL_URL=%2F; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000; preload
+Vary: Accept, Accept-Encoding
+X-Advertising-Flipkart-Reqid: cloovllmt0an48urhhucgkml0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://console.cloud.flipkart.com/c/auth/init?client_id=ads&redirect_uri=https://ads.cloud.flipkart.com/central_login_callback&scope=openid%20email%20profile%20roles
+
+
+https://ads.cloud.flipkart.com:443

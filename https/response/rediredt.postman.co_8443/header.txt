@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: rediredt.postman.co:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822c1a3a0843160b-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 07:29:00 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=D5vx_CKb8m_G_y1U32YG5_m_G9U_wD2dR379imyJnK4-1699428540-0-AWrYFbXjuUwqEOrFrx54PtmN9w0+vbiQAcvYxdFdcQjwaV0S3S/SeifUoS/mN7vmNGEwipVwjHHYNBsdEqOJ1IM=; path=/; expires=Wed, 08-Nov-23 07:59:00 GMT; domain=.postman.co; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+185c

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.whatnot.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822afd1648d57a5a-DUS
+Date: Wed, 08 Nov 2023 04:14:21 GMT
+Expires: Wed, 08 Nov 2023 05:14:21 GMT
+Location: https://help.whatnot.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=m6YJnl0Gj5V1v5MECvwVlY3sjnOnDJC2uyobBypuwvowfAGRurut9D44NQSWzyFRN0clnYUzJqz3G%2BJKm5OqPKVaUuBRo5eu9ybCo1Ww7Fac%2FWBFbOjEkxIv97aMAR6PCyYvpbdRCg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=780418da8947f446bcba5c37420ea8477c739e72-1699416861; path=/; domain=.help.whatnot.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help.whatnot.com:8080

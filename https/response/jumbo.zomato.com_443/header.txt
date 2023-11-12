@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: jumbo.zomato.com
+User-Agent: Mozilla/5.0 (X11; U; Linux armv6l; rv 1.8.1.5pre) Gecko/20070619 Minimo/0.020
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Alt-Svc: h3=":443"; ma=93600
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 18:06:35 GMT
+Expires: Tue, 07 Nov 2023 18:06:35 GMT
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=161
+Server-Timing: origin; dur=3
+Server-Timing: ak_p; desc="1699380395060_388276694_3160759897_16402_2474_4_5_-";dur=1
+Content-Length: 0
+
+
+
+
+https://jumbo.zomato.com:443

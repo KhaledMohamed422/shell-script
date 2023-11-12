@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: br.alibaba.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 08 Nov 2023 09:45:27 GMT
+Expires: 0
+Pragma: no-cache
+Set-Cookie: XSRF-TOKEN=34cbd34f-0a14-4763-a642-34954d567aea; Path=/; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+8d
+{"timestamp":"2023-11-08T09:45:27.357+0000","status":404,"error":"Not Found","message":"No message available","path":"/seo/globalHome.vhtml"}
+0
+
+
+
+
+https://br.alibaba.com:443

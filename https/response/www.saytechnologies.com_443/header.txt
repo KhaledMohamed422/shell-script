@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: www.saytechnologies.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Age: 6744
+Content-Security-Policy: frame-ancestors 'self' https://*.webflow.com http://*.webflow.com http://*.webflow.io http://webflow.com https://webflow.com
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:45 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: x-wf-forwarded-proto, Accept-Encoding
+X-Cache: HIT
+X-Cache-Hits: 8
+X-Lambda-Id: a849e1e9-447e-4740-bc59-aa5fe34343ef
+X-Served-By: cache-iad-kiad7000028-IAD
+X-Timer: S1699378245.248672,VS0,VE0
+
+234e

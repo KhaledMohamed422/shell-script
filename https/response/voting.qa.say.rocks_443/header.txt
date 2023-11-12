@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: voting.qa.say.rocks
+User-Agent: Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=60
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:30:20 GMT
+Server: AmazonS3
+Via: 1.1 a4233498d2bd44dbd411d60d86f8334e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iJcfwuCywUBaRShg7AfPrjcyvPuA7_p7DHOsh4OF1G9j7UQSomqirg==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>QKAGF9ZFXMXTHXXN</RequestId><HostId>J1IrOQAftyWkmSAex355kA3NrFb64XdMRw4s9YeFrdFkkugQbahm2S9F2Um4RAtCd6cDxJvP4CA=</HostId></Error>
+0
+
+
+
+
+https://voting.qa.say.rocks:443

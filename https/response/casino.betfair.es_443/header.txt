@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: casino.betfair.es
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.8 (KHTML, like Gecko) Version/10.1 Safari/603.1.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227cc58d85f6a7c-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:56:47 GMT
+Location: https://www.betfair.com/de_restricted_territories/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TfAacnJOiY2pFI%2Fw9YUprsXgeltZNnLYTvW%2F%2BKGLWR1SrlCxgLyqZxHx7zEXfV9%2FQSvlnLS70WopoTHao4eEfFX4dqwjbFQJ5NUWP80SnyNgY0NHXZT%2FH%2BjlyipuJ8l41T0A"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=qZncMxf.tEc85jz8UFF9b5OfZXvgBhAcQLmN8cd.SoU-1699383407-0-Ac34/ORKVCgB/niEcYg04U6OlC3GkfIwRQAhj1Cme/utp/UHgiWKL+FbjBh0CSH4l9mxFYPCk093uScrBQOImLM=; path=/; expires=Tue, 07-Nov-23 19:26:47 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+205

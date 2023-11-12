@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: da.cloudflare.com
+User-Agent: Nokia3230/2.0 (5.0614.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e6631ab26a83-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:14:34 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pvs69BcQ5iH6FV%2FvJEH2UQwtfrsZHmw2vEl%2BOZ474aXNnercEkLc5RfYcKhlQG35bhkDNrdkJ01vXhkHIcUoqc82ccMtBCMX6Mc4wTt4QJOySxnukbVOdSUq3rVesvFAfIBU"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://da.cloudflare.com:443

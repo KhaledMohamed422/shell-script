@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: graphql-staging.lyft.net
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; en-us; sdk Build/MR1) AppleWebKit/536.23 (KHTML, like Gecko) Version/4.3 Mobile Safari/536.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:09 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9ncmFwaHFsLXN0YWdpbmcubHlmdC5uZXQvIiwgInN2YyI6ICIqLmx5ZnQubmV0In0%3D%7C10.45.174.167%7C1699394589%7Cb0cebaf5471d4491a065d0656cb78e69e2a8b74553da2b36e57d6f1191807989
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

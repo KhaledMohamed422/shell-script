@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: afl.twitter.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Date: Tue, 07 Nov 2023 20:16:41 GMT
+Location: https://twitter.com/i/live/864587356031954945
+Perf: 7626143928
+Server: tsa_o
+X-Connection-Hash: a24b0bdeb38a9ffc910ca04e50c847037683d6219a91194b5598f65efd5521e2
+X-Response-Time: 104
+X-Transaction-Id: 3fb60adb74679255
+Content-Length: 0
+
+
+
+
+https://afl.twitter.com:443

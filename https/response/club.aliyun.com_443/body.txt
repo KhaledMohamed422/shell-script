@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="data-spm" content="5176" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>会员俱乐部</title>
+    <link rel="icon" href="//img.alicdn.com/tfs/TB1lY3IzCf2gK0jSZFPXXXsopXa-32-32.ico"  type="image/x-icon">
+    <meta name="description" content="阿里云会员俱乐部">
+    <meta name="keywords" content="阿里云会员俱乐部，阿里云优惠、试用、服务权益聚合地，更有互动积分兑好礼，积分兑券更省钱!">
+    <meta name="aplus-waiting" content="MAN">
+    <link href="//g.alicdn.com/dawn/aliyun-member-club-new/0.0.38/css/index.css" rel="stylesheet">
+</head>
+<script>
+if (window.innerWidth <= 768) {
+    var meta = document.querySelector('meta[name="viewport"]');
+    meta.content = 'width=375px,user-scalable=no,viewport-fit=cover';
+}
+</script>  
+
+<body data-spm="8849694"><script  type="text/javascript">
+(function  (d)  {
+var  t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");
+t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+<!--公共头部-->   
+<script src="//www.aliyun.com/assets/publish/ace-base-assets"></script>
+<script>
+    (()=>{
+        let num = 0;
+        const isMobile = window.$ACE && window.$ACE.Client.isMobile();
+        const { search } = window.location;
+        const timer = setInterval(()=>{
+            if(window.goldlog){
+                if(search.includes("alyxz")){
+                const spm_b = isMobile? '20223587' :'20223546';
+                window.goldlog.setPageSPM('5176', spm_b);
+                window.goldlog.sendPV();
+                }
+                const spmb = isMobile? '8879571' :'8849694';
+                window.goldlog.setPageSPM('5176', spmb);
+                window.goldlog.sendPV();
+                window.clearInterval(timer);
+                return;
+            }else{
+                num++;
+                if(num>10){
+                    console.log('无法取到a+埋点方法，埋点失败')
+                    window.clearInterval(timer);
+                    return;
+                }
+            }
+        },100)
+        
+    })()
+</script>
+<script>
+!(function(c,b,d,a){c[a]||(c[a]={});c[a].config={pid:"eqaf0lj5rb@6c50cb45451b7a8",appType:"web",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?",sendResource:true,enableLinkTrace:true,behavior:true,enableSPA:true};
+with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+})(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+</script>
+<script type="text/javascript" charset="utf-8" src="//s.tbcdn.cn/g/security/umscript/2.0.2/um.js"></script>
+<div id="_umfp" style="display:inline;width:1px;height:1px;overflow:hidden;position:absolute;">
+    <img id="_umfp_img" src=""/>
+</div>
+<script type="text/javascript">
+    function s32() {
+        var data = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+        var result = [];
+        var length = data.length;
+        for (var i = 0; i < 32; i++) {
+            var r = Math.floor(Math.random() * length);
+            result.push(data[r]);
+        }
+        return result.join('');
+    }
+    window.umToken = 'check-web-hichina-com:' + s32();
+
+    var container = document.getElementById('_umfp');
+    var containerImg = document.getElementById('_umfp_img');
+    containerImg.src = ' //ynuf.alipay.com/service/clear.png?xt=' + window.umToken + '&xa=check-web-hichina-com';
+
+    um.init({
+        timeout: 2000,
+        timestamp: Date.now(),
+        token: window.umToken,
+        serviceUrl: '//ynuf.alipay.com/service/um.json',
+        appName: 'check-web-hichina-com',
+        containers: {
+            flash: container,
+            dcp: container
+        }
+    });
+</script>
+<script>
+    if (!window.UA_Opt) {
+        var UA_Opt = new Object;
+        UA_Opt.LogVal = "ua";
+        UA_Opt.Token = new Date().getTime() + ":" + window.umToken;
+        UA_Opt.SendInterval = 5;
+        UA_Opt.SendMethod = 15;
+        UA_Opt.MaxMCLog = 10;
+        UA_Opt.MaxKSLog = 10;
+        UA_Opt.MaxMPLog = 10;
+        UA_Opt.MaxTCLog = 10;
+        UA_Opt.GPInterval = 10;
+        UA_Opt.MPInterval = 10;
+        UA_Opt.MaxFocusLog = 10;
+        UA_Opt.Flag = 621710;
+    }
+
+    function getUA() {
+        var tmp_ua = window[UA_Opt.LogVal];
+        UA_Opt.Token = new Date().getTime() + ":" + window.umToken;
+        UA_Opt.reload && UA_Opt.reload();
+        return tmp_ua;
+    }
+</script>
+
+<script src="//www.aliyun.com/homon-lego/club"></script>
+
+<input name='exchange-token' type='hidden' value='MJiQ06hu3pHlbuLht9ooj'>
+
+<div id="stage">
+    
+</div>
+<div id="dialog-stage"></div>
+
+    <!--公共底部-->
+
+<script src="//www.aliyun.com/assets/publish/ace-footer"></script>
+<!--<script type="text/javascript" src="https://g.alicdn.com/??aliyun/dblx/0.1.4/react.min.js,aliyun/dblx/0.1.4/react-dom.min.js,aliyun/dblx/0.1.4/redux.min.js,aliyun/dblx/0.1.4/react-redux.min.js,aliyun/dblx/0.1.4/react-router.min.js"></script>-->
+<script type="text/javascript" src="//g.alicdn.com/dawn/aliyun-member-club-new/0.0.38/scripts/index.js"></script>
+<script>
+    (function () {
+        if (typeof (window.acjs) == 'undefined') {
+            var _script = document.createElement('script');
+            _script.src = '//acjs.aliyun.com/js/uab.js';
+            document.body.appendChild(_script);
+        }
+    })();
+</script>
+
+
+
+</body>
+</html>
+0
+
+
+
+
+https://club.aliyun.com:443

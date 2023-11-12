@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: newsletter.krisp.ai:8443
+User-Agent: Mozilla/5.0 (X11; U; FreeBSD x86_64; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.204 Safari/534.16
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: no-cache
+Cf-Cache-Status: HIT
+Cf-Ray: 82274b285d27cb09-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:28:36 GMT
+Etag: W/"10e68-+R1C4iRTZ0lCtEb4vJum98qk820"
+Link: <https://substackcdn.com>; rel=preconnect
+Server: cloudflare
+Set-Cookie: __cf_bm=kxCBwWdOd24JVzuzTt6pIYuZ.jKKFDjehLOxHw_luBk-1699378116-0-AQcgSuxJjUUrCbvBZgTkeOvdQLvoeB4vL6Q0A7aS6ogg0YoqMBuyoaOlwG6qCcCwFcbAxlNuVo/At/4nStvRrBY=; path=/; expires=Tue, 07-Nov-23 17:58:36 GMT; domain=.newsletter.krisp.ai; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Cluster: substack
+X-Deploy: d9362f32dc
+X-Frame-Options: sameorigin
+X-Powered-By: Express
+X-Served-By: Substack
+X-Sub: krispai
+
+10e68

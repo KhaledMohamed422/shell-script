@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fanduel casino</title>
+    <style>
+        @font-face {
+            font-family: 'ProximaNovaBold';
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+            src: url('./assets/fonts/Proxima-Nova-Bold.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'ProximaNovaRegular';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url('./assets/fonts/Proxima-Nova-Regular.otf') format('opentype');
+        }
+
+
+        body {
+            background: url('assets/images/bg.png');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            width: 500px;
+        }
+
+        main header {
+            background: #152a47;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        main header img {
+            height: 50px;
+        }
+
+        section {
+            color: #152a47;
+            background: #ffffff;
+            padding: 20px;
+        }
+
+        section h1 {
+            margin: 0;
+            font-family: 'ProximaNovaBold', sans-serif;
+        }
+
+        section p, section button {
+            font-family: 'ProximaNovaRegular', sans-serif;
+        }
+
+        section div {
+            text-align: center;
+        }
+
+        button {
+            border:1px solid #152a47;
+            background: #152a47;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <header><img src="assets/images/fanduel-logo.png" alt="fanduel logo"></header>
+        <section>
+            <h1>Update Required</h1>
+            <p>This version of the app is no longer supported. Please download the latest update.</p>
+            <div>
+                <button onclick="handleClick()">Update now</button>
+            </div>
+        </section>
+    </main>
+    <script>
+        const handleClick = () => {
+            window.open('https://app-files.casino.fanduel.com/android/wrapper-v2-prod/FanDuel-Casino.apk', '_system');
+            return false;
+        }
+    </script>
+</body>
+</html>
+
+
+
+https://android-update.casino.fanduel.com:443

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: cert-provis-test-2020-03-24.verygoodsecurity.io:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:48 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

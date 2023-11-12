@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: ideas.playstation.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=300, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:21:24 GMT
+Last-Modified: Tue, 07 Nov 2023 23:21:24 GMT
+Location: https://ca.account.sony.com/api/authz/v3/oauth/authorize?client_id=0399155d-250c-47ab-b77a-228dcafea40d&response_type=code&scope=openid+id_token%3Apsn.basic_claims+user%3AbasicProfile.get+kamaji%3Auser.subscriptions.get&redirect_uri=https%3A%2F%2Fideas.playstation.com%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dhandle_login%26return_to%3Dhttps%253A%252F%252Fideas.playstation.com%252F%2523login&service_entity=urn:service-entity:psn
+Server: nginx
+Vary: Cookie,Origin
+Via: 1.1 a519b78387f012b2d3b1ed2288111abe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PDbc3-x23Quj-Btvs2qzjx_cdKtVxtRXWcGxDDRA_28Q1rJHckPmWg==
+X-Amz-Cf-Pop: DUS51-P4
+X-Batcache: MISS
+X-Cache: Miss from cloudfront
+X-Redirect-By: WordPress
+
+0
+
+
+
+
+https://ideas.playstation.com:443

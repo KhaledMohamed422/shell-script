@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: neo-upload-cf.grindr.com:8080
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; en-us; Droid Build/FRG22D) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822a59b6dce41626-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:22:49 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=YQAhYg2Sgsat23uPYok5Y8qw7we_SFJyv6tfRi.tF0Y-1699410169-0-AfYg+WpnEP3Xg2nFpH8rc2Eetd2udNVn6a2bevLPRGPyjTHiQeqfqm0/Njy+qxcakmFVzQ7Wb25TrYnj4GIdvF0=; path=/; expires=Wed, 08-Nov-23 02:52:49 GMT; domain=.grindr.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1005
+
+
+http://neo-upload-cf.grindr.com:8080

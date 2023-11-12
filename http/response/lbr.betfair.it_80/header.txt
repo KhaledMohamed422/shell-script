@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: lbr.betfair.it
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 HBPC/12.0.0.300
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb249f482181-DUS
+Date: Tue, 07 Nov 2023 18:55:58 GMT
+Expires: Tue, 07 Nov 2023 19:55:58 GMT
+Location: https://lbr.betfair.it/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fDhh0pnN9Pw7KqwRXVGDr%2BEO8r4oqXOA6dGKKbrBfj4efkbNV2t12QuTyEepIm7dLVpG2Hogp%2F8XkPp0GIFLwcptZ5q%2FOzTYzu3gm0NlrjzUX2TmSQoRGsQ%2Ffe%2BOJFoO"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=EkiGMo55slJzy3PMYgjlruV0aRB0lQcUsrDROz_SxQk-1699383358-0-AaMFPdgdVoNiQDXWhFZN2GWTwyB4gpKyv8OEvNfaSCjK9rQDRmt677f2oqlO4aefpHA+DysSGYA8FKT1JPgBYdE=; path=/; expires=Tue, 07-Nov-23 19:25:58 GMT; domain=.betfair.it; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://lbr.betfair.it:80

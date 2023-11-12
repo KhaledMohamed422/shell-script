@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: shopify.id.me
+User-Agent: Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 93
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:27 GMT
+Expires: Wed, 08 Nov 2023 02:30:27 GMT
+Location: https://shopify.id.me/login
+P3p: CP="Not used"
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=111
+Server-Timing: origin; dur=21
+Server-Timing: ak_p; desc="1699410627026_399876322_640039247_13247_11019_4_6_-";dur=1
+Set-Cookie: idme-shopify-session=37f002af8b2ae4e44d7b335edfb0154f; domain=discountify.id.me; path=/; expires=Wed, 08 Nov 2023 14:30:27 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Node: ghost-walker-71.idmeinc.net
+X-Request-Id: b51f5e50-bd6b-4a90-b889-7e78d7adb48a
+X-Runtime: 0.005679
+

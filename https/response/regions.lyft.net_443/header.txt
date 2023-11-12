@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: regions.lyft.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:57 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9yZWdpb25zLmx5ZnQubmV0LyIsICJzdmMiOiAiKi5seWZ0Lm5ldCJ9%7C10.44.252.105%7C1699394697%7Cab595c01f6945b8348681e881027f82fcbb2cc9700c1bb014238680f7278aa38
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

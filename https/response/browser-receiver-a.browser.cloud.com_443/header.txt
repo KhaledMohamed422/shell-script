@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: browser-receiver-a.browser.cloud.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 10; Infinix X688B Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.58 Mobile Safari/537.36 OPR/62.5.2254.61243
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 351
+Access-Control-Allow-Origin: *
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:13:18 GMT
+Server: Microsoft-HTTPAPI/2.0
+X-Ms-Request-Id: df9e05ef-a01e-0095-04cf-11e08c000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>InvalidQueryParameterValue</Code><Message>Value for one of the query parameters specified in the request URI is invalid.
+RequestId:df9e05ef-a01e-0095-04cf-11e08c000000
+Time:2023-11-07T23:13:18.5784255Z</Message><QueryParameterName>comp</QueryParameterName><QueryParameterValue /><Reason /></Error>
+
+
+https://browser-receiver-a.browser.cloud.com:443

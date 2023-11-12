@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: test.criteo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Age: 0
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:44:05 GMT
+Etag: W/"64e3860f-c19"
+Server: nginx
+Strict-Transport-Security: max-age=300
+Vary: Cookie, Cookie
+Via: 1.1 varnish, 1.1 varnish, 1.1 cc763905c39a59494c951c09271b0422.cloudfront.net (CloudFront)
+Www-Authenticate: Basic realm="Restricted Site"
+X-Amz-Cf-Id: ZpJHzEwzAvyMs-jsWEk0WfHby3UudON9Zv6sUr0nLxz_alZww0wcyA==
+X-Amz-Cf-Pop: FRA56-C1
+X-Cache: Error from cloudfront
+X-Cache-Hits: 0, 0
+X-Pantheon-Styx-Hostname: styx-fe4-a-7f596c8fcc-pjnml
+X-Served-By: cache-chi-klot8100064-CHI, cache-fra-eddf8230026-FRA
+X-Styx-Req-Id: 640d5785-7dae-11ee-a73c-9e743ee73667
+X-Timer: S1699389845.077179,VS0,VE139
+
+c19

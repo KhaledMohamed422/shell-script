@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: ad.aliexpress.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Language: en-US
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 08 Nov 2023 08:38:41 GMT
+Eagleid: 212b0b8816994327214946870ef58f
+Expires: 0
+P3p: CP="CAO PSA OUR"
+Pragma: no-cache
+Server: Tengine
+Server-Timing: rt;dur=0.190,eagleid;desc=212b0b8816994327214946870ef58f
+Set-Cookie: xman_us_f=x_l=1&acs_rt=3e7f32634bce4927b9c5674948ee7b09; Domain=.aliexpress.com; Expires=Mon, 26-Nov-2091 11:52:48 GMT; Path=/; Secure; SameSite=None
+Set-Cookie: acs_usuc_t=x_csrf=mx9jkvpg3xbb&acs_rt=3e7f32634bce4927b9c5674948ee7b09; Domain=.aliexpress.com; Path=/; Secure; SameSite=None
+Set-Cookie: xman_t=k3SkF6hP2XR56/TmLAYWeNLMWU2m1jg6CaofY8mY6Aq1tAEXSS3UZB1IGoY4wuWf; Domain=.aliexpress.com; Expires=Tue, 06-Feb-2024 08:38:41 GMT; Path=/; Secure; SameSite=None; HttpOnly
+Set-Cookie: xman_f=SpU3AxdjhkQAQpV9oo0hB5UMgxdnw8VmQ2GPQ574ZzIrYpjp54ljNwZcO47AhExUT1wPqO1p+DcfYBKxCuY7Rznt4CA/4IxgfBWewJafGzDLJo+UyIAA7w==; Domain=.aliexpress.com; Expires=Mon, 26-Nov-2091 11:52:48 GMT; Path=/; Secure; SameSite=None; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+X-Application-Context: ae-ad-bp-s:7001
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+27
+{"success":false,"errorCode":"unknown"}
+0
+
+
+
+
+http://ad.aliexpress.com:80

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: se.bingo.com
+User-Agent: Links (2.1pre15; Linux 2.4.26 i686; 158x61)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:24:57 GMT
+Location: https://se.bingo.com/
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_desktop; Domain=se.bingo.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: M
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-11.apps.verygood.systems
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:49 GMT
+Server: nginx
+Vgs-Request-Id: d20221217db920c1f8e84b6c291529a9
+Via: 1.1 reverse-http-proxy-6f8b595cbc-m5g9h
+X-Envoy-Upstream-Service-Time: 10
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: d20221217db920c1f8e84b6c291529a9.
+
+
+https://certificate-provisioning-test-live-11.apps.verygood.systems:443

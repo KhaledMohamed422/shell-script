@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: docs.kit.com:8443
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e6c37d652199-DUS
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:59 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=39J7vTZdeZ%2F6VMxJnxsWs1WzvUxrRukBECWANc7QVrPMd8NaZ2ogm%2BoKmq1jhaKlIIHrTdXvI0cHSsEViyjo70atB3f4bx8cpPJx8gK83A8KNNWXnWvRNbpj8E9zKdwD516uxw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+211c

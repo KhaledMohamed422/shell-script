@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: dns.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e6c94acf7a42-DUS
+Date: Tue, 07 Nov 2023 19:14:50 GMT
+Expires: Tue, 07 Nov 2023 20:14:50 GMT
+Location: https://cloudflare.com/dns/
+Nel: {"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Hp2zMy%2FmHunhSEj5Uh%2BYrkAS5WDrI9u11ybTEnVLg%2B%2F%2BVNkkU3th6%2FLBrkN3TiaKvckKJAOPG2w9HwQc6QxF7SKvovxH%2BevKuM3ehWqX8yVcbgz442Fa3BVXYAFoa2I6rK3z1qyKjAie"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=2rRckI5A_G_hDuelPJdjAlIALRg9NpCq3eOlzIK2r_M-1699384490-0-AUSlcnxbmSfoqhzRBYRuNMf44YySIFn986MiMLdmzUSjiCgaFyc7SeDImtBOijGKjC76WEpCEV3hbA7GO9Xp/0k=; path=/; expires=Tue, 07-Nov-23 19:44:50 GMT; domain=.cloudflare.com; HttpOnly; Secure
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://dns.cloudflare.com:8443

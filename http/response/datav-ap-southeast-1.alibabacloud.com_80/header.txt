@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: datav-ap-southeast-1.alibabacloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 08:47:00 GMT
+Eagleeye-Traceid: 0aba321d16994332204483724e652c
+Location: https://account.alibabacloud.com/login/login.htm?oauth_callback=https%3A%2F%2Fdatav-ap-southeast-1.alibabacloud.com%2F
+Origin-Agent-Cluster: ?1
+Server: Tengine
+Set-Cookie: datav_uuid=eKbVnHAYeucnUZXbYKxRSr; Domain=.alibabacloud.com; Path=/; Expires=Wed, 14 Mar 2255 16:00:00 GMT
+Set-Cookie: _csrf=lgYDd5sswuqdIR7lhFaXD0X6; Path=/
+Timing-Allow-Origin: *
+Vary: Accept
+
+Found. Redirecting to https://account.alibabacloud.com/login/login.htm?oauth_callback=https%3A%2F%2Fdatav-ap-southeast-1.alibabacloud.com%2F
+
+
+http://datav-ap-southeast-1.alibabacloud.com:80

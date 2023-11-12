@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: display.instacart.com
+User-Agent: BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 822747be184e6a7c-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:26:16 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V1L3SWcD5%2F3cpInm4gAGLLh0dE92qTAK24V%2BADLIAvcrd571SRMD6JzlibP3TcZ7bfB2abqcQu0%2BOyQTSyv0qH43Gb6fJs%2BfFO7jdG0%2F3Fq%2BF6vYiUSh4xxk5j3HJQzpWmPLCe8htg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=9vvgCRaYnBeXDss49PP78ajfvq1XAkKB2lUgvSm0ZyI-1699377976-0-AT6ziggHXh2ocuSA3TxKPBOjeVRssaxL9FzKHcR0LUTp/xFOFKnizviS4uwmnGcQ1OGEZx+alG8gKF+ZwoIqwxE=; path=/; expires=Tue, 07-Nov-23 17:56:16 GMT; domain=.display.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: JRlaVcpbvxfeX9ZID+NPOfgWM6DV0NGpV761DiXhQSA8cuBbyYhM0/ev0FOrkjd00skGzvFgV+o=
+X-Amz-Request-Id: MVNSMMPYJC02BQSE
+X-Content-Type-Options: nosniff
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>MVNSMMPYJC02BQSE</RequestId><HostId>JRlaVcpbvxfeX9ZID+NPOfgWM6DV0NGpV761DiXhQSA8cuBbyYhM0/ev0FOrkjd00skGzvFgV+o=</HostId></Error>
+0
+
+
+
+
+https://display.instacart.com:443

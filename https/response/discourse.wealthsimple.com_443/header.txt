@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: discourse.wealthsimple.com
+User-Agent: P3P Validator
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store
+Cdck-Proxy-Id: app-router-tiehunter01.yyz2
+Cdck-Proxy-Id: app-balancer-tieinterceptor1b.yyz2
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'none'; script-src https://discourse.wealthsimple.com/logs/ https://discourse.wealthsimple.com/sidekiq/ https://discourse.wealthsimple.com/mini-profiler-resources/ https://canada1.discourse-cdn.com/wealthsimple/assets/ https://discourse.wealthsimple.com/extra-locales/ https://yyz2.discourse-cdn.com/wealthsimple/highlight-js/ https://yyz2.discourse-cdn.com/wealthsimple/javascripts/ https://yyz2.discourse-cdn.com/wealthsimple/plugins/ https://yyz2.discourse-cdn.com/wealthsimple/theme-javascripts/ https://yyz2.discourse-cdn.com/wealthsimple/svg-sprite/ 'sha256-8uAKDaK4QxxCeYZl0Wxad2Nnj2tgKyA14hYBh66pnn0='; worker-src 'self' https://canada1.discourse-cdn.com/wealthsimple/assets/ https://yyz2.discourse-cdn.com/wealthsimple/javascripts/ https://yyz2.discourse-cdn.com/wealthsimple/plugins/; frame-ancestors 'self'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:26:15 GMT
+Discourse-No-Onebox: 1
+Location: https://discourse.wealthsimple.com/auth/oidc
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Set-Cookie: destination_url=https%3A%2F%2Fdiscourse.wealthsimple.com%2F; path=/; SameSite=Lax; Secure
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Discourse-Route: list/latest
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: eb58b2cd-7043-4e38-8089-8efd5be2d447
+X-Xss-Protection: 0
+
+6e

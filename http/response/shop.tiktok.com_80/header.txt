@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: shop.tiktok.com
+User-Agent: Mozilla/5.0 (X11; U; FreeBSD; i386; en-US; rv:1.7) Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Date: Wed, 08 Nov 2023 18:41:43 GMT
+Expires: Wed, 08 Nov 2023 18:41:43 GMT
+Location: https://shop.tiktok.com/
+Pragma: no-cache
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=0
+X-Akamai-Request-Id: 4945c25
+X-Cache: TCP_MISS from a23-15-178-172.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+Content-Length: 0
+
+
+
+
+http://shop.tiktok.com:80

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: chat.maximum.nl
+User-Agent: ELinks/0.9.3 (textmode; Linux 2.6.9-kanotix-8 i686; 127x41)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: https://chat.maximum.nl
+Cache-Control: public, max-age=31536000
+Content-Security-Policy: default-src 'self' ; connect-src *; font-src 'self'  data:; frame-src *; img-src * data: blob:; media-src * data:; script-src 'self' 'unsafe-eval' 'sha256-jqxtvDkBbRAl9Hpqv68WdNOieepg8tJSYu1xIy7zT34='  ; style-src 'self' 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:47:02 GMT
+Server: nginx
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+X-Instance-Id: 3fb35e27-3668-4c60-b16a-19e5922e413f
+X-Xss-Protection: 1
+
+356e2

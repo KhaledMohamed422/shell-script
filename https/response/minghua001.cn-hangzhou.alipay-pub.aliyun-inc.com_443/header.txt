@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: minghua001.cn-hangzhou.alipay-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.113 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 383
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:08:43 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5E2BFD0856353841B8C5
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5E2BFD0856353841B8C5</RequestId>
+  <HostId>minghua001.cn-hangzhou.alipay-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://help.aliyun.com/zh/oss/support/0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://minghua001.cn-hangzhou.alipay-pub.aliyun-inc.com:443

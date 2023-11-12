@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: sso.8x8.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; sv-SE; rv:1.8.1.12) Gecko/20080207 Ubuntu/7.10 (gutsy) Firefox/2.0.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8228a5a74a046a89-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 21:25:08 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=.vglIObkTpRrFTBK1VKOpIThywldq3EaIT.ULgVX.nc-1699392308-0-AdRgFuNElNPrKydl1AwECJ/nmsqO7tgEodnJN3JF+CoOHuZvvspHxFxmGjPZ5uy2jXOjAeM4exJ+15J51Odc91M=; path=/; expires=Tue, 07-Nov-23 21:55:08 GMT; domain=.8x8.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+http://sso.8x8.com:8080

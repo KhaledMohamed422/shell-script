@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api.lhvetapp.lahitapiola.fi
+User-Agent: SonyEricssonT68/R201A
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 32
+Access-Control-Allow-Origin: https://lhvetapp.lahitapiola.fi
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:27 GMT
+Expires: 0
+Pragma: no-cache
+Server: Microsoft-IIS/10.0
+Set-Cookie: ARRAffinity=fd803a0f842ee4509ddfc7272119502c3ca8ed8a5b7a0aed5730a751f31aabfe;Path=/;HttpOnly;Secure;Domain=api.lhvetapp.lahitapiola.fi
+Set-Cookie: ARRAffinitySameSite=fd803a0f842ee4509ddfc7272119502c3ca8ed8a5b7a0aed5730a751f31aabfe;Path=/;HttpOnly;SameSite=None;Secure;Domain=api.lhvetapp.lahitapiola.fi
+Surrogate-Control: no-store
+Vary: Origin
+X-Powered-By: Express
+X-Powered-By: ASP.NET
+
+No authorization token was found
+
+
+https://api.lhvetapp.lahitapiola.fi:443

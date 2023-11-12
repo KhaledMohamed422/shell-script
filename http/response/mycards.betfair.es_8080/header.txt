@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: mycards.betfair.es:8080
+User-Agent: Googlebot-Image/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227cb301c43cb01-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:56:00 GMT
+Expires: Tue, 07 Nov 2023 18:56:15 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vPzonaiTtbixeXCTiYJhKV1kmh7LwwapJ5NacjKqbnulfKqXFg3tr5cYxxWoVkhogb5q%2BBdgSVBhqmNYnHT21oUH9pFA%2BgdvakRtIu84ymaSxrsajRJvbEU1TPQRUll%2BqWswzBDAHZRK"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=JvVuTOLVEN0RX.IH1D5ZfX3UM0mhlpHs_W2mhpPB52Q-1699383360-0-AS8M3Ziq605GVDG0qQNN6n8YlaSrfSpslwy4UjQ2hMbfm82NmajWdzmFyUF/LQ2FiTTPf2dzHkcPoNNiCyWYHvE=; path=/; expires=Tue, 07-Nov-23 19:26:00 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

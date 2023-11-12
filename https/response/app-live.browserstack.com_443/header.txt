@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: app-live.browserstack.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; en-us; Sprint APA9292KT Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822bfea91e05caf9-DUS
+Content-Security-Policy: script-src https: http: 'unsafe-eval' 'unsafe-inline'; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src https: http:
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:10:11 GMT
+Location: https://www.browserstack.com/users/sign_in
+Server: cloudflare
+Set-Cookie: tracking_id=776fd94e-c8a4-4ec3-98e4-c8202b1746cf; domain=.browserstack.com; path=/; expires=Wed, 08 Nov 2028 07:10:11 GMT
+Set-Cookie: _session=b7d7787ef82ddf1c093f6aa48d247b01; domain=.browserstack.com; path=/; expires=Thu, 08 Feb 2024 07:10:11 GMT; secure; HttpOnly
+Set-Cookie: __cf_bm=h0pe5zcXF.oDVzR4CcC89szYvs9g45avZ8bQucoJBb4-1699427411-0-AdWlK2V7f0be5c8LO1lyaaQ9pAlDg09S8IenDVwaH/S8vsMkiU7HjPWkupxWbw6CrZ96eQ3LRQxbIe6a5TH7cKI=; path=/; expires=Wed, 08-Nov-23 07:40:11 GMT; domain=.browserstack.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=81ed35de145d8df912762d35c022ca6828f7e94f-1699427411; path=/; domain=.browserstack.com; HttpOnly; Secure; SameSite=None
+Status: 302 Found
+Strict-Transport-Security: max-age=0; includeSubDomains
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: Phusion Passenger
+X-Request-Id: b5b35672-c72c-4c82-a5e6-d6d79619c290
+X-Runtime: 0.080248
+X-Ua-Compatible: IE=Edge,chrome=1
+X-Xss-Protection: 1; mode=block;
+
+6c

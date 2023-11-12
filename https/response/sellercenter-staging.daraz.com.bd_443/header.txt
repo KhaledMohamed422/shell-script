@@ -1,0 +1,51 @@
+GET / HTTP/1.1
+Host: sellercenter-staging.daraz.com.bd
+User-Agent: Googlebot/2.1 ( http://www.googlebot.com/bot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 09:36:26 GMT
+Eagleeye-Traceid: 2140d44616994361865053141e8388
+Server: Tengine/Aserver
+Set-Cookie: x5secdata=xd3a3836ed169eb756702a44aed142899030a1c5899d56b88b1699436186a79890369a829085789abaaf3aaa__bx__sellercenter-staging.daraz.com.bd%3A443; Max-Age=20; Expires=Wed, 08-Nov-2023 09:36:46 GMT; Domain=com.bd; Path=/
+Strict-Transport-Security: max-age=0
+Vary: Accept-Encoding
+
+44a
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=cCpErtFCiZAwocWJnVa4iw|ZUtWmg|MWrYXQ_0&uuid=702a44aed142899030a1c5899d56b88b&action=deny&origin=https%3A%2F%2Fsellercenter-staging.daraz.com.bd%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=cCpErtFCiZAwocWJnVa4iw|ZUtWmg|MWrYXQ_0&uuid=702a44aed142899030a1c5899d56b88b&action=deny&origin=https%3A%2F%2Fsellercenter-staging.daraz.com.bd%2F"
+};
+</script>
+<!--rgv587_flag:sm-->
+0
+
+
+
+
+https://sellercenter-staging.daraz.com.bd:443

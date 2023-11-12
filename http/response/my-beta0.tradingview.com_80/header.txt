@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: my-beta0.tradingview.com
+User-Agent: Mozilla/5.0 (X11; U; Linux armv61; en-US; rv:1.9.1b2pre) Gecko/20081015 Fennec/1.0a1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:19:05 GMT
+Location: https://my-beta0.tradingview.com/
+Server: CloudFront
+Via: 1.1 7a3193ebce69450274ae629ce856b09c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MoQAbDYjligOqnR5RqLI7-bvQ1KZ32H4vpZTV-DOz9zdnUmZ0Ra_mA==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Redirect from cloudfront
+

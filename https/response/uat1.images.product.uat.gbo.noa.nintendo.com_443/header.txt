@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: uat1.images.product.uat.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; itel L5006C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:41:50 GMT
+X-Amz-Apigw-Id: OGCjvE6vPHcEZ5g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 1566d13d-5fa3-4a2d-a7ec-c808a41b4ca8
+X-Amzn-Trace-Id: Root=1-654be47e-3a93f6b2096674b1048b43be
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://uat1.images.product.uat.gbo.noa.nintendo.com:443

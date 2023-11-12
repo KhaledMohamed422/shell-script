@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Trip.com Developers</title>
+    <link rel="stylesheet" media="all" type="text/css" href="/assets/styles.css" />
+</head>
+<body>
+<header class="header">
+    <div class="logo"><a href="/"><img src="/assets/images/trip-group-transparent.png" /></a></div>
+    <div class="menu">
+        <ul>
+            <li><a href="#" class="">Hotels</a></li>
+            <li><a href="/flight/?lang=en-US">Flights</a></li>
+            <li><a href="#" class="">Trains</a></li>
+            <li><a href="#" class="">Tours&amp;Tickets</a></li>
+            <li><a href="#" class="" title="Car Rentals">Car Rentals</a></li>
+            <li><a href="#" class="">Business Travels</a></li>
+        </ul>
+        <div class="operation">
+            <div class="lang"><img src="/assets/images/en-US.png" /><span>EN</span>
+                <ul class="languages">
+                    <li class=""><a href="?lang=zh-CN">简体中文</a></li>
+                    <li class="active"><a href="?lang=en-US">English</a></li>
+                </ul>
+            </div>
+            
+
+            <div class="userinfo">
+                <a href="javascript:_login(&#39;bf4c5f14-ad6a-4409-b365-234ea1e706cb&#39;)">Sign In</a>
+            </div>
+        </div>
+    </div>
+</header>
+<div>
+    <script type="text/javascript">
+    /*<![CDATA[*/
+    ;(function(){if(!(window.$_bf&&window.$_bf.loaded||window.$LAB||window.CtripJsLoader)){var a=new Date,b=!1,c="?v="+a.getFullYear()+a.getMonth()+"_"+a.getDate(),a=document.createElement("script");a.type="text/javascript";a.charset="utf-8";a.async=!0;try{b="https:"==location.protocol}catch(d){}a.src=((b?"https:":"http:"))+"//webresource.c-ctrip.com/code/ubt/_bfa.min.js"+c;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)}})();
+    /*]]>*/
+  </script>
+  <script src="//webresource.c-ctrip.com/ares2/infosec/jigsawCaptcha/~2.0.0/default/js/jigsaw-captcha.min.js?expires=1d"></script>
+  <link rel="stylesheet" href="/assets/login.css" />
+<div id="login-container">
+  <div class="mask"></div>
+    <div class="loginBox">
+      <form class="login-form" onsubmit="return false">
+        <div class="item">
+          Login for more info
+          <span class="close">
+            <svg width="24" height="24" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+          </span>
+          </div>
+        <div class="item account">
+          <input type="text" class="input username" maxlength="100" placeholder="Enter your account name assigned by Trip.com" />
+        </div>
+        <div class="item password">
+          <input type="password" class="input password" maxlength="64" placeholder="Enter your account password" />
+        </div>
+        <div class="error"></div>
+        <div class="item slider" id="slider-container">
+          <div id="verification-code"></div>
+        </div>
+        <div class="item login">
+          <button class="login">Login</button>
+        </div>
+        <div class="item logo">
+          <img src="/assets/images/trip-group.png" width="175px" height="24px" alt="Trip.com Group" />
+        </div>
+      </form>
+    </div>
+</div>
+
+
+</div>
+<div class="slogan">
+    <div class="container">
+        <div class="s1">One of the world&#x27;s leading providers of travel services</div>
+        <div class="s2">Book flights, hotels, trains &amp; rental cars anywhere in the world in just seconds.
+            Get real-time flight updates, travel info and exclusive deals.
+        </div>
+        <div class="start"><a href="/flight/?lang=en-US">Start</a></div>
+    </div>
+</div>
+<div class="recommend">
+    <h1 class="title">Your Trip Starts Here</h1>
+    <ul class="list">
+        <li class="group"><span class="icon air-tickets"></span>
+            <div class="title">Air Tickets</div>
+            <div class="desc">Together let's co-create a more pleasant sky for every flyer from every corner of the
+                globe.
+            </div>
+            <div class="link"><a href="/flight/?lang=en-US">Learn more &gt;</a></div>
+        </li>
+        <li class="group"><span class="icon hotel"></span>
+            <div class="title">Hotels</div>
+            <div class="desc">Powered by innovation, we help enrich every aspect of hotel experience with flexibility,
+                personalization and security.
+            </div>
+            <div class="link"><a href="#">Learn more &gt;</a></div>
+        </li>
+        <li class="group"><span class="icon train-tickets"></span>
+            <div class="title">Train Tickets</div>
+            <div class="desc">Our ingenious solutions inventively connect rail travel with the rest of the travel marketplace.</div>
+            <div class="link"><a href="#">Learn more &gt;</a></div>
+        </li>
+        <li class="group"><span class="icon travel"></span>
+            <div class="title">Tours&amp;Tickets</div>
+            <div class="desc">Work with us to receive tailored marketing support and tap into our vast user traffic.</div>
+            <div class="link"><a href="#">Learn more &gt;</a></div>
+        </li>
+        <li class="group"><span class="icon car-rental"></span>
+            <div class="title">Car Rentals</div>
+            <div class="desc">Standing at the meeting point of the travel system, you have a chance to sell to both travel sellers and travelers.</div>
+            <div class="link"><a href="#">Learn more &gt;</a></div>
+        </li>
+        <li class="group"><span class="icon business-travel"></span>
+            <div class="title">Business Travels</div>
+            <div class="desc">Our technology helps you adapt to changing market dynamics and travelers' needs to create safe and amazing travel experiences.</div>
+            <div class="link"><a href="#">Learn more &gt;</a></div>
+        </li>
+    </ul>
+</div>
+<div class="shows">
+    <div class="text">Now Join Us and Grow Your Business</div>
+    <ul class="partner">
+        <li><a target="_blank" href="https://www.trip.com/"><img src="/assets/images/trip.png" /></a></li>
+        <li><a target="_blank" href="https://www.ctrip.com/"><img src="/assets/images/ctrip.png" /></a></li>
+        <li><a target="_blank" href="https://www.skyscanner.net/"><img src="/assets/images/skyscanner.png" /></a></li>
+        <li><a target="_blank" href="https://www.qunar.com/"><img src="/assets/images/qunar.png" /></a></li>
+    </ul>
+</div>
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="links">
+                <h3 class="title">Contact Us</h3>
+                <ul>
+                    <li><a href="https://www.trip.com/pages/support/">Customer Support</a> </li>
+                    <li><a href="https://www.trip.com/pages/customer-service/">Service Guarantee</a></li>
+                    <li><a href="https://www.trip.com/feedback/">Website Feedback</a> </li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3 class="title">Other Services</h3>
+                <ul>
+                    <li><a href="https://investors.trip.com/">Investor Relations</a></li>
+                    <li><a href="https://www.trip.com/sale/TripRewards?locale=en-xx">Trip.com Rewards</a></li>
+                    <li><a href="https://www.trip.com/partners/index">Affiliate Program</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3 class="title">About</h3>
+                <ul>
+                    <li><a href="https://www.trip.com/newsroom/?locale=en-xx">News</a></li>
+                    <li><a href="https://pages.trip.com/service-guideline/privacy-policy-en-xx.html">Privacy Statement</a></li>
+                    <li><a href="https://careers.trip.com/">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="cy">
+            <div class="copyright">Copyright @2022 Trip.com Travel Singapore Pte. Ltd. All rights reserved</div>
+            <ul class="other-links">
+                <li><a href="https://www.trip.com/pages/about-us/">About Trip.com</a></li>
+                <li><a href="#">Cookie</a></li>
+                <li><a href="https://pages.trip.com/service-guideline/terms-en-xx.html">Terms &amp; Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="/assets/scripts/links.js" data-selector="div.recommend li.group"></script>
+<script src="/assets/scripts/login.js"></script>
+</body>
+</html>
+
+
+http://developers.trip.com:80

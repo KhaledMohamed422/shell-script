@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: hodor-assets.grab.com
+User-Agent: Mozilla/5.0 (Android 2.2; Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:28:10 GMT
+Server: AmazonS3
+Via: 1.1 00746b020527dcdbeca0dab6f6de299a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: ap-southeast-1
+X-Amz-Cf-Id: 55hN1RRIUXNdvruCOTIb34hdlFYX11Zrmz4GuutHCi0AjXQoaPnoww==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>TCNTVMTHEEQB7B24</RequestId><HostId>5bydnGytaqx5LqEnZYsQeC2kw7ShnBj1Inh2tOfFqgAOC1OuuTKopjnUypWBrs48n5Nu88qn/h4=</HostId></Error>
+0
+
+
+
+
+https://hodor-assets.grab.com:443

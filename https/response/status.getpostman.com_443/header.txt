@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: status.getpostman.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-T230NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Traceid: 66afaa95963047febd5d86adab328833
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:31:48 GMT
+Location: https://status.postman.com/
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Vary: Accept-Encoding
+Via: 1.1 95e331271d583b113f2793246bc6205c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2k1uT1GR-s-eXfyZtBp23gUrvQ1RbDl_G0kTbU6Dn_SwvjZFu5fjrA==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.028251
+X-Statuspage-Version: e5e76c57646686ff3444221318c24d6cf6134785
+X-Xss-Protection: 1; mode=block
+
+5d

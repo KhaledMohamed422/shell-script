@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: lithic-staging.webhooks.backend-staging-earth.mercury.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.77 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a62aabed96fd4-IAD
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:28:56 GMT
+Ec2-Instance-Id: i-01139e852681da769
+Ec2-Instance-Name: mercury-web-backend-1.staging-earth.internal.mercury.com
+Git-Commit: 35cbce013246748f164c541078511e1ac4cabd1b
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/staging-earth/datasets/backend/trace?trace_id=c1be6736e157d5c1f1a182566e8ae1ec&trace_start_ts=1699406936&trace_end_ts=1699414136
+Server: nginx
+Set-Cookie: _SESSION=MdIOvse1AImAH+rOy0Or2+FXnRq0f3XVT2Wl4Jzv/hC1gdSyysNlc0klnkNnQsYMx/+YEo1Pa4rC5tHJCnZEMJGOWbpVLYQfO8l59xUB4/rvVF/54vcA+QZPK9Zr0/fAmpJDodxX3h12fEw5dokB0p8lRqpA0ylZ8kz0a2TgoJD4/Qa0tuU=; Path=/; Expires=Wed, 08-Nov-2023 04:28:48 GMT; Domain=backend-staging-earth.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=KYtet8fRU7jbkomR7R45sE9wEp3xXwCjUp2bD49W; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=cxXcfKeXLhiEH1KhJFyIeOS1YxoKQqfBuayEjiKuoPQ-1699410536-0-AQz0pE24Sb3rBFjKUSUrbLT13oqNtjE6VlJBb9wR3TCHSsQ0Pe8F9ysK0X9DZvFpvUsEFO8mTjBe7ZaVs2OVuPg=; path=/; expires=Wed, 08-Nov-23 02:58:56 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-c1be6736e157d5c1f1a182566e8ae1ec-d8dc3e6b534a8233-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+Vgs-Request-Id: 9c15122553483eeb8a77c16d3c15de51
+Via: 1.1 reverse-http-proxy-69744fc8dc-6d25b
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 71
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://lithic-staging.webhooks.backend-staging-earth.mercury.com:443

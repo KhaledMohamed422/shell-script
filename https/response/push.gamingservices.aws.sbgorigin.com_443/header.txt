@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: push.gamingservices.aws.sbgorigin.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.6 (Change: )
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 401
+Connection: close
+Accept-Encoding: gzip,deflate,identity
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With, Content-Encoding, Content-Length, X-Kuzzle-Volatile
+Access-Control-Allow-Methods: GET,POST,PUT,PATCH,DELETE,OPTIONS,HEAD
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:34 GMT
+Uwebsockets: 20
+X-Kuzzle-Node: knode-slimy-essayist-88285
+X-Kuzzle-Request-Id: f0e65fd2-4044-4fe2-97c5-c8281011c7d8
+
+{"action":"info","controller":"server","error":{"code":117637121,"id":"security.rights.unauthorized","message":"Unauthorized: authentication required to execute the action \"server:info\". -1","props":["server","info","-1"],"status":401},"headers":{},"node":"knode-slimy-essayist-88285","requestId":"f0e65fd2-4044-4fe2-97c5-c8281011c7d8","result":null,"status":401,"volatile":null}
+
+
+https://push.gamingservices.aws.sbgorigin.com:443

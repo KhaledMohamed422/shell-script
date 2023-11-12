@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: specs.pbis-cf.instacart.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.76 Safari/537.36 OPR/19.0.1326.56
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82273e235f56161f-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:19:42 GMT
+Expires: Tue, 07 Nov 2023 17:19:57 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=XsVmzFHIE09hxGpl6jndpwie3hYsEYSM0pWKlXk_OW4-1699377582-0-AZe73V/eL2fQK63h3VWQdhIwnX45wS5bhYQLnvObZksBbxDAbSk4nlnvjM8/UrF7T6jUGTwmwnOCLerM/4kn7cc=; path=/; expires=Tue, 07-Nov-23 17:49:42 GMT; domain=.specs.pbis-cf.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11b3

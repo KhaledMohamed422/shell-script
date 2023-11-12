@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: cdn-webth.garenanow.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; BBB100-1 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 309
+Access-Control-Allow-Origin: *
+Content-Disposition: inline
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:14:12 GMT
+Server: OBS
+X-Cache-Lookup: Cache Miss
+X-Cdn: tx
+X-Nws-Log-Uuid: 2744670781296428120
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSDfhHrGxeXIHxgJVtJ7Kd7WEn/6lp4h
+X-Obs-Request-Id: 0000018BAB34E5CA901D7EF8AEF0AA73
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB34E5CA901D7EF8AEF0AA73</RequestId><HostId>OrIY9DZzk2BBxIsG/gnZeOWwjlJOwvr8TCSc9y9AbICD5UedKBz/sFby6NjdGcJM</HostId><Key>cdn.garenanow.com/</Key></Error>
+
+
+https://cdn-webth.garenanow.com:443

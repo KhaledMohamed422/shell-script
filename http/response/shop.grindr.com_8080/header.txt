@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: shop.grindr.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; RMX3081) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5b6c0e2f874d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:23:59 GMT
+Expires: Wed, 08 Nov 2023 02:24:14 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EWupBiuV8%2B3cGRPwTpMzV%2FTFIVDw8QcVRhEY5Yv0E8HyaXBqmLFak%2BUitlmq0jCcb16cj8%2Fn72wMHdoSQ4YrrwmJQaMoXoBG534iuCjApTK8v7briWo9oFGE2550B3r5xOPTMljS"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=8.999825
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

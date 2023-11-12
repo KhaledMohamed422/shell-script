@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: avatars-cdn.us-east.chalet.8x8.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 21:27:18 GMT
+Server: AmazonS3
+Via: 1.1 71b147cd3102755b55ba8b6fd34e3f4a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-2
+X-Amz-Cf-Id: GJobVVxP-KwaiEULkJJpw0aKT5Sxq6FwHyc5verTyeWgLP0sdgPFzw==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6T09CCGEW38DYAXE</RequestId><HostId>EmloeuWt+ruz/x+Y4K8m3t4qTvfVCEyB5Wz5K0LkTiVljfWd7+ji/ZUodof5mD0oW8Yj92S+/Fk=</HostId></Error>
+0
+
+
+
+
+https://avatars-cdn.us-east.chalet.8x8.com:443

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: local.api.semrush.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.3; SPH-L710 Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.99 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 21
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 07:23:29 GMT
+Server: nginx
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Request-Id: 0a34fdc762dc30c0bf2c9f689ba09b7c
+
+query type not found
+
+
+
+https://local.api.semrush.com:443

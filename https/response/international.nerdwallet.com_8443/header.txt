@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: international.nerdwallet.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822782c5190ecb15-DUS
+Date: Tue, 07 Nov 2023 18:06:33 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nerdwallet.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jEmSsh0SmQ7KBQYwTS7SAP20uuToQbZ4Po507GbZmV1xG%2F9FTb9g2W2LuVXbWgxxpNhvgj3FF0dsHzrVpl8aSJt%2BCWS3%2FYeimZ%2BgKDihn%2BxnAMAQ0UNmf0%2FBdqBGboaCm6h0z7l%2F6eDrFtIrWUqIUeMNwUQ%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://international.nerdwallet.com:8443

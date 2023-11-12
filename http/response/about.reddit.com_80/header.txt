@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: about.reddit.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Date: Tue, 07 Nov 2023 19:34:59 GMT
+Location: https://about.reddit.com/
+Retry-After: 0
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://about.reddit.com:80

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: fred-meyer-delivery-now.pbis-cf.instacart.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1664.3 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227484e099ccb11-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:26:39 GMT
+Expires: Tue, 07 Nov 2023 17:26:54 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=AWkw_qydO3puxkrgLYF4A.GY.HKkm2PQNv_eI7qMKpc-1699377999-0-AbGTSKaY7fs+bEg/HHnA2m7rdrITpSbwDh6nZfsL+a1Qfr+yIs78QrALG1QMj8+NB41dTXOx+k5j0UCs00OjN+w=; path=/; expires=Tue, 07-Nov-23 17:56:39 GMT; domain=.fred-meyer-delivery-now.pbis-cf.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11c5

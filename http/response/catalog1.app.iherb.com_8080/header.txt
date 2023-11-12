@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: catalog1.app.iherb.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bdaf1db60cb01-DUS
+Date: Wed, 08 Nov 2023 06:45:48 GMT
+Expires: Wed, 08 Nov 2023 07:45:48 GMT
+Location: https://catalog1.app.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=5QVTpkBOkX0SVkanD8wNi2wlj2L85loxjT_.FF_qnag-1699425948-0-AZJBQf42K6b1ixviwK4y9zV2GoMEAGWzJCKQqiNnoanLMt8NnPbe8HIpcAi7+Kr4Iuk5T/ftRbqJqtvXe8rHOy6cdXG5A065NiJKPZtTXplN; path=/; expires=Wed, 08-Nov-23 07:15:48 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://catalog1.app.iherb.com:8080

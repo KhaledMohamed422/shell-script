@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: sandbox.access-approval.dynatracelabs.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Security-Policy: font-src 'self' https://dt-cdn.net https://fonts.gstatic.com;  style-src 'self' 'unsafe-inline' https://dt-cdn.net https://fonts.googleapis.com;  object-src 'self' https://dt-cdn.net https://fonts.googleapis.com;  frame-ancestors https://*.dynatrace.com https://*.dynatracelabs.com;  form-action 'self'; script-src 'self';
+Date: Tue, 07 Nov 2023 22:05:03 GMT
+Expires: 0
+Location: https://sandbox.access-approval.dynatracelabs.com/oauth2/authorization/dynatrace-sso
+Pragma: no-cache
+Server-Timing: dtRpid;desc="-945048171", dtSInfo;desc="0"
+Set-Cookie: AWSALB=h4no/pAHvm2eH3QES5ChAZjRyoB794LjP3WwF1g8SenLEt5PMwmzzwO9Y1wTjmtS46pxrZxd09xa/MTMoc8tbqi6PuVUOVXxLObm/TXIV2jXn7+PB+UD8eKTVotp; Expires=Tue, 14 Nov 2023 22:05:03 GMT; Path=/
+Set-Cookie: AWSALBCORS=h4no/pAHvm2eH3QES5ChAZjRyoB794LjP3WwF1g8SenLEt5PMwmzzwO9Y1wTjmtS46pxrZxd09xa/MTMoc8tbqi6PuVUOVXxLObm/TXIV2jXn7+PB+UD8eKTVotp; Expires=Tue, 14 Nov 2023 22:05:03 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: dtCookie=v_4_srv_4_sn_06FB21D294917D9406E9D65EA84E0131_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; Path=/; Domain=.dynatracelabs.com
+Set-Cookie: XSRF-TOKEN=20280dfe-8fff-4803-9443-08d9af2a10fd; Path=/; Secure
+Set-Cookie: JSESSIONID=F6E0573D46DA1A4653DC7CB1D45CB999; Path=/; Secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Oneagent-Js-Injection: true
+X-Xss-Protection: 1
+Content-Length: 0
+
+
+
+
+https://sandbox.access-approval.dynatracelabs.com:443

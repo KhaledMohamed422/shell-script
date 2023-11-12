@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: buy-staging.moonpay.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.72
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ce296b9597169-DUS
+Date: Wed, 08 Nov 2023 09:45:47 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://buy-sandbox.moonpay.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=xdjFPB34p9CbK0p7JRiVd05ECg3mmE8Ww3.NQAC4W3c-1699436747-0-AQFv+39Z1O3CVWa3+BUUxhTjLLaYxv5aNfRa6qln84E8OnlNKuF1cP5mf3YDMIQz2dC905UpHXa3PZLaXsIl2yg=; path=/; expires=Wed, 08-Nov-23 10:15:47 GMT; domain=.moonpay.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://buy-staging.moonpay.com:8443

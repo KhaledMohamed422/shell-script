@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: us-east-1.s.api.zapier.com
+User-Agent: Download Demon/3.5.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:31:05 GMT
+X-Amz-Apigw-Id: ODrkmH4voAMEIlA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ca16db65-ce52-4deb-9c7f-aa3a980ff3e8
+
+{"message":"Missing Authentication Token"}
+
+
+https://us-east-1.s.api.zapier.com:443

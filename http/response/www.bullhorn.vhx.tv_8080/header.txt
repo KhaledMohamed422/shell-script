@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.bullhorn.vhx.tv:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 4874
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822b11f01e0a162f-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 04:28:35 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=vWrVKfLnYj51w_ExB7W4EPAYXHs06GwP8h2apNTpjKE-1699417715-0-AQFmWzyDfrBeE92LSkj9S0Y5O6dsnAIC5smZGeCChxrq/eKmj+UCHyw2C3HZ8S1fzhQTriCO0TQ7M6ia3RtyhN4=; path=/; expires=Wed, 08-Nov-23 04:58:35 GMT; domain=.vhx.tv; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: mycards.betfair.se:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bb8c5fdd14cb-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:19 GMT
+Expires: Tue, 07 Nov 2023 18:45:34 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Rl3c5xxeHF4pjOsE%2BBdB4Ze1HE%2FsxRyxVuGseGgSVQrtRuzc2gJwMzpng5YUNL34NmAYUj3Ue%2FgFwSmqzgUluXbyHAuSF0JcgfBXhJIwUGcGcUOu5h816jWlsXGnUBYMrJSie3%2BZWX3I"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=dLbyHB3Ts1zwYf.GcXmokfBQC7bKRlZINEtIoc0B5WI-1699382719-0-AbmLCz5LJf8H6JOEdddA6WlqLsL/UvFKNVWITTz9+O8t/i4wW0h/Cf3Qx05R8OH+5ihzp01RxDY14B4/xzX3UVk=; path=/; expires=Tue, 07-Nov-23 19:15:19 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

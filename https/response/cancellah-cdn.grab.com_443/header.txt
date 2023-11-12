@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cancellah-cdn.grab.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 188
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:17:22 GMT
+Server: AmazonS3
+Via: 1.1 91dc0292eef4e22508a3ae73fe64bbf4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MkwbtvMy2xnhGLUj_KPa-ZZ5n4o43b0Dynw_tIYRJK_rLIaj8InbWA==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>482Y2RDFGS9VBE61</RequestId><HostId>Zli5fw19J5njLpKLIRMykZDxMHd7VM8T9wzo73xscdXMQFGU2gfBYHkt7BCOAVetTB2jvAqWcow=</HostId></Error>
+0
+
+
+
+
+https://cancellah-cdn.grab.com:443

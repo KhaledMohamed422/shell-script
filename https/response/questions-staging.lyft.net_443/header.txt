@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: questions-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.143 Safari/537.36 Edg/100.0.1185.57
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:55 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9xdWVzdGlvbnMtc3RhZ2luZy5seWZ0Lm5ldC8iLCAic3ZjIjogInF1ZXN0aW9ucy1zdGFnaW5nLmx5ZnQubmV0In0%3D%7C10.46.240.47%7C1699394695%7C386fa563e3583f2f5cc983ddd3ce786f397a8a0580d0ef95d14122bd13a4623e
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

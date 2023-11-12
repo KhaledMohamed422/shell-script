@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: media.accounts.nintendo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1083) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1469.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 19:34:42 GMT
+Server: CloudFront
+Via: 1.1 3f309afe37d854da2eb973ba0e31d032.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uc2FyzJaSWzw3bz6GsITRJ7lvWktSt7ykYWV3xgAh3zadTZdB7vJFA==
+X-Amz-Cf-Pop: DUS51-P1
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://media.accounts.nintendo.com:443

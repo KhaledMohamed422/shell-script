@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: scribe-web-sdk.grab.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6120c/3.70; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:40:42 GMT
+Server: AmazonS3
+Via: 1.1 8f4bc83dd77c2931f6260310f57dde66.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lDddYuUCPH3IAnNzlNWtT97JUxV1RILvE6dLb5QV8eDD4XnPh03MXw==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>WDGR8XSZX6G8QV98</RequestId><HostId>7IOYOuOiZgMed3P0pvw4Jx8YTyxX/9iTP02pEA0DYuo2i5KVxkwz7pKHjur8ScOwjzF80+AQUOY=</HostId></Error>
+0
+
+
+
+
+https://scribe-web-sdk.grab.com:443

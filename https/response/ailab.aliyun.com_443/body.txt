@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="data-spm" content="ailab" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>阿里云人工智能实验室</title>
+<meta name="description" content="阿里云人工智能实验室致力于探索人工智能与机器人技术边界，并将技术与行业结合，孵化创新产品与解决方案。实验室由计算机视觉领军人物谭平教授带领，重点孵化AR/VR、BIM/CIM、机器人等相关应用，通过阿里云对外输出，服务行业与终端消费者">
+<meta name="keywords" content="阿里云人工智能实验室,阿里云AI LAB,阿里云AI,人工智能实验室,人工智能,阿里人工智能,阿里云人工智能实验室,达摩院人工智能实验室">
+<script src="https://www.aliyun.com/resource/_assets/top"></script>
+<style>@media screen and (min-width:801px){html{font-size:100px !important;}}html::-webkit-scrollbar{display:none}#banner-top{width:100%;height:10.8rem;background-size:100% 100%;position:relative;}@media screen and (max-width:800px){#banner-top{width:100%;height:5.6rem;object-fit:fill;}}@media screen and (min-width:801px) and (max-width:1299px){#banner-top{width:100%;height:6.86rem;object-fit:fill;}}@media screen and (min-width:1300px) and (max-width:1445px){#banner-top{width:100%;height:8.1rem;object-fit:fill;}}#banner-top-video{position:absolute;right:0px;bottom:0px;height:auto;width:auto;z-index:-11;}@media screen and (max-width:800px){#banner-top-video{width:100%;height:100%;object-fit:fill;}}.banner-top-tit{font-family:PingFangSC-Semibold,sans-serif;font-size:0.62rem;color:#FFFFFF;text-shadow:0 0.02rem 0.15rem rgba(255,255,255,0.83);letter-spacing:0.03rem;line-height:0.7rem;position:absolute;left:50%;top:35%;transform:translate(-50%,-50%);z-index:12;}@media screen and (max-width:800px){.banner-top-tit{font-size:0.55rem;width:6.4rem;z-index:12;}}@media screen and (min-width:801px) and (max-width:1445px){.banner-top-tit{font-size:0.55rem;width:6.4rem;z-index:12;}}.banner-fix1{position:absolute;height:1.44rem;width:100%;left:50%;top:65%;transform:translate(-50%,-50%);z-index:12;}@media screen and (max-width:800px){.banner-fix1{display:none;z-index:12;}}@media screen and (min-width:801px) and (max-width:1299px){.banner-fix1{position:absolute;height:1.44rem;width:100%;left:50%;top:60%;transform:translate(-50%,-50%);z-index:12;}}@media screen and (min-width:1300px) and (max-width:1445px){.banner-fix1{position:absolute;height:1.44rem;width:100%;left:50%;top:65%;transform:translate(-50%,-50%);z-index:12;}}.banner-fix2{position:absolute;z-index:3;padding-top:58px;width:58px;left:50%;top:70%;transform:translate(-50%,-50%);}.banner-fix2 img{width:100%;height:46px;}.banner-top-p{font-family:PingFangSC-Light;font-size:0.38rem;color:#FFFFFF;letter-spacing:0.035rem;line-height:0.28rem;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}#tab-container{height:0.46rem;}#tab2{width:100%;background:#fff;height:0.46rem;z-index:13;}@media screen and (max-width:800px){#tab2{height:0.8rem;margin:0 auto;width:100%;margin-bottom:1rem;}}#tab1{height:0.46rem;width:91.67%;margin:0 auto;display:flex;display:-webkit-flex;flex-direction:row;align-items:center;position:relative;background:white;z-index:9;}@media screen and (max-width:800px){#tab1{height:0.8rem;margin:0 auto;width:100%;margin-bottom:1rem;}}.tab-item{display:block;position:relative;text-align:center;cursor:pointer;font-size:0.18rem;width:50%;height:100%;}.tab-item:hover{background-image:linear-gradient(213deg,#F78130 0%,#FE551B 85%);color:white;}#client{width:100%;height:0.8rem;display:block;}#titleList{-webkit-appearance:none;background:url(https://img.alicdn.com/imgextra/i1/O1CN01JzJsJJ1IY4ilMcNqQ_!!6000000000904-2-tps-80-80.png) no-repeat right;background-size:0.4rem 0.4rem;width:100%;height:1.2rem;font-size:0.45rem;background-color:#fff;box-shadow:0 0.02rem 0.08rem rgba(0,0,0,0.2);color:#333333;border:none;outline:none;}.tab-item span{display:inline-block;width:100%;height:0.46rem;text-align:center;line-height:0.46rem;}.tab-selected{background-image:linear-gradient(213deg,#F78130 0%,#FE551B 85%);color:white;}#holo-bim{width:100%;height:6.84rem;}@media screen and (min-width:801px) and (max-width:1445px){#holo-bim{height:5.8rem;}}@media screen and (max-width:800px){#holo-bim{height:14.6rem;margin-top:0.8rem;}}#behavior-digitization{width:100%;height:6.84rem;}@media screen and (max-width:800px){#behavior-digitization{height:14.6rem;margin-top:0.8rem;}}#cloud-rendering{width:100%;height:6.05rem;}@media screen and (max-width:800px){#cloud-rendering{height:13.9rem;margin-top:0.8rem;}}.holo-bim-title{width:91.67%;margin:0 auto;height:1.3rem;background:#F5F5F6;}@media screen and (max-width:800px){.holo-bim-title{width:95%;height:1.8rem;margin:0 auto;}}.holo-bim-title-o{font-family:PingFangSC-Regular;font-size:0.32rem;padding-top:0.47rem;color:#181818;letter-spacing:0;text-align:center;line-height:0.36rem;}@media screen and (max-width:800px){.holo-bim-title-o{font-size:0.5rem;}}@media screen and (max-width:800px){.holo-bim-h5{line-height:0.7rem;}}.holo-bim-title-t{font-family:PingFangSC-Regular;font-size:0.14rem;color:#999999;letter-spacing:0;text-align:center;padding-top:0.13rem;line-height:0.24rem;}@media screen and (max-width:800px){.holo-bim-title-t{line-height:0.6rem;font-size:0.34rem;}}.holo-bg{background-color:#F5F5F6;}.center-bim{width:100%;height:0.8rem;background:#fff;display:flex;align-items:center;justify-content:space-between;}@media screen and (max-width:800px){.center-bim{height:1rem;}}.behavior-bim{width:100%;height:0.8rem;background:#fff;display:flex;align-items:center;justify-content:space-between;}@media screen and (max-width:800px){.behavior-bim{height:1rem;}}.idc-bim{width:100%;height:0.8rem;background:#fff;display:flex;align-items:center;justify-content:space-between;}@media screen and (max-width:800px){.idc-bim{height:1rem;}}.cloud-bim{width:91.67%;margin:0 auto;height:4.74rem;background-image:url(https://img.alicdn.com/imgextra/i1/O1CN01Slw3Ol2A3NP0YeDPD_!!6000000008147-0-tps-2884-972.jpg);}@media screen and (max-width:800px){.cloud-bim{width:95%;margin:0 auto;height:12.6rem;position:relative;}}.center-item{width:31%;height:0.28rem;font-family:PingFangSC-Regular;font-size:0.14rem;color:#181818;text-align:center;padding-top:0.35rem;cursor:pointer;margin-bottom:0.3rem;}@media screen and (max-width:800px){.center-item{font-size:0.4rem;padding-bottom:0.4rem;}}.center-item:hover{border-bottom:0.03rem solid #FF6A00;color:#FF6A00;}.behavior-item{width:31%;height:0.28rem;font-family:PingFangSC-Regular;font-size:0.14rem;color:#181818;text-align:center;padding-top:0.35rem;cursor:pointer;margin-bottom:0.3rem;}@media screen and (max-width:800px){.behavior-item{padding-bottom:0.4rem;font-size:0.4rem;}}.behavior-item:hover{border-bottom:0.03rem solid #FF6A00;color:#FF6A00;}.idc-item{width:48%;height:0.28rem;font-family:PingFangSC-Regular;font-size:0.14rem;color:#181818;text-align:center;padding-top:0.35rem;cursor:pointer;margin-bottom:0.3rem;}@media screen and (max-width:800px){.idc-item{padding-bottom:0.4rem;font-size:0.4rem;margin-bottom:0;}}.idc-item:hover{border-bottom:0.03rem solid #FF6A00;color:#FF6A00;}.center-item-s1{margin-left:0.8rem;}@media screen and (max-width:800px){.center-item-s1{margin-left:0.25rem;}}.center-item-s3{margin-right:0.8rem;}@media screen and (max-width:800px){.center-item-s3{margin-right:0.25rem;}}.tab_active{border-bottom:0.03rem solid #FF6A00;color:#FF6A00;}.content-bim{width:91.67%;margin:0 auto;height:4.74rem;background-image:url(https://img.alicdn.com/imgextra/i1/O1CN01Slw3Ol2A3NP0YeDPD_!!6000000008147-0-tps-2884-972.jpg);}@media screen and (min-width:801px) and (max-width:1445px){.content-bim{height:3.68rem;}}@media screen and (max-width:800px){.content-bim{width:95%;margin:0 auto;height:12.6rem;position:relative;}}.content-item-a{width:100%;height:4.74rem;display:block;position:relative;}@media screen and (min-width:801px) and (max-width:1445px){.content-item-a{height:3.68rem;}}@media screen and (max-width:800px){.content-item-a{width:100%;height:12.6rem;position:relative;}}.content-bim-tab{width:50%;height:4.74rem;position:absolute;right:0;}@media screen and (min-width:900px) and (max-width:1445px){.content-bim-tab{height:3.68rem;}}@media screen and (min-width:801px) and (max-width:1445px){.content-bim-img1{height:3.68rem !important;}}@media screen and (min-width:801px) and (max-width:1445px){.digitization-bim-img1{height:3.68rem !important;}}@media screen and (min-width:801px) and (max-width:1445px){.digitization-bim-tab{height:3.68rem !important;}}@media screen and (min-width:801px) and (max-width:1445px){#behavior-digitization{height:5.8rem;}}@media screen and (min-width:801px) and (max-width:1445px){#idc-robot{height:5.8rem !important;}}@media screen and (min-width:801px) and (max-width:1445px){.cloud-bim{height:3.68rem;}}@media screen and (min-width:801px) and (max-width:1445px){#cloud-rendering{height:5rem;}}@media screen and (min-width:801px) and (max-width:1445px){.robot-con{height:3.68rem;}}@media screen and (max-width:800px){.content-bim-tab{width:100%;height:6.3rem;position:absolute;top:6.3rem;}}@media screen and (max-width:800px){#contact-us{height:2.8rem !important;}}@media screen and (max-width:800px){#contact-us img{height:1.8rem !important;width:1.8rem !important;margin-left:1.5rem !important;padding-top:0.5rem !important;}}.cloud-bim-tab{width:50%;height:4.74rem;position:absolute;right:0;}@media screen and (max-width:800px){.cloud-bim-tab{width:100%;height:6.3rem;position:absolute;top:6.3rem;}}.digitization-bim-tab{width:50%;height:4.74rem;background:#181818;position:absolute;left:0;z-index:1;}@media screen and (max-width:800px){.digitization-bim-tab{width:100%;height:6.3rem;position:absolute;top:6.3rem;}}.digitization-bim{width:91.67%;margin:0 auto;}@media screen and (max-width:800px){.digitization-bim{width:95%;margin:0 auto;}}.content-bim-tab-o{font-family:PingFangSC-Medium;font-size:0.2rem;color:#FFFFFF;letter-spacing:0.0053rem;line-height:0.4rem;margin-left:0.87rem;margin-top:1.23rem;margin-bottom:0.31rem;}@media screen and (min-width:801px) and (max-width:1445px){.content-bim-tab-o{margin-left:0.5rem;margin-top:0.8rem;}}@media screen and (max-width:800px){.content-bim-tab-o{font-family:PingFangSC-Medium;font-size:0.4rem;color:#FFFFFF;letter-spacing:0.0053rem;line-height:0.4rem;margin-left:1.3rem;margin-top:1.2rem;margin-bottom:0.6rem;}}@media screen and (max-width:800px){.content-bim-tab-o-h5{font-family:PingFangSC-Medium;font-size:0.4rem;color:#FFFFFF;letter-spacing:0.0053rem;line-height:0.4rem;margin-left:1.3rem;margin-top:0.8rem;margin-bottom:0.5rem;}}@media screen and (max-width:800px){.content-bim-tab-o-h6{font-family:PingFangSC-Medium;font-size:0.4rem;color:#FFFFFF;letter-spacing:0.0053rem;line-height:0.4rem;margin-left:1.3rem;margin-top:0.8rem;margin-bottom:0.7rem;}}.content-bim-tab-t{font-family:PingFangSC-Regular;font-size:0.14rem;color:#FFFFFF;letter-spacing:0;line-height:0.24rem;padding-left:0.87rem;padding-right:1.27rem;}@media screen and (min-width:801px) and (max-width:1445px){.content-bim-tab-t{padding-left:0.5rem;width:80%;}}@media screen and (max-width:560px){.content-bim-tab-t{font-family:PingFangSC-Regular;font-size:0.34rem;color:#FFFFFF;letter-spacing:0;line-height:0.5rem;padding-left:1.3rem;padding-right:1.27rem;}}.content-bim-img1{width:50%;height:4.74rem;position:absolute;left:0;}@media screen and (max-width:800px){.content-bim-img1{width:100%;height:6.3rem;position:absolute;top:0;}}.digitization-bim-img1{width:50%;height:4.74rem;position:absolute;right:0;}@media screen and (max-width:800px){.digitization-bim-img1{width:100%;height:6.3rem;position:absolute;top:0;}}.content-bim-img2{height:0.54rem;width:0.54rem;}#idc-robot{height:6.84rem;}@media screen and (max-width:800px){#idc-robot{height:15.2rem;margin-top:0.5rem;}}.robot-con{width:91.67%;margin:0 auto;height:5.79rem;position:relative;}@media screen and (max-width:800px){.robot-con{width:95%;margin:0 auto;height:12.6rem;position:relative;top:0.3rem;}}.robot-con-tab{width:50%;height:5.79rem;position:absolute;left:0;z-index:1;}@media screen and (max-width:800px){.robot-con-tab{width:100%;height:5.2rem;position:absolute;top:7.6rem;}}.fcol{color:#303030;}@media screen and (max-width:800px){.fcol{color:white;line-height:0.42rem;}}.fcol-i{height:5.79rem;position:absolute;right:0;z-index:0;}@media screen and (max-width:800px){.fcol-i{width:190%;height:7.5rem;position:absolute;top:0;}}#introduction{height:4.11rem;background-image:url(https://img.alicdn.com/imgextra/i2/O1CN01WeltBO1EhSMh5Lqt7_!!6000000000383-2-tps-1440-412.png);background-size:100% 100%;}@media screen and (max-width:800px){#introduction{width:100%;height:6.5rem;margin-top:0.51rem;background-image:url(https://img.alicdn.com/imgextra/i1/O1CN01huX8s123x4H4PMvt6_!!6000000007321-2-tps-3000-2244.png);}}.introduction-d{width:8.88rem;height:1.68rem;padding-left:0.8rem;padding-top:1.2rem;}@media screen and (max-width:800px){.introduction-d{padding-left:0.4rem;padding-top:0.5rem;}}.introduction-d2{width:0.3rem;height:0.12rem;background-color:#FF6A00;margin-top:0.3rem;}@media screen and (max-width:800px){.introduction-d2{margin-left:1.2rem;}}#introduction p{font-family:PingFangSC-Light;font-size:0.16rem;color:#181818;letter-spacing:0.0037rem;line-height:0.25rem;margin-right:2.2rem;}@media screen and (max-width:800px){#introduction p{line-height:0.5rem;margin-left:1.2rem;font-size:0.35rem;width:7rem;margin-top:1rem;}}#contact-us{height:2.07rem;background-image:url(https://img.alicdn.com/imgextra/i2/O1CN01wWglrf2AM9f2VhZZ3_!!6000000008188-2-tps-1440-207.png);background-size:100% 100%;position:relative;}#contact-us img{display:block;width:0.9rem;height:0.9rem;padding-top:0.65rem;margin-left:1.2rem;}.contact-blo{width:2.95rem;height:0.88rem;position:absolute;left:2.89rem;top:0.6rem;}.contact-us-tit{font-family:PingFangSC-Medium;font-size:0.22rem;color:#FFFFFF;letter-spacing:0;line-height:0.4rem;}@media screen and (max-width:800px){.contact-us-tit{margin-top:0.2rem;margin-left:1rem;font-size:0.34rem}}.contact-us-p{font-family:PingFangSC-Regular;font-size:0.14rem;color:#FFFFFF;line-height:0.48rem;}@media screen and (max-width:800px){.contact-us-p{width:3.8rem;margin-left:1rem;font-size:0.3rem;}}.index-video{cursor:pointer;height:0.54rem;width:0.54rem;margin-left:0.87rem;margin-top:0.5rem;}.content-bim-late{margin-top:0.3rem;}.bim_video{width:8rem;height:4rem;display:none;position:fixed;left:50%;top:50%;transform:translateX(-50%) translateY(-50%);}.video-container{position:fixed;display:none;width:100%;height:100%;top:0px;left:0px;background-color:rgba(0,0,0,0.8);z-index:1000;-webkit-user-select:none;-ms-user-select:none;}@media screen and (max-width:800px){#index-video{position:fixed;max-width:80%;max-height:80%;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);}}.video-wrapper{width:80%;margin-top:50vh;margin-left:50vw;transform:translate(-50%,-50%);}.video{width:100%;height:100%;background-color:white;}.vclose{position:absolute;width:25px;height:25px;transform:translateX(-25px);z-index:9999;}.fixed-div{position:fixed !important;top:0;left:0;}.banner-top-p-span1{font-family:PingFangSC-Semibold,sans-serif;}.banner-top-p-span2{font-family:PingFangSC-Medium,sans-serif;}.content-bim-tab-t a{color:#fff;text-decoration:underline;font-weight:bold;}.overlay-wrapper{position:absolute;height:100%;width:100%;top:0;left:0;z-index:11;display:block;background:rgba(0,0,0,0.3);}</style>
+</head>
+<body data-spm="home"><script type="text/javascript">(function (d) {var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";d.getElementsByTagName("head")[0].appendChild(t);})(document);</script>
+<script src="https://www.aliyun.com/resource/website/header_footer/activity-header-2020?_render_mode=block">
+  </script>
+<div id="banner-top">
+<div class="overlay-wrapper"> </div>
+<video id="banner-top-video" autoplay loop muted poster="https://img.alicdn.com/imgextra/i2/O1CN01KnzDfR1w9Q1q0BDc2_!!6000000006265-2-tps-1920-1080.png" playsinline="true" webkit-playsinline="true" x5-playsinline="true" playsinline="true" webkit-playsinline="true" x5-video-player-fullscreen="true" x5-video-player-type="h5">
+<source src="https://v.holoworld.com.cn/static/video/ailab_home/banner.mp4" type="video/mp4" />
+</video>
+<p class="banner-top-tit">阿里云 | 人工智能实验室</p>
+<div class="banner-fix1">
+<div class="banner-fix2">
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01uMVbiP25PIITU1dp2_!!6000000007518-1-tps-80-80.gif"/>
+</div>
+</div>
+</div>
+<div id="tab-container">
+<div id="tab2">
+<div id="tab1">
+<div class="tab-item pc">
+<span id="holo-bim-tab" class="tab-selected">空间数字化</span>
+</div>
+<div class="tab-item pc">
+<span id="behavior-digitization-tab">行为数字化</span>
+</div>
+<div class="tab-item pc">
+<span id="cloud-rendering-tab">云渲染</span>
+</div>
+<div class="tab-item pc">
+<span id="idc-robot-tab">机器人</span>
+</div>
+<div id="client">
+<select id="titleList">
+<option value="space">空间数字化</option>
+<option value="behavior">行为数字化</option>
+<option value="rendering">云渲染</option>
+<option value="robot">机器人</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div id="holo-bim">
+<div class="holo-bim-title">
+<p class="holo-bim-title-o">空间数字化</p>
+<p class="holo-bim-title-t">从大空间到小物体的数字化</p>
+</div>
+<div class="center-bim">
+<div class="center-item tab_active center-item-s1">
+<span class="center-expo-tab">BIM/CIM</span>
+</div>
+<div class="center-item">
+<span>全息店铺及展厅</span>
+</div>
+<div class="center-item center-item-s3">
+<span>云上会展</span>
+</div>
+</div>
+<div class="content-bim">
+<div class="content-item-a">
+<a href="https://www.aliyun.com/product/ai/HoloWatcher_Introduction?spm=5176.cncloudesl.J_8058803260.295.6d5a4e24kVGvCP">
+<img class="content-bim-img1" src="https://img.alicdn.com/imgextra/i2/O1CN01uWdqij1joYaxakwgP_!!6000000004595-0-tps-1640-948.jpg">
+</a>
+<div class="content-bim-tab">
+<p class="content-bim-tab-o content-bim-tab-o-h5">BIM/CIM</p>
+<p class="content-bim-tab-t">
+全息建筑产品基于 AI LAB 自研算法，由建筑图纸快速生成建筑信息模型（Building Information Modeling, BIM），还原建筑空间信息。全息建筑 BIM 生成速度快、模型精度高， BIM 模型支持无缝对接主流BIM软件与平台，广泛应用于智慧楼宇、智慧园区和城市信息模型（City Information Modeling, CIM）的数字化平台建设与智慧化管理。
+</p>
+</div>
+</div>
+<div class="content-item-a" style="display: none;">
+<a href="https://tm.aliyun.com/channel/3ddesignchannelmainpage?spm=5176.20960838.0.0.6421305eAIHX9A">
+<img class="content-bim-img1" src="https://img.alicdn.com/imgextra/i4/O1CN01OBXVeQ1dGJHp6K7KY_!!6000000003708-0-tps-1640-948.jpg">
+</a>
+<div class="content-bim-tab">
+<p class="content-bim-tab-o content-bim-tab-o-h5">全息店铺及展厅</p>
+<p class="content-bim-tab-t">
+<a href="https://www.aliyun.com/product/ai/HoloWatcher_Introduction?spm=5176.19720258.J_8058803260.289.e9392c4aBPTzq8">全息店铺</a>
+及
+<a href="https://tm.aliyun.com/channel/3ddesignchannelmainpage?spm=5176.19720258.J_2937333540.14.e9392c4a31L472&scm=20140722.B_3798.P_4018.MO_406-ST_3886-ID_23840-CID_23840-V_1">展厅</a>
+是利用三维技术，将线下店铺 1:1 真实还原到线上，客户可以在店铺内进行弹幕互动交流，360° 浏览商品，与店铺内的虚拟人物进行 AI 问答互动，享受全新的云逛街体验。此外，还可以在门店中用
+<a href="https://www.aliyun.com/product/cloudesl?spm=5176.15161879.J_8058803260.51.28d27733LHJOlx">云价签</a>
+，将放置在货架上、可替代传统纸质价格标签的电子装置显示，完成云端销售信息到线下货架的快速同步。
+</p>
+</div>
+</div>
+<div class="content-item-a" style="display: none;">
+<a href="https://www.aliyun.com/solution/govcloud/expo?spm=5176.15161879.J_6731735510.1.75d27733LwuDeN">
+<img class="content-bim-img1" src="https://img.alicdn.com/imgextra/i4/O1CN01tptA1J1iAQH0ep9F9_!!6000000004372-0-tps-1640-948.jpg">
+</a>
+<div class="content-bim-tab">
+<p class="content-bim-tab-o">云上会展</p>
+<p class="content-bim-tab-t">
+云上会展整合了阿里云各类技术能力，打造了一平台、两模式、三终端，支撑观众、展商、主办方、平台方四个角色完整诉求的云上办展平台，为线下展会开启上云之路。
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="behavior-digitization">
+<div class="holo-bim-title holo-bg">
+<p class="holo-bim-title-o">行为数字化</p>
+<p class="holo-bim-title-t">针对动态行为（如人、车、设备）的数字化</p>
+</div>
+<div class="behavior-bim">
+<div class="behavior-item tab_active center-item-s1">
+<span>全息路口</span>
+</div>
+<div class="behavior-item">
+<span>智慧园区</span>
+</div>
+<div class="behavior-item center-item-s3">
+<span>客流系统</span>
+</div>
+</div>
+<div class="digitization-bim">
+<div class="content-item-a">
+<img class="digitization-bim-img1" src="https://img.alicdn.com/imgextra/i3/O1CN01JucTbT1IZuIeT1e3G_!!6000000000908-0-tps-1640-948.jpg">
+<div class="digitization-bim-tab">
+<p class="content-bim-tab-o">全息路口</p>
+<p class="content-bim-tab-t">
+全息路口补充汽车感知局限，精准获取道路全局信息与危险状态，感知路侧动静（标志标线、行人、事件、违法、交通限行等）信息，判断路口交通全参与者状态，减少交通安全隐患，应用于车路协同、自动驾驶等场景。
+</p>
+</div>
+</div>
+<div class="content-item-a" style="display: none;">
+<img class="digitization-bim-img1" src="https://img.alicdn.com/imgextra/i2/O1CN01mARw341dHgTNWjqCe_!!6000000003711-0-tps-1640-948.jpg">
+<div class="digitization-bim-tab">
+<p class="content-bim-tab-o">智慧园区</p>
+<p class="content-bim-tab-t">
+智慧园区针对楼宇、园区中的人员、车辆及设备设施资产，通过三维视觉技术与动态感知识别能力，精确获取实时位置信息，并可结合实景三维地图还原其历史移动轨迹。可用于构建园区时空信息监控平台和设备资产管理系统，增强园区管理的科学性和有效性。
+</p>
+</div>
+</div>
+<div class="content-item-a" style="display: none;">
+<img class="digitization-bim-img1" src="https://img.alicdn.com/imgextra/i3/O1CN01oR4U0V1M3cqcnf6Ny_!!6000000001379-0-tps-1640-948.jpg">
+<div class="digitization-bim-tab">
+<p class="content-bim-tab-o">客流系统</p>
+<p class="content-bim-tab-t">
+客流系统是一套软硬件一体化的系统，由部署在线下的智能摄像头、边缘 AI 服务器和部署在云端的系统构成 。用于购物中心、门店（大店）统计客流量、消费者逗留时长、轨迹与热区分析，以及客流识别等。
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="cloud-rendering">
+<div class="holo-bim-title holo-bg">
+<p class="holo-bim-title-o">云渲染</p>
+<p class="holo-bim-title-t">数字化内容展现</p>
+</div>
+<div class="cloud-bim">
+<div class="content-item-a">
+<a href="https://www.aliyun.com/product/industryengine/cloudgamingplatform?spm=5176.10695662.8115314850.3.76de1e99cAXwbN">
+<img class="content-bim-img1" src="https://img.alicdn.com/imgextra/i2/O1CN01RWyJBR1E3buN5qzRD_!!6000000000296-0-tps-1640-948.jpg">
+</a>
+<div class="cloud-bim-tab">
+<p class="content-bim-tab-o">云渲染</p>
+<p class="content-bim-tab-t">
+阿里云基于强大的云服务能力为游戏或仿真建模等相关从业者与业务方提供一站式 PaaS 服务，您可以在低成本的前提下快速云化应用、搭建属于自己的云渲染应用平台，助力业务快速成长。
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="idc-robot">
+<div class="holo-bim-title holo-bg">
+<p class="holo-bim-title-o holo-bim-h5">机器人</p>
+</div>
+<div class="idc-bim">
+<div class="idc-item tab_active center-item-s1">
+<span class="center-expo-tab">IDC运维机器人</span>
+</div>
+<div class="idc-item center-item-s3">
+<span>巡店机器人</span>
+</div>
+</div>
+<div class="robot-con">
+<div class="content-item-a">
+<img class="digitization-bim-img1" src="https://img.alicdn.com/imgextra/i3/O1CN01UMh3481DWdOKlDKfi_!!6000000000224-0-tps-1640-948.jpg">
+<div class="digitization-bim-tab">
+<p class="content-bim-tab-o content-bim-tab-o-h6">IDC运维机器人</p>
+<p class="content-bim-tab-t">
+IDC 运维机器人是阿里云人工智能实验室自主开发的，全球首款具备机械臂控制能力的运维机器人，通过视觉-触觉融合的复杂操作控制算法，实现 IDC 自主巡查、服务器重启、硬盘更换/回收，彻底解决 IDC 无人值守、数据安全的刚需痛点 。IDC 运维机器人是阿里巴巴发布的 2020 双 11 十大前沿技术之一。
+</p>
+</div>
+</div>
+<div class="content-item-a" style="display: none;">
+<img class="digitization-bim-img1" src="https://img.alicdn.com/imgextra/i3/O1CN01DAVEyC1kJF8AYU5ob_!!6000000004662-0-tps-1640-948.jpg">
+<div class="digitization-bim-tab">
+<p class="content-bim-tab-o">巡店机器人</p>
+<p class="content-bim-tab-t">
+阿里云智能巡店机器人是面向零售场景，为了帮助零售商获取和管理优化货架陈列而形成的一套完整解决方案，包含硬件机器人、相应的管理平台以及 AI 图像算法。
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="introduction">
+<div class="introduction-d">
+<p>
+阿里云人工智能实验室致力于探索人工智能与机器人技术边界，并将技术与行业结合，孵化创新产品与解决方案。实验室由计算机视觉领军人物谭平教授带领，重点孵化AR/VR、BIM/CIM、机器人等相关应用，通过阿里云对外输出，服务行业与终端消费者。
+</p>
+<div class="introduction-d2"></div>
+</div>
+</div>
+<div id="contact-us">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01ZN0Tps1spJpSpaL9w_!!6000000005815-2-tps-400-400.png">
+<div class="contact-blo">
+<p class="contact-us-tit">联系我们</p>
+<p class="contact-us-p">加入阿里云全息智能群（AI LAB），了解更多</p>
+</div>
+</div>
+<div class="video-container">
+</div>
+<script src="https://www.aliyun.com/resource/website/header_footer/footer?_render_mode=block"></script>
+<script src="https://www.aliyun.com/resource/_assets/tail"></script>
+<script>function highlight(id) {$("#holo-bim-tab").removeClass('tab-selected');$("#behavior-digitization-tab").removeClass('tab-selected');$("#cloud-rendering-tab").removeClass('tab-selected');$("#idc-robot-tab").removeClass('tab-selected');$('#' + id).addClass('tab-selected');}
+$(function () {var banOffTop =$("#tab2").offset().top;var holoBimTop =$("#holo-bim").offset().top - 46;var behaviorDigitizationTop =$("#behavior-digitization").offset().top - 46;var cloudRenderingTop =$("#cloud-rendering").offset().top - 46;var idcRobotTop =$("#idc-robot").offset().top - 46;var scTop =0;$(document).scroll(function () {scTop =$(this).scrollTop();if (scTop >=banOffTop) {$("#tab2").addClass("fixed-div");} else {$("#tab2").removeClass("fixed-div");}
+if (scTop >=idcRobotTop) {highlight('idc-robot-tab');} else if (scTop >=cloudRenderingTop) {highlight('cloud-rendering-tab');}else if (scTop >=behaviorDigitizationTop) {highlight('behavior-digitization-tab');}else if (scTop >=holoBimTop) {highlight('holo-bim-tab');}
+})
+$('.tab-item').click(function (evt) {var id =evt.target.id;var item =id.replace('-tab','');$('html, body').animate({scrollTop:$("#" + item).offset().top - 46
+},800);console.log(id);});$('.center-item').click(function (evt) {$(this).addClass('tab_active').siblings().removeClass('tab_active');var i =$(this).index();$('.content-bim .content-item-a').eq(i).css('display','block').addClass('content-item-a').siblings().css('display','none');});$('.behavior-item').click(function (evt) {$(this).addClass('tab_active').siblings().removeClass('tab_active');var i =$(this).index();$('.digitization-bim .content-item-a').eq(i).css('display','block').addClass('content-item-a').siblings().css('display','none');});$('.idc-item').click(function (evt) {$(this).addClass('tab_active').siblings().removeClass('tab_active');var i =$(this).index();$('.robot-con .content-item-a').eq(i).css('display','block').addClass('content-item-a').siblings().css('display','none');});})
+ $('.index-video').click(function () {var img =$(this).attr('vpath');var video =$(this).attr('ipath');$('.video-container').html('\
+        <div class="video-wrapper">\
+          <video class="video" id="index-video" \
+          controls \
+          preload="auto" \
+          autoplay \
+          poster="' + img + '" \
+          src="' + video + '"></video> \
+          <img onClick="close1()" class="vclose" src="https://img.alicdn.com/imgextra/i4/O1CN01ExCZvA29APsCOaCyH_!!6000000008027-2-tps-60-60.png" /> \
+        </div> \
+      ')
+$('.video-container').show();$('#index-video').click(function (evt) {evt.preventDefault();evt.stopPropagation();$('#index-video').get(0).paused ?$('#index-video').get(0).play() :$('#index-video').get(0).pause();})
+var video =document.getElementById('index-video');});function close1() {var v =document.getElementById('video');$(".video-container").empty();$('.video-container').hide();}
+ $(window).width(function () {if ($(window).width() < 800) {$('.content-bim-img2').attr('src','https://img.alicdn.com/imgextra/i1/O1CN01fJxF5U1MbW8ZyUG2u_!!6000000001453-2-tps-112-112.png');$('#client').show()
+$('.pc').hide()
+var target_banOff =$("#client").offset().top;var target_holo =$("#holo-bim").offset().top -45;var target_behavior =$("#behavior-digitization").offset().top - 45;var target_cloud =$("#cloud-rendering").offset().top - 45;var target_robot=$("#idc-robot").offset().top -45;console.log(target_holo,target_behavior,target_cloud,target_robot)
+$('#titleList').on('change',function() {const val =$(this).val()
+if (val ==='space') {window.scrollTo({top:target_holo,behavior:"smooth" 
+})
+}
+if (val ==='behavior') {window.scrollTo({top:target_behavior,behavior:"smooth" 
+})
+}
+if (val ==='rendering') {window.scrollTo({top:target_cloud,behavior:"smooth" 
+})
+}
+if (val ==='robot') {window.scrollTo({top:target_robot,behavior:"smooth" 
+})
+}
+})
+ 
+$(window).scroll(function(){window.addEventListener('scroll',function(e) {var oll_top =$(document).scrollTop();if ($(document).scrollTop() >=target_banOff) {$("#client").addClass("fixed-div");} else {$("#client").removeClass("fixed-div");}
+if(oll_top >=target_robot){$("#titleList").val('robot');} else if(oll_top >=target_cloud){$("#titleList").val('rendering');}else if(oll_top >=target_behavior){$("#titleList").val('behavior');}else if(oll_top >=target_holo){$("#titleList").val('space')
+}
+})
+});} else {$('#client').hide()
+$('.pc').show()
+}
+});</script>
+<script>(function (doc,win) {var docEl =doc.documentElement,resizeEvt ='orientationchange' in window ?'orientationchange' :'resize',recalc =function () {var clientWidth =docEl.clientWidth;if (!clientWidth) return;if (clientWidth >1024) {docEl.style.fontSize ='12px';} else {docEl.style.fontSize =100 *(clientWidth / 750) + 'px';}
+};if (!doc.addEventListener) return;win.addEventListener(resizeEvt,recalc,false);doc.addEventListener('DOMContentLoaded',recalc,false);})(document,window);</script>
+</body>
+</html>
+0
+
+
+
+
+https://ailab.aliyun.com:443

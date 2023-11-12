@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: managed-challenger.research.cloudflare.com
+User-Agent: SEC-SGHX210/1.0 UP.Link/6.3.1.13.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e91b89e7162c-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:16:25 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wDfL%2BdJqU7SAbvbvNSW9aDUL6eIKj2ts55IRf3gQ4I%2FHBjzWgYEVCkzRZsguyVF4Fb%2BZgM5nER%2BhFKJY2UXUT8WGdxHGyRS6p3L5PwyNJfO1s4XxDmg75y%2B6hgNNvQgUo1nVSBt5%2F8UsnvRByWp5uO1ttRrahmQ0rGJk938%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://managed-challenger.research.cloudflare.com:443

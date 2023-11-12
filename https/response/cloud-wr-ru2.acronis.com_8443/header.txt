@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: cloud-wr-ru2.acronis.com:8443
+User-Agent: Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:14:23 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: fa6ae95ee2f24b7397b74bb6e8445f74
+X-Request-Id: 8aa46f63588371f47b148a6a029b3e9e
+
+b8
+<?xml version='1.0' encoding='utf-8'?>
+<methodResponse><params><param><value><string>Acronis Registration Server (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://cloud-wr-ru2.acronis.com:8443

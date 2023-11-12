@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: design.svc.ui.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.64528
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 111
+Access-Control-Max-Age: 1440
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:50:01 GMT
+Etag: W/"6f-h6Wh4N18KzV95lM8dLJkleT1wZs"
+Set-Cookie: AWSALBTG=Z/4HCtmXoobEh10taQu5lbsCtzGsT1GH/hP0Q5/ZsigDMGeV7NYDA4ibWHnsX+sutNXenQiR9oY/1lyXj+5ciDWmYYBKnN6M4TLKVJHN2eT8cZ5F24M4hU/rPy7UtVn0wwC4rFjbRmlqZwF8f59QeKh9gS02YXbKteVbAX34dHCc+9aIb5g=; Expires=Wed, 15 Nov 2023 04:50:01 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=Z/4HCtmXoobEh10taQu5lbsCtzGsT1GH/hP0Q5/ZsigDMGeV7NYDA4ibWHnsX+sutNXenQiR9oY/1lyXj+5ciDWmYYBKnN6M4TLKVJHN2eT8cZ5F24M4hU/rPy7UtVn0wwC4rFjbRmlqZwF8f59QeKh9gS02YXbKteVbAX34dHCc+9aIb5g=; Expires=Wed, 15 Nov 2023 04:50:01 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: AWSALB=3sRRy4lMSWvOPZLte8GxkGPqMttajGqCC0HdDFRVX2mZVU3V92ijCaNZCxhzJeXNF/9GVrPrVe/PBnRjaur3f3+r5ougUFl0rXBfgq1WoxeR4wnnezQey1WbFdfg; Expires=Wed, 15 Nov 2023 04:50:01 GMT; Path=/
+Set-Cookie: AWSALBCORS=3sRRy4lMSWvOPZLte8GxkGPqMttajGqCC0HdDFRVX2mZVU3V92ijCaNZCxhzJeXNF/9GVrPrVe/PBnRjaur3f3+r5ougUFl0rXBfgq1WoxeR4wnnezQey1WbFdfg; Expires=Wed, 15 Nov 2023 04:50:01 GMT; Path=/; SameSite=None; Secure
+X-Powered-By: Express
+
+{"error":{"type":"cors","code":"errors.entity.cors","message":"Invalid CORS","errors":[]},"data":{"params":{}}}
+
+
+https://design.svc.ui.com:8443

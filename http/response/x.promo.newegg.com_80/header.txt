@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: x.promo.newegg.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; j2me) ReqwirelessWeb/3.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Moved Temporarily
+Connection: close
+Location: https://x.promo.newegg.com/
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://x.promo.newegg.com:80

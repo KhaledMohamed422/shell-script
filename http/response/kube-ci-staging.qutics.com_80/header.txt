@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: kube-ci-staging.qutics.com
+User-Agent: Mozilla/5.0 (Android 2.2; Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 315
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:22:25 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 UTC
+Location: https://github.com/login/oauth/authorize?approval_prompt=force&client_id=Iv1.3d73e771c3569b1b&redirect_uri=https%3A%2F%2Fkube-ci-staging.qutics.com%2Foauth2%2Fcallback&response_type=code&scope=user%3Aemail+read%3Aorg&state=It0bnJR3yTcqr2XymYX97BZ0t7ACdkCBqUxF2FFKZdI%3A%2F
+Set-Cookie: _kubeci_oauth2_proxy_csrf=nJK_cC7x3VLhqdGA5G7gDNWYdNeajitWmTeRR-9QRthIjtZ4rOB94husZfM_K-5Bh7fsLz7bvdSQVEOZGyusNZXXinXAHUVOSNVweCnJLI924yhShmKCjNY=|1699410145|niWoxfga7yGoWj5FvoXljx7fK1A4jt75Z5UjfztouAM=; Path=/; Expires=Wed, 15 Nov 2023 02:22:25 GMT; Secure
+Via: 1.1 google
+X-Accel-Expires: 0
+
+<a href="https://github.com/login/oauth/authorize?approval_prompt=force&amp;client_id=Iv1.3d73e771c3569b1b&amp;redirect_uri=https%3A%2F%2Fkube-ci-staging.qutics.com%2Foauth2%2Fcallback&amp;response_type=code&amp;scope=user%3Aemail+read%3Aorg&amp;state=It0bnJR3yTcqr2XymYX97BZ0t7ACdkCBqUxF2FFKZdI%3A%2F">Found</a>.
+
+
+
+
+http://kube-ci-staging.qutics.com:80

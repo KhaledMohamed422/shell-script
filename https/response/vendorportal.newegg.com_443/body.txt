@@ -1,0 +1,90 @@
+<!doctype html>
+<html ng-cloak ng-app="app" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="keywords" content="Newegg Vendor Portal, Newegg, Vendor Portal, Vendor" />
+    <meta name="description" content="Newegg Vendor Portal is a web portal that conveniently offers our vendors access to powerful supplier services, order fulfillment, and support capabilities." />
+    <meta name="copyright" content="&copy; 2000-2018 Newegg Inc.">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title ng-bind="title">Newegg Vendor Portal</title>
+
+    <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" />
+    <link rel="stylesheet" href="/assets/framework.all.css?v=1698914976569" />
+    <script type="text/javascript" src="https://promotions.newegg.com/newegg/survey/newegg-feedback.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> -->
+    <link rel="stylesheet" href="/assets/login.all.css">
+
+    <!-- <script src="//partner.gdev.newegg.space/resources/neplatform.js?appId=vendorportal&noTheme=true&hideHeader=true"></script> -->
+
+    <!--placeholder_modules_css_start-->
+    <link rel="stylesheet" href="/modules/vendorportal/app.css" />
+    <link rel="stylesheet" href="/modules/vendorportal-vf/app.css" />
+    <!--placeholder_modules_css_end-->
+
+    <script src="//partner.newegg.com/resources/neplatform.js?appId=vendorportal&noTheme=true&hideHeader=true"></script>
+
+</head>
+
+<body ng-class="{'login-layout':__logoff||_userRegiste||_vendorRegiste, 'no-skin':__login}" style="min-width: 275px;">
+    <h1 class="vp-hide">Newegg Vendor Portal is a web portal that conveniently offers our vendors access to powerful supplier services, order fulfillment, and support capabilities.</h1>
+    <div id="target" ng-show="!__logoff && loading">
+        <div class="loader">
+            <div class="loader-img"></div>
+        </div>
+    </div>
+    <div id="divContent" ng-include="__themePath"></div>
+    <div id="divContent_before"></div>
+    <div id="divBrowser" class="text-center browser-check vp-hide">
+        <header>
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1>
+                        <a href="javascript:void(0)" ng-click="redirectTo('logo')">
+                            <img src="/framework/img/vendorportal_login.png" alt="Newegg Vendor Portal" />
+                        </a>
+                    </h1>
+                </div>
+            </div>
+        </header>
+        <label>
+            <h3 class="orange">You are currently using Internet Explorer to access Vendor Portal which is not supported, need IE 10 or higher version, we highly recommend you to use 
+                    <a class="eaas-a browser-check-a" href="https://www.google.com/intl/en-US/chrome/browser"  target="_blank">Google Chrome</a> or 
+                    <a class="eaas-a browser-check-a" href="http://www.mozilla.org/en-US/firefox/new/"  target="_blank">Mozilla Firefox</a>.
+            </h3>
+        </label>
+    </div>
+    <!--framework-->
+    <script src="/assets/signature_pad.min.js"></script>
+    <script src="/assets/vendor.all.js"></script>
+    <script src="/ckeditor/ckeditor.js"></script>
+    <script src="/assets/newkit.all.js?v=1698914976569"></script>
+    <script src="/assets/config.js?v=1698914976569"></script>
+    <script src="/modules/system/app.js?v=1698914976569"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id="+NEG.GATrackingId></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', NEG.GATrackingId);
+    </script>
+
+    <!--module Js-->
+    <!--placeholder_modules_js_start-->
+    <script src="/modules/vendorportal/app.js"></script>
+    <script src="/modules/vendorportal-nvf/app.js"></script>
+    <script src="/modules/vendorportal-vf/app.js"></script>
+    <!--placeholder_modules_js_end-->
+
+</body>
+
+</html>
+
+
+https://vendorportal.newegg.com:443

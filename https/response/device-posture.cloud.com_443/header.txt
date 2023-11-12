@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: device-posture.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Value for one of the query parameters specified in the request URI is invalid.
+Connection: close
+Content-Length: 351
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:17:17 GMT
+X-Azure-Ref: 20231107T231717Z-cwn1kpm0q51kf35x17m5teyefn00000000d000000000w7eu
+X-Cache: TCP_MISS
+X-Ms-Request-Id: 5a34ea62-401e-005d-6fd0-114889000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>InvalidQueryParameterValue</Code><Message>Value for one of the query parameters specified in the request URI is invalid.
+RequestId:5a34ea62-401e-005d-6fd0-114889000000
+Time:2023-11-07T23:17:17.7114944Z</Message><QueryParameterName>comp</QueryParameterName><QueryParameterValue /><Reason /></Error>
+
+
+https://device-posture.cloud.com:443

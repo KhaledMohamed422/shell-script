@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: commercegrad.cert.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+

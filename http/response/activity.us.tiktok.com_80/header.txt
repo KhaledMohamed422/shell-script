@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: activity.us.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:47.0) Gecko/20100101 Firefox/47.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 162
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:07 GMT
+Server: nginx
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=13
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 8a2706a3
+X-Cache: TCP_MISS from a23-33-41-6.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Check-Cacheable: YES
+X-Origin-Response-Time: 14,23.33.41.6
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

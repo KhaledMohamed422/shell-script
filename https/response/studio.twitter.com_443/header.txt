@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: studio.twitter.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4624.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Security-Policy: script-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://udc-neb.kampyle.com https://ton.twitter.com https://upload.twitter.com https://www.google-analytics.com 'self'; frame-ancestors 'self'; child-src https://*.tipalti.com; font-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com data: https://ton.twitter.com https://upload.twitter.com 'self'; media-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://ton.twitter.com https://upload.twitter.com blob: 'self'; connect-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://udc-neb.kampyle.com https://resources.digital-cloud-prem.medallia.com https://ton.twitter.com https://upload.twitter.com https://www.google-analytics.com blob: 'self'; worker-src blob:; style-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://ton.twitter.com 'unsafe-inline' https://*.tipalti.com https://upload.twitter.com 'self'; object-src 'none'; default-src 'self'; frame-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://ton.twitter.com https://*.tipalti.com https://upload.twitter.com blob: 'self'; img-src https://*.pscp.tv https://twitter.com https://*.twimg.com https://api.twitter.com https://udc-neb.kampyle.com data: https://ton.twitter.com https://upload.twitter.com https://www.google-analytics.com blob: 'self'; report-uri https://twitter.com/i/csp_report?a=NVSWI2LBFV2G633M&ro=false;
+Date: Tue, 07 Nov 2023 20:43:14 GMT
+Expires: -1
+Location: https://twitter.com/login?redirect_after_login=https://studio.twitter.com
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: studio_account="-:-"; Max-Age=900; Expires=Tue, 07 Nov 2023 20:58:14 GMT; Path=/; Domain=.twitter.com; Secure; HTTPOnly
+Set-Cookie: guest_id=v1%3A169938979483837974; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:43:14 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: ct0=2cfb2b001d520bda2908edfc103eb3e9; Max-Age=21600; Expires=Wed, 08 Nov 2023 02:43:14 GMT; Path=/; Domain=.twitter.com; Secure
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: 3d918d7a988029e844969e82db80c69df94a1b1bcb3d51fcd84124a8d859e84f
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 102
+X-Transaction-Id: 5e6fdbf2708ddbe5
+Content-Length: 0
+
+
+
+
+https://studio.twitter.com:443

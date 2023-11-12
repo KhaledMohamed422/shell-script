@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: support.latch.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822b0bb13c8e7a58-DUS
+Date: Wed, 08 Nov 2023 04:24:19 GMT
+Expires: Wed, 08 Nov 2023 05:24:19 GMT
+Location: https://support.latch.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u6d3Sc8ae4WZiUYe6bzEiQVeO6ZpJsmusvSOW%2F6CNtv4p8FintULbcAeGb2DwtXn2ihxrIBty8eRiI%2FRlWX7dE9vjbS1yDP%2Bov9wYjq%2F7aPB7imOUfv4W6T4%2FKVK7JQVsb6W"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=c5be0668e5606b1b363cf2e07f6ee0863480b44f-1699417459; path=/; domain=.support.latch.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://support.latch.com:80

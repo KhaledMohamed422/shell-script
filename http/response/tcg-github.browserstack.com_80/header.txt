@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: tcg-github.browserstack.com
+User-Agent: Nokia6630/1.0 (2.39.15) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Security-Policy: script-src 'nonce-{random}' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src 'none'; base-uri 'none';
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:05:17 GMT
+Location: https://tcg-github.browserstack.com
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+

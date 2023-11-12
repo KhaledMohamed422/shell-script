@@ -1,0 +1,160 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="format-detection" content="telephone=no"><title>[FF] Collection Party 4</title><link rel="shortcut icon" href="https://dl.dir.freefiremobile.com/common/web_event/common/images/favicon.png"><style>body {
+        background-color: #000;
+      }
+      .wp_pop {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #091222;
+        z-index: 9999;
+        display: none;
+      }
+      .wp_content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+      }
+      .wp_pop_img {
+        width: 50vw;
+        height: 30vw;
+        margin: auto;
+        animation: rotateA 1.5s ease infinite alternate;
+        background: url("https://dl.dir.freefiremobile.com/common/web_event/common/images/scape.png")
+          center / contain no-repeat;
+      }
+      .wp_tips {
+        width: 60%;
+        font-size: 5vw;
+        color: #fff;
+        text-align: center;
+        margin: 12vw auto 0;
+        line-height: 1.1;
+      }
+      @keyframes rotateA {
+        0% {
+          transform: rotate(0deg);
+        }
+        30% {
+          transform: rotate(0deg);
+        }
+        70% {
+          transform: rotate(-90deg);
+        }
+        100% {
+          transform: rotate(-90deg);
+        }
+      }
+      @media screen and (orientation: portrait) {
+        .wp_pop {
+          display: block;
+        }
+      }
+      .loading {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 1000;
+      }
+      .loading.opacity {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .spinner {
+        width: 8.6957vh;
+        height: 8.6957vh;
+        animation: rotator 1.4s linear infinite;
+      }
+      .path {
+        stroke-dasharray: 187;
+        stroke-dashoffset: 0;
+        transform-origin: center;
+        animation: dash 1.4s ease-in-out infinite,
+          colors 1.4s ease-in-out infinite;
+      }
+      @keyframes rotator {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(270deg);
+        }
+      }
+      @keyframes dash {
+        0% {
+          stroke-dashoffset: 187;
+        }
+        50% {
+          stroke-dashoffset: 47;
+          transform: rotate(135deg);
+        }
+        100% {
+          stroke-dashoffset: 187;
+          transform: rotate(450deg);
+        }
+      }</style><style>.loading {
+        background-color: #111620;
+      }
+      @keyframes colors {
+        0% {
+          stroke: #ffffff;
+        }
+        100% {
+          stroke: #ffffff;
+        }
+      }</style><link href="/js/app.a2833a32.js" rel="preload" as="script"><link href="/js/chunk-vendors.1471473a.js" rel="preload" as="script"></head><body><noscript><strong>We're sorry but collectionparty4 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"><div class="loading"><svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="https://www.w3.org/2000/svg"><circle class="path" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><div class="wp_pop"><div class="wp_content"><div class="wp_pop_img"></div><p class="wp_tips">Please rotate your phone for the best browsing experience</p></div></div><script>var analyticsId = "G-DW12HTE4KH";
+      var gaEventLogName = "collectionparty4";
+      var src = "https://www.googletagmanager.com/gtag/js?id=" + analyticsId;
+      var script = document.createElement("script");
+      script.async = true;
+      script.setAttribute("src", src);
+      document.body.appendChild(script);
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      window.onload = function() {
+        document.addEventListener(
+          "touchstart",
+          function(event) {
+            if (event.touches.length > 1) {
+              // console.log("touchlengh")
+              // event.preventDefault();
+            }
+          },
+          { passive: false }
+        );
+        var lastTouchEnd = 0;
+        document.addEventListener(
+          "touchend",
+          function(event) {
+            var now = new Date().getTime();
+            if (now - lastTouchEnd <= 300) {
+              // console.log("touchtime")
+              // event.preventDefault();
+            }
+            lastTouchEnd = now;
+          },
+          false
+        );
+      };
+      var promises = {};
+      function nativePromiseThen(promiseId, data, error) {
+        if (error) {
+          promises[promiseId].reject(data);
+        } else {
+          promises[promiseId].resolve(data);
+        }
+        delete promises[promiseId];
+      }</script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/vue.min.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/vue-router.min.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/axios.min.js"></script><script src="/js/chunk-vendors.1471473a.js"></script><script src="/js/app.a2833a32.js"></script></body></html><script src="https://dl.dir.freefiremobile.com/common/web_event/garenaAnalyticsFrontend/garenaGA.8c8849937e3958e738c4.js"></script>
+
+
+https://collectionparty4.sea.freefiremobile.com:443

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: datadog-forwarder.chime.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 AOL/11.0 AOLBUILD/11.0.1305 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Security-Policy: frame-ancestors 'self'; report-uri https://logs.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pube4f163c23bbf91c16b8f57f56af9fc58&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=site%3Adatadoghq.com
+Date: Tue, 07 Nov 2023 21:27:39 GMT
+Location: /api/v2/series
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 40fb5e8791e3cb1337e56d76d11ee8fa.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Y4zTh9Jzv4Uuj3gc4B0xrWhIJEJ6GlyHpWgVI4962Qmp0wizwOUgiA==
+X-Amz-Cf-Pop: AMS58-P3
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+
+
+
+
+https://datadog-forwarder.chime.com:443

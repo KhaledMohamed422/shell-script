@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: secretx.zomato.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 229
+Alt-Svc: h3=":443"; ma=93600
+Cache-Control: max-age=0, no-cache, no-store, no-transform
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:17 GMT
+Location: https://secretx.zomato.com/user/login
+Server: envoy
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

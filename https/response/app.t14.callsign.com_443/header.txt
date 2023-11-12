@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: app.t14.callsign.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.703.0 Chrome/12.0.703.0 Safari/534.24
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 40
+Accept-Ranges: bytes
+Cache-Control: no-cache, no-store, max-age=0
+Content-Security-Policy: default-src 'self'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:33 GMT
+Expires: 0
+Feature-Policy: camera 'self';geolocation 'self';microphone 'self';autoplay 'none';encrypted-media 'none';fullscreen 'none';midi 'none';payment 'none';sync-xhr 'none';usb 'none';
+Permissions-Policy: autoplay=(), camera=(self), encrypted-media=(), fullscreen=(), geolocation=(self), microphone=(self), midi=(), payment=(), sync-xhr=(), usb=(), vr=()
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Via: 1.1 5b9a6276a0cfe21df57da85d975de2dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: aWTEsutvpqflZwiKcvu-MOYSGcGNRc11Vuf3268asxZINGOm7hRqxQ==
+X-Amz-Cf-Pop: DUS51-P1
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1 ; mode=block
+

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: aa.acronis.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36 OPR/36.0.2130.46
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:09:48 GMT
+Expect-Ct: max-age=0
+Location: https://history.acronis.com/
+Permissions-Policy: geolocation=(self),autoplay=(self)
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Lb-Request-Time: 0.000
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+

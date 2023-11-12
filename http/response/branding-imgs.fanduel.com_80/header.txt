@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: branding-imgs.fanduel.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.0.1; de-de; Milestone Build/SHOLS_U2_01.14.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 19:13:15 GMT
+Server: AmazonS3
+Via: 1.1 109c7a7f1cf897851e09b16d3030a948.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: Cm_pKymNz4PZbqMe1lG_2_enA88G-kViJqNP-d6hRt6qrVancsoi1A==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FR6ME6MM5TETTFGZ</RequestId><HostId>SQ03+f/+Lm8ho8COLUKSUJt8W6ta6jGe16Kf4vKMP9ypsMKwV+IW8Exw83JVyWQGcXvaW9z8ymo=</HostId></Error>
+0
+
+
+
+
+http://branding-imgs.fanduel.com:80

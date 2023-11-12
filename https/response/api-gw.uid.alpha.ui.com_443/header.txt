@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api-gw.uid.alpha.ui.com
+User-Agent: Opera/7.50 (Windows XP; U)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 44
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: X-Uid-Session-Expire-At
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:43:09 GMT
+Vary: Origin
+Via: 1.1 d86b0ef5c17f755a14a26fbae67aba4e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: O4ZCbGun76-pJE19jxbm9y0PXnbDcUpEEvuNe8VouxIu6w58KCz2xA==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+X-Request-Id: 1dc87731-f8eb-4bc1-bc56-0a33f81ab8dc
+X-Response-Latency: 12
+X-Uid-Ratelimit-Limit-Minute: 100
+X-Uid-Ratelimit-Remaining-Minute: 99
+
+{"code":404,"msg":"you entered no-man zone"}
+
+
+https://api-gw.uid.alpha.ui.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: extra-test.grindr.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 915
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:21:33 GMT
+Server: CloudFront
+Via: 1.1 ab985bb6f3435d42701015dfa6015878.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: F1NsML4v_zEOdV3Mv5IMAOnwmeYP_mjNOH-hh5jCxyjHo9YPrZfUfw==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Error from cloudfront
+

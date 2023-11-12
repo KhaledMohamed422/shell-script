@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.nintendo.ch
+User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 18:45:18 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 1e0a1972-bc4b-4c1c-95de-3fa29e04c9a3
+X-Ms-Correlation-Id: f8d18d6c-59f5-441a-901b-459bc0e3a302
+X-Ms-Server-Fqdn: AM42E00EDG01.infra.lync.com
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=nintendo.ch"},"xframe":{"href":"https://webdir1E.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdir1E.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=nintendo.ch"}}}
+
+
+https://lyncdiscover.nintendo.ch:443

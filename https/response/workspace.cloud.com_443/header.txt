@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: workspace.cloud.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Content-Length: 833
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Connection: keep-alive
+Content-Security-Policy: base-uri 'self';connect-src https:;default-src https:;form-action 'none';frame-ancestors 'none';font-src https:;frame-src https://www.youtube.com/embed/ https://app.pendo.io;img-src https: data:;manifest-src 'none';media-src https:;object-src 'none';prefetch-src https:;report-to csp-violations;report-uri /csp-violations;script-src 'nonce-dqkmbrnJNjr+dzCDEWsv0A==' 'unsafe-inline' 'strict-dynamic' https: googletagmanager.com google-analytics.com app.pendo.io cdn.pendo.io data.pendo.io pendo-io-static.storage.googleapis.com citrix-cloud-content.customer.pendo.io citrix-cloud-data.customer.pendo.io pendo-static-6508245000126464.storage.googleapis.com 'sha256-Kk3x6TBlDpQxJPh9EFIkBC81EU79d/BJCYFSx1O/3pA';style-src https: 'unsafe-inline';worker-src blob:
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:33:20 GMT
+Expect-Ct: max-age=0
+Keep-Alive: timeout=5
+Location: https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly91cy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9UazBNREF3TURBN01ERmlPV0l5WW1GbE1HRXdPVEV5TURJM016Z3pZamhqTW1aa09UZ3paVGM3WVdOeVp6VTNlRTQwTDNwR1dYb3ZXamcxUTA1RGVteHZkWGx6U2pCemMxQnVOWGxwVEc5QlV6ZFRiMEowWTBGWlNHTkpNalY2ZFRoNlRIQTNZMmxvTUM5bldEVlRhVlJMYWtoV016bHFabWN4WlZwTk5DOTNXV2xUU1U1UVdFbGpTek5MTkRWNFlVMURia1JEU2tKR1NWaEhRMWt5YWtrNWFuTTJiRXRNVVhBck16UnlhRmRJZWpab2R6RjRaRGM0VXpGeE1FUlFVRk16TlRCcFRYbDFaWEZ5YWpBck1Xd3hNM29yVFhod00wbGFOSGROVEZSeFNqUllaSE54VTBWSFkwSjFlbWRxWTBoWmRUSmxSVlpTVG1wdEx6VkpVbVUzUkdwclkzTklSSEkyTVUxaldWaDZNbWt3UnpKNUt6WnFUUzlrWlRWYU4yRnlXVUpaWmxNNE1qUjZVRVpPZGk4eU1FeDBTRFkyVTJReE1GQmxNa2MyUjJGRlJVUTRTbXc0YVd0QllqWmhSV1prTlZoRmFrbG9ZVGQzVldsQlQycFVlV3R3TDBOUUt6aDFjbVI1TjJ0RlVIWnJaSGxUTUhNeUwwWkdUMlYzUFQwN1EyOXVjMjlzWlE9PQ==
+Referrer-Policy: no-referrer
+Report-To: {"group":"csp-violations","max_age":1800,"endpoints":[{"url":"https://console-eastus-release-a.citrixworkspacesapi.net/csp-violations"}]}
+Set-Cookie: X-Cws-TransactionId=43c64208-434b-4fee-b2b8-66e5f51ebad0; Domain=.cloud.com; Path=/; Expires=Wed, 08 Nov 2023 23:33:20 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: idp=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderConfirmationId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderOrgId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderPersonId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: state=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: 0541af56-b1a9-48ba-8ed0-b4a7e3425d93
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly91cy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9UazBNREF3TURBN01ERmlPV0l5WW1GbE1HRXdPVEV5TURJM016Z3pZamhqTW1aa09UZ3paVGM3WVdOeVp6VTNlRTQwTDNwR1dYb3ZXamcxUTA1RGVteHZkWGx6U2pCemMxQnVOWGxwVEc5QlV6ZFRiMEowWTBGWlNHTkpNalY2ZFRoNlRIQTNZMmxvTUM5bldEVlRhVlJMYWtoV016bHFabWN4WlZwTk5DOTNXV2xUU1U1UVdFbGpTek5MTkRWNFlVMURia1JEU2tKR1NWaEhRMWt5YWtrNWFuTTJiRXRNVVhBck16UnlhRmRJZWpab2R6RjRaRGM0VXpGeE1FUlFVRk16TlRCcFRYbDFaWEZ5YWpBck1Xd3hNM29yVFhod00wbGFOSGROVEZSeFNqUllaSE54VTBWSFkwSjFlbWRxWTBoWmRUSmxSVlpTVG1wdEx6VkpVbVUzUkdwclkzTklSSEkyTVUxaldWaDZNbWt3UnpKNUt6WnFUUzlrWlRWYU4yRnlXVUpaWmxNNE1qUjZVRVpPZGk4eU1FeDBTRFkyVTJReE1GQmxNa2MyUjJGRlJVUTRTbXc0YVd0QllqWmhSV1prTlZoRmFrbG9ZVGQzVldsQlQycFVlV3R3TDBOUUt6aDFjbVI1TjJ0RlVIWnJaSGxUTUhNeUwwWkdUMlYzUFQwN1EyOXVjMjlzWlE9PQ==
+
+
+https://workspace.cloud.com:443

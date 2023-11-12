@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: cdn.000webhost.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6.3 (like Firefox/3.6.3) GTB7.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228a916acab161a-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:27:29 GMT
+Server: cloudflare
+
+9b

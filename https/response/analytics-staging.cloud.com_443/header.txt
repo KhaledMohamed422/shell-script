@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: analytics-staging.cloud.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 875
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'none'; script-src 'self' https://* 'strict-dynamic' 'unsafe-inline'  'nonce-MetB92vfVGX3S/TbOaysTQ=='; connect-src 'self' blob: https://*.cloud.com https://*.cloudburrito.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://*.citrixworkspacesapi.net https://*.ctxwsstgapi.net https://cis.citrix.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://ccpendo.blob.core.windows.net https://pendo-static-6508245000126464.storage.googleapis.com https://cdn.pendo.io https://bam.nr-data.net https://*.mapbox.com https://o167200.ingest.sentry.io/api/5388354/store/ https://casstorageuilogstaging.blob.core.windows.net/ https://docs.citrix.com; img-src 'self' data: blob: image/svg+xml image/png https://*.cloud.com https://*.cloudburrito.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://*.storage.googleapis.com; style-src 'self' 'unsafe-inline' https://*.cloud.com https://*.cloudburrito.com https://cdn-web.citrix.com/can.cdn/marketing/assets/fonts/citrix-fonts-linking.css https://*.storage.googleapis.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://tagmanager.google.com https://fonts.googleapis.com https://cas-api-gw-ase-cdn-staging.azureedge.net https://cas-api-cdn-ep-staging.azureedge.net https://cas-ui-cdn-ep-staging.azureedge.net; font-src 'self' data: https://*.cloud.com https://*.cloudburrito.com https://cdn-web.citrix.com https://fonts.gstatic.com; child-src blob: ;worker-src blob: ;frame-src *;frame-ancestors 'self';object-src 'none';
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:06 GMT
+Location: https://citrix.cloudburrito.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3Mtc3RhZ2luZy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGcyTmpZN1pHVmpOelF6TkRGa1lUQmhaRFE1WTJRek5UVmxPR0UwTVRBNU5HVTNPV0k3YUdaamJHSTNkbHBtVkZobFVYVTJPSHB1TWxaUVYzUmxMek5QTjI1TlFXcDFNbloyV25KVVFqZFpZa2xWUkhkU05IQjZkWE5qVTBVMFVtbFFUVzlyVmpnemJEWkRXVXRIZDFkcFRVMTJSMFUxZVZBMVFuSTVjaTlsZFZSd1lVWTNTV3hYZUhSWlVGTlVjRFp3WVcxR2NVMXBLelJpVkdsNlVGUnJlRzF1WkRVMlZtOUdOMHAwVjFsalZIVlRRME5UVWtWbVIyeDBWVmczUm5ORlVtWkNXWEJPVUZoU1luVTFSVnBEYlVkMVRsSnBSVzV5Y25Cd1J6aHNkMDAwYUVKdFUydElhM2wzTlVVclZYTklPVlZtZEM4elpVUmhWRGt5V1habVdGbGxNVzlsYUZWWGFtSjNibWxMVFM5dU1HNUJabEpoTlU1SFJrMW5XV3RYTkhveVNVbG1kelJUYkM5eVFsUjZRVlprUVhSMGNucGxSMWhKWjJGU1ZGaFdOMU5XWlN0M2MwWlpTM1kxYXpJNGJUVTNMekY2Y1Uxb2RWTnRWbXhDY21KbllTOU5kRWRZVDBFdlpWRnFWRU5PYWtGTVFYaHdjRFZSUFQwN1EybDBjbWw0UVc1aGJIbDBhV056VWxBPQ
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept, Accept-Encoding
+X-Azure-Ref: 20231107T231106Z-brhdmkxcd947fcwwqqnuzcvwy000000000tg0000000222gp
+X-Cache: CONFIG_NOCACHE
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 4
+X-Powered-By: Express
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://citrix.cloudburrito.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3Mtc3RhZ2luZy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGcyTmpZN1pHVmpOelF6TkRGa1lUQmhaRFE1WTJRek5UVmxPR0UwTVRBNU5HVTNPV0k3YUdaamJHSTNkbHBtVkZobFVYVTJPSHB1TWxaUVYzUmxMek5QTjI1TlFXcDFNbloyV25KVVFqZFpZa2xWUkhkU05IQjZkWE5qVTBVMFVtbFFUVzlyVmpnemJEWkRXVXRIZDFkcFRVMTJSMFUxZVZBMVFuSTVjaTlsZFZSd1lVWTNTV3hYZUhSWlVGTlVjRFp3WVcxR2NVMXBLelJpVkdsNlVGUnJlRzF1WkRVMlZtOUdOMHAwVjFsalZIVlRRME5UVWtWbVIyeDBWVmczUm5ORlVtWkNXWEJPVUZoU1luVTFSVnBEYlVkMVRsSnBSVzV5Y25Cd1J6aHNkMDAwYUVKdFUydElhM2wzTlVVclZYTklPVlZtZEM4elpVUmhWRGt5V1habVdGbGxNVzlsYUZWWGFtSjNibWxMVFM5dU1HNUJabEpoTlU1SFJrMW5XV3RYTkhveVNVbG1kelJUYkM5eVFsUjZRVlprUVhSMGNucGxSMWhKWjJGU1ZGaFdOMU5XWlN0M2MwWlpTM1kxYXpJNGJUVTNMekY2Y1Uxb2RWTnRWbXhDY21KbllTOU5kRWRZVDBFdlpWRnFWRU5PYWtGTVFYaHdjRFZSUFQwN1EybDBjbWw0UVc1aGJIbDBhV056VWxBPQ
+
+
+https://analytics-staging.cloud.com:443

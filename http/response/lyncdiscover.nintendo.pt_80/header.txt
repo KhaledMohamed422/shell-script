@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: lyncdiscover.nintendo.pt
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:16:58 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: b987c085-a2a5-42f1-b008-8596ee53d51d
+X-Ms-Correlation-Id: 77e07951-95d9-46cd-a48f-a52a30de0c83
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=nintendo.pt"},"xframe":{"href":"https://webdir1E.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdir1E.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=nintendo.pt"}}}
+
+
+http://lyncdiscover.nintendo.pt:80

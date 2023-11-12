@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: di-cn-hangzhou.data.aliyun.com
+User-Agent: Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 261
+Content-Type: application/json;charset=utf-8
+Date: Wed, 08 Nov 2023 08:47:46 GMT
+Eagleeye-Traceid: 0bc3b4ac16994332651114921e7c28
+Eagleeye-Traceid-Daily: 0bc3b4ac16994332651114921e7c28
+Server: Tengine
+
+{"data":"会话超时过期","errCode":-401,"errMsg":"会话超时过期","recommend":"https://setting-cn-hangzhou.data.aliyun.com/dataos/selectTenant?redirectUrl=https://ide2-cn-hangzhou.data.aliyun.com/login.html","requestId":"0bc1371016994332628302453e28c9"}
+
+
+http://di-cn-hangzhou.data.aliyun.com:80

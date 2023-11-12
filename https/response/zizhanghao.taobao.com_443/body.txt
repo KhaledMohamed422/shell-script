@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>淘宝网 - 子账号</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+    <link href="//img.alicdn.com/favicon.ico" rel="icon" type="image/x-icon" />
+    
+
+<link href="//g.alicdn.com/??sj/sportalapps/1.0.0/global/1.0/seller-global-min.css,sj/sportal/1.0.0/3.0/common/css/mcdull-header-min.css,sj/sportal/1.0.0/3.0/common/css/base-min.css,sj/sportal/1.0.0/3.0/common/css/head-foot-min.css,sj/sportal/1.0.0/3.0/common/css/menu-min.css" rel="stylesheet"/>
+    <script src="//assets.alicdn.com/??s/kissy/1.1.6/kissy-min.js?t=20131028.js"></script>
+
+<script src="//g.alicdn.com/sj/sportalapps/1.0.0/global/1.0/seller-global-min.js?t=20131028.js"></script>
+
+
+</head>
+<body data-spm="2"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=215048c216994398792444779e0cd3&asid=AQAAAAAHZUtlj61ySAAAAABxVC4aI9PjuA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+        
+
+<div id="seller-nav">
+	<div id="site-nav-content">
+                <!--新加手机端dom结构 START-->
+
+<div id="J_MobileDownload" class="mobile-download">
+    <a class="txt" href="//www.taobao.com/go/act/focus/qianniu.php?spm=1.495920.a214590.1" target="_blank" id="J_SellerMobile" title="新增“自动回复”功能！">卖家手机端</a>
+    <s class="line-border"></s>
+</div>
+
+<!--新加手机端dom结构 END-->
+						<div class="login-info">
+			<script>TB.SellerGlobal.writeLoginInfo({"memberServer": "//member1.taobao.com", "outmemServer" : "", "loginServer": "https://login.taobao.com", redirectUrl : "", logoutUrl : ""});</script>
+		</div>
+		                <!--新加入的消息dom-->
+        <div id="J_Tmsg" class="tmsg"></div>
+<script>
+    ;(function(S) {
+        var version = parseFloat(S.version),
+            isOnline = !~location.host.indexOf('daily.taobao.net');
+
+        // 添加 tbc 包配置
+        if (version > 1.1) {
+            S.config({
+                packages: [{
+                    name: 'tbc',
+                    path: isOnline ? '//g.alicdn.com/tbc/' : '//g-assets.daily.taobao.net/tbc/',
+                    ignorePackageNameInUri: true
+                }]
+            });
+
+            // 兼容 KISSY 1.2
+            if (version === 1.2) {
+                S.config({
+                    map: [
+                        [/(\/tbc\/)tbc\//g, '$1']
+                    ]
+                });
+            }
+        }
+    })(KISSY);
+</script>
+
+<script>
+    KISSY.ready(function(S) {
+        S.use('core', function(S) {
+            var doc = document,
+                version = parseFloat(S.version),
+                isOnline = !~location.host.indexOf('daily.taobao.net'),
+                isHighVersion = version >= 1.2;
+
+            var uv = '1.4.39',
+                v = '3.3.14';
+
+            var getCookie = function(name) {
+                var m = doc.cookie.match('(?:^|;)\\s*' + name + '=([^;]*)');
+
+                return (m && m[1]) ? decodeURIComponent(m[1]) : '';
+            };
+
+            var isLogin = function () {
+                var nick = getCookie('_nk_') || getCookie('tracknick'),
+                    login = getCookie('_l_g_'),
+                    lgc = getCookie('lgc');
+
+                return !!(login && nick || lgc);
+            };
+
+            var renderTmsgBase = function() {
+                var tmsg = S.DOM.get('#J_Tmsg'),
+                    temp = '' +
+                            '<div class="J_Menu menu" data-fn-name="fn-tmsg">' +
+                            '   <div class="menu-hd J_Tmsg_Basic tmsg_basic">' +
+                            '       <span class="J_Tmsg_Logo">' +
+                            '           <span class="J_Tmsg_Logo_Loading tmsg_logo_loading"></span>' +
+                            '           <span class="J_Tmsg_Logo_Icon tmsg_logo_icon iconfont" style="display:none">&#349</span>' +
+                            '           <span class="J_Tmsg_Logo_Text tmsg_logo_text">消息</span>' +
+                            '           <span class="J_Tmsg_Logo_Unread tmsg_logo_unread"></span>' +
+                            '       </span>' +
+                            '       <b class="tmsg_basic_arrow"></b>' +
+                            '   </div>' +
+
+                            '   <div class="menu-bd">' +
+                            '       <div class="J_Tmsg_Panel_Apps tmsg_panel_apps"></div>' +
+                            '   </div>' +
+                            '</div>' +
+
+                            '<div class="J_Tmsg_Panels tmsg_panels" style="_display:none">' +
+                            '    <div class="J_Tmsg_Panel_Detail tmsg_panel_detail"></div>' +
+                            '    <div class="J_Tmsg_Panel_history tmsg_panel_history"></div>' +
+                            '    <div class="J_Tmsg_Panel_Strong tmsg_panel_strong"></div>' +
+                            '    <div class="J_Tmsg_Panel_Setting tmsg_panel_setting"></div>' +
+                            '</div>';
+
+                S.DOM.html(tmsg, temp);
+            };
+
+            var initTmsg = function() {
+                var url = isOnline ? '//g.alicdn.com/tbc/' : '//g-assets.daily.taobao.net/tbc/',
+                    com = isLogin() ? ( '??umpp/' + uv + '/index-min.js,tmsg/' + v + '/index-min.js' ) : ( 'umpp/' + uv + '/index-min.js' );
+
+                // 登陆用户
+                if (isLogin()) {
+                    renderTmsgBase();
+
+                    S.getScript(url + com, function() {
+                        if (isHighVersion) {
+                            S.use('tbc/umpp/' + uv + '/', function() {
+                                S.use('tbc/tmsg/' + v + '/');
+                            });
+                        }
+                    });
+                }
+
+                // 访客
+                else {
+                    if (isHighVersion) {
+                        S.use('tbc/umpp/' + uv + '/');
+                    }
+                    else {
+                        S.getScript(url + com);
+                    }
+                }
+            }();
+        });
+    });
+</script>
+				<ul class="quick-menu">
+			<li><a href="//www.taobao.com?spm=1.185133.217351.1&scm=1012.1.1.0">淘宝网首页</a></li>
+
+<li class="mytaobao">
+	<div class="menu">
+		
+			<a class="menu-hd" href="//i.taobao.com/my_taobao.htm?spm=1.185133.217351.2&scm=1012.1.30.0">我的淘宝<b></b></a>
+		
+		<div class="menu-bd">
+			<div class="menu-bd-panel">
+				<div>
+				
+					<a href="//trade.taobao.com/trade/itemlist/list_bought_items.htm?spm=1.185133.217351.3&scm=1012.1.31.0">已买到的宝贝</a><br/>
+				
+				
+					<a href="//jianghu.taobao.com/admin/invite/invite_friend.htm?spm=1.185133.217351.4&scm=1012.1.32.0">我的好友</a><br/>
+				
+				
+					<a href="//i.taobao.com/my_taobao.htm?spm=1.185133.217351.5&scm=1012.1.33.0">最新动态</a>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+<li class="seller-center">
+	<div class="menu">
+		
+			<a class="menu-hd" href="//mai.taobao.com/seller_admin.htm?spm=1.185133.217351.6&scm=1012.1.2.0">卖家中心<b></b></a>
+		
+		<div class="menu-bd">
+			<div class="menu-bd-panel">
+				<div>
+                
+					<a href="//www.taobao.com/go/act/focus/qianniu.php?spm=1.185133.217351.7" target="_blank">千牛手机管店</a><br/>
+				
+				
+					<a href="//trade.taobao.com/trade/itemlist/list_sold_items.htm?spm=1.185133.217351.8&scm=1012.1.3.0">已卖出的宝贝</a><br/>
+				
+				
+					<a href="//sell.taobao.com/auction/goods/goods_on_sale.htm?spm=1.185133.217351.9&scm=1012.1.4.0">出售中的宝贝</a>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+<li class="seller-service">
+	<div class="menu">
+		
+			<a class="menu-hd" href="//fuwu.taobao.com/?spm=1.185133.217351.10&scm=1012.1.5.0">卖家服务<b></b></a>
+		
+		<div class="menu-bd">
+			<div class="menu-bd-panel">
+				<div>
+				
+					<a href="//fuwu.taobao.com/fuwu/my_service.htm?spm=1.185133.217351.11&scm=1012.1.6.0">我的服务</a><br/>
+				
+				
+					<a href="//i.daxue.taobao.com/account/myBag.htm?spm=1.185133.217351.12">我的课程</a>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+<li class="seller-guide">
+	<div class="menu">
+		
+			<a class="menu-hd" href="//mai.taobao.com/seller_map.htm?spm=1.185133.217351.13&scm=1012.1.8.0">卖家地图<b></b></a>
+		
+		<div class="menu-bd">
+			<div class="menu-bd-panel">
+				<div class="first">
+					<ul>
+						<li>
+							<h3>工具</h3>
+							<ul class="menu-sub-list">
+							
+							   								<li><a target="_blank" href="http://zuanshi.taobao.com/web/?spm=1.185133.217351.14&scm=1012.1.10.0">钻石展位</a></li>
+							   								<li><a target="_blank" href="http://ad.alimama.com/?spm=1.185133.217351.15&scm=1012.1.11.0">淘宝客</a></li>
+							   								<li><a target="_blank" href="http://pub.alimama.com/?spm=1.185133.217351.16&scm=1012.1.12.0">淘宝联盟</a></li>
+							   								<li><a target="_blank" href="//taocode.taobao.com/baoming/xiangtao/viewShopTaocode.action?spm=1.185133.217351.17&scm=1012.1.14.0">淘代码</a></li>
+							   							
+<li style="width: 60px;"><a href="http://zhitongche.taobao.com" target="_blank">淘宝直通车</a></li>
+<li style="width: 60px;"><a href="http://zhitongche.taobao.com" target="_blank">天猫直通车</a></li>
+							</ul>
+						</li>
+						<li>
+							<h3>资源</h3>
+							<ul class="menu-sub-list">
+							
+							   								<li><a target="_blank" href="//daohang.taobao.com?spm=1.185133.217351.18&scm=1012.1.15.0">营销导航</a></li>
+							   								<li><a target="_blank" href="//fenxiao.taobao.com/?spm=1.185133.217351.19&scm=1012.1.16.0">分销平台</a></li>
+							   								<li><a target="_blank" href="//learn.taobao.com/user/xueyuanRedirect.htm?target=http://www.alibado.com?spm=1.185133.217351.20&scm=1012.1.17.0">淘宝培训</a></li>
+							   							
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="separator">
+					<ul class="menu-sub-list">
+					
+					   						<li><a target="_blank" href="//www.taobao.com/m?spm=1.185133.217351.21&scm=1012.1.19.0">手机淘宝</a></li>
+					   						<li><a target="_blank" href="//zhaopin.taobao.com/?spm=1.185133.217351.22&scm=1012.1.21.0">淘工作</a></li>
+					   						<li><a target="_blank" href="//service.taobao.com/support/main/service_center.htm?spm=1.185133.217351.23&scm=1012.1.22.0">服务中心</a></li>
+					   						<li><a target="_blank" href="//110.taobao.com/home/index.htm?spm=1.185133.217351.24&scm=1012.1.23.0">安全中心</a></li>
+					   						<li><a target="_blank" href="//trust.taobao.com/?spm=1.185133.217351.25&scm=1012.1.24.0">交易安全</a></li>
+					   						<li><a target="_blank" href="//support.taobao.com/myservice/rights/right_main.htm?spm=1.185133.217351.26&scm=1012.1.25.0">维权中心</a></li>
+					   					 
+					</ul>
+				</div>
+				<div class="separator" style="padding-bottom: 0;">
+				
+				<a target="_blank" href="//mai.taobao.com/seller_map.htm?spm=1.185133.217351.27&scm=1012.1.34.0">更多内容 &gt;</a>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</li>
+
+	<li><a href="//sellerhelp.taobao.com/market/service/index.php?spm=1.185133.217351.28">帮助</a></li>
+		</ul>
+	</div>
+</div>
+<!-- -->
+
+<script>TB.SellerGlobal.init();</script>
+<!--ym.2015-03-17-->
+      <?php include('/home/admin/go/market/5512/__header.php') ?>
+<style type="text/css" >
+  #page{ width:100%;}
+  #content{ width:100%;}
+  #site-nav{display:none;}
+  #header{ width:990px; display:none;}
+  #seller-nav .menu-hd{display:none;}
+</style>
+
+<style>
+  /***************** base *********************/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, 5b8b4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img{vertical-align:top;}
+li,img{outline:0;}
+.clearfix{zoom:1;}
+.clearfix:after{content:' ';display:block;height:0;clear:both;}
+.clear{clear:both;width:100%;display:block;line-height:0;font-size:0;height:0}
+.width990{width:990px;margin:0 auto;}
+
+
+#content,#page{width: 100%;}
+#content{top: 0;}
+/***************** base *********************/
+.Z_wrap{
+  width: 100%;
+  position: relative;
+  background: #fff;
+}
+
+</style>
+
+<style>
+	/***************** part *********************/
+	.Z_wrap .Z_part{
+		position: relative;
+		height: 185px;
+	}
+	.Z_wrap .Z_part .f_part{
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		top: 24px;
+		cursor: pointer;
+	}
+	.Z_wrap .Z_part .f_part .a_icon{
+		position: absolute;
+		left: 39px;
+		top: 5px;
+		background-image: url("//gtms01.alicdn.com/tps/i1/T1WTi9FedkXXaH7y2e-160-40.png");
+		width: 40px;
+		height: 40px;
+	}
+	.Z_wrap .Z_part .f_part .a_icon1{
+		background-position: 0 0;
+	}
+	.Z_wrap .Z_part .f_part .a_icon2{
+		background-position: -40px 0;
+	}
+	.Z_wrap .Z_part .f_part .a_icon3{
+		background-position: -80px 0;
+	}
+	.Z_wrap .Z_part .f_part .a_icon4{
+		background-position: -120px 0;
+	}
+	.Z_wrap .Z_part .f_part .p_tit1{
+		position: absolute;
+		color: #68625c;
+		font-family: '微软雅黑';
+		font-size: 16px;
+		line-height: 16px;
+		top: 67px;
+		left: 0px;
+		width: 120px;
+		text-align: center;
+	}
+	.Z_wrap .Z_part .f_part .p_ms{		
+		position: absolute;
+		color: #999;
+		font-size: 12px;
+		line-height: 12px;
+		top: 103px;
+		width: 120px;
+		left: 0;
+		text-align: center;
+	}
+	.Z_wrap .Z_part .ppos1{
+		left: 41px;
+	}
+	.Z_wrap .Z_part .ppos2{
+		left: 300px;
+	}
+	.Z_wrap .Z_part .ppos3{
+		left: 557px;
+	}
+	.Z_wrap .Z_part .ppos4{
+		left: 816px;
+	}
+	/***************** part *********************/
+	
+	/***************** Z_showpower *********************/
+	.Z_showpower{
+		height: 324px;
+	}	
+	.Z_showpower .sp_tit{
+		color: #999;
+		padding-top: 65px;
+		font-family: '微软雅黑';
+		font-size: 18px;
+		line-height: 18px;
+		text-align: center;
+		position: relative;
+	}
+	.Z_showpower .sp_tit .right{
+		font-size: 12px;
+		text-decoration: underline;
+		position: absolute;
+		right: 0;
+		color: #999;
+	}
+	.Z_showpower .sp_ul{
+		padding-top: 40px;
+		overflow: hidden;
+	}
+	.Z_showpower .sp_ul li{
+		float: left;
+		width: 135px;
+		height: 45px;
+		margin-right: 78px;
+		margin-bottom: 37px;
+	}
+	.Z_showpower .sp_ul .li{
+		margin-right: 0;
+	}
+
+	/***************** Z_showpower *********************/
+	
+	.kong{
+		height: 45px;
+	}
+
+</style>
+<!-- 导航 -->
+<style>
+  /*****************nav*************/
+
+.Z_nav{
+  width: 100%;
+}
+.Z_nav .nav_middle{
+  height: 62px;
+  background: #fff;
+  position: relative;
+}
+.Z_nav .nav_middle a{
+  background-image: url("//gtms01.alicdn.com/tps/i1/T1N6VrFv8gXXXgSx.M-745-62.jpg");
+  display: block;
+  position: absolute;
+  height: 62px;
+  top: 0;
+}
+.Z_nav .nav_middle .nav_accountlogo{
+  background-position: -595px 0;
+  width: 150px;
+  left: 0;
+}
+.Z_nav .nav_middle .nav_function{
+  left: 338px;
+  background-position: 0 0;
+  width: 60px;
+}
+.Z_nav .nav_middle .f_active{
+  background-position: -60px 0;
+}
+.Z_nav .nav_middle .nav_function:hover{
+  background-position: -60px 0;
+}
+.Z_nav .nav_middle .nav_train{
+  left: 463px;
+  background-position: -120px 0;
+  width: 60px;
+}
+.Z_nav .nav_middle .t_active{
+  background-position: -180px 0;
+}
+.Z_nav .nav_middle .nav_train:hover{
+  background-position: -180px 0;
+}
+.Z_nav .nav_middle .nav_management{
+  background-position: -240px 0;
+  width: 113px;
+  height: 32px;
+  left: 609px;
+  top: 17px;
+}
+.Z_nav .nav_middle .nav_zhitongche{
+  text-decoration: none;
+  width: 242px;
+  background-position: -353px 0;
+  height: 30px;
+  right: 0;
+  top: 17px;
+  line-height: 30px;
+  font-size: 13px;
+  font-family: '微软雅黑';
+  color: #333;
+  text-indent: 1em;
+}
+.nav_zhitongche .nav_date{
+  font-size: 12px;
+  line-height: 12px;
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  width: 40px;
+  text-align: center;
+  text-indent: 0;
+  color: #333;
+}
+.nav_zhitongche .nav_month{
+  font-size: 12px;
+  line-height: 12px;
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+  width: 40px;
+  text-align: center;
+  text-indent: 0;
+  color: #333;
+}
+/*****************nav*************/
+</style>
+<style>
+/***************** Z_inf *********************/
+.Z_inf{
+	height: 302px;
+	overflow: hidden;
+}
+.Z_inf .Z_block{		
+	width: 226px;
+	height: 370px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+}
+.Z_inf .Z_block4{
+	margin-right: 0;
+}
+.Z_inf .Z_block .b_tit{
+	padding-top: 10px;
+	color: #666;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	line-height: 14px;
+	margin-bottom: 26px;
+}
+.Z_inf .Z_block .b_img{
+    display:block;
+	width: 216px;
+	height: 119px;
+	border:0;
+	background-image: url("//gtms01.alicdn.com/tps/i1/T1uulyFBtrXXX843Iw-216-480.jpg");
+}
+.Z_inf .Z_block .b_img_pos1{
+	background-position: 0 0;
+}
+.Z_inf .Z_block .b_img_pos2{
+	background-position: 0 -120px;
+	width: 206px;
+}
+.Z_inf .Z_block .b_img_pos3{
+	background-position: 0 -240px;
+	width: 206px;
+}
+.Z_inf .Z_block .b_img_pos4{
+	background-position: 0 -360px;
+}
+.Z_inf .Z_block .b_mask{
+	width: 216px;
+	height: 27px;
+	position: absolute;
+	top: 92px;
+	left: 0;
+	opacity: .6;
+	background: #000;
+	filter:alpha(opacity=60);
+}
+.Z_inf .Z_block .b_mask2{
+	width: 206px;
+}
+.Z_inf .Z_block .b_img_ms{
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	font-family: '微软雅黑';
+	position: absolute;
+	bottom: 8px;
+	left: 12px;
+}
+.Z_inf .Z_block .b_ul{
+	padding-top: 20px;
+}
+.Z_inf .Z_block .b_ul a{
+	color: #666;
+	font-family: '微软雅黑';
+}
+.Z_inf .Z_block .b_ul li{
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 12px;
+    text-indent: 8px;
+    width: 100%;
+    overflow: hidden;
+    height: 14px;
+}
+.Z_inf .Z_block .b_ul li .new{
+	color: #ff0101;
+}
+.Z_inf .Z_block .b_ul li .hidden{
+	visibility: hidden;
+}
+.Z_inf .Z_block  .inf_a{
+	display: block;
+	position: relative;
+}
+/***************** Z_inf *********************/
+</style>
+<style>
+  body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5 tahoma, arial, 5b8b4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+img{vertical-align:top;}
+li,img{outline:0;}
+.clearfix{zoom:1;}
+.clearfix:after{content:' ';display:block;height:0;clear:both;}
+.clear{clear:both;width:100%;display:block;line-height:0;font-size:0;height:0}
+.width990{width:990px;margin:0 auto;}
+
+
+#content,#page{width: 100%;}
+#content{top: 0;}
+#J_Slide {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    overflow: hidden;
+}
+
+#J_Slide .ks-switchable-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 17px;
+    right: 30%;
+    z-index: 99;
+	overflow: hidden;
+}
+
+#J_Slide .ks-switchable-nav li {
+	float: left;
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    background-image: url("//gtms01.alicdn.com/tps/i1/T1taFjFzdgXXcN8aPX-16-8.png");
+    background-position: -8px 0;
+    display: block;
+    text-indent: -999em;
+    cursor: pointer;
+}
+
+#J_Slide .ks-switchable-nav li.ks-active {
+ 	background-position: 0 0;   
+}
+
+#J_Slide .ks-switchable-content {
+    margin: 0;
+    padding: 0;
+}
+
+#J_Slide .ks-switchable-content li {
+	width: 100%;
+    height: 290px;
+    overflow: hidden;
+    margin: 0;
+}
+
+#J_Slide .ks-switchable-nav li,
+#J_Slide .ks-switchable-trigger-content {
+    position: relative;
+}
+#J_Slide .ks-switchable-content li .banner_wrap{
+	width: 100%;
+	background-position: center 0;
+}
+#J_Slide .ks-switchable-content li .banner_wrap .banner{
+	background-position: center 0;
+	height: 290px;
+}
+
+  .cxmore{height:30px; line-height:30px; font-size:14px; margin-top:30px;}
+  .cxmore a{color:#000000;}
+</style>
+<script src="//a.tbcdn.cn/apps/support/robot/robot-entry.js"></script>
+<script>
+window.G_RobotConfig = {
+ sourceId: 1407110429
+}
+
+</script>
+
+<div class="module" data-spm="a214z4q">
+	<div class="Z_wrap">
+
+		<!-- 导航 -->
+		<div class="Z_nav">
+			<div class="width990 nav_middle">
+				<a href="#" target="_self" class="nav_accountlogo"></a>
+				<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_function.php" class="nav_function"></a>
+				<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_train.php" class="nav_train"></a>
+				<a target="_blank" href="//mai.taobao.com/subaccount/index.htm?spm=0.0.0.0.K2R81D" class="nav_management"></a>
+				
+					<a href="//bangpai.taobao.com/group/thread/14795336-292237558.htm?spm=a218s.1763950.a214z4q.1" class="nav_zhitongche">
+						【必备】子账号操作方法大全
+						<p class="nav_date">24日</p>
+						<p class="nav_month">3月</p>
+					</a>
+				
+			</div>
+		</div>
+		<!-- 导航 -->
+		<!-- 导航 -->
+		<!-- banner -->
+		<!--TMS:962681-->
+
+		<div id="J_Slide" class="loading">
+			<ol class="ks-switchable-content">
+				
+										<li>
+						<a href="https://weike.taobao.com/task/list.htm?spm=0.0.0.0.QraBr0" target="_blank">
+							<div class="banner_wrap" style="background-image: url('https://img.alicdn.com/tps/TB1leF_JVXXXXbUXFXXXXXXXXXX-1920-290.jpg');">
+								<div class="width990 banner" style="background-image:url('https://img.alicdn.com/tps/TB1leF_JVXXXXbUXFXXXXXXXXXX-1920-290.jpg')"></div>
+							</div>
+						</a>
+					</li>
+										<li>
+						<a href="//bangpai.taobao.com/group/thread/14795336-292237558.htm?spm=a218s.1763950.a214z4q.2" target="_blank">
+							<div class="banner_wrap" style="background-image: url('//img.alicdn.com/tps/i3/TB1sC0AHXXXXXXnXFXXqVgvMFXX-1680-290.jpg');">
+								<div class="width990 banner" style="background-image:url('//img.alicdn.com/tps/i3/TB1sC0AHXXXXXXnXFXXqVgvMFXX-1680-290.jpg')"></div>
+							</div>
+						</a>
+					</li>
+										<li>
+						<a href="https://www.taobao.com/market/seller/duliduan.php" target="_blank">
+							<div class="banner_wrap" style="background-image: url('//img.alicdn.com/tps/i2/TB1MEwcKXXXXXauXXXXqVgvMFXX-1680-290.jpg');">
+								<div class="width990 banner" style="background-image:url('//img.alicdn.com/tps/i2/TB1MEwcKXXXXXauXXXXqVgvMFXX-1680-290.jpg')"></div>
+							</div>
+						</a>
+					</li>
+										<li>
+						<a href="//bbs.taobao.com/catalog/thread/16329010-267136826.htm?spm=a218s.1763950.a214z4q.3" target="_blank">
+							<div class="banner_wrap" style="background-image: url('//img.alicdn.com/tps/i2/T1yhSeFNXXXXcUbmzD-1680-290.png');">
+								<div class="width990 banner" style="background-image:url('//img.alicdn.com/tps/i2/T1yhSeFNXXXXcUbmzD-1680-290.png')"></div>
+							</div>
+						</a>
+					</li>
+										<li>
+						<a href="//bbs.taobao.com/catalog/thread/16329010-267612473.htm?spm=a218s.1763950.a214z4q.4" target="_blank">
+							<div class="banner_wrap" style="background-image: url('//img.alicdn.com/tps/i1/T1tNIJFJleXXagXCzD-1680-290.jpg');">
+								<div class="width990 banner" style="background-image:url('//img.alicdn.com/tps/i1/T1tNIJFJleXXagXCzD-1680-290.jpg')"></div>
+							</div>
+						</a>
+					</li>
+									
+			</ol>
+		</div>
+
+		<!-- banner -->
+		<!-- 四图标 -->
+		<div class="Z_part width990">
+
+			<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_function.php">
+				<div class="f_part ppos1">
+					<div class="a_icon a_icon1"></div>
+					<p class="p_tit1">部门管理</p>
+					<p class="p_ms">部门结构一目了然</p>
+				</div>
+			</a>
+			<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_function.php">
+				<div class="f_part ppos2">
+					<div class="a_icon a_icon2"></div>
+					<p class="p_tit1">权限管理</p>
+					<p class="p_ms">分权让员工各尽其责</p>
+				</div>
+			</a>
+			<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_function.php">
+				<div class="f_part ppos3">
+					<div class="a_icon a_icon3"></div>
+					<p class="p_tit1">安全保护</p>
+					<p class="p_ms">防黑客，防盗号</p>
+				</div>
+			</a>
+			<a target="_blank" href="//www.taobao.com/go/act/other/subaccount_function.php">
+				<div class="f_part ppos4">
+					<div class="a_icon a_icon4"></div>
+					<p class="p_tit1">日志监控</p>
+					<p class="p_ms">操作记录有据可查</p>
+				</div>
+			</a>
+
+		</div>
+		<!-- 四图标 -->
+
+		<div class="Z_inf width990 ">
+			
+				<div #if($repeatCount==4) class="Z_block Z_block4" #else class="Z_block" #end>
+					
+						<p class="b_tit">新手入门</p>
+					
+					
+						<a class="inf_a" href="//bangpai.taobao.com/group/thread/14795336-290639519.htm?spm=a218s.1763950.a214z4q.5" target="_blank">
+							<div class="b_img b_img_pos1"></div>
+							<div class="b_mask" ></div>
+							<p class="b_img_ms">如何获取/购买子账号？</p>
+						</a>
+					
+					<ul class="b_ul clearfix">
+						
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-290639519.htm?spm=a218s.1763950.a214z4q.6">
+									什么是子账号，如何创建子账号
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-292237558.htm?spm=a218s.1763950.a214z4q.7">
+									【必备】子账号操作方法大全
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-291442388.htm?spm=a218s.1763950.a214z4q.8">
+									关于“已授权发货但没有发货按钮的解决方法”
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-290717839.htm?spm=a218s.1763950.a214z4q.9">
+									子账号数字证书安装方法
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+													
+					</ul>
+				</div>
+			
+				<div #if($repeatCount==4) class="Z_block Z_block4" #else class="Z_block" #end>
+					
+						<p class="b_tit">旺旺分流</p>
+					
+					
+						<a class="inf_a" href="//bangpai.taobao.com/group/thread/15625975-288289833.htm?spm=a218s.1763950.a214z4q.10" target="_blank">
+							<div class="b_img b_img_pos2"></div>
+							<div  class="b_mask b_mask2" ></div>
+							<p class="b_img_ms">新版分流设置视频教程</p>
+						</a>
+					
+					<ul class="b_ul clearfix">
+						
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/15625975-290894432.htm?spm=a218s.1763950.a214z4q.11">
+									如何开通并使用新版分流
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/15625975-288290564.htm?spm=a218s.1763950.a214z4q.12">
+									如何设置旺旺亮灯
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/15625975-288284821.htm?spm=a218s.1763950.a214z4q.13">
+									什么是页面来源
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/15625975-290894783.htm?spm=a218s.1763950.a214z4q.14">
+									什么是代理账号
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/15625975-290893729.htm?spm=a218s.1763950.a214z4q.15">
+									新版分流规则是什么样的
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+													
+					</ul>
+				</div>
+			
+				<div #if($repeatCount==4) class="Z_block Z_block4" #else class="Z_block" #end>
+					
+						<p class="b_tit">进阶教程</p>
+					
+					
+						<a class="inf_a" href="//bangpai.taobao.com/group/thread/14795336-289101911.htm?spm=a218s.1763950.a214z4q.16" target="_blank">
+							<div class="b_img b_img_pos3"></div>
+							<div  class="b_mask b_mask2" ></div>
+							<p class="b_img_ms">服务平台工具全线支持子账号！</p>
+						</a>
+					
+					<ul class="b_ul clearfix">
+						
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-285144070.htm?spm=a218s.1763950.a214z4q.17">
+									[好消息]子账号可删除了！
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-285105576.htm?spm=a218s.1763950.a214z4q.18">
+									子账号如何使用千牛？！
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-276919837.htm?spm=a218s.1763950.a214z4q.19">
+									如何批量给子账号授权
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="http://xue.alibado.com/search/list-c-p-k%E6%97%BA%E6%97%BA%E5%88%86%E6%B5%81-s-o-t-f.htm?tbpm=1">
+									旺旺分流视频教程
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+													
+					</ul>
+				</div>
+			
+				<div #if($repeatCount==4) class="Z_block Z_block4" #else class="Z_block" #end>
+					
+						<p class="b_tit">账号安全</p>
+					
+					
+						<a class="inf_a" href="//bbs.taobao.com/catalog/thread/154504-264800723.htm?spm=a218s.1763950.a214z4q.21" target="_blank">
+							<div class="b_img b_img_pos4"></div>
+							<div class="b_mask" ></div>
+							<p class="b_img_ms">卖家警惕！马年新骗局</p>
+						</a>
+					
+					<ul class="b_ul clearfix">
+						
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-287943961.htm?spm=a218s.1763950.a214z4q.22">
+									防止数据泄露及诈骗的有效手段
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-283964936.htm?spm=a218s.1763950.a214z4q.23">
+									商品被删，掌柜欲哭无泪
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-287746239.htm?spm=a218s.1763950.a214z4q.24">
+									[防黑客]子账号异地登陆保护策略
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+														<li>
+								<a target="_blank" href="//bangpai.taobao.com/group/thread/14795336-290652409.htm?spm=a218s.1763950.a214z4q.25">
+									已卖出宝贝、发货必须安装数字证书！
+									<span  class="new hidden" >&nbsp;new!</span>
+								</a>
+							</li>
+													
+					</ul>
+				</div>
+			
+			<span class="clear"></span>
+		</div>
+       <div class="cxmore width990" >
+           
+				<a href="//bangpai.taobao.com/group/14795336.htm?spm=a218s.1763950.a214z4q.26" target="_blank">更多more</a>
+			
+        </div>
+		<div class="Z_showpower width990">
+			
+				<p class="sp_tit">
+					子账号已支持500+个权限
+					<a href="//yunpan.taobao.com/?spm=a218s.1763950.a214z4q.27" target="_blank" class="right">查看全部</a>
+				</p>
+			
+			<ul class="sp_ul clearifx">
+				
+										<li >
+						<a href="//bangpai.taobao.com/group/thread/14795336-284662163.htm?spm=a218s.1763950.a214z4q.28" target="_blank">
+							<img width="135" height="45" border="0" src="//img.alicdn.com/tps/i1/T1T0JKFAddXXcSVq_X-135-45.jpg" alt=""></a>
+					</li>
+										<li >
+						<a href="//bangpai.taobao.com/group/thread/14795336-285152284.htm?spm=a218s.1763950.a214z4q.29" target="_blank">
+							<img width="135" height="45" border="0" src="//img.alicdn.com/tps/i1/T1XtISFdRnXXcSVq_X-135-45.jpg" alt=""></a>
+					</li>
+										<li >
+						<a href="//bbs.taobao.com/catalog/thread/14130010-263279755.htm?spm=a218s.1763950.a214z4q.30" target="_blank">
+							<img width="135" height="45" border="0" src="//img.alicdn.com/tps/i1/T1dP4IFrBtXXcSVq_X-135-45.jpg" alt=""></a>
+					</li>
+										<li >
+						<a href="//bangpai.taobao.com/group/thread/14795336-276923734.htm?spm=a218s.1763950.a214z4q.31" target="_blank">
+							<img width="135" height="45" border="0" src="//img.alicdn.com/tps/i1/T1_CJuFDl1XXcSVq_X-135-45.jpg" alt=""></a>
+					</li>
+										<li  class="li"  >
+						<a href="//bangpai.taobao.com/group/thread/14795336-284152010.htm?spm=a218s.1763950.a214z4q.32" target="_blank">
+							<img width="135" height="45" border="0" src="//img.alicdn.com/tps/i1/T13nLBFllkXXcSVq_X-135-45.jpg" alt=""></a>
+					</li>
+									
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="//assets.alicdn.com/??s/kissy/1.3.0/kissy-min.js"></script>
+<script>
+KISSY.use("gallery/switchable/1.3/", function (S, Switchable) {
+	var s = new Switchable.Slide('#J_Slide', {
+	    effect : 'fade',
+	    easing : 'easeOutStrong'
+	});
+});
+ 
+</script>
+
+<?php include('/home/admin/go/market/5512/__footer.php') ?>
+    #
+<!-- from vmcommon -->
+<div id="footer">
+    <div class="g_foot">
+    <div class="g_foot-ali">
+    <a href="//news.alibaba.com/specials/aboutalibaba/aligroup/index.html">阿里巴巴集团</a>
+    <b>|</b>
+    <a href="//www.alibaba.com">阿里巴巴国际站</a>
+    <b>|</b>
+    <a href="//www.1688.com">阿里巴巴中国站</a>
+    <b>|</b>
+    <a href="//www.aliexpress.com">全球速卖通</a>
+    <b>|</b>
+    <a href="//www.taobao.com/index_global.php">淘宝网</a>
+    <b>|</b>
+    <a href="//www.tmall.com">天猫</a>
+    <b>|</b>
+    <a href="//ju.taobao.com">聚划算</a>
+    <b>|</b>
+    <a href="//www.etao.com">一淘</a>
+    <b>|</b>
+    <a href="//www.alimama.com">阿里妈妈</a>
+    <b>|</b>
+    <a href="//www.aliyun.com">阿里云计算</a>
+    <b>|</b>
+    <a href="//www.yunos.com">云OS</a>
+    <b>|</b>
+    <a href="//www.net.cn">万网</a>
+    <b>|</b>
+    <a href="//cn.yahoo.com">中国雅虎</a>
+    <b>|</b>
+    <a href="//www.alipay.com">支付宝</a>
+    </div>
+    <div class="g_foot-nav">
+        <a href="//www.taobao.com/about/">关于淘宝</a>
+        <a href="//www.taobao.com/about/partners.php">合作伙伴</a>
+        <a href="//pro.taobao.com/">营销中心</a>
+        <a href="//service.taobao.com/support/main/service_route.htm">联系客服</a>
+        <a href="//open.taobao.com/">开放平台</a>
+        <a href="//www.taobao.com/about/join.php">诚征英才</a>
+        <a href="//www.taobao.com/about/contact.php">联系我们</a>
+        <a href="//www.taobao.com/sitemap.php">网站地图</a>
+        <a href="//www.taobao.com/about/copyright.php">法律声明</a>
+        <span>&copy; 2015 Taobao.com 版权所有</span>
+    </div>
+    <span class="g_foot-toy"></span>
+    <span class="g_foot-line"></span>
+</div>
+
+<style>
+.g_foot{
+  width: 960px;
+  margin: 0 auto;
+  font: 12px/1.5 tahoma,arial,宋体b8b\4f53;
+  padding: 7px 0 9px;
+  color: #b0b0b0;
+  text-align: left !important;
+  position: relative;
+  clear:both;
+}
+.g_foot a{
+  margin: 0 2px;
+  color: #3e3e3e;
+  text-decoration:none;
+}
+.g_foot a:hover{
+  color: #F60;
+  text-decoration: underline;
+
+}
+.g_foot-ali{
+  margin-right: 100px;
+  padding-left: 0;
+  border-bottom: 1px solid #D3D3D3;
+  padding-bottom: 8px;
+  height: 18px;
+}
+.g_foot-nohover{
+  cursor: default;
+}
+.g_foot-nohover:hover{
+  color:#3e3e3e !important;
+  text-decoration:none !important;
+}
+.g_foot-ali a,.g_foot-ali b{
+  float: left;
+
+}
+.g_foot-ali b {
+  margin: 0 2px;
+  color:#d3d3d3;
+  font-weight: normal;
+  *margin-top:-1px;
+  margin-top:-1px \0/;
+}
+.g_foot-nav{
+  margin-top: 8px;
+  line-height: 20px;
+}
+.g_foot-nav span{
+  margin-left: 50px;
+}
+.g_foot-toy{
+  position: absolute;
+  background: url(//img.alicdn.com/tps/i1/T1MMPaXkNjXXaXezbh-48-70.png) no-repeat;
+  _background: url(//img.alicdn.com/tps/i1/T1XgzaXX0kXXaXezbh-48-70.png) no-repeat;
+  width: 69px;
+  height: 100px;
+  display: block;
+  right: 0px;
+  top:0px;
+}
+/* IE9 only */
+:root .g_foot-toy {
+    right:-20px\9; 
+ } 
+.g_foot-line{
+  display: none;
+  position: absolute;
+  background: url(//img.alicdn.com/tps/i1/T1I_56Xl0wXXXXXXXX-104-1.png) no-repeat;
+  width: 104px;
+  height: 1px;
+  right: 45px;
+  top:33px;
+}
+
+.footer-more {
+  cursor: pointer;
+  z-index: 1;
+  position: relative;
+  padding-top: 1px;
+  width: 82px;
+  float: left;
+  *top:-1px;
+  top:-2px \0/;
+
+}
+.footer-more-trigger {
+  position: absolute;
+
+  padding: 6px 11px 4px 14px;
+  width: 37px;
+  line-height: 1.3;
+  border: 1px solid #fff;
+  left:-12px;
+  top:-5px;
+}
+
+.footer-more-trigger .arrow{
+    position: absolute;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    border: dashed 4px;
+}
+.footer-more-trigger .arrow-d {
+  border-color: #666 transparent transparent transparent;
+  border-top-style: solid;
+  right: 12px;
+  top: 11px;
+}
+.footer-more-panel {
+  text-align: left;
+  position: absolute;
+  right: 26px;
+  bottom: -90px;
+  padding: 7px 3px 2px 2px;
+  border: 1px solid #C5C5C5;
+  width: 57px;
+  background: 
+  white;
+  line-height: 1.9;
+  display: none;
+}
+.footer-more-panel a {
+  float: none;
+  margin-right: 3px;
+}
+.footer-more-hover .footer-more-trigger,.footer-more:hover .footer-more-trigger {
+  border-color: #c5c5c5;
+  background: #fff;
+  border-bottom: 0;
+}
+.footer-more-hover .footer-more-panel,.footer-more:hover .footer-more-panel  {
+  display: block;
+}
+
+.footer-more-hover .footer-more-trigger .arrow-d,.footer-more:hover .footer-more-trigger .arrow-d {
+  -moz-transform: rotate(180deg);
+  -moz-transform-origin: 50% 30%;
+  -o-transform: rotate(180deg);
+  -o-transform-origin: 50% 30%;
+  -webkit-transform: rotate(180deg);
+  -webkit-transform-origin: 50% 30%;
+  transform: rotate(180deg);
+  transform-origin: 50% 30%;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 2);
+  *top: 8px;
+  top:8px \0/;
+}
+</style>
+    <div id="server-num">eaweb033050154064.center.na610</div>
+</div>
+<script>
+    // 快捷菜单API
+    quick_menu = {
+        apiMenus:location.protocol+'//mai.taobao.com/json/home/seller_menu_data.htm',
+        apiSave:location.protocol+'//mai.taobao.com/json/home/seller_menu_save.htm'
+        ,apiOnekey:location.protocol+'//mai.taobao.com/json/home/default_menu_data.htm'    }
+</script>
+
+        <script src="//assets.alicdn.com/s/kissy/1.1.6/??switchable/switchable-pkg-min.js,uibase/uibase-pkg-min.js,overlay/overlay-pkg-min.js"></script>
+    
+
+<script src="//g.alicdn.com/sj/sportal/1.0.7/3.0/common/js/??hub-min.js,init-min.js,index-search-min.js,menu-load-min.js,quick-menu-min.js,search-input-min.js,service-min.js,r-min.js?t=20140106"></script>
+<!-- end vmcommon -->  </body>
+</html>
+
+
+<input name='_tb_token_' type='hidden' value='e5eb715b134b6'>
+0
+
+
+
+
+https://zizhanghao.taobao.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: static.bitmex.com
+User-Agent: Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:07:24 GMT
+Server: AmazonS3
+Vary: Origin
+Via: 1.1 e505058447bf5e74cc264f4e72f27bee.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: 9B61xorBFjxveRjDr00mMYI7fosvUm7nwP_AGj4haOq-waVECkvsaw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4XS53C1NC7G8P6PW</RequestId><HostId>d03NLwJDC+C5/SNFtiyAQKBsBbtOhTXtG+O5uH5j8ni5T1nQheC/sEQqrj7i7WwCKD2tD0X7XHY=</HostId></Error>
+0
+
+
+
+
+https://static.bitmex.com:443

@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: dillons.instacart.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822747b25d1b21c3-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:26:14 GMT
+Expect-Ct: max-age=0
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Server: cloudflare
+Set-Cookie: ahoy_visit=225ec9da-5a78-4b68-af06-303bdfccc625; Path=/; Expires=Tue, 07 Nov 2023 21:26:14 GMT; SameSite=Lax
+Set-Cookie: ahoy_track=true; Path=/
+Set-Cookie: ahoy_visitor=15da0295-ae43-4c3e-b8e6-64dce4dd708d; Max-Age=63072000; Path=/; Expires=Thu, 06 Nov 2025 17:26:14 GMT
+Set-Cookie: __cf_bm=swTKPInkeQx.VO0e8aGIHDSK5.CBBqpjVx1yHNk2.Cg-1699377974-0-AQHeNbnuJ23BfaM2zNzJsKHMWOJoi0K17tHtvdh2XZ/MiV2CXzsqysD8nP07+lNk8zv1mvIY3T2+Zq29meqbdlg=; path=/; expires=Tue, 07-Nov-23 17:56:14 GMT; domain=.dillons.instacart.com; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Www-Authenticate: Basic realm="Application"
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+1a
+HTTP Basic: Access denied.
+0
+
+
+
+
+https://dillons.instacart.com:443

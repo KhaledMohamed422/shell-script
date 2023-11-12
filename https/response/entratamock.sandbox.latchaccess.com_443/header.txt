@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: entratamock.sandbox.latchaccess.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:51:18 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+79
+{"timestamp":"2023-11-08T04:51:18.844+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}
+0
+
+
+
+
+https://entratamock.sandbox.latchaccess.com:443

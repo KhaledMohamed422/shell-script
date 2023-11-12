@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: rudderstack-control-plane.cdp.prod.data.typeform.com
+User-Agent: TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 31
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:52:31 GMT
+Server: uvicorn
+
+{"app":"data_rs_control_plane"}
+
+
+http://rudderstack-control-plane.cdp.prod.data.typeform.com:80

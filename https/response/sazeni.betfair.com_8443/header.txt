@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: sazeni.betfair.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227bc2689d47a42-DUS
+Date: Tue, 07 Nov 2023 18:45:44 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://betting.betfair.com
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h04XjqVrLPVHnnlC9hGcNQQIXVEUKROTmt2j%2B5WmWImhyBIQvAFvubggnbPRwu8yPyY6bW7rJuW8o8JBCEVxh%2FROTywrYRVYwd6KtRF9V%2B5vCA7mxdjR2UEB0xzhBET3%2BCtSy52G8zWM"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://sazeni.betfair.com:8443

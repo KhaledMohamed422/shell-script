@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: xlog-va-useast2a.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:32 GMT
+Expires: Wed, 08 Nov 2023 18:42:32 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=433, origin; dur=20
+Server-Timing: inner; dur=5
+X-Akamai-Request-Id: f50ab8e.8651bd9
+X-Cache: TCP_MISS from a184-25-126-98.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-200-89-170.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 20,23.200.89.170
+X-Parent-Response-Time: 453,184.25.126.98
+X-Tt-Logid: 202311081842303C65A79CCCCE35FBEB43
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5acc4026c25c4f0bfcda8f6c87228ff51d5e17583d67d556d1ca868f614f9be244a6144dede7c8f723a977583ffbb54de8983be915195f1d21eefdf692d7585f14fe6946d4f9f932c4c0a50ab8a535a2e48491b4db3032d1d10b0b5dcc267da264
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://xlog-va-useast2a.tiktokv.com:80

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: fun-cname.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 127
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:57:01 GMT
+Server: nginx
+Vgs-Request-Id: 130de43d33a2e3b66b9928efa445a34e
+Via: 1.1 reverse-http-proxy-699d868cb5-ms9nl
+X-Envoy-Upstream-Service-Time: 20
+
+Invalid VAULT_ID provided. Please make sure that you are using correct proxy URL. Request id: 130de43d33a2e3b66b9928efa445a34e.
+
+
+https://fun-cname.verygoodsecurity.io:443

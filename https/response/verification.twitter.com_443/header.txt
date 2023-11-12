@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: verification.twitter.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Safari/537.36 OPR/20.0.1396.73172
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Security-Policy: default-src 'none'; img-src https://abs.twimg.com; script-src https://abs.twimg.com about:; style-src https://abs.twimg.com 'unsafe-inline'; font-src https://abs.twimg.com https://twitter.com; connect-src 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; report-uri https://twitter.com/i/csp_report?a=ORTGK%3D%3D%3D&ro=false
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 20:46:06 UTC
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938996693411120; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:46:06 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: 0cfa4f2e3f2b32b47c5cbf6cf41112c85e03d42d443530069653e3f891e1fff7
+X-Response-Time: 114
+X-Transaction-Id: 84a375e136a99e94
+X-Xss-Protection: 0
+

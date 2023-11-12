@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www.mmcdn.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:6.0a2) Gecko/20110615 Firefox/6.0a2 Iceweasel/6.0a2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82303085d8ed7166-DUS
+Date: Wed, 08 Nov 2023 19:23:16 GMT
+Expires: Wed, 08 Nov 2023 20:23:16 GMT
+Location: https://www.mmcdn.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://www.mmcdn.com:8080

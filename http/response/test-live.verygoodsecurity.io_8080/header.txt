@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: test-live.verygoodsecurity.io:8080
+User-Agent: Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:11 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

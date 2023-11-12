@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: cl.reddit.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1801 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/15.8.4.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:21:21 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf47uy6od.2.1699388480904.Z0FBQUFBQmxTcHhCeWQ3N19aS2FGV09na1BoTjNmR1JoWlBJVnBtRTBlbU9lV2NxTjBvQldyU01TeHo0MlYxX2JsS2I1YVRGVEUtdkhva0ZMa1BjMlo1UDFhOG9oQzJUN1VFb2dkSEpDQTVHamFaanN0aXozUW04cW01YTFlSWp3TldKZkVUNURuZTM; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:21:21 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=gahnjhrmfgdngrgibf.0.1699388480909.Z0FBQUFBQmxTcHhCcl9hOVNwajBWWnMzMEpheS1TaGZBUnRYdFRXOWkySEpNaHhzc2xjcmZ5Yl9Cd0pNdFNzMmJ3OVFhT2Z1UUVpYW9SdlBWc01JSUpOZUM0RGtSN3VNZUJxZ01YcHJvejZ4aU5GWkw1WHdHZzVtbTMyOElXeWFlMkNKVDJJYm94MTQ; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:21:21 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=zCGC2Fdzj19F4FAqew; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: kfscdn.api.np.km.playstation.net
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 243
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:22:25 GMT
+Server: AmazonS3
+X-Amz-Bucket-Region: us-west-1
+X-Amz-Id-2: uXQzxzjvr65FzfSWMGY1h9AhsX5s3cCPwT2MhpGNbVeNZRDD+wmngUxYKsTxj0F2hbReyF+hBX4=
+X-Amz-Request-Id: ZY70XRDFBWWQ9KGY
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ZY70XRDFBWWQ9KGY</RequestId><HostId>uXQzxzjvr65FzfSWMGY1h9AhsX5s3cCPwT2MhpGNbVeNZRDD+wmngUxYKsTxj0F2hbReyF+hBX4=</HostId></Error>
+
+
+https://kfscdn.api.np.km.playstation.net:443

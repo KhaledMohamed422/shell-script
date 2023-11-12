@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: apt-beta.artifacts.ui.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:7.0a1) Gecko/20110623 Firefox/7.0a1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json;charset=ISO-8859-1
+Date: Wed, 08 Nov 2023 04:43:21 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Www-Authenticate: Basic realm="Artifactory Realm"
+X-Artifactory-Id: a5d612e8c8b171b1d01af13278b8682ad2dabae2
+X-Artifactory-Node-Id: uioregon-artifactory-primary-1
+X-Jfrog-Version: Artifactory/7.72.1 77201900
+
+4d
+{
+  "errors" : [ {
+    "status" : 401,
+    "message" : "Unauthorized"
+  } ]
+}
+0
+
+
+
+
+https://apt-beta.artifacts.ui.com:443

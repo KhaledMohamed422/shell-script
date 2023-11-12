@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: musiclib.magisto.com
+User-Agent: SonyEricssonS500i/R6BC Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:58:14 GMT
+Server: AmazonS3
+Via: 1.1 0e358bffbd534852f8496b34da6ad3e4.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: xGi0sWwObrYF9BhnnZ_XPoKxmrbjLjO2e-fVwgTa4Tjy-fAv184NVA==
+X-Amz-Cf-Pop: FRA56-P7
+X-Cache: Error from cloudfront
+
+e7
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A80H3CGBYEY1K4A6</RequestId><HostId>mQoySJurUpIpgXb3MddGYRm86QlQl4FCD3WCJhSZyXJAS/hOfXXVvM5G1gM80j6A</HostId></Error>
+0
+
+
+
+
+https://musiclib.magisto.com:443

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: rate-limiting-3600.pat-issuer.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 40
+Cf-Ray: 8227ea5dc9067a3d-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:17:17 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+
+Rate Limited Private Access Token Issuer
+
+
+https://rate-limiting-3600.pat-issuer.cloudflare.com:8443

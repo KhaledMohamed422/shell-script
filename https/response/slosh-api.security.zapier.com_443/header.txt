@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: slosh-api.security.zapier.com
+User-Agent: Mozilla/5.0 (compatible; Exabot/3.0;  http://www.exabot.com/go/robot)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:30 GMT
+X-Amz-Apigw-Id: ODrfEHWloAMEizA=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: a1e714f2-0729-4e65-9242-1e63a4fe17db
+
+{"message":"Forbidden"}
+
+
+https://slosh-api.security.zapier.com:443

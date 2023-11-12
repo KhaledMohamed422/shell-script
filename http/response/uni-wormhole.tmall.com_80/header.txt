@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: uni-wormhole.tmall.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.4 (KHTML like Gecko) Chrome/22.0.1229.79 Safari/537.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 201
+Cache-Control: max-age=0, s-maxage=60
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 09:25:45 GMT
+Eagleeye-Traceid: 21081b7a16994355456542276e27e5
+Location: https://err.tmall.com/error1.html?c=404&u=https%3A%2F%2Funi-wormhole.tmall.com%2F
+Server: Tengine/Aserver
+Timing-Allow-Origin: *
+Vary: Ali-Detector-Type
+X-Air-Content-Status: 404
+X-Readtime: 8
+X-Server-Id: 28c3d6b2523ca52c32ad72931842b19a00c52189325074536562bc4c43f3514966d7bc0eaed84f7d
+X-Via: wormholesource033054097198.center.na620
+X-Wormhole-Error: 404
+
+Redirecting to <a href="https://err.tmall.com/error1.html?c=404&amp;u=https%3A%2F%2Funi-wormhole.tmall.com%2F">https://err.tmall.com/error1.html?c=404&amp;u=https%3A%2F%2Funi-wormhole.tmall.com%2F</a>.
+
+
+http://uni-wormhole.tmall.com:80

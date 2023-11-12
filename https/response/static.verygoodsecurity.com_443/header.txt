@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: static.verygoodsecurity.com
+User-Agent: Mozilla/5.0 (Linux; Android 5.1; C6740N Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:57:19 GMT
+Server: AmazonS3
+Via: 1.1 06a27d66e25d02ebcfb014b9d194016a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MgsafzmHW44iUNAr_Q9KTfFpK0Zn1c94Pbrj6R-W6EREVZnOrUMe8Q==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1CASCZF44PVQVFPZ</RequestId><HostId>VzjB1Wk9+dqtSbAv2GYJVZTVYM4ROqb1LHf63OoX3R68uQmezhJ47u06NMFdcpvaRMMZDWKezIY=</HostId></Error>
+0
+
+
+
+
+https://static.verygoodsecurity.com:443

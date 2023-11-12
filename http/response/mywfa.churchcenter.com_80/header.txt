@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: mywfa.churchcenter.com
+User-Agent: Mozilla/5.0 (X11; NetBSD x86; en-us) AppleWebKit/666.6+ (KHTML, like Gecko) Chromium/20.0.0000.00 Chrome/20.0.0000.00 Safari/666.6+
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:58:34 GMT
+Location: https://mywfa.churchcenter.com/
+Server: CloudFront
+Via: 1.1 21c2c1b3872c539a34b64bcf45f4054c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YamZRUI3BX84YzHDTYSl2mr-Ts9y5vpefvMBPZK6LTrKfvN8DoUZ3w==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

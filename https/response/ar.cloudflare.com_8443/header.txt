@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: ar.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.10 Chromium/15.0.874.120 Chrome/15.0.874.120 Safari/535.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e5555ebc6a9b-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:13:50 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8omJYhC%2BD6Mj3XFLx2jXxtiYNzPiHFoFNDDRe%2B5f13LUsOBm6167ogJ3XGFmf7DkGwzJ9x36Nru8ETvRd6kaszucADVBtPpOYo6CC6tRq5Ilul%2Bhk6qAARG0XtDSTOgjP7Szp2UxeI4%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://ar.cloudflare.com:8443

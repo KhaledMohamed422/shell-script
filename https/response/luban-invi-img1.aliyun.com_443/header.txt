@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: luban-invi-img1.aliyun.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; vivo 1907) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 377
+Ali-Swift-Global-Savetime: 1699437619
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:00:19 GMT
+Eagleid: 3daa502816994376189681590e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[135,134,403-1280,M], cache25.l2cn1827[136,0], vcache1.cn6012[176,176,403-1280,M], vcache20.cn6012[180,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5C3373EC8131345A052A
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:00:19 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5C3373EC8131345A052A</RequestId>
+  <HostId>luban-vgd-invi.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://luban-invi-img1.aliyun.com:443

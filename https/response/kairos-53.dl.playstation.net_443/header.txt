@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: kairos-53.dl.playstation.net
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 285
+Access-Control-Allow-Headers: ORIGIN, RANGE
+Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: SERVER, RANGE,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Akamai-Mon-Iucid-Del: 239035
+Alt-Svc: h3-Q050=":443"; ma=93600,quic=":443"; ma=93600; v="46,43"
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:22:09 GMT
+Expires: Tue, 07 Nov 2023 23:22:09 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+

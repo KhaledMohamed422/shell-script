@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: files.payoneer.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5030.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 17:26:32 GMT
+Server: CloudFront
+Via: 1.1 9bd86598a7f45cc948aa2f9674ece0b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XGYTwLzw_ivRazuh4MPzUP0G0GDlPg3zHB34-kYSK6BAUzs0ZPu6gw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://files.payoneer.com:443

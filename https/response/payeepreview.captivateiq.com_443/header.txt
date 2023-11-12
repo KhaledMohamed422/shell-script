@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: payeepreview.captivateiq.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.846.563 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e9e3dd7a161b-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:16:58 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 7b1a6e7eb0043d355ab110185f1d0446.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0RSS4basKIH2HpccYLQTnKw8xsM-GcjO-dH1Y_BXNiKDCmGc3sfh4w==
+X-Amz-Cf-Pop: DUS51-P3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>71DVAY11A60K75H5</RequestId><HostId>frxStgklH1IxjCDojeeosus1FlTuX3V28x0HV+zoHKBtaM6kCGz8ls+mveapJIr+XEGnfdn3AEs=</HostId></Error>
+0
+
+
+
+
+https://payeepreview.captivateiq.com:443

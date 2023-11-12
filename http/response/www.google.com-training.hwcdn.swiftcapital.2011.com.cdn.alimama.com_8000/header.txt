@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: www.google.com-training.hwcdn.swiftcapital.2011.com.cdn.alimama.com:8000
+User-Agent: Mozilla/5.0 (Linux; Android 10; MI 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 22
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 12:45:17 GMT
+Server: uvicorn
+
+{"detail":"Not Found"}
+
+
+http://www.google.com-training.hwcdn.swiftcapital.2011.com.cdn.alimama.com:8000

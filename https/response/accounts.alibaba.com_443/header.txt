@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: accounts.alibaba.com
+User-Agent: Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:40:48 GMT
+Eagleid: a3b55c9f16994364485961306e, a3b55c9f16994364485961306e, a3b55c9f16994364485961306e
+Location: http://www.alibaba.com/help/maintenance.html
+Server: Tengine
+Server-Timing: rt;dur=0.001,eagleid;desc=a3b55c9f16994364485961306e
+Set-Cookie: ali_apache_id=33.1.238.127.1699436448644.550657.2; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *, *, *
+Via: cache6.us13[10,0], ens-cache11.de5[95,0]
+

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>System is down for maintenance</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper {
+            width: 355px;
+            margin: 0 auto;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /*********** header css **************/
+
+        .logo-bg {
+            width: 100%;
+            height: 55px;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        .logo-img {
+            width: 120px;
+            height: 30px;
+            margin-top: 12px;
+        }
+
+        /*********** Middle content css **************/
+
+        .down {
+            margin-top: 24px;
+            color: #484848;
+            font-size: 26px;
+            line-height: 26px;
+        }
+
+        .maintenance_img {
+            width: 80px;
+            height: 60px;
+            margin: 0 auto;
+            margin-top: 45px;
+            margin-bottom: 34px
+        }
+
+        .apologize {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #525252
+        }
+
+        /*********** footer css **************/
+
+        .footer {
+            width: 100%;
+            height: 150px;
+            background-color: #767676;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        .footer-content {
+            font-family: Lato;
+            letter-spacing: normal;
+            text-align: center;
+            padding-top: 34px;
+            background-color: #767676;
+        }
+
+        .footer-content p {
+            color: #ffffff;
+            font-size: 14px;
+            line-height: 12px;
+            margin-bottom: 17px;
+        }
+
+        .footer-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /*********** Portrait and Landscape **************/
+
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+            /*********** header css **************/
+            .logo-bg {
+                width: 100%;
+                height: 72px;
+                background-color: #000000;
+                text-align: center;
+            }
+
+            .logo-img {
+                width: 120px;
+                height: 30px;
+                margin-top: 21px;
+            }
+
+            /*********** footer css **************/
+            .footer {
+                width: 100%;
+                height: 150px;
+                background-color: #767676;
+                bottom: 0;
+            }
+
+            .footer-content {
+                width: 100%;
+                height: 91px;
+            }
+        }
+
+        /*********** small screen **************/
+
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                width: 50%;
+            }
+
+            .down {
+                text-align: center;
+            }
+
+            .footer-content p:last-child {
+                line-height: 20px;
+            }
+        }
+
+        /*********** mobile view **************/
+
+        @media only screen and (max-width: 420px) {
+
+            /*********** header css **************/
+            .logo-bg {
+                width: 100%;
+                height: 50px;
+                background-color: #000000;
+                text-align: center;
+            }
+
+            .logo-img {
+                width: 95px;
+                height: 24px;
+                margin-top: 13px;
+            }
+
+            .wrapper {
+                width: 100%;
+                text-align: center;
+            }
+
+            .down {
+                font-size: 24px;
+            }
+
+            .apologize {
+                padding: 0 10%;
+            }
+
+            /*********** footer css **************/
+            .footer {
+                width: 100%;
+                height: 150px;
+                bottom: 0;
+            }
+
+            .footer-content {
+                width: 100%;
+                height: 91px;
+            }
+        }
+
+        @media only screen and (max-width: 320px) {
+            .down {
+                font-size: 22px;
+            }
+
+            .apologize {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo-bg">
+                <img src="https://storemedia.nintendo.com/ui/images/logos/repair/logo-nintendo-01.svg" class="logo-img"
+                    alt="Nintendo Logo">
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <p class="down">
+            We are down for maintenance
+        </p>
+        <div class="maintenance_img">
+            <img src="https://storemedia.nintendo.com/ui/images/logos/repair/repairs.svg">
+        </div>
+        <p class="apologize">
+            We are busy updating the site for you and apologize for any inconvience. <br />Please check back later.
+        </p>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <p>@2021 Nintendo.</p>
+            <p>Games are property of their respective owners.</p>
+            <p>Nintendo of America Inc. Headquarters are in Redmond, Washington, United States of America</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+https://storeoffline.nintendo.com:443

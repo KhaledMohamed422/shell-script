@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: princetonchuch.churchcenter.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:27:58 GMT
+Location: https://churchcenter.com/missing_organization
+Referrer-Policy: strict-origin-when-cross-origin
+Server: openresty
+Set-Cookie: church_center_session=eyJhbGciOiJFUzI1NiJ9.eyJqdGkiOiIzMzM2OTM2Y2ExMjRiMmIwNjNiNTI5NmU5YjExNDVmOCIsImlhdCI6MTY5OTQyODQ3OCwiZXhwIjoxNzAwNjM4MDc4LCJpc3MiOiIvcGNvL3Nlc3Npb24ifQ.vlUv9OhsIBLixeQV4gW0-j5MFeDzZHtHFRjJO-Em3zIQa0iIWfj5BnVgE4EiilBZHW-z7Ga-xUhJu71QQEJRyw; path=/; expires=Wed, 22 Nov 2023 07:27:58 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Via: 1.1 018ffb575888f1c9ec960e3e977c042e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UIlGOLPEqTuOzKve3mTFhE9o0m4FDra87WMUYzvl_yHv6Jo3tHkgRw==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 45f75fba-fa67-41a2-bd21-a14e3cbf425a
+X-Runtime: 0.019613
+X-Xss-Protection: 1; mode=block
+
+6f

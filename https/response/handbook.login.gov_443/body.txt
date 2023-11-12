@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      
+        Login Handbook |
+      
+      Login.gov handbook
+    </title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body data-base-url="">
+    <header class="usa-header usa-header--extended">
+      <div class="usa-navbar">
+        <div class="usa-logo">
+          <a href="/" title="Home" aria-label="Home">
+            <img src="/assets/img/login-gov-logo.svg" class="usa-logo__img" alt="Login.gov" />
+            <em class="usa-logo__text">Handbook</em>
+          </a>
+        </div>
+        <div class="grid-container tablet:margin-0 tablet:padding-0">
+          <div class="flex-row flex-align-center grid-row grid-gap-1">
+            <ul class="usa-nav__secondary-links grid-col grid-col-auto margin-0">
+              <li class="usa-nav__secondary-item" id="private-login-button-container"></li>
+            </ul>
+            <form class="usa-search usa-search--small grid-col grid-col-fill" role="search">
+              <label class="usa-sr-only" for="search-input">Search articles</label>
+              <input class="usa-input width-auto" type="search" id="search-input" placeholder="Search articles...">
+              <button class="usa-button" type="submit">
+                <span class="usa-search__submit-text">Search</span>
+              </button>
+              <ul id="search-results" tabindex="-1"></ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="usa-layout-docs usa-section" id="main-content">
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+  <aside class="tablet:grid-col-3">
+    <nav id="sidenav-wrapper">
+      
+      <ul class="inline_toc usa-accordion usa-sidenav" id="sidenav"><li class="usa-sidenav__item"><a href="#categories">Categories</a></li><li class="usa-sidenav__item"><a href="#all-articles">All Articles</a><ul class="usa-sidenav__sublist"><li class="usa-sidenav__item"><a href="#appdev">AppDev</a></li><li class="usa-sidenav__item"><a href="#architecture-1">Architecture</a></li><li class="usa-sidenav__item"><a href="#development-1">Development</a></li><li class="usa-sidenav__item"><a href="#handbook">Handbook</a></li><li class="usa-sidenav__item"><a href="#netlify-sandbox">Netlify Sandbox</a></li><li class="usa-sidenav__item"><a href="#partnerships">Partnerships</a></li><li class="usa-sidenav__item"><a href="#platform">Platform</a></li><li class="usa-sidenav__item"><a href="#private-articles">Private Articles</a></li><li class="usa-sidenav__item"><a href="#product">Product</a></li><li class="usa-sidenav__item"><a href="#reporting">Reporting</a></li><li class="usa-sidenav__item"><a href="#security">Security</a></li><li class="usa-sidenav__item"><a href="#team-1">Team</a></li></ul></li></ul>
+
+    </nav>
+  </aside>
+
+  <div class="tablet:grid-col-8">
+    <div class="usa-prose" role="main">
+      <h1>
+        Login Handbook
+        
+      </h1>
+      <p>Welcome to the Login.gov handbook! This is our open source team documentation!</p>
+
+<p>Please help us contribute and keep things up to date, and make sure
+to <a class="usa-link" href="/articles/contributing.html#sensitive-information">avoid contributing sensitive information</a>.</p>
+
+<h2 id="categories">Categories</h2>
+
+<div class="margin-bottom-4"></div>
+
+<ul class="usa-card-group">
+  
+  
+    
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#settings"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/appdev.html" class="usa-link">AppDev</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>Application development</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#account_balance"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/architecture.html" class="usa-link">Architecture</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>High-level architecture explanations</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#keyboard"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/development.html" class="usa-link">Development</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>Common Dev things across AppDev and DevOps</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#bookmark"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/handbook.html" class="usa-link">Handbook</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>About this handbook</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#bookmark"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/netlify-sandbox.html" class="usa-link">Netlify Sandbox</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>Sandbox for NetlifyCMS demos</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#campaign"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/partnerships.html" class="usa-link">Partnerships</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p></p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#build"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/platform.html" class="usa-link">Platform</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p></p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#lock"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/private/" class="usa-link">Private Articles</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p></p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#science"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/product.html" class="usa-link">Product</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>Product and process</p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#insights"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/reporting.html" class="usa-link">Reporting</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p></p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#security"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/security.html" class="usa-link">Security</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p></p>
+          </div>
+        </div>
+      </li>
+    
+      <li class="usa-card tablet:grid-col-6">
+        <div class="usa-card__container">
+          <div class="usa-card__header">
+            <span class="usa-card__heading">
+              
+                
+<svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+  <use xlink:href="/assets/img/sprite.svg#people"></use>
+</svg>
+
+              
+              <strong>
+                <a href="/categories/team.html" class="usa-link">Team</a>
+              </strong>
+            </span>
+          </div>
+          <div class="usa-card__body">
+            <p>Articles for the whole team</p>
+          </div>
+        </div>
+      </li>
+    
+  
+</ul>
+
+<h2 id="all-articles">All Articles</h2>
+
+<h3 id="appdev"><a class="usa-link" href="/categories/appdev.html">AppDev</a></h3>
+
+<p>Application development</p>
+
+<h4 id="architecture">Architecture</h4>
+
+<ul>
+  <li><span>
+<a class="usa-link" href="/articles/identity-proofing-rate-limiting.html">Identity Verification Rate Limiting</a></span>
+  <br />Rate limits in identity verification</li>
+</ul>
+
+<h4 id="deploying">Deploying</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/daily-deploy-schedule.html">Deploy Schedule for Automated Deploys</a></span>
+  <br />The daily deploy schedule for IDP, PKI and Dashboard in lower environments</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-deploy.html">Deploying new IDP and PKI code</a></span>
+  <br />Release Manager’s Guide for Production</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-cloud-gov-deploy.html">Deploying the Sample Apps</a></span>
+  <br />How to deploy oidc-sinatra and saml-sinatra to cloud.gov</p>
+  </li>
+</ul>
+
+<h4 id="development">Development</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/identity-proofing-testing.html">Identity Proofing Testing</a></span>
+  <br />Tips and tricks for testing identity proofing (IAL2 accounts) including example fake phone numbers and example PII</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/saml.html">SAML: Development</a></span>
+  <br />High-level overview of the flow of SAML in the IDP code</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-secrets-configuration.html">Secrets and Configuration</a></span>
+  <br />How to update IDP and Rails app configuration (feature flags) and secrets application.yml, and how to use the <code class="language-plaintext highlighter-rouge">app-s3-secret</code> script</p>
+  </li>
+</ul>
+
+<h4 id="oncall">Oncall</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-oncall-guide.html">AppDev Oncall</a></span>
+  <br />Responsibilities and runbook for AppDev oncall</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/bug-bounty-triage.html">Bug Bounty Triage</a></span>
+  <br />How to handle bug bounty reports</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-deploy-rotation.html">Deployer Rotation</a></span>
+  <br />Spreadsheet to track the AppDev Deployer</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-team-daytime-oncall.html">Team Daytime Oncall</a></span>
+  <br />Responsibilities for individual team daytime oncall</p>
+  </li>
+</ul>
+
+<h4 id="setup">Setup</h4>
+
+<ul>
+  <li><span>
+<a class="usa-link" href="/articles/windows-virtual-machine.html">Windows Virtual Machine Setup</a></span>
+  <br />Setting up a Windows VM on your Mac so you can test Internet Explorer</li>
+</ul>
+
+<h4 id="tasks">Tasks</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/help-center-contact-form.html">Contact Form Updating Instructions</a></span>
+  <br />Procedure for updating fields in the Help Center’s Contact Form</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1mvKQ2lGcjFurAfjn-PNopORHgkamnxpyj8Z4UmGNIi4">Key rotation guide</a></span>
+  <br />Guide for rotating secrets for the IdP and PKI codebases</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/annual-certificate-rotation.html">SAML: Annual Certificate Rotation</a></span>
+  <br />How to perform annual certificate rotation</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-i18n.html">Translation process</a></span>
+  <br />Process and guidelines for localization and string translation (i18n)</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-updating-maxmind-db.html">Updating MaxMind GeoIP database</a></span>
+  <br />Instructions for updating our IP address geolocation database</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-updating-pwned-passwords.html">Updating Pwned Passwords Dataset</a></span>
+  <br />Instructions for updating Pwned Passwords dataset in s3</p>
+  </li>
+</ul>
+
+<h4 id="x509-and-pivcac-certificates">X509 and PIV/CAC Certificates</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/openssl-recipes.html">OpenSSL Command Line Recipes</a></span>
+  <br />Commands for common certificate tasks, useful for PIV/CAC or AAMVA credentials</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/troubleshooting-pivcacs.html">Troubleshooting PIV/CAC logins and Managing Certificates</a></span>
+  <br />If somebody has trouble using their PIV/CAC with Login.gov, and also how to download new certificates from Certificate Authorities</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/troubleshooting-expiring-pivcac.html">Troubleshooting expiring PIV/CAC certs</a></span>
+  <br />Guide on finding new certs if a cert is expiring</p>
+  </li>
+</ul>
+
+<h4 id="other-articles">Other Articles</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-cloudwatch-dashboard-guide.html">Cloudwatch Dashboards</a></span>
+<br />How to search for, create, and manage cloudwatch dashboards</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1Je3-BbAIf6zB3ha6DUf8umm9ZL7Fguv2Kqr7AlYTXRU/edit">Device profiling and fraud detection</a></span>
+<br />Information about configuring and testing device profiling and fraud detection</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link deprecated-link" href="/articles/product-artifacts.html#eng-design-doc">Engineering Design Doc Template</a> (deprecated)</span>
+<br />Template that can be copied for engineering proposals</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1N_R53Cjk-L7sHpS0G65an1_l4s8B9KRzgFRU27-WAfs/">Environment Descriptions</a></span>
+<br />Listing of environments and the differences between them, like prod, pt, dm, int or dev</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1Ij1uvj8AoqYcqzMoyHv9Cz_F8urmBAoMzjkzpRn4pZU">IAL2 Common Errors List</a></span>
+<br />List of the most common IAL2 errors</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-troubleshooting-production.html">Triage User Issues</a></span>
+<br />Rails console scripts and Cloudwatch queries, for debugging the IDP</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-troubleshooting-sandbox.html">Troubleshooting the Sandbox</a></span>
+<br />Troubleshooting issues with the Login.gov sandbox/int environment</p>
+  </li>
+</ul>
+
+<h3 id="architecture-1"><a class="usa-link" href="/categories/architecture.html">Architecture</a></h3>
+
+<p>High-level architecture explanations</p>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link deprecated-link" href="/articles/appdev-lambda-jobs.html">Background Jobs: Lambda</a> (deprecated)</span>
+<br />Overview of and launch checklist for our async Lambda workers</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-proofing-ruby-worker-jobs.html">Background Jobs: Proofing Ruby Workers</a></span>
+<br />Overview and architecture of our proofing background jobs</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-risc-ruby-worker-jobs.html">Background Jobs: RISC Ruby Workers</a></span>
+<br />Overview and architecture of our RISC notification jobs</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/idp-artifact-building-architecture.html">IDP Artifacts</a></span>
+<br />Overview of IDP artifact-building architecture</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/appdev-cdn.html">IdP CDN</a></span>
+<br />Overview of use of CloudFront CDN to serve Login.gov</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/reporting-dashboard-architecture.html">Reporting Dashboard</a></span>
+<br />Overview of reporting dashboard architecture for data.login.gov</p>
+  </li>
+</ul>
+
+<h3 id="development-1"><a class="usa-link" href="/categories/development.html">Development</a></h3>
+
+<p>Common Dev things across AppDev and DevOps</p>
+
+<h4 id="code">Code</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/cloud-gov-pages.html">Cloud.gov Pages</a></span>
+  <br />Overview of static site hosting and authentication</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/github.html">GitHub</a></span>
+  <br />Team code repos, permissions, notification strategies</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/pull-request-review.html">Pull Request Process</a></span>
+  <br />How we do code reviews in pull requests</p>
+  </li>
+</ul>
+
+<h4 id="documentation">Documentation</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/postmortem-template.html">Postmortem Template</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/rollplans.html">Rollplans</a></span>
+  <br />When to create a rollplan, where to find existing ones</p>
+  </li>
+</ul>
+
+<h4 id="references">References</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/devops-scripts.html">Scripts</a></span>
+  <br />Overview of scripts used for interacting with deployed boxes</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Troubleshooting-Quick-Reference">Troubleshooting Quick Reference</a></span>
+  <br />List of things to check to triage active issues in production</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/piv-ssh.html">macOS PIV to SSH key extraction</a></span></p>
+  </li>
+</ul>
+
+<h4 id="other-articles-1">Other Articles</h4>
+
+<h3 id="handbook"><a class="usa-link" href="/categories/handbook.html">Handbook</a></h3>
+
+<p>About this handbook</p>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/contributing.html">Contributing to the Handbook</a></span>
+<br />Guidelines for contributing to the handbook</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/template.html">Template Page</a></span>
+<br />An example article that you can copy</p>
+  </li>
+</ul>
+
+<h3 id="netlify-sandbox"><a class="usa-link" href="/categories/netlify-sandbox.html">Netlify Sandbox</a></h3>
+
+<p>Sandbox for NetlifyCMS demos</p>
+
+<ul>
+  <li><span>
+<a class="usa-link" href="/articles/example-netlify-demo.html">Example Netlify demo</a></span>
+<br />Page for editing</li>
+</ul>
+
+<h3 id="partnerships"><a class="usa-link" href="/categories/partnerships.html">Partnerships</a></h3>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/partnerships-test-ssns.html">Adding Test SSNs to the Sandbox for Partners</a></span>
+<br />The steps necessary to add a set of test SSNs for use in the sandbox that don’t meet the default format requirements.</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/deploying-sp-to-prod.html">Deploying a Partner Service Provider Config to Production</a></span>
+<br />Process and procedures when deploying a partner service provider config to production</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://drive.google.com/drive/folders/1n7gUsYCoI1q3H2SMbbOwA-j8GGeRa3R0">Partner Reporting Document</a></span>
+<br />How to create monthly reports</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1WnTCdR8fwt46Eca1EHGQzyjnxfqhGfPe4uFti3PhVbg/edit#heading=h.pawq0m2tiuo3">Partner Success Engineer Workflows</a></span>
+<br />Data map for identity-idp-config YAML files to data sources (IAA GTCs and Orders, Dashboard, etc)</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/partnerships-ticket-handling.html">Partner Support Ticket Handling</a></span>
+<br />How to handle and track support requests from partners</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfgvOJEoAhMjxdm2pyBBCLzu3SXt_Lv8b9091dPRmDHkuZftw/viewform">Partnerships Feedback Form</a></span>
+<br />This form is used to collect feedback from partners and the data is then put into an internal collection document</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/16rlBJvD83WmktViLFusOmmLabAU635wn3VZ_6y1jH2M">Partnerships Internal Pilot Playbook</a></span>
+<br />Coordinate Pilots of new features with our Partners</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/spreadsheets/d/1MgPds8KTTPjmmC6ow4G3-1veSlMOiF-OTzCmZYqqZ_M">Partnerships Kudos and Feedback</a></span>
+<br />A history of kudos received from partners</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/partnerships-provision-test-users.html">Provisioning Test IDV Users for Partners</a></span>
+<br />The steps necessary to set up a collection of test users with IDV profiles for a partner in the sandbox.</p>
+  </li>
+</ul>
+
+<h3 id="platform"><a class="usa-link" href="/categories/platform.html">Platform</a></h3>
+
+<h4 id="how-to">How To</h4>
+
+<ul>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Baking-New-AWS-AMI-Images">Baking New AWS AMI Images</a></span>
+  <br />Runbook for creating new Base and Rails AMI images</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Building-a-Personal-Sandbox-Environment">Building a Personal Sandbox Environment</a></span>
+  <br />This is a guide to follow when you are standing up your own personal development environment, aka “sandbox”</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Deploying-Infrastructure-Code">Deploying Infrastructure Code</a></span>
+  <br />Runbook for the process of deploying code from 18f/identity-devops into our infrastructure.</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-auto-tf-runbook.html">Infrastructure auto-terraform Runbook</a></span>
+  <br />How to use/manage/understand auto-terraform</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Load-Testing">Load Testing Process</a></span>
+  <br />Process overview and instruction for performing load tests in AWS</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Disaster-Recovery:-Recovering-RDS-and-KMS">Platform Disaster Runbooks</a></span>
+  <br />Recovering from really really bad stuff</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-oncall-guide.html">Platform On-Call Guide</a></span>
+  <br />Runbook/guide for rotations/responsibilities for the Login.gov Platform engineering teams.</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Infrastructure-Scaling">Platform Scaling</a></span>
+  <br />Runbooks for scaling out or up various resources in anticipation of or response to added load</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Setting-Up-AWS-Vault">Setting Up aws-vault</a></span>
+  <br />This runbook is for getting set up with, and using, <code class="language-plaintext highlighter-rouge">aws-vault</code>, a tool for providing easier access for cross-account role assumption.</p>
+  </li>
+</ul>
+
+<h4 id="references-1">References</h4>
+
+<ul>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Custom-Aliases-and-Functions-for-identity-devops">Custom Aliases/Functions for identity-devops Commands</a></span>
+  <br />Reference/runbook for the custom commands created via the login-alias script.</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/External-Services-and-Limits">External Services and Limits</a></span>
+  <br />Notes on rate and cost limited external services used by IdP and out platform</p>
+  </li>
+</ul>
+
+<h4 id="team">Team</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-acceptance-criteria.html">Acceptance Criteria for Platform PRs and Issues</a></span>
+  <br />How to create and manage pull requests and issues for the Login.gov Platform Teams.</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-ceremonies.html">Team Radia Sprint Ceremonies</a></span>
+  <br />How Sprints and Standups operate</p>
+  </li>
+</ul>
+
+<h4 id="other-articles-2">Other Articles</h4>
+
+<ul>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/AWS-Account-and-IAM-Configurations">AWS Accounts and IAM Groups/Roles</a></span>
+<br />Private list of AWS accounts, roles, and groups for human users</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-iam-configs.html">AWS IAM User/Group/Role/Account Configurations</a></span>
+<br />Detailed information about our IAM configurations, and how to add/alter IAM components within our infrastructure.</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-email.html">Email Routing</a></span>
+<br />Inbound and outbound SMTP information</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-gitlab.html">GitLab</a></span>
+<br />GitLab Setup</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-gitlab-env-deploy.html">GitLab Environment Deploys</a></span>
+<br />How to use GitLab to deploy your sandbox IdP environments</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-gitlab-imagesigning.html">GitLab Image Signing</a></span>
+<br />GitLab Image Signing</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-gitlab-prod-deploy.html">GitLab Production Deploys</a></span>
+<br />How to deploy changes to the production Gitlab system</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Troubleshooting-Quick-Reference#infrastructure-metrics">Infrastructure Metrics and Alerting</a></span></p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Making-Changes-via-Terraform">Making Changes via Terraform</a></span>
+<br />This is a guide to the various <code class="language-plaintext highlighter-rouge">terraform</code> directories in <code class="language-plaintext highlighter-rouge">identity-devops</code> and how to use them</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/platform-tips.html">Platform Tips and Tricks</a></span>
+<br />Helpful tips for AWS, Terraform, and other platform related tech</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://github.com/18F/identity-devops/wiki/Infrastructure-Secrets">Platform: Secrets!</a></span>
+<br />List of configuration secrets and how to manage them</p>
+  </li>
+</ul>
+
+<h3 id="private-articles"><a class="usa-link" href="/private/">Private Articles</a></h3>
+
+<h3 id="product"><a class="usa-link" href="/categories/product.html">Product</a></h3>
+
+<p>Product and process</p>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/definition-of-done.html">Definition of Done</a></span>
+<br />Checklist for work to be done, and accepted via an Acceptance Thread</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/definition-of-ready.html">Definition of Ready</a></span>
+<br />Best practices for tracking issues in JIRA</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/product-artifacts.html">Product Artifacts</a></span>
+<br />Documentation Templates including SBARs, 1-Pagers, RFCs</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/sprint-ceremonies.html">Sprint ceremonies</a></span>
+<br />Overview of a scrum team’s regularly scheduled meetings</p>
+  </li>
+</ul>
+
+<h3 id="reporting"><a class="usa-link" href="/categories/reporting.html">Reporting</a></h3>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/analytics-events.html">Analytics Events</a></span>
+<br /><code class="language-plaintext highlighter-rouge">events.log</code> structure and event descriptions</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/google-analytics.html">Google Analytics</a></span>
+<br />Brochure site analytics and the Digital Analytics Program</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1hmiU1nUtYoMLbSrMvBauG_bYrMiVKAXzgksYr3P546w/edit">Monthly Key Metrics Reporting</a></span>
+<br />Overview of report, includes metrics and methodology</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/reporting-process.html">Reporting Process</a></span>
+<br />Reporting process for ad-hoc data requests, query requests and analyses</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/queries.html">Reporting Queries</a></span>
+<br />Queries to run in the Rails console for common reporting questions</p>
+  </li>
+</ul>
+
+<h3 id="security"><a class="usa-link" href="/categories/security.html">Security</a></h3>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/secops-incident-response-guide.html">Incident Response Guide</a></span>
+<br />Security Incident Response Guide</p>
+  </li>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/document/d/1e8ql6tP-NS2N7RbGHeDQfYBz4rJNRfE_cb9MKuDGX1I/edit">New Feature Onboarding</a></span>
+<br />Checklist for new features, specifically focused on documentation needed for security review</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/vendor-outage-response-process.html">Vendor outage response process</a></span>
+<br />What to do in the event of a 3rd party vendor outage.</p>
+  </li>
+</ul>
+
+<h3 id="team-1"><a class="usa-link" href="/categories/team.html">Team</a></h3>
+
+<p>Articles for the whole team</p>
+
+<h4 id="guides">Guides</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/wargames-dungeon-masters-guide.html">Contingency Plan Training Wargames - Dungeon Master’s Guide</a></span>
+  <br />How to create an exciting Wargames DM scenario</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/incident-response-checklist.html">Incident Response Checklist</a></span>
+  <br />Quick reference checklist for incident response</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/pii-guidance.html">PII Guidance</a></span>
+  <br />Guidance on safe handling of Personally Identifiable Information</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/statuspage-process.html">StatusPage Update Process</a></span>
+  <br />Publishing outage and maintenance information to StatusPage</p>
+  </li>
+</ul>
+
+<h4 id="how-to-1">How To</h4>
+
+<ul>
+  <li><span>
+<a class="usa-link" href="/articles/platform-splunk-oncall.html">Splunk On-Call</a></span>
+  <br />Basic information on our on-call scheduling and alerting tool</li>
+</ul>
+
+<h4 id="people-ops">People Ops</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/leave-guidance.html">Leave Guidance</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/offboarding.html">Offboarding</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/onboarding.html">Onboarding</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/overtime.html">Overtime</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/biannual-review.html">Reviews</a></span>
+  <br />Mid-Year and End-of-Year Self Review and Peer Feedback</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/accounts.html">Services and Accounts</a></span>
+  <br />List of external services and logins to manage</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/staffing.html">Staffing</a></span>
+  <br /></p>
+  </li>
+</ul>
+
+<h4 id="program-information">Program Information</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/cost-recoverability.html">Funding and Cost Recoverability</a></span>
+  <br />How Login.gov is funded and what it means</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/project-principles.html">Login.gov Principles</a></span>
+  <br />Our mission and project principles</p>
+  </li>
+</ul>
+
+<h4 id="team-organization">Team Organization</h4>
+
+<ul>
+  <li>
+    <p><span data-anchor="">
+<a class="usa-link" href="https://docs.google.com/spreadsheets/d/1tiTR2ohdl0NIsrF4gJjNipEZ0z0oq1pOFWYjHg8Tbi0/edit#gid=0">Org Chart</a></span></p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/slack.html">Slack</a></span>
+  <br />Groups and Channels</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/team-roles.html">Sprint Team Roles</a></span>
+  <br />List of our sprint team roles and responsibilities</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/sprint-teams.html">Sprint Teams</a></span>
+  <br />List of our sprint teams and the explanations behind their names</p>
+  </li>
+</ul>
+
+<h4 id="other-articles-3">Other Articles</h4>
+
+<ul>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/gpo-designated-receiver.html">GPO Designated Receiver</a></span>
+<br />How we verify that USPS/GPO address verification is working as expected</p>
+  </li>
+  <li>
+    <p><span>
+<a class="usa-link" href="/articles/glossary.html">Glossary</a></span>
+<br />Explanation of common terms, acronyms, and abbreviations</p>
+  </li>
+</ul>
+
+
+    </div>
+  </div>
+</div>
+
+
+        <span data-anchor="extra data anchor to make anchor.js render its stylesheet"></span>
+      </div>
+    </main>
+    <footer class="usa-footer usa-footer--slim" role="contentinfo">
+      <div class="grid-container usa-footer__return-to-top">
+        <div class="grid-row flex-align-center">
+          <div class="grid-col flex-1">
+            <a href="#">Return to top</a>
+          </div>
+          <div class="grid-col flex-auto">
+            This page was last modified on Aug 31, 2022
+            <a href="https://github.com/18F/identity-handbook/edit/main/index.md" class="usa-button usa-button--outline">Edit this page</a>
+          </div>
+        </div>
+      </div>
+      <div class="usa-footer__secondary-section">
+        <div class="grid-container">
+          <div class="usa-footer__logo grid-row grid-gap-2">
+            <div class="grid-col-auto">
+              <img src="/assets/img/gsa-logo-rev.svg" alt="U.S. General Services Administration logo" class="usa-footer__logo-img usa-footer__slim usa-footer__medium" />
+            </div>
+            <div class="grid-col-auto">
+              <h3 class="usa-footer__logo-heading">U.S. General Services Administration</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module">
+      import {
+        loadAnchors,
+        loadPrivateEye,
+        loadSimpleJekyllSearch,
+        setUpPrivateLogin,
+        installCustomTimeElements
+      } from '/assets/js/setup.js';
+
+      document.addEventListener('DOMContentLoaded', () => {
+        loadAnchors();
+        loadPrivateEye();
+        loadSimpleJekyllSearch();
+        setUpPrivateLogin();
+        installCustomTimeElements();
+      }, false);
+    </script>
+  </body>
+</html>
+
+
+
+https://handbook.login.gov:443

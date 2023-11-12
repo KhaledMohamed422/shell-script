@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=" ">
+
+<title>Hilton Dev Portal for documentation</title>
+
+
+<link rel="shortcut icon" href="/images/favicon/favicon.ico">
+<link rel="stylesheet" href="/css/customstyles.css">
+<link rel="stylesheet" href="/css/prism.css">
+<link rel="stylesheet" href="/css/pagination.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.cookie.min.js"></script>
+<script src="/js/jquery.navgoco.min.js"></script>
+
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/angular.min.js"></script>
+
+<script src="/js/angular-sanitize.js"></script>
+<script src="/js/customscripts.js"></script>
+<script src="/js/angular-script.js"></script>
+<script src="/js/api.js"></script>
+
+<style>
+html {
+	display: none;
+}
+</style>
+<script>
+	if (self == top) {
+		document.documentElement.style.display = 'block';
+	} else {
+		top.location = self.location;
+	}
+</script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://idratherbewriting.com/feed.xml">
+
+
+<script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+            
+            // Initialize navgoco with default options
+            $("#mobile-mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</head>
+<body ng-app="mainApp" ng-controller="mainController" ng-cloak>
+	<!-- Page Content -->
+
+
+	   <div class="container">
+			<!-- Navigation -->
+<div class="top-nav">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+      <div class="navbar-header">
+        <a href="/">
+          <img class="hilton-logo" src = "../../../../../images/logo/hilton-api-logo-header.png"/>
+        </a>
+      </div>
+      <div class="top-nav-search">
+        <img src="/images/icons/search-icon-header.png" ng-show="isSearchVisible" ng-click="openSearch()" class="search-icon-header"/>
+        <img src="/images/icons/search-close-white.png" ng-show="isSearchCloseVisible" ng-click="closeSearch()" class="search-icon-header search-close"/>
+      </div>
+      <div class="collapse navbar-collapse"
+           id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- entries without drop-downs appear here -->
+           
+           
+          
+          <li>
+            <a href="/sample-app/api-access/">Request API Access
+            </a>
+          </li> 
+           
+           
+          
+          <!-- entries with drop-downs appear here -->
+          <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</div>
+			
+		      <div class="custom-container main-content" ng-style="customContainerStyle">
+			  	<div class="post-content">
+	
+		<!-- Main header -->
+		<div class="main-page-header">
+			<span class="main-header-regular">  </span>
+		</div>
+		<!-- Main header -->
+<div class="main-header">
+	<span class="main-header-small"> Welcome to the </span><br />
+	<span class="main-header-regular"> Hilton API Developer Hub</span>
+</div>
+
+<!-- Search bar -->
+<div class="has-search">
+   <form>
+	   <input type="text" id="search-input" class="input-search" placeholder="What can I help you find?" />
+	   <button id="search-btn" type="submit"><img src="/images/icons/search-icon.png" class="search-icon" /></button>
+   </form>
+   <script type="text/javascript">
+    $(function () {
+        $("#search-btn").bind("click", function () {
+            var url = "/search.htm?query=" + encodeURIComponent($("#search-input").val());
+            window.location.href = url;
+        });
+    });
+	</script>
+</div>
+
+<!-- Catagory grid -->
+<div class="row top-row">
+	<div class="cols cols-1">
+		<a href="/how-to-use/"><img class="column-img" src="/images/main/how-to-use.png" /></a>
+		<div class="sub-column">
+			<span class="column-header"><a href="/how-to-use/">How To Use</a></span><br />
+			<span class="column-description">Key info you need to know in order to use Hilton’s APIs successfully. </span>
+		</div>
+	</div>
+	<div class="cols">
+		<a href="/api-catalog/hospitality-partner/"><img class="column-img" src="/images/main/api-catalog.png" /></a>
+		<div class="sub-column">
+			<span class="column-header"><a href="/api-catalog/hospitality-partner/">API Catalog</a></span><br />
+			<span class="column-description">Find all of the resources and information you need to use our APIs, and to determine which API services you need to access.</span>
+		</div>
+	</div>
+</div>
+<div class="row bottom-row">
+	<div class="cols cols-1">
+		<a href="/sample-app/"><img class="column-img" src="/images/main/sample-app.png" /></a>
+		<div class="sub-column">
+			<span class="column-header"><a href="/sample-app/">Sample App</a></span><br />
+			<span class="column-description">Tips &amp; tricks to help you build an app with our APIs. Dive in, experiment, and get connected.</span>
+		</div>
+	</div>
+	<div class="cols">
+		<a href="/production-support/"><img class="column-img" src="/images/production-support/petr-machacek.jpg" /></a>
+		<div class="sub-column">
+			<span class="column-header"><a href="/production-support/">Production Support</a></span><br />
+			<span class="column-description">Help when you need it.</span>
+		</div>
+	</div>
+</div>
+
+	
+</div>	
+			  </div>
+			 
+			<footer>
+    <hr class="footer-hr" />
+	<div class="footer-column">
+		<div class="footer-product-list">
+		  <ul class="ul-product-list">
+		    <li><a href="/sample-app/api-access/">Request API Access</a></li>
+		    <li><a href="/how-to-use/">How to Use</a></li>
+		    <li><a href="/api-catalog/hospitality-partner/">API Catalog</a></li>
+		    <li><a href="/sample-app/">Sample App</a></li>
+		    <li><a href="/production-support/">Production Support</a></li>
+		  </ul>
+		</div>
+	</div>
+</footer>
+
+		</div>
+		<!-- /.container -->
+		<div class="menu-list-background" ng-show="isMenuExtractVisible">
+			<div class="menu-list-extract">
+				<button class="menu-btn" ng-click="closeMenu()">
+					<img src="/images/icons/menu-close-blue.png" class="menu-close" />
+				</button>
+				<ul class="menu-top-list">
+					<li>
+						
+						    <a href="/how-to-use/">HOW TO USE</a>
+						
+					</li>
+						
+					<li>     
+						
+						    <a href="/api-catalog/hospitality-partner/">API CATALOG</a>
+						
+					</li>
+						
+					<li> 	    
+					    
+						    <a href="/sample-app/">SAMPLE APP</a>
+						
+					</li>
+						
+					<li> 	    
+						
+						    <a href="/production-support/">PRODUCTION SUPPORT</a>
+						
+					</li>
+						
+					<li> 	    
+						
+						    <a href="/sample-app/api-access/">Request API Access</a>
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="search-background" ng-show="isSearchBoxVisible">
+			<div class="search-box-mobile">
+			    <form>
+		    		<input type="text" id="mobile-search-input" class="input-search-mobile" placeholder="What can I help you find?">
+		    		<button id="mobile-search-btn" type="submit"><img src="/images/icons/search-icon.png" class="mobile-search-icon" /></button>
+	    		</form>
+	    		<script type="text/javascript">
+				    $(function () {
+				        $("#mobile-search-btn").bind("click", function () {
+				            var url = "/search.htm?query=" + encodeURIComponent($("#mobile-search-input").val());
+				            window.location.href = url;
+				        });
+				    });
+				 </script>
+			</div>
+		</div>
+</body>
+</html>
+
+
+https://developer-s.hilton.io:443

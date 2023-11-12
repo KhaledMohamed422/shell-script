@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="shortcut icon" href="//www.taobao.com/favicon.ico">
+    <meta charset="utf8">
+    <meta name="description" content="淘宝搜索是最智能的商品搜索引擎，通过大数据的运营，准确的理解商品与用户，提供精准的个性化搜索体验。">
+    <meta name="keywords" content="淘宝搜索">
+    <title>淘宝搜索</title>
+    <script>
+
+        g_ks_monitor_st = +new Date;
+        window.givenByFE={};
+        window.g_config={
+            appId: 3,
+            toolbar: false,
+            webww: true,
+            ap_mods: {
+                jstracker:[ 0.0001 ]
+            }
+        }
+    </script>
+
+    <!-- S GLOBAL CSS -->
+    <link rel="stylesheet" href="//g.alicdn.com/tb/global/3.5.29/global-min.css">
+    <!-- E GLOBAL CSS --><!-- S GLOBAL JS -->
+    <script src="//g.alicdn.com/??kissy/k/1.4.15/seed-min.js,tb/global/3.5.29/global-min.js"></script>
+    <!-- E GLOBAL JS -->
+    <script src="//g.alicdn.com/tb/bsrp/0.30.0/publish/??staobaocom.js"   charset="utf-8" ></script>
+    <link rel="stylesheet" href="//g.alicdn.com/tb/bsrp/0.30.0/publish/??staobaocom.css">
+
+    <link rel="search" type="application/opensearchdescription+xml" title="淘宝搜索" href="/opensearch.xml" />
+</head>
+<body id="index" data-spm="1"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=213e29d116994390531073922e0e77&asid=AQAAAADNYUtlOuYKAwAAAACXDBVtCcmVDw==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+
+<!-- S GLOBAL HTML -->
+<div id="J_SiteNav" class="site-nav">
+    <div id="J_SiteNavBd" class="site-nav-bd">
+        <ul id="J_SiteNavBdL" class="site-nav-bd-l"></ul>
+        <ul id="J_SiteNavBdR" class="site-nav-bd-r"></ul>
+    </div>
+</div>
+<!-- --><!-- 全网顶通 --><!-- E GLOBAL HTML -->
+<div id="page" class="w950">
+    <div id="header">
+        <div class="grid-c">
+
+
+            <div class="module" id="stblogo">
+
+
+                <style type="text/css">
+                    body{
+                        background-color: #fff;
+                    }
+                    #stblogo{
+                        position: absolute;
+                        height: 320px;
+                        width: 950px;
+                        background: url("//img.alicdn.com/tps/i4/T1uMVXXyNXXXcbsd3e-950-320.png");
+                    }
+                    #stblogo a {
+                        margin: 65px 0 0 364px;
+                        display: block;
+                        width: 225px;
+                        height: 65px;
+                        position: relative;
+                    }
+                    .bang-index h5{
+                        color: ;
+                    }
+                    .search-tab li a{
+                        color: ;
+                    }
+                    .bang-index i {
+                        color: ;
+                    }
+                    .bang-index li.first i{
+                        color: ;
+                    }
+                    .bang-index li a,
+                    .search-tab li a{
+                        color: ;
+                    }
+                    .bang-index div.hot,
+                    .bang-index div.grow,#footer{
+                        border-color: ;
+                    }
+                    #server-num{
+                        color: #fff !important;
+                        _display: none;
+                    }
+                    .search-auto, .search-form .input,
+                    .search-tab li.selected,
+                    .search-tab li.selected .l,
+                    .search-tab li.selected .r,
+                    .search-form .l,
+                    .search-form form button,
+                    .search-form .r{
+                        background-image: url("//img.alicdn.com/tps/i4/T1uMVXXyNXXXcbsd3e-950-320.png");
+                    }
+                </style>
+                <a href="//www.taobao.com/?spm=1.2164996.a21459f.1" target="_top">
+                </a>
+
+            </div>
+
+        </div>        <!-- #site-nav END -->
+        <!-- #header END -->
+        <script>
+            TB.Global.blacklist = ['fn-cart'];
+            TB.Global.init();</script>
+    </div>
+    <div class="search-form">
+        <div class="search-box">
+            <div class="search-triggers">
+                <ul class="ks-switchable-nav" id="J_SearchTab">
+                    <li class="selected" data-searchtype="item" data-defaultpage="nogo"><a hidefocus="true" href="">宝贝</a></li>
+                    <li data-searchtype="shop"
+                        data-defaultpage="//shopsearch.taobao.com/search?q="
+                        data-action="/search"><a hidefocus="true" href="">店铺</a></li>
+                </ul>
+            </div>
+            <div class="search-panel search-srp-panel ks-switchable-content">
+                <form id="J_SearchForm" action="//s.taobao.com/search" method="get" >
+                    <!-- 这是一个tab组件 -->
+
+                    <input type="hidden" name="initiative_id" value="staobaoz_20120515"/>
+
+                    <div class="search-panel-fields search-srp-panel-fields search-common-panel"><!-- 如果没有类目，则多加一个样式allWidth -->
+                        <div class="search-button">
+                            <button class="btn-search" type="submit">搜 索</button>
+                        </div>
+
+                        <div class="input-auto">
+                            <input aria-haspopup="true"
+                                   aria-combobox="list" role="combobox" combobox="off"
+                                   class="ks-combobox-input" tabindex="0"
+                                   id="q" name="q" value="" placeholder="请输入要搜索的内容"
+                                   _default="请输入要搜索的内容" lang="zh-CN"
+                                   autocomplete="off"
+                                    />
+                        </div>
+                        <!--
+                        <div class="input-auto">
+                            <input id="q" accesskey="s" name="q" maxlength="60" autocomplete="off" value="{{q}}" id="title" placeholder="请输入要搜索的内容" _default="请输入要搜索的内容" lang="zh-CN"/>
+                        </div>
+                        -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="bang bang-index"   data-spm="14" style="min-height:150px">
+        
+    </div>
+
+    <div class="tb-footer">
+        <div data-spm="13" id="footer">
+            <div class="copyright">
+                &copy; 2016 Taobao.com 版权所有<br>
+                增值电信业务经营许可证：浙B2-20080224
+            </div>
+            <div style="color:#fff" id="server-num"></div>
+        </div>    </div>
+</div>
+<div id="J_No_Gotop"></div>
+<script>
+    function rand() {
+        return parseInt(Math.random() * 100000 + 1);
+    }
+</script>
+</body>
+</html>
+
+0
+
+
+
+
+https://shopsearch.taobao.com:443

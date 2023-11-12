@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: api-staging.latchaccess.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20130108 Firefox/10.0.12 SeaMonkey/2.7.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:43:11 GMT
+Referrer-Policy: no-referrer
+Vary: Accept-Encoding,Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699418591568},"payload":{"message":""},"trailer":{"checkSum":3582339138}}
+
+
+https://api-staging.latchaccess.com:443

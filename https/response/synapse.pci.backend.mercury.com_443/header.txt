@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: synapse.pci.backend.mercury.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a65663da8061f-IAD
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:48 GMT
+Ec2-Instance-Id: i-03c59a147d6d2f8da
+Ec2-Instance-Name: mercury-web-backend-2.production.internal.mercury.com
+Git-Commit: dd49a3b625dba0484e9c791e502a6098180d199c
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/production/datasets/backend/trace?trace_id=3c761f7dc5d0f04cd92259f2b573305b&trace_start_ts=1699407048&trace_end_ts=1699414248
+Server: nginx
+Set-Cookie: _SESSION=cALy9sIoxQgD+Ujcl/zPzVPO/J7tWQZ4GdTyiMmHv+VElc+TCnfTHHHDFUew3iLogrQjJ7jxMA0De6PPuS+INJ5Cx/wvOq3qd6K7ZsMzD+rX6s+LG+TA9bWiEoBHGH8clYuqAP0IdpVDHOEUbTrKAqOv115wSLmekWWt2ppGxY1rcR/ADjI=; Path=/; Expires=Wed, 08-Nov-2023 04:30:47 GMT; Domain=backend.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=YQwfuyopAvFoHG35zOytyqm494xbTibFVPxcdwfK; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=7mbtM5zRzr0TP3gKcXtt_9vwTkBHQ4Vmy_nXx51muf8-1699410648-0-AdPb7wL2x9S9VOZZGjfDoEcuSP67Z8Xf5jalZmol2skoHu8Qi5EO0NQC8jOix1x2/Qz6zsbqNvS/d2WZQcHq6/E=; path=/; expires=Wed, 08-Nov-23 03:00:48 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-3c761f7dc5d0f04cd92259f2b573305b-3c1f89cd97410341-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+Vgs-Request-Id: 5007e9f014ed06a45c22a6426b3681b0
+Via: 1.1 reverse-http-proxy-59fcbc8b8c-bsvpd
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 61
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://synapse.pci.backend.mercury.com:443

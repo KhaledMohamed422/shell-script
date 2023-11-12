@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: catch.ozow.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228dbac0ba318de-FRA
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:02:01 GMT
+Server: cloudflare
+X-Amz-Apigw-Id: ODEJ9Ft3joEEccg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ccd0edd8-a855-4ea2-a003-969ddd14d9b4
+
+{"message":"Missing Authentication Token"}
+
+
+https://catch.ozow.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: rudderstack.cdp.prod.data.typeform.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; en-us; sdk Build/MR1) AppleWebKit/536.23 (KHTML, like Gecko) Version/4.3 Mobile Safari/536.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 222
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 22:58:41 GMT
+Vary: Origin
+
+{"appType": "EMBEDDED", "server":"UP", "db":"UP","acceptingEvents":"TRUE","routingEvents":"TRUE","mode":"NORMAL","goroutines":"6288", "backendConfigMode": "JSON", "lastSync":"2023-09-19T15:43:27Z", "lastRegulationSync":""}
+
+
+http://rudderstack.cdp.prod.data.typeform.com:80

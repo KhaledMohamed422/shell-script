@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: app.t07-pre-prod.callsign.com
+User-Agent: Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 564
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:32 GMT
+Server: awselb/2.0
+Via: 1.1 4916e178488f684789738aa0c104421a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zDH290PuXmSdMeqRFyZgc-LWzW8XB9ZVkTjaxIE0Nh15RFMQXbki6w==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Error from cloudfront
+

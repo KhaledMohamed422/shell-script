@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head prefix=''>
+<title>Status Page - FlinksDev
+</title>
+<meta charset='utf-8'>
+<meta content='View FlinksDev&#39;s real-time and historical operational status.' name='description'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='/assets/state/polyfills-9a90944f0da4bf79480824ded39659222d5936db47e78391427898a0815b6f8b.js' name='polyfills'>
+
+<link rel="stylesheet" media="all" href="/assets/state/application-818edfe83157ed45c7b81d46bc261277edaeae9141f4e0fa991c04208f77cbdf.css" />
+<style>
+  .issue time{display:none !important}
+</style>
+
+<script src="/assets/state/fonts-f618ea778f7b9e72a6e2c261a3cf53126ecc2cb8448cdad8524eec032a98418e.js"></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="a9Gi3D1QCY4yPP+ooFjKatX0ijldBI2qyjmAPgSDuVikioDAs4FKgiJxihfyyxhjrd+IEAHU7OWaW4CCkTsF2w==" />
+</head>
+<body class='font-features'>
+<div class='container'>
+<header role='banner'>
+<div class='title'>
+<a href='https://flinksdev.dev.fin.ag/'>
+<img srcset="https://hund-client-logos.s3.amazonaws.com/uploads/regular_62e029b8f02f464e9dc77d47-df5204db-d090-48c5-81c1-384bccc18041.png 1x, https://hund-client-logos.s3.amazonaws.com/uploads/62e029b8f02f464e9dc77d47-df5204db-d090-48c5-81c1-384bccc18041.png 2x" alt="FlinksDev" width="152" height="57" src="https://hund-client-logos.s3.amazonaws.com/uploads/62e029b8f02f464e9dc77d47-df5204db-d090-48c5-81c1-384bccc18041.png" />
+</a>
+</div>
+
+<a id="toggle-nav-link" class="toggle-nav-link" role="button" aria-label="Open menu" aria-expanded="false" href="javascript:void(0)"><i aria-hidden='true' class='toggle-nav-icon'></i>
+</a><nav class='header-nav' role='navigation'>
+<a class="button nav-link" data-behavior="subscribe-button" data-render="/subscriptions/modal" href="/subscriptions/new">Subscribe</a>
+</nav>
+</header>
+
+
+<aside class='outage state-bar' data-behavior='disable-ctts'>
+<span class='status'>Experiencing Downtime</span>
+<span class='meta'><time datetime='2023-11-07T23:19:13Z' distance_in_words='true' translation='Updated %{time} ago'>Nov  7, 2023 6:19 PM EST</time>
+</span>
+</aside>
+
+<div role='main'>
+
+<section class='groups'>
+<section aria-label='Test Group' class='group' role='region'>
+<header data-behavior='disable-ctts'>
+<h2>Test Group</h2>
+<span class='description no-click' data-tooltip='&lt;p&gt;This is a test group&lt;/p&gt;
+' tabindex='0'></span>
+<span class='outage state' role='img' tabindex='0' title='Outage'>Outage</span>
+
+</header>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e170eda8772477764af43b">Test Component.lin</a></span>
+<span class='description no-click' data-tooltip='&lt;p&gt;8&lt;/p&gt;
+' tabindex='0'></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/62f525b210bdfb5efc8f5d3c">Lin - test issue 1.33 regression ^-^</a></span>
+<time datetime='2022-08-11T15:52:18Z'>Aug 11, 2022 11:52 AM EDT</time>
+
+</div>
+
+<div class='assessed clickable issue'>
+<span class='title'><a href="/issues/62ec1751386fb3395282b384">Lin - test issue</a></span>
+<time datetime='2022-08-04T19:00:33Z'>Aug  4, 2022 3:00 PM EDT</time>
+
+</div>
+
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/62ec03684a0ebd15983ebe10">Desc Content Test</a></span>
+<time datetime='2022-08-04T17:35:36Z'>Aug  4, 2022 1:35 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e17127a87724777074b34a">Test degraded component</a></span>
+<span class='description no-click' data-tooltip='&lt;p&gt;This is a test component description that is degraded&lt;/p&gt;
+' tabindex='0'></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/632db87410bdfb27e1faedd0">CDB 1.35 sanity</a></span>
+<time datetime='2022-09-23T13:45:24Z'>Sep 23, 2022 9:45 AM EDT</time>
+
+</div>
+
+<div class='clickable issue'>
+<span class='title'><a href="/issues/62ec0decf4e01e190daabb6a">test Issue created</a></span>
+<time datetime='2022-08-04T18:20:28Z'>Aug  4, 2022 2:20 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e17153a87724777493d986">Test outage component</a></span>
+<span class='description no-click' data-tooltip='&lt;p&gt;This is a component with an outage&lt;/p&gt;
+' tabindex='0'></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/631a3f0c10bdfb5ef8b7aad7">Lin - test issue CDB 1.34 (✿◠‿◠)</a></span>
+<time datetime='2022-09-08T19:14:20Z'>Sep  8, 2022 3:14 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/632ccf23f4e01e6e4069964f">regression sim test</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+
+</div>
+
+</section>
+<section aria-label='Test FIM Availability' class='group' role='region'>
+<header data-behavior='disable-ctts'>
+<h2>Test FIM Availability</h2>
+<span class='description no-click' data-tooltip='&lt;p&gt;Component group to test institution status ingestiton on FIM&lt;/p&gt;
+' tabindex='0'></span>
+<span class='outage state' role='img' tabindex='0' title='Outage'>Outage</span>
+
+</header>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e28dc5f4e01e04d81325dd">Tangerine</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/63bc62f6a8772407ca98d343">Tangerine - New</a></span>
+<time datetime='2023-01-09T18:54:46Z'>Jan  9, 2023 1:54 PM EST</time>
+
+</div>
+
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/633af2934a0ebd2ac02020c8">Issue Title</a></span>
+<time datetime='2022-10-03T14:32:51Z'>Oct  3, 2022 10:32 AM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e28e3bf4e01e04d7a67f39">Scotiabank</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62e28e76f4e01e04d7a67f46">CIBC</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='assessed clickable issue'>
+<span class='title'><a href="/issues/62ffc830f4e01e190daad669">hund adapter test</a></span>
+<time datetime='2022-08-19T17:28:16Z'>Aug 19, 2022 1:28 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62ed38044a0ebd159629f741">Apple Bank Sim</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62fff7c24a0ebd1599113d53">Well Fargo</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6334b3134a0ebd2abecf66b5">Wells Fargo status</a></span>
+<time datetime='2022-09-28T20:48:19Z'>Sep 28, 2022 4:48 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/6311145810bdfb5efb914f46">Chase</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable issue'>
+<span class='title'><a href="/issues/63e2a6054a0ebd5969e09fef">Chase</a></span>
+<time datetime='2023-02-07T19:27:01Z'>Feb  7, 2023 2:27 PM EST</time>
+
+</div>
+
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6334b3e44a0ebd2ac020196d">Chase status</a></span>
+<time datetime='2022-09-28T20:51:48Z'>Sep 28, 2022 4:51 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/631203fbf4e01e190daaefd9">BMO</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/631205fc4a0ebd15983ef361">BMO Status Change</a></span>
+<time datetime='2022-09-02T13:32:44Z'>Sep  2, 2022 9:32 AM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/6317868810bdfb5efc8f8b42">BOA</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/6317ab5f386fb33951b95093">Desjardin</a></span>
+</div>
+<div class='status'><span class='degraded state icon' data-tooltip='Degraded' role='img' tabindex='0' title='Degraded'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6317aba2386fb3394eb94c95">Desjardin Status change</a></span>
+<time datetime='2022-09-06T20:20:50Z'>Sep  6, 2022 4:20 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/631f57b7f4e01e71b099c1a2">Citibank</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/631f580df4e01e71b1ffee68">Citibank</a></span>
+<time datetime='2022-09-12T16:02:21Z'>Sep 12, 2022 12:02 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/632dfcd4386fb370d28285b4">PNC</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6345d891f02f4642485a95b9">PNC - New</a></span>
+<time datetime='2022-10-11T20:56:49Z'>Oct 11, 2022 4:56 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/6334ae46a8772452621f0c3b">Capital One</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6334b002a877245264f6ac71">Capital One</a></span>
+<time datetime='2022-09-28T20:35:14Z'>Sep 28, 2022 4:35 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/6336ef4cf02f4642485a8111">Dime Visa</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable issue'>
+<span class='title'><a href="/issues/633aeb6ef02f46424aca5b82">Issue Title</a></span>
+<time datetime='2022-10-03T14:02:22Z'>Oct  3, 2022 10:02 AM EDT</time>
+
+</div>
+
+<div class='clickable issue'>
+<span class='title'><a href="/issues/633aead0f02f464247559919">Issue Title</a></span>
+<time datetime='2022-10-03T13:59:44Z'>Oct  3, 2022 9:59 AM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/634d92cb4a0ebd2ac0203ac8">ATB Financial</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/634d99df4a0ebd47defe651e">Meridian</a></span>
+</div>
+<div class='status'><span class='outage state icon' data-tooltip='Outage' role='img' tabindex='0' title='Outage'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/634d99fc4a0ebd47dade73f2">Meridian</a></span>
+<time datetime='2022-10-17T18:07:56Z'>Oct 17, 2022 2:07 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/634d9b71f4e01e3d7e48525a">Laurentian</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/63614036a877245c30da9eb8">ACME</a></span>
+<span class='description no-click' data-tooltip='&lt;p&gt;This is for testing the template&lt;/p&gt;
+' tabindex='0'></span>
+</div>
+<div class='status'><span class='pending state icon' data-tooltip='Pending' role='img' tabindex='0' title='Pending'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/6467ccdf386fb36dfae9132e">ACME - ACME</a></span>
+<time datetime='2023-05-19T19:24:15Z'>May 19, 2023 3:24 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/63e2a6984a0ebd596d7a6604">RBC</a></span>
+</div>
+<div class='status'><span class='pending state icon' data-tooltip='Pending' role='img' tabindex='0' title='Pending'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable issue'>
+<span class='title'><a href="/issues/63e2a6ea4a0ebd5969e09ff2">RBC</a></span>
+<time datetime='2023-02-07T19:30:50Z'>Feb  7, 2023 2:30 PM EST</time>
+
+</div>
+
+</section>
+
+</div>
+
+</section>
+<section aria-label='Flinks API Test Group Created' class='group' role='region'>
+<header data-behavior='disable-ctts'>
+<h2>Flinks API Test Group Created</h2>
+<span class='operational state' role='img' tabindex='0' title='Operational'>Operational</span>
+
+</header>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62f55203f02f46472bd92c9e">Sandbox Sim test</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+<section class='issues-burst'>
+<div class='clickable investigating issue'>
+<span class='title'><a href="/issues/62f55249f02f46472bd92ca4">simrat</a></span>
+<time datetime='2022-08-11T19:02:33Z'>Aug 11, 2022 3:02 PM EDT</time>
+
+</div>
+
+</section>
+
+</div>
+<div class='item clickable'>
+<div class='info'>
+<span class='name'><a href="/components/62f55216f02f46472d461195">Production Sim Test</a></span>
+</div>
+<div class='status'><span class='operational state icon' data-tooltip='Operational' role='img' tabindex='0' title='Operational'></span>
+</div>
+
+</div>
+
+</section>
+
+</section>
+
+
+<section class='history limited' data-behavior='disable-ctts'>
+<header class='inline'>
+<h2>Recent History</h2>
+</header>
+<div class='events empty'>
+<div class='content'>
+<p>Nothing has happened recently.</p>
+</div>
+</div>
+</section>
+
+</div>
+
+<footer>
+<div class='link-wrapper'>
+<div class='attribution'><a href="https://hund.io/">Powered By Hund.io</a></div>
+<ul class='locale-select sf-menu sf-up'>
+<li>
+<a class='locale'>English</a>
+<ul class='locales'><a rel="alternate" hreflang="es-AR" href="https://flinksdev.dev.fin.ag/?locale=es-AR">Español (Argentina)</a><a rel="alternate" hreflang="da" href="https://flinksdev.dev.fin.ag/?locale=da">Dansk</a><a rel="alternate" hreflang="de" href="https://flinksdev.dev.fin.ag/?locale=de">Deutsch</a><a rel="alternate" hreflang="fr" href="https://flinksdev.dev.fin.ag/?locale=fr">Français</a><a rel="alternate" hreflang="ja" href="https://flinksdev.dev.fin.ag/?locale=ja">日本語</a><a rel="alternate" hreflang="nb" href="https://flinksdev.dev.fin.ag/?locale=nb">Norsk (Bokmål)</a><a rel="alternate" hreflang="nl" href="https://flinksdev.dev.fin.ag/?locale=nl">Nederlands</a><a rel="alternate" hreflang="pl" href="https://flinksdev.dev.fin.ag/?locale=pl">Polski</a><a rel="alternate" hreflang="pt-BR" href="https://flinksdev.dev.fin.ag/?locale=pt-BR">Português (Brasil)</a><a rel="alternate" hreflang="sv" href="https://flinksdev.dev.fin.ag/?locale=sv">Svenska</a></ul>
+</li>
+</ul>
+</div>
+</footer>
+
+
+
+</div>
+<script>
+  if (localStorage.getItem("logo_offset") !== null) { document.querySelectorAll(".header-nav")[0].style.top = localStorage.getItem("logo_offset") + "px"; }
+</script>
+
+<script>
+  window.i18n || (window.i18n = {});
+</script>
+<script>
+  window.TimestampableTimezone = "America/New_York";
+  window.TimestampableFormats = {"default":"%a, %d %b %Y %H:%M:%S %z","short":"%d %b %H:%M","long":"%b %e, %Y %-l:%M %p %Z","date":"%b %e, %Y","long_without_zone":"%b %e, %Y %-l:%M %p","range_from":"%b %e, %Y %-l:%M %p","range_to":"%-l:%M %p %Z","day":"%B %e, %Y"};
+  window.TimestampableTranslations = {"distance_in_words":{"half_a_minute":"half a minute","less_than_x_seconds":{"one":"less than 1 second","other":"less than %{count} seconds"},"x_seconds":{"one":"1 second","other":"%{count} seconds"},"less_than_x_minutes":{"one":"less than a minute","other":"less than %{count} minutes"},"x_minutes":{"one":"1 minute","other":"%{count} minutes"},"about_x_hours":{"one":"about 1 hour","other":"about %{count} hours"},"x_days":{"one":"1 day","other":"%{count} days"},"about_x_months":{"one":"about 1 month","other":"about %{count} months"},"x_months":{"one":"1 month","other":"%{count} months"},"about_x_years":{"one":"about 1 year","other":"about %{count} years"},"over_x_years":{"one":"over 1 year","other":"over %{count} years"},"almost_x_years":{"one":"almost 1 year","other":"almost %{count} years"},"x_years":{"one":"1 year","other":"%{count} years"}},"duration":"Lasted %{duration}","past":"%{time} ago"};
+</script>
+<script src="/assets/state/application-7fd120ba9431f6e14bee89d8bfbd78ae1a3e4ea2737c25a86e1beed4105cd063.js"></script>
+<script src="/assets/state/hund-f2c8de077191ef352939243cce20e563f0c830cc9efbfd468c3bc41c1254e001.js"></script>
+<!-- f02f46ddd3f39ce03c2f5d650017e7a4 -->
+
+</body>
+</html>
+
+
+0
+
+
+
+
+https://flinksdev.dev.fin.ag:443

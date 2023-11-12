@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: static.trusona.net
+User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; BNTV400 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:43:00 GMT
+Server: AmazonS3
+Via: 1.1 58b222ebbb6cc6c8c8c9a46127ae3a3e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: YFzicbsA5JiKeHjw6NYKCtpELvq5u6CacZ8oz1kZk34Fsv5tGkqxdQ==
+X-Amz-Cf-Pop: FRA2-C2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>WW6GA5FFA357FAYM</RequestId><HostId>jXvbAjq7P8NbsGeHC+tdE418p81yCRJ77Mmf9rjtmEAp9DJeoAXVeg+meKg+ASkm2dF6ueb2j4Y=</HostId></Error>
+0
+
+
+
+
+https://static.trusona.net:443

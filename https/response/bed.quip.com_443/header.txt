@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: bed.quip.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.marketo.net https://analytics.twitter.com https://apis.google.com https://checkout.stripe.com https://connect.facebook.net https://connectors.tableau.com https://demdex.com https://dpm.demdex.net https://fast.wistia.com https://omtr2.partners.salesforce.com https://platform.twitter.com https://quip-cdn.com https://s.ytimg.com https://sdk.snapkit.com https://secure2.sfdcstatic.com https://src.litix.io https://ssl.google-analytics.com https://static.ads-twitter.com https://tracking.g2crowd.com https://vidassets.terminus.services https://www-onepick-opensocial.googleusercontent.com https://www.google-analytics.com https://www.googleadservices.com https://www.googletagmanager.com https://www.youtube.com; report-uri /csp-report
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:44:48 GMT
+Expires: 0
+Location: https://quip.com/
+Referrer-Policy: origin-when-cross-origin
+Server: nginx
+Set-Cookie: id=98phnmskX1Q; Domain=.quip.com; expires=Sat, 05 Nov 2033 04:44:48 GMT; Path=/; Secure; SameSite=None
+Set-Cookie: tid=p8zab12wgQw; Domain=.quip.com; expires=Sat, 05 Nov 2033 04:44:48 GMT; Path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, Cookie
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+https://quip.com/
+
+
+https://bed.quip.com:443

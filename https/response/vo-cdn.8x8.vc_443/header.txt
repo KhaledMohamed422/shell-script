@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: vo-cdn.8x8.vc
+User-Agent: Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, PUT
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 21:29:26 GMT
+Server: AmazonS3
+Via: 1.1 705c998367f4340ee8f7d23508c84626.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: g6uLQ08n7XpeaoL1U4Bkfp3aK_9OpLxDz0r2dz7SedUe5K0eEhfI3w==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>30008SJVBDYN4XCK</RequestId><HostId>GEdX8/SuNv5wVpWdoHM1033gMO+1IheN8LbbhgSxHFIQwMfMUxSXn/xwitdtK+sf7u1njJqyfwU=</HostId></Error>
+0
+
+
+
+
+https://vo-cdn.8x8.vc:443

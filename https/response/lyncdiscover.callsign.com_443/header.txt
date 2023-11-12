@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.callsign.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:28:58 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 6db5fe93-8ac7-489d-86c6-67f83cd7f91e
+X-Ms-Correlation-Id: 9a87aa33-e0a4-4e12-91af-4721f600b591
+X-Ms-Server-Fqdn: AM42E00EDG06.infra.lync.com
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=callsign.com"},"xframe":{"href":"https://webdirGB1.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdirGB1.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=callsign.com"}}}
+
+
+https://lyncdiscover.callsign.com:443

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: sites.livestream.com
+User-Agent: Mozilla/5.0 (Android; Mobile; rv:35.0) Gecko/35.0 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Cache-Control: private, max-age=0
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:23:42 GMT
+Expires: Wed, 08 Nov 2023 04:23:42 GMT
+Location: http://sites.google.com/a/livestream.com/sites/system/app/pages/meta/dashboard
+Server: GSE
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: gracestumin.churchcenter.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:19:39 GMT
+Location: https://churchcenter.com/missing_organization
+Referrer-Policy: strict-origin-when-cross-origin
+Server: openresty
+Set-Cookie: church_center_session=eyJhbGciOiJFUzI1NiJ9.eyJqdGkiOiJmZjVhMmQwNTk4YTMxMjg1NmZhYzBiNzFlZTY1MzcxZiIsImlhdCI6MTY5OTQyNzk3OSwiZXhwIjoxNzAwNjM3NTc5LCJpc3MiOiIvcGNvL3Nlc3Npb24ifQ.tJhf836TCz2pVfc9bdU2alsSwUDKC57Q-M9DLn7qeeKw7NIOkGnQ-85zCS6HPGaxS2A71eoVyzE5Nb4LlSrHMw; path=/; expires=Wed, 22 Nov 2023 07:19:39 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Via: 1.1 1f0db25765b79d244ad1fa2184395c12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: STLXLWu5qhw-TZtMHfbNl4ctpBQpvSNVPVO5w4kL1OFp8rlD44zsmA==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 10e2b85f-63fe-4756-8e19-4965f433ad90
+X-Runtime: 0.017966
+X-Xss-Protection: 1; mode=block
+
+6f

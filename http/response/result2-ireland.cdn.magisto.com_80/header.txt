@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: result2-ireland.cdn.magisto.com
+User-Agent: Microsoft URL Control - 6.00.8862
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:22:39 GMT
+Server: AmazonS3
+Via: 1.1 163be08bc1bc44818353c4fd88655bee.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: l9tISBxHHKhaefVm_b0nPHFS5bPtdYpT-CcjVj-FKsiq0us0kllJbA==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4CCR50K9JY3RZRP2</RequestId><HostId>IX1Ef2opwze8Qrp+ga2D4BYRoz6hjRgiS3XbOG9rvNmVABVZjEVYUKmlT2kdqnGbyegUAPy5Vsg=</HostId></Error>
+0
+
+
+
+
+http://result2-ireland.cdn.magisto.com:80

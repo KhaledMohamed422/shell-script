@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: dt.odps.aliyun.com
+User-Agent: LG-GC900/V10a Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Authorization Required
+Connection: close
+Content-Length: 103
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 17:50:52 GMT
+Server: Tengine/2.5.3_20210817194811
+X-Odps-Request-Id: 2023110817505227d9d90b0ea39c7a
+
+{
+    "Code": "Unauthorized",
+    "Message": "The request authorization header is invalid or missing."}
+
+
+https://dt.odps.aliyun.com:443

@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 4ba16751-testnoexistdomain-bcc738dc-this-exist.train-1-costatest-alb-okta-default-k8s-prd.dev-go.ubnt.com:8080
+User-Agent: Mozilla/5.0 (iPod; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12H143 Safari/600.1.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 497
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 03:57:17 GMT
+Etag: "634fd641-1f1"
+Server: nginx/1.22.1
+

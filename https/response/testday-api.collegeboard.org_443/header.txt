@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: testday-api.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: x-cb-catapult-authentication-token, x-cb-catapult-authorization-token, content-type, x-auth-token, expires, pragma, cache-control, x-amz-user-agent, x-amz-security-token, authorization, x-amz-date
+Access-Control-Allow-Methods: GET,POST,PUT,DELETE,PATCH,OPTIONS,HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 86400
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:30:01 GMT
+Expires: Tue, 07 Nov 2023 17:30:01 GMT
+Pragma: no-cache
+Set-Cookie: _abck=0F13F9CA08CF9849D341676826386DC9~-1~YAAQHChDF3mZ0qmLAQAAw4TVqgqnid2kvjQ7rcFrrIGBdX+OxyS+dFUqQrKbKi8KFZnjw/ChIypbEHPlrQxNX5jddQKbZnix92zRZmavgSs2ebSpVVOU46VP8gECmkevs0YECAeCYipHOjnMuptoqdxuYb+jmf3o4mZfnEGNG1VMrRQA/VRc/v7tHIYIpZPdbXg0D4OF0Xj5kulYUz34APTC84AJ9w6YjCfKWKfz4RMF0EKTSf50z2s2nvcoyUsJGekJydwVcHBsKvLge4XOUDfupQiXyV0nzf4nkPCzE40jOFbzA/vgphzJ0uLE2TKvCyjw5/6nll8YQnnh6yzr58JUozxvg8T3t4rPRh+kPtzBGzcZcu2oh9VhiIpaWdju9j2t~-1~-1~-1; Domain=.collegeboard.org; Path=/; Expires=Wed, 06 Nov 2024 17:30:01 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=932F9D855211FBD755A5F8BAAA6FC07E~YAAQHChDF3qZ0qmLAQAAw4TVqhXEZ/jdKHIpwc5NLq3koW+u0I+pKUYg+EFUKCtafDry2QQd+BQDRP9b5lQq19Ge3ats82mo/liHwTDuZ6IjluujX+z9hiiTl0rGQxork61hEyGCU9OnOC7+ncYZ9hQVPh04bgxSLFsX/IBQeP2IBLJulH52QsO4VPnxx9DQJ/+SazY22wl6kQzG+qO2ma/FrTHDfkBrGc8dLHwPj2XWSCXBaKlOsnL9a/NqjP+DMxoChKI9xnZ6J5ZQI3tc6+DgI4Em/TZ20vPoQstAfO4advHfmx2IFNg=~3687986~3616816; Domain=.collegeboard.org; Path=/; Expires=Tue, 07 Nov 2023 21:30:01 GMT; Max-Age=14400
+X-Amz-Apigw-Id: OCcUDGkjoAMEG7g=
+X-Amz-Cf-Id: SG15xMOmqgR4hmKXhYwurAuv0h6G37WTS5Pjo4WBZz3V5SRNdToZdw==
+X-Amz-Cf-Pop: ORD58-P2
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 22507ef0-5203-4d98-8bab-4bc9b161c5a3
+
+{"message":"Forbidden"}
+
+
+https://testday-api.collegeboard.org:443

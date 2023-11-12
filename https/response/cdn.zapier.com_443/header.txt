@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: cdn.zapier.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 Epiphany/3.8.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:27:00 GMT
+Server: AmazonS3
+Via: 1.1 d8670b0c6b76371fb58f730881dfe504.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: isYCwh9G7Kc3b88t4CIqTLDlltRBZEaM6w8oX97CSJTjpEYNkYAhlg==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>VCY93G0AXWSV20S9</RequestId><HostId>DvWr69So923wOX6kRdmuNDCv9jqU1n2KLOQnTLTy75Gv2xwklS61YZSzETvIaYC7ssA1ZaIjyyk=</HostId></Error>
+0
+
+
+
+
+https://cdn.zapier.com:443

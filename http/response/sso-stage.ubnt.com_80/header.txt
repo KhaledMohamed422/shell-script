@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: sso-stage.ubnt.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:24:01 GMT
+Location: https://sso-stage.ubnt.com/
+Server: CloudFront
+Via: 1.1 2e6275c73445d58429e5205e011d70ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -DZI24L6mswVsRznZPwzBg9FkCXV7g6KyUuXaSf485H_sCJRJhNefg==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Redirect from cloudfront
+

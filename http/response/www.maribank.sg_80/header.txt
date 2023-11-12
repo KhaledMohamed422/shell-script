@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www.maribank.sg
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, PATCH, OPTIONS
+Access-Control-Allow-Origin: *
+Cache-Control: s-maxage=31536000, stale-while-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:08:10 GMT
+Etag: "11yuni53gne1vjs"
+Server: SGW
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Nextjs-Cache: HIT
+
+15623

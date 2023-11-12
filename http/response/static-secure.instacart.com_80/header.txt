@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: static-secure.instacart.com
+User-Agent: iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:19:49 GMT
+Location: https://static-secure.instacart.com:443/
+Server: awselb/2.0
+

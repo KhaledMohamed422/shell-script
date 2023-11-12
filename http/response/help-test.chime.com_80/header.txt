@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help-test.chime.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8228a429bb0b7178-DUS
+Date: Tue, 07 Nov 2023 21:24:07 GMT
+Expires: Tue, 07 Nov 2023 22:24:07 GMT
+Location: https://help-test.chime.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=m3%2B8jN82oimkwkunbYVUXqxjxpkWFQzSLLqydFQnR97hzSWAd4c1TamIqS1EQCHNtMH%2BSImhQR6EC5HZfUVMdeV%2BObFpan0w91%2BUJqvd2X%2FeI6W1AXSqyFAuF6%2F%2FlfWdPI5SjI4%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=45f02ade6ef9c2fc5f641c212e63ab1f2bb61c54-1699392247; path=/; domain=.help-test.chime.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help-test.chime.com:80

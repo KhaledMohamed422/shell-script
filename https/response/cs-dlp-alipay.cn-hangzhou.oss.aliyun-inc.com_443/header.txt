@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: cs-dlp-alipay.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: MOTORIZR-Z8/46.00.00 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 356) Opera 8.65 [it] UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 283
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 09:48:39 GMT
+Server: AliyunOSS
+X-Oss-Request-Id: FFFFFFFFFFFFFFFFFFFFFFFF
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Please contact the server administrator, oss@service.aliyun.com</Message>
+  <RequestId>FFFFFFFFFFFFFFFFFFFFFFFF</RequestId>
+  <HostId>cs-dlp-alipay.cn-hangzhou.oss.aliyun-inc.com</HostId>
+</Error>
+
+
+
+https://cs-dlp-alipay.cn-hangzhou.oss.aliyun-inc.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: account.dev.ui.com
+User-Agent: Opera/9.80 (Android; Opera Mini/7.5.33361/31.1543; U; en) Presto/2.8.119 Version/11.1010
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn https://js.stripe.com https://recaptcha.net ubnt.zendesk.com *.zopim.com wss://widget-mediator.zopim.com *.ui.com *.ubnt.com https://code.jquery.com; img-src 'self' data: blob: account.dev.ui.com account.stg.ui.com account.df.ui.com account.ui.com *.ui.com *.ubnt.com https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn https://app-static.sendsafely.com; media-src 'self' account.dev.ui.com account.stg.ui.com account.df.ui.com account.ui.com *.ui.com *.ubnt.com; connect-src *.ui.com *.ubnt.com ubnt.zendesk.com *.zopim.com wss://widget-mediator.zopim.com *.ingest.sentry.io https://region1.google-analytics.com https://www.google-analytics.com https://js.stripe.com https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn; object-src 'self'; frame-src https://recaptcha.net https://js.stripe.com *.ui.com *.ubnt.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:41:22 GMT
+Referrer-Policy: same-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 864867c878801fa3f01f9149934772e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dCz9F4oPOoJxw8zn7zx0EeQhnLsjiGivi7rpUwAy4nCNhyDGD7tgnQ==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

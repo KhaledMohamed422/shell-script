@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: master.orders.activities.dev.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 84
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:34:34 GMT
+X-Amz-Apigw-Id: OGBfoGahvHcEbJQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 0b6ea503-48cb-4267-a7af-e790db34d9fc
+X-Amzn-Trace-Id: Root=1-654be2ca-473ed2a24cef6e5f68c67a61
+
+{"request_status":"error","message_id":"0","message":"Missing Authentication Token"}
+
+
+https://master.orders.activities.dev.gbo.noa.nintendo.com:443

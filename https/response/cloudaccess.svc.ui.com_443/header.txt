@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cloudaccess.svc.ui.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/10.0.018; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:47:20 GMT
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+Via: 1.1 a23fc047c59f0902384fa94644607c00.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OD_h1G9cPHcEAzQ=
+X-Amz-Cf-Id: WUDx9PKmzL07AvuImG01fkpAQsZiMQwjrumkS7kn-AMOgdHvnTcNNw==
+X-Amz-Cf-Pop: FRA56-P3
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 4b633ab4-afb7-4fa5-b108-9feb2a7c2c52
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{"message":"Missing Authentication Token"}
+
+
+https://cloudaccess.svc.ui.com:443

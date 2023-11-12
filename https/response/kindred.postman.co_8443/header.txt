@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: kindred.postman.co:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822c105dcbdc7a54-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 07:22:16 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=T1EKflKZ_8tPdY9xiA_fpnEl1ypPZxjgXtnqGc7LWak-1699428136-0-Af05F9o/FgWY3SGhJoZBCI1onNa80wC8184UHTmsStGkAv8B+ZifA19mJNEsH5vEUAQu2hj0rKfzLYTWBTgVyuM=; path=/; expires=Wed, 08-Nov-23 07:52:16 GMT; domain=.postman.co; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+1855

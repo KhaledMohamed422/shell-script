@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: lyncdiscover.packet8.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 34
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 21:24:23 GMT
+Expires: -1
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: a99e1a38-f68c-4895-a16c-bdbf0bf56f92
+X-Ms-Correlation-Id: c7eebcf1-f29b-4380-a208-8a10c5fd2c60
+
+{"code":"NotFound","message":null}
+
+
+http://lyncdiscover.packet8.net:80

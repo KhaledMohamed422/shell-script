@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: backend.mercury.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a5624ef1e162c-DUS
+Date: Wed, 08 Nov 2023 02:20:23 GMT
+Expires: Wed, 08 Nov 2023 03:20:23 GMT
+Location: https://backend.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=.rG9dJn7d23bEc37do2uGzcTEo31il7LiPtajnq5ME4-1699410023-0-AbEqX4UNq2wDBv25qYu1CRusmWzprl2HBQymWk0CEQYGcUcuesLAC8GRF142RKsHUvcWSjR7NIuv7vZssWa8ANw=; path=/; expires=Wed, 08-Nov-23 02:50:23 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://backend.mercury.com:8080

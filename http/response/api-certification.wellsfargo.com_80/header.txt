@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: api-certification.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Moved Temporarily
+Connection: close
+Location: https://api-certification.wellsfargo.com/
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://api-certification.wellsfargo.com:80

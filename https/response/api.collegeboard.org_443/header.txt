@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: api.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: text/xml;charset=UTF-8
+Date: Tue, 07 Nov 2023 17:22:00 GMT
+Server: cbapis.org
+
+<errorInfo>
+<code>GW404</code>
+<category>System</category>
+<message>Service Not Found.</message>
+<resourceuri>https://api.collegeboard.org/</resourceuri>
+<timestamp>2023-11-07T17:22:01.274Z</timestamp>
+</errorInfo>
+
+
+https://api.collegeboard.org:443

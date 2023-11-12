@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: failover-telemetry-eu.tradingview.com
+User-Agent: Mozilla/4.77 [en] (X11; I; IRIX;64 6.5 IP30)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 418 
+Connection: close
+Content-Length: 17
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 04:51:51 GMT
+Server: tv
+Via: 443
+
+Domain is teapot
+
+
+
+https://failover-telemetry-eu.tradingview.com:443

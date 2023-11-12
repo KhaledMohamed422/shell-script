@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ui.githubapp.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:31:01 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3De4c250a9-9178-459e-927d-c68cfad2edaf%26page_id%3D35265154%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=e4c250a9-9178-459e-927d-c68cfad2edaf; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: b3dd6fe3f218bbd2b468ec0fee8451a3417b2f56
+X-Github-Request-Id: 5102:DB58:25C13B:26819B:654AF2E3
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230138-FRA
+X-Timer: S1699410661.170612,VS0,VE190
+

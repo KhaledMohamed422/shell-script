@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: v.vrv.crunchyroll.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 19:18:50 GMT
+Server: CloudFront
+Vary: Origin
+Via: 1.1 425cbe8f956bdcb8754c19eb873fd2d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EWGiQkPGJ31u0TEZudI-NRhj3Rt9hV_xAypP859fTAWjMdvqXooYOQ==
+X-Amz-Cf-Pop: AMS50-C1
+X-Cache: Error from cloudfront
+X-Cdn: cfcdn
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://v.vrv.crunchyroll.com:443

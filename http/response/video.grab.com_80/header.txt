@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: video.grab.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Pixel XL Build/OPR6.170623.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:03:29 GMT
+Server: AmazonS3
+Via: 1.1 8a7f46625ae5030a73c5c8ce2b546002.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PsmYhIb-cqiMv4A_sBHQ0C9pGOuEXrsZ6an3S0NS6Jxu7azKaor7rw==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>S8B043RJPEWYFV8Q</RequestId><HostId>VYg91Tl+Rwg7WrK7WIHnj/AySHexzMaIPPrX7BksXCX817mGV24LpPLJlZ8Cw/uSw5OQmR7GUwA=</HostId></Error>
+0
+
+
+
+
+http://video.grab.com:80

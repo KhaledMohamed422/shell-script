@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dev-device.cpo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:29:02 GMT
+X-Amz-Apigw-Id: OGArwHTFoAMEdSg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ea26d5d2-98d7-4556-8f8c-7cd30f3272cb
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://dev-device.cpo.noa.nintendo.com:443

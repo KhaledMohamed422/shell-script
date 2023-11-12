@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: review.cameo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822ac6121dd67a3c-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 03:36:47 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=5WtgfnK1PsmxUDNPT66v7IaDh.Z81fOUjocL9DubPIw-1699414607-0-AbHM1MeUq80P4MXPoq8BJ4r1EYjnOMcSYydvUDcDnbHT//KQzNiJ9LW1xOOhzq9OCMHqlPCkkQXMRbSrXXvIbwoDt0vckx5Otx9m4sWtGJ0S; path=/; expires=Wed, 08-Nov-23 04:06:47 GMT; domain=.cameo.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+165d

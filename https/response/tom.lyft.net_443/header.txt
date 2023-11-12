@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: tom.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:39 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly90b20ubHlmdC5uZXQvIiwgInN2YyI6ICJ0b20ubHlmdC5uZXQifQ%3D%3D%7C10.44.156.191%7C1699394739%7C6fe21fba087f1dad103e1b017b6aedee6a9238708aa420027b93f1ef03af7ff8
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 12
+

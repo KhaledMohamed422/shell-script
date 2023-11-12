@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: live-segment.cloudvideocdn.taobao.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; DN2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Access-Control-Allow-Origin: *
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:59:55 GMT
+Eagleid: a3b55c9716994375950647158e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: ens-cache3.de5[,403005]
+X-Tengine-Error: denied by req auth: no url arg auth_key
+

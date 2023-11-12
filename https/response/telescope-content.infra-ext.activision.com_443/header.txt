@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: telescope-content.infra-ext.activision.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 111
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:04:43 GMT
+Expires: Wed, 08 Nov 2023 05:04:43 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcProk8VwZCqnn7DcqDMaPVMc4MdnCWqVNue5zCVMfKc-C69-kvS54hOXFKcQwKmz4Objs-RGLX2FVpzq0XrsPn-ssbgGVked
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message></Error>
+
+
+https://telescope-content.infra-ext.activision.com:443

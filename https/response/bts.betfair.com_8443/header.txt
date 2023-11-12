@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: bts.betfair.com:8443
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.85 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba79cb44cb1e-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:35 GMT
+Expires: Tue, 07 Nov 2023 18:44:50 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ljfGqPgzo1Uqf6QNhLtlQ2p%2BmBOW3VfZjqNpbOrKDsZpIu%2Br8aRHsoq9mYxfeUOuO12wbG258Yk5lA4oUu89SpJ%2BoGI9ova8R%2FtKx1%2B%2B3BRg1b6%2BoY3F8v0fxfsEz%2BZtOGdiitih"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

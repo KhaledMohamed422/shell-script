@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: atlas.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:22:15 GMT
+Server: AmazonS3
+Via: 1.1 32c8da10203574baccb74b8f771a7ffa.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: nwCm7s9MrNqn2BWLQPBKFbcm4IpDnsHgY9bKkAD49a1oXPXCDyenrA==
+X-Amz-Cf-Pop: FRA50-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XRGW7SZECK79VAJZ</RequestId><HostId>XEOFEcqLk+CEoNqJGIoK1n5MAFK/zjftEnfzkQlY1ihjlp2+yMbW41o9MToOa4b1DNrltgGLWUY=</HostId></Error>
+0
+
+
+
+
+https://atlas.collegeboard.org:443

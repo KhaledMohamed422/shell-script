@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: mypromos.betfair.es
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227cce24c6a7175-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:57:09 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V0S5xHdrFdaPEpOgdWn1l7SH0kuGmVhU1vQoCOE5lEEokUBQM3yirV25KNHPdxEJE4wCkCY1UFNPx0fwlzTeQozNEYNi48nOQevCfpIFjedRp%2BEwVa7Yj28dwg%2FfuAm6ksICX8c%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=S99SZGX.jMrDjRzRHUxh5Lv7RUuDQjt_lRgqN5XySGg-1699383429-0-ATdLGy2uCaDb4h/o5g71kqEBCbKAMQ7U7inVw5wLY5sW9kBWbYtNcLiAwnH+7m55rhngQp9C6N7U0CpVN8+zFMQ=; path=/; expires=Tue, 07-Nov-23 19:27:09 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+
+54
+{"timestamp":"2023-11-07T18:57:09.559Z","status":404,"error":"Not Found","path":"/"}
+0
+
+
+
+
+https://mypromos.betfair.es:443

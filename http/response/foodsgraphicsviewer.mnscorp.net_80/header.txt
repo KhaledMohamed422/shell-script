@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: foodsgraphicsviewer.mnscorp.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 163
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:21:43 GMT
+Location: https://foodsgraphicsviewer.mnscorp.net/
+Server: Microsoft-IIS/10.0
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://foodsgraphicsviewer.mnscorp.net/">here</a></body>
+
+
+http://foodsgraphicsviewer.mnscorp.net:80

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: ent-stp-pe.wellsfargo.com
+User-Agent: Facebot
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 305
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Security-Policy: frame-ancestors 'self' https:; default-src 'self' 'unsafe-eval' 'unsafe-inline'
+Content-Type: text/html;charset=UTF-8;
+Date: Wed, 08 Nov 2023 19:30:51 GMT
+Location: https://ent-stp-pe.wellsfargo.com/console-selfservice/
+Set-Cookie: ent-stp-pe-1_443_infra_1=!NKgln0THW1xbDyuRp3eKau954ZEPuQEHYZDIV4j1AozcWNco+031AhssRDjZI7bjVxDbQnJx61fd2g==; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login | Dynatrace</title>
+    <link rel="icon" type="image/x-icon"
+          href="https://static.sso-sandbox.dynatracelabs.com/static/lib/groundhog/assets/images/favicon.cache.VTXqcsHSj-fuznCw.ico"/>
+    <link rel="stylesheet" href="https://static.sso-sandbox.dynatracelabs.com/static/style/react-background.cache.Sud9CvrE9S8Ec7os.css"/>
+
+    
+    <script defer="defer" src="https://static.sso-sandbox.dynatracelabs.com/static/js/login/login.sso.cache.RXL7MAh4AmmftvYD.js"></script>
+    
+
+    <script src="https://static.sso-sandbox.dynatracelabs.com/static/script/initBootstrapProperties.cache.qIWNVu6foNwiHJnQ.js"></script>
+    <script nonce='c94PqLrJKrSFRUX3eiGeBU9G2tP0julR'  >
+
+        const bootstrapSwitchUiProp = false;
+        const bootstrapProps = JSON.parse('{\"deploymentHost\":\"sso-sandbox.dynatracelabs.com\",\"deploymentPort\":\"443\",\"signupForTrialUrl\":\"https:\/\/dev.dynalabs.io\/trial\/\",\"supportLoginProblemsUrl\":\"https:\/\/www.dynatrace.com\/support\/help\/get-started\/troubleshoot-login-issues\",\"verifyEmailRestEndpoint\":\"\/sso\/authentication\/verify\",\"loginRestEndpoint\":\"\/sso\/authentication\/login\",\"resetPasswordRestEndpoint\":\"\/sso\/authentication\/resetPassword\",\"federatedLoginUrl\":\"\/saml2\/federatedLogin\",\"relayParameter\":\"goto\",\"recaptchaEnabled\":false,\"recaptchaApiSiteKey\":\"6LcbsaMUAAAAAA-3Wp_b0YKQSqWKCcIWm-Fz_90r\",\"themedOpenIdProviderCards\":[{\"providerUuid\":\"69fab36c-4cdc-40af-84fe-11d492e42c69\",\"imageUrl\":\"https:\/\/static.sso-sandbox.dynatracelabs.com\/static\/images\/ms-symbollockup_signin_light.svg?v=1\",\"imageDescription\":\"Sign in with Microsoft\",\"theme\":\"light\"},{\"providerUuid\":\"69fab36c-4cdc-40af-84fe-11d492e42c69\",\"imageUrl\":\"https:\/\/static.sso-sandbox.dynatracelabs.com\/static\/images\/ms-symbollockup_signin_dark.svg?v=1\",\"imageDescription\":\"Sign in with Microsoft\",\"theme\":\"dark\"}]}');
+
+        initBootstrapProperties(bootstrapProps, "loginProps")
+        initBootstrapProperties(bootstrapSwitchUiProp, "switchUiProp")
+    </script>
+
+</head>
+<body class="theme--dark">
+<div id="root"></div>
+
+
+</body>
+</html>
+
+
+
+https://sso-sandbox.dynatracelabs.com:443

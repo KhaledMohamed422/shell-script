@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: critic.api.playstation.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; tr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 265
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:15:38 GMT
+Expires: Tue, 07 Nov 2023 23:15:38 GMT
+Pragma: no-cache
+Set-Cookie: _abck=353CCA504B90FF678506D539A20CE083~-1~YAAQNbIPF5aosqmLAQAA8e4RrArikMvBaZy1wy3D3zHHJtl4yGL14iCEFVT1IUM7EyIeG6d7I39ss/OCkdzBK3Ts/MW/qn2BQRmZcT8SBqtTRrIKnZ8ZDdbnGjwSyg7kkIluUyD6k6dLvOGC0rQqB8mn9VhVRrV7MEVPkcFg/VX+tghDSqfgEPHjp0LiQB7jDDgmswVv7HVZiY4BRaADNHPETsmFWiaxTiCT1UkQ7UH8IVTLZc1U6FUZZ0A+uHiABgxjDQg372QK0gORTcyN7qKY0y69e4Hrf4/MPRsk8vHt2HtN5HvgdHltyX3RbD5VNlsGqf3KL42o9KTXLQUL89RtKBP9swpqnEVSDhgH3Cpx8DoG+QvzvkvchgDBLvERkHpIfKOMGWSv+Lmyzw==~-1~-1~-1; Domain=.playstation.com; Path=/; Expires=Tue, 14 Nov 2023 23:15:38 GMT; Max-Age=604800; SameSite=None; Secure
+Set-Cookie: bm_sz=7917A03912B598BA8367A98382EB47DF~YAAQNbIPF5eosqmLAQAA8e4RrBWE9JYnFr0AIDdMUhsnD/5ccf5zrlmzB1ut1mxrPtKx7WxrpNAx+M81FFbDS/EBMhWFsc/mzeCesn4ggwo6UQbAXHQCgn2GGb44WPfJt+/H4DO6rMbkGXKLOAfqSLfYAr+hQWSoNVxNxzk7UIQAW1u8FeOlyfRQa7/ec7VSa59iQEQ+fhtLVQvq4MGXSvbp52+vUSR4ZzsmMKeUEvCbFc6kcFfBDBHa9N6YIEbtDyVanwdzzWugTt+5JahiEY5nGdAq8UYohuzCSX3hR12frCC0iJ4ghrfecNt8EPezVkSq2BzXMwL9Jwatt9wulCVSwOF6nJzuw/DiXoPCxlYvf9+W9qvwKKENN4bPn6RVo/gE+dt7LmDi6MnxquhffBLWhg==~3553334~3420983; Domain=.playstation.com; Path=/; Expires=Wed, 08 Nov 2023 03:15:38 GMT; Max-Age=14400; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Psn-Error-Code: 3276548
+
+{"message":"resource_not_found (31ff04)","uuid":"773f169e-4b5a-4f6b-890e-cf9481623021","data":"","httpStatus":404,"code":3276548,"error":{"referenceId":"773f169e-4b5a-4f6b-890e-cf9481623021","code":3276548,"message":"","reason":"resource_not_found","source":"api"}}
+
+
+https://critic.api.playstation.com:443

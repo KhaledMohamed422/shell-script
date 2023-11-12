@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: central.varonis.com:8443
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.2; en-us; SCH-I800 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Security-Policy: upgrade-insecure-requests
+Date: Tue, 07 Nov 2023 17:25:46 GMT
+Location: https://central.varonis.com/s/
+Server: sfdcedge
+Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Wed, 06-Nov-2024 17:25:46 GMT; Max-Age=31536000
+Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Wed, 06-Nov-2024 17:25:46 GMT; Max-Age=31536000
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Sfdc-Request-Id: 80376c18582fdcf11cadb1adcfd5dfa2
+Content-Length: 0
+
+
+
+
+https://central.varonis.com:8443

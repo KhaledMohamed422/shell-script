@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: snsfranchise.nl
+User-Agent: nook browser/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Access-Control-Allow-Origin: https://www.snsfranchise.nl
+Cache-Control: no-store
+Content-Security-Policy: default-src 'self'; frame-ancestors 'none'; img-src 'self' https://*.googleapis.com https://*.gstatic.com *.google.com *.googleusercontent.com data: https://i.ytimg.com https://www.google-analytics.com; frame-src *.google.com https://www.youtube-nocookie.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://www.google.com/maps/; child-src https://www.youtube-nocookie.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://www.google.com/maps/; connect-src 'self' https://*.googleapis.com *.google.com https://*.gstatic.com  data: blob:; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ https://*.googleapis.com https://*.gstatic.com *.google.com https://*.ggpht.com *.googleusercontent.com blob: https://s.ytimg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://s.ytimg.com; worker-src blob:;
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 03:37:03 GMT
+Expires: Wed, 15 Nov 2023 03:37:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: TS013d2440=01a2480451da19ecbd8f2f0e48715a6c57e74d2c93efd1c8eba1dda1585f01192a6361ef02d3bc622fe1a320d482a3c261f4b7c6de; Path=/; Domain=.snsfranchise.nl; Secure; HTTPOnly
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

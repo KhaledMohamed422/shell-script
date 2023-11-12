@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: gu.twimg.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=31536000
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:46:10 GMT
+Expires: Wed, 06 Nov 2024 19:46:11 GMT
+Server: AmazonS3
+Server-Timing: x-cache;desc= ,x-tw-cdn;desc=VZ
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: 5By0ngqrXV/BhXOMjT3vCEI9FPSgYXUvbJHAcVhH/boA6+ceViLbb152to2g+H1QYeCGIJUBoiB1dQf1tR8mOS1kqsTDyV2cxnqHscRah2Y=
+X-Amz-Request-Id: 5BGRTDHK64ZNE964
+X-Content-Type-Options: nosniff
+X-Tw-Cdn: VZ
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5BGRTDHK64ZNE964</RequestId><HostId>5By0ngqrXV/BhXOMjT3vCEI9FPSgYXUvbJHAcVhH/boA6+ceViLbb152to2g+H1QYeCGIJUBoiB1dQf1tR8mOS1kqsTDyV2cxnqHscRah2Y=</HostId></Error>
+0
+
+
+
+
+http://gu.twimg.com:80

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: private-investments.cdn.wealthsimple.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; j2me) ReqwirelessWeb/3.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274bcb5cd6715d-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:29:02 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=SSZ1RuxMFfMDnFqZVhLNaBitPWHDdZeoA3QAVv7PV94-1699378142-0-AX36+3rxBR2OWwb/Ynl8r1Z0kQY9dBbTnD/EdZmTubYwzE88ZEoRtvztt+iy71NQ5bkzqzyZ+OPJUET8uIha0TU=; path=/; expires=Tue, 07-Nov-23 17:59:02 GMT; domain=.cdn.wealthsimple.com; HttpOnly; Secure; SameSite=None
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: Cj8hf7rcbop3bLei7EcxUwRCbzbLKNFehEHeXyHWXqPA2BZMQOYPMhKiVwBAShq82LqDRZmSMm5RAdVuL9LD+uXlkI8mRxIzdHhfFVOnOHQ=
+X-Amz-Request-Id: 8CND63G43F13HNVX
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8CND63G43F13HNVX</RequestId><HostId>Cj8hf7rcbop3bLei7EcxUwRCbzbLKNFehEHeXyHWXqPA2BZMQOYPMhKiVwBAShq82LqDRZmSMm5RAdVuL9LD+uXlkI8mRxIzdHhfFVOnOHQ=</HostId></Error>
+0
+
+
+
+
+https://private-investments.cdn.wealthsimple.com:443

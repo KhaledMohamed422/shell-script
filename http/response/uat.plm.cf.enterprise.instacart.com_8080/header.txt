@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: uat.plm.cf.enterprise.instacart.com:8080
+User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [en-US]
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273ec90fc7215d-DUS
+Date: Tue, 07 Nov 2023 17:20:09 GMT
+Expires: Tue, 07 Nov 2023 18:20:09 GMT
+Location: https://uat.plm.cf.enterprise.instacart.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=Jj84Xk1XdmNOV01WqKd5vENQnoiOq3jeWX4ujP9Pz7E-1699377609-0-AVDRiMsMHKLvfC5e+Hr01GpwWsTVnHM87D+Nyb4+fILzB9nCju+IMQaWmhsMlwMi6oyy9pOKf1VDuUoNd3TUojo=; path=/; expires=Tue, 07-Nov-23 17:50:09 GMT; domain=.uat.plm.cf.enterprise.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://uat.plm.cf.enterprise.instacart.com:8080

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.my.ro.co
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8248e67c69dacaf9-DUS
+Date: Sat, 11 Nov 2023 19:21:48 GMT
+Expires: Sat, 11 Nov 2023 20:21:48 GMT
+Location: https://my.ro.co/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V2%2BxzKGrYr%2BIuCzf2NVA6KF5vW07hlkbJ6AAewINMMz%2B056o%2FXqEs%2BSoyh8PEeJzStIoqehFb39%2BAI1M4pNMg0%2BL6K1jWxUjdG8OxMLYCVtzZpJMe%2BPfJemuKupuTjc%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://www.my.ro.co:80

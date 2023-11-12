@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: erwann.trending.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:56:59 GMT
+Server: AmazonS3
+Via: 1.1 fd38301adb0ceb6cf6c42567f371a2f4.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: -mDvDxN3u7i8BiV8_dRlJ-l8gbHnwrM8AVRKOntpqWtJO_XIahU-Vw==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>PD32PSN7CX13RY7T</RequestId><HostId>C7Qtyw9RIBK8NPP6g79c4U0DGGYM9gxcbGzRKCWn18jzdyPxoUR9rNVQTHhqBYiIK6O0dsZeZ3Y=</HostId></Error>
+0
+
+
+
+
+https://erwann.trending.test.popularbets.betviewapi.com:443

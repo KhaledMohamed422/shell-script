@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: challenge.developers.cloudflare.com
+User-Agent: msnbot/1.0 ( http://search.msn.com/msnbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 8227e5f828bbcb33-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 07 Nov 2023 19:14:16 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=0fra9mShOQ6wI7t0FlHeTRypnv6X2jMnonCSg3RuWjM-1699384456-0-AZ0F1fzixm61wGkeAEBs0vJ3E4LYeMJLEjht7obLmY5QYl2/jCkv4UwiX3TZhbGSKbegbJ/mm/S4JrunRMtzgk4=; path=/; expires=Tue, 07-Nov-23 19:44:16 GMT; domain=.developers.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+182f

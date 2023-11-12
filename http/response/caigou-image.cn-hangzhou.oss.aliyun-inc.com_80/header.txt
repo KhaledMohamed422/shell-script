@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: caigou-image.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:47.0) Gecko/20100101 Firefox/47.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 372
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:43:46 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4A421F32A83236DBD324
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4A421F32A83236DBD324</RequestId>
+  <HostId>caigou-image.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://caigou-image.cn-hangzhou.oss.aliyun-inc.com:80

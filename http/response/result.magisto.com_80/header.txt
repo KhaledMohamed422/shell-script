@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: result.magisto.com
+User-Agent: Python-urllib/2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:22:39 GMT
+Server: AmazonS3
+Via: 1.1 4d156fc02c81ad97b906c107779265e2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: j-xICtNfhFU6XJhcd8sMkPlOSPoPg60byr6KAKh0gi_8iqsygwm4LQ==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4CCGEKZ2R3C5HVPN</RequestId><HostId>2NZ5HrjKIfKSDOHp2uCWlq/IYQNNvKhACZB3pAJhCT8pK9yXQ6ZmLnIgDJ2cuzwpePfiYsVCkMI=</HostId></Error>
+0
+
+
+
+
+http://result.magisto.com:80

@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: c-grid.criteo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: false
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=5,max-age=5
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 822846a7dee06a83-DUS
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 20:20:17 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UbmKYLUpFScL8rF5aD4plXo4QaTC3o%2Bh0VPtXjyGv8qOyBLmBOzle%2BhA016HHvdWvPr1D52oC1WO31g6rr6SHWAxcGqPVOcRKJ0ZhwAjqdIU5F0qKTOJUrtSNVrYvA7tzCut"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=VuTaU.UexNdEmHCs1uUkVM6JZN5P6gbHyHKov2Tv1As-1699388417-0-ASsEasEsCAwAXMbAwul5Uo5f3/VxS9PpkUna07j7v1L0jznqwXz2Sy2WoJpjnb9lZ4kkGREGFBydicmLUEpjLHo=; path=/; expires=Tue, 07-Nov-23 20:50:17 GMT; domain=.c-grid.criteo.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=6394b1f1a721454e961313a6d60fb51492910754-1699388417; path=/; domain=.c-grid.criteo.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000
+Vary: origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 65
+X-Evy-Trace-Listener: listener_https
+X-Evy-Trace-Route-Configuration: listener_https/all
+X-Evy-Trace-Route-Service-Name: envoyset-translator
+X-Evy-Trace-Served-By-Pod: iad02/cms-0-9-td/envoy-proxy-7f67f7fbb6-qc9zj
+X-Evy-Trace-Virtual-Host: all
+X-Hs-Https-Only: worker
+X-Hs-Prerendered: Sun, 10 Sep 2023 13:22:26 GMT
+X-Hs-Reason: No view mapper found to handle request
+X-Hubspot-Correlation-Id: 8e3c920e-5d16-4ca3-bfb7-da6851c16c3c
+X-Hubspot-Notfound: true
+X-Request-Id: 8e3c920e-5d16-4ca3-bfb7-da6851c16c3c
+X-Trace: 2BFFD552BC936236D2851F0CD0EDA58EF155876A27000000000000000000
+
+5e00

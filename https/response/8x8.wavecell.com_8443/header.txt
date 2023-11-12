@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: 8x8.wavecell.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; BNTV400 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8228a877ce6c1632-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 21:27:03 GMT
+Expires: Tue, 07 Nov 2023 21:27:18 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QdEikKYPNf%2FhCeEKa29OafK44Fh90f3WVoWo4fhKqxN0d1p5b5JPTaELPfFMI0to2sKwcX%2FQQqJAB7S%2F%2F1yVmG7AEClbuyPNvgbXvAyxUJM%2FL7EIHJgm7sqj2gYNewH5afSvS0SUew%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=Ng6RbxHV09g60iL_ue0WgjEb.XGxL0nmScx6wV4UrB4-1699392423-0-AT72yeqez1zFfsN/Oenui1KF1TxRa1unf3TEKk5S9CjG2jXOZDmgThm4DpuLGjjlouxeQckkXVkyMVQ7ryonCdw=; path=/; expires=Tue, 07-Nov-23 21:57:03 GMT; domain=.8x8.wavecell.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=f3ed116e8743260a38837af1bd28454fe749bf35-1699392423; path=/; domain=.8x8.wavecell.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: us-east.cpaul.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.852 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:57:23 GMT
+Via: 1.1 98559aba51e0c88c6e74c88152fb63ae.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCpHEGWHjoEEOgw=
+X-Amz-Cf-Id: bJPBZo2Fqj-z7S_hCv-st_5WfZb-M_UWn175tta9NkjISINuHxS2cA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 8b4afecd-3c97-4ce7-a06d-830ede7cd35d
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://us-east.cpaul.test.popularbets.betviewapi.com:443

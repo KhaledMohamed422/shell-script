@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: dl.cvs.freefiremobile.com
+User-Agent: EmailWolf 1.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 304
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 8227ddf26c5fb948-AMS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:08:48 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSQi++4Ju4s19Qer4qkQwyqlWs24iBUy
+X-Obs-Request-Id: 0000018BAB2FF45798130B4BBAE75969
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB2FF45798130B4BBAE75969</RequestId><HostId>M1n1S/fTY7Skxg4zC1CDJQ7CF3vB4UoxbUtQJfvSyQ4r9ngCEJ+ZhOmMAfZaIMPI</HostId><Key>mgames/ffmhk/</Key></Error>
+
+
+http://dl.cvs.freefiremobile.com:80

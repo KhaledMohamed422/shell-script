@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title></title>
+    <link href="/portal/static/0.1.3/style/style.css" rel="stylesheet"/>
+    <link href="/portal/static/assets/onepage-scroll/1.3.1/onepage-scroll.css" rel="stylesheet"/>
+    <script type="text/javascript">
+	    var system ={};
+	    var p = navigator.platform;
+	    system.win = p.indexOf("Win") == 0;
+	    system.mac = p.indexOf("Mac") == 0;
+	    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+	    if(system.win||system.mac||system.xll){//如果是电脑跳转到
+	        
+	    }else{  //如果是手机,跳转到
+	        window.location.href="/mobile.htm";
+	    }
+    </script>
+ 
+    
+    <script>
+    		
+        var globalVars = {
+            publicKey: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVUrgtMu40ULane3HX3qNVCytkZOPFo5fXsRoV1dRQnBBEtuBe8yzXZhb55Mnxk9wDdLUoQNBIStboCxoD/4Mtcm8yeJl2+o40F+V3iEaBBbRSwU/0K1rTSEk+37a/9mIp07Ln5oXYZJ7tep9wbDh62tp3e20KpQ6yv5akE0GE/NgdTQ3yYFMRUCcke62EZMnDEOH2V02oMlGm8uslxRI9r/HIro0DIq0unLNGVpbthWsz0Zb0MyWNnVsJXzWmSNlUcAGfz47isJFRkn20BX0/oUW/BGg+KVhDrz3fU/HEhGtmyE6Uafnkhn0Z4vfv1I6E3W9iAaY1c84S9GubYy0wIDAQAB',
+            csrfToken: 'ozceHA5TBZ09A7VLMkJ866'
+        };
+        var require = {
+            baseUrl: '/portal/static/0.1.3/js/',
+            paths: {
+                'jquery': '/portal/static/assets/jquery/1.12.3/jquery.min',
+                'bootstrap': '/portal/static/assets/bootstrap/3.3.5/js/bootstrap.min',
+                'css': '/portal/static/assets/requirecss/0.1.8/css',
+                'jsencrypt':'/portal/static/assets/jsencrypt/jsencrypt',
+                'i18n': '/portal/static/assets/requirejs/plugins/i18n',
+                'onepagescroll': '/portal/static/assets/onepage-scroll/1.3.1/jquery.onepage-scroll.min'
+            },
+            shim: {
+                bootstrap: {
+                    deps: ['jquery']
+                },
+                jsencrypt: {
+                    exports: 'JSEncrypt'
+                },
+	            onepagescroll: {
+                    deps: ['jquery']
+                }
+            },
+//            config: {
+//                i18n: {
+//                    locale: 'zh-cn'
+//                }
+//            },
+            deps: ['jquery', 'bootstrap', 'portal.common/msgbox', 'portal.common/error'],
+            callback: function($, bootstrap, msgBox, error) {
+                $.ajaxSetup({
+                    timeout: 5000,
+                    error: function( jqXHR, textStatus, errorThrown) {
+                        if ('timeout' === textStatus) {
+                            msgBox.error({content: error['408']});
+                        } else {
+                            msgBox.error({content: error['500']});
+                        }
+                    }
+                })
+            }
+        };
+        if (localStorage) {
+            var locale = localStorage.getItem('locale');
+            if (locale) {
+                require.config = {
+                    i18n: {
+                        locale: locale
+                    },
+                }
+
+            }
+        }
+    </script>
+    <script data-main="portal.wirelesscast/index.js" src="/portal/static/assets/requirejs/2.2.0/require.min.js"></script>
+</head>
+<body>
+    
+<div class="main">
+	<section class="page-one" style="min-height: 530px">
+		<div class="container">
+			<div class="header-change-locale">
+				<a href="javascript:;" class="opposite-lang-placeholder" id="change-locale"></a>
+			</div>
+			<div class="title title-placeholder">
+			</div>
+			<div class="sub-title sub-title-placeholder"></div>
+			<div class="btn-container">
+				<button type="button" class="next-page1 download-now-placeholder"></button>
+			</div>
+			<div class="mac-book-container">
+				<div class="mac-book"></div>
+			</div>
+			<div class="next-page-btn-container">
+				<button type="button" class="next-page2"></button>
+			</div>
+		</div>
+	</section>
+	<section class="page-two" style="min-height: 530px">
+		<div class="left">
+			<span class="text1 first-step-placeholder"></span>
+			<span class="text2 download-and-install-placeholder"></span>
+			<span class="text3 select-system-placeholder"></span>
+			<div class="btn-container mac">
+				<button class="mac-download"><i class="mac-logo"></i><span class="text mac-download-placeholder"></span></button>
+			</div>
+			<div class="btn-container win">
+				<button class="win-download"><i class="win-logo"></i><span class="text win-download-placeholder"></span></button>
+			</div>
+		</div
+		><div class="right">
+			<span class="text1 second-step-placeholder"></span>
+			<span class="text2 enter-proj-code-placeholder"></span>
+			<span class="text3 open-software-placeholder"></span>
+			<div class="pc-group-container">
+				<span class="pc-group"></span>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="copyright-container">
+				<p>©2020 <span class="alibaba-group-placeholder"></span> Powered by  <span class="infomation-platform-placeholder">企业智能</span></p>
+			</div>
+		</div>
+	</section>
+</div>
+</body>
+</html>
+
+
+
+https://touping.alibaba-inc.com:443

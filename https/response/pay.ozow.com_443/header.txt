@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: pay.ozow.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Api-Supported-Versions: 1.0
+Date: Tue, 07 Nov 2023 22:04:30 GMT
+Location: /request-error?errors=An error has occurred.&siteCode=
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Content-Length: 0
+
+
+
+
+https://pay.ozow.com:443

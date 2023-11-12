@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: net-fe-static-assets.network-controller.svc.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=31536000, immutable
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:58:45 GMT
+Server: AmazonS3
+Via: 1.1 c1c42e732809880dbf4b6deb496490ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: b0NcV_Q7MnAQenrVPNSXYA7oIQrcTGi0UcX0_2TMOjhsut-I8ptltg==
+X-Amz-Cf-Pop: DUS51-P2
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EY8DBDQ4RANVKCVG</RequestId><HostId>HGdqTMBkrVaz1SCyeUXiTu82hwJ3dA8BK2v+6ZzRtyCsXN/vkdqqJGf58zrVou9VwktxLAWl6HTchzBiFHm3nQ==</HostId></Error>
+0
+
+
+
+
+https://net-fe-static-assets.network-controller.svc.ui.com:443

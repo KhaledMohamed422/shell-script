@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: warp.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ecdd1949cb01-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:18:59 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0Z4Iqhpoz3O4iJQmLbT3cvTyOlqUcnsp1B3RpFIRlQMgf3LL6z1lx9rWlx3dFTgg4BG%2FB%2B1zRtz06WrkHm5o7iZ6YWg0h%2BBls87ZMYyhUAX0SFzAJKFC1oUROhZS%2FTOc2RzKYFw%3D"}],"group":"cf-nel","max_age":604800}
+Served-In-Seconds: 0.000
+Server: cloudflare
+Set-Cookie: __cf_bm=c9gqs8aY0PgeNBNtT4YhUmpt7iQopg8uDZpmdXcMRLA-1699384739-0-AbuvTN6/KO/hFY8cnDg5eMAwo2aGgwF9HWZ2GZ1PM8PT545+pehMbIhZUeD9YCNa5g6rBIpN0jvWi8Nb2xVft6w=; path=/; expires=Tue, 07-Nov-23 19:48:59 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+
+22c

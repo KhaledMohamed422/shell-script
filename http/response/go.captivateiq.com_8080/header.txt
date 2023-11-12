@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: go.captivateiq.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3765.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227df0dbbd5715d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:09:33 GMT
+Expires: Tue, 07 Nov 2023 19:09:48 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AZbcRWx%2FiwhQq3RolMOEFBGDDNNIwYgWqGp4XZwZw8mwQ5nLMhbHoUhTP%2BF098lMYsf5MRPfFEh%2B2SwuPZACwmkoJeH1fEFMeP82HQJ29RKq1QX8WyLJmusujkX9jjRHGVgM3omjysen"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ogOwtCm5nBBBIIcIfT9CxnzG8LoeHZ9LKiB6bedyzxU-1699384173-0-ARG2pvobg2En9I7S3vPPxi6+QMCWryzsUCMtw9LR07vVnPdmCKcu0GZDfCP8EIasDlmayQiSqypAYqVjza7+OqQ=; path=/; expires=Tue, 07-Nov-23 19:39:33 GMT; domain=.go.captivateiq.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=8f8df0b570b97e814c45e75b4d496c7773c49121-1699384173; path=/; domain=.go.captivateiq.com; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

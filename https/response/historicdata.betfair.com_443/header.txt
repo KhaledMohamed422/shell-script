@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: historicdata.betfair.com
+User-Agent: Mozilla/5.0 (X11; U; OpenBSD arm; en-us) AppleWebKit/531.2  (KHTML, like Gecko) Safari/531.2  Epiphany/2.30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: Accept, Authorization,Content-Type
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227baffce2b7a58-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:44:57 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PM4Ye6WI6XfDDetNqnMnW8D5YGv2KiXiHb%2FSRkI6kV71Sd3I6El%2BkHUKUvR7zj%2FNqMBtZJrng0t%2F3obaKgbhOtyqpyZSONQJFNpaJ71sifcKkxZIAxkY0CmT2xEta%2FBgwsBLkCMXtPzj4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Cookie,Accept-Encoding
+X-Content-Type-Options: nosniff
+
+1901

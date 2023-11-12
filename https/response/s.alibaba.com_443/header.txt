@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: s.alibaba.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:25.0) Gecko/20100101 Firefox/25.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: https://s.alibaba.com
+Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version,x-fc-instance-id
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:19:27 GMT
+Eagleeye-Traceid: 2150423716994387677545743ec4fa
+Server: Tengine/Aserver
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+X-Fc-Code-Checksum: 16983846477359369413
+X-Fc-Instance-Id: c-654b0052-59e6d45d9cc542f3a1f2
+X-Fc-Invocation-Duration: 15
+X-Fc-Invocation-Service-Version: 32
+X-Fc-Max-Memory-Usage: 0.00
+X-Fc-Request-Id: 1-654b60af-f1a86344b52c80f908ce457d
+
+8ea
+

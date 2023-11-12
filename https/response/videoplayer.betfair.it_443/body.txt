@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Fehlerseite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="icon" type="image/x-icon" href="https://assets.cdnppb.net/static/videoplayer/v2.62.0/resources/bf/favicon.ico?v=ef9554c" />
+<link rel="stylesheet" type="text/css" href="https://assets.cdnppb.net/static/videoplayer/v2.62.0/resources/bf/css/style.css?v=ef9554c">
+<script type="text/javascript" src="//service.maxymiser.net/api/eu/new_betfair.com/7bb08d/mmapi.js"></script>
+<script type="text/javascript" src="https://assets.cdnppb.net/static/videoplayer/v2.62.0/resources/js/core.js?v=ef9554c"></script>
+<script>
+        // sending default aspect ratio to parent window to calculate frame size
+        window.parent.postMessage('bvpAspectRatio=0.57', '*');
+        window.parent.postMessage('bvpContentHeight=270', '*');
+        window.parent.postMessage('bvpContentWidth=480', '*');
+
+        dataLayer = [];
+
+        //stream details parameters are not available
+        window.gaParameters = {
+            errorText: 'error.400'
+        };
+
+        attachWindowCloseHandler();
+    </script>
+</head>
+<body>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P32JX6"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P32JX6');</script>
+
+<script type="text/javascript">
+    console.log("GA is enabled");
+
+    var CONTENT_TYPE_VIZ = 'VIZ',
+        VID_CONTENT_VIEW_NAME = 'watch live',
+        VIZ_MATCH_CONTENT_VIEW_NAME = 'match view',
+        VIZ_SETSTATS_CONTENT_VIEW_NAME = 'set stats',
+        VIZ_MATCHSTATS_CONTENT_VIEW_NAME = 'match stats';
+
+    function getVizContentView(contentType, contentView) {
+        if (contentType === CONTENT_TYPE_VIZ) {
+            switch (contentView) {
+                case 'viz':
+                    return VIZ_MATCH_CONTENT_VIEW_NAME;
+                case 'mstats':
+                    return VIZ_MATCHSTATS_CONTENT_VIEW_NAME;
+                case 'instats':
+                    return VIZ_SETSTATS_CONTENT_VIEW_NAME;
+                default:
+                    return VIZ_MATCH_CONTENT_VIEW_NAME;
+            }
+        } else {
+            return VID_CONTENT_VIEW_NAME;
+        }
+    }
+
+    function triggerGAEvent (action, parameters) {
+        var contentType = '',
+            contentView = '',
+            label = 'n/a',
+            jurisdiction = '',
+            siteVersion = '',
+            deviceId = '';
+
+        if (parameters.errorText && contentType) {
+            label = getVizContentView(contentType, contentView) + ' - ' + parameters.errorText;
+        } else if (parameters.errorText) {
+            label = parameters.errorText;
+        } else {
+            label = getVizContentView(contentType, contentView);
+        }
+
+        var providerDescr = undefined;
+        if (parameters.provider || parameters.providerName) {
+            providerDescr = parameters.provider + " - " + parameters.providerName;
+        }
+
+        dataLayer.push({
+            'event': gaFieldToLowerCase('ga_event'),
+            'category': gaFieldToLowerCase('media'),
+            'action': gaFieldToLowerCase(action),
+            'label': gaFieldToLowerCase(label),
+            'cd122': gaFieldToLowerCase(providerDescr),
+            'cd3': gaFieldToLowerCase(document.referrer + ' - media player'),
+            'cd7': gaFieldToLowerCase(parameters.eventName),
+            'cd5': gaFieldToLowerCase(parameters.sportName),
+            'cd14': gaFieldToLowerCase(parameters.sportId),
+            'cd79': gaFieldToLowerCase(parameters.inplay),
+            'cd6': gaFieldToLowerCase(parameters.competitionName),
+            'cd84': gaFieldToLowerCase(parameters.exchangeRaceId ? parameters.exchangeRaceId : parameters.eventId),
+            'cd74': gaFieldToLowerCase(parameters.timeformId),
+            'cd123': gaFieldToLowerCase(parameters.providerEventId),
+            'cd124': gaFieldToLowerCase(parameters.providerEventName),
+            'cd99' : gaFieldToLowerCase(parameters.errorText),
+            'jurisdiction': gaFieldToLowerCase(jurisdiction ? jurisdiction : undefined),
+            'siteVersion': gaFieldToLowerCase(siteVersion ? siteVersion : undefined),
+            'deviceId': gaFieldToLowerCase(deviceId ? deviceId : undefined)
+        });
+    }
+
+    function triggerGAPageLoadedEvent (isMobile) {
+        var locale = '',
+            country = '',
+            accountId = '',
+            product = '',
+            jurisdiction = '',
+            siteVersion = '',
+            deviceId = '';
+
+        dataLayer.push({
+            'event': gaFieldToLowerCase('ga_iframe'),
+            'parent_page': gaFieldToLowerCase(document.referrer),
+            'ga_target_property': getTargetProperty(isMobile),                       //preserve case. Only for this field for now
+            'acc_id': gaFieldToLowerCase(accountId ? accountId : undefined),
+            'vertical': gaFieldToLowerCase('sports'),
+            'product': gaFieldToLowerCase(product ? product : undefined),
+            'locale': gaFieldToLowerCase(locale ? locale : undefined),
+            'reg_status': gaFieldToLowerCase(undefined),
+            'login_status': gaFieldToLowerCase(undefined),
+            'jurisdiction': gaFieldToLowerCase(jurisdiction ? jurisdiction : undefined),
+            'orientation': gaFieldToLowerCase(getOrientation(isMobile)),
+            'app_id': gaFieldToLowerCase(undefined),
+            'bucket_id': gaFieldToLowerCase(undefined),
+            'test_name': gaFieldToLowerCase(undefined),
+            'test_group': gaFieldToLowerCase(undefined),
+            'rfr': gaFieldToLowerCase(undefined),
+            'sid': gaFieldToLowerCase(undefined),
+            'efid': gaFieldToLowerCase(undefined),
+            'mpch': gaFieldToLowerCase(undefined),
+            'pla': gaFieldToLowerCase(undefined),
+            'clkid': gaFieldToLowerCase(undefined),
+            'bid': gaFieldToLowerCase(undefined),
+            'pid': gaFieldToLowerCase(undefined),
+            'promo_code': gaFieldToLowerCase(undefined),
+            'ttp': gaFieldToLowerCase(undefined),
+            'country': gaFieldToLowerCase(country ? country : undefined),
+            'siteVersion': gaFieldToLowerCase(siteVersion ? siteVersion : undefined),
+            'deviceId': gaFieldToLowerCase(deviceId ? deviceId : undefined)
+        });
+    }
+
+    function getOrientation(isMobile) {
+        if (!isMobile) {
+            return 'desktop';
+        } else {
+            return screen.height < screen.width ? 'landscape' : 'portrait';
+        }
+    }
+
+    function getTargetProperty(isMobile) {
+        var anchor = document.createElement("a");
+        anchor.href = document.referrer;
+
+        if (isMobile) {
+            if (anchor.host.startsWith('us.betfair')) {
+                return 'UA-43334570-43';
+            } else if (contains(anchor.host, '.paddypower.')) {
+                return 'UA-63107437-17';
+            } else if (anchor.host.endsWith(".com")) {
+                return 'UA-43334570-2';
+            } else if (anchor.host.endsWith(".es")) {
+                return 'UA-43334570-10';
+            } else if (anchor.host.endsWith(".it")) {
+                return 'UA-43334570-7';
+            } else if (anchor.host.endsWith(".ro")) {
+                return 'UA-43334570-41';
+            }
+        } else {
+            if (anchor.host.startsWith('us.betfair')) {
+                return 'UA-43334570-42';
+            } else if (contains(anchor.host, '.paddypower.')) {
+                return 'UA-63107437-17';
+            } else if (anchor.host.endsWith(".com")) {
+                return 'UA-43334570-1';
+            } else if (anchor.host.endsWith(".es")) {
+                return 'UA-43334570-5';
+            } else if (anchor.host.endsWith(".it")) {
+                return 'UA-43334570-4';
+            } else if (anchor.host.endsWith(".ro")) {
+                return 'UA-43334570-40';
+            }
+        }
+        return undefined;
+    }
+
+    /*
+    * Wont work with objects, no objects expected in GA
+    * */
+    function gaFieldToLowerCase(value) {
+        if (typeof value === 'undefined' || value === null) {
+            return value;
+        }
+
+        if (typeof value === 'string') {
+            return value.toLowerCase();
+        }
+
+        return String(value).toLowerCase();
+    }
+</script>
+<script>
+    var isMobile = false;
+
+    
+
+    triggerGAPageLoadedEvent(isMobile);
+    triggerGAEvent('saw video', window.gaParameters);
+</script>
+<div id="errorContainer" class="none">
+<div class="center">
+<div class="error">
+Leider ist Live-Video für dieses Ereignis derzeit nicht verfügbar
+<div class="reload">
+<a href="#" onclick="location.reload();return false;">
+Erneut laden
+</a>
+</div>
+
+</div>
+</div>
+</div>
+<script>(function(){var js = "window['__CF$cv$params']={r:'8227cd4db8cf7a58',t:'MTY5OTM4MzQ0Ni43NjQwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227cd4db8cf7a58","b":1,"version":"2023.10.0","token":"4ee31a10b3594df78e0ae3b8f41caf4c"}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://videoplayer.betfair.it:443

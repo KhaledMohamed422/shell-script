@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: static-canary.dash.staging.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227ebe02b2d1617-DUS
+Date: Tue, 07 Nov 2023 19:18:18 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://frontend-team.cloudflareaccess.com/cdn-cgi/access/login/static-canary.dash.staging.cloudflare.com?kid=5ac376334397a2a5f2157822fe4f7698c901b8866ab0b77ed675e085074502d0&redirect_url=%2F&meta=eyJraWQiOiI5YjUwMWM5ZmFlODI3MGYwMTk4OTJlNzQyZGM4MDc5NzcxMmZhYTUxZDA0NzA1NDQ2NjhhNjU0ZjQxYzg5ZTlhIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTM4NDY5OCwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjVhYzM3NjMzNDM5N2EyYTVmMjE1NzgyMmZlNGY3Njk4YzkwMWI4ODY2YWIwYjc3ZWQ2NzVlMDg1MDc0NTAyZDAiLCJob3N0bmFtZSI6InN0YXRpYy1jYW5hcnkuZGFzaC5zdGFnaW5nLmNsb3VkZmxhcmUuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6ImJkZTNmMmU0ZGJlZjJlZDIxYzE2ZTUyZGE4MjJlZGNiYjlmMWE0OTQ5NTQ4YTFmMDI0ZTk0NjZmZjRmOTQ3MTAiLCJuYmYiOjE2OTkzODQ2OTgsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcLyIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfZG4iOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.Z3csGER6uOZPcAzSH3oCSpUx-M0bv8Hb-m4Z8lvWeVghkhohcE0RkC_-rtnmsXS05V8WNcGRCOMN_G56YEInU7EH_p12kADaxPGxqxJrayHkdIpxGe9yxei32C4ZN2TCGUhEPmR2oI61IatZXWsL-kK8_HUqXn8CwwGfqAn8gJ1XTuawUa_SGlaQJwxT3bew6jw5VSeWopHy-NMQfN7QGFYXdY4zv32QkscFRosvxh6dG5hwBkmvnSOs5iB6gXvBJV3jy8jgX3WRmfScMqwiM7j5P6GAyvBzdOOmQUwqeeoq4yK2PNTEfy_sjCeQ_uMghJi5NU4ryK68-npBCvMGwg
+Server: cloudflare
+Set-Cookie: CF_AppSession=n723b668fff60e8a0; Expires=Wed, 08 Nov 2023 19:18:18 GMT; Path=/; Secure; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://static-canary.dash.staging.cloudflare.com:8443

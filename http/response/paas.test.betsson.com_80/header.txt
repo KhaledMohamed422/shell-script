@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: paas.test.betsson.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.3; Linux 2.6.8-gentoo-r3; X11;
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:59:07 GMT
+Location: https://paas.test.betsson.com/
+Server: CloudFront
+Via: 1.1 bc841916063a49c638b48e73f77a28e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1p4jpwCtwSbqg7pVa02lFHZsItEOdTxj5klN3hzOYdDPwarySUSpNA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

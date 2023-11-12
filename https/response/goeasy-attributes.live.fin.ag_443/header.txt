@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: goeasy-attributes.live.fin.ag
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:20:10 GMT
+Via: 1.1 04ddc2ad740f178bb6e0e07dc16f9744.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODPmpEb0YosEmQA=
+X-Amz-Cf-Id: aY2V1GKl7Qro49rk7FRDWVggf5Vzfl3d4pw4c1lRaTzxoLLqOibO1A==
+X-Amz-Cf-Pop: AMS58-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: efcb6bd0-d942-466b-8c6b-eba7d6b74469
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://goeasy-attributes.live.fin.ag:443

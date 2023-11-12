@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: myfunds.paddypower.com:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; tr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b8697cbafad4-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:10 GMT
+Expires: Tue, 07 Nov 2023 18:43:25 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1L9IWHhtdJ1HK%2F%2BAEeQvdo9KNxD4msj23KYlytxiZ2Eq3Zeiw4Dp7zqmvH2rw1hWGAVfiOw1DAwxhhIYYjXT9PO2MbRZbbgW4uaaPEG%2BrJ5ENHEFh1nVXh3Tkip7OzE%2FUs1a8KGAdYYX1jNIWA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=.xhDWQjnXuEEHjJQP4naScCXA1uFAVlnBvykF68wwtE-1699382590-0-AW4wXzPu6TLjndDYreqlcKyhSL3cBWrmUAZvNV37M/OWPOyWMSGHgAqtQMBFpavXzuk2wkz2peFvj/hOQL83Ilo=; path=/; expires=Tue, 07-Nov-23 19:13:10 GMT; domain=.paddypower.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

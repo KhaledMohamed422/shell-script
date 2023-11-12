@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: bugbounty1.vhx.tv
+User-Agent: Baiduspider ( http://www.baidu.com/search/spider.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 4691
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822af1b1ce5dfaea-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 04:06:34 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=UtJ1npuibY73SfG6g.bwL.enI7ezMWZq9boQl.I0i8Y-1699416394-0-Aei+1d7d21QEKI3U45EBx+hByf1wfwWi6Nk0J5PFRsRlutSsFM0Ah7wZzjiIy76t2rBaeW8OEqfhYNIgPTxKBGA=; path=/; expires=Wed, 08-Nov-23 04:36:34 GMT; domain=.vhx.tv; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+

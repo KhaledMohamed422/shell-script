@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.hey.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es65
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 948
+Cf-Cache-Status: HIT
+Cf-Ray: 822c24daaded1537-DUS
+Content-Security-Policy: script-src 'self' 'sha256-152qnSojXPPJBO5ypmrZJeZhpvmsrci2Y3Qw5yXp7e0=' 'unsafe-inline' https://platform.twitter.com https://stats.hey.com https://sdks.shopifycdn.com; object-src 'self'; connect-src https://stats.hey.com https://monorail-edge.shopifysvc.com https://basecamp-kitsch.myshopify.com 'self';
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:36:15 GMT
+Etag: W/"654a99c2-65ff"
+Last-Modified: Tue, 07 Nov 2023 20:10:42 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+65ff

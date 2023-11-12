@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: codex.noa.nintendo.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es70
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:28:04 GMT
+Set-Cookie: TSbcc8abb2027=084cc7beb5ab200096f280bc44fb4ffa08efb4597155e381071971dc852dee598935682dd4b97afd08ab7a20501130005fe2088681d6ea95e7c053a8a41264df95897163dea91035b326775fadd985b99c446fe278a645dbc045c77b403a2dc4; Path=/
+Via: 1.1 11a78ce92a548aac13fb6ee545aff014.cloudfront.net (CloudFront), 1.1 c2e56cd54e2593df95ccca8a6d98c958.cloudfront.net (CloudFront), 1.1 fra1-bit13020
+X-Amz-Apigw-Id: OGAirEMUPHcEGjA=
+X-Amz-Cf-Id: WItX1o8uYkLzdaasB4neuKOpW41xjyQ2VoIzymhEd-Zzl_lXdF5Ahw==
+X-Amz-Cf-Pop: FRA60-P1
+X-Amz-Cf-Pop: FRA56-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 604515a7-810c-4710-80e4-720a0601f332
+X-Amzn-Trace-Id: Root=1-654be144-21b582db7e4a6ae215f6e262
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://codex.noa.nintendo.com:443

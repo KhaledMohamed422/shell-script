@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cdn1.monday.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:46:35 GMT
+Server: AmazonS3
+Via: 1.1 b1c64361268fcbad3c03abbe37eb5cfa.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: FVnzhA-_CsPBvAzFfSQoVMi6L3yYUoQ8BhLTVUEA6lbVX1f1ohtgQQ==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>N61Q7PTDTQYDK6FC</RequestId><HostId>ZA6ZrayGatU1qjrVgu9VAVbt0U7uPY2k07JDncK9bVrFwEKGSv0daMfpqQeNVNNuncjEhyIvj/4=</HostId></Error>
+0
+
+
+
+
+https://cdn1.monday.com:443

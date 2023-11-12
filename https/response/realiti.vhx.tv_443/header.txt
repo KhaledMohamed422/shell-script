@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: realiti.vhx.tv
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b74487b57cb01-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:35:43 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699421743&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=daxpZBlp3%2BkPLAgs0aJsRjYv8N0Ya%2BlO1H8crAFP5Ac%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699421743&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=daxpZBlp3%2BkPLAgs0aJsRjYv8N0Ya%2BlO1H8crAFP5Ac%3D
+Server: cloudflare
+Set-Cookie: __cf_bm=zp1BesIE2fDABZVuxgQYES37m4Cr1USPrGLax8r.M0E-1699421743-0-Abjp5QLyYtsjgEtVeB7ANTi2/pM32ib4xF8A0W56tBUrmWlWms2s67iwBSScKN/gpc3fe159K9Fw7A31Vim8+Qo=; path=/; expires=Wed, 08-Nov-23 06:05:43 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 200 OK
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: fb97d1df-5957-4d43-a83b-955744905a98
+X-Runtime: 0.112900
+X-Xss-Protection: 1; mode=block
+
+1a106

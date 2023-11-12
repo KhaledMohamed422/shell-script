@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: casino.paddypower.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba7f6bd76a88-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:36 GMT
+Expires: Tue, 07 Nov 2023 18:44:51 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cwRjQo5bjcxKlTeP5UvPd7AnGgUFTakQodQijjrLFxLsURceeCiyEyumGpQ6u%2B%2BadPL1pu1Fbj%2FYAxYDwZZ40qz2%2FRbIyiPKk%2FlUBwSau%2Fas2sVlAMmLXsuaiJ%2FBvvsGXgP2SJFs3Da9VbLV"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=SgXHhLEEFpEdO68Qh9pFvJVzMX9uWhSX3TrC1MWhz_E-1699382676-0-AeoUykAhD4wZJ4d0yqa5EeKzpdMldU2iNgGdtZEE9mMvzoJGoMfINSvwfofSug0MNx+CtE9S2sQD3M071LFGkgA=; path=/; expires=Tue, 07-Nov-23 19:14:36 GMT; domain=.paddypower.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

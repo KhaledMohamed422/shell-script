@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: lb.iherb.com:8443
+User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822c10dbbdf97a58-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 07:22:36 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=k2vxZ1NqBMaY3_n8VGYiLPYNkle16Zua27URQdVBKrI-1699428156-0-AT+Rq5IgqrtSenjCMGw5TlDLGh7nIEHgs+1fO9Y5HCQGUe+UEj+Wp4bdBhuoJ1f4H7tXIGf30LgJjpmJEGoYsohncCsIXOsuVsylr6GvNVJ1; path=/; expires=Wed, 08-Nov-23 07:52:36 GMT; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1010
+
+
+https://lb.iherb.com:8443

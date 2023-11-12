@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: retailer-platform-mesh.instacart.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:45.9) Gecko/20100101 Goanna/3.2 Firefox/45.9 PaleMoon/27.4.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h2=":443"; ma=60
+Cache-Control: max-age=3600
+Cf-Ray: 82273d782b34160d-DUS
+Date: Tue, 07 Nov 2023 17:19:15 GMT
+Expires: Tue, 07 Nov 2023 18:19:15 GMT
+Location: https://retailer-platform-mesh.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nw1TX%2BcVz1IO6558MUlWpRpKLq%2FnEXetuHRZLhsfE1D4tbL%2FQBwC5hmD2a641peIbHVbrk74XiGRH0MejAhqT9aSjuRIKYkzU4In1PNYD5lsVfGaF1uPYXbF59RjOwH836wTMMbeZUUHFQlng6LDLZY%2Bl%2Bkrgg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=2HPCRHkc4ykZbf_VsqwHUgABW6ABMzPAHYT3Lanboqg-1699377555-0-AY2rNSUZbRzzvhN/P8cGqxgIZkOYq6ROXMO+feCqPRjsMYJDBHwbvLPEnUXOt1L6Y3G+k88j8D/2c9KgOD2ir64=; path=/; expires=Tue, 07-Nov-23 17:49:15 GMT; domain=.retailer-platform-mesh.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://retailer-platform-mesh.instacart.com:80

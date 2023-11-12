@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: laser.lyft.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:38 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9sYXNlci5seWZ0Lm5ldC8iLCAic3ZjIjogIioubHlmdC5uZXQifQ%3D%3D%7C10.45.12.81%7C1699394618%7Caebbdb3cf7359e2cf1f5925d225b843fcf21e49e417f8f95c3a2bc6dab8ba376
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 3
+

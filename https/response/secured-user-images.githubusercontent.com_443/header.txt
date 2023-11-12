@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: secured-user-images.githubusercontent.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:30:25 GMT
+Server: GitHub Cloud
+Timing-Allow-Origin: https://github.com
+Via: 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: e3b7ad25ac7dcb9cc81db472fa73aaa17c8f0449
+X-Served-By: cache-fra-eddf8230120-FRA
+X-Timer: S1699410625.597384,VS0,VE404
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DXX3P6AS3EZYDWJN</RequestId><HostId>ZtRPl7h7iafGMwZvlVNk3BNzjueUCNjy4m86YegqcP1cDGpkEyI4qLIquD0eAr2qa5cS1WRY7k0=</HostId></Error>
+0
+
+
+
+
+https://secured-user-images.githubusercontent.com:443

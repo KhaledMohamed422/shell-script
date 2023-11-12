@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: lgs-prod1.nintendo.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 118
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 08 Nov 2023 19:33:48 GMT
+Set-Cookie: TS6f43b3f8027=08129865b1ab200062652d3effbdcd380b85e01f50d4a5ecf0627f7c4ee8f92d821c285869454db4081321b465113000fb1048b41fc337e85960029994b3c4fc7ff722fcdc7eb19f62ae52d9afc6888433517b46e5adcd72726ed44104735299; Path=/
+Via: 1.1 c813ed55721b9ee3209e2abab7207a00.cloudfront.net (CloudFront), 1.1 fra1-bit10006
+X-Amz-Cf-Id: DIrRcurPJYT-E9TPtIsTGBRnO752MVhc4tjYoVwQgy01N_Z2VADLjQ==
+X-Amz-Cf-Pop: FRA56-P4
+X-Amzn-Errortype: UnknownOperationException
+X-Amzn-Requestid: 444ccb58-a401-4cf1-8ee8-4e3ffad33a18
+X-Cache: Error from cloudfront
+
+{
+  "errors" : [ {
+    "errorType" : "UnknownOperationException",
+    "message" : "Unknown Operation Request."
+  } ]
+}
+
+
+https://lgs-prod1.nintendo.com:443

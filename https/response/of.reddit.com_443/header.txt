@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: of.reddit.com
+User-Agent: Wget/1.9.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:35:59 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf53o3kui.2.1699389359215.Z0FBQUFBQmxTcC12MG5iRUNJVXpBNXBtOVhqYUFiSlFZbFZzTVZ3d1UzaFZHTTdtN2cyV29MZ1JoRElEZEdlZWpNc1U4cEZ2S3dCRXo3eUR5eGZxNmZuZ3hEb2RQcDJLZHdjVXUzUTJSd01HOS1oZE1iQmR6b1BMLUpZb3hIcDRnT0lpT0d4Q3B6RVU; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:35:59 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=dmobgkhhfjkrrqrqrc.0.1699389359218.Z0FBQUFBQmxTcC12SGJjSzRxRGJrMnozY2JPZU5wMGJmMjNIVE1oWVdhVmdxYUxSYVVraUI1Wm1Id0tTRHNIS0JtOTA0eU5sWnFEalhfcmkzNW4wWGR0c3ZHakllMkxPaUk1TTAtTllTb0RXUnBfbFEtNW5FUG1pOVJYdE9XaGkzdzlDUUZkOHhIank; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:35:59 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=1k5wRuqWfCSonnyuuj; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

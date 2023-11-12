@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: video-ideas.tradingview.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:27:13 GMT
+Referrer-Policy: origin-when-cross-origin
+Server: AmazonS3
+Via: 1.1 5b6e22c950501920595c86fc25834582.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: azH-MX0yolwXQHIxbxHVWhBEmN0tSUli0W5aH8WVicyDyBdXlM1C_w==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>564VV2TD26W2RCR4</RequestId><HostId>iwGtFtHvPv5s1pplMiT4kcxXI0kC+ZYvB1XAGt+lEh6tGWNjfc4cteQ9eTbLQUMmznvWqThLCTc=</HostId></Error>
+0
+
+
+
+
+http://video-ideas.tradingview.com:80

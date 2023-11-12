@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.engage.uat03.marriott.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE90-1/07.24.0.3; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.2.3.18.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 176
+Akamai-Grn: 0.65161102.1699378234.7c8ebac
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:37 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:37 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=2763
+Server-Timing: origin; dur=0
+Server-Timing: ak_p; desc="1699378234675_34674277_130608044_276283_15741_3_8_-";dur=1
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+

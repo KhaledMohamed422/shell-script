@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: blog.wealthsimple.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE90-1/07.24.0.3; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.2.3.18.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227336a48801620-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:12:23 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1005
+
+
+http://blog.wealthsimple.com:80

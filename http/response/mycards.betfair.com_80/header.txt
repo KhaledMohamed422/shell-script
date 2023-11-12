@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: mycards.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9.1) Gecko/20090624 Firefox/3.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b8724b171626-DUS
+Date: Tue, 07 Nov 2023 18:43:12 GMT
+Expires: Tue, 07 Nov 2023 19:43:12 GMT
+Location: https://mycards.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iI9AWkXssnnrSDNeIIvkFcpt5%2BL4e5936DMwfFC4ZX8568%2FaBWTrSKjbBL2NXiuiiCYOzgsBMS8NqjQVNlT8bip0Imr1r%2BWD41thZY3TZoUFqU7pNgGppAmNXgl8ux3O0qK5k7E%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://mycards.betfair.com:80

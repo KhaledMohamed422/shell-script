@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: js-challenger.research.cloudflare.com:8443
+User-Agent: Mediapartners-Google
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e87eca296a89-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:16:00 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bG5RzmRuE6UX0pVUH7r92OaNR%2BIYiUcypP5FkWEaCYXHVDCu5fuQ9v%2Ba4ImBUIwhvjjRBuNxZWWfMc6v4THIWvcREpguBvV%2F92J8oYPnQ%2Bjg93nRYtQIKvLjCdD%2FJtPU9WyVYlz%2FCIYAF%2BVJdYShqMu5OTg4R645W4uu5cI%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://js-challenger.research.cloudflare.com:8443

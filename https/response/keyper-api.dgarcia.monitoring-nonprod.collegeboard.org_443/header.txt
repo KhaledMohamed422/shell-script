@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: keyper-api.dgarcia.monitoring-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; de-de; Galaxy Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:27:45 GMT
+X-Amz-Apigw-Id: OCb-2Hn0IAMF_7A=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 4694da59-22c8-4b57-bd5b-d122fcda5d5b
+
+{"message":"Forbidden"}
+
+
+https://keyper-api.dgarcia.monitoring-nonprod.collegeboard.org:443

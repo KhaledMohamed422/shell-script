@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api-pns-va.tiktok.com
+User-Agent: Mozilla/5.0 (iPod; U; CPU iPhone OS 6_1 like Mac OS X; en-HK) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:18 GMT
+Expires: Wed, 08 Nov 2023 18:38:18 GMT
+Location: https://api-pns-va.tiktok.com/
+Pragma: no-cache
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=275, origin; dur=13
+X-Akamai-Request-Id: 245a4765.3247af7
+X-Cache: TCP_MISS from a23-15-178-180.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-195-36-199.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 13,23.195.36.199
+X-Parent-Response-Time: 288,23.15.178.180
+X-Tt-Logid: 2023110818381720649C960D31C84BA668
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5afb867d596d312aef42c2507e198d9e5d85193e87b44802093f515c939561b31e566f55868fbb4d48da202f71ed9de2f8070021df7a0a46c7d38d967ca1a96183
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

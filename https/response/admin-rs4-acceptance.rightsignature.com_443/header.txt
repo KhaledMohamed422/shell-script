@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: admin-rs4-acceptance.rightsignature.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; YAL-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Language: en
+Content-Security-Policy-Report-Only: default-src 'self' https:; font-src 'self' https: data: https://fonts.gstatic.com maxcdn.bootstrapcdn.com https://d2b0ededpgnlpb.cloudfront.net; object-src 'self' https: dsbrbt6bdq0gm.cloudfront.net d3g9gjc0t8xul1.cloudfront.net d2wote1omqinnt.cloudfront.net d2b0ededpgnlpb.cloudfront.net d38moojrv85pyq.cloudfront.net; base-uri 'self'; img-src 'self' https: data: rightsign-rs4-staging2.s3.amazonaws.com rightsign-staging.s3.amazonaws.com rightsign-rs4-eu-production.s3.eu-central-1.amazonaws.com rightsign-production.s3.amazonaws.com https://cdn.pendo.io https://app.pendo.io https://data.pendo.io https://pendo-static-5106337192345600.storage.googleapis.com https://d2wote1omqinnt.cloudfront.net https://d2b0ededpgnlpb.cloudfront.net https://d38moojrv85pyq.cloudfront.net https://citrix-rightsignature-data.customer.pendo.io https://citrix-rightsignature-content.customer.pendo.io https://js.driftt.com https://widget.drift.com; style-src 'self' https: 'unsafe-inline' d3g9gjc0t8xul1.cloudfront.net dsbrbt6bdq0gm.cloudfront.net d2wote1omqinnt.cloudfront.net d2b0ededpgnlpb.cloudfront.net d38moojrv85pyq.cloudfront.net https://fonts.googleapis.com https://cdn.pendo.io https://app.pendo.io https://pendo-static-5106337192345600.storage.googleapis.com cloud.typography.com maxcdn.bootstrapcdn.com https://dfk5id39sq579.cloudfront.net https://d17o7sb53rvnai.cloudfront.net https://d1ptg7mr6p7ek5.cloudfront.net https://citrix-rightsignature-content.customer.pendo.io https://js.driftt.com https://widget.drift.com; connect-src 'self' https: https://js-agent.newrelic.com https://events.launchdarkly.com https://citrix-rightsignature-data.customer.pendo.io *.bugsnag.com *.s3.amazonaws.com *.s3.eu-central-1.amazonaws.com https://api.merchante-solutions.com https://app.launchdarkly.com https://request.eprotect.vantivpostlive.com https://cdn.pendo.io https://app.pendo.io https://pendo-static-5106337192345600.storage.googleapis.com *.rightsignature.com *.rightsignature.eu https://bam.nr-data.net https://js.driftt.com https://widget.drift.com; script-src 'self' https: https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com https://d2wote1omqinnt.cloudfront.net https://d3g9gjc0t8xul1.cloudfront.net https://dsbrbt6bdq0gm.cloudfront.net https://d2b0ededpgnlpb.cloudfront.net https://d38moojrv85pyq.cloudfront.net https://request.eprotect.vantivpostlive.com https://js-agent.newrelic.com https://citrix-rightsignature-content.customer.pendo.io https://citrix-rightsignature-data.customer.pendo.io https://d2wy8f7a9ursnm.cloudfront.net https://bam.nr-data.net https://cdn.pendo.io https://app.pendo.io https://data.pendo.io https://pendo-io-static.storage.googleapis.com http://content.pendo.example.com https://data.pendo.example.com https://pendo-static-5106337192345600.storage.googleapis.com https://dfk5id39sq579.cloudfront.net https://d17o7sb53rvnai.cloudfront.net https://d1ptg7mr6p7ek5.cloudfront.net https://js.driftt.com https://widget.drift.com; report-uri /csp_violation
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:42:58 GMT
+Location: https://rs-dev.sharefiletest.com/oauth/authorize?client_id=Oo5wIhjF9lYbqFtmDbdbGoyMT&disable_rs3=true&redirect_uri=https%3A%2F%2Fadmin-rs4-acceptance.rightsignature.com%2Fauthorize&response_type=code&state=bc837921-970f-42bf-87d4-6dd4c6b4bb03&theme=rightsignature
+Referrer-Policy: strict-origin-when-cross-origin
+Server: Apache/2.4.52 (Ubuntu)
+Set-Cookie: state_csrf=bc837921-970f-42bf-87d4-6dd4c6b4bb03; path=/; expires=Wed, 08 Nov 2023 18:47:58 GMT
+Set-Cookie: _session_id=6868c1bf29c9d681e887b9c6ba09c68a; path=/; HttpOnly
+Status: 302 Found
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: b859f4e1-14d2-4ad8-abf4-994ba77164f1
+X-Xss-Protection: 1; mode=block
+
+15d

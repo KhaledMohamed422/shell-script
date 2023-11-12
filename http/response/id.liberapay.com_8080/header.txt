@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: id.liberapay.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-N986U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822be824eb467a4f-DUS
+Date: Wed, 08 Nov 2023 06:54:49 GMT
+Expires: Wed, 08 Nov 2023 07:54:49 GMT
+Location: https://id.liberapay.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FLwistEmn0LbNnK4lpnRVrK0eAGRNvl%2BoUPXEDgb7DMNnqDbGgasW38h3lPDZbx85bIJDO7Uai9cfTp8pZPL196LAsEE6Q9tHti8P2gbHTtdcSjPOK65M7H1wQpSu%2BhOWSmHfkTqTvk%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://id.liberapay.com:8080

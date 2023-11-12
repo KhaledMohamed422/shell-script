@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: bingo.paddypower.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba7798656a83-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:35 GMT
+Expires: Tue, 07 Nov 2023 18:44:50 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iqRmwxrzVzbZIVMFgvr80ldteLKktMXj2AHDl6aT6ON0bWP2o5jCOGXWoZ3Znd9FY7%2BEhuROq1Yqf%2BgacW9TTohD3cWQi1UgmEZfVCUBnAn6prJO9SuyIVqw%2BPccoi042WXCPMjdB%2FrvB98%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=o7UFETDGPxHzzQPeXVoPiaMpip8ARdKYbl3RpUASPPs-1699382675-0-Aepn07h+o+QP0XfMdFP9HckOS/JY0LO2N8N4gc4GPxmnCVDCMLj0WTetp8GdCu4TTM2cdjwBR3AtVxhGRY+wCSA=; path=/; expires=Tue, 07-Nov-23 19:14:35 GMT; domain=.paddypower.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

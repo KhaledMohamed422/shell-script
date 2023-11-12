@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: dockerhub.corp.grabpay.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 15
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 20:23:49 GMT
+Docker-Distribution-Api-Version: registry/2.0
+Sizes: 
+Www-Authenticate: Basic realm="https://dockerhub.corp.grabpay.com/",service="ecr.amazonaws.com"
+
+Not Authorized
+
+
+
+https://dockerhub.corp.grabpay.com:443

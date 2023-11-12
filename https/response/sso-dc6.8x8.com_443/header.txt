@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: sso-dc6.8x8.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD i386; rv:28.0) Gecko/20100101 Firefox/28.0 SeaMonkey/2.25
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, x-requested-with, X-Custom-Header, Authorization
+Access-Control-Allow-Methods: OPTIONS, HEAD, GET, PUT, POST, DELETE, PATCH
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:28:58 GMT
+Location: https://sso.8x8.com/sso/login
+P3p: CP=NOI DSP COR NID CUR OUR NOR UNI
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Application-Context: apigateway-service:8085
+X-Content-Type-Options: nosniff
+X-Newrelic-App-Data: PxQGUFJXDwABR1BUBQMPVlUHDxFORDQHUjZKA1ZLVVFHDFYPbU5gBxZAWwQSPxdXWRcRA0NSXwMWYlNBFAoGFhJOCEwIFAQcA1UBUwdZA1ZVGhpQSkFcUAFSVlEBV1FSBVAAUQQHQU5WA1QRXWU=
+
+0
+
+
+
+
+https://sso-dc6.8x8.com:443

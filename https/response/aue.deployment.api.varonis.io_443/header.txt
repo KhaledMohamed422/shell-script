@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: aue.deployment.api.varonis.io
+User-Agent: Mozilla/5.0 (X11; U; NetBSD amd64; en-US; rv:1.9.2.15) Gecko/20110308 Namoroka/3.6.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Value for one of the query parameters specified in the request URI is invalid.
+Connection: close
+Content-Length: 351
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:22:18 GMT
+X-Azure-Ref: 20231107T172217Z-5d13y84k0d0bp9yncwpc6fvw58000000014000000000ywqb
+X-Cache: TCP_MISS
+X-Ms-Request-Id: acbe7ae4-d01e-0063-729e-119f42000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>InvalidQueryParameterValue</Code><Message>Value for one of the query parameters specified in the request URI is invalid.
+RequestId:acbe7ae4-d01e-0063-729e-119f42000000
+Time:2023-11-07T17:22:17.8929430Z</Message><QueryParameterName>comp</QueryParameterName><QueryParameterValue /><Reason /></Error>
+
+
+https://aue.deployment.api.varonis.io:443

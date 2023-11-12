@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: www.kr.playstation.com
+User-Agent: POLARIS/6.01(BREW 3.1.5;U;en-us;LG;LX265;POLARIS/6.01/WAP;)MMP/2.0 profile/MIDP-201 Configuration /CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: http://asia.playstation.com/kr
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://www.kr.playstation.com:80

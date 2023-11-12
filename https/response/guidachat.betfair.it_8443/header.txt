@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: guidachat.betfair.it:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ccb4bcdb7168-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:02 GMT
+Expires: Tue, 07 Nov 2023 18:57:17 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jNxJDZvSzshi38OuQgBLbrpBy%2BTojeWswCi8bOGLsRlYrH1en9uAsVh1BjqFLtiZ%2FoWFTMP8J8WyP2rgxKLyXJdXEE7AjIEnT9GDZ4dxwKMcK6lnpt1aB3KuHtssg6sxq8eZ%2BGOFg9gdbIw%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=6LAj1UHQoXl1dLXTARKF7iStoaaaxUW0q1p0OsjmIzY-1699383422-0-ASptUMPZ6YUINPsNkdljOvs6Ude+wpNsg9EV2VIFd/b8vdle/mod5J4DlQ5CSvwASTkKhfO4puZKSudQwR7E2E0=; path=/; expires=Tue, 07-Nov-23 19:27:02 GMT; domain=.betfair.it; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

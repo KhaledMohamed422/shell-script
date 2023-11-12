@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: connect.acronis.com
+User-Agent: Nokia6100/1.0 (04.01) Profile/MIDP-1.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 29
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:15:12 GMT
+Location: /login
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+<a href="/login">Found</a>.
+
+
+
+
+https://connect.acronis.com:443

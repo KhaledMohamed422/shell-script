@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: rdap.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ea607e0ccb2b-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:17:17 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IXU7DoWc0U18l7bUIuzR82m6DI98vka33dQvsD4Wr6eEHlfI50zqBh0MMpXFW1tfxKZcPl6Y1X0Wm7v03JgtUKmmzZeoMrLx%2FfrkN%2FkYoXP%2B41K58THwR1nL0KjdYm%2FKG95YItnB5Ht85w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=aL4mQjQIPhRiplFRNctthwTap5FzMAWROHG3Aj8eXpc-1699384637-0-AYFWiTjtbh5TE3LupgVWEoN32yL9P7lNIxAZ+wTxstJMSJX1uchsoAsU7xx/TPM/hdU/tiDgzihCZ+xgdZzRVL8=; path=/; expires=Tue, 07-Nov-23 19:47:17 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+
+18a

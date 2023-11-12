@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: jeeves.flipkart.com
+User-Agent: FeedFetcher-Google; ( http://www.google.com/feedfetcher.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 94
+Date: Tue, 07 Nov 2023 22:03:29 GMT
+Server: istio-envoy
+X-Envoy-Upstream-Service-Time: 1
+
+{"error_code":"NOT_FOUND","error_message":"HTTP 404 Not Found","trace_id":null,"context":null}
+
+
+https://jeeves.flipkart.com:443

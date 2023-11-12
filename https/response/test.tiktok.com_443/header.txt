@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: test.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:42 GMT
+Proxy-Status: 0000201404026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=270, origin; dur=11
+X-Origin-Response-Time: 11,23.32.17.9
+X-Parent-Response-Time: 281,2.19.121.202
+X-Tt-Logid: 20231108184641EB191C110E01B4509502
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a0d00d6bad01b29d635adcd98c8699421a0469a1edff4ca97b6ba7c6f97818245c55e933661c898364da042fe637efbdc773d9254a0d09ee02cc959c948c45af8
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

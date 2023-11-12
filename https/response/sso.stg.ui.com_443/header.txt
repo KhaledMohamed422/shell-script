@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: sso.stg.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 179
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-cache
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' *.googleapis.com *.google.com www.gstatic.com; style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com; font-src  'self' *.googleapis.com *.gstatic.com; frame-src  'self' *.google.com; img-src 'self' data:;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:03:44 GMT
+Expires: 0
+Pragma: no-cache
+Referrer-Policy: same-origin
+Server: nginx
+Strict-Transport-Security: max-age=315360000
+Vary: origin,Cookie
+Via: 1.1 b7258653b42aa6de9758e92b2878c108.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Vqcd_B0REQyRH99jgnFdATw3bti3TwwX1Elsr08YbeXhfTOSEobxHA==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+

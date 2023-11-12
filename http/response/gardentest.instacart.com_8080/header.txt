@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: gardentest.instacart.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822739b3d8d3cae9-DUS
+Date: Tue, 07 Nov 2023 17:16:40 GMT
+Expires: Tue, 07 Nov 2023 18:16:40 GMT
+Location: https://gardentest.instacart.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=LJOMw5fj31jOq.jVJmeRH_SNjRvCAJ9Q5CNZ6HRwpWA-1699377400-0-AVEteMfeBuRUk8lyJ/n8DFetMYrzA/8+S3Poi2JkWgVu9UzksZk4rO3xSVGDT0yMagHXT0uEc1SMW3mrXO+qVew=; path=/; expires=Tue, 07-Nov-23 17:46:40 GMT; domain=.gardentest.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://gardentest.instacart.com:8080

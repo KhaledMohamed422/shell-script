@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K7GFJTV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GTM-K7GFJTV');
+  </script>
+  <!-- Fullstory tag -->
+  <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '1XM';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+      if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+      g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+      o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+      y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+      g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+      g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+      g.consent=function(a){g("consent",!arguments.length||a)};
+      g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+      g.clearUserCookie=function(){};
+    })(window,document,window['_fs_namespace'],'script','user');
+  </script>
+  <script type="module" src="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.esm.js"></script>
+  <link rel="stylesheet" href="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.css"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zapier Platform Docs |  Zapier Platform UI Documentation</title>
+  <meta name="description" content="Zapier Platform UI">
+  <link rel="icon" href="https://cdn.zapier.com/zapier/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/stylesheets/base.css">
+  <link rel="stylesheet" href="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.css"/>
+</head>
+
+  <body>
+    <header class="platform-header">
+  <a href="/" id="platform-header__logo"></a>
+
+  <ul class="platform-header__links">
+    <li><a href="https://zapier.com/platform/how-to-build">How to Build</a></li>
+    <li><a href="https://zapier.com/platform/partner-program">Partner Program</a></li>
+    <li><a href="/" class="platform-header__selected">Documentation</a></li>
+    <li><a href="https://community.zapier.com/for-developers-61">Developer Community</a></li>
+    <li><a href="https://developer.zapier.com/contact">Help</a></li>
+  </ul>
+
+  <div class="search">
+    <form method="get" action="/search" autocomplete="off">
+        <input type="text" name="q" class="search-input" placeholder="Search..." autofill="off" />
+    </form>
+  </div>
+
+  <button class="menu-toggle js-menu-toggle" aria-controls="menu" aria-expanded="true">
+    <div class="menu-toggle__icon" alt="Menu icon"></div>
+  </button>
+</header>
+
+<!-- Image Zoom controls -->
+<div class="zoom-close">
+  <img src="../assets/images/toggle-close.svg" />
+</div>
+<div class="page-blur">
+</div>
+
+    <main class="split-layout">
+      
+
+
+<div class="sidebar">
+  <nav id="menu" class="sidebar__nav">
+    <div class="search">
+      <form method="get" action="/search" autocomplete="off">
+          <input type="text" name="q" class="search-input" placeholder="Search..." autofill="off" />
+      </form>
+    </div>
+    
+
+<a class="sidebar__toggle " href="/quickstart/ui-vs-cli">
+  <h3 class="sidebar__title">Quick start</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="quickstart-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=quickstart-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+    <li class="sidebar__list-subcategory">
+      <p class="sidebar__list-subcategory-title">Developer tools</p>
+      <ul class="sidebar__list-subcategory-list">
+        
+          
+          
+            <li>
+              <a href="/quickstart/ui-vs-cli" class="sidebar__list-link ">Platform UI vs Platform CLI</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/quickstart/ui-tutorial" class="sidebar__list-link ">Platform UI tutorial</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/quickstart/cli-tutorial" class="sidebar__list-link ">Platform CLI tutorial</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      </ul>
+    </li>
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/how-zapier-works" class="sidebar__list-link ">How Zapier works</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/zapier-integration-structure" class="sidebar__list-link ">Zapier integration structure</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/private-vs-public-integrations" class="sidebar__list-link ">Private vs public integrations</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/integration-design-examples" class="sidebar__list-link ">Integration design examples</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/build-private-integration" class="sidebar__list-link ">Build a private integration</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/private-integration-rate-limits" class="sidebar__list-link ">Private integration rate limits</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/glossary" class="sidebar__list-link ">Zapier Glossary</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/trusted-developers" class="sidebar__list-link ">Zapier trusted app developers</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/quickstart/support" class="sidebar__list-link ">Get help with the Zapier Platform</a>
+      </li>
+    
+  
+</ul>
+
+    
+
+<a class="sidebar__toggle " href="/build/add">
+  <h3 class="sidebar__title">Build</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="build-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=build-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+    <li class="sidebar__list-subcategory">
+      <p class="sidebar__list-subcategory-title">Advanced features</p>
+      <ul class="sidebar__list-subcategory-list">
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/env" class="sidebar__list-link ">Use environment variables in your API call</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/errors" class="sidebar__list-link ">Add error response handling</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/bundle" class="sidebar__list-link ">Reference user-entered details with data bundles</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/code-mode" class="sidebar__list-link ">Use Code Mode to refine your API call</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      </ul>
+    </li>
+  
+    <li class="sidebar__list-subcategory">
+      <p class="sidebar__list-subcategory-title">Fields</p>
+      <ul class="sidebar__list-subcategory-list">
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/field-definitions" class="sidebar__list-link ">Field definitions and types</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/add-fields" class="sidebar__list-link ">Add input fields to triggers and actions</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/dynamic-field" class="sidebar__list-link ">Send or receive dynamic user-defined fields through your API</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/line-items" class="sidebar__list-link ">Add line item group field to actions</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/sample-data" class="sidebar__list-link ">Defining sample data and output fields</a>
+            </li>
+          
+        
+          
+          
+            <li>
+              <a href="/build/response-types" class="sidebar__list-link ">Response types Zapier expects</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/build/dynamic-dropdowns" class="sidebar__list-link ">Use dynamic dropdowns in Zapier Platform CLI</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      </ul>
+    </li>
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/add" class="sidebar__list-link ">Add a new integration to the Zapier Platform</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/form-mode" class="sidebar__list-link ">Use form mode to setup your API calls</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/auth" class="sidebar__list-link ">Authentication</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/apikeyauth" class="sidebar__list-link ">Add authentication with API Key Auth</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/basicauth" class="sidebar__list-link ">Add authentication with Basic Auth</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/digestauth" class="sidebar__list-link ">Add authentication with Digest Auth</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/oauth" class="sidebar__list-link ">Add authentication with OAuth v2</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/sessionauth" class="sidebar__list-link ">Add authentication with Session Auth</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/trigger" class="sidebar__list-link ">Trigger</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/dedupe" class="sidebar__list-link ">Trigger data deduplication</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/action" class="sidebar__list-link ">Action</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/search-create-action" class="sidebar__list-link ">Search or create action</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/recommended-integration-features" class="sidebar__list-link ">Recommended Integration Features</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/test-integration" class="sidebar__list-link ">Test your integration</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/operating-constraints" class="sidebar__list-link ">Zapier operating constraints</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/hydration" class="sidebar__list-link ">Use hydration in Platform CLI</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/resthooks" class="sidebar__list-link ">Use REST Hooks in Platform CLI</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/faq" class="sidebar__list-link ">Frequently asked questions</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/build/app-checks-reference" class="sidebar__list-link ">App Checks Reference</a>
+      </li>
+    
+  
+</ul>
+
+    
+
+<a class="sidebar__toggle " href="/manage/add-team">
+  <h3 class="sidebar__title">Manage</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="manage-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=manage-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+    <li class="sidebar__list-subcategory">
+      <p class="sidebar__list-subcategory-title">Account and team</p>
+      <ul class="sidebar__list-subcategory-list">
+        
+          
+          
+            <li>
+              <a href="/manage/add-team" class="sidebar__list-link ">Add team members to integration</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      </ul>
+    </li>
+  
+    <li class="sidebar__list-subcategory">
+      <p class="sidebar__list-subcategory-title">Versions</p>
+      <ul class="sidebar__list-subcategory-list">
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/versions" class="sidebar__list-link ">Manage integration versions in Platform UI</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/clone" class="sidebar__list-link ">Clone a version</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/promote" class="sidebar__list-link ">Promote a version</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/migrate" class="sidebar__list-link ">Migrate users to a new version</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/deprecate" class="sidebar__list-link ">Deprecate or delete a version</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+            <li>
+              <a href="/manage/versions-legacy" class="sidebar__list-link ">Manage a legacy web builder integration in Platform UI</a>
+            </li>
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+      </ul>
+    </li>
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/share-integration" class="sidebar__list-link ">Share integration to users</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/user-feedback" class="sidebar__list-link ">Respond to user feedback</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/analyze-integration-performance" class="sidebar__list-link ">Analyze integration performance</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/branding-cli" class="sidebar__list-link ">Add integration branding in Platform CLI</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/making-changes" class="sidebar__list-link ">Making integration changes</a>
+      </li>
+    
+  
+    
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/versions-cli" class="sidebar__list-link ">Manage integration versions in Platform CLI</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/api-outage" class="sidebar__list-link ">Preparing for API Outages</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/export-integration" class="sidebar__list-link ">Export integration from Platform UI to Platform CLI</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/manage/maintain-converted-integration" class="sidebar__list-link ">Maintaining your converted integration</a>
+      </li>
+    
+  
+</ul>
+
+    
+
+<a class="sidebar__toggle " href="/publish/public-integration">
+  <h3 class="sidebar__title">Publish</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="publish-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=publish-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/public-integration" class="sidebar__list-link ">Build your first public integration on Zapier</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/partner-program" class="sidebar__list-link ">About the Partner Program</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/integration-publishing-guidelines" class="sidebar__list-link ">Integration publishing guidelines</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/integration-brand-design-guidelines" class="sidebar__list-link ">Integration branding and design guidelines</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/integration-checks-reference" class="sidebar__list-link ">Integration check reference</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/integration-tips" class="sidebar__list-link ">Zapier integration tips</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/partner-faq" class="sidebar__list-link ">Zapier Partner Program tips</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/zap-templates" class="sidebar__list-link ">Zap templates</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/publish/zapier-issue-manager" class="sidebar__list-link ">Zapier Issue Manager</a>
+      </li>
+    
+  
+</ul>
+
+    
+
+<a class="sidebar__toggle " href="/embed/overview">
+  <h3 class="sidebar__title">Embed</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="embed-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=embed-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/overview" class="sidebar__list-link ">Overview</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/full-zapier-experience" class="sidebar__list-link ">Full Zapier Experience</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/zap-templates" class="sidebar__list-link ">Zap templates</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/zap-editor" class="sidebar__list-link ">Embed Zap editor & pre-fill Zaps</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/partner-api" class="sidebar__list-link ">Partner API</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/security" class="sidebar__list-link ">Security</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/faq" class="sidebar__list-link ">Embed frequently asked questions</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/embed/amplify-embed" class="sidebar__list-link ">Amplify your Zapier integration & embed</a>
+      </li>
+    
+  
+</ul>
+
+    
+
+<a class="sidebar__toggle " href="/reference/cli-docs">
+  <h3 class="sidebar__title">Reference</h3>
+  <div class="sidebar__arrow js-sidebar-toggle" aria-controls="reference-list" aria-expanded="false"></div>
+</a>
+
+
+<!--
+This section represents the list of items in the sidebar for a collection. 
+See side-nav.html for the list of collections in the sidebar.
+
+The list is split into two sections: subcategories and non-subcategory items.
+For context, the path is structured as follows:
+  /collection/subcategory/post
+  /collection/post
+
+All posts with a subcategory has a path with 3 elements, all posts without a subcategory has a path with 2 elements.
+-->
+<ul id=reference-list class="sidebar__list" aria-hidden="true">
+  <!--subcategories represents a comma-separated string of all subcategories-->
+  
+
+  <!--For each post, check the path, if it contains a subcategory, push the subcategory into the subcategories string-->
+  
+
+  <!--Loop through all the subcategories, for each one, loop through all the posts, if it
+  matches the subcategory, render this item under the subcategory.
+  -->
+  
+
+  <!--For every other item without a subcategory, render the remaining items.-->
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/cli-docs" class="sidebar__list-link ">Zapier Platform CLI docs</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/legacy-scripting" class="sidebar__list-link ">Scripting in converted Legacy Web Builder Integrations</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/cli" class="sidebar__list-link ">Zapier CLI reference</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/transfer" class="sidebar__list-link ">Transfer</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/natural-language-actions-api" class="sidebar__list-link ">Natural Language Actions API</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/app-extensions-api-requests" class="sidebar__list-link ">App Extensions and API Requests Actions</a>
+      </li>
+    
+  
+    
+    
+      <li class="sidebar__list-item">
+        <a href="/reference/schema" class="sidebar__list-link ">Schema</a>
+      </li>
+    
+  
+</ul>
+
+  </nav>
+</div>
+
+      <div class="container">
+        <section class="content"><h1 id="zapier-platform-docs">Zapier Platform Docs</h1>
+
+<p>Develop the best <a href="https://zapier.com/">Zapier</a> integration for your app with Zapier’s Platform. You can build <a href="https://platform.zapier.com/quickstart/private-vs-public-integrations">private or public integrations</a> using either of our developer tools.</p>
+
+<h2 id="zapier-platform-ui">Zapier Platform UI</h2>
+
+<p>Zapier Platform UI is the easiest way to build new Zapier integrations in an online visual builder without any coding.</p>
+
+<ul>
+  <li>Try Zapier Platform UI: <a href="https://developer.zapier.com/">developer.zapier.com</a></li>
+  <li>Build a basic integration with the <a href="https://platform.zapier.com/quickstart/platform-ui-guide">Platform UI Quick Start tutorial</a></li>
+  <li>Learn more in <a href="https://platform.zapier.com/quickstart/how-zapier-works">Zapier’s Platform UI Documentation</a></li>
+</ul>
+
+<h2 id="zapier-platform-cli">Zapier Platform CLI</h2>
+
+<p>Zapier Platform CLI is the most advanced way to build integrations in your local development environment with your team’s source code management and custom testing.</p>
+
+<ul>
+  <li>Install Zapier Platform CLI and build a sample integration in the <a href="https://platform.zapier.com/quickstart/platform-cli-tutorial">CLI Quick Start guide</a></li>
+  <li>Find detailed info on the Zapier Platform in the <a href="https://github.com/zapier/zapier-platform/blob/main/packages/schema/docs/build/schema.md">Zapier Platform Schema</a> from our built-in code docs</li>
+  <li>Start quicker with our template <a href="https://github.com/zapier/zapier-platform/tree/main/example-apps">Zapier CLI Example Apps</a></li>
+  <li>Learn more in <a href="https://github.com/zapier/zapier-platform/blob/main/packages/cli/README.md">Zapier’s Platform CLI Documentation</a></li>
+</ul>
+
+<h2 id="join-the-community">Join the Community</h2>
+
+<p>Learn from the Zapier team and other <a href="https://community.zapier.com/developer-discussion-13">Zapier platform developers in our community forum</a>.</p>
+</section>
+      </div>
+    </main>
+  <script>
+(function() {
+
+const toggleMenu = (isOpen, id) => {
+  const toggle = document.querySelector(`[aria-controls="${id}"]`);
+  const list = document.querySelector(`#${id}`);
+  if (toggle) {
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  }
+  if (list) {
+    list.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+  }
+  if (isOpen) {
+    localStorage.setItem(id, 'open');
+  } else {
+    localStorage.removeItem(id);
+  }
+};
+
+const selectSidebarToggles = () => document.querySelectorAll('.js-sidebar-toggle');
+
+selectSidebarToggles().forEach(function(toggle) {
+  var listId = toggle.getAttribute('aria-controls');
+  var list = document.getElementById(listId);
+  toggle.addEventListener('click', function(event){
+    const isListHidden = list.getAttribute('aria-hidden') === 'true';
+    event.preventDefault();
+    event.stopPropagation();
+    selectSidebarToggles().forEach((tgl) => {
+      toggleMenu(false, tgl.getAttribute('aria-controls'));
+      toggleMenu(isListHidden, listId);
+    });
+  });
+});
+
+/* Sidebar menu */
+var menuToggle = document.querySelector('.js-menu-toggle');
+var menu = document.getElementById('menu');
+var MEDIUM_SCREEN = 770;
+
+// On initial page load, hide menu on iPad and smaller
+if (window.innerWidth < MEDIUM_SCREEN) {
+  menu.setAttribute('aria-hidden', 'true');
+  menuToggle.setAttribute('aria-expanded', 'false');
+} else {
+  menu.setAttribute('aria-hidden', 'false');
+}
+
+// On window resize, show the menu if it's hidden on large screens
+window.addEventListener('resize', function() {
+  if (window.innerWidth >= MEDIUM_SCREEN) {
+    menu.setAttribute('aria-hidden', 'false');
+    menuToggle.setAttribute('aria-expanded', 'true');
+  } else {
+    menu.setAttribute('aria-hidden', 'true');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  }
+});
+
+menuToggle.addEventListener('click', function(event) {
+  if (menuToggle.getAttribute('aria-expanded') === 'true') {
+    // Close menu
+    menu.setAttribute('aria-hidden', 'true');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  } else {
+    // Open menu
+    menu.setAttribute('aria-hidden', 'false');
+    menuToggle.setAttribute('aria-expanded', 'true');
+  }
+});
+
+})();
+</script>
+
+<script type="text/javascript">
+  (function (w, d, t, u, n, s, e) {
+  w['SwiftypeObject'] = n; w[n] = w[n] || function () {
+    (w[n].q = w[n].q || []).push(arguments);
+  }; s = d.createElement(t);
+    e = d.getElementsByTagName(t)[0]; s.async = 1; s.src = u; e.parentNode.insertBefore(s, e);
+  })(window, document, 'script', '//s.swiftypecdn.com/install/v2/st.js', '_st');
+
+  _st('install', 'ZEr4Hw56b1TGkz2qViWp', '2.0.0');
+</script>
+
+<script>
+/* Image Zoom Feature */
+(() => {
+  const images = document.querySelectorAll(".content img");
+  const zoomClose = document.querySelector(".zoom-close");
+  const pageBlur = document.querySelector(".page-blur");
+
+  const toggleImageFocus = (e) => {
+    for (const image of images) {
+      if (image !== e.target) image.classList.remove("zoom");
+    }
+    e.target.classList.toggle("zoom");
+    zoomClose.classList.toggle("visible");
+    pageBlur.classList.toggle("visible");
+  }
+
+  const removeImageFocus = () => {
+    for (const image of images) {
+        image.classList.remove("zoom");
+    }
+    zoomClose.classList.remove("visible");
+    pageBlur.classList.remove("visible");
+  }
+
+  const keyDownHandler = (e) => {
+    if (e.key == "Escape") {
+      removeImageFocus();
+    }
+  }
+
+  for(const image of images) {
+    image.addEventListener("click", toggleImageFocus);
+  }
+  
+  zoomClose.addEventListener("click", removeImageFocus);
+  document.addEventListener("keydown", keyDownHandler);
+})();
+</script>
+  <script type="text/javascript">
+(()=>{var J=Object.create;var U=Object.defineProperty;var ee=Object.getOwnPropertyDescriptor;var te=Object.getOwnPropertyNames;var ne=Object.getPrototypeOf,ie=Object.prototype.hasOwnProperty;var oe=(e,t)=>()=>(e&&(t=e(e=0)),t);var w=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var re=(e,t,n,i)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of te(t))!ie.call(e,r)&&r!==n&&U(e,r,{get:()=>t[r],enumerable:!(i=ee(t,r))||i.enumerable});return e};var se=(e,t,n)=>(n=e!=null?J(ne(e)):{},re(t||!e||!e.__esModule?U(n,"default",{value:e,enumerable:!0}):n,e));var a,s=oe(()=>{a={env:{}}});var S=w(I=>{"use strict";s();Object.defineProperty(I,"__esModule",{value:!0});I.settings=void 0;function K(){return a.env.NEXT_PUBLIC_EVENTS_TOOLKIT_EMIT_API?a.env.NEXT_PUBLIC_EVENTS_TOOLKIT_EMIT_API:"https://zapier.com/api/v4/tracking/event/"}function ue(){return a.env.NEXT_PUBLIC_EVENTS_TOOLKIT_WRITE_TO_DATA_LAYER?a.env.NEXT_PUBLIC_EVENTS_TOOLKIT_WRITE_TO_DATA_LAYER:a.env.EVENTS_TOOLKIT_WRITE_TO_DATA_LAYER?a.env.EVENTS_TOOLKIT_WRITE_TO_DATA_LAYER:"false"}I.settings={streaming_service:a.env.EVENTS_TOOLKIT_STREAMING_SERVICE?a.env.EVENTS_TOOLKIT_STREAMING_SERVICE:"api",emit_api:K(),domain:new URL(K()).hostname,write_to_data_layer:ue()}});var N=w(u=>{"use strict";s();Object.defineProperty(u,"__esModule",{value:!0});u.querystringToObj=u.isInPopup=u.isInIframe=u.isBrowser=void 0;var de=()=>typeof window<"u";u.isBrowser=de;var ce=()=>{if(!u.isBrowser())return!1;try{return window.self!==window.top}catch{return!0}};u.isInIframe=ce;var le=()=>u.isBrowser()&&!!window.opener;u.isInPopup=le;var _e=e=>{var t,n;let i=(n=e??((t=window?.location)===null||t===void 0?void 0:t.search))!==null&&n!==void 0?n:"";i.startsWith("?")&&(i=i.substr(1)),i=decodeURIComponent(i);for(var r=i.split("&"),o={},d=0;d<r.length;d++){var l=r[d].split("=",2);o[l[0]]=l[1]}return o};u.querystringToObj=_e});var h=w(_=>{"use strict";s();Object.defineProperty(_,"__esModule",{value:!0});_.getPageViewId=_.getSessionId=_.getVisitorId=void 0;var $=S(),R=N(),j="session_id",W="visitor_id",D="page_view_id";function x(e){var t;let n=(t=document.cookie)===null||t===void 0?void 0:t.match(new RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return n?decodeURIComponent(n[1]):void 0}var O=(e="")=>{var t;return e?(Number(e)^((t=window.crypto)===null||t===void 0?void 0:t.getRandomValues(new Uint8Array(1))[0])&15>>Number(e)/4).toString(16):`${1e7}-${1e3}-${4e3}-${8e3}-${1e11}`.replace(/[018]/g,O)};function fe(){if(R.isBrowser()){var e=x(W);return e||(e=O(),document.cookie=W+"="+e+";domain="+$.settings.domain+";path=/;max-age=5897232000"),e}else return}_.getVisitorId=fe;function ve(){if(R.isBrowser()){var e=x(j);return e||(e=O()),document.cookie=j+"="+e+";domain="+$.settings.domain+";path=/;max-age=3600",e}else return}_.getSessionId=ve;function we(){if(R.isBrowser()){var e=sessionStorage.getItem(D),t,n;return e&&(t=JSON.parse(e)),t&&t.length==2&&t[0]==window.location.pathname?n=t[1]:(n=O(),e=JSON.stringify([location.pathname,n]),sessionStorage.setItem(D,e)),n}else return}_.getPageViewId=we});var X=w(y=>{"use strict";s();Object.defineProperty(y,"__esModule",{value:!0});y.LIB_VERSION=void 0;y.LIB_VERSION="1.1.6"});var H=w(m=>{"use strict";s();var me=m&&m.__awaiter||function(e,t,n,i){function r(o){return o instanceof n?o:new n(function(d){d(o)})}return new(n||(n=Promise))(function(o,d){function l(c){try{f(i.next(c))}catch(v){d(v)}}function g(c){try{f(i.throw(c))}catch(v){d(v)}}function f(c){c.done?o(c.value):r(c.value).then(l,g)}f((i=i.apply(e,t||[])).next())})};Object.defineProperty(m,"__esModule",{value:!0});m.emit=void 0;var G=S(),p=N(),L=V(),Te=h(),ge=h(),pe=X(),b=L.visitorId+"-previous-location",A=L.visitorId+"-next-page-view-referrer",Ee="web_analytics.tracking.page_view.PageViewEvent";function Ie(e){typeof window<"u"&&window.sessionStorage.setItem(b,e)}function Y(){return typeof window<"u"&&window.sessionStorage.getItem(b)||document.referrer}function Oe(){return typeof window<"u"&&window.sessionStorage.removeItem(b)}function he(){return typeof window<"u"&&window.sessionStorage.removeItem(A)}function ye(e){typeof window<"u"&&window.sessionStorage.setItem(A,e)}function Le(){return typeof window<"u"&&window.sessionStorage.getItem(A)||document.referrer}function Pe(e,t){let n=null,i=null,r=null,o=null,d=null,l=null,g=null,f=null,c=null,v=null,k=null,B=null,M=null,q=null,C=null,P=null,F=pe.LIB_VERSION;if(p.isBrowser()){f=window.location.hostname,l=window.location.href,n=window.location.pathname,g=window.location.search,d=window.navigator.userAgent;var E=p.querystringToObj(g);c=E.utm_campaign,v=E.utm_content,k=E.utm_medium,B=E.utm_source;let Q=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,Z=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight;i=`${Q}x${Z}`,r=p.isInIframe(),o=p.isInPopup(),M=L.visitorId,q=Te.getSessionId(),C=ge.getPageViewId(),t==Ee?(Ie(Le()),P=Y(),ye(l)):P=Y()}return Object.assign({fully_qualified_domain_name:f,url_address:l,query_string:g,page_path:n,screen_size:i,iframe_flag:r,popup_flag:o,user_agent:d,utm_content:v,utm_medium:k,utm_source:B,utm_campaign:c,visitor_id:M,page_view_id:C,referer:P,session_id:q,events_library_version:F},e)}function Se(e){p.isBrowser()&&G.settings.write_to_data_layer==="true"&&(window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:"analyticsEvent",eventLabel:e,visitorId:L.visitorId}))}typeof window<"u"&&window.addEventListener("beforeunload",()=>{Oe(),he()});function Ne(e,t){return me(this,void 0,void 0,function*(){var n=!0,i=void 0;try{i=Pe(e,t);var r={"Content-Type":"application/json","X-Requested-With":"XMLHttpRequest",Accept:"application/json"};let o=yield fetch(G.settings.emit_api,{body:JSON.stringify({properties:i,subject:t}),credentials:"include",headers:r,method:"POST"});o.status!==200?(console.warn("Unable to emit event:",o),n=!1):Se(t)}catch(o){console.warn("Unable to emit event:",o),n=!1}return[n,i]})}m.emit=Ne});var V=w(T=>{"use strict";s();Object.defineProperty(T,"__esModule",{value:!0});T.emit=T.visitorId=void 0;var Re=h();T.visitorId=Re.getVisitorId();var be=H();Object.defineProperty(T,"emit",{enumerable:!0,get:function(){return be.emit}})});s();var z=se(V());document.addEventListener("DOMContentLoaded",async function(){await(0,z.emit)({system_name:"developer_docs"},"web_analytics.tracking.page_view.PageViewEvent")});})();
+</script>
+
+  </body>
+</html>
+
+
+
+https://platform.zapier.com:443

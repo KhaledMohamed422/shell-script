@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: dev.vimeo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822af836deaa1635-DUS
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 04:11:01 GMT
+Expires: Sun, 30 Oct 2033 04:39:24 GMT
+Location: https://developer.vimeo.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=Hzk2JeOc.uUUxPDhYklv3FNmQBf.XLaP9Cc3oEEX_eE-1699416661-0-AcSIAUTg1pdJ5676hGZvqO4Snm5kbv1JwcKJa7Macmi35RuU98NJjeA1t85hCIgtNKVFSYScps1FNPdmIjFbD+4=; path=/; expires=Wed, 08-Nov-23 04:41:01 GMT; domain=.vimeo.com; HttpOnly; SameSite=None
+Vary: x-http-method-override
+Via: 1.1 varnish (Varnish/6.0), 1.1 varnish, 1.1 varnish
+X-Backend-Proxy: webproxy15
+X-Bapp-Server: 
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-iad-kiad7000179-IAD, cache-fra-eddf8230073-FRA
+X-Timer: S1699416662.591389,VS0,VE100
+X-Varnish-Cache: 1
+X-Vserver: web-varnish-prod-varnish-14
+
+ec

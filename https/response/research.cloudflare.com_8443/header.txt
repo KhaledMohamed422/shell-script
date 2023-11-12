@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: research.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ea7f5e0b6a7f-DUS
+Content-Security-Policy: default-src 'self'; frame-src 'self' https://iframe.videodelivery.net https://www.youtube.com; frame-ancestors 'self'; form-action 'self' https://website-worker.research.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://blog.cloudflare.com https://raw.githubusercontent.com/
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:17:22 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r98ibTaJEKHoRe2ZNYdyVhbekzvY8gF%2BsV7KRnx2XwzF5KGS0t9LhSx7kNCJEpu3d7dGzH7CSqJab4h5qxNz9If9ZgtbFZpUDQ5KL%2B07neoirK5yrN9hASg30KHI%2BuJ34o7lllC0RQt8%2FvZUxA1H"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+16d3

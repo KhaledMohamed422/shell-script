@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: old.developers.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Linux; U; Android 11; zh-CN; V2121A Build/RP1A.200720.012) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.4.9.201 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e9b9d93e1539-DUS
+Date: Tue, 07 Nov 2023 19:16:50 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://developers.cloudflareaccess.com/cdn-cgi/access/login/old.developers.cloudflare.com?kid=0e2ec8557d3dc634ae0541c9fa38c8f002e779840970b5cc6a5ffe635636516a&redirect_url=%2F&meta=eyJraWQiOiIzYzg4OTIxNTQ3ZjgzN2I5NmU5MjFlNzk4NmI3NzA2YmIzY2ZiYzQyN2VmNzdkYTRkMzRlMjFmMWEwZjUxNzJkIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTM4NDYxMCwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBlMmVjODU1N2QzZGM2MzRhZTA1NDFjOWZhMzhjOGYwMDJlNzc5ODQwOTcwYjVjYzZhNWZmZTYzNTYzNjUxNmEiLCJob3N0bmFtZSI6Im9sZC5kZXZlbG9wZXJzLmNsb3VkZmxhcmUuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6ImU3ZGQ5ZDhjZDY4ZDQ0ZGFiZjViNzJiNmY0YjE1NzhmN2I1MWQ5M2M5NDBjN2NiNmMxMmM1NTQ4ODdiODdhNGQiLCJuYmYiOjE2OTkzODQ2MTAsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcLyIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfZG4iOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.elBCSWYCVsy5gLBF9R-1FyXBqFLsQJar_MFGCF9YZs-UQtaUTeBrE-sIlEew2HAMCBz7vq_gArEWPs28W1zlD9DnKFjN_RXPij055GIAGNQ6QPLVAOsU50JgtD5rD4qqfaS_alUxenI21NaO0C_BYf6z-7eeoALaoFjYgA7eOsv3FrmpE9JgtTLOEYz2N0P3QPI4SUkX_j8Ot87xacWiQx1dQbtEIQUeper4OBYRxUZ4zl3-y_0FCmvvkQQ4ojEejbjrZvd2JeI7glhZB5MZztbxSHrC50SmjcUbNMgIvmvz2pkgmTB-YhMsydTL7kZbeGPqdfGh_Cd5t4YkrmgZDw
+Server: cloudflare
+Set-Cookie: CF_AppSession=nac45b60f1ba2f579; Expires=Wed, 08 Nov 2023 19:16:50 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: __cf_bm=WFEKqp9PzS8q9IA2KDArTyCdvi8xqxHIcUXVSbKcihE-1699384610-0-AeBqXwXWGp0B3U5gkhfyHvhVK8kZbBMYnKcMSBjeUaqAfGNKCTkgTHGDOW/BP6MnXG/g27u1ZS/DGUFWgaL+Fqs=; path=/; expires=Tue, 07-Nov-23 19:46:50 GMT; domain=.developers.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://old.developers.cloudflare.com:8443

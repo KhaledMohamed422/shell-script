@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: effect-api-va.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:44:09 GMT
+Expires: Wed, 08 Nov 2023 18:44:09 GMT
+Pragma: no-cache
+Proxy-Status: 0000201502005104
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=11, origin; dur=359
+X-Akamai-Request-Id: 859b461
+X-Cache: TCP_MISS from a23-15-178-85.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 369,23.15.178.85
+X-Tt-Logid: 2023110818440866D980D12933894E2EBF
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ae7d031d4bad7eb2fc3175a78533d9da95919e2ab156d5c69750e4bb8ad7989ddb7317fb888f448274457db06df3d8302
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: webcast.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:35.0) Gecko/20100101 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy-Report-Only: report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_pns#a9284ddd-dde5-47c2-a429-c60dd4b9e59e; report-to csp-endpoint; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: data: bytedance: *.akamaized.net *.bytedapm.com *.byteintl.net *.byteoversea.com *.fbsbx.com *.fdmimgs.com *.fdmstatic.com *.googleusercontent.com *.ibytedtos.com *.ibyteimg.com *.ifdmimgs.com *.ifdmstatic.com *.isnssdk.com *.sgsnssdk.com *.tiktok.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokv.com *.ttlstatic.com *.ttwstatic.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:18 GMT
+Expires: Wed, 08 Nov 2023 18:42:18 GMT
+Location: https://webcast.tiktokv.com/
+Pragma: no-cache
+Proxy-Status: 0000201301026000
+Reporting-Endpoints: csp-endpoint="https://mon-va.byteoversea.com/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=177, origin; dur=10
+X-Akamai-Request-Id: 4f6a186.2764542
+X-Cache: TCP_MISS from a23-15-178-135.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-75-21-26.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 10,23.75.21.26
+X-Parent-Response-Time: 186,23.15.178.135
+X-Tt-Logid: 20231108184217BB38C19A6B58B3231CD7
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a8242b07e0e40a4b8ce4a883f30c551c5c01b2c55e36cf957b31cf3d5c5bb4bb50f3e922973dd98173bc6b4e1d3d0f06c6a6e8964f113352377a80b09b5f6bb2e
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

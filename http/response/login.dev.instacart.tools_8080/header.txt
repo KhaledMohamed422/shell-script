@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: login.dev.instacart.tools:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4950.2 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273b91dce76a9a-DUS
+Date: Tue, 07 Nov 2023 17:17:57 GMT
+Expires: Tue, 07 Nov 2023 18:17:57 GMT
+Location: https://login.dev.instacart.tools/
+Server: cloudflare
+Set-Cookie: __cf_bm=vrGNorrLTlNohcXxX9povHxm4_3UKALEFBafE5Qe.5Y-1699377477-0-AYD711ul54EG65jymPdy/Fx1/TmQubf42uVMPCfLyLKAaTvUFlZDVpbeUN2HELxHCrZVb9vn8OHotnbX5/Y2vGE=; path=/; expires=Tue, 07-Nov-23 17:47:57 GMT; domain=.login.dev.instacart.tools; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://login.dev.instacart.tools:8080

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: rsc.unibet.com.au
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.0.13.81_10003810) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:01 GMT
+Etag: W/"06be6a0347da1:0"
+Last-Modified: Wed, 25 Oct 2023 11:15:58 GMT
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_tablet-android; Domain=rsc.unibet.com.au; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+Vary: Accept-Encoding
+X-Browser-Class: M
+X-Content-Type-Options: nosniff
+X-Issaloc: false
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: content.test.betsson.com
+User-Agent: Links (2.1pre15; Linux 2.4.26 i686; 158x61)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:56:52 GMT
+Location: https://content.test.betsson.com/
+Server: CloudFront
+Via: 1.1 e505058447bf5e74cc264f4e72f27bee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OErsFZnWwvDHYHtyg8axDrmwc3RvrLLmimeCUXYKJpNR0RCb1dUYsw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

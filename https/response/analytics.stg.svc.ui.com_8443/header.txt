@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: analytics.stg.svc.ui.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 168
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'self';
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:42:58 GMT
+Etag: W/"a8-FGpagHM1A1KoJZ10BxgobPINS9A"
+Server: nginx/1.19.3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1
+

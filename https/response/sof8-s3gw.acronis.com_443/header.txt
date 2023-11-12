@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: sof8-s3gw.acronis.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:29:39 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 402
+X-Amz-Request-Id: 800000000000001b0004ac80528764aa
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://sof8-s3gw.acronis.com:443

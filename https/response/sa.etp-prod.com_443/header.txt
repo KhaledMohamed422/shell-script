@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: sa.etp-prod.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; DN2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 49
+Accept-Ranges: bytes
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Age: 75
+Cache-Control: public, max-age=300
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 19:16:13 GMT
+Etag: "328257380186d550f96adf638ff85092"
+Last-Modified: Mon, 25 Jun 2018 17:54:06 GMT
+Server: AmazonS3
+Vary: Accept-Encoding
+Via: 1.1 1b412557b82dda96e078541f9ee8dfb2.cloudfront.net (CloudFront), 1.1 0a3248cb2729105e64fb474faf90e3b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HwrPg1U1k5XNCaMJcXEzcr4wyCMASlwntWMASgyRK3AVzKDmsOFfyQ==
+X-Amz-Cf-Pop: FRA6-C1
+X-Amz-Cf-Pop: AMS58-P3
+X-Amz-Version-Id: null
+X-Cache: Error from cloudfront
+
+Cannot GET - Invalid path or write key provided.
+
+
+
+https://sa.etp-prod.com:443

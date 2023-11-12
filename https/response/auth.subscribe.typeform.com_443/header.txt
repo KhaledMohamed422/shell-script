@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: auth.subscribe.typeform.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:12:07 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=Ua8RlFmcC7hcdxAQJwlsv1OcnDn+1HoAuhxIK/ybUimvzRZ7KKcgo+0j8Ltvr5x75IC+T1l82lhZQ//Jvo5+udZvr9czkClnkinBYZcZoAohICHnlgzlja9E+yLIxSPzf9eP6wfAJhrXLimM6Fa469JBm6XDL6R5OIU5ktfzEIkE; Expires=Tue, 14 Nov 2023 23:12:07 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=Ua8RlFmcC7hcdxAQJwlsv1OcnDn+1HoAuhxIK/ybUimvzRZ7KKcgo+0j8Ltvr5x75IC+T1l82lhZQ//Jvo5+udZvr9czkClnkinBYZcZoAohICHnlgzlja9E+yLIxSPzf9eP6wfAJhrXLimM6Fa469JBm6XDL6R5OIU5ktfzEIkE; Expires=Tue, 14 Nov 2023 23:12:07 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://auth.subscribe.typeform.com:443

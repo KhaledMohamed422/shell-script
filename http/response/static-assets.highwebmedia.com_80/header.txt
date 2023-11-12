@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: static-assets.highwebmedia.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82302cb5ee42faee-DUS
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 19:20:40 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C42qfxroUICKPI4fuKbBZkp7Ja57mNzyKtRbiokCa9TxPHdpZlKQR6lL5oaRVcU4TeM%2BTi8Wgxpca2kbc4u7J64py%2BaLMRNrWs%2FGkoYc4B43euGD5Vv%2BJialcDFTE5Ic2iceMxl0zw0Ucf6%2BmUNAwQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _cfuvid=9OoorY0AzodV6wLfu7D_PAGS3nGIM2PvVhUXGHVscH0-1699471240747-0-604800000; path=/; domain=.highwebmedia.com; HttpOnly
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: OjDJPpUZ6kaOuga0/1sF5P8MSVeWqo2Dy/b/PYTxizAEMyv2H0d5Tx4BjPvLaq9uvV41Q86v/SpHlb3swBbMWw==
+X-Amz-Request-Id: JMVEGA688RDMZ6PC
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>JMVEGA688RDMZ6PC</RequestId><HostId>OjDJPpUZ6kaOuga0/1sF5P8MSVeWqo2Dy/b/PYTxizAEMyv2H0d5Tx4BjPvLaq9uvV41Q86v/SpHlb3swBbMWw==</HostId></Error>
+0
+
+
+
+
+http://static-assets.highwebmedia.com:80

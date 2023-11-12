@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Salesnet Login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script type="text/javascript">
+    function redirect() {
+        var juncArray = "oys,oysapps,reporting,ciprdr6,oysinvrecmd,oysinventory,rmsplatform";
+        var ISAMOriginalURL= encodeURIComponent(window.location.href);
+        var JunctionName = ISAMOriginalURL.split("%2F")[3];
+        if(juncArray.indexOf(JunctionName) > 0){
+                window.location.href="https://salesnet.marriott.com/userauth/sp/startSSO.ping?PartnerIdpId=ISAM-SAL-IDP-CONN-MFA&TargetResource="  + ISAMOriginalURL;
+        } else {
+                window.location.href="https://salesnet.marriott.com/userauth/sp/startSSO.ping?PartnerIdpId=ISAM-SAL-IDP-CONN&TargetResource="  + ISAMOriginalURL;
+        }
+    }
+    </script>
+</head>
+
+<body onload="redirect()">
+</body>
+</html>
+
+
+
+https://salesnet.xwip.marriott.com:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: developers.criteo.com:8443
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.85 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82284b3d3d896a7c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:23:25 GMT
+Expires: Tue, 07 Nov 2023 20:23:40 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

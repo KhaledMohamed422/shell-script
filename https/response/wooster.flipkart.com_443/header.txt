@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: wooster.flipkart.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.61) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 64
+Date: Tue, 07 Nov 2023 22:06:02 GMT
+Server: istio-envoy
+X-Envoy-Upstream-Service-Time: 53
+
+{"code":"INTERNAL_SERVICE_ERROR","message":"HTTP 404 Not Found"}
+
+
+https://wooster.flipkart.com:443

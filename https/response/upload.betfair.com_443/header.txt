@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: upload.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.136 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc98b936cb11-DUS
+Content-Language: en
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 18:46:02 GMT
+Expires: 0
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Pragma: no-cache
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=c0bdnweJEC56XDut%2BPoEv0AohhEfGdYppN1gFoFpVjD0Ep%2Bhl8fDRMcwQfC%2Fe9kYSIaaumkgvcxx4laQ20XVDY%2BK505%2BpSX4kUK%2BY205AWX4wiWS%2FQuNEQQ02mlMj1LmbRSRSQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: XSRF-TOKEN=b3bfcbb6-a0a2-4d38-9072-83a14630f50a; Path=/; Secure
+Set-Cookie: NSC_mc-80-lzdcg_qse=ffffffff09ba3b4445525d5f4f58455e445a4a4229a0;expires=Tue, 07-Nov-2023 18:48:02 GMT;path=/;httponly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: accept-encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1
+
+3ab

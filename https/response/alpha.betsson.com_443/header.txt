@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: alpha.betsson.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:01:30 GMT
+Server: CloudFront
+Via: 1.1 c325bcaec82bfa9f1a033070b385ab14.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wIcSDRds9IQ34XMId57d_Dg5lXpekzO2ZPzP50JrCQkGmeSxpXoxJg==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+

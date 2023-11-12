@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: cloud-wr-au1.acronis.com:8443
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE90-1/07.24.0.3; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.2.3.18.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:14:22 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: cl5c9jk8ir5gfoip69bg
+X-Request-Id: c3c59f9e099ddde5145eb788e3a12ff2
+
+b4
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse><params><param><value><string>Acronis Storage Manager (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://cloud-wr-au1.acronis.com:8443

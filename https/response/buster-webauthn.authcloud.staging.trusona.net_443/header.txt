@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: buster-webauthn.authcloud.staging.trusona.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 117
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 20:20:15 GMT
+
+buster-webauthn usage:
+  /sirius/register/<N>
+  /sirius/login/<N>
+  /auth-cloud/register/<N>
+  /auth-cloud/login/<N>
+
+
+
+https://buster-webauthn.authcloud.staging.trusona.net:443

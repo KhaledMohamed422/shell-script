@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daraz</title>
+    <link rel="shortcut icon" href="//laz-img-cdn.alicdn.com/tfs/TB19Hr7P4YaK1RjSZFnXXa80pXa-64-64.ico">
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+ <!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+      <!-- Main Stylesheet File -->
+    <!-- <link href="css/custom.css" rel="stylesheet"> -->
+    <!--   <link href="custom-m.css" rel="stylesheet"> -->
+
+<style>
+
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+p, h1, h2{
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+img{
+	width: 100%;
+}
+
+
+/*-------------------------Navbar*/
+
+.navbar{
+	padding-top: 20px!important;
+}
+
+
+@media screen and (max-width: 770px) {
+.navbar-nav {
+    margin: 7.5px 15px!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff8e01;
+}
+
+.daznav .navbar-toggle {
+    padding: 10px;
+        margin: 32px 20px 16px 0px!important;
+}
+
+.daznav .navbar-brand {
+   
+    padding-left: 7%!important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff!important;
+}
+
+}
+
+.daznav .navbar-brand {
+  height: 100px;
+}
+
+.daznav .nav >li >a {
+  padding-top: 40px;
+  padding-bottom: 5px;
+  padding-right:0px; 
+  padding-left:0px;
+  margin-right: 35px;
+}
+.daznav .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-default{
+	background-color: #fff !important;
+    border-color: #fff!important;
+    background-image: none!important;
+    box-shadow: none!important;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    border-bottom: 3px solid orange;
+    background-color: #fff!important;
+    background-image: #fff!important;
+    box-shadow: none!important;
+}
+
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    border-bottom: 3px solid orange;
+    background-color: #fff!important;
+    background-image: none!important;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>.open>a{
+	background-color: #fff;
+	background-image: none;
+	box-shadow: none;
+}
+
+
+/*-------------------------/nav end*/
+
+/*-------------------------/top header*/
+.header-main {
+	margin-top: 60px;
+}
+.header-main p{
+  font-size: 20px!important;
+    margin-top: 40px;
+    color: #9c9c9c;
+    width: 100%;
+    /* margin-left: 12%; */
+}
+
+.hr-style{
+	height: 10px;
+    width: 80px;
+    padding-top: 30px;
+
+    border-top: 4px solid #868686;
+    border-radius: 3px;
+}
+
+.hr-style-orange{
+  height: 10px;
+    width: 80px;
+    padding-top: 20px;
+    border-top: 4px solid #d4d4d4;
+    border-radius: 3px;
+}
+/* -------------------------//topheader */
+
+
+/*-------------------------/Tiles*/
+
+.stat-tiles-bg{
+
+	box-shadow: 0px 15px 20px 4px #f7f7f7;
+	border-radius: 8px;
+}
+
+
+
+.bg-tile{
+	position: relative;
+}
+
+.icon-tile{
+	position: absolute;
+    top: 10%;
+    width: 20%;
+    left: 20%;
+    box-shadow: -1px 5px 14px 2px #d2d2d2;
+    border-radius: 8px;
+}
+
+.tile-caption{
+	position: absolute;
+    bottom: 16%;
+    left: 20%;
+    font-size: 34px;
+    color: #989898;
+}
+.tile-sub-text{
+	position: absolute;
+    bottom: 9%;
+    left: 21%;
+    font-size: 12px;
+    color: #afafaf;
+}
+/*  -------------------------/Tile.M */
+
+.stat-tiles-bg-m{
+
+	box-shadow: 0px 15px 20px 4px #f7f7f7;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+
+
+.bg-tile-m{
+	position: relative;
+}
+
+.icon-tile-m{
+	position: absolute;
+    top: 10%;
+    width: 30%;
+    left: 20%;
+    box-shadow: -1px 5px 14px 2px #d2d2d2;
+   	border-radius: 18px;
+}
+
+
+.tile-caption-m{
+	position: absolute;
+    bottom: 25%;
+    left: 20%;
+    font-size: 34px;
+    color: #989898;
+}
+.tile-sub-text-m{
+	position: absolute;
+    bottom: 19%;
+    left: 21%;
+    font-size: 12px;
+    color: #afafaf;
+}
+
+.icon-tile-m-1{
+	position: absolute;
+    top: 30%;
+    width: 15%;
+    left: 15%;
+    box-shadow: -1px 5px 14px 2px #d2d2d2;
+    border-radius: 18px;
+}
+
+.tile-caption-m-1 {
+    position: absolute;
+	bottom: 25%;
+    left: 42%;
+    font-size: 56px;
+    color: #989898;
+}
+
+.tile-sub-text-m-1{
+	position: absolute;
+     bottom: 33%;
+    left: 72%;
+    font-size: 22px;
+    color: #afafaf;
+}
+
+
+
+
+
+/* -------------------------Darazmall Heading*/
+/*.dazmall-text{
+	margin-top: 80px;
+}*/
+
+.dazmall-text{
+	color: #717171;
+	/*margin-top: 70px;*/
+	    /*width: 86%;*/
+    /*margin-left: 8%;*/
+    margin: 0 auto;
+    padding:40px; 
+	
+}
+
+.dazmall-text p {
+	font-size: 20px!important;
+	color: #9c9c9c;
+}
+
+
+/* -------------------------/Darazmall Heading*/
+
+
+/*-------------------------Overlap images*/
+
+.overlap-section p{
+	 color: #fff;
+}
+
+.overlap-relative{
+	position: relative;
+	height: 600px;
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 980px) {
+  .overlap-relative-m{
+	position: relative;
+	height: 100px;
+	margin-top: 10px;
+}
+}
+
+
+
+.overlap-bg{
+		position: absolute;
+		
+}
+
+.overlap-icon {
+	position: absolute;
+    margin-top: 14%;
+    margin-left: 58%;
+    width: 5%;
+
+}
+.overlap-caption{
+	position: absolute;    
+    margin-top: 20%;
+    margin-left: 58%;
+    width: 35%;
+    font-size: 18px;
+    color:#fff;
+    
+}
+
+
+/*---------dex-------*/
+
+.overlap-icon-dex {
+	position: absolute;
+    margin-top: 12%;
+    margin-left: 7%;
+    width: 7%;
+
+}
+.overlap-caption-dex {
+	position: absolute;    
+    margin-top: 20%;
+    margin-left: 7%;
+    width: 35%;
+    font-size: 18px;
+    color:#fff;
+    
+}
+
+
+/*---------warehouses-------*/
+
+.overlap-icon-warehouses {
+	position: absolute;
+    margin-top: 14%;
+    margin-left: 58%;
+    width: 5%;
+
+}
+.overlap-caption-warehouses {
+	position: absolute;    
+    margin-top: 20%;
+    margin-left: 58%;
+    width: 35%;
+    font-size: 18px;
+    color:#fff;
+    
+}
+
+
+/*----------daraz-uni*/
+
+
+.daraz-uni img{
+	width: 35%;
+	margin-left: 12%;
+	margin-top: 12%;
+}
+
+.daraz-uni p {
+	font-size: 18px;
+    color: #9c9c9c;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+ 
+.seller-sumit {
+	padding-right:0;
+	padding-left:0;
+}
+
+section .bg-col-duni{
+	background-color: #f1f1f1;
+}
+
+
+@media screen and (max-width: 990px) {
+ section .bg-col-duni{
+	background-color: #fff;
+	}
+	.m-padd{
+		padding-right:0;
+	padding-left:0;
+	}
+}
+
+/*---------*/
+
+.daraz-payment img{
+	width: 35%;
+
+	margin-left: 12%;
+	margin-top: 12%;
+}
+
+.daraz-payment p {
+	font-size: 18px;
+    color: #9c9c9c;
+    margin-left: 12%;
+    margin-top: 10%;
+    width: 80%;
+}
+ 
+.payment-text {
+	padding-right:0;
+	padding-left:0;
+}
+
+
+ /*our mission*/
+
+ .mission-2020{
+ 	margin-top:80px;
+ }
+
+
+.vl-border	{ 
+    border-left:    0.5px solid #e4e4e4;
+    height: 105px;
+    margin-top:30px;
+}
+
+.vl-border p{
+	margin-top: 14px;
+	vertical-align: middle;
+	font-size: 26px;
+	width: 80%;
+	padding-left: 40px;
+	color: #F67A46;
+	font-weight: 100;
+}
+
+.our-mission-h{
+	margin-top: 40px;
+	font-size: 50px;
+	padding-right: 40px;
+	color: #6d6d6d!important;
+	font-weight: 300;
+}
+
+
+
+
+
+/*-------------------------/2020 focus Tiles*/
+
+.focus-2020{
+	margin-top: 100px;
+	background-color: #fbfbfb;
+}
+
+.heading-focus{
+	margin-top: 50px;
+	margin-bottom:100px;
+	color: #6d6d6d;
+}
+
+.focus-stat-tiles-bg{
+
+	box-shadow: 0px 15px 20px 4px #f7f7f7;
+	border-radius: 8px;
+	/*width: 90%;*/
+}
+
+
+
+.focus-bg-tile{
+	position: relative;
+}
+
+.focus-icon-tile{
+	position: absolute;
+    top: -20%;
+    width: 20%;
+    left: 40%;
+    box-shadow: -1px 5px 14px 2px #f1f1f1;
+    border-radius: 8px;
+}
+
+.focus-tile-caption{
+	position: absolute;
+    width: 65%;
+    /*bottom: 18%;*/
+    left: 18%;
+    font-size: 21px;
+    color: #989898;
+    text-align: center;
+}
+
+
+.focus-tile-caption-row-tow{
+	position: absolute;
+    width: 65%;
+   /* bottom: 18%;*/
+    left: 18%;
+    font-size: 21px;
+    color: #989898;
+    text-align: center;
+}
+
+
+/*---------------------------------global stratgy*/
+
+
+
+.list-wrapper {
+  position:relative;
+  margin-top: 80px;
+      margin-bottom: 80px;
+
+}
+.list-item-wrapper {
+  margin-top:30px;
+  position:relative;
+}
+.list-bullet {
+      float: left;
+    margin-right: 29px;
+    background: #ff7d1d;
+    height: 9px;
+    width: 9px;
+    line-height: 30px;
+    border-radius: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: 11px;
+    margin-top: 30px;
+}
+.list-item {
+  display:table-row;
+  vertical-align:middle;
+}
+.list-title {
+    font-weight:700;
+    margin-bottom: -12px;
+    color:#a2a2a2;
+}
+.list-text {
+    font-weight:400;
+    font-size: 40px;
+    color: #6f6f6f;
+}
+
+.list-text-sub {
+
+    color: #a2a2a2;
+    margin-top: -12px;
+}
+.red-line {
+      background: #dadada;
+    z-index: 0;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    margin-top: 30px;
+}
+.white-line {
+  background:#fff;
+  z-index:1;
+  top:39px;
+  width:5px;
+  height:100%;
+  position:absolute;
+  left:13px;
+}
+
+.logo-img{
+	margin-left: 20%;
+	width: 40%;
+	margin-top: 50px;
+}
+
+
+.bg-global-str{
+	position: relative;
+	padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.global-str-div{
+	position: absolute;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-left: 9%;
+    margin-top: -25%;
+	    box-shadow: 0px 10px 20px -10px #cccccc;
+}
+
+
+@media screen and (max-width: 769px) {
+ .global-str-div {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 18px;
+    margin-left: 2%;
+    margin-top: -16%;
+    box-shadow: 0px 10px 20px -10px #cccccc;
+}
+
+.mission-2020{
+  margin-top: 0px;
+}
+
+}
+
+
+
+
+/*----------media kit------*/
+
+
+
+.media-kit{
+	padding: 50px;
+
+}
+
+hr .hr-media-kit{
+		margin:0!important;
+		width: 70%;
+}
+
+.media-kit h1{
+	color: #6F6F6F;
+}
+
+
+.media-kit-box{
+	width: 70%;
+	  /*  box-shadow: 0px 3px 20px 0px #cccccc;*/
+	border-radius: 18px;
+	background-color: #fff;
+	    margin: 0 auto;
+	    padding:20px 0; 
+}
+
+.download-text-1{
+	font-size:20px;
+	color: #6F6F6F;
+	padding:10px;
+
+}
+
+.download-text-2{
+	font-size:20px;
+	color: #6F6F6F;
+	padding:10px;
+
+
+}
+
+.media-kit-img1{
+	width: 40px;
+
+}
+
+
+
+.media-kit-h{
+	font-size:24px;
+	color: #6F6F6F;
+	padding: 20px 20px 0 60px;
+
+}
+
+.media-kit-h-1{
+	font-size:24px;
+	color: #6F6F6F;
+	padding: 0px 20px 20px 60px;
+}
+
+@media screen and (max-width: 769px) {
+ .media-kit-h-1,  .media-kit-h{
+ 	font-size:16px;
+}
+	.media-kit-img1{
+	width: 30px;
+	margin-right: -20px;
+	margin-top: 5px
+
+}
+
+}
+
+
+
+
+/*-------footer-------*/
+
+
+footer {
+  position: relative;
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+
+
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+     width: 34.3333%;
+    float: left;
+    padding: 5px 21px;
+    font-size: 12px;
+    border-bottom: 1px dotted #313131;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 35% 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  width: 8%;
+}
+
+footer .three-column ul{
+	list-style: ">  "!important;
+}
+
+footer .socila-list-contact{
+	overflow: hidden;
+  margin: 0 0 15px;
+}
+
+footer .socila-list-contact li{
+	float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  width: 8%;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+	background: none;
+	border: none; 
+      width: 34.3333%;
+    float: left;
+    padding: 6px 6px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+
+
+.footer-logo	{
+    width: 30%;
+    margin-top: 20px;
+
+}
+
+.footer-logo-m	{
+    width: 50%;
+    margin-top: 20px;
+
+}
+
+
+
+footer .img-thumbnail-m {
+	background: none;
+	border: none; 
+      width: 48.3333%;
+    padding: 3px 3px;
+
+}
+
+
+footer .socila-list-m {
+  overflow: hidden;
+  margin: 6% 0 10px;
+}
+
+footer .socila-list-m li {
+  float: left;
+  margin-right: 6px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  width: 12%;
+}
+
+footer .socila-list-contact-m{
+	overflow: hidden;
+  margin: 0 0 10px;
+}
+
+footer .socila-list-contact-m li{
+	float: left;
+  margin-right: 6px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  width: 12%;
+}
+
+
+footer .three-column li {
+  width: 34.3333%;
+  float: none;
+  padding: 5px 21px;
+  font-size: 12px;
+  border-bottom: 1px dotted #313131;
+  display: block;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+  </head>
+  <body>
+
+    <!-- Nav Header -->
+
+          
+                   <div class="daznav">
+                    <nav class="nav navbar navbar-default">
+                      <div class="container">
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#daznav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a class="navbar-brand" href="http://www.daraz.com">
+                            <img src="https://img.alicdn.com/tfs/TB1jjchwW61gK0jSZFlXXXDKFXa-166-52.png">
+                          </a>
+                        </div>
+                        <div id="daznav" class="navbar-collapse collapse">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">About</a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Sell with us<span class="caret"></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="https://sellercenter.daraz.pk/seller/login?redirect_url=https%3A%2F%2Fsellercenter.daraz.pk%2F">Pakistan</a></li>
+                                    <li><a href="https://sellercenter.daraz.com.bd/seller/login?redirect_url=https%3A%2F%2Fsellercenter.daraz.com.bd%2F">Bangladesh</a></li>
+                                    <li><a href="https://sellercenter.daraz.lk/seller/login?redirect_url=https%3A%2F%2Fsellercenter.daraz.lk%2F">Srilanka</a></li>
+                                    <li><a href="https://sellercenter.daraz.com.np/seller/login?redirect_url=https%3A%2F%2Fsellercenter.daraz.com.np%2F">Nepal</a></li>
+                                    <li><a href="https://sellercenter.shop.com.mm/seller/login?redirect_url=https%3A%2F%2Fsellercenter.shop.com.mm%2F">Myanmar</a></li>
+                                    <li><a href="https://www.daraz.com/cross-border.html">Cross Border</a></li>
+					  
+                                  </ul>
+                                </li>
+
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Shop with us<span class="caret"></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="https://www.daraz.pk/">Pakistan</a></li>
+                                    <li><a href="https://www.daraz.com.bd/">Bangladesh</a></li>
+                                    <li><a href="https://www.daraz.lk/">Srilanka</a></li>
+                                    <li><a href="https://www.daraz.com.np/">Nepal</a></li>
+                                    <li><a href="https://www.shop.com.mm/">Myanmar</a></li>
+                                  </ul>
+                                </li>
+
+
+                            <!-- <li><a href="https://careers.daraz.com/">Work with us</a></li> -->
+                            <!-- <li><a href="#">Contact us</a></li> -->
+                          </ul>
+                        </div>
+                     
+                     </div>
+                   
+                    </nav>
+                  </div>
+
+                <!-- /Nav header -->
+
+                <!-- Header <p> -->
+               
+                <section id="main-head" class="header-main">
+
+<div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+  <div class="item active">
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN0135eeJb1FfSHdRZLJ1_!!6000000000514-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01WGiTuO1XMpG8cNjcH_!!6000000002910-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN01OC0Et91ZMwalytg2b_!!6000000003181-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01WNkvqg1XSK0rpcodn_!!6000000002922-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01tpm5Ky1I6az3sdatJ_!!6000000000844-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01vbmzyK1YJRxF881cu_!!6000000003038-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01VZpFS41hRXUdvhNlK_!!6000000004274-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN019NuQ2u1JqgSVMyIIl_!!6000000001080-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01QhpY591EV5hxKiPCt_!!6000000000356-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i1/O1CN01pPzmU11Tvr5YkYol1_!!6000000002445-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+    <img src="https://img.alicdn.com/imgextra/i2/O1CN01l0RWxW1qOB7zeRTZ6_!!6000000005485-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+    <img src="https://img.alicdn.com/imgextra/i1/O1CN01sqMzaH262gOIP50jC_!!6000000007604-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01d9Y7g51tNfX8qy4je_!!6000000005890-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN010O6myt1NniLtqXvKf_!!6000000001615-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i1/O1CN019YTS941QI3pSNiOgY_!!6000000001952-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01yhPfaH1R7oaB8xsRW_!!6000000002065-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+</div>
+
+
+
+
+                <div class="container">
+                  <div class="row">
+                  <!--    <img src="https://img.alicdn.com/tfs/TB1sKMFw4z1gK0jSZSgXXavwpXa-2117-840.jpg" class="hidden-xs ">
+                      <img src="https://img.alicdn.com/tfs/TB1OGWrxND1gK0jSZFKXXcJrVXa-517-307.png" class="visibile-xs hidden-sm hidden-lg hidden-md" style="margin-top:-40px;"> -->
+                      <p class="col-sm-12 col-xs-12 text-center" style="margin-top:60px;">Uplifting communities by the power of commerce</p>
+                  </div>
+                  <hr class="hr-style">
+                </div>
+                
+
+
+
+                <div class="container" style=" padding-right: 0; padding-left: 0;">
+                  <div class="row">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/nPd5yLk1b8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+              
+
+
+                <div class="container" style="margin-top:40px;">
+                  <div class="row">
+                  <img src="https://img.alicdn.com/imgextra/i4/O1CN01M9csjZ1UfehBT4QiA_!!6000000002545-0-tps-2500-557.jpg" class="img-responsive hidden-sm hidden-xs">
+                  <img src="https://img.alicdn.com/imgextra/i4/O1CN01Og0IX81aWqm9faIdG_!!6000000003338-0-tps-750-858.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+                </div>
+
+
+
+                <div class="container">
+                  <div class="row">
+                  <!--    <img src="https://img.alicdn.com/tfs/TB1sKMFw4z1gK0jSZSgXXavwpXa-2117-840.jpg" class="hidden-xs ">
+                      <img src="https://img.alicdn.com/tfs/TB1OGWrxND1gK0jSZFKXXcJrVXa-517-307.png" class="visibile-xs hidden-sm hidden-lg hidden-md" style="margin-top:-40px;"> -->
+                      <p class="col-sm-12 col-xs-12 text-center" style="margin-top:60px; margin-bottom: 40px;">Our Seller Community</p>
+                      <hr class="hr-style">
+
+                  </div>
+                </div>
+
+
+
+                <div class="row" style="margin-bottom: 80px;">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+    <iframe width="100%" height="400"  src="https://www.youtube.com/embed/16P735hTtQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+
+    <div class="item">
+    <iframe width="100%" height="400"  src="https://www.youtube.com/embed/-p5u5hl9iaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+
+    <div class="item">
+    <iframe width="100%" height="400"  src="https://www.youtube.com/embed/j8mTfVRzENw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+
+    <div class="item">
+    <iframe width="100%" height="400"  src="https://www.youtube.com/embed/GQCma7MvH7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+
+<!-- Daraz Cares --> 
+
+  <div class="row">
+
+              
+                <img src="https://img.alicdn.com/imgextra/i3/O1CN01ldkVXA1KxqGNEBUdD_!!6000000001231-0-tps-2500-256.jpg" class="img-responsive hidden-xs hidden-sm">
+                <img src="https://img.alicdn.com/imgextra/i3/O1CN0192YmwK1MFXB6AxyGl_!!6000000001405-0-tps-750-164.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+
+                <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel3" data-slide-to="1"></li>
+    <li data-target="#myCarousel3" data-slide-to="2"></li>
+    <li data-target="#myCarousel3" data-slide-to="3"></li>
+    <li data-target="#myCarousel3" data-slide-to="4"></li>
+    <li data-target="#myCarousel3" data-slide-to="5"></li>
+    <li data-target="#myCarousel3" data-slide-to="6"></li>
+    <li data-target="#myCarousel3" data-slide-to="7"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01FdTOjL1px9lBXlUHD_!!6000000005426-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN01xEKqZ61D7RdoKQ1Yk_!!6000000000169-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01SHuvKf1PxuOw9Hily_!!6000000001908-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01T5n4IA29OcClRKNbt_!!6000000008058-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i1/O1CN01fpAonr2AM9h94qb1h_!!6000000008188-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN01B2M9Yo1Eq9vRv0a4L_!!6000000000402-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+    <img src="https://img.alicdn.com/imgextra/i1/O1CN013GqPTW1hqjH8fxWzF_!!6000000004329-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+    <img src="https://img.alicdn.com/imgextra/i3/O1CN01NQSKa01GcXNYGhWwW_!!6000000000643-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i1/O1CN01qREQ9V1u9l7dVejaV_!!6000000005995-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01tCwxFl22JONV3SGco_!!6000000007099-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i2/O1CN01IAEf6g1Pji7hMo2sn_!!6000000001877-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN01Zp83M21J0TJ8b36tc_!!6000000000966-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01BtAUs71CU3Zzp9yZK_!!6000000000083-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i3/O1CN01qonRrz299xX38oxt4_!!6000000008026-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+    <div class="item">
+      <img src="https://img.alicdn.com/imgextra/i1/O1CN016gMSVT1wSeh4QJFla_!!6000000006307-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+      <img src="https://img.alicdn.com/imgextra/i4/O1CN01uFE8bO1lho1SYwhdI_!!6000000004851-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel3" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel3" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+
+
+</div>
+
+
+
+
+                <div class="container" style="margin-top:80px; ">
+                  <div class="row">
+                  <img src="https://img.alicdn.com/imgextra/i1/O1CN01hgBq5f1QRg8z36NpQ_!!6000000001973-0-tps-2500-752.jpg" class="img-responsive hidden-xs hidden-sm">
+                  <img src="https://img.alicdn.com/imgextra/i2/O1CN01iN2F7Z26m1bM9GwF7_!!6000000007703-0-tps-750-862.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+                  </div>
+                </div>
+
+
+                <div class="container" style="margin-top:40px; ">
+                  <div class="row">
+                  <img src="https://img.alicdn.com/imgextra/i4/O1CN01efYWBb1ODovksAjY7_!!6000000001672-0-tps-2500-751.jpg" class="img-responsive hidden-xs hidden-sm">
+                  <img src="https://img.alicdn.com/imgextra/i4/O1CN015KBDyL23mXCCP2uVx_!!6000000007298-0-tps-750-829.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+                </div>
+              </div>
+
+
+
+
+<!-- DEX --> 
+
+<div class="row" style="margin-top: 40px;">
+
+              
+<img src="https://img.alicdn.com/imgextra/i4/O1CN014Y7fn01tylcDdszrb_!!6000000005971-0-tps-2500-438.jpg" class="img-responsive hidden-xs hidden-sm">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN016PNX3a1XeEJGbAUho_!!6000000002948-0-tps-750-313.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+
+
+<div id="myCarousel5" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel5" data-slide-to="1"></li>
+<li data-target="#myCarousel5" data-slide-to="2"></li>
+<li data-target="#myCarousel5" data-slide-to="3"></li>
+<li data-target="#myCarousel5" data-slide-to="4"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01AG2qHp1aZb9UWQomC_!!6000000003344-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i4/O1CN012IRdHI1fl7BphyJYq_!!6000000004046-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01gujRRc1xs8LJue9xT_!!6000000006498-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01bVgLvm1eIQlful2Ap_!!6000000003848-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01s89cfz27Na4xEzNgd_!!6000000007785-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01FIsd3F1DHykhw9yCw_!!6000000000192-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN0130VHE51uz3Ts0HoXQ_!!6000000006107-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i3/O1CN010fss8h27xlN0Hxr64_!!6000000007864-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN018aDGv21HnokVaoYDs_!!6000000000803-0-tps-1188-414.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01RfAVou1RlCe0hkZXF_!!6000000002151-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel5" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel5" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+
+</div>
+
+
+
+</div>
+
+<!-- DEX End --> 
+
+
+
+
+<!-- Fulfilment Center --> 
+
+<div class="row" >
+<p class="col-sm-12 col-xs-12 text-center" style="margin-top:60px; margin-bottom: 40px;">Fulfilment centers</p>
+<hr class="hr-style">
+
+</div>
+
+
+
+
+<div class="row">
+
+
+<div id="myCarousel4" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel4" data-slide-to="1"></li>
+<li data-target="#myCarousel4" data-slide-to="2"></li>
+<li data-target="#myCarousel4" data-slide-to="3"></li>
+<li data-target="#myCarousel4" data-slide-to="4"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+<div class="item active">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01O7h3cJ1YnDhO5A7XJ_!!6000000003103-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01zqPyNI22jUxDhRv5M_!!6000000007156-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01licnLG1i88KIGEfyo_!!6000000004367-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01alKi9D1tZ7RBGH465_!!6000000005915-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01gR3YGN1Ve6yUwgq9k_!!6000000002677-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01TKCoL31fa7gTG6ORK_!!6000000004022-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01r0RAhv1my7kSz8P7e_!!6000000005022-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01ilWKqR1qzjbUpXX3k_!!6000000005567-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+<div class="item">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01FOZ1xT1DesYUj2wln_!!6000000000242-0-tps-1190-415.jpg" class="img-responsive hidden-xs hidden-sm" >
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01Rfg2b91RjN3sUxjeg_!!6000000002147-0-tps-750-350.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+</div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel4" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel4" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<span class="sr-only">Next</span>
+</a>
+
+</div>
+
+
+</div>
+
+<!-- Fulfilment Center End --> 
+
+
+                  <div class="row">
+                  <img src="https://img.alicdn.com/imgextra/i3/O1CN01LBzZKc1ze3OrHQAG0_!!6000000006738-0-tps-2499-250.jpg" class="img-responsive hidden-xs hidden-sm">
+                  <img src="https://img.alicdn.com/imgextra/i2/O1CN01CY2M631YtAqgE0SFA_!!6000000003116-0-tps-750-637.jpg" class="img-responsive visible-sm visible-xs hidden-md hidden-lg">
+
+                  </div>
+
+
+                  <div class="row" style="background-color: #f8f8f8; margin-top: 60px; margin-bottom: 60px; padding-bottom: 50px;">
+                  <h3 class="text-center" style="margin-top: 60px;"><b>About Us</b></h3>
+                  <p class="text-center hidden-xs hidden-sm" style="padding: 20px;">Daraz is the leading online marketplace in South Asia, empowering tens of thousands of sellers to connect with millions of customers. Daraz provides immediate and easy access to 50 million products in over 100 categories, delivering more than 6 million packages every month across the region. Daraz is a mall, a marketplace and a community for its customers and sellers. It strives the raise the standards of e-commerce in South Asia through a seamless ecosystem consisting of end-to-end solutions across e-commerce, logistics, payment infrastructure and financial services. In 2018, Daraz was acquired by Alibaba Group, and is proud to carry its part of the mission to “make it easy to do business anywhere in the era of the digital economy”. As part of the Alibaba ecosystem, Daraz leverages Alibaba's global leadership and experience in technology, online commerce, mobile payments and logistics to drive growth in its markets.</p>
+                  <p class="text-center hidden-md hidden-lg" style="padding: 20px; font-size: 15px!important;">Daraz is the leading online marketplace in South Asia, empowering tens of thousands of sellers to connect with millions of customers. Daraz provides immediate and easy access to 50 million products in over 100 categories, delivering more than 6 million packages every month across the region. Daraz is a mall, a marketplace and a community for its customers and sellers. It strives the raise the standards of e-commerce in South Asia through a seamless ecosystem consisting of end-to-end solutions across e-commerce, logistics, payment infrastructure and financial services. In 2018, Daraz was acquired by Alibaba Group, and is proud to carry its part of the mission to “make it easy to do business anywhere in the era of the digital economy”. As part of the Alibaba ecosystem, Daraz leverages Alibaba's global leadership and experience in technology, online commerce, mobile payments and logistics to drive growth in its markets.</p>
+
+                  </div>
+
+
+                </section>
+
+                <!-- <hr class="hr-style"> -->
+
+
+ 
+                  <!-- / global strategic Mobile -->
+
+
+              <!--  <section class="media-kit" style="margin-top: 20%;background: #fbfbfb;">
+
+                  <div class="container">
+                      <h1 class="text-center">Media Kit</h1>
+                      <hr class="hr-style-orange">
+                  </div>
+
+                  <div class="container">
+                    <div class="media-kit-box">
+                      <div class="row">
+                          <div class="col-sm-8 col-xs-8 media-kit-h">Daraz Logo</div>
+                          <div class="col-sm-4 col-xs-4">
+                              <a href="" style="display: flex;align-items: center;">
+                                  <img class="media-kit-img1" src="https://img.alicdn.com/tfs/TB1wE04xNn1gK0jSZKPXXXvUXXa-43-53.png">
+                                  <span class="download-text-1 hidden-sm hidden-xs">Download</span>
+                              </a>
+                          </div>
+
+                      </div>
+
+                      <hr class="hr-media-kit">
+                      
+                      <div class="row">
+                          <div class="col-sm-8 col-xs-8 media-kit-h-1">Daraz Brand Narrative</div>
+                          <div class="col-sm-4 col-xs-4">
+                              <a href="" style="display: flex;align-items: center;">
+                                  <img class="media-kit-img1" src="https://img.alicdn.com/tfs/TB1wE04xNn1gK0jSZKPXXXvUXXa-43-53.png">
+                                  <span class="download-text-2 hidden-xs hidden-sm">Download</span>
+                              </a>
+                          </div>
+
+                      </div>
+                      </div>
+                  </div>
+              </section> -->
+
+
+                  <footer class="hidden-sm hidden-xs">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="footer-logo" src="https://img.alicdn.com/tfs/TB1SNR4xRv0gK0jSZKbXXbK2FXa-139-43.png">
+        
+        <ul class="list-unstyled socila-list">
+          <li><a href="https://www.daraz.pk/"><img src="https://img.alicdn.com/tfs/TB1VBbrw1bviK0jSZFNXXaApXXa-40-40.png" alt="Pakistan" /></a></li>
+          <li><a href="https://www.daraz.com.bd/"><img src="https://img.alicdn.com/tfs/TB1ZLh6xKH2gK0jSZFEXXcqMpXa-40-40.png" alt="Bangladesh" /></a></li>
+          <li><a href="https://www.daraz.lk/"><img src="https://img.alicdn.com/tfs/TB1GnX6xQY2gK0jSZFgXXc5OFXa-40-40.png" alt="Srilanka" /></a></li>
+          <li><a href="https://www.daraz.com.np/"><img src="https://img.alicdn.com/tfs/TB15E08xHj1gK0jSZFOXXc7GpXa-40-40.png" alt="Nepal" /></a></li>
+          <li><a href="https://www.shop.com.mm/"><img src="https://img.alicdn.com/tfs/TB13EF9xKH2gK0jSZJnXXaT1FXa-40-40.png" alt="Myanmar" /></a></li>
+        </ul>
+        <div class="copyright">&copy; 2020 <span>Daraz Group</span></div>
+      </div>
+
+
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <h3>Daraz</h3>
+        <ul class="list-unstyled three-column">
+          <li><a href="https://www.daraz.com">About</a></li>
+          <!-- <li><a href="">Shop on Daraz</a></li> -->
+          <!-- <li><a href="">Contact us</a></li> -->
+          <li><a href="https://sellercenter.daraz.pk/seller/login?redirect_url=https%3A%2F%2Fsellercenter.daraz.pk%2F">Sell on Daraz</a></li>
+          <!-- <li><a href="https://careers.daraz.com/">Work at Daraz</a></li> -->
+        </ul>
+
+        <p>Connect with us</p>
+        <ul class="list-unstyled socila-list-contact">
+          <li><a href="https://www.facebook.com/darazpk/"><img src="https://img.alicdn.com/tfs/TB1AmR3xKL2gK0jSZPhXXahvXXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.instagram.com/darazpk/?hl=en"><img src="https://img.alicdn.com/tfs/TB1daB6xUT1gK0jSZFhXXaAtVXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/company/daraz/"><img src="https://img.alicdn.com/tfs/TB1v0R3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.youtube.com/channel/UC2BZLVEe9yLof1ghc_YI0_A"><img src="https://img.alicdn.com/tfs/TB1wcB4xFP7gK0jSZFjXXc5aXXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://twitter.com/darazpk?lang=en"><img src="https://img.alicdn.com/tfs/TB1UtR3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt="" /></a></li>
+        </ul>
+        
+      </div>
+      
+      <div class="col-lg-4 col-sm-12" style="margin-top: 23px;">
+        <img class="img-thumbnail" src="https://img.alicdn.com/tfs/TB1Os88xHH1gK0jSZFwXXc7aXXa-98-98.png" alt="" />
+        <div style="width: 40%;float: left;font-size: 14px;margin-top: 78px;margin-left: 8px;">Happy Shopping</div>
+    <div style="width: 40%;float: left;font-size: 14px;margin-left: 8px;color: #fe722c;">Download App</div>
+
+        
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <img class="img-thumbnail" src="https://img.alicdn.com/tfs/TB1EK47xQL0gK0jSZFxXXXWHVXa-176-52.png" alt="" />
+        <img class="img-thumbnail" src="https://img.alicdn.com/tfs/TB1hUN9xKH2gK0jSZJnXXaT1FXa-155-51.png" alt="" style="width: 31.5%;"/>
+      </div>
+      
+
+
+
+    </div>
+  </div>
+</footer>
+
+
+<footer class="hidden-lg hidden-md">
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="col-sm-6 col-xs-6 ">
+        <img class="footer-logo-m" src="https://img.alicdn.com/tfs/TB1SNR4xRv0gK0jSZKbXXbK2FXa-139-43.png">
+        <hr style="border-top: 1px solid #6d6d6d;">
+        
+        
+      </div>
+
+      <div class="col-sm-6 col-xs-6">
+
+        <p style="padding-top: 12px;">Connect with us</p>
+        <ul class="list-unstyled socila-list-contact-m">
+          <li><a href="https://www.facebook.com/darazpk/"><img src="https://img.alicdn.com/tfs/TB1AmR3xKL2gK0jSZPhXXahvXXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.instagram.com/darazpk/?hl=en"><img src="https://img.alicdn.com/tfs/TB1daB6xUT1gK0jSZFhXXaAtVXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/company/daraz/"><img src="https://img.alicdn.com/tfs/TB1v0R3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://www.youtube.com/channel/UC2BZLVEe9yLof1ghc_YI0_A"><img src="https://img.alicdn.com/tfs/TB1wcB4xFP7gK0jSZFjXXc5aXXa-40-40.png" alt="" /></a></li>
+          <li><a href="https://twitter.com/darazpk?lang=en"><img src="https://img.alicdn.com/tfs/TB1UtR3xLb2gK0jSZK9XXaEgFXa-40-40.png" alt="" /></a></li>
+        </ul>
+        
+      </div>
+  </div>
+    
+
+    <div class="row" style="margin-bottom: 20px;">
+
+      <div class="col-sm-6 col-xs-6">
+        <div style="font-size: 14px;padding: 8px;">Happy Shopping  |<span style="font-size: 14px;padding: 2px;color: #ec7526;">Download App</span> </div>
+      <a href="https://app.adjust.com/tc0ucq"><img class="img-thumbnail-m" src="https://img.alicdn.com/tfs/TB1EK47xQL0gK0jSZFxXXXWHVXa-176-52.png" alt="" /></a>
+      <a href="https://app.adjust.com/pe04kv"><img class="img-thumbnail-m" src="https://img.alicdn.com/tfs/TB1hUN9xKH2gK0jSZJnXXaT1FXa-155-51.png" alt="" style="width: 44%;"/></a>
+      </div>
+
+      <div class="col-sm-6 col-xs-6">
+    
+                <ul class="list-unstyled socila-list-m">
+                    <li><a href="https://www.daraz.pk/"><img src="https://img.alicdn.com/tfs/TB1VBbrw1bviK0jSZFNXXaApXXa-40-40.png" alt="Pakistan" /></a></li>
+                    <li><a href="https://www.daraz.com.bd/"><img src="https://img.alicdn.com/tfs/TB1ZLh6xKH2gK0jSZFEXXcqMpXa-40-40.png" alt="Bangladesh" /></a></li>
+                    <li><a href="https://www.daraz.lk/"><img src="https://img.alicdn.com/tfs/TB1GnX6xQY2gK0jSZFgXXc5OFXa-40-40.png" alt="Srilanka" /></a></li>
+                    <li><a href="https://www.daraz.com.np/"><img src="https://img.alicdn.com/tfs/TB15E08xHj1gK0jSZFOXXc7GpXa-40-40.png" alt="Nepal" /></a></li>
+                    <li><a href="https://www.shop.com.mm/"><img src="https://img.alicdn.com/tfs/TB13EF9xKH2gK0jSZJnXXaT1FXa-40-40.png" alt="Myanmar" /></a></li>
+                  </ul>
+          <div class="copyright">&copy; 2020 <span>Daraz Group</span></div>
+
+    
+
+      </div>
+
+      </div>
+
+  </div>
+</footer>
+
+
+  </body>
+</html>
+
+0
+
+
+
+
+https://jira.daraz.com:443

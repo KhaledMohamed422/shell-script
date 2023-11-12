@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: sell-staging.moonpay.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; HMA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822d14fc49681632-DUS
+Date: Wed, 08 Nov 2023 10:20:11 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://sell-sandbox.moonpay.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=OpjioqWQR.GbXNqQBBK0CQmEllfzjAVqVoIgrJfJ8kE-1699438811-0-Acmc6cgd4qGBujqjVGt4iAceyo7DSprqt+vMou3g8cgagtmMf1Wuzry+/3NDDKKyxKeIy7UR06tis2xZYJBc3+w=; path=/; expires=Wed, 08-Nov-23 10:50:11 GMT; domain=.moonpay.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://sell-staging.moonpay.com:8443

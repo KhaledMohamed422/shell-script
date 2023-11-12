@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: csghelpcenter.monday.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ce6d8ab6a160b-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 09:48:41 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZkdjykDNm2OvsB4%2BSP7G7rOPnXJzt52fIICSgwkXD%2FJ6LP4NadwesfuAZdeC8Pyi41UpFgdoPSJ0DanpH8KFObOnLunmz%2F6NK0F%2BxLi3Kzhusz9OIKHvUuxW0V9NgcIMM6ZzU5pfpCoTAjAvMGhb"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+https://csghelpcenter.monday.com:8443

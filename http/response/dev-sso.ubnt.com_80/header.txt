@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: dev-sso.ubnt.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/536.5 (KHTML like Gecko) Chrome/19.0.1084.56 Safari/536.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:11:00 GMT
+Location: https://dev-sso.ubnt.com/
+Server: CloudFront
+Via: 1.1 db1cc9ceb7681bf2a56c0f22acac3a36.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HOJ0ukCcxc-V-M0v_JwlIwntPd3IiSyT91ruX0T9WWkFufZ_QE2VOg==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Redirect from cloudfront
+

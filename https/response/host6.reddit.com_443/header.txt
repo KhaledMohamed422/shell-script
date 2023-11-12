@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: host6.reddit.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_6; en-US) AppleWebKit/528.16 (KHTML, like Gecko, Safari/528.16) OmniWeb/v622.8.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:28:20 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf4ne7sxs.2.1699388900112.Z0FBQUFBQmxTcDNrNlZvNXBZeEs5bEhzSkdaWWJPTkI1ZjctU3c3aHptTl9XckNLUXFzNjM5cG5JSk5yeWdUa0hkQlZzYTBqUUE1NHIxamh6UkFESHJrNFA1d2o2VjhUSmUzdlJvMHU3NlJ6V05hZnBEYXR0VGlCWERtZ0w3c2QzWDV2VklpTnNZZXo; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:28:20 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=inrlihkghcnedkbqom.0.1699388900114.Z0FBQUFBQmxTcDNrTXV3WWlmdXd5bWVJUlktTHBlUHhWRGQxUF9xamhNY2tDdzAtN0plR0t1NXo4YmZZS1RnSTZWdkFmdVBjdi0wbFhHUWtzaElndENDWDR1cHJXSkxEVkJTaHlYdWdacjV5RzVETk42WDVwU2VJVmdGLXFTRkVFY01vNzdQMThpMTY; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:28:20 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=WATCWiw1uMC1Jyh2FW; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

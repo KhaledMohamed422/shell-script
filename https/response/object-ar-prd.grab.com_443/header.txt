@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: object-ar-prd.grab.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 20:35:54 GMT
+Server: CloudFront
+Via: 1.1 e6ef76f348359a0bc64c007ab009ebd2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fZaiKj8eBG3l-IJqwFTUFcQ9eVeZO6dkHYJeOKstqdPMTs3f5y8Wpw==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://object-ar-prd.grab.com:443

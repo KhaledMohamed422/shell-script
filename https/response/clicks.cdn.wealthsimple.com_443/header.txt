@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: clicks.cdn.wealthsimple.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822747155f92cb1e-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:25:49 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=6mt4PtwUKBSk4IaK7uqhB3Tyo_G88M0eV4p.SV9PLvA-1699377949-0-Aduc9f2kJSbusWSSGbmViFKiyoWQ+98YVsGkCjQ/2BPqdYCXh7/AfIJndCCkyCIo7NZqrysPgpKwmHbmyjPWj2s=; path=/; expires=Tue, 07-Nov-23 17:55:49 GMT; domain=.cdn.wealthsimple.com; HttpOnly; Secure; SameSite=None
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: s8Qx7tRQ/iRbOz/U7rgXEBEUdSqZtvqjfpjNcBe4ldTKV6AmjxN/BnZNG7pd/T37uaAt3S/PAUU=
+X-Amz-Request-Id: H3HG6EEWFV6WZ7XF
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>H3HG6EEWFV6WZ7XF</RequestId><HostId>s8Qx7tRQ/iRbOz/U7rgXEBEUdSqZtvqjfpjNcBe4ldTKV6AmjxN/BnZNG7pd/T37uaAt3S/PAUU=</HostId></Error>
+0
+
+
+
+
+https://clicks.cdn.wealthsimple.com:443

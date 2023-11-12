@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: images.zapier.com
+User-Agent: Mozilla/5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:28:35 GMT
+Server: AmazonS3
+Via: 1.1 e71625290a8b18b90edbfcbc81303596.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: Rx-0tv6DxfOM834Ktcnfe9rTNVEuE21Yj8lW991JgzxM7KUL4RmCSQ==
+X-Amz-Cf-Pop: AMS58-P2
+X-Amz-Id-2: hR3SKZHF7UZXpIbLoR7y7QG1bK5vV/dS4T/cp07ixwqIWJEo3uqaAbcN0iajTe7/Rrdf46RxH+Q=
+X-Amz-Request-Id: 6KY9VM4JYYF7VNEV
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6KY9VM4JYYF7VNEV</RequestId><HostId>hR3SKZHF7UZXpIbLoR7y7QG1bK5vV/dS4T/cp07ixwqIWJEo3uqaAbcN0iajTe7/Rrdf46RxH+Q=</HostId></Error>
+0
+
+
+
+
+https://images.zapier.com:443

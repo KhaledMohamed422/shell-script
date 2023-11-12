@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Started - Zapier AI Actions</title>
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@1.8.4/dist/htmx.min.js"
+            integrity="sha384-wg5Y/JwF7VxGk4zLsJEcAojRtlVp1FKKdGy1qN+OMtdq72WRvX/EdRdqg/LOhYeV"
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.7"
+            integrity="sha384-6GYN8BDHOJkkru6zcpGOUa//1mn+5iZ/MyT6mq34WFIpuOeLF52kSi721q0SsYF9"
+            crossorigin="anonymous"></script>
+    <link href="https://cdn.zapier.com/ssr/1923090a3bf5301a17ca2a5ebbc8a7da2954b5c5/_next/static/images/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/ds_global.css">
+    
+<style>
+code[data-reveal-value] {
+    cursor: pointer;
+}
+</style>
+
+</head>
+<body hx-indicator="body" hx-headers='{"X-CSRFToken":"wYRFn5iUsbVBlZbWhWsUztbnGQ4uK2c7f5QDaoOAqSbk4jVTKcjxN6l8nn0zjRvM"}'>
+
+
+    <div id="api-banner" class="banner">
+        New: ChatGPT and GPTs can now run AI Actions! <a style="color: #fff;" href="/docs/platform/gpt">Get started here.</a>
+        <button id="close-button" class="secondary small" style="margin-left: 15px;" onclick="document.getElementById('api-banner').style.display='none'">Dismiss</button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div style="margin: 40px 0 0;">
+                    <img src="https://cdn.zappy.app/945f9bf9e44126873952ec5113949c3f.png" width="100" />
+                </div>
+                <h1 class="header">AI Actions <span class="ai-alpha">AI alpha</span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="nav-sidebar">
+                    <strong>Welcome</strong>
+                    <ul>
+                        <li><a href="/">Start here</a></li>
+                    </ul>
+                    <strong>Playground</strong>
+                    <ul>
+                        <li><a href="/providers/">My actions</a></li>
+                        <li><a href="/demo/" target="_blank">Test actions <div class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></div></a></li>
+                    </ul>
+                    <strong>Settings</strong>
+                    <ul>
+                        <li><a href="/credentials/">Credentials</a></li>
+                        <li><a href="/logs/">Logs</a></li>
+                    </ul>
+                    <strong>AI Platforms</strong>
+                    <ul>
+                        <li><a href="/docs/platform/gpt">ChatGPT and GPTs</a></li>
+                        <li><a href="/docs/platform/zapier">Zapier</a></li>
+                        <li><a href="https://python.langchain.com/docs/integrations/tools/zapier" target="_blank">LangChain <div class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></div></a></li>
+                        <li><a href="https://blog.llamaindex.ai/data-agents-zapier-nla-67146395ce1" target="_blank">LlamaIndex <div class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></div></a></li>
+                    </ul>
+                    <strong>Custom Integration Docs</strong>
+                    <ul>
+                        <li><a href="/docs/">Overview</a></li>
+                        <li><a href="/docs/authentication/">Authentication</a></li>
+                        <li><a href="/docs/action-setup-window/">Action setup window</a></li>
+                        <li><a href="/docs/using-the-api">Using the API</a></li>
+                        <li><a href="/docs/changelog">Changelog</a></li>
+                        <li><a href="/sunset/">OAuth sunset</a></li>
+                        <li><a href="/api/v1/playground" target="_blank">API playground <div class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></div></a></li>
+                    </ul>
+                    <strong>Support</strong>
+                    <ul>
+                        <li><a href="/support/">Submit a ticket</a></li>
+                        <li><a href="https://zapier.com/early-access" target="_blank">Join our community <div class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></div></a></li>
+                    </ul>             
+                </div>
+            </div>
+            <div class="col-9 docs">
+                
+<h2>Start Here</h2>
+<p>Welcome to the hub for Zapier AI Actions! Before you dive in, read about three important concepts below.</p>
+<hr />
+<div class="grid">
+    <div class="grid-item">
+        <img src="https://cdn.zappy.app/88dca0b3afc306dd6c8d2503791427a4.png" />
+    </div>
+    <div class="grid-item">
+        <h4>About AI Actions</h4>
+        <p>AI Actions is a tool for builders to equip AI platforms (or custom integrations) the ability to run any Zapier action! The 20,000+ searches and actions you know and love from the <a href="https://zapier.com/apps">Zapier automation platform</a> can be used with your favorite AI platform.</p>
+    </div>
+</div>
+<hr />
+<h3>1. How it works</h3>
+<div class="grid">
+    <div class="grid-item">
+        <p><a href="https://zapier.com/" target="_blank">Zapier</a> is an integration platform that hosts 5,000+ third-party apps and has 30,000+ actions. AI Actions equips your own AI or systems with the ability to run any action on Zapier (eg. Send a Slack message, find a Google Calendar event, draft a Gmail reply, create a HubSpot lead, etc.)</p>
+        <p>In this system, your natural language command acts as the trigger and AI helps to execute the Action.</p>
+        <p>Traditional hurdles like third-party app authentication and API integrations are all taken care of out of the box.</p>
+    </div>
+    <div class="grid-item">
+        <img src="https://cdn.zappy.app/b18ecc801292bc3930165f3a89c41b51.png" />
+    </div>
+</div>
+<hr />
+<h3>2. Choose your AI platform</h3>
+<p>AI Actions are supported natively on several AI platforms:</p>
+<p><strong>⭐️ <a href="/docs/platform/gpt">ChatGPT and GPTs</a>:</strong> equip GPTs with the ability to run AI Actions, <a href="/docs/platform/gpt">get started here</a>.</p>
+<!-- <p><strong>⭐️ <a href="https://openai.com/blog/chatgpt-plugins" target="_blank">ChatGPT <span class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></span></a>:</strong> equip ChatGPT with the ability to run AI Actions, <a href="https://openai.com/blog/chatgpt-plugins" target="_blank">get started here <span class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></span></a>.</p> -->
+<p><strong>⭐️ <a href="/docs/platform/zapier">Zapier</a>:</strong> use AI Actions within Zaps or the Zapier Chrome Extension, <a href="/docs/platform/zapier">get started here</a>.</p>
+<p><strong>⭐️ <a href="/docs/">Custom</a>:</strong> build a private integration directly with AI Actions via <a href="/api/v1/playground" target="_blank">REST API <span class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></span></a> and 🔐 <a href="/docs/authentication/">API Keys</a>, <a href="/docs/">get started here</a>.</p>
+<p>And more: <a href="https://python.langchain.com/docs/integrations/tools/zapier" target="_blank">LangChain <span class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></span></a>, <a href="https://blog.llamaindex.ai/data-agents-zapier-nla-67146395ce1" target="_blank">LlamaIndex <span class="icon-new-window"><svg fill="none" viewBox="0 0 24 24"><path d="M5 3H3v18h18v-2H5V3z" fill="#3d4592"></path><path d="M12 3l-2 2h7.59l-8.3 8.29 1.42 1.42L19 6.41V14l2-2V3h-9z" fill="#3d4592"></path></svg></span></a>.</p>
+<hr />
+<h3>3. Setup your AI Actions</h3>
+<p>To ensure safety and security, AI Platforms only have access to AI Actions enabled by you.</p>
+<p>⚙️ <a href="/providers/">Manage Actions settings.</a></p>
+<hr />
+<h3>Happy building!</h3>
+<p>We're excited to see what you build using AI Actions. If you ever get stuck or have feedback for us, please feel free to <a href="/support/">submit a support ticket</a> or <a href="https://zapier.com/early-access">join our Slack community</a>.</p>
+<p>Cheers!<br />
+⚡️🤖</p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+https://actions.zapier.com:443

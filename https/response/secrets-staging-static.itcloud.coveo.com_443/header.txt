@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: secrets-staging-static.itcloud.coveo.com
+User-Agent: SAMSUNG-SGH-A867/A867UCHJ3 SHP/VPP/R5 NetFront/35 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:30:23 GMT
+Server: AmazonS3
+Via: 1.1 4a95385e61c9df8f5f8de6338a3fe59a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: D4mwR8PFrC2CxX-_od2D4ypw2R-glhPoXlBGMgywfW54GwJrIqwV4w==
+X-Amz-Cf-Pop: FRA56-P7
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DXX4864HCCR1EW6N</RequestId><HostId>vKV+epKR0lOPZO9tYdcdtkdAsJ1B3yvhAQhjM6p4mUGHJ/XA6Ur7Jqm5+pQJqfa9ZGX79lrH5PM=</HostId></Error>
+0
+
+
+
+
+https://secrets-staging-static.itcloud.coveo.com:443

@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: js.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 0
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e87eff58219f-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:16:00 GMT
+Expires: Mon, 06 Nov 2023 21:27:57 GMT
+Last-Modified: Tue, 22 Apr 2014 05:47:45 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NR9%2FMf0G46w45pr0SWjQbrCvn27j%2BGC6mTd%2FB%2FKctgAM51AhnnkgAdLJJjfvRYt5wJYzq2881tYgt9kF1zWk5qUKFY3AI%2BrWbsu%2BQRLdvEAQeaxt87ZTjpX3wPpDYYhdqNPJ"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=fkfEFaQjalJKcpOqqvCC.1CmVtUqeKuMbknjTSGjTho-1699384560-0-AYf2MZmk71nVM8+9LGgxmHWhCgwiMldrT41o2xSrGvyIO5etO6NWfzlTrsRKC8rFk1GzNXgSApfYypYqu4cgUwU=; path=/; expires=Tue, 07-Nov-23 19:46:00 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: e554dca229a4388a9e613a10d8d0b75237acfa0c
+X-Github-Request-Id: EB98:A362:4484CA6:45C7093:65495805
+X-Proxy-Cache: MISS
+X-Served-By: cache-fra-eddf8230088-FRA
+X-Timer: S1699384561.503409,VS0,VE93
+
+f78

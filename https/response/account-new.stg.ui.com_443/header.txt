@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: account-new.stg.ui.com
+User-Agent: Mozilla/5.0 (SymbianOS 9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn https://js.stripe.com https://recaptcha.net ubnt.zendesk.com *.zopim.com wss://widget-mediator.zopim.com *.ui.com *.ubnt.com https://code.jquery.com; img-src 'self' data: blob: account.dev.ui.com account.stg.ui.com account.df.ui.com account.ui.com *.ui.com *.ubnt.com https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn https://app-static.sendsafely.com; media-src 'self' account.dev.ui.com account.stg.ui.com account.df.ui.com account.ui.com *.ui.com *.ubnt.com; connect-src *.ui.com *.ubnt.com ubnt.zendesk.com *.zopim.com wss://widget-mediator.zopim.com https://region1.google-analytics.com https://www.google-analytics.com https://js.stripe.com https://www.googletagmanager.com https://www.google-analytics.com https://www.gstatic.com https://maps.googleapis.com https://www.gstatic.cn; object-src 'self'; frame-src https://recaptcha.net https://js.stripe.com *.ui.com *.ubnt.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:41:22 GMT
+Referrer-Policy: same-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 110641d379117242a91443ac729d6dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: r2c7vrqoW2rI4zjgjBGdznSG-o1mjXH6l9hnAKoHYKMfWHqNsoTxvw==
+X-Amz-Cf-Pop: FRA53-C1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

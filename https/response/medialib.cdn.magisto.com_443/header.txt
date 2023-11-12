@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: medialib.cdn.magisto.com
+User-Agent: SonyEricssonT610/R201 Profile/MIDP-1.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:57:41 GMT
+Server: AmazonS3
+Via: 1.1 b43c04a791e8dcb8ddb6bb0847fcf95a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: NnLkNG2tgdiLUutRWw6r2CsSha2e2vcfBafjWj8p6AhnoVN_NhAGYg==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4M0GXXWD4EYDV385</RequestId><HostId>rwE8K0DUt7bbxA9MsB4OCL3aE0LtAmjuqVbX+UL1zovhcwIliXqtINM54vUu018UO2813yTcffjPcoEFLah4uQ==</HostId></Error>
+0
+
+
+
+
+https://medialib.cdn.magisto.com:443

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: gseller.cn-shanghai.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 367
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:52:36 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4C54E84D243835F0BC4C
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4C54E84D243835F0BC4C</RequestId>
+  <HostId>gseller.cn-shanghai.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://gseller.cn-shanghai.oss.aliyun-inc.com:80

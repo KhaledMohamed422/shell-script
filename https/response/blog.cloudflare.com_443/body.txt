@@ -1,0 +1,1652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="sans-serif">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="baidu-site-verification" content="KeThzeyMOr" />
+    <meta name="baidu-site-verification" content="code-NIlrS7gNhx" />
+
+    <title>The Cloudflare Blog</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Get the latest news on how products at Cloudflare are built, technologies used, and join the teams helping to build a better Internet." />
+    <link rel="icon" href="https://blog.cloudflare.com/content/images/size/w256h256/2021/08/icon-cloudflare-transp.png" type="image/png" />
+    <link rel="canonical" href="https://blog.cloudflare.com/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="next" href="https://blog.cloudflare.com/page/2/" />
+    
+    <meta property="og:site_name" content="The Cloudflare Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Cloudflare Blog" />
+    <meta property="og:description" content="Get the latest news on how products at Cloudflare are built, technologies used, and join the teams helping to build a better Internet." />
+    <meta property="og:url" content="http://blog.cloudflare.com/" />
+    <meta property="og:image" content="http://blog.cloudflare.com/content/images/2023/09/The-Cloudflare-Blog_a-1.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/cloudflare" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The Cloudflare Blog" />
+    <meta name="twitter:description" content="Hey Twitterverse! Get the latest news on how products at Cloudflare are built, technologies used, and join the teams helping to build a better Internet." />
+    <meta name="twitter:url" content="http://blog.cloudflare.com/" />
+    <meta name="twitter:image" content="http://blog.cloudflare.com/content/images/2023/09/The-Cloudflare-Blog_a.png" />
+    <meta name="twitter:site" content="@cloudflare" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1350" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Cloudflare Blog",
+        "url": "http://blog.cloudflare.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://blog.cloudflare.com/content/images/2022/10/CF_logo_stacked_blktype.png"
+        }
+    },
+    "url": "http://blog.cloudflare.com/",
+    "mainEntityOfPage": "http://blog.cloudflare.com/",
+    "description": "Get the latest news on how products at Cloudflare are built, technologies used, and join the teams helping to build a better Internet."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 5.44" />
+    <link rel="alternate" type="application/rss+xml" title="The Cloudflare Blog" href="https://blog.cloudflare.com/rss/" />
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.29/umd/portal.min.js" data-i18n="false" data-ghost="http://blog.cloudflare.com/" data-key="1636d9ca78e4ebd2d774030703" data-api="http://blog.cloudflare.com/ghost/api/content/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/sodo-search.min.js" data-key="1636d9ca78e4ebd2d774030703" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.1/umd/main.css" data-sodo-search="http://blog.cloudflare.com/" crossorigin="anonymous"></script>
+    <link href="https://blog.cloudflare.com/webmentions/receive/" rel="webmention" />
+    <script defer src="/public/cards.min.js?v=b83fe161cd"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=b83fe161cd">
+    <script defer src="/public/member-attribution.min.js?v=b83fe161cd"></script>
+    <script src="/content/images/oneTrust_production/consent/e2e87157-9442-4aa3-b624-1cfc19f34f2f/OtAutoBlock.js"
+        type="text/javascript"></script>
+<script src="/content/images/oneTrust_production/scripttemplates/otSDKStub.js" type="text/javascript" charSet="UTF-8"
+        data-domain-script="e2e87157-9442-4aa3-b624-1cfc19f34f2f"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://tr.www.cloudflare.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PKQFGQB');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Optimize -->
+<script src="https://www.googleoptimize.com/optimize.js?id=GTM-N4JSZJ8"></script>
+<!-- End Google Optimize -->
+
+<meta name="msvalidate.01" content="CF295E1604697F9CAD18B5A232E871F6" />
+<meta class="swiftype" name="language" data-type="string" content="en" />
+
+<!-- LaTex Formula style -->
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  </head>
+ 
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227e5a9de951536","b":1,"version":"2023.10.0","token":"2bc156e5f250476cb274d269511ffb57"}' crossorigin="anonymous"></script>
+</html>
+<!-- END LaTex Formula style -->
+
+
+<!--<script src="/assets/js/index.js"></script>-->
+<script>
+var trackRecruitingLink = function(role, url) {
+   ga('send', 'event', 'recruiting', 'jobscore-click', role, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script> 
+<script type="text/javascript">
+	(function() {
+		var didInit = false;
+		function initMunchkin() {
+			if(didInit === false) {
+				didInit = true;
+				Munchkin.init('713-XSC-918');
+			}
+		}
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
+		s.async = true;
+		s.src = '//munchkin.marketo.net/munchkin.js';
+		s.onreadystatechange = function() {
+			if (this.readyState == 'complete' || this.readyState == 'loaded') {
+				initMunchkin();
+			}
+		};
+		s.onload = initMunchkin;
+		document.getElementsByTagName('head')[0].appendChild(s);
+		})();
+</script>
+<script>
+var HTMLAttrToAdd = document.querySelector("html");
+HTMLAttrToAdd.setAttribute("lang", "en");
+</script>
+<style>
+    table {
+        background-color: transparent;
+    }
+    td {
+		padding: 5px 1em;
+    }
+    pre {
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+</style>
+
+<script defer src="https://api.radar.cloudflare.com/beacon.js"></script><style>:root {--ghost-accent-color: #15171A;}</style>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/3.4.1/themes/light.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/index.css?v=b83fe161cd" />
+
+    <style>
+.reading-progress {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 5px; /* Progress bar height */
+  background: #c5d2d9; /* Progress bar background color */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; /* Hide default progress bar */
+}
+
+.reading-progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+.reading-progress::-webkit-progress-value {
+  background: #0065ff; /* Progress bar color */
+}
+</style>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0.16/favicon-16x16.png">
+    <link rel="mask-icon" href="/favicon_package_v0.16/safari-pinned-tab.svg" color="#f78100">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="text/javascript" src="/assets/built/index.js?v=b83fe161cd" defer></script>
+
+    <script src="/assets/js/check-for-tex.js" defer></script>
+
+</head>
+
+<body id="main-body" class="home-template sans-serif">
+
+    <div class="site-wrapper">
+
+        <header class="flex flex-row flex-wrap justify-between items-end mw8 center mv3 pl3 pr2">
+    <div class="w-100 flex items-end justify-between justify-start-l">
+        <div class="w-100 tr">
+                <span class="dn di-l">
+                    <a href="https://dash.cloudflare.com/sign-up" class="f1 blue1 dn di-l b no-underline underline-hover"
+                        target="_blank">Get Started Free</a>
+                </span>
+                <span class="f1 gray4 dn di-l">|</span>
+            <span class="dn di-l">
+                <a href="https://www.cloudflare.com/plans/enterprise/contact/" class="f1 gray4 no-underline underline-hover">Contact Sales:
+                </a>
+                <a href="tel:+18889935273" class="f1 gray4 no-underline underline-hover">+1 (888) 274-3482</a>
+            </span>
+            <span class="f1 gray4 dn di-l">|</span>
+            <a class="f1 gray4 no-underline language-picker js-language-picker">
+                <span class="language-picker__globe-icon"></span>
+                <span class="language-picker__caret-icon">▼</span>
+                <span class="language-picker__caret-icon dn">▲</span>
+            </a>
+            <div id="js-language-picker-dropdown" class="js-language-picker-dropdown dn">
+                <ul class="language-picker-dropdown">
+                    <li><a href="/" class="gray4 no-underline">English</a></li>
+                    <li><a href="/de-de/" class="gray4 no-underline">Deutsch</a></li>
+                    <li><a href="/es-es/" class="gray4 no-underline">Español</a></li>
+                    <li><a href="/fr-fr/" class="gray4 no-underline">Français</a></li>
+                    <li><a href="/it-it/" class="gray4 no-underline">Italiano</a></li>
+                    <li><a href="/ja-jp/" class="gray4 no-underline">日本語</a></li>
+                    <li><a href="/ko-kr/" class="gray4 no-underline">한국어</a></li>
+                    <li><a href="/zh-tw/" class="gray4 no-underline">繁體中文</a></li>
+                    <li><a href="/zh-cn/" class="gray4 no-underline">简体中文</a></li>
+                    <li><a href="/pt-br/" class="gray4 no-underline">Português</a></li>
+                    <li><a href="/ru-ru/" class="gray4 no-underline">Русский</a></li>
+                    <li><a href="/id-id/" class="gray4 no-underline">Indonesia</a></li>
+                    <li><a href="/th-th/" class="gray4 no-underline">ไทย</a></li>
+                    <li><a href="/vi-vn/" class="gray4 no-underline">Tiếng Việt</a></li>
+                    <li><a href="/pl-pl/" class="gray4 no-underline">Polski</a></li>
+                    <li class="fr w-100"><a href="/ar-ar/" class="gray4 no-underline fr">العربية</a></li>
+                    <li class="fr w-100"><a href="/he-il/" class="gray4 no-underline fr">עברית</a></li>
+                    <li><a href="/tr-tr/" class="gray4 no-underline">Türkçe</a></li>
+                    <li><a href="/sv-se/" class="gray4 no-underline">Svenska</a></li>
+                    <li><a href="/nl-nl/" class="gray4 no-underline">Nederlands</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 w-50-l flex items-end justify-between justify-start-l">
+        <a href="https://www.cloudflare.com" class="header-logo mr4">
+            <script type="text/javascript" style="display:none">
+//<![CDATA[
+window.__mirage2 = {petok:"kRVnNzolAeUPKmPhH0_gUqngWXFKbPnusjMY72QbXVE-1800-0"};
+//]]>
+</script>
+<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+<img data-cfsrc="/content/images/2022/10/CF_logo_stacked_blktype.png" alt="The Cloudflare Blog" class="header-logo" style="display:none;visibility:hidden;" /><noscript><img src="/content/images/2022/10/CF_logo_stacked_blktype.png" alt="The Cloudflare Blog" class="header-logo" /></noscript>
+        </a>
+        <h2 class="mt0 mb1">
+            <a href="/" class="fw5 f5 gray3 no-underline">
+                <span class="dn di-l">The Cloudflare Blog</span>
+            </a>
+        </h2>
+    </div>
+    <div class="w-100 w-50-l dn db-l">
+        <div class="w-100 tr mkto-sub-message">
+            <p class="f2">Subscribe to receive notifications of new posts:</p>
+        </div>
+        <div class="w-100 tr">
+            <div class="marketo-form-container">
+                <form id="mktoForm_1653">
+                    <div class="top-subscribe-form-container">
+                        <div class="top-subscribe-form-field">
+                            <input placeholder="Email Address" class="top-subscribe-form-input" name="email"
+                                type="email" onfocus="handleInputFocus()" />
+                            <div role="alert" tabindex="-1" class="mktoErrorMsg"></div>
+                        </div>
+                        <button class="top-subscribe-form-button" type="button"
+                            onclick="handleSubscribe()">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <script>
+                function handleInputFocus() {
+                    const $error = document.querySelector('.mktoErrorMsg');
+
+                    if ($error.innerHTML) {
+                        $error.innerHTML = '';
+                    }
+                }
+            </script>
+            <script>
+                const invalidNonLatinRegex = /[^\x00-\x7F]+/; // non-latin character examples: ž, š, į, ė, ū
+                const emailRe =
+                    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+                function validateEmail(maybeEmail) {
+                    return emailRe.test(maybeEmail) || !invalidNonLatinRegex.test(maybeEmail);
+                }
+
+                function handleSubscribe() {
+                    const $button = document.querySelector('.top-subscribe-form-button');
+                    const $email = document.querySelector('.top-subscribe-form-input');
+                    const $error = document.querySelector('.mktoErrorMsg');
+                    const [pageURL, query] = location.href.split('?');
+
+                    const buttonLabel = $button.innerHTML;
+                    const formId = 1653;
+
+                    if (!$email.value || !validateEmail($email.value)) {
+                        $error.innerHTML = 'Must be valid email.';
+
+                        return;
+                    }
+
+                    $button.innerHTML = 'Please Wait';
+
+                    fetch(`https://blog.api.www.cloudflare.com/api/v1/form/${formId}`, {
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        method: 'POST',
+                        body: JSON.stringify({
+                            formId,
+                            input: [
+                                {
+                                    leadFormFields: {
+                                        Email: $email.value,
+                                        munchkinId: "713-XSC-918",
+                                        formVid: formId,
+                                        formid: formId,
+                                    },
+                                    visitorData: {
+                                        pageURL: pageURL,
+                                        query: query,
+                                        userAgentString: window.navigator.userAgent
+                                    }
+                                }
+                            ]
+                        }),
+                    })
+                        .then(response => {
+                            if (response.status >= 400) {
+                                throw response;
+                            }
+
+                            return response.json();
+                        })
+                        .then(response => {
+                            $error.innerHTML = '';
+
+                            // Hide form and show success msg
+                            document.getElementById("mktoForm_1653").style.display = "none";
+                            document.getElementsByClassName("mkto-sub-message")[0].style.display = "none";
+
+                            document.getElementsByClassName("js-form-success-msg")[0].style.display = "block";
+                        })
+                        .catch(response => {
+                            return response.json().then(json => {
+                                if (response.status === 400) {
+                                    if (typeof json.error !== 'object') {
+                                        $error.innerHTML = json.error;
+
+                                        return;
+                                    }
+
+                                    $error.innerHTML = Object.values(json.error || {}).shift();
+                                    return;
+                                }
+
+                                $error.innerHTML = error?.message || 'An error occurred.'
+                            });
+                        })
+                        .finally(() => {
+                            $button.innerHTML = buttonLabel;
+                        });
+                }
+            </script>
+        </div>
+        <div class="w-100 tr dn js-form-success-msg">
+            <p class="f2">Subscription confirmed. Thank you for subscribing!</p>
+        </div>
+    </div>
+</header>
+
+<nav id="nav" class="w-100 bb b--black-10 z-1">
+    <div id="desktop-nav-items-container" class="flex flex-row flex-wrap justify-between items-center mw8 center mv3 mv0-l">
+        <div class="nav-item nav-item-desktop ml3 mr2 dn db-l pv3" data-tag="product-news">
+            <a href="/tag/product-news/" class="no-underline gray1 f2 fw5 pv3">Product News</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="speed-and-reliability">
+            <a href="/tag/speed-and-reliability/" class="no-underline gray1 f2 fw5 pv3">Speed &amp; Reliability</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="security">
+            <a href="/tag/security/" class="no-underline gray1 f2 fw5 pv3">Security</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="serverless">
+            <a href="/tag/serverless/" class="no-underline gray1 f2 fw5 pv3">Serverless</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="zero-trust">
+            <a href="/tag/zero-trust/" class="no-underline gray1 f2 fw5 pv3">Zero Trust</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="developers">
+            <a href="/tag/developers/" class="no-underline gray1 f2 fw5 pv3">Developers</a>
+        </div>
+        <div class="nav-item nav-item-desktop mh2 dn db-l pv3" data-tag="deep-dive">
+            <a href="/tag/deep-dive/" class="no-underline gray1 f2 fw5 pv3">Deep Dive</a>
+        </div>
+        <div class="nav-item nav-item-desktop ml2 mr3 dn db-l pv3" data-tag="life-at-cloudflare">
+            <a href="/tag/life-at-cloudflare/" class="no-underline gray1 f2 fw5 pv3">Life @Cloudflare</a>
+        </div>
+        <a href="/search/"><img src="/assets/images/magnifier.svg?v=b83fe161cd" class="js-search-box-trigger mw2 pointer ph3 ph2-l" />
+        </a>
+        <img src="/assets/images/hamburger.svg?v=b83fe161cd" class="w2 pointer js-mobile-nav-trigger ph3 db dn-l" />
+    </div>
+
+    <div class="js-mobile-nav-container dn">
+        <div class="flex flex-column flex-wrap bg-gray9 o-95 absolute w-100 ph3 z-1">
+            <div class="pv3 ph2">
+                <a href="/tag/product-news/" class="no-underline gray1 f4 fw7">Product News</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/speed-and-reliability/" class="no-underline gray1 f4 fw7">Speed &amp; Reliability</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/security/" class="no-underline gray1 f4 fw7">Security</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/serverless/" class="no-underline gray1 f4 fw7">Serverless</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/zero-trust/" class="no-underline gray1 f4 fw7">Zero Trust</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/developers/" class="no-underline gray1 f4 fw7">Developers</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/deep-dive/" class="no-underline gray1 f4 fw7">Deep Dive</a>
+            </div>
+            <div class="pv3 ph2">
+                <a href="/tag/life-at-cloudflare/" class="no-underline gray1 f4 fw7">Life @Cloudflare</a>
+            </div>
+        </div>
+    </div>
+</nav>
+        
+<main id="main-body" class="flex flex-row flex-wrap mw8 center items-start">
+            <article class="w-100 flex flex-row flex-wrap mb4 items-center bb b--gray8 bn-l">
+    <div class="w-100 w-50-l ph3 post-content-container">
+        <a href="/post-mortem-on-cloudflare-control-plane-and-analytics-outage/" class="f6 f7-l fw4 no-underline gray1">
+            <h2 class="fw5 mt2">Post Mortem on Cloudflare Control Plane and Analytics Outage</h2>
+        </a>
+        <p class="f3 fw5 gray5 my" localize datetime="2023-11-04T06:18:55Z">
+            November 04, 2023 6:18AM</p>
+
+        <p class="f4 lh-copy fw3">Beginning on Thursday, November 2, 2023, at 11:43 UTC Cloudflare's control plane and analytics services experienced an outage. Here are the details...</p>
+        <p><a href="/post-mortem-on-cloudflare-control-plane-and-analytics-outage/" class="no-underline gray1 f4 lh-copy fw3 underline-hover">Continue reading »</a>
+        </p>
+
+        <ul class="flex pl0 flex-wrap">
+            <li class="list flex items-center mr3">
+                <a href="/author/matthew-prince/" class="static-avatar pr1">
+                    <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Matthew-Prince-3.jpeg" alt="Matthew Prince" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2" src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Matthew-Prince-3.jpeg"
+                        alt="Matthew Prince" width="62" height="62" /></noscript>
+                </a>
+                <div class="author-name-tooltip">
+                    <a href="/author/matthew-prince/" class="fw5 f4 no-underline black">Matthew Prince</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <div class="w-50-l ph3 post-content-container">
+        <img data-cfsrc="https://blog.cloudflare.com/content/images/2023/11/Disruption-1.png" class="dn di-l" style="display:none;visibility:hidden;" /><noscript><img src="https://blog.cloudflare.com/content/images/2023/11/Disruption-1.png" class="dn di-l" /></noscript>
+    </div>
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/cloudflare-incident-on-october-30-2023/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Cloudflare incident on October 30, 2023</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-11-01T16:39:43Z">November 01, 2023 4:39PM
+    </p>
+    <a href="/tag/post-mortem/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Post Mortem</a>
+    <p class="f3 lh-copy fw4 gray1">Multiple Cloudflare services were unavailable for 37 minutes on October 30, 2023, due to the misconfiguration of a deployment tool used by Workers KV....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/silverlock/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/08/profile-1500px-square.jpeg" alt="Matt Silverlock" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/08/profile-1500px-square.jpeg"
+                    alt="Matt Silverlock" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/silverlock" class="fw4 f3 no-underline black">Matt Silverlock</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/kris-evans/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/08/1687236408752.jpeg" alt="Kris Evans" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/08/1687236408752.jpeg"
+                    alt="Kris Evans" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/kris-evans" class="fw4 f3 no-underline black">Kris Evans</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/introducing-http-traffic-anomalies-notifications/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Introducing notifications for HTTP Traffic Anomalies</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-31T13:01:11Z">October 31, 2023 1:01PM
+    </p>
+    <a href="/tag/product-news/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Product News</a>
+    <a href="/tag/notifications/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Notifications</a>
+    <a href="/tag/network-services/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Network Services</a>
+    <p class="f3 lh-copy fw4 gray1">Today we're excited to announce Traffic Anomalies notifications, which proactively alert you when your Internet property is seeing an unexpected change in traffic patterns...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/cathy-chi/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/1610954482110.jpg" alt="Cathy Chi" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/1610954482110.jpg"
+                    alt="Cathy Chi" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/cathy-chi" class="fw4 f3 no-underline black">Cathy Chi</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/natasha/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/05/IMG-1568.jpg" alt="Natasha Wissmann" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/05/IMG-1568.jpg"
+                    alt="Natasha Wissmann" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/natasha" class="fw4 f3 no-underline black">Natasha Wissmann</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/introducing-har-sanitizer-secure-har-sharing/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Introducing HAR Sanitizer: secure HAR sharing</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-26T14:20:05+01:00">October 26, 2023 2:20PM
+    </p>
+    <a href="/tag/tools/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Tools</a>
+    <a href="/tag/open-source/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Open Source</a>
+    <p class="f3 lh-copy fw4 gray1">As a follow-up to the most recent Okta breach, we are making a HAR file sanitizer available to everyone, not just Cloudflare customers, at no cost....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/kenny/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2020/12/0DA903DE-E315-43D5-B0DE-39870448303D.jpeg" alt="Kenny Johnson" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2020/12/0DA903DE-E315-43D5-B0DE-39870448303D.jpeg"
+                    alt="Kenny Johnson" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/kenny" class="fw4 f3 no-underline black">Kenny Johnson</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/email-routing-subdomains/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Email Routing subdomain support, new APIs and security protocols</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-26T14:10:06+01:00">October 26, 2023 2:10PM
+    </p>
+    <a href="/tag/email-routing/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Email Routing</a>
+    <a href="/tag/subdomains/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Subdomains</a>
+    <a href="/tag/email-workers/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Email Workers</a>
+    <a href="/tag/workers/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare Workers</a>
+    <a href="/tag/developer-platform/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Developer Platform</a>
+    <p class="f3 lh-copy fw4 gray1">It's been two years since we announced Email Routing, our solution to create custom email addresses for your domains and route incoming emails to your preferred mailbox. Since then, the team has worked hard to evolve the product and add more powerful features to meet our users' expectations....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/celso/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/08/Celso-Martinho.png" alt="Celso Martinho" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/08/Celso-Martinho.png"
+                    alt="Celso Martinho" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/celso" class="fw4 f3 no-underline black">Celso Martinho</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/andre-cruz/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/02/andre2.jpg" alt="André Cruz" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/02/andre2.jpg"
+                    alt="André Cruz" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/andre-cruz" class="fw4 f3 no-underline black">André Cruz</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/nelson-duarte/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/10/me_1x1.jpg" alt="Nelson Duarte" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/10/me_1x1.jpg"
+                    alt="Nelson Duarte" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/nelson-duarte" class="fw4 f3 no-underline black">Nelson Duarte</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/ddos-threat-report-2023-q3/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">DDoS threat report for 2023 Q3</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-26T14:00:58+01:00">October 26, 2023 2:00PM
+    </p>
+    <a href="/tag/ddos/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">DDoS</a>
+    <a href="/tag/attacks/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Attacks</a>
+    <a href="/tag/cloudflare-radar/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare Radar</a>
+    <a href="/tag/ddos-reports/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">DDoS Reports</a>
+    <a href="/tag/insights/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Insights</a>
+    <p class="f3 lh-copy fw4 gray1">In the past quarter, DDoS attacks surged by 65%. Gaming and Gambling companies were the most attacked and Cloudflare mitigated thousands of hyper-volumetric DDoS attacks. The largest attacks we saw peaked at 201 million rps and 2.6 Tbps....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/omer/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Screenshot-2023-06-02-at-9.38.13-AM.png" alt="Omer Yoachimik" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Screenshot-2023-06-02-at-9.38.13-AM.png"
+                    alt="Omer Yoachimik" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/omer" class="fw4 f3 no-underline black">Omer Yoachimik</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/jorge/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/CV_Profile.jpeg" alt="Jorge Pacheco" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/CV_Profile.jpeg"
+                    alt="Jorge Pacheco" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/jorge" class="fw4 f3 no-underline black">Jorge Pacheco</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/q3-2023-internet-disruption-summary/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Q3 2023 Internet disruption summary</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-25T14:05:00+01:00">October 25, 2023 2:05PM
+    </p>
+    <a href="/tag/cloudflare-radar/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare Radar</a>
+    <a href="/tag/internet-traffic/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Internet Traffic</a>
+    <a href="/tag/outage/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Outage</a>
+    <a href="/tag/internet-shutdown/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Internet Shutdown</a>
+    <a href="/tag/internet-quality/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Internet Quality</a>
+    <p class="f3 lh-copy fw4 gray1">In this post, we review selected Internet disruptions observed by Cloudflare during the third quarter of 2023, supported by traffic graphs from Cloudflare Radar and other internal Cloudflare tools, and grouped by associated cause or common geography...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/david-belson/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/11/David-Belson.jpeg" alt="David Belson" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/11/David-Belson.jpeg"
+                    alt="David Belson" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/david-belson" class="fw4 f3 no-underline black">David Belson</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/cache-reserve-goes-ga/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Cache Reserve goes GA: enhanced control to minimize egress costs</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-25T14:00:11+01:00">October 25, 2023 2:00PM
+    </p>
+    <a href="/tag/cache-reserve/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cache Reserve</a>
+    <a href="/tag/general-availability/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">General Availability</a>
+    <a href="/tag/application-services/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Application Services</a>
+    <a href="/tag/performance/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Performance</a>
+    <p class="f3 lh-copy fw4 gray1">We're excited to announce the graduation of Cache Reserve from beta to GA, accompanied by the introduction of several exciting new features. These new features include adding Cache Reserve into the analytics shown on the Cache overview section of the Cloudflare dashboard...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/alex/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/08/RE0BQ6EF_400x400.jpg" alt="Alex Krivit" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/08/RE0BQ6EF_400x400.jpg"
+                    alt="Alex Krivit" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/alex" class="fw4 f3 no-underline black">Alex Krivit</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/cache-rules-go-ga/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Cache Rules are now GA: precision control over every part of your cache</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-24T14:00:40+01:00">October 24, 2023 2:00PM
+    </p>
+    <a href="/tag/general-availability/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">General Availability</a>
+    <a href="/tag/cache-rules/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cache Rules</a>
+    <a href="/tag/product-news/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Product News</a>
+    <a href="/tag/application-services/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Application Services</a>
+    <a href="/tag/performance/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Performance</a>
+    <p class="f3 lh-copy fw4 gray1">Today, we're thrilled to share that Cache Rules, along with several other Rules products, are generally available (GA). But that’s not all — we're also introducing new configuration options for Cache Rules...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/alex/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/08/RE0BQ6EF_400x400.jpg" alt="Alex Krivit" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/08/RE0BQ6EF_400x400.jpg"
+                    alt="Alex Krivit" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/alex" class="fw4 f3 no-underline black">Alex Krivit</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/cyber-attacks-in-the-israel-hamas-war/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Cyber attacks in the Israel-Hamas war</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-23T14:32:05+01:00">October 23, 2023 2:32PM
+    </p>
+    <a href="/tag/ddos/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">DDoS</a>
+    <a href="/tag/attacks/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Attacks</a>
+    <a href="/tag/israel/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Israel</a>
+    <a href="/tag/cloudflare-radar/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare Radar</a>
+    <a href="/tag/insights/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Insights</a>
+    <p class="f3 lh-copy fw4 gray1">Since the October 7 Hamas attack, DDoS attackers have been targeting Israeli newspaper and media websites as well as software companies and financial institutions....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/omer/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Screenshot-2023-06-02-at-9.38.13-AM.png" alt="Omer Yoachimik" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/06/Screenshot-2023-06-02-at-9.38.13-AM.png"
+                    alt="Omer Yoachimik" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/omer" class="fw4 f3 no-underline black">Omer Yoachimik</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/jorge/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/CV_Profile.jpeg" alt="Jorge Pacheco" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/CV_Profile.jpeg"
+                    alt="Jorge Pacheco" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/jorge" class="fw4 f3 no-underline black">Jorge Pacheco</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/how-cloudflare-mitigated-yet-another-okta-compromise/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">How Cloudflare mitigated yet another Okta compromise</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-20T22:39:13+01:00">October 20, 2023 10:39PM
+    </p>
+    <a href="/tag/okta/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Okta</a>
+    <a href="/tag/post-mortem/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Post Mortem</a>
+    <a href="/tag/1-1-1-1/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">1.1.1.1</a>
+    <p class="f3 lh-copy fw4 gray1">On Wednesday, October 18, 2023, we discovered attacks on our system that we were able to trace back to Okta. We have verified that no Cloudflare customer information or systems were impacted by this event because of our rapid response....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/sourov/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/05/Screen-Shot-2022-06-03-at-1.49.26-AM.png" alt="Sourov Zaman" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/05/Screen-Shot-2022-06-03-at-1.49.26-AM.png"
+                    alt="Sourov Zaman" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/sourov" class="fw4 f3 no-underline black">Sourov Zaman</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/lucas-ferreira/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/02/IMG_20210718_203048.jpeg" alt="Lucas Ferreira" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/02/IMG_20210718_203048.jpeg"
+                    alt="Lucas Ferreira" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/lucas-ferreira" class="fw4 f3 no-underline black">Lucas Ferreira</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/kimberly/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-43-3fd60e.jpg" alt="Kimberly Hall" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-43-3fd60e.jpg"
+                    alt="Kimberly Hall" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/kimberly" class="fw4 f3 no-underline black">Kimberly Hall</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/grant/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/Headshot---GB_LinkedIn.jpg" alt="Grant Bourzikas" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/Headshot---GB_LinkedIn.jpg"
+                    alt="Grant Bourzikas" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/grant" class="fw4 f3 no-underline black">Grant Bourzikas</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/tenant-platform-ui-ga/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Empowering our partners with the new Tenant Platform dashboard</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-20T14:41:23+01:00">October 20, 2023 2:41PM
+    </p>
+    <a href="/tag/partners/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Partners</a>
+    <a href="/tag/product-news/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Product News</a>
+    <a href="/tag/cloudflare-one/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare One</a>
+    <p class="f3 lh-copy fw4 gray1">We are proud to announce the general availability of our first dashboard for our Tenant Platform, providing an intuitive user interface for agencies and partners to manage their client accounts...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/dan/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2019/06/Tim-King-Session---1977.jpg" alt="Dan Hollinger" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2019/06/Tim-King-Session---1977.jpg"
+                    alt="Dan Hollinger" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/dan" class="fw4 f3 no-underline black">Dan Hollinger</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/network-flow-monitoring-generally-available/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Network flow monitoring is GA, providing end-to-end traffic visibility</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-18T14:00:53+01:00">October 18, 2023 2:00PM
+    </p>
+    <a href="/tag/magic-network-monitoring/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Magic Network Monitoring</a>
+    <a href="/tag/network-services/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Network Services</a>
+    <a href="/tag/magic-transit/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Magic Transit</a>
+    <a href="/tag/magic-wan/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Magic WAN</a>
+    <a href="/tag/product-news/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Product News</a>
+    <p class="f3 lh-copy fw4 gray1">Network engineers often need better visibility into their network’s traffic when analyzing DDoS attacks or troubleshooting other traffic anomalies. To solve this problem, Cloudflare offers a network flow monitoring product that gives customers end-to-end traffic visibility across their network....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/chris-draper/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/06/blog_headshot.jpg" alt="Chris Draper" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/06/blog_headshot.jpg"
+                    alt="Chris Draper" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/chris-draper" class="fw4 f3 no-underline black">Chris Draper</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/arges/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/12/chris.jpg" alt="Chris J Arges" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2021/12/chris.jpg"
+                    alt="Chris J Arges" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/arges" class="fw4 f3 no-underline black">Chris J Arges</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/ana/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221018-42-1ufmnay.jpg" alt="Ana Oliveira" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221018-42-1ufmnay.jpg"
+                    alt="Ana Oliveira" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/ana" class="fw4 f3 no-underline black">Ana Oliveira</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/joao-santos/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-42-2823yd.jpg" alt="João Santos" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-42-2823yd.jpg"
+                    alt="João Santos" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/joao-santos" class="fw4 f3 no-underline black">João Santos</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/luis/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/Profile-Picture.PNG" alt="Luís Franco" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/Profile-Picture.PNG"
+                    alt="Luís Franco" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/luis" class="fw4 f3 no-underline black">Luís Franco</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/nadin/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/https://blog-cloudflare-com-assets.storage.googleapis.com/2019/11/Screen-Shot-2019-11-21-at-12.26.44-PM.png" alt="Nadin El-Yabroudi" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/https://blog-cloudflare-com-assets.storage.googleapis.com/2019/11/Screen-Shot-2019-11-21-at-12.26.44-PM.png"
+                    alt="Nadin El-Yabroudi" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/nadin" class="fw4 f3 no-underline black">Nadin El-Yabroudi</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/dan-geraghty/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_uploaded20220909-4-1fgoh1l.jpg" alt="Dan Geraghty" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_uploaded20220909-4-1fgoh1l.jpg"
+                    alt="Dan Geraghty" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/dan-geraghty" class="fw4 f3 no-underline black">Dan Geraghty</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/introducing-the-project-argus-datacenter-ready-secure-control-module-design-specification/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Introducing the Project Argus Datacenter-ready Secure Control Module design specification</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-16T18:53:16+01:00">October 16, 2023 6:53PM
+    </p>
+    <a href="/tag/hardware/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Hardware</a>
+    <a href="/tag/security/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Security</a>
+    <p class="f3 lh-copy fw4 gray1">The DC-SCM (Datacenter-ready Secure Control Module) decouples server management from the server motherboard. It provides flexibility to implement multiple server management and security solutions with the same server motherboard design...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/xiaomin/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/mmexport1632277733244_mr1632497208886--1-.jpg" alt="Xiaomin Shen" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/mmexport1632277733244_mr1632497208886--1-.jpg"
+                    alt="Xiaomin Shen" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/xiaomin" class="fw4 f3 no-underline black">Xiaomin Shen</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/jq/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-42-17izwqk.jpg" alt="JQ Lau" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/_tmp_mini_magick20221017-42-17izwqk.jpg"
+                    alt="JQ Lau" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/jq" class="fw4 f3 no-underline black">JQ Lau</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/malicious-redalert-rocket-alerts-application-targets-israeli-phone-calls-sms-and-user-information/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Malicious “RedAlert - Rocket Alerts” Application Targets Israeli Phone Calls, SMS, and User Information</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-14T01:00:55+01:00">October 14, 2023 1:00AM
+    </p>
+    <a href="/tag/cloudforce-one/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudforce One</a>
+    <a href="/tag/vulnerabilities/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Vulnerabilities</a>
+    <a href="/tag/internet-traffic/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Internet Traffic</a>
+    <a href="/tag/malware/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Malware</a>
+    <a href="/tag/threat-intelligence/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Threat Intelligence</a>
+    <p class="f3 lh-copy fw4 gray1">On October 13, 2023, Cloudflare’s Cloudforce One Threat Operations Team became aware of a malicious Google Android application impersonating the real-time rocket alert app, Red Alert, which  provides real-time rocket alerts for Israeli citizens...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/blake/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/06/30DC176C-CDE6-4271-AD8C-CC27B2A9E730.jpeg" alt="Blake Darché" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/06/30DC176C-CDE6-4271-AD8C-CC27B2A9E730.jpeg"
+                    alt="Blake Darché" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/blake" class="fw4 f3 no-underline black">Blake Darché</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/armen/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/Screen-Shot-2022-08-18-at-11.51.06-AM-1.png" alt="Armen Boursalian" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/Screen-Shot-2022-08-18-at-11.51.06-AM-1.png"
+                    alt="Armen Boursalian" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/armen" class="fw4 f3 no-underline black">Armen Boursalian</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/javier/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/javier-castro-photo.png" alt="Javier Castro" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/10/javier-castro-photo.png"
+                    alt="Javier Castro" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/javier" class="fw4 f3 no-underline black">Javier Castro</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/how-prisma-saved-98-percent-on-distribution-costs-with-cloudflare-r2/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">How Prisma saved 98% on distribution costs with Cloudflare R2</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-12T14:00:09+01:00">October 12, 2023 2:00PM
+    </p>
+    <a href="/tag/partners/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Partners</a>
+    <a href="/tag/cloudflare-r2/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">R2 Storage</a>
+    <a href="/tag/developers/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Developers</a>
+    <p class="f3 lh-copy fw4 gray1">Cloudflare products provide much of the underlying infrastructure for Prisma Accelerate and Prisma Pulse, empowering user-focused product development. This ongoing collaboration extends to enhancing the Prisma ORM...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/pierre-antoine-mills/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Pierre-Antoine-Mills.jpeg" alt="Pierre-Antoine Mills (Guest Author)" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Pierre-Antoine-Mills.jpeg"
+                    alt="Pierre-Antoine Mills (Guest Author)" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/pierre-antoine-mills" class="fw4 f3 no-underline black">Pierre-Antoine Mills (Guest Author)</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/miguel-fernandez-guest-author/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Miguel-Ferna-ndez.jpeg" alt="Miguel Fernández (Guest Author)" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Miguel-Ferna-ndez.jpeg"
+                    alt="Miguel Fernández (Guest Author)" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/miguel-fernandez-guest-author" class="fw4 f3 no-underline black">Miguel Fernández (Guest Author)</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/petra-donka/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Petra-Donka.jpeg" alt="Petra Donka (Guest Author)" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/Petra-Donka.jpeg"
+                    alt="Petra Donka (Guest Author)" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/petra-donka" class="fw4 f3 no-underline black">Petra Donka (Guest Author)</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/technical-breakdown-http2-rapid-reset-ddos-attack/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">HTTP/2 Rapid Reset: deconstructing the record-breaking attack</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-10T13:02:28+01:00">October 10, 2023 1:02PM
+    </p>
+    <a href="/tag/ddos/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">DDoS</a>
+    <a href="/tag/vulnerabilities/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Vulnerabilities</a>
+    <a href="/tag/trends/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Trends</a>
+    <a href="/tag/attacks/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Attacks</a>
+    <a href="/tag/security/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Security</a>
+    <p class="f3 lh-copy fw4 gray1">This post dives into the details of the HTTP/2 protocol, the feature that attackers exploited to generate the massive Rapid Reset attacks, and the mitigation strategies we took to ensure all our customers are protected...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/lucas/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/12/Lucas---KIN01111.jpg" alt="Lucas Pardue" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2018/12/Lucas---KIN01111.jpg"
+                    alt="Lucas Pardue" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/lucas" class="fw4 f3 no-underline black">Lucas Pardue</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/julien-desgats/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2017/06/profile-square-small.jpg" alt="Julien Desgats" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2017/06/profile-square-small.jpg"
+                    alt="Julien Desgats" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/julien-desgats" class="fw4 f3 no-underline black">Julien Desgats</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/zero-day-rapid-reset-http2-record-breaking-ddos-attack/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">HTTP/2 Zero-Day vulnerability results in record-breaking DDoS attacks</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-10T13:02:09+01:00">October 10, 2023 1:02PM
+    </p>
+    <a href="/tag/security/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Security</a>
+    <a href="/tag/vulnerabilities/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Vulnerabilities</a>
+    <a href="/tag/attacks/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Attacks</a>
+    <a href="/tag/ddos/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">DDoS</a>
+    <p class="f3 lh-copy fw4 gray1">The “HTTP/2 Rapid Reset” attack exploits a weakness in the HTTP/2 protocol to generate enormous, hyper-volumetric DDoS attacks. Cloudflare has mitigated a barrage of these attacks in recent months, including an attack three times larger than any previous attack we’ve observed...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/grant/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/Headshot---GB_LinkedIn.jpg" alt="Grant Bourzikas" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/04/Headshot---GB_LinkedIn.jpg"
+                    alt="Grant Bourzikas" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/grant" class="fw4 f3 no-underline black">Grant Bourzikas</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/internet-traffic-patterns-in-israel-and-palestine-following-the-october-2023-attacks/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Internet traffic patterns in Israel and Palestine following the October 2023 attacks</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-09T21:05:19+01:00">October 09, 2023 9:05PM
+    </p>
+    <a href="/tag/cloudflare-radar/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Cloudflare Radar</a>
+    <a href="/tag/trends/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Trends</a>
+    <a href="/tag/internet-traffic/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Internet Traffic</a>
+    <a href="/tag/outage/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Outage</a>
+    <p class="f3 lh-copy fw4 gray1">On Saturday, October 7, 2023, attacks from the Palestinian group Hamas launched from the Gaza Strip against the south of Israel started a new conflict in the region. Cloudflare's data shows that Internet traffic was impacted in different ways...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/joao-tome/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/08/V0x3WKfJ_400x400-1.jpeg" alt="João Tomé" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/08/V0x3WKfJ_400x400-1.jpeg"
+                    alt="João Tomé" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/joao-tome" class="fw4 f3 no-underline black">João Tomé</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/virtual-networking-101-understanding-tap/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Virtual networking 101: Bridging the gap to understanding TAP</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-06T14:05:33+01:00">October 06, 2023 2:05PM
+    </p>
+    <a href="/tag/deep-dive/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Deep Dive</a>
+    <p class="f3 lh-copy fw4 gray1">Tap devices were historically used for VPN clients. Using them for virtual machines is essentially reversing their original purpose - from traffic sinks to traffic sources. In the article I explore the intricacies of tap devices, covering topics like offloads, segmentation, and multi-queue....</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/marek-majkowski/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2017/03/b5967d6c687939594adb6992723d0529.jpeg" alt="Marek Majkowski" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2017/03/b5967d6c687939594adb6992723d0529.jpeg"
+                    alt="Marek Majkowski" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/marek-majkowski" class="fw4 f3 no-underline black">Marek Majkowski</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+            <article class="w-100 w-50-l mb4 ph3 bb b--gray8 bn-l">
+    <a href="/uncovering-the-hidden-webp-vulnerability-cve-2023-4863/" class="fw5 no-underline gray1">
+        <h2 class="fw5 mt2">Uncovering the Hidden WebP vulnerability: a tale of a CVE with much bigger implications than it originally seemed</h2>
+    </a>
+    <p class="f3 fw5 gray5 my" localize datetime="2023-10-05T16:00:43+01:00">October 05, 2023 4:00PM
+    </p>
+    <a href="/tag/vulnerabilities/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Vulnerabilities</a>
+    <a href="/tag/chrome/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Chrome</a>
+    <a href="/tag/webp/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">WebP</a>
+    <a href="/tag/security/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Security</a>
+    <a href="/tag/swift/" class="dib pl2 pr2 pt1 pb1 mb2 bg-gray8 no-underline blue3 f2">Swift</a>
+    <p class="f3 lh-copy fw4 gray1">Recently, Google announced a security issue in Google Chrome, titled "Heap buffer overflow in WebP in Google Chrome." Initially, it seemed like just another bug in the popular web browser. However, what we discovered was far more significant and had implications that extended well beyond Chrome...</p>
+    <ul class="flex pl0 flex-wrap">
+        <li class="list flex items-center pr2">
+            <a href="/author/willi/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/selfie-small.jpg" alt="Willi Geiger" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2023/09/selfie-small.jpg"
+                    alt="Willi Geiger" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/willi" class="fw4 f3 no-underline black">Willi Geiger</a>
+            </div>
+        </li>
+        <li class="list flex items-center pr2">
+            <a href="/author/kornel/" class="static-avatar pr1">
+                <img class="author-profile-image br-100 mr2" data-cfsrc="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/09/3a534a3c391d25cb34cb4078cb0c1148.jpg" alt="Kornel Lesiński" loading="lazy" width="62" height="62" style="display:none;visibility:hidden;" /><noscript><img class="author-profile-image br-100 mr2"
+                    src="/cdn-cgi/image/format=auto,dpr=3,width=62,height=62/http://blog.cloudflare.com/content/images/2022/09/3a534a3c391d25cb34cb4078cb0c1148.jpg"
+                    alt="Kornel Lesiński" loading="lazy" width="62" height="62" /></noscript>
+            </a>
+            <div class="author-name-tooltip">
+                <a href="/author/kornel" class="fw4 f3 no-underline black">Kornel Lesiński</a>
+            </div>
+        </li>
+    </ul>
+
+</article>
+
+    <nav class="pagination mw-100 center mv5 ph3 w-100 tc" role="navigation">
+    <div class="dib">
+      <span href="/" class="gray3">1</a>
+      <a href="/page/2/" class="no-underline blue3 underline-hover">2</a>
+      <span>...</span>
+      <a href="/page/141/" class="no-underline blue3 underline-hover">141</a>
+    </div>
+    <div class="ml3 dib">
+      <a href="/page/2/" class="no-underline blue3 underline-hover dn dib-m dib-l">Older Posts &rarr;</a>
+      <a href="/page/2/" class="no-underline blue3 underline-hover dib dn-m dn-l">&rarr;</a>
+    </div>
+</nav>
+
+
+</main>
+
+
+        <footer class="pt4 pb4 pl1 pr1 main-footer">
+  <div class="mw8 center dn db-l ph3">
+    <div class="flex flex-row justify-between">
+      <div class="main-footer__menu-group">
+        <ul id="sales-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="sales-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group f1">
+            Sales
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/plans/enterprise/contact/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="enterprise_sales"
+              class="f1 blue3 no-underline underline-hover">
+              Enterprise Sales
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/partners/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="become_a_partner" class="f1 blue3 no-underline underline-hover">
+              Become a Partner
+            </a>
+          </li>
+        </ul>
+        <p class="phone f1 blue3 no-underline underline-hover">
+          <p class="tel f1 blue3 no-underline underline-hover">Contact Sales:</p>
+          <p><a data-i18n-phonenumber="" class="tel f1 blue3 no-underline underline-hover" href="tel:+18889935273">+1
+              (888) 99 FLARE</a></p>
+
+          <noscript><a class="phone f1 blue3 no-underline underline-hover" href="tel:+16503198930">+1 650 319
+              8930</a></noscript>
+        </p>
+      </div>
+      <div class="main-footer__menu-group">
+        <ul id="getting-started-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="getting-started-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Getting Started
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/plans/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="plans" class="f1 blue3 no-underline underline-hover">
+              Pricing
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/case-studies/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="case_studies" class="f1 blue3 no-underline underline-hover">
+              Case Studies
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/resources/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="white_papers" class="f1 blue3 no-underline underline-hover">
+              White Papers
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/webinars/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="webinars" class="f1 blue3 no-underline underline-hover">
+              Webinars
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/learning/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="learning_center" class="f1 blue3 no-underline underline-hover">
+              Learning Center
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__menu-group">
+        <ul id="community-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="community-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Community
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://community.cloudflare.com" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="community_hub" class="f1 blue3 no-underline underline-hover">
+              Community Hub
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://blog.cloudflare.com" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="blog" class="f1 blue3 no-underline underline-hover">
+              Blog
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/galileo/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="galileo" class="f1 blue3 no-underline underline-hover">
+              Project Galileo
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/athenian/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="athenian" class="f1 blue3 no-underline underline-hover">
+              Athenian Project
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.tv/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="tv" class="f1 blue3 no-underline underline-hover">
+              Cloudflare TV
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__menu-group">
+        <ul id="developers-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="developers-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Developers
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://developers.cloudflare.com" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="developer_hub" class="f1 blue3 no-underline underline-hover">
+              Developer Hub
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://discord.cloudflare.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="technical_resources"
+              class="f1 blue3 no-underline underline-hover">
+              Developers Discord
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/products/cloudflare-workers/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="cloudflare_workers"
+              class="f1 blue3 no-underline underline-hover">
+              Cloudflare Workers
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/integrations/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="integrations" class="f1 blue3 no-underline underline-hover">
+              Integrations
+            </a>
+          </li>
+        </ul>
+      </div>
+            <div class="main-footer__menu-group">
+        <ul id="company-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="company-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Tools
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://radar.cloudflare.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              Cloudflare Radar
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://speed.cloudflare.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              Speed Test
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://isbgpsafeyet.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              Is BGP Safe Yet?
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://rpki.cloudflare.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              RPKI Toolkit
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://ct.cloudflare.com/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              Certificate Transparency
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__menu-group">
+        <ul id="support-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="support-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Support
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://support.cloudflare.com" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="support" class="f1 blue3 no-underline underline-hover">
+              Support
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://www.cloudflarestatus.com" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="status" class="f1 blue3 no-underline underline-hover">
+              Cloudflare Status
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/compliance/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="compliance" class="f1 blue3 no-underline underline-hover">
+              Compliance
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/gdpr/introduction/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="gdpr" class="f1 blue3 no-underline underline-hover">
+              GDPR
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__menu-group">
+        <ul id="company-menu" class="list pl0">
+          <li class="pt1 pb1 f1" data-submenu="company-menu"
+            class="main-footer__menu-group__header js-toggle-footer-group">
+            Company
+            <i class="icon-caret-down"></i>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/about-overview/" data-tracking-category="footer"
+              data-tracking-action="click" data-tracking-label="overview" class="f1 blue3 no-underline underline-hover">
+              About Cloudflare
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/people/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="our_team" class="f1 blue3 no-underline underline-hover">
+              Our Team
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/press/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="press" class="f1 blue3 no-underline underline-hover">
+              Press
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/analysts/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="analysts" class="f1 blue3 no-underline underline-hover">
+              Analysts
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/careers/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="careers" class="f1 blue3 no-underline underline-hover">
+              Careers
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/logo/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="logo" class="f1 blue3 no-underline underline-hover">
+              Logo
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <a href="https://cloudflare.com/network/" data-tracking-category="footer" data-tracking-action="click"
+              data-tracking-label="network_map" class="f1 blue3 no-underline underline-hover">
+              Network Map
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="mw8 center ph3">
+    <div class="flex flex-row flex-wrap justify-between pt4 items-center">
+      <div class="flex flex-row items-start w-100 w-25-l pb4 pb0-l">
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/Cloudflare/" class="w-20"><img
+            src="https://cloudflare.com/img/footer/facebook.svg" class="w-60"></a>
+        <a target=" _blank" rel="noopener" href="https://twitter.com/Cloudflare" class="w-20"><img
+            src="https://cloudflare.com/img/footer/twitter.svg" class="w-60"></a>
+        <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/cloudflare" class="w-20"><img
+            src="https://cloudflare.com/img/footer/linkedin.svg" class="w-60"></a>
+        <a target="_blank" rel="noopener" href="https://www.youtube.com/cloudflare" class="w-20"><img
+            src="https://cloudflare.com/img/footer/youtube.svg" class="w-60"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/cloudflare" class="w-20"><img
+            src="https://cloudflare.com/img/footer/instagram.svg" class="w-60"></a>
+      </div>
+      <div class="w-100 w-75-l tr-l tl-ns">
+        <div>
+          <span class="main-footer__copyright f1">© 2023 Cloudflare, Inc.</span>
+          <span class="main-footer__copyright f1">|</span>
+          <a href="https://cloudflare.com/privacypolicy/"
+            class="main-footer__copyright f1 no-underline underline-hover">Privacy
+            Policy</a>
+          <span class="main-footer__copyright f1">|</span>
+          <a href="https://cloudflare.com/website-terms/"
+            class="main-footer__copyright f1 no-underline underline-hover">Terms of Use</a>
+          <span class="main-footer__copyright f1">|</span>
+          <img class="mw2" src="/assets/images/privacy-options.svg?v=b83fe161cd" />
+          <a href="#cookie-settings" id="ot-sdk-btn" class="ot-sdk-show-settings main-footer__copyright f1 no-underline underline-hover">
+              <span>Your Privacy Choices</span>
+          </a>
+          <span class="main-footer__copyright f1">|</span>
+          <a href="https://cloudflare.com/abuse/"
+            class="main-footer__copyright f1 no-underline underline-hover">Trust &amp; Safety</a>
+          <span class="main-footer__copyright f1">|</span>
+          <a href="https://cloudflare.com/trademark/"
+            class="main-footer__copyright f1 no-underline underline-hover">Trademark</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var createQre = (expression, modifier) => {
+      var qre = "";
+      if (expression && modifier) {
+          qre = "$qre(expression:'" + expression + "', modifier:'" + modifier + "')";
+      }
+      return qre;
+  };
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    if(window.Coveo) {
+      Coveo.Logger.level = 6;
+      Coveo.SearchEndpoint.configureCloudEndpoint('cloudflareproduction7iy98g48', 'xx37b7bfe4-2b6c-4720-a42a-11e9e88f5315');
+
+      const blogWeight = createQre("@customer_facing_source==\"Blog\"", "200");
+      const englishWeight = createQre("@language==\"English\"", "200");
+      const searchBoxRoot = document.getElementById("searchbox");
+      const searchResultsPage = document.getElementById("searchResults")
+
+      if(searchResultsPage) {
+        Coveo.init(searchResultsPage, {
+          SearchInterface: {
+              expression: blogWeight + englishWeight
+          },
+          Searchbox : {
+            enableSearchAsYouType : true
+          },
+          externalComponents: [
+            searchBoxRoot
+          ]
+        });
+      } else if(searchBoxRoot) {
+        Coveo.initSearchbox(searchBoxRoot, "/searchresults");
+      }
+    }
+  });
+</script>
+
+<script>
+  function removeTrailingSlashFromUrl(url) {
+    return url.startsWith('/') ? url.slice(1) : url;
+  }
+</script>
+    </div>
+
+
+    
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://tr.www.cloudflare.com/ns.html?id=GTM-PKQFGQB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+    var links = document.links;
+
+    for (var i = 0, linksLength = links.length; i < linksLength; i++) {  
+       if (links[i].hostname != window.location.hostname) {
+           links[i].target = '_blank';
+       } 
+    } 
+</script>
+
+</body>
+
+</html>
+0
+
+
+
+
+https://blog.cloudflare.com:443

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-22.apps.verygood.systems:8080
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es65
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:55:40 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

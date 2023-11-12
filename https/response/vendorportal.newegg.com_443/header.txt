@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: vendorportal.newegg.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.neweggimages.com *.newegg.com *.newegg.org *.googleapis.com *.google-analytics.com *.googletagmanager.com *.youtube.com stats.g.doubleclick.net;font-src * data:;img-src * data:;media-src * blob:;report-uri https://apis.newegg.com/vendor-portal/misc/v2/csp-violation-report;
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 19:42:05 GMT
+Etag: "7d4dbe8312da1:0"
+Expires: Wed, 08 Nov 2023 19:42:05 GMT
+Last-Modified: Wed, 08 Nov 2023 05:24:54 GMT
+Pragma: no-cache
+Set-Cookie: NVTC=248326808.0001.5a670b964.1699472525.1699472525.1699472525.1; Expires=Sat, 07-Nov-26 19:42:05 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NID=2Q4M726I4M720M0M0M; Expires=Sat, 07-Nov-26 19:42:05 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NV_NVTCTIMESTAMP=1699472526; Expires=Sat, 07-Nov-26 19:42:05 GMT; Domain=newegg.com; Path=/; Secure; HttpOnly
+Set-Cookie: NE_STC_V1=475ca3dd38c3d62a3df089643bba00bd63911a24464066a842ff35509fddfabf6586df88;expires=Wed, 08-Nov-2023 20:39:22 GMT;path=/;secure;httponly
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Output: edge
+X-Xss-Protection: 1; report=https://pf.newegg.com/csp?source=xss
+

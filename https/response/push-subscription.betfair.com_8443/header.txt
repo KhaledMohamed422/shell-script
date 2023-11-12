@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: push-subscription.betfair.com:8443
+User-Agent: Mozilla/5.0 (iPod; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/44.0.2403.67 Mobile/12H143 Safari/600.1.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bbeb396c1621-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:34 GMT
+Expires: Tue, 07 Nov 2023 18:45:49 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TgVGljEBXYJKeYdXbo5YwrgrLbsUjRd1b7XGCaHacuTwmcRrSgGyD9lQkd1cuYG75ZJjK7I9TxbsIsiiaHUEltqJNsQLOhMpRP3wpvSoXpCQVunbaIYOHIuUzJxXIYqxz%2BtQtxzBwugRC6Q6fSEXwl8cgoA%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

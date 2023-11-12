@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: backend-staging-master.mercury.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 9; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5f97ea5d7a43-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:50 GMT
+Expires: Wed, 08 Nov 2023 02:27:05 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=KiTICFpXRBMs0zlNChMy2UZ7ryBu3NTe9iwsXxoJHio-1699410410-0-AQhyGKdH1Bpvf/d+JoGbTX6WZCcsOtftqRZ2Cy/JUEcH8ggzgiQkFfO3f7BEy75FQjAKhh0nn4rCdWhq+VFyMLc=; path=/; expires=Wed, 08-Nov-23 02:56:50 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11a3

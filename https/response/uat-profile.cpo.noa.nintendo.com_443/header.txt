@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: uat-profile.cpo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G970U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:41:49 GMT
+X-Amz-Apigw-Id: OGCjlGrIliAEDnQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 39c378bb-6391-435c-be27-709ab8a9d68f
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://uat-profile.cpo.noa.nintendo.com:443

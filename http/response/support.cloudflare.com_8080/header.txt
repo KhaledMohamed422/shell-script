@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: support.cloudflare.com:8080
+User-Agent: Mozilla/4.1 (compatible; MSIE 5.0; Symbian OS; Nokia 6600;452) Opera 6.20 [en-US]
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227e35d3973219f-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:12:30 GMT
+Expires: Tue, 07 Nov 2023 19:12:45 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yEZRihUuFHtNYtMPXjhBfRBXnsFlw%2FOjIZrj1JKeYN9pTZ4VkO91es14vZoVppnTNAfFrX86xmkKr9WmEtyyDH2GNgIqSYJidmUnLlnvRCUglXdYTJjiYbbrfk%2Bz8Scj2QPnQ%2BR%2FmJmMImg%2BJw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=_H93mEiWEte2dHy47Gzqv5t9ZwSnxIy_e3Y9A.i6DEs-1699384350-0-Abh2S1A1tFMaAYxNLyAbytQz+vBmu3CtwOT67RVvNm6pjFubUvzHJOTyJeRO2Y2iyx7G55YzhKwLGcBLdipGcD4KDsCd+E/n2uyg80mWG1SI; path=/; expires=Tue, 07-Nov-23 19:42:30 GMT; domain=.support.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+15f1

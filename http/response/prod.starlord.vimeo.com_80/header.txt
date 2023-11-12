@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: prod.starlord.vimeo.com
+User-Agent: CSSCheck/1.2.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 415 Unsupported Media Type
+Connection: close
+Content-Type: application/grpc
+Date: Wed, 08 Nov 2023 04:21:26 GMT
+Grpc-Message: invalid gRPC request content-type ""
+Grpc-Status: 3
+Via: 1.1 google
+Content-Length: 0
+
+
+
+
+http://prod.starlord.vimeo.com:80

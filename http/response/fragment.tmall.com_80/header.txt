@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: fragment.tmall.com
+User-Agent: Mozilla/5.0 (X11; U; FreeBSD i386; de-CH; rv:1.9.2.8) Gecko/20100729 Firefox/3.6.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 22
+Ali-Swift-Global-Savetime: 1699433473
+Cache-Control: max-age=30
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 08:51:13 GMT
+Eagleeye-Traceid: a3b55c9d16994334727382891e
+Eagleid: a3b55c9d16994334727382891e
+Server: Tengine
+Timing-Allow-Origin: *
+Vary: Origin, Ali-Detector-Type
+Via: cache21.l2de2[936,935,404-1280,M], cache12.l2de2[937,0], ens-cache15.de5[941,941,404-1280,M], ens-cache9.de5[951,0]
+X-Air-Content-Status: 404
+X-Air-Hostname: air-ual033008172049.center.na620
+X-Air-Pt: pt0
+X-Air-Source: proxy
+X-Air-Trace-Id: a3b55c9d16994334727382891e
+X-Cache: MISS TCP_MISS dirn:12:118882340
+X-Readtime: 23
+X-Server-Id: 28c3d6b2523ca52c32ad72931842b19a64ae5cb17c57702c6562bc4c43f3514966d7bc0eaed84f7d
+X-Swift-Cachetime: 30
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 08:51:13 GMT
+X-Wormhole-Error: 404
+X-Wormhole-Fragment: true
+X-Xss-Protection: 1; mode=block
+
+<h1>404 Not Found</h1>
+
+
+http://fragment.tmall.com:80

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: secure.instacart.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20120403211507 Firefox/12.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 249
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:29:30 GMT
+Location: https://secure.instacart.com/secure/home/
+Server: Apache
+Service-Worker-Allowed: /
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+

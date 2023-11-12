@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: live-football-api.aws.feeds.skybet.com
+User-Agent: Mozilla/4.0 (compatible; Linux 2.6.22) NetFront/3.4 Kindle/2.0 (screen 600x800)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:06 GMT
+X-Amz-Apigw-Id: OCnT9EHQDoEEZjA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 3855bb2f-f4b9-4f91-a752-d443d20e4ba4
+
+{"message":"Missing Authentication Token"}
+
+
+https://live-football-api.aws.feeds.skybet.com:443

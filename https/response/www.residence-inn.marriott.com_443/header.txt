@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: www.residence-inn.marriott.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia5700/3.27; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274e4cfbb77168-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:45 GMT
+Location: https://residence-inn.marriott.com/
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+

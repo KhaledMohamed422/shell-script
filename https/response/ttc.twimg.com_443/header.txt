@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: ttc.twimg.com
+User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: max-age=0, private, must-revalidate
+Content-Security-Policy: default-src 'self'; connect-src 'self'; font-src https://s-static.ak.fbcdn.net https://fbcdn-sphotos-a.akamaihd.net https://*.googleapis.com https://*.twitter.com https://*.twimg.com https://*.google-analytics.com https://localhost:* https://localhost.twitter.com:* https://twitter.com 'self'; frame-src https://s-static.ak.fbcdn.net https://fbcdn-sphotos-a.akamaihd.net https://*.googleapis.com https://*.twitter.com https://*.twimg.com https://*.google-analytics.com https://localhost:* https://localhost.twitter.com:* https://twitter.com 'self'; img-src https://s-static.ak.fbcdn.net https://fbcdn-sphotos-a.akamaihd.net https://*.googleapis.com https://*.twitter.com https://*.twimg.com https://*.google-analytics.com https://localhost:* https://localhost.twitter.com:* https://twitter.com https://twimg0-a.akamaihd.net http://birdhouse.prod.birdhouse-service.service.atla.twitter.com 'self' data:; media-src 'self'; object-src 'self'; script-src https://s-static.ak.fbcdn.net https://fbcdn-sphotos-a.akamaihd.net https://*.googleapis.com https://*.twitter.com https://*.twimg.com https://*.google-analytics.com https://localhost:* https://localhost.twitter.com:* https://twitter.com 'self' about:; style-src 'unsafe-inline' https://s-static.ak.fbcdn.net https://fbcdn-sphotos-a.akamaihd.net https://*.googleapis.com https://*.twitter.com https://*.twimg.com https://*.google-analytics.com https://localhost:* https://localhost.twitter.com:* https://twitter.com 'self'; report-uri https://twitter.com/i/csp_report?enforce=true&app_name=ORZGC3TTNRQXI2LPNYWXGZLSOZUWGZI%3D;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 20:45:13 GMT
+Etag: W/"cd53e5a1b50fa3da0f93c1580f49775d"
+Fastly-Restarts: 1
+Perf: 7626143928
+Set-Cookie: guest_id=v1%3A169938991370713790; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:45:13 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Set-Cookie: _ttc_session=fb621835d215bf97ece2ef09c5a758c9; Path=/; HTTPOnly
+Status: 200 OK
+Strict-Transport-Security: max-age=631138519
+Via: 1.1 varnish
+X-Cache: MISS
+X-Connection-Hash: 9ef4198286b5471fe0f95153c58ca46b37670eb05b7567d796ab4f2554a64430
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: fbbf9433-57b5-45d1-b4c1-50429df082ea
+X-Response-Time: 240
+X-Runtime: 0.129049
+X-Served-By: cache-fra-etou8220031-FRA
+X-Timer: S1699389914.543314,VS0,VE351
+X-Transaction-Id: 77b66701b10121cb
+X-Xss-Protection: 1; mode=block
+

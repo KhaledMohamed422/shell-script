@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: download.krisp.ai
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822747cd7f34717b-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:26:18 GMT
+Location: https://api.krisp.ai:443/v2/download/
+Server: cloudflare
+Vary: Accept-Encoding
+
+80

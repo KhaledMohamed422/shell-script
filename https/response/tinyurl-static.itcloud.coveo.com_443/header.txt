@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: tinyurl-static.itcloud.coveo.com
+User-Agent: Mediapartners-Google
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:30:55 GMT
+Server: AmazonS3
+Via: 1.1 a0a81637cc76d6981e4e29044a73b7f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dA0idwmN_7iHllVwYNGbpVN-SHpj-znjXQB2HRaRI4wi1N1x_Z-P_g==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+130
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NotFound</Code><Message>The resource you requested does not exist</Message><RequestId>2S84M6GMM26GH5S5</RequestId><HostId>62enxJoHYncT7S0N8XgNlJBJcEr9TVueBq/1MhHxfbuEPeGHECgU9Cf0+mf2n2hheqcvE/BHkI8=</HostId></Error>                                     
+0
+
+
+
+
+https://tinyurl-static.itcloud.coveo.com:443

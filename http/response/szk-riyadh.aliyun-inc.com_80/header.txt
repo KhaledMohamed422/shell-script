@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: szk-riyadh.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:20.0) Gecko/20121202 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 204
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 09:23:41 GMT
+Server: nginx/1.14.0 (Ubuntu)
+Www-Authenticate: Basic realm="level_12"
+

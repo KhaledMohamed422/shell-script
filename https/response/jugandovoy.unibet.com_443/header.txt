@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: jugandovoy.unibet.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Chrome/10.0.613.0 Safari/534.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:31 GMT
+Location: https://es.unibet.com
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_desktop; Domain=jugandovoy.unibet.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

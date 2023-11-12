@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: marketingportal-cat.zellepay.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A505F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:36 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: cf642a67ce4448e3850afd77c81efa0c
+
+4109

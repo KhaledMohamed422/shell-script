@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: push-subscription.betfair.se
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b8c86a397a4f-DUS
+Date: Tue, 07 Nov 2023 18:43:26 GMT
+Expires: Tue, 07 Nov 2023 19:43:26 GMT
+Location: https://push-subscription.betfair.se/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nCILnD00VShdaMhvKI%2BUeJ9bPSMsJgCnjxT7nUXsNZBqBDSKiwAerFk%2B9y34B167Iw5gxPKa16LyBv7rg6ywHnrMQySVOb3T%2FA%2BTRfaZ8TghybVWA2kHVexOzbMjRV0QxvDn%2F2Uo58zrmbBS%2BVg%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=J1st08sBv2MBCvIRvdvzJbHPrCqIFS9cJIeUgXWMlII-1699382606-0-ARamCg4qqfEdPYgNgO0HLa0IXYg3cdnCKJ9mULqvW8sDGubELqfzy+MSsBLq3d9KSU3Tw+hH6Nv7UeJjKuxSmkQ=; path=/; expires=Tue, 07-Nov-23 19:13:26 GMT; domain=.betfair.se; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://push-subscription.betfair.se:80

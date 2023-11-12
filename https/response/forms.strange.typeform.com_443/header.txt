@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: forms.strange.typeform.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20120502 Firefox/12.0 SeaMonkey/2.9.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:19:22 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=yIFH+Ha0WeCeHtL3G+EdygfjvyT/SZ6asZv4NB6s7JSoAPCU42GZA/Ro/Yj62DaQh7q8y0emuOoyiWfKm0TGA9GQiL6I5jmOHIF3HlSEYQmCoEKkYtjIb/VVhE6KUXklU84jfEqboCA3YFHkaiDZU+11BwvkTbWQagyYm41UF+/D; Expires=Tue, 14 Nov 2023 23:19:22 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=yIFH+Ha0WeCeHtL3G+EdygfjvyT/SZ6asZv4NB6s7JSoAPCU42GZA/Ro/Yj62DaQh7q8y0emuOoyiWfKm0TGA9GQiL6I5jmOHIF3HlSEYQmCoEKkYtjIb/VVhE6KUXklU84jfEqboCA3YFHkaiDZU+11BwvkTbWQagyYm41UF+/D; Expires=Tue, 14 Nov 2023 23:19:22 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://forms.strange.typeform.com:443

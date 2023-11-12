@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: abgw-gru1-aci01.acronis.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) splash Version/10.0 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 150
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent,X-Amz-Object-Map,Range,Content-MD5,if-match
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,ETag,X-Amz-Meta-Custom-Header,X-Amz-Notary-Provider,X-Amz-Cert,X-Amz-Notary-Hash,X-Amz-Notary-Protocol
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 01:19:49 GMT
+Server: nginx
+

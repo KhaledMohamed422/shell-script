@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: hub.activisionblizzard.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:14:41 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 7b5fb9dd2c7e7fe45d9ae72220637ef9
+
+4109

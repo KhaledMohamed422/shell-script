@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ipn.acronis.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.3; Linux 2.6.8-gentoo-r3; X11;
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:21:49 GMT
+Front-End-Https: on
+Location: /login
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: NEA7EjDUv9NWRZCTaNVz6F
+X-Request-Id: c641da0967fe31e48efba79c07e3ea84
+Content-Length: 0
+
+
+
+
+https://ipn.acronis.com:443

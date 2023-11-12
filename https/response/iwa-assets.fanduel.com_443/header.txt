@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: iwa-assets.fanduel.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 19:33:01 GMT
+Server: AmazonS3
+Via: 1.1 547a50460a0cda7ae3dafb1c0b6d0e1a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: fRD0KTcydfa64lt0uZNsi_0bTp0AOLz-k9sktoBEMaZjb8lX_NU5Sw==
+X-Amz-Cf-Pop: FRA56-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>HH3YNP4M64S1EWM8</RequestId><HostId>K8n1UI3XWIaluhDaGgIaDLKoRLJeUU5NhgOwVkJzpFwRu1oO5Wom3DeUFyxtqUzOihAPwAJTIvc=</HostId></Error>
+0
+
+
+
+
+https://iwa-assets.fanduel.com:443

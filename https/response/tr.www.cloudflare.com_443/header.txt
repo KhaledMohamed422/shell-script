@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: tr.www.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ec614de0cb0d-DUS
+Date: Tue, 07 Nov 2023 19:18:39 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qdEY1ipxtIHpSJDCrAo0A2ks4Wp51Rg9q3%2BnfCBBeM%2FT8ABOI%2B4AhL7iZ6qmzDhUI2yebKMwbAio5Y6%2FgPEf%2F1%2BlTj83FrkEC%2BibUrHgMFwgfbdeL8gv6VJpSiY79Z7PXbSy9JRnfA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=oJbJ2ZKN6p_IY9CStRNe7cRGvShDO3wvrsdudvv1Xy4-1699384719-0-AUJ3zUMXizsr33YWv/w/4mlKlkarELmULbPzdjkigvr3yYMusXudZpFeFZ/kdXVRnsONVcoY6PJwh3DaSvMU7gnE3dVvZbMm1zQxuocBYXLn; path=/; expires=Tue, 07-Nov-23 19:48:39 GMT; domain=.www.cloudflare.com; HttpOnly; Secure; SameSite=None
+Via: 1.1 google
+
+0
+
+
+
+
+https://tr.www.cloudflare.com:443

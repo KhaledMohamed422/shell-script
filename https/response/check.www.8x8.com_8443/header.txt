@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: check.www.8x8.com:8443
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 5841.83.0) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.138 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 553
+Cf-Ray: 8228a91fbaf02169-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:27:30 GMT
+Server: cloudflare
+

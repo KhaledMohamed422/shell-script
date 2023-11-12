@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: ams7790-jp-cloud.acronis.com:8443
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 180
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:04 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: cl5c8218f6s3tpdqq4k0
+X-Request-Id: 06c624430350e52ca1806d7fd9b38fa1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse><params><param><value><string>Acronis Storage Manager (MSP implementation)</string></value></param></params></methodResponse>
+
+
+https://ams7790-jp-cloud.acronis.com:8443

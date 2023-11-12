@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: vimeo.magisto.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b10064d05cadd-DUS
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:27:16 GMT
+Expires: Wed, 08 Nov 2023 04:27:16 GMT
+Last-Modified: Wed, 08 Nov 2023 04:27:16 GMT
+Server: cloudflare
+Set-Cookie: mgsk=v1nvgocg48hmkabt1012; expires=Tue, 28-Nov-2023 04:27:16 GMT; Max-Age=1728000; Path=/; Secure
+Set-Cookie: __cf_bm=PHgxzVo_54o3Q7MvB7Bg9TBkRnfLEdersnkDtXInC.Q-1699417636-0-AR2w9WVaGV9C6EmY/UEHazt4f7xVI4K36O+/tZdYQaCrxCFsnHcCGp7BQtR97L4/o10dcFsb69a9ncXlGFbmDXA=; path=/; expires=Wed, 08-Nov-23 04:57:16 GMT; domain=.magisto.com; HttpOnly; SameSite=None
+Vary: Cookie
+
+{"status": "FAIL"}
+
+
+http://vimeo.magisto.com:80

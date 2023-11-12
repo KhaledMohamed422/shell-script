@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: pokemon.nintendo.it
+User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 181
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:18:52 GMT
+Location: https://www.pokemon.com/it?red_source=pokemon.nintendo.it&redirect=true
+
+Redirecting to <a href="https://www.pokemon.com/it?red_source=pokemon.nintendo.it&amp;redirect=true">https://www.pokemon.com/it?red_source=pokemon.nintendo.it&amp;redirect=true</a>.
+
+
+http://pokemon.nintendo.it:80

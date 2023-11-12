@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: api.mercury.com
+User-Agent: Opera/9.0 (Macintosh; PPC Mac OS X; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a5edc490acae1-DUS
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:26:20 GMT
+Ec2-Instance-Id: i-0dd4e2b5307131c33
+Ec2-Instance-Name: mercury-web-backend-3.production.internal.mercury.com
+Git-Commit: dd49a3b625dba0484e9c791e502a6098180d199c
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/production/datasets/backend/trace?trace_id=80cf198dc0aa1178340ff6ddc6115c0d&trace_start_ts=1699406780&trace_end_ts=1699413980
+Server: cloudflare
+Set-Cookie: _SESSION=K8rsYLUJEKGI0b1IMvMvzFaBvAoIPMCisbIDpl1NJUGY7JptM60QJ3yo3TXd7INRimiTfTqbwIpGwPP2KOQ7WjnYJGriEWaXtGs9zgH6RNnFE1NonCvArGrHUSMIm7p8hGnOk1EoCzRSAUHuo3UZ4SI6aQ1xICllrwjGAMydExU4Iwnwjlc=; Path=/; Expires=Wed, 08-Nov-2023 04:26:16 GMT; Domain=backend.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=0CPM4OvFvRlvunwyAk9FCRIKZXhROPCvrUsmBcsP; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=iM2A7d1hXd7Gs1k68N9vnqcAFpmeSKvXs2.8l4uMaAQ-1699410380-0-AdCatY7e9TAN8KqHK8SplwiQjtjjFLULQf5Gq3I+U5b4PU7ccqiTOExJb2tpCn1Nq7py1TX8Vd7S8a6zHbimYU0=; path=/; expires=Wed, 08-Nov-23 02:56:20 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-80cf198dc0aa1178340ff6ddc6115c0d-4be690e19f4df7e7-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://api.mercury.com:443

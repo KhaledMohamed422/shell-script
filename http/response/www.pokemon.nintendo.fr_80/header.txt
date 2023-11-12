@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: www.pokemon.nintendo.fr
+User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; TECNO LA7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 95
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:42:33 GMT
+Location: https://www.nintendo.fr/404.html
+
+Redirecting to <a href="https://www.nintendo.fr/404.html">https://www.nintendo.fr/404.html</a>.
+
+
+http://www.pokemon.nintendo.fr:80

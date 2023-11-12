@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: afp-creative.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64) AppleWebKit/537.4 (KHTML like Gecko) Chrome/22.0.1229.79 Safari/537.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 376
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:41:15 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B57BB9A18D63936F5FA06
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B57BB9A18D63936F5FA06</RequestId>
+  <HostId>afp-creative.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://afp-creative.cn-hangzhou.oss-pub.aliyun-inc.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: engineering.payoneer.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822739519ab5cb15-DUS
+Date: Tue, 07 Nov 2023 17:16:25 GMT
+Expires: Tue, 07 Nov 2023 18:16:25 GMT
+Location: https://engineering.payoneer.com/
+Server: cloudflare
+Set-Cookie: __cfruid=2072e34d7341a965c188b05518d736a20f7982ef-1699377385; path=/; domain=.engineering.payoneer.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://engineering.payoneer.com:8080

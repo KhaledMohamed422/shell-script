@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: core-api-gw.uid.df.ui.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 41
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: X-Mis-Session-Expire-At,X-Mis-Token-Expire-At
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:47:45 GMT
+Vary: Origin
+Via: 1.1 9dfbacf2c8a61beb17591bdaab142956.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dn_w9yQpRcLuMJ68E8rYZ5jt4HYlM94kBGu9lyn0ZlIDRy9HVhlhqg==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Miss from cloudfront
+X-Request-Id: 72005123-acba-4e03-a5db-6636027f5080
+X-Response-Latency: 25
+X-Uid-Ratelimit-Limit-Minute: 500
+X-Uid-Ratelimit-Remaining-Minute: 499
+
+{"code":"SUCCESS","data":{"status":"UP"}}
+
+
+https://core-api-gw.uid.df.ui.com:443

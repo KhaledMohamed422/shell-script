@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: citrix-eu.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.3161 SLBChan/10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Content-Length: 833
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Connection: keep-alive
+Content-Security-Policy: base-uri 'self';connect-src https:;default-src https:;form-action 'none';frame-ancestors 'none';font-src https:;frame-src https://www.youtube.com/embed/ https://app.pendo.io;img-src https: data:;manifest-src 'none';media-src https:;object-src 'none';prefetch-src https:;report-to csp-violations;report-uri /csp-violations;script-src 'nonce-81cSq9asuSuJQ9iSSYGJfg==' 'unsafe-inline' 'strict-dynamic' https: googletagmanager.com google-analytics.com app.pendo.io cdn.pendo.io data.pendo.io pendo-io-static.storage.googleapis.com citrix-cloud-content.customer.pendo.io citrix-cloud-data.customer.pendo.io pendo-static-6508245000126464.storage.googleapis.com 'sha256-Kk3x6TBlDpQxJPh9EFIkBC81EU79d/BJCYFSx1O/3pA';style-src https: 'unsafe-inline';worker-src blob:
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:14:10 GMT
+Expect-Ct: max-age=0
+Keep-Alive: timeout=5
+Location: https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9ldS5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGc0TlRBN1lUazVZelUyWVdZMVpHRTVZVEJsWXpSbU5qTTFPR0prTm1VMFlqWm1ZakE3YmxkMlVHdEphRmt2VVdFclUzUnphVVZNY2pSS1IycGpUVWRUWjJ0WE1XUkRhRXM0TDBOMWVVcFpXV3N5V0c5dk1VZFlkRkpqTURVNVR6VnVha04wV1dVMlRuQlpibmg2WXpJck9ITklia3hZYkVFMk1qYzJXRGcwVFd0dWRUTkpVWE5PYlV0V1Ezb3hjV3h3VEU1RGIxWkpPRVpqWVRWRGVqaFpWalE0VGpRNFUxUjRZbWRxY25wUFFWbEViVkl4WnpWdmRVdDVkV3RXWnprNVJrZENVR0ZDUjFreUx6RjRiSEJNTnpORGIyeHpkbGRNZG5SWVpGZ3pSbTB6Y1RsRE9VVXlia3AzVVdsRU9HazRkekk0UVZWWlVUWlNTVmg0WTFOVlVDOUdiemRDY2pNMGIxUndSak5wZEVVNWMyeDVSV2hQYTJkT1FuQmhTVmN4V21wNmQwSmxVRk5wTUhwWFoybDZVRVpVZUZCek16RkJWVkZoZURCQ01HY3pURzQzTjJrNFZYQndjV3h0ZUV0b1QxRnhiMGRhYUVabFNqTmhXamxsVnk5V1YyMW1VSEprVDJOWmFIWnJMelZQVG5Oek1sUmtPVE5SUFQwN1EyOXVjMjlzWlE9PQ==
+Referrer-Policy: no-referrer
+Report-To: {"group":"csp-violations","max_age":1800,"endpoints":[{"url":"https://console-westeurope-release-a.citrixworkspacesapi.net/csp-violations"}]}
+Set-Cookie: X-Cws-TransactionId=4d91957e-60bf-47a2-90bf-f6e4b7b14ae7; Domain=.cloud.com; Path=/; Expires=Wed, 08 Nov 2023 23:14:10 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: idp=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderConfirmationId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderOrgId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderPersonId=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: state=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: dd633754-db48-43e6-ba71-4703c7eb94b1
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9ldS5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGc0TlRBN1lUazVZelUyWVdZMVpHRTVZVEJsWXpSbU5qTTFPR0prTm1VMFlqWm1ZakE3YmxkMlVHdEphRmt2VVdFclUzUnphVVZNY2pSS1IycGpUVWRUWjJ0WE1XUkRhRXM0TDBOMWVVcFpXV3N5V0c5dk1VZFlkRkpqTURVNVR6VnVha04wV1dVMlRuQlpibmg2WXpJck9ITklia3hZYkVFMk1qYzJXRGcwVFd0dWRUTkpVWE5PYlV0V1Ezb3hjV3h3VEU1RGIxWkpPRVpqWVRWRGVqaFpWalE0VGpRNFUxUjRZbWRxY25wUFFWbEViVkl4WnpWdmRVdDVkV3RXWnprNVJrZENVR0ZDUjFreUx6RjRiSEJNTnpORGIyeHpkbGRNZG5SWVpGZ3pSbTB6Y1RsRE9VVXlia3AzVVdsRU9HazRkekk0UVZWWlVUWlNTVmg0WTFOVlVDOUdiemRDY2pNMGIxUndSak5wZEVVNWMyeDVSV2hQYTJkT1FuQmhTVmN4V21wNmQwSmxVRk5wTUhwWFoybDZVRVpVZUZCek16RkJWVkZoZURCQ01HY3pURzQzTjJrNFZYQndjV3h0ZUV0b1QxRnhiMGRhYUVabFNqTmhXamxsVnk5V1YyMW1VSEprVDJOWmFIWnJMelZQVG5Oek1sUmtPVE5SUFQwN1EyOXVjMjlzWlE9PQ==
+
+
+https://citrix-eu.cloud.com:443

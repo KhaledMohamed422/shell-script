@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: learn.monday.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822c9b8cfc0a7a4e-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 08:57:17 GMT
+Expires: Wed, 08 Nov 2023 08:57:32 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gHhqcdWbBrf2ULzlHD4sCIcRW7CuAIoAtgPWeAfQ5v9399TZp%2FZ8VPF1uVr2WIuI4%2BW95WvXwyl%2FYl5bniN9gBHuOlrCFBFzmYjetSPbdng54wc4UM7hC%2BefJXHwbeheXVO4%2FfCt6g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=1dXBgLbH7Q41_9RU5JT9nVOeuIxqCL1iIir_GNq4IaY-1699433837-0-AZ1zDO+qknX+69jfIamPUTQb3qpaZ36M+SkztrRa9cOg49RMDK2SjCfHjm9l4GqdzwL2nkjg6s0I1TVevecKvZo=; path=/; expires=Wed, 08-Nov-23 09:27:17 GMT; domain=.learn.monday.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=6b552e89f5b15e38bac6820ff5c16e89b2dbe6f9-1699433837; path=/; domain=.learn.monday.com; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

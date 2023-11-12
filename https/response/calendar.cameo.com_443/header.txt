@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: calendar.cameo.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.85 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 75
+Cache-Control: no-cache, private, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0
+Content-Security-Policy: frame-ancestors 'self' https://*.mixmax.com chrome-extension://ocpljaamllnldhepankaeljmeeeghnid chrome-extension://acopemiijaedckfmlemjdimcnphgbald https://mail.google.com https://inbox.google.com https://*.force.com https://*.salesforce.com https://*.mixmaxusercontent.com; frame-src https://*.stripe.com https://*.facebook.com https://*.mixmax.com https://*.vidyard.com https://my.appcues.com/; report-uri /csp-violation
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 03:25:49 GMT
+Location: https://www.mixmax.com/calendar?ref=Mixmax%20calendar
+Set-Cookie: initialMixmaxURL=https%3A%2F%2Fcal.mixmax.com%2F; Max-Age=31536000; Domain=mixmax.com; Path=/; Expires=Thu, 07 Nov 2024 03:25:49 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: initialExternalReferrerURL=; Max-Age=31536000; Domain=mixmax.com; Path=/; Expires=Thu, 07 Nov 2024 03:25:49 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: lastMixmaxURL=https%3A%2F%2Fcal.mixmax.com%2F; Max-Age=31536000; Domain=mixmax.com; Path=/; Expires=Thu, 07 Nov 2024 03:25:49 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: lastExternalReferrerURL=; Max-Age=31536000; Domain=mixmax.com; Path=/; Expires=Thu, 07 Nov 2024 03:25:49 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=7776000
+Vary: Accept, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://www.mixmax.com/calendar?ref=Mixmax%20calendar
+
+
+https://calendar.cameo.com:443

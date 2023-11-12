@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: api.klauret-drs.dap-risk-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 10; M2006C3LII) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+Access-Control-Allow-Methods: OPTIONS,POST
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:03 GMT
+X-Amz-Apigw-Id: OCbJRH9NoAMEJOg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 333b0cd1-a656-4b2b-b60b-cd7a1a81ac9f
+X-Amzn-Trace-Id: Root=1-654a723b-374360cb715d168e206777df
+X-Tt-Waaa-Noo: 4xx
+
+{"message":"Missing Authentication Token"}
+
+
+https://api.klauret-drs.dap-risk-nonprod.collegeboard.org:443

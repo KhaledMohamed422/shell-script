@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: hh.prod.sonyentertainmentnetwork.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 839
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:51:36 GMT
+Etag: "5a1f56c76f5bb8aaae8067299ab1a993:1630338960.28221"
+Last-Modified: Mon, 30 Aug 2021 15:56:00 GMT
+Server: AkamaiNetStorage
+
+<SCRIPT type="text/javascript">
+    <!--
+
+    // Google Analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-24253422-7', 'auto', {'siteSpeedSampleRate': 100});
+    ga('send', 'pageview');
+
+    // Redirect, allowing invalid URLs where fragment comes before query string
+    setTimeout(function(){
+        var href = window.location.href;
+        var queryStringAndOrFragment = href.split(/(?=\?|#)(.+)/)[1] || '';
+        window.location.replace('4-0/index.html' + queryStringAndOrFragment);
+    }, 0);
+    -->
+</SCRIPT>
+
+
+http://hh.prod.sonyentertainmentnetwork.com:80

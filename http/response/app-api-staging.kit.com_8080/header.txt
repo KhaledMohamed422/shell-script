@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: app-api-staging.kit.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.4; XT1032 Build/KXB21.14-L1.61) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8248e66d6f5b1629-DUS
+Date: Sat, 11 Nov 2023 19:21:45 GMT
+Expires: Sat, 11 Nov 2023 20:21:45 GMT
+Location: https://app-api-staging.kit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://app-api-staging.kit.com:8080

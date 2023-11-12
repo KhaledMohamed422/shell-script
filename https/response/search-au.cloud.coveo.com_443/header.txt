@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: search-au.cloud.coveo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:30:23 GMT
+Location: https://platform-au.cloud.coveo.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: c5ccf9d9-281c-4934-b364-eee733579dfa
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://search-au.cloud.coveo.com:443

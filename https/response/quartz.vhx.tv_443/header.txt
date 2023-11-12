@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: quartz.vhx.tv
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64; rv:16.0) Gecko/16.0 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 506
+Cache-Control: no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:01:46 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699419707&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=fjvk3TtxGoWQr4HA8jDWxhQR72dH%2FMFtWjYBd4X0lOY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699419707&sid=929419e7-33ea-4e2f-85f0-7d8b7cd5cbd6&s=fjvk3TtxGoWQr4HA8jDWxhQR72dH%2FMFtWjYBd4X0lOY%3D
+Server: Cowboy
+

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: mtc.cdn.vine.co
+User-Agent: BlackBerry8320/4.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/100
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:34:10 GMT
+Server: AmazonS3
+Server-Timing: x-cache;desc= ,x-tw-cdn;desc=VZ
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: oNokfs4RTloc0beieKx0R878D3L6MCUZBrD6PTsykENxa/IcGTK7Z+cRB8S00kiU4PDnN2bfvtc=
+X-Amz-Request-Id: NXKHC0235DMTJ2DX
+X-Cache: MISS
+X-Tw-Cdn: VZ
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>NXKHC0235DMTJ2DX</RequestId><HostId>oNokfs4RTloc0beieKx0R878D3L6MCUZBrD6PTsykENxa/IcGTK7Z+cRB8S00kiU4PDnN2bfvtc=</HostId></Error>
+0
+
+
+
+
+https://mtc.cdn.vine.co:443

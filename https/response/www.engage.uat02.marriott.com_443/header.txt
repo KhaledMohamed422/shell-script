@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: www.engage.uat02.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.26 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Akamai-Grn: 0.45601302.1699378234.bbb5af2
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:35 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:35 GMT
+Location: /default.mi
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: nginx
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=434
+Server-Timing: origin; dur=87
+Server-Timing: ak_p; desc="1699378234642_34824261_196827890_52150_309544_4_9_-";dur=1
+Set-Cookie: MI_SITE=perf1;path=/;SameSite=None;Secure
+Set-Cookie: x-mi-tag=rel-R23.9.4,E2E Drop  rel-R23.9.4 ram-e2e8 green;path=/;SameSite=None;Secure
+Set-Cookie: akacd_empowerresappuatcnfirst=3876831033~rv=90~id=51e03324bed2a0e924ac89b27f434da5; path=/;; Secure; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+X-Robots-Tag: noindex
+

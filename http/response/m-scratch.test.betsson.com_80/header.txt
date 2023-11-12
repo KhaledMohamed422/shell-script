@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: m-scratch.test.betsson.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:29 GMT
+Location: https://m-scratch.test.betsson.com/
+Server: CloudFront
+Via: 1.1 490623df85c571a18ba7da1511cc969e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hwxlzHW1IlEFZmV2okTvudm2AClmPqE2q2VpZzNm-JZhbGP2UMVxlg==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Redirect from cloudfront
+

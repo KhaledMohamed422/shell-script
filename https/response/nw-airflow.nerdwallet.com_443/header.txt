@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: nw-airflow.nerdwallet.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82278315cd757a43-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Security-Policy-Report-Only: default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:06:47 GMT
+Server: cloudflare
+Set-Cookie: AWSALBTG=6uqT+c1nW03gQn/R3Nyqph8qAqG/awr2WdPEGXwE/wSbiYX97KlzVGgq9mdnt0rc/P3I+B+cSvWAnuF+/ViotcC6Nk6J4YxS3H1BkW6QzY5RItd29z3VTAkr1Bt+iCFSD5orLJoljDNBkBNrdgl3ERKKFohg6zd3Zw/x424fRz/B; Expires=Tue, 14 Nov 2023 18:06:47 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=6uqT+c1nW03gQn/R3Nyqph8qAqG/awr2WdPEGXwE/wSbiYX97KlzVGgq9mdnt0rc/P3I+B+cSvWAnuF+/ViotcC6Nk6J4YxS3H1BkW6QzY5RItd29z3VTAkr1Bt+iCFSD5orLJoljDNBkBNrdgl3ERKKFohg6zd3Zw/x424fRz/B; Expires=Tue, 14 Nov 2023 18:06:47 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: __cf_bm=.TJkN9geiPcMEoqP3Ny17VxS3kz6D4RmFbudbsm7_6A-1699380407-0-ATOX48t/EfyDyUPJhRe6CKvi0k4x2tQo21hHo8Jix/UlK0KJpXWkbmGjffU9bWAttGhbAiHI5ZnHjFrloEpkcr8V43YPJfz4n5kB/oBnS/SA; path=/; expires=Tue, 07-Nov-23 18:36:47 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Nerd: Edge
+X-Xss-Protection: 1; mode=block;
+
+228

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: live.semrush.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=3600,max-age=120
+Cf-Ray: 822beaee480ac4ae-DUS
+Date: Wed, 08 Nov 2023 06:56:43 GMT
+Location: https://live.semrush.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6FAU9TNpXK7gQnYji8DKNN6mJpvOLWv%2Bc9mwkv%2FYfDsMDfyIFWUQuQcgbCFy72Ok6TYEg3yeESde5SOEwgVnbh%2Bk1t8%2BBBK7sqau1mpQqU5tmo%2FULZCNph%2Be7xlqo01yYGM%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=Pf417HsmzkZrRQ2SBEq_NIcHUdNK5RzI0xIUO3bhZ78-1699426603-0-Ae9CZjmf6+xB6QT/u4MZbHukvxDlcJplm3jBAeEXxwTfSYbExNZAgB+fMdl7OLnOlWAeVdDM7CvlTB5NSdyKkzs=; path=/; expires=Wed, 08-Nov-23 07:26:43 GMT; domain=.live.semrush.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=75e8c6ab224b7afd6fbad5d2a004cb7743030e06-1699426603; path=/; domain=.live.semrush.com; HttpOnly
+Vary: Accept-Encoding
+X-Hs-Https-Only: worker
+Content-Length: 0
+
+
+
+
+http://live.semrush.com:80

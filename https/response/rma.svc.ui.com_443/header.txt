@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: rma.svc.ui.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML like Gecko) Version/6.0.2 Safari/536.26.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 49
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 05:02:21 GMT
+Expect-Ct: max-age=0, enforce
+Referrer-Policy: no-referrer,strict-origin-when-cross-origin
+Set-Cookie: AWSALB=AQxGtZEc30CyOuJB7TfabtdHVRe9IvXGTNteI/gciHLZWgxCcYd9089FtQl8MdKAVvWVM3E/adka1Fc1oOqea965L5ip2oLJ6w65VhY42NxSOByOO3tIVXpzFWxJ; Expires=Wed, 15 Nov 2023 05:02:21 GMT; Path=/
+Set-Cookie: AWSALBCORS=AQxGtZEc30CyOuJB7TfabtdHVRe9IvXGTNteI/gciHLZWgxCcYd9089FtQl8MdKAVvWVM3E/adka1Fc1oOqea965L5ip2oLJ6w65VhY42NxSOByOO3tIVXpzFWxJ; Expires=Wed, 15 Nov 2023 05:02:21 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+
+{"errors":[{"status":"404","title":"Not Found"}]}
+
+
+https://rma.svc.ui.com:443

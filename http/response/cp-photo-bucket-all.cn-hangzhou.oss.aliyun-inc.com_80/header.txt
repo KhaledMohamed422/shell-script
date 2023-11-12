@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: cp-photo-bucket-all.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Midori/0.1.10 (X11; Linux i686; U; en-us) WebKit/(531).(2)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 289
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 08:46:03 GMT
+Server: AliyunOSS
+X-Oss-Request-Id: FFFFFFFFFFFFFFFFFFFFFFFF
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Please contact the server administrator, oss@service.aliyun.com</Message>
+  <RequestId>FFFFFFFFFFFFFFFFFFFFFFFF</RequestId>
+  <HostId>cp-photo-bucket-all.cn-hangzhou.oss.aliyun-inc.com</HostId>
+</Error>
+
+
+
+http://cp-photo-bucket-all.cn-hangzhou.oss.aliyun-inc.com:80

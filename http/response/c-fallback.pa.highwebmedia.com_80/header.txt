@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: c-fallback.pa.highwebmedia.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36 ArchiveBox/0.6.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 19:13:21 GMT
+
+{"message":"Invalid WebSocket Request","href":"https://help.ably.io/error/40000","code":40000,"statusCode":400}
+
+
+http://c-fallback.pa.highwebmedia.com:80

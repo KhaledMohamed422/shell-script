@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: analytics-au.cloud.coveo.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:26:19 GMT
+Location: https://platform-au.cloud.coveo.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 8108965b-b46e-482b-a212-13fbb64e76ef
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://analytics-au.cloud.coveo.com:443

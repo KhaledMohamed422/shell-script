@@ -1,0 +1,51 @@
+GET / HTTP/1.1
+Host: launch-release-a.browser.cloud.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Content-Security-Policy-Report-Only: script-src 'unsafe-inline' https://*.cloud.com https://www.googletagmanager.com https://www.recaptcha.net https://*.gstatic.com https://www.google.com/recaptcha 'nonce-hAMtd89tLf4jXae6gOi1Qk1xy1A=' 'strict-dynamic';style-src 'self' https://*.cloud.com https://*.gstatic.com;img-src 'self' data: https://*.cloud.com https://*.gstatic.com https://www.googletagmanager.com;object-src 'none';base-uri 'self';frame-ancestors 'self';connect-src https: wss://*.nssvc.net wss://*.cloud.com;report-uri https://launch-release-a.cloud.com/CspViolationReport;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:22:40 GMT
+Server: Microsoft-HTTPAPI/2.0
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+578
+<html ng-app="launchApp" ng-strict-di ng-csp>
+<head>
+    <base href="/" />
+    <link id="favicon" rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://launch-release-a.browser.cloud.com/styles/vendor.min.css" />
+    <link rel="stylesheet" href="https://launch-release-a.browser.cloud.com/styles/bundle.min.css" />
+
+    <script nonce="hAMtd89tLf4jXae6gOi1Qk1xy1A=">
+        var globalConfiguration = {
+            clientHostname: 'browser-receiver-a.browser.cloud.com',
+            sessionServiceApi: 'https://session-release-a.browser.cloud.com/[customer]',
+            captchaKey: '6Le6v7AZAAAAAK04n6NmxxqBdjkEfXZK8K6lpcJQ',
+            resizeOverlayDuration: '500',
+            receiverVersion: 'v23.01.1.1',
+            allowExternalClient: '',
+            alternateReceiverUrl: ''
+        };
+    </script>
+    <script nonce="hAMtd89tLf4jXae6gOi1Qk1xy1A=" type="text/javascript" src="https://launch-release-a.browser.cloud.com/scripts/vendor.min.js"></script>
+    <script nonce="hAMtd89tLf4jXae6gOi1Qk1xy1A=" type="text/javascript" src="https://launch-release-a.browser.cloud.com/scripts/bundle.min.js"></script>
+        <script nonce="hAMtd89tLf4jXae6gOi1Qk1xy1A=" src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+    <meta name="viewport" content="{{ngMeta.viewport}}" />
+</head>
+<body>
+    <div ng-view></div>
+</body>
+</html>
+0
+
+
+
+
+https://launch-release-a.browser.cloud.com:443

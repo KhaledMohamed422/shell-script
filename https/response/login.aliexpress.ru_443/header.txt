@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: login.aliexpress.ru
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.136 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:00:04 GMT
+Eagleeye-Traceid: 211675d016994376045888267e1ea6
+Eagleeye-Traceid: 211675d016994376045888267e1ea6
+Location: https://login.aliexpress.com/sync_cookie_read.htm?xman_goto=https%3A%2F%2Flogin.aliexpress.ru%2F
+Server: Tengine
+Set-Cookie: ali_apache_id=33.22.117.208.1699437604591.177090.9; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Set-Cookie: xman_t=7RKPCkf+AuAqfOFUefeMpsQs1qKiDULMrzkmmryBMfCyx/58cBUiXzferms5gM5n; Path=/; Domain=aliexpress.ru; Expires=Tue, 06 Feb 2024 10:00:04 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: xman_us_f=x_locale=ru_RU&x_l=0; Path=/; Domain=aliexpress.ru; Expires=Fri, 09 Nov 2091 10:00:04 GMT; Secure; SameSite=None
+Set-Cookie: ali_apache_id=33.22.88.233.1699437604605.496617.9; Path=/; Domain=aliexpress.ru; Expires=Fri, 09 Nov 2091 10:00:04 GMT; Secure; SameSite=Lax
+Set-Cookie: xman_f=6+jIycwtRzjQHZGKR21ZzZFz+b0Fl6Qb0RHgzEU1DFo1leSvs44FkbTSyVeH3ImA; Path=/; Domain=aliexpress.ru; Expires=Fri, 09 Nov 2091 10:00:04 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: acs_usuc_t=x_csrf=tfz1v_c2pzkt&acs_rt=3622da152c0746fcae368d78783bd02d; Path=/; Domain=aliexpress.ru; Expires=Tue, 07 Nov 2023 10:00:04 GMT; Secure; SameSite=None
+Set-Cookie: aep_usuc_f=b_locale=ru_RU&c_tp=RUB&region=RU&site=rus&province=917477670000000000&city=917477679070000000; Path=/; Domain=aliexpress.ru; Expires=Fri, 09 Nov 2091 10:00:04 GMT; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Origin
+X-Aer-Trace-Id: f9810ab173446a2bac04fdf9c56bd5a6
+X-Application-Context: mixer-api:prod
+X-Request-Id: 211675d016994376045888267e1ea6
+
+77
+<a href="https://login.aliexpress.com/sync_cookie_read.htm?xman_goto=https%3A%2F%2Flogin.aliexpress.ru%2F">Found</a>.
+
+
+0
+
+
+
+
+https://login.aliexpress.ru:443

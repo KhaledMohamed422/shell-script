@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: cloudflare-logs.lystit.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c8994dc94715d-DUS
+Date: Wed, 08 Nov 2023 08:45:01 GMT
+Expires: Wed, 08 Nov 2023 09:45:01 GMT
+Location: https://cloudflare-logs.lystit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://cloudflare-logs.lystit.com:8080

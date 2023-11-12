@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: lbr.betfair.it
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ccd0ea9c1605-DUS
+Date: Tue, 07 Nov 2023 18:57:06 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=I522hYe6rlly5SsSCEY06fjEfq%2BI6J0JcTczhmrACXNY8yGaeU4D8yVBNOBUvxQ52S9oLo4tn%2BL34tavt4ImYp9tFECEfBCs5J8DIraI5xQ59uj5q6LRAolEb19sT6uU"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=iUxEJ_RtjWiOaNzNAdfjIXMqTDZBW0yL8yu6AH6ve3I-1699383426-0-AcTPNjmsqsOHxAV1k9gYv76dpKKR03aKyomvK0OIgW+fRtzQMNXVCLamR+TO0BVsCz/13CQx+yNXzLsgXZ6FQeY=; path=/; expires=Tue, 07-Nov-23 19:27:06 GMT; domain=.betfair.it; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+139

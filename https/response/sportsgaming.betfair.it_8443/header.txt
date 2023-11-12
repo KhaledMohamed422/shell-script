@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: sportsgaming.betfair.it:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227cd184e57162f-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:18 GMT
+Expires: Tue, 07 Nov 2023 18:57:33 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B%2BqojqasNMRcQREDw%2FUY%2FXOHQC40iExt%2FxrWYiD02fwNYnBFUxWUHhr3W5AldNDb%2BgKZUoNZkHbKoN0m3gBndm%2FLgTU5QtCziQF4cooiVjsIkAaOpNdPFGnFBn%2FRKLNk0YKhLDGjvBiBcJHh6wY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ZNN.kNFfw578VVke7kq17cbCFm7PrybPfms7v2arJVM-1699383438-0-AS56Mt4nlIhLyakgXYPXf9kRP5KUw+prgSYYW/gJHgQeB1zvPr8DsIoFj2heps9/TH78VQxtbUMjwBdQmKcz1pI=; path=/; expires=Tue, 07-Nov-23 19:27:18 GMT; domain=.betfair.it; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

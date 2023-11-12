@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: links.postman.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:45.0) Gecko/20100101 Firefox/45.0 SeaMonkey/2.42.9esr
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Security-Policy: base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub46dd5cf52153d917fc1d5e91ff3a600d&dd-evp-origin=content-security-policy&ddsource=csp-report; frame-ancestors 'self' https://links.iterable.com; object-src 'none'; worker-src 'self' blob:; script-src 'report-sample' 'unsafe-eval' 'unsafe-inline' 'strict-dynamic' https: 'nonce-ZO/T92rHL3mci616DN65ZQ=='
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 07:23:14 GMT
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Request-Time: 3
+Server: iterable-links 08b0
+Set-Cookie: XSRF-TOKEN=30287b7ae0fbdc51758029aca548b3e7bd7eff53-1699428194210-f6067d4867a5c7745b6065fa; SameSite=Lax; Path=/
+Vary: Origin,Accept-Encoding
+Via: 1.1 b10069b378f22e10f0382c21d0a9578e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KF7u3H9A2aScOUs3GC_JORB41z3C_-x4v0-leocH0kPYi1T4meN76w==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+Not found
+
+
+https://links.postman.com:443

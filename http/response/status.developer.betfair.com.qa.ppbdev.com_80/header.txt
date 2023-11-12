@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: status.developer.betfair.com.qa.ppbdev.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b949c82ac4c2-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:46 GMT
+Expires: Tue, 07 Nov 2023 18:44:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jmv8ut1uVQoo4GJpJ1szVb%2B1cDEss3pZAL%2FBshCmivdBJStp54TVMmK8EWNEifOr9Dt6ui2K9wYZpnoFzfyLJ8HWtbYyHGwWDeZ9E7dKmSiwUGlaYB8%2FeVKWAJu86dQVf5oc25Dw69ZmjxLkLagFG1bHNq3HMlxZRj%2Btaw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=sSLiL57LCGpY9YkFgQIOfTUVeRa3d7QW0W7h7fsnYLk-1699382626-0-AcovOB8cG8m9oHl+XLfMoG0UFc/UNyl0gjGqUjRuuJEhhZnVL3cgck81aQScmJvemVzz7p1UjHxdg64DwLrfu8U=; path=/; expires=Tue, 07-Nov-23 19:13:46 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

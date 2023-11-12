@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: app.mercury.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; rv:19.0) Gecko/20100101 Slackware/13 Firefox/19.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a55acbfef7a4c-DUS
+Date: Wed, 08 Nov 2023 02:20:03 GMT
+Expires: Wed, 08 Nov 2023 03:20:03 GMT
+Location: https://app.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=q9wmbE6ItQDKzXS51khWer3epBHBfMs1KAF6uILQKi4-1699410003-0-AQvhnZ3AxhIvjoq2dg9n1WZgJf7+T53Et+o33YFrzV1NCWVqISEIBb4scCGLH/+zlb3ypZqTzoGkO68WZmZ2eWc=; path=/; expires=Wed, 08-Nov-23 02:50:03 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://app.mercury.com:8080

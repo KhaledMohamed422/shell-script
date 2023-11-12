@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: sso-test-tenant.authcloud.staging.trusona.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7 (KHTML, like Gecko) Chrome/7.0.514.0 Safari/534.7
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:42:48 GMT
+Etag: W/"654400ea-be1"
+Last-Modified: Thu, 02 Nov 2023 20:04:58 GMT
+Server: nginx/1.21.6
+Strict-Transport-Security: max-age=31449600; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 4b07e670df891a80bcae1d5be052af3c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Aw9PMRN4rW8Ttdc3jtns8jV9aUhEnoOXlVVvnm22pWB5OY4B6hZ6Ow==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Miss from cloudfront
+
+be1

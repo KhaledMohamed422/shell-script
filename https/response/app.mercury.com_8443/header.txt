@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: app.mercury.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; HMA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5f21ba497166-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:31 GMT
+Expires: Wed, 08 Nov 2023 02:26:46 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=yahqP4x7BjDRL4MJt2pVpHDCj08qN8yt2M34AIMfNhQ-1699410391-0-AZaBW5vKfJ1pSArtZSkcAyFgH2yeamXx97+QqlYlcD0i/dcFaVCJbV9+MBoyb5lvroQ5Cncwk8qYa2ILvtwDUa8=; path=/; expires=Wed, 08-Nov-23 02:56:31 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11a3

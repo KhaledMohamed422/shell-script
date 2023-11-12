@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: securemail.bitmex.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 2200
+Accept-Ranges: bytes
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:07:18 GMT
+Etag: "898-5f08310281e80"
+Expect-Ct: max-age=86400, enforce
+Last-Modified: Fri, 23 Dec 2022 18:36:26 GMT
+Server: 
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

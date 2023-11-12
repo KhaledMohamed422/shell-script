@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: c.reddit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 13
+Accept-Ranges: bytes
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 19:38:58 GMT
+Retry-After: 0
+Server: Varnish
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+404 Not Found
+
+
+http://c.reddit.com:80

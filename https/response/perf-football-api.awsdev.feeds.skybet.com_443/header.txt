@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: perf-football-api.awsdev.feeds.skybet.com
+User-Agent: Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:27 GMT
+X-Amz-Apigw-Id: OCnXLFhRDoEEX0Q=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 49b65062-d580-4bbc-ac0a-6b14bc2ffc86
+
+{"message":"Missing Authentication Token"}
+
+
+https://perf-football-api.awsdev.feeds.skybet.com:443

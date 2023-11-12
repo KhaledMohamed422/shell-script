@@ -1,0 +1,817 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+<meta http-equiv="Expires" CONTENT="0" />
+<meta http-equiv="Cache-Control" CONTENT="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="applicable-device" content="pc,mobile">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<!-- Aplus Configuration -->
+
+<meta name="data-spm" content="du-np-pc">
+<meta name="aplus-rhost-v" content="sg.mmstat.com">
+<meta name="aplus-rhost-g" content="sg.mmstat.com">
+<meta name="ahot-aplus" content="1">
+<meta name="aplus-rate-ahot" content="1">
+
+
+
+<meta name='aplus-auto-exp-visible' content='0.8'>
+<meta name="aplus-auto-exp" content='[{"logkey":"/lzdseller.aplus-auto.exp","cssSelector":".aplus-auto-exp","props":["href","data-itemid","data-orderid","data-skuid","data-more"]},{"logkey":"/lzdseller.aplus-module-auto.exp","cssSelector":".aplus-module-auto-exp","props":["href","data-itemid","data-orderid","data-skuid","data-more"],"eltype":"spmc"}]' />
+<meta name="aplus-auto-clk" content='[{"logkey":"/lzdseller.aplus-auto.clk","cssSelector":".aplus-auto-clk","props":["href","data-itemid","data-orderid","data-skuid","data-more"]}]' />
+
+
+
+<!--[START] 加载 walk-through -->
+
+<meta name="wt-auto" content="1">
+<meta name="wt-biz" content="Daraz">
+<meta name="wt-code" content="efe1891f122c2d4d648b6a1e7f9df195">
+<meta name="wt-country" content="NP">
+<meta name="wt-lang" content="en">
+<meta name="wt-platform" content="1">
+<meta name="wt-extra"
+    content='{"whiteListId":"","isNewSeller":false,"firstPendingOrder":false,"firstReturnOrder":false}'>
+<!--[END] 加载 walk-through -->
+
+
+    
+<link rel="dns-prefetch" href="//g.alicdn.com">
+<link rel="dns-prefetch" href="//assets.alicdn.com">
+
+
+<link rel="icon" type="image/png" href="https://img.alicdn.com/imgextra/i1/O1CN011P0pWB22EoWXu9jsC_!!6000000007089-2-tps-453-711.png" sizes="64x64">
+
+<!-- mobile很多组件用的next, 都需要这个样式 -->
+
+
+<!--AE跨境站定制-->
+
+<link rel="canonical" href="https://learning.aliexpress.com">
+
+
+<style>
+  /* No reason for the the visibility hidden ?? */
+  /*.dada-view-container { visibility: hidden; }*/
+  .next-table td .next-table-cell-wrapper {
+    word-break: normal !important;
+  }
+
+  /* temp hide play-time of the course-card */
+  .course-card .play-time {
+    display: none;
+  }
+
+  /* make support center search button inner */
+  .clazzName-search-input-wrap .clazzName-icon-wrap .next-btn {
+    line-height: 26px;
+    height: 26px;
+  }
+
+  /* change rbc-event style */
+  .rbc-overlay .rbc-event {
+    color: #333 !important;
+  }
+
+  /* temp fix video play style */
+  .gu-layout-mobile .videoCoverForDetail .course-banner {
+    position: relative;
+  }
+
+  /* new design detial page
+   du-np-pc-course
+   du-lk-pc-course
+   du-bd-pc-course
+   du-pk-pc-course
+   */
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-slider > .title,
+  body[data-spm="du-np-pc-course"] .CourseIntro > span.label-top,
+  body[data-spm="du-np-pc-course"] .clazzName-review-card.daraz .label-top,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-slider > .title,
+  body[data-spm="du-lk-pc-course"] .CourseIntro > span.label-top,
+  body[data-spm="du-lk-pc-course"] .clazzName-review-card.daraz .label-top,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-slider > .title,
+  body[data-spm="du-bd-pc-course"] .CourseIntro > span.label-top,
+  body[data-spm="du-bd-pc-course"] .clazzName-review-card.daraz .label-top,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-slider > .title,
+  body[data-spm="du-pk-pc-course"] .CourseIntro > span.label-top,
+  body[data-spm="du-pk-pc-course"] .clazzName-review-card.daraz .label-top {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    padding-bottom: 20px !important;
+    color: rgba(0, 0, 0, 0.90) !important;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-slider.page-body,
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-slider .content,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-slider.page-body,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-slider .content,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-slider.page-body,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-slider .content,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-slider.page-body,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-slider .content {
+    max-width: 313px;
+    width: 100%;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .logo>.sketch.radius,
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-card .logo>.sketch .bg,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .logo>.sketch.radius,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card .logo>.sketch .bg,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .logo>.sketch.radius,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card .logo>.sketch .bg,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .logo>.sketch.radius,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card .logo>.sketch .bg{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  body[data-spm="du-np-pc-course"] .review-card .review-card-header,
+  body[data-spm="du-lk-pc-course"] .review-card .review-card-header,
+  body[data-spm="du-bd-pc-course"] .review-card .review-card-header,
+  body[data-spm="du-pk-pc-course"] .review-card .review-card-header{
+    display: none;
+  }
+
+  body[data-spm="du-np-pc-course"] .review-list .review-list-item:first-child,
+  body[data-spm="du-lk-pc-course"] .review-list .review-list-item:first-child,
+  body[data-spm="du-bd-pc-course"] .review-list .review-list-item:first-child,
+  body[data-spm="du-pk-pc-course"] .review-list .review-list-item:first-child{
+    border: none;
+  }
+
+  body[data-spm="du-np-pc-courseurse"] .clazzName-recommend-cards .course-card.medium .title,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card.medium .title,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card.medium .title,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card.medium .title {
+    font-size: 16px !important;
+    color: rgba(0, 0, 0, 0.90) !important;
+    padding: 0 10px;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-card.medium,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card.medium,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card.medium,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card.medium {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 0px;
+    width: 100%;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-card .logo,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card .logo,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card .logo,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card .logo{
+    display: block;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-card .rating-star .count,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card .rating-star .count,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card .rating-star .count,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card .rating-star .count{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .course-card .summary,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .course-card .summary,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .course-card .summary,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .course-card .summary {
+    padding: 0 10px;
+  }
+
+  body[data-spm="du-np-pc-course"] .clazzName-recommend-cards .rating-star,
+  body[data-spm="du-lk-pc-course"] .clazzName-recommend-cards .rating-star,
+  body[data-spm="du-bd-pc-course"] .clazzName-recommend-cards .rating-star,
+  body[data-spm="du-pk-pc-course"] .clazzName-recommend-cards .rating-star {
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+
+  body[data-spm="du-np-pc-course"] .topic-board .title,
+  body[data-spm="du-lk-pc-course"] .topic-board .title,
+  body[data-spm="du-bd-pc-course"] .topic-board .title,
+  body[data-spm="du-pk-pc-course"] .topic-board .title {
+    color: #40003A;
+  }
+
+  body[data-spm="du-np-pc-course"] .um-breadcrumb .item:last-child a,
+  body[data-spm="du-lk-pc-course"] .um-breadcrumb .item:last-child a,
+  body[data-spm="du-bd-pc-course"] .um-breadcrumb .item:last-child a,
+  body[data-spm="du-pk-pc-course"] .um-breadcrumb .item:last-child a{
+    color: #40003A !important;
+  }
+
+  body[data-spm="du-np-pc-course"] .topic-board .des,
+  body[data-spm="du-lk-pc-course"] .topic-board .des,
+  body[data-spm="du-bd-pc-course"] .topic-board .des,
+  body[data-spm="du-pk-pc-course"] .topic-board .des {
+    color: #000;
+    max-height: 145px;
+    overflow: hidden;
+  }
+
+  body[data-spm="du-np-pc-course"] .dada-main-page>.ui-item.start-course-btn,
+  body[data-spm="du-lk-pc-course"] .dada-main-page>.ui-item.start-course-btn,
+  body[data-spm="du-bd-pc-course"] .dada-main-page>.ui-item.start-course-btn,
+  body[data-spm="du-pk-pc-course"] .dada-main-page>.ui-item.start-course-btn {
+    position: relative;
+    bottom: 160px;
+    width: 100%;
+    max-width: 1195px;
+    right: 0;
+  }
+
+  body[data-spm="du-np-pc-list"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-np-pc-personalized"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-np-pc-course"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-lk-pc-list"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-lk-pc-personalized"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-lk-pc-course"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-bd-pc-list"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-bd-pc-personalized"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-bd-pc-course"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-pk-pc-list"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-pk-pc-personalized"] .clazzName-detail-topicbanner .topic-board.bg,
+  body[data-spm="du-pk-pc-course"] .clazzName-detail-topicbanner .topic-board.bg {
+    background-position: center center !important;
+  }
+
+  body[data-spm="du-np-pc-course"] .next-btn.next-btn-primary.start-course-btn,
+  body[data-spm="du-lk-pc-course"] .next-btn.next-btn-primary.start-course-btn,
+  body[data-spm="du-bd-pc-course"] .next-btn.next-btn-primary.start-course-btn,
+  body[data-spm="du-pk-pc-course"] .next-btn.next-btn-primary.start-course-btn {
+    background: #40003A;
+    font-size: 14px !important;
+  }
+
+  /* new design learn page*/
+  body[data-spm="du-np-pc-module"] .clazzName-course-intro,
+  body[data-spm="du-np-pc-module"] .clazzName-page-right .dada-common-container,
+  body[data-spm="du-lk-pc-module"] .clazzName-course-intro,
+  body[data-spm="du-lk-pc-module"] .clazzName-page-right .dada-common-container,
+  body[data-spm="du-bd-pc-module"] .clazzName-course-intro,
+  body[data-spm="du-bd-pc-module"] .clazzName-page-right .dada-common-container,
+  body[data-spm="du-pk-pc-module"] .clazzName-course-intro,
+  body[data-spm="du-pk-pc-module"] .clazzName-page-right .dada-common-container {
+    background: transparent;
+  }
+
+  /*body[data-spm="du-np-pc-module"] .clazzName-page-right,*/
+  /*body[data-spm="du-lk-pc-module"] .clazzName-page-right,*/
+  /*body[data-spm="du-bd-pc-module"] .clazzName-page-right,*/
+  body[data-spm*="pc-module"] .daraz-page .clazzName-page-right {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px 20px 0;
+    border-radius: 5px;
+    width: 800px;
+  }
+
+  /*body[data-spm="du-np-pc-module"] .clazzName-page-left,*/
+  /*body[data-spm="du-lk-pc-module"] .clazzName-page-left,*/
+  /*body[data-spm="du-bd-pc-module"] .clazzName-page-left,*/
+  body[data-spm*="pc-module"] .daraz-page .clazzName-page-left {
+    width: 350px;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+
+  /*body[data-spm="du-np-pc-module"] .clazzName-page-left .parent-courseModuleList,*/
+  /*body[data-spm="du-lk-pc-module"] .clazzName-page-left .parent-courseModuleList,*/
+  /*body[data-spm="du-bd-pc-module"] .clazzName-page-left .parent-courseModuleList,*/
+  body[data-spm="du-pk-pc-module"] .daraz-page .clazzName-page-left .parent-courseModuleList {
+    background: #fff;
+    padding: 20px !important;
+    border-radius: 5px;
+  }
+
+  body[data-spm="du-np-pc-module"] button.next-btn.next-medium.next-btn-primary.second-btn.primary-btn.medium.th-ff1.th-fs7.reload-none.dada-btn,
+  body[data-spm="du-lk-pc-module"] button.next-btn.next-medium.next-btn-primary.second-btn.primary-btn.medium.th-ff1.th-fs7.reload-none.dada-btn,
+  body[data-spm="du-bd-pc-module"] button.next-btn.next-medium.next-btn-primary.second-btn.primary-btn.medium.th-ff1.th-fs7.reload-none.dada-btn,
+  body[data-spm="du-pk-pc-module"] button.next-btn.next-medium.next-btn-primary.second-btn.primary-btn.medium.th-ff1.th-fs7.reload-none.dada-btn {
+    background: #40003a;
+    font-size: 18px !important;
+    border-radius: 5px;
+  }
+
+  body[data-spm="du-np-pc-module"] .page-body.reload-none.topcontainer,
+  body[data-spm="du-lk-pc-module"] .page-body.reload-none.topcontainer,
+  body[data-spm="du-bd-pc-module"] .page-body.reload-none.topcontainer,
+  body[data-spm="du-pk-pc-module"] .page-body.reload-none.topcontainer{
+    padding-bottom: 60px;
+  }
+
+  body[data-spm="du-np-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(2),
+  body[data-spm="du-lk-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(2),
+  body[data-spm="du-bd-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(2),
+  body[data-spm="du-pk-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(2) {
+    justify-content: center;
+  }
+
+  /*body[data-spm="du-np-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(3),*/
+  /*body[data-spm="du-lk-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(3),*/
+  /*body[data-spm="du-bd-pc-module"] .page-body.reload-none.topcontainer .flex-child:nth-child(3),*/
+  body[data-spm*="pc-module"] .daraz-page .page-body.reload-none.topcontainer .flex-child:nth-child(3) {
+    display: block !important;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+
+  body[data-spm="du-np-pc-module"] .clazzName-logo-container img,
+  body[data-spm="du-np-pc-module"] .clazzName-logo-container,
+  body[data-spm="du-lk-pc-module"] .clazzName-logo-container img,
+  body[data-spm="du-lk-pc-module"] .clazzName-logo-container,
+  body[data-spm="du-bd-pc-module"] .clazzName-logo-container img,
+  body[data-spm="du-bd-pc-module"] .clazzName-logo-container,
+  body[data-spm="du-pk-pc-module"] .clazzName-logo-container img,
+  body[data-spm="du-pk-pc-module"] .clazzName-logo-container {
+    width: 100%;
+    height: auto;
+  }
+
+  body[data-spm="du-np-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-lk-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-bd-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-pk-pc-module"] span.label-top.label.overflow-lines-3 {
+    font-size: 22px;
+    line-height: 1.3 !important;
+    font-weight: bold;
+    color: #000;
+  }
+
+  body[data-spm="du-np-pc-module"] .course-module-list,
+  body[data-spm="du-lk-pc-module"] .course-module-list,
+  body[data-spm="du-bd-pc-module"] .course-module-list,
+  body[data-spm="du-pk-pc-module"] .course-module-list {
+    width: 100%;
+  }
+
+  body[data-spm="du-np-pc-course"] .course-module-list .index,
+  body[data-spm="du-np-pc-module"] .course-module-list .index,
+  body[data-spm="du-lk-pc-course"] .course-module-list .index,
+  body[data-spm="du-lk-pc-module"] .course-module-list .index,
+  body[data-spm="du-bd-pc-course"] .course-module-list .index,
+  body[data-spm="du-bd-pc-module"] .course-module-list .index,
+  body[data-spm="du-pk-pc-course"] .course-module-list .index,
+  body[data-spm="du-pk-pc-module"] .course-module-list .index {
+    border: none;
+  }
+
+  body[data-spm="du-np-pc-module"] .CourseModuleList,
+  body[data-spm="du-lk-pc-module"] .CourseModuleList,
+  body[data-spm="du-bd-pc-module"] .CourseModuleList,
+  body[data-spm="du-pk-pc-module"] .CourseModuleList {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+  }
+
+  body[data-spm="du-np-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-lk-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-bd-pc-module"] span.label-top.label.overflow-lines-3,
+  body[data-spm="du-pk-pc-module"] span.label-top.label.overflow-lines-3 {
+    font-size: 22px;
+    line-height: 1.3 !important;
+    font-weight: bold;
+    color: #000;
+  }
+
+  body[data-spm="du-np-pc-module"] .course-module-list .item.section .name,
+  body[data-spm="du-lk-pc-module"] .course-module-list .item.section .name,
+  body[data-spm="du-bd-pc-module"] .course-module-list .item.section .name,
+  body[data-spm="du-pk-pc-module"] .course-module-list .item.section .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  body[data-spm="du-np-pc-module"] .course-module-list .item,
+  body[data-spm="du-lk-pc-module"] .course-module-list .item,
+  body[data-spm="du-bd-pc-module"] .course-module-list .item,
+  body[data-spm="du-pk-pc-module"] .course-module-list .item {
+    height: 40px;
+  }
+
+  body[data-spm="du-np-pc-module"], body[data-spm="du-np-pc-module"] .dada-view-container,
+  body[data-spm="du-lk-pc-module"], body[data-spm="du-lk-pc-module"] .dada-view-container,
+  body[data-spm="du-bd-pc-module"], body[data-spm="du-bd-pc-module"] .dada-view-container,
+  body[data-spm="du-pk-pc-module"], body[data-spm="du-pk-pc-module"] .dada-view-container {
+    background: #F5F5F5;
+  }
+
+  body[data-spm="du-np-pc-module"] .resource-course-module-card,
+  body[data-spm="du-lk-pc-module"] .resource-course-module-card,
+  body[data-spm="du-bd-pc-module"] .resource-course-module-card,
+  body[data-spm="du-pk-pc-module"] .resource-course-module-card {
+    border-radius: 10px;
+    position: static;
+    width: 100% !important;
+    max-width: 1000px;
+    padding: 20px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  /*body[data-spm="du-np-pc-module"] .video-wrap,*/
+  /*body[data-spm="du-lk-pc-module"] .video-wrap,*/
+  /*body[data-spm="du-bd-pc-module"] .video-wrap,*/
+  body[data-spm*="pc-module"] .daraz-page .video-wrap {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y: scroll;
+  }
+
+  body[data-spm="du-np-pc-module"] .course-module-list .full-bar,
+  body[data-spm="du-lk-pc-module"] .course-module-list .full-bar,
+  body[data-spm="du-bd-pc-module"] .course-module-list .full-bar,
+  body[data-spm="du-pk-pc-module"] .course-module-list .full-bar{
+    padding: 0;
+  }
+
+  a.image-card + a.image-card img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .resource-course-module-card .description p {
+    font-size: 14px;
+  }
+
+  .resource-course-module-card .H5PdfReader{
+    height: 500px;
+  }
+
+
+
+  .daraz-resource-course-module-card .description {
+    font-family: 'Roboto';
+  }
+
+  .daraz-resource-course-module-card .description ol {
+   list-style: revert !important; 
+    margin: auto;
+    padding: revert;
+  }
+
+
+  .daraz-resource-course-module-card .description ul {
+   list-style: revert !important; 
+    margin: auto;
+    padding: revert;
+  }
+  .daraz-resource-course-module-card .H5PdfReader{
+    height: 500px;
+  }
+
+
+  /*--For MM --*/
+  body[data-spm="du-mm-pc-module"] .course-slider>.title,
+  body[data-spm="du-mm-pc-course"] .course-slider>.title {
+    text-align: left;
+  }
+
+  body[data-spm="du-mm-pc-module"] .course-module-list .index,
+  body[data-spm="du-mm-pc-course"] .course-module-list .index{
+    border: none;
+  }
+
+  body[data-spm="du-mm-pc-module"] .topic-board .title,
+  body[data-spm="du-mm-pc-course"] .topic-board .title,
+  body[data-spm="du-mm-pc-list"] .topic-board .title,
+  body[data-spm="du-mm-pc-personalized"] .topic-board .title {
+    text-align: left;
+    color: inherit;
+  }
+
+  /*--end--*/
+
+  .gu-layout-mobile .videoCoverForDetail .course-banner .play-icon {
+    cursor: pointer;
+    position: absolute;
+    width: 14vw;
+    height: 14vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  /* temp style fix */
+  .clazzName-related-course > .label-top {
+    line-height: 30px !important;
+  }
+
+  .clazzName-course-resource > .label-top {
+    font-size: 28px !important;
+  }
+
+  .clazzName-review-card > .label-top {
+    font-size: 28px !important;
+  }
+
+  /* fix ae */
+  .next-dialog.home-videoplay-dialog .next-dialog-body,
+  .next-dialog.clazzName-home-videoplay-dialog .next-dialog-body {
+    padding: 0 !important;
+  }
+
+  .course-card.large .logo > .sketch {
+    position: relative !important;
+  }
+</style>
+
+
+  </head>
+  <body data-spm ="du-np-pc-home"><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=21010c9a16994397645407105e318e&asid=AQAAAACUZEtlPqjTKwAAAAD/+1m+ojBLWg==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+      <script>
+    (function (d) {
+        var t = d.createElement("script"); t.type = "text/javascript"; t.id = "beacon-aplus"; t.src = "//assets.alicdn.com/g/alilog/mlog/aplus_int.js";
+        var custom_info = "&_p_venture=MY";
+        var aplus_seller_id = "&_p_slr=&ascSellerId=";
+        t.setAttribute("exparams", "clog=o&aplus&sidx=aplusSidx&ckx=aplusCkx" + custom_info + aplus_seller_id); t.async = true; t.defer = true;
+        with (document) with (head) with (appendChild(t));
+    })(document);
+</script>
+      
+<script>
+    window.olympicsProtalModel = {
+        "fetchUrl": "/api/nav/read",
+        "expandLogo": "https://img.alicdn.com/tfs/TB1iqKHeUT1gK0jSZFhXXaAtVXa-728-158.png",
+        "shortLogo": "https://img.alicdn.com/tfs/TB1iqKHeUT1gK0jSZFhXXaAtVXa-728-158.png",
+    };
+</script>
+<script>
+    window.dadaConfig = {"hfType":"none","env":"live","coreVersion":"0.3.57","dashboardVersion":"0.1.0","landingPageVersion":"0.1.89","mcmsHotload":true,"mcmsVersion":"0.0.7"}
+    // handle pwa language change to force update html
+    window.__locale__ = "en_US"
+</script>
+<div id=root></div>
+
+<script>
+    !(function(c,b,d,a){c[a]||(c[a]={});c[a].config={sample:10, uid:"",pid:"giiryrcz16@1ba6d08ea9dc412",appType:"web",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?",sendResource:true,enableLinkTrace:true,behavior:true};
+    with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+    })(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+</script>
+<script type="text/javascript">
+  window.env = 'prod'
+</script>
+
+<!--[START] 加载 walk-through -->
+
+<script src="//g.alicdn.com/intl-dada/global-walk-through/wtLoader.js"></script>
+
+<!--[END] 加载 walk-through -->
+<script type="text/javascript">
+    window.csrfToken = {"tokenName":"X-XSRF-TOKEN","tokenValue":"2czpDwB0-XVGiWIEjvKDhCGDBF0214rjJClw"};
+</script>
+
+<script type="text/javascript">
+    window.lzdCommonData = {"success":true,"modules":[{"type":"CommonContainer","clazzName":"anounce-banner page-body","elements":[{"uiType":"IconGroup","name":"anounce-banner-bg","clazzName":"anounce-banner-bg common-bg","hotload":true,"request":{"url":"/api/banner/read","data":{"dataType":"options","moduleCode":"32"}},"options":[{"icon":"https://img-ovs.alicdn.com/other//common/498f09e3d8054db7a0f647100d56978b.png"}]},{"type":"CommonContainer","clazzName":"anounce-banner-text bg-content page-body","elements":[{"uiType":"Button","clazzName":"anounce-btn1 primary-btn small th-ff1 th-fs5","type":"primary","text":"Login","href":"https://sellercenter.daraz.com.np/seller/login?redirect_url=https%3A%2F%2Fwww.university.daraz.com.np%2FpersonalRecommend"},{"uiType":"Button","clazzName":"anounce-btn2 primary-btn small th-ff1 th-fs5","type":"primary","text":"Register","href":"https://sellercenter.daraz.com.np/seller/register/registration_open?spm=a2o7e.10547926.old-navigation.3.1f3d2a97RNWp4I"}]}]},{"type":"CommonContainer","clazzName":"third-container page-body","elements":[{"type":"NormalContainer","clazzName":"left-part","elements":[{"uiType":"Text","className":"title th-fs7 th-ff1","clazzName":"title th-fs7 th-ff1","content":"Seller Success Stories"},{"uiType":"Text","className":"des th-fs6 th-ff0","clazzName":"des th-fs6 th-ff0","content":"View these incredible stories of how Daraz<br> can fulfill your business wishes"},{"uiType":"Button","className":"viewBtn","clazzName":"viewBtn primary-btn big th-ff1 th-fs5","type":"primary","text":"View More Stories","href":"/sellerStories"}]},{"uiType":"CourseVideoCard","name":"videoCard","clazzName":"videocard","height":"365px","hotload":true,"request":{"url":"/api/video/getVideoDetail","data":{"moduleCode":"39"}},"autoplay":false}]},{"type":"CommonContainer","clazzName":"fifth-container page-body","elements":[{"uiType":"IconGroup","hotload":true,"request":{"url":"/api/banner/read","data":{"dataType":"options","moduleCode":"34"}},"options":[{"icon":"https://img-ovs.alicdn.com/other//common/1c0bdc46e74048a3a3e3e98bd9bd436a.png"}]}]},{"type":"CommonContainer","clazzName":"help-banner","elements":[{"uiType":"IconGroup","name":"help-banner-bg","clazzName":"help-banner-bg common-bg","hotload":true,"request":{"url":"/api/banner/read","data":{"dataType":"options","moduleCode":"35"}},"options":[{"icon":"https://img-ovs.alicdn.com/other//common/396c268101464bfd9b85efb6861f68dc.png"}]},{"type":"CommonContainer","clazzName":"help-banner-text bg-content page-body","elements":[{"uiType":"Text","clazzName":"register-text th-fs6","content":"If you are already a registered seller<br>\n                  then login now or register to start your<br>\n                  selling journey at Daraz "},{"uiType":"Button","clazzName":"anounce-btn1 primary-btn small th-ff1 th-fs5","type":"primary","text":"Login","href":"https://sellercenter.daraz.com.np/seller/login?redirect_url=https%3A%2F%2Fwww.university.daraz.com.np%2FpersonalRecommend"},{"uiType":"Button","clazzName":"anounce-btn2 primary-btn small th-ff1 th-fs5","type":"primary","text":"Register","href":"https://sellercenter.daraz.com.np/seller/register/registration_open?spm=a2o7e.10547926.old-navigation.3.1f3d2a97RNWp4I"}]}]},{"type":"CommonContainer","clazzName":"last-container page-body","elements":[{"uiType":"Text","clazzName":"th-ff0 th-fs6","content":"Need More Help?"},{"uiType":"Button","clazzName":"primary-btn big th-ff1 th-fs5","type":"primary","text":"Contact Us","href":"https://xform.daraz.com.np/form/show.do?spm=a2a0e.trainings.0.0.33d065c3uHUGcq&file=show.do"}]},{"uiType":"Modal","name":"loginModal","className":"login-modal","clazzName":"login-modal","closable":true,"popup":false,"maskClosable":true,"title":"","visible":false,"style":{"width":"1040px","height":"447px"},"elements":[{"uiType":"IconGroup","clazzName":"left-part","options":[{"icon":"https://img.alicdn.com/tfs/TB1n_LjqYj1gK0jSZFOXXc7GpXa-428-447.png"}]},{"type":"CommonContainer","clazzName":"right-part","elements":[{"uiType":"Text","className":"login-title th-ff1","clazzName":"login-title th-ff1","content":"Login Required"},{"uiType":"Text","className":"login-tip th-ff0","clazzName":"login-tip th-ff0","content":"You need to login with your Seller Center credentials to view this page."},{"type":"InlineContainer","elements":[{"uiType":"Button","text":"Register","clazzName":"th-bt-main th-ff1","href":"https://sellercenter.daraz.com.np/seller/register/registration_open?spm=a2o7e.10547926.old-navigation.3.1f3d2a97RNWp4I","size":"large","type":"primary"},{"uiType":"Button","clazzName":"th-bt-main th-ff1","text":"Login","name":"modalLoginBtn","href":"https://sellercenter.daraz.com.np/seller/login?redirect_url=","size":"large","type":"secondary"}]}]}]},{"uiType":"Input","visible":false,"searchValue":"___default___","name":"universityNavigator"}],"pageType":"form-page","biz":"lazada","version":"1.1","pageId":"university-landingPagePAHome-index","hfType":"gudrz","theme":"lsc","plugins":[{"type":"watchReaction","scripts":{"expression":"store.elementDataObj.loginModal.visible","effect":"/* set loginModal btn href */;if(store.elementDataObj.loginModal.visible) { elementDataObj.modalLoginBtn.href =  elementDataObj.modalLoginBtn.href+(window.sessionStorage.getItem('redirectUrl')?(window.sessionStorage.getItem('redirectUrl')):'');  }"}},{"type":"watchReaction","scripts":[{"expression":"elementDataObj.topicBoard && elementDataObj.topicBoard.title","effect":"/* set document.title */;if(elementDataObj.topicBoard && elementDataObj.topicBoard.title) { document.title=elementDataObj.topicBoard.title; }"},{"expression":"true","effect":"if(window.GULayoutEvent){window.GULayoutEvent.on('SEARCH',({action, query})=>{if(action){elementDataObj.universityNavigator.searchValue=query;store.runAction(action)}})}"}]}],"device":"PC,MOBILE","dadaConfig":{"isLoadInsideComponent":true,"componentMap":{"*":{"urls":["//g.alicdn.com/intl-dada/university-component/1.0.48/index.js","//g.alicdn.com/intl-dada/university-component/1.0.48/index.css"]}},"componentVersion":"0.3.39","formVersion":"0.2.51","coreVersion":"0.3.57","themeVersion":"0.0.3","themeName":"dada-theme-gu-daraz","env":"live","searchVersion":"0.2.3","mobileComponentVersion":"0.1.21","mobileFormVersion":"0.2.13","mobileSearchVersion":"0.2.3"},"mobileDadaConfig":{"isLoadInsideComponent":true,"componentMap":{"*":{"urls":["//g.alicdn.com/intl-dada/university-component/1.0.42/mobile.js","//g.alicdn.com/intl-dada/university-component/1.0.42/mobile.css"]}},"mobileComponentVersion":"0.1.21","mobileFormVersion":"0.2.13","coreVersion":"0.3.57","themeVersion":"0.0.3","themeName":"dada-theme-gu-daraz","env":"live","componentVersion":"0.3.39","formVersion":"0.2.51","searchVersion":"0.2.3","mobileSearchVersion":"0.2.3"}};
+</script>
+
+
+
+      
+
+<script
+  crossorigin="anonymous"
+  src="//assets.alicdn.com/g/??lazada/static/0.0.5/react-full-16-8.js,/lazada/static/0.0.5/moment/moment-with-locales.min.js,next/next/1.13.9/next.min.js"
+></script>
+
+
+
+<!-- Facebook Pixel Code -->
+<script nonce="xRhNn1wj">
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '191969627677889');
+  fbq('track', "PageView");
+  fbq('track', "NewSellerTrainingPageView");
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=191969627677889&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<script>
+  var isSchemaResolver = !!window.lzdCommonData.loader;
+  window.lzdCommonData.micro = false;
+  if (isSchemaResolver) {
+    with (document) with (body) with (insertBefore(createElement("script"), firstChild)) setAttribute(id = "dada-loader", crossOrigin = "anonymous", src = "//g.alicdn.com/code/npm/@alife/schema-resolver/" + '1.2.6' + "/??index.js,plugins/layout-loader.js,plugins/i18n-loader.js,plugins/walk-through-loader.js,plugins/aplus-loader.js,plugins/micro-loader.js,plugins/dada-loader.js,plugins/source-code-loader.js,plugins/arms-loader.js"), (onload = function () {
+      window['$\$SchemaResolverInstance'] = window.SchemaResolver.render(
+        window.lzdCommonData, {
+        container: "#root",
+        host: 'g.alicdn.com',
+        layoutVersion: {PC: '1.0.86', MOBILE: '1.0.86'}
+      });
+    });
+  } else {
+    with (document)
+      with (body)
+        with (insertBefore(createElement("script"), firstChild))
+          setAttribute(
+            (id = "tmpl-loader"),
+            (crossOrigin = "anonymous"),
+            (src =
+              "//g.alicdn.com/intl-dada/dada-core/0.3.57/cdn-tmpl-loader.js")
+          );
+  }
+
+</script>
+
+<script>
+  window.sessionInfo = {"loginUrl":"https://sellercenter.daraz.com.np/seller/login?redirect_url=","registerUrl":"https://sellercenter.daraz.com.np/seller/register/registration_open?spm=a2o7e.10547926.old-navigation.3.1f3d2a97RNWp4I","biz":"daraz","isDarazShop":false,"isMobileAll":false,"themeName":"daraz","site":"np"};
+  window.startTime = +new Date();
+  window.GULayoutModel = {
+    request: {
+      url: "/api/nav/read",
+      params: {
+        isHomeLandingPage: true,
+        biz: "daraz"
+      }
+    }
+  }
+</script>
+
+<script>
+  window.setInterval(function () {
+    var iframe = document.querySelectorAll("iframe[querytag=static]")[0];
+    if (iframe) {
+      const currentHeight = iframe.contentDocument.body.scrollHeight;
+      if (currentHeight >= 1000) {
+        iframe.style.height = iframe.contentDocument.body.scrollHeight + "px";
+      }
+    }
+  }, 2000);
+</script>
+
+<script>
+  try {
+    // 合并协议配置到全局配置
+    window.dadaConfig = Object.assign({}, window.dadaConfig, window.lzdCommonData.dadaConfig);
+  } catch (ex) {
+    console.log(ex.message)
+  }
+  window.addEventListener(
+    "message",
+    function (event) {
+      const whitelist = [
+        "https://university.lazada.sg",
+        "https://university.lazada.vn",
+        "https://university.lazada.co.id",
+        "https://university.lazada.co.th",
+        "https://university.lazada.com.ph",
+        "https://university.lazada.com.my",
+        "https://university.lazada.com",
+
+        "https://education-staging.lazada.sg",
+        "https://education-staging.lazada.vn",
+        "https://education-staging.lazada.co.id",
+        "https://education-staging.lazada.co.th",
+        "https://education-staging.lazada.com.ph",
+        "https://education-staging.lazada.com.my",
+        "https://education-staging.lazada.com",
+
+        "https://education.aliexpress.com",
+        "https://learning.fr.aliexpress.com",
+        "https://learning.aliexpress.com",
+        "https://learning.es.aliexpress.com",
+        "https://learning.it.aliexpress.com",
+        "https://university.es.aliexpress.com",
+        "https://university.ru.aliexpress.com",
+        "https://university.tr.aliexpress.com",
+        "https://university.it.aliexpress.com",
+
+        "https://seller.university.daraz.pk",
+        "https://seller.university-stage.daraz.pk",
+
+        "https://seller.university.daraz.com.bd",
+        "https://seller.university-stage.daraz.com.bd",
+
+        "https://seller.university.daraz.lk",
+        "https://seller.university-stage.daraz.lk",
+
+        "https://seller.university.daraz.com.np",
+        "https://seller.university-stage.daraz.com.np",
+
+        "https://seller.university.shop.com.mm",
+        "https://seller.university-stage.shop.com.mm",
+
+        "https://du.university.daraz.pk",
+        "https://du.university.daraz.com.np",
+        "https://du.university.daraz.com.bd",
+        "https://du.university.daraz.lk",
+        "https://du.university.shop.com.mm",
+
+        "https://university-stage.daraz.pk",
+        "https://university.daraz.pk",
+        "https://university-stage.daraz.com.bd",
+        "https://university.daraz.com.bd",
+        "https://university-stage.daraz.lk",
+        "https://university.daraz.lk",
+        "https://university-stage.daraz.com.np",
+        "https://university.daraz.com.np",
+        "https://university-stage.shop.com.mm",
+        "https://university.shop.com.mm",
+        "https://daraz-pk.onlinesales.ai",
+        "https://daraz-bd.onlinesales.ai",
+        "https://daraz-lk.onlinesales.ai",
+        "https://daraz-np.onlinesales.ai",
+        "https://daraz-mm.onlinesales.ai"
+      ];
+      if (whitelist.includes(event.origin)) {
+        var iframe = document.getElementsByTagName("iframe")[0];
+        if (
+          typeof event.data !== "undefined" &&
+          typeof event.data.height !== "undefined" &&
+          Number.isInteger(event.data.height)
+        ) {
+          iframe.style.setProperty(
+            "height",
+            (event.data.height + 150) + "px",
+            "important"
+          );
+        }
+
+        // This part allows undefined height URL module to be defined within the URL itself,
+        // Attempted to fix in controller/pages/course/learn.js, iframe component wont apply height...
+        // @todo: /!\ this hotfix should be refactored, too hacky.
+        // Example of url: https://webapp.yourprimer.com/v1?config=LAZ4ED01-lazadasellmore1-th&height=800
+        if (typeof event.data !== "undefined" && event.data.height === undefined && event.data.payload !== undefined) {
+          const url = event.data.payload.src;
+          if (url) {
+            const height = (url.match(/height=([^&;]+)/) || [])[1] || 1800;
+            if(height) {
+              iframe.style.setProperty(
+                "height",
+                height + "px",
+                "important"
+              );
+            }
+
+          }
+
+        }
+      }
+    },
+    false
+  );
+</script>
+
+<script>
+  try {
+    window.AES_CONFIG = window.AES_CONFIG || {};
+    AES_CONFIG.pid = '' || 'ae_university';
+    AES_CONFIG.user_type = '' || '13';
+    AES_CONFIG.uid = '';
+    AES_CONFIG.username = '';
+    window.dada_host = 'g.alicdn.com';
+    window.dada_logVersion = '' || "0.0.26";
+    var script = document.createElement('script');
+    script.async=true;
+    script.defer=true;
+    script.setAttribute('src', "//" + window.dada_host + '/intl-dada/dada-log/' + window.dada_logVersion + '/index.js');
+    document.body.appendChild(script);
+  }catch(e) {}
+</script>
+
+<script>
+  try {
+    window.pwaConfig = {};
+    window.pwaConfig.sellerId = "";
+  }catch(e) {}
+</script>
+
+
+
+  </body>
+</html>
+
+0
+
+
+
+
+https://www.university.daraz.com.np:443

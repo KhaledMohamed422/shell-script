@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: core-westeurope-release-a.citrixworkspacesapi.net
+User-Agent: Wget/1.9.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:46:05 GMT
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+http://core-westeurope-release-a.citrixworkspacesapi.net:80

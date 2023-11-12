@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neptune</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="SA Dev Team">
+
+    <!-- Google Oauth-->
+    <!--meta name="google-signin-client_id" content="878506138474-mmki0e9djeqsn1vfr17dh64qdjntn8k0.apps.googleusercontent.com"-->
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="/static/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/vendor/devicons/css/devicons.min.css " rel="stylesheet">
+    <link href="/static/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/resume.min.css" rel="stylesheet">
+    <link href="/static/css/neptune.css" rel="stylesheet">
+    <link href="/static/vendor/jquery-confirm/jquery-confirm.min.css" rel="stylesheet">
+    <link href="/static/vendor/jquery-dataTables/dataTables.bootstrap4.min.css" rel="stylesheet">
+</head>
+<body id="page-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Neptune</span>
+        <span class="d-none d-lg-block">
+          <img id="profile-img" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/img/neptune.jpeg" alt="">
+        </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#instruction">Instruction</a>
+            </li>
+            <li class="nav-item" style="display: none" id="qr-nav">
+                <a class="nav-link js-scroll-trigger" href="#my-qrcode">My QR Code</a>
+            </li>
+            <li class="nav-item" style="display: none" id="history-nav">
+                <a class="nav-link js-scroll-trigger" href="#history">History</a>
+            </li>
+            <li class="nav-item" style="display: none" id="logout-nav">
+                <a class="nav-link js-scroll-trigger" onclick="logoutOnClick()">Logout</a>
+            </li>
+
+
+        </ul>
+    </div>
+
+    </nav>
+    
+    <div class="container-fluid p-0">
+        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+            <div class="my-auto">
+                <h3 id="welcome-header"></h3>
+                <h1 class="mb-0">Sea
+                    <span class="text-primary">Neptune</span>
+                </h1>
+                <div class="subheading mb-5">Developed by the Cloud Engineering Team ·
+                    <a href="https://mattermost.garenanow.com/sea/channels/toc-user-support">https://mattermost.garenanow.com/sea/channels/toc-user-support</a>
+                </div>
+                <p class="mb-5">Neptune was the god of the sea in Roman religion. Just like the one in the mystery, our Sea Neptune system maintains the QR code for Sea employee and keeps our internal system safe!</p>
+                <p id="login-link-p"><a href="/login">Login</a></p>
+                <p id="instruction-link-p"><a href="#instruction">Instruction</a></p>
+            </div>
+        </section>
+
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="instruction">
+            <div class="my-auto">
+                <h2 class="mb-5">Instruction</h2>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Step One</h3>
+                        <div class="mb-3">Download Google Authenticator</div>
+                        <div class="row">
+                            <div class="col-md-5" style="margin: 20px">
+                                <p>Android user please download Google Authenticator from Google Play </p>
+                                <img height="500px" width="281px" src="/static/img/google_play.jpeg">
+                            </div>
+                            <div class="col-md-5" style="margin: 20px">
+                                <p>IOS user please download Google Authenticator form App Store</p>
+                                <img height="500px" width="281px" src="/static/img/app_store.png">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Step Two</h3>
+                        <div class="subheading mb-3">Scan QR code via Google Authenticator</div>
+                        <p>If you first time login the Neptune, you will see a QR code as below after you click "Login with Google" button in <a href="/login">Login Page</a>. Scan it via Google Authenticator. 6-digits One Time Pass will appear in Google Authenticator page titled with Neptune as below.</p>
+
+                        <div class="row">
+                            <div class="col-md-3" style="margin: 20px">
+
+                                <img height="158px" width="300px" src="/static/img/qr_code.jpeg" style="border:1px solid black">
+                            </div>
+                            <div class="col-md-3" style="margin: 20px">
+
+                                <img height="500px" width="281px" src="/static/img/scan.jpeg" style="border:1px solid black">
+
+                            </div>
+                            <div class="col-md-3" style="margin: 20px">
+
+                                <img height="500px" width="281px" src="/static/img/otp.jpeg" style="border:1px solid black">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Step Three</h3>
+                        <div class="subheading mb-3">Input OTP on OTP required login page</div>
+                        <p>After successfully scanned QR code, please click "Proceed to Login" button and click "Login with Google" button. Then input the OTP in the Text Field and click submit. You will be redirect to the home page if OTP is correct.</p>
+                        <div class="col-md-3" style="margin: 20px">
+                            <img height="160px" width="500px" src="/static/img/otp_input.jpeg" style="border:1px solid black">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Step Four (Optional)</h3>
+                        <div class="subheading mb-3">Reset QR code</div>
+                        <p>User can reset the QR code either</p>
+                        <div class="row">
+                            <div class="col-md-4" style="margin: 20px">
+                                <p>Re-set by yourself( if you disclosed your QR code to someone else)</p>
+                                <img height="225px" width="300px" src="/static/img/regen.png" style="border:1px solid black">
+                            </div>
+
+                            <div class="col-md-4" style="margin: 20px">
+                                <p>Re-set by Administrator </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0">If you lost your QRCode information</h3>
+                        <br>
+                        <p>Raise a GTS ticket titled "Neptune QR-Code Reset Request" to request for a Neptune QR Code RESET</p>
+                        <p><a href="https://gts.garenanow.com/create-ticket?template=Reset_Neptune(TOC_OTP)_Account">https://gts.garenanow.com/create-ticket?template=Reset_Neptune(TOC_OTP)_Account</a></p>
+                        <p>After which, you will option a new QR code. Repeat Step 1-3 for re-setup.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="my-qrcode">
+            <div class="my-auto">
+                <div class="row" id="qr-info-div">
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <h2 class="mb-5">My QR Code</h2>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <div class="row">
+                            <button id="display-qr-btn" type="button" class="btn btn-primary btn-lg" style="margin: 20px; width: 200px">Display</button>
+                        </div>
+                        <div class="row">
+                            <button id="hide-qr-btn" type="button" class="btn btn-primary btn-lg" style="display: none;margin: 20px; width: 200px">Hide</button>
+                        </div>
+                        <div class="row">
+                            <button id="regen-qr-btn" type="button" class="btn btn-success btn-lg" style="margin: 20px; width: 200px">Re-generate</button>
+                        </div>
+                    </div>
+                    <div class="col-md-8 ">
+                        <canvas id="qr-code"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="history">
+            <div class="my-auto">
+                <h2 class="mb-5">History</h2>
+                <table id="history-table" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                    <thead>
+                    <tr>
+                        <th>Created Time</th>
+                        <!--th>User Action</th-->
+                        <th>Description</th>
+
+
+                    </tr>
+                    </thead>
+
+                </table>
+
+            </div>
+        </section>
+
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/static/js/resume.min.js"></script>
+    <script src="/static/js/qrious/qrious.js"></script>
+
+    <script src="/static/vendor/jquery-confirm/jquery-confirm.min.js"></script>
+    <!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script-->
+
+    <!-- Data table-->
+    <script src="/static/vendor/jquery-dataTables/jquery.dataTables.min.js"></script>
+    <script src="/static/vendor/jquery-dataTables/dataTables.bootstrap4.min.js"></script>
+
+    <script>
+        /* global gapi */
+        function onLoad() {
+            gapi.load('auth2', initSigninV2)
+        }
+
+        function initSigninV2() {
+
+            var GoogleAuth = gapi.auth2.init({
+                client_id: '701932224017-psnlh6ji3kmv6tn3khu62laagpmdoh4s.apps.googleusercontent.com',
+                scope: 'profile email'
+            });
+
+        }
+        function displayQRCode(url) {
+            $('#qr-code').show();
+            var qr = new QRious({
+                element: document.getElementById('qr-code'),
+                value: url,
+                size:400
+            });
+        }
+
+        function logoutOnClick() {
+            $.confirm({
+                title: 'Warning',
+                content: 'Are you sure to logout?',
+                buttons: {
+                    confirm: function () {
+                        var auth_token = window.sessionStorage.getItem('auth_token');
+                        sessionStorage.removeItem('auth_token');
+                        sessionStorage.removeItem('username');
+                        sessionStorage.removeItem('email');
+                        sessionStorage.removeItem('picture');
+                        $.ajax({
+                            url: '/api/v1/logout',
+                            type: 'POST',
+                            contentType: "application/json",
+                            headers: {"Authorization": auth_token},
+                            success: function (data) {
+                                window.location.href = '/login'
+                            }
+                        });
+                    },
+                    cancel: function () {
+
+                    }
+                }
+            });
+
+
+        }
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+    
+
+    <script>
+    $(function(){
+        var auth_token = sessionStorage.getItem('auth_token')
+        if(auth_token != undefined){
+            // display items in nav bar
+            // user logged in
+            $('#qr-nav').show();
+            $('#history-nav').show();
+            $('#logout-nav').show();
+            $('#my-qrcode').addClass("d-flex");
+            $('#my-qrcode').show();
+            $('#history').addClass("d-flex");
+            $('#history').show();
+
+            $('#instruction-link-p').hide()
+            $('#login-link-p').hide()
+
+            var user_name = sessionStorage.getItem('username');
+            $('#welcome-header').append('Hi, '+user_name+'. Welcome to');
+
+            var pic_url = sessionStorage.getItem('picture');
+            $('#profile-img').attr('src',pic_url);
+            $.ajax({
+                url: '/api/v1/history',
+                type: 'GET',
+                contentType: "application/json",
+                headers: {"Authorization": window.sessionStorage.getItem('auth_token')},
+                success: function (data) {
+                    console.log(data.data)
+                    $('#history-table').DataTable({
+                       data:data.data,
+                       columns:[
+                           {data:"created_time"},
+                           // {data:"user_action_value"},
+                           {data:"description"}],
+                        order: []
+                    });
+
+
+                },
+                error: function (error) {
+                    sessionStorage.removeItem('auth_token');
+                    sessionStorage.removeItem('username');
+                    sessionStorage.removeItem('email');
+                    sessionStorage.removeItem('picture');
+                    window.location.href = '/login'
+                }
+            });
+
+
+        }else {
+            $('#qr-nav').hide();
+            $('#history-nav').hide();
+
+            $('#my-qrcode').removeClass("d-flex");
+            $('#my-qrcode').hide();
+
+            $('#history').removeClass("d-flex");
+            $('#history').hide();
+
+        }
+
+        $('#display-qr-btn').click(function () {
+            $.ajax({
+                url: '/api/v1/qrcode',
+                type: 'GET',
+                contentType: "application/json",
+                headers: {"Authorization" : window.sessionStorage.getItem('auth_token')},
+                success: function (response) {
+                    console.log(response)
+                    if(response.error==0){
+                        data = response.data
+                        displayQRCode(data.qr_url)
+                        $('#display-qr-btn').hide()
+                        $('#hide-qr-btn').show()
+
+                    }else{
+                        var html_content =
+                            '<div class="alert alert-danger" style="width: 400px">\n' +
+                            '    <strong>Error! </strong>' + response.error_msg +
+                            '</div>';
+
+                        console.log(html_content);
+
+                        $('#qr-info-div').append(
+                            html_content
+                        );
+                        setTimeout(function () {
+                            $('.alert').remove();
+                        }, 5000);
+
+                    }
+
+
+                },
+                error: function (error) {
+                    sessionStorage.removeItem('auth_token');
+                    sessionStorage.removeItem('username');
+                    sessionStorage.removeItem('email');
+                    sessionStorage.removeItem('picture');
+                    window.location.href = '/login'
+                }
+            })
+        })
+
+        $('#hide-qr-btn').click(function () {
+            $('#display-qr-btn').show();
+            $('#hide-qr-btn').hide();
+            $('#qr-code').hide();
+        });
+
+        $('#regen-qr-btn').click(function () {
+            $.confirm({
+                title: 'Re-generate QR code',
+                content: 'Are you sure to re-generate QR code? Previous OTP in Google Authenticator will be expired. You need to re-scan the new QR code.',
+                buttons: {
+                    confirm: function () {
+                        $.ajax({
+                            url: '/api/v1/regen',
+                            type: 'POST',
+                            contentType: "application/json",
+                            headers: {"Authorization": window.sessionStorage.getItem('auth_token')},
+                            success: function (response) {
+                                console.log(response)
+                                if (response.error == 0) {
+                                    data = response.data
+                                    displayQRCode(data.qr_url)
+                                    $('#display-qr-btn').hide()
+                                    $('#hide-qr-btn').show()
+
+                                } else {
+                                    var html_content =
+                                        '<div class="alert alert-danger" style="width: 400px">\n' +
+                                        '    <strong>Error! </strong>' + response.error_msg +
+                                        '</div>';
+
+                                    console.log(html_content);
+
+                                    $('#qr-info-div').append(
+                                        html_content
+                                    );
+                                    setTimeout(function () {
+                                        $('.alert').remove();
+                                    }, 5000);
+                                }
+
+
+                            },
+                            error: function (error) {
+                                sessionStorage.removeItem('auth_token');
+                                sessionStorage.removeItem('username');
+                                sessionStorage.removeItem('email');
+                                sessionStorage.removeItem('picture');
+                                window.location.href = '/login'
+                            }
+                        })
+                    },
+                    cancel: function () {
+
+                    }
+                }
+            });
+        });
+
+
+    });
+    </script>
+
+</body>
+</html>
+0
+
+
+
+
+https://neptune.garenanow.com:443

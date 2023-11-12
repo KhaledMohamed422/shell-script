@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: abgw-kul1-aci01.acronis.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Vivaldi/1.0.344.37
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:10:00 GMT
+Server: nginx
+X-Amz-Err-Code: NoSuchBucket
+X-Amz-Err-Message: The specified bucket does not exist
+X-Amz-Req-Time-Micros: 1402
+X-Amz-Request-Id: 800000000000001a000110ed33f05665
+
+84
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message></Error>
+0
+
+
+
+
+https://abgw-kul1-aci01.acronis.com:443

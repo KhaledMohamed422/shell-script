@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: var.dev.ui.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:08:53 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=149816523707-2s6nsppatsvvnb4fslquf3ur42206frm.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fvar.dev.ui.com%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=1sPLM5Ma6yiI1ZrFF8Tku7J3Jvw1vtsRJmRHMKSqWPlIJoaepxhEOYfGjy0W%2FUvpP8MYpyGbSFIOwoOfgsrEthHzNF8oGGtISe7gCnhwrn52kc3uPbSECZocMjijVRo4AdGezp2Wlc%2B1s5HGDyl9e7HVnRn7GgyTry290vwwNGNk7uClFy%2FXV0p48kEWEyh7F3%2BQaVCltlOtJFjbMM3y%2BSJ%2BqW0AjU%2BREdBuwETQQtEwKzERDg%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=Ukl47lvi0iNwdY7F; Expires=Wed, 08 Nov 2023 05:23:53 GMT; Path=/; Secure; HttpOnly
+

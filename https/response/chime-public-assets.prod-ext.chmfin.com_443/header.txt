@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: chime-public-assets.prod-ext.chmfin.com
+User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:21:11 GMT
+Server: AmazonS3
+Vary: Origin
+Via: 1.1 602c4232f2a46df23c54a6eec1d7e048.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: z9mjnBimUD0uZH84Z9zjo8FX8zEOKQVWsPGUWGI_6AOlGz09U5bFyQ==
+X-Amz-Cf-Pop: AMS1-P3
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>QJMQCQFXDJM1XF3G</RequestId><HostId>6E8K/iIO46xJysmyVRvqgdcR+zz+XZoOQ0FrONEv5UDD0iagZdG7a86WE2PxQ31bQD5NKC8GPs6UgTUqbSvg3sJzZeYOdzlMzGsNeHQH4Bw=</HostId></Error>
+0
+
+
+
+
+https://chime-public-assets.prod-ext.chmfin.com:443

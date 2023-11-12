@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: kindred-cms-ufe.prod1.mt1.kindredext.net
+User-Agent: Mozilla/5.0 (Linux U; en-US)  AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) Version/4.0 Kindle/3.0 (screen 600x800; rotate)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:15 GMT
+Location: https://kindred-cms-ufe.prod1.mt1.kindredext.net/
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_mobilephone; Domain=kindred-cms-ufe.prod1.mt1.kindredext.net; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

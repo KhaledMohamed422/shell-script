@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: tvblog-static.tradingview.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:07:13 GMT
+Server: AmazonS3
+Via: 1.1 45de888accabe1a1cb5a389e8c9c1e06.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 02oY6u9j93MG95xnNBDbr7dcvD9TyaFoC6gL4YM5jYUGyykCT6po_g==
+X-Amz-Cf-Pop: FRA50-C1
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>KDGQ8ERY5H56YX8J</RequestId><HostId>TzzxEljfxRUwqCrh1rABiWVNBXdpuAOv39/gRpYXRVjCznfSO/UbfBDlp8k88nsF+Iw7QTiabIzvXQa8hIqt/w==</HostId></Error>
+0
+
+
+
+
+https://tvblog-static.tradingview.com:443

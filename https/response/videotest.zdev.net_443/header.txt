@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: videotest.zdev.net
+User-Agent: Jigsaw/2.2.5 W3C_CSS_Validator_JFouffa/2.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 18:07:36 GMT
+Server: CloudFront
+Via: 1.1 0c2e3c68974911a31f9fdb2f3522c7d0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MwJsLYCqqBK3sXGDAYSTIxe27v9mQvqz6o8ql5nX_mFSzBxIPUUTsA==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://videotest.zdev.net:443

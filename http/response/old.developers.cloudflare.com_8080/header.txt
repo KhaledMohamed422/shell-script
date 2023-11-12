@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: old.developers.cloudflare.com:8080
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e0f93a85cae9-DUS
+Date: Tue, 07 Nov 2023 19:10:52 GMT
+Expires: Tue, 07 Nov 2023 20:10:52 GMT
+Location: https://old.developers.cloudflare.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=o7jWwPXmUNk4ZG6zB31kmfECfRBtp.J9eVBoRKjj4zc-1699384252-0-AWyqt95JXT+IDKd7tfAuOQN/Y4z1X/ye9XXf0iGjBN3r9N9FIv5I1VnTsZ5mql7TNwDn3SONYZ0CET0MP3dYN/Q=; path=/; expires=Tue, 07-Nov-23 19:40:52 GMT; domain=.developers.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://old.developers.cloudflare.com:8080

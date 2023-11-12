@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: user-images.githubusercontent.com
+User-Agent: Mozilla/5.0 (PLAYSTATION 3; 1.10)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Content-Security-Policy: default-src 'none'; script-src 'none'; img-src 'self'; media-src 'self'; sandbox;
+Date: Wed, 08 Nov 2023 02:24:43 GMT
+Location: https://github-production-user-asset-6210df.s3.amazonaws.com/
+Retry-After: 0
+Server: GitHub Cloud
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Timing-Allow-Origin: https://github.com
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Content-Type-Options: nosniff
+X-Served-By: cache-fra-eddf8230131-FRA
+X-Timer: S1699410283.089652,VS0,VE0
+Content-Length: 0
+
+
+
+
+http://user-images.githubusercontent.com:80

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ec-apis.newegg.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:6.0a2) Gecko/20110615 Firefox/6.0a2 Iceweasel/6.0a2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 76
+Accept-Ranges: bytes
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:29:48 GMT
+Set-Cookie: NVTC=248326808.0001.ca1f72459.1699471788.1699471788.1699471788.1; Expires=Sat, 07-Nov-26 19:29:48 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NID=8O5z348O5z6I1j726I; Expires=Sat, 07-Nov-26 19:29:48 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NV_NVTCTIMESTAMP=1699471789; Expires=Sat, 07-Nov-26 19:29:48 GMT; Domain=newegg.com; Path=/; Secure; HttpOnly
+Set-Cookie: NE_STC_V1=28d4a3da38c3d62a3df089643bba00bd63911a24464066a842ff35509fddfabf6586df88;expires=Wed, 08-Nov-2023 20:27:05 GMT;path=/;secure;httponly
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; report=https://pf.newegg.com/csp?source=xss
+
+{"errorCode":"403","errorMessage":"We were unable to locate your API Key."}
+
+
+
+https://ec-apis.newegg.com:443

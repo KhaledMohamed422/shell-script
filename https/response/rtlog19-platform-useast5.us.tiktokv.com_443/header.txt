@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: rtlog19-platform-useast5.us.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 hostname doesn't match against certificate
+Connection: close
+Content-Length: 524
+Accept-Ranges: bytes
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:18 GMT
+Retry-After: 0
+Server: Varnish
+Server-Timing: cdn-cache;desc=miss, edge;dur=5
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-iad-kiad7000157-IAD
+X-Timer: S1699469179.983463,VS0,VE5
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+
+
+<?xml version="1.0" encoding="utf-8"?>

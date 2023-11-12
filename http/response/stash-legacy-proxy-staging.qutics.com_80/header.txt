@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: stash-legacy-proxy-staging.qutics.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; AC2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:24:09 GMT
+Location: https://stash-legacy-proxy-staging.qutics.com:443/
+Content-Length: 0
+
+
+
+
+http://stash-legacy-proxy-staging.qutics.com:80

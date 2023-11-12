@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: forms-test.nintendo.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 823025c0ab8b7169-DUS
+Date: Wed, 08 Nov 2023 19:15:55 GMT
+Expires: Wed, 08 Nov 2023 20:15:55 GMT
+Location: https://forms-test.nintendo.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UYPt%2FoHCTaoU3Ng6oiMVvlIdQnRL6tmF8AsB6oCDUFzDEC0ND81pCFJPAWCpEbbrDE5OvPCQAtdljurFi1WUUuof2O%2BpyuXDov2e69rmGX%2BaEVg%2F%2FzqVbpaKFUaggoPRgcQsk69LeeRc%2BJnRJ1E%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=9c7a843312027c54792bab087439cd9a77761f21-1699470955; path=/; domain=.forms-test.nintendo.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://forms-test.nintendo.com:8080

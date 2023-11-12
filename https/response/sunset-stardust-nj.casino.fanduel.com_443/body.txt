@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: 'ProximaNovaBold';
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+            src: url('./assets/fonts/Proxima-Nova-Bold.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'ProximaNovaRegular';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url('./assets/fonts/Proxima-Nova-Regular.otf') format('opentype');
+        }
+
+        body, p, ol {
+            margin: 0;
+            line-height: 125%;
+            font-family: ProximaNovaRegular, sans-serif;
+            color: #445058;
+        }
+
+        .bold {
+            font-weight: bold;
+            color: #445058;
+        }
+
+        ol {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        header {
+            height: 320px;
+            background: linear-gradient(311.17deg, #005FC8 5.46%, #610F91 100%);
+            display: flex;
+            align-items: center;
+            flex-flow: column;
+        }
+
+        header img {
+            width: 260px;
+            margin-top: 104px;
+        }
+
+        header h1 {
+            margin: 91px 0 0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+
+        main {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            height: calc(100vh - 220px);
+            box-sizing: border-box;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        main div {
+            width: 400px;
+            font-weight: 400;
+            margin-top: 28px;
+            padding: 12px 0px 100px;
+        }
+
+        main .text-container a {
+            color: #1381E0;
+            font-family: ProximaNovaBold, sans-serif;
+        }
+
+        main .btn-white a {
+            color: #1381E0;
+        }
+
+        main #btn-blue a {
+            color: #FFFFFF;
+        }
+
+        main span {
+            font-family: ProximaNovaBold, sans-serif;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            font-size: 16px;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            background: linear-gradient(180deg, #1493FF 0%, #1381E0 100%);
+            border: none;
+        }
+
+        #btn-white {
+            background: #FFFFFF;
+            color:#1381E0;
+            border: 1px solid #1493FF;
+            border-radius: 4px;
+            width: 192px;
+            height: 44px;
+        }
+
+        #btn-blue {
+            width: 192px;
+            height: 44px;
+        }
+
+        /* big screen mobile */
+        @media screen and (max-width: 500px) and (max-height: 916px){
+            body > .text-container {
+                height: 100px;
+                border: 5px solid red;
+                border-radius: 40px 40px 0 0;
+            }
+
+            main .text-container {
+                padding: 0px 0px 5px;
+            }
+
+            main div {
+                width: 326px;
+                padding: 0px 0px 100px;
+            }
+
+            header {
+                height: 250px;
+            }
+
+            header img {
+                margin-top: 80px;
+            }
+
+            header h1 {
+                margin: 18px 0 0;
+            }
+
+            ul {
+                padding-left: 25px;
+            }
+
+            main p:nth-child(2), main p:last-child {
+                margin-top: 0;
+            }
+
+            main .btn-container {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                align-items: center;
+                height: 17%;
+                padding-bottom: 5%;
+            }
+
+            #btn-white {
+                width: 100%
+            }
+
+            #btn-blue {
+                width: 100%;
+            }
+        }
+
+        /* small screen mobile */
+        @media screen and (max-width: 375px) and (max-height: 745px) {
+            main {
+                font-size: 95%;
+            }
+
+            main div {
+                width: 306px;
+            }
+
+            header {
+                height: 217px;
+            }
+
+            header img {
+                margin-top: 60px;
+            }
+
+            main p:nth-child(2), main p:last-child {
+                margin-top: 0;
+            }
+
+            ol {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .btn-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-bottom: 5%;
+            }
+
+            #btn-blue {
+                margin-bottom: 10px;
+            }
+            
+        }
+
+        @media screen and (max-height: 420px) and (orientation: landscape) {
+            header {
+                height: 145px;
+            }
+
+            header img {
+                margin-top: 25px;
+                width: 200px;
+            }
+
+            header h1 {
+                margin: 10px 0 0;
+            }
+
+            main div {
+                font-size: 15px;
+                padding: 0;
+                margin-top: 15px;
+            }
+
+            .text-container {
+                width: 600px;
+            }
+
+            ol {
+                padding: 12px 20px;
+            }
+
+            .btn-container {
+                padding-bottom: 10px;
+            }
+        }
+
+        @media screen and (max-height: 320px) and (orientation: landscape) {
+            header {
+                height: 120px;
+            }
+
+            header img {
+                width: 165px;
+            }
+
+            header h1 {
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (min-height: 700px) and (orientation: landscape) {
+            header {
+                height: 285px;
+            }
+
+            header h1 {
+                margin-top: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <img class="logo" src="./assets/images/fanduel-logo.svg" alt="fanduel logo">
+    <h1>Play now at FanDuel Casino</h1>
+</header>
+<main>
+    <div class="text-container">
+        <p><span class="bold">We’ve transitioned from Stardust to FanDuel Casino.</span> Here’s how you can still play:</p>
+        <ol>
+            <li>Go to <a href="https://fanduel.page.link/fanduel" target="_blank">FanDuel Casino.</a></li>
+            <li>Log in with your Stardust credentials. Your playable balance is the same in both apps.</li>
+            <li>Keep playing your favorite games!</li>
+        </ol>
+        <p>Want to withdraw your balance from Stardust? We offer <a href="https://account.nj.stardustcasino.com/withdrawals">Online Banking, checks, and Cash at Counter!</a></p>
+    </div>
+    <div class="btn-container">
+        <button id="btn-blue">Go to FanDuel Casino</button>
+        <button id="btn-white">Withdraw balance</button>
+    </div>
+</main>
+</body>
+<script>
+    const blueButton = document.getElementById("btn-blue");
+    blueButton.addEventListener('click', () => {
+        window.location.href = "https://fanduel.page.link/fanduel";
+    });
+
+    const whiteButton = document.getElementById("btn-white");
+    whiteButton.addEventListener('click', () => {
+        window.location.href = "https://account.nj.stardustcasino.com/withdrawals";
+    });
+</script>
+</html>
+
+
+https://sunset-stardust-nj.casino.fanduel.com:443

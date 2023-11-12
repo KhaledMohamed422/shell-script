@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: neo-mag.a.exodus.io:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=15
+Cf-Ray: 822ac4fe9d0521ab-DUS
+Content-Security-Policy: default-src 'self' exodus.com *.exodus.com exodus.io *.exodus.io *.a.exodus.io;
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 03:36:03 GMT
+Expires: Wed, 08 Nov 2023 03:36:18 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+507e7

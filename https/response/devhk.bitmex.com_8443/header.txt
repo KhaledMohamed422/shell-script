@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: devhk.bitmex.com:8443
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822781780d73717b-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:05:40 GMT
+Expires: Tue, 07 Nov 2023 18:05:55 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=3wqQS3UHXS3OYNSxzUGZSbvuqF0_CBI1AlSYsW4ezx4-1699380340-0-AYfS62KKe42BxY9cfopsFYUnXKD/bm0xWsh5UNlkZmk2DtcUq6bO0oOs9lX6diQoLVg116SO/7pAf60rP7Ljv+o=; path=/; expires=Tue, 07-Nov-23 18:35:40 GMT; domain=.bitmex.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+15e5

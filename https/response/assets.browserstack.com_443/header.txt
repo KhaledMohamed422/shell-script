@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: assets.browserstack.com
+User-Agent: Mozilla/5.0 (Unknown; U; UNIX BSD/SYSV system; C -) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.10.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 07:10:20 GMT
+Server: AmazonS3
+Via: 1.1 e28efd1a65ea5d8d42e5dac75c735524.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: Z8AqB5QLErO03NBA6-5cae6nM2A0jfeSwJt2LiUjIWUqZPZQsVw05g==
+X-Amz-Cf-Pop: IAD61-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EW4DCP4Q4R0N5M07</RequestId><HostId>XTn6OEZFcG+e/NIZ+0xha+FhYkd/19eS7yKsfyjbO6fKWKoVb9aeWC3vuEhPSg11RalbtnNqBOw=</HostId></Error>
+0
+
+
+
+
+https://assets.browserstack.com:443

@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Marriott Owner and Franchise Services</title>
+	<link rel="icon" href="/assets/ico/favicon.ico">
+	<meta name="generator" content="Marriott Development Portal">
+	<meta name="author" content="Ignition72, Inc.">
+	<meta name="pragma" content="no-cache">
+	<meta name="expires" content="0">
+	<meta name="cache-control" content="no-cache, no-store, must-revalidate">
+	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" media="screen">
+	<link type="text/css" rel="stylesheet" href="/assets/css/screen.csgz?v=5" media="screen">
+	<link type="text/css" rel="stylesheet" href="/assets/css/print.csgz?v=4" media="print">
+</head>
+<body class="user_auth" >
+<form><input type="hidden" id="activekey" value="90d32571cdaa3061343ab26670e09e7f03dbe143"></form>
+<div id="messaging-wrap" class="messaging-wrap"><span><span class="messaging-success">
+<svg x="0px" y="0px" viewBox="0 0 20 20">
+<path d="M4.1,8.8H0.9C0.4,8.8,0,9.2,0,9.7v9.4C0,19.6,0.4,20,0.9,20h3.1C4.6,20,5,19.6,5,19.1V9.7
+	C5,9.2,4.6,8.8,4.1,8.8z M2.5,18.4c-0.5,0-0.9-0.4-0.9-0.9s0.4-0.9,0.9-0.9s0.9,0.4,0.9,0.9S3,18.4,2.5,18.4z M15,3.2
+	c0,1.7-1,2.6-1.3,3.7h4C19,6.9,20,8,20,9.1c0,0.7-0.3,1.5-0.8,1.9l0,0c0.4,0.9,0.3,2.2-0.4,3.1c0.3,1,0,2.3-0.6,2.9
+	c0.2,0.7,0.1,1.3-0.2,1.7C17.2,20,15.2,20,13.6,20h-0.1c-1.9,0-3.4-0.7-4.7-1.2c-0.6-0.3-1.4-0.6-2.1-0.6c-0.3,0-0.5-0.2-0.5-0.5
+	V9.3c0-0.1,0.1-0.2,0.1-0.3c1.5-1.5,2.2-3.1,3.5-4.4c0.6-0.6,0.8-1.5,1-2.3C11,1.5,11.4,0,12.2,0C13.1,0,15,0.3,15,3.2z"/>
+</svg>
+</span><span class="messaging-error">
+<svg x="0px" y="0px" viewBox="0 0 7.5 20">
+<path d="M6.9,16.9c0,1.7-1.4,3.1-3.1,3.1s-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1C5.5,13.8,6.9,15.1,6.9,16.9z M1,1
+	l0.5,10.6c0,0.5,0.4,0.9,0.9,0.9H5c0.5,0,0.9-0.4,0.9-0.9L6.5,1c0-0.5-0.4-1-0.9-1c0,0,0,0,0,0H1.9C1.4,0,1,0.4,1,1C1,1,1,1,1,1z"/>
+</svg>
+</span><div id="messaging-message" class="messaging-message"></div></span></div>
+<div id="modal-wrapper" class="modal-wrapper"><a href="javascript:;" class="modal-close"></a><div id="modal-content"></div></div>
+<div id="modal-cover" class="modal-cover"></div>
+<div id="frame" class="frame">
+<header class="head">	<div class="title">		<a href="//marriottfranchisetransactions.marriott.com">			<span class="m-logo">Marriott International Franchisee Application</span>		</a>	</div>	<div class="nav-main">		<ul class="group ">			<li><a href="/" class="log-in">Log In</a></li>		</ul>	</div></header>
+<div id="container" class="container">
+
+		<div class="login">
+			<div class="welcome-message"><h1>Welcome to Marriott Owner and Franchise Services</h1></div>
+			<div class="login-wrap">
+				<div class="login-item">
+					<div id="login-message" class="error hidden"></div>
+					<div class="login-title">Sign in to your account</div>
+					<div class="login-inner-wrap">
+						<form action="/ajax.php" method="post" id="login-form" enctype="application/x-www-form-urlencoded" class="">
+							<input type="hidden"  name="module" value="user_auth">
+							<input type="hidden"  name="function" value="login">
+							<input type="text"  name="email_address" value="" size="25" maxlength="100" class="input" placeholder="Enter your email address..." >
+							<input type="password"  name="password" value="" size="25" maxlength="25" class="password input secure" placeholder="Enter your password..."><span class="password-icon show-password">
+<svg x="0px" y="0px" viewBox="0 0 20 17.8">
+<path d="M19.8,8c-2-3.3-5.6-5.5-9.8-5.5S2.2,4.7,0.2,8c-0.3,0.5-0.3,1.2,0,1.7c2,3.3,5.6,5.5,9.8,5.5s7.8-2.2,9.8-5.5
+	C20.1,9.2,20.1,8.6,19.8,8L19.8,8z M10,13.6c-2.6,0-4.7-2.1-4.7-4.7S7.4,4.2,10,4.2s4.7,2.1,4.7,4.7C14.7,11.5,12.6,13.6,10,13.6
+	C10,13.6,10,13.6,10,13.6z M13.6,8.9c0,2-1.6,3.6-3.6,3.6c-2,0-3.6-1.6-3.6-3.6c0-0.6,0.1-1.2,0.4-1.7l0,0c0,0.8,0.7,1.5,1.5,1.5
+	c0.8,0,1.5-0.7,1.5-1.5S9.1,5.7,8.3,5.7c0,0,0,0,0,0l0,0c1.8-0.9,3.9-0.3,4.9,1.5C13.5,7.7,13.6,8.3,13.6,8.9z"/>
+</svg>
+</span><span class="password-icon hide-password">
+<svg x="0px" y="0px" viewBox="0 0 20 17.8">
+<path d="M10,13.6l1.1,1.6c-0.4,0-0.7,0.1-1.1,0.1c-4.2,0-7.8-2.2-9.8-5.5c-0.3-0.5-0.3-1.2,0-1.7c0.8-1.4,2-2.6,3.3-3.6
+	l2,2.8c-0.9,2.5,0.4,5.2,2.9,6C8.9,13.5,9.4,13.6,10,13.6z M19.8,9.7c-1.1,1.9-2.7,3.4-4.7,4.4l0,0l1.4,2.1c0.3,0.4,0.2,0.9-0.2,1.2
+	l-0.5,0.3c-0.4,0.3-0.9,0.2-1.2-0.2L3.5,1.6C3.2,1.2,3.3,0.7,3.7,0.4l0.5-0.3C4.5-0.1,5,0,5.3,0.3l1.8,2.5C8,2.6,9,2.5,10,2.5
+	c4.2,0,7.8,2.2,9.8,5.5C20.1,8.6,20.1,9.2,19.8,9.7z M14.7,8.9c0-2.6-2.1-4.7-4.7-4.7c-0.6,0-1.2,0.1-1.8,0.3l0.7,0.9
+	c0.9-0.3,1.9-0.2,2.8,0.3l0,0c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5l0,0c0.7,1.2,0.5,2.7-0.3,3.9l0,0
+	l0.7,0.9C14.3,11.1,14.7,10,14.7,8.9z M9.1,12.4L6.4,8.5C6.2,10.3,7.4,11.9,9.1,12.4z"/>
+</svg>
+</span>
+							<button type="submit"  class="login-submit login button-login"><span><span class="button-icon">
+<svg x="0px" y="0px" viewBox="0 0 20 20">
+<path d="M16.2,17.4H13c-0.3,0-0.5-0.2-0.5-0.5v-1.6c0-0.3,0.2-0.5,0.5-0.5h3.3c0.7,0,1.2-0.6,1.2-1.2V6.1
+	c0-0.7-0.6-1.2-1.2-1.2H13c-0.3,0-0.5-0.2-0.5-0.5V2.8c0-0.3,0.2-0.5,0.5-0.5h3.3C18.3,2.4,20,4,20,6.1v7.5
+	C20,15.7,18.3,17.4,16.2,17.4z M14.4,9.5L7.9,3C7.3,2.4,6.2,2.8,6.2,3.6v3.8H0.9C0.4,7.4,0,7.8,0,8.3v3.8C0,12.6,0.4,13,0.9,13h5.3
+	v3.7c0,0.8,1,1.2,1.6,0.7l6.6-6.6C14.8,10.5,14.8,9.9,14.4,9.5z"/>
+</svg>
+</span><span class="button-label">Log In</span></span></button>
+						</form>
+					</div>
+				</div>
+				<div class="forgotpass-action">
+					<a href="javascript:;" class="forgotpass-show"><span>Forgot Password?</span></a>
+				</div>
+				<div class="login-item forgotpass close">
+					<div class="login-title">Forgot Password</div>
+					<button type="button"  class="close-block close button-close"><span><span class="button-icon">
+<svg x="0px" y="0px" viewBox="0 0 21 21">
+<g>
+	<path d="M18.125,1.75c0.521,0,0.963,0.183,1.328,0.547S20,3.104,20,3.625v13.75c0,0.521-0.182,0.964-0.547,1.328
+		s-0.807,0.547-1.328,0.547H1.875c-0.521,0-0.963-0.183-1.328-0.547S0,17.896,0,17.375V3.625c0-0.521,0.182-0.964,0.547-1.328
+		S1.354,1.75,1.875,1.75H18.125z M14.844,13.078L12.227,10.5l2.617-2.617C14.947,7.805,15,7.7,15,7.57s-0.053-0.247-0.156-0.352
+		l-1.562-1.562C13.178,5.552,13.061,5.5,12.93,5.5s-0.234,0.052-0.312,0.156L10,8.273L7.383,5.656C7.305,5.552,7.201,5.5,7.07,5.5
+		S6.823,5.552,6.719,5.656L5.156,7.219C5.052,7.323,5,7.44,5,7.57s0.052,0.234,0.156,0.312L7.773,10.5l-2.617,2.617
+		C5.052,13.195,5,13.3,5,13.43s0.052,0.247,0.156,0.352l1.562,1.562C6.823,15.448,6.94,15.5,7.07,15.5s0.248-0.052,0.352-0.156
+		L10,12.727l2.617,2.617c0.078,0.104,0.182,0.156,0.312,0.156s0.248-0.052,0.352-0.156l1.562-1.562C14.947,13.677,15,13.56,15,13.43
+		S14.947,13.183,14.844,13.078z"/>
+</g>
+</svg>
+</span><span class="button-label">close</span></span></button>
+					<div class="login-inner-wrap">
+						<div id="forgotpass-message" class="error hidden"></div>
+						<form action="/ajax.php" method="post" id="forgotpass-form" enctype="application/x-www-form-urlencoded" class="">
+							<input type="hidden"  name="module" value="user_auth">
+							<input type="hidden"  name="function" value="forgotpass">
+							<input type="text"  name="email_address" value="" size="25" maxlength="100" class="input" placeholder="Enter your email address..." >
+							<button type="submit"  class="forgotpass-submit submit button-submit"><span><span class="button-icon">
+<svg x="0px" y="0px" viewBox="0 0 20 20">
+<path d="M2.1,0h15.7C19,0,20,1,20,2.1v15.7c0,1.2-1,2.1-2.1,2.1H2.1C1,20,0,19,0,17.9V2.1C0,1,1,0,2.1,0z M8.4,15.9
+	l5.5-5.5c0.2-0.2,0.2-0.5,0-0.8c0,0,0,0,0,0L8.4,4.1c-0.2-0.2-0.5-0.2-0.8,0C7.6,4.2,7.5,4.4,7.5,4.5v11C7.5,15.8,7.7,16,8,16
+	C8.2,16,8.3,16,8.4,15.9L8.4,15.9z"/>
+</svg>
+</span><span class="button-label">Submit</span></span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<footer><p>This site is for registered owners, franchisees and management companies working with Marriott International Owner and Franchise Services on a specific transaction. If you are not a registered user, please contact your Franchise Transaction Representative: Naomi Paulraj, 301-380-8256; Luana Arce, 301-380-6234; Kathi Perry, 301-380-7710; Kim Harris-Dunnings, 301-380-6766; Juan Macias, 949-522-6314; Daniel Garrison, 301-380-7537 or Rich Lind, 301-380-8930 to discuss your transaction. For a stand-alone Management Screen contact Tunis Conway, 301-380-1218.</p>
+<p>Icons throughout the application were obtained from <a href="https://fontawesome.com/license" title="Font Awesome License Page" target="_blank" rel="noreferrer noopener">Font Awesome</a>.</p>
+		<ul class="group">
+			<li><a href="http://www.marriott.com/about/privacy.mi" target="_blank">Privacy</a></li>
+		</ul>
+	</footer>
+</div>
+<div class="hidden">
+
+	<div class="relogin login">
+		<h3>You have been logged out.</h3>
+		<p>Not to worry, you can log back in below and pick up where you left off.</p>
+		<div class="login-item">
+		<div id="relogin-message" class="error hidden"></div>
+			<form action="/ajax.php" method="post" id="relogin-form" enctype="application/x-www-form-urlencoded" class="">
+				<input type="hidden"  name="module" value="user_auth">
+				<input type="hidden"  name="function" value="login">
+				
+				<input type="text"  name="email_address" value="" size="25" maxlength="100" class="input" disabled="disabled">
+				<input type="password"  name="password" value="" size="25" maxlength="25" class="password input secure" placeholder="Password"><span class="password-icon show-password">
+<svg x="0px" y="0px" viewBox="0 0 20 17.8">
+<path d="M19.8,8c-2-3.3-5.6-5.5-9.8-5.5S2.2,4.7,0.2,8c-0.3,0.5-0.3,1.2,0,1.7c2,3.3,5.6,5.5,9.8,5.5s7.8-2.2,9.8-5.5
+	C20.1,9.2,20.1,8.6,19.8,8L19.8,8z M10,13.6c-2.6,0-4.7-2.1-4.7-4.7S7.4,4.2,10,4.2s4.7,2.1,4.7,4.7C14.7,11.5,12.6,13.6,10,13.6
+	C10,13.6,10,13.6,10,13.6z M13.6,8.9c0,2-1.6,3.6-3.6,3.6c-2,0-3.6-1.6-3.6-3.6c0-0.6,0.1-1.2,0.4-1.7l0,0c0,0.8,0.7,1.5,1.5,1.5
+	c0.8,0,1.5-0.7,1.5-1.5S9.1,5.7,8.3,5.7c0,0,0,0,0,0l0,0c1.8-0.9,3.9-0.3,4.9,1.5C13.5,7.7,13.6,8.3,13.6,8.9z"/>
+</svg>
+</span><span class="password-icon hide-password">
+<svg x="0px" y="0px" viewBox="0 0 20 17.8">
+<path d="M10,13.6l1.1,1.6c-0.4,0-0.7,0.1-1.1,0.1c-4.2,0-7.8-2.2-9.8-5.5c-0.3-0.5-0.3-1.2,0-1.7c0.8-1.4,2-2.6,3.3-3.6
+	l2,2.8c-0.9,2.5,0.4,5.2,2.9,6C8.9,13.5,9.4,13.6,10,13.6z M19.8,9.7c-1.1,1.9-2.7,3.4-4.7,4.4l0,0l1.4,2.1c0.3,0.4,0.2,0.9-0.2,1.2
+	l-0.5,0.3c-0.4,0.3-0.9,0.2-1.2-0.2L3.5,1.6C3.2,1.2,3.3,0.7,3.7,0.4l0.5-0.3C4.5-0.1,5,0,5.3,0.3l1.8,2.5C8,2.6,9,2.5,10,2.5
+	c4.2,0,7.8,2.2,9.8,5.5C20.1,8.6,20.1,9.2,19.8,9.7z M14.7,8.9c0-2.6-2.1-4.7-4.7-4.7c-0.6,0-1.2,0.1-1.8,0.3l0.7,0.9
+	c0.9-0.3,1.9-0.2,2.8,0.3l0,0c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5l0,0c0.7,1.2,0.5,2.7-0.3,3.9l0,0
+	l0.7,0.9C14.3,11.1,14.7,10,14.7,8.9z M9.1,12.4L6.4,8.5C6.2,10.3,7.4,11.9,9.1,12.4z"/>
+</svg>
+</span>
+				<br />
+				<button type="submit"  class="relogin-submit login button-login"><span><span class="button-icon">
+<svg x="0px" y="0px" viewBox="0 0 20 20">
+<path d="M16.2,17.4H13c-0.3,0-0.5-0.2-0.5-0.5v-1.6c0-0.3,0.2-0.5,0.5-0.5h3.3c0.7,0,1.2-0.6,1.2-1.2V6.1
+	c0-0.7-0.6-1.2-1.2-1.2H13c-0.3,0-0.5-0.2-0.5-0.5V2.8c0-0.3,0.2-0.5,0.5-0.5h3.3C18.3,2.4,20,4,20,6.1v7.5
+	C20,15.7,18.3,17.4,16.2,17.4z M14.4,9.5L7.9,3C7.3,2.4,6.2,2.8,6.2,3.6v3.8H0.9C0.4,7.4,0,7.8,0,8.3v3.8C0,12.6,0.4,13,0.9,13h5.3
+	v3.7c0,0.8,1,1.2,1.6,0.7l6.6-6.6C14.8,10.5,14.8,9.9,14.4,9.5z"/>
+</svg>
+</span><span class="button-label">Log In</span></span></button>
+			</form>
+		</div>	
+	</div>
+
+	<div class="reup-session login">
+		<h3>You have less than 2 minutes to continue working.</h3>
+		<p>Click &ldquo;Continue&rdquo; below to continue working uninterrupted. If you do not, you will be logged out shortly.</p>
+		<div id="reup-message" class="error hidden"></div>
+		<button type="submit"  class="reup-submit submit button-submit"><span><span class="button-icon">
+<svg x="0px" y="0px" viewBox="0 0 20 20">
+<path d="M2.1,0h15.7C19,0,20,1,20,2.1v15.7c0,1.2-1,2.1-2.1,2.1H2.1C1,20,0,19,0,17.9V2.1C0,1,1,0,2.1,0z M8.4,15.9
+	l5.5-5.5c0.2-0.2,0.2-0.5,0-0.8c0,0,0,0,0,0L8.4,4.1c-0.2-0.2-0.5-0.2-0.8,0C7.6,4.2,7.5,4.4,7.5,4.5v11C7.5,15.8,7.7,16,8,16
+	C8.2,16,8.3,16,8.4,15.9L8.4,15.9z"/>
+</svg>
+</span><span class="button-label">Continue</span></span></button>
+	</div>
+
+</div>
+<!-- render time: 0.612 -->
+	<script type="text/javascript" src="/assets/scripts.jgz?v=11"></script>
+	<script type="text/javascript" src="/assets/js/tinymce/tinymce.min.jgz"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){MFOP.init();});
+		var applicationFileExtenstion ='doc,pdf,docx,xls,xlsx,zip,ppt,pptx,jpg,png,svg'
+	</script>
+</body>
+</html>
+
+
+https://marriottfranchisetransactions.marriott.com:443

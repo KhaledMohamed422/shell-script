@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plenity&#174; | FDA-Cleared Weight Management Aid</title>
+    <meta name="description">
+    <meta name="keywords">
+
+
+
+
+
+<!-- OneTrust Cookies Consent Notice start for myplenity.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="02bbe801-afc9-4129-8d0f-7fc065f2d723"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for myplenity.com -->    <link rel="apple-touch-icon" sizes="60x60" href="/static/dist/static/hcp/images/favicon-acq/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/dist/static/hcp/images/favicon-acq/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/dist/static/hcp/images/favicon-acq/favicon-16x16.png">
+    <link rel="manifest" href="/static/dist/static/hcp/images/favicon-acq/site.webmanifest">
+    <link rel="mask-icon" href="/static/dist/static/hcp/images/favicon-acq/safari-pinned-tab.svg" color="#0069a0">
+    <link rel="shortcut icon" href="/static/dist/static/hcp/images/favicon-acq/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/static/dist/static/hcp/images/favicon-acq/browserconfig.xml">
+
+    <meta name="theme-color" content="#f7f7f7">
+
+    <link href="https://www.myplenity.com/" rel="canonical" />
+    
+
+    <link rel="stylesheet" href="/static/dist/static/hcp/css/styles.min.css?v=637965243640000000" media="screen" />
+
+    
+
+
+    <meta property="og:url" content="https://www.myplenity.com/" />
+    <meta property="og:type" content="content" />
+    <meta property="og:title" content="Plenity&#174; | FDA-Cleared Weight Management Aid" />
+    <meta property="og:description" />
+    <meta property="og:site_name" content="Plenity" />
+    <meta property="article:publish_time" content="2021-03-19T15:12:32 +00:00" />
+    
+    
+    
+    <script type="text/javascript">  
+		!function(t,e){if(void 0===e[t]){e[t]=function(){e[t].clients.push(this),this._init=[Array.prototype.slice.call(arguments)]},e[t].clients=[];for(var r=function(t){return function(){return this["_"+t]=this["_"+t]||[],this["_"+t].push(Array.prototype.slice.call(arguments)),this}},s=["addRecord","blockEvents","fetchServerCookie","fetchGlobalID","fetchUserSegments","resetUUID","ready","setSignedMode","setAnonymousMode","set","trackEvent","trackPageview","trackClicks","unblockEvents"],n=0;n<s.length;n++){var c=s[n];e[t].prototype[c]=r(c)}var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.treasuredata.com/sdk/3.0.0-beta/td.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)}}("Treasure",this);  
+	</script>
+<script src=https://www.googleoptimize.com/optimize.js?id=OPT-5QPX8C6></script>
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-P22CD7B');</script>
+        <!-- End Google Tag Manager -->
+        <script type="text/javascript">
+            var td = new Treasure({
+                database: 'primary_activity_database',
+                writeKey: '11261/9e26f7d9558ca184e95853a2c58aa7aef23bbbb7',
+                host: 'in.treasuredata.com',
+                startInSignedMode: true,
+                sscDomain: 'myplenity.com', // ex) example.com
+                sscServer: 'ssc.myplenity.com', // ex) ssc.example.com
+                useServerSideCookie: true,
+                storeConsentByLocalStorage: true
+            });
+
+            td.set('$global', 'td_global_id', 'td_global_id');
+            td.fetchServerCookie(successCallback, errorCallback);
+
+            function fireEvents() {
+                td.trackPageview('web_activity');
+            }
+
+            function successCallback(result) {
+                // result === Server Side Cookie
+                td.set('$global', { td_ssc_id: result });
+                fireEvents();
+            }
+
+            function errorCallback() {
+                // Track events, even if the server-side cookie does not work
+                fireEvents();
+            }
+        </script>
+<script type="text/javascript">var appInsights=window.appInsights||function(config){function t(config){i[config]=function(){var t=arguments;i.queue.push(function(){i[config].apply(i,t)})}}var i={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",r,f;setTimeout(function(){var t=u.createElement(o);t.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(t)});try{i.cookie=u.cookie}catch(y){}for(i.queue=[],r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)t("track"+r.pop());return t("set"+s),t("clear"+s),t(h+a),t(c+a),t(h+v),t(c+v),t("flush"),config.disableExceptionTracking||(r="onerror",t("_"+r),f=e[r],e[r]=function(config,t,u,e,o){var s=f&&f(config,t,u,e,o);return s!==!0&&i["_"+r](config,t,u,e,o),s}),i}({instrumentationKey:"a0ff62eb-6a1f-4e04-9b18-18df631bc741",sdkExtension:"a"});window.appInsights=appInsights;appInsights.queue&&appInsights.queue.length===0&&appInsights.trackPageView();</script></head>
+<body class="" data-component="analyticsPageView,analyticsInteraction,analyticsProcess,marketingParams">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P22CD7B" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    <input type="hidden" id="site" value="myplenity" />
+    <input type="hidden" id="pageType" value="home" />
+
+
+    <script>
+/*
+var td = new Treasure({
+    database:'primary_activity_database',
+    writeKey: '11261/9e26f7d9558ca184e95853a2c58aa7aef23bbbb7',
+    host: 'in.treasuredata.com',
+    startInSignedMode: true,
+    sscDomain: 'myplenity.com', // ex) example.com
+    sscServer: 'ssc.myplenity.com', // ex) ssc.example.com
+    useServerSideCookie: true,
+	storeConsentByLocalStorage: true
+  });
+   
+  td.set('$global', 'td_global_id', 'td_global_id');
+  td.fetchServerCookie(successCallback, errorCallback);
+
+function fireEvents () {
+    td.trackPageview('page_views');
+  }
+   
+  function errorCallback () {
+    // Track events, even if the server-side cookie does not work
+    fireEvents();
+  }
+
+  function successCallback (result) {
+    // result === Server Side Cookie
+    td.set('$global', { td_ssc_id: result });
+    fireEvents();
+  }  */
+</script>
+
+        <div id="get-plenity-modal" role="dialog" aria-modal="true" class="hidden modal-dialog modal" data-cookie-name="get-plenity-modal-displayed" data-start-path="/healthcare-professionals">
+        
+        <div class="modal-dialog__modal modal-dialog__modal--no-video">
+            <div class="modal-dialog__content">
+                <h1 class="header-four modal-dialog__title">Welcome! Before prescribing Plenity, there are a few things you should know:</h1>
+                <p><p>Plenity is NOT available at retail pharmacies. Plenity prescriptions can ONLY be filled by GoGoMeds Pharmacy. Please e-prescribe Plenity to GoGoMeds Pharmacy in Southgate, KY, or fax to (877) 766-0185.</p></p>
+                <div class="modal-dialog__btn-wrap">
+                    <a href="/healthcare-professionals/prescribing-plenity" class="btn btn--dark-blue" data-ga-action='cta' datd-ga-label="How to Prescribe" data-ga-action="Prescribe Modal">How To Prescribe</a>
+                </div>
+                <div class="modal-dialog__btn-wrap">
+                    <a href="#" onclick="closeDialog(this)"  class="btn btn--outline-dark" data-ga-action='cta' data-ga-label="Close" data-ga-action="Prescribe Modal">Close This Message</a> 
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var modals = document.querySelectorAll(".modal");
+            if (modals.length == 0) return;
+
+            var modal = modals[0];
+            var cname = modal.attributes["data-cookie-name"].value;
+            if (cname == "" || cname == null) cname = "get-plenity-modal-cookie";
+
+            var startPath = "/";
+            if (modal.attributes["data-start-path"] != null && modal.attributes["data-start-path"].value != "")
+                startPath = modal.attributes["data-start-path"].value;
+
+            if (!document.location.pathname.startsWith(startPath))
+                return
+
+            const cookie = document.cookie.split('; ').find(row => row.startsWith(cname+'='))
+            const cookieValue = cookie == null ? null : cookie.split('=')[1];
+
+            if (cookieValue == null) {
+                document.cookie = cname + "=true";
+                        openDialog(modal.id, "header-logo")
+            } 
+        })
+    </script>
+
+
+
+
+    <a href="#main-content" id="skip-header" class="skip-header">Skip to Main Content</a>
+    <header class="header ">
+        <div class="header__wrapper content-max-width">
+            <div class="header__nav-container">
+                    <a class="header__logo" id="header-logo" href="/"  data-ga-action="nav - top" data-ga-label="Plenity logo">
+                        <img src="/siteassets/settings/plenity-logo-blue.svg" alt="Plenity Homepage" />
+                    </a>
+
+                        <img class="header__logo-secondary header__fda-cleared" src="/siteassets/settings/fda-cleared.svg" alt="FDA Cleared" data-ga-action="nav - top" data-ga-label="FDA Cleared Logo" />
+                                    <button type="button" class="header__hamburger-open" data-component="hamburgerMenu" aria-haspopup="true"
+                            aria-expanded="false">
+                        <span class="line line--one"></span>
+                        <span class="line line--two"></span>
+                        <span class="line line--three"></span>
+                        <span class="visually-hidden" id="hamburger-menu-state">Toggle Main Navigation</span>
+                    </button>
+                    <nav class="header__main-navigation" aria-label="Main Navigation">
+                        <div class="header__scroll-container">
+                            <ul role='menu' class="header__main-naigation--navigation-container">
+
+                                        <li class="desktop-link" data-desktophover="1">
+                                            <a href="/about" class="header__main-link" role='menuitem' data-ga-action="nav - top" data-ga-label="The Science">
+                                                The Science
+                                            </a>
+                                        </li>
+                                        <li class="desktop-link" data-desktophover="2">
+                                            <a href="/success-stories" class="header__main-link" role='menuitem' data-ga-action="nav - top" data-ga-label="Success Stories">
+                                                Success Stories
+                                            </a>
+                                        </li>
+                                        <li class="desktop-link" data-desktophover="3">
+                                            <a href="/blog" class="header__main-link" role='menuitem' data-ga-action="nav - top" data-ga-label="Blog - Beyond the Pod">
+                                                Blog - Beyond the Pod
+                                            </a>
+                                        </li>
+                                        <li class="desktop-link" data-desktophover="4">
+                                            <a href="/faq" class="header__main-link" role='menuitem' data-ga-action="nav - top" data-ga-label="FAQ">
+                                                FAQ
+                                            </a>
+                                        </li>
+                            </ul>
+
+                                <div class="header__cta-btn--container">
+                                    <ul role="menu">
+                                            <li><a href="/first-step" class="header__cta-btn btn btn--dark-blue" data-ga-action="nav - top" data-ga-label="Get Plenity">Get Plenity</a></li>
+
+                                    </ul>
+                                </div>
+                                                            <div class="header__utility-link--container">
+                                    <ul role="menu">
+                                            <li class="utility-link">
+                                                <a href="/siteassets/components/pdfs/ACQ_Plenity-Patient-Instructions-of-Use.pdf" target="_blank" class="header__utility-link header__utility-link--external" data-ga-action="nav - top" data-ga-label="Instructions for Use">
+                                                    Instructions for Use
+                                                        <span class="visually-hidden"> opens in a new window</span>
+                                                </a>
+                                            </li>
+                                            <li class="utility-link">
+                                                <a href="/healthcare-professionals" target="_blank" class="header__utility-link header__utility-link--external" data-ga-action="nav - top" data-ga-label="For Healthcare Professionals">
+                                                    For Healthcare Professionals
+                                                        <span class="visually-hidden"> opens in a new window</span>
+                                                </a>
+                                            </li>
+                                            <li class="utility-link">
+                                                <a href="/contact" class="header__utility-link " data-ga-action="nav - top" data-ga-label="Contact Us">
+                                                    Contact Us
+                                                </a>
+                                            </li>
+                                    </ul>
+                                </div>
+
+
+                        </div>
+                    </nav>
+                <div class="header__overlay"></div>
+            </div>
+            <nav class="header__utility-container desktop-only" aria-label="Utility Navigation">
+                <ul class="header__utility-navigation">
+                        <li>
+
+                            <a href="/first-step" class="btn btn--dark-blue" data-ga-action="nav - top" data-ga-label="Get Plenity">Get Plenity</a>
+                        </li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-max-width" id="main-content">
+        <section class="full-image-hero full-image-hero--light" data-ga-module="The freedom to focus on you, not your weight.">
+    <!--full-image-hero--light--->
+    <div class="full-image-hero__background">
+            <picture>
+
+                <!-- Mobile Image -->
+                <source media="(max-width: 500px)" srcset="/siteassets/components/banners/acq_home_hero_banner_happy-person_sm.jpg">
+                <!-- Tablet Image -->
+                <source media="(max-width: 960px)" srcset="">
+                <!-- Desktop Image -->
+                
+
+
+    <img src="/siteassets/components/banners/acq_home_hero_banner_happy-person_lg.jpg" alt="Happy Person" class="" />
+
+            </picture>
+    </div>
+    <div class="full-image-hero__content">
+        <div class="full-image-hero__intro">
+
+
+                <h1 class="full-image-hero__title" >The freedom to focus on you, not your weight.</h1>
+
+                <div class="full-image-hero__subtitle">
+                    <!-- TrustBox script -->
+<p>
+<script src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async="" type="text/javascript"></script>
+</p>
+<!-- End TrustBox script --><!-- TrustBox widget - Starter -->
+<div class="trustpilot-widget" data-locale="en-US" data-template-id="5613c9cde69ddc09340c6beb" data-businessunit-id="61b1708573dd3a551cba1419" data-style-height="100%" data-style-width="100%" data-theme="light"><a href="https://www.trustpilot.com/review/myplenity.com" target="_blank" rel="noopener">Trustpilot</a></div>
+<!-- End TrustBox widget -->
+                </div>
+
+                <a  href="/first-step" class="btn full-image-hero__cta" target="" data-ga-action="cta" data-ga-label="Get Plenity">Get Plenity</a>
+
+        </div>
+            <div class="full-image-hero__disclaimer">
+                <p>Plenity&reg; is indicated to aid weight management in adults with excess weight or obesity, a Body Mass Index (BMI) of 25&ndash;40 kg/m&sup2;, when used in conjunction with diet and exercise.</p>
+            </div>
+    </div>
+</section>
+
+    <section class="content-mid-width   margin-top-sm   margin-bottom-sm        " >
+        
+
+    <section class="             " >
+        
+
+    <div class="grid-container  grid-container--img-right            ">
+        <div class="grid-container__forty-width" >
+            
+    <div class="text-cta" data-ga-module="It’s time to rethink weight&amp;nbsp;loss.">
+            <div class="text-cta__eyebrow">
+                A NEW KIND OF MEMBER EXPERIENCE
+            </div>
+                    <h2 class="text-cta__title" >
+                It’s time to rethink weight&nbsp;loss.
+            </h2>
+                    <div class="text-cta__description">
+                <p>We combine an FDA-cleared weight loss aid with science-backed resources from behavioral science, nutritional research, and psychology to help you take steps toward meaningful change.</p>
+            </div>
+                    <a  href="/about" class="btn btn--dark-blue" target="_top" data-ga-action='cta' data-ga-label='SEE HOW'>SEE HOW<span class="visually-hidden">It’s time to rethink weight loss.</span></a>
+    </div>
+
+        </div>
+
+        <div class="grid-container__sixty-width" >
+            
+
+
+    <img src="/siteassets/components/spotlights/acq_home_spotlight_plenity_pills_package_lg.png" alt="Plenity Package" class="" />
+
+        </div>
+    </div>
+
+    </section>
+
+    </section>
+
+
+    <section class="             " >
+            <div class="full-width-cta full-width-cta--light-bg" data-ga-module="Healthcare Provider?">
+        <div class="full-width-cta__container content-min-width">
+                <h3 class="full-width-cta__headline">
+                    Healthcare Provider?
+                </h3>
+                            <a href="/healthcare-professionals" target="_blank" class="btn" data-ga-action='cta' data-ga-label='HCP Site'><nobr>HCP Site</nobr></a>
+        </div>
+    </div>
+
+    </section>
+
+
+    <section class="content-max-width              " >
+        
+    <div class="themed-icon-text bg-blue-bubbles" data-ga-module="Plenity helps you eat less so you can lose weight.">
+        <div class="themed-icon-text__container">
+            <div class="themed-icon-text__intro">
+                <div class="themed-icon-text__eyebrow" >START BY FEELING FULLER</div>
+                <h2 class="themed-icon-text__title" >Plenity helps you eat less so you can lose weight.</h2>
+            </div>
+
+            <div class="themed-icon-text__steps content-mid-width" >
+
+        <div class="themed-icon-text__step">
+            <div class="themed-icon-text__step-img" >
+
+                
+
+
+    <img src="/siteassets/components/images/icon_pills_white.png" alt="Pills Illustration" class="" />
+
+            </div>
+            <div class="themed-icon-text__step-desc" >
+                Take three capsules with water 20 minutes before lunch and dinner.*
+            </div>
+        </div>
+                        <img class="themed-icon-text__divider" src='/static/dist/static/hcp/images/themed-icon-plus.svg' alt="" role="presentation">
+
+        <div class="themed-icon-text__step">
+            <div class="themed-icon-text__step-img" >
+
+                
+
+
+    <img src="/siteassets/components/images/icon_water-glass_white.png" alt="Water cup Illustration" class="" />
+
+            </div>
+            <div class="themed-icon-text__step-desc" >
+                You must drink 16 ounces of water for Plenity to work.
+            </div>
+        </div>
+                        <img class="themed-icon-text__divider" src='/static/dist/static/hcp/images/themed-icon-plus.svg' alt="" role="presentation">
+
+        <div class="themed-icon-text__step">
+            <div class="themed-icon-text__step-img" >
+
+                
+
+
+    <img src="/siteassets/components/images/icon_clock_white.png" alt="Clock Illustration" class="" />
+
+            </div>
+            <div class="themed-icon-text__step-desc" >
+                Take these 20 minutes to plan your meal and focus on you.
+            </div>
+        </div>
+            </div>
+            <div class="themed-icon-text__bottom">
+                    <a  href="/about" class="themed-icon-text__btn btn btn--white">HOW IT WORKS<span class="visually-hidden">Plenity helps you eat less, so you can lose weight.</span></a>
+                <div class="themed-icon-text__disclaimer">
+                    *If a pre-meal dose is missed, take Plenity during or immediately after that meal.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <section class="content-max-width bg-light-blue        padding-top-sm   padding-bottom-sm  " >
+        
+
+    <section class="content-mid-width              " >
+                <div class="rich-text-block">
+            <h2 class="center-left-alignment">Two ways to get Plenity.</h2>
+        </div> 
+
+
+    <section class="content-max-width   margin-top-sm           " >
+        
+
+    <div class="grid-container            padding-bottom-md  ">
+        <div class="grid-container__sixty-width" >
+            
+
+
+    <img src="/siteassets/components/spotlights/acq_about_spotlight_person-talking-with-consultant-v2.jpg" alt="Person on the phone with consultant" class="" />
+
+        </div>
+
+        <div class="grid-container__forty-width &lt;div class=&quot;epi-contentfragment&quot;&gt;Spotlight copy&lt;/div&gt;" >
+            
+    <div class="text-cta" data-ga-module="Start online.">
+                    <h2 class="text-cta__title" >
+                Start online.
+            </h2>
+                    <div class="text-cta__description">
+                <p>We&rsquo;ve made it easy to see if you qualify! Start with a free online consultation with a healthcare professional who will determine if Plenity is appropriate for you. You&rsquo;ll have an answer within 24 hours.</p>
+            </div>
+                    <a  href="/first-step" class="btn btn--dark-blue" target="" data-ga-action='cta' data-ga-label='GET PLENITY NOW'>GET PLENITY NOW<span class="visually-hidden">Start online</span></a>
+    </div>
+
+        </div>
+    </div>
+
+
+    <div class="grid-container  grid-container--img-right          padding-bottom-sm  ">
+        <div class="grid-container__forty-width" >
+            
+    <div class="text-cta" data-ga-module="Ask your doctor.">
+                    <h2 class="text-cta__title" >
+                Ask your doctor.
+            </h2>
+                    <div class="text-cta__description">
+                <p data-renderer-start-pos="166">Or simply ask your doctor if Plenity is right for you and your weight loss goals. <a href="/siteassets/components/pdfs/plenity-physician-pamphlet.pdf" target="_blank" rel="noopener" data-ga-label="download this physician handout">Download this physician handout</a> to help you have an informed conversation with your doctor about Plenity.</p>
+<p data-renderer-start-pos="166">Either way, once prescribed, you&rsquo;ll have access to the entire Plenity Member Experience and Plenity will be delivered with free 2-day shipping.</p>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="grid-container__sixty-width" >
+            
+
+
+    <img src="/siteassets/components/spotlights/acq_the_science_spotlight_happy-patient-_lg.jpg" alt="a patient talking to a doctor" class="" />
+
+        </div>
+    </div>
+
+    </section>
+
+
+    <section class="             " >
+                <div class="rich-text-block">
+            <p>&nbsp;</p>
+<hr />
+<p style="text-align: center;">&nbsp;</p>
+        </div> 
+
+
+    <section class="content-min-width              " >
+                <div class="rich-text-block">
+            <h2 style="text-align: center;">What does it cost?</h2>
+<p style="text-align: center;">Get everything Plenity offers for just $1.75 per meal. $98/4-week supply. Save 15% when you purchase a 12-week supply ($249/$1.48 per meal). Prescription&nbsp;required.</p>
+        </div> 
+
+    </section>
+        <div class="rich-text-block">
+            <p>&nbsp;</p>
+<p style="text-align: center;"><a class="btn btn--dark-blue" href="/first-step" title="Get Plenity Now">Get Plenity Now</a></p>
+<p>&nbsp;</p>
+<hr />
+        </div> 
+
+    </section>
+
+
+    <section class="content-min-width   margin-top-sm   margin-bottom-sm        " >
+        
+
+    <section class="content-min-width            padding-bottom-sm  " >
+                <div class="rich-text-block">
+            <h3 style="text-align: center;">Plenity Chief Nutrition Officer, Joy Bauer, MS, RDN, <br />CDN explains the science behind Plenity. <br />Watch to learn more.</h3>
+        </div> 
+
+    </section>
+	<div class="media-block video-embed">
+		<div class="video-embed__container">
+			<div class="video-embed__player">
+			
+
+<img src="/siteassets/components/media-blocks/acq_hcp_video_plenity-chief.png" alt="" />
+				<button class="video-embed__play" onclick="openDialog('https://www.youtube.com/embed/XKwFooulvk4', this)" data-ga-action="video" data-ga-label="quote - ">
+					<img src="/static/dist/static/hcp/images/play-button-dark.png" alt="Play video of Plenity Chief Nutrition Officer, Joy Bauer, MS, RDN, CDN explains the science behind Plenity. Watch to learn more." />
+				</button>
+			</div>
+		</div>
+
+
+
+	</div>
+		<div role="dialog" id="https://www.youtube.com/embed/XKwFooulvk4" aria-modal="true" class="hidden modal-dialog">
+			<button class="modal-dialog__close-button" onclick="closeDialog(this)">[X close]</button>
+			<div class="modal-dialog__modal">
+				<div class="modal-dialog__embed">
+					<iframe src="https://www.youtube.com/embed/XKwFooulvk4" title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy"
+							allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+    </section>
+
+    </section>
+
+    </section>
+
+
+    <section class="content-max-width      margin-bottom-sm        " >
+            <section class="mosaic" data-ga-module="Discover what works for you.">
+     
+    <div class="mosaic__item mosaic__item--image" >
+
+
+
+    <img src="/siteassets/components/mosaic-block/acq_home_spotlight_person-making-food_lg.jpg" alt="Person preparing food" class="" />
+    </div>
+    <div class="mosaic__item mosaic__item--image" >
+
+
+
+    <img src="/siteassets/components/mosaic-block/mosaic-lettuce-v2.jpg" alt="A head of lettuce" class="" />
+    </div>
+    <div class="mosaic__item mosaic__item--image mosaic__item--branded-block" >
+
+
+
+    <img src="/siteassets/components/mosaic-block/acq_plenity_branded_p_green.png" alt="Plenity Branded P" class="" />
+    </div>
+    <div class="mosaic__item mosaic__item--image mosaic__item--mobile-only">
+
+
+
+    <img src="/siteassets/components/mosaic-block/acq_home_mosaic_person-looking-in-mirror_sm.jpg" alt="Person looking in mirror" class="" />
+    </div>
+        <div class="mosaic__item mosaic__item--content">
+            <div class="mosaic__item--content-wrap">
+                <div class="text-cta">
+
+                        <div class="text-cta__eyebrow">
+                            FUELED BY RESEARCH
+                        </div>
+
+                        <h2 class="text-cta__title">
+                            Discover what works for you.
+                        </h2>
+
+                        <div class="text-cta__description">
+                            <p>No gimmicks, just science-backed resources to help support your weight management journey.</p>
+                        </div>
+
+                                    </div>
+            </div>
+
+        </div>
+    </section>
+
+    </section>
+
+
+    <section class="content-max-width bg-white-blue        padding-top-sm   padding-bottom-sm  " >
+        
+
+    <section class="content-mid-width              " >
+        	<div class="media-block video-embed">
+		<div class="video-embed__container">
+			<div class="video-embed__player">
+			
+
+<img src="/siteassets/components/media-blocks/acq_video_bridget-b_desktop.jpg" alt="" />
+				<button class="video-embed__play" onclick="openDialog('https://www.youtube.com/embed/nDUN5zg3gY0', this)" data-ga-action="video" data-ga-label="quote - —Bridget, Plenity member">
+					<img src="/static/dist/static/hcp/images/play-button-dark.png" alt="Play video of Bridget B. - Plenity Member" />
+				</button>
+			</div>
+		</div>
+
+			<div class="media-block__content">
+				<img class="media-block__icon" src="/static/dist/static/images/media-quote-icon.svg" alt="" role="presentation">
+				<div class="media-block__quote">
+					It wasn’t restrictive. I could still eat the foods my family was eating, and still make progress toward my weight.
+				</div>
+				<div class="media-block__author">
+					—Bridget, Plenity member
+				</div>
+			</div>
+
+
+			<div class="media-block__btn">
+				<a href="/success-stories" target="_top" class="btn btn--dark-blue" data-ga-action="cta" data-ga-label="MORE STORIES">MORE STORIES<span class="visually-hidden"></span></a>
+			</div>
+	</div>
+		<div role="dialog" id="https://www.youtube.com/embed/nDUN5zg3gY0" aria-modal="true" class="hidden modal-dialog">
+			<button class="modal-dialog__close-button" onclick="closeDialog(this)">[X close]</button>
+			<div class="modal-dialog__modal">
+				<div class="modal-dialog__embed">
+					<iframe src="https://www.youtube.com/embed/nDUN5zg3gY0" title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy"
+							allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+    </section>
+
+    </section>
+
+
+    <section class="content-max-width              " >
+          <section class="blog-related-resources content-max-width" data-ga-module="Change your behavior, change your weight management journey.">
+    <div class="grid-container">
+      <div class="grid-container__full-width">
+        <span class="blog-related-resources__eyebrow">Beyond the Pod</span>
+        <h3 class="blog-related-resources__title">Change your behavior, change your weight management journey.</h3>
+      </div>
+    </div>
+	<div class="blog-related-resources__wrapper grid-container grid-container--match-height">
+		
+
+		<div class="blog-related-resources__article grid-container__third-width">
+    <section class="blog-article">
+            <div class="blog-article__image">
+
+                <img src="/siteassets/blog/banners/acq_btp_hero_banner_the_science_t.jpg" alt="" role="presentation">
+            </div>
+
+        <div class="blog-article__content">
+                <div class="blog-article__tags">
+                        <span class="blog-article__tag-item">Nutrition</span>
+                </div>
+
+            <a href="/blog/the-science-behind-cheat-meals" class="blog-article__title" data-ga-action="blog - article" data-ga-label="The Science Behind Cheat Meals">The Science Behind Cheat Meals</a>
+
+                <div class="blog-article__author">
+                        <img src="/siteassets/blog/authors/headshot-nicole-morgan.jpg" alt="" role="presentation"
+                             class="blog-article__author-image">
+
+                    <div class="blog-article__author-name">Nicole German Morgan, RDN, LD, CLT</div>
+                </div>
+
+                <div class="blog-article__summary">
+                    <p>
+                        “Cheat meals” and “cheat days” might feel like a well-earned reward, but they may be doing more harm than good when you’re trying to make sustainable lifestyle changes. In this article, dietitian Nicole German Morgan dives into the scientific evidence.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+		</div>
+		<div class="blog-related-resources__article grid-container__third-width">
+    <section class="blog-article">
+            <div class="blog-article__image">
+
+                <img src="/siteassets/blog/banners/acq_blog_hero_banner_happy-person_sm.jpg" alt="" role="presentation">
+            </div>
+
+        <div class="blog-article__content">
+                <div class="blog-article__tags">
+                        <span class="blog-article__tag-item">Behavior Change</span>
+                </div>
+
+            <a href="/blog/the-link-between-sleep-and-weight-loss" class="blog-article__title" data-ga-action="blog - article" data-ga-label="The Link Between Sleep and Weight Loss">The Link Between Sleep and Weight Loss</a>
+
+                <div class="blog-article__author">
+                        <img src="/siteassets/blog/authors/dr-ellen-albertson-headshot.jpg" alt="" role="presentation"
+                             class="blog-article__author-image">
+
+                    <div class="blog-article__author-name">Ellen Albertson, PhD, RDN, CD, NBC-HWC</div>
+                </div>
+
+                <div class="blog-article__summary">
+                    <p>
+                        There’s a troubling connection between sleep, or lack thereof, and weight gain. Catch up on your Z’s and rest better tonight with these tips from Dr. Ellen Albertson.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+		</div>
+		<div class="blog-related-resources__article grid-container__third-width">
+    <section class="blog-article">
+            <div class="blog-article__image">
+
+                <img src="/siteassets/blog/banners/ACQ_blog_Hero-Banner_Debunking-Myths_Sm.jpg" alt="" role="presentation">
+            </div>
+
+        <div class="blog-article__content">
+                <div class="blog-article__tags">
+                        <span class="blog-article__tag-item">Nutrition</span>
+                </div>
+
+            <a href="/blog/debunking-myths-superfoods" class="blog-article__title" data-ga-action="blog - article" data-ga-label="Debunking Myths: Superfoods">Debunking Myths: Superfoods</a>
+
+                <div class="blog-article__author">
+                        <img src="/siteassets/blog/authors/headshot-nicole-morgan.jpg" alt="" role="presentation"
+                             class="blog-article__author-image">
+
+                    <div class="blog-article__author-name">Nicole German Morgan, RDN, LD, CLT</div>
+                </div>
+
+                <div class="blog-article__summary">
+                    <p>
+                        Outsmart hunger with nutrient-dense foods that contain more fiber, healthy fats, and protein. A few simple additions or swaps can help you feel fuller and more satisfied.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+		</div>
+
+		<div class="blog-related-resources__cta-wrap" >
+			<a href="/blog" target="_top" class="btn btn--dark-blue" data-ga-activity="blog - article" data-ga-label="see MORE ARTICLES">see MORE ARTICLES</a>
+		</div>
+	</div>
+  </section>
+
+    </section>
+
+
+
+    <section class="content-max-width">
+        <div class="disclaimer">
+            <section class="disclaimer__container">
+<p>Plenity&reg; is indicated to aid weight management in adults with excess weight or obesity, a Body Mass Index (BMI) of 25&ndash;40 kg/m&sup2;, when used in conjunction with diet and exercise.</p>
+<p>&nbsp;</p>
+<h4>Important Safety Information</h4>
+<ul>
+<li>Patients who are pregnant or are allergic to cellulose, citric acid, sodium stearyl fumarate, gelatin, or titanium dioxide should not take Plenity.</li>
+<li>To avoid impact on the absorption of medications:
+<ul>
+<li>For all medications that should be taken with food, take them after starting a meal.</li>
+<li>For all medications that should be taken without food (on an empty stomach), continue taking on an empty stomach or as recommended by your physician.</li>
+</ul>
+</li>
+<li>The overall incidence of side effects with Plenity was no different than placebo. The most common side effects were diarrhea, distended abdomen, infrequent bowel movements, and flatulence.</li>
+<li>Contact a doctor right away if problems occur. If you have a severe allergic reaction, severe stomach pain, or severe diarrhea, stop using Plenity until you can speak to your doctor.</li>
+</ul>
+<p><strong>Rx Only. </strong>For the safe and proper use of Plenity or more information, talk to a healthcare professional, read the <a href="/siteassets/components/pdfs/ACQ_Plenity-Patient-Instructions-of-Use.pdf" target="_blank" rel="noopener" data-ga-label="physicians instructions for use">Patient Instructions for Use</a>.</p>            </section>
+        </div>
+    </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="content-max-width footer__column-wrap">
+            <section class="footer__left-column">
+                    <a class="footer__logo" href="/"  data-ga-action="nav - bottom" data-ga-label="Plenity logo">
+                        <img src="/siteassets/settings/plenity-logo-white.svg" alt="Plenity Homepage" />
+                    </a>
+                <div class="footer__byline"></div>
+                <nav class="footer__navigation" aria-label="Footer Main Navigation">
+                    <ul class="footer__main-navigation">
+
+                                <li>
+                                    <a href="/about" class="footer__main-link" data-ga-action="nav - bottom" data-ga-label="The Science">The Science</a>
+                                </li>
+                                <li>
+                                    <a href="/success-stories" class="footer__main-link" data-ga-action="nav - bottom" data-ga-label="Success Stories">Success Stories</a>
+                                </li>
+                                <li>
+                                    <a href="/blog" class="footer__main-link" data-ga-action="nav - bottom" data-ga-label="Beyond the Pod">Beyond the Pod</a>
+                                </li>
+                                <li>
+                                    <a href="/faq" class="footer__main-link" data-ga-action="nav - bottom" data-ga-label="FAQ">FAQ</a>
+                                </li>
+                    </ul>
+                </nav>
+
+                <nav class="footer__navigation" aria-label="Footer Social Navigation">
+                    <ul class="footer__social-navigation">
+                        <li>
+                                <a class="footer__social-link" href="https://www.facebook.com/Plenity/"  data-ga-action="social" data-ga-label='facebook' target="_blank">
+                                    <img src="/siteassets/settings/icon-facebook.svg" alt="Facebook - Opens in New Tab" />
+                                </a>
+
+                        </li>
+                        <li>
+                                        <a class="footer__social-link" href="https://www.instagram.com/plenity/"  data-ga-action="social" data-ga-label='Instagram'  target="_blank">
+                                    <img src="/siteassets/settings/icon-instagram.svg" alt="Instagram - Opens in New Tab" />
+                                </a>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="footer__navigation" aria-label="Footer Utility Navigation">
+                    <ul class="footer__utility-navigation">
+
+                                <li>
+                                    <a href="/contact" class="footer__utility-link" data-ga-action="nav - bottom" data-ga-label="Contact Us">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.gelesis.com/terms-and-conditions/" class="footer__utility-link" data-ga-action="nav - bottom" data-ga-label="Terms and Conditions">Terms and Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.gelesis.com/privacy-policy/" class="footer__utility-link" data-ga-action="nav - bottom" data-ga-label="Privacy Policy">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="/refund" class="footer__utility-link" data-ga-action="nav - bottom" data-ga-label="Returns and Refunds">Returns and Refunds</a>
+                                </li>
+                    </ul>
+                </nav>
+
+
+            </section>
+            <div class="footer__right-column">
+                
+                <section class="footer__copyright">
+                            <a href="https://www.gelesis.com/" class="footer__gelesis-logo" target="_blank" data-ga-action="nav - bottom" data-ga-label="Gelesis logo">
+                                
+
+
+    <img src="/siteassets/settings/gelesis-logo-white.png" alt="Gelesis" class="" />
+
+                            </a>
+                    <div class="footer__legal-copy">
+                        <p>Developed, clinically tested, and manufactured by Gelesis.</p>
+<p style="width: 120px;">
+<script src="https://static.legitscript.com/seals/5093324.js"></script>
+</p>
+                        <p>
+                            © 2023 Gelesis, Inc. All rights reserved.<br />
+                                <span>US-PLEN-2000613</span>
+                                                            <span>
+                                    01/2022
+                                </span>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/dist/static/hcp/js/main.min.js?v=637965243420000000"></script>
+
+    <script type="text/javascript" src="https://dl.episerver.net/13.5.8/epi-util/find.js"></script>
+<script type="text/javascript">
+if(typeof FindApi === 'function'){var api = new FindApi();api.setApplicationUrl('/');api.setServiceApiBaseUrl('/find_v2/');api.processEventFromCurrentUri();api.bindWindowEvents();api.bindAClickEvent();api.sendBufferedEvents();}
+</script>
+
+
+
+    
+</body>
+</html>
+
+
+
+https://beta.myplenity.com:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: api-resident.prod.latchaccess.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.11) Gecko/2009060309 Ubuntu/9.10 (karmic) Firefox/3.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:43:11 GMT
+Referrer-Policy: no-referrer
+Vary: Accept-Encoding,Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699418590999},"payload":{"message":""},"trailer":{"checkSum":3602589769}}
+
+
+https://api-resident.prod.latchaccess.com:443

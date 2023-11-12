@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: flowers.instacart.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227483a7e25cb01-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:26:36 GMT
+Expect-Ct: max-age=0
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Server: cloudflare
+Set-Cookie: ahoy_visit=ce420eb3-88a5-4422-b093-9a936b08d8d8; Path=/; Expires=Tue, 07 Nov 2023 21:26:36 GMT; SameSite=Lax
+Set-Cookie: ahoy_track=true; Path=/
+Set-Cookie: ahoy_visitor=e4b21446-1e4f-4296-a89c-4eeb549a5557; Max-Age=63072000; Path=/; Expires=Thu, 06 Nov 2025 17:26:36 GMT
+Set-Cookie: __cf_bm=RVVtRVV.aKcO0U7gR7RzxCEqbAvti1SMP5ZPYI9N6mc-1699377996-0-Aa9R620V0TwVUJCmGO90HSr2MN49mQyKnCDdlR40nT/uQvETK1c6bWy4AH9V53XsK6+caiuty46h7SeK0tpazGM=; path=/; expires=Tue, 07-Nov-23 17:56:36 GMT; domain=.flowers.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Www-Authenticate: Basic realm="Application"
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+1a
+HTTP Basic: Access denied.
+0
+
+
+
+
+https://flowers.instacart.com:443

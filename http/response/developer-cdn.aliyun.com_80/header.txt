@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: developer-cdn.aliyun.com
+User-Agent: Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 373
+Ali-Swift-Global-Savetime: 1699433255
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:47:35 GMT
+Eagleid: 3daa511916994332554043893e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[131,130,403-1280,M], cache48.l2cn1827[132,0], vcache3.cn6013[166,165,403-1280,M], vcache5.cn6013[173,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4B27478EF43331FE075B
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 08:47:35 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4B27478EF43331FE075B</RequestId>
+  <HostId>developer-center.oss-cn-beijing.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://developer-cdn.aliyun.com:80

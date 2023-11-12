@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: analytics.cloud.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 857
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'none'; script-src 'self' https://* 'strict-dynamic' 'unsafe-inline'  'nonce-374m+R5lQbgd72XloDaeCQ=='; connect-src 'self' blob: https://*.cloud.com https://*.citrixworkspacesapi.net https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://*.ctxwsstgapi.net https://cis.citrix.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://ccpendo.blob.core.windows.net https://pendo-static-6508245000126464.storage.googleapis.com https://cdn.pendo.io https://bam.nr-data.net https://*.mapbox.com https://o167200.ingest.sentry.io/api/5388354/store/ https://casstorageuilog.blob.core.windows.net/ https://docs.citrix.com; img-src 'self' data: blob: image/svg+xml image/png https://*.cloud.com https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://*.storage.googleapis.com; style-src 'self' 'unsafe-inline' https://*.cloud.com https://cdn-web.citrix.com/can.cdn/marketing/assets/fonts/citrix-fonts-linking.css https://*.storage.googleapis.com https://citrix-cloud-content.customer.pendo.io https://citrix-cloud-data.customer.pendo.io https://cdn.pendo.io https://app.pendo.io https://tagmanager.google.com https://fonts.googleapis.com https://cas-api-gw-ase-cdn.azureedge.net https://cas-api-gw-demo.azureedge.net https://cas-api-cdn-ep.azureedge.net https://cas-ui-cdn-ep.azureedge.net; font-src 'self' data: https://*.cloud.com https://*.cloudburrito.com https://cdn-web.citrix.com https://fonts.gstatic.com; child-src blob: ;worker-src blob: ;frame-src *;frame-ancestors 'self';object-src 'none';
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:06 GMT
+Location: https://citrix.cloud.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3MuY2xvdWQuY29tLztRME10VWxOQkxWTklRVEkxTmkweU96RTJPVGt6T1RnMk5qWTdOalkwWmpNNFpHSXpOR0kzTkRGaE56VTRObU0xTVdJMk5HVmtNekV5T1dRN1JVbHlNeXRIY3poTFpEZFpWbVI1Wnl0cU5XSXhNbE5qWXpSU1ZWQnlkeTlyVVZsTWFFSnZNbk0zUTNWdVdHVnpUelo0WlVjdlVtNVVWREJCYXpkNWVYZFBUVWx4V25CNGVFUnVNa2QwSzFGWU0zY3hTVFE1VEUxR1VreDZlUzkwT0RaVU9YbHlWRUpIVTFOcGN6Tm1WMDk1ZEVaUFpFczRaRE5tUW5WRlNIaHVZVzFVWTNkRVRUQnhhM1ZWU1c1VU1YaG1OVlI2U205eU16UndlSE5zVEdWTk5EbFpXaTl3WlVJNGFsRkVhRGxLVjFWNlpXbFZVWEJoVkVwelZXNUhVRFppV0dKUE1FcFVTV05IUjFCamNreEtVeXMyY0dnMlMxUm5aQ3RQYmpSUFJqWm5TVVpNYXpSelNVd3ZhbHBTY3poeWRXUXZSVEpPYkRGUmRFSlZNWFJSZW5kdGNFRXZRM0J0VjJ4eGJrZG5ZV2xYYm10Tk5sRlRhMmcxT0VOcWRIUm9ZMWRGSzBnNE5ESjZlbXRVVkZKRmIwTjZXU3RDZVhSaVdGUlFaakJwU2s1NWFXRlVlVEp0TDNkUFZGSXZjemxUZFRaM1BUMDdRMmwwY21sNFFXNWhiSGwwYVdOelVsQT0
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept, Accept-Encoding
+X-Azure-Ref: 20231107T231106Z-5d13y84k0d0bp9yncwpc6fvw5800000001b0000000022b08
+X-Cache: CONFIG_NOCACHE
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 4
+X-Powered-By: Express
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://citrix.cloud.com//login?redirectUrl=aHR0cHM6Ly9hbmFseXRpY3MuY2xvdWQuY29tLztRME10VWxOQkxWTklRVEkxTmkweU96RTJPVGt6T1RnMk5qWTdOalkwWmpNNFpHSXpOR0kzTkRGaE56VTRObU0xTVdJMk5HVmtNekV5T1dRN1JVbHlNeXRIY3poTFpEZFpWbVI1Wnl0cU5XSXhNbE5qWXpSU1ZWQnlkeTlyVVZsTWFFSnZNbk0zUTNWdVdHVnpUelo0WlVjdlVtNVVWREJCYXpkNWVYZFBUVWx4V25CNGVFUnVNa2QwSzFGWU0zY3hTVFE1VEUxR1VreDZlUzkwT0RaVU9YbHlWRUpIVTFOcGN6Tm1WMDk1ZEVaUFpFczRaRE5tUW5WRlNIaHVZVzFVWTNkRVRUQnhhM1ZWU1c1VU1YaG1OVlI2U205eU16UndlSE5zVEdWTk5EbFpXaTl3WlVJNGFsRkVhRGxLVjFWNlpXbFZVWEJoVkVwelZXNUhVRFppV0dKUE1FcFVTV05IUjFCamNreEtVeXMyY0dnMlMxUm5aQ3RQYmpSUFJqWm5TVVpNYXpSelNVd3ZhbHBTY3poeWRXUXZSVEpPYkRGUmRFSlZNWFJSZW5kdGNFRXZRM0J0VjJ4eGJrZG5ZV2xYYm10Tk5sRlRhMmcxT0VOcWRIUm9ZMWRGSzBnNE5ESjZlbXRVVkZKRmIwTjZXU3RDZVhSaVdGUlFaakJwU2s1NWFXRlVlVEp0TDNkUFZGSXZjemxUZFRaM1BUMDdRMmwwY21sNFFXNWhiSGwwYVdOelVsQT0
+
+
+https://analytics.cloud.com:443

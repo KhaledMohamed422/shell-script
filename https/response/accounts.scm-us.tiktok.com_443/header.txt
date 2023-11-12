@@ -1,0 +1,49 @@
+GET / HTTP/1.1
+Host: accounts.scm-us.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy: report-to csp-endpoint; upgrade-insecure-requests ; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: data: bytedance: *.akamaized.net *.braintree-api.com *.braintreegateway.com *.bytedapm.com *.byteintlapi.com *.bytelemon.com *.byteoversea.com *.byteoversea.net *.doubleclick.net *.g-p-static.com *.goofy-cdn.com *.goofy.app *.google-analytics.com *.google.ad *.google.ae *.google.al *.google.am *.google.as *.google.at *.google.az *.google.ba *.google.be *.google.bf *.google.bg *.google.bi *.google.bj *.google.bs *.google.bt *.google.by *.google.ca *.google.cat *.google.cd *.google.cf *.google.cg *.google.ch *.google.ci *.google.cl *.google.cm *.google.co.ao *.google.co.bw *.google.co.ck *.google.co.cr *.google.co.id *.google.co.il *.google.co.in *.google.co.jp *.google.co.ke *.google.co.kr *.google.co.ls *.google.co.ma *.google.co.mz *.google.co.nz *.google.co.th *.google.co.tz *.google.co.ug *.google.co.uk *.google.co.uz *.google.co.ve *.google.co.vi *.google.co.za *.google.co.zm *.google.co.zw *.google.com *.google.com.af *.google.com.ag *.google.com.ar *.google.com.au *.google.com.bd *.google.com.bh *.google.com.bn *.google.com.bo *.google.com.br *.google.com.bz *.google.com.co *.google.com.cu *.google.com.cy *.google.com.do *.google.com.ec *.google.com.eg *.google.com.et *.google.com.fj *.google.com.gh *.google.com.gi *.google.com.gt *.google.com.jm *.google.com.kh *.google.com.kw *.google.com.lb *.google.com.ly *.google.com.mm *.google.com.mt *.google.com.mx *.google.com.my *.google.com.na *.google.com.ng *.google.com.ni *.google.com.np *.google.com.om *.google.com.pa *.google.com.pe *.google.com.pg *.google.com.ph *.google.com.pk *.google.com.pr *.google.com.py *.google.com.qa *.google.com.sa *.google.com.sb *.google.com.sg *.google.com.sl *.google.com.sv *.google.com.tj *.google.com.tr *.google.com.ua *.google.com.uy *.google.com.vc *.google.com.vn *.google.cv *.google.cz *.google.de *.google.dj *.google.dk *.google.dm *.google.dz *.google.ee *.google.es *.google.fi *.google.fm *.google.fr *.google.ga *.google.ge *.google.gg *.google.gl *.google.gm *.google.gr *.google.gy *.google.hn *.google.hr *.google.ht *.google.hu *.google.ie *.google.im *.google.iq *.google.is *.google.it *.google.je *.google.jo *.google.kg *.google.ki *.google.kz *.google.la *.google.li *.google.lk *.google.lt *.google.lu *.google.lv *.google.md *.google.me *.google.mg *.google.mk *.google.ml *.google.mn *.google.mu *.google.mv *.google.mw *.google.ne *.google.nl *.google.no *.google.nr *.google.nu *.google.pl *.google.pn *.google.ps *.google.pt *.google.ro *.google.rs *.google.ru *.google.rw *.google.sc *.google.se *.google.sh *.google.si *.google.sk *.google.sm *.google.sn *.google.so *.google.sr *.google.st *.google.td *.google.tg *.google.tl *.google.tm *.google.tn *.google.to *.google.tt *.google.vu *.google.ws *.googleapis.com *.googletagmanager.com *.gstatic.com *.ibytedtos.com *.ibyteimg.com *.oecsccdn.com *.pagespeed-mod.com *.paypal.com *.tiktok.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokmusic.me *.tiktokstaticb.com *.tiktokv.com *.ttwstatic.com *.yhgfb-static.com tiktok.com; report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_pns#a50ca926-c70a-44e8-87c5-5baf54adc7d3
+Content-Security-Policy-Report-Only: script-src 'unsafe-eval' 'report-sample' 'nonce-efdec1d4ee13946c94d81b34f49e6931-argus' 'strict-dynamic';
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:42:56 GMT
+Expires: Wed, 08 Nov 2023 18:42:56 GMT
+Pragma: no-cache
+Reporting-Endpoints: csp-endpoint="https://mon-va.byteoversea.com/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Reporting-Endpoints: slardar-endpoint="https://mon-va.byteoversea.com/monitor_browser/collect/batch/security/?bid=i18n_suppply_chain_merchant"
+Server: TLB
+Server-Timing: inner; dur=99, bd-gf-file-origin;desc="file from local cache",bd-gf-file-total;dur=3.99861,bd-gf-total;dur=13.524948,bd-hdd-sched;dur=68.15,bd-hdd-exec;dur=26.533
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=562
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 24877f0c
+X-Bytefaas-Function-Id: j4i92cij
+X-Bytefaas-Gateway-Duration: 95.48
+X-Bytefaas-Request-Id: 51e6f82e-851b-4874-8400-a18c5f26f7dd
+X-Cache: TCP_MISS from a2-16-121-72.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Content-Type-Options: nosniff
+X-Deploy-Channel-Id: 219299
+X-Deploy-Dest-Psm: goofy_web.maliva.219299_v2
+X-Deploy-Scm-Version: 1.0.0.22
+X-Deploy-Transfer: string
+X-Deploy-Web-Server-Cache-Cost: 2
+X-Deploy-Web-Server-Cache-Hit: local
+X-Dns-Prefetch-Control: off
+X-Ggw-Config-Version: 453601
+X-Ggw-Server: goofy-gateway/1.0.0.379/20231102_132512
+X-Goofy-Deploy-Version: 1.0.0.22
+X-Goofy-Runtime: workerV2
+X-Goofy-Web-Server-Version: 1.0.0.170
+X-Lgw-Dst-Psm: goofy_web.maliva.219299_v2
+X-Origin-Response-Time: 562,2.16.121.72
+X-Powered-By: Goofy
+X-Pumbaa-Web-Avail: 1
+X-Tt-Logid: 2023110818425579F366917C268121E366
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aceb18b56cf5f37c31d7721427cb41679597ec285a97d60549e80a45448eec801d7c4c28ce49c6626ddd5cce314eb0a861fd2230c8706b12a0dd9abd7a888d602e085de6ace7997acda953de079757de8
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X-Xss-Protection: 0
+

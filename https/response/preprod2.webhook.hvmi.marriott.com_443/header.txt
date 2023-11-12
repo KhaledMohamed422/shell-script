@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: preprod2.webhook.hvmi.marriott.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:01 GMT
+Expires: Tue, 07 Nov 2023 17:29:01 GMT
+X-Amz-Apigw-Id: OCcKpGdeIAMEGsw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 46bcab94-dba9-4a81-a96e-a5c91676ea00
+X-Amzn-Trace-Id: Root=1-654a73dd-58da52b4758b7bb378f64dba
+
+{"message":"Missing Authentication Token"}
+
+
+https://preprod2.webhook.hvmi.marriott.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: discovery.trusona.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.49 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 20
+Accept-Ranges: bytes
+Age: 3786542
+Content-Type: binary/octet-stream
+Date: Mon, 25 Sep 2023 00:34:36 GMT
+Etag: "01d1b97ab9643817871fec547dae1fd2"
+Last-Modified: Thu, 14 Mar 2019 17:45:04 GMT
+Server: AmazonS3
+Via: 1.1 29d6db1b5ecb170f22487453430df556.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WiljRrxYvrGp25Aa79msNOlYnlWro67QIavd3gqVc37OpT4aFVEQjA==
+X-Amz-Cf-Pop: AMS1-P1
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Error from cloudfront
+
+{
+  "region": "US"
+}
+
+
+https://discovery.trusona.net:443

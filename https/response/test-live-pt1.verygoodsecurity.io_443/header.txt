@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: test-live-pt1.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:57:20 GMT
+Server: nginx
+Vgs-Request-Id: bec65588dca53f582c7c12c651d163f6
+Via: 1.1 reverse-http-proxy-6f8b595cbc-bljq2
+X-Envoy-Upstream-Service-Time: 21
+
+2579

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: fw-update.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A326U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 60
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:13:22 GMT
+
+{"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+
+http://fw-update.ui.com:80

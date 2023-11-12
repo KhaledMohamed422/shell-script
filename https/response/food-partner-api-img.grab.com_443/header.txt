@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: food-partner-api-img.grab.com
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 79
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:24:38 GMT
+Server: AmazonS3
+Via: 1.1 9dfbacf2c8a61beb17591bdaab142956.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VICjDetPiz0WesosbabWKKnUOWwK0dsgUahiAUMKEoRPnAs6CZ20jg==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>C9VCSY2P6F1X7EKB</RequestId><HostId>2E3UB5ZORlVHHjLo0nY/JfRKacetCdpSWhMcA2VDcw1WEpEqHogjsAFOhM+XWfxflURyXaADLGU=</HostId></Error>
+0
+
+
+
+
+https://food-partner-api-img.grab.com:443

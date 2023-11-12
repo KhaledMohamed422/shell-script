@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: iot.sandbox.latchaccess.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; TECNO KE5 Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.99 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Content-Length: 72
+Connection: keep-alive
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:54:45 GMT
+X-Amzn-Errortype: ResourceNotFoundException:
+X-Amzn-Requestid: f8a972c8-3ea8-efa7-b523-48dba9424eaf
+
+{"message":"Not Found","traceId":"f8a972c8-3ea8-efa7-b523-48dba9424eaf"}
+
+
+https://iot.sandbox.latchaccess.com:443

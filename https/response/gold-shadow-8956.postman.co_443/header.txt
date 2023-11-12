@@ -1,0 +1,42 @@
+GET / HTTP/1.1
+Host: gold-shadow-8956.postman.co
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; NetBSD 5.0.2; X11; amd64; en_US) KHTML/4.5.4 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 93
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c0bde0fdf8745-DUS
+Content-Security-Policy: default-src 'self' *.postman.co *.postman.com *.pstmn.io; base-uri 'self'; font-src 'self' data: *.getpostman.com *.postman.co *.cdn.postman.com fonts.gstatic.com www.postman.com fonts.googleapis.com cdnjs.cloudflare.com; frame-ancestors 'none'; frame-src looker.postman.co dl-preview-container.pstmn.io js.stripe.com hooks.stripe.com chart-embed.service.newrelic.com https://app.datadoghq.com/graph/embed https://app.datadoghq.eu/graph/embed https://youtube.com https://www.youtube.com https://player.vimeo.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://accounts.google.com/ https://runtime-assets.pstmn.io/; child-src 'self' *.postman.co *.postman.com blob:; worker-src 'self' *.postman.co *.cdn.postman.com blob:; object-src 'self'; img-src https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' *.nr-data.net *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io code.jquery.com google-analytics.com www.postman.com postman.com googletagmanager.com ssl.google-analytics.com cdnjs.cloudflare.com https://bi.pst.tech js-agent.newrelic.com js.stripe.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'nonce-xVaT09TcI9ifhB6NKXStipcokpN4+loTqemM9v2LtZVWOiz8'; style-src 'self' 'unsafe-inline' *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io www.postman.com fonts.gstatic.com fonts.googleapis.com tagmanager.google.com cdnjs.cloudflare.com postman.com accounts.google.com; connect-src https://api.stripe.com http: ws://localhost:10533 https: wss://*.postman.co wss://*.gw.postman.com; report-uri https://sentry.postmanlabs.com/api/572/security/?sentry_key=9d37d7431bdc4c528702ec4d89fc93f7&sentry_environment=production
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 07:19:12 GMT
+Etag: W/"5d-IT1AfXIG+uEu8YpOxp8IB5gD9UU"
+Referrer-Policy: no-referrer-when-downgrade
+Server: cloudflare
+Set-Cookie: _SERVICE_PUB_ID=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: postman.sid=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: postman.sid=; Domain=gold-shadow-8956.postman.co; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: _SERVICE_PUB_ID=; Domain=gold-shadow-8956.postman.co; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: __cf_bm=Xs.l1DGybLahdJ8as621YPDmSE31hQji.oHsL5P3sbQ-1699427952-0-AVdq49jENpw+d17Y/Nj/beQqwPpljbV5W+EWdVKF/kxoGURPEv5FHYj1Ap4BUGp+T0IP5SU81BxvysWjSCHL+aM=; path=/; expires=Wed, 08-Nov-23 07:49:12 GMT; domain=.postman.co; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=3VnaMZ02pi4xo7hnOyvao6uW794WScNRWaeUQXJX_.c-1699427952769-0-604800000; path=/; domain=.postman.co; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 c9b630de734c38e36e97554a32ac1a68.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l7hi-u0mU5vCXEtYkrwit1dBN48LPuF00qBqKkt-JSTvXli6YnnC9A==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Error from cloudfront
+X-Content-Security-Policy: default-src 'self' *.postman.co *.postman.com *.pstmn.io; base-uri 'self'; font-src 'self' data: *.getpostman.com *.postman.co *.cdn.postman.com fonts.gstatic.com www.postman.com fonts.googleapis.com cdnjs.cloudflare.com; frame-ancestors 'none'; frame-src looker.postman.co dl-preview-container.pstmn.io js.stripe.com hooks.stripe.com chart-embed.service.newrelic.com https://app.datadoghq.com/graph/embed https://app.datadoghq.eu/graph/embed https://youtube.com https://www.youtube.com https://player.vimeo.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://accounts.google.com/ https://runtime-assets.pstmn.io/; child-src 'self' *.postman.co *.postman.com blob:; worker-src 'self' *.postman.co *.cdn.postman.com blob:; object-src 'self'; img-src https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' *.nr-data.net *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io code.jquery.com google-analytics.com www.postman.com postman.com googletagmanager.com ssl.google-analytics.com cdnjs.cloudflare.com https://bi.pst.tech js-agent.newrelic.com js.stripe.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'nonce-xVaT09TcI9ifhB6NKXStipcokpN4+loTqemM9v2LtZVWOiz8'; style-src 'self' 'unsafe-inline' *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io www.postman.com fonts.gstatic.com fonts.googleapis.com tagmanager.google.com cdnjs.cloudflare.com postman.com accounts.google.com; connect-src https://api.stripe.com http: ws://localhost:10533 https: wss://*.postman.co wss://*.gw.postman.com; report-uri https://sentry.postmanlabs.com/api/572/security/?sentry_key=9d37d7431bdc4c528702ec4d89fc93f7&sentry_environment=production
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Robots-Tag: noindex
+X-Srv-Span: v=1;s=e60429163c2c49ba
+X-Srv-Trace: v=1;t=dd4604b7af5719b4
+X-Webkit-Csp: default-src 'self' *.postman.co *.postman.com *.pstmn.io; base-uri 'self'; font-src 'self' data: *.getpostman.com *.postman.co *.cdn.postman.com fonts.gstatic.com www.postman.com fonts.googleapis.com cdnjs.cloudflare.com; frame-ancestors 'none'; frame-src looker.postman.co dl-preview-container.pstmn.io js.stripe.com hooks.stripe.com chart-embed.service.newrelic.com https://app.datadoghq.com/graph/embed https://app.datadoghq.eu/graph/embed https://youtube.com https://www.youtube.com https://player.vimeo.com https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/ https://accounts.google.com/ https://runtime-assets.pstmn.io/; child-src 'self' *.postman.co *.postman.com blob:; worker-src 'self' *.postman.co *.cdn.postman.com blob:; object-src 'self'; img-src https: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' *.nr-data.net *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io code.jquery.com google-analytics.com www.postman.com postman.com googletagmanager.com ssl.google-analytics.com cdnjs.cloudflare.com https://bi.pst.tech js-agent.newrelic.com js.stripe.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/ 'nonce-xVaT09TcI9ifhB6NKXStipcokpN4+loTqemM9v2LtZVWOiz8'; style-src 'self' 'unsafe-inline' *.getpostman.com *.postman.co *.cdn.postman.com *.pstmn.io www.postman.com fonts.gstatic.com fonts.googleapis.com tagmanager.google.com cdnjs.cloudflare.com postman.com accounts.google.com; connect-src https://api.stripe.com http: ws://localhost:10533 https: wss://*.postman.co wss://*.gw.postman.com; report-uri https://sentry.postmanlabs.com/api/572/security/?sentry_key=9d37d7431bdc4c528702ec4d89fc93f7&sentry_environment=production
+X-Xss-Protection: 1; mode=block
+
+{"error":{"name":"authenticationError","message":"You are not authenticated by the server."}}
+
+
+https://gold-shadow-8956.postman.co:443

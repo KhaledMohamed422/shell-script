@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: static.etp-prod.com
+User-Agent: Nokia3230/2.0 (5.0614.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:18:19 GMT
+Server: AmazonS3
+Via: 1.1 0d3372129d548b57c62777e24b79e514.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -ieUdFoLVnxp8cDrD2V-1zIcUrzAa0qe_kcGiH83gSCwWlELfa-0qw==
+X-Amz-Cf-Pop: AMS58-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>878F70P0Q6WB16WF</RequestId><HostId>bGrl/Mzjn+C4WwTUvZu9/FbZKOBE1Z9obV3lUXg+ny0vgHEtkfveLE1oeREgpc2DAX46SBWfZck=</HostId></Error>
+0
+
+
+
+
+https://static.etp-prod.com:443

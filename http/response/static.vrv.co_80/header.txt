@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: static.vrv.co
+User-Agent: NokiaN70-1/5.0609.2.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.1.13.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:12:20 GMT
+Server: AmazonS3
+Via: 1.1 d72cc6b7011ac53cd6e4d65e0d9f5ac4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TpomAk7KMq6Qn___21ECa33VrGSTXKV2_hR7eBnAgkwuibXXrMCrRA==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9XKMHFM7T619KKYZ</RequestId><HostId>FDE4YcY5quoaZgEzLf8LHiX0MUPnCuMZjm8wVT6nq93/aRiOXdb3ll15O7294CgUbVOJxkIfv8M=</HostId></Error>
+0
+
+
+
+
+http://static.vrv.co:80

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: cn-hangzhou.alipay-cdn.aliyun-inc.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/4.51 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 371
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:47:33 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00001201
+X-Oss-Request-Id: 654B5935EB467D30329EF1A1
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous access is forbidden for this operation.</Message>
+  <RequestId>654B5935EB467D30329EF1A1</RequestId>
+  <HostId>cn-hangzhou.alipay-cdn.aliyun-inc.com</HostId>
+  <EC>0003-00001201</EC>
+  <RecommendDoc>https://help.aliyun.com/zh/oss/support/0003-00001201</RecommendDoc>
+</Error>
+
+
+
+https://cn-hangzhou.alipay-cdn.aliyun-inc.com:443

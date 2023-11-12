@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 4ba16751-testnoexistdomain-bcc738dc-this-exist.uploads-1-costatest-alb-okta-default-w3.dev-go.ubnt.com:8443
+User-Agent: Opera/9.80 (X11; Linux x86_64; U; pl) Presto/2.7.62 Version/11.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 145
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:36:19 GMT
+Location: https://unifi-go.ubnt.com/api/eol
+Server: nginx/1.22.1
+

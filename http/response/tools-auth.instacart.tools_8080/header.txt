@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: tools-auth.instacart.tools:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; RMX3081) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273ea25acbcb27-DUS
+Date: Tue, 07 Nov 2023 17:20:02 GMT
+Expires: Tue, 07 Nov 2023 18:20:02 GMT
+Location: https://tools-auth.instacart.tools/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LHJ%2Fxkpe9y1DqllksoMcjADeou8XArfRINnJQVPg5ArAAjYAbsVVdXYBQSMAfUYR0PtA8dETxttEKVOGpaoOEqBQDk7PqJ0EuhFdZYvjVYq%2FjDoDd5Nw3LUiP0JDZnkPLxTL6bcZs1nX004ZJioAGzA%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=2yMLL9HqB1HmMQmIiySSzRNGtBKswZyyTIySL8PayMw-1699377602-0-ATUWFUjiIaOIBb4pbp5cKs1zE+xoVnAjgH+c6PBfh9RtE1TZrHX6mZQ6HVSNHaoJYsqkT4F8aWoln75xOQQf4Mo=; path=/; expires=Tue, 07-Nov-23 17:50:02 GMT; domain=.tools-auth.instacart.tools; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://tools-auth.instacart.tools:8080

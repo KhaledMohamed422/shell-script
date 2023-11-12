@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 4ba16751-testnoexistdomain-bcc738dc-this-exist.drop-1-costatest-alb-okta-defaultsandbox.dev-go.ubnt.com:8443
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/4.5.0IT
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 145
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 03:57:17 GMT
+Location: https://4ba16751-testnoexistdomain-bcc738dc-this-exist.drop-1-costatest-alb-okta-defaultsandbox.dev-go.ubnt.com:8443/
+Server: nginx/1.22.1
+

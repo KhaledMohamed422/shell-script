@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: corporate.iherb.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) splash Version/10.0 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c04f0ba07160d-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 07:14:28 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=acdljUb%2Bg3gU3v6cSlcrraA5p2qpwoMvh8NRZb8JmHqFQdH7bP5t9KJ3TUNNJc%2Bj2nrLM%2FnptCMnr%2B%2BV%2Fcp5G6lA0XRTptZngZnAZAltGizRsumPa7BnIntsf3uACDnZrIqueMtFuYLDHw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ko0G6NA97jcniD7CTtONrgf_ZYPkhCGj3FkXzyoUTmw-1699427668-0-AZQdl1uY+gHj0m39URtMp0ZIj2IY1S+mXQ7uaDkkMjN/UEIhKODEPv6Vf050a5e6NAmIsuhBDLUaqWvOSBYdAP/lsNrN2XnpwcZhyvFJ/QMJ; path=/; expires=Wed, 08-Nov-23 07:44:28 GMT; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+https://corporate.iherb.com:8443

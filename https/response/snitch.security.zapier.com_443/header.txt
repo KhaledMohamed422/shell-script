@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: snitch.security.zapier.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; M2003J15SC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:32 GMT
+X-Amz-Apigw-Id: ODrfUGXloAMEl1A=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 14a9d96f-2160-46ec-ad20-3e45112a78ba
+
+{"message":"Missing Authentication Token"}
+
+
+https://snitch.security.zapier.com:443

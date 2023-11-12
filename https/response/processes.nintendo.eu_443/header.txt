@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: processes.nintendo.eu
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.0; en-us; Milestone Build/ SHOLS_U2_01.03.1) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Wed, 08 Nov 2023 18:46:05 GMT
+Location: https://login.microsoftonline.com/e880f0e6-8d29-4675-8fbc-326eb670c840/oauth2/authorize?response_type=code&client_id=f78707fb-92d6-473a-a50c-518236f25a73&scope=openid&nonce=12723984-2593-44f8-bbac-d4cbae65538f&redirect_uri=https%3a%2f%2fprocesses.nintendo.eu%2f&state=AppProxyState%3a%7b%22InvalidTokenRetry%22%3anull%2c%22IsMsofba%22%3afalse%2c%22OriginalRawUrl%22%3a%22https%3a%5c%2f%5c%2fprocesses.nintendo.eu%5c%2f%22%2c%22RequestProfileId%22%3anull%2c%22SessionId%22%3a%224d459930-2d6e-47fb-87c3-7b06fac1e2ba%22%7d%23EndOfStateParam%23&client-request-id=4d459930-2d6e-47fb-87c3-7b06fac1e2ba
+Nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.2,"failure_fraction":1.0}
+Report-To: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://ffde.nelreports.net/api/report?cat=proxy-appproxy-DWC-FRA02P-2"}]}
+Set-Cookie: AzureAppProxyPreauthSessionCookie_f78707fb-92d6-473a-a50c-518236f25a73_4d459930-2d6e-47fb-87c3-7b06fac1e2ba_1.4=4|nEEeuEHdeNJD6hc+Lhsn5fGJeT0DYBuuW0cKMjIFphX+CrxSHzpIgDEqEprjKe9aT8Rw4e4uZ+dhW0uD+14d9R7POorcD9tQf46gdzrMWCat0Fz4jbljX95GV4i7Qi4YWwiUbemG/dX1Lc2c0OYXrzOFX30FT2sSEBD3i+UYW8Q0sCaTbdRlxOqMLqxMh8t34iqDAvpZCRpFnOt+ZZOzGJbBCc8pnwBrhGUH/dUBmcqvr9iWmsppLfgg3mTf7rklU23NvQ7jbMCUSrs+gqtf+A==; expires=Wed, 08 Nov 2023 18:56:06 GMT; path=/; Secure; SameSite=None
+Set-Cookie: AzureAppProxyAnalyticCookie_f78707fb-92d6-473a-a50c-518236f25a73_https_1.3=4|8cPrvN4PzZZerYVM7VSOoBUJeG9W6SdtJE5WRg6YDGodcesy9UP7BGjLGo8OjXt4NBtAEJ7rFxEYlMIPARoK4jOWAZia3nH4s9qMejcDVGTKELKToPkYruIie40ocNf2mCt9q3er+OQTkjx+WLoMtA==; path=/; Secure; SameSite=None
+X-Ms-Proxy-App-Id: f78707fb-92d6-473a-a50c-518236f25a73
+X-Ms-Proxy-Data-Center: DWC
+X-Ms-Proxy-Group-Id: 81a9d302-0a8c-4115-a649-726f7f967cd7
+X-Ms-Proxy-Service-Name: proxy-appproxy-DWC-FRA02P-2
+X-Ms-Proxy-Subscription-Id: e880f0e6-8d29-4675-8fbc-326eb670c840
+X-Ms-Proxy-Transaction-Id: 12723984-2593-44f8-bbac-d4cbae65538f
+Content-Length: 0
+
+
+
+
+https://processes.nintendo.eu:443

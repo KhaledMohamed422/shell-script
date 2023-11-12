@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: lbr.betfair.it:8443
+User-Agent: Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ccd0dfef7a40-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:06 GMT
+Expires: Tue, 07 Nov 2023 18:57:21 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mfkm4UW8zSrCyyi3mztCjhunXO79c2GQJBZiEvTPjBUwxNOilNLpny6S95HQVzajNYYJlOH6GsGoE3vpEqbaMUk9uWVA%2BLZNn%2BXPH073tG77TsoZm6kSRuyGjVecZCwhPLxbd%2Fc%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=AtTFq.Y36zScvgFNqp6wpcUS63Bc.mcnHwoh6U2hXi4-1699383426-0-AddBXjO+jl8ZFUDeTUaXibexSLGbVLeyUjw2Hp8iUgwGuJzISOR3FvV5tgrkx46CEoo4D4q9Sfxt5K7cPqKgHN0=; path=/; expires=Tue, 07-Nov-23 19:27:06 GMT; domain=.betfair.it; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

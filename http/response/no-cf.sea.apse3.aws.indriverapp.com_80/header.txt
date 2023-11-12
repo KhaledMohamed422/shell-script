@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: no-cf.sea.apse3.aws.indriverapp.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/18.6.872.0 Safari/535.2 UNTRUSTED/1.0 3gpp-gba UNTRUSTED/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 07 Nov 2023 18:03:47 GMT
+Location: https://no.sea.apse3.aws.indriverapp.com/
+Server: istio-envoy
+Via: 1.1 9905602b8526d2635024f3edbf1df702.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: FIdx4PQdPtoBvdK7dNmVgg3R8I4_rYwhpsr6pG-D8p_ZF_fl_oz80A==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Miss from cloudfront
+Content-Length: 0
+
+
+
+
+http://no-cf.sea.apse3.aws.indriverapp.com:80

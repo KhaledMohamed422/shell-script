@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: api.dev.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Citrix-Error-Section: backend
+Citrix-Transactionid: 45388f5a-0dcf-4a21-84a9-c1e3b8dc550c
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:11:23 GMT
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+https://api.dev.cloud.com:443

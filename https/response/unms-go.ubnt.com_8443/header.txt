@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: unms-go.ubnt.com:8443
+User-Agent: Mozilla/5.0 (iPad; U; CPU iPad OS 5_0_1 like Mac OS X; en-us) AppleWebKit/535.1+ (KHTML like Gecko) Version/7.2.0.0 Safari/6533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 FOUND
+Connection: close
+Content-Length: 217
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:08:03 GMT
+Location: http://unms-go.ubnt.com:8443/api/
+Server: gunicorn/19.8.1
+X-Request-Id: 8bccf306-7a60-4818-a508-b04432a5340d
+

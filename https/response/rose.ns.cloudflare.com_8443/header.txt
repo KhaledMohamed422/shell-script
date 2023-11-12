@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: rose.ns.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227ea8bbb1b1629-DUS
+Date: Tue, 07 Nov 2023 19:17:24 GMT
+Expires: Tue, 07 Nov 2023 20:17:24 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NoHtDHhNp%2FLWp7c3GZHy9Orhs6IrM%2BT3czh4pgb568mSz6bfNYnnRzQVr6gLnXjyycgtPlqF43wIqVt9do4%2FkxzU9C4lojyJy8z4p7A7%2FD4DEbSe07Q%2By9qTfc6Nh1kEw8Da0PYgmkpU5YTrDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://rose.ns.cloudflare.com:8443

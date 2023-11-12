@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: dev.accounts.nintendo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 Safari/537.36 Edg/98.0.1108.76
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Cache-Control: private, no-cache, must-revalidate, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 19:29:04 GMT
+Expires: Wed, 08 Nov 2023 19:29:04 GMT
+Location: https://dev-auth.accounts.nintendo.com/oauth2/authorize?client_id=2i044pkenbsk0d2h3b3b6ubr32&redirect_uri=https%3A%2F%2Fdev.accounts.nintendo.com%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=5NTi5%2FazPfwTl4ERXwwCFw4PXe71lx1CtCaYaIxwzPoXMTYWF3ZMKBN9QS610%2FZp%2B7s5EsY%2BKB7%2FTwn0fPjeiAlfLuQszcwMyM9p%2BObxIhu5PjfFYIyRgLMF%2Bdfpje%2FPpj1XC0qQU0FQne116TfR5J4b5DqJ8d16W%2FAFMSA39z%2FPE%2BGKg35jFGVrGyHjEXY1Ih0e1xBiRmPT27Q%2FAD6bfdpsPudjMykH9Rsy76cvDetO7GRRxyFSMA%3D%3D
+Pragma: no-cache
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=YQm47iP0ZzqlkdVx; Expires=Wed, 08 Nov 2023 19:44:04 GMT; Path=/; SameSite=None; Secure; HttpOnly
+

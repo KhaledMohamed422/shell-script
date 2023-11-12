@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: promos.betfair.se.nxt.ppbdev.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bbe5abfa162f-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:33 GMT
+Expires: Tue, 07 Nov 2023 18:45:48 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YhrwHJsaYeCm%2B72EWgwWKtYuBOx8OvillJ66XC5MQ%2BQJT0bSt6Jq4r0tBxDwfxKJY9iYJZ%2Fai7djge4C1OARiWp%2FCNAd1uJm6FJ42T0RHXISljb9OcG15h5Fol6K8Ml79bT7st8DLfX%2FYXRWshcKUpeX6evyPCA%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=a4Y_HfrhRScYJ_KRllsH41REk5HjqyteNN4OWxcGcWg-1699382733-0-AdCJ041SYPCLM1f/pukU1ZlpdWHAgrQ6dk7LubymeAANGVhuyGD3JMI1FPaNFTVWqeGv/mH+wZBaOWz1h7/k5Ac=; path=/; expires=Tue, 07-Nov-23 19:15:33 GMT; domain=.ppbdev.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

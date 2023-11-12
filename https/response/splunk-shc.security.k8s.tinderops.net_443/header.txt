@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: splunk-shc.security.k8s.tinderops.net
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/96.0.4664.101 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:31 GMT
+Location: https://matchgroup.okta.com/oauth2/v1/authorize?client_id=0oao67uzxpqPo1hoB357&redirect_uri=https%3A%2F%2Fsplunk-shc.security.k8s.tinderops.net%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=dWfRjBiVUATF9LbKVLzBuMZk1iEpnx1ecUPA2JsLqDiawQAKA605txrsb%2B26w%2B%2FCLwYzOrPDBmYaO8%2F0In9z0j6gylnOSWSqUoDaKK4bjghnffm4rJMDPvIlonydiSV4yzUqVlxLj0VWMosno0dDN5DcGUFb%2BSbTMHCRTSAr%2BKaZZLf1O2RZdlRHGu1hhdZ75rE0aUh6mAzDT%2FeLq8BB5GMvNCYZ4V1TqHGA09MIqkIk4Efmpw%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=UmZchDREpGjbjDM4; Expires=Wed, 08 Nov 2023 19:01:31 GMT; Path=/; Secure; HttpOnly
+

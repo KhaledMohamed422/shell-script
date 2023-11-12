@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: Lyncdiscover.coveo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:19:42 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 1ba8da4a-f322-4663-b589-2f23909e6c5b
+X-Ms-Correlation-Id: 6e7b2f53-be1b-4f45-8aa3-3ac5ad753a16
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=coveo.com"},"xframe":{"href":"https://webdir1A.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdir1A.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=coveo.com"}}}
+
+
+http://Lyncdiscover.coveo.com:80

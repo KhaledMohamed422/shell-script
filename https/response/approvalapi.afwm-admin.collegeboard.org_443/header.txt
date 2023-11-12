@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: approvalapi.afwm-admin.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3191.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:09 GMT
+Via: 1.1 30e954298424aa69c035e25834574742.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCbKPFl_oAMETxA=
+X-Amz-Cf-Id: YBkr7UPPrAF60hMubL-X49QIvCpYiauGKanmUTnq0zupkCu8YZebJA==
+X-Amz-Cf-Pop: FRA56-P4
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: b0727bc3-3cff-4a71-8e98-4b0c5a057a53
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://approvalapi.afwm-admin.collegeboard.org:443

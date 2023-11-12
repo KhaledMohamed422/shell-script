@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: api-frontend.staging.latchaccess.com
+User-Agent: W3C_Validator/1.654
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Apigw-Requestid: OD-6oha7IAMEPlw=
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:43:09 GMT
+Referrer-Policy: no-referrer
+Vary: Accept-Encoding,Origin
+Via: 1.1 16aa5c15345b1c0756b83a5ae8ee765e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SHMrWj3S1FKnTN-0OcTY7WT1bEcUD63D6ipCmQqeFYYFrZvxGXCYOw==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699418589352},"payload":{"message":""},"trailer":{"checkSum":3577686080}}
+
+
+https://api-frontend.staging.latchaccess.com:443

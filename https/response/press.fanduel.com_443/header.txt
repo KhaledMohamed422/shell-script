@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: press.fanduel.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; de) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=120, stale-if-error=86400, stale-while-revalidate=86400
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 8230453fba0f1603-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:37:25 GMT
+Location: /press-room/default.aspx
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+207

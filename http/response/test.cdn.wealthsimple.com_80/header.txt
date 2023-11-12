@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: test.cdn.wealthsimple.com
+User-Agent: Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273e8768426a7c-DUS
+Date: Tue, 07 Nov 2023 17:19:58 GMT
+Expires: Tue, 07 Nov 2023 18:19:58 GMT
+Location: https://test.cdn.wealthsimple.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=Kwz6G95yuwYKf29tl3o578biiF.AnR5UTGe0boP3c5I-1699377598-0-AQufxgrfIBfcS/NbUAqD/8XMUGAG8G4eFk3xf6wW/Wi/XNlktVk+ygjdz1t1HtFJU8Nvo17z445VlRIEDoeDYEk=; path=/; expires=Tue, 07-Nov-23 17:49:58 GMT; domain=.cdn.wealthsimple.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://test.cdn.wealthsimple.com:80

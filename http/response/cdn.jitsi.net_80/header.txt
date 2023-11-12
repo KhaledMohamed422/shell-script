@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: cdn.jitsi.net
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Cross-Origin-Resource-Policy: cross-origin
+Date: Tue, 07 Nov 2023 21:23:39 GMT
+Location: https://cdn.jitsi.net/
+Server: CloudFront
+Vary: Origin
+Via: 1.1 88f858f045c3909fad9cebbada511aee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xDtDDYsQBNiIC5Qs3drVuPXoabrlGDmWd705X45pprKXeoGKlpnz_g==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Redirect from cloudfront
+

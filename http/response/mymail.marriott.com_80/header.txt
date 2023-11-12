@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: mymail.marriott.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: https://mymail.marriott.com/
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://mymail.marriott.com:80

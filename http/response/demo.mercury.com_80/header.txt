@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: demo.mercury.com
+User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a57017ac31605-DUS
+Date: Wed, 08 Nov 2023 02:20:58 GMT
+Expires: Wed, 08 Nov 2023 03:20:58 GMT
+Location: https://demo.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=6s.nxG5Qf_UJUuuaPjQalL0HUit04V9EUaRp8Dj2kNg-1699410058-0-ATguwPj4+UrbblmN53oewlD6wbfsI8okWO84Zb15EWIhPuQ1EWaUVR5JaKOY3f8JxDs3p0Jik3+nIdEdg7DlT6s=; path=/; expires=Wed, 08-Nov-23 02:50:58 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://demo.mercury.com:80

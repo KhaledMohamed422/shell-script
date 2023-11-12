@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: www.myaccounts.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:21.0) Gecko/20130401 Firefox/21.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 250
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval' nuance.com *.wellsfargo.com *.wellsfargo.net ; frame-ancestors 'self'; report-uri /channeltechpublic/csp-reports;
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:46:41 GMT
+Location: https://www.myaccounts.sec.wellsfargo.com/
+Set-Cookie: myaccounts_443_infra_1=!+aXHwsbDFDiT9GfvxNjFMOHSfbCzWDBLnzqmSL7r8K3ILA/hZuOzeHsepnUFn86y+eTrUfdpOzxkzA==; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

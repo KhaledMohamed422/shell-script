@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: drew-certificate-sandbox.apps.verygood.systems
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.76 Safari/537.36 OPR/28.0.1750.40
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:58 GMT
+Server: nginx
+Vgs-Request-Id: ba7fb1e5195246d5359dcbfd58a15871
+Via: 1.1 reverse-http-proxy-6bb4dd5bc4-hxlkx
+X-Envoy-Upstream-Service-Time: 43
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: ba7fb1e5195246d5359dcbfd58a15871.
+
+
+https://drew-certificate-sandbox.apps.verygood.systems:443

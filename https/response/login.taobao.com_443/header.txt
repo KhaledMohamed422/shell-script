@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: login.taobao.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; RMX2161) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 337
+Cache-Control: no-cache
+Cache-Control: no-store
+Content-Language: zh-CN
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:00:06 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Htrace-Id: 213cf8d716994376060217877d0228
+Hvn-Host: havanamlogin033060248215.na610
+Location: https://login.m.taobao.com/login.htm?loginFrom=wap_tb
+P3p: CP='CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR'
+Pragma: no-cache
+Pragma: no-cache
+Pragma: no-cache
+S_group: tao-session
+S_ip: 457079564a6343416e4674634f6f455335673d3d
+S_status: STATUS_NOT_EXISTED
+S_tag: 285873024335988|134217728^|^^
+S_tid: 213cf8d716994376060217877d0228
+S_ucode: CN:CENTER
+S_v: 4.0.10-fix
+Server: Tengine/Aserver
+Set-Cookie: XSRF-TOKEN=7b96b334-2517-49de-b29f-81974cba5e28; Path=/; HttpOnly
+Set-Cookie: _samesite_flag_=true;Domain=.taobao.com;Path=/;HttpOnly;Secure;SameSite=None
+Set-Cookie: cookie2=16cd9fe83811fe44095b7aba756fabe1;Domain=.taobao.com;Path=/;HttpOnly;Secure;SameSite=None
+Set-Cookie: t=18859d3c4a0d84baca27c02414db5ec2;Domain=.taobao.com;Path=/;Expires=Tue, 06-Feb-2024 18:00:06 GMT;Secure;SameSite=None
+Set-Cookie: _tb_token_=3d97f6e43b1ea;Domain=.taobao.com;Path=/;Secure;SameSite=None
+Strict-Transport-Security: max-age=31536000
+Ufe-Result: A6
+

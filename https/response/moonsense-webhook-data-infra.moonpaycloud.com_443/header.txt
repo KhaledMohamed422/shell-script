@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: moonsense-webhook-data-infra.moonpaycloud.com
+User-Agent: MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 10:09:06 GMT
+Server: Google Frontend
+Via: 1.1 google
+X-Cloud-Trace-Context: 76afd3a34278597182e39ab2c8926a13;o=1
+
+49
+{"code":404,"message":"The current request is not defined by this API."}
+
+0
+
+
+
+
+https://moonsense-webhook-data-infra.moonpaycloud.com:443

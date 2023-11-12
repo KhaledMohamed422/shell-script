@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: appcontent-all-cdn.aliyun.com
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3178.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 08:40:26 GMT
+Eagleid: 7250b39b16994328264252252e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache7.cn3259[,403005]
+X-Tengine-Error: denied by req auth: no url arg auth_key
+

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: origin-smoketest.collegeboard.org
+User-Agent: Opera/9.20 (Macintosh; Intel Mac OS X; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 8945
+Cache-Control: no-cache
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

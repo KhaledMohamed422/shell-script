@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: brand.varonis.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/BuildID) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82274227df0b1e59-FRA
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:22:27 GMT
+Expires: Tue, 07 Nov 2023 17:22:42 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j82Ji836zvUpkDXWnOs5cVAj8sjII6yTfz0ENMXkH8Si34VqQ6E1YlNuiT5NnMVaVPo2kbZTHrVUslj8CQgnVvC%2FlMerUS6orU%2FWr%2Bvwt9%2FFG0feBGsGMOBYcAIB83bohisGGPRvT8s%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=9ABc_zYlGtnI.H0iY5vqd1DsJiSp.nUn4D3ZDrpv8Ck-1699377747-0-AT6JaMhWsnqX93wRbNKmaOd+pAO1KO2i/8SHk35kATAjEYQfwdt0Fax9qSWymTNPG0Ejt1neEV23OjR8kiqEKv4=; path=/; expires=Tue, 07-Nov-23 17:52:27 GMT; domain=.brand.varonis.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=e34184e4199d03bae78e33017f784159b3f2a4e9-1699377747; path=/; domain=.brand.varonis.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: visid_incap_2074238=THkml3u1Tp23zfRLmGCbkFNySmUAAAAAQUIPAAAAAADGY3KY6ycssXZwb1ur/g9Y; expires=Wed, 06 Nov 2024 00:12:44 GMT; HttpOnly; path=/; Domain=.varonis.com; Secure; SameSite=None
+Set-Cookie: nlbi_2074238=T1vSPn7BSBPwtY3HV8um7wAAAACepY5IGhgSwH1nvk4s0amX; path=/; Domain=.varonis.com; Secure; SameSite=None
+Set-Cookie: incap_ses_408_2074238=ikJPC3VAmSqzxQDNz4KpBVNySmUAAAAA4fq3jgQdG4fhzUrhpH8ZIA==; path=/; Domain=.varonis.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Cdn: Imperva
+X-Frame-Options: SAMEORIGIN
+X-Iinfo: 8-36933967-36933973 NNNN CT(1 10 0) RT(1699377747098 9) q(0 0 0 10) r(0 0) U24
+
+8b2

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: galactica2.tools.playstation.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1083) AppleWebKit/537.36 (KHTML like Gecko) Chrome/28.0.1469.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:19:56 GMT
+X-Amz-Apigw-Id: ODPkhEyevHcEBsg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: b2cc197d-4637-44bf-9700-d56113e4571f
+
+{"message":"Missing Authentication Token"}
+
+
+https://galactica2.tools.playstation.net:443

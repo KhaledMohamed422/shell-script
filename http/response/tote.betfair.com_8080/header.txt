@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: tote.betfair.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b973d90d876a-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:53 GMT
+Expires: Tue, 07 Nov 2023 18:44:08 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=npNgv77%2B5wBxrkJVeH%2Bt92ox9%2Fvmg8DUElYhsWLFhSGkK98afg6EsTfkPHLicCQuTnuz%2FFSXXD3G4jl2UwH3VB7tbt1QZc0MXZYSpUqe1VIzbAkjeFBFVK3debBMXvHTGnE%2BHgVl9w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: design.browserstack.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Content-Security-Policy: default-src https: 'self'; connect-src *.hotjar.com:* vc.hotjar.io:* surveystats.hotjar.io wss://*.hotjar.com wss://api.appcues.net:* https: 'self' wss://*.zeroheight.dev:* wss://replay.uxtweak.com:* *.google-analytics.com *.analytics.google.com *.googletagmanager.com; font-src 'self' data: script.hotjar.com https:; img-src 'self' https: data: blob: script.hotjar.com *.google-analytics.com *.googletagmanager.com; object-src 'none'; script-src 'self' https: js.stripe.c 'unsafe-eval' static.hotjar.com script.hotjar.com js.stripe.com maps.googleapis.com public.profitwell.com fast.appcues.com static.zdassets.com *.googletagmanager.com js.hs-scripts.com snap.licdn.com js.hs-banner.com js.hs-analytics.net js.hsforms.net js.usemessages.com js.hsadspixel.net cdn.amplitude.com www.google-analytics.com static.ads-twitter.com ethn.io *.ads.linkedin.com *.google.com *.facebook.net 'nonce-6dKYZBu0uAKlHANWUNesvlvtB1HK+NrmYGS+/txete8=' 'unsafe-inline'; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:15:39 GMT
+Etag: W/"17adf8c9766154de2bbb2b801b6e2d22"
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Set-Cookie: loc_code=DE; path=/; expires=Sun, 08 Nov 2043 07:15:39 GMT; secure
+Set-Cookie: viewer_uid=WEpGdnZCbUdFaGdZaG1LVFg4cmg5YlBzeUk5YU1rOXJ4SEI3bWRDSUJSb0Q3L1BDb2VjL0JMeFNUQkVlZSsrKzdVMUd3REtaU0xRTFJxclF1NGUwdHRTZFlOZTcxUW9xay9aTlM0K1FkbnpNbklUK3VIbjREcVBFY1hZdnhmRTE3dTRWK0hTWGticHZFdDlZSk04Rk93PT0tLTFQWmE2andEU0RJUnQwNVZUZ1NSekE9PQ%3D%3D--1e411e14f61603b9d81264533f71a5ccb496531a; domain=.browserstack.com; path=/; expires=Fri, 08 Nov 2024 07:15:39 GMT; secure
+Set-Cookie: _zh_session=TjB5d0ZrRkN5NFhCT2ZKTmNhUFdRNGk1bGp5d0RhWlRiWWFJL3ZqNW1iWTNiVmhBSTNEZCtCUXNoZmkwN1RyMVJGbWpyUU8zRWxEZW13REszMFhVQ00ralRkUFZuS2dGS0NXRCtmckpucWRCVm52QXcrSTZUTUdwcXFqYXJYbFNtZG9LeXhxdVNlZnVyR2JTTitOK0RRPT0tLU5RZE5pdGl1bVVLdjN6RXlBT1ZXdVE9PQ%3D%3D--3f78185671c946d84c4d0ef6e38e86e4235ce2f9; domain=.browserstack.com; path=/; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: sameorigin
+X-Permitted-Cross-Domain-Policies: none
+X-Rack-Cors: miss; no-origin
+X-Request-Id: a98c632e-e1cc-4aa2-9f0c-419b9f2df605
+X-Runtime: 0.334794
+X-Xss-Protection: 1; mode=block
+Zh-Product-Name: zeroheight
+
+2c3e

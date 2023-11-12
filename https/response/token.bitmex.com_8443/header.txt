@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: token.bitmex.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227842d2e4d1633-DUS
+Date: Tue, 07 Nov 2023 18:07:31 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.bitmex.com/BMEX
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://token.bitmex.com:8443

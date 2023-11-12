@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: autodiscover.nintendo.de
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found : Moved Temporarily
+Connection: close
+Cache-Control: no-cache
+Location: https://autodiscover.nintendo.de/
+Pragma: no-cache
+
+
+
+
+http://autodiscover.nintendo.de:80

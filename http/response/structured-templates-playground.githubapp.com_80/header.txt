@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: structured-templates-playground.githubapp.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:24:17 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3Df53c8545-a0cd-441d-b989-9e2819aa95e5%26page_id%3D15841973%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=f53c8545-a0cd-441d-b989-9e2819aa95e5; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: aded039e2b94a505fcee1db85ae1fb799a8ca945
+X-Github-Request-Id: 8A9A:12C06:6896C0D:6A569DB:654AF151
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230090-FRA
+X-Timer: S1699410258.732172,VS0,VE187
+

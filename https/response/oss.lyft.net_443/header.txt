@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: oss.lyft.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/33.0.1750.152 Chrome/33.0.1750.152 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:26 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9vc3MubHlmdC5uZXQvIiwgInN2YyI6ICIqLmx5ZnQubmV0In0%3D%7C10.44.2.39%7C1699394666%7C98f6f71848e57ee160eb05bb5e1d51e5e44053125ab5a8fdef882cfce1c54257
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: safecharge-integration.betfair.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; BL5000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bc25ce2b1536-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:43 GMT
+Expires: Tue, 07 Nov 2023 18:45:58 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RYu4kYDMnpcUhSFSFsx2W1REGR3bA7YUZz4YNPwsf0WcKTb%2Fxa3HNSUKXnQAr%2FWGjD0KeBB6ZVZCfyoZ6rgg5xpzF6sVThn4nuXsEaam7AwadiTfHK6f3RbqDAASTx8Z95LeEDUs4SjR%2Bgi2QPubcmVAYAsVuTL%2BYA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

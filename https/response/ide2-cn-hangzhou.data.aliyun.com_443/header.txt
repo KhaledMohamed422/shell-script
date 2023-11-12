@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: ide2-cn-hangzhou.data.aliyun.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Content-Length: 267
+Content-Type: application/json;charset=utf-8
+Date: Wed, 08 Nov 2023 09:56:55 GMT
+Eagleeye-Traceid: 0bc3b4b216994374142165634e3834
+Server: Tengine
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+
+{"data":"会话超时过期","errCode":-401,"errMsg":"会话超时过期","recommend":"https://setting-cn-hangzhou.data.aliyun.com/dataos/selectTenant?redirectUrl=https://ide2-cn-hangzhou.data.aliyun.com/login.html","requestId":"4c5bd44e-b646-48bc-af4d-0438ced97b9f"}
+
+
+https://ide2-cn-hangzhou.data.aliyun.com:443

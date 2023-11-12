@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: insendio-videos.gotinder.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 18:40:06 GMT
+Server: AmazonS3
+Via: 1.1 6f348d610065e2c8eb4f3a0d2f7caa8e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: 9Bj22Wo9h9frSiEZeRsgv0Gt0cxbW0iiqCNdUi1XzgZDorfh98nlwA==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>NPZ5FVVWX365RZW9</RequestId><HostId>P/1qN+J9oxsE5+45m9e8e6WNJdUwSERlAqrFHVW8qKmqvtes+LFdHwKD+8BrypfIMpyULJ4aGOM=</HostId></Error>
+0
+
+
+
+
+http://insendio-videos.gotinder.com:80

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: partner-profile-pic.myteksi.net
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:36:50 GMT
+Server: AmazonS3
+Via: 1.1 18fab39b23fb6b3013058d6df5faf0bc.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: ap-southeast-1
+X-Amz-Cf-Id: FXVXP9q3mAa-kj1xB5lX8NZipXZyEVvQFfy5WKM27xVPro2qeJAKIg==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>08MQN2MS962RT9AT</RequestId><HostId>qouEOM/J0+oBdtltCZl62NibP1wzLHAOrkZ3+Etks6OhKro7P48yEAVBH7bPYtmjKVLDgLiGb3k=</HostId></Error>
+0
+
+
+
+
+https://partner-profile-pic.myteksi.net:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: hyperion.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Akamai-Grn: 0.0c601302.1699378048.d459171
+Cache-Control: no-cache,no-store,max-age=0
+Date: Tue, 07 Nov 2023 17:27:28 GMT
+Expires: 0
+Location: https://extranetcloud.marriott.com/userauth/as/authorization.oauth2?response_type=code&code_challenge=clCHEQCcd0zQTmLJ2827FzxCf9AZ0Q9eEzqSG31_h_U&code_challenge_method=S256&client_id=PA_EXT_WAM&redirect_uri=https%3A%2F%2Fhyperion.marriott.com%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiMU1vcGdFSmxlSm4zVXc0QkJ5QVJjdmhLMWNVIiwic3VmZml4IjoiYjhEbXRXLjE2OTkzNzgzNDgifQ..nX6utzyKsFKMevJpm2wAHw.BWBHvjEGH-4XSDCi06vZ9fRgi68jFILoUnq3EPLC-l4kH_bLeo4wR6ySBuJOU8vZKTmiZ6VZ_Qx4qRJTmXF3fdkFU3d1h-NizgibHL50TQf2bbtcphPnanMtRo7K9LKpB3KWh_TYFMuSskGFFP8rcVeSnApmHW7W36nh6zhy5ap3EpgWkuVbaHYhKx66rapN.h6ZzF8Cly5OSRIo1K1Humg&nonce=0Zl7-21_chmVR-cHk23T7i8ul9HycsMmff3zy64Kpb0&acr_values=RED%20X509&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fhyperion.marriott.com%2F&vnd_pi_application_name=Hyperion+New
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=200
+Server-Timing: origin; dur=49
+Server-Timing: ak_p; desc="1699378048308_34824204_222663025_24900_7502_4_9_-";dur=1
+Set-Cookie: nonce.b8DmtW.1699378348=7039549a-50f7-4763-b083-a87d70d09779; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_EXT.Hyperion=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.Hyperion=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://hyperion.marriott.com:443

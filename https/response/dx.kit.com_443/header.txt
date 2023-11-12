@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: dx.kit.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e6c36bc4cae9-DUS
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:59 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=g9rE4mwTFezgBUTLZ66kMNsTgpWwj8rCHYpseqTA6Enyh9stPmUnpiWoENnKmXZaZA1yVNTA%2F%2F9iVu8sYu8zqerlvgXOgGLHfZ331czx82k5sFQwRHUX899wLs%2B2"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+15e6

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-5.apps.verygood.systems
+User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 156
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:49 GMT
+Server: nginx
+Vgs-Request-Id: eb67b5db1bcd206ddd04653db28766a1
+Via: 1.1 reverse-http-proxy-6f8b595cbc-nmkds
+X-Envoy-Upstream-Service-Time: 2
+
+Rate limit reached. Please contact us (support@verygoodsecurity.com) in case you need to increase your limits. Request id: eb67b5db1bcd206ddd04653db28766a1.
+
+
+https://certificate-provisioning-test-live-5.apps.verygood.systems:443

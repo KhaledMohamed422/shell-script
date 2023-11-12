@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: tos-maliva16-up.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 504 Gateway Time-out
+Connection: close
+Content-Length: 560
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:08 GMT
+Proxy-Status: 0000201504005043
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=848, origin; dur=6041
+X-Akamai-Request-Id: 68ed143.21fb8522
+X-Cache: TCP_MISS from a23-55-109-139.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Cache-Remote: TCP_MISS from a23-58-124-10.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Grn: 0.8b6d3717.1699468921.21fb8522
+X-Origin-Response-Time: 6042,23.58.124.10
+X-Parent-Response-Time: 6888,23.55.109.139
+X-Tt-Logid: 202311081842010586C088C656D5610BC6
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a9c008218af052a59b513c58de2dafd5c19b3e1062146782d643913cd8efd208819ef0250643232930154953fa24785ed7d0ab25afbc6db73c484f6914ca30516a403181f100e63c468fb754878a48cc8
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

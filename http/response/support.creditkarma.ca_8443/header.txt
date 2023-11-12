@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: support.creditkarma.ca:8443
+User-Agent: TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:12:30 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 401264ca98e6896be004573eb1aac0fe
+
+4109

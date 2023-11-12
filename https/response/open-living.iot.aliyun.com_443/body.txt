@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="icon" type="image/png" href="//gw.alicdn.com/tfs/TB1cleKfrH1gK0jSZFwXXc7aXXa-88-88.png" />
+  <title>授权失败</title>
+  <style>
+    body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+    body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+    td,th,caption { font-size:14px; }
+    h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+    address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+    a { color:#555; text-decoration:none; }
+    a:hover { text-decoration:none; }
+    a:active { text-decoration:none; }
+    a:visited { text-decoration:none; }
+    img { border:none; }
+    ol,ul,li { list-style:none; }
+    input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+    table { border-collapse:collapse; }
+    html {overflow-y: scroll;} 
+
+    .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+    .clearfix { *zoom:1; }
+  </style>
+  <style>
+    .error-container {
+      display: flex;
+      padding: 0 16px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .img-box {
+      display: flex;
+      margin-top: 70px;
+    }
+    .title-box {
+      margin-top: 12px;
+      padding: 0 16px;
+    }
+    .error-title {
+      text-align: center;
+      line-height: 20px;
+      font-family: PingFangSC-Medium;
+      font-size: 16px;
+      color: #333;
+      letter-spacing: 1.33px;
+      margin-bottom: 20px;
+    }
+    .error-msg {
+      line-height: 20px;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #333;
+      letter-spacing: 1.17px;
+    }
+  </style>
+  <!-- 自定义样式加载区域 -->
+  
+</head>
+<body>
+  <div class="error-container">
+    <div class="img-box">
+      <img class="error-pic" src="https://gw.alicdn.com/tfs/TB16hyQd1L2gK0jSZPhXXahvXXa-270-270.png" width="90" height="90" />
+    </div>
+    <div class="title-box">
+      <p class="error-title" id="err-title"></p>
+      <p class="error-msg" id="err-msg"></p>
+    </div>
+  </div>
+  <script>
+    /*<![CDATA[*/
+    (
+      function() {
+        const language = (navigator.browserLanguage || navigator.language).toLowerCase() === 'zh-cn' ? 'zh-cn' : 'en-us';
+        const i18n = {
+          'zh': {
+            title: '授权失败',
+            err: ['应用不存在', '地址不在白名单'],
+            msg: ['请检查在Google Home的官方后台里填写的AppKey是否正确填写，需要和阿里云IoT生活物联网平台（国际站）中提供的保持一致。', '请检查在阿里云IoT生活物联网平台 (国际站)中Google Home配置项，填写的回调地址是否正确。'],
+          },
+          'en': {
+
+          },
+        }
+        function GetQueryString(name) {
+          var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+          var r = window.location.search.substr(1).match(reg);
+          if (r!=null) return unescape(r[2]); return null;
+        }
+        let idx = 0;
+        if (GetQueryString('error') === 'appNotExists') {
+          idx = 0;
+        } else if(GetQueryString('error') === 'redirectUrlError') {
+          idx = 1;
+        }
+        
+        document.title = i18n[language].title;
+        const $title = document.getElementById('err-title');
+        const $msg = document.getElementById('err-msg');
+        $title.innerText = i18n[language].err[idx];
+        $msg.innerText = i18n[language].msg[idx];
+      }
+    )()
+    /*]]>*/
+  </script>
+
+  <!-- 自定义脚本加载区域 -->
+  
+</body>
+</html>
+0
+
+
+
+
+https://open-living.iot.aliyun.com:443

@@ -1,0 +1,293 @@
+GET / HTTP/1.1
+Host: config.sportsbook.fanduel.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; pt-PT; rv:1.9.2.3) Gecko/20100402 Iceweasel/3.6.3 (like Firefox/3.6.3) GTB7.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 6995
+Accept-Ranges: bytes
+Age: 36539
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 09:19:12 GMT
+Etag: "b730f765e3c12ca4ecf05fb2fb5fdd3d"
+Last-Modified: Wed, 08 Nov 2023 09:18:16 GMT
+Server: AmazonS3
+Vary: Origin
+Via: 1.1 27f45b37d8058458a0fcf5f41e20288a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: onI_zIqD6TWu5hWOUCld48GWg-J5SnrMOJU9iRN5UqrWVmFa2pjXYw==
+X-Amz-Cf-Pop: DUS51-P4
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: H8utqrqPizDKiBQ7ghHbR_B_.tYW3vP3
+X-Cache: Hit from cloudfront
+
+{
+  "betReceipt": {
+    "customDismissalValue": "0",
+    "customDismissalValueToggle": false,
+    "neverShowAgainToggle": false,
+    "closeButtonToggle": true,
+    "quickLaunchPositions": [
+      {
+        "imageURL": "https://dd6zx4ibq538k.cloudfront.net/static/images/5601/274098e29abb6b4b57ff7f688cbecb25_332_148.png",
+        "link": "/casino?quicklaunch=https%3A%2F%2Flauncher.xsell.sportsbook.fanduel.com%2Fblackjack-aig",
+        "subtitle": "Play Blackjack"
+      },
+      {
+        "imageURL": "https://dd6zx4ibq538k.cloudfront.net/static/images/5601/49054f9a0f6cda631979a9467a1cf6a2_337_149.png",
+        "link": "/casino?quicklaunch=https%3A%2F%2Flauncher.xsell.sportsbook.fanduel.com%2F%3FganId%3D2397%26providerRef%3Damericanroulette3_mobile_html_sw%26providerName%3DNetEnt%26region%3DMI%26brand%3Dfanduel%26gameName%3DAmerican%2520Roulette%26nativeId%3D2397_1-62-0%26iOSReference%3Damericanroulette3_mobile_html_sw",
+        "subtitle": "Play Roulette"
+      }
+    ]
+  },
+  "blackjackGo": {
+    "fullscreen": false,
+    "quicklaunch": "https://launcher.xsell.sportsbook.fanduel.com/blackjack-surrender-fanduel"
+  },
+  "footerLinks": [
+    {
+      "title": "About",
+      "column": 1,
+      "links": [
+        {
+          "linkType": "Register",
+          "title": "Register"
+        },
+        {
+          "linkType": "AllSports",
+          "title": "All Sports"
+        },
+        {
+          "linkType": "Promotions",
+          "title": "Promotions"
+        },
+        {
+          "linkType": "Support",
+          "title": "Support"
+        },
+        {
+          "linkType": "AboutUs",
+          "title": "About Us"
+        },
+        {
+          "linkType": "FAQs",
+          "title": "FAQs"
+        },
+        {
+          "linkType": "BettingGuide",
+          "title": "Betting Guides"
+        },
+        {
+          "linkType": "ResponsibleGaming",
+          "title": "Responsible Gaming"
+        },
+        {
+          "linkType": "Accessibility",
+          "title": "Accessibility"
+        },
+        {
+          "linkType": "CaliforniaPrivacyRights",
+          "title": "California Privacy Rights"
+        },
+        {
+          "linkType": "DoNotSellMyPersonalInformation",
+          "title": "Do Not Sell My Personal Information"
+        }
+      ]
+    },
+    {
+      "title": "FanDuel Group Sites",
+      "column": 2,
+      "links": [
+        {
+          "linkType": "FanduelFantasy",
+          "title": "FanDuel Fantasy"
+        },
+        {
+          "linkType": "FanduelRacing",
+          "title": "FanDuel Racing"
+        },
+        {
+          "linkType": "FanduelCasino",
+          "title": "FanDuel Casino"
+        },
+        {
+          "linkType": "TVG",
+          "title": "TVG"
+        },
+        {
+          "linkType": "NumberFire",
+          "title": "numberFire"
+        },
+        {
+          "linkType": "FDResearch",
+          "title": "FanDuel Research"
+        },
+        {
+          "linkType": "FanDuelTV",
+          "title": "FanDuel TV"
+        },
+        {
+          "linkType": "FanDuelFaceoff",
+          "title": "FanDuel Faceoff"
+        }
+      ]
+    },
+    {
+      "title": "FanDuel Apps",
+      "column": 2,
+      "links": [
+        {
+          "linkType": "FantasyiOS",
+          "title": "Fantasy (iOS)"
+        },
+        {
+          "linkType": "FantasyAndroid",
+          "title": "Fantasy (Android)"
+        },
+        {
+          "linkType": "SportsbookiOS",
+          "title": "Sportsbook (iOS)"
+        },
+        {
+          "linkType": "SportsbookAndroid",
+          "title": "Sportsbook (Android)"
+        }
+      ]
+    },
+    {
+      "title": "Sportsbook Odds",
+      "column": 3,
+      "links": [
+        {
+          "linkType": "NFLOdds",
+          "title": "NFL Odds"
+        },
+        {
+          "linkType": "NFLTeamOdds",
+          "title": "NFL Team Odds"
+        },
+        {
+          "linkType": "NBAOdds",
+          "title": "NBA Odds"
+        },
+        {
+          "linkType": "NBATeamOdds",
+          "title": "NBA Team Odds"
+        },
+        {
+          "linkType": "MLBOdds",
+          "title": "MLB Odds"
+        },
+        {
+          "linkType": "NHLOdds",
+          "title": "NHL Odds"
+        },
+        {
+          "linkType": "CollegeFootballOdds",
+          "title": "College Football Odds"
+        },
+        {
+          "linkType": "CollegeBasketballOdds",
+          "title": "College Basketball Odds"
+        },
+        {
+          "linkType": "SoccerOdds",
+          "title": "Soccer Odds"
+        },
+        {
+          "linkType": "GolfOdds",
+          "title": "Golf Odds"
+        },
+        {
+          "linkType": "UFCOdds",
+          "title": "UFC Odds"
+        },
+        {
+          "linkType": "NascarAndF1Odds",
+          "title": "NASCAR and F1 Odds"
+        },
+        {
+          "linkType": "TennisOdds",
+          "title": "Tennis Odds"
+        },
+        {
+          "linkType": "BoxingOdds",
+          "title": "Boxing Odds"
+        },
+        {
+          "linkType": "WNBAOdds",
+          "title": "WNBA Odds"
+        }
+      ]
+    },
+    {
+      "title": "Follow FanDuel",
+      "column": 4,
+      "links": [
+        {
+          "linkType": "Facebook",
+          "title": "Facebook"
+        },
+        {
+          "linkType": "X",
+          "title": "X.com"
+        },
+        {
+          "linkType": "Instagram",
+          "title": "Instagram"
+        },
+        {
+          "linkType": "YouTube",
+          "title": "YouTube"
+        },
+        {
+          "linkType": "Snapchat",
+          "title": "Snapchat"
+        }
+      ]
+    }
+  ],
+  "stateLogos": {
+    "partnerLogo": {
+      "imageEntity": {
+        "alt": "Motor City Casino",
+        "height": 24,
+        "url@1x": "https://assets.sportsbook.fanduel.com/images/state/casino/motor_city.png.@1x",
+        "url@2x": "https://assets.sportsbook.fanduel.com/images/state/casino/motor_city.png.@2x",
+        "url@3x": "https://assets.sportsbook.fanduel.com/images/state/casino/motor_city.png.@3x",
+        "width": 138
+      }
+    },
+    "rgLogo": {
+      "imageEntity": {
+        "dark": {
+          "alt": "",
+          "height": 24,
+          "url@1x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@1x",
+          "url@2x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@2x",
+          "url@3x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@3x",
+          "width": 24
+        },
+        "light": {
+          "alt": "",
+          "height": 24,
+          "url@1x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@1x",
+          "url@2x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@2x",
+          "url@3x": "https://assets.sportsbook.fanduel.com/images/state/rg/mi_rg.png.@3x",
+          "width": 24
+        }
+      }
+    },
+    "showSBKAsShield": true
+  },
+  "dfsTabView": {
+    "hideBottomNavigation": true,
+    "hideAuthButtons": true,
+    "redirectUrl": "https://fanduelsportsbook.onelink.me/1RJF/3ccc25dd"
+  }
+}
+
+
+https://config.sportsbook.fanduel.com:443

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: hnd1-s3gw.acronis.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; en-us; SonyEricssonX10i Build/R1AA056) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:20:55 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 550
+X-Amz-Request-Id: 80000000000000250002df7940b8d8e8
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://hnd1-s3gw.acronis.com:443

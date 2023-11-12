@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: internal.garenanow.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 7.1.1; en-us; CPH1801 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/15.8.4.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Cache-Control: private, max-age=0
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:09:56 GMT
+Expires: Tue, 07 Nov 2023 19:09:56 GMT
+Location: http://sites.google.com/a/garena.com/sites/system/errors/ProxiedWebspaceNotFound?host=internal.garenanow.com&webspace=garena-internal
+Server: GSE
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

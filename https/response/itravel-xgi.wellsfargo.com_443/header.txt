@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: itravel-xgi.wellsfargo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Error
+Connection: close
+Content-Type: text/xml
+X-Backside-Transport: FAIL FAIL
+
+<?xml version='1.0' ?>
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+<env:Body>
+<env:Fault>
+<faultcode>env:Client</faultcode>
+<faultstring>Internal Error</faultstring>
+</env:Fault>
+</env:Body>
+</env:Envelope>
+
+
+
+https://itravel-xgi.wellsfargo.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: code-scanning-reports.githubapp.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; SunOS) KHTML/3.5.1 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:27:11 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3Dde1d2c37-ec45-4501-ab15-1edb25dc0e58%26page_id%3D14972870%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=de1d2c37-ec45-4501-ab15-1edb25dc0e58; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: b115cb31cc639d62f21b7415013f64380c91b7d7
+X-Github-Request-Id: B8A8:F7B5:63997B2:655212C:654AF1FF
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230070-FRA
+X-Timer: S1699410431.337367,VS0,VE234
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: identitysso.betfair.se
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b7d82b657168-DUS
+Date: Tue, 07 Nov 2023 18:42:47 GMT
+Expires: Tue, 07 Nov 2023 19:42:47 GMT
+Location: https://identitysso.betfair.se/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=g%2F%2BxUQpSNIUxAm%2BcgoCMMfkvdyGzPnH4M8npdI0WevbxV7ZdFOhH%2BGpi%2Fny%2F48E%2Fegr%2BUD4o9OPtomjClEbpHnJhmkYGZvAfeobM9csffRmoCR0NZtfboa2mGPOpVf9ypwQQYFjgTbw%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=88ET_xjrsOuztb0aUjNX.LSDeWS03zOvP_YYaI9nZhc-1699382567-0-AWJrZlUWIDHZ8tbY+9bffqT5aimJ5GGwgnfaP9XWX0xCbQ+Nza6pcW8lB3X6FZNu99owIAtXHtY7AuiEkCqmd1I=; path=/; expires=Tue, 07-Nov-23 19:12:47 GMT; domain=.betfair.se; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://identitysso.betfair.se:80

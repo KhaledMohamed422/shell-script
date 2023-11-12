@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: rma.ui.com
+User-Agent: Mozilla/4.0 (compatible; GoogleToolbar 4.0.1019.5266-big; Windows XP 5.1; MSIE 6.0.2900.2180)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'none'; base-uri 'none'; frame-ancestors 'none'; child-src 'none'; navigate-to https://*.ui.com; connect-src https://*.ui.com wss://*.ui.com  https://*.ingest.sentry.io https://*.hotjar.com:* https://vc.hotjar.io:* wss://*.hotjar.com https://cdn.cookielaw.org https://*.onetrust.com:*; font-src https://*.ui.com https://script.hotjar.com; form-action https://*.ui.com; media-src 'self'; img-src 'self' https://*.ui.com https://*.ubnt.com https://system.netsuite.com https://cdn.cookielaw.org data: blob: https://*.app.netsuite.com https://script.hotjar.com https://cdn.shopify.com; script-src https://*.ui.com https://static.hotjar.com https://script.hotjar.com https://cdn.cookielaw.org 'unsafe-inline'; style-src https://*.ui.com 'unsafe-inline'; manifest-src https://*.ui.com https://accounts.google.com; frame-src https://vars.hotjar.com https://cdn.cookielaw.org; block-all-mixed-content; upgrade-insecure-requests;
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:02:21 GMT
+Etag: W/"65438f6d-55c"
+Expires: Wed, 08 Nov 2023 05:02:21 GMT
+Feature-Policy: accelerometer 'none'; autoplay 'self'; microphone 'none'; geolocation 'none'; camera 'none'; document-domain 'none'; encrypted-media 'none'; fullscreen 'self'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; publickey-credentials-get 'none'; sync-xhr 'none'; usb 'none'; screen-wake-lock 'none'; xr-spatial-tracking 'none';
+Last-Modified: Thu, 02 Nov 2023 12:00:45 GMT
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 c2bfbd57ba266fad66928f7d9fe2f1c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9L2hUIfSDi5ZFN_dCnWEl5sscEE1M4pEEWR5aG9o8M5DBfRp7zQqqA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: RefreshHit from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: on
+X-Download-Options: noopen
+X-Frame-Options: deny
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+55c

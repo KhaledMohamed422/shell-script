@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: prometheus-failover.bitgo-test.com:8443
+User-Agent: grub-client-1.5.3; (grub-client-1.5.3; Crawl your own stuff with http://grub.org)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:56:02 GMT
+Server: cloudflare
+

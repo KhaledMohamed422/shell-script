@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: test-identity-api.flickr.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Mi A3 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.41 YaBrowser/22.1.0.194 (lite) Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 5
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:05:33 GMT
+Location: https://www.flickr.com
+Via: 1.1 cbe141923b7469a299306144733821c2.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODErKEdvoAMEXPg=
+X-Amz-Cf-Id: Qf-MaT7uxSA9as1PlxBfZyOISRA_Pct6FO6UbHcpI3QEwg7FOtsStg==
+X-Amz-Cf-Pop: FRA56-C2
+X-Amzn-Requestid: 0ba135a6-1fc3-487d-9149-b5657d4a5ceb
+X-Amzn-Trace-Id: Root=1-654ab4ad-74118aa43a02c5aa790c93cf;Sampled=0;lineage=d763b4ab:0
+X-Cache: Miss from cloudfront
+
+Found
+
+
+https://test-identity-api.flickr.com:443

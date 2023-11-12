@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: sampool-bucket.cn-shanghai.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 11; zh-CN; M2012K11AC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.4.8.200 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 379
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:17:25 GMT
+Server: AliyunOSS
+Vary: Origin
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5225B58FA23338EE3776
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5225B58FA23338EE3776</RequestId>
+  <HostId>sampool-bucket.cn-shanghai.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://sampool-bucket.cn-shanghai.oss.aliyun-inc.com:80

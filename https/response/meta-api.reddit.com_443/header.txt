@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: meta-api.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; vivo 1906) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.79 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 45
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 20:33:04 GMT
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Origin
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"code":404,"message":"path / was not found"}
+
+
+https://meta-api.reddit.com:443

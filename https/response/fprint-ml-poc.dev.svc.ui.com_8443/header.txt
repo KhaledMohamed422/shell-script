@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: fprint-ml-poc.dev.svc.ui.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:52:20 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=149816523707-2s6nsppatsvvnb4fslquf3ur42206frm.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ffprint-ml-poc.dev.svc.ui.com%3A8443%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=yezuIF0fvf9owjwCa5c2nIa146tcdJJIsSPfKoZHN1C%2Bpl2GJBR4FRikK5KvTLy%2FYYceUYPFJYZfYUXYXCzg0R8fksG6O33eLvO7W8EZmAbKubi6R873Hkr7AQTAtUNZSj7vRh%2FDuzzY46SZgfc8nT8p29T8GBugQjz%2F5YvtwcVPWanR7OK18DuAsWutCkT6zzHy6O4kN%2BqILMgkKwuqHTbgrRpSQ2r4CrW45C85bNaa5BZ5Aw%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=spWPCAmAGIiCe18a; Expires=Wed, 08 Nov 2023 05:07:20 GMT; Path=/; SameSite=None; Secure; HttpOnly
+

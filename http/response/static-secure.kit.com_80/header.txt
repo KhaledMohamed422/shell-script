@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: static-secure.kit.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Location: https://static-secure.kit.com:443/
+Server: awselb/2.0
+

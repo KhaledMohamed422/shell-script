@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: retailers.instacart.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Cf-Cache-Status: MISS
+Cf-Ray: 82274c26dcb47162-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:16 GMT
+Location: https://dashboard.instacart.com
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jaMROr%2B07Kqrdsd9aqPQCtXOh1sxqzdkyhyTwWUSrCXZZo5muEKWfvAYZXqXUPC7U%2FU4PplChciDGDgj9kC4HccgNrVuvXO6BG8A1u8qNRKoxliD%2B8JKf%2BuMTGf0HOBfsYb6O2EMaFrk"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=.Gu2DqWY.tptDId333SWmTlp8flCAuxvZI7liR2sfiU-1699378156-0-AfeVRqeJ9a4lOboiq2gXshTk+X7GNiugwkbeOoMxpgCuqZnE5RkjB9dRnR2w2HHCIrtD1h6aRDcofu+Y73jqAEw=; path=/; expires=Tue, 07-Nov-23 17:59:16 GMT; domain=.retailers.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: f44e635b-8684-498e-80ed-475a57e4553d
+X-Runtime: 0.035850
+X-Xss-Protection: 1; mode=block
+
+61

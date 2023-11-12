@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: blog.callsign.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=3600,max-age=120
+Cf-Ray: 822a5630bd347a5b-DUS
+Date: Wed, 08 Nov 2023 02:20:25 GMT
+Location: https://blog.callsign.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iD7bWdsDf6DTyTQjltXUy5YIeKy%2BHHKkPgbS%2FQB4Hxp8%2F04PY9H7%2BgVmMmh5pKfy82jKMKvzTyrN7Zdk2wBNiFIz93SOyGMx3TgNIOzE9%2BsVOiYPC9whrf6iWqBSPC44S7dJ"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=AR6xMmlSrXfgGHBY9evcxYigSiGBF6Rv6Tu0uetBC70-1699410025-0-AeDaK28WjgapKEbdb5qCvs6eoTp19h9rVHIjmkCke29wwyuK0Rr2YXPLH7U2nxEgw06N9fS8+AIDFSem2O/dH00=; path=/; expires=Wed, 08-Nov-23 02:50:25 GMT; domain=.blog.callsign.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=11940b92801e75da2d44af692545637391275186-1699410025; path=/; domain=.blog.callsign.com; HttpOnly
+Vary: Accept-Encoding
+X-Hs-Https-Only: worker
+Content-Length: 0
+
+
+
+
+http://blog.callsign.com:80

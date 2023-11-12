@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: report.aliyun.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; BBB100-1 Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Language: zh-CN
+Content-Security-Policy-Report-Only: default-src 'self' 'unsafe-inline' data: https://*.daily.taobao.net https://*.mmstat.com https://*.aliyun-inc.com https://*.alibaba-inc.com https://*.alicdn.com https://*.alibaba.com https://*.aliyuncs.com; report-uri /report-csp
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:18:51 GMT
+Eagleeye-Traceid: 2147b47c16994387314132580e5b52
+Server: Tengine/Aserver
+Set-Cookie: JSESSIONID=ZPF66CA1-9P6ESDOS7CIOEA6LKAU32-GGXXLPOL-DL91; Domain=.report.aliyun.com; Path=/; HttpOnly
+Set-Cookie: console0=1AbLByOMHeZe3G41KYd5WZtFzByqS4O%2FrA630Eoxn4xiCq4ehfOc8ttReMgA77jaQU1hbCWY1TiBzGPB%2FbDxftlirsVwjyd%2BuDXg%2BH1maATcltKbW%2FWCOecV6JGI01LbA7aRRzA9HViwJGdQ24WpsA%3D%3D; Domain=.report.aliyun.com; Path=/; HttpOnly
+Set-Cookie: console_token=; Domain=.report.aliyun.com; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+
+3c7f
+

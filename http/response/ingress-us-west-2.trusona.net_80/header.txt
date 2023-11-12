@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: ingress-us-west-2.trusona.net
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/33.0.1750.152 Chrome/33.0.1750.152 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 19:47:51 GMT
+Server: awselb/2.0
+Content-Length: 0
+
+
+
+
+http://ingress-us-west-2.trusona.net:80

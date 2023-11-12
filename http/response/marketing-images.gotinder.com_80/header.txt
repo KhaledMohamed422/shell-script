@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: marketing-images.gotinder.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 18:40:36 GMT
+Server: AmazonS3
+Via: 1.1 9835af751c15612a813bbc131d2ce1e6.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: 9sweZDbTVVo2ue3TQ_4y57wsgx5LQaPfRTdMz1M-gTbr_GVglkjnVg==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>S0FBM7HZXHE0CEA5</RequestId><HostId>PHLAkkcWzVTVnp0riG/We7vo/W5KCtxh8U+Gs1mR3B+9cCD8ZuvxHd2Iqpb6RzfVTiTCb/agdA0=</HostId></Error>
+0
+
+
+
+
+http://marketing-images.gotinder.com:80

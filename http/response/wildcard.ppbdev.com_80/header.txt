@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: wildcard.ppbdev.com
+User-Agent: Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b98c1bb81603-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:57 GMT
+Expires: Tue, 07 Nov 2023 18:44:12 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F4fJm4u%2BkOwY93FP3AKUIyAQwMNeQbLQflaKEv%2BP2epW3zUik%2BYFMqVzydBbPcqSt%2BC78rDbLaisGFR4A1GBoCk23YClbwYQEBOYwycyJ0yubM4VEd7VcjBgHbpfYfKSCAQmcNI%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=SbY9XGFK09gMlGvHcPzsixrU_lkxq0DNA1x3aZoZ1fs-1699382637-0-AdVl6NuPNXJN70A0ZbevMksk6wn3/TCEkfbgjLtS1rcnuGrDFRWJUfnrun1N1mxAAGyoFbfyRjV4gJhFslqJSlY=; path=/; expires=Tue, 07-Nov-23 19:13:57 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

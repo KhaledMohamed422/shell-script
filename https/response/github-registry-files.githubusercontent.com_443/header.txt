@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: github-registry-files.githubusercontent.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:28:14 GMT
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish, 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: n2aviBNw2+iLXCr5LnDF2V5D8ZCINyduQAy6dZwX3G/wN9lO7NbaO9V8orodnDE+fot2W528ydU=
+X-Amz-Request-Id: 15YCQJTDAQBSRCCM
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Fastly-Request-Id: 604a269c1deb2f86e191f6e6cfff643da3bf3f45
+X-Served-By: cache-iad-kcgs7200162-IAD, cache-fra-eddf8230067-FRA
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>15YCQJTDAQBSRCCM</RequestId><HostId>n2aviBNw2+iLXCr5LnDF2V5D8ZCINyduQAy6dZwX3G/wN9lO7NbaO9V8orodnDE+fot2W528ydU=</HostId></Error>
+0
+
+
+
+
+https://github-registry-files.githubusercontent.com:443

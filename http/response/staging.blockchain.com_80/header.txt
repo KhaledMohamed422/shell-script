@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: staging.blockchain.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/4.51 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82277fa85bb3cb2f-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:04:26 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1006
+
+
+http://staging.blockchain.com:80

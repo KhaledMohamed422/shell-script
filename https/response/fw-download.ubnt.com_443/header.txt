@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: fw-download.ubnt.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; RMX3081) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:52:28 GMT
+Server: AmazonS3
+Via: 1.1 4d156fc02c81ad97b906c107779265e2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: hGbA6nK6jPKByJCSMaLqTE3VR-SF51SYV8U9YY69aHnI0DCHqTHExA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B77JAQCVYKD3H1AD</RequestId><HostId>k8qd4lWVVtfBxFDVqvc8X4fujTeId8HrZYOQS2eJha/BvhD3H/WVoxXqLWhtkDrpIItLLEewu/0=</HostId></Error>
+0
+
+
+
+
+https://fw-download.ubnt.com:443

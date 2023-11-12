@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: old.developers.cloudflare.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/96.0.4664.101 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e0f96c221615-DUS
+Date: Tue, 07 Nov 2023 19:10:52 GMT
+Expires: Tue, 07 Nov 2023 20:10:52 GMT
+Location: https://old.developers.cloudflare.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=tkRb5LdU9KMbcqjktSTs3hUdynaAhrG8TiPsmAQKaOY-1699384252-0-AfU+/5Iq0p/c/Sc7eyD336IySerd1ugMIcbAjSX28lCTuc1Q15wZmZs7iQU7CyMuVphgFpAgZBN4uv1nmJspUCc=; path=/; expires=Tue, 07-Nov-23 19:40:52 GMT; domain=.developers.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://old.developers.cloudflare.com:80

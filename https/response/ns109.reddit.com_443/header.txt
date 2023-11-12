@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ns109.reddit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:35:28 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf534f7l7.2.1699389327445.Z0FBQUFBQmxTcC1QMG9qcnd4VzdXX2NzX2Rpalp3MlJzcmVzMkNST0Qxc19hUDdPUGh1NEw3WVhnVFlFZEdPUTM1eHlBS0lVOHRMNGZmNmt4RV9KS1lVd0N1YUJNVTJ3OGdRenpfQ3RkSnNDalZfSlNDbFR0ZEJBM2sxSEhTcC0xbElXY3ZfR25zeEM; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:35:27 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=ckdpljjhehbbemeemc.0.1699389327448.Z0FBQUFBQmxTcC1QTEVaaXVaVk9KTHc1cDhwQUxWOWt1LThiRmZ5NUtzWVNkcW5LVW1aY2Rod2VlLTBBa2JEYmZ0dm13Wm9RS1o3eGtpU3E2U0xrOTNxM0UtUUlLR0p2RVdUcjI0bVVRN1V1ckpHMkZxU3FJc2paTFE0angzaWFMX25fanA0SWM3RDE; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:35:27 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=RolYINBy1sfZ9rXpJL; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

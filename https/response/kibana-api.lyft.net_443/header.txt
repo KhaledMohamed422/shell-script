@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: kibana-api.lyft.net
+User-Agent: Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7C145
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:35 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9raWJhbmEtYXBpLmx5ZnQubmV0LyIsICJzdmMiOiAia2liYW5hLWFwaS5seWZ0Lm5ldCJ9%7C10.44.196.25%7C1699394615%7Ccfd8256ffee174ffd74c66844adf4ba9304f1dba8f8d6230f8aa0775dd50f432
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: stagingcatch.ozow.com
+User-Agent: Midori/0.1.10 (X11; Linux i686; U; en-us) WebKit/(531).(2)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228e09d2e984db7-FRA
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:05:23 GMT
+Server: cloudflare
+X-Amz-Apigw-Id: ODEplFbTDoEEQzA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 64baeca4-bd00-43d1-a3ec-bc740ad707ca
+
+{"message":"Missing Authentication Token"}
+
+
+https://stagingcatch.ozow.com:443

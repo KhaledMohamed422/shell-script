@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: privacy.twitter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 20:38:04 GMT
+Location: https://privacy.twitter.com/en
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938948443703226; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:38:04 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: d51f0206f3645a013f5495f90c68c41184834569b8de32c8db5de8de26014f7d
+X-Response-Time: 116
+X-Transaction-Id: 8a07f6f22d2dc0b5
+X-Xss-Protection: 0
+

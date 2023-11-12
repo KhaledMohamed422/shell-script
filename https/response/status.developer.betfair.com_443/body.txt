@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="env" content="production">
+<meta name="token" content="X76VPiUirBKbzwMJSSGrqqtOYPbUvzmWz0KllW1i">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="description" content="Stay up to date with the latest service updates from Betfair Exchange API | Status.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Betfair Exchange API | Status">
+<meta property="og:image" content=" https://status.developer.betfair.com/img/favicon.png">
+<meta property="og:description" content="Stay up to date with the latest service updates from Betfair Exchange API | Status.">
+
+<meta http-equiv="cleartype" content="on">
+<meta name="msapplication-TileColor" content="#7ed321" />
+<meta name="msapplication-TileImage" content="https://status.developer.betfair.com/img/favicon.png" />
+<link href="https://status.developer.betfair.com" rel="canonical">
+<link rel="icon" href="https://status.developer.betfair.com/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://status.developer.betfair.com/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="https://status.developer.betfair.com/img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="https://status.developer.betfair.com/img/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://status.developer.betfair.com/img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://status.developer.betfair.com/img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://status.developer.betfair.com/img/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://status.developer.betfair.com/img/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://status.developer.betfair.com/img/apple-touch-icon-152x152.png">
+<title>Betfair Exchange API | Status</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=latin" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://status.developer.betfair.com/dist/css/app.css?id=bd1fec67352aae46291e ">
+<style type="text/css">
+body.status-page {
+    background-color: #f0f3f4;
+    color: #333333;
+        padding-top: 0;
+    }
+p, strong { color: #333333 !important; }
+.reds { color: #ff6f6f !important; }
+.blues { color: #3498db !important; }
+.greens { color: #7ed321 !important; }
+.yellows { color: #f7ca18 !important; }
+.oranges { color: #ff8800 !important; }
+.greys { color: #888888 !important; }
+.metrics { color: #0dccc0 !important; }
+.links { color: #7ed321 !important; }
+
+/**
+ * Banner background
+ */
+.app-banner {
+    background-color:  !important;
+}
+
+.app-banner-padding {
+    padding: 40px 0 !important;
+}
+
+/**
+ * Alert overrides.
+ */
+.alert {
+    background-color: #f7ca18;
+    border-color: #deb515;
+    color: white;
+}
+.alert.alert-success {
+    background-color: #7ed321;
+    border-color: #71bd1d;
+    color: white;
+}
+.alert.alert-info {
+    background-color: #3498db;
+    border-color: #2e88c5;
+    color: white;
+}
+.alert.alert-danger {
+    background-color: #ff6f6f;
+    border-color: #e56363;
+    color: white;
+}
+
+/**
+ * Button Overrides
+ */
+.btn.links {
+    color: #ac8d10;
+}
+.btn.btn-success {
+    background-color: #7ed321;
+    border-color: #71bd1d;
+    color: white;
+}
+.btn.btn-success.links {
+    color: #589317;
+}
+.btn.btn-success.btn-outline {
+    background-color: transparent;
+    border-color: #7ed321;
+    color: #7ed321;
+}
+.btn.btn-success.btn-outline:hover {
+    background-color: #7ed321;
+    border-color: #71bd1d;
+    color: white;
+}
+.btn.btn-info {
+    background-color: #3498db;
+    border-color: #2e88c5;
+    color: white;
+}
+.btn.btn-info.links {
+    color: #246a99;
+}
+.btn.btn-danger {
+    background-color: #ff6f6f;
+    border-color: #e56363;
+    color: white;
+}
+.btn.btn-danger.links {
+    color: #b24d4d;
+}
+
+/**
+ * Background fills Overrides
+ */
+.component {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.sub-component {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.incident {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.status-icon {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.panel.panel-message:before {
+    border-left-color: #ffffff !important;
+    border-right-color: #ffffff !important;
+}
+.panel.panel-message:after {
+    border-left-color: #ffffff !important;
+    border-right-color: #ffffff !important;
+}
+.footer a {
+    color: #333333;
+}
+</style>
+<style type="text/css">
+    body.status-page {
+    background-color: #ffb80c;
+    color: #000000;
+        padding-top: 0;
+    }
+.reds { color: #950000 !important; }
+.blues { color: #ff8800 !important; }
+.greens { color: #31953e !important; }
+.yellows { color: #ff8800 !important; }
+.oranges { color: #ff8800 !important; }
+.metrics { color: #31953e !important; }
+.links { color: #ffffff !important; }
+
+/**
+ * Banner background
+ */
+.app-banner {
+    background-color: #ffb80c !important;
+}
+
+.app-banner-padding {
+    padding: 40px 0 !important;
+}
+
+/**
+ * Alert overrides.
+ */
+.alert {
+    background-color: #ff8800;
+    border-color: #e57a00;
+    color: white;
+}
+.alert.alert-success {
+    background-color: #31953e;
+    border-color: #2c8637;
+    color: white;
+}
+.alert.alert-info {
+    background-color: #ff8800;
+    border-color: #e57a00;
+    color: white;
+}
+.alert.alert-danger {
+    background-color: #950000;
+    border-color: #860000;
+    color: white;
+}
+
+/**
+ * Button Overrides
+ */
+.btn.links {
+    color: #b25f00;
+}
+.btn.btn-success {
+    background-color: #31953e;
+    border-color: #2c8637;
+    color: white;
+}
+.btn.btn-success.links {
+    color: #22682b;
+}
+.btn.btn-success.btn-outline {
+    background-color: transparent;
+    border-color: #31953e;
+    color: #31953e;
+}
+.btn.btn-success.btn-outline:hover {
+    background-color: #31953e;
+    border-color: #2c8637;
+    color: white;
+}
+.btn.btn-info {
+    background-color: #ff8800;
+    border-color: #e57a00;
+    color: white;
+}
+.btn.btn-info.links {
+    color: #b25f00;
+}
+.btn.btn-danger {
+    background-color: #950000;
+    border-color: #860000;
+    color: white;
+}
+.btn.btn-danger.links {
+    color: #680000;
+}
+
+/**
+ * Background fills Overrides
+ */
+.component {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.sub-component {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.incident {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.status-icon {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+}
+.panel.panel-message:after {
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+}
+.footer a {
+    color: #000000;
+}
+    </style>
+<script type="text/javascript">
+        var Global = {};
+        var refreshRate = parseInt("");
+
+        function refresh() {
+            window.location.reload(true);
+        }
+
+        if (refreshRate > 0) {
+            setTimeout(refresh, refreshRate * 1000);
+        }
+
+        Global.locale = 'en';
+    </script>
+<script src="https://status.developer.betfair.com/dist/js/manifest.js?id=40dcfff9d09d402daf38"></script>
+<script src="https://status.developer.betfair.com/dist/js/vendor.js?id=22c73f1593b70b9d016d"></script>
+</head>
+<body class="status-page ">
+<div>
+<div class="container">
+<div class="row app-banner-padding   app-banner ">
+<div class="col-md-12 text-center">
+<a href="https://status.developer.betfair.com" class="links"><img src="data:image/png;base64, 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" class="banner-image img-responsive"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="container" id="app">
+<div class="section-messages">
+</div>
+<div class="section-status">
+<div class="alert alert-success">All systems are operational</div>
+</div>
+<div class="section-components">
+<ul class="list-group components">
+<li class="list-group-item group-name">
+<i class="ion-ios-minus-outline group-toggle"></i>
+<strong>EXCHANGE API (UK)</strong>
+<div class="pull-right">
+<i class="ion ion-ios-circle-filled text-component-1 greens" data-toggle="tooltip" title="Operational"></i>
+</div>
+</li>
+<div class="group-items ">
+<li class="list-group-item sub-component">
+/getAccountDetails
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 24th October 2023 07:21:24">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/getAccountFunds
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 24th October 2023 07:21:24">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/listCurrentOrders
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 27th September 2022 14:12:53">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/listMarketBook
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 24th October 2023 07:21:27">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/listMarketCatalogue
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 24th October 2023 07:21:24">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/placeOrders
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Saturday 4th November 2023 21:49:24">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+/cancelOrders
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Monday 26th September 2022 15:59:53">Operational</small>
+</div>
+</li>
+</div>
+</ul>
+<ul class="list-group components">
+<li class="list-group-item group-name">
+<i class="ion-ios-minus-outline group-toggle"></i>
+<strong>EXCHANGE STREAM API (UK)</strong>
+<div class="pull-right">
+<i class="ion ion-ios-circle-filled text-component-1 greens" data-toggle="tooltip" title="Operational"></i>
+</div>
+</li>
+<div class="group-items ">
+<li class="list-group-item sub-component">
+marketSubscription
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Sunday 18th September 2022 13:12:44">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+orderSubscription
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Tuesday 24th October 2023 07:26:24">Operational</small>
+</div>
+</li>
+<li class="list-group-item sub-component">
+authentication
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Wednesday 11th October 2023 14:00:24">Operational</small>
+</div>
+</li>
+</div>
+</ul>
+<ul class="list-group components">
+<li class="list-group-item group-name">
+<i class="ion-ios-minus-outline group-toggle"></i>
+<strong>VENDOR OPERATIONS</strong>
+<div class="pull-right">
+<i class="ion ion-ios-circle-filled text-component-1 greens" data-toggle="tooltip" title="Operational"></i>
+</div>
+</li>
+<div class="group-items ">
+<li class="list-group-item sub-component">
+vendorNavigationService
+<div class="pull-right">
+<small class="text-component-1 greens" data-toggle="tooltip" title="Last updated Monday 16th October 2023 06:12:24">Operational</small>
+</div>
+</li>
+</div>
+</ul>
+</div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+</div>
+<div class="col-sm-8">
+<ul class="list-inline">
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://status.developer.betfair.com/dist/js/all.js?id=35d57a8ca7bf5f486347"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227bc685af37a5e","b":1,"version":"2023.10.0","token":"d048f65d27954a24aa6b1d7d2ddcb256"}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://status.developer.betfair.com:443

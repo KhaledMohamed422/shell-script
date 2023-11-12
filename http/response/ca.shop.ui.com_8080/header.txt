@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ca.shop.ui.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-A605G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822af2e34f591621-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:07:23 GMT
+Expires: Wed, 08 Nov 2023 04:07:38 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EpCF0qD0lDCRom0xr3Fvpmx7tT4pNY1ZufXxhnnpF%2FoyqvgTRsGD2s16f9Fvth6%2FM7fN2nA09yEWecJBL9LT5bJBM7j5ewa%2BAomffArTljJG1XcINOdvg8CZpRp1Dc8qFKEadzQ%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=6.999969
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

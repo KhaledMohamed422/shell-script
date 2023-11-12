@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: xiamimp3.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; fr-fr; GT-I5700 Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 408
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:36:21 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B64A597E87C34340EE468
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B64A597E87C34340EE468</RequestId>
+  <HostId>xiamimp3.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <Bucket>xiamimp3</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+https://xiamimp3.cn-hangzhou.oss.aliyun-inc.com:443

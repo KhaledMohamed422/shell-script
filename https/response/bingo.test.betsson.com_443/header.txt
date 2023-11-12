@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: bingo.test.betsson.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:01:50 GMT
+Server: CloudFront
+Via: 1.1 72500140cb63ff2dee8b57e4476902e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vMx7Xb7cP5IxPC5-0_p142tg3dBZ-IlMITb8in9lDpzdXIcu9Ze7cw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+

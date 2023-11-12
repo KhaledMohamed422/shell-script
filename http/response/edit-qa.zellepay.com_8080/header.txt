@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: edit-qa.zellepay.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-us) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.9174AT
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ff0295f0c6a7c-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 18:39:20 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1006
+
+
+http://edit-qa.zellepay.com:8080

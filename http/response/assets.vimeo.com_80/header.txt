@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: assets.vimeo.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 182
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:04:33 GMT
+Expires: Wed, 08 Nov 2023 04:04:33 GMT
+Server: UploadServer
+Vary: Accept-Encoding,x-http-method-override
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Guploader-Uploadid: ABPtcPqlZp-y9l9GrNAf6-Dvun19EvduXjQv0gRyqgd5eSlDmE1GPW2_SI5dTTJCSO219LcVnXouZ_c37w
+X-Served-By: cache-iad-kcgs7200137-IAD, cache-fra-eddf8230031-FRA
+X-Timer: S1699416274.680418,VS0,VE120
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Details>No such object: vimeo-static-web/.gz</Details></Error>
+
+
+http://assets.vimeo.com:80

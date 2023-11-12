@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: shoppers-edge.instacart.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; rv:19.0) Gecko/20100101 Slackware/13 Firefox/19.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273df4db987a3c-DUS
+Date: Tue, 07 Nov 2023 17:19:35 GMT
+Expires: Tue, 07 Nov 2023 18:19:35 GMT
+Location: https://shoppers-edge.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vmFfzid0CiW3AVen9d4j3hXm68OpWaOjPbxQw5vWklkqaOaDIkYePZErUQulAOElXmMFzyO9NgD3bpgHc9DAyJPu9T%2FytNOVY%2F53vlGnJYZ%2Fu8I7P64q07%2FlCWgHA578X01so6Fl39OydUxd7xDvCyCo"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=oPXU27r1M9iw3A8QXI0ZETUD1Na7BzBy5Qfv25eIwd8-1699377575-0-AcsrB5gQkJbyYTipJz13K/uU4ualg7X1l9ZoUTgkPjtuWVmE5grZzR1gxVmSdNQ6qemnVYtE0PVb27AIhwX0mvM=; path=/; expires=Tue, 07-Nov-23 17:49:35 GMT; domain=.shoppers-edge.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://shoppers-edge.instacart.com:8080

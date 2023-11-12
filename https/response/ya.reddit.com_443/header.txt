@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ya.reddit.com
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/012.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.3 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:58:30 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf6i4ka3l.2.1699390709493.Z0FBQUFBQmxTcVQxTER4clQ4QlpkQlRQV2h1b1ZYRTJBeGtYX0JqNEd3TUdKQU5EcFpMSWlrdDAtcmdXRVRGQVU5RkdZdDhMWWJfYldINFppcDNtdGQ4eFhNalJLUVJPbTc0eHBHU0dmRHJwLVQxQmdwUWlfN1lHRjlubnMzNWRuWHJETlEzYnRnLXA; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:58:29 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=fbfkjklkdkpedkbfed.0.1699390709495.Z0FBQUFBQmxTcVQxSXQxNm9paGg0SjN0bVg3VWtpNWZFZzRKTjcwYmh5SGRvbFJPNWYxa0lBSUR4NFJkdXZYN25oRHNBdVFHYngxRXRBcWZXckpfSFNGckZPbFNneEx3Snh1X3NKTW5xYkhfU3YwVGFhWUhtb1RYSktEZFFLNUtxQXlRUEFyZjRwMEo; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:58:29 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=TQ4Z7xaU0nWu0RqT2u; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

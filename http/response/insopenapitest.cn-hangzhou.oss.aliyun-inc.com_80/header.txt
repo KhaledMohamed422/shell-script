@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: insopenapitest.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20091020 Linux Mint/8 (Helena) Firefox/3.5.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 379
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:55:04 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B4CE8D3B654383591422C
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B4CE8D3B654383591422C</RequestId>
+  <HostId>insopenapitest.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://insopenapitest.cn-hangzhou.oss.aliyun-inc.com:80

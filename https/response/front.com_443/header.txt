@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: front.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.4997.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 78970
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822781b93c0a92ba-FRA
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:51 GMT
+Referrer-Policy: origin-when-cross-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Matched-Path: /
+X-Vercel-Cache: HIT
+X-Vercel-Id: fra1::sfo1::gh5g5-1699380350949-f77245c2a30b
+
+2e69c

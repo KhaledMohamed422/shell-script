@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dl-sg-sandbox.freefiremobile.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 300
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0
+Cache-Control: public, max-age=3600
+Content-Type: application/xml; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:08:48 GMT
+Expires: Tue, 07 Nov 2023 19:08:48 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPqDPWdoFXK5JaYqT-ZzbVCZqUWigg_GJTtb7eG8x1zYHef5vJLddCsMYUalEYM0eIgc14xNwktH7Q
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource (or it may not exist).</Details></Error>
+
+
+http://dl-sg-sandbox.freefiremobile.com:80

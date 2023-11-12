@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: static-hubble.mb-cosmos.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.601.0 Safari/534.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:18:19 GMT
+Via: 1.1 9b097dfab92228268a37145aac5629c0.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCsLSFWWIAMEl2Q=
+X-Amz-Cf-Id: ZKHP6euKQXKAL2Pi7jyFaQRozp0ghLsvKZC48M43fzyGK2-Uzs1WPQ==
+X-Amz-Cf-Pop: IAD89-C1
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ffde43b2-1762-4de9-bd86-b114c5aae62b
+X-Amzn-Trace-Id: Root=1-654a8d7b-0663a1d37db4ba6d52daa165
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://static-hubble.mb-cosmos.com:443

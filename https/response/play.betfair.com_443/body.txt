@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="en" data-framework="marko" class="undefined international"><head><meta charset="utf-8"><meta name="apple-mobile-web-app-capable" content="yes"><title>Betfair Gaming Platform - Error</title><meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" href="//ie1-bgfbf.cdnppb.net/static/1.10.1-1426/404-page-c76c7b8b.css" crossorigin="anonymous"><link rel="icon" href="/favicon-betfair.ico" type="image/x-icon"></head><body ontouchstart><script type="text/javascript">
+    window.com = window.com || {};
+    window.com.ppb = window.com.ppb || {};
+    window.com.ppb.cl = window.com.ppb.cl || {};
+
+    var cl = window.com.ppb.cl;
+
+    cl.accountId = '';
+    cl.gameCode = '';
+    cl.platform = '';
+    cl.productName = '';
+    cl.provider = '';
+    cl.jurisdiction = 'international';
+    cl.gameStudio = '';
+    cl.dataChannel = 'undefined';
+    cl.dataContext = 'undefined';
+    cl.dataContext = 'undefined';
+    cl.rgsGameCode = '';
+    cl.requestId = '2f09cb44-db34-44ff-9dbb-a4797fc79510';
+</script><h1>Sorry, something happened.</h1><script type="text/javascript">
+    window.com = window.com || {};
+    window.com.ppb = window.com.ppb || {};
+    window.com.ppb.gtm = window.com.ppb.gtm || {};
+
+    var gtm = window.com.ppb.gtm,
+        gameCode = '';
+
+    gtm.config = gtm.config || {};
+    gtm.default = gtm.default || {};
+
+    /**
+     * Set default event for Google Analytics
+     */
+    gtm.default.event = "ga_event";
+
+    /**
+     * Set page name for Google Analytics, if it wasn't previously set up
+     */
+    if (!gtm.default.cd3) {
+        gtm.default.cd3 = 'live game window';
+    }
+    if (gameCode) {
+        gtm.config.gameCode = gameCode;
+    }
+
+    /**
+     * Set up Google Analytics
+     */
+    gtm.dataLayer = dataLayer = [{
+        'event': 'ga_pageLoad',                                 //signal to GTM that a page has loaded
+        'ga_target_property':  '',   //The appropriate GA tracking ID for this product and device type
+        'acc_id': '',                                 //users account ID
+        'locale': 'en',                                //user's language setting
+        'reg_status': 'registered',           //registration status of the user
+        'login_status': 'logged in',                             //users login status
+        'jurisdiction': 'international',        //jurisdiction the user is in when hit occurs
+        'orientation': ViewportUtils ? ViewportUtils.screenOrientation : '', //orientation of the device at the time of the hit
+        'cd109': 'undefined',
+        'cd110': 'undefined'
+    }];
+
+     /**  Loop through Array Experiment objects 
+     *   Set up a GA for experiments
+    */
+    var experiments = [{"id":"data-driven-top-games-zone","variant":"control","bucket":1726},{"id":"show-bf-promo-modules-casino-com","variant":"control","bucket":2474}];
+
+    experiments.forEach(function (experiment) {
+        EventBus.dispatch(events.GOOGLE_ANALYTICS, this, {
+            'event': 'ga_event',
+            'category': 'loop',
+            'action': 'exp_' + experiment.variant,
+            'label': 'exp_' + experiment.id,
+            'customDimensions': {
+                'cd26': experiment.bucket,
+                'cd1': '',
+                'cd125': null,
+                'cd126': '4g',
+            }
+        });
+    });
+
+
+    /**
+     * Trigger a page load event
+     */
+    EventBus.dispatch(events.GOOGLE_ANALYTICS, this, {
+        'category': 'interface',
+        'action': 'saw',
+        'label': 'live game window',
+        'customDimensions': {}
+    });
+</script><noscript><iframe src=//www.googletagmanager.com/ns.html?id= height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><script type="text/javascript">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');
+</script><script src="//ie1-bgfbf.cdnppb.net/static/1.10.1-1426/404-page-739bdda6.js" crossorigin="anonymous"></script>
+<script>$_mod.ready();</script><script type="text/javascript">
+    window.com = window.com || {};
+    window.com.ppb = window.com.ppb || {};
+    window.com.ppb.gtm = window.com.ppb.gtm || {};
+
+    var gtm = window.com.ppb.gtm,
+        gameCode = '';
+
+    gtm.config = gtm.config || {};
+    gtm.default = gtm.default || {};
+
+    /**
+     * Set default event for Google Analytics
+     */
+    gtm.default.event = "ga_event";
+
+    /**
+     * Set page name for Google Analytics, if it wasn't previously set up
+     */
+    if (!gtm.default.cd3) {
+        gtm.default.cd3 = 'live game window';
+    }
+    if (gameCode) {
+        gtm.config.gameCode = gameCode;
+    }
+
+    /**
+     * Set up Google Analytics
+     */
+    gtm.dataLayer = dataLayer = [{
+        'event': 'ga_pageLoad',                                 //signal to GTM that a page has loaded
+        'ga_target_property':  '',   //The appropriate GA tracking ID for this product and device type
+        'acc_id': '',                                 //users account ID
+        'locale': 'en',                                //user's language setting
+        'reg_status': 'registered',           //registration status of the user
+        'login_status': 'logged in',                             //users login status
+        'jurisdiction': 'international',        //jurisdiction the user is in when hit occurs
+        'orientation': ViewportUtils ? ViewportUtils.screenOrientation : '', //orientation of the device at the time of the hit
+        'cd109': 'undefined',
+        'cd110': 'undefined'
+    }];
+
+     /**  Loop through Array Experiment objects 
+     *   Set up a GA for experiments
+    */
+    var experiments = [{"id":"data-driven-top-games-zone","variant":"control","bucket":1726},{"id":"show-bf-promo-modules-casino-com","variant":"control","bucket":2474}];
+
+    experiments.forEach(function (experiment) {
+        EventBus.dispatch(events.GOOGLE_ANALYTICS, this, {
+            'event': 'ga_event',
+            'category': 'loop',
+            'action': 'exp_' + experiment.variant,
+            'label': 'exp_' + experiment.id,
+            'customDimensions': {
+                'cd26': experiment.bucket,
+                'cd1': '',
+                'cd125': null,
+                'cd126': '4g',
+            }
+        });
+    });
+
+
+    /**
+     * Trigger a page load event
+     */
+    EventBus.dispatch(events.GOOGLE_ANALYTICS, this, {
+        'category': 'interface',
+        'action': 'saw',
+        'label': 'live game window',
+        'customDimensions': {}
+    });
+</script><noscript><iframe src=//www.googletagmanager.com/ns.html?id= height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><script type="text/javascript">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','');
+</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227bbbf2a7f1608","b":1,"version":"2023.10.0","token":"d048f65d27954a24aa6b1d7d2ddcb256"}' crossorigin="anonymous"></script>
+</body></html>
+0
+
+
+
+
+https://play.betfair.com:443

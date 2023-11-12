@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: bmp.trip.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.2 Chrome/92.0.4515.166 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 55
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 06:44:38 GMT
+Location: https://bmp.ctrip.com
+Server: nginx/1.20.1
+Set-Cookie: GUID=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: GUID=09031033416235666871; Domain=.trip.com; Path=/; Expires=Sat, 07 Nov 2026 06:44:38 GMT
+Vary: Accept, Accept-Encoding
+X-Powered-By: Express
+
+Moved Permanently. Redirecting to https://bmp.ctrip.com
+
+
+http://bmp.trip.com:80

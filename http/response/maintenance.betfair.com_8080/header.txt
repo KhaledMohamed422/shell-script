@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: maintenance.betfair.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7; en-us) AppleWebKit/534.20.8 (KHTML, like Gecko) Version/5.1 Safari/534.20.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b83b781afad4-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:03 GMT
+Expires: Tue, 07 Nov 2023 18:43:18 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ghXXpWuN0F4FxLrng31ZGcOzc67NQp9xF0LNwtE7RmEwC8xxHrAajT2TPm5BKTZu6r%2Bw2Sj5NHl1BpTSmIU2lV%2FJQk43vrHkeYg%2F5tujs1fU6U7deekxTDOMGSjHTF%2B%2BzgJwxaPsqrOHnGWXmw8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

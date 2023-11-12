@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ns0110.secondary.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e9a5ff927a54-DUS
+Date: Tue, 07 Nov 2023 19:16:47 GMT
+Expires: Tue, 07 Nov 2023 20:16:47 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4j4aggNYxQMi3mxj%2F1oFFendX1rWRALTaAkHrGOZqhHPxFY13q8zdnaL4BBbTWnhVXj2T3BYc4A8d967f3fbyCzq9Nrub2m1BeS9EvSD6iFWCHqVle2rF8wTcBeVntOA38kQpxriHQun60ilJ8jrDpgvDsjcqg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://ns0110.secondary.cloudflare.com:8443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: api.staging.latchaccess.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:43:15 GMT
+Referrer-Policy: no-referrer
+Vary: Accept-Encoding,Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699418595428},"payload":{"message":""},"trailer":{"checkSum":3579914305}}
+
+
+https://api.staging.latchaccess.com:443

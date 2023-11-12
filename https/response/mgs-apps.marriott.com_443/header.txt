@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: mgs-apps.marriott.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 337
+Cache-Control: private, max-age=0, must-revalidate
+Cache-Control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:28:16 GMT
+Location: https://mgs-apps.marriott.com/mellon/login?ReturnTo=https%3A%2F%2Fmgs%2Dapps.marriott.com%2F&IdP=urn%3Amgs%2Dapps.marriott.com
+Server: Apache
+Set-Cookie: AWSELB=075F490874F77D52364C707951EEA502F5B49841A2991D27C402A1142067033DF24587364D22C8F49738BA7A25C259060F9197F4F466D9906EB9D8BD195CAE01F19FE0DB;PATH=/
+Set-Cookie: AWSELBCORS=075F490874F77D52364C707951EEA502F5B49841A2991D27C402A1142067033DF24587364D22C8F49738BA7A25C259060F9197F4F466D9906EB9D8BD195CAE01F19FE0DB;PATH=/;SECURE;SAMESITE=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

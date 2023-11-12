@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: teambition-file.alibaba-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.20 Safari/535.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 151
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 10:26:31 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+{
+    "BuildTime": "2023-01-09T16:06:31Z",
+    "GitSHA1": "e679bcd625fc627c77aa86a4934c02b887429fe5",
+    "Name": "tbs-tcs",
+    "Version": "v1.13.2"
+}
+
+
+https://teambition-file.alibaba-inc.com:443

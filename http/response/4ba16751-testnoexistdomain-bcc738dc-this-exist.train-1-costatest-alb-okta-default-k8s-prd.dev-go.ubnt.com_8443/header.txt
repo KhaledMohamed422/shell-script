@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 4ba16751-testnoexistdomain-bcc738dc-this-exist.train-1-costatest-alb-okta-default-k8s-prd.dev-go.ubnt.com:8443
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.9.1b3) Gecko/20090429 Firefox/3.1b3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 145
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 03:57:17 GMT
+Location: https://4ba16751-testnoexistdomain-bcc738dc-this-exist.train-1-costatest-alb-okta-default-k8s-prd.dev-go.ubnt.com:8443/
+Server: nginx/1.22.1
+

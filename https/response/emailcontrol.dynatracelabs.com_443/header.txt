@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: emailcontrol.dynatracelabs.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.80 Safari/537.36 Vivaldi/1.0.344.37
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:02:55 GMT
+Via: 1.1 7b20af4202adb6ef25a7920ed74908dc.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODESbHWJoAMEN8Q=
+X-Amz-Cf-Id: zlHypyzPQdTCGvstgvZjNJ_LM8kzY-i2-xOu1eVNQMM_woM5EBntuQ==
+X-Amz-Cf-Pop: FRA56-P6
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 0f182b9f-7a81-4376-8051-93fd72e680e8
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://emailcontrol.dynatracelabs.com:443

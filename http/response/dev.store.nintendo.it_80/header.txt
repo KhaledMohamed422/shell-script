@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: dev.store.nintendo.it
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:32.0) Gecko/20100101 Firefox/32.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://dev.store.nintendo.it/
+Refresh: 0;url=https://dev.store.nintendo.it/
+Server: Vercel
+
+Redirecting...
+
+
+http://dev.store.nintendo.it:80

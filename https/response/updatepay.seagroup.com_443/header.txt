@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: updatepay.seagroup.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Length: 177
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:18:50 GMT
+Location: https://updatepay.sea.com/
+Server: openresty/1.19.9.1
+Via: 1.1 google
+

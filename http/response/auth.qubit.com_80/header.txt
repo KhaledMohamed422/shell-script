@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: auth.qubit.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a55e5cf05160b-DUS
+Date: Wed, 08 Nov 2023 02:20:13 GMT
+Expires: Wed, 08 Nov 2023 03:20:13 GMT
+Location: https://auth.qubit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://auth.qubit.com:80

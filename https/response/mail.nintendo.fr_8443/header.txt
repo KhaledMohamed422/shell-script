@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: mail.nintendo.fr:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 131
+Accept-Ranges: bytes
+Content-Security-Policy: frame-ancestors 'self'; object-src 'self'; script-src 'self' https:   'unsafe-eval' 'unsafe-inline' blob:;
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:45:26 GMT
+Etag: "83-65380075"
+Server: xxxxxxxx-xxxxx
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

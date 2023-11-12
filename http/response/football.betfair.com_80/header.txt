@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: football.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.31 (KHTML like Gecko) Chrome/26.0.1410.63 Safari/537.31
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227b790ab17160f-DUS
+Date: Tue, 07 Nov 2023 18:42:36 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.betfair.com/exchange/football
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fAfiOSjL66RZ7%2Bk8yjtH2%2BhIhWHoVA8vbjwAqAxSsXz%2B22eGhLTD7WYr%2F3mM2Wg80J7n2VAqRr3MFhylybAfEr%2BkUuhlfytCjIRSOP2%2FTQ5tAZ4gciThc783A%2FsyNv%2BvbeuhHemo"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://football.betfair.com:80

@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: espm-dev.1688.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 366
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699437117
+Cache-Control: no-cache
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:51:57 GMT
+Eagleid: 6a0fda9516994371178245202e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache24.l2et15-1[33,33,403-1280,M], cache48.l2et15-1[35,0], cache6.cn879[38,38,403-1280,M], cache1.cn879[40,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B5A3DE3B51E3832769C98
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:51:57 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B5A3DE3B51E3832769C98</RequestId>
+  <HostId>espm-dev.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://espm-dev.1688.com:443

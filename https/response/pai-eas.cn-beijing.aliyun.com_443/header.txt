@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: pai-eas.cn-beijing.aliyun.com
+User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:16:12 GMT
+Location: https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fpai-eas.cn-beijing.aliyun.com%2F
+Server: envoy
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 0
+
+72
+<a href="https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Fpai-eas.cn-beijing.aliyun.com%2F">Found</a>.
+
+
+0
+
+
+
+
+https://pai-eas.cn-beijing.aliyun.com:443

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: v16-webapp-prime.tiktok.com
+User-Agent: TurnitinBot (https://turnitin.com/robot/crawlerinfo.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 284
+Accept-Ranges: bytes
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: range
+Access-Control-Allow-Origin: https://www.tiktok.com
+Access-Control-Expose-Headers: Content-Length,Content-Range,content-type,expires,last-modified,via,X-Cache,x-response-cache,x-response-sinfo,x-response-cinfo
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:52 GMT
+Expires: Wed, 08 Nov 2023 18:46:52 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=0
+X-Akamai-Request-Id: 6c3c2cb
+X-Cache: TCP_DENIED from a23-55-109-144.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Response-Cache: 
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=static
+

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: shop.ads.instacart.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Security-Policy: frame-ancestors https://*.myshopify.com https://admin.shopify.com
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:36 GMT
+Location: https://shop.ads.instacart.com/api/auth
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 2e7f09e3-f425-417c-a90a-b7ea046afc89
+X-Runtime: 0.003477
+X-Xss-Protection: 0
+
+69

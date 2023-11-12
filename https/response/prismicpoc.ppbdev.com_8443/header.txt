@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: prismicpoc.ppbdev.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bbd2393f7a52-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:30 GMT
+Expires: Tue, 07 Nov 2023 18:45:45 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f4%2FcR5rXFemv8p4HIthxwlT7XPcM8oudpOcHlt7fM%2FNp87LeG80U0T2Jp%2Bp9uJvYA1WhYOd8T%2B%2BMbCII2HDR4qEfcywzMPbhvpc%2FIkUWgzry%2FHOheMBpyKOgYv1iTnpV5IZ2UAYqzPyDyIc%2F"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=J3xL_aCYZFcHRJhy8eIFIfs4ONuOpIMS3YCsQKWSeCc-1699382730-0-AQlja9BW6gukxP9TKgsFW3RtDYHphzoS7LmbcCpwuN+honFA8p4NMHRoYEs7P1VRiFVAgd7Jvx+2dRrRw++6w2U=; path=/; expires=Tue, 07-Nov-23 19:15:30 GMT; domain=.ppbdev.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

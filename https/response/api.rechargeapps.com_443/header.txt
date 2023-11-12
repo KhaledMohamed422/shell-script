@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: api.rechargeapps.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.4.731 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 UNAUTHORIZED
+Connection: close
+Content-Length: 31
+Access-Control-Allow-Origin: https://admin.rechargeapps.com
+Access-Control-Expose-Headers: link, x-request-id, x-recharge-limit, x-recharge-version
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:07 GMT
+Server: nginx
+Set-Cookie: session=eyJfcmNzaSI6eyJkIjpudWxsLCJoIjoiYXBpLnJlY2hhcmdlYXBwcy5jb20iLCJ2IjoyfX0.ZUpyPw.zpXNXlIvhRTfzfmFdWcKTe1iSuc; Secure; HttpOnly; Path=/; SameSite=None
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Vary: Origin, Cookie
+X-Content-Type-Options: nosniff
+X-Recharge-Version: 2021-01
+X-Request-Id: 553-1699377727.599-161.97.145.139-272
+
+{"error":"bad authentication"}
+
+
+
+https://api.rechargeapps.com:443

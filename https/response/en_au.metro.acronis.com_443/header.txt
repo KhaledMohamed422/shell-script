@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: en_au.metro.acronis.com
+User-Agent: Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 138
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:18:25 GMT
+Location: https://www.acronis.com/
+Server: nginx
+Via: 1.1 google
+

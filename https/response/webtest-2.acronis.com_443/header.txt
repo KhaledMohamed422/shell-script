@@ -1,0 +1,13 @@
+GET / HTTP/1.1
+Host: webtest-2.acronis.com
+User-Agent: Mozilla/1.22 (compatible; MSIE 5.01; PalmOS 3.0) EudoraWeb 2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 568
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:33:01 GMT
+Server: nginx
+

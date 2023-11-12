@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: webcast.tiktok.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9pre) Gecko/2008072421 Minefield/3.0.2pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:18 GMT
+Expires: Wed, 08 Nov 2023 18:42:18 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=166
+X-Akamai-Request-Id: 461256f
+X-Cache: TCP_MISS from a23-15-178-93.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 166,23.15.178.93
+X-Tt-Logid: 202311081842173AB3E9E6FF3B0F28E37F
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ad4f0b0de44c5c0f3591009eeaa2fee6a5299dbb455412e3a6c39d62191df7a7a2bdebb95723a176b512abdce7785d678
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

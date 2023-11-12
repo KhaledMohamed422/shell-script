@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: smp.betfair.ro
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.310.0 Safari/532.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b9365b22717a-DUS
+Date: Tue, 07 Nov 2023 18:43:43 GMT
+Expires: Tue, 07 Nov 2023 19:43:43 GMT
+Location: https://smp.betfair.ro/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H7fWeGP40sq3CR5LL8JzrrfUXM0BnJXJ81vAGNESxTzOIkbuP7spnnVyTwfCsmIIXzkUgnUTojZtooqTlb%2BszWCKYAmY6NIQe7X2xn3vB%2FfJ7KVb46knfia3aDKTNWNW"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=wv136K2Sf_NarfZD.S77HpQb_DSHA.o6u4vN2JB2HCo-1699382623-0-AaRyGe27LzK0RxNaRFHeJdK9JgFrcptYwh68GTXevdsI4rM4y35o8ESTJ+r0hC1voR2P4zO5Sr0loxGA7ULBLz0=; path=/; expires=Tue, 07-Nov-23 19:13:43 GMT; domain=.betfair.ro; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://smp.betfair.ro:80

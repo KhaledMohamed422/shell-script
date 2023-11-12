@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: bff.app.iherb.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 10; MAR-LX1B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bd8c80f20cad9-DUS
+Date: Wed, 08 Nov 2023 06:44:19 GMT
+Expires: Wed, 08 Nov 2023 07:44:19 GMT
+Location: https://bff.app.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=HtETS5T4c5VxgtnFevSAnsoWFXBHT5LX9uhRB99Sxb0-1699425859-0-AabIddv/s5G6KcUrVjeSg1MWo/M5dgtB4xGh9XW/nFwIJ7WCnAvEJEaDZMuOFZaHWf0TPdAIQZ79cFN7TgZdjJeEb6mqUiPlt7HwNPe0HtWY; path=/; expires=Wed, 08-Nov-23 07:14:19 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://bff.app.iherb.com:8080

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: external-access.zomans.com
+User-Agent: Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: https://external-access.zomans.com
+Cache-Control: no-cache
+Cache-Control: no-store
+Cache-Control: must-revalidate
+Cache-Control: proxy-revalidate
+Cache-Control: max-age=0
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:05:45 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+Server: akamai/nginx
+Set-Cookie: _xsrf7362001317776986750=c4ff23f4a28f8784:1699380345.584; Domain=external-access.zomans.com; Path=/; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Ray-Id: 7362001317776986750
+
+669

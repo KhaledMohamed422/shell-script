@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: mgs-authoring.marriott.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 445
+Cache-Control: private, max-age=0, must-revalidate
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:28:16 GMT
+Location: https://mgs-authoring.marriott.com/mellon/login?ReturnTo=https%3A%2F%2Fmgs%2Dauthoring.marriott.com%2F&IdP=urn%3Amgs%2Dauthoring.marriott.com
+Server: Apache/2.4.29 (Ubuntu)
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+

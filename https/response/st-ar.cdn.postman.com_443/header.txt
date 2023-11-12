@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: st-ar.cdn.postman.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 07:31:44 GMT
+Server: AmazonS3
+Via: 1.1 cdb2dba3874dd4d7b53213b8c63a0996.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: 30LWXGWMSeBzpFKIaVVVfgLSgUqOjgcAtieA95B_lcSBqsvwF6JamA==
+X-Amz-Cf-Pop: FRA50-C1
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>J5BSEH1N78JFY5Q1</RequestId><HostId>6nHp0O+1EDBwR5KU2tEbWic8YmZB1WGvmtJStWHYxrjGpNXKakgvOpfXLVqBSdyMXicEWe+hMbE6W44ybYpEpA+ejTSPsTpmmXLwPufffLs=</HostId></Error>
+0
+
+
+
+
+https://st-ar.cdn.postman.com:443

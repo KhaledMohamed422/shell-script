@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: click.sg.mkt.grab.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; en-us; T-Mobile G1 Build/CRB43) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari 525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 1233
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:21:24 GMT
+Permissions-Policy: geolocation=(self), microphone=()
+Referrer-Policy: origin-when-cross-origin
+Set-Cookie: strict
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

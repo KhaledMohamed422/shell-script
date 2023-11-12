@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: pas.test.casino.aws.sbgorigin.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.64528
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:26 GMT
+X-Amz-Apigw-Id: OCnXFGppjoEEfpg=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: ba95af1d-2864-4382-9398-294becda6f3f
+
+{"message":"Forbidden"}
+
+
+https://pas.test.casino.aws.sbgorigin.com:443

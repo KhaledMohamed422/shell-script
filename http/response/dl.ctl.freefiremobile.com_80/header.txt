@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dl.ctl.freefiremobile.com
+User-Agent: Mozilla/5.0 (X11; U; Linux arm7tdmi; rv:1.8.1.11) Gecko/20071130 Minimo/0.025
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 304
+Access-Control-Allow-Origin: *
+Age: 5
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:08:43 GMT
+Server: OBS
+Timing-Allow-Origin: *
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCS7aFQkzSdB9V+P9rfTdnuqs1fbS5XyP
+X-Obs-Request-Id: 0000018BAB2FF21595519D9E3B844696
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB2FF21595519D9E3B844696</RequestId><HostId>AH2H/x+I6riCDyZkmliTUIg7DZKBrzP7r+flLRUhZYOyv9KHvn3tEy62/iwSmp1x</HostId><Key>mgames/ffmhk/</Key></Error>
+
+
+http://dl.ctl.freefiremobile.com:80

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: cdn.lyft.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.277.0 Safari/532.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 22:02:02 GMT
+Server: AmazonS3
+Vary: Accept-Encoding, Origin
+Via: 1.1 934706f40ffde6f857deae8d024c1192.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: BxrAcb8UDP2mthJOKCsMLstB4YbKXhD7fSu8tLMDVjulZLwpalqQFQ==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>95M4624GXZK5PK70</RequestId><HostId>Fp1aluWoRqYfI10zFThLzpLTIhNQpdT/KUPtlydqyS1tzyEtyXt8RLH0fWh3rfSfHukathveEsA=</HostId></Error>
+0
+
+
+
+
+https://cdn.lyft.com:443

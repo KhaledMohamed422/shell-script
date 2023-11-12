@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: observability.browserstack.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Cf-Ray: 822bef9dbc7b7a5b-DUS
+Content-Security-Policy: script-src https: http: 'unsafe-eval' 'unsafe-inline'; frame-ancestors https://*.browserstack.com; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src https: http:
+Date: Wed, 08 Nov 2023 06:59:55 GMT
+Expires: Wed, 08 Nov 2023 07:59:55 GMT
+Location: https://observability.browserstack.com/
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block;
+
+0
+
+
+
+
+http://observability.browserstack.com:8080

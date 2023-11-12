@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: store.baywheels.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A225F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8228e0b35f4f7a3d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 22:05:26 GMT
+Expires: Tue, 07 Nov 2023 22:05:41 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Wb33h%2FWv1j1JGZFVeU%2BvFyazkG77zhl5TISHg13CspOUkAvlWQPDzc0UzqsV6%2Bd%2FqQLHJ%2Fr3gJgRwjoL0NkQKSJIjk0CA2l%2B%2FeyLZ5VMRctjF4OGGfIGc5JNfBF0PzBMbBTsnynjubhkIQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=7.999897
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

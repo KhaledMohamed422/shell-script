@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: idms-api-stage.mwbsys.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 19:15:52 GMT
+Set-Cookie: _session_id=55c46dce6b20af613fa94d1bfda3e03d; path=/; secure; HttpOnly
+Strict-Transport-Security: max-age=31556952
+Vary: Origin
+Www-Authenticate: Basic realm="c360-dev"
+X-Request-Id: 8da5bc9c-4d48-4072-9676-306338b2616c
+X-Runtime: 0.004147
+
+2c
+{"success":false,"errors":"Bad credentials"}
+0
+
+
+
+
+https://idms-api-stage.mwbsys.com:443

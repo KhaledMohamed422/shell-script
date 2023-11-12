@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: preferences-test.say.rocks
+User-Agent: iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://preferences-test.say.rocks/
+Refresh: 0;url=https://preferences-test.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://preferences-test.say.rocks:80

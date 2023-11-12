@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: accountid-devops.aliyun.com
+User-Agent: Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy-Report-Only: report-uri /csp-reports;object-src none;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.aliyun.com *.alicdn.com 'nonce-';style-src 'unsafe-inline' *.alicdn.com;img-src 'self' data: *.alicdn.com *.mmstat.com *.aliyun.com *.aliyuncs.com dn-st.teambition.net;frame-ancestors 'self' *.aliyun.com *.alibabacloud.com;frame-src 'self' *.aliyun.com *.alibabacloud.com *.alicdn.com;worker-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 09:40:48 GMT
+Eagleeye-Traceid: 0abb7e3316994364488885681e8ead
+Location: https://account.aliyun.com/login/login.htm?oauth_callback=https%3A%2F%2Faccount-devops.aliyun.com%2Flogin%3Fnext_url%3Dhttp%3A%2F%2Faccountid-devops.aliyun.com%2F
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Content-Length: 0
+
+
+
+
+https://accountid-devops.aliyun.com:443

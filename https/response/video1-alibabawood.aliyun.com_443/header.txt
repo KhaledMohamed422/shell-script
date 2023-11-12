@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: video1-alibabawood.aliyun.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 388
+Ali-Swift-Global-Savetime: 1699439328
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:28:48 GMT
+Eagleid: 3daa512b16994393283977116e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[141,140,403-1280,M], cache48.l2cn1827[142,0], vcache17.cn6013[173,172,403-1280,M], vcache23.cn6013[178,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B62E05BE4553636D3AA65
+X-Oss-Server-Time: 21
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:28:48 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B62E05BE4553636D3AA65</RequestId>
+  <HostId>alibabawood-video-storage.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://video1-alibabawood.aliyun.com:443

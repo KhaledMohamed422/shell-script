@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: app-dogfood.kit.com:8443
+User-Agent: Opera/9.80 (Android 4.0.4; Linux; Opera Mobi/ADR-1205181138; U; pl) Presto/2.10.254 Version/12.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Server: cloudflare
+

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: kycnow-redirect.ch2.test.betsson.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:37 GMT
+Server: CloudFront
+Via: 1.1 37e0fb431669e8e8fdb89f91f65f43f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jCEzEvXLr3BgqU2cLs3llWe82PM6wNdMCVAJxjdO9kzfaT4C1c2HFw==
+X-Amz-Cf-Pop: DUS51-P3
+X-Cache: Error from cloudfront
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: www.maximum.nl
+User-Agent: Mozilla/5.0 (Linux; Android 11; GM1913) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 49
+Content-Security-Policy: base-uri 'none'; default-src: 'none'; block-all-mixed-content
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:28:37 GMT
+Feature-Policy: none
+Location: https://www.radancy.com/nl
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Request-Id: d12731b4-2b05-42f3-9f8a-b2af4b5e4535
+X-Via: Delegathos02 Maximum
+X-Xss-Protection: 1; mode=block
+
+<a href="https://www.radancy.com/nl">Found</a>.
+
+
+
+
+http://www.maximum.nl:80

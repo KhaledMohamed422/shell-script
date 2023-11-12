@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: app-a.s02.callsign.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 OPR/85.0.4341.22
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 115
+Content-Security-Policy: default-src 'self'
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:26:20 GMT
+Feature-Policy: camera 'self';geolocation 'self';microphone 'self';autoplay 'none';encrypted-media 'none';fullscreen 'none';midi 'none';payment 'none';sync-xhr 'none';usb 'none';
+Permissions-Policy: autoplay=(), camera=(self), encrypted-media=(), fullscreen=(), geolocation=(self), microphone=(self), midi=(), payment=(), sync-xhr=(), usb=(), vr=()
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Via: 1.1 ad3c90e13b86d72e2a5e6bf65eab3450.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: L8A7N8Hf2mmbrXgER4zS-ervWHOUX-iSkMs2rFhqFMvfNvEiT19Vvg==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1 ; mode=block
+
+{
+  "status" : 404,
+  "error" : "NOT_FOUND",
+  "details" : [ {
+    "path" : "/"
+  } ],
+  "reference" : "jjm5a46m"
+}
+
+
+https://app-a.s02.callsign.com:443

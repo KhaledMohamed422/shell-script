@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.mnscorp.net
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:28:57 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 2685f2b9-fd86-4326-ab55-e722eed7a179
+X-Ms-Correlation-Id: b724b465-9a29-4ec7-a2e1-c0859eecee1b
+X-Ms-Server-Fqdn: AM42E00EDG04.infra.lync.com
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=mnscorp.net"},"user":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=mnscorp.net"},"xframe":{"href":"https://webdir2e.online.lync.com/Autodiscover/XFrame/XFrame.html"}}}
+
+
+https://lyncdiscover.mnscorp.net:443

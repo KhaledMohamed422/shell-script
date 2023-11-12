@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: corporate.instacart.com
+User-Agent: msnbot/1.0 ( http://search.msn.com/msnbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822738a629bdc4c2-DUS
+Date: Tue, 07 Nov 2023 17:15:57 GMT
+Expires: Tue, 07 Nov 2023 18:15:57 GMT
+Location: https://www.instacart.com
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AG2o9mvTZcqlyE5fcMaehlsPfMCTuScLqi5DnRpX0uc6CNMeOb2I0eBC%2BS39RuddPTLyfnYeuBpArD4BTZPAtNA7xENfYtGusYMzxq%2Bv3G9Ye81JnD7KPBfkt5m5sLhfMKmWiQmLSgE2%2Bw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=YbQH.CP.T47_1Vzl59eabOgCRb_KVeKYGYZU609noHk-1699377357-0-AQhQ33b8rT4DpEz7UXOyhMwtL3p5YTUT+IAWaPbqXJJ0N4X4c4AFaDwqmlL/tmLWUWrT9H/7LoNd6JNVmIilLWQ=; path=/; expires=Tue, 07-Nov-23 17:45:57 GMT; domain=.corporate.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://corporate.instacart.com:80

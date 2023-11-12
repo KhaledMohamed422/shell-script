@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Marriott Global Source (MGS)
+    </title>
+    <meta name="Keywords" content=""/>
+    <meta name="description" content="Marriott International’s Global Intranet and Business Application (eTool) Gateway">
+    <meta name="Title" content="Marriott Global Source (MGS)"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="/static-assets/public/css/unauthenticated.css"/>
+    <script>
+        function openRegistration() {
+        if (document.getElementById("registration").value != "selectone") {
+            location.href=document.getElementById("registration").value;
+            }
+        }
+        function openSiteHelp() {
+        if (document.getElementById("sitehelp").value != "selectone") {
+            location.href=document.getElementById("sitehelp").value;
+            }
+        }
+    </script>
+
+        <script src="//assets.adobedtm.com/launch-EN3963523be4674e5591a9c4d516697352.min.js" async></script>
+    <script>
+        var dataLayer = {};
+        dataLayer.site_id="MIHUB";
+        dataLayer.browser_loc_country="";
+        dataLayer.browser_loc_state="";
+    </script>
+    
+</head>
+
+  <body class="alignTEST">
+	  <script type="text/javascript">// <![CDATA[
+    var property = [
+                [0, "/static-assets/public/images/unauth-landing-page/2023/ammrz.jpeg", "<a href='https://marriott.com/ammrz' class='class2'>The Ritz-Carlton, Amman</a>"] ,
+                [1, "/static-assets/public/images/unauth-landing-page/2023/amssi.jpeg", "<a href='https://marriott.com/amssi' class='class2'>Sheraton Amsterdam Airport Hotel and Conference Center</a>"] ,
+                [2, "/static-assets/public/images/unauth-landing-page/2023/baqmc.jpeg", "<a href='https://marriott.com/baqmc' class='class2'>Barranquilla Marriott Hotel</a>"] ,
+                [3, "/static-assets/public/images/unauth-landing-page/2023/blrnh.jpeg", "<a href='https://marriott.com/blrnh' class='class2'>JW Marriott Bengaluru Prestige Golfshire Resort & Spa</a>"] ,
+                [4, "/static-assets/public/images/unauth-landing-page/2023/chixr.jpeg", "<a href='https://www.marriott.com/chixr' class='class2'>The St. Regis Chicago</a>"] ,
+                [5, "/static-assets/public/images/unauth-landing-page/2023/csxjc.jpeg", "<a href='https://www.marriott.com/csxjc' class='class2'>JW Marriott Hotel Changsha</a>"] ,
+                [6, "/static-assets/public/images/unauth-landing-page/2023/cunla.jpeg", "<a href='https://www.marriott.com/cunla' class='class2'>Aloft Playa del Carmen</a>"] ,
+                [7, "/static-assets/public/images/unauth-landing-page/2023/cunsr.jpeg", "<a href='https://www.marriott.com/cunsr' class='class2'>Royalton Splash Riviera Cancun, An Autograph Collection All-Inclusive Resort</a>"] ,
+                [8, "/static-assets/public/images/unauth-landing-page/2023/denld.jpeg", "<a href='https://www.marriott.com/denld' class='class2'>Hotel Clio, a Luxury Collection Hotel, Denver Cherry Creek</a>"] ,
+                [9, "/static-assets/public/images/unauth-landing-page/2023/dohmd.jpeg", "<a href='https://www.marriott.com/dohmd' class='class2'>Le Royal Méridien Doha</a>"] ,
+                [10, "/static-assets/public/images/unauth-landing-page/2023/znzak.jpeg", "<a href='http://www.marriott.com/znzak' class='class2'>Le Mersenne Zanzibar, Autograph Collection</a>"] ,
+                [11, "/static-assets/public/images/unauth-landing-page/2023/dxbed.jpeg", "<a href='https://www.marriott.com/dxbed' class='class2'>The Dubai EDITION</a>"] ,
+                [12, "/static-assets/public/images/unauth-landing-page/2023/dxbgc.jpeg", "<a href='https://www.marriott.com/dxbgc' class='class2'>Delta Hotels, Dubai Investment Park</a>"] ,
+                [13, "/static-assets/public/images/unauth-landing-page/2023/dxbmw.jpeg", "<a href='https://www.marriott.com/dxbmw' class='class2'>W Dubai – Mina Seyahi</a>"] ,
+                [14, "/static-assets/public/images/unauth-landing-page/2023/dxbpj.jpeg", "<a href='https://www.marriott.com/dxbpj' class='class2'>Marriott Resort Palm Jumeirah, Dubai</a>"] ,
+                [15, "/static-assets/public/images/unauth-landing-page/2023/egelc.jpeg", "<a href='https://www.marriott.com/egelc' class='class2'>The Hythe, a Luxury Collection Resort, Vail</a>"] ,
+                [16, "/static-assets/public/images/unauth-landing-page/2023/faowh.jpeg", "<a href='https://www.marriott.com/faowh' class='class2'>W Algarve</a>"] ,
+                [17, "/static-assets/public/images/unauth-landing-page/2023/frajw.jpeg", "<a href='https://www.marriott.com/frajw' class='class2'>JW Marriott Hotel Frankfurt</a>"] ,
+                [18, "/static-assets/public/images/unauth-landing-page/2023/istms.jpeg", "<a href='https://www.marriott.com/istms' class='class2'>JW Marriott Hotel Istanbul Marmara Sea</a>"] ,
+                [19, "/static-assets/public/images/unauth-landing-page/2023/jktxr.jpeg", "<a href='https://www.marriott.com/jktxr' class='class2'>The St. Regis Jakarta</a>"] ,
+                [20, "/static-assets/public/images/unauth-landing-page/2023/klxwh.jpeg", "<a href='https://www.marriott.com/klxwh' class='class2'>W Costa Navarino</a>"] ,
+                [21, "/static-assets/public/images/unauth-landing-page/2023/krksi.jpeg", "<a href='https://www.marriott.com/krksi' class='class2'>Sheraton Grand Krakow</a>"] ,
+                [22, "/static-assets/public/images/unauth-landing-page/2023/madeb.jpeg", "<a href='https://www.marriott.com/madeb' class='class2'>The Madrid EDITION</a>"] ,
+                [23, "/static-assets/public/images/unauth-landing-page/2023/madlc.jpeg", "<a href='https://www.marriott.com/madlc' class='class2'>Santo Mauro, a Luxury Collection Hotel, Madrid</a>"] ,
+                [24, "/static-assets/public/images/unauth-landing-page/2023/melac.jpeg", "<a href='https://www.marriott.com/melac' class='class2'>AC Hotel Melbourne Southbank</a>"] ,
+                [25, "/static-assets/public/images/unauth-landing-page/2023/miaab.jpeg", "<a href='https://www.marriott.com/miaab' class='class2'>AC Hotel Miami Brickell</a>"] ,
+                [26, "/static-assets/public/images/unauth-landing-page/2023/nycbu.jpeg", "<a href='https://www.marriott.com/nycbu' class='class2'>Renaissance New York Flushing Hotel at Tangram</a>"] ,
+                [27, "/static-assets/public/images/unauth-landing-page/2023/miaws.jpeg", "<a href='https://www.marriott.com/miaws' class='class2'>W South Beach</a>"] ,
+                [28, "/static-assets/public/images/unauth-landing-page/2023/mrumd.jpeg", "<a href='https://www.marriott.com/mrumd' class='class2'>Le Méridien Ile Maurice</a>"] ,
+                [29, "/static-assets/public/images/unauth-landing-page/2023/mucwe.jpeg", "<a href='https://www.marriott.com/mucwe' class='class2'>Munich Marriott Hotel City West</a>"] ,
+                [30, "/static-assets/public/images/unauth-landing-page/2023/mztcy.jpeg", "<a href='https://www.marriott.com/mztcy' class='class2'>Courtyard Mazatlan Beach Resort</a>"] ,
+                [31, "/static-assets/public/images/unauth-landing-page/2023/nycom.jpeg", "<a href='https://www.marriott.com/nycom' class='class2'>Moxy NYC Lower East Side</a>"] ,
+                [32, "/static-assets/public/images/unauth-landing-page/2023/poplc.jpeg", "<a href='https://www.marriott.com/poplc' class='class2'>The Ocean Club, a Luxury Collection Resort, Costa Norte</a>"] ,
+                [33, "/static-assets/public/images/unauth-landing-page/2023/pujlc.jpeg", "<a href='https://www.marriott.com/pujlc' class='class2'>Sanctuary Cap Cana, a Luxury Collection Adult All-Inclusive Resort, Dominican Republic</a>"] ,
+                [34, "/static-assets/public/images/unauth-landing-page/2023/sange.jpg", "<a href='https://www.marriott.com/sange' class='class2'>Gaylord Pacific Resort & Convention Center</a>"] ,
+                [35, "/static-assets/public/images/unauth-landing-page/2023/selsa.jpeg", "<a href='https://www.marriott.com/selsa' class='class2'>RYSE, Autograph Collection</a>"] ,
+                [36, "/static-assets/public/images/unauth-landing-page/2023/nycxb.jpeg", "<a href='https://www.marriott.com/nycxb' class='class2'>Moxy Brooklyn Williamsburg</a>"] ,
+                [37, "/static-assets/public/images/unauth-landing-page/2023/sgnak.jpeg", "<a href='https://www.marriott.com/sgnak' class='class2'>Vinpearl Landmark 81, Autograph Collection</a>"] ,
+                [38, "/static-assets/public/images/unauth-landing-page/2023/sjuxr.jpeg", "<a href='https://www.marriott.com/sjuxr' class='class2'>The St. Regis Bahia Beach Resort, Puerto Rico</a>"] ,
+                [39, "/static-assets/public/images/unauth-landing-page/2023/tpaeb.jpeg", "<a href='https://www.marriott.com/tpaeb' class='class2'>The Tampa EDITION</a>"] ,
+                [40, "/static-assets/public/images/unauth-landing-page/2023/tyowy.jpeg", "<a href='https://www.marriott.com/tyowy' class='class2'>The Westin Yokohama</a>"] ,
+                [41, "/static-assets/public/images/unauth-landing-page/2023/wasba.jpeg", "<a href='https://www.marriott.com/wasba' class='class2'>AC Hotel Bethesda Downtown</a>"] ,
+                [42, "/static-assets/public/images/unauth-landing-page/2023/xiyss.jpeg", "<a href='https://www.marriott.com/xiyss' class='class2'>Sheraton Xi'an South</a>"] ,
+                [43, "/static-assets/public/images/unauth-landing-page/2023/yhzak.jpeg", "<a href='https://www.marriott.com/yhzak' class='class2'>Muir, Autograph Collection</a>"] ,
+                [44, "/static-assets/public/images/unauth-landing-page/2023/yyzwh.jpeg", "<a href='https://www.marriott.com/yyzwh' class='class2'>W Toronto</a>"] ,
+                [45, "/static-assets/public/images/unauth-landing-page/2023/znzak.jpeg", "<a href='https://www.marriott.com/znzak' class='class2'>Le Mersenne Zanzibar, Autograph Collection</a>"] ,
+                [46, "/static-assets/public/images/unauth-landing-page/2023/westin_thewestinanaheimresort_snawa.jpg", "<a href='https://www.marriott.com/snawa' class='class2'>The Westin Anaheim Resort</a>"] ,
+                [47, "/static-assets/public/images/unauth-landing-page/2023/mvc_marriottsfrenchmanscove_sttuv.jpg", "<a href='https://www.marriott.com/sttuv' class='class2'>Marriott's Frenchman's Cove</a>"] ,
+                [48, "/static-assets/public/images/unauth-landing-page/2023/jwmarriott_jwmarriottcancunresortandspa_cunjw.jpg", "<a href='https://www.marriott.com/cunjw' class='class2'>JW Marriott Cancun Resort & Spa</a>"] ,
+                [49, "/static-assets/public/images/unauth-landing-page/2023/courtyard_courtyardbalinusaduaresort_dpscy.jpg", "<a href='https://www.marriott.com/dpscy' class='class2'>Courtyard Bali Nusa Dua Resort</a>"] ,
+                [50, "/static-assets/public/images/unauth-landing-page/2023/marriotthotels_marriottmenahotelcairo_caimn.jpg", "<a href='https://www.marriott.com/caimn' class='class2'>Marriott Mena House, Cairo</a>"] ,
+                [51, "/static-assets/public/images/unauth-landing-page/2023/tribute_bellyardwestmidtownatlanta_atltm.jpg", "<a href='https://www.marriott.com/atltm' class='class2'>Bellyard, West Midtown Atlanta, a Tribute Portfolio Hotel</a>"] 
+    ];
+
+        var now = new Date();
+var start = new Date(now.getFullYear(), 0, 1);
+var sunday = new Date(now.getFullYear(), 0, (8 - start.getDay()));
+var week = Math.floor((now - sunday) / 604800000);
+var weekTest = 3;
+if (week < 0) {
+week = 0;
+}
+
+var selectBackground = property[week][1];
+var selectLink = property[week][2];
+document.body.style.backgroundImage = 'url(' + selectBackground + ')';
+
+// ]]></script>
+
+	<table class="desktop-hidden2" cellpadding="0" cellspacing="0" width="100%">
+	<tr><td>
+	</td></tr>
+	<tr class="desktop-hidden"><td>
+		<script> document.write("<img src='" + selectBackground + "' width='100%'>");</script>
+	</td></tr>
+	<tr><td>
+	    <div class="grid__container">
+         <form action="https://mgscloud.marriott.com" method="post" target="_top" class="form form--landing" target="blank">
+		    <center>
+		        <div class="intranet-logo"    
+ >
+		            <img src="/static-assets/public/images/thehub/gs-logo_unauth.png" alt="" class="logo-img mobile-hidden">
+		            <img src="/static-assets/public/images/thehub/gs-logo_unauth.png" alt="" class="logo-img desktop-hidden">
+                </div>
+             </center>
+			          <div class="form__field"    
+>
+          <a href="https://mgscloud.marriott.com"" class="button">Sign In</a>
+          </div>
+		  
+        <div class="form__field"    
+>
+          <input type="submit2" class="form__input" value="EID Registration" style="padding: 0.5rem 1rem;">
+		  <select id="registration" onchange="openRegistration()" size="1" style="width:230px; font-family: sans-serif;border: 1px solid #0666c5;border-radius: 0.25rem;padding: 0.5rem 1rem;"> 
+                  <option value="selectone">
+                            Select One</option>
+                        <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                            Canadian Marriott Associates
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/naownfransplash.htm">
+                            Canadian Franchisees
+                        </option>
+                        <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                            International Associates
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/intlownfransplash.htm">
+                            International Franchisees
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/intlownfransplash.htm">
+                            International Owners
+                        </option>
+                        <option value="http://eidhelp.marriott.com/mgshelp/North_American_Associates.htm">
+                            North American Associates
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/naownfransplash.htm">
+                            North American Franchisees
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/naownfransplash.htm">
+                            North American Owners 
+                        </option>
+                        <option value="http://eidhelp.marriott.com/mgshelp/North_American_Associates.htm">
+                            Ritz-Carlton United States
+                        </option>
+                        <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                            Ritz-Carlton International
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/consplash.htm">
+                            Consultants/Contractors
+                        </option>
+                        <option value="http://eidhelp.marriott.com/marrforms/vensplash.htm">
+                            Vendors
+                        </option>
+            </select>
+        </div>
+        <div class="form__field"    
+>
+          <input type="submit2" class="form__input" value="EID & Password Support" style="padding: 0.5rem 1rem;">
+		  <select id="sitehelp" onchange="openSiteHelp()" size="1" style="width:230px; font-family: sans-serif;border: 1px solid #0666c5;border-radius: 0.25rem;padding: 0.5rem 1rem;"> 
+                <option value="selectone"> 
+                        Select One</option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/Canadian_Marriott_Associates.htm">
+                        Canadian Marriott Associates
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/North_American_Franchisees.htm">
+                        Canadian Franchisees
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/International_Associates.htm">
+                        International Associates
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/International_Franchisees.htm">
+                        International Franchisees
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/International_Owners.htm">
+                        International Owners
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/MVW.htm">
+                        Marriott Vacations Worldwide
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/North_American_Associates.htm">
+                        North American Associates
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/North_American_Franchisees.htm">
+                        North American Franchisees
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/North_American_Owners.htm">
+                        North American Owners
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/Consultants_Contractors.htm">
+                        Consultants/Contractors
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/Severance_Associate_(Active).htm">
+                        Severance Associate (Active)
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/Separated_Employee.htm">
+                        Separated Employee
+                    </option>
+                    <option value="http://eidhelp.marriott.com/mgshelp/Vendors.htm">
+                        Vendors
+                    </option>
+            </select>
+        </div>
+
+        </form>
+
+        </div>
+	</td></tr>
+	<tr><td>
+	<div class="footerLink"    
+>Pictured:
+      <script> document.write(selectLink);</script> <br>
+      </div>
+      <div class="footerCopyright"    
+>
+      ©2002 - 2023 Marriott International, Inc. All Rights Reserved. <span class="mobile-hidden"> <span id="teconsent"></span><span id="ccpacontainer" style="display:none"></span>
+    </div>
+	</td></tr>
+	</table>
+    
+    
+    
+
+
+<noscript>
+</body>
+
+</html>
+
+
+
+https://mgs.marriott.com:443

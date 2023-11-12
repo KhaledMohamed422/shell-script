@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: auth.staging-developer.worldcoin.org
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/29.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 62
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8229424fd9e97180-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:12:05 GMT
+Location: https://staging-developer.worldcoin.org/
+Ot-Baggage-Auth0-Request-Id: 8229424fd9e97180
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 1171803302a1c40e
+Ot-Tracer-Traceid: 1d021b6215b7b941
+Server: cloudflare
+Set-Cookie: __cf_bm=M3IjVvAA7BzPaLmUTSPvJQORqBJrkejz.reZB4bdojo-1699398725-0-AdqtA0Rii4rHAYbCheWez5+YjU+G1eijzHfHLE3XMOVZ2jZ/s9MtV7O1Csr26MwmjJkV+b2pBNJj2ajs+xXOl7A=; path=/; expires=Tue, 07-Nov-23 23:42:05 GMT; domain=.auth.staging-developer.worldcoin.org; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-00000000000000001d021b6215b7b941-1171803302a1c40e-01
+Tracestate: auth0-request-id=8229424fd9e97180,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: ffbc777f016029ee834c
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://staging-developer.worldcoin.org/
+
+
+https://auth.staging-developer.worldcoin.org:443

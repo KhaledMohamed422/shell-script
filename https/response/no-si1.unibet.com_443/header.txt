@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: no-si1.unibet.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:13 GMT
+Etag: W/"654a312b-178eed"
+Last-Modified: Tue, 07 Nov 2023 12:44:27 GMT
+Server: kindred-loadbalancer
+Set-Cookie: clientId=polopoly_desktop; Domain=no-si1.unibet.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+Vary: Accept-Encoding
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+
+178eed

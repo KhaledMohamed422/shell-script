@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: securegatewayaccess.com:8080
+User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82302be12da2cb15-DUS
+Date: Wed, 08 Nov 2023 19:20:06 GMT
+Expires: Wed, 08 Nov 2023 20:20:06 GMT
+Location: https://securegatewayaccess.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://securegatewayaccess.com:8080

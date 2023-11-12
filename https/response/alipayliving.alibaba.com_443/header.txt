@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: alipayliving.alibaba.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G991U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 409
+Ali-Swift-Global-Savetime: 1699436518
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:41:57 GMT
+Eagleid: a3b55c9f16994365170202278e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[664,663,403-1280,M], cache21.l2de2[665,0], cache21.l2de2[667,0], ens-cache15.de5[986,986,403-1280,M], ens-cache11.de5[990,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B57E5B13D463438F1172D
+X-Oss-Server-Time: 18
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:41:58 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B57E5B13D463438F1172D</RequestId>
+  <HostId>alipaylive.oss-cn-beijing.aliyuncs.com</HostId>
+  <Bucket>alipaylive</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+https://alipayliving.alibaba.com:443

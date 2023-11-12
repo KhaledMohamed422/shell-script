@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: documents.devsf3.bitmex.com
+User-Agent: Uzbl (Webkit 1.3) (Linux i686 [i686])
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:05:41 GMT
+Server: nginx
+Vgs-Request-Id: 9263e99fa3cf80a7c7d04cf2cfa7269c
+Via: 1.1 reverse-http-proxy-69744fc8dc-2p2ht
+X-Envoy-Upstream-Service-Time: 6
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 9263e99fa3cf80a7c7d04cf2cfa7269c.
+
+
+https://documents.devsf3.bitmex.com:443

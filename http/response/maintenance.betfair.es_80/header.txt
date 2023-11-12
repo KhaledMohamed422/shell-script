@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: maintenance.betfair.es
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb279af27a43-DUS
+Date: Tue, 07 Nov 2023 18:55:58 GMT
+Expires: Tue, 07 Nov 2023 19:55:58 GMT
+Location: https://maintenance.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vIQSyLH8pqIZWBZsgs%2BybgP20qTY3eQkXyyGPQPFOQElsWrIYMZ8sKYeVCvezfoXLasXMBEOc2OEiBnf9Q%2BfWf6tz%2FY5uj2j68pcwIQXL3CTBAciJ3Vs8oH3weiVjGSGizSDun6c53A%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=g7_lCmnb4OP0EX59QbpI0blGip.UjlZY0nD9RqjtYC0-1699383358-0-AcEg0gfi12ey1iLo35vCFV8NGKML/johQiuJPlPrXqLaoA+q8b9vO37UbVLAdb6mOcu/L8LmGHj6lUTF11aO+9M=; path=/; expires=Tue, 07-Nov-23 19:25:58 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://maintenance.betfair.es:80

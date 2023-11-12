@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Extranet Login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <script type="text/javascript">
+    function redirect() {
+        var juncArray = "idg,mymarrpay2step,mymarrpay,margold,marrgoldcontacts,ebonus,cognos10,mrdw,epf,epf_tempupgrade,psfin,bar,litigation,amps,hpprfp,CognosAPI,CognosMarRFP,hpp,ibmcognos,rfp,reporting,mglprf,psepm_tempupgrade,carsobill,etools,mgl,hod,cfg,epic,mgsapps,psepm,epic_jboss,reportwriter,mosaic2,mgsappstemp,mosaic,alcnsa,alcnsa_temp";
+        var ISAMOriginalURL= encodeURIComponent(window.location);
+        var JunctionName = ISAMOriginalURL.split("%2F")[3];
+        if(juncArray.indexOf(JunctionName) > 0){
+                window.location.href="https://extranet.marriott.com/userauth/sp/startSSO.ping?PartnerIdpId=ISAM-EXT-IDP-CONN-MFA&TargetResource="  + ISAMOriginalURL;
+        } else{
+                window.location.href="https://extranet.marriott.com/userauth/sp/startSSO.ping?PartnerIdpId=ISAM-EXT-IDP-CONN&TargetResource="  + ISAMOriginalURL;
+        }
+    }
+    </script>
+</head>
+<body onload="redirect()">
+
+</body>
+</html>
+
+
+
+https://extranet.xwip.marriott.com:443

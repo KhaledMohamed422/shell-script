@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: auth.test.ue1.snooguts.net
+User-Agent: Nokia6630/1.0 (2.39.15) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 162
+Cache-Control: private, no-cache
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:18:14 GMT
+Location: https://auth-all.test.ue1.snooguts.net/oauth2/start?rd=%2Fauth.test.ue1.snooguts.net/
+Server: nginx
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+

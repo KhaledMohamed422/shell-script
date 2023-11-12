@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: developer.betfair.com:8443
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bab55bd36a9a-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:45 GMT
+Expires: Tue, 07 Nov 2023 18:45:00 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ge9p9fpUiMuYw6Uu6Auz4f58OYIk8l8IAvxqTmBqkH34qsdTAkzuFPGwQtOOFdDZtJ3SJ9%2BNi0jAwiA491FZodAT5E6TRESE9j6L85BeoVaAItKDRStw%2BMNR2OUWImGyG%2Fe11Qg9i%2FiJCt38"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

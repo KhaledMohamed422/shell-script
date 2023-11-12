@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: s3.grindr.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; LM-V500N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:30:18 GMT
+Server: AmazonS3
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: FTLQXHxtqXRcJSw8uk/VXHgVw4Z5XmnLCBqBZgAme3s66iswJ1Aw4g8iKFljlHKlSwurAWwRYsQ=
+X-Amz-Request-Id: YHWF4PJFXHAHVQ6G
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>YHWF4PJFXHAHVQ6G</RequestId><HostId>FTLQXHxtqXRcJSw8uk/VXHgVw4Z5XmnLCBqBZgAme3s66iswJ1Aw4g8iKFljlHKlSwurAWwRYsQ=</HostId></Error>
+0
+
+
+
+
+https://s3.grindr.com:443

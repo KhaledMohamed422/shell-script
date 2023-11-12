@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: radar.staging.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e184ddbb2193-DUS
+Date: Tue, 07 Nov 2023 19:11:14 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://dev.radar-frontend.pages.dev
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://radar.staging.cloudflare.com:80

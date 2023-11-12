@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: beteasy.com.drk.ppbdev.com:8080
+User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b719e865caed-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:42:17 GMT
+Expires: Tue, 07 Nov 2023 18:42:32 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=46YKHyiQOXWtJV3giabQy3K%2BuGrNDYWCdCG3D9BW%2B9wXX8vHmhZ7FC1UHEASgMJv126k%2BBeQ8p6APJ%2FK%2Fv%2FV6%2Fuq16tytNHDmUJ69MhpM%2FkZF6WjH1p6mT%2BPsB%2FjcF4OYJSEp3UTW21vXm4dhUzleiU%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=1x_pgsr76PWn.hvmqv5YH5sQcKFlB1D1g8yrtuCkZIM-1699382537-0-AX53NM249aUxR0W+BGuvgWNMdKKpmsjLxUAzwnu7ztutCuZzCmmOh4ZXRusa1ytVdXJVNngRwonpWV8awkKfbJE=; path=/; expires=Tue, 07-Nov-23 19:12:17 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

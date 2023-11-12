@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: jobs.marriott.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1729) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 32
+Cache-Control: no-store,no-cache,must-revalidate,max-age=0
+Content-Security-Policy: default-src https: 'unsafe-inline' 'unsafe-eval' data: blob: mediastream:;
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:27:40 GMT
+Location: /marriott/
+Server: nginx
+Set-Cookie: i18n=en-US; Path=/; Secure; SameSite=Lax
+Set-Cookie: searchSource=external; Path=/; Expires=Thu, 07 Dec 2023 17:27:40 GMT; Secure; SameSite=Lax
+Set-Cookie: session_id=9cdd5970-01c3-46cb-9b2b-d370e71e863c; Path=/; HttpOnly; Secure
+Set-Cookie: i18n=en-US; Path=/; Secure; SameSite=Lax
+Set-Cookie: i18n=en-US; Path=/; Secure; SameSite=Lax
+Set-Cookie: jasession=s%3ABu0TjcyJi2MzU5TQ6DngKKOttflWGdps.GqyJwBKkygsIgBTFLjmOHZkAXLXmFDJU%2BJ489dBVI6E; Path=/; Expires=Wed, 08 Nov 2023 17:27:40 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=7776000000; includeSubDomains; preload
+Vary: Accept, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: engine
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to /marriott/
+
+
+https://jobs.marriott.com:443

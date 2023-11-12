@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: mygateway.churchcenter.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.17) Gecko/20110123 SeaMonkey/2.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:58:22 GMT
+Location: https://mygateway.churchcenter.com/
+Server: CloudFront
+Via: 1.1 0a4b38fa4b7e435c9572519905d42268.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HYl99pUaxH42UgRfk-2YhSOKGZX4UwREpjVPO5BaIhaaCgyDr6tEEQ==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Redirect from cloudfront
+

@@ -1,0 +1,2612 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+	
+
+
+    
+	
+
+  <head>
+
+	
+	
+
+	<script>
+
+        var curUrl = window.location.href;
+		var siteId = "";
+		var fetchUrl = "";
+
+        if(curUrl.indexOf("callofduty.com") > 0) {
+            siteId = "cod";
+            fetchUrl = "https://profile.callofduty.com"
+        }
+        else if(curUrl.indexOf("crashbandicoot.com") > 0) {
+			siteId = "crash";
+            fetchUrl = "https://s.crashbandicoot.com";
+        }
+        else if(curUrl.indexOf("tonyhawkthegame.com") > 0) {
+            siteId = "th";
+            fetchUrl = "https://s.tonyhawkthegame.com";
+        }
+        else if(curUrl.indexOf("sekirothegame.com") > 0) {
+            siteId = "sekiro";
+            fetchUrl = "https://s.sekirothegame.com";
+        }
+        else if(curUrl.indexOf("activision.com") > 0) {
+            siteId = "activision";
+            fetchUrl = "https://s.activision.com";
+        }
+
+		var OneTrust = {
+				dataSubjectParams: {
+					id: "",
+					isAnonymous: false,
+					token : ""
+				}
+			};		
+			function otGetCookie (cookieName) {
+				var i = 0,
+					cookies = document.cookie.split(";"),
+					length = cookies.length,
+					trimRegex = /^\s+|\s+$/g,
+					cookiePair;
+
+				for (; i < length; i++) {
+					cookiePair = cookies[i].split('=');				
+					if (cookiePair[0].replace(trimRegex, '') === cookieName) return unescape(cookiePair[1]);
+				}
+			}
+			var loggedIn = otGetCookie("ACT_SSO_COOKIE") || otGetCookie("s_ACT_SSO_COOKIE") || false;
+			if(loggedIn) {
+				var xsrfToken = otGetCookie("XSRF-TOKEN");
+				fetch(fetchUrl + "/" + siteId + "/regulations/onetrust/auth", {
+					method: "POST",
+					headers: {
+						"X-XSRF-TOKEN": xsrfToken
+					}
+				})
+				.then((response) => response.json())
+				.then((json) => {
+					OneTrust = {
+						dataSubjectParams: {
+							id: json.userId,
+							isAnonymous: false,
+							token : json.token
+						}
+					};
+					console.log("OneTrust: ",OneTrust);
+				});
+			}
+			window.addEventListener("OneTrustGroupsUpdated", handleOneTrustGroupsUpdated);
+		    function handleOneTrustGroupsUpdated() {
+				if(loggedIn) {
+					var xsrfToken = otGetCookie("XSRF-TOKEN");
+					fetch(fetchUrl + "/" + siteId + "/regulations/onetrust/preferences?activeGroups=" + OnetrustActiveGroups, {
+							method: "POST",
+							headers: {
+								"X-XSRF-TOKEN": xsrfToken
+							}
+					});
+				}
+			}
+
+	</script>
+
+
+
+    <meta charset="UTF-8"/>
+
+    <meta name="country" content="US"/>
+
+	
+    
+
+         <script>var dataLayer = dataLayer || [],
+    	         digitalData = {"page":{"pageInfo":{"charSet":"UTF-8","language":"EN","country":"US","site":"support","pageName":"support:homepage","siteSection":"support","siteSubsection":"homepage"},"pageCategory":{"primaryCategory":"support","pageType":"home","subCategory1":"homepage"},"targetEntity":{"locale":"en_US","brand":"support","categoryId":"['support', 'support:homepage', 'support:homepage']","pageURL":"https://support.activision.com/content/atvi/support/web/en/homepage.html","id":"homepage","name":"Activision Support"}}};
+    </script>
+
+    
+    
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	
+
+
+    
+    
+
+     
+     
+    <base href="https://support.activision.com"/> 
+
+
+
+	
+    
+
+    
+
+
+    
+    
+
+     <title>Activision Support</title>
+
+
+    
+    
+
+    <meta name="template" content="support-main-template"/>
+    
+
+
+
+    
+    
+
+    
+
+
+	
+
+    
+        
+       	
+    
+
+	<link rel="image_src" href="https://support.activision.com/content/dam/atvi/support/social-assets/thumbnail_card_2023_900x272.jpg"/>
+
+    <meta property="og:title" content="Activision Support"/>
+    
+	
+	
+	<meta property="og:type" content="website"/>
+
+    <meta property="og:image" content="https://support.activision.com/content/dam/atvi/support/social-assets/thumbnail_card_2023_900x272.jpg"/>
+    <meta property="og:image:url" content="https://support.activision.com/content/dam/atvi/support/social-assets/thumbnail_card_2023_900x272.jpg"/>
+    <meta property="og:image:secure_url" content="https://support.activision.com/content/dam/atvi/support/social-assets/thumbnail_card_2023_900x272.jpg"/>
+
+    <meta name="twitter:title" content="Activision Support"/>
+    
+	
+    <meta name="twitter:image" content="https://support.activision.com/content/dam/atvi/support/social-assets/thumbnail_card_2023_900x272.jpg"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:site"/>
+    
+
+    <!-- END SHARE META TAGS -->
+
+
+    
+    
+		
+
+
+   
+
+	
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "VideoGame",
+          "author": {
+                "@type": "Organization", 
+                "name": [""]
+          },
+          "contentRating": "",
+          "datePublished": "",
+          "description": "",
+          "gamePlatform": [],
+          "genre": [],
+          "image": "",
+          "name": "",
+	      "contentLocation": [],
+		  "playMode": [],
+		  "isAccessibleForFree": "False",
+          "inLanguage": [
+                {
+                    "@type": "Language",
+                    "name": "English"
+                }
+            ],
+            "thumbnailUrl": "",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Activision Publishing",
+                "sameAs": [
+                    "http://www.activision.com",
+                    "https://www.youtube.com/user/ActivisionGames",
+                    "http://en.wikipedia.org/wiki/Activision"
+                ]
+
+            },        
+            "applicationCategory": "Game",
+            "operatingSystem": [],
+            "url": "",
+            "isPartOf": {
+                "@type":"VideoGameSeries",
+                "name":""
+            }
+        }
+
+    	</script>
+
+    
+    <!-- END SCHEMA TAGS -->
+
+    
+    
+    
+
+	<script> 
+        var ATVI = ATVI || {},
+			wcmmode;
+		if (false) wcmmode = 'edit';
+		if (false) wcmmode = 'design';
+		if (!false && !false) wcmmode = '';
+		ATVI.pageMode = wcmmode;
+		ATVI.pageEnv = ('support.activision.com'.indexOf('cmsauthor') > -1) ? 'dev' : 'prod';
+		ATVI.pageLocale = 'en';
+	</script>
+
+
+
+    
+    
+
+   
+
+   
+    <script>
+		(function() {
+            var winUrl = window.location.hostname,
+            	url = 'https://s.activision.com/resources/common/scripts/sso.bar.js',
+            	prev = 'https://s-dev.activision.com/resources/common/scripts/sso.bar.js',
+            	stage = '',
+            	author = 'https://s-dev.activision.com/resources/common/scripts/sso.bar.js',
+            	scriptTag = document.createElement('script');
+            if (winUrl.indexOf('preview.') > -1 || winUrl.indexOf('test.') > -1 && prev) url = prev; //switch between "prev" and "url" for support team.
+            if (winUrl.indexOf('stage.') > -1 && stage) url = stage;
+            if (winUrl.indexOf('cmsauthor') > -1 && author) url = author;
+            scriptTag.setAttribute('src', url);
+            scriptTag.id = 'sso-bar-script';
+            document.write(scriptTag.outerHTML);
+        })();
+
+        var config = {
+			containerId: 'cdo-bar',
+    		locale: 'en',
+			cms: true,
+    		communityId: 'activision',
+    		customSupportPath: '' || null
+        };
+
+    </script>
+
+    
+    	<script>
+        	(function() {
+                var initSsoLibrary = function() {
+                    if (typeof SSO == "object") {
+                        window.ssobar = new SSO.Bar(config);
+                	} else {
+                    	setTimeout(function() {
+                        	initSsoLibrary();
+                        }, 250);
+                    }
+                };
+                initSsoLibrary();
+			})();
+      	  </script>
+		
+   
+
+
+
+    
+    
+
+    
+
+	
+
+    
+
+	
+
+    
+
+    
+
+    
+    
+<link rel="stylesheet" href="/apps/atvi/global/clientlibs.3bf3f28740b0f13f93c845b52b11a008.css" type="text/css"><script type="text/javascript" src="/apps/atvi/global/clientlibs.253df1ac761174c13f2ef5f80447ebda.js"></script>
+
+
+
+    
+
+    
+
+
+
+
+	
+    
+	
+	
+	
+	
+	
+        
+        
+            <link rel="alternate" hreflang="en" href="https://support.activision.com/content/atvi/support/web/en/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="fi" href="https://support.activision.com/content/atvi/support/web/fi/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="no" href="https://support.activision.com/content/atvi/support/web/no/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="de" href="https://support.activision.com/content/atvi/support/web/de/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="zh_tw" href="https://support.activision.com/content/atvi/support/web/zh_tw/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="zh_cn" href="https://support.activision.com/content/atvi/support/web/zh_cn/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="ko" href="https://support.activision.com/content/atvi/support/web/ko/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="pt_br" href="https://support.activision.com/content/atvi/support/web/pt_br/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="en_au" href="https://support.activision.com/content/atvi/support/web/en_au/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="en_gb" href="https://support.activision.com/content/atvi/support/web/en_gb/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="it" href="https://support.activision.com/content/atvi/support/web/it/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="es" href="https://support.activision.com/content/atvi/support/web/es/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="fr" href="https://support.activision.com/content/atvi/support/web/fr/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="fr_lu" href="https://support.activision.com/content/atvi/support/web/fr_lu/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="fr_be" href="https://support.activision.com/content/atvi/support/web/fr_be/homepage"/>
+        
+        
+    
+        
+        
+            <link rel="alternate" hreflang="ja" href="https://support.activision.com/content/atvi/support/web/ja/homepage"/>
+        
+        
+    
+
+	
+    
+    
+
+  
+
+
+    
+    
+    
+    
+    <link rel="icon" href="/content/dam/atvi/global/favicon/favicon.ico"/>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/content/dam/atvi/global/favicon/favicon.ico"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/content/dam/atvi/global/favicon/favicon.ico"/>
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=100"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<link rel="apple-touch-icon" href="https://www.activision.com/content/dam/atvi/global/apple-touch-icon.png"/>
+	<meta name="robots" content="max-image-preview:large"/>
+
+    
+	
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+    
+    
+        
+    
+
+    
+    
+<link rel="stylesheet" href="/libs/wcm/foundation/components/page/responsive.6b768e2136fcc283bddfd16e964001ab.css" type="text/css">
+
+
+
+    
+
+    <!--adobe launch header scripts-->
+        
+
+    
+
+
+        <script type="text/javascript" src="https://assets.adobedtm.com/8ef3b57a0ef6/0dbaa7b4f9dd/launch-ENbd8879fd83d34c7383f927519ed209fc.min.js"></script>
+
+
+    <!--end adobe launch scripts-->
+
+
+	
+	
+
+	
+    	<!-- OneTrust -->
+<script>
+               var OneTrust = {
+                              dataSubjectParams: {
+                                             id: "",
+                                             isAnonymous: false,
+                                             token : ""
+                              }
+               };                                          
+               function otGetCookie (cookieName) {
+                              var i = 0,
+                                             cookies = document.cookie.split(";"),
+                                             length = cookies.length,
+                                             trimRegex = /^\s+|\s+$/g,
+                                             cookiePair;
+
+                              for (; i < length; i++) {
+                                             cookiePair = cookies[i].split('=');                                                       
+                                             if (cookiePair[0].replace(trimRegex, '') === cookieName) return unescape(cookiePair[1]);
+                              }
+               }
+               var loggedIn = otGetCookie("ACT_SSO_COOKIE") || otGetCookie("s_ACT_SSO_COOKIE") || false;
+               if(loggedIn) {
+                              var xsrfToken = otGetCookie("XSRF-TOKEN");
+                              fetch("https://s.activision.com/activision/regulations/onetrust/auth", {
+                                             method: "POST",
+                                             headers: {
+                                                            "X-XSRF-TOKEN": xsrfToken
+                                             }
+                              })
+                              .then((response) => response.json())
+                              .then((json) => {
+                                             OneTrust = {
+                                                            dataSubjectParams: {
+                                                                           id: json.userId,
+                                                                           isAnonymous: false,
+                                                                           token : json.token
+                                                            }
+                                             };
+                                             console.log("OneTrust: ",OneTrust);
+                              });
+               }
+              window.addEventListener("OneTrustGroupsUpdated", handleOneTrustGroupsUpdated);
+              function handleOneTrustGroupsUpdated() {
+                              if(loggedIn) {
+                                             var xsrfToken = otGetCookie("XSRF-TOKEN");
+                                             fetch("https://s.activision.com/activision/regulations/onetrust/preferences?activeGroups=" + OnetrustActiveGroups, {
+                                                                           method: "POST",
+                                                                           headers: {
+                                                                                          "X-XSRF-TOKEN": xsrfToken
+                                                                           }
+                                             });
+                              }
+               }
+</script>
+<!--END OneTrust -->
+<script src="https://cdn.cookielaw.org/consent/476baf2e-c607-4993-9505-edd91d02fc1d/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="476baf2e-c607-4993-9505-edd91d02fc1d"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+    
+
+
+  </head>
+
+
+	
+    
+
+
+<body>
+
+
+		
+		
+
+    
+
+
+
+        
+        
+	
+
+
+    
+
+        
+        <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="cs-header aem-GridColumn aem-GridColumn--default--12">    
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/common/core.8a5ee0920f515387a90922ec482d3078.css" type="text/css">
+<link rel="stylesheet" href="/apps/atvi/support/components/common/cs-header/clientlibs.6efa719153aa2fbfec2871dd5dab745e.css" type="text/css">
+<link rel="stylesheet" href="/apps/atvi/support/components/common/atvi-logo-only/clientlibs.22cdd1463a52a7c7ccc492e6d325ff2e.css" type="text/css">
+<script src="/apps/atvi/support/components/common/core.2cdb5a5417994a16a8ad5ec950911ae0.js"></script>
+<script src="/apps/atvi/support/components/common/cs-header/clientlibs.cd45032fb15084f628a111d8987aeacd.js"></script>
+
+
+ 
+
+    
+     
+     
+
+    
+     
+    
+
+    
+
+         
+
+      <nav class="navbar navbar-inverse" data-region="en">
+        <div class="container">
+            <div class="row new-sso-nav">
+                <div class="col-xs-6"></div>
+                <div class="col-xs-12 pull-right cs-sso">
+                    <div class="new-sso-region">
+	<div id="atvi-locale-selector-52875-1699032443801-1697698247661" class="atvi-component atvi-locale-selector  style-default">
+        <a href="#" title="Choose your region" class="current atvi-instrument atvi-instrument-locale-menu-button en US">
+            <div class="flag main-flag"></div>
+            <div class="region">United States</div>
+            <div class="message">Choose your region</div>
+        </a>
+        <div class="locale-menu">
+        	<ul class="locale-list">
+
+			<li class="locale-entry loc-en US selected ">
+                <a title="United States" href="" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">United States</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-en_gb UK  ">
+                <a title="United Kingdom" href="/uk/en/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">United Kingdom</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-fr FR  ">
+                <a title="France" href="/fr/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">France</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-es ES  ">
+                <a title="Espa&ntilde;a" href="/es/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Espa&ntilde;a</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-it IT  ">
+                <a title="Italia" href="/it/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Italia</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-de DE  ">
+                <a title="Deutschland" href="/de/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Deutschland</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-en_au AU  ">
+                <a title="Australia" href="/au/en/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Australia</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-pt_br BR  ">
+                <a title="Brasil" href="/br/pt/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Brasil</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-no NO  ">
+                <a title="Norge" href="/no/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Norge</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-fi FI  ">
+                <a title="Suomi" href="/fi/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Suomi</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-ja JA  ">
+                <a title="日本語" href="/ja/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">日本語</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-zh_cn CN  ">
+                <a title="简体中文" href="/cn/zh/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">简体中文</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-zh_tw TW  ">
+                <a title="繁體中文" href="/tw/zh/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">繁體中文</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-fr_be BE  ">
+                <a title="Belgium Français" href="/be/fr/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Belgium Français</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-ko KO  ">
+                <a title="한국" href="/ko/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">한국</div>
+                </a>
+                <hr>
+            </li>
+
+			<li class="locale-entry loc-fr_lu LU  ">
+                <a title="Luxembourg" href="/lu/fr/homepage" class="locale-link">
+                    <div class="flag"></div>
+                    <div class="region">Luxembourg</div>
+                </a>
+                <hr>
+            </li>
+
+        	</ul>
+        	<a title="Close menu" href="#" class="close-button">Close menu</a>
+        </div>
+	</div>
+	<script>
+        ATVI.library.withDependency("locale-selector", function() {
+            var config = {
+                locale: "en",
+                localePathPart: "en",
+                siteRoot: "/content/atvi/support/web",
+                defaultUrls: {},
+                localeRoots: {"de":"/de/__STUB","no":"/no/__STUB","fi":"/fi/__STUB","fr_be":"/be/fr/__STUB","ko":"/ko/__STUB","en_au":"/au/en/__STUB","en":"/__STUB","it":"/it/__STUB","pt_br":"/br/pt/__STUB","fr":"/fr/__STUB","es":"/es/__STUB","fr_lu":"/lu/fr/__STUB","en_gb":"/uk/en/__STUB","zh_tw":"/tw/zh/__STUB","ja":"/ja/__STUB","zh_cn":"/cn/zh/__STUB"},
+                style: "default"
+            };
+            ATVI.components.localeSelector.init(jQuery("#atvi-locale-selector-52875-1699032443801-1697698247661"), config);
+        });
+	</script>
+</div>
+
+                    <div class="new-sso-login">
+                        <a href="#" class="log-in-link">Log In</a>
+                        <a href="#" rel="external" class="my-acc">My Account</a>
+                    </div>
+                    <div class="new-sso-signUp">
+                        <a href="#" rel="external" class="sign-up-link">Sign Up</a>
+                        <a href="#" rel="external" class="log-out-link">Log Out</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-header">
+                <button aria-controls="navbartest" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbartest" data-toggle="collapse" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/homepage"><img src="/content/dam/atvi/support/common/header/atvilogo-wht.png"/></a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbartest">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="/games" rel="external" onclick="cmsrEvent('Global Navigation', 'Navigation Selection', 'Games');" class="active">
+                            GAMES
+
+                        </a>
+                    </li>
+                
+                    <li class="contact-us ">
+                        <a href="/onlineservices" rel="external" onclick="cmsrEvent('Global Navigation', 'Navigation Selection', 'Online Services');">
+                            ONLINE SERVICES
+
+                        </a>
+                    </li>
+                
+                    <li class="contact-us ">
+                        <a href="/options" rel="external" onclick="cmsrEvent('Global Navigation', 'Navigation Selection', 'Contact Us');">
+                            SUPPORT OPTIONS
+
+                        </a>
+                    </li>
+                
+                    <li class=" game-support">
+                        <a href="https://support.activision.com/api/login?redirectUrl=https://support.activision.com/my-cases" rel="external" onclick="cmsrEvent('Global Navigation', 'Navigation Selection', 'My Cases');">
+                            MY CASES
+
+                        </a>
+                    </li>
+                </ul>
+
+
+                <div class="navbar-form navbar-right">
+                
+                    <div class="input-group-btn" style="width:auto;">
+                        <input class="form-control search-global-large ui-autocomplete-input" id="search-global-input-large" placeholder="Search" type="text" autocomplete="off"/>
+                        <button class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </nav>
+    
+
+    
+        
+
+<section class="experience-fragment-container ">
+	
+
+	
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="web-survey-v2 aem-GridColumn aem-GridColumn--default--12">
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+        
+        <span id="mainWSProps" data-prof-url="https://support.activision.com/api/profile?accts=false" data-ws-url="https://support.activision.com/api/survey/web"></span>
+    
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/common/web-survey-v2/clientlibs.72234c2dde3a60c259edffed2b23a534.css" type="text/css">
+<script src="/apps/atvi/support/components/common/web-survey-v2/clientlibs.a0d1f0ccc89b228d9b9a9f31588fee8f.js"></script>
+
+
+
+        
+        <div id="ws-overlay"></div>
+        
+        <div class="ws-tab" id="m-tab">
+            <h1 id="h1-btn">RATE OUR SITE</h1>
+        </div>
+        <div class="ws-open" id="m-open">
+            <span class="min" id="min-btn"><hr/></span>
+            <h1>RATE OUR SITE</h1>
+            
+            <form id="svy-fb">
+                <div class="ws-stars">
+                        <h2 id="q1">Please rate your satisfaction finding<br>help on our website.</h2>
+                        <h2 id="ws-tnx" class="thanks">THANKS FOR YOUR FEEDBACK</h2>
+                        <div class="star-holder" id="star-h">
+                            <input type="hidden" name="visitorId" class="visitorId"/>
+                            <input id="input-star" name="score" class="rating rating-loading" data-min="0" data-max="5" data-step="1" data-show-clear="false" data-show-caption="false"/>
+                        </div>
+                </div>
+
+                <div class="acc-holder" id="acc-cont">
+                        <div class="panel-group" id="survey-acc" role="tablist" aria-multiselectable="true">
+                             
+                                
+
+                                
+                                        
+
+<section class="experience-fragment-container ">
+	
+
+	
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+            <div class="panel panel-default" style="display: ;" id="level-1-panel" data-isl2="false">
+        
+        
+          <div class="panel-heading" role="tab" id="heading-level-1-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-level-1-panel" aria-expanded="false" aria-controls="collapse-level-1-panel" data-beid="answer1">
+                 <span class="def-txt">Please choose one support offering that you think we could improve.</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-level-1-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-level-1-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="My Cases" data-panel="my-cases-panel" data-tracking="My Cases">
+                              My Cases
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Navigation/Search" data-panel="nav-search-panel" data-tracking="Navigation/Search">
+                              Navigation/Search
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Online Services" data-panel="os-panel" data-tracking="Online Services">
+                              Online Services
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Submitting a support ticket" data-panel="ticket-panel" data-tracking="Submitting a support ticket">
+                              Submitting a support ticket
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other (please explain)" data-panel="other-panel" data-tracking="Other (please explain)">
+                              Other (please explain)
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+        
+            <div class="panel panel-default" style="display: none;" data-isl2="true" id="my-cases-panel">
+        
+          <div class="panel-heading" role="tab" id="heading-my-cases-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-my-cases-panel" aria-expanded="false" aria-controls="collapse-my-cases-panel" data-beid="answer2">
+                 <span class="def-txt">Which item does this relate to?</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-my-cases-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-my-cases-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I couldn’t add a comment or attach a file." data-panel="game-panel" data-tracking="I couldn’t add a comment or attach a file">
+                              I couldn’t add a comment or attach a file.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I couldn't close my case." data-panel="game-panel" data-tracking="I couldn&#39;t close my case">
+                              I couldn't close my case.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I couldn't find the case I was looking for." data-panel="game-panel" data-tracking="I couldn&#39;t find the case I was looking for">
+                              I couldn't find the case I was looking for.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="My Cases is difficult to navigate." data-panel="game-panel" data-tracking="My Cases is difficult to navigate">
+                              My Cases is difficult to navigate.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other (please explain)" data-panel="other-panel" data-tracking="Other (please explain)">
+                              Other (please explain)
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+        
+            <div class="panel panel-default" style="display: none;" data-isl2="true" id="nav-search-panel">
+        
+          <div class="panel-heading" role="tab" id="heading-nav-search-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-nav-search-panel" aria-expanded="false" aria-controls="collapse-nav-search-panel" data-beid="answer2">
+                 <span class="def-txt">Which item does this relate to?</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-nav-search-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-nav-search-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="It was difficult to find how to get help from a support agent." data-panel="game-panel" data-tracking="It was difficult to find how to get help from a support agent">
+                              It was difficult to find how to get help from a support agent.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="It was difficult to find an article related to my issue." data-panel="game-panel" data-tracking="It was difficult to find an article related to my issue">
+                              It was difficult to find an article related to my issue.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I didn't get search results I was expecting." data-panel="game-panel" data-tracking="I didn&#39;t get search results I was expecting">
+                              I didn't get search results I was expecting.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I couldn't find a solution to my issue." data-panel="other-panel" data-tracking="I couldn&#39;t find a solution to my issue">
+                              I couldn't find a solution to my issue.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other (please explain)" data-panel="other-panel" data-tracking="Other (please explain)">
+                              Other (please explain)
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+        
+            <div class="panel panel-default" style="display: none;" data-isl2="true" id="os-panel">
+        
+          <div class="panel-heading" role="tab" id="heading-os-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-os-panel" aria-expanded="false" aria-controls="collapse-os-panel" data-beid="answer2">
+                 <span class="def-txt">Which item does this relate to?</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-os-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-os-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="The portal didn't have a feature I was looking for." data-panel="other-panel" data-tracking="The portal didn&#39;t have a feature I was looking for">
+                              The portal didn't have a feature I was looking for.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="The portal didn't display an outage I was experiencing." data-panel="game-panel" data-tracking="The portal didn&#39;t display an outage I was experiencing">
+                              The portal didn't display an outage I was experiencing.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other (please explain)" data-panel="other-panel" data-tracking="Other (please explain)">
+                              Other (please explain)
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+        
+            <div class="panel panel-default" style="display: none;" data-isl2="true" id="ticket-panel">
+        
+          <div class="panel-heading" role="tab" id="heading-ticket-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-ticket-panel" aria-expanded="false" aria-controls="collapse-ticket-panel" data-beid="answer2">
+                 <span class="def-txt">Which item does this relate to?</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-ticket-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-ticket-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="The option to submit a support ticket was hard to find." data-panel="game-panel" data-tracking="The option to submit a support ticket was hard to find">
+                              The option to submit a support ticket was hard to find.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="The option to submit a support ticket wasn't available for my issue." data-panel="game-panel" data-tracking="The option to submit a support ticket wasn&#39;t available for my issue">
+                              The option to submit a support ticket wasn't available for my issue.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Submitting a support ticket had too many steps." data-panel="game-panel" data-tracking="Submitting a support ticket had too many steps">
+                              Submitting a support ticket had too many steps.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="I couldn't submit a ticket due to a technical error." data-panel="game-panel" data-tracking="I couldn&#39;t submit a ticket due to a technical error">
+                              I couldn't submit a ticket due to a technical error.
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other (please explain)" data-panel="other-panel" data-tracking="Other (please explain)">
+                              Other (please explain)
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+        
+            <div class="panel panel-default" style="display: none;" data-isl2="true" id="other-panel">
+        
+          <div class="panel-heading" role="tab" id="heading-other-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-other-panel" aria-expanded="false" aria-controls="collapse-other-panel" data-beid="answerOther">
+                 <span class="def-txt">Other</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-other-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-other-panel">
+            
+              
+                <div class="panel-body has-other">
+                    <div class="withText">
+                        <textarea rows="5" cols="40" maxlength="255" placeholder="Please don&#39;t include personal information."></textarea>
+                        <a href="https://www.activision.com/legal/privacy-policy" target="_blank"/>Privacy Policy</a>
+                        <div>
+                            <span class="char-lim">255 character limit</span>
+                            <span class="chars">
+                                <span id="char-cnt"></span>
+                                <span>&nbsp;/&nbsp;255</span>
+                            </span>
+                        </div>
+                    </div>
+                    <input type="button" value="CONTINUE" id="nxt-btn" disabled data-panel="game-panel"/>
+                </div>
+            
+          </div>
+        </div>
+    
+</div>
+<div class="web-survey-list aem-GridColumn aem-GridColumn--default--12">
+ 
+
+
+    
+    
+    
+    
+        
+            <div class="panel panel-default" style="display: ;" id="game-panel" data-isl2="false">
+        
+        
+          <div class="panel-heading" role="tab" id="heading-game-panel">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#survey-acc" href="#collapse-game-panel" aria-expanded="false" aria-controls="collapse-game-panel" data-beid="title">
+                 <span class="def-txt">Which game brought you to our website?</span><span class="selected-option-ws inactive"></span>
+              </a>
+            </h4>
+          </div>
+          <div id="collapse-game-panel" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-game-panel">
+            
+                <div class="panel-body">
+                  <ul>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Modern Warfare III" data-tracking="Call of Duty: Modern Warfare III">
+                              Call of Duty: Modern Warfare III
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Warzone" data-tracking="Call of Duty: Warzone 2.0">
+                              Call of Duty: Warzone
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Modern Warfare II" data-tracking="Call of Duty: Modern Warfare II">
+                              Call of Duty: Modern Warfare II
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Vanguard" data-tracking="Call of Duty: Vanguard">
+                              Call of Duty: Vanguard
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Black Ops Cold War" data-tracking="Call of Duty: Black Ops Cold War">
+                              Call of Duty: Black Ops Cold War
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Modern Warfare" data-tracking="Call of Duty: Modern Warfare">
+                              Call of Duty: Modern Warfare
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Call of Duty: Mobile" data-tracking="Call of Duty: Mobile">
+                              Call of Duty: Mobile
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Tony Hawk’s Pro Skater 1 + 2" data-tracking="Tony Hawk’s Pro Skater 1 + 2">
+                              Tony Hawk’s Pro Skater 1 + 2
+                          </a>
+                        </li>
+                    
+                        <li>
+                          <a href="#" class="image" data-title="Other" data-tracking="Other">
+                              Other
+                          </a>
+                        </li>
+                    
+                  </ul>
+                </div>
+            
+            
+          </div>
+        </div>
+    
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</section>
+                                
+                            
+                        </div>        
+                        <input type="submit" value="SEND FEEDBACK" disabled id="ws-btn"/>
+                </div>    
+            </form>
+        </div>
+    
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</section>
+    </div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+<section class="experience-fragment-container ">
+	
+
+	
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="vip-module aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/vip/vip-module/clientlibs.63dadad68a4b1ebef17f856082504f33.css" type="text/css">
+<script src="/apps/atvi/support/components/vip/vip-module/clientlibs.6383ad54e80dfe41f62ae2c3ade9ec16.js"></script>
+
+
+
+
+    
+
+    
+        
+    
+        
+            
+            
+            <div class="row vip-2k17 prodpage" id="vip-sms-web">
+                <h1 class="head"><span>Awesome! </span>You have priority access
+
+ </h1>
+                <h2 class="subhead">Submit a ticket within Support Options, and our support experts will prioritize your case.</h2>
+                <div class="buttons-cont">
+                    <a href=".res-vip2k17-content" class="sms" data-toggle="collapse" onclick="track_sms()">Text Us</a>
+                    <a href=".res-vip2k17-content" class="web" data-toggle="collapse" onclick="track_email()">EMAIL US</a>
+                </div>
+                <div class="close-btn" data-toggle="collapse" data-target="#vip-options" id="vip2k17-home-close">
+                </div>
+                <div class="res-vip2k17-content collapse" id="vip-options">
+                    
+                    <!-- Open Ticket Alerts -->
+                    
+                    <div id="open-ticket-alerts" data-case-loaded="false" data-chat-loaded="false" data-opencase data-chatqueue data-chatprogress style="display: none;">
+                        <!-- Live Chat Queue Modal -->
+                        <div class="modal-alert" style="display: none;" id="chat-queue-vip">
+                            <h3>You have an open chat session in the queue</h3>
+                            <p>We’ve detected that you’re currently in a chat session. If you wish to continue, you’ll need to close your chat session before you can open a new case.</p>
+
+                            <span class="note"><em style="font-weight: normal;font-style: italic;"><strong>Note:</strong> if you close your chat session, please wait at least five minutes for our systems to update and allow you to open a new case.
+</em></span>
+                            <button class="next-step" data-toggle="collapse" data-target="#vip-options">Close</button>
+
+                        </div>
+
+                        <!-- Live Chat In Progress Modal -->
+                        <div class="modal-alert" style="display: none;" id="chat-progress-vip">
+                            <h3>You have a chat session in progress</h3>
+                            <p>We’ve detected that you’re currently in a chat session. If you wish to continue, you’ll need to close your current chat session and then go to My Cases and close your case before you can start a new chat session.</p>
+
+                            <span class="note"><em style="font-weight: normal;font-style: italic;"><strong>Note:</strong> if you close your chat session, please wait at least five minutes for our systems to update and allow you to open a new case.
+</em></span>
+                            <div class="button-group">
+                                <a class="next-step" href="/my-cases">MY CASES</a>
+                            </div>
+                        </div>
+
+                        <template id="case-template-vip">
+                            <tr>
+                                <td><strong><span id="case-id"></span></strong></td>
+                                <td id="case-subject"></td>
+                                <td id="case-created"></td>
+                            </tr>
+                        </template>
+
+                        <div class="modal-alert" data-step="you-have-open-ticket" id="vip-open-ticket-alert">
+                            <h3>You have an open case.</h3>
+                            <table class="case-results-table-vip">
+
+                            </table>
+                            <p>You currently have an open case with us, and you may only have one support case open at a time. If you open a new case, your open case will be CLOSED and you will be placed at the end of the queue. We recommend waiting for your current case to be resolved</p>
+
+                            <!--
+                                the 'data-step' property on this button needs to be
+                                the same as the 'data-step' property on the alert
+                                it is supposed to open next
+                            -->
+                            <button class="btn next-step" data-step="are-you-sure">CONTINUE</button>
+                            <a href="/my-cases">MY CASES</a>
+                        </div>
+                        <div class="modal-alert" style="display: none;" data-step="are-you-sure">
+                            <h3>Are you sure you want to close your case?</h3>
+                            <table class="case-results-table-vip">
+                            </table>
+                            <p>Starting a new session will CLOSE your open case and place you in the back of the queue. You can always wait for your current ticket to be resolved.</p>
+
+                            <button class="btn next-step" data-step="tickets-closed">START NEW SESSION</button>
+                            <a href="/my-cases">MY CASES</a>
+                        </div>
+                        <div class="modal-alert" style="display: none;" data-step="tickets-closed">
+                            <h3>Your ticket has been closed.</h3>
+                            <table class="case-results-table-vip">
+                            </table>
+                            <p></p>
+
+                            <button class="btn next-step" data-step="contact-form">Close</button>
+                        </div>
+                        <div class="modal-alert" style="display: none;" data-step="error-closing">
+                            <h3></h3>
+                            <p class="large-text"></p>
+                            <p></p>
+                        </div>
+                    </div>
+
+
+                    <!-- Text Us Form -->
+                    <div id="sms-form" style="display: none;" class="sms-form-cont">
+                        <div class="sub-cont" id="sms-fill-form">
+                            <p class="sms-intro">Enter your phone number below and an agent will get back to you via text message shortly.</p>
+                            <form id="vip-sms">
+                                <div class="form-group">
+                                    <input type="tel" class="form-control req" placeholder="+1 (000) 000 0000" id="mobile-num" name="mobile" data-mask="+1 (000) 000-0000" autocomplete="off"/>
+                                    <span class="ast"></span>
+                                </div>
+                                <div class="form-group explain-issue">
+                                    <textarea class="form-control" placeholder="Let us know what&#39;s going on." name="w2ctextinput" maxlength="3800"></textarea>
+                                </div>
+                                <p class="sml top"><span class="red-ast">*</span> Required Field</p>
+                                <p class="sml agree">All texts are automated, subject to Activision’s <a href="/legal/smsterms">SMS terms</a>, and consent is optional, not a condition of purchase or use of Activision support or service. Message and Data Rates may apply. By clicking SUBMIT, you agree to the <a href="/legal/smsterms">SMS terms</a> and agree that Activision may send you text messages at the above number about your customer service request. By checking the box, you also agree that Activision may send you promotional texts at the above number.
+
+ </p>
+                                <div class="chk-container">
+                                    <div class="check-mktg">
+                                        <input type="checkbox" id="mktg-opt-in" name="promotions" value="false"/>
+                                        <label for="mktg-opt-in"></label>
+                                    </div>
+                                    <p class="check-lbl">Get promotional texts at the above phone number</p>
+                                </div>
+                                <input type="hidden" class="ssoToken" name="ssoToken"/>
+                                <input type="hidden" class="w2clanguage" name="w2clanguage" value="en_US"/>
+                                <div class="form-group btn-cont">
+                                    <input type="submit" class="btn btn-primary" value="Submit" id="sms-btn" disabled/>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="sub-cont success-cont" id="sms-success">
+                            <h2>Got it!</h2>
+                            <p>You’ll get a text from us shortly outlining next steps.</p>
+
+                            <div class="form-group btn-cont">
+                                <input type="button" class="btn btn-primary" value="Close" id="sub-close-btn" data-toggle="collapse" data-target="#vip-options"/>
+                            </div>
+                        </div>
+                        <div class="sub-cont success-cont" id="sms-fail">
+                            <h2>Oops</h2>
+                            <p>Our bad. We encountered a problem on our end. Please try again later.</p>
+
+                            <div class="form-group btn-cont">
+                                <input type="button" class="btn btn-primary" value="Close" id="sub-close-btn" data-toggle="collapse" data-target="#vip-options"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email Us Form -->
+                    <div id="vip-web-form" class="vip-web-form-cont">
+                        <div class="sub-cont" id="web-fill-form">
+                            <p>Let us know your issue below and we&#39;ll get back to you via email as soon as possible.</p>
+                            <form id="vip-email">
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle games" type="button" data-toggle="dropdown" id="vip-games-dd" aria-haspopup="true" aria-expanded="false">
+                                        <div id="opbid" name="g">Game</div>
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul aria-labelledby="vip-games-dd" class="dropdown-menu" id="vip-tab-games">
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Modern Warfare III (2023)" data-ib="Call of Duty">Call of Duty: Modern Warfare III</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Warzone 2.0" data-ib="Call of Duty">Call of Duty: Warzone</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Modern Warfare II (2022)" data-ib="Call of Duty">Call of Duty: Modern Warfare II</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Vanguard" data-ib="Call of Duty">Call of Duty: Vanguard</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Black Ops Cold War" data-ib="Call of Duty">Call of Duty: Black Ops Cold War</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Modern Warfare 2 Remastered" data-ib="Call of Duty">Call of Duty: Modern Warfare 2 Remastered</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Modern Warfare (2019)" data-ib="Call of Duty">Call of Duty: Modern Warfare</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: Black Ops 4" data-ib="Call of Duty">Call of Duty: Black Ops 4</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Call of Duty: WWII" data-ib="Call of Duty">Call of Duty: WWII</a>
+                                        </li>
+                                    
+                                        <li>
+                                            <a href="#" data-be="Older Other Title" data-ib="Other">Other Products</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="form-group explain-issue">
+                                    <textarea class="form-control web-txt req" placeholder="What do you need help with?" name="w2ctextinput" maxlength="3800"></textarea>
+                                </div>
+                                <p class="sml"><span class="red-ast">*</span> All fields are required.</p>
+                                <input type="hidden" id="vipParams" name="urlParams" class="req"/>
+                                <input type="hidden" class="ssoToken" name="ssoToken"/>
+                                <input type="hidden" class="issuebrand" id="issuebrand" name="issuebrand"/>
+                                <input type="hidden" class="issueProduct" id="issueProduct" name="issueProduct"/>
+
+                                <input type="hidden" class="w2clanguage" name="w2clanguage" value="en_US"/>
+                                <div class="form-group btn-cont">
+                                    <span id="btnLangs" data-lang="en"></span>
+                                    <input type="submit" class="btn btn-primary" value="Submit" id="vip-web-btn" disabled/>
+                                </div>
+                                <div class="more-info">
+                                    <p>A response will be sent to the email in your account.<br/><a href="#" id="email-change">Change my email address</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="sub-cont success-cont ticket" id="web-success">
+                            <h2>We got your email!</h2>
+                            <p>One of our agents will review your message and get back to you via email.</p>
+                            <h3>Your case # is <span id="case-num"></span></h3>
+
+                            <div class="form-group btn-cont">
+                                <input type="button" class="btn btn-primary" value="Close" id="sub-btn" data-toggle="collapse" data-target="#vip-options"/>
+                            </div>
+                        </div>
+
+                        <div class="sub-cont success-cont ticket" id="web-fail">
+                            <h2>Oops</h2>
+                            <p>Our bad. We encountered a problem on our end. Please try again later.</p>
+
+                            <div class="form-group btn-cont">
+                                <input type="button" class="btn btn-primary" value="Close" id="sub-btn" data-toggle="collapse" data-target="#vip-options"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="isonline" type="hidden"></div>
+
+            
+            
+
+            
+                
+            
+            
+            
+            
+            <script>
+                (function () {
+                    var currentTimeAEM = "10:27";
+                    var pageRegion = $('html').attr('lang').toLowerCase();
+                    var timezoneMap = {
+                        "en": "America/Los_Angeles",
+                        "es": "Europe/Madrid",
+                        "de": "Europe/Berlin",
+                        "fr": "Europe/Paris",
+                        "fr-lu": "Europe/Luxembourg",
+                        "fr-be": "Europe/Luxembourg"
+                    }
+                    var userTimezone = timezoneMap[pageRegion];
+                    var currentTime = new Date().toLocaleString(pageRegion, { timeZone: userTimezone, hour12: false, hour: '2-digit', minute: '2-digit' });
+                    var start = "08:00";
+                    var end = "19:00";
+                    var offlineChatCopy = "";
+                    var isOnline = (currentTime >= start && currentTime < end);
+                    if (isOnline) {
+                        $('#isonline').attr("value", "true");
+                    }
+                })();
+
+                var satellite_track = {
+                    sms: false,
+                    email: false
+
+                }
+                var track_sms = function () {
+                    if (satellite_track.sms == false) {
+                        satellite_track.sms = true;
+                        /**
+                        uncomment tracking before develop merge
+                        */
+                        _satellite.track('form-start', { formName: 'priority sms form' })
+                    }
+                }
+                var track_email = function () {
+                    if (satellite_track.email == false) {
+                        satellite_track.email = true;
+                        /**
+                        uncomment tracking before develop merge
+                        */
+                        _satellite.track('form-start', { formName: 'priority email form' });
+                    }
+                }
+
+
+            </script>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</section>
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+
+<section class="experience-fragment-container ">
+	
+
+	
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="language-unavailable-ko aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+<div class="language-unavailable-cn aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+<div class="language-unavailable-cn_tw aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+<div class="language-unavailable-ja aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+
+    
+</div>
+</div>
+
+    
+</div>
+
+</section>
+</div>
+<div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="alert-bar aem-GridColumn aem-GridColumn--default--12">
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/onlineservices/alert-bar/clientlibs.5d5c3a89036ce0ce922a9852af538cc9.css" type="text/css">
+
+
+
+
+	
+		<div class="carousel slide alertsBox-c" data-ride="carousel" id="alert-carousel" data-interval="8000" style="background-color: #3e9fca">
+		    <div class="row">
+		        <div class="container pad-left-0">
+		            <div class="col-xs-12 pad-left-0">
+						<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+    
+    
+    <div class="item active ">
+        <div class="carousel-caption">
+            <div class="visible-lg visible-md visible-sm visible-xs">
+                
+                
+                    <a href="/account-recovery" target="_self" style="color: #FFFFFF">
+
+                        <p id="alertBar">
+                            <span>NEED HELP INVESTIGATING UNAUTHORIZED ACTIVITY WITH YOUR ACTIVISION ACCOUNT?</span>
+                            <span class="underlined">
+                            LEARN MORE
+                            </span>
+                        </p>
+                    </a>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+						
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	
+
+</div>
+<div class="cf-carousel aem-GridColumn aem-GridColumn--default--12">
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/home/cf-carousel/clientlibs.ccc2c1a90f423b23f318a0cd37b096ca.css" type="text/css">
+
+
+
+
+
+
+
+
+
+    
+
+    <div data-emptytext="Carousel Area"></div>
+
+    
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+
+            <div class="carousel-inner" role="listbox">
+                
+                    <div id="banner-1" class="item active" style="background-image:url(/content/dam/atvi/support/home/carousel/hero/MWIII-Hero-ban-beta.png)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/MWIII-logo-1a.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/modern-warfare-iii/articles/modern-warfare-iii-installation-and-setup" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>MODERN WARFARE III INSTALLATION AND SETUP</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/modern-warfare-iii" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+                    <div id="banner-2" class="item " style="background-image:url(/content/dam/atvi/support/home/carousel/hero/S6_reloaded_1b.jpg)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/S6_MW_WZ_logo_Reloaded.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/modern-warfare-ii/articles/modern-warfare-ii-and-warzone-2-seasons" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>CHECK OUT WHAT&#39;S NEW IN SEASON 06</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/modern-warfare-ii" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+                    <div id="banner-3" class="item " style="background-image:url(/content/dam/atvi/support/home/carousel/hero/home_hero_wz2.0_truck_v2_leftshadow.jpg)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/WZ-logo-wh.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/warzone-2/articles/warzone-2-installation-and-setup" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>WARZONE INSTALLATION AND SETUP</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/warzone-2" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+                    <div id="banner-4" class="item " style="background-image:url(/content/dam/atvi/support/home/carousel/hero/CTR-S2-hero-v2-tint.png)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/CTR-S2-lgo.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/crash-team-rumble/articles/crash-team-rumble-seasons" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>CRASH TEAM RUMBLE SEASON 2</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/crash-team-rumble" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+                    <div id="banner-5" class="item " style="background-image:url(/content/dam/atvi/support/home/carousel/hero/vanguard-Homepage-Hero-a.jpg)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/vg-hero-logo.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/vanguard/articles/vanguard-installation-and-setup" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Vanguard Installation and Setup</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/vanguard" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+                    <div id="banner-6" class="item " style="background-image:url(/content/dam/atvi/support/home/carousel/hero/THPS-upgrade-hero-Screenshot-tint.jpg)" ;> 
+                        <div class="carousel-caption container"> 
+
+                            <div class="hero-support-banner">
+                                
+                                <img src="/content/dam/atvi/support/home/carousel/hero/TonyHawk-1-2-Logo-alt.png"/>        
+                            </div> 
+                            <div class="col-xs-12 help-cta">
+
+                            
+                                
+                                
+                                    <a href="/tony-hawks-pro-skater-1-2/articles/tony-hawks-pro-skater-1-2-upgrade-and-purchase-faq" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_game.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Tony Hawk’s Pro Skater 1 + 2 Upgrade and Purchase FAQ</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            
+                                
+                                
+                                    <a href="/tony-hawks-pro-skater-1-2" target="_self">
+                                
+                                
+                                    <img src="/content/dam/atvi/support/home/carousel/icons/icon_support.png" class="img-responsive"/>
+                                    
+                                    
+                                        <p>Browse the support page</p>
+                                    
+                                    
+                                </a>
+                            
+
+                            </div> 
+                        </div> 
+                    </div>
+                
+
+            </div>
+
+            
+                <ol class="carousel-indicators"> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li> 
+                     
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li> 
+                    
+                </ol>
+
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> 
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 
+                    <span class="sr-only">Previous</span> 
+                </a> 
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> 
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> 
+                    <span class="sr-only">Next</span> 
+                </a>
+            
+        </div>
+    
+    
+
+</div>
+<div class="cf-six-modules aem-GridColumn aem-GridColumn--default--12">
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/home/cf-six-modules/clientlibs.03fed56f434c38cda6d15d5ca90f890f.css" type="text/css">
+
+
+
+    
+    
+    
+    
+
+        
+
+        <div data-emptytext="Modules Area"></div>
+
+        <div class="dark">
+            <div class="container hp-modules portrait">
+                <ul>
+                    
+                        
+                            <li>
+                                
+                                
+                                    <a href="/modern-warfare-iii" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: MODERN WARFARE III</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/MWIII-home-tile-1c.png" alt="CALL OF DUTY: MODERN WARFARE III"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/account-security" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>ACCOUNT &amp; SECURITY</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/account-security-en-silver-tall-2x.jpg" alt="Account &amp; Security"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/modern-warfare-ii" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: MODERN WARFARE II</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/MWII-tall-tile.jpg" alt="Call of Duty: Modern Warfare II"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/warzone-2" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: WARZONE</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/home_tile_WZ.png" alt="Call of Duty: Warzone"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/crash-team-rumble" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CRASH TEAM RUMBLE</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/crash-team-rumble-tile-wide.jpg" alt="CRASH TEAM RUMBLE"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/black-ops-cold-war" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: BLACK OPS COLD WAR</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/cold-war-home-page-tile.jpg" alt="Call of Duty: Black Ops Cold War"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/modern-warfare" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: MODERN WARFARE</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/MW_module_001.jpg" alt="Call of Duty: Modern Warfare"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/tony-hawks-pro-skater-1-2" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>TONY HAWK&#39;S PRO SKATER 1 + 2</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/TonyHawk-1-2-home-tile.jpg" alt="TONY HAWK&#39;S PRO SKATER 1 + 2"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                        
+                            <li>
+                                
+                                
+                                    <a href="/cod-mobile" target="_self">
+                                
+                                
+                                    
+                                    
+                                        <p>CALL OF DUTY: MOBILE</p>
+                                    
+                                    
+                                    <div>
+                                        <img src="/content/dam/atvi/support/home/modules/tall/codmobile-module.jpg" alt="Call of Duty: Mobile"/>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    
+</div>
+
+    
+</div>
+</div>
+<div class="cs-footer aem-GridColumn aem-GridColumn--default--12">
+    
+<link rel="stylesheet" href="/apps/atvi/support/components/common/cs-footer/clientlibs.937103def70a0fb8a8e4d38084fd1bbf.css" type="text/css">
+<script src="/apps/atvi/support/components/common/cs-footer/clientlibs.233153c0a90d0e0705dac999b9ef059e.js"></script>
+
+
+
+
+ 
+ 
+
+
+ 
+
+
+ 
+
+    
+    <footer data-choices='YOUR PRIVACY CHOICES'>
+            <div class="container-fluid support-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-2 footer-left">
+                            <h1>ACTIVISION.COM</h1>
+
+                            <ul>
+                                <li>
+                                    <a href="http://www.activisionblizzard.com/about-us" rel="external">
+                                        ABOUT US
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="http://www.activision.com/careers" rel="external">
+                                        CAREERS
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://press.activision.com/" rel="external">
+                                        PRESS CENTER
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.activision.com/company/ratings-resources" rel="external">
+                                        RATINGS &amp; RESOURCES
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="http://investor.activision.com/" rel="external">
+                                        INVESTOR RELATIONS
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://investor.activision.com/press-releases" rel="external">
+                                        NEWS
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-3 col-md-2 footer-left">
+                            <h1>SUPPORT</h1>
+
+                            <ul>
+                                <li>
+                                    <a href="/games" rel="external">
+                                        GAMES
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/options" rel="external">
+                                        SUPPORT OPTIONS
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/manuals" rel="external">
+                                        GAME MANUALS
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="/license" rel="external">
+                                        SOFTWARE LICENSE AGREEMENTS
+                                    </a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://twitter.com/ATVIAssist" rel="external">
+                                        TWITTER
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-2 footer-left">
+                            <h1>PRIVACY</h1>
+                            <ul>
+                                <li>
+                                    <a href="http://www.activision.com/legal" rel="external">
+                                        LEGAL
+                                    </a>
+                                </li>
+                                                                
+                            
+                                <li>
+                                    <a href="http://www.activision.com/legal/terms-of-use" rel="external">
+                                        TERMS OF USE
+                                    </a>
+                                </li>
+                                                                
+                            
+                                <li>
+                                    <a href="http://www.activision.com/legal/privacy-policy" rel="external">
+                                        PRIVACY POLICY
+                                    </a>
+                                </li>
+                                                                
+                            
+                                <li>
+                                    <a href="https://www.activision.com/legal/cookie-policy" rel="external">
+                                        COOKIE POLICY
+                                    </a>
+                                </li>
+                                
+                                    <li><a title="Activision: Cookie Settings" href="#" class="optanon-toggle-display" data-ignore-geolocation="true">COOKIE SETTINGS</a></li>
+                                                                
+                            
+                                <li>
+                                    <a href="http://esrb.org/" rel="external">
+                                        ESRB.ORG
+                                    </a>
+                                </li>
+                                                                
+                            </ul>
+                        </div>
+
+                        <div class="hidden-xs col-xs-6 col-sm-3 col-md-3 footer-right legal-notification pull-left">
+                            <a href="http://www.esrb.org">
+                                <img alt="ESRB Rating" src="/content/dam/atvi/support/common/footer/esrb-rating.png"/>
+                            </a>
+                            <a href="http://usk.de">
+                                <img alt="USK 18" src="/content/dam/atvi/support/common/footer/usk-18.png"/>
+                            </a>
+                            <a href="http://www.pegi.info/">
+                                <img alt="PEGI Online" src="/content/dam/atvi/support/common/footer/pegionline.png"/>
+                            </a>
+                            <a href="http://www.pegi.info/">
+                                <img alt="PEGI 18" src="/content/dam/atvi/support/common/footer/pegi-18.png"/>
+                            </a>
+                            <a href="http://www.esrb.org/confirm/activision-confirmation.jsp">
+                                <img alt="ESRB Privacy" src="/content/dam/atvi/support/common/footer/esrb-privacy.gif"/>
+                            </a>
+                        </div>
+                        <div class="hidden-xs col-xs-12 col-md-3 footer-right notify-cookie">
+                            
+                                <h2><span>FOLLOW ACTIVISION SUPPORT</span></h2>
+                                <ul>
+                                    <li><a href="https://www.facebook.com/Activision/" class="fb">
+                                    </a></li>
+                                    <li><a href="https://www.twitter.com/atviassist" class="twitter">
+                                    </a></li>
+                                </ul>
+                            
+                            <a href="/">
+                                <img src="/content/dam/atvi/support/common/footer/atvilogo-wht-footer.png" width="200"/>
+                            </a>
+                            
+                            <p>Copyright 2023 Activision Publishing, Inc.</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row visible-xs certs-container">
+                            <div class="col-xs-12 footer-right legal-notification">
+                                 <a href="http://www.esrb.org">
+                                    <img alt="ESRB Rating" src="/content/dam/atvi/support/common/footer/esrb-rating.png"/>
+                                </a>
+                                <a href="http://usk.de">
+                                    <img alt="USK 18" src="/content/dam/atvi/support/common/footer/usk-18.png"/>
+                                </a>
+                                <a href="http://www.pegi.info/">
+                                    <img alt="PEGI Online" src="/content/dam/atvi/support/common/footer/pegionline.png"/>
+                                </a>
+                                <a href="http://www.pegi.info/">
+                                    <img alt="PEGI 18" src="/content/dam/atvi/support/common/footer/pegi-18.png"/>
+                                </a>
+                                <a href="http://www.esrb.org/confirm/activision-confirmation.aspx">
+                                    <img alt="ESRB Privacy" src="/content/dam/atvi/support/common/footer/esrb-privacy.gif"/>
+                                </a>
+                            </div>
+
+                            <div class=" col-xs-12 footer-right notify-cookie">  
+                                                          
+                                    <h2><span>FOLLOW ACTIVISION SUPPORT</span></h2>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/Activision/" class="fb">
+                                        </a></li>
+                                        <li><a href="https://www.twitter.com/atviassist" class="twitter">
+                                        </a></li>
+                                    </ul>
+                                
+                                <a href="/" id="footer_logo_header">
+                                    <img src="/content/dam/atvi/support/common/footer/atvilogo-wht-footer.png" width="200"/>
+                                </a>
+                                <p>Copyright 2023 Activision Publishing, Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+<script type="text/javascript">
+	if ((document.referrer.indexOf("search?q=") != -1 ||
+		document.referrer.indexOf("search.html?q=") != -1) &&
+        !document.location.pathname.includes('search') ){
+        var pageTitle = "";
+        if (pageTitle != '') {
+            digitalData.page.searchInfo = {
+                "searchResultClicked": ""
+            };
+        } else {
+            digitalData.page.searchInfo = {
+                "searchResultClicked": "Activision Support"
+            };
+        }
+	}
+</script>
+</div>
+
+    
+</div>
+</div>
+
+    
+
+        
+        
+    
+    
+    <div class="atvi-banner-cmp eula-banner-module">
+        <div class="inner">
+            <div class="content">
+                <p>The Software License and Service Agreement will be updated. Please follow this link [<a href="https://www.activision.com/legal/ap-eula">https://www.activision.com/legal/ap-eula</a>] in order to see these changes.</p>
+            </div>
+            <button aria-label="Close" class="close-modal">&times;</div>
+        </div>
+    </div>
+
+
+    
+		<div class="atvi-privacy-policy-module">
+            <div class="inner">
+    			<div class="content-left">Privacy Policy Update </div>
+    			<div class="content-right">We’ve updated our Privacy Policy. You can view the revised policy <a href="https://www.activision.com/legal/privacy-policy" target="_blank">here</a>. By continuing to use Activision’s websites, products or services, you acknowledge this revised Privacy Policy.</div>
+                <button aria-label="Close" class="close-modal">&times;</div>
+            </div>
+		</div>
+    
+
+    
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+        
+
+
+
+
+		
+		
+
+        <script type="text/javascript">_satellite.pageBottom();</script>
+
+    <script type="text/javascript"  src="/C_vc/_Xk5/CZ9/td3/4Wyg/mYOafkXhbG5t/GnF6RRwC/Vkd6I/H1BWzkB"></script></body>
+
+
+</html>
+
+
+https://support.activision.com:443

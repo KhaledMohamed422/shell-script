@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: info.device.prod.gbo.noa.nintendo.com
+User-Agent: Opera/9.80 (Android; Opera Mini/7.5.33361/31.1543; U; en) Presto/2.8.119 Version/11.1010
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:32:54 GMT
+X-Amz-Apigw-Id: OGBQFEe1vHcERlw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: c8a6693a-7c8b-45ce-959f-dc3978e782f7
+X-Amzn-Trace-Id: Root=1-654be266-7c1809bd46b6f4387e6e85df
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://info.device.prod.gbo.noa.nintendo.com:443

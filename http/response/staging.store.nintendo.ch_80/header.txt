@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: staging.store.nintendo.ch
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.26 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://staging.store.nintendo.ch/
+Refresh: 0;url=https://staging.store.nintendo.ch/
+Server: Vercel
+
+Redirecting...
+
+
+http://staging.store.nintendo.ch:80

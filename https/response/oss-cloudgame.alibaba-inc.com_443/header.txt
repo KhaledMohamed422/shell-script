@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: oss-cloudgame.alibaba-inc.com
+User-Agent: Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:12:47 GMT
+Eagleid: 2ff62c9816994383676804967e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache4.se1[,403005]
+X-Tengine-Error: denied by req auth: no url arg auth_key
+

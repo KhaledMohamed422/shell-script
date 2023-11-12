@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: api.vimeo.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20100101 Firefox/10.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 207
+Accept-Ranges: bytes
+Cache-Control: no-store, no-cache, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b276c399f2187-DUS
+Content-Type: application/vnd.vimeo.error+json
+Date: Wed, 08 Nov 2023 04:43:15 GMT
+Request-Hash: 5e2afc7f
+Server: cloudflare
+Set-Cookie: __cf_bm=epnZgzoIx0nCBqEZand380jDREh35mE5B0cz3vBrQBs-1699418595-0-AV7b13jQE/vFdrZf8PLQN/0DYNzit9IpKr5mG2o4kL7H68prlD5NsKI+uXQVln1HdwzLl0WE0iBXxUAx6FP26Fw=; path=/; expires=Wed, 08-Nov-23 05:13:15 GMT; domain=.vimeo.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: x-http-method-override
+Via: 1.1 varnish, 1.1 varnish
+Www-Authenticate: Bearer error="invalid_token"
+X-Backend-Server: api-k8s
+X-Bapp-Server: api-7d6b59d84b-lm7zc
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-iad-kiad7000049-IAD, cache-fra-eddf8230051-FRA
+X-Timer: S1699418595.251638,VS0,VE122
+X-Vimeo-Error: true
+
+{
+    "error": "Something strange occurred. Please get in touch with the app's creator.",
+    "link": null,
+    "developer_message": "The app didn't receive the user's credentials.",
+    "error_code": 8003
+}
+
+
+https://api.vimeo.com:443

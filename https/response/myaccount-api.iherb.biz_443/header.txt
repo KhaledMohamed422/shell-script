@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: myaccount-api.iherb.biz
+User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 920) like Geckoo
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c14530a177a5e-DUS
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 07:24:58 GMT
+Server: cloudflare
+Set-Cookie: iher-pref1=sccode=US&scurcode=USD&lan=en-US&storeid=0;domain=.iherb.biz;path=/;samesite=lax
+Set-Cookie: __cf_bm=adu6zibhLWh7wghQePGMex1HVKNDXVLP5IjIHzLLG9g-1699428298-0-AUiENhV5mOzO9MThJnIzG2NRhO/E6JsLOu6mKh/HPcys1uOOI5amm58uyOgGdCS/IEavvngy7Ytd7FoXG0i38No=; path=/; expires=Wed, 08-Nov-23 07:54:58 GMT; domain=.iherb.biz; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+1a
+{"code":-1,"message":null}
+0
+
+
+
+
+https://myaccount-api.iherb.biz:443

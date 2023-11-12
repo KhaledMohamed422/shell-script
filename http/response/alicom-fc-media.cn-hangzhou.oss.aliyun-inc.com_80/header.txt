@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: alicom-fc-media.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: MobileSafari/600.1.4 CFNetwork/711.1.12 Darwin/14.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 380
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:39:29 GMT
+Server: AliyunOSS
+Vary: Origin
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B4941FC091B31396D481D
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B4941FC091B31396D481D</RequestId>
+  <HostId>alicom-fc-media.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://alicom-fc-media.cn-hangzhou.oss.aliyun-inc.com:80

@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: mcs-va.tiktok.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; ONEPLUS A6000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, OPTIONS, HEAD, PUT, POST
+Access-Control-Max-Age: 1800
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Cross-Origin-Resource-Policy: cross-origin
+Date: Wed, 08 Nov 2023 18:45:24 GMT
+Expires: Wed, 08 Nov 2023 18:45:24 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: inner; dur=2
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=87
+X-Akamai-Request-Id: 4928374
+X-Cache: TCP_MISS from a2-19-119-68.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 87,2.19.119.68
+X-Tt-Logid: 20231108184523D536D10B90809FE6C283
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a9825ab20e1bee38d5b03a6a10656da6a004376baf7133ccff513e16217640d52475fba22598c0e603eccd427e6ff107d0d9dc31719550305a2e7744ab0b4515d5bac90cc423a6a793b6029b7d06ad771
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+https://mcs-va.tiktok.com:443

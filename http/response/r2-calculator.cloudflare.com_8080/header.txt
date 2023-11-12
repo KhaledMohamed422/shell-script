@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: r2-calculator.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e1814f817a5e-DUS
+Date: Tue, 07 Nov 2023 19:11:14 GMT
+Expires: Tue, 07 Nov 2023 20:11:14 GMT
+Location: https://r2-calculator.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4udsv9AcvHYBMqllP%2F4QytlJTwFinq31u61J5%2BFLgmABaAQokmXFESESrZE6tlDDtR25AfNNfysYtvOvuBP%2Ff49Vox84gaex5jsIjswi1yDKz3y7iNZU6veqgoCuwbj3Ro%2FnU7k2mdRJ7HckbEBljtrnHP8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://r2-calculator.cloudflare.com:8080

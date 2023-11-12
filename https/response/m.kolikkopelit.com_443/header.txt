@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: m.kolikkopelit.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.15; Mac_PowerPC)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:51 GMT
+Location: https://www.kolikkopelit.com/
+Server: kindred-loadbalancer
+Set-Cookie: clientId=browser_desktop; Domain=m.kolikkopelit.com; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

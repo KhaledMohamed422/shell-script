@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: price-chopper-onecart.pbis-cf.instacart.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82274bc93c26cae1-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:29:01 GMT
+Expires: Tue, 07 Nov 2023 17:29:16 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=q0HQPr9LTLPr1OfxhlaSspOf_T5axREi9uERU6auvlE-1699378141-0-Afw59PV76g2oqwuVGbj9fNYEFi+FY98vZY8Z9jDH65KOFK2A6sSOL6CYFvP1GQElOoKdSva76UI/kxUTsr08Iuc=; path=/; expires=Tue, 07-Nov-23 17:59:01 GMT; domain=.price-chopper-onecart.pbis-cf.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11c3

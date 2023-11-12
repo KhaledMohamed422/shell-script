@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: simulator.betfair.es
+User-Agent: Mozilla/5.0 (Linux; Android 11; RMX1851) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227cd0c8e31715c-DUS
+Date: Tue, 07 Nov 2023 18:57:16 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.betfair.es/exchange/plus/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2yRlgRqrSkHY42%2FxVZA0vx2cENg0ucFrTHu4TcVguZpLv%2BlJeQiEJxtc%2FHOTxjgAl2M0AlyiU8wuCWB5plnWbPoIRmMAX8XjTh727Mrs6ONoKT7mrleYBfXrMi4av%2Fr88DKQgKu8"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=S.mgjo.XqIFkNf7G2k3yCvHekBh0YgCMebJCTlHDjXA-1699383436-0-AZaNdFgo6BES82hw8RW/070igeTfCqYKT4HUDfG3kDOZmoyuVK/lR5yRfSh3sx+okY9CDL2hJo+zaRgdI6ycphw=; path=/; expires=Tue, 07-Nov-23 19:27:16 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://simulator.betfair.es:443

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: accounts.aliexpress.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:40:49 GMT
+Eagleeye-Traceid: 211b88ee16994364492502993effe8
+Location: https://login.aliexpress.com/error404.htm
+Server: Tengine
+Set-Cookie: ali_apache_id=33.27.136.238.1699436449251.009373.3; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+

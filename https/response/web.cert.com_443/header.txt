@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: web.cert.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2166.2 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+

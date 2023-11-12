@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: cb.cpo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:27:21 GMT
+X-Amz-Apigw-Id: OGAcEEh4IAMEe0Q=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: f4b92ed3-54e5-4923-82eb-f2e29658c970
+
+{"message":"Missing Authentication Token"}
+
+
+https://cb.cpo.noa.nintendo.com:443

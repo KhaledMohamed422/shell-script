@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: pricing-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:04:51 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9wcmljaW5nLXN0YWdpbmcubHlmdC5uZXQvIiwgInN2YyI6ICJwcmljaW5nLXN0YWdpbmcubHlmdC5uZXQifQ%3D%3D%7C10.45.178.109%7C1699394691%7C757dd42b2f1ed38cf6bfcef62d7115af2147daff513615af175aa58cd5e14597
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+

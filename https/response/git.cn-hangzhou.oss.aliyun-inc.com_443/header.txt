@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: git.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 363
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:54:29 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B5AD5B09677383333C0CE
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B5AD5B09677383333C0CE</RequestId>
+  <HostId>git.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://git.cn-hangzhou.oss.aliyun-inc.com:443

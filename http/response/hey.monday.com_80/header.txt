@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: hey.monday.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.0.4; BNTV400 Build/IMM76L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Wed, 08 Nov 2023 08:53:25 GMT
+Engine: Rebrandly.redirect, version 2.1
+Location: http://hey.monday.com/?rb.routing.mode=proxy&rb.routing.signature=718455
+Content-Length: 0
+
+
+
+
+http://hey.monday.com:80

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: dev-store.ui.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822af82deb571539-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:11:00 GMT
+Expires: Wed, 08 Nov 2023 04:11:15 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v7zb%2Bg38dOZGLPjWL5hJ5FOb18Xeuw4c2LFLpi%2FAP%2BLoNSrKE%2BSeitX7Gmf6NMW3U9%2BsX2N1hB8Kq6a2Glh%2FDHzlCyxMB7iRSETShpwbcrmwgxjI0ffmTxll0%2FlkzmXxeGI431dLNg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=9.999752
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

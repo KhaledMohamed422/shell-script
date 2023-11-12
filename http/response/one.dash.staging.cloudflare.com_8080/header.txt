@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: one.dash.staging.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227e0f9bcc86a9b-DUS
+Date: Tue, 07 Nov 2023 19:10:52 GMT
+Expect-Ct: max-age=86400, enforce
+Expires: Tue, 07 Nov 2023 20:10:52 GMT
+Location: https://one.dash.staging.cloudflare.com/
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+http://one.dash.staging.cloudflare.com:8080

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: static.sellzone.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux 2.6.30-7.dmz.1-liquorix-686; X11) KHTML/3.5.10 (like Gecko) (Debian package 4:3.5.10.dfsg.1-1 b1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 300
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:03:57 GMT
+Expires: Wed, 08 Nov 2023 05:03:57 GMT
+Server: static.sellzone.com
+Set-Cookie: GCLB=CIv9lpeb5P_ucA; path=/; HttpOnly; expires=Thu, 09-Nov-2023 05:03:57 GMT
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource (or it may not exist).</Details></Error>
+
+
+https://static.sellzone.com:443

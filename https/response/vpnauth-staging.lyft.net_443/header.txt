@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: vpnauth-staging.lyft.net
+User-Agent: LG-LX550 AU-MIC-LX550/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 07 Nov 2023 22:05:54 GMT
+Location: https://vpnauthk8s-staging.lyft.net/
+Server: envoy-iad
+Vary: Accept-Encoding
+X-Envoy-Local-Reply: true
+X-Request-Id: a40ef360-f7ae-4571-aeb2-36cda02f6614
+Content-Length: 0
+
+
+
+
+https://vpnauth-staging.lyft.net:443

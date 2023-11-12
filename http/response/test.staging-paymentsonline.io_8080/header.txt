@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: test.staging-paymentsonline.io:8080
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14526.89.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.133 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822ff40108e61539-DUS
+Date: Wed, 08 Nov 2023 18:41:57 GMT
+Expires: Wed, 08 Nov 2023 19:41:57 GMT
+Location: https://test.staging-paymentsonline.io/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FzgKJO88TTPmGn%2BkHygBRG2b461KglwOq41ssx36QXsT5DEWX4H%2Bj%2FIOgaoqdtatXz4PmHAs8MKV1kCeSYLpuehJiB%2FuO0TNof3Jf%2B6unlUmHpeQ%2BxtOgTR1i2BrS1bcjRFJuK1Bp8KJgFiXHNkg7pXvkSdZKA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://test.staging-paymentsonline.io:8080

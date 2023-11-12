@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: backoffice-prod.154310543964.hellopublic.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 558
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=0
+Content-Security-Policy: default-src 'none'; img-src 'self' *.hellopublic.com https://s3.amazonaws.com https://assets.braintreegateway.com https://public-prod-154310543964.s3.amazonaws.com blob: data:; media-src 'self' *.hellopublic.com; script-src 'self' 'unsafe-inline' *.googleapis.com https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com *.hellopublic.com; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com/bootstrap/ *.googleapis.com *.hellopublic.com; object-src https://universal.hellopublic.com; font-src 'self' *.gstatic.com https://maxcdn.bootstrapcdn.com *.hellopublic.com;connect-src *.hellopublic.com 0pi5vb6fsl.execute-api.us-east-2.amazonaws.com https://0pi5vb6fsl.execute-api.us-east-2.amazonaws.com https://prod-backoffice.154310543964.matadorapp.com public-iq-backend.herokuapp.com https://public-prod-154310543964.s3.amazonaws.com https://public-staging-018019535749.s3.amazonaws.com; frame-src public.com https://universal.hellopublic.com https://staging-app.271494016007.hellopublic.com https://public.cloud.looker.com; manifest-src *.hellopublic.com; report-uri https://gqt9qhf3ea.execute-api.us-east-1.amazonaws.com/prod/report
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:51 GMT
+Etag: "ad38322357af6a6ceb7eddfe02c23a88"
+Last-Modified: Tue, 07 Nov 2023 09:23:26 GMT
+Referrer-Policy: same-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Via: 1.1 081c7bef6b5d3c12829ac4c99182ccea.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vz0hb6HZyutluieZYJ0y9JCEzKNSNywWJ2lF2fOagUNHZrpdhEQ_PQ==
+X-Amz-Cf-Pop: FRA56-P3
+X-Amz-Version-Id: jf9Pq00cvcht84Wf3Aj6w4Hytb0cWAM4
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

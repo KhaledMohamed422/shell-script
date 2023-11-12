@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: idp.dm.login.gov
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:17:28 GMT
+Location: https://idp.dm.login.gov/
+Server: CloudFront
+Via: 1.1 c80ae6bd97b709ed6e4747f0d5ea4efc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: reklZMELL0Py66Ygv4WEca4Pd57nFy_EvyYErqfk1VvXu0q0Xb2XiA==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Redirect from cloudfront
+

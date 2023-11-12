@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: hamster-tunnel.lystit.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.310.0 Safari/532.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c95424c32c4a4-DUS
+Date: Wed, 08 Nov 2023 08:52:59 GMT
+Expires: Wed, 08 Nov 2023 09:52:59 GMT
+Location: https://hamster-tunnel.lystit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://hamster-tunnel.lystit.com:80

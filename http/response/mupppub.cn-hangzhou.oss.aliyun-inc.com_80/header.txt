@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: mupppub.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 367
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:08:24 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B5008FC091B31374DF82E
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B5008FC091B31374DF82E</RequestId>
+  <HostId>mupppub.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://mupppub.cn-hangzhou.oss.aliyun-inc.com:80

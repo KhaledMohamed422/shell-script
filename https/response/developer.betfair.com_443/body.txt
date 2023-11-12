@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+
+<!--[if !IE]><!-->
+<html lang="en-GB" dir="ltr">
+<!--<![endif]-->
+<!--[if IE 6 ]><html lang="en-GB" class="ie ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="en-GB" class="ie ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="en-GB" class="ie ie8"><![endif]-->
+<head>
+    <base href="https://developer.betfair.com/"><!--[if lte IE 6]></base><![endif]-->
+    <title>Betfair APIs, Data and Tools for your use | Betfair Developers</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="generator" content="SilverStripe - http://silverstripe.org" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="The Betfair Developer Program helps you to integrate our data and services into any application on any platform. Get the tools to develop rich, customised interfaces." />
+<meta name="google-site-verification" content="_LN9jxMIINx-IH5DZUOgHMFDc82scjpqLEICEXwpHNU" />
+
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="themes/bd/css/ie.css" />
+    <![endif]-->
+
+    <link rel="shortcut icon" href="themes/bd/images/favicon.ico" />
+    <script>
+        var THEMEDIR = 'themes/bd';
+    </script>
+<script src='/silverstripe-gdpr-cookies/js/gdpr.js'></script>
+<link rel="stylesheet" type="text/css" href="/themes/bd/css/build/style.min.css?m=1679410475" />
+<link rel="stylesheet" type="text/css" href="/silverstripe-gdpr-cookies/css/main.css?m=1556697336&v1" />
+<!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','');</script>
+            <!-- End Google Tag Manager -->
+            
+</head>
+<body class="HomepageHolder" dir="ltr">
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-NG87HM"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NG87HM');
+</script>
+<script>
+    var bdpSupportUrl = '';
+</script>
+    <header>
+	<section class="top-box content-box">
+		<a href="https://developer.betfair.com/" id="logo" title="Betfair Developer Program"><img src="themes/bd/images/betfair-logo.png" alt="Betfair Developer Program" /></a>
+		<div class="slogan"><img src="themes/bd/images/developer-program.png" alt="Betfair Developers Program" title="Betfair Developers Program" /></div>
+		
+	</section>
+	<nav>
+	<ul class="nav-box">
+		
+			<li class="current current  ">
+				<a href="/"  class="">Home</a>
+				
+			</li>
+		
+			<li class="link  has-submenu ">
+				<a href="/en/exchange-api/"  class="">Exchange API</a>
+				
+	                <ul class="submenu">
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/exchange-api/"  class="">Overview</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="https://docs.developer.betfair.com/docs/"  class="">Documentation</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  visualisers">
+	                            <a href="/en/exchange-api/betting-api-demo/"  class="visualisers">Betting API Demo Tool</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  visualisers">
+	                            <a href="/en/exchange-api/accounts-api-demo/"  class="visualisers">Accounts API Demo Tool</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/exchange-api/faq/"  class="">FAQs</a>
+                            </li>
+                            
+	                    
+	                </ul>
+	            
+			</li>
+		
+			<li class="link  has-submenu ">
+				<a href="/en/vendor-program/the-process/"  class="">Vendor Program</a>
+				
+	                <ul class="submenu">
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/vendor-program/the-process/"  class="">Overview</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/vendor-program/faq/"  class="">FAQ&#039;s</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/vendor-program/web-apps/"  class="">Web Apps</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  hide">
+	                            <a href="/en/vendor-program/security-certification/"  class="">Security Certification</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  hide">
+	                            <a href="/en/vendor-program/product-requirements/"  class="">Product requirements</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  hide">
+	                            <a href="/en/vendor-program/user-provisioning/"  class="">USER PROVISIONING</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  hide">
+	                            <a href="/en/vendor-program/new-releases/"  class="">NEW RELEASES</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  hide">
+	                            <a href="/en/vendor-program/gambling-marketing-standards/"  class="">Gambling Commission Guidelines</a>
+                            </li>
+                            
+	                    
+	                </ul>
+	            
+			</li>
+		
+			<li class="link   ">
+				<a href="https://historicdata.betfair.com/#/home" target="_blank" class="">Historic Data</a>
+				
+			</li>
+		
+			<li class="link   ">
+				<a href="https://forum.developer.betfair.com/" target="_blank" class="">Forum</a>
+				
+			</li>
+		
+			<li class="link  has-submenu ">
+				<a href="/en/games-api/"  class="">Games API</a>
+				
+	                <ul class="submenu">
+	                    
+	                        <li class="link  ">
+	                            <a href="/en/games-api/"  class="">Overview</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="assets/Uploads/Betfair-Exchange-Games-API-v1.142-User-Guide.pdf" target="_blank" class="">Documentation</a>
+                            </li>
+                            
+	                    
+	                        <li class="link  ">
+	                            <a href="/?l=en_GB"  class="">FAQs</a>
+                            </li>
+                            
+	                    
+	                </ul>
+	            
+			</li>
+		
+			<li class="link   ">
+				<a href="/en/timeform-api/"  class="">Timeform</a>
+				
+			</li>
+		
+			<li class="link   get-started">
+				<a href="/en/get-started/"  class="get-started">Get Started</a>
+				
+			</li>
+		
+	</ul>
+</nav>
+
+</header>
+
+<div class="main" role="main">
+    <div class="inner typography line">
+        <div class="main-slider">
+    <div class="content-box">
+        <article>
+            <figure>
+                <img src="/assets/Uploads/Main-top-image-3.jpg" alt="Betfair APIs and tools" />
+            </figure>
+            <section class="content">
+                <h1>DEVELOP CUSTOM APPS &amp; TURBO CHARGE YOUR BETTING STRATEGY!</h1>
+
+                <p>Integrate Betfair data and betting operations into any kind of application, on any platform. We have the API's, data and tools you need to develop rich, customised betting interfaces for your own use or to distribute to customers.<br><br><strong>NEW! <a href="vendor-program/web-apps/">Build web-applications! </a></strong>Enable Betfair Exchange betting on your website.</p>
+
+            </section>
+            <div class="clear"></div>
+        </article>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<section class="content-box">
+    <h2>YOU HAVE THE FOLLOWING PRODUCTS TO CHOOSE FROM</h2>
+    <hr />
+    <div class="api-main-box">
+        <div class="api-main-box-list"  id="api-slider" >
+
+            
+            <div class=" api-main-box-list-item">
+                <figure>
+                    <img src="/assets/Uploads/main-api-1.png" alt="Exchange API"  />
+                </figure>
+                <header>
+                    <span>Exchange API</span>
+                </header>
+                <div class="content">
+                    <p>
+                        Create automated betting systems or custom interfaces with the Exchange API.<br />
+Read market data, place bets, check current bet details and more.
+                    </p>
+                    <a href="/#"  id="apis-chose-item-20">Overview</a>
+                </div>
+            </div>
+
+            
+            <div class=" api-main-box-list-item">
+                <figure>
+                    <img src="/assets/Uploads/main-api-1.png" alt="Exchange Historical Data"  />
+                </figure>
+                <header>
+                    <span>Exchange Historical Data</span>
+                </header>
+                <div class="content">
+                    <p>
+                        The Betfair Historical Data service provides time-stamped Betfair Exchange data for purchase &amp; download.  This data should be used for analysis &amp; test...
+                    </p>
+                    <a href="/#"  id="apis-chose-item-29">Overview</a>
+                </div>
+            </div>
+
+            
+            <div class=" free  api-main-box-list-item">
+                <figure>
+                    <img src="/assets/Uploads/main-api-2.png" alt="Games API"  />
+                </figure>
+                <header>
+                    <span>Games API</span>
+                </header>
+                <div class="content">
+                    <p>
+                        Integrate with the Betfair Exchange Games system - from creating a new client front-end system to an automated betting application
+                    </p>
+                    <a href="/#"  id="apis-chose-item-23">Overview</a>
+                </div>
+            </div>
+
+            
+            <div class=" api-main-box-list-item">
+                <figure>
+                    <img src="/assets/Uploads/main-api-3.png" alt="Timeform API"  />
+                </figure>
+                <header>
+                    <span>Timeform API</span>
+                </header>
+                <div class="content">
+                    <p>
+                        Founded in 1948, Timeform’s opinions have widely been accepted as the definitive measure of racing merit and indispensable for betting punters
+                    </p>
+                    <a href="/#"  id="apis-chose-item-26">Overview</a>
+                </div>
+            </div>
+
+            
+            <div class=" api-main-box-list-item">
+                <figure>
+                    <img src="/assets/Uploads/main-api-1.png" alt="Vendor Web Apps API"  />
+                </figure>
+                <header>
+                    <span>Vendor Web Apps API</span>
+                </header>
+                <div class="content">
+                    <p>
+                        Enable Betfair Exchange betting on your website using the Vendor Web API and Exchange API.
+                    </p>
+                    <a href="/#"  id="apis-chose-item-297">Overview</a>
+                </div>
+            </div>
+
+            
+        </div>
+        <ul class="api-main-box-item show">
+            
+            <li id="overlay-apis-chose-item-20" class="overview">
+                <section class="description " >
+                    <figure>
+                        <img src="/assets/Uploads/main-api-1.png" alt="Exchange API"  />
+                    </figure>
+                    <header>
+                        <span>Exchange API</span>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Create automated betting systems or custom interfaces with the Exchange API.<br />
+Read market data, place bets, check current bet details and more.
+                        </p>
+                        <a href="/#">Got It</a>
+                    </div>
+                </section>
+                <section class="what-can-you-do">
+                    <div class="header">
+                        what you can do
+                    </div>
+                    <div class="overwiev-content-box">
+                        <div class="nicescroll">
+                            <p>The Exchange API is the platform on which developers build customised betting tools and interfaces to use with the Betfair Sports Exchange. You can:</p>
+<ul><li>Build your own trading interface, customised to suit your own trading needs</li>
+<li>Automate a successful trading strategy or algorithm</li>
+<li>Publish Exchange odds on your website as part of our Affiliate Programme</li>
+<li>Use Exchange data as part of your bookmaking business (fees apply)</li>
+</ul>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="for-example">
+                    <div class="header">
+                        For Example
+                    </div>
+                    <div class="for-example-slider">
+                        
+                            <div>Build a spreadsheet that monitors your position on a specific market, calculating the average effective price achieved on each selection taking into account offsetting back and lay bets </div>
+                        
+                            <div>Build your own trading interface, customised to suit your own trading needs.</div>
+                        
+                            <div>Publish Betfair odds on your website as part of our Affiliate Programme.</div>
+                        
+                            <div>Automate a successful manual trading strategy or algorithm</div>
+                        
+                    </div>
+
+                </section>
+                <section class="useful-links">
+                    <div class="header">
+                        Useful links
+                    </div>
+                    <div class="link-list">
+                        <ul>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-lightning.png" alt="ico lightning" />
+                                        </figure>
+                                    
+                                    <a href="/en/get-started/#exchange-api " >Quick Start</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-question.png" alt="ico question" />
+                                        </figure>
+                                    
+                                    <a href="/en/exchange-api/faq/" >FAQS</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-doc.png" alt="ico doc" />
+                                        </figure>
+                                    
+                                    <a href="https://docs.developer.betfair.com/docs/#https://docs.developer.betfair.com/docs/ " >DOCS</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </li>
+            
+            <li id="overlay-apis-chose-item-29" class="overview">
+                <section class="description " >
+                    <figure>
+                        <img src="/assets/Uploads/main-api-1.png" alt="Exchange Historical Data"  />
+                    </figure>
+                    <header>
+                        <span>Exchange Historical Data</span>
+                    </header>
+                    <div class="content">
+                        <p>
+                            The Betfair Historical Data service provides time-stamped Betfair Exchange data for purchase &amp; download.  This data should be used for analysis &amp; test...
+                        </p>
+                        <a href="/#">Got It</a>
+                    </div>
+                </section>
+                <section class="what-can-you-do">
+                    <div class="header">
+                        what you can do
+                    </div>
+                    <div class="overwiev-content-box">
+                        <div class="nicescroll">
+                            <p>The <strong><a href="https://historicdata.betfair.com/#/home">Betfair Historical Data</a></strong> service provides time-stamped Betfair Exchange data for purchase &amp; download. </p>
+<p>Using this data you can:</p>
+<ul><li>Access historical Betfair Exchange price &amp; market data.</li>
+<li>View details of historical market settlements.</li>
+<li>Custom filter data prior to download.</li>
+<li>Back test your strategy before going ‘live’.</li>
+<li>Experiment with new sport/market types.</li>
+</ul>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="for-example">
+                    <div class="header">
+                        For Example
+                    </div>
+                    <div class="for-example-slider">
+                        
+                            <div>Export data into .csv format for import into spreadsheets or databases for further processing<br />
+</div>
+                        
+                            <div>Test your manual trading strategies using interfaces that incorporate historical data</div>
+                        
+                            <div>Build a simulation model based on Betfair Historical data to back test your betting strategy</div>
+                        
+                    </div>
+
+                </section>
+                <section class="useful-links">
+                    <div class="header">
+                        Useful links
+                    </div>
+                    <div class="link-list">
+                        <ul>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-lightning.png" alt="ico lightning" />
+                                        </figure>
+                                    
+                                    <a href="https://historicdata.betfair.com/#/home" target="_blank">Exchange Historical Data</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </li>
+            
+            <li id="overlay-apis-chose-item-23" class="overview">
+                <section class="description  free " >
+                    <figure>
+                        <img src="/assets/Uploads/main-api-2.png" alt="Games API"  />
+                    </figure>
+                    <header>
+                        <span>Games API</span>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Integrate with the Betfair Exchange Games system - from creating a new client front-end system to an automated betting application
+                        </p>
+                        <a href="/#">Got It</a>
+                    </div>
+                </section>
+                <section class="what-can-you-do">
+                    <div class="header">
+                        what you can do
+                    </div>
+                    <div class="overwiev-content-box">
+                        <div class="nicescroll">
+                            <p>Using read-only services you can create programmes that:</p>
+<ul><li>Retrieve reference information for a games market</li>
+<li>Retrieve the market prices</li>
+<li>Retrieve your current bets on an event</li>
+<li>Retrieve information on settled bets</li>
+<li>Retrieve your account statement information</li>
+<li>Use this information to calculate and display your own data</li>
+</ul><p><br><br>Using transactional services:</p>
+<ul><li>Place bets on a games market</li>
+<li>Cancel existing unmatched bets</li>
+<li>Modify existing unmatched bets</li>
+<li>Transfer money from/to your Exchange Games wallet</li>
+</ul>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="for-example">
+                    <div class="header">
+                        For Example
+                    </div>
+                    <div class="for-example-slider">
+                        
+                            <div>Build a spreadsheet that monitors your position on a specific market, calculating the average effective price achieved on each selection taking into account offsetting back and lay bets</div>
+                        
+                            <div>Build a programme which will record games data as history into a local database</div>
+                        
+                            <div>Build an application that places bets when certain market conditions are met</div>
+                        
+                            <div>Build an application that can place offsetting bets conditional on other bets getting matched</div>
+                        
+                            <div>Build an application to automate your betting strategy</div>
+                        
+                    </div>
+
+                </section>
+                <section class="useful-links">
+                    <div class="header">
+                        Useful links
+                    </div>
+                    <div class="link-list">
+                        <ul>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-lightning.png" alt="ico lightning" />
+                                        </figure>
+                                    
+                                    <a href="/en/get-started/#games-api " >Quick Start</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-haze.png" alt="ico haze" />
+                                        </figure>
+                                    
+                                    <a href="/?l=en_GB" >Contact Us</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-question.png" alt="ico question" />
+                                        </figure>
+                                    
+                                    <a href="/?l=en_GB" >FAQS</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-documentation.png" alt="ico documentation" />
+                                        </figure>
+                                    
+                                    <a href="assets/Uploads/Betfair-Exchange-Games-API-v1.142-User-Guide.pdf" target="_blank">DOCS</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </li>
+            
+            <li id="overlay-apis-chose-item-26" class="overview">
+                <section class="description " >
+                    <figure>
+                        <img src="/assets/Uploads/main-api-3.png" alt="Timeform API"  />
+                    </figure>
+                    <header>
+                        <span>Timeform API</span>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Founded in 1948, Timeform’s opinions have widely been accepted as the definitive measure of racing merit and indispensable for betting punters
+                        </p>
+                        <a href="/#">Got It</a>
+                    </div>
+                </section>
+                <section class="what-can-you-do">
+                    <div class="header">
+                        what you can do
+                    </div>
+                    <div class="overwiev-content-box">
+                        <div class="nicescroll">
+                            <p><span>The Timeform API is available to Betfair customers to access premium content for private or commercial use. It is a REST API that allows you to programmatically retrieve data from the Timeform database.</span><br><br><span>Since the company was founded in 1948, Timeform’s opinions have widely been accepted as the definitive measure of racing merit and indispensable for betting punters. In the past few years Timeform has increased it's output considerably so that data and content is available for different depths of sophistication – all of which are ready to meet your bespoke needs.</span></p>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="for-example">
+                    <div class="header">
+                        For Example
+                    </div>
+                    <div class="for-example-slider">
+                        
+                            <div>Enhance your front-end output to attract new punters with Timeform opinion</div>
+                        
+                            <div>Improve ‘stickiness’ and ‘dwell-time’ to increase customer retention and loyalty</div>
+                        
+                            <div>Brand association with Timeform to encourage customers to bet with confidence</div>
+                        
+                    </div>
+
+                </section>
+                <section class="useful-links">
+                    <div class="header">
+                        Useful links
+                    </div>
+                    <div class="link-list">
+                        <ul>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-lightning.png" alt="ico lightning" />
+                                        </figure>
+                                    
+                                    <a href="/en/get-started/#timeform-api " >QUICK START</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-question.png" alt="ico question" />
+                                        </figure>
+                                    
+                                    <a href="/en/timeform-api/faq/" >FAQS</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-documentation.png" alt="ico documentation" />
+                                        </figure>
+                                    
+                                    <a href="https://www.timeform.com/commercial/products/api" target="_blank">Documentation</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </li>
+            
+            <li id="overlay-apis-chose-item-297" class="overview">
+                <section class="description " >
+                    <figure>
+                        <img src="/assets/Uploads/main-api-1.png" alt="Vendor Web Apps API"  />
+                    </figure>
+                    <header>
+                        <span>Vendor Web Apps API</span>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Enable Betfair Exchange betting on your website using the Vendor Web API and Exchange API.
+                        </p>
+                        <a href="/#">Got It</a>
+                    </div>
+                </section>
+                <section class="what-can-you-do">
+                    <div class="header">
+                        what you can do
+                    </div>
+                    <div class="overwiev-content-box">
+                        <div class="nicescroll">
+                            <p>Create Web Apps - enable Betfair Exchange betting on any website!</p>
+<p>The Vendor Web API is available to licensed Software Vendors to create web-based betting applications. The API operations enable the web application to carry out operations on the users behalf using the OAuth2 protocol.</p>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="for-example">
+                    <div class="header">
+                        For Example
+                    </div>
+                    <div class="for-example-slider">
+                        
+                            <div>Create web-based trading and betting tools</div>
+                        
+                            <div>Integrate Exchange odds and betting on your website</div>
+                        
+                    </div>
+
+                </section>
+                <section class="useful-links">
+                    <div class="header">
+                        Useful links
+                    </div>
+                    <div class="link-list">
+                        <ul>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-lightning.png" alt="ico lightning" />
+                                        </figure>
+                                    
+                                    <a href="https://developer.betfair.com/get-started/" >Get Started</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-support-forum.png" alt="ico support forum" />
+                                        </figure>
+                                    
+                                    <a href="https://forum.developer.betfair.com/" >Developer Forum</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-documentation.png" alt="ico documentation" />
+                                        </figure>
+                                    
+                                    <a href="https://docs.developer.betfair.com/display/1smk3cen4v3lu3yomq5qye0ni/Vendor+Services+API#VendorServicesAPI-vendorwebapiVendorWebAPI" >Docs</a>
+                                </li>
+                            
+                                <li>
+                                    
+                                        <figure>
+                                            <img src="/assets/Uploads/ico-info.png" alt="ico info" />
+                                        </figure>
+                                    
+                                    <a href="https://developer.betfair.com/vendor-program/web-apps/" >More Info</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+            </li>
+            
+
+        </ul>
+        <span class="right mar-top-14px color-666966 font-14px translateZ-0">*Free for personal use, for commercial use we have a range of options.</span>
+        <div class="clear"></div>
+    </div>
+</section>
+<section class="content-box">
+    <h2>HOW OUR PRODUCTS COMPARE</h2>
+    <hr />
+    <div class="api-compare-box">
+        <ul>
+            <li class="first">
+                <ul>
+                    <li class="first">&nbsp;</li>
+                    
+                        <li id="api-feature-2">Development Use - Delayed Data</li>
+                    
+                        <li id="api-feature-24">Betting Use - Live Data</li>
+                    
+                        <li id="api-feature-5">Commercial Licences Available</li>
+                    
+                        <li id="api-feature-14">Documentation</li>
+                    
+                        <li id="api-feature-11">Developer Forum</li>
+                    
+                        <li id="api-feature-8">REST API</li>
+                    
+                        <li id="api-feature-23">JSON-RPC</li>
+                    
+                        <li id="api-feature-25">Stream API</li>
+                    
+                        <li id="api-feature-17">Sample Code</li>
+                    
+                        <li id="api-feature-21">Demo Tools</li>
+                    
+                    <li>&nbsp;</li>
+                </ul>
+            </li>
+            
+                <li class="apis-choose-slider-box">
+                    <div class="apis-choose-slider" id="apis-choose-slider">
+                        
+                            <div class="item">
+                                <ul class="api-feature-value">
+                                    <li class="first" id="api-compare-20"><span class="helper"></span><span>Exchange API</span></li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                FREE
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                £299 activation fee
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                On application
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                    <li><a href="/en/get-started/#exchange-api ">Quick Start</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="item">
+                                <ul class="api-feature-value">
+                                    <li class="first" id="api-compare-29"><span class="helper"></span><span>Exchange Historical Data</span></li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                    <li><a href="/en/historical-data-services-api/">Get Started</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="item">
+                                <ul class="api-feature-value">
+                                    <li class="first" id="api-compare-23"><span class="helper"></span><span>Games API</span></li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                    <li><a href="/en/get-started/#games-api ">Quick Start</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="item">
+                                <ul class="api-feature-value">
+                                    <li class="first" id="api-compare-26"><span class="helper"></span><span>Timeform API</span></li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                    <li><a href="/en/get-started/#timeform-api ">Get Started</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="item">
+                                <ul class="api-feature-value">
+                                    <li class="first" id="api-compare-297"><span class="helper"></span><span>Vendor Web Apps API</span></li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                FREE
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                £299 activation fee
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                        <li>
+                                            <span class="helper"></span>
+                                            
+                                                <img src="themes/bd/images/yes.png" alt="yes" />
+                                            
+                                        </li>
+                                    
+                                    <li><a href="/en/vendor-program/web-apps/">Quick start</a></li>
+                                </ul>
+                            </div>
+                        
+                    </div>
+                </li>
+            
+        </ul>
+    </div>
+</section>
+
+
+    </div>
+    <div class="push"></div>
+</div>
+    <footer>
+    <nav>
+        <ul>
+            
+                <li><a href="http://www.betfair.com/aboutUs/Privacy.Policy/" class="link" target="_blank">Privacy Policy</a></li>
+            
+                <li><a href="http://www.betfair.com/aboutUs/Terms.and.Conditions/" class="link" target="_blank">Terms &amp; Conditions</a></li>
+            
+                <li><a href="https://apps.betfair.com" class="link" target="_blank">App Directory</a></li>
+            
+                <li><a href="http://betfair.com/exchange" class="link" target="_blank">Betfair.com</a></li>
+            
+                <li><a href="http://corporate.betfair.com/" class="link" target="_blank">Betfair Corporate</a></li>
+            
+                <li><a href="https://forum.developer.betfair.com/" class="link" target="_blank">Developer Forum</a></li>
+            
+        </ul>
+    </nav>
+
+    <div class="copyrights">Copyrights &copy; 2015 Betfair Developer Program</div>
+</footer>
+
+
+
+    <div class="gdpr-widget__popup" id="gdpr-widget__popup">
+		<span class="gdpr-widget__popup-welcome">
+			Adjust cookies
+        </span>
+        <div class="gdpr-widget__popup-categories">
+            <div class="gdpr-widget__popup-categories-item">
+                <div class="gdpr-widget__popup-categories-item-name">
+<strong>Essential cookies</strong>
+                    <div class="gdpr-widget__popup-categories-item-count">
+						
+							,
+						
+                    </div>
+                </div>
+                <div class="gdpr-widget__popup-categories-item-toggle">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="essential" disabled="disabled" checked="checked"
+                               class="onoffswitch-checkbox  onoffswitch-checkbox--disabled" id="gdpr-essential">
+                        <label class="onoffswitch-label" for="gdpr-essential"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="gdpr-widget__popup-categories-item">
+                <div class="gdpr-widget__popup-categories-item-name">
+                    <strong>Performance cookies</strong>
+                    <div class="gdpr-widget__popup-categories-item-count">
+						
+							,
+						
+                    </div>
+                </div>
+                <div class="gdpr-widget__popup-categories-item-toggle">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="analytics" class="onoffswitch-checkbox" id="gdpr-performance">
+                        <label class="onoffswitch-label" for="gdpr-performance"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="gdpr-widget__popup-categories-item">
+                <div class="gdpr-widget__popup-categories-item-name">
+                    <strong>Functional cookies</strong>
+                    <div class="gdpr-widget__popup-categories-item-count">
+						
+							,
+						
+                    </div>
+                </div>
+                <div class="gdpr-widget__popup-categories-item-toggle">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="marketing" class="onoffswitch-checkbox" id="gdpr-functional">
+                        <label class="onoffswitch-label" for="gdpr-functional"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="gdpr-widget__popup-categories-item">
+                <div class="gdpr-widget__popup-categories-item-name">
+                    <strong>Targeting cookies</strong>
+                    <div class="gdpr-widget__popup-categories-item-count">
+						
+							,
+						
+                    </div>
+                </div>
+                <div class="gdpr-widget__popup-categories-item-toggle">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="marketing" class="onoffswitch-checkbox" id="gdpr-targeting">
+                        <label class="onoffswitch-label" for="gdpr-targeting"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gdpr-widget__popup-footer">
+            <div class="gdpr-widget__popup-footer-round-button">
+                <button onclick="savePreferences()">Save preferences</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gdpr-widget__notice" id="gdpr-widget__popup-notice">
+        <div class="gdpr-widget__notice-wrapper">
+            <div class="gdpr-widget__notice-content">
+                <div class="text">By using this website you accept the use of cookies. <span class="gdpr-show" onclick="showPopup()">Set preferences</span> or <span class="gdpr-close" onclick="savePreferences()">close this message</span> </div>
+                <img src="/silverstripe-gdpr-cookies/img/close.svg" class=" close"  onclick="savePreferences()">
+            </div>
+        </div>
+    </div>
+
+    <div class="gdpr-widget__popup-bg" id="gdpr-widget__popup-bg"></div>
+
+    <script>
+if (getCookie('performanceCookies') === null || getCookie('performanceCookies') === 'pending') {
+            showNotice();
+        }
+    </script>
+
+
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js?m=1679410475"></script><script type="text/javascript" src="/themes/bd/javascript/en.js?m=1679410475"></script><script type="text/javascript" src="/bower_components/parsleyjs/dist/parsley.min.js?m=1679410475"></script><script type="text/javascript" src="/bower_components/jquery-validation/dist/jquery.validate.min.js?m=1679410475"></script><script type="text/javascript" src="/themes/bd/javascript/build/scripts.min.js?m=1679410475"></script><script type="text/javascript" src="/silverstripe-gdpr-cookies/js/min/main.js?m=1556697336&v1"></script></body>
+</html>
+
+0
+
+
+
+
+https://developer.betfair.com:443

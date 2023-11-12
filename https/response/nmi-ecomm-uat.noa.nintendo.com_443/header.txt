@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: nmi-ecomm-uat.noa.nintendo.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Content-Security-Policy-Report-Only: font-src *.fontawesome.com data: 'self' 'unsafe-inline'; form-action geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com pilot-payflowlink.paypal.com www.paypal.com www.sandbox.paypal.com *.cardinalcommerce.com *.paypal.com 'self' 'unsafe-inline'; frame-ancestors 'self'; frame-src fast.amc.demdex.net *.adobe.com geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com bid.g.doubleclick.net *.youtube.com *.youtube-nocookie.com www.paypal.com www.sandbox.paypal.com pilot-payflowlink.paypal.com player.vimeo.com https://www.google.com/recaptcha/ www.googletagmanager.com c.paypal.com checkout.paypal.com assets.braintreegateway.com pay.google.com *.cardinalcommerce.com *.paypal.com www.xtento.com 'self' 'unsafe-inline'; img-src assets.adobedtm.com amcglobal.sc.omtrdc.net dpm.demdex.net cm.everesttech.net *.adobe.com widgets.magentocommerce.com data: www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net www.google.com bid.g.doubleclick.net analytics.google.com www.googletagmanager.com *.ftcdn.net *.behance.net t.paypal.com www.paypal.com www.paypalobjects.com fpdbs.paypal.com fpdbs.sandbox.paypal.com *.vimeocdn.com i.ytimg.com *.youtube.com validator.swagger.io www.sandbox.paypal.com b.stats.paypal.com dub.stats.paypal.com assets.braintreegateway.com c.paypal.com checkout.paypal.com *.paypal.com www.xtento.com cdn.xtento.com data: 'self' 'unsafe-inline'; script-src assets.adobedtm.com *.adobe.com geostag.cardinalcommerce.com 1eafstag.cardinalcommerce.com geoapi.cardinalcommerce.com 1eafapi.cardinalcommerce.com songbird.cardinalcommerce.com includestest.ccdc02.com www.googleadservices.com www.google-analytics.com googleads.g.doubleclick.net analytics.google.com www.googletagmanager.com www.paypal.com www.sandbox.paypal.com www.paypalobjects.com t.paypal.com s.ytimg.com www.googleapis.com vimeo.com www.vimeo.com *.vimeocdn.com *.youtube.com https://www.gstatic.com/recaptcha/ https://www.google.com/recaptcha/ js.braintreegateway.com assets.braintreegateway.com c.paypal.com pay.google.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.paypal.com www.xtento.com cdn.xtento.com 'self' 'unsafe-inline' 'unsafe-eval'; style-src *.adobe.com *.fontawesome.com unsafe-inline 'self' 'unsafe-inline'; object-src 'self' 'unsafe-inline'; media-src *.adobe.com 'self' 'unsafe-inline'; manifest-src 'self' 'unsafe-inline'; connect-src dpm.demdex.net amcglobal.sc.omtrdc.net geostag.cardinalcommerce.com geo.cardinalcommerce.com 1eafstag.cardinalcommerce.com 1eaf.cardinalcommerce.com centinelapistag.cardinalcommerce.com centinelapi.cardinalcommerce.com www.google-analytics.com www.googleadservices.com analytics.google.com www.googletagmanager.com vimeo.com www.sandbox.paypal.com www.paypalobjects.com www.paypal.com pilot-payflowlink.paypal.com api.braintreegateway.com api.sandbox.braintreegateway.com client-analytics.braintreegateway.com client-analytics.sandbox.braintreegateway.com *.braintree-api.com *.paypal.com 'self' 'unsafe-inline'; child-src assets.braintreegateway.com c.paypal.com *.paypal.com http: https: blob: 'self' 'unsafe-inline'; default-src 'self' 'unsafe-inline' 'unsafe-eval'; base-uri 'self' 'unsafe-inline';
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:35:56 GMT
+Expires: Tue, 08 Nov 2022 19:35:55 GMT
+Location: https://nmi-ecomm-uat.noa.nintendo.com/customer/account/login/
+Pragma: no-cache
+Set-Cookie: PHPSESSID=ebk9qguo0ur6leiv55hd8ssrek; expires=Wed, 08-Nov-2023 20:35:55 GMT; Max-Age=3600; path=/; domain=nmi-ecomm-uat.noa.nintendo.com; secure; HttpOnly; SameSite=Lax
+Set-Cookie: TS01b1e715=017b8ac2e3f7bd763caa3011d44802a4473b47cb6ca9215169f3ce5774875a95b52e41399054a1c4024aef811f4822d840540350b2; Path=/; Secure; HTTPOnly
+Set-Cookie: TS01299a42=017b8ac2e3a957e4cabd51d7797acdb89c7f6a5571a9215169f3ce5774875a95b52e4139901cbaea154c699179ea601ce35da5410c21ca4dca8e6aab97c1b9d3ed13c5c1c1; path=/; domain=nmi-ecomm-uat.noa.nintendo.com; HTTPonly; Secure
+Set-Cookie: TSafd01817027=08323f1740ab2000bada34a8fb470b33f5624f51ff22ae891b6c701f51f6c7d0bd94285fc524b4880849699b7e1130006a2077379fe83a1a0a26b00f25af0c10e5affe59a9696cb34f55e0511d3c80e949cf6b2db17ea27345c293e73347f933; Path=/
+Via: 1.1 fra1-bit11005
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Magento-Tags: FPC
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+147c7

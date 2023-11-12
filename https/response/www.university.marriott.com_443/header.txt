@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: www.university.marriott.com
+User-Agent: Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274e691d7c1632-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:49 GMT
+Location: https://university.marriott.com/
+Server: cloudflare
+

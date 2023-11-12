@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: log19-normal-useast1a.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; en-US; rv:2.0b2pre) Gecko/20100712 Minefield/4.0b2pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 504 Gateway Time-out
+Connection: close
+Content-Length: 158
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:45:20 GMT
+Proxy-Status: 0000201504005043
+Server: TLB
+Server-Timing: cdn-cache;desc=miss, edge;dur=84, origin;dur=6003
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-iad-kjyo7100054-IAD, cache-ams21081-AMS
+X-Timer: S1699469114.364689,VS0,VE6087
+X-Tt-Logid: 202311081845136236295BB9243ACEBD3A
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a64dca3f0284727a33d5bb047f2c7e54c9281b6341201d2b20fc8943bf396ccea06e5265e4a67492960956b728b4187761f71bb8f7cd2ae70a5d042c9a40c8a8d2cffeb686ee50c048bd9e7024cf5be05
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+

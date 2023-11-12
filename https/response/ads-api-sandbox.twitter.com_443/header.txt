@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ads-api-sandbox.twitter.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Disposition: attachment; filename=json.json
+Content-Type: application/json;charset=utf-8
+Date: Tue, 07 Nov 2023 20:16:32 GMT
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938819255414485; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:16:32 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: 83f0ca8eac40593052e8da08ca683cb1f76b510f551ac3ea90705e71367b9a76
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 180
+X-Transaction: c1af429c9cb2a48b
+X-Transaction-Id: c1af429c9cb2a48b
+X-Xss-Protection: 0
+
+{"errors":[{"code":"ROUTE_NOT_FOUND","message":"The requested resource could not be found"}],"request":{"params":{}}}
+
+
+https://ads-api-sandbox.twitter.com:443

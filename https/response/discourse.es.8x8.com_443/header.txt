@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: discourse.es.8x8.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'none'; script-src https://discourse.8x8.com/logs/ https://discourse.8x8.com/sidekiq/ https://discourse.8x8.com/mini-profiler-resources/ https://discourse.8x8.com/assets/ https://discourse.8x8.com/brotli_asset/ https://discourse.8x8.com/extra-locales/ https://discourse.8x8.com/highlight-js/ https://discourse.8x8.com/javascripts/ https://discourse.8x8.com/plugins/ https://discourse.8x8.com/theme-javascripts/ https://discourse.8x8.com/svg-sprite/ 'sha256-Gty3/aPWFfSvz7pdT39HY97/+2opLup9V0L19ZF0IwY='; worker-src 'self' https://discourse.8x8.com/assets/ https://discourse.8x8.com/brotli_asset/ https://discourse.8x8.com/javascripts/ https://discourse.8x8.com/plugins/; frame-ancestors 'self'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 21:27:41 GMT
+Discourse-No-Onebox: 1
+Location: https://discourse.8x8.com/login
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Set-Cookie: destination_url=https%3A%2F%2Fdiscourse.8x8.com%2F; path=/; SameSite=Lax
+X-Content-Type-Options: nosniff
+X-Discourse-Route: categories/index
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: a2b7c9ce-a7c9-4bc2-86c8-0e6d3247f951
+X-Runtime: 0.036013
+X-Xss-Protection: 0
+
+61

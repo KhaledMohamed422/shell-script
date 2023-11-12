@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: log19-applog-useast5.us.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4950.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:45:14 GMT
+Proxy-Status: 0000201502005104
+Server: nginx
+Server-Timing: cdn-cache;desc=miss, edge;dur=8, origin;dur=5
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-iad-kiad7000064-IAD, cache-lga21979-LGA
+X-Timer: S1699469114.242105,VS0,VE13
+X-Tt-Logid: 202311081845148044A3EBE76C7D197DBB
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5adf5d9039b5164810e5290ee45af1a82d1476df5c107177a409e6248d98d2db0bdd884499cbd19a8aa07bbc31c53c2151ef1547e046abf2119e6a0e42d0a153707a4be158b3e0043db5d83d15197472ab
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+

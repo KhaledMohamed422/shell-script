@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: eo.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Nexus 6P Build/N2G48C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:24:55 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf4f4nuwb.2.1699388694118.Z0FBQUFBQmxTcDBXZHR2aFJ2T2tQQ3pGZ0FRbHY1d0VpU1YzYWxZdHc0UVZkRkk1VlJ5X1ZuU2FNMldrdk9NVTVHMjNaMHoyMmgwVHRRS3J4d1VLUUpRSDdZRFJIN0VqdFV0TU5MWFk1NVhHN2o4Q0x2ZXhmWXg5VHVKcmVWbnNWVTJrcU1NdGhRbmc; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:24:54 GMT; secure
+Set-Cookie: session_tracker=hplnglephhlmhkajrb.0.1699388694121.Z0FBQUFBQmxTcDBXMTlXTWxEcXdXc1J1c01tS1Q2TnZhOVBreElvLTB3WjJIRmVMenFtRkVIbzc1RHQwZ0wyQ1BueUVFS0dfa1VHbVRydVFXMWYwSXlGRmVSV2RpQjhUZHQxQURWdEp4XzFYVTRnU2xGa3ZaVXNNS3JPd21WUjRJM1Jtd2U0TEhBNmY; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:24:54 GMT; secure
+Set-Cookie: edgebucket=4A9N7iok8V9Q1aKggg; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

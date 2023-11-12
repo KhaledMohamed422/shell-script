@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: m-payment-web.test.betsson.com
+User-Agent: Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:27 GMT
+Location: https://m-payment-web.test.betsson.com/
+Server: CloudFront
+Via: 1.1 9bd86598a7f45cc948aa2f9674ece0b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vS4fAh5zOf6WLqwmTItpW6a3NL_su7yFf3UihKyB5PT4O2JcMXJjpw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

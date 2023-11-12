@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: id-id.www.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Internal Server Error
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e83fbd81160b-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:15:50 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BAyc7F%2BWR69U48r1XzDwEUbSyFY2%2FsZpW5WNFtv4RyX%2FSmdu7Jk7yxy8Me2OK2JaUDrrPpewnBzGVU5RDNOlT%2Bi3cWHOeC%2BfxT6ZUmb4t49jXH1NICCSkx0QxJe%2BjS1qSDgNgIulXTC%2FoQJ%2FZFYu6w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=hhd30g3XOfXtJTNJmxR1x11oy24n7V0A6hBxw2LLRZY-1699384550-0-Aegu1JJj3UuqXDj3v74cn+OLE3c2eVIqAZsWElp8dCGNomySLXi6NPrfAExbpmdn0M0+3BjQqqxufWgRP+wIGhuB0WfSHE3jwaXM3xE5WPRr; path=/; expires=Tue, 07-Nov-23 19:45:50 GMT; domain=.www.cloudflare.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+f3e

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: exchangegaming.betfair.se
+User-Agent: libwww-perl/5.820
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227babeebd1c4ae-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:44:46 GMT
+Location: https://www.betfair.com/de_restricted_territories/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bN5DnSSifFDFwuGMvip%2F3uck0Za1INETBLA6QuWtAHKjHqdG%2BE9IfTbrBNQlzqFsB4LraygWzPKVWpiuvc3%2B6oRad3kJdc8xN5tuqOk4v2Yk%2FNEQ0nasNifxTefEF%2BH0%2B1UVdUHeldCBx2I%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ft1lK3W6Z1JXUKAS9CC_9zkw3w2lR6PjVjLiW7RXxPM-1699382686-0-AQ9o3gTitX1aulY91yEvPe+ldTff70f2jGFIApuEgbe6IUZm3WXf7J5M/pYD4ZLjWhsjd2mcJZzGVcwKrH1QBPI=; path=/; expires=Tue, 07-Nov-23 19:14:46 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+205

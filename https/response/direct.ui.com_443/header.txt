@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: direct.ui.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0
+Content-Security-Policy: default-src 'self' *.ui.com wss://*.ui.com ws://*.ui.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://polyfill.io https://www.googletagmanager.com https://www.google-analytics.com https://static.hotjar.com https://script.hotjar.com https://www.youtube.com https://sentry.io https://code.jquery.com https://app.sendsafely.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://script.hotjar.com; img-src 'self' data: blob: https://d3j0t7vrtr92dk.cloudfront.net https://cdn.shopify.com https://*.ui.com https://*.ubnt.com https://*.netsuite.com https://i.ytimg.com https://img.youtube.com https://www.google-analytics.com https://script.hotjar.com https://app-static.sendsafely.com; connect-src 'self' *.ui.com wss://*.ui.com ws://*.ui.com https://sentry.io https://*.hotjar.com:* https://vc.hotjar.io:* wss://*.hotjar.com https://www.google-analytics.com; frame-src https://vars.hotjar.com https://www.youtube.com https://static-www.sendsafely.com *.ui.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:50:16 GMT
+Last-Modified: Thu, 02 Nov 2023 11:10:58 GMT
+Server: nginx
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+1678

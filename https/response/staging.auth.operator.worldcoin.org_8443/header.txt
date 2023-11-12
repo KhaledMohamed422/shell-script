@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: staging.auth.operator.worldcoin.org:8443
+User-Agent: Nokia3230/2.0 (5.0614.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 82295c771af2cae9-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 23:29:56 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=7OBwVp_xzcTDYYh7DKmxqCULWiUhDmGAgiBd3czSiC4-1699399796-0-AaS9GK6FGiDjG6XuLu+EWndLAcRSSPcC2hYOg3Kw9bBKVinbzRd5RjeXEZQQjx+QqZirYrWB31+91v6tbqYqS1g=; path=/; expires=Tue, 07-Nov-23 23:59:56 GMT; domain=.staging.auth.operator.worldcoin.org; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://staging.auth.operator.worldcoin.org:8443

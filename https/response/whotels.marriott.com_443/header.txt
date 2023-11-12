@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: whotels.marriott.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274dd4e9c61605-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:25 GMT
+Location: https://w-hotels.marriott.com/
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+

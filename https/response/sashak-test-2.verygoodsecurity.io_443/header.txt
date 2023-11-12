@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: sashak-test-2.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14588.98.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.59 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:57:14 GMT
+Server: nginx
+Vgs-Request-Id: ee9a874f10f0ec03be1937ab1bc08b4f
+Via: 1.1 reverse-http-proxy-699d868cb5-shr68
+X-Envoy-Upstream-Service-Time: 54
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: ee9a874f10f0ec03be1937ab1bc08b4f.
+
+
+https://sashak-test-2.verygoodsecurity.io:443

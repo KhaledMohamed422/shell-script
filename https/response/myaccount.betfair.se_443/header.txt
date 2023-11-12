@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: myaccount.betfair.se
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.27 (KHTML, like Gecko) Chrome/12.0.712.0 Safari/534.27
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bb8aef776a7f-DUS
+Content-Language: sv
+Date: Tue, 07 Nov 2023 18:45:19 GMT
+Location: /summary/accountsummary
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+P3p: CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'
+Pragma: no-cache
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xQ8uXVWM%2Bld%2BpdWcM1xt43fJGDaBcC%2BgF6nPvzgWiLzd9BQOSViXANWGJbfciiBraaSOw%2BiBW56r%2F%2BLVpmfw34GLPJLngEopauQUuMy1yjU4t1FoTG6hjQiiBlHaOkw2CVU%2FmGtO"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: wsid=ccb7d041-7d9d-11ee-9b54-fa163e7b50a7; Domain=betfair.se; Path=/
+Set-Cookie: vid=ccb7d042-7d9d-11ee-9b54-fa163e7b50a7; Max-Age=31536000; Expires=Wed, 06-Nov-2024 18:45:19 GMT; Domain=betfair.se; Path=/
+Set-Cookie: __cf_bm=6QHNj7ZH.iiuBzGhxTspF5P_tj.1p05moE4Iw.9YBuo-1699382719-0-AdJR6dVR43reLhKANXrUD9O5Y6MJXWiwsvVS6v9HRSFKVAiv2FzXWIX6I4rBVntjeE087xEXQ7b9o1yYI8SNhY8=; path=/; expires=Tue, 07-Nov-23 19:15:19 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Length: 0
+
+
+
+
+https://myaccount.betfair.se:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: story-assets.gotinder.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI CAN-L11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 18:46:34 GMT
+Server: CloudFront
+Via: 1.1 03249875678629095a5ec311a6f1a298.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hbLfVgKBgWKs97EPoluzgy9dubMqM-4X-Z-DDVS8TM0Xri7FfgcMsw==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://story-assets.gotinder.com:443

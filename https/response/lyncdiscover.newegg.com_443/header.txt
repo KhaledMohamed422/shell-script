@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.newegg.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; NetBSD 4.0_RC3; X11) KHTML/3.5.7 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:33:55 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 2390e2e9-c500-4921-af80-c81ba73a6379
+X-Ms-Correlation-Id: 86d451fb-8b24-4047-9344-a1df730207ae
+X-Ms-Server-Fqdn: AM42E00EDG18.infra.lync.com
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=newegg.com"},"xframe":{"href":"https://webdir1A.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdir1A.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=newegg.com"}}}
+
+
+https://lyncdiscover.newegg.com:443

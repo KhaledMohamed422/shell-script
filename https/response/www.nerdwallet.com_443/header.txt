@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: www.nerdwallet.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227847d9a867a52-DUS
+Content-Security-Policy: frame-ancestors 'self' *.app.clicktale.com app.optimizely.com analytics.google.com *.bond.tech;
+Content-Security-Policy-Report-Only: script-src 'self' 'unsafe-eval' 'unsafe-inline' *.nerdwallet.com *.clarity.ms https://www.youtube.com https://www.squaremouth.com https://ssl.kaptcha.com https://sdk.credible.com https://cdn.amplitude.com https://nwallet.formstack.com static.formstack.com https://mpsnare.iesnare.com *.revjet.com https://cdn.jotfor.ms https://nw-smb.fundera.com https://googleapis.com https://conoret.com *.taboola.com https://disutgh7q0ncc.cloudfront.net https://www.datadoghq-browser-agent.com https://js.adstk.io https://bat.bing.com *.doubleclick.net *.appsflyer.com https://ladderlife.com *.googletagmanager.com https://appleid.cdn-apple.com https://create.lidstatic.com https://static.zdassets.com https://static.criteo.net *.twitter.com https://cdn.speedcurve.com https://open.spotify.com https://lf16-tiktok-web.tiktokcdn-us.com https://s.yimg.com https://embeddable-sandbox.cdn.apollographql.com https://bam.nr-data.net https://a.mgid.com *.tiktok.com https://open.spotifycdn.com https://e.infogram.com https://unpkg.com https://www.nextinsure.com https://www.p.zjptg.com https://connect.facebook.net https://collector-26294.us.tvsquared.com *.instagram.com https://cdns.gigya.com https://static.ads-twitter.com https://cdn.segment.com https://cdn.plaid.com *.outbrain.com *.google.com https://www.googleadservices.com https://ssl.kaptcha.com *.google-analytics.com *.amplitude.com *.googleapis.com *.criteo.com https://js-agent.newrelic.com https://cdn.datatables.net https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://code.jquery.com https://embed-cdn.spotifycdn.com; object-src 'self' *.nerdwallet.com; style-src 'self' 'unsafe-inline' *.nerdwallet.com static.formstack.com https://fonts.googleapis.com https://tagmanager.google.com https://accounts.google.com/gsi/style https://cdn.jotfor.ms https://lf16-tiktok-web.tiktokcdn-us.com https://www.gstatic.com https://www.google-analytics.com *.google.com *.googleapis.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com; font-src 'self' *.nerdwallet.com https://fonts.gstatic.com *.appsflyer.com data:; frame-ancestors 'self' *.nerdwallet.com *.app.clicktale.com app.optimizely.com analytics.google.com *.bond.tech; connect-src *.nerdwallet.com *.clarity.ms https://tr.outbrain.com wss://mpsnare.iesnare.com *.browser-intake-datadoghq.com https://bat.bing.com *.taboola.com https://rum-http-intake.logs.datadoghq.com *.google.com https://meta.nerdwallet.io https://tst.kaptcha.com *.google-analytics.com *.amplitude.com *.tiktok.com https://s.yimg.com https://api.segment.io https://cdn.segment.com *.sentry.io https://nerdwallet1.zendesk.com *.doubleclick.net *.leadid.com *.googleapis.com https://ekr.zdassets.com https://conv-pix.adstk.io https://nerdwallet.cloudflareaccess.com *.criteo.com *.facebook.com https://sandbox.plaid.com https://bam.nr-data.net https://clicks.tyuwq.com https://www.p.zjptg.com https://mortgageapi.zillow.com *.appsflyer.com https://www.sjwoe.com https://nerdwallet.okta.com https://www.nextinsure.com; worker-src 'self' *.nerdwallet.com blob:; report-uri https://www.nerdwallet.com/csp-report-logger/v1/report;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:44 GMT
+Server: cloudflare
+Set-Cookie: AWSALBTG=hOU+t/Shfmik1CvC+FT4jBgvyQi9Mwe13ux3L0LnHCATlCdlI7sjyFq8vjT9RXnYZkJpyQQfvjH3m4socUPWEB6EaelAAtawNnxDcOJ2XKRHxCk83DyvtaUg1KjSoUDzQ3aEFeUQ8EEh3BKVBDXFN2sRsb1lfTYB8y/T1Piz2gWR; Expires=Tue, 14 Nov 2023 18:07:44 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=hOU+t/Shfmik1CvC+FT4jBgvyQi9Mwe13ux3L0LnHCATlCdlI7sjyFq8vjT9RXnYZkJpyQQfvjH3m4socUPWEB6EaelAAtawNnxDcOJ2XKRHxCk83DyvtaUg1KjSoUDzQ3aEFeUQ8EEh3BKVBDXFN2sRsb1lfTYB8y/T1Piz2gWR; Expires=Tue, 14 Nov 2023 18:07:44 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: csrf_token=eyJsb2dnZWRfb3V0IjogIlkySTFPVGRtTVRJdE16RTRZUzAwTUdaaUxUbGlPR0V0TWpFeFpUVXlaVEkyTnpBd2hQRFF2M0lqR2M0a3dXc1VmUlJvVlN5aTdhOXZqSmMwOWovdHBDRVlHaHc9In0%3D; Domain=.www.nerdwallet.com; Path=/; Secure
+Set-Cookie: cookie_id=a643864d91f7bfb3cd8ece29547597c9e102b69316ad75a9-68c3-4813-b89e-eacc119ea48e; Max-Age=315360000; Domain=.nerdwallet.com; Path=/; Secure
+Set-Cookie: browser_session_id=11838a2768f893abc0e11eb2d26b3cd42d1a98d25c784d0b-11a3-4018-96be-991056b609bd; Domain=.nerdwallet.com; Path=/; Secure
+Set-Cookie: visitor_token=14aa131b6f396c49908a89cac61ee2ef0f286d63f07fbfdd-39c0-407c-852b-2a01728d4b6a; Max-Age=315360000; Domain=.www.nerdwallet.com; Path=/; Secure; HttpOnly; SameSite=Lax
+Set-Cookie: visitor_identity_assertion_token=eyJpdiI6ICJKQ1pnZm9pb1VJRzQ4Tm1TIiwgImNpcGhlcnRleHQiOiAibW11QWxjakh5VDNXTklvYVRsSFF0OXZucjNzMDl5L29DcmJlWlA1dTAvRDBTTVRxYkYzemZLWXhLWEdDa1E1VmkwajBOMHlZTmJWcDYxZFJobG4yeWprPSIsICJ0YWciOiAiNEp5eTFYRnJSNWh5M3F5NXNaU0crZz09In0%3D; Domain=.nerdwallet.com; Path=/; Secure
+Set-Cookie: visitor_token=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Domain=.nerdwallet.com; Path=/
+Set-Cookie: visitor_identity_assertion_token=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Domain=.www.nerdwallet.com; Path=/
+Set-Cookie: cookie_id=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Domain=.www.nerdwallet.com; Path=/
+Set-Cookie: browser_session_id=; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Domain=.www.nerdwallet.com; Path=/
+Set-Cookie: __cf_bm=IkUvMmFAg05B7g6Ag94ZAFXCwBaPvi0yH8fNQgvqnFw-1699380464-0-AWClLZAQizMolPHML/+3aXQwG5MvLd6QzaAr0PFf8iymQqlM+m/qZ6ZMFb+2+D7m8BsnmKZlZ8rTreKEmFt5VottG0Rr1JFbTw/SOLYckTfv; path=/; expires=Tue, 07-Nov-23 18:37:44 GMT; domain=.www.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=121ee175c470f2d0b6a6c549ca1df82fd58d8edb-1699380464; path=/; domain=.www.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Nerd: Edge
+X-Xss-Protection: 1; mode=block;
+
+61444

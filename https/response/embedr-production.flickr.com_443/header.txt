@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: embedr-production.flickr.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 44
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 22:02:55 GMT
+Location: https://www.flickr.com
+Vary: Accept, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Request-Id: 620752f6883ea998
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to https://www.flickr.com
+
+
+https://embedr-production.flickr.com:443

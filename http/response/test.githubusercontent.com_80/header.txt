@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: test.githubusercontent.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Domain Not Found
+Connection: close
+Content-Length: 280
+Accept-Ranges: bytes
+Cache-Control: private, no-cache
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:24:26 GMT
+Retry-After: 0
+Server: Varnish
+Via: 1.1 varnish
+X-Served-By: cache-fra-eddf8230111-FRA
+
+

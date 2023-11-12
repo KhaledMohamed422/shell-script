@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: ort.evetest.wellsfargo.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.1 (like Gecko) Fedora/4.4.1-1.fc12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Server: KONICHIWA/1.3
+Set-Cookie: LastMRH_Session=46e2e541; domain=wellsfargo.com;path=/;secure;HttpOnly
+Set-Cookie: MRHSession=d3771bd081c2e75fd63a6c9346e2e541; domain=wellsfargo.com;path=/;secure;HttpOnly
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure
+Content-Length: 0
+
+
+
+
+https://ort.evetest.wellsfargo.com:443

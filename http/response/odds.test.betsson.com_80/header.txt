@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: odds.test.betsson.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:59:01 GMT
+Location: https://odds.test.betsson.com/
+Server: CloudFront
+Via: 1.1 a51af242bb87a51c6b17ed13ee788db8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: T9Eu_kgW9SKRz3I1zK4f8GNvtbN2wrbg-m7OyswgvSpgcCDIpjRKog==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

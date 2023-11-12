@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: eu2-baas.acronis.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:18:38 GMT
+Front-End-Https: on
+Location: /login
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: BVhNDr8TuKqmrcbpp64XGL
+X-Request-Id: b5698d5ca9145411e399860531e9122a
+Content-Length: 0
+
+
+
+
+https://eu2-baas.acronis.com:443

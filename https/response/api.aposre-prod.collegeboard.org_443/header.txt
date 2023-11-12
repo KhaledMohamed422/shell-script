@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: api.aposre-prod.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:00 GMT
+Via: 1.1 1ea192e33eba9d746d4727dc0ca03654.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCbI0GYiIAMELzQ=
+X-Amz-Cf-Id: POxhNWI77FdYbx71q0eC2ZEHVne-xqelyhfX5zkeQP6DL5XPA8gXnw==
+X-Amz-Cf-Pop: DUS51-P3
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 0b45f832-8272-4af3-88b4-fe3854528e2e
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://api.aposre-prod.collegeboard.org:443

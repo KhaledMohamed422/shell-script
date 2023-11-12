@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: staticcdn.duckduckgo.com
+User-Agent: Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:24:10 GMT
+Server: nginx
+X-Amz-Bucket-Region: us-east-1
+
+107
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>T8HAD495TVC1V66Z</RequestId><HostId>6ityIOQVd3GzBVZ0xwpOG3+wMvZgda62lEID4HEXe+/guj2fhRLVcdHNbr9158Sb7s1MzB55z0rY7ZW6nVxqQ/C5Z2/IJ/gN</HostId></Error>
+0
+
+
+
+
+http://staticcdn.duckduckgo.com:80

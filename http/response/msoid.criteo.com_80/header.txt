@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: msoid.criteo.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 NotFound
+Connection: close
+Content-Length: 10
+Client-Request-Id: f805a6ea-e39c-41cd-b078-c69a6df4aeca
+Content-Type: text/HTML
+Date: Tue, 07 Nov 2023 19:52:16 GMT
+Nel: {"report_to":"network-errors","max_age":86400,"success_fraction":0.001,"failure_fraction":1.0}
+Report-To: {"group":"network-errors","max_age":86400,"endpoints":[{"url":"https://identity.nel.measure.office.net/api/report?catId=GW+estsfd+dub2"}]}
+Set-Cookie: x-ms-gateway-slice=estsfd; path=/; secure; samesite=none; httponly
+
+Not Found.
+
+
+http://msoid.criteo.com:80

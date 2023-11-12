@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: sportsgaming.betfair.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13C75 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc57fc21caed-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:45:52 GMT
+Location: https://www.betfair.com/de_restricted_territories/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=z6RhlLQEKYaAAXZ43WERxgHEPgEEQoBc9pvLwgrtA1YV3oR8Iu5%2FYrt4VW4qKEFZZ%2BZ%2BkkJuNXzf69AilZ2I8kXdQMdeH1bm1%2Bs6RbMsrMpP4IHJj3VlI5TaYg4qFZuJfhJd9laDXV1PAA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+205

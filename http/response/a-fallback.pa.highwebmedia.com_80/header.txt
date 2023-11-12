@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: a-fallback.pa.highwebmedia.com
+User-Agent: Peach/1.01 (Ubuntu 8.04 LTS; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 19:12:24 GMT
+
+{"message":"Invalid WebSocket Request","href":"https://help.ably.io/error/40000","code":40000,"statusCode":400}
+
+
+http://a-fallback.pa.highwebmedia.com:80

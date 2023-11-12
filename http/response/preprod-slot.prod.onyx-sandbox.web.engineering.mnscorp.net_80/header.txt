@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: preprod-slot.prod.onyx-sandbox.web.engineering.mnscorp.net
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.2; es-US ) AppleWebKit/540.0 (KHTML like Gecko) Version/6.0 Safari/8900.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:23:21 GMT
+X-Azure-Ref: 20231108T022321Z-kqxkedqym91ur911hc1gxvw2dg00000001b000000000phsf
+X-Cache: CONFIG_NOCACHE
+
+default_403
+
+
+http://preprod-slot.prod.onyx-sandbox.web.engineering.mnscorp.net:80

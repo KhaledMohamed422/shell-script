@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: widgets.flickr.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 22:05:57 GMT
+Server: AmazonS3
+Via: 1.1 b6d1611761652d7a383651f2bf480596.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hr_xtAJZhLEr8urgt8ZYDW0IOZreVyaL_7Z4lbysbU_1RVF5PSLY0w==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0S304YHD1ZH95V96</RequestId><HostId>GBP9Y+FyWVj4AhQzi9BWWZhUVrfPevBPKW6Tn+tG3VzGL2kuiKKY8XIRTelKrOggDnqie4N58s8=</HostId></Error>
+0
+
+
+
+
+https://widgets.flickr.com:443

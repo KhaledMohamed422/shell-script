@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: watchdog-live-iso-09.verygoodsecurity.io:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:57:30 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

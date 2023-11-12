@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: deploy.internal.fin.ag
+User-Agent: Mozilla/5.0 (Linux; Android 9; ASUS_X00TD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Security-Policy: default-src 'none'; connect-src https://octopus.com https://telemetry.octopus.com 'self'; font-src data: 'self'; img-src data: https://www.gravatar.com 'self'; script-src eval: inline: https://extensions.octopus.com https://octopus.com 'self' 'unsafe-eval' 'unsafe-inline'; style-src inline: 'self' 'unsafe-inline'; worker-src 'self'; block-all-mixed-content; sandbox allow-same-origin allow-scripts allow-forms allow-popups allow-modals allow-downloads; media-src 'self';
+Content-Security-Policy-Report-Only: default-src 'none'; connect-src https://octopus.com https://telemetry.octopus.com 'self'; font-src data: 'self'; img-src data: https://www.gravatar.com 'self'; script-src https://extensions.octopus.com https://octopus.com 'nonce-hR8PqQHn3L1VP6wUFU6tcrGtl7ERs5ufZtYWNwnfRxE=' 'self'; style-src inline: 'self' 'unsafe-inline'; worker-src 'self'; block-all-mixed-content; media-src 'self';
+Date: Tue, 07 Nov 2023 22:47:52 GMT
+Location: https://deploy.internal.fin.ag/
+Octopus-Node: name=OCTOPUS-DEPLOY; version=2023.2.13239
+Referrer-Policy: no-referrer
+Server: Octopus Deploy/ Microsoft-HTTPAPI/2.0
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Robots-Tag: noindex, nofollow
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://deploy.internal.fin.ag:80

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: upload.devsf3.bitmex.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.151 Whale/3.14.134.62 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:07:34 GMT
+Server: nginx
+Vgs-Request-Id: b61d1ce7bb494137b209e6b01d495c9b
+Via: 1.1 reverse-http-proxy-69744fc8dc-5d7ct
+X-Envoy-Upstream-Service-Time: 4
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: b61d1ce7bb494137b209e6b01d495c9b.
+
+
+https://upload.devsf3.bitmex.com:443

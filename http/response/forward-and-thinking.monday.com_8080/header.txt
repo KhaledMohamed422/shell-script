@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: forward-and-thinking.monday.com:8080
+User-Agent: Mozilla/5.0 (SymbianOS/9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822c929cbb9c21b1-DUS
+Date: Wed, 08 Nov 2023 08:51:11 GMT
+Expires: Wed, 08 Nov 2023 09:51:11 GMT
+Location: https://forward-and-thinking.monday.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=0zHB6fVUhpYHe0MlXyG0u2EQayeO9PF_Ng482vnJAD8-1699433471-0-AXVN3b00y2Tc/WMVYI8/L4vY9cg7Ev/hMt9j32+pB5Uv03i7ngE4oMtUHXI/ae266pQyc8xyodNTwhJwwNllgj6zfnRZ9wWfW2XDVtnBnAA5; path=/; expires=Wed, 08-Nov-23 09:21:11 GMT; domain=.monday.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://forward-and-thinking.monday.com:8080

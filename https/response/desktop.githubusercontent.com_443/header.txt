@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: desktop.githubusercontent.com
+User-Agent: Mozilla/5.0 (PLAYSTATION 3; 1.10)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Value for one of the query parameters specified in the request URI is invalid.
+Connection: close
+Content-Length: 351
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: x-ms-request-id,Content-Length,Date,Transfer-Encoding
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:27:27 GMT
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Ms-Request-Id: c946ea16-401e-000a-03eb-110e86000000
+X-Served-By: cache-fra-eddf8230134-FRA
+X-Timer: S1699410447.663830,VS0,VE352
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>InvalidQueryParameterValue</Code><Message>Value for one of the query parameters specified in the request URI is invalid.
+RequestId:c946ea16-401e-000a-03eb-110e86000000
+Time:2023-11-08T02:27:26.9714225Z</Message><QueryParameterName>comp</QueryParameterName><QueryParameterValue /><Reason /></Error>
+
+
+https://desktop.githubusercontent.com:443

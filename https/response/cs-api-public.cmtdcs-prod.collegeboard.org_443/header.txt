@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cs-api-public.cmtdcs-prod.collegeboard.org
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:46.0) Gecko/20100101 Firefox/46.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822747659e87caed-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:26:02 GMT
+Server: cloudflare
+Via: 1.1 29d33c5cd70a6501fde7bc2dba557906.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCbuoHGIoAMEARw=
+X-Amz-Cf-Id: 7b8W_CqAIfa7uX-WRi0TrWB5llON3MkH-Th46dyiRB_qRL6blzT9jw==
+X-Amz-Cf-Pop: FRA56-C1
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 345bbc80-35ed-4577-992a-78089cbe14bc
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://cs-api-public.cmtdcs-prod.collegeboard.org:443

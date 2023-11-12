@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: staging-app.271494016007.hellopublic.com
+User-Agent: Mozilla/5.0 Slackware/13.37 (X11; U; Linux x86_64; en-US) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.41
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials,Access-Control-Allow-Methods,Access-Control-Allow-Headers
+Cache-Control: no-cache
+Content-Security-Policy: default-src *.hellopublic.com public.com; img-src * data: blob: 'unsafe-inline' ; script-src 'unsafe-eval' 'self' 'unsafe-inline' public.com *.googleapis.com  *.public.com https://maxcdn.bootstrapcdn.com  https://static.userback.io  https://cdn.segment.com https://cdnjs.cloudflare.com widget.intercom.io js.intercomcdn.com *.tvsquared.com *.twitter.com www.google-analytics.com connect.facebook.net *.ads-twitter.com hellopublic.wpengine.com sc-static.net wl3olebc.6v5f3l.com static.ads-twitter.com ssfw.ibllc.net cdn.plaid.com api-js.mixpanel.com cdn.mxpnl.com api-js.mixpanel.com *.googletagmanager.com *.googleadservices.com js.stripe.com js.appboycdn.com app.termly.io ;style-src 'self' 'unsafe-inline' public.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com/bootstrap/ https://static.userback.io/ *.googleapis.com *.googletagmanager.com ;object-src https://universal.hellopublic.com ;font-src 'self' data: *.fontawesome.com *.gstatic.com public.com https://maxcdn.bootstrapcdn.com js.intercomcdn.com assets.quadpay.com at.alicdn.com fonts.googleapis.com netdna.bootstrapcdn.com s3.amazonaws.com www.slant.com static3.avast.com www.slant.co github.com cdn.megabonus.com d3s8xk3etjyeyz.cloudfront.net cdn.faceworks.nl themes.googleusercontent.com static.userback.io ;connect-src wss://*.hellopublic.com *.hellopublic.com wss://nexus-websocket-a.intercom.io *.matadorapp.com api.userback.io www.google.com *.google-analytics.com analytics.google.com tagmanager.google.com googleads.g.doubleclick.net fonts.googleapis.com cdn.segment.com *.segment.io *.braintree-api.com *.braintree-api.com app.adjust.com gdpr.adjust.com app.adjust.world app.adjust.net.in *.smartystreets.com userback.s3.ap-southeast-2.amazonaws.com *.intercom.io api.giphy.com app.adjust.net.in app.adjust.world pingback.giphy.com public-prod-154310543964.s3.amazonaws.com public.com stats.g.doubleclick.net subwayblaze.com tr.snapchat.com us-street.api.smartystreets.com www.facebook.com www.google-analytics.com *.googletagmanager.com subwayblaze.com stats.g.doubleclick.net api.smartblocker.org translate.googleapis.com new229.com localhost:49506 *.ucweb.com m59.prod2016.com public-staging-018019535749.s3.amazonaws.com api.adfreevision.com cdncache-a.akamaihd.net meetlookup.com 1637314617.rsc.cdn77.org api.vkanalytics.net maps.googleapis.com api-js.mixpanel.com sdk.iad-06.braze.com *.launchdarkly.com report.pi.gbqofs.io *.agora.io *.sd-rtn.com wss://*.agora.io wss://*.sd-rtn.com wss://*.agora.io:* wss://*.sd-rtn.com:* home.treasury.gov app.termly.io ;frame-src blob: public.com https://intercom-sheets.com https://universal.hellopublic.com *.snapchat.com www.facebook.com mozbar.moz.com *.snapshot.com cdncache-a.akamaihd.net	cdn.plaid.com cdn.segment.com api.segment.io www.youtube.com www.googletagmanager.com d31b6i309j1ui2.cloudfront.net js.stripe.com web.getfront.com sandbox-web.getfront.com sandbox-web.getfront.com:443 ;media-src blob: data: *.hellopublic.com *.public.com public.com public-staging-018019535749.s3.amazonaws.com public-prod-154310543964.s3.amazonaws.com files.quartr.com ;worker-src 'self' js.appboycdn.com ;script-src-elem 'self' 'unsafe-inline' *.hellopublic.com public.com widget.intercom.io maps.googleapis.com static.userback.io cdn.segment.com *.google-analytics.com connect.facebook.net *.tvsquared.com *.twitter.com *.ads-twitter.com cdnjs.cloudflare.com translate.googleapis.com cdn.mathjax.org translate.google.com sc-static.net static.userback.io js.intercomcdn.com cdn.plaid.com www.pagespeed-mod.com *.ucweb.com cdn.mxpnl.com *.googletagmanager.com *.googleadservices.com googleads.g.doubleclick.net cdn.gbqofs.com www.googleoptimize.com snap.licdn.com bat.bing.com js.stripe.com js.appboycdn.com app.termly.io ;report-uri https://1qcj9rqpql.execute-api.us-east-1.amazonaws.com/prod/report
+Date: Wed, 08 Nov 2023 02:30:36 GMT
+Location: /portfolio
+Referrer-Policy: same-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Via: 1.1 41fcd719412f2befdcf66654c7db4572.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iiGP26OMopbk5NnJJypUl-1mRscFBoUZvaPia9BGb3_3HbMx4sAZ-Q==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: Express
+X-Xss-Protection: 1; mode=block
+
+a
+/portfolio
+0
+
+
+
+
+https://staging-app.271494016007.hellopublic.com:443

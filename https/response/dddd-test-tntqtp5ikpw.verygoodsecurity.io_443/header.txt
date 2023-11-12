@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: dddd-test-tntqtp5ikpw.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC6-01/011.010; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.2 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:57 GMT
+Server: nginx
+Vgs-Request-Id: 60aa9859b6df319d01727d27339dfb34
+Via: 1.1 reverse-http-proxy-699d868cb5-shr68
+X-Envoy-Upstream-Service-Time: 73
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 60aa9859b6df319d01727d27339dfb34.
+
+
+https://dddd-test-tntqtp5ikpw.verygoodsecurity.io:443

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: customersupport-aux.earlywarning.com
+User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS) (compatible; Googlebot-Mobile/2.1;  http://www.google.com/bot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Server: BigIP
+Set-Cookie: LastMRH_Session=d1e0b2fe;path=/;secure
+Set-Cookie: MRHSession=724dbed4afe630f4661d0efbd1e0b2fe;path=/;secure
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure
+Content-Length: 0
+
+
+
+
+https://customersupport-aux.earlywarning.com:443

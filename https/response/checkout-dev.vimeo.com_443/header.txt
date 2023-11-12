@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: checkout-dev.vimeo.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:47:02 GMT
+Server: AmazonS3
+Via: 1.1 49140b838a62cd29e30f20e39a82dad0.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: mmy2URBrm2VCtQo-lSxdTnRQBJCUIb039k1PA474nQGD04f9NsYSyQ==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>J0G7Z93EZMBH9ZYP</RequestId><HostId>gq0SPCBxe7NQf1hospFaVpEFpfgWVRjQ54T1nY0pxDWOPpTYL392RxpbFVIzWHRR/7MVYl3n3fc=</HostId></Error>
+0
+
+
+
+
+https://checkout-dev.vimeo.com:443

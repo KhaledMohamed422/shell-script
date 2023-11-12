@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: dev.garenanow.com
+User-Agent: Mozilla/3.0 (compatible; NetPositive/2.1.1; BeOS)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Cache-Control: private, max-age=0
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:08:43 GMT
+Expires: Tue, 07 Nov 2023 19:08:43 GMT
+Location: http://sites.google.com/a/garena.com/sites/system/errors/ProxiedWebspaceNotFound?host=dev.garenanow.com&webspace=dev
+Server: GSE
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

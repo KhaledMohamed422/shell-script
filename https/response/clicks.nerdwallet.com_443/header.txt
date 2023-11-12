@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: clicks.nerdwallet.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; LM-V500N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227813a89077a3c-DUS
+Content-Security-Policy: base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub46dd5cf52153d917fc1d5e91ff3a600d&dd-evp-origin=content-security-policy&ddsource=csp-report; frame-ancestors 'self' https://links.iterable.com; object-src 'none'; worker-src 'self' blob:; script-src 'report-sample' 'unsafe-eval' 'unsafe-inline' 'strict-dynamic' https: 'nonce-f0jjDfzys//pmLlq8mRBDQ=='
+Date: Tue, 07 Nov 2023 18:05:30 GMT
+Location: https://nerdwallet.com
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Request-Time: 2
+Server: cloudflare
+Set-Cookie: XSRF-TOKEN=31151b24272330916365ec02d374ed8512959559-1699380330758-df35dc5178916dd09dd9184f; SameSite=Lax; Path=/
+Set-Cookie: __cf_bm=u18K95VmiKPW6dO6Z_ZwnjhPEg.dw2NRQV0qd1H1ts0-1699380330-0-AWigdPKLXJjgGDHIB2aJZCDkiZYd/xpBswR7blca4CwY8tA3cEZhoGV7HyxmYbvCOI+HkN3TQSwBEzE0ldiK+jhVInuwyPMhcxTrznkZkLBz; path=/; expires=Tue, 07-Nov-23 18:35:30 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://clicks.nerdwallet.com:443

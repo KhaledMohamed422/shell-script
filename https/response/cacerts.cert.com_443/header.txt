@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: cacerts.cert.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5355d Safari/8536.25
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+

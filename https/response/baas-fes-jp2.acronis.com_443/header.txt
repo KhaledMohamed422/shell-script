@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: baas-fes-jp2.acronis.com
+User-Agent: Konqueror/3.0-rc4; (Konqueror/3.0-rc4; i686 Linux;;datecode)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:12:24 GMT
+Server: nginx
+X-Amz-Err-Code: NoSuchBucket
+X-Amz-Err-Message: The specified bucket does not exist
+X-Amz-Req-Time-Micros: 1322
+X-Amz-Request-Id: 80000000000000160004b505bd1b4ee5
+
+84
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message></Error>
+0
+
+
+
+
+https://baas-fes-jp2.acronis.com:443

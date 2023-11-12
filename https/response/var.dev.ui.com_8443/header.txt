@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: var.dev.ui.com:8443
+User-Agent: Links (2.3pre1; Linux 2.6.38-8-generic x86_64; 170x48)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:08:53 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=149816523707-2s6nsppatsvvnb4fslquf3ur42206frm.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fvar.dev.ui.com%3A8443%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=aJ7r12gs30RJgL2KgpVfrT7nUn58CHuVt4sE9xdd5KyaC9jtw8JtYzoDdBwlUJfiOlyTIoon%2FvQOv%2F%2BX%2FQTflcdRz2m5u836cbIhHxz27BLaVqP2UrSVk8jNY0dBCmqlg2OKpiMwR7Nt2IvifVpZIlq8KIXqBP4Yq399kh%2BO1YfUkEaricSeag8cegOIy3DKSgR0O%2Fdy37DQgZqz1RbIU38nzivFtLebUaxJu75FCmFVX7Bz3w%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=o61ed07zQIWp3dzQ; Expires=Wed, 08 Nov 2023 05:23:53 GMT; Path=/; Secure; HttpOnly
+

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: public-assets.typeform.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; Redmi Note 5 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:26:59 GMT
+Server: AmazonS3
+Via: 1.1 0df834b214e5d5be3767a579b1941edc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IlOLNUaDZdyb5GpSXKGPhV-ONazEA4Z8d-JGn5LRuloS9HHckQoKXQ==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>GX26SM1DKNM7CKXG</RequestId><HostId>gQWxyR4cyvgG9+auCWxqCFclRuK+/NCW0fW0YYHHq9oicKiegg+H7lSJ9BTUO33sC+K12WVZORGC4w61n6YH9RiueTgqF4LQOlKtnzKSrtU=</HostId></Error>
+0
+
+
+
+
+https://public-assets.typeform.com:443

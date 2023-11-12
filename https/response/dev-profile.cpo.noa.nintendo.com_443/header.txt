@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: dev-profile.cpo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; LGL84VL Build/NRD90U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:29:05 GMT
+Via: 1.1 21c2c1b3872c539a34b64bcf45f4054c.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OGAsUHxBoAMEuRg=
+X-Amz-Cf-Id: _eF87q42Jgqm4dhDe1Dcrc6xJL9jeJL1ASL2xqdyRdXh33vX18oQEg==
+X-Amz-Cf-Pop: FRA56-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 32ea7ed3-bdc6-4478-9201-c7d2ab710263
+X-Cache: Error from cloudfront
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://dev-profile.cpo.noa.nintendo.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.uat05.marriott.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 275
+Akamai-Grn: 0.65161102.1699378247.7c92170
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:48 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:48 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699378247981_34674277_130621808_17_14469_3_9_-";dur=1
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Www-Authenticate: Basic realm="Secure Area"
+

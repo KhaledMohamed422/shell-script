@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: degame.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 11; zh-CN; M2012K11AC Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.4.8.200 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 276
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 09:49:40 GMT
+Server: AliyunOSS
+X-Oss-Request-Id: FFFFFFFFFFFFFFFFFFFFFFFF
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Please contact the server administrator, oss@service.aliyun.com</Message>
+  <RequestId>FFFFFFFFFFFFFFFFFFFFFFFF</RequestId>
+  <HostId>degame.cn-hangzhou.oss.aliyun-inc.com</HostId>
+</Error>
+
+
+
+https://degame.cn-hangzhou.oss.aliyun-inc.com:443

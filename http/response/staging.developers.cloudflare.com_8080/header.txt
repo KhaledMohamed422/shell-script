@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: staging.developers.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 11; RMX1921) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.58 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e31e69b21537-DUS
+Date: Tue, 07 Nov 2023 19:12:20 GMT
+Expires: Tue, 07 Nov 2023 20:12:20 GMT
+Location: https://staging.developers.cloudflare.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=OjXc6KaMFQLESCXQoywPIYTOG2xfAUp7RkFgumNfKT8-1699384340-0-AZh7lHSfwXLzwpwMpBPf0ujDJL8OIA4i53ZmrO6NQYfDgCj/Xygy1FsEAMli8palxMiB7L8OaeGdBUnkSn1C6ds=; path=/; expires=Tue, 07-Nov-23 19:42:20 GMT; domain=.developers.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://staging.developers.cloudflare.com:8080

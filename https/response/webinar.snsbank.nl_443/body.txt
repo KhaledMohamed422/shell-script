@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webinar SNSBANK</title>
+    <style>
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 1280px;
+  height: 720px;
+  border: 0;
+}
+    </style>
+</head>
+<body style="background: #562772;">
+
+    <div class="container">
+       <iframe class="responsive-iframe" id="comweb" src="" webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen allowfullscreen></iframe>
+    </div>
+
+<script>
+    const queryString = window.location.search;
+    document.getElementById("comweb").src =
+              "https://sdk.companywebcast.com/sdk/player/"+ (queryString);
+</script>
+
+</body>
+</html>
+
+
+
+
+https://webinar.snsbank.nl:443

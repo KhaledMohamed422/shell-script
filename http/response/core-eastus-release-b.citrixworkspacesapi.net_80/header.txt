@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: core-eastus-release-b.citrixworkspacesapi.net
+User-Agent: Mozilla/5.0 (Linux; Android 11; BL5000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:46:02 GMT
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+http://core-eastus-release-b.citrixworkspacesapi.net:80

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: internal.bitgo-test.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-us) AppleWebKit/528.5  (KHTML, like Gecko, Safari/528.5 ) lt-GtkLauncher
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb10fc617178-DUS
+Date: Tue, 07 Nov 2023 18:55:55 GMT
+Expires: Tue, 07 Nov 2023 19:55:55 GMT
+Location: https://internal.bitgo-test.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://internal.bitgo-test.com:8080

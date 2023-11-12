@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: cf-nm.reddit.com
+User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 929) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:20:56 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf467km6i.2.1699388455897.Z0FBQUFBQmxTcHdvV1B5cmh6cDJpNXNYS0lPSExSTldFd252MnFKUVBtdnEyeFBucDlwQkFtRVlVMjdmaHFpY3pybExwVkxHUHZGdzY2UjZRbDlhQWxWUzNNVS15WktCZko0dmtEc1ZqMXlXeFZrN2VmN3pqNzVoeFhGb1lxVnZIVTNfSng1anJmcHM; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:20:56 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=djkdqfkfmpprkhekkn.0.1699388455901.Z0FBQUFBQmxTcHdvazBvSE1oQmd1QW1SUFB0ZDM5cUtkUDNWNVVNS05MRDI2eEtqZDBvajd5UERKVy1yU18yUUt0S0VwX2F3VHVVM3ZXdVVldFMxV0NZcUxSZC1FWEdjOXlEWWdlOTVsSDkyeTBzNzNOQlFiZm9HalZUclY3Ykd3QWdsa3FubjJfUUM; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:20:56 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=h9k20IREnjlxiQuzGW; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

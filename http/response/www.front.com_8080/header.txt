@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www.front.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822780255bed9b86-FRA
+Date: Tue, 07 Nov 2023 18:04:46 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://front.com
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://www.front.com:8080

@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: ninjapanel.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e99f8af4716c-DUS
+Date: Tue, 07 Nov 2023 19:16:46 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://auth.cloudflare.com/cdn-cgi/access/login/ninjapanel.cloudflare.com?kid=7785730579a23e934d72037ec92da4713e4d70b49b9098c7611cce7bf7982089&redirect_url=%2F&meta=eyJraWQiOiI3NjllMWUyZWRhNDA0MTNmZTAzYTkyMTg3NmM0ODAwMjMxNWVjMzZhYmU4ZDgyOTI1NTkzOWYyYTAzOGQ2YWZmIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTM4NDYwNiwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6Ijc3ODU3MzA1NzlhMjNlOTM0ZDcyMDM3ZWM5MmRhNDcxM2U0ZDcwYjQ5YjkwOThjNzYxMWNjZTdiZjc5ODIwODkiLCJob3N0bmFtZSI6Im5pbmphcGFuZWwuY2xvdWRmbGFyZS5jb20iLCJhcHBfc2Vzc2lvbl9oYXNoIjoiYTA5N2I2NWExNjI2ZmJlNWExOWIwN2RlZjQwZDQ5ZTFiNDE2MjE2NjM0ZmQ5NmIxZmM4ZjFhODRiMmJjNjUwYiIsIm5iZiI6MTY5OTM4NDYwNiwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJ0eXBlIjoibWV0YSIsInJlZGlyZWN0X3VybCI6IlwvIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9kbiI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJhdXRoX3N0YXR1cyI6Ik5PTkUifQ.ehuUjq8H7J9YYIulwJNv3BF-3wi0FNoo4ThdsHgUSraoJ21ybT3zw36XIaM51g_tqSI5HHu_pBXk8eJ_w-rYo16fy5GdFyrxIBt-gUd4_zDtK4tUv9Vkh1P6wNCjOvY_nyMo4vJBHutcxYQAGTMy-Lwb-W_BTaRZssI9yoS5vt2tATZzj8jSm_o0cbX4a9By6vabmHuUs_4m3s_teCgGoxhOATuaM2f8w-7bkbDJjNShLSEYutWQrZ5Fe7GHc_p5cxaBpq7CJOdNfdLFHLkIodalnIN_PeBR1yDsQoC4qoE4AIES6wA3htK5nDrSJfYLRBb0FeLHkOs9rUlWtXGthg
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lrb1RTDbs5J6xGHx9x7JhIaLhLkmo98Fo3qchrjwgb6ki%2Fn71v0ZWt%2Fy%2F5BUHjOWf76siLxYtE36yFugPvIKyV1K%2B7gjyVMxYl2n07ft0qsTrmo89%2B6zwYqyWZcdKzS4sR1f9ajVEvZLiyMjIXxfsA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: CF_AppSession=n9d04b4d9ddd5b60f; Expires=Wed, 08 Nov 2023 19:16:46 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: __cf_bm=dXNJX6y5OmfqzZgES.4JztbhY27AuewR83.GYswXQ8Y-1699384606-0-ATBYlTtFo/UYarzMsGn48C+PAijVR0KfydRUWz3L6psxzxvtQvrpwdm5EDV59AlAF7KNRWKv5U6CvDWICYey+lg=; path=/; expires=Tue, 07-Nov-23 19:46:46 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://ninjapanel.cloudflare.com:8443

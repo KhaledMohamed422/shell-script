@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cbjpeg.stream.highwebmedia.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Origin: *
+Cache-Tag: cbjpeg
+Content-Security-Policy: default-src 'none'; img-src data:; style-src 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:27:19 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Server-Name: CB Jpeg Server
+X-Xss-Protection: 1; mode=block
+
+50

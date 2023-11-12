@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: old.account.krisp.ai:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273cb7ca102169-DUS
+Date: Tue, 07 Nov 2023 17:18:44 GMT
+Expires: Tue, 07 Nov 2023 18:18:44 GMT
+Location: https://old.account.krisp.ai/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://old.account.krisp.ai:8080

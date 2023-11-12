@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Title</title>
+    <style>
+        @font-face {
+            font-family: 'ProximaNovaBold';
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+            src: url('assets/fonts/Proxima-Nova-Bold.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'ProximaNovaRegular';
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+            src: url('assets/fonts/Proxima-Nova-Regular.otf') format('opentype');
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background: #0E0F15;
+        }
+
+        p, ul {
+            margin: 0;
+            line-height: 125%;
+        }
+
+        header {
+            height: 80px;
+            width: 100%;
+        }
+
+        header img {
+            margin: 40px 0 0 32px;
+        }
+
+        main {
+            background: #fff;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            font-size: 20px;
+            padding-top: 76px;
+            font-weight: 400;
+            font-family: ProximaNovaRegular, sans-serif;
+            text-align: center;
+            height: calc(100vh - 80px);
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        h1 {
+            margin: 27px 0;
+            color: rgba(31, 55, 91, 1);
+            font-family: ProximaNovaBold, sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 125%;
+        }
+
+        main > p {
+            width: 705px;
+            margin-top: 63px;
+        }
+
+        main div {
+            font-size: 20px;
+            width: 705px;
+            height: 125px;
+            margin-bottom: 55px;
+        }
+
+        main a {
+            color: rgba(19, 129, 224, 1);
+            text-decoration: none;
+            font-family: ProximaNovaBold, sans-serif;
+        }
+
+        main span {
+            font-family: ProximaNovaBold, sans-serif;
+        }
+
+        main div p:nth-child(2) {
+            margin-top: 27px;
+        }
+
+        button {
+            font-family: ProximaNovaRegular, sans-serif;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            width: 264px;
+            height: 44px;
+            border-radius: 4px;
+            background: linear-gradient(180deg, #32B964 0%, #189F4A 100%);
+            border: none;
+            margin: 30px 0px 30px 0px;
+        }
+
+        @media screen and (max-width: 500px) and (max-height: 920px) {
+            header {
+                height: 55px;
+            }
+
+            header img {
+                margin: 20px 0 10px 10px;
+            }
+
+            main {
+                height: calc(100vh - 50px);
+                padding: 0;
+            }
+
+            main h1 {
+                margin: 80px 0 12px;
+                font-size: 18px;
+            }
+
+            .container {
+                width: 264px;
+                font-size: 16px;
+                height: 140px;
+                margin-bottom: 45px;
+            }
+
+            button {
+                font-size: 16px;
+                margin: 25px 0px 25px 0px;
+            }
+
+            main p {
+                width: 264px;
+                font-size: 16px;
+            }
+
+            main p:last-child {
+                margin-top: 15px;
+            }
+        }
+
+
+
+        @media screen and (max-height: 420px) and (orientation: landscape) {
+
+            header {
+                height: 50px;
+            }
+
+            header img {
+                margin: 15px 0 0 15px;
+            }
+
+            main {
+                height: calc(100vh + 25px);
+                padding-top: 0;
+            }
+
+            main div {
+                margin-bottom: 25px;
+                height: 113px;
+                width: 625px;
+            }
+
+            h1 {
+                margin: 15px 0;
+            }
+
+            main div p:nth-child(2) {
+                margin-top: 20px;
+            }
+
+            main > p {
+                margin-top: 20px;
+                width: 625px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="./assets/images/Stardust.svg" alt="stardust logo">
+</header>
+<main>
+    <h1>Download the new Stardust App!</h1>
+    <div class="container">
+        <p>Continue playing at Stardust Casino by <a onclick="redirectToStore()", target="_blank">downloading from the app store.</a></p>
+        <p>Tap the green button to <a onclick="redirectToStore()", target="_blank">download the new Stardust app from the app store.</a></p>
+        <button onclick="redirectToStore()", target="_blank">Download new Stardust app</button>
+        <p>Want to withdraw your balance from Stardust? We offer <a href="https://account.pa.stardustcasino.com/withdrawals" target="_blank">Online Banking, checks, and Cash at Counter!</a></p>
+        <p>You can also use your Stardust login credentials and playable balance in <a href="https://fanduel.page.link/fanduel" target="_blank">FanDuel Casino.</a></p>
+    </div>
+</main>
+</body>
+<script>
+    function redirectToStore() {
+        let userAgent = navigator.userAgent || navigator.vendor || window.chrome;
+        if (userAgent.match(/Android/i)) {
+            window.location.href = "https://play.google.com/store/apps/details?id=com.boydgaming.stardustcasino&hl=en_US&gl=US";
+        } else {
+            window.location.href = "https://apps.apple.com/us/app/stardust-online-casino/id1658649113";
+        }
+    }
+</script>
+</html>
+
+
+https://sunset-stardust-pa.casino.fanduel.com:443

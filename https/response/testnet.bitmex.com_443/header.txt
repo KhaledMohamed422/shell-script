@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: testnet.bitmex.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82278425b8636a88-DUS
+Content-Security-Policy: default-src 'self';        connect-src 'self' https://images.ctfassets.net https://cdn.analytics.bitmex.com https://static.zdassets.com https://ekr.zdassets.com https://bitmex.zendesk.com https://bitmex15121659339916.zendesk.com https://api.smooch.io wss://api.smooch.io https://api.analytics.bitmex.com https://o1146016.ingest.sentry.io;        script-src 'self' https://sentry.devsf.bitmex https://cdn.analytics.bitmex.com https://static.zdassets.com https://ekr.zdassets.com https://bitmex.zendesk.com https://bitmex15121659339916.zendesk.com https://api.smooch.io wss://api.smooch.io 'unsafe-eval' 'sha256-APiG0yUKOQw2LDH9HasopFfaktEy5JpbZB3OTpqesXs=' 'sha256-FyJ2UMkSxMkMraC77zas8hAt1B97mWYCCtnmEGwDuHI='        'sha256-2JbdNNJ5ZvUubGqE5zCYYAqMrVCmD5dV2RXyt1QbONM='         'nonce-kIvhoa9uTkIlMqtt';        style-src 'self' 'unsafe-inline';        child-src 'self' blob:;        img-src 'self' https://secure.adnxs.com https://insight.adsrvr.org https://sp.analytics.yahoo.com https://delivery.adnuntius.com https://ww2.affinity.net https://www.facebook.com https://q.quora.com https://tr.outbrain.com https://dsp-ap.eskimi.com data: blob: *;        media-src 'self' blob:;        object-src 'none';        font-src 'self';        form-action 'self';        frame-ancestors 'self';        block-all-mixed-content;        report-uri https://o1146016.ingest.sentry.io;        frame-src 'self' https://www.youtube.com https://bitmex.freshdesk.com/ https://player.vimeo.com/ blob:;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:30 GMT
+Server: cloudflare
+Set-Cookie: AWSALBTG=JVdjwcsxPv1lGPHz7D6DzMu0HK3QceN7UtVLjSxvGNyYgTIvJ/XNLWyAVEMFCMvgW3lmajmvqZEoAadUdNUDHFVIAzM2AtrKbaABZXB+6tvgFu8AEeYltMJKGtan4yx/9FS7o1roUYQdOXLN4pox7FQrbLsz6jyKnuFXDEI+V5GW; Expires=Tue, 14 Nov 2023 18:07:30 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=JVdjwcsxPv1lGPHz7D6DzMu0HK3QceN7UtVLjSxvGNyYgTIvJ/XNLWyAVEMFCMvgW3lmajmvqZEoAadUdNUDHFVIAzM2AtrKbaABZXB+6tvgFu8AEeYltMJKGtan4yx/9FS7o1roUYQdOXLN4pox7FQrbLsz6jyKnuFXDEI+V5GW; Expires=Tue, 14 Nov 2023 18:07:30 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: __cf_bm=FDFLBXFEorf_7ZlCi1nRQhgN64kRZu6gbrMcd_Kmnm4-1699380450-0-AQqXKpFhIL72UclplYbozCD5qUA/q2nRX8hFP0Eys6BFqdU6SQDhalIaLQUBV+RADRW3WeyGbLy24k0ZbxRLp4c=; path=/; expires=Tue, 07-Nov-23 18:37:30 GMT; domain=.bitmex.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Powered-By: Next.js
+
+6880d

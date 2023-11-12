@@ -1,0 +1,46 @@
+GET / HTTP/1.1
+Host: shop.turo.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822783ed9b547a48-DUS
+Content-Language: en
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:21 GMT
+Etag: "cacheable:7f8eb052b3d0b72d2212cbea9ae9d8fa"
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin, <//shop.turo.com/cdn/shop/t/9/assets/pagefly-main.css?v=162049930573493185581686047576>; as="style"; rel="preload", <//shop.turo.com/cdn/shop/files/Filled_4x_5fb603d2-c12c-473c-8be2-88d1abde0f58.png?v=1683298098&width=600>; as="image"; rel="preload"; imagesrcset="//shop.turo.com/cdn/shop/files/Filled_4x_5fb603d2-c12c-473c-8be2-88d1abde0f58.png?v=1683298098&width=90 90w, //shop.turo.com/cdn/shop/files/Filled_4x_5fb603d2-c12c-473c-8be2-88d1abde0f58.png?v=1683298098&width=135 135w, //shop.turo.com/cdn/shop/files/Filled_4x_5fb603d2-c12c-473c-8be2-88d1abde0f58.png?v=1683298098&width=180 180w"; imagesizes="(max-width: 180px) 50vw, 90px"
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xFwtRfEzt%2F6dDLYcePZICdEmlr18OiAhUH46BTR%2FR2RpXgowNsCiE0xTahcYKzoVop32fO2yCVYryxv4za5MmufzQQUn0Sy5ie9S1l7aziQ2cAl%2FGUWD1NWcJ8k7FE0%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=14, db;dur=4, asn;desc="51167", edge;desc="DUS", country;desc="DE", theme;desc="132532699309", pageType;desc="index", servedBy;desc="6nvg", requestID;desc="9d50241a-89e5-43c9-b769-642e89cac989"
+Server-Timing: cfRequestDuration;dur=47.999859
+Set-Cookie: secure_customer_sig=; path=/; expires=Thu, 07 Nov 2024 18:07:21 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=US; path=/; expires=Thu, 07 Nov 2024 18:07:21 GMT
+Set-Cookie: cart_currency=USD; path=/; expires=Tue, 21 Nov 2023 18:07:21 GMT
+Set-Cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Afalse%2C%22p%22%3Afalse%2C%22m%22%3Afalse%2C%22t%22%3Afalse%7D%2C%22display_banner%22%3Atrue%2C%22merchant_geo%22%3A%22US%22%2C%22sale_of_data_region%22%3Afalse%7D; domain=turo.com; path=/; expires=Wed, 08 Nov 2023 18:07:21 GMT; SameSite=Lax
+Set-Cookie: _tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22s%22%3A%22%22%2C%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%2C%22lim%22%3A%5B%22GDPR_BLOCK_ALL%22%5D%2C%22v%22%3A%222.1%22%2C%22region%22%3A%22DENW%22%2C%22reg%22%3A%22GDPR%22%7D; Expires=Wed, 06-Nov-24 18:07:21 GMT; Domain=turo.com; Path=/; SameSite=Lax
+Strict-Transport-Security: max-age=7889238
+X-Cache: hit, server
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 9d50241a-89e5-43c9-b769-642e89cac989
+X-Shardid: 172
+X-Shopid: 13422531
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 172
+X-Sorting-Hat-Shopid: 13422531
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+24dd8

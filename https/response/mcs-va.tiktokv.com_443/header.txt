@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: mcs-va.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, OPTIONS, HEAD, PUT, POST
+Access-Control-Max-Age: 1800
+Content-Type: text/plain
+Cross-Origin-Resource-Policy: cross-origin
+Date: Wed, 08 Nov 2023 18:45:24 GMT
+Server: TLB
+Server-Timing: inner; dur=2
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=89
+X-Origin-Response-Time: 90,92.123.132.5
+X-Tt-Logid: 202311081845234AA047C736DF334FD2DF
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ae265ca0cb94c84df0af64653d116594252124c2d969b3e139a7dde14f2cf5fbec577e0e0f0e1274fcebf0d51444947de246672dcbfcabb11a1209eacac0ccbe2383bf60a720a512adc2806e2249fdf28
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+https://mcs-va.tiktokv.com:443

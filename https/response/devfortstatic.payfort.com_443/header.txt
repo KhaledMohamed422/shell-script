@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: devfortstatic.payfort.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:45.9) Gecko/20100101 Goanna/3.2 Firefox/45.9 PaleMoon/27.4.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:05:40 GMT
+Server: AmazonS3
+Via: 1.1 77c679d2765b514e835e71841df67db2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: 1FBTajEg3C_zkEhnLe4p7NRAwaNxCVe05mQ0kzN0kJjgsRDTXKUQmQ==
+X-Amz-Cf-Pop: LHR61-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6H2E3M0N16GB2HMB</RequestId><HostId>XQIekrf+fPAO2vEXVqFBtSlj4zecYIf6mKNvtJ0LqXej5FRksgJcVHab02MVI3oq7awbHH8/WQU=</HostId></Error>
+0
+
+
+
+
+https://devfortstatic.payfort.com:443

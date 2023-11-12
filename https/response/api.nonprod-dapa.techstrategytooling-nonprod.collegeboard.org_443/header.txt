@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: api.nonprod-dapa.techstrategytooling-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:04 GMT
+Via: 1.1 03d509e8374e9f42668961b5e0201348.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCbJeGM9oAMEUUQ=
+X-Amz-Cf-Id: fByk3gdK3UENm9cRE_yukBK26X3Y2nc1wdOTu7zimgfR0FNH1UWydw==
+X-Amz-Cf-Pop: FRA2-C2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ba6bf480-bc2f-4f94-be8d-a2feba81a0de
+X-Amzn-Trace-Id: Root=1-654a723c-1e61a1526b238aaf0c7aed60
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://api.nonprod-dapa.techstrategytooling-nonprod.collegeboard.org:443

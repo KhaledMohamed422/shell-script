@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: auth.nerdwallet.com:8443
+User-Agent: Links/0.9.1 (Linux 2.4.24; i386;)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 45
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822780fe1a05715c-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:21 GMT
+Location: https://nerdwallet.com/
+Ot-Baggage-Auth0-Request-Id: 822780fe9418715c
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 797b385e7f0c9a09
+Ot-Tracer-Traceid: 5458104a034e928b
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=9n_pJej2jcm3kE3TH.UCB8XZg0LdusvDKz9ROhPtv.o-1699380321-0-ARKeJ+bdGEOQKAeiXj/iHPVGrCf8/F083XS7TYJzm7BKjZEwdJqsV7opL2iRVLAdSLu9ubX0wFWfvJfwtjQKbhk1eK+plo3JOXLeHKINyg0Z; path=/; expires=Tue, 07-Nov-23 18:35:21 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-00000000000000005458104a034e928b-797b385e7f0c9a09-01
+Tracestate: auth0-request-id=822780fe9418715c,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: 761d64fab05b5aa18e18
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://nerdwallet.com/
+
+
+https://auth.nerdwallet.com:8443

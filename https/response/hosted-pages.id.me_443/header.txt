@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: hosted-pages.id.me
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 84
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:28:28 GMT
+Expires: Wed, 08 Nov 2023 02:28:28 GMT
+Location: https://api.id.me/
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=104
+Server-Timing: origin; dur=17
+Server-Timing: ak_p; desc="1699410507934_1752388111_706377140_12131_8921_0_2_-";dur=1
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Node: white-rhino-63.idmeinc.net
+X-Request-Id: 0e7df7fe-cdf4-40e1-99bf-e380c26c06f9
+X-Runtime: 0.002548
+

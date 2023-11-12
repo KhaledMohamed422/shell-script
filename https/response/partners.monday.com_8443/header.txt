@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: partners.monday.com:8443
+User-Agent: Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822d0f63e81bc4db-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 10:16:22 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4eiEwaOR8BcmUxzQk7tMDHXRQkwzuxjj0QzQHGJasqp1GLx5bSgkod1Mc4tajMPXiee59lWdd5G89lUV3XCSXxYprz3bbutn81%2BGun%2BTLdImMF2B%2F%2BENopOeLBJo8InsP5mWIAczftAcWg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+https://partners.monday.com:8443

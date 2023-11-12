@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: logs.rechargeapps.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 409 Conflict
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82273b9f5b357a55-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:17:59 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1001
+
+
+http://logs.rechargeapps.com:80

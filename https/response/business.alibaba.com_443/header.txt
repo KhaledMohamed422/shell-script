@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: business.alibaba.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:45:47 GMT
+Eagleid: 2101ee8d16994367471564965e35c8
+Location: https://www.alibaba.com/help/503.html
+Server: Tengine
+Server-Timing: rt;dur=0.006,eagleid;desc=2101ee8d16994367471564965e35c8
+Set-Cookie: ali_apache_id=33.1.238.141.1699436747158.528596.8; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: source3.magisto.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-M317F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:03:33 GMT
+Server: AmazonS3
+Via: 1.1 941049c97e511f86acc1525badae21c2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: 4TC9uuumLAditTZIb1WjZNY2VUJk3nIZLgA1khyXX89Bda8Koga-Rg==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>GZ5ZJR34RK4V9WGY</RequestId><HostId>s7xdMTwNHS7N3UudxkYtOotPmTaGLcMPANykrcen4s4AXZBzvm6fim5PVGNaLcOx2cfvg32vHDY=</HostId></Error>
+0
+
+
+
+
+https://source3.magisto.com:443

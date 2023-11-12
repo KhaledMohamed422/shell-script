@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.msgdev.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:33:55 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Client-Request-Id: 20eb4823-6150-4747-9df3-19f74c416a54
+X-Ms-Correlation-Id: d4d699da-1591-4c98-9867-5e0db266f4ee
+X-Ms-Server-Fqdn: AM42E00EDG13.infra.lync.com
+
+{"_links":{"self":{"href":"https://webdir2e.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=msgdev.wellsfargo.com"},"xframe":{"href":"https://webdir4a.online.lync.com/Autodiscover/AutodiscoverService.svc/root/xframe"},"redirect":{"href":"https://webdir4a.online.lync.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=msgdev.wellsfargo.com"}}}
+
+
+https://lyncdiscover.msgdev.wellsfargo.com:443

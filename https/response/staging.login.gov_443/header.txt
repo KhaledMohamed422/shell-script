@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: staging.login.gov
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:29:51 GMT
+Location: https://idp.staging.login.gov/
+Via: 1.1 f61953901038b0c4b4c82c311140f1b8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wywXlN0iE7bOBDtRBgmU48a3o5LoM2xwAOguNm15uYudlxCH1Y3_nw==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

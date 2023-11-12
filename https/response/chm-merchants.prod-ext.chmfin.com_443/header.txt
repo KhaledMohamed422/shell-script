@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: chm-merchants.prod-ext.chmfin.com
+User-Agent: Gaisbot/3.0 (robot@gais.cs.ccu.edu.tw; http://gais.cs.ccu.edu.tw/robot.php)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:21:12 GMT
+Server: AmazonS3
+Vary: Origin
+Via: 1.1 80779e7124f8d44ce2216c35ac5328a8.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: cqX3-1h3ZSCktHFbW8tH_SR4JrIic8nKVkP5mXU0iKPziMzBXOTTOQ==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>TV96XT38K43ABTMM</RequestId><HostId>p84GOpgqa9BtENgaIOw6DnRmJVUgswfhnIo7CIo4iWD70cevBVQO5sAclG6naZXpAurD0z26uCY=</HostId></Error>
+0
+
+
+
+
+https://chm-merchants.prod-ext.chmfin.com:443

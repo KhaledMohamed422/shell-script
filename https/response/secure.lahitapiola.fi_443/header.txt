@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: secure.lahitapiola.fi
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:2.0b6pre) Gecko/20100907 Firefox/4.0b6pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 30377
+Cache-Control: no-cache,no-store,must-revalidate
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline';
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:28:38 GMT
+Server: Apache
+Set-Cookie: TMP=1; path=/; secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Security-Policy: default-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline';
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

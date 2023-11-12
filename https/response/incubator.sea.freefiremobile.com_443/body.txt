@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=format-detection content="telephone=no"><title>[FF] Incubator 2.0</title><link rel="shortcut icon" href=https://freefiremobile-a.akamaihd.net/common/web_event/image_home/images/favicon.png><script>function loadStyle(url){var link=document.createElement("link");link.type="text/css";link.rel="stylesheet";link.href=url;var head=document.getElementsByTagName("head")[0];head.appendChild(link)}function getQueryVariable(variable){var query=window.location.search.substring(1);var vars=query.split("&");for(var i=0;i<vars.length;i++){var pair=vars[i].split("=");if(pair[0]==variable){return pair[1]}}return"default"};
+      function getRegionLang(){var region=getQueryVariable("region");var lang=getQueryVariable("lang");if(region==="TW"){if(lang==="ja"||lang==="jp"){return"TW_ja"}if(lang==="kr"||lang==="ko"){return"TW_ko"}return"TW"}if(region==="TH"){if(lang==="en"){return"TH_en"}return"TH"}if(region==="EU"){if(lang==="tr"){return"EUROPE_tr"}return"EUROPE_en"}var acceptRegion=[{region:"BR",lang:["pt"]},{region:"SAC",lang:["es"]},{region:"VN",lang:["vn"]},{region:"SG",lang:["en"]},{region:"RU",lang:["ru"]},{region:"IND",lang:["en"]},{region:"ME",lang:["ar","fr"]},{region:"TW",lang:["zh-tw","jp","kr"]},{region:"TH",lang:["th","en"]},{region:"US",lang:["en","es"]},{region:"ID",lang:["id"]},{region:"EU",lang:["en","tr"]}];var setRegion=null;for(var i in acceptRegion){if(acceptRegion[i].region==region){setRegion=acceptRegion[i];break}}if(!setRegion){return"default"}if(setRegion.lang.length===1){return setRegion.region}else{if(setRegion.lang.indexOf(lang)>-1){return region+"_"+lang}else{return region+"_"+setRegion.lang[0]}}};
+      loadStyle('/api/css?region=' + getQueryVariable("region")+'&lang='+getQueryVariable("lang"))</script><link href=static/css/app.3bd7c48bafb914fbbca349e01685383a.css rel=stylesheet></head><body class=weaponBg><div id=app></div><div class=wp_pop><div class=wp_content><div class=wp_pop_img></div><p class=wp_tips>Please rotate your phone for the best browsing experience</p></div></div><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.16953bb0e2c7100f647f.js></script><script type=text/javascript src=static/js/app.e6b763360f547c6f4b43.js></script></body><script>var analyticsId = 'UA-136757559-34'
+    var src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId
+    document.write('<script async src=\'' + src + '\'><\/script>')
+    window.dataLayer = window.dataLayer || []
+    function gtag () {
+        dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+    window.onload = function () {
+        document.addEventListener('touchstart', (event) => {
+            if (event.touches.length > 1) {
+                event.preventDefault()
+            }
+        }, {passive: false})
+
+        let lastTouchEnd = 0
+        document.addEventListener('touchend', (event) => {
+            const now = (new Date()).getTime()
+            if (now - lastTouchEnd <= 300) {
+                event.preventDefault()
+            }
+            lastTouchEnd = now
+        }, false)
+    }</script></html>
+
+
+https://incubator.sea.freefiremobile.com:443

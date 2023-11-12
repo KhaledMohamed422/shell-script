@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: myfunds.betfair.es:8443
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227cce1dfcdcaf1-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:09 GMT
+Expires: Tue, 07 Nov 2023 18:57:24 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=f5R47OJNgRt0kPF3rINRlSjN6vgSaTxlnVlY6MSiG%2B3hkuoy5wYrab079CLLY6P65Ly0NkJW2H%2Bd%2FqBBM3LZ0PVuR6wVO4JLBd3AEf0Ir8K7ooUfv3NQnQ4v%2B6igE0BuDYcYULOpyHEH"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=_un67uVOJvL5tN9DkWxfFi8o.er8LvHrZ_NXkdztUP8-1699383429-0-AfEH6LlcgCbnQNm0KUCH1X/G7ZUYA+eLrTaii/z8SU99UrS/lQqv6Dv2Ct8znTZ6tozDIP0WY8qDXK8fvHT1YZ0=; path=/; expires=Tue, 07-Nov-23 19:27:09 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

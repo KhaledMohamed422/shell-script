@@ -1,0 +1,1546 @@
+<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Fellowship for Intentional Community</title>
+
+  <meta name="title" content="Fellowship for Intentional Community">
+  <meta name="description" content="Cooperation is stronger than competition. We thrive when we work together. FIC is a non profit organization dedicated to helping people build happy, productive, sustainable communities!">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://fellowshipforintentionalcommunity.vhx.tv&format=json" title="Fellowship for Intentional Community" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://fellowshipforintentionalcommunity.vhx.tv&format=xml" title="Fellowship for Intentional Community" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://fellowshipforintentionalcommunity.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+  
+  .cf:before, .cf:after, 
+  .main-nav-list:before, .main-nav-list:after,
+  .gallery-images:before, .gallery-images:after,
+  .social-blocks:before, .social-blocks:after, 
+  .buy-package-options:before, .buy-package-options:after,
+  .section-container:before, .section-container:after,
+  .main-header:before, .main-header:after,
+  .buy-package-options > li:before, .buy-package-options > li:after,
+  .social-block-container:before, .social-block-container:after,
+  .laurels:before, .laurels:after {
+    content: " ";
+    display: table;
+  }
+  
+  .cf:after, 
+  .main-nav-list:after, 
+  .gallery-images:after, 
+  .social-blocks:after, 
+  .buy-package-options:after, 
+  .section-container:after, 
+  .main-header:after, 
+  .buy-package-options > li:after, 
+  .social-block-container:after, 
+  .laurels:after {
+    clear: both;
+  }
+  
+  .gallery-image-container, .social-block-container {
+    position: relative;
+    height: 0;
+  }
+  
+  .gallery-image, .social-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #666;
+  }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .main-nav-list, .gallery-images, .social-blocks, .footer-boilerplate-list, .buy-package-options {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .main-nav-list li, .gallery-images li, .social-blocks li, .footer-boilerplate-list li {
+    float: left;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .float-right {
+    float: right;
+  }
+  
+  .section-container {
+    width: 100%;
+    position: relative;
+  }
+  
+  /**
+   * Standard Styles
+   */
+  .section-title {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  @media only screen and (max-width: 480px) {
+    .section-title {
+    	margin-top: 40px;
+    }
+  }
+  
+  .main-header {
+    width: 100%;
+    background: #fff;
+    font-size: 110%;
+    line-height: 66px;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-header {
+      position: absolute;
+      top: -198px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .main-header {
+      font-size: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .main-header {
+      font-size: 80%;
+    }
+  }
+  
+  .page-nav {
+    width: 30%;
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    .page-nav {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .page-nav {
+      width: 100%;
+    }
+  }
+  
+  .main-nav-list li {
+    text-align: center;
+    width: 33%;
+  }
+  .main-nav-list.has-screenings li {
+  	width: 25%;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list li {
+      width: 100%;
+      height: 66px;
+    }
+  
+    .main-nav-list li + li {
+      border-top: 1px solid #fff;
+    }
+  }
+  
+  .main-nav-list a {
+    color: #adadad;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list a {
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 820px) {
+    .main-nav-list a {
+      display: block;
+      color: #000;
+    }
+  
+    .main-nav-list a:hover, .main-nav-list a.selected {
+      background: #f0df8d;
+    }
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .main-nav-list {
+      background: #242323;
+    }
+  
+    .main-nav-list li {
+      float: none;
+    }
+     .main-nav-list.has-screenings li {
+    	width: auto;
+    }
+  }
+  
+  .mobile-nav-link {
+    background: url("https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/f5cd67cf-21e2-4870-bff9-17f23ccae248/hamburger-1x.png") no-repeat center center;
+    width: 44px;
+    height: 44px;
+    display: none;
+    float: left;
+    margin-top: 11px;
+  }
+  
+  .mobile-nav-link.open {
+    background-image: url("https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/d15d8693-0d21-475f-911f-7ba49fa03417/close-menu-1x.png");
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .mobile-nav-link {
+      display: block;
+    }
+  }
+  
+  .buy-header {
+    text-transform: uppercase;
+    width: 420px;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .buy-header {
+      width: 85%;
+    }
+  }
+  
+  .selected-package-container {
+    float: left;
+    width: 66.66667%;
+    padding: 0 30px;
+    position: relative;
+    /* truncate lengthy default package title */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  
+  }
+  
+  @media only screen and (max-width: 460px) {
+    .selected-package-container {
+      padding: 0 20px 0 0;
+    }
+  }
+  
+  .selected-package {
+    color: #0088a3;
+  }
+  
+  .selected-package.multiple-packages:after {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #0088a3;
+    position: absolute;
+    right: 20px;
+    top: 29px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .selected-package:after {
+      right: 10px;
+    }
+  }
+  
+  .package-options-container {
+    position: absolute;
+    top: 66px;
+    width: 420px;
+    background: #f8f8f8;
+    display: none;
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .package-options-container {
+      top: 264px;
+    }
+  }
+  
+  @media only screen and (max-width: 520px) {
+    .package-options-container {
+      left: 0;
+      right: 0;
+      width: auto;
+    }
+  }
+  
+  .buy-package-options {
+    width: 100%;
+  }
+  
+  .buy-package-options > li {
+    line-height: 3;
+  }
+  
+  .buy-package-options > li a {
+    display: block;
+  }
+  
+  .buy-package-options > li + li {
+    border-top: 1px solid #b8b8b8;
+  }
+  
+  .buy-package-options > li:hover {
+    background: #f1e088;
+  }
+  
+  .buy-package-options > li:hover > a {
+    background: #ecda7c;
+  }
+  
+  .buy-package-options > li a {
+    color: #000;
+    padding: 0 30px;
+    line-height: 1.8em;
+  }
+  
+  .option-details {
+    font-size: 70%;
+    text-transform: none;
+    line-height: 2;
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-top: 0;
+    width: 100%;
+    display: none;
+  }
+  .buy-package-options > li .option-details a {
+  	padding-left: 0;
+  }
+  @media only screen and (max-width: 480px) {
+    .buy-package-options > li a, .option-details {
+      padding: 0 10px;
+    }
+  }
+  
+  .buy-now-link {
+    float: right;
+    color: #fff;
+    width: 33.33333%;
+    background: #0088a3;
+    text-align: center;
+  }
+  
+  /**
+    * Hero Image 
+    */
+  .hero-image {
+    background: url(https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/decabdbb-eed2-40e7-b7cb-d6cb7b237d30/splash.jpg) no-repeat center center;
+    background-size: cover;
+    margin-top: 66px;
+    display: table;
+    width: 100%;  
+  }
+  
+  @media only screen and (max-width: 820px) {
+    .hero-image {
+      padding: 20px 0 40px;
+    }
+  }
+  
+  .hero-title-container {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;  
+  }
+  .hero-title-container .desc {
+  	width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .trailer-container {
+  	display: none;
+    height: 0;
+    padding: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+    background: #000000;
+    z-index: 2;
+  }
+  .trailer {
+  	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .trailer-overlay {
+    display: none;
+  	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    background: rgba(0, 0, 0, .6); 
+    z-index: 1;
+  }
+  .hero-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .hero-title.no-logo {
+  	font-size: 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+  }
+  .hero-rule {
+    width: 42.96296%;
+    height: 1px;
+    border: 0;
+    margin: 30px auto;
+    font-size: 18px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .hero-rule {
+      width: 70%;
+      margin: 20px auto;
+    }
+    .hero-title.no-logo {
+      font-size: 36px;
+    }  
+  }
+  
+  .hero-trailer-link {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .laurels {
+    width: 90%;
+    margin: 80px auto 0;
+    text-align: center;
+  }
+  
+  .laurels img {
+    margin: 0 0 10px 0;
+  }
+  .laurels img + img {
+    margin-left: 10px;
+  }
+  .advance-link {
+    display: none;
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: 30px;
+    background: url('https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/8ba662df-e527-4d0e-b10e-e89cb191b132/scroll-down-link.png') no-repeat center center;
+    z-index: 2;
+  }
+  @media only screen and (min-width: 480px) {
+    .advance-link {
+      display: block;
+    }
+  }
+  
+  /*
+   * Gallery 
+   */
+  .gallery {
+    background: url(https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/4ec275c0-236f-4bbe-b654-b02ba860f71a/gallery-bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .gallery-bounds {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .gallery-bounds {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .gallery-bounds {
+    	margin-bottom: 80px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .gallery-bounds {
+      padding: 0 10px;
+    }
+  }
+  
+  .gallery-image {
+  	overflow: hidden;
+  }
+  
+  .gallery-images img {
+    max-width: 100%;
+  }
+  
+  .gallery-images li {
+    width: 25%;
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .gallery-images li {
+      width: 33.333%;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .gallery-images li {
+      width: 50%;
+    }
+  }
+  
+  .gallery-image-container {
+    padding-bottom: 56.33333%;
+  }
+  .social-blocks li {
+    border-bottom: 1px solid #d7d6d4;
+    width: 20%;
+    border-right: 1px solid #d7d6d4;  
+  }
+  
+  @media only screen and (max-width: 1230px) {
+    .social-blocks li {
+      width: 25%;
+    }
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .social-blocks li {
+      width: 33.333%;
+    }
+  }
+  
+  @media only screen and (max-width: 750px) {
+    .social-blocks li {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .social-blocks li {
+      width: 100%;
+    }
+  }
+  .mailing-list input[type='email'] {
+  	background: 0;
+  	border: 1px solid #c8c8c8;
+    padding: 8px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+  .mailing-list input[type='submit'] {
+  	background: #1088a2;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;  
+  }
+  .social-block-container {
+    text-align: center;
+    background: #f7f5f5;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+  }
+  .tweet-image a {
+  	display: block;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .social-block-container .source-title {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .social-block-container a {
+    color: #0088a3;
+  }
+  
+  .social-block-container {
+    padding-bottom: 85%;
+  }
+  @media only screen and (max-width: 480px) {
+  	.social-block-container {
+    	height: auto;
+      padding-bottom: 20px;
+    }
+    .tweet-image {
+    	padding-bottom: 60%;
+    }
+  }
+  
+  /*
+   * Screenings 
+   */
+  .screenings {
+    background: #0088a3 url(https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/20998363-1ac9-4cb7-9dcb-673517cc7e20/A+New+We+-+3.png) no-repeat center center;
+    background-size: cover;
+  }
+  .screenings-bounds {
+    width: 100%;
+    padding: 0 40px;
+    margin-bottom: 140px;
+  }
+  
+  .screenings .contained {
+  	border-top: 1px solid rgba(0,0,0,.4);
+    height: 486px;
+    overflow: scroll;  
+  }
+  .screenings .row {
+  	clear: both;
+    color: #FFF;
+    font-weight: normal;
+    vertical-align: top;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  }	
+  .screenings .row span.small {
+  	font-size: .8em;
+  }
+  .screenings .row a {
+  	color: #FFF;
+  }
+  .screenings .row a:hover {
+  	text-decoration: underline;
+  }
+  .screenings .row .clear {
+  	clear: both;
+  }	
+  .screenings .row.even {
+  	background-color: rgba(0,0,0,.4);
+  }
+  .screenings .row .col {
+  	float: left;
+    padding: 20px;
+  }
+  .screenings .row .col.date {
+  	width: 12%;
+  }
+  .screenings .row .col.cityst {
+  	width: 28%;
+  }
+  .screenings .row .col.venue {
+  	width: 40%;
+  }
+  .screenings .row .col.info {
+  	width: 20%;
+  }	
+  @media only screen and (min-width: 1200px) {
+    .screenings-bounds {
+      width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media only screen and (max-width: 780px) {
+    .screenings .row {
+    	padding: 20px;
+    }
+     .screenings .row .col {
+    	clear: both;
+      float: none;
+      width: auto;
+      padding: 0;
+    }
+    .screenings .row .col.info {
+    	margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .screenings-bounds {
+    	margin-bottom: 80px;
+    }
+  
+  }
+  @media only screen and (max-width: 320px) {
+    .screenings-bounds {
+      padding: 0 10px;
+    }
+  }
+  /* Footer */
+  footer {
+    width: 100%;
+    font-size: 14px;
+    padding: 0 2%;
+    background: #fff;
+    position: relative;
+  }
+  @media only screen and (max-width: 1230px) {
+    footer {
+      text-align: center;
+    } 
+  }
+  .footer-right-column {
+    float: right;
+    width: 50%;
+  }
+  footer a {
+    color: #b8b8b8;
+  }
+  .powered-by-vhx-link {
+    line-height: 76px;
+  }
+  .footer-boilerplate-list {
+    float: right;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 76px;  
+    color: #b8b8b8; 
+  }
+  .footer-boilerplate-list li {
+    margin: 0 .4em;
+    display: block;
+  }
+  .legal-copy {
+    line-height: 76px;
+    color: #b8b8b8;
+    float: left;
+    margin: 0;
+  }
+  .footer-social-buttons {
+    width: 115px;
+    float: left;
+    margin-right: 10px;
+  }
+  .footer-social-button {
+    height: 20px;
+    margin: 28px 0 0;
+    overflow: hidden;
+    float: left;
+  }
+  .facebook-button {
+    width: 48px;
+    margin-right: 10px;
+  }
+  .twitter-button {
+    width: 57px;
+  }
+  .footer-left-column {
+    float: left;
+    width: 50%;
+  }
+  @media only screen and (max-width: 1200px) {
+    .footer-left-column,
+    .footer-right-column {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .legal-copy {
+      float: none;
+      width: 100%;
+      line-height: 36px
+    }
+    .footer-social-buttons {
+      float: none;
+      margin: 0 auto 14px;
+    }
+    .footer-boilerplate-list {
+      float: none;
+      line-height: 56px;
+      width: 420px;
+      margin: 0 auto;
+    }
+    .powered-by-vhx-link {
+      line-height: 56px;
+    }  
+  }
+  @media only screen and (max-width: 440px) {
+    .footer-boilerplate-list {
+      width: 100%;
+    }
+  }
+  
+  #vhx-iframe {
+  	top: 72px !important;
+  }
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      window.Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_CONCURRENT_LIMIT":"concurrent_limit","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_PAGE_VIEW":"site_page_view","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_PURCHASE_COMPLETED":"purchasecompleted","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_AUTHENTICATION_IDENTIFY_USER":"identify_user","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_VIEW":"Sign In Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_SEARCH_EXECUTED":"Search Executed","EVENT_SEGMENT_SEARCH_ITEM_SELECTED":"Search Result Selected","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_CLICKED":"Video Ad Clicked","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_COMMENT_ADDED":"Video Comment Added","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEARCH":"search","EVENT_SEARCH_ITEM_SELECTED":"searchitemselected","EVENT_EXTRA_VIEWED":"extraviewed"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_SITE_ID":"site_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_EMAIL":"user_email","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+      };
+  
+        window._vhx = {
+          environment: 'production',
+          site: { id: '10036', domain: 'fellowshipforintentionalcommunity.vhx.tv', host: 'fellowshipforintentionalcommunity.vhx.tv' },
+          geo:  { country: 'de' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      window._current_user = {"id":null,"email":null,"name":null};
+  
+      window._current_site = {"id":10036,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"fellowshipforintentionalcommunity"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <header class="main-header">
+
+  <nav class="float-left page-nav">
+    <ul class="main-nav-list has-screenings">
+      <li><a href="#one" class="nav-item-1 selected">About</a></li>
+      <li><a href="#two" class="nav-item-2">Gallery</a></li>
+      <li><a href="#three" class="nav-item-3">Screenings</a></li>
+      <li><a href="#four" class="nav-item-4">Social</a></li>
+  
+    </ul>
+  </nav>
+	<a href="#" class="mobile-nav-link"></a>
+  
+    <div class="float-right buy-header">
+      <div class="selected-package-container">
+        <a href="#" class="selected-package multiple-packages">Inhabit - A Permaculture Perspective | $5</a>
+      </div>
+      <div class="package-options-container">
+        <ul class="float-left buy-package-options">
+          <li class="package-option"><a href="/buy/inhabit-a-permaculture-perspective">Inhabit - A Permaculture Perspective | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/inhabit-a-permaculture-perspective"><p>Inhabit - A Permaculture Perspective</p>
+
+<p>Permaculture is a design method that offers a unique ecological lens for addressing issues related to agriculture, economics, governance, resource use, and so on.</p>
+
+<p>Inhabit - A Permaculture Perspective is an inspiring feature length documentary that explores various permaculture projects, concepts, and people around the United States. What emerges are themes and messages that become accessible to a diverse audience.</p>
+
+<p>For those who are brand new to permaculture, or for those who are already deeply into the art and science of it, you will feel the thrill of seeing what is possible in these amazing projects, and be called to action.</p>
+
+<p>What is a Permaculture Perspective?</p>
+
+<p>More than highly productive gardening and resource use -- which it is -- permaculture is a way of relating to the Earth. Human activity on the land can be respectful of life and instead of extractive it can be regenerative. We are capable of thriving within our limits, benefitting other species, and building more resilient food production at the same time.</p>
+
+<p>Gorgeously shot, mostly in the Northeastern and Midwestern regions of the United States, Inhabit provides an intimate look at over 20 sites in a range of rural, suburban, and urban environments. Follow the journey to uncover of a breadth of responses to local and global challenges from issues of food, water, and medicine, to governance, economy, and culture.</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/ecovillage-pioneers">Ecovillage Pioneers - A Journey Towards Low-impact Living | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/ecovillage-pioneers"><p>Ecovillage Pioneers</p>
+
+<p>Tony Wrench of Wales had a natural building that radically challenged and altered the government’s policy on low impact housing. This paved the way for Lammas - the UK’s first planned ecovillage, on brilliant display in this film.</p>
+
+<p>Take a journey following the pioneers of low impact living as a young mother journeys through Australia, Spain, the UK, and Ireland, in search of a more sustainable way of life.</p>
+
+<p>A journey towards low impact living</p>
+
+<p>Independent film-maker Helen iles explores community living at Crystal Waters permaculture village in Australia, appropriate technology at Sunseed in Spain, and spiritual connection with the Findhorn Foundation in Scotland. She visits Ireland's first ecovillage and meets the Tinkers Bubble and Kings Hill communities in Somerset.</p>
+
+<p>Join her for these explorations of ecovillages and more in Ecovillage Pioneers!</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/passive-house-revolution">Passive House Revolution | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/passive-house-revolution"><p>Create a Low Energy Home: Join the Passive House Revolution!</p>
+
+<p>Passive House Revolution catches you up to all of the most important developments in efficient building and home design over the last 20 years.</p>
+
+<p>Applying an innovative combination of construction and retrofitting techniques, and making certain materials and orientation decisions, a home or building can reduce heating and cooling costs by up to 80%.</p>
+
+<p>Because of this enormous built in energy savings, the Passive House creates an exceptional return on investment from both an environmental and financial perspective.</p>
+
+<p>You'll see a clear comparison in energy use between the typical and the low-energy passive house. </p>
+
+<p>Could you imagine reducing  your energy use by up to 80%?</p>
+
+<p>In this timely film you will meet and witness the work of some of the leading builders and architects in this field. This includes Wolfgang Feist, the creator of the Passive House standard, and Katrin Klingenberg, who first brought passive house to the United States from Germany.</p>
+
+<p>You will see homes across North America being retrofitted to this amazing energy efficient standard, and what satisfied owners think afterwards. Imagine living in a cold climate and not even requiring a furnace to stay toasty warm? This film shows you how!</p>
+
+<p>Buildings use nearly 50% of the energy in North America. Thankfully we can start to address our energy costs and CO2 emissions with technology and methods that are available today, and the information in the Passive House Revolution leads the way. 
+</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/within-reach-journey-to-find-sustainable-community">Within Reach - Journey to Find Sustainable Community | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/within-reach-journey-to-find-sustainable-community"><p>Within Reach is a film documenting one resilient couple’s 6,500 mile bicycling journey across the United States in search of sustainable communities.</p>
+
+<p>Mandy and Ryan gave up their corporate jobs and houses to travel thousands of miles in search of a new home, while also looking within.</p>
+
+<p>One of the most important questions facing the world today is “Can humans live sustainably?” This film answers this in a resounding way – Yes!</p>
+
+<p>Meet people from around the country showing that there might just be a better way we can live together on this planet. It is not only possible, it is already underway!
+</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/a-new-we-ecological-communities-in-europe">A New We: Ecological Communities in Europe | $4</a>
+            <div class="option-details"> 
+              <a href="/buy/a-new-we-ecological-communities-in-europe"><p>A New We is a film that enlightens, inspires, and spreads hope — for a new world and A New We.</p>
+
+<p>A New We is a two-hour documentary that profiles 10  European intentional communities with a core commitment to sustainability.</p>
+
+<p>See what is possible for the future of humanity and all life on the planet. People's lives in this film are more motivated by imagination, vision, respect, passion, and cooperation than by economic forces and social expectations.</p>
+
+<p>“Every once in a while, a film comes along that can transform the way we live. A New We by the Austrian filmmaker Stefan Wolf is such a film.” - Will M. Tuttle, Ph.D., author, The World Peace Diet</p>
+
+<p>In these 10 communities, the creative solutions to many social, environmental and economic challenges exemplify the nearly infinite capacity for human-, community- and self-development.</p>
+
+<p>Explore communities from eight different countries, ranging from large to small, spiritual to secular, brand new to well established. Find out what’s happening on the cutting edge of sustainable communities.</p>
+
+<p>Featured Ecovillages and Communities include:</p>
+
+<p>Sieben Linden 	- Germany
+<br />Schloss Tonndorf - Germany
+<br />Krishna Valley - Hungary
+<br />Damanhur - Italy
+<br />Schloss Glarisegg - Switzerland
+<br />La Borie Noble - France
+<br />Valle de Sensaciones - Spain
+<br />Matavenero - Spain
+<br />Tamera - Portugal
+<br />Finca Tierra - Canary Island
+</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/voices-of-cohousing-building-small-villages-in-the-city">Voices of Cohousing: Building Small Villages in the City | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/voices-of-cohousing-building-small-villages-in-the-city"><p>Voices of Cohousing: Building Small Villages in the City
+<br />A Documentary by Matthieu Lietaert
+<br />2007; 59 minutes</p>
+
+<p>One of today's biggest paradoxes is that half of the world's population lives in urban or suburban surroundings, yet many feel lonely and do not know their neighbors. But what if we could live differently?</p>
+
+<p>Voices of Cohousing is a documentary that takes a look at and interviews 14 pioneering cohousing communities in Europe. Each group offers unique contributions to designing improved urban living.</p>
+
+<p>Imagine a few dozen families and friends who came together to build a neighborhood from the ground up? Traffic could be kept out, and more nature, public spaces, buildings, and resources could be shared. </p>
+
+<p>Hear directly from people who live in cohousing communities, from a variety of backgrounds and ages, as they share personal experiences and community stories of challenge and triumph.</p>
+
+<p>Interested to live in a community, or curious about alternatives to the mainstream? 'Voices of Cohousing: Building Small Villages in the City' is a film that will provide inspiration and guidance!</p>
+
+<p>All the narration and interviews are in English. Voices of Cohousing features a variety of cohousing members of many different backgrounds and ages tell the engaging and inspiring stories of their lives in community.</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/seeking-the-good-life-in-america">Seeking the Good Life in America - Alternative Ways to Live Sustainably | $4</a>
+            <div class="option-details"> 
+              <a href="/buy/seeking-the-good-life-in-america"><p>Seeking the Good Life in America – Alternative Ways to Live Sustainably</p>
+
+<p>Join Joy on her journey to visit intentional communities as she searches for a place to call home.</p>
+
+<p>Follow along on a road trip with her for a personal glimpse into her adventure visiting three well-established Virginia based intentional communities: Acorn, Twin Oaks, and Light Morning.</p>
+
+<p>Seeking the Good Life in America is a personal and accessible story, without preaching, prescribing, or over analyzing. Witness early explorations stepping out of more mainstream life and into alternative cultures, and see how one can be uniquely nurtured or challenged by each community. </p>
+
+<p>Experience Visiting a Community</p>
+
+<p>Seeking the Good Life in America feels like a good community tour: stimulating, heart-opening, thought provoking, and a little giddy.</p>
+
+<p>The film’s style is unpretentious and light, with professional quality, and a warm and personal narrator’s voice. The combination of stubborn grit and self-aware humor gives you a sense of the likable woman behind the camera, and helps you experience her sometimes awkward shift into community settings that often require more active engagement than usual.</p>
+
+<p>While some films about visiting communities feature key figures and talking heads from each community, this film shows you visiting a community from a visitor’s point of view. This includes conversations and tours with community members orienting her, interns, and others visiting communities. Experience an especially genuine look at what visiting a community is really like.</p>
+
+<p>Seeking the Good Life in America
+<br />Produced by Outside of the Box Media
+</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/one-couch-at-a-time">One Couch at a Time | $4</a>
+            <div class="option-details"> 
+              <a href="/buy/one-couch-at-a-time"><p>Imagine a network of hosts and guests who take it upon themselves to make the world more generous and open for adventure. Imagine people from all continents meeting together, sharing meals, sharing each others cultures and homes. </p>
+
+<p>One Couch at a Time follows the journey of “Couch Surfing Evangelist” Alexandra Liss as she travels the world through 6 continents and 21 countries over a period of 7 months.</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/visions-of-utopia-experiments-in-sustainable-culture-volume-i">Visions of Utopia: Experiments in Sustainable Culture - Volume I. | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/visions-of-utopia-experiments-in-sustainable-culture-volume-i"><p>Visions of Utopia documents and profiles 7 diverse intentional communities in the United States. </p>
+
+<p>Have an inside look at what it is like to live in intentional communities from people who are doing it.  </p>
+
+<p>Get "up close and personal" while you listen to members tell their stories, joys, laughs, and struggles in their own words. 
+<br /> 
+<br />Includes a fascinating brief history of the last 2,500 years of intentional communities, plus insights into what works and what doesn't, and an exploration of what holds communities together.</p>
+
+<p>Profiles of 7 contemporary communities include:</p>
+
+<p>    Ananda Village (Nevada City CA)
+<br />    Breitenbush Hot Springs (Detroit OR)
+<br />    Camphill Special School (Glenmoore PA)
+<br />    Earthaven (Black Mountain NC)
+<br />    Nyland Cohousing (Lafayette CO)
+<br />    Purple Rose (San Francisco CA)
+<br />    Twin Oaks (Louisa VA)
+</p></a>
+            </div>
+          </li>
+          <li class="package-option"><a href="/buy/visions-of-utopia-experiments-in-sustainable-culture-volume-ii">Visions of Utopia: Experiments in Sustainable Culture - Volume II. | $5</a>
+            <div class="option-details"> 
+              <a href="/buy/visions-of-utopia-experiments-in-sustainable-culture-volume-ii"><p>Visions of Utopia II documents life in 10 diverse communities in the United States. Learn what is like to live, work, and play in communities, directly from people who are doing it.</p>
+
+<p>Profiles of communities include:
+<br /> 
+<br />Catholic Worker’s House (San Antonio TX) 
+<br />Community Alternatives & Fraser Common Farm (Vancouver & Aldergrove BC) 
+<br />The Farm (Summertown TN) 
+<br />Ganas (Staten Island NY) 
+<br />Goodenough (Seattle WA) 
+<br />Hearthaven (Kansas City MO) 
+<br />Miccosukee Land Co-op (Tallahassee FL) 
+<br />N Street Cohousing (Davis CA) 
+<br />Remote Hamlet (CA) 
+<br />Sandhill Farm (Rutledge MO) </p></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <a href="/buy/inhabit-a-permaculture-perspective" class="buy-now-link">Buy Now</a>
+    </div>
+
+</header>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <div class="hero-image section-container">
+    	<a id="one"></a>
+      <div class="hero-title-container">
+      	<div class="trailer-container">
+    	  	<div class="trailer" id="trailer" data-hd="1" data-trailer-url="17717"></div>
+        </div>
+        <div class="trailer-overlay"></div>
+        	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/42256b77-eecc-43f1-bb5f-02299d10a37b/FIC+Header+Logo.png" class="hero-title-image" />
+        <hr class="hero-rule" />
+        <div class="desc">
+        <p>Cooperation is stronger than competition. We thrive when we work together. FIC is a non profit organization dedicated to helping people build happy, productive, sustainable communities!</p>
+        </div>
+        <hr class="hero-rule" />
+        <a href="#trailer" class="hero-trailer-link play-btn"><i class="icon-play-circle"></i> <span class="trailer-action">Watch</span> Trailer</a>
+          <div class="laurels">
+    
+          </div>
+              
+      </div>
+      <a href="#" class="advance-link"></a>
+    </div>
+    
+    <div class="gallery section-container" data-gallery>
+    	<a id="two"></a>
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-bounds">
+        <ul class="gallery-images">
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/feb88e52-fc8f-497d-8681-11b111d150f4/Visions+of+Utopia+II+-+Cover+Resized.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/e0eb98c5-8337-43ea-aad5-70b10e6712cc/a-new-we.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/4998afa4-848e-41cf-87af-6f00bb7b25df/A+New+We.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/06ccac09-39d7-4403-b5a7-6cb627e095bc/A+New+We+-+3.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/e2151c9c-7ccd-4896-92a3-ee5747d9ed2e/A+New+We+-+2.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/3ba1d8f4-0c10-4bd5-a3da-be1c37830e2c/A+New+We+-+4.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/f99bfeb7-7153-479f-b241-0bf6439c2179/Visions+I+-+2.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/bb3228e9-b977-4a0c-8bac-e4e2985a06e0/Visions+I+-+4.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/e5f210ba-a5a6-4549-b8f7-b803a6b2c212/Visions+I+-+3.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/d4437ccd-24fa-478e-8035-ed099373ecc9/Visions+I+-+5.png" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/831a306d-b050-4fb3-acf2-774dd5c84c22/VisionsII_cover_400px+copy.jpg" />
+              	</a>
+            	</div>
+          	</li>
+          	<li>
+            	<div class="gallery-image-container">
+              	<a href="#" class="gallery-image">
+                	<img src="https://dr56wvhu2c8zo.cloudfront.net/fellowshipforintentionalcommunity/assets/feb88e52-fc8f-497d-8681-11b111d150f4/Visions+of+Utopia+II+-+Cover+Resized.jpg" />
+              	</a>
+            	</div>
+          	</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="screenings section-container">
+    	<a id="three"></a>
+    	<h2 class="section-title">Screenings</h2>
+      <div class="screenings-bounds">
+    	  <div id="nowplaying" class="contained">
+        	<div class="row">
+          	<div class="col">No Screenings at this time...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="social section-container" data-twitter-handle="ICdotOrg">
+    	<a id="four"></a>
+      	<ul class="social-blocks">
+        	<li>
+          	<div class="social-block-container mailing-list" data-contact-form>
+    					<i class="icon-envelope-alt"></i>
+            	<h3 class="source-title">Join the mailing list</h3>
+            	<p class="social-copy"></p> 
+          	</div>
+        	</li>    
+      	</ul>
+    </div>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="cf">
+
+  <div class="footer-left-column footer-column cf">
+  	<div class="footer-social-buttons cf">
+    		<div class="footer-social-button facebook-button fb-like" data-href="https://www.facebook.com/FellowshipForIntentionalCommunity" data-send="false" data-layout="button_count" data-show-faces="false"></div> 
+    	     
+    		<div class="footer-social-button twitter-button"><a href="https://twitter.com/share" class="twitter-share-button" data-via="ICdotOrg" data-text="Loving this movie!" data-counturl="http://fellowshipforintentionalcommunity.vhx.tv" data-url="http://fellowshipforintentionalcommunity.vhx.tv">Tweet</a></div> 
+    </div>
+  	<p class="legal-copy">COPYRIGHT © 2014, Fellowship for Intentional Community</p>
+  </div>
+  
+  <div class="footer-right-column footer-column cf">
+  
+		<ul class="footer-boilerplate-list">
+			<li><a href="/tos">Terms of Service</a></li>
+			<li><a href="/privacy">Privacy Policy</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="http://vhx.tv" class="powered-by-vhx-link"><img src="https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/c9c5b31e-a36e-4762-ad5a-afeb2d4810b2/power-by-vhx-transparent.png"></a></li>
+		</ul>      
+
+	</div>
+  
+</footer>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    window._site = {
+      color:        '#F59C36',
+      key:          'fellowshipforintentionalcommunity',
+      facebook_url: 'https://www.facebook.com/FellowshipForIntentionalCommunity',
+      twitter_name: 'ICdotOrg'
+    };
+  
+    var _config = {
+      country_code: 'de'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  window._flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+  $(document).ready(function() {
+    // set splash image height to that of initial viewport
+    var $window = $(window),
+        viewportHeight = $window.height(),
+        viewportWidth = $window.width(),
+        headerHeight = $('.main-header').outerHeight(),
+        $mainNavLinks = $('.main-nav-list li a'),
+        trailer = $('.trailer-container'),
+        overlay = $('.trailer-overlay');    
+  
+    if (viewportWidth > 480) {
+      $('.hero-image').height(viewportHeight - headerHeight);
+    };
+    if (viewportWidth < 820){
+      $('.main-header').css({'top': $('.main-header ul').height() * -1});
+    };
+  
+  
+    function resetMainNav() {
+      $mainNavLinks.removeClass('selected');	
+    };
+  
+    // waypoints
+    $.getScript('https://dr56wvhu2c8zo.cloudfront.net/sbone/assets/a9e37ffe-d06e-407a-81d6-be4656bd5563/waypoints.js', function() {
+      var useWaypoints = true;
+      // Header link smooth scrolling
+      $('.main-nav-list').on('click', 'a', function(){
+        var target = $(this).attr('href');
+        // faux-state, so we don't activated waypoints when you click 
+        // a link and the page scrolls down
+        useWaypoints = false;
+  
+        resetMainNav();
+  
+        $(this).addClass('selected');
+  
+        $('body, html').stop().animate({
+          scrollTop: $(target).offset().top - headerHeight
+        }, 1000, function() {
+          useWaypoints = true;     
+        });
+  
+        return false;
+      });
+  
+      function updateNav(num) {
+        if (useWaypoints === true) {
+          resetMainNav();  
+          $('.nav-item-' + num).addClass('selected');
+          useWaypoints = true;      
+        }  
+      };
+  
+      $('.hero-image').waypoint(function() {
+        updateNav(1);
+      }, {
+        offset: headerHeight - 5
+      });
+  
+      $('.gallery').waypoint(function() {
+        updateNav(2);
+      }, {
+        offset: headerHeight - 10
+      });
+  
+      $('.social').waypoint(function() {
+        updateNav(3);
+      }, {
+        offset: headerHeight + 10
+      });
+    });
+   // waypoints end
+  
+  
+    // packages selector
+    function closeSubmenus() {
+      $('.option-details').stop().slideUp();
+    };
+  
+    $('.selected-package-container').click(function() {
+      closeSubmenus();
+      $('.package-options-container').stop().slideToggle({
+        duration: 200,
+        easing: 'easeOutQuart'
+      });
+    });
+  
+    $('.package-options-container').on('mouseenter', '.package-option', function() {
+      closeSubmenus();
+      $(this).children('.option-details').stop().slideDown({
+        duration: 200,
+        easing: 'easeOutQuart'  
+      });
+    });
+  
+    // splash image advance arrow
+    $('.advance-link').click(function() {
+      $('body, html').stop().animate({
+        scrollTop: $('.gallery').offset().top - headerHeight
+      }, 1000);
+      return false;
+    });
+  
+    $('.gallery-image').click(function(){
+      return false;
+    });
+  
+    // mobile nav link
+    var smallMenuOpen = false;
+    $('.mobile-nav-link').click(function() {
+      if (smallMenuOpen === false) {
+        $('.main-header').animate({
+          'top': 0
+        }, 200);
+        $(this).addClass('open');
+        smallMenuOpen = true;
+      } else {
+        $('.main-header').animate({
+          'top': -198
+        }, 200);
+        $(this).removeClass('open');
+        smallMenuOpen = false;
+      }
+    });
+  
+    // Setup trailer functionality
+    function toggleTrailer() {
+      var	actionSpan = $('.trailer-action'),
+          actionText = trailer.is(':visible') ? 'Watch' : 'Stop';
+  
+      overlay.toggle({
+        duration: 200,
+        easing: 'easeOutQuart'  
+      }); 
+  
+      trailer.toggle({
+        duration: 200,
+        easing: 'easeOutQuart'  
+      });      
+  
+      actionSpan.html(actionText);  
+  		 if (actionText == 'Watch'){
+    		$("#trailer").html("");
+   	 }
+    };
+  
+    $('.hero-title-container').on('click', '.hero-trailer-link', function() {
+      toggleTrailer();
+    });
+  
+    $('.trailer-overlay').click(function() {
+      toggleTrailer();
+    });
+    $("#trailer").on("video:stop",function(){
+      toggleTrailer();
+    });
+  
+  
+  var VHXJS = VHXJS || {};
+  
+  /* theme js object
+  ---------------------------------------------*/
+  VHXJS = {
+  
+    theaterGoogleDoc: "",
+    
+    /* initiate
+    ---------------------------------------------*/
+    init: function() {
+     if (VHXJS.theaterGoogleDoc != ""){
+      this._theaters.init(VHXJS.theaterGoogleDoc);
+     }
+    },
+    _theaters: {
+        init: function(theList) {
+          var jqxhr = $.get(theList, function(data) {
+            VHXJS._theaters.process(data);
+          });
+        },
+        process: function(data){
+          // first, split on the line break
+          dataChunk = data.split("\n");
+          // greater than 1 because the first row is labels
+          if (dataChunk.length > 1){
+            // next, swoop through and split on the comma
+            vendors = new Array();
+            for (var i=1;i<=dataChunk.length-1; i++){
+              vendors.push(dataChunk[i].split(","));
+            }
+            VHXJS._theaters.display(vendors);
+          } else {
+            // no results, show error
+            VHXJS._theaters.noShows();
+          }
+        },
+        display: function(data){
+  
+          var eventTotal = data.length - 1;
+          var eventHalf = Math.floor(eventTotal/2);
+          var eventCounter = 0;
+  				var rowClass ="odd";
+          
+          var thehtml = "";
+  
+          for (var i=0;i<=data.length-1; i++){
+            // 0 = 1/1/2014
+            // 1 = Nashville
+            // 2 = TN
+            // 3 = Belcourt Theatre
+            // 4 = more info
+            // 5 = http://ticketlink/
+            var rowclass = "";
+            var thedate = data[i][0];
+            var cityst = data[i][1] + ", " + data[i][2];
+            var venue = data[i][3].replace("\"","");
+            var info = data[i][4];
+            var tickets = data[i][5];
+            thedate = thedate.replace(/"/g,"");
+            cityst = cityst.replace(/"/g,"");
+  					
+            if (i %2){
+            	rowClass ="even";
+            } else {
+            	rowClass = "odd";
+            }
+            
+            thehtml += '<div class="row '+rowClass+'">';
+            thehtml += '  <div class="col date"><span>'+thedate+'</span></div>';
+            thehtml += '  <div class="col cityst"><span>'+cityst+'</span></div>';
+            thehtml += '  <div class="col venue"><span>'+venue+'</span>';
+            if (info){
+            	thehtml += '<br><span class="small">'+info+'</span>';
+            } 
+            thehtml += '</div>';
+            thehtml += '  <div class="col info"><span>';
+            if (tickets){
+            	thehtml += "<a href='"+tickets+"' target='_blank'>Buy Tickets</a>";
+            } else {
+            	thehtml += "&nbsp;";
+            }
+            thehtml += '</span></div>';
+            thehtml += '	<div class="clear"></div>';
+            thehtml += '</div>';
+  
+            eventCounter++;
+  
+          }
+          //thehtml += "</div>";
+         $("#nowplaying").html(thehtml);
+        },
+        noShows: function(){
+          $("#nowplaying").html('<div class="row"><div class="col noshows">Sorry, no screenings at this time.</div></div>');
+        }
+     }
+  };
+  (function(window,document,$,VHXJS) {
+    VHXJS.init();
+  })(window,document,jQuery,VHXJS);
+    
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="fellowshipforintentionalcommunity.vhx.tv"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://fellowshipforintentionalcommunity.vhx.tv:443

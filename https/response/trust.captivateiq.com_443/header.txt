@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: trust.captivateiq.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; us; rv:1.9.1.19) Gecko/20110430 shadowfox/7.0 (like Firefox/7.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ec9e0f87cb15-DUS
+Content-Security-Policy: default-src 'self' vanta.com *.vanta.com;font-src 'self' data: fast.fonts.net vanta.com *.vanta.com fast.ssqt.io fonts.gstatic.com use.typekit.net;media-src 'self' vanta.com *.vanta.com static.zdassets.com d1s1h6icvugosb.cloudfront.net dzas9mj7ubt6.cloudfront.net data: https://*.commandbar.com;frame-ancestors 'self';frame-src cdn.merge.dev embedly-cdn.trychameleon.com fast.trychameleon.com vanta.chilipiper.com vanta.com *.vanta.com 'self' *.oneschema.co https://duploservices-prod01-exports2-415703579972.s3.amazonaws.com https://*.commandbar.com www.youtube-nocookie.com www.youtube.com www.loom.com https://decagon.ai;img-src 'self' blob: data: *;script-src 'report-sample' 'sha256-Ine/Ce2Xi6o1qJ9GSF4klg+kN287L+y5/fIgql4A7EI=' 'sha256-Z0bKlgxCeq39CcBglG4oWnWRv1qDPQ+x6bKBhsEn0Xc=' 'strict-dynamic' 'unsafe-inline' 'unsafe-eval' https:;style-src 'self' https: 'unsafe-inline' https://fonts.googleapis.com https://fonts.google.com cdn.jsdelivr.net fast.fonts.net https://*.commandbar.com;object-src 'none';connect-src * data:;child-src blob: 'self' vanta.com *.vanta.com;report-uri https://csp-report.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub043e3a57772658a58a4bb910ce747aa1&dd-evp-origin=content-security-policy&ddsource=csp-report&ddtags=env:prod%2cservice:web%2cversion:undefined;base-uri 'self';block-all-mixed-content;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:18:49 GMT
+Etag: W/"eb8cd84a226c4e6fd846303e1f8d93bf"
+Link: <https://fonts.googleapis.com>; rel="preconnect"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: slugId=200lgr5djgzfasmh3d3p1; SameSite=Strict; Secure;
+Set-Cookie: domainId=5d7912f7af1c674e4ece35d2; SameSite=Strict; Secure;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+939

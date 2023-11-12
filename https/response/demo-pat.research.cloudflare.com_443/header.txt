@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: demo-pat.research.cloudflare.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 20
+Cf-As-Number: 51167
+Cf-Ray: 8227e68af7d77a48-DUS
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:14:40 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+
+Unsupported resource
+
+
+https://demo-pat.research.cloudflare.com:443

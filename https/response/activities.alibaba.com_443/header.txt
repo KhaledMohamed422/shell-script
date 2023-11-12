@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: activities.alibaba.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/532.4 (KHTML, like Gecko) Chrome/4.0.237.0 Safari/532.4 Debian
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 357
+Ali-Swift-Global-Savetime: 1699436457
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:40:57 GMT
+Eagleid: a3b55ca116994364572015268e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[434,434,403-1280,M], cache14.l2de2[435,0], ens-cache15.de5[439,441,403-1280,M], ens-cache13.de5[445,0]
+X-Cache: MISS TCP_MISS dirn:12:354945941
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B57A931724B39388CF7F2
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:40:57 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B57A931724B39388CF7F2</RequestId>
+  <HostId>activities.alibaba.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.alibabacloud.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://activities.alibaba.com:443

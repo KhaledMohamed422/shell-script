@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: view.mkt.grab.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0a2) Gecko/20110622 Firefox/6.0a2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 128
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 20:46:15 GMT
+Location: /Error.aspx
+Permissions-Policy: geolocation=(self), microphone=()
+Referrer-Policy: origin-when-cross-origin
+Set-Cookie: strict
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

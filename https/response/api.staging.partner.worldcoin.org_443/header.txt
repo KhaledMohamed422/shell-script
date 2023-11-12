@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api.staging.partner.worldcoin.org
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 118
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 07 Nov 2023 23:11:30 GMT
+Via: 1.1 747e99d9d8c5e29fdc713cf866bc3f82.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: z9nrYRkCercqe6LmKSvk85ZfCm-_95ZCACzTaSVe_vxFES2piik_tg==
+X-Amz-Cf-Pop: FRA56-C2
+X-Amzn-Errortype: UnknownOperationException
+X-Amzn-Requestid: 67535ffe-742d-43b6-b38d-812f97c707e2
+X-Cache: Error from cloudfront
+
+{
+  "errors" : [ {
+    "errorType" : "UnknownOperationException",
+    "message" : "Unknown Operation Request."
+  } ]
+}
+
+
+https://api.staging.partner.worldcoin.org:443

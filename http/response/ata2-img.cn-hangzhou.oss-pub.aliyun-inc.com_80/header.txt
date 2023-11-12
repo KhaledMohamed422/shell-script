@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: ata2-img.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 Safari/537.36 Edg/98.0.1108.76
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 372
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:40:56 GMT
+Server: AliyunOSS
+Vary: Origin
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4998A9A7D736373EA139
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4998A9A7D736373EA139</RequestId>
+  <HostId>ata2-img.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://ata2-img.cn-hangzhou.oss-pub.aliyun-inc.com:80

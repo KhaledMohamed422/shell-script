@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: sms.twitter.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD i386; rv:28.0) Gecko/20100101 Firefox/28.0 SeaMonkey/2.25
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Security-Policy: default-src 'none'; img-src https://abs.twimg.com; script-src https://abs.twimg.com about:; style-src https://abs.twimg.com 'unsafe-inline'; font-src https://abs.twimg.com https://twitter.com; connect-src 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; report-uri https://twitter.com/i/csp_report?a=ORTGK%3D%3D%3D&ro=false
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 20:41:50 UTC
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938971091988234; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:41:50 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: a6c0329e1e032955c3c5948d55f596e35222c3b01e324300649179bbd4657630
+X-Response-Time: 106
+X-Transaction-Id: d2cb31e5ec1b3290
+X-Xss-Protection: 0
+

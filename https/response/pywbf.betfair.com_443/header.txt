@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: pywbf.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Camino/2.2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bbfa4c1a7169-DUS
+Date: Tue, 07 Nov 2023 18:45:37 GMT
+Location: /error?loginReturnURL=%2F
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+P3p: CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FQMRetFSo2716rA%2B%2BdHNlESiRfghVW6IW8YyPwb184JuoG9cor98q31y5sjhdfs7VIqMBir8%2FTPNAgkW8fUjmwhByGCbXqnXP5HhfJ7Mh841IrgsUKF47sNXLk4EBrBHFQ%2BZ"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: wsid=d7542ee1-7d9d-11ee-a6dc-fa163ec7ce6e; Domain=.betfair.com; Path=/
+Set-Cookie: vid=d7542ee2-7d9d-11ee-a6dc-fa163ec7ce6e; Domain=.betfair.com; Expires=Wed, 06-Nov-2024 18:45:37 GMT; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://pywbf.betfair.com:443

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: h5-global.alimebot.aliexpress.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 3.0.1; fr-fr; A500 Build/HRI66) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Content-Length: 205
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, DELETE
+Access-Control-Expose-Headers: eagleeye-traceid
+Access-Control-Max-Age: 3600
+Content-Type: application/json;charset=utf-8
+Date: Wed, 08 Nov 2023 09:55:16 GMT
+Eagleeye-Traceid: 21038edf16994373162354387ef5ad
+P3p: CP="CAO PSA OUR"
+Server: Tengine
+Set-Cookie: xman_us_f=x_l=1&acs_rt=1ddcb94307454c9da0cebde3a21cde28; Domain=.aliexpress.com; Expires=Mon, 26-Nov-2091 13:09:23 GMT; Path=/
+Set-Cookie: acs_usuc_t=x_csrf=dwenu12qsrua&acs_rt=1ddcb94307454c9da0cebde3a21cde28; Domain=.aliexpress.com; Path=/
+Set-Cookie: xman_t=RtE6bPxjFqiLHIYnB8jMWHld37JSTe3+m+cK62SuhX8UrNLI2Icf6bRVmM8YSdQa; Domain=.aliexpress.com; Expires=Tue, 06-Feb-2024 09:55:16 GMT; Path=/; HttpOnly
+Set-Cookie: xman_f=OK1I8nXQjesdajtlFHIxSWqihS61FI+w0YsDnH4VDdbHYkbpuCS5Lj0XmFx9462rQask2WVfFsgRJZr9Oeh2fdZ3AO9e2l/AIPe5r1/5h0fOvyTD04xIIg==; Domain=.aliexpress.com; Expires=Mon, 26-Nov-2091 13:09:23 GMT; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+X-Application-Context: aidc-alime-foreground:publish-sg:7001
+
+{"msgCode":"NOT_LOGIN","msgInfo":"{\"cookieExpire\":28800,\"from\":\"alxm\",\"isDelete\":true,\"login\":true,\"loginType\":\"AE\",\"loginUrl\":\"taobao://login\",\"sourceType\":\"ALIME\"}","success":false}
+
+
+https://h5-global.alimebot.aliexpress.com:443

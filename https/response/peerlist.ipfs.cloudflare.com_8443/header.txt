@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: peerlist.ipfs.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.1) Gecko/20100101 Firefox/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 68
+Accept: version=1
+Cf-Ray: 8227e9eb4ca77a5a-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:16:58 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+
+{
+  "errorMessage": "GET routes other than /reframe not supported"
+}
+
+
+https://peerlist.ipfs.cloudflare.com:8443

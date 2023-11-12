@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: cshub.githubapp.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:20:53 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3D94cdfa66-745c-4fef-83a2-b9974f8b12c7%26page_id%3D32301844%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=94cdfa66-745c-4fef-83a2-b9974f8b12c7; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 54727e41c04866ed79856501255c0e9fc2c6ef7b
+X-Github-Request-Id: 56DE:E7CA:9DF5BB1:A0B0629:654AF084
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230049-FRA
+X-Timer: S1699410053.879567,VS0,VE189
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: links.flickr.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-N986U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Security-Policy: base-uri 'none'; report-uri https://csp-report.browser-intake-datadoghq.com/api/v2/logs?dd-api-key=pub46dd5cf52153d917fc1d5e91ff3a600d&dd-evp-origin=content-security-policy&ddsource=csp-report; frame-ancestors 'self' https://links.iterable.com; object-src 'none'; worker-src 'self' blob:; script-src 'report-sample' 'unsafe-eval' 'unsafe-inline' 'strict-dynamic' https: 'nonce-E6QaemdOj2QcRP9MMuBhkA=='
+Date: Tue, 07 Nov 2023 21:58:20 GMT
+Location: https://flickr.com
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Request-Time: 4
+Server: iterable-links 6795
+Set-Cookie: XSRF-TOKEN=da85b66159fd8ffa62050c6219a3eb49f52765e0-1699394300728-6d766678c767ea64fce19b1a; SameSite=Lax; Path=/
+Vary: Origin
+Via: 1.1 218c6128df18321f9758e53ccc351448.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KKExJHY_23v9C_9lRihcOSRq8NuOXmNO4BzfVzgw_VLRGv7ez9NTiw==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://links.flickr.com:80

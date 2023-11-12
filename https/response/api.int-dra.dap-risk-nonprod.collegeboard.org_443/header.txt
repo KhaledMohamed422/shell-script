@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: api.int-dra.dap-risk-nonprod.collegeboard.org
+User-Agent: AdsBot-Google ( http://www.google.com/adsbot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:02 GMT
+X-Amz-Apigw-Id: OCbJKHQ8oAMEutw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 780706e3-b628-480d-b2cf-78e54ee4f3f8
+X-Amzn-Trace-Id: Root=1-654a723a-75d9332761991b691750ff39
+
+{"message":"Missing Authentication Token"}
+
+
+https://api.int-dra.dap-risk-nonprod.collegeboard.org:443

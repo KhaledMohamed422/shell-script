@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: fe-cf.cis.euce1.aws.indriverapp.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 07 Nov 2023 18:02:45 GMT
+Location: https://fe.cis.euce1.aws.indriverapp.com/
+Server: istio-envoy
+Via: 1.1 c9b44fbd4230c7c5b0750a98fbcd9df6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uJwjh19e8hsM1n7mw3VlLNdqTwix9NX5EYPvbHEMj_R0RFvGYxPXqw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Miss from cloudfront
+Content-Length: 0
+
+
+
+
+http://fe-cf.cis.euce1.aws.indriverapp.com:80

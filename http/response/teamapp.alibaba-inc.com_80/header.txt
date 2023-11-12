@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: teamapp.alibaba-inc.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.16) Gecko/20080716 (Gentoo) Galeon/2.0.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Object Moved
+Connection: close
+Cache-Control: private
+Content-Type: text/html
+Location: https://teamapp.alibaba-inc.com/
+
+<head><body> This object may be found <a HREF="https://teamapp.alibaba-inc.com/">here</a> </body>
+
+
+http://teamapp.alibaba-inc.com:80

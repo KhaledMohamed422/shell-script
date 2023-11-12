@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: discord.cloudflare.com
+User-Agent: Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e6943c63faee-DUS
+Date: Tue, 07 Nov 2023 19:14:41 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://discord.gg/cloudflaredev
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qVBvgHyPk%2Fk0imOma%2BYJ1G2886%2BZH55FozgJvyRlzOvK%2ByEzmEqvS9qff0bFmdB4BeVo18fsrSLbkNYqf0aJk7691J6xt8nQ0nopGq88TJgMOySCgvMHDHHtAhZGjQGFxXq69xXGLrhB"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://discord.cloudflare.com:443

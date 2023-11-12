@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: ind-account.palm.tech
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 135
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:28:39 GMT
+Eagleeye-Traceid: eaac17049616994115190595841d0001
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Ratelimit-Limit: 50000
+X-Ratelimit-Remaining: 49730
+X-Ratelimit-Reset: 45
+
+{"timestamp":"2023-11-08T02:28:39.060+00:00","path":"/","status":404,"error":"Not Found","message":null,"requestId":"7d19ba64-1663722"}
+
+
+https://ind-account.palm.tech:443

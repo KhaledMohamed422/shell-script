@@ -1,0 +1,175 @@
+GET / HTTP/1.1
+Host: customer-stories.githubapp.com
+User-Agent: BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 421
+Cache-Control: max-age=600
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:27:21 GMT
+Etag: W/"65383378-1d34"
+Expires: Tue, 07 Nov 2023 07:31:16 GMT
+Last-Modified: Tue, 24 Oct 2023 21:13:28 GMT
+Server: GitHub.com
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Fastly-Request-Id: 2b05232b5e271fe9f4a20fa7e1864e6b3f2b8180
+X-Github-Request-Id: 7CD8:C97B:4CBD358:4E2A301:6549E56C
+X-Proxy-Cache: MISS
+X-Served-By: cache-fra-eddf8230108-FRA
+X-Timer: S1699410442.827579,VS0,VE1
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.0.4"></script>
+<style>
+  .card-body img {max-width: 100%;}
+  .facts a {color: white; font-weight: bold;}
+</style>
+<title>Customer Story Explorer</title>
+
+<div id="app" class="offset-1 col-10">
+  
+  <div class="alert alert-danger">
+    This site is in <b>ARCHIVE</b> mode.<br/>
+    Please see <a href="https://github.com/customer-stories">github.com/customer-stories</a> for up-to-date info!
+  </div>
+  
+  <div v-if="error" class="alert alert-danger">
+    {{ error }}
+  </div>
+  
+  <h1><a href="https://github.com/github/customer-story-explorer/" class="text-dark"><i class="fab fa-github"></i> Customer Story Explorer</a></h1>
+  <div class="small text-dark">Stories from <a href="https://github.com/customer-stories">github.com/customer-stories</a></div>
+  <div class="small text-dark">Bugs? Feature requests? See <a href="https://github.com/github/customer-story-explorer">github/customer-story-explorer</a> or <a href="https://github.slack.com/team/US1NMECLB">@peckjon</a></div>
+  
+  <div v-if="!stories" class="alert alert-info">
+    Loading...
+  </div>
+
+  <div v-if="stories" class="accordion">
+    <div class="card">
+      <div class="card-header">
+        <div class="small text-dark mb-1 mr-1">Keywords: <input class="small" type="text" v-model="filterKeywords" v-on:keyup="runFilter()" /> (supports <a href="https://fusejs.io/examples.html#extended-search" target="_blank">extended search</a>)</div>
+        <div class="small text-primary mb-1 mr-1" v-on:change="runFilter()">Category:
+          <select v-model="filter.propertyTuples.categories">
+            <option value=""></option>
+            <option v-for="option in filterOptions.categories" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-success mb-1 mr-1" v-on:change="runFilter()">Region:
+          <select v-model="filter.propertyTuples.regions">
+            <option value=""></option>
+            <option v-for="option in filterOptions.regions" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-info mb-1 mr-1" v-on:change="runFilter()">Industry:
+          <select v-model="filter.propertyTuples.industry_filters">
+            <option value=""></option>
+            <option v-for="option in filterOptions.industry_filters" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-secondary mb-1 mr-1" v-on:change="runFilter()">Product:
+          <select v-model="filter.propertyTuples.product">
+            <option value=""></option>
+            <option v-for="option in filterOptions.product" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-secondary mb-1 mr-1" v-on:change="runFilter()">Company size:
+          <select v-model="filter.propertyTuples.company_size">
+            <option value=""></option>
+            <option v-for="option in filterOptions.company_size" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-secondary mb-1 mr-1" v-on:change="runFilter()">Number of developers:
+          <select v-model="filter.propertyTuples.number_of_developers">
+            <option value=""></option>
+            <option v-for="option in filterOptions.number_of_developers" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small text-secondary mb-1 mr-1" v-on:change="runFilter()">Number of seats:
+          <select v-model="filter.propertyTuples.number_of_seats">
+            <option value=""></option>
+            <option v-for="option in filterOptions.number_of_seats" v-bind:value="option">
+              {{ option }}
+            </option>
+          </select>
+        </div>
+        <div class="small mt-1"><span class="btn-sm badge-secondary" v-on:click="clearFilter()">Clear filters</span></div>
+      </div>
+    </div>
+    <div v-for="story in stories" :key="story.title">
+      <div class="card" v-bind:id="story.title">
+        <div class="card-header">
+          <div class="small mb-0">
+            <span v-on:click="$set(shown,story.parameterized_name,!shown[story.parameterized_name]);">
+              <i class="fa" v-bind:class="shown[story.parameterized_name]?'fa-caret-down':'fa-caret-right'"></i>
+              <img class="mr-1" v-bind:src="story.logo_image" height="20">{{ story.title }}
+            </span>
+            <span v-for="category in story.categories">
+              <span class="small badge-pill badge-primary text-nowrap mr-1" v-bind:title="'category: '+category" v-on:click="addFilter({'categories':category})">{{ category }}</span>
+            </span>
+            <span v-for="region in story.regions">
+              <span class="small badge-pill badge-success text-nowrap mr-1" v-bind:title="'region: '+region" v-on:click="addFilter({'regions':region})">{{ region }}</span>
+            </span>
+            <span v-for="industry in story.industry_filters">
+              <span class="small badge-pill badge-info text-nowrap mr-1" v-bind:title="'industry: '+industry" v-on:click="addFilter({'industry_filters':industry})">{{ industry }}</span>
+            </span>
+            <span v-if="story.resources">
+              <br/>Resources:
+              <span class="badge badge-warning text-nowrap mr-1" v-for="resource in story.resources">
+                <a target="_blank" v-bind:href="resource.url">{{ resource.label }}</a>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div v-bind:class="shown[story.parameterized_name]?'show':'collapse'">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a v-bind:href="'https://github.com/customer-stories/'+story.parameterized_name"><i class="fa fa-link"></i> <span class="text-info">{{ story.lead }}</span></a>
+                <div v-if="story.facts" class="mt-1">
+                  <span v-for="(val,key) in story.facts" class="facts">
+                    <span class="small badge-pill badge-secondary text-nowrap mr-1" v-bind:title="key+': '+val">{{ key.replace(/_/g,' ') }}: <span v-html="val"></span>
+                  </span>
+                </div>
+              </li>
+              <li class="list-group-item" v-if="story.video">
+                <a target="_blank" v-bind:href="story.video.url">{{ story.video.url }}</a>
+              </li>
+              <li class="list-group-item" v-if="story.content && story.content!='\n'" v-html="story.content"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<script src="index.js"></script>
+
+
+
+https://customer-stories.githubapp.com:443

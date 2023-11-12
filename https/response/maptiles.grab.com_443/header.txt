@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: maptiles.grab.com
+User-Agent: SonyEricssonT68/R201A
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 76
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:31:13 GMT
+Server: AmazonS3
+Via: 1.1 d7433132a7c6595c9aab2dc2272e7060.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -UPr3k0TU0YSqdJGkWztdnQolXvzX-LyVqC_XKZmZ7_2dI0sEVgPyA==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+118
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>blank.pbf</Key><RequestId>EH85WE10WJHHG394</RequestId><HostId>gpUj4322ysWeVSyF72y4arv7IselGoo1jn0X1+d4HnOx5rrV03Me5Kg/TqEGMBercpqnlkuY1n4=</HostId></Error>
+0
+
+
+
+
+https://maptiles.grab.com:443

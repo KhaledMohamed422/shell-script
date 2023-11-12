@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: virtual-intercom.sandbox.latchaccess.com
+User-Agent: Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/0.8.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 05:09:08 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+79
+{"timestamp":"2023-11-08T05:09:08.678+0000","status":404,"error":"Not Found","message":"No message available","path":"/"}
+0
+
+
+
+
+https://virtual-intercom.sandbox.latchaccess.com:443

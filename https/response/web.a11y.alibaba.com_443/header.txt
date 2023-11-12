@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: web.a11y.alibaba.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: authorization,Cache-Control,Content-Type
+Access-Control-Expose-Headers: Content-Disposition
+Access-Control-Request-Method: GET,POST,OPTIONS
+Cache-Control: max-age=86400
+Date: Wed, 08 Nov 2023 10:29:36 GMT
+Location: /dist/public/index.html
+Set-Cookie: acw_tc=2760827616994393765943806eccab8fa5b47531403a2bd6f499f1773081db;path=/;HttpOnly;Max-Age=1800
+
+0
+
+
+
+
+https://web.a11y.alibaba.com:443

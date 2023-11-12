@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: qa2.hvmi.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20120403211507 Firefox/12.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 4101
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:29:12 GMT
+Etag: "3cd43d4429fbee756a35a8e3a2973950"
+Last-Modified: Thu, 26 Oct 2023 06:00:58 GMT
+Server: AmazonS3
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=124
+Server-Timing: origin; dur=102
+Server-Timing: ak_p; desc="1699378152600_34628911_288873351_22635_8050_4_0_-";dur=1
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Amz-Id-2: +nyNx2L1OznNc8HnFZAVrrb2faNSsF2yo6rEzAFTh5wsJH/wvhUth1cFklwy8+QkXBi1ABMahuWInAMaThQ4xQ==
+X-Amz-Request-Id: 8HWJY2JWN1FYZJDF
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 4rBDwF8AjhYLeDWnM7G6MfC8ZgngD7mu
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+

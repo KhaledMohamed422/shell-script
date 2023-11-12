@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: acdn.mercury.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; de-de) AppleWebKit/534.15  (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5e9eaa9bcb33-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:10 GMT
+Expires: Wed, 08 Nov 2023 02:26:25 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=oGAr6Yjqb79HEIT5KTEuJAjaewxL7Tgw.0FU6VWQCbY-1699410370-0-ASIxrMc7JJEBFEavJRU31oNblWnZM1eXAtDOgPWpwIoBZypRZrunCycWI/nPHWfOlgDztSVV3vGRC1593J0J1AY=; path=/; expires=Wed, 08-Nov-23 02:56:10 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11a3

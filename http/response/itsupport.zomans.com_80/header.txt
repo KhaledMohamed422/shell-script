@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: itsupport.zomans.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:03:37 GMT
+Location: https://itsupport.zomans.com/
+Nel: { "report_to": "nel-endpoint-freshservice", "max_age": 2592000, "include_subdomains": true}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: { "group": "nel-endpoint-freshservice", "max_age": 2592000, "include_subdomains": true, "endpoints": [{"url": "https://edge-admin.us-east-1.freshedge.net/nelreports/freshservice"}]}
+Server: fwe
+Status: 302 Found
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Envoy-Upstream-Service-Time: 15
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 78382ad8-bcd8-4ab6-b35b-24f7664040d5
+X-Runtime: 0.009994
+X-Trace-Id: 00-6a4667c93281af75625c60dbe7e9e6f4-93f56033c4f23172-00
+X-Xss-Protection: 1; mode=block
+
+5f

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: watchdog-do-not-remove-iso-01.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:57:28 GMT
+Server: nginx
+Vgs-Request-Id: d191e9142a11c895926a0b08ad86a432
+Via: 1.1 reverse-http-proxy-699d868cb5-ms9nl
+X-Envoy-Upstream-Service-Time: 32
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: d191e9142a11c895926a0b08ad86a432.
+
+
+https://watchdog-do-not-remove-iso-01.verygoodsecurity.io:443

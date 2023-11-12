@@ -1,0 +1,80 @@
+GET / HTTP/1.1
+Host: store.zapier.com
+User-Agent: Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.9a1) Gecko/20060702 SeaMonkey/1.5a
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 2827
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:49 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+
+{
+  "where am i?": "you are at store.zapier.com",
+  "-----------": "-----------------------------------------------",
+  "what is it?": [
+    "store.zapier.com is a simple storage REST API that you",
+    "might use to stash a bit of state. we use it to power",
+    "`StoreClient` in our Code steps of Zapier - you can read",
+    "more docs at https://zapier.com/help/code-python/ or at",
+    "https://zapier.com/help/code/."
+  ],
+  "---------------": "-------------------------------------------",
+  "what can it do?": [
+    "only one endpoint - GET & POST to read and write, PATCH to update",
+    "store any value that is JSON serializable",
+    "BYOS (bring your own secrets) for authentication"
+  ],
+  "--------------------": "--------------------------------------",
+  "what are the limits?": [
+    "we reserve to right to throttle anyone (but will avoid it)",
+    "inactive values are pruned after 2 months",
+    "each secret can be up to 36 characters in length",
+    "each secret can store up to 500 values",
+    "each key can be up to 32 characters in length",
+    "each value must be under 2500 bytes",
+    "if you go past your limits or do something bad, expect a 403"
+  ],
+  "-------------------------": "--------------------------------------",
+  "how do I create a secret?": [
+    "create a Zapier account if you don't already have one",
+    "log in to Zapier and go to https://zapier.com/app/connections",
+    "select \"Storage by Zapier\" to create a new Connection",
+    "you will be prompted to enter a secret"
+  ],
+  "-----------------": "-----------------------------------------",
+  "how does it work?": {
+    "always provide either `?secret=12345` or `X-Secret: 12345`": "",
+    "GET /api/records": [
+      "will return a full object of all values stored by default.",
+      "you can also specify only the keys you want via the",
+      "querystring like`?key=color&key=age`."
+    ],
+    "POST /api/records": [
+      "provide a body with a json object with keys/values you want",
+      "to store like `{\"color\": \"blue\", \"age\": 29}`."
+    ],
+    "DELETE /api/records": [
+      "completely clear all the records in this account"
+    ],
+    "PATCH /api/records": [
+      "A data with a particular schema needs to be received.",
+      "The schema specifies which action to do and with what parameters.",
+      "For example {\"action\": \"increment_by\", \"data\": {\"key\": \"<key_name>\", \"amount\": 1}} to increment the value specified by \"key\".",
+      "The following actions are currently supported:",
+      "increment_by",
+      "set_value_if",
+      "remove_child_value",
+      "set_child_value",
+      "list_push",
+      "list_pop"
+    ],
+    "For more about information about Storage by Zapier actions check out our help page.": "https://zapier.com/help/doc/how-get-started-storage-zapier"
+  }
+}
+
+
+https://store.zapier.com:443

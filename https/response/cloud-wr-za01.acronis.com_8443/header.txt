@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: cloud-wr-za01.acronis.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:14:24 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: cl5c9k42jnvo1a8th680
+X-Request-Id: e7b2183c135852c10902ac9c2a75ed4a
+
+b4
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse><params><param><value><string>Acronis Storage Manager (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://cloud-wr-za01.acronis.com:8443

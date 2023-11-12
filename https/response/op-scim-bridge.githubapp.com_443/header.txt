@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: op-scim-bridge.githubapp.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A526U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Length: 41
+Cache-Control: no-store, private
+Content-Security-Policy: default-src 'none'; connect-src 'self' https:; script-src 'self'; img-src 'self' data: https://w3.org; style-src 'self'; frame-ancestors 'none'; form-action 'none'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:29:25 GMT
+Expires: 0
+Location: /app/
+Referrer-Policy: no-referrer
+Request-Id: cl5f51bcgh1kbhk72urg
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Robots-Tag: none
+X-Xss-Protection: 1; mode=block
+
+<a href="/app/">Temporary Redirect</a>.
+
+
+
+
+https://op-scim-bridge.githubapp.com:443

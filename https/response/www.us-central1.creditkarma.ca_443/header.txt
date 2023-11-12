@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: www.us-central1.creditkarma.ca
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:6.0) Gecko/20100101 Firefox/6.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 93
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:19:12 GMT
+Server: envoy
+Via: 1.1 google
+X-Envoy-Decorator-Operation: ingress UnknownOperationName
+
+{"error":{"code":404,"status":"UNIMPLEMENTED","message":"Could not resolve / to a method."}}
+
+
+
+https://www.us-central1.creditkarma.ca:443

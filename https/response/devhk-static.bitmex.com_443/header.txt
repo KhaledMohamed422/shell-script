@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: devhk-static.bitmex.com
+User-Agent: Mozilla/5.0 (MeeGo; NokiaN950-00/00) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:05:40 GMT
+Server: AmazonS3
+Via: 1.1 ef4ff53b101ef123a46ec560b6c94cb8.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: ap-southeast-1
+X-Amz-Cf-Id: slG0rH5ru71tOA6JELCAi11KMaCAOHH69SKb3DbPy_kezzW-edMoTg==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>PEFAW3GSBTGQ8JAA</RequestId><HostId>qoRb4Hu9n7+djarcbHzZG2uDwZ/wdy1YJRwjTfsXLY7bX1pzlXqVfQEkHYs9nwyldQRZx2azO2A=</HostId></Error>
+0
+
+
+
+
+https://devhk-static.bitmex.com:443

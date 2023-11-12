@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: log16-platform-ycru.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/125.2 (KHTML, like Gecko) Safari/85.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:28 GMT
+Expires: Wed, 08 Nov 2023 18:40:28 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=451, origin; dur=427
+X-Akamai-Request-Id: 548619d.87f1b1b
+X-Cache: TCP_MISS from a23-15-178-237.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a2-22-31-190.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 427,2.22.31.190
+X-Parent-Response-Time: 877,23.15.178.237
+X-Tt-Logid: 20231108184027A4AC11A1C4C13A6D75F2
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5afe4d6b80db6552736c7a1e995aa787309113191f7effe342a46ba0abc39204dbd74be9e27dd25c5a7285766cc6e0ddd0fcbc7397fadd8dd74abbf1412f1d341f
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

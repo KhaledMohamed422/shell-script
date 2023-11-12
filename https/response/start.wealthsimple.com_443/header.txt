@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: start.wealthsimple.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; Coolpad 3632A Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Alt-Svc: h3=":443"; ma=2592000
+Date: Tue, 07 Nov 2023 17:29:51 GMT
+Location: https://typeform.com/
+Server: Caddy
+Server: istio-envoy
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://start.wealthsimple.com:443

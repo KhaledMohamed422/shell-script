@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: pha-staging.ropharmacy.com:8443
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; tr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 ( .NET CLR 3.5.30729; .NET4.0E)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8248e6c76c38cafd-DUS
+Date: Sat, 11 Nov 2023 19:22:00 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://healthbyro.cloudflareaccess.com/cdn-cgi/access/login/pha-staging.ropharmacy.com?kid=b69df3a6921610854ce49a350bd64f479467a5fb84ef3fca4e5a84158207fc23&redirect_url=%2F&meta=eyJraWQiOiJlMTI2ZmI5ZTcxMmNkMjE4NjMwZWY3ZjM5NzFkMWExYzYxZmUyY2I3Zjc0OGIzMjVkZDQzN2QwZjIyODc2OTlkIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTczMDUyMCwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6ImI2OWRmM2E2OTIxNjEwODU0Y2U0OWEzNTBiZDY0ZjQ3OTQ2N2E1ZmI4NGVmM2ZjYTRlNWE4NDE1ODIwN2ZjMjMiLCJob3N0bmFtZSI6InBoYS1zdGFnaW5nLnJvcGhhcm1hY3kuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6ImVjMWNjZWZhN2U1MWUzODFiNWEwNjIwMjgzYzI0NjUxNjJjN2JkZjllMThmMTVhNGY3NjQyMTgyMmU5NTRmN2UiLCJuYmYiOjE2OTk3MzA1MjAsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcLyIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfZG4iOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.j61TTgGAlT1pu6dNQvsKh2Sf84sFbbYQrcg-nyYkX3unM2g2w8SrKL-6-JuEfhXuDSRwCS4f44xgryeQ066gaCLqBKQlG-qw10pv9wiBebx2PweJI9LG3284EhzKq4187fED_DxyTLMHePskXYRmvi_Q3XBelynq0m5OQxduEnIGpm7Q_oUfT7FMx-RRynZJTZc6LDsUlnG9klYh3fJ0lrASrq0r0kcxeWElqJ_d48-qjBYzvmQ12WL1TzlpYGKXBL1uVDWxaPUgd3964Pn1W6aVcdXQOp4itgu2jEcWkDLoJYjANnw6ZvXUT6r0PhR1AIP5DX8eNZGLe7QS2xHVTA
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JwFPbcXTqXjhdD%2FqZj%2B6LZHZJLAmtm9JhclsQhIK6p6TpSHCi7oglHxsv727qgInGDLI052jfeE2A%2BewEHja2ukdN0YLuN%2FoUoKiC5hdLfkrEbcZ%2BxmDlWS2V3qgdraEHz2bNLByO5DubJOuRsfVJdtu"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: CF_AppSession=nddcc27536584e3cd; Expires=Sun, 12 Nov 2023 19:22:00 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://pha-staging.ropharmacy.com:8443

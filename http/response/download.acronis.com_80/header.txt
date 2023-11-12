@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: download.acronis.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:48:24 GMT
+Location: http://acronis.com
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+

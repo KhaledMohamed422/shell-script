@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: cdn-australiaeast-release-b.citrixworkspacesapi.net
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 833
+Content-Security-Policy: base-uri 'self';connect-src https:;default-src https:;form-action 'none';frame-ancestors 'none';font-src https:;frame-src https://www.youtube.com/embed/ https://app.pendo.io;img-src https: data:;manifest-src 'none';media-src https:;object-src 'none';prefetch-src https:;report-to csp-violations;report-uri /csp-violations;script-src 'nonce-OtvY6SDU1t3+Aky1vxDCvw==' 'unsafe-inline' 'strict-dynamic' https: googletagmanager.com google-analytics.com app.pendo.io cdn.pendo.io data.pendo.io pendo-io-static.storage.googleapis.com citrix-cloud-content.customer.pendo.io citrix-cloud-data.customer.pendo.io pendo-static-6508245000126464.storage.googleapis.com 'sha256-Kk3x6TBlDpQxJPh9EFIkBC81EU79d/BJCYFSx1O/3pA';style-src https: 'unsafe-inline';worker-src blob:
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:13:48 GMT
+Expect-Ct: max-age=0
+Location: https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9hcC1zLmNsb3VkLmNvbS87UTBNdFVsTkJMVk5JUVRJMU5pMHlPekUyT1Rrek9UZzRNamc3TlRoaU9UVXlOR1ZoTldNMU5URmlOV1ZqTkdRMlpUQmpZVEkyWXprMlptWTdXRVJ2ZVM4elZFRkdPRXQ1YUM5TGJIbzJiVlpOTlZwRlRrSk9WVFk1ZFZCTVRGQlROeTlxTjJOQmVHcHRNelppZVdoaldTOWllRFZIVW5RNGNHUkhSQ3RaU0V4U1NqQktXbk5RY1ZrM2VFZERjMVF3YVU0dlEwbDNMM1IzZGtwUloyWlNiWGhyVWpKcVQxbFFielp1VEd4WlRsQjBiWEp0U0hNMlkyUk1jQ3R1YTA1dlR6UnFaMUJxVFRrdlpGQm5kbU5yUTNSVmIyY3ZVWGx0YUdac09VRjFUbUoyUzNOaWNGbGtMM2RNWldSa1IyWXpNRGRHUm1nMlJGbFlaRTlYWjNSb1pUZE5Oek4yZEdWMGVubFVSVTVsUm5VNFN6QTRTR2t4U1VRdmFHWjNia3BFU1RZellsUjNXbVpPT0V0blZuWldaR0ppV1RsbmJ6Z3diVEV5TlZFdlYxRjZkR0ZzYnl0d1ducG5TMGR0U2pZNVJVdHNkRnBGTTBkNE5rbGhRazV6UmxCNFFUTlRha281TUVScWFrZE1jblJOZFRSYVZtZ3lMelZpY0VkR1VWWkZlRVF4TmtGQ1drcEdkRTFuZWxKQlIxQjNQVDA3UTI5dWMyOXNaUT09
+Referrer-Policy: no-referrer
+Report-To: {"group":"csp-violations","max_age":1800,"endpoints":[{"url":"https://console-australiaeast-release-b.citrixworkspacesapi.net/csp-violations"}]}
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=787
+Server-Timing: origin; dur=19
+Server-Timing: ak_p; desc="1699398828111_1752388103_129478618_80614_1132_0_5_-";dur=1
+Set-Cookie: X-Cws-TransactionId=dca42b71-3cf3-4d3d-900c-0d78a7556118; Domain=.citrixworkspacesapi.net; Path=/; Expires=Wed, 08 Nov 2023 23:13:48 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: idp=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderConfirmationId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderOrgId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderPersonId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: state=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: dca42b71-3cf3-4d3d-900c-0d78a7556118
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly9hcC1zLmNsb3VkLmNvbS87UTBNdFVsTkJMVk5JUVRJMU5pMHlPekUyT1Rrek9UZzRNamc3TlRoaU9UVXlOR1ZoTldNMU5URmlOV1ZqTkdRMlpUQmpZVEkyWXprMlptWTdXRVJ2ZVM4elZFRkdPRXQ1YUM5TGJIbzJiVlpOTlZwRlRrSk9WVFk1ZFZCTVRGQlROeTlxTjJOQmVHcHRNelppZVdoaldTOWllRFZIVW5RNGNHUkhSQ3RaU0V4U1NqQktXbk5RY1ZrM2VFZERjMVF3YVU0dlEwbDNMM1IzZGtwUloyWlNiWGhyVWpKcVQxbFFielp1VEd4WlRsQjBiWEp0U0hNMlkyUk1jQ3R1YTA1dlR6UnFaMUJxVFRrdlpGQm5kbU5yUTNSVmIyY3ZVWGx0YUdac09VRjFUbUoyUzNOaWNGbGtMM2RNWldSa1IyWXpNRGRHUm1nMlJGbFlaRTlYWjNSb1pUZE5Oek4yZEdWMGVubFVSVTVsUm5VNFN6QTRTR2t4U1VRdmFHWjNia3BFU1RZellsUjNXbVpPT0V0blZuWldaR0ppV1RsbmJ6Z3diVEV5TlZFdlYxRjZkR0ZzYnl0d1ducG5TMGR0U2pZNVJVdHNkRnBGTTBkNE5rbGhRazV6UmxCNFFUTlRha281TUVScWFrZE1jblJOZFRSYVZtZ3lMelZpY0VkR1VWWkZlRVF4TmtGQ1drcEdkRTFuZWxKQlIxQjNQVDA3UTI5dWMyOXNaUT09
+
+
+https://cdn-australiaeast-release-b.citrixworkspacesapi.net:443

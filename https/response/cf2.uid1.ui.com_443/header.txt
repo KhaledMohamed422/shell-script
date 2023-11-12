@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cf2.uid1.ui.com
+User-Agent: libwww-perl/5.820
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:46:54 GMT
+Server: AmazonS3
+Via: 1.1 f8895de4463e8d120a0f4b4a1f7703e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IOl7ZhtHgKwOQsWCq6aCacni2bi9SHcR2di0fpk5iUyD92jUpFXf9w==
+X-Amz-Cf-Pop: FRA53-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>X5WWKBCJ2BYYKCDY</RequestId><HostId>C3UAwooIwRbY54hFdtGB/0zglp8BAO46g5kP562f8xiJvvzVXC8gnqNB9yh+4gYs2FyjSwZWY+4=</HostId></Error>
+0
+
+
+
+
+https://cf2.uid1.ui.com:443

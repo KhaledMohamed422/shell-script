@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: nw-airflow-preprod2.nerdwallet.com:8080
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/91.0.4472.80 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82277ebf0fc47162-DUS
+Date: Tue, 07 Nov 2023 18:03:48 GMT
+Expires: Tue, 07 Nov 2023 19:03:48 GMT
+Location: https://nw-airflow-preprod2.nerdwallet.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=kBmssAsbGVc5oSNUuQxR6LtdkLCoJmOGq1XBHpOLbY4-1699380228-0-ARa4HrIMWpeAl6phli12cu+amWFZD+Q4X9aEDgixmuGxVGCCf7dnSyizLey2DhO1nGTEMF9iO2abJldToJnHw13WBcJLWDL/yRRbTC2HZ2L+; path=/; expires=Tue, 07-Nov-23 18:33:48 GMT; domain=.nerdwallet.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://nw-airflow-preprod2.nerdwallet.com:8080

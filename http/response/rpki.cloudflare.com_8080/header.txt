@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: rpki.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.162 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227e1d98862162d-DUS
+Date: Tue, 07 Nov 2023 19:11:28 GMT
+Expires: Tue, 07 Nov 2023 20:11:28 GMT
+Location: https://rpki.cloudflare.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lhr7Ke1gjrrynh7qjBUajdZTf3AAnMujCaFC7PNeTPSv8fcxiL9nusG6mesLNvPtUwYWK1ZIjuin78Eq4%2FBs703nZRAHKCDTrLDglZMhO%2FKjQGTE29huBkeJZIOnNfr%2BfzIXz%2B9%2FTFB4Vg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://rpki.cloudflare.com:8080

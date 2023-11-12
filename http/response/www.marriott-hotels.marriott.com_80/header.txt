@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: www.marriott-hotels.marriott.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/60.0.3112.78 Chrome/60.0.3112.78 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82273f6349032169-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:20:34 GMT
+Location: http://marriott-hotels.marriott.com/
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+

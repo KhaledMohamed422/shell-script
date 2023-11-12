@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: connect.redditinc.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 635) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: false
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=5,max-age=5
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 822848e33d581619-DUS
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 20:21:49 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6CnM7CzD0jwX5DVjycCyAQ2cTGkjsxNhy3SaV6zuBLYLK0DlmCMdAzx5VCUMMGNZLKrpmugT7qaCMKRmKCJE4W2C0oo8kYJki50gu4HTJ%2BWVWuaLyS%2FLNsX6RTWt7gxl8%2BKYTPqOtQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=7HexGdA7USIF_Orw9GEZ25iAggiiVb9F2.BSDrWTMVA-1699388509-0-AUbPp6NbdzPm7kVvh6L6DjpJnWdA4wOupz4S3nSdsFA3mlleyKFpZzlNNqHfiOKC/t6unCPV3N7KG0itL9XDeGs=; path=/; expires=Tue, 07-Nov-23 20:51:49 GMT; domain=.connect.redditinc.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=9b51c9139bfbbd7690036eaf84789eb3f980d5a6-1699388509; path=/; domain=.connect.redditinc.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000
+Vary: origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 26
+X-Evy-Trace-Listener: listener_https
+X-Evy-Trace-Route-Configuration: listener_https/all
+X-Evy-Trace-Route-Service-Name: envoyset-translator
+X-Evy-Trace-Served-By-Pod: iad02/cms-10-19-td/envoy-proxy-5d6cd77679-lqwd5
+X-Evy-Trace-Virtual-Host: all
+X-Hs-Https-Only: worker
+X-Hs-Prerendered: Wed, 09 Aug 2023 21:50:45 GMT
+X-Hs-Reason: No view mapper found to handle request
+X-Hubspot-Correlation-Id: 00918a75-4f31-460d-be1a-6ef8b082be23
+X-Hubspot-Notfound: true
+X-Request-Id: 00918a75-4f31-460d-be1a-6ef8b082be23
+X-Trace: 2B2E27616BCD9DFFD83B07ADC5FEEF59C5124585CF000000000000000000
+
+aeac

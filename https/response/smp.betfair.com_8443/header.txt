@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: smp.betfair.com:8443
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bc5178881614-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:50 GMT
+Expires: Tue, 07 Nov 2023 18:46:05 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6r3bOmDu%2FTL751O4lQevJ1%2FSGm5qTEW1H4yg2CQNoewenkT2%2FDbpbyKGe%2BlYaadKX58LoyYO%2Fp7z%2B2hIeAeHp9w5lm4%2BL11oZ9VLtADrQ6Yc%2F6QA9%2FMJ5ioTxV2Asor%2Fl0DqWL9f"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

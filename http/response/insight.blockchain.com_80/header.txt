@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: insight.blockchain.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.101 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:03:36 GMT
+Server: nginx
+Vary: Accept-Encoding
+Via: 1.1 google
+
+81
+{"error": "not_found", "description": "Endpoint not found. Ensure the domain is correct and the path maps to a valid endpoint."}
+
+0
+
+
+
+
+http://insight.blockchain.com:80

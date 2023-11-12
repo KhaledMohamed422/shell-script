@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: sg-baas.acronis.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:29:10 GMT
+Front-End-Https: on
+Location: /login
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: ELS5qiXdcsKnkG6C8KyuUG
+X-Request-Id: 9b800b3352e53cea01b37bb7fd2f3dbd
+Content-Length: 0
+
+
+
+
+https://sg-baas.acronis.com:443

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: myfunds.betfair.ro
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LGMS323 Build/KOT49I.MS32310b) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.103 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bb913e462181-DUS
+Date: Tue, 07 Nov 2023 18:45:20 GMT
+Location: /error?loginReturnURL=%2F
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+P3p: CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=M38SJLRajR%2BBeTK%2FsZvphJZV%2F3EYJpD0Qt2%2FBE4gl2pKN%2BC1FvtMNHD9f8wzqY6vdhXa2l1XyFxdanl5rqerxQ3AR7kqO7jCNv9goSgIH1cgIW9Ou1u5S2uZdOJYE7ReyCpFVw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: wsid=cd4e9201-7d9d-11ee-a420-fa163ed23cb7; Domain=.betfair.ro; Path=/
+Set-Cookie: vid=cd4e9202-7d9d-11ee-a420-fa163ed23cb7; Domain=.betfair.ro; Expires=Wed, 06-Nov-2024 18:45:20 GMT; Path=/
+Set-Cookie: __cf_bm=55nU3zjqPD4EbNcdQgkbZ6fikR15xgQE0kdO7vijY20-1699382720-0-Ad+hEwyvMO1GSaPVsfsp7NqbSnP6SXYNeAcGsVm8pzOBAsBWQMlyrq9Tm2Tu6MZUOw7uXSjEkH30mMqHNRcZIl4=; path=/; expires=Tue, 07-Nov-23 19:15:20 GMT; domain=.betfair.ro; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://myfunds.betfair.ro:443

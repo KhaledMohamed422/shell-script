@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: developer.wellsfargo.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; de-de; HTC Magic Build/PLAT-RC33) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 FirePHP/0.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate, proxy-revalidate
+Content-Language: en-US
+Content-Security-Policy: object-src 'none'; default-src 'none'; script-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.wf.com https://pdx-col.eum-appdynamics.com https://www.googletagmanager.com https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://ssl.google-analytics.com https://*.kampyle.com https://*.medallia.com 'nonce-rBgA9WSPCAeyYbp3WhUZdbD6AwDxV3mfEtgKhE3v6pg='; style-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.wf.com https://*.kampyle.com https://*.medallia.com 'unsafe-inline'; font-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.wellsfargomedia.com https://*.kampyle.com https://*.medallia.com data:; img-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.wf.com https://www.google-analytics.com https://*.kampyle.com https://*.medallia.com data:; connect-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.wf.com https://pdx-col.eum-appdynamics.com https://www.google-analytics.com https://*.kampyle.com https://*.medallia.com; report-uri https://ort.evetest.wellsfargo.com/securereporting/reporting/v1/csp; report-to csp-endpoint; base-uri 'none'; form-action 'self' https://ciaanalytics.wellsfargo.com; frame-src 'self' https://*.wellsfargo.com https://*.wellsfargo.com:* https://*.kampyle.com https://*.medallia.com; frame-ancestors 'none'; media-src data: 'self' https://*.wellsfargo.com https://*.wellsfargo.com:*;
+Content-Type: text/html;charset=ISO-8859-1
+Date: Wed, 08 Nov 2023 19:29:08 GMT
+Expires: 0
+Last-Modified: Fri, 06 Oct 2023 15:20:30 GMT
+Pragma: no-cache
+Report-To: {"group": "csp-endpoint", "max_age": 10886400, "endpoints": [{"url": "https://ort.wellsfargo.com/securereporting/reporting/v1/csp"}]}
+Set-Cookie: ADRUM_BTa=R:0|g:2bd79caf-aff7-4bb1-a643-c1eb646b6955; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: ADRUM_BTa=R:0|g:2bd79caf-aff7-4bb1-a643-c1eb646b6955|n:wellsfargo-prod_43732a1d-9afc-4e95-ad69-f4ac78c780a7; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: SameSite=None; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: DP-XSRF-Cookie=5aa40528-fa09-462a-80bf-fb32af21319d; Path=/; Secure
+Set-Cookie: ADRUM_BT1=R:0|i:201596; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: ADRUM_BT1=R:0|i:201596|e:15; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: ADRUM_BTs=R:0|s:f; Max-Age=30; Expires=Wed, 08 Nov 2023 19:29:37 GMT; Path=/; Secure
+Set-Cookie: HSERVERID=apim-content-delivery-4; path=/
+Set-Cookie: developer_443_infra_2=!DJavowZJZ98oRDRfyUeOIqn7jnxHNMwDHmJDh0m19GoGdTC4+TFVS47oveIkEVDeJDkpqk6DUmpLS3I=; path=/; Httponly; Secure
+Set-Cookie: TS017816ce=01baf59c83226e6b212054836660eda89581e43933bf4d40c31776003407d3dfe96ebcebdfb822d19c4b5a7220b4ec1b738ada5dd77bfc3df495438cd792fb0a0926e9b559d08522043a4c9d893cd84a786564bcb0b1fa8dc17295cefaf5a4bedd079843bb59dcc94984ca5cc776cad8c8f7792e05e9fb119f97cc5e1c1ee4a2a1fba2f08bd5f2bff76295841dd59fbe56df2da760144f2d8da72b3f3758997b39191e0e831a4fe509e2c4b09d6f0e09bd2d7c5e3d7e6fd102621bda79d621fe51407636de; Path=/
+Set-Cookie: developer_443_infra_1=!cVI41bSoR1Vt8eJfyUeOIqn7jnxHNHrRah1PDeCneLtE+0heOO4WIgUGYOZQSe7qlG2LA9jG2+FX; path=/; Httponly; Secure
+Set-Cookie: DCID=mOYX3LEYnKSDaAJFUHyVs%2fS5uu+mazAzjm27PZQapQw%3d; Domain=developer.wellsfargo.com; Path=/; Expires=Wed, 08 Nov 2023 19:44:07 GMT;Httponly; Secure
+Set-Cookie: _abck=85846D08E38B501F26DF29FC57B73EFC~-1~YAAQSLEXApemKKiLAQAAu+tosArbpbWshyHauxDqdqzeaSQCGQQyaJiGpQ9YSiGVUrt7moL6pj13NEhZomAfzCpgBU7INKYKiqtPpcn4NLYd5mV5WwdlcXJU7V2SlUk7xiaHaL8lrtZXpiynVcHaYIZXGl1jf1i6ENK2yEhx4XZvS3fR28zVRtFFglYWgSLSM53Ut4jsHQao9gWHhtcA+ewTyIFYkjVuK1OzAYbMQLoDEXmZfF0IIBOR3cmKL5fUVJtV2gl+kfQf00igNO96Klct9bgtED1E9mh3UB+Uhs803V2nHKDLvFvbf5/DEE/28TqYAFJzYbisG8jSzjMdMxWRPC9LCGP6N3mptpiDYSbLPl8nYm9TGqaV9HDhWFTVTA==~-1~-1~-1; Domain=.wellsfargo.com; Path=/; Expires=Thu, 07 Nov 2024 19:29:08 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=80CD18EE5BA31906D3ED7584AFA4B6D6~YAAQSLEXApimKKiLAQAAu+tosBUstlUHEungMngTzijYyGBznfkV12xjt2Vhxv3LIw9botbz2lMNeZLFwjh2dTpxdwLUEHdBwY/s2IcZZoUKlZoeW3+St8dxceVQVby8M8ESen+GSk2cYY5oSOs5MUhqbkxLtehygw5DeHUyaAIZZDQjECj1Z0gqLQ5JaU8/15Z1IbvfLKK6K6ZfwbQmbSoNPM8odmmH64WFJc9EPA3D+pkPZ+z2J0yvEWuQ8Jg/X+eWUdPZ8OQ3WmYF3GhY1QITLx32wavOhpw2DzrPOTZ30Cyyc6qw~4470580~4536629; Domain=.wellsfargo.com; Path=/; Expires=Wed, 08 Nov 2023 23:29:07 GMT; Max-Age=14399
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

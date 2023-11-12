@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ire34927.sprint.apps.dynatracelabs.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 165
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:03:28 GMT
+Dynatrace-Response-Source: API Gateway
+Expires: 0
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Traceresponse: 00-f74115da50b60cd6911635cac066ab84-c64505dbc28b7c2f-01
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Dt-Tracestate: f148e083-4b338275@dt
+X-Xss-Protection: 0
+
+{"error":{"code":401,"message":"Authentication required","details":{"errorRef":"70a2ddb0-16f0-449a-9b3e-145e508900a9","traceId":"f74115da50b60cd6911635cac066ab84"}}}
+
+
+https://ire34927.sprint.apps.dynatracelabs.com:443

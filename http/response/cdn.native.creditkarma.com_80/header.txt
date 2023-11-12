@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: cdn.native.creditkarma.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Date: Tue, 07 Nov 2023 19:08:17 GMT
+Location: https://cdn.native.creditkarma.com/
+Retry-After: 0
+Server: Varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230114-FRA
+X-Timer: S1699384097.001469,VS0,VE0
+Content-Length: 0
+
+
+
+
+http://cdn.native.creditkarma.com:80

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: error-pages.chime.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI CAN-L11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 21:27:48 GMT
+Server: AmazonS3
+Via: 1.1 857b0dca772798c338c78a1be69c955c.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: pynxVnMlugquWrVaCvm6ZFNR8qTod9pECYVlnH0kI3JvuijFb6JLqQ==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>J52PQAKR3667MXJH</RequestId><HostId>jxnl1N4i+zNUYYC0Cw2fQbm89V4gBHNnL6kZXgxdGTCMqfX1Ec3yxblntQVlsydWdfQfqvsydPs=</HostId></Error>
+0
+
+
+
+
+https://error-pages.chime.com:443

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: lookup-staging.qubit.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14588.98.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.59 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 2
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 02:28:56 GMT
+Via: 1.1 google
+
+OK
+
+
+https://lookup-staging.qubit.com:443

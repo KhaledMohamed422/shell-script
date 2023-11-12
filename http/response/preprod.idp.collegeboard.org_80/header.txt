@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: preprod.idp.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; MATBJS; rv:11.0) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:18:59 GMT
+Location: https://preprod.idp.collegeboard.org//
+Server: Apache
+

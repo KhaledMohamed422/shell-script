@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: ikya.vhx.tv
+User-Agent: Roku/DVP-4.1 (024.01E01250A)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b37a5c8e3cb0d-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:54:21 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699419259&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=tLn2Gdz6xsy9tbNpPaz2pl%2FUPwIX5Fef3NvlpXLoGME%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699419259&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=tLn2Gdz6xsy9tbNpPaz2pl%2FUPwIX5Fef3NvlpXLoGME%3D
+Server: cloudflare
+Set-Cookie: _session=RG5MWXBjdDZPM0tSWlR6RE1VeW9TNW5GblBhd09tUW5rNmtDcXFSQTdXclpPUExEQlp0TTdwWVpvZlNiL0lhZUtvZVQ1K0dpWWFYb2lqK3pHQXNUdTdGZEUwYm9GcVl3ZVBPWm82dzlBQzBvb2M5UGg3cHBQK0JOTWl5UklsMmFNT1B5WGZ5dE1pRXFBdTNhZm5vSFFlWjVKVGt0UlRycUczdDNIanRyNGJ5RXY5MW9ZQ0VwSUhlRUs4KzI3ME1ILS0zYVF2QjVxdElEeFdPNHlmUXBiUzJBPT0%3D--c03cb17665981cb710a617f071836b70899d832f; domain=.vhx.tv; path=/; expires=Fri, 08 Nov 2024 04:54:21 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: __cf_bm=JAPhGkUz3MtrVFvGqn.zmQHDxkNiNrq8DOUOpQNwJDY-1699419261-0-AY2zGmiK0gCLf35NK7me1xzkkkoYLX3WLdOj4DMlKXNRal7ihC/xHwe0xYQwZaVK4ouwCaeRvSnpzhm4IMrmG60=; path=/; expires=Wed, 08-Nov-23 05:24:21 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 200 OK
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: dff8a4b2-62d3-4146-be13-204151a57ccf
+X-Runtime: 1.202078
+X-Xss-Protection: 1; mode=block
+
+214db

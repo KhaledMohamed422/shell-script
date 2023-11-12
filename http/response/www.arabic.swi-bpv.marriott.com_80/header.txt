@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www.arabic.swi-bpv.marriott.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 292
+Akamai-Grn: 0.1d284317.1699377625.e3e8786
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:20:25 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:20:25 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699377625362_390277149_238978950_19_35581_4_0_-";dur=1
+Www-Authenticate: Basic realm="Secure Area"
+

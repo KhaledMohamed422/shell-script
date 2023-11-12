@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api16.tiktokv.com
+User-Agent: Mozilla/5.0 (compatible; bingbot/2.0  http://www.bing.com/bingbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:36 GMT
+Expires: Wed, 08 Nov 2023 18:38:36 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=689, origin; dur=9
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Akamai-Request-Id: 11baf59e.52a09e1
+X-Cache: TCP_MISS from a23-15-178-191.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-75-21-24.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 9,23.75.21.24
+X-Parent-Response-Time: 697,23.15.178.191
+X-Tt-Logid: 202311081838352E0928A24EE78C26CA0D
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a0d0b0630a8ecbca5f2ec5fc68cd28ec194284531dabb37375db9f679d78496a76a3890088f3f041d4c39e04adb1a57495c9870b95305593f53b3e25e283002de
+X-Tt-Trace-Id: 00-2311081838352E0928A24EE78C26CA0D-6A7406616EDA58A0-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr" class="ja dir-ltr  no-js "><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/survey.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/embeddables.min.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/template-core.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/awesome-bootstrap-checkbox.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/noto.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/yiistrap.min.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/ajaxify.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/errors.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/animate.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/sea_green.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/nintendo_blue.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/theme.css">
+<link rel="stylesheet" type="text/css" href="/errors/cannot_be_survey_files/custom.css">
+<script type="text/javascript">window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="/errors/cannot_be_survey_files/jquery-3.5.1.min.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/jquery-migrate-3.3.2.min.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/moment-with-locales.min.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/em_javascript.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/survey.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/template-core.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/lslog.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/pjax.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/bootstrap.min.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/bootstrapconfirm.min.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/theme.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/ajaxify.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/custom.js.download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/custom.js(1).download" class="headScriptTag"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/survey_runtime.js.download" class="headScriptTag"></script>
+<title>
+                            Error 
+                    </title>
+
+                <meta name="generator" content="LimeSurvey http://www.limesurvey.org">
+                    <link rel="shortcut icon" href="/errors/cannot_be_survey_files/favicon.ico">
+            </head>
+
+    <body class="MyNintendo fruity vanilla lang-ja " marginwidth="0" marginheight="0"><script type="text/javascript" src="/errors/cannot_be_survey_files/decimal.js.download"></script>
+<script type="text/javascript" src="/errors/cannot_be_survey_files/decimalcustom.js.download"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+var LEMmode='group';
+var LEMgseq='';
+ExprMgr_process_relevance_and_tailoring = function(evt_type,sgqa,type){
+if (typeof LEM_initialized == 'undefined') {
+LEM_initialized=true;
+LEMsetTabIndexes();
+}
+if (evt_type == 'onchange' && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa) && (typeof last_evt_type !== 'undefined' && last_evt_type == 'TAB' && type != 'checkbox')) {
+  last_evt_type='onchange';
+  last_sgqa=sgqa;
+  return;
+}
+if (evt_type == 'updated'  && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa)) {
+  last_evt_type='updated';
+  last_sgqa=sgqa;
+  return;
+}
+last_evt_type = evt_type;
+last_sgqa=sgqa;
+
+}
+
+/*]]>*/
+</script>
+
+<div class=" navbar navbar-default navbar-fixed-top"></div>
+            <div class="outerframe container" style="margin-top:30px;padding-bottom:200px;padding-left:20px;">
+                <div class="token-page" style="font-family: Arial, Helvetica, sans-serif;color: #373737;">
+                    <div class="h3"><p class=" text-danger inherit-sizes" role="alert" style="color: rgb(55, 55, 55);">
+    This survey cannot be accessed at this time.</p>
+<p class="message-0" style="color: rgb(55, 55, 55);"> </p>
+
+                        <div class="col-xs-12 save-all text-right img-responsive">
+                            <img style="max-width: 30%;margin-top: 60px;margin-bottom: 60px;" src="/errors/cannot_be_survey_files/icon.png" alt="My Nintendo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(function(){
+                    $('.h3').find('p').each(function(){
+                        $(this).css('color','#373737');
+                    });
+                });
+            </script>
+                    
+            <script type="text/javascript" src="/errors/cannot_be_survey_files/embeddables.min.js.download"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+$(function(){
+  console.log('jqueryui version: '+$.ui.version);
+});
+
+            try{ 
+                triggerEmClassChange(); 
+            } catch(e) {
+                console.ls.warn('triggerEmClassChange could not be run. Is survey.js correctly loaded?');
+            }
+
+triggerEmRelevance();
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+updateMandatoryErrorClass();
+});
+/*]]>*/
+</script>
+
+
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2049951718" async></script></body></html>
+
+0
+
+
+
+
+https://voice.my.nintendo.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: workbench2-cn-hangzhou.data.aliyun.com
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaE6-00/021.002; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.16 Mobile Safari/533.4 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Content-Length: 267
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=utf-8
+Date: Wed, 08 Nov 2023 10:34:38 GMT
+Eagleeye-Traceid: 0bc059b716994396781888609ef0bc
+Expires: 0
+Pragma: no-cache
+Server: Tengine
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":"会话超时过期","errCode":-401,"errMsg":"会话超时过期","recommend":"https://setting-cn-hangzhou.data.aliyun.com/dataos/selectTenant?redirectUrl=https://ide2-cn-hangzhou.data.aliyun.com/login.html","requestId":"c2c12599-3720-4694-8bbf-1713f3bb8f2d"}
+
+
+https://workbench2-cn-hangzhou.data.aliyun.com:443

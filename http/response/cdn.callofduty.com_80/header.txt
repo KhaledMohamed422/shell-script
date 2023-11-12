@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cdn.callofduty.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:07:44 GMT
+Server: AmazonS3
+Via: 1.1 70d755f7200c02162c7545e4ce74649a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-2
+X-Amz-Cf-Id: frMsgJRXdQgl1Pjttr2SUNCbadOpxF-PUe-NjCZLJBLDlkUgmMH5bg==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>207EEQ8SPRTGKHNB</RequestId><HostId>IgxBAeE3ZaxDW67kdVETBC5HektxH0nPPMX7zpuOBzlWQVsXjCeUKfLIOLkThgwMrpoEQNl/O9c=</HostId></Error>
+0
+
+
+
+
+http://cdn.callofduty.com:80

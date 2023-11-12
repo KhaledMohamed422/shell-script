@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>  
+    <link href="https://demobank.ozow.com/css/app.css" rel="stylesheet">
+    <style>
+        .wrapper {
+            height: 100%;
+            min-height: 47.1em;
+        }
+        .ipay-bottom-border {
+            border: 1px solid green;
+            border-radius: 5px 5px 0 0;
+        }
+        .ipay-bottom-top {
+            border: 1px solid green;
+            border-radius: 0 0 5px 5px;
+        }
+        .ipay-margin-bottom{
+            margin-bottom:1em;
+        }
+    </style>
+</head>
+<body>
+<script src="https://demobank.ozow.com/js/app.js"></script>
+
+    <div class="container">
+      <header class="ipay-bottom-top" style="background-image: url('img/Instant-EFT-Payment-iPay-bga1.jpg');">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-left">
+                        <img src="https://cdn.i-station.co.za/img/ozow-black.png" style="max-width: 90px;" title="Ozow logo" alt="Ozow logo">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-right">
+                        <img src="https://cdn.i-station.co.za/img/ozow-black.png" style="max-width: 90px;" title="Ozow logo" alt="Ozow logo">
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </header>
+    <div class="container-fluid ipay-margin-bottom">
+        <h1 class="text-center">Demo Bank</h1>
+                 
+    <div class="container-fluid">
+        <fieldset>
+            <legend>Login</legend>
+            <form method="POST" action="https://demobank.ozow.com/login" accept-charset="UTF-8" id="login-form"><input name="_token" type="hidden" value="sxy8YVeBJl41ua6vhVNAlcIN36d8xGVzSo0B9e32">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="username" class="control-label">User Name</label>
+                        <input class="form-control" required="" maxlength="255" name="username" type="text" value="" id="username">                
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="control-label">Password</label>
+                        <input class="form-control" required="" name="password" type="password" value="" id="password">
+                    </div>
+                    <div class="form-group text-right">
+                        <input class="btn btn-primary" id="SubmitLogin" type="submit" value="Login">                    
+                    </div>
+                </div>
+            </form>            
+        </fieldset>
+    </div>
+    </div>        
+    <footer class="ipay-bottom-border" style="background-image: url('img/Instant-EFT-Payment-iPay-bga1.jpg');">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="text-left">
+                        <img src="https://cdn.i-station.co.za/img/ozow-black.png" style="max-width: 90px;" title="Ozow logo" alt="Ozow logo">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-right">
+                        <img src="https://cdn.i-station.co.za/img/ozow-black.png" style="max-width: 90px;" title="Ozow logo" alt="Ozow logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    </div>
+</body>
+</html>
+
+0
+
+
+
+
+https://demobank.ozow.com:443

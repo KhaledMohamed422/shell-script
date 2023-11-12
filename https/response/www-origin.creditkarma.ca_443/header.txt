@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: www-origin.creditkarma.ca
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/014.002; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.4 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 93
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:19:01 GMT
+Server: envoy
+Via: 1.1 google
+X-Envoy-Decorator-Operation: ingress UnknownOperationName
+
+{"error":{"status":"UNIMPLEMENTED","message":"Could not resolve / to a method.","code":404}}
+
+
+
+https://www-origin.creditkarma.ca:443

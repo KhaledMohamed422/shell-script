@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: preview.gotinder.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS sun4m; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 18:46:04 GMT
+Server: AmazonS3
+Via: 1.1 9ac192ffc1203361ea1141b56df84966.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: PDv7PAt9YNVS777ViMkhZqMBrGXbs-5J2LI6F1Pcn3PSvP0StCJ-Wg==
+X-Amz-Cf-Pop: AMS58-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0TY26GKTQ5BNG8CN</RequestId><HostId>0zeHjmzv7+AnQ5KnTC9C3xfWvrquA9hERNwG2+z0f8jyvdMzzZ1nISTcym3e38gM3jmuQmiA0tI=</HostId></Error>
+0
+
+
+
+
+https://preview.gotinder.com:443

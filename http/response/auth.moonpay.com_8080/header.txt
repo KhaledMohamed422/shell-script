@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: auth.moonpay.com:8080
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822c83dd1f532199-DUS
+Date: Wed, 08 Nov 2023 08:41:07 GMT
+Expires: Wed, 08 Nov 2023 09:41:07 GMT
+Location: https://auth.moonpay.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=XdSsBYSF9hOO4VdrgxMTI6KCvw.7oRtDQYBaFA.6p2A-1699432867-0-Ac0IkhK2HaZ92uD8P41frEUSE7dAX+S2ODX5H1qiFlu//1ulMH9MpA7ml+DTgcpxJFgYh0ym7UTRY2L6bK8CiMk=; path=/; expires=Wed, 08-Nov-23 09:11:07 GMT; domain=.moonpay.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://auth.moonpay.com:8080

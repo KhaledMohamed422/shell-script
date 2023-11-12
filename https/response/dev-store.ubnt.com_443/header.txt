@@ -1,0 +1,46 @@
+GET / HTTP/1.1
+Host: dev-store.ubnt.com
+User-Agent: Mozilla/5.0 (iPad; U; CPU OS 4_2_1 like Mac OS X; ja-jp) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b316b5d1ccaf9-DUS
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:50:04 GMT
+Location: https://dev-store.ubnt.com/password
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xpVnNkxkCkQC1lvE47s17vVyZDCEX3ENZ5%2BuCGqNDQbfr0yV9xUti3%2F3Oz4Yu3dlA1xstmgKBvZ8OmAFd7WdJ7qfaMDscJiFxsoUlMSJ5bIdZ7ReTpk4h1gs0nz5sOCBinyLiQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=8, db;dur=2, asn;desc="51167", edge;desc="DUS", country;desc="DE", theme;desc="40277213247", pageType;desc="index", servedBy;desc="sdcr", requestID;desc="5a286b4b-075c-474c-a5f6-4823fc053d26"
+Server-Timing: cfRequestDuration;dur=37.000179
+Strict-Transport-Security: max-age=7889238
+X-Cache: allow
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 5a286b4b-075c-474c-a5f6-4823fc053d26
+X-Sfr-Self-Verification-Request: 1
+X-Shardid: 62
+X-Shopid: 18349233
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 62
+X-Sorting-Hat-Shopid: 18349233
+X-Storefront-Renderer-Rendered: 1
+X-Storefront-Renderer-Verified: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+https://dev-store.ubnt.com:443

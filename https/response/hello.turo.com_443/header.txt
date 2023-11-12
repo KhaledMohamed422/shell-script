@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: hello.turo.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:38.0) Gecko/20100101 Firefox/38.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:05:54 GMT
+Server: AmazonS3
+Via: 1.1 809c299e67c4ffca3db95351c7287bd8.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: XECCZ7iWVKcjfY9t10jtp0RL3Ipd0h5bMSakLznePPOeBv0yEFr-Mg==
+X-Amz-Cf-Pop: DUS51-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4S3WCK3V1H87RM0S</RequestId><HostId>ClHzp8soawq3F9GkrmM8cpUk2l8gT+zTfv0Nu2QN35rHCS+V0HOgBYOZ4fRQgt8F+xmG0ZYVFfQ=</HostId></Error>
+0
+
+
+
+
+https://hello.turo.com:443

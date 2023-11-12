@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: messaging.betfair.ro:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4624.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b83e5a82162c-DUS
+Date: Tue, 07 Nov 2023 18:43:04 GMT
+Expires: Tue, 07 Nov 2023 19:43:04 GMT
+Location: https://messaging.betfair.ro/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hCLhzTU1YrcgdFlEk8pGM6QpBqbqK3BSJa1OEjZ%2B02r%2BMl3S%2Fqt8MvFOc39gQE7gR8tHiwZ8V8pbPTt3M3fLVJ7T4D9LUXE1a6J1j5eF9yQrjkDea0Yx%2FF%2B2ZGFOy2xLbhw3uzic%2BJOmM8o%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=DNPONSUcZZnqJND.fOezRLNEJh.H7umd_2Fm8ECOK9U-1699382584-0-AXo6lcEplMrPZzBDtZz4MnrzwVTlsHCgoBFzbpDhFQhr9DYbkHUHnocQ20V0Co8Hp93FvJ1B6Ap6Bi4HtZq/OEA=; path=/; expires=Tue, 07-Nov-23 19:13:04 GMT; domain=.betfair.ro; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://messaging.betfair.ro:8080

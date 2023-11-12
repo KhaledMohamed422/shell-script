@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: portal.prod.latchaccess.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.4; U; Series60/5.0 SonyEricssonP100/01; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 Safari/525
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 05:00:48 GMT
+Vary: Accept-Encoding,Origin
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699419648162},"payload":{"message":""},"trailer":{"checkSum":3565692988}}
+
+
+https://portal.prod.latchaccess.com:443

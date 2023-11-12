@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: connect.redditinc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4950.2 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=3600,max-age=120
+Cf-Ray: 82280c527cf47181-DUS
+Date: Tue, 07 Nov 2023 19:40:27 GMT
+Location: https://connect.redditinc.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lDkSpWL79i9zSuwvpLJS5yRE1%2F2DPHY%2BQZN65sxTj15Q3deQvFnC9aPLedc5Rnjl%2B0bjGi4QOb3iJpCu1Q7f4uSPFyrXkPlm8F8Afwgv0yrZ7VU9HvOrbGy4ITmbi651qw79BrfFWw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=Ugw2gv8gTry917NGRhMcu4sRwmE3T5NTsDvc0U6eLJk-1699386027-0-AWCJ1M5KwDCesMKDYjkYMyWKxvKRAFZ117POaJQwT2PbLG5CFAelB31FHSlLDEwZANXv7VbgRP5ofetwUQaAXow=; path=/; expires=Tue, 07-Nov-23 20:10:27 GMT; domain=.connect.redditinc.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=2fd820f23b60fab16e4c6b12c4c2aaa99caeb0e5-1699386027; path=/; domain=.connect.redditinc.com; HttpOnly
+Vary: Accept-Encoding
+X-Hs-Https-Only: worker
+Content-Length: 0
+
+
+
+
+http://connect.redditinc.com:80

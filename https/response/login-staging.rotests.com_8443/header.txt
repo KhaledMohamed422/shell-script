@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: login-staging.rotests.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G935F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 822c1225df8d2175-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 08 Nov 2023 07:23:29 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://login-staging.rotests.com:8443

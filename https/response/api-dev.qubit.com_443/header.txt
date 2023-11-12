@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: api-dev.qubit.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 80
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:18 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Via: 1.1 google
+
+Welcome to the Qubit GraphQL API - visit https://docs.qubit.com for more details
+
+
+https://api-dev.qubit.com:443

@@ -1,0 +1,35 @@
+GET / HTTP/1.1
+Host: comment.alwx.alibaba.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: x-requested-with,content-type
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: http://iosbookstore.shuqiread.com
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Date: Wed, 08 Nov 2023 09:47:59 GMT
+Eagleeye-Traceid: 2150451516994368794513028e7a6c
+Expires: 0
+Pragma: no-cache
+Server: Tengine/Aserver
+Set-Cookie: XSRF-TOKEN=939fd76b-bb99-4a2a-bc76-72a2e4956d98; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+30
+{"message":"sign verify error","status":"10006"}
+0
+
+
+
+
+https://comment.alwx.alibaba.com:443

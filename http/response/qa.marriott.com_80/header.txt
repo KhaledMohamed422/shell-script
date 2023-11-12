@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: qa.marriott.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) GSA/209.1.445234187 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Moved Temporarily
+Connection: close
+Location: https://extranet.marriott.com/2FAmarrsso/idp/startSSO.ping?PartnerSpId=https://trueview.deloitte.com
+Content-Length: 0
+
+
+
+
+http://qa.marriott.com:80

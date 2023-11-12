@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: foo.dev.typeform.com
+User-Agent: NokiaN73-1/3.0649.0.0.1 Series60/3.0 Profile/MIDP2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:19:15 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=yfb3usQwkm+YtV6q2zzgOX+8eiPjRHB+nBD7UaR78zgyPjfgDxEuLy7YUNt9AnOh1VQ0PIVcD+vHCzBBrJbHRZdh/0dp4wBtpENF/X/gDkG9+MoycABnpe9opBEygW7nIviQ+qKPuGSb5zZw4EMK0P64t1IJRLI0IEu///ZbiLFs; Expires=Tue, 14 Nov 2023 23:19:15 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=yfb3usQwkm+YtV6q2zzgOX+8eiPjRHB+nBD7UaR78zgyPjfgDxEuLy7YUNt9AnOh1VQ0PIVcD+vHCzBBrJbHRZdh/0dp4wBtpENF/X/gDkG9+MoycABnpe9opBEygW7nIviQ+qKPuGSb5zZw4EMK0P64t1IJRLI0IEu///ZbiLFs; Expires=Tue, 14 Nov 2023 23:19:15 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://foo.dev.typeform.com:443

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: b2bfiles.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 368
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:41:40 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B49C49A18D638334FC8E2
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B49C49A18D638334FC8E2</RequestId>
+  <HostId>b2bfiles.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://b2bfiles.cn-hangzhou.oss.aliyun-inc.com:80

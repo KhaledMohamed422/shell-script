@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: trade-service-staging.wealthsimple.com:8080
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82273ea858cf162f-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:20:03 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1005
+
+
+http://trade-service-staging.wealthsimple.com:8080

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: pay.taobao.com
+User-Agent: Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Date: Wed, 08 Nov 2023 10:16:29 GMT
+Eagleeye-Traceid: 213e29c916994385893175755e0fbc
+Location: https://login.taobao.com/member/login.jhtml?redirectURL=https%3A%2F%2Fpay.taobao.com%2F
+P3p: CP='CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR'
+S_group: tao-session
+S_ip: 4570795649412f544a73422b4470587251413d3d
+S_status: STATUS_NOT_EXISTED
+S_tag: 285873024335988|134217728^|^^
+S_ucode: CN:CENTER
+S_v: 4.0.4.2
+Set-Cookie: ali_apache_id=33.62.41.201.1699438589319.657470.1; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Set-Cookie: cookie2=13a68b22af5d897862132b0e36e0e001; Domain=.taobao.com; Path=/; HttpOnly
+Set-Cookie: t=12736192c6c2d3207d9b2564a1ea52cf; Domain=.taobao.com; Expires=Tue, 06-Feb-2024 10:16:29 GMT; Path=/
+Set-Cookie: _tb_token_=eea703b73ba37; Domain=.taobao.com; Path=/
+Strict-Transport-Security: max-age=31536000
+Ups-Target-Key: pay-center.vipserver
+X-Protocol: HTTP/1.1
+Content-Length: 0
+
+
+
+
+https://pay.taobao.com:443

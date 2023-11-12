@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: buy-test.moonpay.com:8080
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; Galaxy S II Build/GRJ22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822c87441845caf9-DUS
+Date: Wed, 08 Nov 2023 08:43:26 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://buy-test.moonpay-staging.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=U50gaRVq_eh.wqdA79ZTCUH6QHet42dIYQzw38TJE7c-1699433006-0-AbU5Bx4TcNsNUrA1qf70r2ugXYDib0qNtGA4wbVLUIK+rTbBZDzP16W2gnFKimz3f8snvd4NQ46g2HRpBrDaRQg=; path=/; expires=Wed, 08-Nov-23 09:13:26 GMT; domain=.moonpay.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://buy-test.moonpay.com:8080

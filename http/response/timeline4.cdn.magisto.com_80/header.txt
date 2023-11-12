@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: timeline4.cdn.magisto.com
+User-Agent: Mozilla/4.0 (compatible; GoogleToolbar 4.0.1019.5266-big; Windows XP 5.1; MSIE 6.0.2900.2180)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:25:11 GMT
+Server: AmazonS3
+Via: 1.1 97e94c27c00c2a3986c6b205fc51001e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: yoq8I2CCmBBfL64lbYEv6an5Z2BuLtHi2qx1z_puxwZA7C8AtFH8Gw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>SG72E2YNED7RBSTF</RequestId><HostId>Vc+1Dr0Jc6h4tPrDar/TokPvUJ65oxgW9YnjZ25vtmxx3qZZYm9TjmzNKRGklUutj38FvxUsn7Q=</HostId></Error>
+0
+
+
+
+
+http://timeline4.cdn.magisto.com:80

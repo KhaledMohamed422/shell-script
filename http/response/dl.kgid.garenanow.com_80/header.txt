@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: dl.kgid.garenanow.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Content-Length: 263
+Content-Disposition: inline
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:08:50 GMT
+Server: Google-Edge-Cache
+X-Cache-Status: ams;uncacheable, ham;uncacheable
+X-Frame-Options: SAMEORIGIN
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSs30SLJrMtT+R2ALj6R6q+8HFk+owla
+X-Obs-Request-Id: 0000018BAB2FFD6A9412E9D72C28E177
+X-Request-Id: 354dbe64-79eb-4510-b0fe-75a7fcf2cd5b
+X-Reserved-Indicator: 1033
+X-Xss-Protection: 0
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0000018BAB2FFD6A9412E9D72C28E177</RequestId><HostId>WEdodeYiqyyBZJlKrRdOHUVJprlDuAKkc4ZiroH4PwNwmZ0MpNDXl33merwMKITe</HostId></Error>
+
+
+http://dl.kgid.garenanow.com:80

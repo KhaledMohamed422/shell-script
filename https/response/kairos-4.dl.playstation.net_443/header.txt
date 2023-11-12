@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: kairos-4.dl.playstation.net
+User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 635) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 283
+Access-Control-Allow-Headers: ORIGIN, RANGE
+Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: SERVER, RANGE,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Akamai-Mon-Iucid-Del: 239035
+Alt-Svc: h3-Q050=":443"; ma=93600,quic=":443"; ma=93600; v="46,43"
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 00:09:09 GMT
+Expires: Wed, 08 Nov 2023 00:09:09 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+

@@ -1,0 +1,97 @@
+GET / HTTP/1.1
+Host: zmsp.mockbiller.qa.earlywarning.io
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/605.1 NAVER(inapp; search; 1000; 11.5.7; XR)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Language: en
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 18:47:26 GMT
+Expires: 0
+Permissions-Policy: publickey-credentials-get *
+Pragma: no-cache
+Set-Cookie: TS010a01ab=01d3ce13b3f611f9bf1aadda8ff6339634f0a9a0e61bae37d93f658ac5c6b7a52b7c521148d36a87cb40ecec39846c50ccae11d6aa; Path=/
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+bfd
+<meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" name="viewport"/>
+<title>ZMSP MockBiller</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+<link href="/css/menu.css" rel="stylesheet">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+<div class="Header">
+
+</div>
+<div class="Great-Content">
+    <div class="Great-Heading">
+        <div class="Heading-Section">
+            <span class="Heading">Please select an experience</span>
+        </div>
+    </div>
+
+    <div class="Content">
+        <span class="Section-Heading Text-Style-1">Crawl Pahse</span>
+        <div class="Phase-Section">
+            <button class="Menu-Button Menu-Button-Color-1" id="growscape" type="submit"><span id="growscape-label"
+                                                                                               class="Menu-Button-Label Menu-Button-Label-Text">GrowScape</span>
+            </button>
+            <button class="Menu-Button Menu-Button-Color-1" id="growscapeLogo" type="submit"><span
+                    id="growscapeLogo-label"
+                    class="Menu-Button-Label Menu-Button-Label-Text">GrowScape with Logo</span>
+            </button>
+            <button class="Menu-Button Menu-Button-Color-1" id="growscapeAlternate" type="submit"><span
+                    id="growscapeAlternate-label"
+                    class="Menu-Button-Label Menu-Button-Label-Text">GrowScape Alternate</span>
+            </button>
+        </div>
+        <span class="Section-Heading Text-Style-1">Walk Pahse</span>
+        <div class="Phase-Section">
+            <button class="Menu-Button Menu-Button-Color-2" id="rentflo" type="submit"><span id="rentflo-label"
+                                                                                             class="Menu-Button-Label Menu-Button-Label-Text">RentFlo</span>
+            </button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function (event) {
+
+    });
+
+    document.querySelector('#growscape').addEventListener('click', function () {
+        document.location.href = `${document.location}growscape/billing/checkout`;
+    });
+
+    document.querySelector('#growscapeLogo').addEventListener('click', function () {
+        document.location.href = `${document.location}growscape/billing/checkoutwithlogo`;
+    });
+
+    document.querySelector('#growscapeAlternate').addEventListener('click', function () {
+        document.location.href = `${document.location}growscape/billing/checkoutalternate`;
+    });
+
+    document.querySelector('#rentflo').addEventListener('click', function () {
+        document.location.href = `${document.location}rentflo/billing/checkout`
+    });
+</script>
+</body>
+
+
+0
+
+
+
+
+https://zmsp.mockbiller.qa.earlywarning.io:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: log16-normal-useast1a.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; de-de; HTC Magic Build/PLAT-RC33) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 FirePHP/0.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 504 Gateway Time-out
+Connection: close
+Content-Length: 158
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:33 GMT
+Expires: Wed, 08 Nov 2023 18:40:33 GMT
+Pragma: no-cache
+Proxy-Status: 0000201504005043
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=237, origin; dur=6015
+X-Akamai-Request-Id: fcd2b23.2df2758
+X-Cache: TCP_MISS from a92-123-132-13.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a104-70-121-87.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 6016,104.70.121.87
+X-Parent-Response-Time: 6252,92.123.132.13
+X-Tt-Logid: 20231108184026C5D6FE3A3874AFAA4CE3
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5af5318a1469197fbb679123155f7c956014bbdbf32d0fd2a864862a85543d500a5fc3e9ae57799713451c089d5a0d673c7dfafe6a54f6bf6640a746d61ae11de2b3c0bf7e55eec59a6fc1765264fe7dcd
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

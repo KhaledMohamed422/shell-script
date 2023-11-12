@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: auth-beta.tradingview.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=120
+Content-Security-Policy: object-src 'none'; base-uri 'none'; default-src 'self' https: data: blob: wss: 'unsafe-inline'; script-src https://betastatic.tradingview.com/static/ blob: https://*.ampproject.org/ https://*.paypal.com/ https://platform.twitter.com https://platform.x.com https://songbirdstag.cardinalcommerce.com/edge/v1/ https://checkout.razorpay.com/ 'nonce-bQYeP32i2SZuUF1R+oC6rw=='
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:43:48 GMT
+Expires: Wed, 08 Nov 2023 04:45:48 GMT
+Referrer-Policy: origin-when-cross-origin
+Referrer-Policy: origin-when-cross-origin
+Server: tv
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Vary: Accept-Encoding,X-Requested-With,Cookie
+Via: 1.1 01abec7ece24959c09067a58477de9ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VmN1YyTBtIsJ5kb0mbTq0YUYWYLpy_beuiHXO9T3pn0usCkAhRXvNw==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+101736
+
+

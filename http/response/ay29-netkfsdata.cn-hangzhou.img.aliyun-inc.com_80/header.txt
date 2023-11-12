@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: ay29-netkfsdata.cn-hangzhou.img.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Mi Note 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 285
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 08:41:28 GMT
+Server: AliyunOSS
+X-Oss-Request-Id: FFFFFFFFFFFFFFFFFFFFFFFF
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Please contact the server administrator, oss@service.aliyun.com</Message>
+  <RequestId>FFFFFFFFFFFFFFFFFFFFFFFF</RequestId>
+  <HostId>ay29-netkfsdata.cn-hangzhou.img.aliyun-inc.com</HostId>
+</Error>
+
+
+
+http://ay29-netkfsdata.cn-hangzhou.img.aliyun-inc.com:80

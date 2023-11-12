@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Watch live horseracing (racing), football (soccer) & live tennis Online to your desktop & PC. Once you are a Betfair member watching the event is free (doesnt apply for ATR races) ." />
+<meta id="myViewport" name="viewport" content="width=device-width, initial-scale=0.72">
+<meta name="keywords" content="live, video, horseracing, football, tennis, soccer, racing, streaming, racing" />
+<script type="text/javascript" language="JavaScript" src="/content/en_GB/liveVideo/cookies.js?v=7.21.75"></script>
+<script type="text/javascript" language="JavaScript" src="/content/en_GB/liveVideo/clip.js?v=7.21.75"></script>
+<script type="text/javascript" language="JavaScript" src="/js/lv_analytics.js?v=7.21.75"></script>
+<script type="text/javascript" language="JavaScript" src="/js/lv_error_codes.do?defaultLanguage=en_US"></script>
+<script type="text/javascript" language="JavaScript" src="/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="/js/placeholder/jquery.placeholder.min.js"></script>
+<script type="text/javascript" language="JavaScript" src="/Mainjs.do?v=7.21.75&defaultLanguage=en_US"></script>
+<title>Betfair Video</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/content/en_GB/liveVideo/style.css?v=7.21.75">
+<link id="style-mobile" rel="stylesheet" type="text/css" media="screen" href="/content/en_GB/liveVideo/style_mobile.css?v=7.21.75">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<!--[if IE ]>
+    <link rel="stylesheet" type="text/css" href="./content/en_GB/liveVideo/style_ie.css"/>
+    <![endif]-->
+<script type="text/javascript" language="javascript">
+
+        jQuery(function(){
+            jQuery('input[placeholder], textarea[placeholder]').placeholder();
+        });
+        
+        var gbl_OSname;
+        var gbl_browserName;
+        var gbl_browserVersion;
+        var gbl_language;
+        
+
+        
+        var gbl_sessionTokenId = "";
+        var gbl_currencySymbol = "&amp;pound;";
+        var gbl_firstTimeMarket = true;
+        var gbl_secs;
+        var gbl_timerID = null;
+        var gbl_timerRunning = false;
+        var gbl_refreshSecs;
+        var gbl_refreshSecsFast;
+        var gbl_refreshTimerID = null;
+        var gbl_refreshTimerIDFast = null;
+        var gbl_refreshTimerRunning = false;
+        var gbl_refreshTimerRunningFast = false;
+        var gbl_delay = 1000;
+        var gbl_jScriptParamString = "";
+        var gbl_gettingMarketData = false;
+        var gbl_numConsecutiveErrors = 0;
+        var gbl_maxConsecutiveErrors = 3;
+        var gbl_bigsize = true;
+        var gbl_userCountry = "";
+        var gbl_JScriptPath = "/quickjscript/" + "events_lib.js";
+        var gbl_UserHasIEFullCapabilities = false;
+        var gbl_betNowUrl = "https://www.betfair.com/exchange/plus/market/";
+        var contentType = "vid";
+        var isMobile = "false";
+        
+        var gbl_errTranslatorHash =
+        {
+            "ACCOUNT_CLOSED": "Your account is closed",
+            "ACCOUNT_SUSPENDED": "Your account is suspended",
+            "FAILED_MESSAGE": "You have messages which need to be accepted",
+            "INVALID_USERNAME_OR_PASSWORD": "Your username or password were incorrect.",
+            "INVALID_USERNAME_OR_PASSWORD_POPUP": "Oops, you have entered an incorrect username or password.<br/>Please, try again.",
+            "INVALID_USERNAME_OR_PASSWORD_NOTE": "Note that both fields are case sensitive! Please be aware<br/>that your account will be locked after 5 failed log-ins.",
+            "LOGIN_FAILED_ACCOUNT_LOCKED": "Your account is now locked",
+            "LOGIN_REQUIRE_TERMS_AND_CONDITIONS_ACCEPTANCE": "Please go to www.betfair.com and accept the terms and conditions",
+            "LOGIN_RESTRICTED_LOCATION": "Sorry, you cannot log in from your country",
+            "OK_MESSAGES": "You have messages. To view these please go to www.betfair.com",
+            "POKER_T_AND_C_ACCEPTANCE_REQUIRED": "You have messages. To view these please go to www.betfair.com ",
+            "T_AND_C_ACCEPTANCE_REQUIRED": "You have messages. To view these please go to www.betfair.com",
+            "USER_NOT_ACCOUNT_OWNER": "You are not the account owner!",
+            "login.errors.PRODUCT_REQUIRES_FUNDED_ACCOUNT": "You must have funds in your Betfair account to watch videos.",
+            "ERROR": "An unexpected error(ex101) has occurred. Please try again."};
+
+        
+        var errors = {
+            "ERROR_CODE_1": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            ",
+            "ERROR_CODE_2": "Your are not entitled to watch this stream due to your geographical location.",
+            "ERROR_CODE_3": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            ",
+            "ERROR_CODE_4": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            ",
+            "ERROR_CODE_5": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            ",
+            "ERROR_CODE_6": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            ",
+            "ERROR_CODE_7": "We are currently experiencing technical difficulties communicating with our streaming partners - please try again in a few moments            "
+        };
+
+        var gbl_msgVideoLoading = '<div class="videoReplace"><span class="InfoText">Video data loading, please wait...</span><div>';
+        var gbl_msgGeoblocked = "Your are not entitled to watch this stream due to your geographical location.";
+        var gbl_msgLoginConfirm = "You need to log in to watch this event.";
+        var gbl_msgLoginConfirmFooter = "If you don't have a Befair account, click <a href='http://www.betfair.com' target='_blank' style='color:#2789ce;'>here to sign up</a>.";
+        var gbl_msgErrorGeneral = "An unexpected error(ex102) has occurred";
+        var gbl_msgErrorNoLoginValues = "You must enter values for username and password.<br/>Please, try again.\n";
+        var gbl_msgErrorAcceptTandCs = "You must accept the site Terms and Conditions in order to be able to proceed\n";
+        var gbl_msgMarketInPlay = "In play";
+        var gbl_msgMarketTotalMatched = "Total Matched";
+        var gbl_msgMarketAbout = "The market view";
+        var gbl_msgMarketSelections = "Selections";
+        var gbl_msgMarketOffer = 'Offer';
+        var gbl_msgMarketDataLoading = "Market data loading, please wait...";
+        var gbl_msgMarketDataRefresh = "Refresh";
+        var gbl_msgShowFullSite = "Return to Live Video Homepage";
+        var gbl_msgShowPlayerOnly = "Player only";
+        var gbl_msgMarketBack = "Back";
+        var gbl_msgMarketLay = "Lay";
+        var gbl_msgMarketOdds = "Market Odds";
+        var gbl_msgVideoRequiresFullIE = "You need internet explorer six or above on Windows operating system to view this video.";
+        var gbl_currentStreamProviderId;
+        var gbl_currentMarketId;
+        var gbl_streamOnline = false;
+        var gblSelectedVid = -1;
+        var glb_streamProvidersToCutOff = [ 7 ];
+        var streamCutOffTimeOutId;
+        
+        document.write("<scr" + "ipt type='text/javascript' id='eventsLib' language='JavaScript' src='" + gbl_JScriptPath + "'></scr" + "ipt>");
+
+        function openTandC() {
+            sendARequest("TNC");
+        }
+
+        function killFooter() {
+            document.getElementById("mobile-footer-block").style.display = 'none';
+        }
+
+        function isMobileScreen () {
+            var MOBILE_LAYOUT_MAX_WIDTH = 768,
+                selectedPlatform = GetCookie("bf-lv-platform"),
+                isLargeScreen = $(window).width() > MOBILE_LAYOUT_MAX_WIDTH;
+
+            if (selectedPlatform) {
+                return selectedPlatform === "mobile";
+            } else {
+                return isMobileUserAgent() || !isLargeScreen;
+            }
+        }
+
+        setupViewport(isMobileScreen(), isInPortraitMode());
+    </script>
+<link href="https://ie1-sscbf.cdnppb.net/static/all-162598a767d1c1a2832703346c35605e.css" type="text/css" rel="stylesheet">
+</head>
+<body onload="initialisePage();return false;">
+<div id="ssc-header-container" class="ssc-container ssc-theme-betfair ssc-no-js ssc-loggedOut ssc-prod-games ssc-jur-intl ssc-reg-gb ssc-lang-en_gb ssc-cc-gb ssc-cha-desktop">
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+ssc.cookieSpace=(function(){var date=new Date(),expr,timestamp=new Date().getTime(),existingCookies,existingCookiesArray,cookie,cname="bfsd=",cookieIsSet,minutes,path,bfSType,bfDomain,getCookie,stringTrim;path="/";bfDomain=document.location.hostname.match(/\.(.*)$/)[1];date.setTime(date.getTime()+(365*24*60*60*1000));expr="; expires="+date.toGMTString();existingCookies=document.cookie;existingCookiesArray=existingCookies.split(";");stringTrim=function(str){return str.replace(/^\s+|\s+$/g,'');}
+getCookie=function(){var cIsSet,sCookie,sType,timeStamp,TsArr,sessionTypeArr,cookieArr;for(var i=0;i<existingCookiesArray.length;i++){cookie=stringTrim(existingCookiesArray[i]);if(cookie.indexOf(cname)==0){cIsSet=true;sCookie=cookie.substring(cname.length);cookieArr=sCookie.split("|");TsArr=cookieArr[0];sessionTypeArr=cookieArr[1];timeStamp=stringTrim(TsArr).split("=")[1];sType=sessionTypeArr.split("=")[1];}}
+return{cookieIsSet:cIsSet,sessionCookie:sCookie,sessionType:sType,TS:timeStamp}};cookieIsSet=getCookie().cookieIsSet;if(cookieIsSet){if(getCookie().sessionType==="p"){minutes=Math.round((timestamp-getCookie().TS)/(60*1000));if(minutes>24*60){document.cookie=cname+"ts="+timestamp+"|st=rp; expires="+expr+"; path="+path+"; domain="+bfDomain;}}}else{cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=p; expires="+expr+"; path="+path+"; domain="+bfDomain;}
+if(ssc.isLoggedIn){if(!cookieIsSet||(cookieIsSet&&getCookie().sessionType!=="reg")){cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=reg; expires="+expr+"; path="+path+"; domain="+bfDomain;}}
+switch(getCookie().sessionType){case"p":bfSType="New prospect";if(minutes>24*60){bfSType="Returning Prospect";}
+break;case"rp":bfSType="Returning Prospect";break;case"reg":bfSType="Returning Registered";break;default:if(ssc.isLoggedIn){bfSType="Returning Registered";}else{bfSType="New prospect";}
+break;}return{bfSessionType:bfSType}})();ssc.isLoggedIn=undefined;ssc.imediateScript("ssc-header-container");ssc.initGA=function(){ga('set','dimension49',ssc.cookieSpace.bfSessionType);};
+ssc.prospectCookie = (ssc.cookieSpace.bfSessionType === "New prospect" || ssc.cookieSpace.bfSessionType === "Returning Prospect");
+</script>
+<script type="text/javascript">
+ssc.isHeaderLoaded = true;
+</script>
+<div id="header">
+<div id="mod-header-342979-container" class="mod">
+<div id="mod-header-342979" class="mod-header mod-header-header">
+<style>
+.ssc-sprite {
+background-image: url("https://assets.cdnppb.net/ssc/ssc-sprite.svg?v=6") !important;
+background-repeat: no-repeat;
+}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script>
+window.headerEnabledProducts = [];
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_FUN_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_BONUS_CASH');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO');
+</script>
+<script>
+window.headerEnabledProducts.push('GAMING_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('GAMING_BONUS_TOTAL');
+</script>
+<script>
+window.headerEnabledProducts.push('XG');
+</script>
+<script>
+window.headerEnabledProducts.push('SPORTSBOOK_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('SPORTSBOOK_BONUS_WAGERING');
+</script>
+<script>
+window.headerEnabledProducts.push('SPORTSBOOK_BONUS_CASH');
+</script>
+<script>
+window.headerEnabledProducts.push('BOOST_TOKENS');
+</script>
+<script>
+window.headerEnabledProducts.push('FROZEN');
+</script>
+<script>
+window.headerEnabledProducts.push('MONEY_BACK_TOKENS');
+</script>
+<script>
+window.headerEnabledProducts.push('POKER');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_FUN_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_BONUS_CASH');
+</script>
+<script>
+window.headerEnabledProducts.push('CASINO_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('BINGO_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('EXCHANGE_BONUS_CASH');
+</script>
+<script>
+window.headerEnabledProducts.push('ARCADE_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('RT_BONUS');
+</script>
+<script>
+window.headerEnabledProducts.push('GAMES_BONUS');
+</script>
+<style type="text/css">.ssc-mls {background: url("https://assets.cdnppb.net/ssc/ssc-mobilelinks-sprite-v3.png") no-repeat;}</style>
+<div id="ssc-hw" class>
+<div class="ssc-hc">
+<table id="ssc-ht" cellspacing="0" cellpadding="0">
+<tr>
+<td><a class="ssc-lg ssc-sprite ssc-lg-exchange_games" href="https://www.betfair.com/" target="_top" title="Betfair Home" data-gtml="betfair logo"></a></td>
+<td><div class="ssc-ilol">
+<div class="ssc-bi">
+<a class="ssc-hlp ssc-helpSupport " href="https://support.betfair.com/app/home/" target="_blank" title="Help" data-gtml="help">Help</a>
+</div>
+</div></td>
+<td id="ssc-ssec">
+</td>
+<td class="ssc-ilo">
+<a href="https://promotions.betfair.com/download-free-app-xgames" data-label class=" ssc-Mobile ssc-mls ssc-default" target="_blank" title style="background-position: -110px -78px; width: 79px; height: 21px" data-gtml="Mobile">
+</a>
+<div id="ssc-lsec">
+<div id="mod-login-342987-container" class="mod">
+<div id="mod-login-342987" class="mod-login mod-login-login">
+<form class="ssc-lif" action="https://identitysso.betfair.com/api/login" method="POST" autocomplete="off" novalidate>
+<input id="ssc-lip" type="hidden" value="games" name="product" />
+<input id="ssc-lirm" type="hidden" value="GET" name="redirectMethod" />
+<input id="ssc-liru" type="hidden" value="https://livevideo.betfair.com" name="url" />
+<input id="ssc-lorsf" type="hidden" value="true" name="submitForm" />
+<input type="hidden" name="tmxId" value="a5bbffb6-1e3b-4131-a813-35e04bcb1b6b" />
+<div class="ssc-lifg">
+<input id="ssc-liu" class="ssc-itx" type="text" placeholder="email/username" value name="username" required="true" title="Enter your username" maxlength="256">
+<input id="ssc-lipw" class="ssc-itx" type="password" placeholder="password" value name="password" required="true" title="Enter your password" maxlength="256">
+<span class="ssc-shpb" type="button"></span>
+</div>
+<div class="ssc-lib"><input type="submit" id="ssc-lis" class="ssc-cta ssc-cta-simple" value="Log In"><span class="ssc-lkh ssc-sprite"></span></div>
+<a href="https://btfr.co/linker/join-now-en-prospect" target="_popup" title="Sign Up" class="ssc-cta ssc-cta-primary ssc-lij sscmw width(1050) height(910) autoscroll(true)" data-gtml="Join now">
+<span>Sign Up</span>
+</a>
+<div class="ssc-lid">
+<div class="ssc-rm ssc-hdn-nojs">
+<label class="checkbox">
+<input id="ssc-rmb" type="checkbox" value="Remember me">
+<span class="checkmark"></span>
+<span class="ssc-rmb-text">Remember me</span>
+</label>
+</div>
+<div class="ssc-fyup">
+Forgot your
+<a href="https://identitysso.betfair.com/view/recoverusername?fromSSC=1" target="_top" title class="ssc-username" data-gtml="forgot your username">username
+</a>
+/
+<a href="https://identitysso.betfair.com/view/recoverpassword?fromSSC=1&product=games&redirectMethod=GET&url=https://livevideo.betfair.com" target="_top" title id="ssc-fp" class="ssc-password" data-gtml="forgot your password">password
+</a>
+?
+</div>
+</div>
+</form>
+<script type="text/javascript" id="tmxScript" src="https://regstat.betfair.com/fp/tags.js?org_id=9ghwyvdk&session_id=a5bbffb6-1e3b-4131-a813-35e04bcb1b6b&pageid=1"></script>
+<noscript><iframe style="width: 100px; height: 100px; border: 0; position: absolute; top: -5000px;" src="https://regstat.betfair.com/tags?org_id=9ghwyvdk&session_id=a5bbffb6-1e3b-4131-a813-35e04bcb1b6b&pageid=1"></iframe></noscript>
+</div>
+</div>
+</div>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<div id="ssc-hbt">
+<div id="mod-main-navigation-342988-container" class="mod">
+<div id="mod-main-navigation-342988" class="mod-main-navigation mod-main-navigation-main-navigation">
+<div class="ssc-sac ">
+<a href="https://responsiblegambling.betfair.com/" target="_blank" title="Safer Gambling" data-gtml="Responsible Gambling">Safer Gambling</a>
+</div>
+<ul id="ssc-pn" class>
+<li class="ssc-actv">
+<a id="EXCHANGE" class=" " href="https://www.betfair.com/exchange" target="_top" title="Exchange" data-gtml="EXCHANGE">
+Exchange </a>
+</li>
+<li>
+<a id="SPORTSBOOK" class=" " href="https://www.betfair.com/sport/" target="_top" title="Sportsbook" data-gtml="SPORTSBOOK">
+Sportsbook </a>
+</li>
+<li style="display: none;" id="ssc-mgr-GAMING">
+<script type="text/javascript">
+document.getElementById("ssc-mgr-GAMING").style.display = "inline-block";
+</script>
+<a id="GAMING" class=" " href="https://casino.betfair.com/" target="_top" title="Casino" data-gtml="GAMING">
+Casino </a>
+</li>
+<li>
+<a id="POKER" class=" " href="https://poker.betfair.com" target="_top" title="Poker" data-gtml="POKER">
+Poker </a>
+</li>
+<li>
+<a id="EXCHANGE_GAMES" class=" " href="https://games.betfair.com/" target="_top" title="Exchange Games" data-gtml="EXCHANGE_GAMES">
+Exchange Games </a>
+</li>
+<li style="display: none" id="ssc-nmgr-VEGAS_SLOTS">
+<script type="text/javascript">
+document.getElementById("ssc-nmgr-VEGAS_SLOTS").style.display = "none";
+</script>
+<a id="VEGAS_SLOTS" class=" " href="https://vegasslots.betfair.com/" target="_top" title="Vegas Slots" data-gtml="VEGAS_SLOTS">
+Vegas Slots </a>
+</li>
+<li style="display: none" id="ssc-nmgr-MACAU">
+<script type="text/javascript">
+document.getElementById("ssc-nmgr-MACAU").style.display = "none";
+</script>
+<a id="MACAU" class=" " href="https://macau.betfair.com" target="_top" title="Macau" data-gtml="MACAU">
+Macau </a>
+</li>
+<li>
+<a id="BINGO" class=" " href="https://bingo.betfair.com/" target="_top" title="Bingo" data-gtml="BINGO">
+Bingo </a>
+</li>
+<li>
+<a id="VIRTUAL_SPORTS" class=" " href="https://www.betfair.com/sport/virtuals" target="_top" title="Virtual Sports" data-gtml="VIRTUAL_SPORTS">
+Virtual Sports </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+window.ssc = window.ssc || function () {};
+//after review, we need to minify this code.
+var newPlatformConfig = {"toggles":[],"page":{"config":{"isAjaxRequest":false,"pageLoadTimeout":8000,"enableGtm":true,"showInlineScripts":true,"sessionHash":null,"isLoggedIn":false,"headerType":"REGULAR","footerType":"REGULAR","requestURI":"/api/v1.0/content","title":{"default":"Betfair"},"device":{"channel":"DESKTOP","platform":"default"},"isDisaster":false},"layout":{"footer":["footer"],"header":["header"]}},"modules":[{"constructor":"","type":"footer","moduleId":"footer","instanceId":"342978","config":{"container":true,"regulatoryPopupAudioFile":"","redirectToAusDomain":false,"showClockLabel":false,"production":{"ready":0},"isBeforeText":false,"isArcadeMobile":false,"showCookiePolicyBanner":true,"ajax":{"enabled":false},"identitySSOLogoutEndpoint":"/api/logout","enablePushToWrapper":false,"GtmOnFirstLogin":false,"showRegulatoryPopupCurrentTime":true,"userDateTime":"2023-11-07-18-45-06","isCasinoProduct":false,"showNewHelpLink":true,"assetsCdn":"https://assets.cdnppb.net/ssc","showCookiePolicyBannerThrottle":false,"info":{"enabled":0},"isItalyFooter":false,"countryByIp":"GB","debug":{"enabled":0},"showLoggedInSince":false,"currencySymbol":null,"domainTest":"prd.internal","showClock":false,"showTimeSpent":false,"enableRegulatoryPopup":false,"accountId":null,"identitySSOUrl":"https://identitysso.","trusted":0,"showAustraliaReboot":false,"loggedIn":false,"name":"footer","sourceDomain":"betfair.com","showLastLoggedInDate":true,"currencyCode":"GBP","responsibleGambling":true,"isPokerProduct":false,"requires":{"css":["footer"],"js":["footer"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"header","moduleId":"header","instanceId":"342979","config":{"container":true,"boundingBox":"#mod-header-342979-container","production":{"ready":0},"isBeforeText":false,"prodId":23,"srcNode":"#mod-header-342979","ajax":{"enabled":false},"showSportsbookBonus":true,"showNewHelpLink":true,"assetsCdn":"https://assets.cdnppb.net/ssc","dkRegulatoryHeaderRedesign":false,"showMobileHeader":false,"info":{"enabled":0},"debug":{"enabled":0},"displayResponsibleGamblingInfo":false,"showLoggedInSince":false,"currencySymbol":null,"changeLocaleUrl":"/myaccountx/rest/changeLocale","showRegulatoryHeader":false,"showTimeSpent":false,"enableRomaniaVegas":false,"headerchangelocale":{"method":"GET","url":""},"trusted":0,"loggedIn":false,"name":"header","currencyCode":"GBP","showWebMessaging":true,"requires":{"css":["header"],"js":["header"]}},"services":["webmessaging","retrievessc"],"translations":{"COMMON.SYMBOL.DEFAULT":"&euro;","COMMON.SYMBOL.SGD":"SGD","COMMON.SYMBOL.AUD":"$","COMMON.SYMBOL.RON":"RON","COMMON.CLOSE":"Close","COMMON.SYMBOL.DKK":"kr.","SSC.FOOTER.LOCALE.AUS_NZL":"English - AUS & NZ","COMMON.SYMBOL.USD":"$","COMMON.SYMBOL.CAD":"$","COMMON.MANAGED.WINDOW.ERROR":"We could not open the window you requested. Please attempt re-configuring your firewall or ad-blocker and try again.","COMMON.SYMBOL.NOK":"NOK","SSC.FOOTER.LOCALE.IRL":"English - IRE","COMMON.SYMBOL.HKD":"HKD","COMMON.SYMBOL.EUR":"&euro;","COMMON.OK":"OK","COMMON.SYMBOL.GBP":"&pound;","COMMON.SYMBOL.SEK":"SEK","COMMON.CANCEL":"Cancel","COMMON.DO.NOT.SHOW.AGAIN":"Do not show this message again"},"modules":[{"constructor":"","type":"login","moduleId":"login","instanceId":"342987","config":{"container":true,"showXgWallet":true,"showArcadeBonus":true,"srcNode":"#mod-login-342987","ajax":{"enabled":false},"tmxId":"a5bbffb6-1e3b-4131-a813-35e04bcb1b6b","showXgBonus":true,"showVegasBonus":false,"showExchangeBonus":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","usernamePlaceholder":"email/username","info":{"enabled":0},"enableArcadeSpain":false,"showFantasyBonus":false,"displayRememberMe":true,"showSportsbookBonusDropdown":true,"showGamingBonus":true,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":false,"formatCurrencyBackwards":false,"disableWalletRefresh":false,"loggedIn":false,"name":"login","quickDepositWindowWidth":900,"requires":{"css":["login"],"js":["login"]},"quickDepositWallets":["MAIN"],"showPokerWallet":true,"boundingBox":"#mod-login-342987-container","showGamingWallet":false,"production":{"ready":0},"showTotalWallet":false,"handleGamingBonusWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"quickDepositWindowHeight":580,"accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showBingoBonus":false,"removeHideBalance":true,"showWalletLowerSection":true,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"enableGamingProduct":true,"walletRefreshInterval":"60000","showCasinoWallet":false,"showCasinoBonus":true,"enableRomaniaVegas":false,"showThreatMetrix":true,"trusted":0,"showAustraliaReboot":false,"quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"disableQuickDeposit":true,"username":null},"services":["wallets"],"translations":{"SSC.LOGIN.PASSWORD":"password","SSC.LOGIN.EMAIL.AS.USERNAME":"email/username","SSC.LOGIN.USERNAME":"username"},"modules":[]},{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"342988","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":true,"boundingBox":"#mod-main-navigation-342988-container","debug":{"enabled":0},"supportedLocales":"en_GB, en, de, es, it, pt, ru","production":{"ready":0},"useArcadeSpainCookie":false,"enableGamingProduct":true,"enableVegasCookieUAT":false,"srcNode":"#mod-main-navigation-342988","ajax":{"enabled":false},"enableRomaniaVegas":true,"locales":["en_GB"],"trusted":0,"loggedIn":false,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{"MAIN.NAVIGATION.BODY.LINE2":"We appologise for the inconvenience.","MAIN.NAVIGATION.BODY.LINE1":"Unfortunatly we do not currently offer our Sportsbook in your language so it will be shown in English.","MAIN.NAVIGATION.HEADER.TITLE":"Sportsbook Information"},"modules":[]},{"constructor":"","type":"search","moduleId":"search","instanceId":"342981","config":{"container":true,"showExchangeEdsSearch":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"search","searchPagePath":"/exchange/plus/search","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"css":["search"],"js":["search"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"web-messaging","moduleId":"web-messaging","instanceId":"342982","config":{"container":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"web-messaging","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"css":["web-messaging"],"js":["web-messaging"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"342983","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":true,"debug":{"enabled":0},"supportedLocales":"en_GB, en, de, es, it, pt, ru","production":{"ready":0},"useArcadeSpainCookie":false,"enableGamingProduct":true,"enableVegasCookieUAT":false,"ajax":{"enabled":false},"enableRomaniaVegas":true,"locales":["en_GB"],"trusted":0,"loggedIn":false,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"init-modules","moduleId":"init-modules","instanceId":"342984","config":{"container":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"init-modules","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"js":["init-modules"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"login","moduleId":"login","instanceId":"342980","config":{"container":true,"showXgWallet":true,"showArcadeBonus":true,"ajax":{"enabled":false},"tmxId":"a5bbffb6-1e3b-4131-a813-35e04bcb1b6b","showXgBonus":true,"showVegasBonus":false,"showExchangeBonus":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","info":{"enabled":0},"enableArcadeSpain":false,"showFantasyBonus":false,"displayRememberMe":true,"showSportsbookBonusDropdown":true,"showGamingBonus":true,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":false,"formatCurrencyBackwards":false,"disableWalletRefresh":false,"loggedIn":false,"name":"login","quickDepositWindowWidth":900,"requires":{"css":["login"],"js":["login"]},"quickDepositWallets":["MAIN"],"showPokerWallet":true,"showGamingWallet":false,"production":{"ready":0},"showTotalWallet":false,"handleGamingBonusWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"quickDepositWindowHeight":580,"accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showBingoBonus":false,"removeHideBalance":true,"showWalletLowerSection":true,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"enableGamingProduct":true,"walletRefreshInterval":"60000","showCasinoWallet":false,"showCasinoBonus":true,"enableRomaniaVegas":false,"showThreatMetrix":true,"trusted":0,"showAustraliaReboot":false,"quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"disableQuickDeposit":true,"username":null},"services":["wallets"],"translations":{},"modules":[]}]}],"services":[{"constructor":"Retrievessc","type":"retrievessc","moduleId":"retrievessc","config":{"loggedIn":false,"requires":{"js":["retrievessc-service"]}},"services":[]},{"constructor":"Wallets","type":"wallets","moduleId":"wallets","config":{"walletsDomain":"","WASUrlAggregated":"/wallet-service/v3.0/wallets?walletNames=[MAIN,XG,EXCHANGE_BONUS_CASH,POKER,SPORTSBOOK_BONUS,FROZEN,SPORTSBOOK_BONUS_WAGERING,SPORTSBOOK_BONUS_CASH,GAMING_BONUS_TOTAL,BOOST_TOKENS,BINGO_BONUS]&alt=json","WASUrlCasinoFunBonus":"/wallet-service/v3.0/wallets?walletNames=[CASINO_FUN_BONUS]&alt=json","WASUrlGaming":"/wallet-service/v3.0/wallets?walletNames=[GAMING_BONUS_TOTAL]&alt=json","WASUrlReduced":"/wallet-service/v3.0/wallets?walletNames=[MAIN,XG]&alt=json","X-BF-Jurisdiction":"international","showNewWasEndpoint":true,"loggedIn":false,"X-Brand":"betfair","WASUrlRTBonus":"/wallet-service/v3.0/wallets?walletNames=[RT_BONUS]&alt=json","WASUrlCasino":"/wallet-service/v3.0/wallets?walletNames=[CASINO_BONUS]&alt=json","WASUrlROVegas":"/wallet-service/v3.0/wallets?walletNames=[GAMING_BONUS_TOTAL]&alt=json","requires":{"js":["wallets-service"]}},"services":[]},{"constructor":"Webmessaging","type":"webmessaging","moduleId":"webmessaging","config":{"tailFragment":"?response=application/jsonp&client=games&now=","baseUrl":"https://messaging.betfair.com","loggedIn":false,"serviceFragment":"/services/ws/","templateBaseUrl":"https://messaging.betfair.com","requires":{"js":["webmessaging-service"]}},"services":[]}]},
+oldPlatformConfig = ssc.platformConfig;
+if (oldPlatformConfig) {
+var newPlatformConfigFooterModule = findFooterModule(newPlatformConfig);
+var oldPlatformConfigFooterModule = findFooterModule(oldPlatformConfig);
+function findFooterModule(config) {
+for (var i = 0; i < config.modules.length; i++) {
+if (config.modules[i].hasOwnProperty('moduleId') && config.modules[i].moduleId === 'footer') {
+return config.modules[i];
+}
+}
+};
+function mergeDifferences(putFrom, putInto) {
+for (var i = 0; i < putFrom.length; i++) {
+if (putInto.indexOf(putFrom[i]) === -1) {
+putInto.push(putFrom[i]);
+}
+}
+return putInto;
+};
+function resolveDifferences(oldVal, newVal, param) {
+var oldParam = Object.keys(oldVal[param]);
+var newParam = Object.keys(newVal[param]);
+if (oldParam.length > 0) { newParam = mergeDifferences(oldVal[param], newVal[param]); }
+if (newParam.length > 0) { oldParam = mergeDifferences(oldVal[param], newVal[param]); }
+return oldParam;
+};
+if (JSON.stringify(oldPlatformConfigFooterModule.translations) !== JSON.stringify(newPlatformConfigFooterModule.translations)) {
+oldPlatformConfigFooterModule.translations = resolveDifferences(oldPlatformConfigFooterModule, newPlatformConfigFooterModule, 'translations');
+}
+}
+if(!oldPlatformConfig) {ssc.platformConfig=newPlatformConfig;ssc.platformConfig.page.config.bundle={enabled:false};ssc.platformConfig.page.config.bundle.enabled=true;ssc.platformConfig.clientContext={version:"",brand:"betfair",product:"exchange_games",clientProductName:"games",selectedTab:"exchange",jurisdiction:"intl",region:"gb",language:"en_gb",channel:"desktop",isMasterAccount:"false"}}
+ssc.testConf = true;
+</script>
+</div>
+<div class="header-wrapper show-on-mobile">
+<div class="header container">
+<a href="http://betfair.com" class="logo" id="BFLogo" target="_blank"></a>
+<div class="login-form">
+<form action="https://identitysso.betfair.com/api/login" method="post">
+<input type="text" class="input" id="username" name="username" value size="10" autocomplete="off" placeholder="Username" />
+<input type="password" class="input" id="password" name="password" value size="10" redisplay="false" autocomplete="off" placeholder="Password" />
+<input type="submit" class="submit-btn" value="Login" />
+<input type="hidden" name="product" value="livevideo" />
+<input type="hidden" name="redirectMethod" value="GET" />
+<input type="hidden" name="url" value="https://livevideo.betfair.com" />
+<a href="#" class="mobile-filters-menu show-on-mobile"></a>
+</form>
+<div class="forgot-password">
+Forgotten your <a id="usernameForgottenLink" href="https://identitysso.betfair.com/view/recoverusername" target="_blank">Username</a>/<a id="passwordForgottenLink" href="https://identitysso.betfair.com/view/recoverpassword" target="_blank">Password</a>?
+</div>
+</div>
+</div>
+</div>
+<div class="page-content-wrapper">
+<div class="page-content container">
+<div id="leftSidePlaceholder" class="left-side-placeholder"></div>
+<div id="leftSide" class="left-side">
+<h2 class="hide-on-mobile" id="selectLabelId">Select an event from the schedule</h2>
+<div class="video-player-tease" id="videoPlayerTease">
+</div>
+<div id="videoPlayer" style="display: none;">
+<div id="videoTitleWrap">
+<div id="videoTitleDiv"></div>
+</div>
+<div id="videoPlayerIFrame"></div>
+</div>
+<div id="warningDiv" class="video-warning hide-on-mobile">
+‘Live’ pictures are typically delayed by 2-5 seconds. For some sports the delay may be longer. For further information please see our <a href="http://www.betfair.com/aboutUs/Terms.and.Conditions/#terms-betting-6" onclick="openTandC();" target="_blank">T’s and C’s</a>.
+</div>
+<div class="footer hide-on-mobile">
+<div id="footer" class="TblBodyGreyFooter">
+&copy; 2023 The Sporting Exchange Limited. All rights reserved.
+</div>
+<a href="javascript:" class="switch-version">Show mobile version</a>
+</div>
+</div>
+<div class="right-side">
+<div class="event-filers hide-on-mobile">
+<h3>Live & scheduled video events</h3>
+<p>Click on the In-play event below to view Live Video or view the odds for our upcoming Live Video events</p>
+<div class="lghtBluBgd" id="choices">
+<form id="filters" method="get" action>
+<select id="sportFilter" name="sportFilter" onChange="writeClipsTables();keepAlive();">
+<option selected value="all">Show all events</option>
+<option value="1">
+Football
+</option>
+<option value="2">
+Tennis
+</option>
+<option value="3">
+Horseracing
+</option>
+<option value="4">
+Greyhounds Racing
+</option>
+<option value="5">
+Volleyball
+</option>
+<option value="6">
+Snooker
+</option>
+<option value="7">
+Basketball
+</option>
+<option value="8">
+Darts
+</option>
+<option value="9">
+Boxing
+</option>
+<option value="10">
+Cricket
+</option>
+<option value="11">
+Ice Hockey
+</option>
+<option value="12">
+Rugby League
+</option>
+<option value="13">
+Bowls
+</option>
+<option value="14">
+Beach Volleyball
+</option>
+<option value="15">
+Badminton
+</option>
+<option value="16">
+Golf
+</option>
+<option value="17">
+Rugby Union
+</option>
+<option value="18">
+Motor Sport
+</option>
+<option value="19">
+Baseball
+</option>
+<option value="20">
+Bandy
+</option>
+<option value="21">
+Floorball
+</option>
+<option value="22">
+American Football
+</option>
+<option value="23">
+Esports
+</option>
+<option value="9998">
+Other sports types
+</option>
+<option value="9999">
+Handball
+</option>
+</select>
+<select id="timeFilter" name="timeFilter" onChange="saveTimeFilterInCookie();writeClipsTables();keepAlive();">
+<option value="all">Show all dates</option>
+<option value="hours5">next 5 hours</option>
+<option value="hours10">next 10 hours</option>
+<option value="days1">next day</option>
+<option value="days2">next 2 days</option>
+<option value="week">next 7 days</option>
+<option value="month">next 30 days</option>
+</select><br/>
+</form>
+</div>
+<a href="javascript:" class="switch-version show-on-mobile">Show desktop version</a>
+</div>
+<div class="streaming-list">
+<div class="scrollingContentScheduleLong" id="StreamListing">
+<input id="betNow" type="hidden" value="Bet now">
+<div id="upcomingClipData"></div>
+</div>
+</div>
+<div class="comments hide-on-mobile">
+<a target="_blank" onclick="openTandC();" href="http://www.betfair.com/aboutUs/Terms.and.Conditions/#terms-betting-6" class="terms-and-conditions">Terms and Conditions</a>
+Comments on the streaming service? <a href="mailto:livevideo@betfair.com?Subject=Live Video Service">livevideo@betfair.com</a>
+</div>
+<div id="mobile-footer-block" class="mobile-footer">‘Live’ pictures are typically delayed by 2-5 seconds. For some sports the delay may be longer. For further information please see our <a href="http://www.betfair.com/aboutUs/Terms.and.Conditions/#terms-betting-6" onclick="openTandC();" target="_blank">T’s and C’s</a>.<div class="close-footer" onclick="killFooter();"><img src="/images/close_btn.png" alt /></div></div>
+</div>
+</div>
+</div>
+<div id="overlay"></div>
+<div id="popup">
+<div class="close-popup" id="closeImg" onclick="closeErrorPopup();">
+<img id="closeBtnId" src="/images/close_btn.png" alt="Close" />
+</div>
+<div id="validationMsg" class="validation-message"></div>
+<div id="noteMsg" class="note-message"></div>
+</div>
+<div id="ue-scroll">
+</div>
+<div id="ssc-footer-container" class="ssc-container ssc-theme-betfair ssc-no-js ssc-loggedOut ssc-prod-games ssc-jur-intl ssc-reg-gb ssc-lang-en_gb ssc-cc-gb ssc-cha-desktop">
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+ssc.imediateScript("ssc-footer-container");if(!ssc.isHeaderLoaded){ssc.cookieSpace=(function(){var date=new Date(),expr,timestamp=new Date().getTime(),existingCookies,existingCookiesArray,cookie,cname="bfsd=",cookieIsSet,minutes,path,bfSType,bfDomain,getCookie,stringTrim;path="/";bfDomain=document.location.hostname.match(/\.(.*)$/)[1];date.setTime(date.getTime()+(365*24*60*60*1000));expr="; expires="+date.toGMTString();existingCookies=document.cookie;existingCookiesArray=existingCookies.split(";");stringTrim=function(str){return str.replace(/^\s+|\s+$/g,'');}
+getCookie=function(){var cIsSet,sCookie,sType,timeStamp,TsArr,sessionTypeArr,cookieArr;for(var i=0;i<existingCookiesArray.length;i++){cookie=stringTrim(existingCookiesArray[i]);if(cookie.indexOf(cname)==0){cIsSet=true;sCookie=cookie.substring(cname.length);cookieArr=sCookie.split("|");TsArr=cookieArr[0];sessionTypeArr=cookieArr[1];timeStamp=stringTrim(TsArr).split("=")[1];sType=sessionTypeArr.split("=")[1];}}
+return{cookieIsSet:cIsSet,sessionCookie:sCookie,sessionType:sType,TS:timeStamp}};cookieIsSet=getCookie().cookieIsSet;if(cookieIsSet){if(getCookie().sessionType==="p"){minutes=Math.round((timestamp-getCookie().TS)/(60*1000));if(minutes>24*60){document.cookie=cname+"ts="+timestamp+"|st=rp; expires="+expr+"; path="+path+"; domain="+bfDomain;}}}else{cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=p; expires="+expr+"; path="+path+"; domain="+bfDomain;}
+if(ssc.isLoggedIn){if(!cookieIsSet||(cookieIsSet&&getCookie().sessionType!=="reg")){cookieIsSet=true;document.cookie=cname+"ts="+timestamp+"|st=reg; expires="+expr+"; path="+path+"; domain="+bfDomain;}}
+switch(getCookie().sessionType){case"p":bfSType="New prospect";if(minutes>24*60){bfSType="Returning Prospect";}
+break;case"rp":bfSType="Returning Prospect";break;case"reg":bfSType="Returning Registered";break;default:if(ssc.isLoggedIn){bfSType="Returning Registered";}else{bfSType="New prospect";}
+break;}return{bfSessionType:bfSType}})();ssc.initGA=function(){ga('set','dimension49',ssc.cookieSpace.bfSessionType);};}
+ssc.prospectCookie = ssc.cookieSpace.bfSessionType === "New prospect" || ssc.cookieSpace.bfSessionType === "Returning Prospect";
+</script>
+<script type="text/javascript">
+ssc.isFooterLoaded = true;
+</script>
+<footer id="footer">
+<div id="mod-footer-342978-container" class="mod">
+<div id="mod-footer-342978" class="mod-footer mod-footer-footer">
+<style>
+.ssc-sprite {
+background-image: url("https://assets.cdnppb.net/ssc/ssc-sprite.svg?v=6") !important;
+background-repeat: no-repeat;
+}
+</style>
+<style type="text/css">.ssc-srg a {background: url("https://assets.cdnppb.net/ssc/ssc-footer-banners.png");}</style>
+<div class="ssc-srg">
+<a href="https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&brand=betfair&entrydomain=betfair.com" data-label class=" ssc-plus18 ssc-default" target="_blank" title="Over 18s only" style="background-position: 0px 0px; width: 36px; height: 36px" data-gtml="plus18">
+</a>
+<span class="rg-text">Please Gamble Responsibly</span>
+<a href="https://responsiblegambling.betfair.com/" class="ssc-cta ssc-cta-primary ssc-responsibleGamblingMoreInfo" target="_blank" title data-gtml="Responsible Gambling Details">More details</a>
+</div>
+<div class="ssc-fw">
+<div class="ssc-tlc">
+<ul class="ssc-flnk ssc-tl">
+<li class="ssc-lw">
+<span class="ssc-ftpl" tabindex="0" data-gtml="Safer Gambling"> Safer Gambling</span>
+<div class="ssc-ftp ssc-hdn-js">
+<div class="ssc-ftpc">
+<div class="ssc-ftpi ">
+<ul class="ssc-fslnk">
+<li><a href="https://responsiblegambling.betfair.com/" class="ssc-saferGambling" target="_blank" title="Safer Gambling Information" data-gtml="saferGambling" data-gtmdt="saferGambling">Safer Gambling Information</a></li>
+<li><a href="https://www.gamcare.org.uk/" class="sscmw width(1000) height(600) autoscroll(true) ssc-gamcare" target="_popup" title="Gamcare" data-gtml="gamcare" data-gtmdt="gamcare">Gamcare</a></li>
+</ul>
+<ul class="ssc-fslnk">
+<li><a href="https://gordonmoody.org.uk/" class="sscmw width(1050) height(600) autoscroll(true) ssc-gamblingTherapy" target="_popup" title="Gordon Moody - Therapy for Gambling Addiction" data-gtml="gamblingTherapy" data-gtmdt="gamblingTherapy">Gordon Moody</a></li>
+<li><a href="https://playerprotection.betfair.com/" class="ssc-playerProtection" target="_blank" title="Safer Gambling Tools" data-gtml="playerProtection" data-gtmdt="playerProtection">Safer Gambling Tools</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="ssc-lw">
+<span class="ssc-ftpl" tabindex="0" data-gtml="About Betfair"> About Betfair</span>
+<div class="ssc-ftp ssc-hdn-js">
+<div class="ssc-ftpc">
+<div class="ssc-ftpi ">
+<ul class="ssc-fslnk">
+<li><a href="https://paddypowerbetfair.jobs/" class="sscmw width(1000) height(600) autoscroll(true) ssc-careers" target="_popup" title="Careers" data-gtml="careers" data-gtmdt="careers">Careers</a></li>
+<li><a href="https://www.flutter.com" class="ssc-betfairCorporate" target="_blank" title="Betfair Corporate" data-gtml="betfairCorporate" data-gtmdt="betfairCorporate">Betfair Corporate</a></li>
+</ul>
+<ul class="ssc-fslnk">
+<li><a href="https://www.betfair.com/en/aboutUs/Dispute.Resolution/" class="sscmw width(1000) height(600) autoscroll(true) ssc-disputeResolution" target="_popup" title="Resolve a Dispute" data-gtml="disputeResolution" data-gtmdt="disputeResolution">Resolve a Dispute</a></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="ssc-lw ssc-hdn"><a href="https://support.betfair.com/app/home/" class="sscmw width(1000) height(600) autoscroll(true) ssc-helpAndFAQ" target="_popup" title="Help" data-gtml="helpAndFAQ">Help</a></li>
+<li class="ssc-lw"><a href="https://support.betfair.com/app/home/" class="sscmw width(1000) height(600) autoscroll(true) ssc-helpSupport" target="_popup" title="Help" data-gtml="helpSupport">Help</a></li>
+<li class="ssc-lw"><a href="https://partnerships.betfair.com/" class=" ssc-marketingAndAffiliates" target="_blank" title="Affiliates" data-gtml="marketingAndAffiliates">Affiliates</a></li>
+<li class="ssc-lw"><a href="https://www.betfair.com/aboutUs/Security/" class="sscmw width(1000) height(600) autoscroll(true) ssc-security" target="_popup" title="Security" data-gtml="security">Security</a></li>
+<li class="ssc-lw"><a href="https://www.betfair.com/onmobile/index.html" class=" ssc-betfairMobile" target="_blank" title="Betfair Mobile" data-gtml="betfairMobile">Betfair Mobile</a></li>
+<li class="ssc-lw last"><a href="https://developer.betfair.com/" class=" ssc-developers" target="_blank" title="Developers" data-gtml="developers">Developers</a></li>
+</ul>
+<div class="ssc-mml">
+<a href="https://twitter.com/Betfairgames" class=" ssc-twitter" target="_blank" title="Twitter" data-gtml="twitter"><span class="ssc-tw ssc-sprite"></span><span class="hide-offscreen">Twitter</span></a>
+</div>
+</div>
+<div class="spacer"></div>
+<div class="ssc-fal ">
+<style type="text/css">.ssc-fsal a {background: url("https://assets.cdnppb.net/ssc/ssc-logos-sprite-com-v22.png") no-repeat;}</style>
+<div class="ssc-fsal">
+<a href="https://authorisation.mga.org.mt/verification.aspx?lang=en&company=4f2ce9bc-6584-440c-8643-9314defffd0e" data-label class=" ssc-lgaMalta ssc-default" target="_blank" title="MGA Malta" style="background-position: 0px -247px; width: 124px; height: 28px" data-gtml="lgaMalta">
+</a>
+<a href="https://www.gamblingcommission.gov.uk/" data-label class=" ssc-gamblingCommission ssc-default" target="_blank" title="Gambling Commission" style="background-position: -1px -161px; width: 103px; height: 28px" data-gtml="gamblingCommission">
+</a>
+<a href="https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en_GB&region=GBR&brand=betfair&entrydomain=betfair.com" data-label class="sscmw width(640) height(500) ssc-over18 ssc-default" target="_popup" title="Over 18s only" style="background-position: -6px -110px; width: 35px; height: 33px" data-gtml="over18">
+</a>
+<a href="https://gordonmoody.org.uk/" data-label class=" ssc-gamblingTherapy ssc-default" target="_blank" title="Gordon Moody - Therapy for Gambling Addiction" style="background-position: -4px -712px; width: 105px; height: 33px" data-gtml="gamblingTherapy">
+</a>
+<a href="https://www.gamcare.org.uk/get-support/talk-to-us-now/" data-label class=" ssc-gamCare ssc-default" target="_blank" title="GamCare" style="background-position: -59px -656px; width: 145px; height: 40px" data-gtml="gamCare">
+</a>
+<a href="https://playerprotection.betfair.com/" data-label class=" ssc-blueShield ssc-default" target="_blank" title="Safer Gambling Tools & Information" style="background-position: -3px -832px; width: 27px; height: 33px" data-gtml="blueShield">
+</a>
+<a href="https://www.begambleaware.org/" data-label class=" ssc-wtfss ssc-default" target="_blank" title="Be gamble aware" style="background-position: 0px -355px; width: 167px; height: 30px" data-gtml="wtfss">
+</a>
+<a href="https://www.gamstop.co.uk/" data-label class=" ssc-gamStop ssc-default" target="_blank" title="GAMSTOP" style="background-position: -1px -540px; width: 136px; height: 32px" data-gtml="gamStop">
+</a>
+<a href="https://www.safergamblingstandard.org.uk/assured-businesses/" data-label class=" ssc-saferGamblingStandard ssc-default" target="_blank" title="Safer Gambling Standard" style="background-position: -103px -832px; width: 33px; height: 33px" data-gtml="saferGamblingStandard">
+</a>
+<a href="https://www.taketimetothink.co.uk/" data-label class=" ssc-takeTimeToThink ssc-default" target="_blank" title="Take Time To Think" style="background-position: -4px -756px; width: 168px; height: 30px" data-gtml="takeTimeToThink">
+</a>
+</div>
+<div class="ssc-clock-default-holder">
+<div class="ssc-clock ssc-hdn-nojs ">18:45</div>
+</div>
+</div>
+<div class="ssc-ui">
+</div>
+<div class="ssc-fl"><p>For customers in the United Kingdom: PPB Counterparty Services Limited, Betfair Casino Limited, PPB Games Limited and PPB Entertainment Limited are licensed and regulated in Great Britain by the Gambling Commission under account numbers <a href="https://registers.gamblingcommission.gov.uk/39439" target="_blank">39439</a>, <a href="https://registers.gamblingcommission.gov.uk/39435" target="_blank">39435</a>, <a href="https://registers.gamblingcommission.gov.uk/39411" target="_blank">39411</a> and <a href="https://registers.gamblingcommission.gov.uk/39426" target="_blank">39426</a>.<br>All other customers: PPB Counterparty Services Limited, having its registered address at Level 2, Spinola Park, Mikiel Ang. Borg Street, St. Julians SPK1000 Malta, is licensed and regulated by the <a title="Malta Gaming Authority" href="https://www.mga.org.mt/" target="_blank">Malta Gaming Authority</a> under Licence Number MGA/CRP/131/2006 (issued on 01 August 2018).</p></div>
+<div class="spacer"></div>
+<div class="ssc-flkh">
+<ul class="ssc-flnk">
+<li class="ssc-lw "><a href="https://www.betfair.com/en/aboutUs/Privacy.Policy/" class="sscmw width(1000) height(600) autoscroll(true) ssc-privacyPolicy" target="_popup" title="Privacy Policy" data-gtml="privacyPolicy">Privacy Policy</a></li>
+<li class="ssc-lw "><a href="https://www.betfair.com/aboutUs/Cookie.Policy/" class="sscmw width(1000) height(600) autoscroll(true) ssc-cookiePolicy" target="_popup" title="Cookie Policy" data-gtml="cookiePolicy">Cookie Policy</a></li>
+<li class="ssc-lw "><a href="javascript:ReopenOptanonConsent();" class=" ssc-manageCookies" target="_top" title="Privacy Preference Centre" data-gtml="manageCookies">Privacy Preference Centre</a></li>
+<li class="ssc-lw "><a href="https://www.betfair.com/en/aboutUs/Terms.and.Conditions/" class="sscmw width(1000) height(600) autoscroll(true) ssc-termsAndConditions" target="_popup" title="Terms & Conditions" data-gtml="termsAndConditions">Terms & Conditions</a></li>
+<li class="ssc-lw responsibleGambling "><a href="https://responsiblegambling.betfair.com/" class=" ssc-gamblingCanBeAddictive" target="_blank" title="Gambling can be addictive, use our online tools for a safer way to play" data-gtml="gamblingCanBeAddictive">Gambling can be addictive, use our online tools for a safer way to play</a></li>
+<li class="ssc-lw last"><a href="https://content.betfair.com/misc/?product=portal&sWhichKey=gamCare&locale=en&region=GBR&brand=betfair&entrydomain=betfair.com" class="sscmw width(1000) height(600) autoscroll(true) ssc-parentalSupervision" target="_popup" title="Underage gambling is an offence" data-gtml="parentalSupervision">Underage gambling is an offence</a></li>
+</ul>
+</div>
+<div class="ssc-fbtm">
+<style type="text/css">.ssc-fbtm a {background: url("https://assets.cdnppb.net/ssc/ssc-bottom-logos-sprite-com-v2.png") no-repeat;}</style>
+<a href="https://www.betfair.com/" data-label class=" ssc-footerBetfairHome ssc-default" target="_top" title="Betfair Home" style="background-position: -2px 0px; width: 107px; height: 38px" data-gtml="footerBetfairHome">
+</a>
+</div>
+</div>
+<div class="ssc-ncb ssc-cp ssc-theme-betfair ssc-hide ssc-prod-games ssc-jur-intl ssc-reg-gb ssc-lang-en_gb ssc-cc-gb ssc-cha-desktop">
+<div class="ssc-cp-inner">
+<div class="ssc-cp-left">
+<p>
+To help personalise content, tailor your experience and help us improve our services, Betfair uses cookies. By navigating our site, you agree to allow us to use cookies, in accordance with our
+<a class=" sscmw width(788) height(500) autoscroll(true) ssc-cookiePolicyBannerLink" data-gtml="cookie policy" target="_popup" href="https://www.betfair.com/aboutUs/Cookie.Policy/">Cookie Policy</a>
+and
+<a class=" sscmw width(788) height(500) autoscroll(true) ssc-privacyPolicyBannerLink" data-gtml="privacy policy" target="_popup" href="https://www.betfair.com/aboutUs/Privacy.Policy/">Privacy Policy</a>.
+</p>
+</div>
+<div class="ssc-cp-right ssc-cp-bottom">
+<a href class="ssc-cpgi ssc-cta ssc-cta-primary ssc-privacyPolicyBannerButton" data-gtml="close"><span>Ok, I get it</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type="text/javascript">
+window.ssc=window.ssc||function(){};ssc.imediateScript=ssc.imediateScript||function(node){(function sscEnableJsCaller(){var container=document.getElementById(node);if(container&&typeof container==='object'){container.className=container.className.replace('ssc-no-js','').replace(' ',' ');container.className+=' ssc-js';}else{setTimeout(sscEnableJsCaller, 300);}}());if(node==="ssc-header-container"){window.ssc.earlyConfig={windowLocSearch:window.location.search,windowLocHash:window.location.hash}}};
+</script>
+<script type="text/javascript">
+window.ssc = window.ssc || function () {};
+//after review, we need to minify this code.
+var newPlatformConfig = {"toggles":[],"page":{"config":{"isAjaxRequest":false,"pageLoadTimeout":8000,"enableGtm":true,"showInlineScripts":true,"sessionHash":null,"isLoggedIn":false,"headerType":"REGULAR","footerType":"REGULAR","requestURI":"/api/v1.0/content","title":{"default":"Betfair"},"device":{"channel":"DESKTOP","platform":"default"},"isDisaster":false},"layout":{"footer":["footer"],"header":["header"]}},"modules":[{"constructor":"","type":"footer","moduleId":"footer","instanceId":"342978","config":{"container":true,"boundingBox":"#mod-footer-342978-container","regulatoryPopupAudioFile":"","redirectToAusDomain":false,"showClockLabel":false,"production":{"ready":0},"isBeforeText":false,"isArcadeMobile":false,"showCookiePolicyBanner":true,"srcNode":"#mod-footer-342978","ajax":{"enabled":false},"identitySSOLogoutEndpoint":"/api/logout","enablePushToWrapper":false,"GtmOnFirstLogin":false,"showRegulatoryPopupCurrentTime":true,"userDateTime":"2023-11-07-18-45-06","isCasinoProduct":false,"showNewHelpLink":true,"assetsCdn":"https://assets.cdnppb.net/ssc","showCookiePolicyBannerThrottle":false,"info":{"enabled":0},"isItalyFooter":false,"countryByIp":"GB","debug":{"enabled":0},"showLoggedInSince":false,"currencySymbol":null,"domainTest":"prd.internal","showClock":false,"showTimeSpent":false,"enableRegulatoryPopup":false,"accountId":null,"identitySSOUrl":"https://identitysso.","trusted":0,"showAustraliaReboot":false,"loggedIn":false,"name":"footer","sourceDomain":"betfair.com","showLastLoggedInDate":true,"currencyCode":"GBP","responsibleGambling":true,"isPokerProduct":false,"requires":{"css":["footer"],"js":["footer"]}},"services":[],"translations":{"SSC.FOOTER.REGULATORY.POPUP.INFOPANEL.TEXT.TIME":"- Current time:","SSC.FOOTER.REGULATORY.POPUP.TITLE":"Session Details","SSC.FOOTER.REGULATORY.POPUP.BALANCE.LOSS":"Stakes","SSC.FOOTER.REGULATORY.POPUP.FAILURE.TEXT":"We&apos;re sorry but there is a technical issue preventing us from showing you information about your betting. Don&apos;t worry, this is temporary. Our tech team is working hard to fix this and you should be able to see it when your Session Details are next shown to you in an hour.","SSC.FOOTER.REGULATORY.POPUP.BALANCE.PROFIT":"Returns","SSC.FOOTER.REGULATORY.POPUP.SHOW.MORE":"More info","SSC.FOOTER.REGULATORY.POPUP.BUTTON.SUBMIT":"Continue","SSC.FOOTER.REGULATORY.POPUP.SHOW.LESS":"Less info","SSC.FOOTER.REGULATORY.POPUP.BALANCE.SUBTITLE":"Profit and Loss","SSC.FOOTER.REGULATORY.POPUP.DETAILS.PROFIT.TEXT":"This is the total of the winnings you have received in this session across all products, inclusive of stakes.","SSC.FOOTER.REGULATORY.POPUP.DETAILS.EXPOSURE.TEXT":"This is the sum of your liabilities in all Exchange markets which you have unsettled bets in. This includes matched and unmatched bets.","COMMON.MANAGED.WINDOW.ERROR":"We could not open the window you requested. Please attempt re-configuring your firewall or ad-blocker and try again.","SSC.FOOTER.REGULATORY.POPUP.DETAILS.EXPOSURE.TITLE":"Exposure","SSC.FOOTER.REGULATORY.POPUP.DETAILS.PROFIT.TITLE":"Returns","SSC.FOOTER.REGULATORY.POPUP.BALANCE.EXPOSURE":"Exposure","SSC.FOOTER.REGULATORY.POPUP.DETAILS.LOSS.TEXT":"This is the total value of bets you have placed in this session across all products. For Exchange, this is bets once settled.","SSC.FOOTER.REGULATORY.POPUP.INFOPANEL.TEXT.LOGGED":"You&apos;ve been logged in for","SSC.FOOTER.REGULATORY.POPUP.DETAILS.LOSS.TITLE":"Stakes","COMMON.DO.NOT.SHOW.AGAIN":"Do not show this message again","SSC.FOOTER.REGULATORY.POPUP.BUTTON.LOGOUT":"Log Out"},"modules":[]},{"constructor":"","type":"header","moduleId":"header","instanceId":"342979","config":{"container":true,"boundingBox":"#mod-header-342979-container","production":{"ready":0},"isBeforeText":false,"prodId":23,"srcNode":"#mod-header-342979","ajax":{"enabled":false},"showSportsbookBonus":true,"showNewHelpLink":true,"assetsCdn":"https://assets.cdnppb.net/ssc","dkRegulatoryHeaderRedesign":false,"showMobileHeader":false,"info":{"enabled":0},"debug":{"enabled":0},"displayResponsibleGamblingInfo":false,"showLoggedInSince":false,"currencySymbol":null,"changeLocaleUrl":"/myaccountx/rest/changeLocale","showRegulatoryHeader":false,"showTimeSpent":false,"enableRomaniaVegas":false,"headerchangelocale":{"method":"GET","url":""},"trusted":0,"loggedIn":false,"name":"header","currencyCode":"GBP","showWebMessaging":true,"requires":{"css":["header"],"js":["header"]}},"services":["webmessaging","retrievessc"],"translations":{"COMMON.SYMBOL.DEFAULT":"&euro;","COMMON.SYMBOL.SGD":"SGD","COMMON.SYMBOL.AUD":"$","COMMON.SYMBOL.RON":"RON","COMMON.CLOSE":"Close","COMMON.SYMBOL.DKK":"kr.","SSC.FOOTER.LOCALE.AUS_NZL":"English - AUS & NZ","COMMON.SYMBOL.USD":"$","COMMON.SYMBOL.CAD":"$","COMMON.MANAGED.WINDOW.ERROR":"We could not open the window you requested. Please attempt re-configuring your firewall or ad-blocker and try again.","COMMON.SYMBOL.NOK":"NOK","SSC.FOOTER.LOCALE.IRL":"English - IRE","COMMON.SYMBOL.HKD":"HKD","COMMON.SYMBOL.EUR":"&euro;","COMMON.OK":"OK","COMMON.SYMBOL.GBP":"&pound;","COMMON.SYMBOL.SEK":"SEK","COMMON.CANCEL":"Cancel","COMMON.DO.NOT.SHOW.AGAIN":"Do not show this message again"},"modules":[{"constructor":"","type":"login","moduleId":"login","instanceId":"342987","config":{"container":true,"showXgWallet":true,"showArcadeBonus":true,"srcNode":"#mod-login-342987","ajax":{"enabled":false},"tmxId":"a5bbffb6-1e3b-4131-a813-35e04bcb1b6b","showXgBonus":true,"showVegasBonus":false,"showExchangeBonus":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","usernamePlaceholder":"email/username","info":{"enabled":0},"enableArcadeSpain":false,"showFantasyBonus":false,"displayRememberMe":true,"showSportsbookBonusDropdown":true,"showGamingBonus":true,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":false,"formatCurrencyBackwards":false,"disableWalletRefresh":false,"loggedIn":false,"name":"login","quickDepositWindowWidth":900,"requires":{"css":["login"],"js":["login"]},"quickDepositWallets":["MAIN"],"showPokerWallet":true,"boundingBox":"#mod-login-342987-container","showGamingWallet":false,"production":{"ready":0},"showTotalWallet":false,"handleGamingBonusWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"quickDepositWindowHeight":580,"accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showBingoBonus":false,"removeHideBalance":true,"showWalletLowerSection":true,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"enableGamingProduct":true,"walletRefreshInterval":"60000","showCasinoWallet":false,"showCasinoBonus":true,"enableRomaniaVegas":false,"showThreatMetrix":true,"trusted":0,"showAustraliaReboot":false,"quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"disableQuickDeposit":true,"username":null},"services":["wallets"],"translations":{"SSC.LOGIN.PASSWORD":"password","SSC.LOGIN.EMAIL.AS.USERNAME":"email/username","SSC.LOGIN.USERNAME":"username"},"modules":[]},{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"342988","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":true,"boundingBox":"#mod-main-navigation-342988-container","debug":{"enabled":0},"supportedLocales":"en_GB, en, de, es, it, pt, ru","production":{"ready":0},"useArcadeSpainCookie":false,"enableGamingProduct":true,"enableVegasCookieUAT":false,"srcNode":"#mod-main-navigation-342988","ajax":{"enabled":false},"enableRomaniaVegas":true,"locales":["en_GB"],"trusted":0,"loggedIn":false,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{"MAIN.NAVIGATION.BODY.LINE2":"We appologise for the inconvenience.","MAIN.NAVIGATION.BODY.LINE1":"Unfortunatly we do not currently offer our Sportsbook in your language so it will be shown in English.","MAIN.NAVIGATION.HEADER.TITLE":"Sportsbook Information"},"modules":[]},{"constructor":"","type":"search","moduleId":"search","instanceId":"342981","config":{"container":true,"showExchangeEdsSearch":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"search","searchPagePath":"/exchange/plus/search","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"css":["search"],"js":["search"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"web-messaging","moduleId":"web-messaging","instanceId":"342982","config":{"container":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"web-messaging","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"css":["web-messaging"],"js":["web-messaging"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"main-navigation","moduleId":"main-navigation","instanceId":"342983","config":{"container":true,"displayContactUsInfo":false,"enableArcadeSpain":false,"showSbkLanguagePopup":true,"debug":{"enabled":0},"supportedLocales":"en_GB, en, de, es, it, pt, ru","production":{"ready":0},"useArcadeSpainCookie":false,"enableGamingProduct":true,"enableVegasCookieUAT":false,"ajax":{"enabled":false},"enableRomaniaVegas":true,"locales":["en_GB"],"trusted":0,"loggedIn":false,"name":"main-navigation","info":{"enabled":0},"requires":{"css":["main-navigation"],"js":["main-navigation"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"init-modules","moduleId":"init-modules","instanceId":"342984","config":{"container":true,"debug":{"enabled":0},"production":{"ready":0},"trusted":0,"loggedIn":false,"name":"init-modules","ajax":{"enabled":false},"info":{"enabled":0},"requires":{"js":["init-modules"]}},"services":[],"translations":{},"modules":[]},{"constructor":"","type":"login","moduleId":"login","instanceId":"342980","config":{"container":true,"showXgWallet":true,"showArcadeBonus":true,"ajax":{"enabled":false},"tmxId":"a5bbffb6-1e3b-4131-a813-35e04bcb1b6b","showXgBonus":true,"showVegasBonus":false,"showExchangeBonus":true,"quickDepositEnabled":false,"walletLimitToQuickDeposit":"5","info":{"enabled":0},"enableArcadeSpain":false,"showFantasyBonus":false,"displayRememberMe":true,"showSportsbookBonusDropdown":true,"showGamingBonus":true,"handleCasinoBonusWallet":false,"handleCasinoFunBonusWallet":false,"handleVegasBonusWallet":false,"enableVegasCookieUAT":false,"formatCurrencyBackwards":false,"disableWalletRefresh":false,"loggedIn":false,"name":"login","quickDepositWindowWidth":900,"requires":{"css":["login"],"js":["login"]},"quickDepositWallets":["MAIN"],"showPokerWallet":true,"showGamingWallet":false,"production":{"ready":0},"showTotalWallet":false,"handleGamingBonusWallet":false,"italyWageringActivated":false,"handleVegasROBonusWallet":false,"quickDepositWindowHeight":580,"accountStatus":null,"showBoostToken":true,"showSportsbookBonus":true,"showBingoBonus":false,"removeHideBalance":true,"showWalletLowerSection":true,"debug":{"enabled":0},"quickDepositCurrencyValues":[{"ALL":250,"BRL":5,"BGN":5,"COP":5000,"HRK":20000,"HUF":1000,"ISK":500,"MYR":10,"MXN":50,"USD":5,"PYG":20000,"PEN":10,"RUB":400,"TWD":100,"THB":100,"BDT":500,"BZD":10,"BOB":30,"CRC":2500,"DOP":300,"MDL":100,"PKR":500,"AED":20,"UYU":200,"ARS":100,"BAM":10,"KHR":20000,"CAD":5,"JPY":500,"KZT":2000,"MKD":200,"ANG":10,"ZAR":50,"KRW":5000,"LKR":1000,"UZS":50000,"VND":100000,"BSD":5,"XOF":3000,"CVE":500,"KYD":5,"CNY":30,"XCD":10,"EGP":100,"IDR":60000,"JMD":500,"KES":500,"LBP":5000,"CHF":5,"MOP":50,"MUR":200,"MAD":50,"NGN":2000,"PHP":200,"QAR":10,"SAR":10,"SCR":50,"SLL":50000,"SGD":5,"TZS":10000,"CZK":100,"INR":400,"PLN":25,"UAH":100,"AUD":5,"DKK":50,"EUR":5,"HKD":50,"NOK":50,"RON":25,"SEK":50,"GBP":5}],"useArcadeSpainCookie":false,"enableGamingProduct":true,"walletRefreshInterval":"60000","showCasinoWallet":false,"showCasinoBonus":true,"enableRomaniaVegas":false,"showThreatMetrix":true,"trusted":0,"showAustraliaReboot":false,"quickDepositPywHandler":true,"handleArcadeBonusWallet":false,"disableQuickDeposit":true,"username":null},"services":["wallets"],"translations":{},"modules":[]}]}],"services":[{"constructor":"Retrievessc","type":"retrievessc","moduleId":"retrievessc","config":{"loggedIn":false,"requires":{"js":["retrievessc-service"]}},"services":[]},{"constructor":"Wallets","type":"wallets","moduleId":"wallets","config":{"walletsDomain":"","WASUrlAggregated":"/wallet-service/v3.0/wallets?walletNames=[MAIN,XG,EXCHANGE_BONUS_CASH,POKER,SPORTSBOOK_BONUS,FROZEN,SPORTSBOOK_BONUS_WAGERING,SPORTSBOOK_BONUS_CASH,GAMING_BONUS_TOTAL,BOOST_TOKENS,BINGO_BONUS]&alt=json","WASUrlCasinoFunBonus":"/wallet-service/v3.0/wallets?walletNames=[CASINO_FUN_BONUS]&alt=json","WASUrlGaming":"/wallet-service/v3.0/wallets?walletNames=[GAMING_BONUS_TOTAL]&alt=json","WASUrlReduced":"/wallet-service/v3.0/wallets?walletNames=[MAIN,XG]&alt=json","X-BF-Jurisdiction":"international","showNewWasEndpoint":true,"loggedIn":false,"X-Brand":"betfair","WASUrlRTBonus":"/wallet-service/v3.0/wallets?walletNames=[RT_BONUS]&alt=json","WASUrlCasino":"/wallet-service/v3.0/wallets?walletNames=[CASINO_BONUS]&alt=json","WASUrlROVegas":"/wallet-service/v3.0/wallets?walletNames=[GAMING_BONUS_TOTAL]&alt=json","requires":{"js":["wallets-service"]}},"services":[]},{"constructor":"Webmessaging","type":"webmessaging","moduleId":"webmessaging","config":{"tailFragment":"?response=application/jsonp&client=games&now=","baseUrl":"https://messaging.betfair.com","loggedIn":false,"serviceFragment":"/services/ws/","templateBaseUrl":"https://messaging.betfair.com","requires":{"js":["webmessaging-service"]}},"services":[]}]},
+oldPlatformConfig = ssc.platformConfig;
+if (oldPlatformConfig) {
+var newPlatformConfigFooterModule = findFooterModule(newPlatformConfig);
+var oldPlatformConfigFooterModule = findFooterModule(oldPlatformConfig);
+function findFooterModule(config) {
+for (var i = 0; i < config.modules.length; i++) {
+if (config.modules[i].hasOwnProperty('moduleId') && config.modules[i].moduleId === 'footer') {
+return config.modules[i];
+}
+}
+};
+function mergeDifferences(putFrom, putInto) {
+for (var i = 0; i < putFrom.length; i++) {
+if (putInto.indexOf(putFrom[i]) === -1) {
+putInto.push(putFrom[i]);
+}
+}
+return putInto;
+};
+function resolveDifferences(oldVal, newVal, param) {
+var oldParam = Object.keys(oldVal[param]);
+var newParam = Object.keys(newVal[param]);
+if (oldParam.length > 0) { newParam = mergeDifferences(oldVal[param], newVal[param]); }
+if (newParam.length > 0) { oldParam = mergeDifferences(oldVal[param], newVal[param]); }
+return oldParam;
+};
+if (JSON.stringify(oldPlatformConfigFooterModule.translations) !== JSON.stringify(newPlatformConfigFooterModule.translations)) {
+oldPlatformConfigFooterModule.translations = resolveDifferences(oldPlatformConfigFooterModule, newPlatformConfigFooterModule, 'translations');
+}
+}
+if(!oldPlatformConfig) {ssc.platformConfig=newPlatformConfig;ssc.platformConfig.page.config.bundle={enabled:false};ssc.platformConfig.page.config.bundle.enabled=true;ssc.platformConfig.clientContext={version:"",brand:"betfair",product:"exchange_games",clientProductName:"games",selectedTab:"exchange",jurisdiction:"intl",region:"gb",language:"en_gb",channel:"desktop",isMasterAccount:"false"}}
+ssc.testConf = true;
+</script>
+</div>
+<script type="text/javascript" src="https://ie1-sscbf.cdnppb.net/static/all-9bff7e7b9746f903d40553c701a2ccc3.js"></script>
+<script type="text/javascript" src="https://www.betfair.com/SpeedTrapScript.do"></script>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+        
+        
+            ga('create', 'UA-43334570-1', 'betfair.com');
+        
+    
+    ga('send', 'pageview');
+</script>
+<div style="display: none; visibility: hidden;">
+<script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" data-language="en" type="text/javascript" charset="UTF-8" data-domain-script="488f9828-292c-41be-b2ca-8835285fa111"></script>
+<script type="text/javascript">function OptanonWrapper() {
+            if (window.location !== window.parent.location) try {
+                document.getElementById("onetrust-consent-sdk").style.display = "none"
+            } catch (a) {}
+        }
+        window.dataLayer.push({event: "OneTrustGroupsUpdated"});</script>
+</div>
+<script>
+        function swapImage (setMobile) {
+            var videoImage = $("#videoPlayerTeaseImage"),
+                targetImage = setMobile ? "img-video-mobile.png" : "img-video.png";
+            var src = videoImage.attr("src");
+            if (src) {
+                if (setMobile) {
+                    videoImage.attr("src", src.replace("img-video.png", targetImage));
+                } else {
+                    videoImage.attr("src", src.replace("img-video-mobile.png", targetImage));
+                }
+            }
+        }
+
+        function checkLayout () {
+            if (isMobileScreen()) {
+                $("#ssc-header-container")[0].classList.add("ssc-hidden");
+                $("#style-mobile").removeAttr("disabled");
+                swapImage(true);
+            } else {
+                $("#ssc-header-container")[0].classList.remove("ssc-hidden");
+                $("#style-mobile").attr("disabled", "disabled");
+                swapImage(false);
+            }
+        }
+        $(window).resize(checkLayout);
+        checkLayout();
+
+        $(document).ready(function() {
+            $(".switch-version").click(function () {
+                var monthAhead = new Date(new Date().getFullYear(), new Date().getMonth()+1, new Date().getDay());
+
+                if ($("#style-mobile").attr("disabled")) {
+                    SetCookie("bf-lv-platform", "mobile", monthAhead);
+                } else {
+                    SetCookie("bf-lv-platform", "desktop", monthAhead);
+                }
+                location.reload();
+            });
+            $(".mobile-filters-menu").click(function () {
+                if ($(".event-filers").is(":visible")) {
+                    $(".event-filers").hide();
+                } else {
+                    $(".event-filers").show();
+                }
+            });
+        });
+
+        $('#videoPlayerTease').ready(function () {
+            var imageName = isMobileScreen() ? "img-video-mobile.png" : "img-video.png";
+            $('#videoPlayerTease').append('<img width="480" id="videoPlayerTeaseImage" height="400" src="/images/en/' + imageName + '" alt="Betfair Logo"/>');
+        });
+    </script>
+<script type="text/javascript" language="JavaScript" src="/content/en_GB/liveVideo/goToTopBtn.js?v=7.21.75"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227bb3d99e2716f","b":1,"version":"2023.10.0","token":"d048f65d27954a24aa6b1d7d2ddcb256"}' crossorigin="anonymous"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://livevideo.betfair.com:443

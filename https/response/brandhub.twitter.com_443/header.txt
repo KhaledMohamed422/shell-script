@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: brandhub.twitter.com
+User-Agent: Mozilla/4.0 (compatible; Dillo 3.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Security-Policy: default-src 'none'; img-src https://abs.twimg.com; script-src https://abs.twimg.com about:; style-src https://abs.twimg.com 'unsafe-inline'; font-src https://abs.twimg.com https://twitter.com; connect-src 'none'; object-src 'none'; media-src 'none'; frame-src 'none'; report-uri https://twitter.com/i/csp_report?a=ORTGK%3D%3D%3D&ro=false
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 20:20:02 GMT
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938840218335637; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:20:02 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: 01c4229903a5d126d1ea480f806749d3d8bfa3f9925a6513d2300bf4f66c11ad
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 105
+X-Transaction: 276f9396cdcfa088
+X-Transaction-Id: 276f9396cdcfa088
+X-Xss-Protection: 0
+

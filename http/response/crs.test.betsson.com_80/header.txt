@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: crs.test.betsson.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:56:53 GMT
+Location: https://crs.test.betsson.com/
+Server: CloudFront
+Via: 1.1 b459d8cae3f218ce39711fc3ecdcc998.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ORrPeb7UFt3Ms6wcUg3XefDoIsFZnNw2exj2H4Cndm--utx15SYQvg==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

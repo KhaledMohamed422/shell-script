@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: public-reporting-data.prod.login.gov
+User-Agent: HTC-ST7377/1.59.502.3 (67150) Opera/9.50 (Windows NT 5.1; U; en) UP.Link/6.3.1.17.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:29:10 GMT
+Server: AmazonS3
+Via: 1.1 21da0a66bafe2c8de8be4a4d8039346a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rbk4MrlzFEoQbxHw2XlvXgJHf4zmRxjhNSxyrv8V8YvvlDMqXdamSg==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>Q7ERSD9DEC6DXBVF</RequestId><HostId>KWnacN5SoxnHEwZg9oF/7/Vu6Qp1twoSlPN1C2NTtxHnHv9J8BZINYaeAaVnQhwMl9R/FcPkB/I=</HostId></Error>
+0
+
+
+
+
+https://public-reporting-data.prod.login.gov:443

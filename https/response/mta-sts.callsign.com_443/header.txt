@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: mta-sts.callsign.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:29:09 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9bca546700a965c9c77ef5b8dbe65cc4.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: Ek3ZmgNMx3GYpsv7MGJmQs8nYLj7qC7cJluoDVEnuvMMMgjEGhw2gQ==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>GGF66EB5WBA1GJQE</RequestId><HostId>som4mNix4T5AYvpGl4UiumcSKpqFlrMZUU9KdYGB6s+KLhxe4IW6Hg1W0hMCHEUShbLIo5VKhu3E+UwV5gVMIQ==</HostId></Error>
+0
+
+
+
+
+https://mta-sts.callsign.com:443

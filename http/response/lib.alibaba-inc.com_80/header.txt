@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lib.alibaba-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149  Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 23
+Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version,x-fc-instance-id
+Content-Type: application/octet-stream
+Date: Wed, 08 Nov 2023 08:57:29 GMT
+X-Fc-Code-Checksum: 4511605455793707216
+X-Fc-Instance-Id: c-654b4d79-8c1ff31b08ed4c53bee1
+X-Fc-Invocation-Duration: 115
+X-Fc-Invocation-Service-Version: LATEST
+X-Fc-Max-Memory-Usage: 51.10
+X-Fc-Request-Id: 1-654b4d79-fa1eaa356c61b4c350d9d6b1
+
+No mapping found: GET /
+
+
+http://lib.alibaba-inc.com:80

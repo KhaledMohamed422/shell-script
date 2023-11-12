@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: customer.internal.fin.ag
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; de) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Tue, 07 Nov 2023 23:16:11 GMT
+Location: https://login.microsoftonline.com/72300c8a-a2d9-4945-aa3b-fd416c6849f7/oauth2/v2.0/authorize?client_id=6cd6cc89-1dad-46d1-821e-fee47fc94005&response_type=id_token+code&redirect_uri=https://customer.internal.fin.ag/signin-oidc/&response_mode=form_post&scope=openid+profile&nonce=edc5cdab-7fb1-469e-a928-c8961e427241
+Set-Cookie: authStore=MTY5OTM5ODk3MXxOd3dBTkZwU1NrdFpWbFUzUzFGRVdFbE5Ta05EVUVoWlNrWTNVbGswUjFaVFVWbEhObFZDTTFVM1VVZEVXVTFMVFRORlJFNVdOMEU9fIBUcZ8zF2pIIvY1W7xCuTsxiznIsOjK0zUXfvzcpwMi; Path=/; Expires=Thu, 07 Dec 2023 23:16:11 GMT; Max-Age=2592000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://customer.internal.fin.ag:443

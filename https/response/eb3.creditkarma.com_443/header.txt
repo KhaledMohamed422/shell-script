@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: eb3.creditkarma.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 170
+Cache-Control: private, must-revalidate, post-check=0, pre-check=0
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:14:52 GMT
+Expires: 0
+Pragma: private
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block;
+
+<script LANGUAGE=JavaScript>
+window.location="/global-protect/login.esp"; 
+</script>

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: us-wr-baas.acronis.com
+User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:16.0) Gecko/20121102 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:31:57 GMT
+Front-End-Https: on
+Location: /login
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: fnVs7GuWpUUzRps2DFtkhZ
+X-Request-Id: 0f2bd4fc0c9314b1096983d2644dfbc0
+Content-Length: 0
+
+
+
+
+https://us-wr-baas.acronis.com:443

@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: v19-webapp-prime.tiktok.com
+User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: range
+Access-Control-Allow-Origin: https://www.tiktok.com
+Access-Control-Expose-Headers: Content-Length,Content-Range,content-type,expires,last-modified,via,X-Cache,x-response-cache,x-response-sinfo,x-response-cinfo
+Date: Wed, 08 Nov 2023 18:42:08 GMT
+Location: https://v19-webapp-prime.tiktok.com(null)
+Retry-After: 0
+Server: Varnish
+Server-Timing: cdn-cache;desc=hit, edge;dur=0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Response-Cache: edge_hit
+X-Served-By: cache-ams21082-AMS
+X-Timer: S1699468929.699111,VS0,VE0
+X-Tt-Trace-Tag: id=19;cdn-cache=hit;type=static
+Content-Length: 0
+
+
+
+
+http://v19-webapp-prime.tiktok.com:80

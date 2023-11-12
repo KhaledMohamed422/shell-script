@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: grafana.beta-baas.acronis.work:8443
+User-Agent: BlackBerry7520/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/5.0.3.3 UP.Link/5.1.2.12 (Google WAP Proxy/1.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:20:16 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: cl5ccc2smppte7i3053g
+X-Request-Id: 4e94c49074f783ed33ebc97f3a8d5aab
+
+b4
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse><params><param><value><string>Acronis Storage Manager (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://grafana.beta-baas.acronis.work:8443

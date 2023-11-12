@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: tus.betfair.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.23) Gecko/20090825 SeaMonkey/1.1.18
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc939eba160d-DUS
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 18:46:01 GMT
+Location: http://usatote.betfair.com/tote
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iZvWXDJOBxlI1tRbC%2BuE4stwgHqe19hXGw59L99wcHnstEDi2%2BLrbJ6I%2FkXjQkr99Nw%2B93hHzYXYBF8qEEQSL%2B68CUfCubHSbJGIsypDWwJKPOhG0rynICGG0GeRgXQu5w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+269

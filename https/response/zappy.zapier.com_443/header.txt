@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: zappy.zapier.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-gb) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.9174AP
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:31:44 GMT
+Server: AmazonS3
+Via: 1.1 8e6f6d7e57b70cc43be20c132da08b18.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: GdMdoMEKrey6jNxI4MZnTXL2hDj-h2pzz4iSas22muQAR_pDStHSnw==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>WBAQEKR0Y8P592AG</RequestId><HostId>CSe8aj4CF+rxfvcdwiF67jl03ynLxQhWdO0kxkHLMPVI6XoQXVQ6UQgAZYD5frM7AG81qUtENMg=</HostId></Error>
+0
+
+
+
+
+https://zappy.zapier.com:443

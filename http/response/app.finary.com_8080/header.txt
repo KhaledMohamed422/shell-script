@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: app.finary.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-US) AppleWebKit/125.4 (KHTML, like Gecko, Safari) OmniWeb/v563.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c82cf4eefcb11-DUS
+Date: Wed, 08 Nov 2023 08:40:24 GMT
+Expires: Wed, 08 Nov 2023 09:40:24 GMT
+Location: https://app.finary.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1;mode=block
+
+0
+
+
+
+
+http://app.finary.com:8080

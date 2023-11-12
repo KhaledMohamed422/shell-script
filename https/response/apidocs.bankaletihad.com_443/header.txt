@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: apidocs.bankaletihad.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 42
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=900
+Cf-Cache-Status: MISS
+Cf-Ray: 822b276d69f5716c-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 04:43:15 GMT
+Location: /password?redirect=/
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699418595&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=W9%2FLPAgA%2Fcic4Ryo%2Bzg8C4wHPlcUPqNUDUL2ticC0%2BE%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699418595&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=W9%2FLPAgA%2Fcic4Ryo%2Bzg8C4wHPlcUPqNUDUL2ticC0%2BE%3D
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Vary: Accept, Accept-Encoding
+Via: 1.1 vegur
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: Deny
+X-Xss-Protection: 1; mode=block
+
+Found. Redirecting to /password?redirect=/
+
+
+https://apidocs.bankaletihad.com:443

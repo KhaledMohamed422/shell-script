@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: cdn-fo4.garenanow.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 263
+Access-Control-Allow-Origin: *
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:14:17 GMT
+Server: OBS
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSbx51e2uJ+tAgjbWGMbBLzc6h18mB0Q
+X-Obs-Request-Id: 0000018BAB34F899901E7483D27A4AA6
+X-Reserved-Indicator: 1033
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0000018BAB34F899901E7483D27A4AA6</RequestId><HostId>09KrzvRQyVLA76wfFmzKGJ7CKesoLUV+xnw94dTA6JEr23hwRPi2CTkasdzBnofb</HostId></Error>
+
+
+https://cdn-fo4.garenanow.com:443

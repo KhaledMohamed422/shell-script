@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: heinens-onecart.pbis-cf-dev.instacart.tools:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 635) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822739f2c9367a55-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:16:51 GMT
+Expires: Tue, 07 Nov 2023 17:17:06 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=kxASm8eofcun0mnnQ7oY3Mm7Y6hZr9CgBmd.Aa9G_0w-1699377411-0-AVuxpAkInagqSlF8Vpekwb05R7KvkZnMh3tOvByduWzEw4sQgkSiXfaAnLOY3hmdbsrAEuVYXbREv77bMZaHf/E=; path=/; expires=Tue, 07-Nov-23 17:46:51 GMT; domain=.heinens-onecart.pbis-cf-dev.instacart.tools; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11c3

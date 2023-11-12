@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: sdfp-va-useast2a.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:22 GMT
+Expires: Wed, 08 Nov 2023 18:46:22 GMT
+Pragma: no-cache
+Proxy-Status: 0000201502005104
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=97, origin; dur=48
+X-Akamai-Request-Id: ca9ffc.8b7db7a
+X-Cache: TCP_MISS from a23-15-178-53.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-34-240-141.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 49,23.34.240.141
+X-Parent-Response-Time: 142,23.15.178.53
+X-Tt-Logid: 20231108184621E7970136CB05896DA1CE
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aa9c98837629e09b91ddd9eb390733143cd4865a9380234d884a0a0c2bc56ec5b16f33e4430b904b34baa4a6f78c5c965a6d38ea398a578fbb8c738faeb9bb337
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

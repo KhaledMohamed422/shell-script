@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: blog.livestream.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: no-cache, no-store, private, must-revalidate, max-age=0, max-stale=0, post-check=0, pre-check=0
+Date: Wed, 08 Nov 2023 04:06:10 GMT
+Expires: 0
+Location: https://blog.livestream.com/
+Pragma: no-cache
+Retry-After: 0
+Server: Varnish
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230035-FRA
+Content-Length: 0
+
+
+
+
+http://blog.livestream.com:80

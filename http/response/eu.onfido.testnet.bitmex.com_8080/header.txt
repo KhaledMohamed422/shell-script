@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: eu.onfido.testnet.bitmex.com:8080
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:02:43 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

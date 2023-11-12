@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: prod-api.271494016007.hellopublic.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 139
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials,Access-Control-Allow-Methods,Access-Control-Allow-Headers
+Content-Security-Policy: default-src *.hellopublic.com public.com; img-src * data: blob: 'unsafe-inline' ; script-src 'unsafe-eval' 'self' 'unsafe-inline' public.com *.googleapis.com *.public.com https://maxcdn.bootstrapcdn.com  https://static.userback.io https://www.googletagmanager.com  https://cdn.segment.com https://cdnjs.cloudflare.com widget.intercom.io js.intercomcdn.com *.tvsquared.com *.twitter.com www.google-analytics.com connect.facebook.net *.ads-twitter.com hellopublic.wpengine.com sc-static.net wl3olebc.6v5f3l.com static.ads-twitter.com ssfw.ibllc.net cdn.plaid.com api-js.mixpanel.com cdn.mxpnl.com api-js.mixpanel.com ; style-src 'self' 'unsafe-inline' public.com https://maxcdn.bootstrapcdn.com/bootstrap/ https://static.userback.io/ *.googleapis.com; object-src https://universal.hellopublic.com; font-src 'self' data: *.fontawesome.com *.gstatic.com public.com https://maxcdn.bootstrapcdn.com *.braintreegateway.com js.intercomcdn.com assets.quadpay.com at.alicdn.com fonts.googleapis.com netdna.bootstrapcdn.com s3.amazonaws.com www.slant.com static3.avast.com www.slant.co github.com cdn.megabonus.com d3s8xk3etjyeyz.cloudfront.net cdn.faceworks.nl themes.googleusercontent.com ; connect-src wss://*.hellopublic.com *.hellopublic.com wss://nexus-websocket-a.intercom.io *.matadorapp.com api.userback.io *.google-analytics.com *.segment.io *.braintree-api.com *.braintree-api.com app.adjust.com app.adjust.world app.adjust.net.in *.smartystreets.com userback.s3.ap-southeast-2.amazonaws.com *.intercom.io api.giphy.com app.adjust.net.in app.adjust.world pingback.giphy.com public-prod-154310543964.s3.amazonaws.com public.com stats.g.doubleclick.net subwayblaze.com tr.snapchat.com us-street.api.smartystreets.com www.facebook.com www.google-analytics.com www.googletagmanager.com subwayblaze.com stats.g.doubleclick.net api.smartblocker.org translate.googleapis.com new229.com localhost:49506 *.ucweb.com m59.prod2016.com public-staging-018019535749.s3.amazonaws.com api.adfreevision.com cdncache-a.akamaihd.net meetlookup.com 1637314617.rsc.cdn77.org api.vkanalytics.net client-analytics.braintreegateway.com maps.googleapis.com api-js.mixpanel.com ; frame-src public.com https://universal.hellopublic.com *.braintreegateway.com *.snapchat.com www.facebook.com mozbar.moz.com *.snapshot.com cdncache-a.akamaihd.net	cdn.plaid.com api.segment.io www.youtube.com d31b6i309j1ui2.cloudfront.net ; media-src blob: data: *.hellopublic.com *.public.com public.com ;worker-src blob: ;script-src-elem 'self' 'unsafe-inline' *.hellopublic.com public.com widget.intercom.io maps.googleapis.com static.userback.io www.googletagmanager.com cdn.segment.com *.google-analytics.com connect.facebook.net *.tvsquared.com *.twitter.com *.ads-twitter.com cdnjs.cloudflare.com translate.googleapis.com cdn.mathjax.org translate.google.com sc-static.net static.userback.io js.intercomcdn.com cdn.plaid.com www.pagespeed-mod.com *.ucweb.com cdn.mxpnl.com ;report-uri https://1qcj9rqpql.execute-api.us-east-1.amazonaws.com/prod/report
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:29:51 GMT
+Referrer-Policy: same-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+Via: 1.1 70d755f7200c02162c7545e4ce74649a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Zw64umb8qluTfV1asme2ABPFaOSRKr5JMA06GBQbwNzrG7t_uC6kYg==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: storage.venues.vimeo.com
+User-Agent: WebCopier v4.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Type
+Cache-Control: private, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b45ef1a49faf6-DUS
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:04:05 GMT
+Expires: Wed, 08 Nov 2023 05:04:05 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=grufxwNDgJG4vM6WhGkaomBWzNv_9r2p59V0iYVaNaE-1699419845-0-AZH8ZJUgEip8dtp9SdpigBWq32P555dP+KSE3yF4fAp0c4W5w/xa4vHLTHEK5opv/V96cgp1alXvciX02XdnkqM=; path=/; expires=Wed, 08-Nov-23 05:34:05 GMT; domain=.vimeo.com; HttpOnly; Secure; SameSite=None
+X-Guploader-Uploadid: ABPtcPp6WqNIp5KYbrY7XG0Emig6TFPtClfTDc8NRRmPQeXQ-aYcq6mYRafXPji0kkVny5v72V3V58hUWrD2psUX5R9pfg
+
+6f
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message></Error>
+0
+
+
+
+
+https://storage.venues.vimeo.com:443

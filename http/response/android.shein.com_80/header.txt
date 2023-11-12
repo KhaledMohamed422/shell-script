@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: android.shein.com
+User-Agent: Wget/1.9 cvs-stable (Red Hat modified)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:12:47 GMT
+Expires: Wed, 08 Nov 2023 19:12:47 GMT
+Server: openresty
+Set-Cookie: _abck=A5408DD0E775E01E4041B7D3FEE17A2D~-1~YAAQrmATApHudq6LAQAApvRZsAo6esuEwLyB36lLKUJNJfM6PjFilyafQiWTrNNgKzmXfaddZR4y1QvHI+O32swvmq48JYBaAEHWJMXoG3WA+UBH+oaWs/pn/5lQ92bB0UnFw/z4fvkVENjYHWgmrJ9+ukVXnrMJ+sGYi/fTYXK1SP1wETPwa20JNV/ZJhaMErvYdekATgOfUVO6L3YazwwGKMjVqPIM2Ujoci8fklc7+YMpt8NlTaD+Mhy9Cexwu9XJag+qu4RDocm8XTeX9/XMM15nm2evN6TURp4iWR92z9UZhl0SsYawDPWT+hzXbsnnlwTYWYiXqkWRlo/yd+aMoA==~-1~-1~-1; Domain=.shein.com; Path=/; Expires=Thu, 07 Nov 2024 19:12:47 GMT; Max-Age=31536000
+Set-Cookie: bm_sz=570F69729EEB584698345192B2C0D29C~YAAQrmATApLudq6LAQAApvRZsBXY3dPL64fi1airNdvvZL8PweOdow3TX5kgCoEOht1aIA37gmCAc57r8eH19ZxMY3ZOjKTfxtUNPIWq2w/Gx29CBcbHFkIo6vt7n29r+GfLnzAfmnq1v7x1j4zWC9zS4eoh9guaTVvfu5DYX6i3xa9Cu1wRcyplyS/wwnfJ762Ctw0tlpczieds3eAT27Dt8J5aU9/58cI9vVyN+XmfEtAW7IVLVTVwMrD3pYUBs3KqFCTBJ8t7sSswppXs1lzotrDWbdxDejUyU5VrioFaew==~3289921~3294769; Domain=.shein.com; Path=/; Expires=Wed, 08 Nov 2023 23:12:46 GMT; Max-Age=14399
+Vary: Accept-Encoding
+
+{
+                "result": "error",
+                "msg": "Notice_update_app",
+                "errormsg": "Sorry. The version of your app is too old. Please try again after updating it to the latest version.",
+                "code": "122",
+                "info": []
+            }
+
+
+http://android.shein.com:80

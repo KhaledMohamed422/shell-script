@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: mycards.paddypower.com.nxt.ppbdev.com:8080
+User-Agent: Mozilla/5.0 (X11; CrOS aarch64 14388.61.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.107 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b8668a1b6a9b-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:10 GMT
+Expires: Tue, 07 Nov 2023 18:43:25 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UC1Omv5puz527gK9NZeSUaXBmNgR7eDYNjX2OjgB4RYDCcawo7qaItxO8gxqTxsytF9bvdxBF7bA64NfLs7DePKdrdSN%2FtHD1xpRfQD%2BBqg87GukwUgxoOaU6S7Z9LJw8J3Qe09FYufPPKc34bX0OokoWnKCQlV4rBr2UA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=YQeJc8yO_llJoo..B6AFKEd.9DwpaanvcosVeiZp040-1699382590-0-AQb8u3VuQZGZoQT/1RuRqFUKmWL7LJXSPm7bTdKWkzA28RBhKQXDEj0pcBn6IgGyJDJb3h4z4/l9rgiCoFk7ZLY=; path=/; expires=Tue, 07-Nov-23 19:13:10 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

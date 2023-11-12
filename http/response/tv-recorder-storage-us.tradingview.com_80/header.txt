@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: tv-recorder-storage-us.tradingview.com
+User-Agent: SonyEricssonK550i/R1JD Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:25:34 GMT
+Server: AmazonS3
+Via: 1.1 9dfbacf2c8a61beb17591bdaab142956.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rPBySvlYZsER7WllbEJ9UrmYVWSD4xXbEuKHNH4NP21pBSl-HwSE8Q==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A4PYKCDQXZY0MK0N</RequestId><HostId>13qMkKkfYvkAW2WVDN5KI2eoxCokU8TvCjOSHBE2NCr4elZXuL7cj3atoMU7iyxL2NXfviaLhmcoskobWi49wQ==</HostId></Error>
+0
+
+
+
+
+http://tv-recorder-storage-us.tradingview.com:80

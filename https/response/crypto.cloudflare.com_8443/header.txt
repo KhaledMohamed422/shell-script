@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: crypto.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e6549fbb717b-DUS
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'; form-action 'self';
+Date: Tue, 07 Nov 2023 19:14:31 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://tools.ietf.org/html/draft-ietf-tls-esni-13
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://crypto.cloudflare.com:8443

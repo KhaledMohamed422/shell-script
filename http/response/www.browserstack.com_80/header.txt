@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: www.browserstack.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SAMSUNG-SM-G900A Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 178
+Age: 81701
+Cache-Control: public, max-age=86400
+Cf-Cache-Status: HIT
+Cf-Ray: 822bfbd73bee2187-DUS
+Content-Security-Policy: script-src https: http: 'unsafe-eval' 'unsafe-inline'; frame-ancestors https://*.browserstack.com; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src https: http:
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:08:15 GMT
+Expires: Thu, 09 Nov 2023 07:08:15 GMT
+Location: https://www.browserstack.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=DywMUPPk0hGW3Tq9QCkg9GzNPIN0UM6BnxETHm72jVQ-1699427295-0-ATISlUlaaqmvyaYQjLBPT7eeRhkU7LDyqYSL4LH1WJ+VUMyry1ca36pIum/gq5V8lyorreHk2qdWubO0sWAroTI=; path=/; expires=Wed, 08-Nov-23 07:38:15 GMT; domain=.browserstack.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=2f925d001c62e484cc9bb1c0b98b9245c9101a26-1699427295; path=/; domain=.browserstack.com; HttpOnly
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block;
+

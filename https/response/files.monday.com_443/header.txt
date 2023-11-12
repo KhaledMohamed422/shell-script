@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: files.monday.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 1019
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:52:55 GMT
+Server: CloudFront
+Vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+Via: 1.1 590590f04f79f692591f9db0e720a31c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CkLJF4yra9HDJpU1k00iUmpfFupM-ReoDZGmRC91TrRjf8u0zIOCIg==
+X-Amz-Cf-Pop: FRA2-C2
+X-Cache: LambdaExecutionError from cloudfront
+

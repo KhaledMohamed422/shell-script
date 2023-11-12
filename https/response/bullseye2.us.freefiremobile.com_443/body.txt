@@ -1,0 +1,106 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta http-equiv=X-UA-Compatible content="ie=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><meta name=format-detection content="telephone=no"><title>ShibaStrike</title><link rel="shortcut icon" href=https://freefiremobile-a.akamaihd.net/common/web_event/image_home/images/favicon.png><script>function loadStyle(url) {
+            var link = document.createElement("link");
+            link.type = "text/css";
+            link.rel = "stylesheet";
+            link.href = url;
+            var head = document.getElementsByTagName("head")[0];
+            head.appendChild(link)
+        }
+
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1]
+                }
+            }
+            return "default"
+        };
+
+        function getRegionLang() {
+            var region = getQueryVariable("region");
+            var lang = getQueryVariable("lang");
+            if (!lang) lang = "en"
+            var regionMap = {
+                "BR": {
+                    "default": "pt",
+                    "other": []
+                },
+                "SAC": {
+                    "default": "es",
+                    "other": []
+                },
+                "VN": {
+                    "default": "vn",
+                    "other": []
+                },
+                "SG": {
+                    "default": "en",
+                    "other": []
+                },
+                "RU": {
+                    "default": "ru",
+                    "other": []
+                },
+                "IND": {
+                    "default": "en",
+                    "other": []
+                },
+                "ME": {
+                    "default": "ar",
+                    "other": ["fr", "en"]
+                },
+                "TW": {
+                    "default": "zh-tw",
+                    "other": ["ja", "ko"] //此处为了迎合后台，对应的是transify
+                },
+                "TH": {
+                    "default": "th",
+                    "other": ["en"]
+                },
+                "US": {
+                    "default": "en",
+                    "other": []
+                },
+                "ID": {
+                    "default": "id",
+                    "other": []
+                },
+                "EU": {
+                    "default": "",
+                    "other": ["tr", "en"]
+                },
+                "EUROPE": {
+                    "default": "",
+                    "other": ["tr", "en"]
+                },
+                "NA": {
+                    "default": "",
+                    "other": ["es", "en"]
+                }
+            }
+            let regionLang = ''
+            if (!region || !regionMap[region]) {
+                regionLang = 'US'
+            } else {
+                if (regionMap[region].default === lang || regionMap[region].other.indexOf(lang) < 0) { //ie11（模拟器）不支持includes方法，换成indexof
+                    if (region == "ME") {
+                        //ME区 除了ME_fr 其他都是ME_ar
+                        regionLang = "ME"
+                    } else {
+                        regionLang = region == "EU" ? "EUROPE_en" : region
+                    }
+                } else {
+                    regionLang = region == "EU" ? "EUROPE_" + lang : region + "_" + lang
+                }
+            }
+            return regionLang
+        };
+        var region = getQueryVariable("region");
+        var lang = getQueryVariable("lang");
+        loadStyle('/api/css?region=' + region + '&lang=' + lang )</script><link href=https://freefiremobile-a.akamaihd.net/common/web_event/shibastrike/css/app.567415b5ff49f5a80ce27274b954536d.css rel=stylesheet></head><body><div id=app></div><script>var analyticsId="UA-136757559-15",src="https://www.googletagmanager.com/gtag/js?id="+analyticsId;function gtag(){dataLayer.push(arguments)}document.write("<script async src='"+src+"'><\/script>"),window.dataLayer=window.dataLayer||[],gtag("js",new Date),window.onload=function(){document.addEventListener("touchstart",function(t){1<t.touches.length&&t.preventDefault()},{passive:!1});var e=0;document.addEventListener("touchend",function(t){var a=(new Date).getTime();a-e<=300&&t.preventDefault(),e=a},!1)}</script><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/shibastrike/js/manifest.78b05ca6cd12aa7a8013.js></script><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/shibastrike/js/vendor.ab6d1fa2de7e51ef69ee.js></script><script type=text/javascript src=https://freefiremobile-a.akamaihd.net/common/web_event/shibastrike/js/app.eaf0b0e5316c7c9816b0.js></script></body></html>
+
+
+https://bullseye2.us.freefiremobile.com:443

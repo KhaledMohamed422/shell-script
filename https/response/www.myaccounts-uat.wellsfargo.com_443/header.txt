@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: www.myaccounts-uat.wellsfargo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 Epiphany/3.8.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 545
+Cache-Control: no-store
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval' *.wellsfargo.com *.wellsfargo.net ; frame-ancestors 'self'; report-uri /channeltechpublic/csp-reports;
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:46:41 GMT
+Location: /myaccounts/Index.html?TYPE=33554433&REALMOID=06-000d3856-7bd1-17a3-8b1e-8cd9a78fd02d&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=-SM-eAezFcvsA29vcOnuzqxQc0btKa895vbw1fkAmWwGj82TqrQEaAq%2fHflWb%2fqjO1ho0%2bcPFMwfMxus3zkT2nuR3lgr5EiXRyfxM7EHGFRzh2pD7IwOQQnVafb1k6KIwmKc&TARGET=-SM-https%3a%2f%2fwww%2emyaccounts--uat%2ewellsfargo%2ecom%2f
+Set-Cookie: myaccounts_443_infra_1=!+T1QzXWDa9gfxhCi0PTt8e1qd4sDNhKJd4HqNJO0Xbf7agzjIpLOIVF9xvSmO+WV+HHI+0ce+yYJow==; path=/; Httponly; Secure
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

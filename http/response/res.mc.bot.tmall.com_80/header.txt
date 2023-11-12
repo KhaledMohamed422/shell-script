@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: res.mc.bot.tmall.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 380
+Ali-Swift-Global-Savetime: 1699434994
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:16:34 GMT
+Eagleid: 65e21ca016994349942706849e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[144,143,403-1280,M], cache40.l2cn1827[145,0], vcache23.cn4757[162,161,403-1280,M], vcache12.cn4757[167,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B51F2ED0B593830339EC3
+X-Oss-Server-Time: 21
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:16:34 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B51F2ED0B593830339EC3</RequestId>
+  <HostId>iotx-mobile-center-cdn.oss-cn-shanghai.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://res.mc.bot.tmall.com:80

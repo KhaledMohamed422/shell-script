@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: shoppers.instacart.com:8080
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaC7-00/012.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.7.3 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273df4fda47a5e-DUS
+Date: Tue, 07 Nov 2023 17:19:35 GMT
+Expires: Tue, 07 Nov 2023 18:19:35 GMT
+Location: https://shoppers.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RTK8c9xpq6e4R54DZ3UmICnUZpm45qEwxDyHHHlwzWtoUpDbn3hVhVjWqMX7%2B29%2BO%2B9wGcsQfmXiuR5gsIKLEiWEjKrOvI5h0c2nw%2FfOeYDxMgpoacob0mwaMvDAJfl4%2BWTbMociyfQekO6cqQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=UnvCog8w08QrHh7W9dLJQPT9Aeu6c1xWR6_6uK3uBz0-1699377575-0-ARopqSwGlKrnGKarN0hm7Oenj1UDSzEEHBpODgqyjO5qFDQdFz2xWu5O4mOrisUUuDW9cm9ENrn8ZePrQlb8x3E=; path=/; expires=Tue, 07-Nov-23 17:49:35 GMT; domain=.shoppers.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://shoppers.instacart.com:8080

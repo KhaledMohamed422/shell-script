@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: test.feedback.s6.sbgservices.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:07:29 GMT
+Via: 1.1 f192553c835240a9b5df520fb7ffd876.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OChzNG2TjoEERGQ=
+X-Amz-Cf-Id: XArHjjyNQEwcrt0tmauHZuBVPUh4on7qyp9hrEZ7noX6dkQxdapJxA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 77d76fea-5b93-49cc-be2b-608fa6405122
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://test.feedback.s6.sbgservices.com:443

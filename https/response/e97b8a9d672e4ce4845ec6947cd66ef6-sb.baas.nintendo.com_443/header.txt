@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: e97b8a9d672e4ce4845ec6947cd66ef6-sb.baas.nintendo.com
+User-Agent: Mozilla/5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 214
+Content-Type: application/problem+json
+Date: Wed, 08 Nov 2023 19:29:47 GMT
+Server: Google Frontend
+Via: 1.1 fa7c071d9391a32eff94728584435f34.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SFW8vMIjOCNAnNnEsCLX_SG38ruv4McLwKGx-lW_WWZWFESiiCrVnw==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Error from cloudfront
+X-Cloud-Trace-Context: 66b69a917b8d7aca86bf500a962a0e48
+
+{"status":404,"errorCode":"resource_is_not_found","title":"Specified resource is not found","detail":"Resource is not found","instance":"/","type":"https://baas.nintendo.com/errors/1.0.0/404/resource_is_not_found"}
+
+
+https://e97b8a9d672e4ce4845ec6947cd66ef6-sb.baas.nintendo.com:443

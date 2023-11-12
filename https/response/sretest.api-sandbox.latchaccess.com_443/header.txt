@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: sretest.api-sandbox.latchaccess.com
+User-Agent: Mozilla/5.0 (Maemo; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 37
+Apigw-Requestid: OEB69hfroAMEJ2g=
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 05:03:40 GMT
+Server: awselb/2.0
+Via: 1.1 89c822bb1ce1445a7be6d1057088cfbe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9lEjtwPKyDrJREbU8_wFlkhHmO1rx03Uk5TwQnsIIJwsON6umLJfSw==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+The requested resource was not found.
+
+
+https://sretest.api-sandbox.latchaccess.com:443

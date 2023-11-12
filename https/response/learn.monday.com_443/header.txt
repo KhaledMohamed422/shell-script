@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: learn.monday.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: false
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: s-maxage=5,max-age=5
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 822cf6e0a82b6a83-DUS
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html;charset=utf-8
+Date: Wed, 08 Nov 2023 09:59:38 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ef9oqvMOMuJx4gJRAoLNeHI3Zzh1KWveb6lK%2BmYoc%2Bt%2F7iWCbh%2BFF6odqI3bZIDVQ9DcY0J6x%2FqDOnEJZTRwtSwwymglSSNmXAplIIRj8AKMJB6Ezd7iYuE%2F%2FxCvkyBAHi8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=gCpK44gIWM2uk8MiRtTGnkNTu02Mh2izAKR31pUpYN4-1699437578-0-ATpAjG8SKKUGoCe/xgug1EqQ62En8zyV88MeJHb6RIel4mokmTWK1HDPI8xVg9LIcCppnCYINTTK5SWL4k/9A6A=; path=/; expires=Wed, 08-Nov-23 10:29:38 GMT; domain=.learn.monday.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=3d62cec804308e05a7a10a145324cd1fb207663d-1699437578; path=/; domain=.learn.monday.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000
+Vary: origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 51
+X-Evy-Trace-Listener: listener_https
+X-Evy-Trace-Route-Configuration: listener_https/all
+X-Evy-Trace-Route-Service-Name: envoyset-translator
+X-Evy-Trace-Served-By-Pod: iad02/cms-10-19-td/envoy-proxy-7fcbb6f9fd-zzr5g
+X-Evy-Trace-Virtual-Host: all
+X-Hs-Https-Only: worker
+X-Hs-Prerendered: Wed, 04 Oct 2023 21:24:00 GMT
+X-Hs-Reason: No view mapper found to handle request
+X-Hubspot-Correlation-Id: 1df79443-b1b7-4933-b84a-aa01facd807e
+X-Hubspot-Notfound: true
+X-Request-Id: 1df79443-b1b7-4933-b84a-aa01facd807e
+X-Trace: 2BD79338C42994ED16290CCDDDA45CC17049BD0E2D000000000000000000
+
+fa5f

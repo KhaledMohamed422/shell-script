@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: m.test.hilton.io
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 24
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:17:08 GMT
+Expires: Wed, 08 Nov 2023 19:17:08 GMT
+Pragma: no-cache
+Set-Cookie: akacd_mdot_test=3876923827~rv=50~id=9465f2705f59edb4a165ac45443e9d93; path=/;
+Set-Cookie: _abck=00AA7531355DC85F17BDDF470C058858~-1~YAAQxLEPF6/RmqSLAQAAd/BdsAr9PFo59Wml8Cm0CdYXcCBeeopDCOoiZYnM6qsGlilsaN8gVyAVMvuED20Kxuz1NyNdbJ4zaNVnRUc0CKJDtbjXJQ9BYPlrFd/MWsu01d3KtD1K+vkoWwQKis/2XPhedL2p+YusmceAsWVbjESh+jk45yS6vNcEBQO4XcZlfU2IWLQYTTPLM76ahAHoESqPab2ocrZDj07k/SPSbfg3HL+U97z6j2MOMfShz+Ab8mjEScbGmRiwHz3WPMvL94u3FPGdRTABpDP6vDnLPhiZqvNvdgw2J31elg0GKnCK6rreye0WJ5xKK6ySrwi20hC18w==~-1~-1~1699474566; Domain=.hilton.io; Path=/; Expires=Thu, 07 Nov 2024 19:17:08 GMT; Max-Age=31536000
+Set-Cookie: bm_sz=BD59A52344A8074D9021F6F2611AB04C~YAAQxLEPF7DRmqSLAQAAd/BdsBXk2lEaUYgqQURYpT6hJ8bVecyHTKkyRAEXJb3d+Xl02XvHHXnI6VTXZZx3tWIhVbQQRJoymQ4IipTidxo/5QtWkk10eJuU+B2uppSwTXYTANUNukScSA1aIBdu6d6ncm18ECfsYJIsaUyp/u5IxurDt9GdehO4QE2BmESHhhjiBcjmMCV9nbhzrrlDaV5hRqfmZHO65hHJpN189C6+mTDVjEcAi6LDbAzoFeCBVDb8SbGeRGWBQoSngqsCOysVSQTq0VLCo/7kI+pA+GBgEA==~3486001~3355700; Domain=.hilton.io; Path=/; Expires=Wed, 08 Nov 2023 23:17:08 GMT; Max-Age=14400
+
+{"message": "Not Found"}
+
+
+http://m.test.hilton.io:80

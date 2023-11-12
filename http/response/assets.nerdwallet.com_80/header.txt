@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: assets.nerdwallet.com
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3178.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:02:20 GMT
+Server: AmazonS3
+Via: 1.1 507b5edb20d0e1a0b73c8687f53defa8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UzkGjU5RQuZ7Tyk8OSBHiL3ForEq9rFwB1nSNZvCsUkFBcq8JQ8sFg==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>HSX5600P0RCR83AH</RequestId><HostId>fc6rFs9DuiWjkRSg3+RiwTtIWhzDqid0DXWKBlSbNOCDFA9J94ylcIpGp/fiyxDPQP8EwayH8As=</HostId></Error>
+0
+
+
+
+
+http://assets.nerdwallet.com:80

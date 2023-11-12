@@ -1,0 +1,1259 @@
+<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>The Aviatrix</title>
+
+  <meta name="title" content="The Aviatrix">
+  <meta name="description" content="">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://theaviatrix.vhx.tv&format=json" title="The Aviatrix" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://theaviatrix.vhx.tv&format=xml" title="The Aviatrix" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://theaviatrix.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      body, html {
+  	  height: 100%;
+  }
+  body {
+  	background: #e2d4c0 url(http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/11a90127-1017-4840-9517-1521fee9273c/bg-alt.jpg) no-repeat top left;
+    background-attachment: fixed;
+    background-size: cover;
+  	color: #000;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  html .wf-loading  {
+  	font-family: monospace;
+  }
+  html .wf-active p {
+  	font-family: 'Sanchez', monospace
+  }
+  h1, h2, h3, h4, h5, h6 {
+  	line-height: 1;
+    margin: auto;
+  }
+  h1, h3 {
+  	
+  }
+  
+  h2 {
+  	
+  }
+  h3 {
+  	
+  }
+  
+  a, a:visited, .sub-page .vhx a, .sub-page .vhx a:visited {
+  	color: #902523;
+    -webkit-transition: all .3s ease;
+  	-moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+  	transition: all .3s ease;
+  }
+  a:hover, a:visited:hover,
+  .sub-page .vhx a:hover, .sub-page .vhx a:visited:hover {
+  	color: #b7302e;
+  }
+  ul {
+  	list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .contained,
+  .sub-page .vhx {
+  	max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .right {
+  	float: right;
+    margin-left: 10px;
+  }
+  .button,
+  a.button,
+  input[type="submit"],
+  input[type="button"],
+  .sub-page .vhx .video-info a {
+  	border: none;
+  	display: inline-block;
+    font-family: 'Sanchez',sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 25px;
+    color: #FFF;
+    background-color: #902523;
+    -webkit-border-radius: 2px;
+  	border-radius: 2px;
+    position: relative;
+    z-index: 1;
+  }	
+  
+  .button:after,
+  input[type="submit"]:after,
+  input[type="button"]:after,
+  .sub-page .vhx .video-info a:after {
+  	content: '';
+  	position: absolute;
+    bottom: 0;
+    left: 1px;
+    width: 99%;
+    height: 2px;
+    background-color: rgba(0,0,0,.3);
+    -webkit-border-radius: 0px 0px 5px 5px;
+  	border-radius: 0px 0px 5px 5px;
+  }
+  .button i {
+  	font-size: .6em;
+  }
+  .button:hover,
+  a.button:hover {
+  	color: #FFF;
+    background-color: #b7302e;
+  }
+  
+  .button .span,
+  a.button span {
+  	font-size: 1.2em;
+    line-height: 1;
+  }
+  .button.small,
+  a.button.small {
+  	font-size: 12px;
+    padding: 12px 15px;
+  }
+  /* -------------------------------------------------------
+  	HEADER */
+  header {
+  	background-color: #902523;
+    font-family: 'Sanchez',monospace;
+    position: relative;
+    padding: 0 0 10px 0;
+    margin: 0px;
+    width: 100%;
+  }
+  header:after {
+  	display: block;
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    z-index: 201;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.15))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%); /* W3C */
+  }
+  header h1 {
+  	width: 98px;
+    margin-right: 10px;
+    float: left;
+    padding-top: 10px;
+  }
+  header ul a,
+  header ul a:visited {
+  	color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-right: 1px solid #000;
+  }
+  header ul a:hover,
+  header ul a:visited:hover {
+  	color: #000;
+  }
+  header .menu {
+  	width: 550px;
+    float: left;
+  }
+  header ul {
+  	padding-top: 13px;
+  }
+  header li {
+  	float: left;
+  }	
+  
+  header nav li:last-child a {
+  	border-right: none;
+  }
+  header .right {
+  
+  }
+  header .social li {
+  	padding-top: 6px;
+    width: 100px;
+  
+  }
+  header .social .fb {
+  	width: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  header .social li.auth {
+  	padding-top: 0px;
+    width: 107px;
+  }
+  header .social li.auth a {
+  	border-right: none;
+    color: #000;
+    text-decoration: none;
+  }
+  /* -------------------------------------------------------
+  	MAIN */
+    
+    
+  /* FEATURE  */
+  #trailer {
+  	height: 450px;
+  }
+  .feature {
+  	position: relative;
+    width: 800px;
+    margin: 20px auto;
+    height: 530px;
+      -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  .feature .left {
+  	position: absolute;
+    top: 0;
+    left: 0;
+  	width: 390px;
+    z-index: 100;
+    float: left;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  .feature .right {
+  	position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 10;
+    width: 500px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  .feature.active {
+  	height: 450px;
+  }
+  .feature .slides {
+  	border: 10px solid #FFF;
+    width: 480px;
+    height: 270px;
+  }
+  .feature .right h2 {
+  	position: relative;
+    z-index: 200;
+    top: 30px;
+    left: 100px;
+  }
+  .feature .actions {
+  	position: absolute;
+    right: -10px;
+    bottom: 40px;
+    z-index: 200;
+  	margin-top: 20px;
+    width: 500px;
+    text-align: center;
+  }
+  .feature .actions a {
+  	float: left;
+    margin-right: 6px;
+  }
+  .feature  .actions a.flush {
+  	margin-right: 0px;
+  }
+  .feature .actions hgroup {
+  	clear: left;
+  	padding-top: 20px;
+    color: #888176;
+  }
+  .feature .actions hgroup h3 {
+  
+  }
+  .feature .actions hgroup h4 {
+  	font-weight: normal;
+  }	
+  .feature .actions hgroup h3,
+  .feature .actions hgroup h4 {
+     line-height: 18px;
+  }
+  /* UPDATES  */ 
+    
+  .updates {
+  	width: 760px;
+    margin: 0 auto;
+  }
+  .news {
+  	width: 480px;
+    float: left;
+  }
+  .sidebar {
+  	width: 250px;
+    margin-left: 30px;
+    float: left;
+  }
+  
+  
+  
+  
+  .updates .actions {
+  	text-align: center;
+    display: none;
+  }
+  .updates .actions.active {
+  	display: block;
+  }
+  .updates .actions a {
+  	float: left;
+    margin-right: 10px;
+  }
+  .updates .actions a.flush {
+  	margin-right: 0px;
+  }
+  
+  
+  
+  .updates .cta {
+  	
+  }
+  .updates .cta .item {
+  	float: left;
+    width: 33%;
+    padding: 10px;
+    margin-right: 0px;
+    border-right: 1px dotted #888176;
+    box-sizing:border-box;
+  	-moz-box-sizing:border-box; /* Firefox */
+  	-webkit-box-sizing:border-box; /* Safari */
+  }
+  .updates .cta .full {
+  	float: none;
+    width: auto;
+    margin-bottom: 20px;
+    border-right: none;
+    border-bottom: 1px dotted #888176;
+    padding-bottom: 15px;
+  }
+  .updates .cta .item.flush {
+  	border-right: none;
+    margin-right: 0px;
+  }
+  .updates .cta .item a.main,
+  .updates .cta .item a.main:visited {
+  	display: block;
+    text-decoration: none;
+    color: #000;
+  }
+  .updates .cta .item .icon {
+  	float: left;
+    width: 60px;
+    height: 66px;
+    margin-right: 10px;
+  }
+  .updates .cta .item .img {
+  	float: left; 
+    padding: 5px;
+    border: 1px solid #888176;
+    margin-right: 20px;
+    width: 245px;
+  }
+  .updates .cta .item .img img {
+  	width: 100%;
+    height: auto;
+  }
+  .updates .cta .item .icon.padtop {
+  	padding-top: 6px;
+  }
+  .updates .cta .item .txt {
+  	padding-top: 6px;
+  }
+  .updates .cta .item.flush .txt {
+  	padding-top: 0px;
+  }
+  .updates .cta .item .txt h3 {
+  	font-family: 'Sanchez',monospace;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    word-wrap: no-wrap;
+    margin-bottom: 4px;
+  }
+  .updates .cta .item .txt p {
+  	margin-top: 0px;
+  }
+  .updates .cta .full .txt h3 {
+  	font-size: 18px;
+    line-height: 20px;
+  }
+  .updates .cta .full .txt p{
+  	line-height: 18px;
+  }
+  .updates .cta .item a:hover,
+  .updates .cta .item a:visited:hover {
+  	color: #902523;
+  }
+  
+  
+  .updates .cta .padded {
+  	padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px 0;
+    border-top: 1px solid #888176;
+    border-bottom: 1px solid #888176;
+  }
+  
+  .news li {
+  	padding-right: 60px;
+    padding-bottom: 20px;
+   	margin-bottom: 20px;
+    border-bottom: 1px dotted #888176;
+  }
+  .news li:last-child {
+  	border-bottom: none;
+  }
+  .news img {
+  	width: 100%;
+    height: auto;
+  }
+  .news li h4 {
+  	font-size: 18px;
+    font-family: 'Sanchez',sans-serif;
+    text-transform: uppercase;
+  }
+  .news li h4 a {
+  	 text-decoration: none;
+  }
+  .news li .meta {
+  	font-size: 12px;
+    color: #888176;
+  }
+  .news li p[style],
+  .news li i[style] {
+  	font-size: auto;
+    text-align: left;
+  }
+  
+  .updates form {
+  
+  }
+  .updates label {
+  	font-size: 13px;
+    color: #888176;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .updates input[type="text"],
+  .updates input[type="email"] {
+  	padding: 9px 4px 9px;
+    width: 176px;
+  }
+  .updates input[type="submit"],
+  .updates input[type="button"] {
+  	padding: 5px 10px;
+    float: right;
+     -webkit-border-radius: 0px 5px 5px 0px;
+  	border-radius: 0px 5px 5px 0px;
+  }
+  
+  .tweets h3 {
+  	display: none;
+  }
+  .tweets li {
+  	margin-bottom: 20px;
+    padding-bottom: 20px;
+    clear: left;
+    border-bottom: 1px dotted #cbbeac;
+  }
+  .tweets li:last-child {
+  	border-bottom: none;
+  }
+  
+  .tweets .avatar {
+  	width: 45px; 
+    height: 45px;
+    float: left;
+    margin: 0px 5px 15px 0px;
+  }
+  .tweets .avatar img {
+  	width: 100%;
+  	height: auto;
+  }
+  .tweets .text {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 60px;
+  }
+  .tweets .meta {
+  	margin-left: 60px;
+  }
+  .tweets .meta a {
+  	color: #888176;
+  	font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+  }
+  .tweets .meta a:hover {
+  	color: #902523;
+  }
+  .ost {
+  	padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #888176;
+  }	
+  .ost .img {
+  	width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    -webkit-box-shadow:  0px 0px 5px 2px rgba(0, 0, 0, .15);
+          box-shadow:  0px 0px 5px 2px rgba(0, 0, 0, .15);
+  }
+  .ost .img img {
+  	width: 100%;
+    height: auto;
+  }
+  .ost .txt {
+  	padding-left: 12px;
+  }
+  .ost .button {
+  	font-size: 14px;
+    margin: 0 auto 5px auto;
+  }
+  .ost h4 {
+  	font-weight: normal;
+    padding-top: 5px;
+  }
+  
+  /* -------------------------------------------------------
+  	FOOTER */
+  footer {
+  	background-color: #cbbeac;
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+  footer:before {
+  	display: block;
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.15)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.15) 0%,rgba(0,0,0,0) 100%); /* W3C */
+  }
+  footer.fixed {
+  	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  footer .contained {
+  	padding: 30px 0;
+  }
+  footer .poweredby img {
+  	width: 70px;
+    height: auto;
+    opacity: .5;
+  }
+  footer .poweredby a:hover img {
+  	opacity: 1;
+  }
+  footer li {
+  	font-family: 'Sanchez',monospace;
+  	display: inline;
+    margin-left: 20px;
+  }
+  footer a,
+  footer .poweredby a {
+  	text-decoration: none;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+  footer a:hover {
+  	text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  /* -------------------------------------------------------
+  	SUBPAGES */
+  .sub-page .vhx {
+  	  min-height: 85%;
+  }
+  .sub-page .vhx .subpage {
+  	width: 750px;
+    margin: 0 auto;
+  	padding: 40px 0;
+  }
+  .sub-page .vhx .subpage h1,
+  .sub-page .vhx .watch h1,
+  .sub-page .vhx .subpage h2 {
+  	font-family: 'Sanchez',monospace !important;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .sub-page .vhx .subpage h2 {
+  	letter-spacing: -1px;
+  }
+  .sub-page .vhx .watch {
+  	padding: 40px 0;
+  }
+  .sub-page .vhx .watch h1 {
+  	padding-top: 20px;
+    font-weight: normal;
+  }
+  .sub-page .vhx .watch a {
+  	text-decoration: none;
+    line-height: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sub-page .vhx .watch #download {
+  	padding-top: 15px;
+    border-top: 1px solid #888176;
+  }
+  .sub-page .vhx #payment-module footer input[type="submit"],
+  .sub-page .vhx #payment-module footer input[type="button"],
+  .sub-page .vhx .subpage input[type="submit"],
+  .sub-page .vhx .subpage input[type="button"] {
+  	background-color: #902523;
+  }
+  .sub-page .vhx #payment-module footer input[type="submit"]:hover,
+  .sub-page .vhx #payment-module footer input[type="button"]:hover,
+  .sub-page .vhx .subpage input[type="submit"]:hover,
+  .sub-page .vhx .subpage input[type="button"]:hover {
+  	background-color: #b7302e;
+  }
+  .sub-page .vhx #payment-module section .payment-fields input[type="radio"]:checked + label {
+  	border-color: #902523;
+  }
+  .sub-page .vhx #payment-module aside h2,
+  .sub-page .vhx #payment-module section label,
+  .sub-page .vhx #payment-module fieldset.coupon-fields label,
+  .sub-page .vhx #payment-module fieldset.email-fields label,
+  .sub-page .vhx #payment-module fieldset.payment-fields label,
+  .sub-page .vhx #payment-module .gift-fields label { 
+  	text-transform: uppercase;
+    color: #000;
+    font-weight: normal;
+    font-family: 'Sanchez',sans-serif;
+    font-size: 14px;
+  }
+  /* LIGHT TOS ANNOTATIONS */
+  .sub-page .vhx p.explanation {
+      font-size: 14px;
+      background-color: #e3d4c1;
+      color: #000;
+      border: 1px solid #999;
+  }
+  .sub-page .vhx p.explanation:after {
+      border-bottom-color: #e3d4c1;
+  }
+  .sub-page .vhx p.explanation:before {
+  	border-bottom-color: #999;
+  }
+  
+  
+  
+  /*		Tablet Layout: 768px.
+  -----------------------------------------------------------------   */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  	.contained,
+    footer .contained {
+    	max-width: none;
+      width: auto;
+      padding: 30px 20px;
+    }
+    header {
+    	width: auto;
+    }
+    header .contained {
+    	padding: 10px;
+    }
+    header .menu {
+    	width: 400px;
+      font-size: 12px;
+    }
+    .feature {
+    	width: auto;
+    }
+    .feature .left {
+    	left: 5%;
+    }
+    .feature .right {
+    	right: 5%;
+    }
+    
+    .feature .right h2 {
+    	text-align: right;
+      display: block;
+      left: 0;
+    }
+    .feature .actions {
+    	right: 5%;
+    }
+    .updates {
+    	width: auto;
+    }
+    .news {
+    	width: 60%;
+    }
+    .sidebar {
+    	width: 30%;
+    }
+    .updates .cta .item {
+    
+    }
+  	.sub-page .vhx .subpage {
+    	padding: 30px 20px;
+      width: auto;
+    }
+    .sub-page .vhx .watch {
+    	font-weight: normal;
+    }
+    .sub-page.videos-watch .vhx {
+    	width: auto;
+      padding: 0px 30px;
+    }
+    .sub-page.videos-watch footer {
+    	position: relative;
+      margin-top: 100px;
+    }
+  }
+  
+  
+  /*		Mobile Layout: 320px.*/
+  
+  @media only screen and (max-width: 767px) {
+  	.contained {
+    	width: auto;
+      padding: 0 20px;
+    }
+    header li.fb,
+    header li.twitter {
+    	display: none;
+    }
+    .feature {
+    	width: auto;
+      padding: 0 30px;
+    }
+    #trailer { 
+    	position: absolute;
+       box-sizing:border-box;
+  		-moz-box-sizing:border-box; /* Firefox */
+  		-webkit-box-sizing:border-box; /* Safari */
+  	  width: 95%;
+      height: 350px;
+      left: 0;
+    }
+    .feature.active {
+    	height: 350px;
+      position: relative;
+    }
+    .feature .left {
+    	display: none !important;
+    }
+    .feature .right {
+  	  position: relative;
+    	left: 0;
+      top: 0;
+      width: auto;
+      padding: 0;
+      margin: 0;
+      float: none;
+    }
+    .feature .right h2 {
+    	text-align: center;
+      left: 0;
+    }
+    .feature .actions {
+     position: relative;
+      right: auto;
+      bottom: auto;
+      width: auto;
+      float: none;
+     }
+     .feature .actions a {
+     	float: none;
+      display: block;
+      margin: 10px 0;
+     }
+    .feature .slides {
+    	width: auto;
+    }
+    .updates {
+      width: auto;
+    }
+    .updates .actions {
+    	padding: 0 30px;
+    }
+    .updates .actions a {
+    	float: none;
+      display: block;
+      margin: 10px 0;
+    }
+    .updates .news {
+    	width: auto;
+      float: none;
+      padding: 0;
+      margin: 0;
+    }
+    .updates .news li {
+    	padding-right: 0px;
+    }
+   .updates .cta .item {
+    	width: 100%;
+      float: none;
+      border-right: none;
+      border-bottom: 1px solid #888176;
+  		min-height: 90px;
+    }
+    .updates .cta .item.flush {
+    	border-bottom: none;
+    }
+    .updates .sidebar {
+    	width: auto;
+      margin-left: 0px;
+      float: none;
+    }
+    footer li {
+    	float: none;
+      display: list-item;
+      margin-bottom: 10px;
+    }
+    footer .contained {
+    	width: auto;
+      padding: 30px 20px;
+    }
+  }
+  
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      window.Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_CONCURRENT_LIMIT":"concurrent_limit","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_PAGE_VIEW":"site_page_view","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_PURCHASE_COMPLETED":"purchasecompleted","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_AUTHENTICATION_IDENTIFY_USER":"identify_user","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_VIEW":"Sign In Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_SEARCH_EXECUTED":"Search Executed","EVENT_SEGMENT_SEARCH_ITEM_SELECTED":"Search Result Selected","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_CLICKED":"Video Ad Clicked","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_COMMENT_ADDED":"Video Comment Added","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEARCH":"search","EVENT_SEARCH_ITEM_SELECTED":"searchitemselected","EVENT_EXTRA_VIEWED":"extraviewed"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_SITE_ID":"site_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_EMAIL":"user_email","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+      };
+  
+        window._vhx = {
+          environment: 'production',
+          site: { id: '10159', domain: 'theaviatrix.vhx.tv', host: 'theaviatrix.vhx.tv' },
+          geo:  { country: 'de' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      window._current_user = {"id":null,"email":null,"name":null};
+  
+      window._current_site = {"id":10159,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"theaviatrix"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <header>
+	<div class="contained">
+  	<div class="right">
+      <ul class="social">
+          <li class="auth"><a href="/login">Sign In</a></li>
+  
+        
+	        <li class="fb">
+            <div class="fb-like" data-href="" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+            <div id="fb-root"></div>
+          </li>
+          
+          <li class="fb">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://theaviatrix.vhx.tv" data-text="Every child deserves a family. It&#39;s more than a documentary, it&#39;s a love story." data-via="">Tweet</a>
+          </li>
+          
+        </ul>
+    </div>
+    
+    <div class="menu">
+      <h1 class="typekit"><a href="/"><img alt="Stuck" src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/75282bee-070c-425a-ad03-7caab505b4f4/logo-sml.png" /></a></h1>
+      <nav>
+        <ul>
+            <li><a href="https://stuck.vhx.tv/buy?purchase=1">Buy The Film</a></li>
+    
+            <li><a href="https://bothendsburning.z2systems.com/np/clients/bothendsburning/donation.jsp" >Donate</a></li>
+            <li><a href="https://bebglobal.org/" target="_blank">Learn More</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    
+    <div class="clear"></div>
+	</div>
+  
+</header>
+
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <section class="feature">
+    	<div class="contained">
+        <div id="trailer" data-trailer-url="16095"></div>
+    
+    		<div class="left">
+          <hgroup>
+            <h1><img alt="The Aviatrix" src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/c641ba63-b7d7-4210-9aba-f1bcffd432eb/logo-lrg.png" /></h1>
+          </hgroup>
+        </div>
+        
+        
+        <div class="right">
+        	<h2><img alt="It's more than a documentary. It's a love story." src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/28776bc3-26ee-4846-9e17-4fb7c4a25e7d/a-love-story.png" /></h2>
+          
+          <div class="slides" data-slideshow>
+            <img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/0ae9e039-60d9-472d-9a10-47e9d89ea9c8/slideshow-bars.jpg">
+            <img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/810c0a7e-7899-400b-b6bc-3dfda690c96e/slideshow-jam.jpg">
+            <img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/04aaaf28-773e-420d-9ece-b9aaa11cba03/slideshow-sitting.jpg">
+            <img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/4f9b0597-7b02-4407-97b4-9d13bcd33075/slideshow-erickson.jpg">
+            <img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/images/theme/fabb9e63-f49f-4d3a-bb08-673e603bd6ec/slideshow-sigler.jpg">
+       		</div>
+          
+        </div>
+        
+        <div class="actions">
+    	      <a href="https://stuck.vhx.tv/buy?purchase=1" class="buy button" title="Buy Now"><span>$16.50</span> Watch Now</a>      
+    		    <a href="#trailer" class="preview button flush" title="Play Trailer"><i class="icon-play"></i> Watch the Trailer</a>
+           <hgroup>
+           <h4></h4>
+           <br>
+     <h3>Instant Streaming and HD Downloads</h3>
+            <h5>Looking for a DVD? Find it in our Store.</h5>
+            
+            </hgroup>
+          </div>
+        
+    	<div class="clear"></div>
+     </div>
+    </section>
+    
+    <section class="updates">
+    	<div class="contained">
+    			
+    		<div class="actions">
+    	     <a href="/buy" class="buy button" title="Buy Now"><span>$16.50</span> Watch Now</a>      
+    		   <a href="#stop" class="preview button flush" title="Stop Trailer"><i class="icon-stop"></i> Stop Trailer</a>
+           <div class="clear"></div>
+        </div>
+        
+    	  <div class="cta">
+        	<div class="padded">
+          	<!-- <div class="full item">
+            	
+              	<div class="img"><a href="https://bothendsburning.org/initiatives/stuck-tour/itinerary/"><img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/023de47d-35c3-44e8-b0ee-b72f29faa192/stuck-tour-promo-alt.jpg" /></a></div>
+                <div class="txt">
+                	<h3>Join <a href="https://bothendsburning.org/initiatives/stuck-tour/">the STUCK Tour</a> and help us force change.</h3>
+                  <p>STUCK is a new award-winning documentary, produced by Both Ends Burning that uncovers the real-life stories of children and parents navigating through the international adoption system. Follow the tour bus, accompanied by <a href="http://blog.jessicamrose.com/">photojournalist Jessica Rose</a>, as we premier the film <a href="https://bothendsburning.org/initiatives/stuck-tour/itinerary/">in 60 cities in 80 days.</a> </p>
+                  <p><a href="https://bothendsburning.org/initiatives/stuck-tour/itinerary/" class="button small" target="_blank">Join the Stuck Tour</a></p>
+                </div>
+              
+              <div class="clear"></div>
+            </div> -->
+           <!-- <div class="item">
+            	<a href="https://bothendsburning.org/initiatives/stuck-tour/itinerary/" class="main">
+              	<div class="icon"><img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/c3b6b278-78b4-4098-b494-d1fac6eb25b8/icon-ticket.png"></div>
+                <div class="txt">
+                	<h3>Join the Tour</h3>
+                  <p>View city schedule and buy tickets</p>
+                </div>
+              </a>
+            </div> -->
+            
+             <div class="item padtop">
+            	<a href="/buy/gift" class="main">
+              	<div class="icon"><img src="https://dr56wvhu2c8zo.cloudfront.net/stuck/assets/66181a50-e81c-40ca-ad29-849ce7ebdd78/icon-gift.png"></div>
+                <div class="txt">
+                	<h3>Gift the Movie</h3>
+                  <p>Spread the message, share the film!</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="item">
+            	<a href="https://bothendsburning.org/store/" class="main">
+              	<div class="icon padtop"><img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/d8cc6d2d-f686-4a1d-96b2-7b1a0203b71f/icon-tags.png" /></div>
+                <div class="txt">
+                	<h3>Visit the Store</h3>
+                  <p>Get your Stuck DVDs, posters and more!</p>
+                </div>
+              </a>
+            </div>
+            
+             <div class="item flush">
+            	<a href="http://bothendsburning.org" class="main">
+              	<div class="icon"><img width="43" height="54" src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/885231a5-35f1-4330-bba0-c23617daa9ab/icon-fire.png" /></div>
+                <div class="txt">
+                	<h3>Make a Difference</h3>
+                  <p>Visit Both Ends Burning for ways to help</p>
+                </div>
+              </a>
+            </div>
+            
+            <div class="clear"></div>
+            
+          </div>
+        </div>
+        
+        <div class="news">
+        	<h3 class="typekit">News</h3>
+          <div id="blog"></div>
+        </div> <!-- end .news -->
+        
+        <div class="sidebar wide">
+        	<ul>
+    			<li class="module ost">
+          	<a class='img' href="https://itunes.apple.com/us/album/stuck-original-motion-picture/id616164713"><img src="http://dr56wvhu2c8zo.cloudfront.net/stuck/assets/294e0b11-36f9-45e6-a3a7-a8f79a09658e/stuck-ost.jpg" /></a>
+            <div class="txt">
+    	      	<a class='button' href='https://itunes.apple.com/us/album/stuck-original-motion-picture/id616164713'>Get the Soundtrack</a>
+      	      <h4>Download the Daniel Baron soundtrack on iTunes</h4>
+            </div>
+          </li>
+        	<li class="module tweets">
+            <h3 class="typekit">Twitter</h3>
+            <div data-twitter-handle="">
+            </div>
+           </li> <!-- end .tweets -->
+           </ul>
+        </div> <!-- end .sidebar -->
+        
+        <div class="clear"></div>
+      </div>
+    </section>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <footer class="">
+	<div class="contained">
+  	<div class="right poweredby">
+    	<a href="http://vhx.tv" alt="Powered By VHX" class="vhx"><img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_black.png" /></a>
+    </div>
+  	<ul>
+        <li><a href="/buy">Buy The Movie</a></li>
+
+
+        <li class="auth"><a href="/login">Sign In </a></li>
+
+      <li><a href="/faq">Help / FAQ</a></li>
+  	  <li><a href="/privacy">Privacy Policy</a></li>
+	    <li><a href="/tos">Terms of Use</a></li>
+		</ul>
+    <div class="clear"></div>
+  </div>
+</footer>
+    <div class="clear"></div>
+  </section>
+
+  <script>
+    window._site = {
+      color:        '#FFFFFF',
+      key:          'theaviatrix',
+      facebook_url: 'https://www.facebook.com/capetowntogoodwood',
+      twitter_name: 'theavaitrixfilm'
+    };
+  
+    var _config = {
+      country_code: 'de'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  window._flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        // GOOGLE FONTS
+  WebFontConfig = {
+  	google: { families: [ 'Sanchez'] }
+  };
+        
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+  
+  $('.slides').on('click', function(e) { $('a[href="#trailer"]').trigger('click'); });
+  
+  $("a[href='#trailer']").on('click',function(){
+   	$("#trailer").fadeIn();
+    $(".feature").addClass("active");
+    $(".feature .left, .feature .right, .feature .actions").fadeOut();
+    $(".updates .actions").fadeIn();
+  });
+  
+  $("a[href='#stop']").on('click',function(e){
+    e.preventDefault();
+    stopTrailer();
+  });
+  
+  $('#trailer').on('video:load', function() {
+  });
+  
+  $('#trailer').on('video:stop', function() {
+    stopTrailer();
+  });
+  
+  Mousetrap.bind('esc', function() {
+    stopTrailer();
+  });
+  
+  $('#trailer').on('video:pause', function() {
+   // console.log('video paused');
+  });
+  
+  // footer fixation
+  if ($("body").height() < $(window).height()){
+    $("footer").addClass("fixed");
+  };
+  
+  $(window).resize(function(){
+  	/*console.log($("body").height());
+    console.log($(window).height());
+    console.log("---");*/
+  	// quick fix
+    if ($("body").height() < $(window).height()){
+      $("footer").removeClass("fixed");
+    }
+    if ($("body").width() < 768){
+     $("footer").removeClass("fixed");
+    }
+  });
+  
+  $(".tweets li .text").each(function(index){
+    $(this).html(linkTweet($(this).html()));
+  });
+  
+  // -------------------------------------------------------
+  // NEWS
+  var url = 'http://bothendsburning.org/category/news/feed/',
+      api = '/blog_feed.json?url=' + encodeURIComponent(url),
+      blog = $('#blog'),
+      limit = 1; // this is zero based, remember that
+  	//blog.html('<div class="rssError"><p>Read all the latest news <a href="https://bothendsburning.org/category/news/" target="_blank">here</a>.</p></div>');
+  $.getJSON(api, function(data, text, xhr){
+    if (xhr.status == 200 && data && data.entries) {
+      var html = '<div class="rssBody"><ul id="blog-entries"></ul></div>';
+      blog.html(html);
+  
+      $(data.entries).each(function(i, entry) {
+        var earl = entry.link; // returning "h" instead of full link, nix for now
+        var li = $('<li class="rssRow ">' +
+                  '<h4 class="typekit">' + entry.title + '</h4>' +
+                  '<div class="meta">'+ entry.publishedDate +'</div>' +
+                  '<p>'+ entry.content +'</p>' +
+                  '</li>');
+        if (i <= limit){
+          $('#blog-entries').append(li);
+        }
+      });
+    } else {
+      blog.html('<div class="rssError"><p>An error occured fetching the blog feed. :(</p></div>');
+    };
+  });
+      
+  function stopTrailer(){
+    $("#trailer").fadeOut().html("");
+    $(".feature").removeClass("active");
+    $(".feature .left, .feature .right, .feature .actions").fadeIn();
+    $(".updates .actions").fadeOut();
+  }
+  
+  function linkTweet(tweet){
+  	if(tweet.search(/(https?:\/\/[-\w\.]+:?\/[\w\/_\.]*(\?\S+)?)/) > -1) {
+      tweet = tweet.replace(/(https?:\/\/[-\w\.]+:?\/[\w\/_\.]*(\?\S+)?)/, "<a target='_blank' href='$1'>$1</a>")
+    }
+  
+    if(tweet.search(/@\w+/) > -1) {
+      tweet = tweet.replace(/(@)(\w+)/g, "<a target='_blank' href='http://twitter.com/$2'>@$2</a>");
+    }
+    
+    return tweet;
+  }
+  
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="theaviatrix.vhx.tv"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://theaviatrix.vhx.tv:443

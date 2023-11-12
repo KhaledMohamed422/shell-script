@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: artists.tiktok.com
+User-Agent: Mozilla/5.0 (X11; NetBSD) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 136
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:47 GMT
+Expires: Wed, 08 Nov 2023 18:38:47 GMT
+Location: https://www.tiktok.com/404
+Pragma: no-cache
+Proxy-Status: 0000201302026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=682, origin; dur=3
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+X-Akamai-Request-Id: 20d0319.242859
+X-Cache: TCP_MISS from a92-123-132-7.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-44-4-37.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 3,23.44.4.37
+X-Parent-Response-Time: 680,92.123.132.7
+X-Tt-Logid: 2023110818384549AEFE75DC73E52DB457
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a709a23168424c8e3bfb4da2c58fa4c0867d31b10892bcfddffb3261c12c599cefab516647bb90b55fb3e383bc21ec7c0533164308dfa9ecba9b6e705826dd224
+X-Tt-Trace-Id: 00-23110818384549AEFE75DC73E52DB457-152E468465377A32-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

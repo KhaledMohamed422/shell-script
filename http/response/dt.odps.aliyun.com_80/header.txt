@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: dt.odps.aliyun.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es70
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Authorization Required
+Connection: close
+Content-Length: 103
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 16:48:32 GMT
+Server: Tengine/2.5.3_20210817194811
+X-Odps-Request-Id: 2023110816483227d9d90b0e9e1533
+
+{
+    "Code": "Unauthorized",
+    "Message": "The request authorization header is invalid or missing."}
+
+
+http://dt.odps.aliyun.com:80

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: g.redditmedia.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Permanently moved
+Connection: close
+Accept-Ranges: bytes
+Date: Tue, 07 Nov 2023 20:26:27 GMT
+Location: https://external-preview.redd.it/?s=6a245eeface3338d2279d78f0932b8778dadd615
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Retry-After: 0
+Server: Varnish
+Via: 1.1 varnish
+Content-Length: 0
+
+
+
+
+https://g.redditmedia.com:443

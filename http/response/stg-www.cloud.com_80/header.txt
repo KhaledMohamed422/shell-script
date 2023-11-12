@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: stg-www.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2869.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Cache-Control: max-age=0
+Content-Security-Policy: frame-ancestors 'self'
+Date: Tue, 07 Nov 2023 23:00:38 GMT
+Expires: Tue, 07 Nov 2023 23:00:38 GMT
+Location: https://stg-www.cloud.com/
+Referrer-Policy: no-referrer-when-downgrade
+Server: AkamaiGHost
+Strict-Transport-Security: max-age=31449600
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+
+
+
+
+http://stg-www.cloud.com:80

@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: scope.lyft.net
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; en-us; sdk Build/MR1) AppleWebKit/536.23 (KHTML, like Gecko) Version/4.3 Mobile Safari/536.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:07 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9zY29wZS5seWZ0Lm5ldC8iLCAic3ZjIjogIioubHlmdC5uZXQifQ%3D%3D%7C10.47.140.59%7C1699394707%7C07ec235fe885d9ff65a751da3d1091269ad27cd503dbd9dd3a6b3a3675ae684d
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 7
+

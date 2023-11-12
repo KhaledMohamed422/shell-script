@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: poplayer.template.alibaba.com
+User-Agent: Mozilla/5.0 (X11; Linux) KHTML/4.9.1 (like Gecko) Konqueror/4.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699434899
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:14:59 GMT
+Eagleid: a3b55c9916994348995442396e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache7.l2de2[,0], ens-cache15.de5[3,3,403-1280,M], ens-cache5.de5[5,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:14:59 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

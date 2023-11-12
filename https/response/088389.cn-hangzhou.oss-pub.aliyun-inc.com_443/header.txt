@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: 088389.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: HTMLParser/1.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 370
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:36:43 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B56AB9F70D635379D08B7
+X-Oss-Server-Time: 9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B56AB9F70D635379D08B7</RequestId>
+  <HostId>088389.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://088389.cn-hangzhou.oss-pub.aliyun-inc.com:443

@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: grafana.unms.dev.svc.ui.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:53:01 GMT
+Location: https://accounts.google.com/o/oauth2/auth?client_id=149816523707-2s6nsppatsvvnb4fslquf3ur42206frm.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fgrafana.unms.dev.svc.ui.com%3A8443%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=BuHKJupRW%2ByW2olK4rnGqug2MmlrNVBcCBX1Oc5hkQzPs%2FEPefOnoC0EbW0R%2F7gb5q5rdz6Y6WsE7UROni0K%2F3ECqsLiphwA5ij0aoGSVeka28YZzGjwtb1FVDqq5Bpwe3GGmhp4QidWLeTVo5qgE%2FEuv8dDtaW67kf77Yjzl7B1uE%2BlfRx1B8QbZHyh9oC046%2FgmA3iILiVksoujSNcUsTB7W0gLVZcdMK7P%2F7Un5ve4Fh0yA%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=LC0j1Ct2FtLpGyGm; Expires=Wed, 08 Nov 2023 05:08:01 GMT; Path=/; Secure; HttpOnly
+

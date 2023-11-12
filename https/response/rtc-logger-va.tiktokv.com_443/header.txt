@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: rtc-logger-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.49 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:46:18 GMT
+Expires: Wed, 08 Nov 2023 18:46:18 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: inner; dur=5
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=409
+X-Akamai-Request-Id: 10a1bc13
+X-Cache: TCP_MISS from a2-21-12-162.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 409,2.21.12.162
+X-Tt-Logid: 20231108184617DE5DB01029FEDF7529D3
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aae36853f4975bb926e0614c3398e2d72bcf7eca296c788e2570de321ca83f5d4d9666b14791a0c7f311da0d416efdf6fb1c4e757c99d5065d0a1ace8590bd70d65285bacf5f715d28f5820ec1fff5020
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+https://rtc-logger-va.tiktokv.com:443

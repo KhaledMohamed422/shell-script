@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: webmail.maximum.nl
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved permanently
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' *.kerio.com; img-src * http: https: data:;
+Content-Type: application/octet-stream
+Date: Wed, 08 Nov 2023 05:09:52 GMT
+Location: /webmail/
+Server: Ponos Maximum
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Via: Delegathos02 Maximum
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+https://webmail.maximum.nl:443

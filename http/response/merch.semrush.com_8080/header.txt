@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: merch.semrush.com:8080
+User-Agent: Mozilla/5.0 (Android 2.2; Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822bebf0c89f7169-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 06:57:24 GMT
+Expires: Wed, 08 Nov 2023 06:57:39 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oBDqGFyDVdnkV6IFJ8BG6n5rRxScagddzqrzyhQC9ZZ2oA01E1BNkC6GcmWOOSuHr9wCQXwtBh0a7dtkLPBUywmh4BXWC0s7lU%2FvBp1VIGdlukOAhBrIR1e7qwH1FNLMBwIfhjin5rA%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=8.999825
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

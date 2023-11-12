@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: ps.playstation.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149  Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Security-Policy: style-src 'self';img-src 'self';font-src 'self';script-src 'self';frame-ancestors 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:26:44 GMT
+Referrer-Policy: no-referrer
+Server: 
+Strict-Transport-Security: max-age=157680000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

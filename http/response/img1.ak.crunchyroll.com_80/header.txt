@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: img1.ak.crunchyroll.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 507
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:09:55 GMT
+Expires: Tue, 07 Nov 2023 19:09:55 GMT
+Server: CloudFront
+Via: 1.1 905eac6c91c9858bd0f20b56e9c842d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 49tLOUiEZRAedcpVv7NNTRF34jVR08LI27bUAhOVyGAtROiXQ77N0A==
+X-Amz-Cf-Pop: LHR50-P1
+X-Cache: Error from cloudfront
+

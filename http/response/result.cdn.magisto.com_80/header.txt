@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: result.cdn.magisto.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_1_1 like Mac OS X; zh-CN) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19B81 UCBrowser/13.7.2.1636 Mobile AliApp(TUnionSDK/0.1.20.4) dv(iPh14,5);pr(UCBrowser/13.7.2.1636);ov(15_1_1);ss(390x844);bt(UC);pm(0);bv(0);nm(0);im(0);nt(1);
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:22:39 GMT
+Server: AmazonS3
+Via: 1.1 72500140cb63ff2dee8b57e4476902e6.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: -LdHiiyEhKibSmYUwHPTtWOBuyBcVmTyiax5yb1zvqNFXcruDy-OcQ==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4CCXC4GRCQVB7YGD</RequestId><HostId>YpvE8Ov0V9Z3AeodcOR9s3kUPMJj9k46T2Y4+WD7IRarjOkvYUpO0d+zJWdwPi5i/wuXXUMNnh4=</HostId></Error>
+0
+
+
+
+
+http://result.cdn.magisto.com:80

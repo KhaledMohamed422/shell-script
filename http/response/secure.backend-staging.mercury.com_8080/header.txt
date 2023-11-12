@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: secure.backend-staging.mercury.com:8080
+User-Agent: SonyEricssonK800i/R1CB Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 02:23:56 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

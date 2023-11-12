@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: forms.collegeboard.org:8443
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; Windows) KHTML/4.5.4 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:16:37 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 912bce7834c2a9009641c05483c0adff
+
+4109

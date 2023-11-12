@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: chatw-1.stream.highwebmedia.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) konqueror/4.14.10 Safari/537.21
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 530 
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 823036ec4b1efadf-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:27:38 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ylnHdz23BHvpB5HwrSIROrOvuMzvGERaWTk5PQVy7EBPZYu%2BRK54lUq4V2C%2BGTj5jlc2vWmDxh6QFJ1%2BZWbapu6mGnp8xZ5A%2BPTSOQs2GeDN0kMzUF5nWZ2BGELbyslSDSqFhMgzUFGWkyiQeZF8Bnck7oyagA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _cfuvid=B0HQzUoestplDkP3CcPOSJ31w0jHI6.PrphGsdSmx0M-1699471658941-0-604800000; path=/; domain=.highwebmedia.com; HttpOnly; Secure; SameSite=None
+X-Frame-Options: SAMEORIGIN
+
+error code: 1016
+
+
+https://chatw-1.stream.highwebmedia.com:8443

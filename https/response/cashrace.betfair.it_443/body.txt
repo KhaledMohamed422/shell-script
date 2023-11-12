@@ -1,0 +1,3467 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Betfair Cash Race</title>
+<meta name="keywords" content="Cash Race" />
+<meta name="description" content="Cash Race" />
+<meta name="robots" content="index,nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+/*
+stately.js v1.15
+No dependencies on other libraries. Will use jQuery for DOMContentLoaded event if present.
+*/
+var STATELY = STATELY || (function(d) {
+    var states = {},
+        groups = 0,
+        journal = [],
+        started = false,
+        start_states = {},
+        set_loaded = true,
+        listeners = {},
+        current_state = {},
+        debug = false;
+
+    function addCSS(css, id) {
+        if (id && document.getElementById(id)) document.getElementById(id).remove();
+        var head = document.getElementsByTagName('head')[0];
+        var styleElement = document.createElement('style');
+        if (id) styleElement.id = id;
+        styleElement.setAttribute('type', 'text/css');
+        if (styleElement.styleSheet) { // IE
+            styleElement.styleSheet.cssText = css;
+        } else { // the world
+            styleElement.appendChild(document.createTextNode(css));
+        }
+        head.appendChild(styleElement);
+        return this;
+    }
+
+    function hasClass(e, c) {
+        var r = new RegExp("^" + c + "\\s+|\\s+" + c + "\\s+|\\s+" + c + "$", "g");
+        var ec = " " + e.className + " ";
+        return r.test(ec);
+    }
+
+    function addClass(e, c) {
+        if (!hasClass(e, c)) {
+            var ec = (e.className + " " + c).replace(/^ *| *$/g, "");
+            e.className = ec;
+        }
+    }
+
+    function removeClass(e, c) {
+        var r = new RegExp("^" + c + "\\s+|\\s+" + c + "\\s+|\\s+" + c + "$", "g");
+        var ec = " " + e.className + " ";
+        ec = ec.replace(r, " ").replace(/^ *| *$/g, "").replace(/\s+/g, " ");;
+        e.className = ec;
+    }
+
+    function toggleClass(e, c1, c2) {
+        if (hasClass(e, c1)) {
+            removeClass(e, c1);
+            addClass(e, c2);
+        } else {
+            removeClass(e, c2);
+            addClass(e, c1);
+        }
+    }
+
+
+    function group(name, statelist, scope, typ, typ_selected) {
+        if (arguments.length == 1) {
+            name = name.split('|');
+            for (var i = 0; i < name.length; i++) {
+                name[i] = name[i].split('-');
+                if (name[i].length < 2) continue;
+                group(name[i][0], name[i][1]);
+            }
+            return this;
+        }
+        if (typeof statelist === 'string') statelist = statelist.split(',');
+        journal.push([name, statelist, scope, typ, typ_selected]);
+        //start_states[name]=statelist[0];
+        if (started) {
+            build(name, statelist, scope, typ, typ_selected);
+        }
+        //.current_state[name]=statelist[0];
+        if (started) {
+            build(name, statelist, scope, typ, typ_selected);
+            set(name, statelist[0]);
+            _write(name);
+        }
+        return this;
+    }
+
+    function build(name, statelist, scope, typ, typ_selected) {
+        var selector;
+        scope = scope || d.body;
+        if (scope === null || typeof scope === 'undefined') {
+            throw new Error("Scope for state " + name + " is illegal or missing.");
+        }
+        typ = typ || 'display:none;';
+        typ_selected = typ_selected || '';
+        if (typeof(scope) === "object" && ('tagName' in scope)) {
+            if (scope.tagName === "BODY") {
+                selector = "body";
+            } else if (scope.hasAttribute('id')) {
+                selector = '#' + scope.id;
+            } else {
+                groups += 1;
+                scope.id = "stately_" + groups;
+                selector = '#' + scope.id;
+            }
+
+        } else if (typeof(scope) === "string") {
+            selector = '#' + scope;
+            var scope_tmp = d.getElementById(scope);
+            scope = scope_tmp;
+        }
+        states[(selector != 'body' ? selector.substring(1) + '-' : '') + name] = {
+            n: name,
+            a: statelist,
+            e: scope,
+            r: selector,
+            t: typ,
+            on: typ_selected
+        };
+        //set((selector != 'body' ? selector.substring(1) + '-' : '') + name, statelist[0]);
+        // Was overwriting early set states
+    }
+
+    function _write(state) {
+        var css = "",
+            s, i, j, sep = "";
+
+        for (i = 0; i < journal.length; i++) {
+            if (typeof(state) == 'undefined' || state == journal[i][0]) build(journal[i][0], journal[i][1], journal[i][2], journal[i][3], journal[i][4]);
+        }
+
+        for (s in states) {
+            if ((typeof(state) == 'undefined' || state == s) && states[s].hasOwnProperty('a') && typeof(states[s].a) !== "undefined") {
+                for (i = 0; i < states[s].a.length; i++) {
+                    for (j = 0; j < states[s].a.length; j++) {
+                        if (i != j) {
+                            css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-" + states[s].a[j];
+                            sep = ",";
+                        }
+                    }
+                }
+                css += "{" + states[s].t + "}\n";
+                sep = "";
+                for (i = 0; i < states[s].a.length; i++) {
+                    css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-not-" + states[s].a[i];
+                    sep = ",";
+                }
+                css += "{" + states[s].t + "}\n";
+                sep = "";
+                if ('on' in states[s] && states[s].on) {
+                    for (i = 0; i < states[s].a.length; i++) {
+                        css += sep + states[s].r + "." + states[s].n + "-" + states[s].a[i] + " " + "." + states[s].n + "-" + states[s].a[i];
+                        sep = ",";
+                    }
+                    css += "{" + states[s].on + "}\n";
+                    sep = "";
+                }
+            }
+        }
+        addCSS(css);
+
+        for (s in states) {
+            if (typeof(state) == 'undefined' || state == s) {
+                if (s in start_states) set((states[s].r != 'body' ? states[s].r.substring(1) + '-' : '') + s, start_states[s]);
+                else set((states[s].r != 'body' ? states[s].r.substring(1) + '-' : '') + s, states[s].a[0]);
+            }
+        }
+    }
+
+    function get(n) {
+        if (typeof(n) === 'undefined') return current_state;
+        return current_state[n];
+    }
+
+    function groupAttr(n, a) {
+        if (typeof a === 'undefined') return states[n];
+        return states[n][a];
+    }
+
+    function set(name, state) {
+        var i, prv;
+
+        if (typeof(name) === "object") {
+            for (i in name) set(i, name[i]);
+            return this;
+        }
+
+        debug && window.console && console.log && console.log('set', started, name, state);
+
+        if (state == 'debug') debug = (state === true) || state === 'y';
+
+        if (started) {
+            if (states[name] && states[name].a && 'length' in states[name].a && states[name].a.indexOf(state) >= 0) {
+                for (i = 0; i < states[name].a.length; i++) {
+                    if (states[name].a[i] != state && states[name].e) removeClass(states[name].e, states[name].n + "-" + states[name].a[i]);
+                }
+                addClass(states[name].e, states[name].n + "-" + state);
+            }
+            current_state[name] = state;
+            trigger('set-' + name, state);
+            trigger('change', name, state);
+            trigger('set-' + name + "-" + state);
+        }
+        start_states[name] = state;
+
+        if (name == 'loaded' && started) {
+            if (state == 'y') {
+                removeClass(d.body, "loading");
+                addClass(d.body, "loaded");
+            } else if (state == 'n') {
+                removeClass(d.body, "loaded");
+                addClass(d.body, "loading");
+            }
+        }
+
+        return this;
+    }
+
+    function onload(f) {
+        if (started) {
+            f();
+            return;
+        }
+        if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", f, false);
+        } else if (window.jQuery) {
+            jQuery(f);
+        } else {
+            var w = window.onload;
+            window.onload = function() {
+                f();
+                if (w) w();
+            };
+        }
+    }
+
+    onload(function() {
+        started = true;
+        _write();
+        if (set_loaded) loaded();
+        trigger('started', states, current_state);
+    });
+
+    function setLoadState(s) {
+        set_loaded = (s === true);
+    };
+
+    function loaded(l) {
+        if (arguments.length == 0) l = true;
+        else l = (l === true);
+        if (l) {
+            if (started) {
+                debug && window.console && console.log && console.log("loaded");
+                addClass(d.body, 'loaded');
+                removeClass(d.body, 'loading');
+                set('loaded', 'y');
+                trigger('loaded');
+            } else set_loaded = true;
+        } else {
+            set('loaded', 'n');
+        }
+    };
+
+    function setStateStyle(n, a, b) {
+        if (n in states) {
+            if (a) states[n]['t'] = a;
+            if (b) states[n]['on'] = b;
+            return this;
+        }
+        for (i = 0; i < journal.length; i++) {
+            if (n === journal[i][0]) {
+                if (a) journal[i][3] = a;
+                if (b) journal[i][3] = b;
+            }
+        }
+        return this;
+    }
+
+    function on(name, func) {
+        if (typeof(func) === 'function') {
+            if (name in listeners) listeners[name].push(func);
+            else listeners[name] = [func];
+        } else {
+            window.console && console.error && console.error('Used an invalid function as a callback.');
+        }
+        return this;
+    }
+
+    function toggle(name) {
+        var i;
+        if (name in states) {
+            for (i = 0; i < states[name]['a'].length; i++) {
+                if (current_state[name] == states[name]['a'][i]) {
+                    i += 1;
+                    if (i >= states[name]['a'].length) i = 0;
+                    set(name, states[name]['a'][i]);
+                    break;
+                }
+            }
+
+        }
+        return this;
+    }
+
+    // Can accept arbitrary number of parameters,
+
+    function trigger(name) {
+        var a = Array.prototype.slice.call(arguments),
+            i;
+        if (a.length > 1) a = a.slice(1);
+        else a = null;
+        if (name in listeners) {
+            for (i in listeners[name]) {
+                if (listeners[name][i].apply && listeners[name][i].apply(this, a)) break;
+            }
+        }
+    }
+
+    function onchange(n, f) {
+        on('set-' + n, f);
+    };
+
+
+    return {
+        version: "1.15",
+        addCSS: addCSS,
+        group: group,
+        set: set,
+        get: get,
+        setStateStyle: setStateStyle,
+        onload: onload,
+        setLoadState: setLoadState,
+        loaded: loaded,
+        onchange: onchange,
+        on: on,
+        trigger: trigger,
+        toggle: toggle,
+        flush: _write,
+        groupAttr: groupAttr
+    };
+})(document);
+</script>
+
+
+<script type="text/javascript" src="https://promotions.cdnppb.net/media/english_uk/files/js/bflp_1.14e3.js?20210202"></script>
+<script type="text/javascript">
+(function() {
+
+    if (window.STATELY) {
+
+        STATELY.group('wm-other,sportsbook,exchange,xgames');
+        if (/https?:\/\/www\.betfair\.[a-z]+\/exchange/i.test(document.referrer)) STATELY.set('wm', 'exchange');
+        if (/https?:\/\/www\.betfair\.[a-z]+\/sport/i.test(document.referrer)) STATELY.set('wm', 'sportsbook');
+        LP.on('gotOptinStatus', function(d) {
+            if (d.viplevel && d.viplevels) {
+                STATELY.group('vip-' + d.viplevels).set('vip', d.viplevel);
+
+                $(function() {
+                    // If there's a test panel, update it
+                    var j, k, panel = $('#testpanel'),
+                        html = '<div class="testpanel-max test-state"><label>vip</label>',
+                        levels = d.viplevels.split(','),
+                        current = STATELY.get('vip');
+                    if (panel.length > 0) {
+                        for (j = 0; j < levels.length; j++) {
+                            if (levels[j] == current) k = 'checked';
+                            else k = '';
+
+                            html += '<div class="test-option"> <input id="testpanelstate-vip-' + levels[j] + '" type="radio" name="state-vip" value="' + levels[j] + '" ' + k + '><label for="testpanelstate-vip-' + levels[j] + '">' + levels[j] + '</label></div>';
+                        }
+                        html += '</div>';
+                        $(panel).append(html);
+                    }
+
+                });
+
+            }
+        });
+    }
+
+var v="";
+if (v!=='') LP.set('variants',v.split(','));
+})();
+
+LP.exchangeMarket = function(ex, mid) { return "https://btfr.co/market/" + ex + "/" + mid; };
+</script>
+
+<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+<link rel="stylesheet" href="https://promotions.cdnppb.net/media/english_uk/files/skeleton/css/base.css">
+<link rel="stylesheet" href="https://promotions.cdnppb.net/media/english_uk/files/bgamecrm_20/css/skeleton_master.css">
+<link rel="stylesheet" href="https://promotions.cdnppb.net/media/english_uk/files/bgamecrm_20/css/brand.css">
+<link rel="stylesheet" href="https://promotions.cdnppb.net/media/english_uk/images/arcade_bonus/main.css">
+
+<script>
+    window.ga=function(){};
+    window.GTM = {
+        use: true
+    };
+    if (window.LP && LP.get) {
+        LP.get('params').gtm = 'true';
+        if (LP.get('wmid') === null) LP.set('wmid', 9602);
+    }
+    if (window.CTRL && CTRL.set) CTRL.set('report_errors', false);
+window.dataLayer=window.dataLayer||[];
+</script>
+
+<script type="text/javascript">
+location.assign('https://www.betfair.com/exchange/plus/');
+</script>
+<script>
+    (function(name) {
+        var server = null,
+            offset = null;
+
+        Object.defineProperty(window, name, {
+            'get': function() {
+                return new Date((new Date()).valueOf() - offset);
+            },
+            'set': function(e) {
+                clock = e;
+                offset = (new Date()) - clock;
+            }
+        });
+    })('SERVERCLOCK');
+SERVERCLOCK=(function(srv) {
+    var d="";
+    try {
+        if (d) d=d.replace('T',' ').split(' ');
+        if (d.length===1) d.push('12:00:00');
+        d[1]=d[1].split(':');
+        if (d[1].length===1) d[1].push('00');
+        if (d[1].length===2) d[1].push('00');
+        d=d[0]+'T'+d[1].slice(0,3).join(':')+'.000Z';
+        d=new Date(d);
+        if (isNaN(d)) return srv;
+    } catch (e) {}
+    return d || srv;
+})(new Date('2023-11-07T18:56:47.000Z'));
+</script>
+<script>
+var COUNTDOWN = (function() {
+    var timer, fmt = '%hh:%mm:%ss', started=false,onupdate=null,
+        onzero = null;
+
+    function update() {
+        $('[data-countdown-to]').each(function(i,e  ) {
+            var d, days = 0,
+                t = new Date($(e).data('countdown-to')), dest=$(e).data('countdown-url') || "" || null,
+                f = $(e).data('countdown-format') || fmt,
+                l = Math.floor((t - SERVERCLOCK) / 1000),
+                hh = Math.floor(l / 60 / 60),
+                mm = Math.floor((l - hh * 3600) / 60),
+                ss = l - mm * 60 - hh * 3600;
+if (onupdate && typeof onupdate==='function') onupdate.call(e,hh,mm,ss,l);
+            if (l < 0) {
+                if (onzero && typeof onzero==='function') {
+                   if (onzero(e, i)===false) {
+                      return;
+                   }
+                }
+                if (dest && /^https?:\/\//.test(dest)) window.location.replace(dest);
+                return ;
+            }
+            if (typeof f === 'function') {
+                f.call(e, hh, mm, ss)
+            } else if (f.indexOf('%') >= 0) {
+                d = f;
+                if (d.indexOf('%d') >= 0) {
+                    days = Math.floor(hh / 24);
+                    hh = hh % 24;
+
+                }
+                d = d.replace(/{%(.*?)%}/g, function(x, e) {
+                    return (new Function("d", "h", "m", "s", "return (" + e + ")"))(days, hh, mm, ss);
+                });
+                d = d.replace('%ddd', ('000' + days).substr(-3)).replace('%dd', ('00' + days).substr(-2)).replace('%d', days);
+                d = d.replace('%hhhh', ('0000' + hh).substr(-4)).replace('%hhh', ('000' + hh).substr(-3)).replace('%hh', hh < 10 ? '0' + hh : hh).replace('%h', hh).replace('%mm', mm < 10 ? '0' + mm : mm).replace('%m', mm).replace('%ss', ss < 10 ? '0' + ss : ss).replace('%s', ss);
+
+                if (d != $(e).html()) $(e).html(d);
+            } else if (window[f] && typeof window[f] === 'function') window[f].call(e, hh, mm, ss);
+        });
+    }
+
+    function format(f) {
+        fmt = f || '%hh:%mm:%ss';
+return this;
+    }
+
+    function start(interval) {
+        update();
+        interval = interval || 1000;
+        if (timer) window.clearInterval(timer);
+        timer = setInterval(update, interval);
+started=true;
+    }
+    return {
+started: function() {return started===true;},
+        start: start,
+        format: format,
+        onzero: function(f) {
+            onzero = f;
+return this;
+        },
+onupdate: function(f) {
+            onupdate= f;
+return this;
+        }
+    };
+})();
+</script>
+<script>
+window.browserLanguage = ((window.navigator && window.navigator.languages && window.navigator.languages.length) ? (window.navigator.languages[0]) : (window.navigator && window.navigator.userLanguage) || (window.navigator && window.navigator.language) || 'en').substr(0, 2);
+
+
+window.mobileOrTablet = function() {
+    var check = false;
+    (function(a) {
+        if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+    })(navigator.userAgent || navigator.vendor || window.opera);
+    return check;
+};
+
+if (typeof window.device_is_mobile === "undefined") window.device_is_mobile = mobileOrTablet();
+
+window.GTM = window.GTM || {
+    use: false
+};
+GTM.desktop = {
+    it: 'UA-43334570-4',
+    es: 'UA-43334570-5',
+    com: 'UA-43334570-1',
+    ro: 'UA-43334570-40',
+    us: 'UA-43334570-42',
+    se: 'UA-43334570-62'
+};
+GTM.mobile = {
+    it: 'UA-43334570-7',
+    es: 'UA-43334570-10',
+    com: 'UA-43334570-2',
+    ro: 'UA-43334570-41',
+    us: 'UA-43334570-43',
+    se: 'UA-43334570-63'
+};
+GTM.domain = window.location.hostname.split('.').slice(-1).join('');
+GTM.cookie = function(name, subcookie, sep) {
+    var result = null,
+        i, c;
+    subcookie = subcookie || '';
+    sep = sep || '~';
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for (i = 0; i < ca.length; i++) {
+        c = ca[i];
+        while (c.length > 0 && c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(nameEQ) === 0) {
+            result = unescape(c.substring(nameEQ.length, c.length));
+            break;
+        }
+    }
+    if (result !== null && subcookie !== '') {
+
+        result = result.split(sep);
+        for (i = 0; i < result.length; i++) {
+            c = result[i].split('=');
+            if (c.length > 1 && c[0] === subcookie) {
+                result = c[1];
+                break;
+            }
+        }
+    }
+
+    return result;
+};
+GTM.device = 'desktop';
+var ua;
+if (mobileOrTablet()) {
+    GTM.device = 'other';
+    ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf('ipad') >= 0) GTM.device = 'ipad';
+    else if (ua.indexOf('iphone') >= 0) GTM.device = 'iphone';
+    else if (ua.indexOf('android') >= 0 && ua.indexOf('mobile') >= 0) GTM.device = 'androidphone';
+    else if (ua.indexOf('android') >= 0) GTM.device = 'androidtablet';
+}
+
+GTM.start = function(data) {
+    data = data || {};
+    $(function() {
+        window.page = window.page || {};
+        page.promoCode = page.promoCode || ''.replace(/^#.*#$/, '') || $('[data-promocode]:eq(0)').data('promocode');
+        promoCode = p.promotioncode || p.promo_code || page.promoCode /*|| LP.cookie('promotioncode') || LP.cookie('promo_code') || LP.cookie('promotionCode') */ ;
+
+        var accountID = '123456',
+            session = false,
+            jurisdiction = '',
+            locale = '';
+
+        if (promoCode) {
+            $(function() {
+
+                $('a[data-promocode]').data('promocode', promoCode);
+
+                $('a[href*="promotionCode="]').each(function(i, e) {
+                    var h = $(e).attr('href').replace(/promotionCode=[^&]*/, 'promotionCode=' + promoCode);
+                    $(e).attr('href', h);
+                });
+
+            });
+        }
+        if (data.account) {
+            accountID = data.account.accountID || accountID;
+            if (data.account.accountID && data.account.accountID !== '') session = true;
+            locale = data.account.localeCode.split('_')[0];
+            jurisdiction = data.account.jurisdictionalCode;
+        }
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+        var iframed = true;
+        //            if ((LP && LP.get && LP.get('params').frametest == 'true' || (document.referrer !== '' && (/[?&]frametest=true(&|$)/.test(document.referrer))))) {
+        try {
+            if (window == parent) iframed = false;
+        } catch (e) {}
+        //            } else iframed = false;
+
+        var reg = /(^|;)\s*(ssoid|UIVIEW|bspLP|clog|xguserhistory)=|(^|;)\suserhistory=[^;]*\|Y|(^|;)\s*bfsd\s*=[^;]*\|st=reg/.test(document.cookie);
+        var d = {
+            event: iframed ? 'ga_iframe' : 'ga_pageLoad',
+            ga_target_property: GTM[(device_is_mobile ? 'mobile' : 'desktop')][GTM.domain] ,
+            acc_id: accountID,
+            vertical: 'promotions',
+            product: 'promotions',
+            'device model': GTM.device || '',
+            country: 'DE',
+            locale: locale || window.browserLanguage || '',
+            reg_status: reg ? 'registered' : 'unregistered',
+            login_status: session ? 'logged in' : 'logged out',
+            jurisdiction: jurisdiction,
+            orientation: device_is_mobile ? (h > w ? 'portrait' : 'landscape') : 'desktop',
+            app_ID: '',
+            promotion_name: window.location.pathname.substring(1),
+            rfr: p.rfr || GTM.cookie('rfr') || '',
+            sid: p.sid || GTM.cookie('sid') || '',
+            efid: p.efid || GTM.cookie('efid') || '',
+            mpch: p.mpch || GTM.cookie('mpch') || '',
+            pla: p.pla || GTM.cookie('pla') || '',
+            clkid: p.clkid || GTM.cookie('clkid') || GTM.cookie('clkID') || '',
+            bid: p.bid || GTM.cookie('bid') || '',
+            pid: p.pid || GTM.cookie('pid') || '',
+            ttp: p.ttp || GTM.cookie('ttp') || ''
+        };
+
+        try {
+            if (iframed) d.parent_page = document.referrer || top.location.href;
+        } catch (e) {
+            d.parent_page = '';
+        }
+        if (promoCode) d.promo_code = promoCode;
+        if (window.dataLayer) {
+            if (window.console && console.log) console.log('dataLayer', d);
+            dataLayer.push(d);
+        }
+    });
+};
+
+if (GTM.domain === 'com' && window.location.hostname.split('.').slice(-3, -2).join('') === 'us') GTM.domain = 'us';
+if (!(GTM.domain in GTM.desktop)) GTM.domain = 'com';
+
+var promoCode, params = window.LP && LP.get ? LP.get('params') : {},
+    p = {};
+
+if (window.LP && LP.get) {
+    if (LP.get('params').ga2 === 'true' || LP.get('params').gtm === 'true') {
+        window.ga = function() {};
+        GTM.use = true;
+    }
+
+    // If this page isn't expecting to get a real optin status let's not worry it unduly
+    if (window.LP && LP.on && LP.get && window.STATELY) LP.on('gotOptinStatus', function() {
+        var wmid = null;
+if (window.LP && LP.get) wmid=LP.get('wmid');
+        if (wmid === null || wmid == 9602 || wmid == 0) {
+            STATELY.set('optin', 'n');
+        }
+    });
+    // Piggyback start to ensure we always have a wmid
+    (function() {
+        var start = LP.start;
+
+        LP.start = function(cb) {
+            var wmid=null;
+            if (window.LP && LP.get) wmid=LP.get('wmid');
+            if (wmid === null || wmid === 0) LP.set('wmid', 9602);
+            start(cb);
+        };
+    })();
+
+    for (var i in params) p[i.toLowerCase()] = params[i];
+
+    if (window.LP && LP.on && GTM.use && GTM.start) LP.on('gotOptinStatus', GTM.start);
+}
+</script>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<style type="text/css">
+<!--
+
+@font-face {font-family: 'batfair_flama_medium'; src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Medium.eot'); src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Medium.eot?#iefix') format('embedded-opentype'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Medium.woff') format('woff'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Medium.ttf') format('truetype'); font-weight: normal; font-style: normal; } h1, h2, h3, h4, h5, h6, h7, h8 {font-weight: normal; font-style: normal;}
+@font-face {font-family: 'batfair_flama_book'; src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Book.eot'); src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Book.eot?#iefix') format('embedded-opentype'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Book.woff') format('woff'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Book.ttf') format('truetype'); font-weight: normal; font-style: normal; } h1, h2, h3, h4, h5, h6, h7, h8 {font-weight: normal; font-style: normal;}
+@font-face {font-family: 'batfair_flama_bold'; src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Bold.eot'); src: url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Bold.eot?#iefix') format('embedded-opentype'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Bold.woff') format('woff'), url('https://promotions.cdnppb.net/media/english_uk/fonts/BetFairFlama-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal; } h1, h2, h3, h4, h5, h6, h7, h8 {font-weight: normal; font-style: normal;}
+-->
+</style>
+<script type="text/javascript"> var device_is_mobile = true; </script>
+<script type="text/javascript" src="https://promotions.cdnppb.net/media/english_uk/js/general.js?14032014"></script>
+<script type="text/javascript">
+<!-- 
+var geo, browserCurrency, dataCountryCode, currencyAllowed
+
+function geoip(geo) {
+ countryCode = geo.country_code;
+ if (countryCode != "GB") {
+    $(".GBPpic").attr("src","https://promotions.cdnppb.net/media/english_uk/images/casino/lpimg/_thumb_41285.png");
+   }
+} 
+
+var BetfairPoints = {
+    settings: {},
+    init: function (settings) {
+        this.settings = jQuery.parseJSON(settings.optinResponse.return.data.message[0]['data']);
+    }
+}
+
+var wmid = 28224;
+LP.set('wmid',wmid);
+LP.set('redirectParams',{'optin':'submit','select':'','soft':'n'}); 
+LP.start(function(d) {
+
+BetfairPoints.init(d);
+
+var firstVisit = BetfairPoints.settings.firstVisit
+if (firstVisit) {
+    $("#how-to-play, .overlay").addClass("active")
+}
+
+    $(function() {
+        dataCountryCode = BetfairPoints.settings.countryCode
+        var endTime = new Date(BetfairPoints.settings.endTime)
+        var currentTime = new Date(BetfairPoints.settings.serverTime)
+
+        var startTime = new Date(BetfairPoints.settings.startTime)
+        var startTimeParse = Date.parse(startTime)
+        var endTimeParse = Date.parse(endTime)
+        var currentTimeParse = Date.parse(currentTime)
+        var totalTime = endTimeParse - startTimeParse
+        var timeElapsed = currentTimeParse - startTimeParse
+        var timeElapsedPercent = timeElapsed / totalTime
+        var timeProgress = Math.floor(timeElapsedPercent* 100) + "%"
+
+        $(".countdown-bar-fill").css("width", timeProgress)
+
+        var currentTarget = parseInt(BetfairPoints.settings.TARGET_REACHED) + 1
+        //var currentTarget = 4
+
+        var prize4 = BetfairPoints.settings.PRIZE4
+        //var prize4 = 800
+
+        var currentPCT = "TARGET" +  currentTarget + "_PCT"
+        var currentLevelPoints = "TARGET"+currentTarget
+        var circlePoints = Math.abs(Math.floor(BetfairPoints.settings[currentPCT] * 100 )/100)
+
+        if (currentTarget < 5) {
+            $(".target-item-wrapper:nth-child("+ currentTarget + ")").addClass("active").find(".target-item-right").html("<div class='progress-bar' id='progress'></div>")
+            var circle = new ProgressBar.Circle('#progress', {
+                color: '#FCB03C',
+                strokeWidth: 14,
+                trailWidth: 0,
+                duration: 1500,
+                text: {
+                    value: '0'
+                },
+                step: function(state, bar) {
+                    bar.setText((bar.value() * 100).toFixed(0));
+                }
+            });
+            circle.animate( circlePoints );
+
+            if ( $(window).width() < 768){
+            circle.animate(0);
+            $(window).on('scroll', function() {
+                if ( $(this).scrollTop()+1 > $(".main-slider").height() ) {
+                    circle.animate( circlePoints )
+                }
+            });
+            }
+
+            var pointsLeft = isNaN(BetfairPoints.settings[currentPCT]) ? "-" : Math.round( (1 - BetfairPoints.settings[currentPCT]) * BetfairPoints.settings[currentLevelPoints] )
+            $(".pointsLeft").text(pointsLeft)
+            for (var i = 0; i < currentTarget; i ++) {
+                $(".target-item-wrapper:nth-child("+ i + ")").addClass("completed")
+            }
+        } else {
+            $(".target-item-wrapper").addClass("completed")
+            $(".to-next-target").hide()
+        } 
+
+        if (prize4 !== '') {
+            $("body").addClass("target4-shown"); 
+            $(".prize4").text(prize4)
+        }
+
+
+$(".countdown-wrapper-notstarted").countdown({serverSync: new Date(currentTime.toGMTString() ), until: new Date(startTime.toGMTString() ) });
+
+$(".countdown-to-end").countdown({serverSync: new Date(currentTime.toGMTString() ), until: new Date(endTime.toGMTString() ) });
+
+
+
+
+        //Image swap according to the given date
+        var now = new Date(BetfairPoints.settings.serverTime)        
+        
+        //BAU Round 1
+        //swapImages(
+        //    'Feb 23 2018 00:00:01', //round start date
+        //    false, //it is VIP
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_768x320_bau_uk_v2.jpg', //Mobile
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_1320x320_bau_uk_v2.jpg', //Desktop
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_1920x320_bau_uk_v3.jpg' //Wide
+        //)
+        
+        //VIP Round 1
+        //swapImages(
+        //    'Feb 23 2018 00:00:01', //round start date
+        //    true, //it is VIP
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_768x320_vip_uk_v2.jpg', //Mobile
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_1320x320_vip_uk_v2.jpg', //Desktop
+        //    'https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds29976/ds29976_1920x320_vip_uk_v3.jpg' //Wide
+        //)
+            
+        //Swapping Function
+        function swapImages(roundStart, vip, mobileImg, desktopImg, wideImg) {
+            var roundStart = new Date(roundStart)
+            var vipState = (vip) ? '.vip-y' : '.vip-n';
+            if (roundStart.getTime() < now.getTime()) {
+                $(vipState + ' .mobile-img').attr("src", mobileImg);
+                $(vipState + ' .desktop-img').attr("src", desktopImg);
+                $(vipState + ' .wide-desktop-img').attr("src", wideImg);
+            }
+        }
+
+    })
+});
+
+if(LP) {
+    LP.on('gotOptinStatus', function(data) {
+      if(data && data.pageStates) {
+        for (var key in data.pageStates) {
+          if (data.pageStates.hasOwnProperty(key)) {
+            STATELY.group(key + "-" + data.pageStates[key].join(","));
+            if(data[key]) STATELY.set(key, data[key]);
+          }
+        }
+      } 
+
+    });
+}
+
+// -->
+</script>
+<style type="text/css">
+<!-- 
+.point-boosts-item a {
+color:inherit;
+text-decoration:none;
+}
+.target-item-right img {
+    width: 100%;
+    height: auto;
+}
+.container {
+width:940px;
+}
+.hide-on-desktop {display:none}
+
+body {
+font-family:batfair_flama_book, sans-serif;
+font-size:10px;
+ margin-top: 42px;
+background-color:#1e1e1e;
+}
+.point-boosts-section .optin-x {display:none} 
+.point-boosts-section.no-modules {
+display:none;
+}
+.points-wrapper span {
+    font-size: 2em;
+padding-right:20px;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+.pre {
+display:block;
+}
+#progress:after {
+    content: "";
+    display: block;
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    border: 5px solid #ffb80c;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+}
+#progress:before {
+    content: "";
+    width: 123px;
+    display: block;
+    height: 123px;
+    position: absolute;
+    border: 5px solid #ffb80c;
+    left: -3px;
+    border-radius: 50%;
+    top: -3px;
+}
+.popup-wrapper > .close {
+    position: fixed;
+    z-index: 3;
+    z-index: 1000;
+    top: 15px;
+    right: 15px;
+    width: 2.5em;
+    height: 2.5em;
+    -webkit-transition: -webkit-transform .3s 0s ease;
+    transition: transform .6s 0s ease;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    background: url(https://promotions.cdnppb.net/media/english_uk/files/ci_various/font1/plugins/close.svg) no-repeat center;
+    background-color: #000;
+    background-size: 2em;
+}
+.popup-wrapper.active > .close {
+    -webkit-transition: -webkit-transform .3s .6s ease;
+    transition: transform .3s .6s ease;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.popup-wrapper.active {
+    left: 50%;
+    display: block;
+    background: #fff;
+}
+
+.popup-wrapper {
+        position: absolute;
+    z-index: 101;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    max-width: 680px;
+    min-height: 600px;
+    transition: all .3s ease-in;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 150px;
+    border: 3px solid #ffb80c;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.popup-wrapper.active {
+    left: 50%;
+    display: block;
+    background: #fff;
+}
+.navigation img {
+    height: 20px;
+}
+.brand .main-slider .desktop-img {
+display:block;
+}
+.brand .main-slider .mobile-img {
+display:none;
+}
+.main-dashboard-section .copy {
+    color: #fff;
+    font-size: 2em;
+}
+.completed-target, .future-target {
+    max-width: 110px;
+}
+
+.completed-target,
+.completed .future-target {
+display:none;
+}
+
+.completed .completed-target {
+display:inline-block;
+}
+#countrySelect {
+    width: 100px;
+    box-sizing: border-box;
+    font-family: batfair_flama_book, sans-serif;
+    padding: 3px;
+}
+#progress {
+    width: 126px;
+height:126px;
+
+}
+/*
+.target-item-wrapper.active:hover,
+.target-item-wrapper:hover {
+    -webkit-transform:scale(1.05);
+        -ms-transform:scale(1.05);
+            transform:scale(1.05);
+}
+*/
+
+
+.target-item-wrapper:hover .target-item-left span,
+.target-item-wrapper:hover .target-item-right {
+    -webkit-transform:scale(1.05);
+        -ms-transform:scale(1.05);
+            transform:scale(1.05);
+
+}
+.countdown-wrapper {
+    font-size: 24px;
+    color: #fafafa;
+    font-family: batfair_flama_medium, sans-serif;
+text-align:right;
+}
+.navigation {
+    background: #ffb80c;
+    opacity: 1;
+    z-index:1000;
+    height: 25px;
+    height: 25px;
+    padding-top: 10px;
+
+}
+.slick-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.slick-slide img {
+    display: block;
+    min-width: 100%;
+}
+.slick-dots li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.slick-dots li button {
+    font-size: 0;
+    border: 1px solid rgba(250,250,250,0.6);
+    color: transparent;
+    background: rgba(250,250,250,0.2);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 0;
+}
+.slick-dots li.slick-active button {
+background:rgba(250,250,250,0.8);
+}
+.banner-headline {
+    z-index: 100;
+    top: -235px;
+    position:relative;
+}
+.banner-text-wrapper {
+    position: absolute;
+bottom: -22em;
+}
+.banner-headline .banner-headline-line1,
+.banner-headline .banner-headline-line2 {
+    font-family: batfair_flama_bold, sans-serif;
+    text-transform: uppercase;
+    width: 600px;
+    margin: 0;
+color:#ffffff;
+    line-height: 0.9em;
+    text-shadow: 0 0 4px #1e1e1e;
+}
+
+.banner-headline .banner-headline-line1 {
+    font-size: 5.7em;
+}
+*[class^='col-']
+{
+    float: left;
+
+    box-sizing: border-box;
+    min-height: 20px;
+}
+.col-33 {
+width:33.3%
+}
+.col-66 {
+width:66%;
+}
+.col-28 {
+width:28%
+}
+.col-72 {
+width:72%;
+}
+.col-50 {
+width:50%
+}
+.main-slider button.slick-arrow {
+display: none !important;
+}
+.error-msg-section {
+    background: #1e1e1e;
+    color: #fff;
+    font-size: 1.6em;
+    padding: 100px 0;
+}
+.error-msg-section .err-msg-headline {
+font-size:2em;
+color:#ffb80c;
+font-family:batfair_flama_bold, sans-serif;
+text-transform:uppercase;
+    margin-bottom: 25px;
+}
+.main-slider {
+max-height:305px;
+overflow:hidden;
+}
+
+/*-------------Footer ------------------*/
+
+footer {
+    border-top: 1px solid #ffb80c;
+    font-family: helvetica,  arial,  sans-serif;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 40px 0 100px;
+    text-align: center;
+    max-width: 970px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lt-ie9 footer {
+    min-width: 970px;
+}
+footer p {
+    color: #fafafa;
+    font-size: 10px;
+}
+footer a {
+    color: #fafafa;
+}
+footer p {
+    color: #fafafa;
+    font-size: 10px;
+}
+footer ul li {
+    background: none repeat scroll 0 0 transparent;
+    list-style: none outside none;
+}
+footer a {
+    color: #fafafa;
+}
+footer .logoList {
+    margin-top: 0;
+    padding-left: 0;
+}
+footer .logoList li {
+    border: 0 none;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+footer .logoList a {
+    background: url("https://promotions.cdnppb.net/media/english_uk/images/cash_race/footer_logos_it_v1.png") no-repeat scroll 0 -8px transparent;
+    display: inline-block;
+    margin: 0 5px;
+}
+footer .logoList a.logo1 {
+    background-position: -103px -8px;
+    height: 20px;
+    width: 59px;
+}
+footer .logoList a.logo2 {
+    background-position: -179px -3px;
+    height: 31px;
+    width: 52px;
+}
+footer .logoList a.logo3 {
+    background-position: -249px -9px;
+    height: 21px;
+    width: 123px;
+}
+footer .logoList a.logo4 {
+    background-position: -386px -10px;
+    height: 17px;
+    width: 96px;
+}
+footer .logoList a.logo5 {
+    background-position: -487px -1px;
+    height: 38px;
+    width: 63px;
+}
+footer .logoList a.logo6 {
+    background-position: -555px -0px;
+    height: 41px;
+    width: 76px;
+}
+footer .logoList a.logo7 {
+    background-position: -641px 3px;
+    height: 50px;
+    width: 80px;
+}
+footer .logoList a.logo9 {
+    background-position: -0px -9px;
+    height: 24px;
+    width: 92px;
+    margin-top: 5px;
+    margin-right: 2px;
+}
+footer .logoList a.logo8 {
+    background-position: -765px -4px;
+    height: 30px;
+    width: 110px;
+}
+
+
+.terms-links-item .terms-links-item-button {
+    background: #ffb80c;
+    color: #1e1e1e;
+    padding: 10px;
+    text-decoration: none;
+cursor:pointer;
+    font-size: 1.6em;
+    width: 90%;
+    text-align: center;
+    font-family: batfair_flama_bold;
+    box-sizing:border-box;
+}
+.terms-links-item .terms-links-item-button:hover {
+    background: #fff;
+}
+.point-boosts-section {
+    background: #ffb80c;
+    padding-bottom: 40px;
+}
+.terms-links-section {
+    padding-top: 25px;
+}
+.terms-links-section .terms-links-item:nth-of-type(2) .terms-links-item-button {
+    margin-left: auto;
+    margin-right:auto;
+}
+.terms-links-section .terms-links-item:last-of-type .terms-links-item-button {
+    margin-left: auto;
+    width: 94%;
+}
+.point-boosts-headline {
+    font-family: batfair_flama_bold, sans-serif;
+    text-transform: uppercase;
+    font-size: 3.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.point-boosts-item {
+    background: #1e1e1e;
+    padding: 30px 0;
+    color: #ffb80c;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding-right: 45px;
+    position: relative;
+    font-family: batfair_flama_bold, serif;
+    padding-left: 15px;
+
+}
+.point-boosts-item-left {
+    width: 28%;
+    font-size: 35px;
+}
+.point-boosts-item-left .jumbo {
+    font-size: 2em;
+    line-height: 0.8em;
+}
+.point-boosts-section .col-33:last-of-type .point-boosts-item {
+margin-right:0;
+}
+.points-boosts-item-headline {
+    font-family: batfair_flama_bold, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 0;
+}
+.points-boosts-item-copy {
+    font-family: batfair_flama_medium, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    margin: 0;
+    line-height: 1em;
+}
+
+.clearfix:before {
+content:none;
+}
+.point-boosts-item:before {
+    content: "";
+    background-image: url(https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/gold-chevrons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 40px;
+    width: 50px;
+    background-position: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    visibility: visible;
+}
+.point-boosts-item:hover {
+    background: #ffb80c;
+    color: #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+    box-shadow: 0px 0px 3px 0px #1e1e1e;
+}
+.point-boosts-item:hover:before {
+    background-image: url(https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/black-chevrons.png);
+}
+.countdown-wrapper:before {
+    content: "";
+    display: inline-block;
+    background: url(https://promotions.cdnppb.net/media/english_uk/files/ci_various/font1/plugins/sbkimg/timer-icon3.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    margin-right: 10px;
+    background-position: 50% 50%;
+}
+.countdown-wrapper {
+    font-size: 24px;
+    color: #fafafa;
+    font-family: batfair_flama_bold, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.welcome-back-msg {
+    font-size: 24px;
+    color: #fafafa;
+    font-family: batfair_flama_bold, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.countdown-bar-fill {
+    width: 40%;
+    background: #ffb80c;
+    display: block;
+    height: 5px;
+    border-radius: 5px;
+}
+.countdown-bar {
+    height: 5px;
+    background: #666966;
+margin-bottom:20px;
+}
+.total-points {
+    font-family: batfair_flama_bold, sans-serif;
+    color: #ffb80c;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1em;
+}
+.to-next-target {
+    font-family: batfair_flama_bold, sans-serif;
+    color: #fafafa;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.button-wrapper-section {
+text-align:right;
+}
+.btn.btn-default.arrows {
+font-family: batfair_flama_bold, sans-serif;
+}
+.bottom-dashboard-stats-wrapper {
+margin-top:10px;
+}
+.main-dashboard-section {
+    padding-bottom: 25px;
+}
+.table {
+display:table;
+width: 100%;
+}
+.table-cell {
+display:table-cell;
+width:50%;
+vertical-align:middle;
+
+}
+
+.target-item-wrapper {
+    font-size: 10px;
+    transition: 0.1s;
+min-height:115px;
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+width:auto;
+}
+.target-item-wrapper.active {
+
+width:36%
+}
+.target-item-wrapper:hover,
+.target-item-wrapper.active
+{
+    font-size: 10px;
+}
+.target-item-left {
+    color: #666966;
+    font-size: 2.5em;
+    line-height: 1em;
+    text-align: center;
+    font-family: batfair_flama_medium, sans-serif;
+
+}
+.target-item-wrapper .target-item-left {
+width:60%;
+}
+.target-item-wrapper.active .target-item-left,
+.target-item-wrapper:hover .target-item-left {
+color:#ffb80c;
+}
+.target-item-wrapper.active .target-item-left .target-stats,
+.target-item-wrapper:hover .target-item-left .target-stats {
+color:#fafafa;
+}
+
+.target-stats {
+    font-size: 1.8em;
+    line-height: 1em;
+}
+.targets-outer-wrapper {
+margin-top:10px;
+margin-bottom:30px;
+display:table;
+width:100%;
+}
+.pre-login-headline {
+    font-family: batfair_flama_bold, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+text-align:left;
+}
+
+.pre-login-headline-lower {
+    font-family: batfair_flama_bold, sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin: 0;
+text-align:center;
+color:#ffb80c;
+}
+.pre-login-headline-lower::before {
+    content: '';
+    background: url(https://promotions.cdnppb.net/media/english_uk/files/svg/ds62962_flash_v1.svg);
+    background-size: contain;
+    vertical-align: text-bottom;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 33px;
+padding-right: 10px;
+}
+.pre-login-headline-lower p {
+    font-family: batfair_flama_book, sans-serif;
+    color: #fafafa;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: none;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.pre-login-section {
+    background: #ffb80c;
+    text-align: center;
+padding-bottom: 30px;
+}
+.pre-login-item img {
+    height: 123px;
+    width: auto;
+}
+.pre-login-item-headline {
+    font-family: batfair_flama_bold, sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.pre-login-item-copy {
+    font-size: 2em;
+    padding: 0 15px;
+    text-align: justify;
+}
+.btn.btn-secondary.arrows {
+    font-family: batfair_flama_bold, sans-serif;
+    line-height: 1em;
+    margin-left: 10px;
+}
+#login-box input {
+    width: 170px;
+    margin-left: 10px;
+    background: #1e1e1e;
+    font-size: 1.5em;
+    padding: 9px 10px;
+    color: #999998;
+    margin-bottom:5px;
+}
+.login-btn-wrapper {
+position:relative;
+display:inline-block;
+}
+.login-btn-wrapper .btn.arrows {
+position:relative;
+top:-2px;
+}
+.forgotten-info {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.forgotten-info a {
+color:inherit;
+}
+@media (max-width: 1055px) and (min-width: 768px){
+
+.desktop-img {
+    position: relative;
+    top: 1px;
+    left: -280px;
+}
+}
+@media (max-width:959px) and (min-width:768px){
+.target-item-wrapper:hover, .target-item-wrapper.active {
+    font-size: 10px;
+}
+.terms-links-item .terms-links-item-button {
+width:93%;
+}
+.container {
+    width: 740px;
+}
+.target-item-wrapper {
+font-size:8px;
+}
+.point-boosts-item-left .jumbo {
+font-size:1em;
+}
+.point-boosts-section {
+    font-size: 8px;
+}
+}
+@media (max-width:767px){
+
+.banner-headline .banner-headline-line2 {
+       fill: #ffffff;
+}
+svg.svg-text-container {
+    width: 100%;
+}
+
+.error-msg-section{
+padding:20px 0;
+}
+.welcome-back-msg {
+padding-top:5px;
+}
+.target-item-wrapper.active {
+width:100%;
+}
+.target-item-wrapper,
+.targets-outer-wrapper {
+display:block;
+}
+.error-msg-section.session-error {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.err-msg-headline {
+    
+    text-align: center;
+}
+.error-msg-wrapper .col-33,
+.error-msg-wrapper .col-66 {
+     width: 100%;
+}
+.error-msg-wrapper .col-33 img {
+max-width:150px;
+}
+.error-msg-wrapper .col-33 {
+    
+    text-align: center;
+}
+.container {
+    width: 420px;
+}
+	.banner-headline-line2 {
+    font-size: 7em;
+}
+	td.table-data-points{	
+		font-size: 2em;
+	}
+.main-slider {
+max-height:250px;
+}
+
+.countdown-wrapper {
+text-align:left;
+}
+.terms-links-section .terms-links-item:last-of-type .terms-links-item-button {
+width:100%;
+}
+.target-item-wrapper {
+    margin-bottom: 10px;
+display:block;
+width:100%;
+}
+.points-wrapper span {
+    display: block;
+    line-height: 1em;
+}
+.main-dashboard-section .col-50 {
+    width: 100%;
+float:none;
+}
+.popup-wrapper{
+    padding: 10px;
+    height: auto;
+top:40px;
+font-size:8px;
+}
+.banner-text-wrapper {
+  
+position:relative;
+}
+.brand .main-slider .desktop-img {
+display:none;
+}
+.brand .main-slider .mobile-img {
+display:block;
+width: 100%;
+}
+.slick-slide img {
+    width: 100%;
+}
+.navigation .col-50 {
+width:100%;
+text-align:center;
+}
+.banner-headline {
+    top: 0;
+  background: #1e1e1e;
+    padding-top: 40px;
+padding-bottom:40px;
+    text-align: center;
+    width: 100%;
+}
+.banner-headline .banner-headline-line1, .banner-headline .banner-headline-line2 {
+width:100%;
+color:#ffb80c;
+}
+.col-33,
+.bottom-dashboard-stats-wrapper > .col-50 {
+width:100%;
+float:none;
+}
+
+.target-item-left {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.point-boosts-item,
+.terms-links-item {
+margin-bottom:10px;
+margin-right: 0;
+}
+.terms-links-item .terms-links-item-button {
+width:100%;
+}
+.login-btn-wrapper {
+    margin-top: 10px;
+}
+}
+@media (max-width:479px) {
+.container {
+    width: 300px;
+}
+.banner-headline-line2 {
+    font-size: 5.3em;
+}
+.table-cell.target-item-left {
+    width: 50%;
+}
+.table-cell.target-item-right {
+    width: 40%;
+}
+.target-item-wrapper {
+    margin-bottom: 10px;
+}
+}
+.progressbar-text {
+    font-family: batfair_flama_medium, sans-serif;
+    font-size: 40px;
+}
+.progressbar-text:after {
+    content: "%";
+    font-size: 12px;
+    position: absolute;
+    bottom: -8px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+ 
+	 .popup-wrapper.active .close,
+	 .popup-wrapper .popup {
+	position:absolute;
+	} 
+.popup-wrapper .btn-secondary {
+position:relative !important;
+}
+}
+.overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background: rgba(0,0,0,.8);
+}
+.overlay.active {
+   
+    display: block;
+   
+}
+.popup-headline {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: batfair_flama_bold;
+    font-size: 3.6em;
+    padding-bottom:10px;
+    padding-top: 40px;
+    line-height: 1em;
+}
+.popup-content-wrapper {
+    background: #ffb80c;
+    font-size: 1.4em;
+    font-family: batfair_flama_medium, sans-serif;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.popup-wrapper .pop-up-bigger-text {
+    margin-bottom: 10px;
+font-family:batfair_flama_bold, sans-serif;
+}
+.popup-subheadline {
+    font-family: batfair_flama_bold, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.8em;
+}
+.popup-content-wrapper p,
+.popup-content-wrapper li {
+  
+    text-align: left;
+margin-bottom:20px;
+line-height:1.2em;
+font-size:1.4em;
+}
+.popup-content-ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+
+}
+.popup-wrapper .btn-secondary {
+    min-width: 200px;
+    font-family: batfair_flama_bold, sans-serif;
+    font-size: 2em;
+}
+.countdown_amount {
+    font-size: 30px;
+}
+.countdown_section {
+    width: 50px;
+    display: inline-block;
+    font-size: 11px;
+    text-align: center;
+    font-family: batfair_flama_medium , sans-serif;
+}
+.countdown-wrapper {
+padding-bottom:15px;
+}
+.countdown-wrapper:before {
+ 
+    position: relative;
+    top: 0;
+    
+}
+
+/*
+.region-ukie [data-lang="bg"],
+.region-ukie [data-lang="dk"],
+.region-ukie [data-lang="it"] {
+display:none;
+}
+*/
+.prize-table {
+    border: 1px solid #000000;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.prize-table th{
+	background-color: #595959;
+	color: #ffffff;
+	padding: 2px 3px 2px 3px;
+	border: 1px solid #000000;
+    vertical-align: middle;
+}
+.prize-table td{
+	background-color: #f2f2f2;
+	border: 1px solid #000000;
+	    padding: 5px;
+    width: 12%;
+    vertical-align: middle;
+}
+th.table-header-points{
+	background-color: #ffc000;
+	color: #000000;
+	
+}
+td.table-data-points {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.pop-up-bigger-text{
+	font-size: 22px;
+}
+
+
+
+@media (max-width:480px){
+	
+	td.table-data-points{	
+		font-size: 1.4em;
+	}
+	
+	.popup-content-wrapper {
+		padding: 10px;
+	}
+	.banner-headline .banner-headline-line1 {
+    font-size: 3.7em;
+}
+.banner-headline-line2 {
+ font-size:52px !important;
+
+}
+
+}
+
+.brand .main-slider .wide-desktop-img{
+    display: none;
+}
+@media (min-width: 1480px){
+    .brand .main-slider .mobile-img{
+        display: none;
+    }
+    .brand .main-slider .desktop-img{
+        display: none;
+    }
+    .brand .main-slider .wide-desktop-img{
+        display: block;
+    }
+    .main-slider {
+        max-height:320px;
+    }
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #ffffff;
+}
+.welcome-back-msg {
+    color: #1e1e1e;
+}
+.countdown-wrapper {
+    color: #1e1e1e;
+}
+.to-next-target {
+    color: #1e1e1e;
+}
+.target-item-wrapper.active .target-item-left .target-stats, .target-item-wrapper:hover .target-item-left .target-stats {
+    color: #1e1e1e;
+}
+.terms-links-item .terms-links-item-button:hover {
+    background: #1e1e1e;
+    color: #ffb80c;
+}
+.error-msg-section {
+    background: #ffffff;
+    color: #1e1e1e;
+}
+.banner-headline .banner-headline-line1 {
+    font-size: 5.5em;
+}
+.banner-headline .banner-headline-line2 {
+    width: initial;
+}
+
+/*@media (min-width: 768px){
+.banner-headline .banner-headline-line1 {
+    margin-top: 100px;
+}
+}*/
+
+
+.banner-headline .banner-headline-line1, .banner-headline .banner-headline-line2 {
+    color: #1e1e1e;
+}
+.main-dashboard-section .copy {
+    color: #1e1e1e;
+    font-size: 2em;
+}
+    
+.target-item-wrapper:nth-child(4){
+    display: none;
+}
+.target4-shown .target-item-wrapper:nth-child(4){
+    display: table-cell;
+}
+    
+@media (min-width: 768px){
+    .target4-hidden .target-item-wrapper:nth-child(1), .target4-hidden .target-item-wrapper:nth-child(2), .target4-hidden .target-item-wrapper:nth-child(3){
+        display: table-cell;
+    }    
+    .target4-hidden .target-item-wrapper:nth-child(4){
+        display: none;
+    }
+    .target4-shown .target-item-wrapper:nth-child(2), .target4-shown .target-item-wrapper:nth-child(3), .target4-shown .target-item-wrapper:nth-child(4){
+        display: table-cell;
+    }
+    .target4-shown .target-item-wrapper:nth-child(1){
+       display: table-cell;
+    }
+    .right-arrow{
+        display: none;
+        position: absolute;
+        right: 0px;
+        bottom: 155px;
+        border-right: 10px solid #666966;
+        border-bottom: 10px solid #666966;
+        width: 20px;
+        height: 20px;
+        transform: rotate(-45deg);
+        cursor: pointer;
+    }
+    .left-arrow{
+        display: none;
+        position: absolute;
+        bottom: 155px;
+        border-right: 10px solid #666966;
+        border-bottom: 10px solid #666966;
+        width: 20px;
+        height: 20px;
+        transform: rotate(135deg);
+        cursor: pointer;
+    }
+    .left-arrow:hover, .right-arrow:hover{
+        border-right: 10px solid #1e1e1e;
+        border-bottom: 10px solid #1e1e1e;
+    }
+    .target4-hidden .right-arrow{
+        display: block;
+    }
+    .target4-shown .left-arrow{
+        display: none;
+    }
+}
+
+.banner-headline-line2 {
+    font-size: 8em;
+}
+
+@media (max-width: 767px){
+.banner-headline-line2 {
+    font-size: 7em;
+}
+    .main-slider {
+        max-height: 310px;
+    }
+    .banner-headline .banner-headline-line1 {
+        font-size: 4.5em;
+    }
+    .banner-headline {
+        background: #ffffff;
+    }
+    .target4-shown .target-item-wrapper:nth-child(4), .target4-hidden .target-item-wrapper:nth-child(4){
+        display: block;
+    }
+    .left-arrow, .right-arrow{
+        display: none;
+    }
+    .col-100{
+        float: none;
+    }
+    .countdown-wrapper {
+        text-align: center;
+    }
+}
+    
+/*@media (max-width: 959px) and (min-width: 768px){*/
+    .targets-outer-wrapper {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        display: table;
+        width: 100%;
+    }
+/*}*/
+    
+    
+.countdown-wrapper:before {
+    background: url(https://promotions.cdnppb.net/media/english_uk/files/ci_various/chrono_icon_v1.svg) no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+footer p {
+    color: #1e1e1e;
+}
+footer a {
+    color: #000000;
+}
+
+.brand .main-slider .wide-desktop-img{
+    display: none;
+}
+@media (min-width: 1480px){
+    .brand .main-slider .mobile-img{
+        display: none;
+    }
+    .brand .main-slider .desktop-img{
+        display: none;
+    }
+    .brand .main-slider .wide-desktop-img{
+        display: block;
+    }
+    .main-slider {
+        max-height:320px;
+    }
+}
+
+.banner-headline .banner-headline-line1, .banner-headline .banner-headline-line2{
+    text-shadow: initial;
+}
+
+.point-boosts-item {
+    background: #ffffff;
+    color: #1e1e1e;
+}
+.point-boosts-item:before {
+    background-image: url(https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/black-chevrons.png);
+}
+.point-boosts-item:hover {
+    background: #1e1e1e;
+    color: #ffb80c;
+    border-bottom: 1px solid #1e1e1e;
+    box-shadow: 0px 0px 3px 0px #1e1e1e;
+}
+.point-boosts-item:hover:before {
+    background-image: url(https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/gold-chevrons.png);
+}
+
+
+
+.pre-login-section {
+    background: #E8E8E8;
+}
+.btn.btn-primary.arrows {
+    font-family: batfair_flama_bold, sans-serif;
+    line-height: 1em;
+    margin-left: 10px;
+}
+.login-btn-wrapper .btn.arrows {
+    top: -3px;
+}
+
+[data-lang="it"] {
+    display: block;
+}
+
+
+.join-now-btn{
+    font-size: 18px;
+    text-decoration: underline;
+    color: #ffb80c;
+    font-family: batfair_flama_bold;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+.join-now-btn:after {
+    content: '/';
+    position: absolute;
+    color: #A9A9A9;
+    font-size: 20px;
+    margin-left: 11px;
+}
+
+.banner-headline .banner-headline-line1, .banner-headline .banner-headline-line2 {
+    color: #ffffff;
+}
+
+
+@media (max-width: 767px){
+.banner-headline .banner-headline-line1, .banner-headline .banner-headline-line2 {
+    width: 100%;
+    color: #000000;
+}}
+
+
+.welcome-back-msg {display:flex}
+
+@media (max-width: 1800px) and (min-width: 1500px){
+.brand .main-slider .wide-desktop-img {
+    position: relative;
+    left: -180px;
+}
+}
+
+
+
+
+
+
+.double-prize-addon {
+    display: flex;
+}    
+.double-prize-addon p {
+    color: #fff;
+    font-family: batfair_flama_medium;
+    font-size: 20px;
+    align-self: flex-end;
+    margin: 0;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+.double-logo {
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+    
+@media (max-width: 767px) {
+    .double-prize-addon p {
+        color: #000;
+        font-size: 18px;
+        margin-left: 8px;
+        text-align: left;
+    }
+    .double-prize-addon {
+        margin-top: 10px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+.banner-text-wrapper {
+    bottom: 0;
+}
+.banner-headline-line2 {
+    font-size: 5em;
+    line-height: 1 !important;
+    margin-top: 3px !important;
+}
+}
+
+
+.double-prize-addon {
+    display: none;
+}
+
+
+
+
+/*RESKIN*/
+.target-item-wrapper:hover .target-item-left span,
+.target-item-wrapper:hover .target-item-right {
+    -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+            transform:scale(1);
+
+}
+.pre-login-section {
+    background: #1e1e1e;
+}
+#login-box input {
+    background: #fafafa;
+}
+.login-btn-wrapper {
+    display: block;
+}
+.login-btn-wrapper a, .button-wrapper-section a {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-family: batfair_flama_bold;
+    text-transform: uppercase;
+    font-size: 3em;
+    padding: 0.5em 2em 0.5em 1em !important;
+    display: inline-block;
+    margin-top: 0.7em;
+    position: relative;
+    background: #eeeeee !important;
+}
+.button-wrapper-section a {
+    margin: 0 !important;
+}
+.login-btn-wrapper a:after, .button-wrapper-section a:after {
+    content: "\3e";
+    display: inline-block;
+    position: absolute;
+    right: 0.6em;
+    top: 50%;
+    -webkit-transform: translateY(-52%);
+    -ms-transform: translateY(-52%);
+    transform: translateY(-52%);
+    font-family: 'chevron';
+    font-size: 0.85em !important;
+    font-weight: normal;
+}
+body {
+    background-color: #1e1e1e;
+}
+section.terms-section {
+    border-top: 2px solid #ffb80c;
+    color: #fafafa;
+}
+.terms-section h3, .terms-section h2 {
+    color: #ffb80c;
+}
+footer p, footer a {
+    color: #fafafa;
+}
+.terms-section h3 {
+    margin-top: 20px;
+}
+footer {
+    padding: 40px 0 40px;
+}
+.pre-login-headline, .pre-login-item-headline {
+    text-align: center;
+    color: #ffb80c;
+}
+.pre-login-item img {
+    height: 125px;
+}
+.pre-login-item-copy {
+    color: #fafafa;
+    text-align: left;
+}
+.forgotten-info {
+    font-size: 1.8em;
+    color: #fafafa;
+    font-family: batfair_flama_book;
+    margin-top: 1em;
+}
+.join-now-btn {
+    text-decoration: underline;
+    color: #ffb80c;
+    margin-right: 25px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.login-btn-wrapper a:hover, .button-wrapper-section a:hover {
+    background: #eeeeee;
+}
+#countrySelect {
+    border-radius: 3px;
+}
+.countdown-bar {
+    display: none;
+}
+.countdown-wrapper:before {
+    background: url(https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Clock.png) no-repeat;
+    width: 84px;
+    height: 84px;
+    background-size: cover;
+}
+.countdown_section {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    text-align: center;
+    font-family: batfair_flama_medium;
+    background: #ffb80c;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    line-height: 1;
+    color: #fafafa;
+    font-size: 1em;
+}
+.countdown_section br {
+    display: none;
+}
+.countdown_amount {
+    font-size: 1.6em;
+    color: #1e1e1e;
+    font-family: batfair_flama_bold;
+}
+span.countdown_row {
+    display: flex;
+}
+.countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1em 0 0.5em;
+    padding: 0;
+}
+.welcome-back-msg {
+    text-align: center;
+    color: #ffb80c;
+    display: block;
+    padding: 0;
+    margin: 1em 0 0.5em;
+}
+.main-dashboard-section .copy {
+    color: #fafafa;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.2;
+}
+.target-stats {
+    font-size: 1.6em;
+}
+.target-item-wrapper span.pre, .target-item-wrapper .target-stats {
+    font-family: batfair_flama_bold;
+    text-transform: uppercase;
+}
+.target-item-wrapper .target-stats div {
+    margin-top: 10px;
+}
+.target-item-wrapper.active .target-item-left .target-stats, .target-item-wrapper:hover .target-item-left .target-stats {
+    color: #fafafa;
+}
+.bottom-dashboard-stats-wrapper .col-50 .total-points > span:not(.points-wrapper) {
+    color: #fafafa;
+    text-transform: uppercase;
+    display: block;
+    font-size: 2.4em;
+}
+.bottom-dashboard-stats-wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-dashboard-stats-wrapper .col-50 {
+    width: 100%;
+    float: none;
+}
+.total-points {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.bottom-dashboard-stats-wrapper .col-50 .total-points > span {
+    line-height: 1;
+}
+.points-wrapper span {
+    font-size: 4em;
+    padding: 0.25em 0;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-top: 0.05em;
+    color: #fafafa;
+    min-width: 430px;
+}
+.targets-outer-wrapper {
+    margin: 4em 0;
+}
+.button-wrapper-section {
+    text-align: center;
+    margin-bottom: 1em;
+}
+.point-boosts-section {
+    background: #1e1e1e;
+}
+.point-boosts-headline {
+    padding-top: 1em;
+    padding-bottom: 0.6em;
+    text-align: center;
+    color: #ffb80c;
+    line-height: 1;
+}
+.point-boosts-item {
+    background: #666966;
+}
+.point-boosts-item:hover {
+    background: #fafafa;
+    color: #1e1e1e;
+}
+.point-boosts-item:hover:before {
+    background-image: url(https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/black-chevrons.png);
+}
+article.point-boosts-item {
+    min-height: 145px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+article.point-boosts-item > div a {
+    display: flex;
+}
+.point-boosts-item-left {
+    align-self: center;
+}
+.error-msg-section {
+    background: #1e1e1e;
+    color: #fafafa;
+    padding: 2em 0 1em;
+}
+.error-msg-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.error-msg-wrapper .col-33, .error-msg-wrapper .col-66 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.error-msg-wrapper img {
+    margin-bottom: 20px;
+}
+.terms-links-item .terms-links-item-button:hover {
+    background: #fafafa;
+    color: #1e1e1e;
+}
+.banner-text-wrapper {
+    display: none;
+}
+.to-next-target {
+    color: #fafafa;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+margin-bottom: 1.5em;
+}
+.target4-bonus-copy {
+    color: #666966;
+font-family: batfair_flama_bold;
+}
+.target4-shown .container {
+    max-width: 1220px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.target-item-wrapper.active .target-item-left .target-stats, .target-item-wrapper:hover .target-item-left .target-stats, .target-item-wrapper.active .target4-bonus-copy, .target-item-wrapper:hover .target4-bonus-copy {
+    color: #fafafa;
+}
+.save-PRIZE4 > div {
+    margin: 0px !important;
+}
+.left-arrow {
+    left: -40px;
+}
+.right-arrow {
+    right: -40px;
+}
+.left-arrow, .right-arrow {
+    bottom: auto;
+    top: 140px;
+}
+
+.brand .main-slider .wide-desktop-img, .brand .main-slider .desktop-img {
+    left: 0;
+    width: 100%;
+}
+.comp-notstarted > h3 {
+    text-align: center;
+    color: #ffb80c;
+    font-family: batfair_flama_bold;
+    margin: 0;
+}
+
+.targets-outer-wrapper {
+    display: flex;
+}
+.target-item-wrapper {
+    display: flex;
+    border: 2px solid #666966;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 10px;
+}
+.target-item-wrapper.active {
+    border: 2px solid #ffb80c;
+}
+.table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-cell {
+    display: block;
+    width: auto !important;
+}
+
+@media screen and (max-width: 767px) {
+.targets-outer-wrapper {
+    flex-direction: column;
+}
+  .pre-login-item-copy {
+    color: #fafafa;
+    text-align: center;
+  }
+.btn.btn-primary.arrows {
+    margin-left: 0;
+}
+#login-box input {
+    width: 200px;
+    margin: 5px 0;
+}
+.target-item-wrapper {
+    min-height: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+}
+.points-wrapper span {
+    font-size: 4em;
+    padding: 0.2em 0 0.15em;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-top: 0.05em;
+    color: #fafafa;
+    min-width: 400px;
+}
+.points-wrapper span {
+    min-width: 400px;
+}
+.banner-headline {
+    display: none;
+}
+article.point-boosts-item {
+    min-height: auto;
+}
+}
+
+@media (max-width: 959px) and (min-width: 768px){
+.target-item-right {
+    padding-left: 5px;
+}
+.target-item-wrapper:hover, .target-item-wrapper.active {
+    font-size: 8px;
+}
+.completed-target, .future-target {
+    max-width: 86px;
+}
+.left-arrow {
+    left: 0px;
+}
+.right-arrow {
+    right: 0px;
+}
+.left-arrow, .right-arrow {
+    bottom: auto;
+    top: 140px;
+}
+.targets-outer-wrapper {
+    width: 100%;
+    margin: 4em auto !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .target-item-left {
+    font-size: 2.4em;
+  }
+  .countdown-wrapper:before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.prize-table th {
+    font-size: 9px;
+}
+.target-item-wrapper span.pre {
+    font-size: 0.85em;
+}
+.target-stats {
+    font-size: 1.5em;
+}
+.targets-outer-wrapper {
+    margin: 0;
+}
+.points-wrapper span {
+    font-size: 2em;
+    width: 100%;
+    min-width: auto;
+}
+.bottom-dashboard-stats-wrapper .col-50 .total-points > span:not(.points-wrapper) {
+    font-size: 1.5em;
+}
+.login-btn-wrapper a, .button-wrapper-section a {
+    font-size: 2.4em;
+}
+.point-boosts-headline {
+    font-size: 3em;
+}
+.countdown_section {
+    width: 60px;
+    height: 60px;
+    font-size: 0.75em;
+    margin: 0 5px;
+}
+.countdown-wrapper:before {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+.main-dashboard-section .copy {
+    font-size: 1.6em;
+}
+}
+
+#login-box input {
+    color: #1e1e1e;
+}
+.target-item-wrapper.active .completed-target {
+    display: block;
+}
+.target-item-wrapper.active .future-target {
+    display: none;
+}
+.left-arrow:hover, .right-arrow:hover {
+    border-right: 10px solid #fafafa;
+    border-bottom: 10px solid #fafafa;
+}
+.join-now-btn {
+    font-family: batfair_flama_book;
+}	
+
+
+.navigation a.back-btn {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: batfair_flama_bold;
+    border: 1px solid #1e1e1e;
+    padding: 2px 6px 2px 16px;
+    position: absolute;
+    left: -10px;
+    top: -1px;
+}
+body.mobile-y .navigation img {
+    height: auto !important;
+    max-width: 200px;
+    margin-top: 2px;
+}
+.navigation a.back-btn:before {
+    content: "\3e";
+    font-family: 'chevron';
+    font-size: 12px;
+    position: absolute;
+    left: 6px;
+    transform: rotateY(180deg);
+}
+
+
+
+
+header {
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.banner-text h1 {
+   color: #ffb80c;
+    font-family: batfair_flama_bold;
+    font-size: 5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 1px #1e1e1e;
+    text-transform: uppercase;
+}
+body.mobile-y .navigation img {
+    margin-left: 2em;
+}
+
+
+@media screen and (max-width: 768px){
+  .banner-text h1 {
+    font-size: 3.2em;
+  }
+.banner-text {
+top: 84%;
+}
+}
+@media screen and (max-width: 640px){
+  .hide-on-desktop {display:block;
+}
+ .banner-text h1 {
+    font-size: 2.2em;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  body.mobile-y .navigation img {
+    margin-left: 0em;
+  }
+}
+
+.col-33.pre-login-item:last-child {
+display: none;
+}
+.col-33.pre-login-item {
+width:50%
+}
+@media screen and (max-width: 767px){
+  .col-33.pre-login-item {
+    width:100%
+  }
+}
+
+// -->
+</style>
+
+
+</head>
+<body>
+
+
+<noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-P32JX6" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+<script>
+// REMEMBER to put back the noscriupt stuff!!
+
+
+if (window.GTM && (!window.ga || GTM.use)) {
+    if (window.ga) delete window.ga;
+    if (window.console && console.log) console.log('Using GTM.');
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        window.node = f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', GTM.domain === 'us' ? 'GTM-PC8D6W' : 'GTM-P32JX6');
+
+    if (!window.LP || !window.jQuery) {
+        GTM.start();
+    }
+
+} else {
+    if (window.console && console.log) console.log('Using GA.');
+}
+
+
+    </script>
+
+
+
+<style><!--
+[data-lang] {
+display:none;
+
+}
+[data-lang="it"] {
+display:block;
+
+}
+.to-next-target [data-lang=it"],
+.total-points [data-lang="it"]{
+display:inline;
+}
+--></style>
+<div class=" brand">
+
+<nav class="navigation">
+<div class="container">
+<div class="col-50">
+<a class="back-btn mobile-y" href="#app-homepage"> </a>
+<a href="https://www.betfair.it/exchange/" target="_blank" class="brand-img">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/hattrickheroes/img/logo.png" />
+</a>
+</div>
+<div class="col-50 text-right homepage-link">
+<select id="countrySelect">
+<option value="it">Italiano</option>
+<option value="es">Español</option>
+<option value="en">English</option>
+
+<option value="ro">Română</option>
+
+
+
+<option value="br">Português</option>
+<option value="la">Latam</option>
+</select>
+</div>
+</div>
+</nav>
+<header class=" clearfix">
+<div class="main-slider">
+<div class="item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds43702_768x320_en_v1.jpg" class="mobile-img" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds43702_1320x320_en_v1.jpg" class="desktop-img" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds43702_1920x320_en_v1.jpg" class="wide-desktop-img" />
+</div>
+
+</div>
+<div class="banner-text">
+<h1>Supera gli obiettivi <br class="hide-on-desktop" />e vinci</h1>
+</div>
+</header>
+<section class="loaded-y error-msg-section session-error">
+<div class="error-msg-wrapper container clearfix">
+<div class="col-33">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/err-msg.png" />
+</div>
+<div class="col-66">
+<h3 class="err-msg-headline">Si è verificato un piccola problema tecnico riprova più tardi</h3>
+<p class="err-msg-copy">Si è verificato un piccola problema tecnico riprova più tardi. Grazie per la tua pazienza.</p>
+</div>
+</div>
+</section>
+<section class="loaded-y error-msg-section comp-notstarted ">
+<h3>La tua Cash Race inizia tra</h3>
+<div class="countdown-wrapper countdown-wrapper-notstarted"></div>
+<div class="error-msg-wrapper container clearfix">
+<h3 class="err-msg-headline">Sta arrivando...</h3>
+<p class="err-msg-copy">La gara riparte ancora più ricca e con super bonus.</p>
+</div>
+</section>
+<section class="pre-login-section comp-ok session-n loaded-y optin-not-x expired-n">
+<div class="container">
+<h3 class="pre-login-headline">Puoi vincere fantastici bonus quando punti e banchi sull’Exchange</h3>
+<div class="pre-login-item-wrapper clearfix">
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Points.png" alt="Earn Points" />
+<h5 class="pre-login-item-headline">Gioca sull'Exchange</h5>
+<p class="pre-login-item-copy">Scommetti in modalità Exchange dal 19 novembre al 13 dicembre 2020 per accumulare punti.</p>
+</div>
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Cash.png" alt="Win Cash" />
+<h5 class="pre-login-item-headline">Più giochi, più punti ricevi</h5>
+<p class="pre-login-item-copy">I punti guadagnati ti aiuteranno a raggiungere gli obiettivi personali e a sbloccare i bonus.</p>
+</div>
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Double.png" alt="VIP Prize Draw" />
+<h5 class="pre-login-item-headline">Vinci fantastici bonus</h5>
+<p class="pre-login-item-copy">Effettua il login, consulta il tuo saldo punti e scopri l'obiettivo che hai sbloccato. </p>
+</div>
+</div>
+<div class="login-box-wrapper" id="login-box">
+<form method="POST" action="https://identitysso.betfair.it/api/login" target="_top">
+<input type="text" placeholder="Username" id="username" autocomplete="off" name="username" class="session-n loaded-y" />
+<input type="password" placeholder="Password" id="password" autocomplete="off" name="password" class="session-n loaded-y" />
+<span class="login-btn-wrapper">
+<a href="#" class="session-n optinbutton   btn btn-primary arrows lang-log-in loaded-y">Accesso</a>
+</span>
+<input type="hidden" name="product" value="marketing-promotions" />
+<input id="redirecturl" type="hidden" name="url" />
+<input type="hidden" name="redirectMethod" value="POST" />
+<p class="forgotten-info text-center"><span class="join-now-btn prospect-y"><a href="https://register.betfair.it/account/registration?promotionCode=ZITT10&returnURL=https:%2F%2Fwww.betfair.it%3F" target="_blank">Registrazione</a></span> Dimenticato <a class="lang-username" href="https://identitysso.betfair.it/view/recoverusername?locale=it" target="_blank">Username</a>/<a class="lang-password" href="https://identitysso.betfair.it/view/recoverpassword?locale=it" target="_blank">Password</a>?</p>
+</form>
+</div>
+</div>
+</section>
+<section class="pre-login-section comp-ok session-y loaded-y optin-n expired-n">
+<div class="container">
+<h3 class="pre-login-headline">Puoi vincere fantastici bonus quando punti e banchi sull’Exchange</h3>
+<div class="pre-login-item-wrapper clearfix">
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Points.png" alt="Earn Points" />
+<div><h5 class="pre-login-item-headline">Gioca sull'Exchange</h5>
+<p class="pre-login-item-copy">Scommetti in modalità Exchange dal 19 novembre al 13 dicembre 2020 per accumulare punti.</p></div>
+</div>
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Cash.png" alt="Win Cash" />
+<div><h5 class="pre-login-item-headline">Più giochi, più punti ricevi</h5>
+<p class="pre-login-item-copy">I punti guadagnati ti aiuteranno a raggiungere gli obiettivi personali e a sbloccare i bonus.</p></div>
+</div>
+<div class="col-33 pre-login-item">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/sports/lpimg/ds32329/Double.png" alt="VIP Prize Draw" />
+<div><h5 class="pre-login-item-headline">Vinci fantastici bonus</h5>
+<p class="pre-login-item-copy">Effettua il login, consulta il tuo saldo punti e scopri l'obiettivo che hai sbloccato. </p></div>
+</div>
+</div>
+<div id="login-box" class="login-box-wrapper">
+<span class="login-btn-wrapper">
+<a href="#" class="optinbutton btn btn-primary arrows lang-log-in loaded-y">Partecipa ora</a>
+</span>
+</div>
+</div>
+</section>
+<section class="main-dashboard-section session-y loaded-y optin-y expired-n">
+
+<div class="container clearfix">
+<div class="comp-ok">
+<div class="countdown-wrapper countdown-to-end"></div>
+</div>
+</div>
+<div class="countdown-bar">
+<span class="countdown-bar-fill"> </span>
+</div>
+<div class="container clearfix">
+<div>
+<h4 class="welcome-back-msg">Benvenuto, <span class="set-firstname"> </span></h4>
+</div>
+</div>
+
+<div class="container">
+<p class="copy">Controlla il tuo saldo punti. Scommettendo, ricevi punti.</p>
+<h3 class="pre-login-headline-lower">RICEVI €5 BONUS AGGIUNTIVI PER OGNI OBIETTIVO RAGGIUNTO <p>5€ bonus utilizzabili solo in multipla. Si applicano T&C.</p>
+</h3>
+<div class="button-wrapper-section"><a href="https://www.betfair.it/exchange" class="btn btn-default btn-primary arrows">Punta e Banca</a></div>
+<div class="arrows">
+<div class="left-arrow"></div>
+<div class="right-arrow"></div>
+</div>
+<article class="clearfix targets-outer-wrapper">
+<div class="target-item-wrapper">
+<div class="table">
+<div class="table-cell target-item-left">
+<span class="pre">I obiettivo</span>
+<span class="target-stats set-PRIZE1"><div>£50</div>
+</span>
+</div>
+<div class="table-cell target-item-right">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/completed-trophy.png" class="completed-target" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/casino/lpimg/Icon_Not_yet_reached.png" class="future-target" />
+</div>
+</div>
+</div>
+<div class="target-item-wrapper">
+<div class="table">
+<div class="table-cell target-item-left">
+<span class="pre">II obiettivo</span>
+<span class="target-stats set-PRIZE2"><div>£100</div>
+</span>
+</div>
+<div class="table-cell target-item-right">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/completed-trophy.png" class="completed-target" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/casino/lpimg/Icon_Not_yet_reached.png" class="future-target" />
+</div>
+</div>
+</div>
+<div class="target-item-wrapper">
+<div class="table">
+<div class="table-cell target-item-left">
+<span class="pre">III obiettivo</span>
+<span class="target-stats set-PRIZE3"><div>£250</div>
+</span>
+</div>
+<div class="table-cell target-item-right">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/completed-trophy.png" class="completed-target" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/casino/lpimg/Icon_Not_yet_reached.png" class="future-target" />
+</div>
+</div>
+</div>
+<div class="target-item-wrapper">
+<div class="table">
+<div class="table-cell target-item-left">
+<span class="target4-bonus-copy">BONUS</span>
+<span class="pre">IV obiettivo</span>
+<span class="target-stats set-PRIZE4">£550</span>
+</div>
+<div class="table-cell target-item-right">
+<img src="https://promotions.cdnppb.net/media/english_uk/images/april_2015/august/completed-trophy.png" class="completed-target" />
+<img src="https://promotions.cdnppb.net/media/english_uk/images/casino/lpimg/Icon_Not_yet_reached.png" class="future-target" />
+</div>
+</div>
+</div>
+</article>
+<div class="clearfix bottom-dashboard-stats-wrapper">
+<div class="col-50">
+<p class="to-next-target">
+<span class="points-wrapper">
+<span class="pointsLeft">23,860</span>
+</span>
+<span>Punti per il prossimo obiettivo</span>
+</p>
+<p class="total-points">
+<span class="points-wrapper">
+<span class="set-POINTS_TO_DATE"> 23,860</span>
+</span>
+<span>I tuoi Punti</span>
+</p>
+</div>
+
+</div>
+</div>
+</section>
+<section class="point-boosts-section optin-y session-y">
+<div class="container clearfix">
+<h2 class="point-boosts-headline"></h2>
+
+</div>
+</section>
+<section class="error-msg-section expired-n optin-x loaded-y">
+<div class="container clearfix">
+<p class="ineligible-msg">La promozione Cash Race non è disponibile per gli utenti che si sono registrati al sito Betfair.it successivamente alla data 19/11/2020 Tutti i nuovi clienti che hanno aperto un conto dopo tale data non potranno partecipare a questa Cash Race ma verranno considerati idonei per le future promozioni.</p>
+</div>
+</section>
+<section class="error-msg-section comp-closed">
+<div class="container clearfix">
+<h3 class="err-msg-headline">LA CASH RACE SI È CONCLUSA</h3>
+<p>La Cash Race torna presto visita il sito per scoprire tutte le nostre offerte</p>
+</div>
+</section>
+<section class="terms-links-section comp-ok">
+<div class="container clearfix">
+<div class="col-33 terms-links-item">
+<div data-popup="how-to-play" class="terms-links-item-button">Come funziona?</div>
+</div>
+<div class="col-33 terms-links-item">
+<div data-popup="points-calc" class="terms-links-item-button">Come vengono calcolati i Punti?</div>
+</div>
+<div class="col-33 terms-links-item">
+<div data-popup="terms-and-cs" class="terms-links-item-button">Termini e Condizioni</div>
+</div>
+</div>
+</section>
+<section class="expired-y loaded-y">
+</section>
+<section class="optin-n expired-n loaded-y session-n clearfix">
+</section>
+<section class="optin-n session-y expired-n loaded-y">
+</section>
+<footer class="clearfix" data-lang="it">
+<div class="footbox">
+<ul class="logoList">
+<li><a class="logo9"></a>
+</li>
+<li><a class="logo1"></a>
+</li>
+<li><a class="logo2"></a>
+</li>
+<li><a class="logo3"></a>
+</li>
+<li><a class="logo4"></a>
+</li>
+<li><a class="logo5"></a>
+</li>
+<li><a class="logo6"></a>
+</li>
+<li><a class="logo7"></a>
+</li>
+<li><a class="logo8"></a>
+</li>
+<li><a class="logo10"></a>
+</li>
+</ul>
+</div>
+<p class="copy"><a href="http://www.betfair.it/aboutUs/Privacy.Policy/" target="_blank">Informativa sulla privacy</a> | <a href="http://www.betfair.it/aboutUs/Cookie.Policy/" target="_blank">Informativa sui cookie</a></p>
+<p>Ricordati che il gioco può avere effetti negativi se non praticato con moderazione. Gioca con responsabilità. <br>
+Informati sulle probabilita' di vincita e sul regolamento di gioco sui siti <a href="http://www.aams.it" target="_blank">www.aams.it</a> e <a href="http://www.betfair.it?promotionCode=" target="_blank">betfair.it</a> <br>
+Betfair Italia S.r.l.| Via Giosuè Carducci 36 | Milano | 20123 | Concessione GAD n. 15211.
+</p>
+</footer>
+</div>
+<div class="overlay"></div>
+<section class="popup-wrapper" id="how-to-play">
+<div class="close"></div>
+<div data-lang="it">
+<h2 class="popup-headline">Come funziona la Cash Race?</h2>
+<article class="popup-content-wrapper">
+<p class="pop-up-bigger-text">Ancora più ricca e con super premi.</p>
+<ul class="popup-content-ul">
+<li><span>Prendi parte a questa esclusiva competizione che premia i giocatori più attivi sull'Exchange.</span></li>
+<li><span>Più punti riuscirai ad accumulare, tanto più alto sarà il tuo bonus.</span></li>
+<li><span>Basta puntare e bancare sull’Exchange per guadagnare punti. Più scommetti, più punti ricevi – anche quando non vinci. Salva cashrace.betfair.it tra i tuoi indirizzi preferiti e controlla i tuoi progressi. Inizia la gara!</span></li>
+</ul>
+<p>Gioca in modalità Exchange dal 19 novembre al 13 dicembre 2020 per accumulare punti.</p>
+<a class="btn btn-secondary close" href="#">Ok</a>
+</article>
+</div>
+</section>
+<section class="popup-wrapper" id="terms-and-cs">
+<div class="close"></div>
+<div data-lang="it">
+<h2 class="popup-headline">TERMINI E CONDIZIONI</h2>
+<article class="popup-content-wrapper">
+<p class="pop-up-bigger-text">Come vengono calcolati i Punti Betfair?</p>
+<p>La promozione Cash Race non è disponibile per gli utenti che si sono registrati al sito Betfair.it <strong>successivamente alla data 19/11/2020</strong>. Tutti i nuovi clienti che hanno aperto un conto dopo tale data non potranno partecipare a questa Cash Race ma verranno considerati idonei per le future promozioni.</p>
+<p class="pop-up-bigger-text">Cosa devo fare?</p>
+<p>Accedi alla Cash Race e registrati alla promozione inserendo Username e Password del tuo conto Betfair.</p>
+<p>Tutti i punti verranno calcolati facendo riferimento alle scommesse riportate correttamente nel periodo dal 19 novembre al 13 dicembre 2020 anche se precedenti rispetto alla registrazione per la promozione e ti aiuteranno a raggiungere gli obiettivi personali visibili nella pagina promozionale speciale.</p>
+<p>Partecipando alla seguente promozione darai il consenso ad essere contattato in futuro.</p>
+<p class="pop-up-bigger-text">Come guadagno Punti?</p>
+<p>Scommettendo in modalità Exchange dal 19 novembre al 13 dicembre 2020.</p>
+<p>Tutte le scommesse devono essere piazzate e definite nel periodo promozionale per essere considerate valide.</p>
+<p>Dovrai inoltre assicurarti di registrarti alla promozione prima che la stessa scada.</p>
+<p>Successivamente al primo accesso durante il periodo promozionale, tutti i Punti che avrai accumulato dall'inizio del periodo promozionale ti verranno automaticamente assegnati.</p>
+<p class="pop-up-bigger-text">Bonus fino a €20 Extra. Come ricevo il bonus?</p>
+<p>Con la Cash Race riceverai €5 extra in Bonus per ogni obiettivo che raggiungi.</p>
+<p>Bonus valido sulle scommesse Multiple nella sezione Sport. Accredito effettuato entro le ore 12 del: 27 Nov, 4 Dic, 11 Dic & 14 Dic.</p></p>
+<p>Bonus massimo per utente €20 (4x€5).</p>
+<p class="pop-up-bigger-text">Termini e Condizioni del Bonus</p>
+<p>Valido 7 giorni.</p>
+<p>Almeno 2+ selezioni.</p>
+<p>Solo sullo Sport.</p>
+</article>
+</div>
+</section>
+<section class="popup-wrapper" id="points-calc">
+<div class="close"></div>
+<div data-lang="it">
+<h2 class="popup-headline">Come vengono calcolati i Punti Betfair?</h2>
+<article class="popup-content-wrapper">
+<ul class="popup-content-ul">
+<li>La promozione Cash Race non è disponibile per gli utenti che si sono registrati al sito Betfair.it successivamente alla data 19/11/2020.</li>
+<li>
+Guadagnerai punti Betfair per ogni scommessa piazzata sull’Exchange.</li>
+<li>Betfair ti premia sia in caso di vincita che in caso di perdita.</li>
+<li>Per calcolare quanti punti Betfair guadagni su ciascuna scommessa, segui questi semplici passi:</li>
+- Moltiplica il tuo tasso di commissione per la tua vincita/perdita netta in un mercato specifico.<br>
+- Guadagni 1 punto Betfair per ogni 10 centesimi di commissioni – anche su quelle implicite
+</ul>
+<p class="pop-up-bigger-text">Esempio scommessa vincente</p>
+<table class="prize-table" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<th>Puntata</th>
+<th>Quota</th>
+<th>Vincita Netta</th>
+<th>Tasso di commissione</th>
+<th>Commissione</th>
+<th class="table-header-points">Punti Betfair</th>
+</tr>
+<tr>
+<td align="center">€10</td>
+<td align="center">3</td>
+<td align="center">€20</td>
+<td align="center">5%</td>
+<td align="center">€1</td>
+<td align="center" class="table-data-points">10</td>
+</tr>
+</tbody>
+</table>
+<p class="pop-up-bigger-text">Esempio scommessa perdente</p>
+<table class="prize-table" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<th>Puntata</th>
+<th>Quota</th>
+<th>Perdita Netta</th>
+<th>Tasso di commissione</th>
+<th>Commissione</th>
+<th class="table-header-points">Punti Betfair</th>
+</tr>
+<tr>
+<td align="center">€10</td>
+<td align="center">3</td>
+<td align="center">€10</td>
+<td align="center">5%</td>
+<td align="center">€0.5</td>
+<td align="center" class="table-data-points">5</td>
+</tr>
+</tbody>
+</table>
+</article>
+</div>
+</section>
+<script type="text/javascript">// <![CDATA[
+	$(".terms-links-item-button").click(function(){
+$('html,body').animate({scrollTop:0}, 'slow');		
+var popupToShow = "#"+$(this).attr("data-popup")
+		$(popupToShow).addClass("active")
+                $(".overlay").addClass("active")
+                
+	})
+	$(".close").click(function(){
+		$(this).parents(".popup-wrapper").removeClass("active")
+                $(".overlay").removeClass("active")
+	})
+// ]]></script>
+<script src="https://promotions.cdnppb.net/media/english_uk/files/ci_various/font1/progressbar.js"></script>
+<script type="text/javascript">// <![CDATA[
+/* http://keith-wood.name/countdown.html
+   Countdown for jQuery v1.6.3.
+   Written by Keith Wood (kbwood{at}iinet.com.au) January 2008.
+   Available under the MIT (https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt) license. 
+   Please attribute the author if you use it. */
+(function($){function Countdown(){this.regional=[];this.regional['']={labels:['Years','Months','Weeks','DAYS','HRS','MINS','SECS'],labels1:['Year','Month','Week','DAY','HR','MIN','SEC'],compactLabels:['y','m','w','d'],whichLabels:null,digits:['0','1','2','3','4','5','6','7','8','9'],timeSeparator:':',isRTL:false};this._defaults={until:null,since:null,timezone:null,serverSync:null,format:'dHMS',layout:'',compact:false,significant:0,description:'',expiryUrl:'',expiryText:'',alwaysExpire:false,onExpiry:null,onTick:null,tickInterval:1};$.extend(this._defaults,this.regional['']);this._serverSyncs=[];var c=(typeof Date.now=='function'?Date.now:function(){return new Date().getTime()});var d=(window.performance&&typeof window.performance.now=='function');function timerCallBack(a){var b=(a<1e12?(d?(performance.now()+performance.timing.navigationStart):c()):a||c());if(b-f>=1000){x._updateTargets();f=b}e(timerCallBack)}var e=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||null;var f=0;if(!e||$.noRequestAnimationFrame){$.noRequestAnimationFrame=null;setInterval(function(){x._updateTargets()},980)}else{f=window.animationStartTime||window.webkitAnimationStartTime||window.mozAnimationStartTime||window.oAnimationStartTime||window.msAnimationStartTime||c();e(timerCallBack)}}var Y=0;var O=1;var W=2;var D=3;var H=4;var M=5;var S=6;$.extend(Countdown.prototype,{markerClassName:'hasCountdown',propertyName:'countdown',_rtlClass:'countdown_rtl',_sectionClass:'countdown_section',_amountClass:'countdown_amount',_rowClass:'countdown_row',_holdingClass:'countdown_holding',_showClass:'countdown_show',_descrClass:'countdown_descr',_timerTargets:[],setDefaults:function(a){this._resetExtraLabels(this._defaults,a);$.extend(this._defaults,a||{})},UTCDate:function(a,b,c,e,f,g,h,i){if(typeof b=='object'&&b.constructor==Date){i=b.getMilliseconds();h=b.getSeconds();g=b.getMinutes();f=b.getHours();e=b.getDate();c=b.getMonth();b=b.getFullYear()}var d=new Date();d.setUTCFullYear(b);d.setUTCDate(1);d.setUTCMonth(c||0);d.setUTCDate(e||1);d.setUTCHours(f||0);d.setUTCMinutes((g||0)-(Math.abs(a)<30?a*60:a));d.setUTCSeconds(h||0);d.setUTCMilliseconds(i||0);return d},periodsToSeconds:function(a){return a[0]*31557600+a[1]*2629800+a[2]*604800+a[3]*86400+a[4]*3600+a[5]*60+a[6]},_attachPlugin:function(a,b){a=$(a);if(a.hasClass(this.markerClassName)){return}var c={options:$.extend({},this._defaults),_periods:[0,0,0,0,0,0,0]};a.addClass(this.markerClassName).data(this.propertyName,c);this._optionPlugin(a,b)},_addTarget:function(a){if(!this._hasTarget(a)){this._timerTargets.push(a)}},_hasTarget:function(a){return($.inArray(a,this._timerTargets)>-1)},_removeTarget:function(b){this._timerTargets=$.map(this._timerTargets,function(a){return(a==b?null:a)})},_updateTargets:function(){for(var i=this._timerTargets.length-1;i>=0;i--){this._updateCountdown(this._timerTargets[i])}},_optionPlugin:function(a,b,c){a=$(a);var d=a.data(this.propertyName);if(!b||(typeof b=='string'&&c==null)){var e=b;b=(d||{}).options;return(b&&e?b[e]:b)}if(!a.hasClass(this.markerClassName)){return}b=b||{};if(typeof b=='string'){var e=b;b={};b[e]=c}if(b.layout){b.layout=b.layout.replace(/</g,'<').replace( />/g,'>')}this._resetExtraLabels(d.options,b);var f=(d.options.timezone!=b.timezone);$.extend(d.options,b);this._adjustSettings(a,d,b.until!=null||b.since!=null||f);var g=new Date();if((d._since&&d._since<g)||(d._until&&d._until>g)){this._addTarget(a[0])}this._updateCountdown(a,d)},_updateCountdown:function(a,b){var c=$(a);b=b||c.data(this.propertyName);if(!b){return}c.html(this._generateHTML(b)).toggleClass(this._rtlClass,b.options.isRTL);if($.isFunction(b.options.onTick)){var d=b._hold!='lap'?b._periods:this._calculatePeriods(b,b._show,b.options.significant,new Date());if(b.options.tickInterval==1||this.periodsToSeconds(d)%b.options.tickInterval==0){b.options.onTick.apply(a,[d])}}var e=b._hold!='pause'&&(b._since?b._now.getTime()<b._since.getTime():b._now.getTime()>=b._until.getTime());if(e&&!b._expiring){b._expiring=true;if(this._hasTarget(a)||b.options.alwaysExpire){this._removeTarget(a);if($.isFunction(b.options.onExpiry)){b.options.onExpiry.apply(a,[])}if(b.options.expiryText){var f=b.options.layout;b.options.layout=b.options.expiryText;this._updateCountdown(a,b);b.options.layout=f}if(b.options.expiryUrl){window.location=b.options.expiryUrl}}b._expiring=false}else if(b._hold=='pause'){this._removeTarget(a)}c.data(this.propertyName,b)},_resetExtraLabels:function(a,b){var c=false;for(var n in b){if(n!='whichLabels'&&n.match(/[Ll]abels/)){c=true;break}}if(c){for(var n in a){if(n.match(/[Ll]abels[02-9]|compactLabels1/)){a[n]=null}}}},_adjustSettings:function(a,b,c){var d;var e=0;var f=null;for(var i=0;i<this._serverSyncs.length;i++){if(this._serverSyncs[i][0]==b.options.serverSync){f=this._serverSyncs[i][1];break}}if(f!=null){e=(b.options.serverSync?f:0);d=new Date()}else{var g=($.isFunction(b.options.serverSync)?b.options.serverSync.apply(a,[]):null);d=new Date();e=(g?d.getTime()-g.getTime():0);this._serverSyncs.push([b.options.serverSync,e])}var h=b.options.timezone;h=(h==null?-d.getTimezoneOffset():h);if(c||(!c&&b._until==null&&b._since==null)){b._since=b.options.since;if(b._since!=null){b._since=this.UTCDate(h,this._determineTime(b._since,null));if(b._since&&e){b._since.setMilliseconds(b._since.getMilliseconds()+e)}}b._until=this.UTCDate(h,this._determineTime(b.options.until,d));if(e){b._until.setMilliseconds(b._until.getMilliseconds()+e)}}b._show=this._determineShow(b)},_destroyPlugin:function(a){a=$(a);if(!a.hasClass(this.markerClassName)){return}this._removeTarget(a[0]);a.removeClass(this.markerClassName).empty().removeData(this.propertyName)},_pausePlugin:function(a){this._hold(a,'pause')},_lapPlugin:function(a){this._hold(a,'lap')},_resumePlugin:function(a){this._hold(a,null)},_hold:function(a,b){var c=$.data(a,this.propertyName);if(c){if(c._hold=='pause'&&!b){c._periods=c._savePeriods;var d=(c._since?'-':'+');c[c._since?'_since':'_until']=this._determineTime(d+c._periods[0]+'y'+d+c._periods[1]+'o'+d+c._periods[2]+'w'+d+c._periods[3]+'d'+d+c._periods[4]+'h'+d+c._periods[5]+'m'+d+c._periods[6]+'s');this._addTarget(a)}c._hold=b;c._savePeriods=(b=='pause'?c._periods:null);$.data(a,this.propertyName,c);this._updateCountdown(a,c)}},_getTimesPlugin:function(a){var b=$.data(a,this.propertyName);return(!b?null:(b._hold=='pause'?b._savePeriods:(!b._hold?b._periods:this._calculatePeriods(b,b._show,b.options.significant,new Date()))))},_determineTime:function(k,l){var m=function(a){var b=new Date();b.setTime(b.getTime()+a*1000);return b};var n=function(a){a=a.toLowerCase();var b=new Date();var c=b.getFullYear();var d=b.getMonth();var e=b.getDate();var f=b.getHours();var g=b.getMinutes();var h=b.getSeconds();var i=/([+-]?[0-9]+)\s*(s|m|h|d|w|o|y)?/g;var j=i.exec(a);while(j){switch(j[2]||'s'){case's':h+=parseInt(j[1],10);break;case'm':g+=parseInt(j[1],10);break;case'h':f+=parseInt(j[1],10);break;case'd':e+=parseInt(j[1],10);break;case'w':e+=parseInt(j[1],10)*7;break;case'o':d+=parseInt(j[1],10);e=Math.min(e,x._getDaysInMonth(c,d));break;case'y':c+=parseInt(j[1],10);e=Math.min(e,x._getDaysInMonth(c,d));break}j=i.exec(a)}return new Date(c,d,e,f,g,h,0)};var o=(k==null?l:(typeof k=='string'?n(k):(typeof k=='number'?m(k):k)));if(o)o.setMilliseconds(0);return o},_getDaysInMonth:function(a,b){return 32-new Date(a,b,32).getDate()},_normalLabels:function(a){return a},_generateHTML:function(c){var d=this;c._periods=(c._hold?c._periods:this._calculatePeriods(c,c._show,c.options.significant,new Date()));var e=false;var f=0;var g=c.options.significant;var h=$.extend({},c._show);for(var i=Y;i<=S;i++){e|=(c._show[i]=='?'&&c._periods[i]>0);h[i]=(c._show[i]=='?'&&!e?null:c._show[i]);f+=(h[i]?1:0);g-=(c._periods[i]>0?1:0)}var j=[false,false,false,false,false,false,false];for(var i=S;i>=Y;i--){if(c._show[i]){if(c._periods[i]){j[i]=true}else{j[i]=g>0;g--}}}var k=(c.options.compact?c.options.compactLabels:c.options.labels);var l=c.options.whichLabels||this._normalLabels;var m=function(a){var b=c.options['compactLabels'+l(c._periods[a])];return(h[a]?d._translateDigits(c,c._periods[a])+(b?b[a]:k[a])+' ':'')};var n=function(a){var b=c.options['labels'+l(c._periods[a])];return((!c.options.significant&&h[a])||(c.options.significant&&j[a])?'<span class="'+x._sectionClass+'">'+'<span class="'+x._amountClass+'">'+d._translateDigits(c,c._periods[a])+'</span><br />'+(b?b[a]:k[a])+'</span>':'')};return(c.options.layout?this._buildLayout(c,h,c.options.layout,c.options.compact,c.options.significant,j):((c.options.compact?'<span class="'+this._rowClass+' '+this._amountClass+(c._hold?' '+this._holdingClass:'')+'">'+m(Y)+m(O)+m(W)+m(D)+(h[H]?this._minDigits(c,c._periods[H],2):'')+(h[M]?(h[H]?c.options.timeSeparator:'')+this._minDigits(c,c._periods[M],2):'')+(h[S]?(h[H]||h[M]?c.options.timeSeparator:'')+this._minDigits(c,c._periods[S],2):''):'<span class="'+this._rowClass+' '+this._showClass+(c.options.significant||f)+(c._hold?' '+this._holdingClass:'')+'">'+n(Y)+n(O)+n(W)+n(D)+n(H)+n(M)+n(S))+'</span>'+(c.options.description?'<span class="'+this._rowClass+' '+this._descrClass+'">'+c.options.description+'</span>':'')))},_buildLayout:function(c,d,e,f,g,h){var j=c.options[f?'compactLabels':'labels'];var k=c.options.whichLabels||this._normalLabels;var l=function(a){return(c.options[(f?'compactLabels':'labels')+k(c._periods[a])]||j)[a]};var m=function(a,b){return c.options.digits[Math.floor(a/b)%10]};var o={desc:c.options.description,sep:c.options.timeSeparator,yl:l(Y),yn:this._minDigits(c,c._periods[Y],1),ynn:this._minDigits(c,c._periods[Y],2),ynnn:this._minDigits(c,c._periods[Y],3),y1:m(c._periods[Y],1),y10:m(c._periods[Y],10),y100:m(c._periods[Y],100),y1000:m(c._periods[Y],1000),ol:l(O),on:this._minDigits(c,c._periods[O],1),onn:this._minDigits(c,c._periods[O],2),onnn:this._minDigits(c,c._periods[O],3),o1:m(c._periods[O],1),o10:m(c._periods[O],10),o100:m(c._periods[O],100),o1000:m(c._periods[O],1000),wl:l(W),wn:this._minDigits(c,c._periods[W],1),wnn:this._minDigits(c,c._periods[W],2),wnnn:this._minDigits(c,c._periods[W],3),w1:m(c._periods[W],1),w10:m(c._periods[W],10),w100:m(c._periods[W],100),w1000:m(c._periods[W],1000),dl:l(D),dn:this._minDigits(c,c._periods[D],1),dnn:this._minDigits(c,c._periods[D],2),dnnn:this._minDigits(c,c._periods[D],3),d1:m(c._periods[D],1),d10:m(c._periods[D],10),d100:m(c._periods[D],100),d1000:m(c._periods[D],1000),hl:l(H),hn:this._minDigits(c,c._periods[H],1),hnn:this._minDigits(c,c._periods[H],2),hnnn:this._minDigits(c,c._periods[H],3),h1:m(c._periods[H],1),h10:m(c._periods[H],10),h100:m(c._periods[H],100),h1000:m(c._periods[H],1000),ml:l(M),mn:this._minDigits(c,c._periods[M],1),mnn:this._minDigits(c,c._periods[M],2),mnnn:this._minDigits(c,c._periods[M],3),m1:m(c._periods[M],1),m10:m(c._periods[M],10),m100:m(c._periods[M],100),m1000:m(c._periods[M],1000),sl:l(S),sn:this._minDigits(c,c._periods[S],1),snn:this._minDigits(c,c._periods[S],2),snnn:this._minDigits(c,c._periods[S],3),s1:m(c._periods[S],1),s10:m(c._periods[S],10),s100:m(c._periods[S],100),s1000:m(c._periods[S],1000)};var p=e;for(var i=Y;i<=S;i++){var q='yowdhms'.charAt(i);var r=new RegExp('\\{'+q+'<\\}([\\s\\S]*)\\{'+q+'>\\}','g');p=p.replace(r,((!g&&d[i])||(g&&h[i])?'$1':''))}$.each(o,function(n,v){var a=new RegExp('\\{'+n+'\\}','g');p=p.replace(a,v)});return p},_minDigits:function(a,b,c){b=''+b;if(b.length>=c){return this._translateDigits(a,b)}b='0000000000'+b;return this._translateDigits(a,b.substr(b.length-c))},_translateDigits:function(b,c){return(''+c).replace(/[0-9]/g,function(a){return b.options.digits[a]})},_determineShow:function(a){var b=a.options.format;var c=[];c[Y]=(b.match('y')?'?':(b.match('Y')?'!':null));c[O]=(b.match('o')?'?':(b.match('O')?'!':null));c[W]=(b.match('w')?'?':(b.match('W')?'!':null));c[D]=(b.match('d')?'?':(b.match('D')?'!':null));c[H]=(b.match('h')?'?':(b.match('H')?'!':null));c[M]=(b.match('m')?'?':(b.match('M')?'!':null));c[S]=(b.match('s')?'?':(b.match('S')?'!':null));return c},_calculatePeriods:function(c,d,e,f){c._now=f;c._now.setMilliseconds(0);var g=new Date(c._now.getTime());if(c._since){if(f.getTime()<c._since.getTime()){c._now=f=g}else{f=c._since}}else{g.setTime(c._until.getTime());if(f.getTime()>c._until.getTime()){c._now=f=g}}var h=[0,0,0,0,0,0,0];if(d[Y]||d[O]){var i=x._getDaysInMonth(f.getFullYear(),f.getMonth());var j=x._getDaysInMonth(g.getFullYear(),g.getMonth());var k=(g.getDate()==f.getDate()||(g.getDate()>=Math.min(i,j)&&f.getDate()>=Math.min(i,j)));var l=function(a){return(a.getHours()*60+a.getMinutes())*60+a.getSeconds()};var m=Math.max(0,(g.getFullYear()-f.getFullYear())*12+g.getMonth()-f.getMonth()+((g.getDate()<f.getDate()&&!k)||(k&&l(g)<l(f))?-1:0));h[Y]=(d[Y]?Math.floor(m/12):0);h[O]=(d[O]?m-h[Y]*12:0);f=new Date(f.getTime());var n=(f.getDate()==i);var o=x._getDaysInMonth(f.getFullYear()+h[Y],f.getMonth()+h[O]);if(f.getDate()>o){f.setDate(o)}f.setFullYear(f.getFullYear()+h[Y]);f.setMonth(f.getMonth()+h[O]);if(n){f.setDate(o)}}var p=Math.floor((g.getTime()-f.getTime())/1000);var q=function(a,b){h[a]=(d[a]?Math.floor(p/b):0);p-=h[a]*b};q(W,604800);q(D,86400);q(H,3600);q(M,60);q(S,1);if(p>0&&!c._since){var r=[1,12,4.3482,7,24,60,60];var s=S;var t=1;for(var u=S;u>=Y;u--){if(d[u]){if(h[s]>=t){h[s]=0;p=1}if(p>0){h[u]++;p=0;s=u;t=1}}t*=r[u]}}if(e){for(var u=Y;u<=S;u++){if(e&&h[u]){e--}else if(!e){h[u]=0}}}return h}});var w=['getTimes'];function isNotChained(a,b){if(a=='option'&&(b.length==0||(b.length==1&&typeof b[0]=='string'))){return true}return $.inArray(a,w)>-1}$.fn.countdown=function(a){var b=Array.prototype.slice.call(arguments,1);if(isNotChained(a,b)){return x['_'+a+'Plugin'].apply(x,[this[0]].concat(b))}return this.each(function(){if(typeof a=='string'){if(!x['_'+a+'Plugin']){throw'Unknown command: '+a;}x['_'+a+'Plugin'].apply(x,[this].concat(b))}else{x._attachPlugin(this,a||{})}})};var x=$.countdown=new Countdown()})(jQuery);
+
+var fGetSuffix=function(b){var a="";switch(b%10){case 1:a=(b%100===11)?"th":"st";break;case 2:a=(b%100===12)?"th":"nd";break;case 3:a=(b%100===13)?"th":"rd";break;default:a="th";break}return a};
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+/*
+var lang; 
+$("#countrySelect").change(function(){
+  $("[data-lang]").hide()
+  lang ="data-lang =" + $(this).val(); 
+  console.log(lang); 
+  $("[" + lang + "]").show()
+})
+*/
+$(function(){
+
+
+
+
+now = new Date(SERVERCLOCK).toUTCString()
+
+function showAppData(token, start, end){
+	var i, date_from,date_to, timestamp_ = Date.parse(now);
+	var r = getAppData(token);
+	for(i=0; i<r.all; i++){
+		date_from = utcTimestamp(r.data[i][start]); // DATA POCZATKU
+		date_to   = utcTimestamp(r.data[i][end]); // DATA KONCA
+		if (timestamp_>date_from && timestamp_<date_to) {
+			match = r.data[i];
+			return match;
+		}
+	}
+} 
+
+
+	var modules = showAppData('9755fbe695', '1', '2');
+
+	if(modules){
+             $('.point-boosts-section .container').append(modules[3]);
+             $('.point-boosts-section .container').append(modules[4]);
+             $('.point-boosts-section .container').append(modules[5]);
+         } else {
+ $('.point-boosts-section').addClass("no-modules")
+}
+})
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+  var languages = null;
+  var language = null;
+  function getPageLanguage() {
+    var pageLang = "it";
+    var path = window.location.pathname.split("/");
+    switch(window.location.host.split(".")[0]) {
+      case "promotions":
+        try {
+          var contender = path[1].split("-").pop();
+          if(contender.length == 2) pageLang = contender;
+        } catch(e) {}
+        break;
+      default:
+        try {
+          var contender = path.pop();
+          if(contender.length == 2) pageLang = contender;
+        } catch(e) {}
+        break;
+    }
+    return pageLang;
+  }
+  function redirect() {
+
+    var l = arguments.length > 0 ? arguments[0] : language;
+    var pageLang = getPageLanguage();
+    
+    if(l != pageLang && languages.indexOf(l) >= 0) {
+      var path = window.location.pathname.split("/");
+      switch(window.location.host.split(".")[0]) {
+        case "promotions":
+          try {
+            var contender = path[1].split("-");
+            if(contender[contender.length-1].length == 2) contender[contender.length-1] = l;
+            else contender.push(l);
+            path[1] = contender.join("-");
+            window.location.pathname = path.join("/");
+          } catch(e) {}
+          break;
+        default:
+          try {
+            if(l == "en") window.location.pathname = "/";
+            else window.location.pathname = "/" + l;
+          } catch(e) {}
+          break;
+      }
+    }
+  }
+
+  // set language dropdown to be the correct language
+  var pageLang = getPageLanguage();
+  var select = $("select");
+  if(select.val() != pageLang) {
+    select.val(pageLang);
+  }
+  
+  // add event handler for language change  
+  $("select").on('change',function(e) {
+    var l=$(e.target).val();
+    redirect(l);
+  });
+
+  // language selection setting
+  languages = $('#countrySelect option').toArray().map(function(x) { return x.value; });
+  if(language && languages) redirect(); 
+
+  // fix logout link
+  $('a.signout').attr({href: 'https://identitysso.'+window.location.host.substring(window.location.host.indexOf(".")+1)+'/api/logout?product='+page.product+'&url='+window.location.href});
+
+  // fix register link
+  $(".registerBtn").click(function (event) {
+    event.preventDefault();
+    window.open('https://register.betfair.com/account/registration?promotionCode=', 'mywin',
+    'left=20,top=20,width=1100,height=700,toolbar=1,resizable=yes,scrollbars=yes');
+  }).addClass('clickable');
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+    //(function() {
+    //    $('.left-arrow').click(function(){
+    //       $("body").removeClass("target4-shown");
+    //        $("body").addClass("target4-hidden");
+    //        console.log('left')
+    //   }); 
+    //    $('.right-arrow').click(function(){
+    //        $("body").removeClass("target4-hidden");
+    //        $("body").addClass("target4-shown");
+    //        console.log('right')
+    //   });    
+    //})();
+
+
+    if (window.location.host.split(".")[0] == 'promotions' || window.location.host.split(".")[0] == 'promociones'  ){
+        $('#countrySelect').change(function() {
+            if ($(this).val() == 'es'){
+                window.location = 'https://promociones.betfair.es/cashrace-es';
+            }
+            if ($(this).val() == 'en'){
+                window.location = 'https://promotions.betfair.com/cashrace-en';
+            }
+          //  if ($(this).val() == 'bg'){
+        //        window.location = 'https://promotions.betfair.com/cashrace-bg';
+          //  }
+            if ($(this).val() == 'ru'){
+                window.location = 'https://promotions.betfair.com/cashrace-ru';
+            }
+         // if ($(this).val() == 'da'){
+           //     window.location = 'https://promotions.betfair.com/cashrace-da';
+          // }
+            if ($(this).val() == 'br'){
+                window.location = 'https://promotions.betfair.com/cashrace-br';
+            }
+           // if ($(this).val() == 'sv'){
+             //   window.location = 'https://promotions.betfair.com/cashrace-sv';
+           // }
+            if ($(this).val() == 'ro'){
+                window.location = 'https://promotions.betfair.ro/cashrace-ro';
+            }   
+            if ($(this).val() == 'it'){
+                window.location = 'https://promotions.betfair.it/cashrace-it';
+            }         
+            if ($(this).val() == 'la'){
+                window.location = 'https://promotions.betfair.com/cashrace-la';
+            }     
+        });
+    }
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+(function(){
+if('n' == 'y') {
+    $('.double-prize-addon').css('display', 'flex')
+}
+})()
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+$( document ).ready(function() {
+    $('.back-btn').click(function(e){
+        e.preventDefault();
+        window.history.back();
+    })
+});
+// ]]></script>
+
+<script type="text/javascript">
+if (window.geoip && typeof geoip==='function') geoip({"continent_code": "EU", "country_code3": "DEU", "country_code": "DE"})
+</script>
+
+
+
+
+<script>(function(){var js = "window['__CF$cv$params']={r:'8227cc58ac476a89',t:'MTY5OTM4MzQwNy42NjIwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8227cc58ac476a89","b":1,"version":"2023.10.0","token":"4ee31a10b3594df78e0ae3b8f41caf4c"}' crossorigin="anonymous"></script>
+</body>
+</html>
+0
+
+
+
+
+https://cashrace.betfair.it:443

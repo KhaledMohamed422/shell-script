@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: smd.betfair.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:8.0) Gecko/20100101 Firefox/8.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b935acf57a55-DUS
+Date: Tue, 07 Nov 2023 18:43:43 GMT
+Expires: Tue, 07 Nov 2023 19:43:43 GMT
+Location: https://smd.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2F447fJ1jOMEJKf%2FiokcU%2B4tlYJ8wlrhiKCaFKbBlCsx18IBBuNP4Tj4wqJP2vsxuw5Wzx0KNfZguR0%2F%2F2KBmXjmZwJP%2F0SGGlNqXkGaLhdv3urQBoElPYO8EJqAlFrwLQA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://smd.betfair.com:80

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: steven.test.betsson.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; SunOS) KHTML/3.5.1 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:25 GMT
+Server: CloudFront
+Via: 1.1 69387ca0ad24846d99bf107cb3133bf6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UVU-UJg0uXdLOQ8EW2AMzU_rSQ-2iTkh5QmVSJ18SqUHH96sAGiROQ==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Error from cloudfront
+

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: circleci.lystit.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML like Gecko) Version/6.0.2 Safari/536.26.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ce4a49f49162b-DUS
+Date: Wed, 08 Nov 2023 09:47:11 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://lyst.cloudflareaccess.com/cdn-cgi/access/login/circleci.lystit.com?kid=8fb9374b3215e26191f998796c94dda2c4446fdb1ebf0e2a67db09f6060f801a&redirect_url=%2F&meta=eyJraWQiOiIyMmYzYjBkZWNhYjY0ZjM2MjdhNGQyOTg3ZDlhOTA3NTc1NTg0MjRkYzcyODU5MDQzNWYzNDgxZjVhNjliYmUxIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTQzNjgzMSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjhmYjkzNzRiMzIxNWUyNjE5MWY5OTg3OTZjOTRkZGEyYzQ0NDZmZGIxZWJmMGUyYTY3ZGIwOWY2MDYwZjgwMWEiLCJob3N0bmFtZSI6ImNpcmNsZWNpLmx5c3RpdC5jb20iLCJhcHBfc2Vzc2lvbl9oYXNoIjoiOWVmM2ZmNTViZGQ3NjUwMTM1MGUyNjJjZjYzZDMwMTI5MDY5NGZiMjY0ZDFjMzAzMWY4ZWJlOGQ2ZmExNDZhNyIsIm5iZiI6MTY5OTQzNjgzMSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJ0eXBlIjoibWV0YSIsInJlZGlyZWN0X3VybCI6IlwvIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9kbiI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJhdXRoX3N0YXR1cyI6Ik5PTkUifQ.pH2M2GRBaAhYSBjh9xJkJXhEL14UueFQrx7ewOBlo3IaGiPpglmgiZXTJKvRdkoGyS1G6PPtV_hHlOEFUjovK4hLtXH_mpQtrynnss2bbYPPdkrhOJzxsyxGCsUJbW9LTyvNjv9ruEkDV58sMLWKbs799gia3kiHjl9kigpL_VweWsFeh-c82Ff7NFyAtpBONPBmiZY7mw6r4kUpMQEZV63TOLlLwct_6KUQAzkjJz89n7kItyE1BNbRJgG1lZEM1rwfOPYfKQi4ZH23Q-LQR-SPs8gZK5P4h1qPNngY0txbGadA6gsMszZI857kWfnT4zXovRiI0_w_fqA2Q6jFoQ
+Server: cloudflare
+Set-Cookie: CF_AppSession=nfabd07c6fb86ab90; Expires=Thu, 09 Nov 2023 09:47:11 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=15552000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://circleci.lystit.com:8443

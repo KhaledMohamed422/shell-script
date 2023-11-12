@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: iwos.alibaba-inc.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 OPT/3.2.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-CSRF-TOKEN,USER-CODE,DEV,request-url
+Access-Control-Allow-Methods: POST
+Access-Control-Expose-Headers: eagleeye-traceid
+Date: Wed, 08 Nov 2023 09:57:49 GMT
+Eagleeye-Traceid: 211b4eb916994374688176445e61de
+Location: https://mozi-login.alibaba-inc.com/ssoLogin.htm?APP_NAME=campus_space&BACK_URL=https%3A%2F%2Fiwos.alibaba-inc.com%2F
+Realserver: 33.3.237.223:80
+Server: Tengine/Aserver
+Set-Cookie: campus_space_SSO_TOKEN_V2=; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure
+Set-Cookie: company=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: lastName=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: CURRENT_COMPANY_ID=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Strict-Transport-Security: max-age=0
+Timing-Allow-Origin: *
+Ufe-Result: A6
+Content-Length: 0
+
+
+
+
+https://iwos.alibaba-inc.com:443

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: blog.ru.playstation.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=300, must-revalidate
+Content-Security-Policy: object-src 'none'; base-uri 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:13:00 GMT
+Last-Modified: Tue, 07 Nov 2023 23:13:00 GMT
+Link: <https://blog.ru.playstation.com/wp-json/>; rel="https://api.w.org/"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Origin
+Via: 1.1 dd5c8f1bc8fe255b1a3166b5a036fe2c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PvAc-V8emK9pitdddXQ1hHVtui_rMAgD-lwFQsH2b8pyuJ3Odb4WTQ==
+X-Amz-Cf-Pop: AMS58-P4
+X-Batcache: MISS
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+2f8a3

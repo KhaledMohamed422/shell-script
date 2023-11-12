@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: cdn.krisp.ai
+User-Agent: Vodafone/1.0/V802SE/SEJ001 Browser/SEMC-Browser/4.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227470349bf7163-DUS
+Content-Type: application/xml
+Cross-Origin-Opener-Policy: same-origin
+Date: Tue, 07 Nov 2023 17:25:46 GMT
+Krisp-Served-From-Cache: no
+Server: cloudflare
+Vary: Accept-Encoding
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: NBvuGCZI2KQ+vlGa9GXxLnJM8+4c60Mtd3iaiSizXu7tP+ofdxUjjAGHrRVtHQEgvVkvNSG8ykOxlo8/QiVlApJfnC0VVL3xGUanJzDuAJk=
+X-Amz-Request-Id: XRH4VAPM5506FF05
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XRH4VAPM5506FF05</RequestId><HostId>NBvuGCZI2KQ+vlGa9GXxLnJM8+4c60Mtd3iaiSizXu7tP+ofdxUjjAGHrRVtHQEgvVkvNSG8ykOxlo8/QiVlApJfnC0VVL3xGUanJzDuAJk=</HostId></Error>
+0
+
+
+
+
+https://cdn.krisp.ai:443

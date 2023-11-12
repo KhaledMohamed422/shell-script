@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: cashout-exchange.betfair.it:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Safari/602.1.50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227caa7d9dc6a7c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:55:38 GMT
+Expires: Tue, 07 Nov 2023 18:55:53 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6VEQ5sdf%2FFFi6SEO5fml4iPh5eaLHgxEFoLvSXQHrEMHx5z%2FSuRZQrp7tn0UB8pRX%2FbV7kIckpA7FdE%2FYQrzmKTtDlhFsUEIsM%2FMnSgXf%2FDtsdMgzt6%2FUnMcPK8N6I6JWQnBjKs6VeUvKlAxZY0PxFCr"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=vCRxsgE8y2MhcFdOM33Y6Z_TAWdvvBKqOYfufJSxoko-1699383338-0-AfnWCNFydyb0xdrdWz72gMLzEyM8eMpOzvy5qQF4lL44DHp3QGSbU7kYRF82ZZeB+a5j/4vEQGTbWedkPm5SSos=; path=/; expires=Tue, 07-Nov-23 19:25:38 GMT; domain=.betfair.it; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

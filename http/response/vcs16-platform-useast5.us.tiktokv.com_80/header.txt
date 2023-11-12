@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: vcs16-platform-useast5.us.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:11 GMT
+Server: nginx
+Server-Timing: inner; dur=3
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=21
+X-Akamai-Request-Id: 33d40037
+X-Cache: TCP_MISS from a23-33-41-72.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Check-Cacheable: YES
+X-Origin-Response-Time: 21,23.33.41.72
+X-Tt-Logid: 20231108184211B43A674CCCAF6769521D
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5abdd8a03e7900225ba1c9bcfb41c9b9101f0e6d1b7767205f705dd90b22348eb433d9a1d163582a8e8c5a58994c2152839d4f36a3ad84c6e875bafa5c584fed92decaefe8ee022cc0bfed8a61ddcaaadd
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://vcs16-platform-useast5.us.tiktokv.com:80

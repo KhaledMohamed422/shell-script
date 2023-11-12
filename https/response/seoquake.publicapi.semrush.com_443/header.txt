@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: seoquake.publicapi.semrush.com
+User-Agent: Mozilla/5.0 (MSIE 9.0; Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14931
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 07:30:57 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Vary: Origin
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4d
+<?xml version="1.0" encoding="UTF-8"?>
+<data><status>notfound</status></data>
+0
+
+
+
+
+https://seoquake.publicapi.semrush.com:443

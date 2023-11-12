@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: financial.betfair.com
+User-Agent: Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b78e7bfa1611-DUS
+Date: Tue, 07 Nov 2023 18:42:35 GMT
+Expires: Tue, 07 Nov 2023 19:42:35 GMT
+Location: https://betting.betfair.com/financials/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p5GWLBdfY8HkQEiUpy%2Fr958h1%2F746gqDUsAMjuWDTBNsU3SDhJcUZzHXTjnH7MjfYj3Z82yTjqjvfAxcrclMJ%2BuUdF8WL2tT74Eqi9YJHW92xt0h0BLuNR1G6nccSnj8aMNdzmNv6w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://financial.betfair.com:80

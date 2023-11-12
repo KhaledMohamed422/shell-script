@@ -1,0 +1,51 @@
+GET / HTTP/1.1
+Host: launch-eu-b.cloud.com
+User-Agent: Uzbl (Webkit 1.3) (Linux i686 [i686])
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-store
+Content-Security-Policy-Report-Only: script-src 'unsafe-inline' https://*.cloud.com https://www.googletagmanager.com https://www.recaptcha.net https://*.gstatic.com https://www.google.com/recaptcha 'nonce-behY6u6dG2CLE5AOSQ6X+Hv+/Zo=' 'strict-dynamic';style-src 'self' https://*.cloud.com https://*.gstatic.com;img-src 'self' data: https://*.cloud.com https://*.gstatic.com https://www.googletagmanager.com;object-src 'none';base-uri 'self';frame-ancestors 'self';connect-src https: wss://*.nssvc.net/ wss://*.cloud.com;report-uri https://launch-eu-b.cloud.com/CspViolationReport;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:22:37 GMT
+Server: Microsoft-HTTPAPI/2.0
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+5a0
+<html ng-app="launchApp" ng-strict-di ng-csp>
+<head>
+    <base href="/" />
+    <link id="favicon" rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://launch-release-b.browser.cloud.com/styles/vendor.min.css" />
+    <link rel="stylesheet" href="https://launch-release-b.browser.cloud.com/styles/bundle.min.css" />
+
+    <script nonce="behY6u6dG2CLE5AOSQ6X&#x2B;Hv&#x2B;/Zo=">
+        var globalConfiguration = {
+            clientHostname: 'browser-receiver-b.browser.cloud.com',
+            sessionServiceApi: 'https://session-release-b.browser.cloud.com/[customer]',
+            captchaKey: '6Le6v7AZAAAAAK04n6NmxxqBdjkEfXZK8K6lpcJQ',
+            resizeOverlayDuration: '500',
+            receiverVersion: 'v23.01.1.1',
+            allowExternalClient: '',
+            alternateReceiverUrl: ''
+        };
+    </script>
+    <script nonce="behY6u6dG2CLE5AOSQ6X&#x2B;Hv&#x2B;/Zo=" type="text/javascript" src="https://launch-release-b.browser.cloud.com/scripts/vendor.min.js"></script>
+    <script nonce="behY6u6dG2CLE5AOSQ6X&#x2B;Hv&#x2B;/Zo=" type="text/javascript" src="https://launch-release-b.browser.cloud.com/scripts/bundle.min.js"></script>
+        <script nonce="behY6u6dG2CLE5AOSQ6X&#x2B;Hv&#x2B;/Zo=" src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
+    <meta name="viewport" content="{{ngMeta.viewport}}" />
+</head>
+<body>
+    <div ng-view></div>
+</body>
+</html>
+0
+
+
+
+
+https://launch-eu-b.cloud.com:443

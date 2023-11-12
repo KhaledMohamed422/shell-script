@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: uat.stl.cf.enterprise.instacart.com:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Chrome/4.0.249.0 Safari/532.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273eccab18cb19-DUS
+Date: Tue, 07 Nov 2023 17:20:09 GMT
+Expires: Tue, 07 Nov 2023 18:20:09 GMT
+Location: https://uat.stl.cf.enterprise.instacart.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=ATw_ASkBuSfXEqz_MwuOpmzaA5l3qGPG3EihjBXRaIU-1699377609-0-AaqiYtURJIN1t47TFUWU+QoRKjmvfTrj1HPsmkE3vhiOmY/joiCm8nZ5hm6f9EgZx8sCyCaX2WRJtRfGxYkMH0o=; path=/; expires=Tue, 07-Nov-23 17:50:09 GMT; domain=.uat.stl.cf.enterprise.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://uat.stl.cf.enterprise.instacart.com:8080

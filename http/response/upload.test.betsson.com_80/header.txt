@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: upload.test.betsson.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.2; Linux) KHTML/4.2.4 (like Gecko) Slackware/13.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:00:29 GMT
+Location: https://upload.test.betsson.com/
+Server: CloudFront
+Via: 1.1 19f569e782b5b925c41d8bc4e292cc7a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QTBbX-lvVQJlMmFqyXOera6XDKtTeAs-iKSwPETQUF44PhyASDFJ1A==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Redirect from cloudfront
+

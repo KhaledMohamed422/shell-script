@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: ads.twitter.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Security-Policy: default-src 'self'; connect-src 'self' https://ads-api.twitter.com https://api.twitter.com https://api.mixpanel.com https://upload.twitter.com https://pbs.twimg.com https://resources.digital-cloud-prem.medallia.com https://udc-neb.kampyle.com https://vpn.twttr.com https://*.vpn.twttr.com https://upload.twitter.com; font-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com data:; frame-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://platform.twitter.com https://syndication.twitter.com https://vine.co https://vpn.twttr.com https://*.vpn.twttr.com https://googleads.g.doubleclick.net https://twitterinc.secure.force.com https://upload.twitter.com https://www.google.com; frame-ancestors 'self'; img-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https: http://*.mzstatic.com data:; media-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com; object-src 'none'; script-src 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://platform.twitter.com https://syndication.twitter.com https://ssl.google-analytics.com https://www.google-analytics.com https://bat.bing.com https://analytics.twitter.com https://static.ads-twitter.com https://s.pinimg.com https://vpn.twttr.com https://*.vpn.twttr.com https://stats.g.doubleclick.net https://www.googleadservices.com; style-src 'unsafe-inline' 'self' https://*.twimg.com https://twitter.com https://ton.twitter.com https://ads.twitter.com https://vpn.twttr.com https://*.vpn.twttr.com; report-uri https://twitter.com/i/csp_report?a=NVQWGYLXFVRWC3LQMFUWO3TT&ro=false;
+Date: Tue, 07 Nov 2023 20:16:34 GMT
+Location: /login
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938819448146342; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:16:34 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: fa18297fb1de37ef468cf747a6f00b71ef7c987c935d5ae1f44cb23942e2019e
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 111
+X-Transaction: 43fc25b2c246f7cb
+X-Transaction-Id: 43fc25b2c246f7cb
+X-Xss-Protection: 0
+Content-Length: 0
+
+
+
+
+https://ads.twitter.com:443

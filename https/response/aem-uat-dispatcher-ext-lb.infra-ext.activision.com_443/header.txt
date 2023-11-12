@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: aem-uat-dispatcher-ext-lb.infra-ext.activision.com
+User-Agent: Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 198
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 04:42:04 GMT
+Server: Apache/2.4.6 (CentOS) Communique/4.3.3
+Via: 1.1 google
+

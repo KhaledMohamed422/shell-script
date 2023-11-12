@@ -1,0 +1,52 @@
+GET / HTTP/1.1
+Host: pre-daraz.wagbridge.alibaba-inc.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Bxuuid: 56922927cc50f9502555dfd596fa060d
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:17:24 GMT
+Eagleeye-Traceid: 2101440516994386445214051e5306
+Server: Tengine/Aserver
+Strict-Transport-Security: max-age=0
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+
+45a
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=VpIpJ8xQ-VAlVd_VlvoGDQ|ZUtgNA|MWrYXQ_0&uuid=56922927cc50f9502555dfd596fa060d&action=deny&origin=https%3A%2F%2Fpre-daraz.wagbridge.alibaba-inc.com%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=VpIpJ8xQ-VAlVd_VlvoGDQ|ZUtgNA|MWrYXQ_0&uuid=56922927cc50f9502555dfd596fa060d&action=deny&origin=https%3A%2F%2Fpre-daraz.wagbridge.alibaba-inc.com%2F"
+};
+</script>
+<!--rgv587_flag:sm-->Deny from x5
+0
+
+
+
+
+https://pre-daraz.wagbridge.alibaba-inc.com:443

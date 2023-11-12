@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: cloudplatform.coveo.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.0; en-us; dream) AppleWebKit/525.10  (KHTML, like Gecko) Version/3.0.4 Mobile Safari/523.12.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:27:08 GMT
+Location: https://platform.cloud.coveo.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 003e32de-eb1a-471e-b4f3-26437cb34b91
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://cloudplatform.coveo.com:443

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        body,
+        h1 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body,
+        html {
+            height: 100%
+        }
+
+        .bgimg {
+            background-color: coral;
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .w3-padding-large {
+            padding: 12px 12px !important;
+        }
+
+        a#login-button.button.logout.login.w-button {
+            background-color: #66ffcc;
+            background-image: none;
+            border-radius: 25px;
+            border-width: 0;
+            bottom: auto;
+            box-sizing: border-box;
+            color: #253858;
+            cursor: pointer;
+            display: block;
+            flex: 1;
+            float: right;
+            font-family: Poppins, sans-serif;
+            font-size: 12px;
+            left: auto;
+            letter-spacing: 1px;
+            line-height: 19px;
+            margin-left: -15px;
+            margin-right: 15px;
+            margin-top: 15px;
+            padding: 5px 15px;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            text-decoration: none;
+            top: 0;
+            transition: background-color 150ms;
+            z-index: 30;
+        }
+
+        a#login-button.button.logout.login.w-button:active {
+            outline: 0;
+        }
+
+        a#login-button.button.logout.login.w-button:hover {
+            background-color: #2ac28f;
+            font-weight: 400;
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <a href='/login' id="login-button" ms-hide-element="true" class="button logout login w-button">Login</a>
+    <div class="w3-display-middle">
+        <h1 class="w3-jumbo w3-animate-top" style="margin-bottom: -6%;">Hobi</h1>
+        <hr class="w3-border-grey" style="width:60%">
+        <p class="w3-large w3-center">Security's Alert Context Engine.</p>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+        Made by Alana Kirby</a>
+    </div>
+</div>
+
+</body>
+
+</html>
+
+
+https://hobi.security.zapier.com:443

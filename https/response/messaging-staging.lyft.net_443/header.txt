@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: messaging-staging.lyft.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:59 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9tZXNzYWdpbmctc3RhZ2luZy5seWZ0Lm5ldC8iLCAic3ZjIjogIioubHlmdC5uZXQifQ%3D%3D%7C10.45.174.167%7C1699394639%7C1a4c4622847ef4819b8f4661871c926bfeb7a9f6ea5bf1e3d104afe1ab5ac7f2
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

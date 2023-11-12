@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: status.flinks.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100101 Firefox/55.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Content-Security-Policy: frame-ancestors 'self' https://*.flinks.com https://*.flinks.com/* https://*.dev.fin.ag https://*.dev.fin.ag/*
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:30:03 GMT
+Etag: W/"73e1568c4b8dd0a14cd3a70b392af75d"
+Referrer-Policy: strict-origin-when-cross-origin
+Request-Id: 925c364a-640d-4735-808a-c96febb9e84b
+Server: nginx
+Set-Cookie: _hund_session=TGRqZnRVTDkzMHdiV3lzbEg3d0NZZ3JISkJlTmtwNld3RHBDOTN5bWdsWXVDSTR0a0lvazJlUGE1b3BwNktaZXhNL1c3dm1WVEFleUZDLzZqTTZFSjNSUWJ0VFNLckt1aFdaSjFRMmhTeDdLSGNuQ1RoRFVqRUEyOU1QY21qMHdKYklrQmdLMVpjYmhmNS9GNzhMZUJBPT0tLUpYcHh0dGJYZ2VqWEJYVDVmL28zN1E9PQ%3D%3D--2d1ab1c197537019dfa84f94f6118048a9206e0c; path=/; HttpOnly
+Strict-Transport-Security: max-age=63072000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.353486
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
+5497

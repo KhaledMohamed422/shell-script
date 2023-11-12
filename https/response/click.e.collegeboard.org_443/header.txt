@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: click.e.collegeboard.org
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 1233
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:25:48 GMT
+Permissions-Policy: geolocation=(self), microphone=()
+Referrer-Policy: origin-when-cross-origin
+Set-Cookie: strict
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

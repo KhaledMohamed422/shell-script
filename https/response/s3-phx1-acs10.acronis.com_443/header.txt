@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: s3-phx1-acs10.acronis.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:28:09 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 460
+X-Amz-Request-Id: 800000000000002d00047127ba2a63ac
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://s3-phx1-acs10.acronis.com:443

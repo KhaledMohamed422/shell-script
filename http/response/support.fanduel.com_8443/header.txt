@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: support.fanduel.com:8443
+User-Agent: BlackBerry7100i/4.1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/103
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 19:20:50 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: f14f7af25e2d677f7890b7d58a2362be
+
+4109

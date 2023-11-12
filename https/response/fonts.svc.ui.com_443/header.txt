@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: fonts.svc.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.90 Safari/537.36 Vivaldi/1.4.589.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:52:16 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; preload
+Vary: Origin
+Via: 1.1 6278ee254a7d35c23aae5e936b5a56ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZhnD6CMN-Kw-ZNiirx1EPBCz-JXZ_UrljE00HTk2QVgWnfhRLHfo6w==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>SV9KEVTMGEV0KFP2</RequestId><HostId>gwDFuI6pvW87gzelyWtPWVt6slVS3AQC21U7KtLTAyH99R4vCELVvDplOaPcsn9o1ea3g49LnQg=</HostId></Error>
+0
+
+
+
+
+https://fonts.svc.ui.com:443

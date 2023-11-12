@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: 22e676dbbb5de07c404158a13e5ed052-sb-apps.accounts.nintendo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.4.734 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 269
+Content-Type: application/problem+json
+Date: Wed, 08 Nov 2023 19:24:40 GMT
+Server: Google Frontend
+X-Cloud-Trace-Context: d64f230cef7cee0dbd3e995fba089e93
+
+{"type":"https://apps.accounts.nintendo.com/errors/v1/404/resource_is_not_found","status":404,"errorCode":"resource_is_not_found","title":"Specified resource is not found","detail":"","instance":"https://22e676dbbb5de07c404158a13e5ed052-sb-apps.accounts.nintendo.com/"}
+
+
+https://22e676dbbb5de07c404158a13e5ed052-sb-apps.accounts.nintendo.com:443

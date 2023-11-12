@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: sl.id.me
+User-Agent: Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.9.1) Gecko/20090702 Firefox/3.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 21
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 02:24:02 GMT
+
+default backend - 404
+
+
+http://sl.id.me:80

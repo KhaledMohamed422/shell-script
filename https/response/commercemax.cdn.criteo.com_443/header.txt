@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: commercemax.cdn.criteo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; IV2201) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:21:43 GMT
+Etag: "1da0e79313149e1"
+Expires: Tue, 07 Nov 2023 20:21:43 GMT
+Last-Modified: Fri, 03 Nov 2023 17:14:24 GMT
+Pragma: no-cache
+Server-Timing: edge; dur=205
+Server-Timing: origin; dur=334
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: ak_p; desc="1699388502880_1752388124_78693677_53828_796_0_7_-";dur=1
+Strict-Transport-Security: max-age=15768000 ; includeSubDomains ; preload
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 - 0 pmb=mRUM,1
+

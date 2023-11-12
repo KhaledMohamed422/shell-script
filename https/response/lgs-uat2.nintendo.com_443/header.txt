@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: lgs-uat2.nintendo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 118
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 08 Nov 2023 19:33:41 GMT
+Set-Cookie: TSb6386aec027=0809478c46ab20003bd8ddeed0011f6a46178aa3ca09a6a8e516544f773d1d3fc8feca96c5ea3be508db5b9d951130006a9e98fe11041f2bbbe95205b85e76ed80871f6090424d7c6ef2baf8671d5a0d28d639fe1f4340186b407c391f2c18c3; Path=/
+Via: 1.1 cbe141923b7469a299306144733821c2.cloudfront.net (CloudFront), 1.1 fra1-bit10045
+X-Amz-Cf-Id: 0FQ9uv4UgT9kTAqYQr0fquENQicMZPguHRM8m6cSeSCoC0-9ig45BA==
+X-Amz-Cf-Pop: FRA56-C2
+X-Amzn-Errortype: UnknownOperationException
+X-Amzn-Requestid: de6528da-c6b6-40b9-806a-3f3db0d29a14
+X-Cache: Error from cloudfront
+
+{
+  "errors" : [ {
+    "errorType" : "UnknownOperationException",
+    "message" : "Unknown Operation Request."
+  } ]
+}
+
+
+https://lgs-uat2.nintendo.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: services.flipkart.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 112
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: no-cache, no-store, must-revalidate, post-check=0, pre-check=0
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 22:05:12 GMT
+Etag: "6433c27f-70"
+Referrer-Policy: no-referrer-when-downgrade
+Server: 
+Strict-Transport-Security: max-age=7200
+Via: 1.1 google
+X-Content-Security-Policy: default-src 'self'; script-src 'self'
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

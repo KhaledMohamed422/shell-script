@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: account-messaging.betfair.se:8443
+User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.7.3) Gecko/20040924 Epiphany/1.4.4 (Ubuntu)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba1919cb6a7c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:20 GMT
+Expires: Tue, 07 Nov 2023 18:44:35 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gKXJ77mmAjmAYv03zUq%2F%2FsSaeuod25pqJnlwrq5W%2BmoJ6a0YI4fzyEvfobBq7LcEA5b2ivY0zAjryUsBbhUcT75eRb2xETq6flEs3CODcnRWXDZ%2FiSL0JF%2BwXHnqre2OK7V3l1K6lGcNY%2FWhiMzznv8jEQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=5UIW7msOG8pcGn2XZpUpJ9siJYhEpPgSp2p2tX.88.c-1699382660-0-Aet+t3F02+ioDsQSJVjP7NsDKcFvy1QtCfLeS7q78Wzv1g3p9s5+JLTWiBVDEY5UqjsK/pTevL8KAmDhqU1YmmI=; path=/; expires=Tue, 07-Nov-23 19:14:20 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: world.hey.com
+User-Agent: Wget/1.12 (freebsd8.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: MISS
+Cf-Ray: 822c240bbb0cfadc-DUS
+Content-Security-Policy: 
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:35:42 GMT
+Etag: W/"fe839fb352db9467c4be6b5635f7b32e"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Ratelimit: {"name":"General","period":60,"limit":1000,"remaining":999,"until":"2023-11-08T07:36:00Z"}
+X-Request-Id: ed51d825-7c64-4611-b8c6-c88aecfa9b6e
+X-Runtime: 0.004487
+X-Xss-Protection: 1; mode=block
+
+3a3

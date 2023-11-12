@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: safety-enforcement.tiktok.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; moto g(6) plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy: report-to csp-endpoint; upgrade-insecure-requests ; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: data: bytedance: *.bytedapm.com *.byteintl.net *.byteoversea.com *.byteoversea.net *.bytevcloudapi.com *.facebook.net *.google-analytics.com *.google.ad *.google.ae *.google.al *.google.am *.google.as *.google.at *.google.az *.google.ba *.google.be *.google.bf *.google.bg *.google.bi *.google.bj *.google.bs *.google.bt *.google.by *.google.ca *.google.cat *.google.cd *.google.cf *.google.cg *.google.ch *.google.ci *.google.cl *.google.cm *.google.co.ao *.google.co.bw *.google.co.ck *.google.co.cr *.google.co.id *.google.co.il *.google.co.in *.google.co.jp *.google.co.ke *.google.co.kr *.google.co.ls *.google.co.ma *.google.co.mz *.google.co.nz *.google.co.th *.google.co.tz *.google.co.ug *.google.co.uk *.google.co.uz *.google.co.ve *.google.co.vi *.google.co.za *.google.co.zm *.google.co.zw *.google.com *.google.com.af *.google.com.ag *.google.com.ar *.google.com.au *.google.com.bd *.google.com.bh *.google.com.bn *.google.com.bo *.google.com.br *.google.com.bz *.google.com.co *.google.com.cu *.google.com.cy *.google.com.do *.google.com.ec *.google.com.eg *.google.com.et *.google.com.fj *.google.com.gh *.google.com.gi *.google.com.gt *.google.com.jm *.google.com.kh *.google.com.kw *.google.com.lb *.google.com.ly *.google.com.mm *.google.com.mt *.google.com.mx *.google.com.my *.google.com.na *.google.com.ng *.google.com.ni *.google.com.np *.google.com.om *.google.com.pa *.google.com.pe *.google.com.pg *.google.com.ph *.google.com.pk *.google.com.pr *.google.com.py *.google.com.qa *.google.com.sa *.google.com.sb *.google.com.sg *.google.com.sl *.google.com.sv *.google.com.tj *.google.com.tr *.google.com.ua *.google.com.uy *.google.com.vc *.google.com.vn *.google.cv *.google.cz *.google.de *.google.dj *.google.dk *.google.dm *.google.dz *.google.ee *.google.es *.google.fi *.google.fm *.google.fr *.google.ga *.google.ge *.google.gg *.google.gl *.google.gm *.google.gr *.google.gy *.google.hn *.google.hr *.google.ht *.google.hu *.google.ie *.google.im *.google.iq *.google.is *.google.it *.google.je *.google.jo *.google.kg *.google.ki *.google.kz *.google.la *.google.li *.google.lk *.google.lt *.google.lu *.google.lv *.google.md *.google.me *.google.mg *.google.mk *.google.ml *.google.mn *.google.mu *.google.mv *.google.mw *.google.ne *.google.nl *.google.no *.google.nr *.google.nu *.google.pl *.google.pn *.google.ps *.google.pt *.google.ro *.google.rs *.google.ru *.google.rw *.google.sc *.google.se *.google.sh *.google.si *.google.sk *.google.sm *.google.sn *.google.so *.google.sr *.google.st *.google.td *.google.tg *.google.tl *.google.tm *.google.tn *.google.to *.google.tt *.google.vu *.google.ws *.googleapis.com *.gstatic.com *.ibytedtos.com *.kaspersky-labs.com *.launchdarkly.com *.pagespeed-mod.com *.tiktok.com *.tiktokcdn.com *.tiktokv.com *.trendmicro.com *.ttwstatic.com *.unpkg.com *.vodupload.com *.yhgfb-static.com unpkg.com; report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_pns#69fe6131-2f93-4e05-913e-7e32ba285468
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:21 GMT
+Expires: Wed, 08 Nov 2023 18:46:21 GMT
+Pragma: no-cache
+Reporting-Endpoints: csp-endpoint="https://mon-va.byteoversea.com/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Server: TLB
+Server-Timing: inner; dur=12
+Server-Timing: cdn-cache; desc=MISS, edge; dur=40, origin; dur=396
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 1e1d5913
+X-Cache: TCP_MISS from a92-123-181-14.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Origin-Response-Time: 436,92.123.181.14
+X-Pumbaa-Web-Avail: 1
+X-Tt-Logid: 202311081846208F449DCAFACF854E2265
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a42db867a9619094e84ab9ffe91171afd54d6355d5a67b3a83df6aae1e0a33850e7f12cd5905099a5dc2e55d0a17c35b4563fc39d2bc1ff89c26b3554bf4c0235dfd34a842da591f54152f2f121dfc607
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X-Xss-Protection: 1; mode=block
+

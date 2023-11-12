@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: login-feature.rotests.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A346 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 42
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c12254fb87a3c-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 07:23:29 GMT
+Location: https://rotests.com/
+Ot-Baggage-Auth0-Request-Id: 822c12254fb87a3c
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 7d3f00bc0bdebed4
+Ot-Tracer-Traceid: 3c3ad7a91c87e9c9
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-00000000000000003c3ad7a91c87e9c9-7d3f00bc0bdebed4-01
+Tracestate: auth0-request-id=822c12254fb87a3c,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: 88db0855101c5c8eadbc
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://rotests.com/
+
+
+https://login-feature.rotests.com:443

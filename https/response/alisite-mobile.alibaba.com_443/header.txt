@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: alisite-mobile.alibaba.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:41:58 GMT
+Eagleid: 2101eeb716994365188881750ea08e
+Location: https://m.alibaba.com/help/maintenance.html
+Server: Tengine
+Server-Timing: rt;dur=0.001,eagleid;desc=2101eeb716994365188881750ea08e
+Set-Cookie: ali_apache_id=33.1.238.183.1699436518889.419227.3; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+

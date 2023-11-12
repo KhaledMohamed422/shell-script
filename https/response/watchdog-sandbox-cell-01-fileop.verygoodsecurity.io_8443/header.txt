@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: watchdog-sandbox-cell-01-fileop.verygoodsecurity.io:8443
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:57:30 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

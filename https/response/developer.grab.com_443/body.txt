@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      var otHeaderComment = document.createComment(" OneTrust Cookies Consent Notice start for grab.com ");
+      var otFooterComment = document.createComment(" OneTrust Cookies Consent Notice end for grab.com ");
+
+      var otAutoBlock = document.createElement("script");
+      otAutoBlock.type = "text/javascript";
+      otAutoBlock.src = "https://cdn-apac.onetrust.com/consent/a3be3527-7455-48e0-ace6-557ddbd506d5/OtAutoBlock.js";
+
+      var otSDKStub = document.createElement("script");
+      otSDKStub.src = "https://cdn-apac.onetrust.com/scripttemplates/otSDKStub.js";
+      otSDKStub.type = "text/javascript";
+      otSDKStub.setAttribute("data-document-language", "true");
+      otSDKStub.charset = "UTF-8";
+      otSDKStub.setAttribute("data-domain-script", "a3be3527-7455-48e0-ace6-557ddbd506d5");
+
+      var otWrapper = document.createElement("script");
+      otWrapper.type = "text/javascript";
+      otWrapper.text = ' function OptanonWrapper() { } ';
+
+      if (!window.location.host.includes('grab.com')) {
+        otAutoBlock.src = "https://cdn-apac.onetrust.com/consent/a3be3527-7455-48e0-ace6-557ddbd506d5-test/OtAutoBlock.js";
+
+        otSDKStub.setAttribute("data-domain-script", "a3be3527-7455-48e0-ace6-557ddbd506d5-test");
+      }
+
+      document.head.append(otHeaderComment);
+      document.head.append(otAutoBlock);
+      document.head.append(otSDKStub);
+      document.head.append(otWrapper);
+      document.head.append(otFooterComment);
+    </script>
+    <title>Grab Developer</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Grab Developer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#00b140" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="/pace.min.css" />
+    <style>
+    #root {
+      min-height: 100vh;
+    }
+    </style>
+    <script>
+      window.dataLayer = [];
+    </script>
+    
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-57NTWTJ');
+      </script>
+      <!-- End Google Tag Manager -->
+    
+  <link href="/app.d4f61eec466a0c821227.css" rel="stylesheet"></head>
+  <body>
+    
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-57NTWTJ"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    
+    <div id="root"></div>
+    <script src="/pace.min.js"></script>
+    
+    
+      <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations()
+            .then(function(registrations) {
+              registrations.forEach(function(registration) {
+                registration.unregister();
+              })
+            });
+        }
+      </script>
+    
+    <noscript>Please enable JavaScript first.</noscript>
+  <script type="text/javascript" src="/static/js/app.d4f61eec.js"></script></body>
+</html>
+
+0
+
+
+
+
+https://developer.grab.com:443

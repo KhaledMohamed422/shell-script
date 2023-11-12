@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: branded-ru2-cloud.acronis.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:13:10 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Int-Request-Id: d4048109dfae469f993715e45b1f3673
+X-Request-Id: 08576e8d2317cda0c103e1c8653dce22
+
+b8
+<?xml version='1.0' encoding='utf-8'?>
+<methodResponse><params><param><value><string>Acronis Registration Server (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://branded-ru2-cloud.acronis.com:8443

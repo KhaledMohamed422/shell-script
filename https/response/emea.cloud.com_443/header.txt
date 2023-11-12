@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: emea.cloud.com
+User-Agent: Opera/9.64 (X11; Linux i686; U; Linux Mint; nb) Presto/2.1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 410 Gone
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:18:23 GMT
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: ce9c2e1d-d5a5-4e19-84c0-5d5124322a6b
+X-Frame-Options: DENY
+
+51
+{
+  "Healthy": true,
+  "Message": "Could not find Host for 'emea.cloud.com'"
+}
+0
+
+
+
+
+https://emea.cloud.com:443

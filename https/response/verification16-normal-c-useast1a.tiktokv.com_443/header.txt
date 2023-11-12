@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: verification16-normal-c-useast1a.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; ZE520KL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:46:56 GMT
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=440, origin; dur=10
+Server-Timing: inner; dur=8
+X-Akamai-Request-Id: 20ea59ca.193d5e7b
+X-Cache: TCP_MISS from a2-19-121-208.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Cache-Remote: TCP_MISS from a23-218-219-46.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Origin-Response-Time: 10,23.218.219.46
+X-Parent-Response-Time: 450,2.19.121.208
+X-Tt-Logid: 20231108184655ED0F14FB088207444458
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ab46b554b14385d6c33fb365c7e40c7204f4445380282af17cff674165fd3dc3f4513fb67d0f0d67528e90db41ea1016dc0d4cf4a88e6a5c4257d22ca1ce72b8ccdcb5b95520ef6bcc5317a73fe6b352fabca3a64678303f176104bd57a604e51
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X_tt_logid: 20231108184655ED0F14FB088207444458
+
+404 page not found
+
+
+https://verification16-normal-c-useast1a.tiktokv.com:443

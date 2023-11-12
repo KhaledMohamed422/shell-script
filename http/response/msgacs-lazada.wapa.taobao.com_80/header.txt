@@ -1,0 +1,50 @@
+GET / HTTP/1.1
+Host: msgacs-lazada.wapa.taobao.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 09:07:05 GMT
+Server: Tengine/Aserver
+Set-Cookie: x5secdata=xdb450c69a119fd44114f8bca2b82c14e3706c8bd61c1354ee1699434425a79890369a829085789abaaf3aaa__bx__msgacs-lazada.wapa.taobao.com; Max-Age=20; Expires=Wed, 08-Nov-2023 09:07:25 GMT; Domain=taobao.com; Path=/
+Vary: Accept-Encoding
+Via: global-aserver033002224024.pre.sg52[web,200]
+
+440
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=FPi8orgsFONwbIvWHBNU7g|ZUtPuQ|MWrYXQ_0&uuid=14f8bca2b82c14e3706c8bd61c1354ee&action=deny&origin=http%3A%2F%2Fmsgacs-lazada.wapa.taobao.com%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=FPi8orgsFONwbIvWHBNU7g|ZUtPuQ|MWrYXQ_0&uuid=14f8bca2b82c14e3706c8bd61c1354ee&action=deny&origin=http%3A%2F%2Fmsgacs-lazada.wapa.taobao.com%2F"
+};
+</script>
+<!--rgv587_flag:sm-->
+0
+
+
+
+
+http://msgacs-lazada.wapa.taobao.com:80

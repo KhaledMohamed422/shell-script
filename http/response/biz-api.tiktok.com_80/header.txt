@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: biz-api.tiktok.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; moto g(7) plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:56 GMT
+Expires: Wed, 08 Nov 2023 18:38:56 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=323
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 252318
+X-Cache: TCP_MISS from a92-123-132-7.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 323,92.123.132.7
+X-Tt-Logid: 20231108183855BFA0132A00D1C8115EBB
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a5ead8e8c50877886581701ff5103f426b470da809e4159c2d73539866629970fb3a88922dd0bf81de8af179aedaf0400
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

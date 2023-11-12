@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: valid.rpki.cloudflare.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cf-Ray: 8227eca81858caf9-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:18:51 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1hNNxiKxdRtxeWbR3o%2Fx5aXuxPwiXByWjoVJAliaxAs1W42xAPaosfQ%2BiNqk5X4CFmUvMvf5HV8UUifZCjqoIWcW4ngvOk8ZaUodrtMrD9jG5CoUGln2pp7BwEKv79W7bGqsynJUXgHPnbI%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+46
+{"status":"valid", "asn":51167, "name": "Contabo", "blackholed":false}
+0
+
+
+
+
+https://valid.rpki.cloudflare.com:443

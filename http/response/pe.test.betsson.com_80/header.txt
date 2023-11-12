@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: pe.test.betsson.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.41 YaBrowser/21.2.0.2458 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:59:13 GMT
+Location: https://pe.test.betsson.com/
+Server: CloudFront
+Via: 1.1 d147b4a7fe31d4e8683f7d8b15b71906.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GfJg7KXu25xuqReBuLcpf8D0VgmZFbhwrNp21rSERQuo5ME1m0J0Xg==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

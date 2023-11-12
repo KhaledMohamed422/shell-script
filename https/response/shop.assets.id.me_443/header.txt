@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: shop.assets.id.me
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.26 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 711
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:30:27 GMT
+Expires: Wed, 08 Nov 2023 02:30:27 GMT
+Server: UploadServer
+X-Goog-Metageneration: 3
+X-Guploader-Uploadid: ABPtcPp-SbVw_JuJ3DP2KFHCn82F9rFMtSrYkRz7ASlbY1n4jVglzbYhj0ZnUAM3z0JfXed8aTR45V5m-LbDxaOM0fdQ
+
+<?xml version='1.0' encoding='UTF-8'?><ListBucketResult xmlns='http://doc.s3.amazonaws.com/2006-03-01'><Name>marketplace-prod-7728-shop-cdn-3ig3</Name><Prefix></Prefix><Marker></Marker><IsTruncated>false</IsTruncated><Contents><Key>interview/</Key><Generation>1694039710742480</Generation><MetaGeneration>1</MetaGeneration><LastModified>2023-09-06T22:35:10.747Z</LastModified><ETag>"d41d8cd98f00b204e9800998ecf8427e"</ETag><Size>0</Size></Contents><Contents><Key>interview/data.json</Key><Generation>1694039718739561</Generation><MetaGeneration>1</MetaGeneration><LastModified>2023-09-06T22:35:18.742Z</LastModified><ETag>"605eb8c115db6354dc92ad50f2fa10cd"</ETag><Size>26271</Size></Contents></ListBucketResult>
+
+
+https://shop.assets.id.me:443

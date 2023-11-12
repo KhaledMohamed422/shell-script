@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: scim.cameo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Length: 41
+Cache-Control: no-store, private
+Content-Security-Policy: default-src 'none'; connect-src 'self' https:; script-src 'self'; img-src 'self'; style-src 'self'; frame-ancestors 'none'; form-action 'none'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 03:36:56 GMT
+Expires: 0
+Location: /app/
+Referrer-Policy: no-referrer
+Request-Id: cl5g4m049v3ki2q3mjo0
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+<a href="/app/">Temporary Redirect</a>.
+
+
+
+
+https://scim.cameo.com:443

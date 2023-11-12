@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: match-challenge.sbgservices.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36 Edg/87.0.664.52
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 284
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:03:44 GMT
+Expires: Tue, 07 Nov 2023 18:03:44 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699380224708_390277147_39291681_14_2022_4_0_-";dur=1
+

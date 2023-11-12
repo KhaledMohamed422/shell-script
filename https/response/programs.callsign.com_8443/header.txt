@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: programs.callsign.com:8443
+User-Agent: NetSurf/1.2 (NetBSD; amd64)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a6439fa0fcb22-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:30:00 GMT
+Expires: Wed, 08 Nov 2023 02:30:15 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x%2BL3tgSPh18w%2BwCX3VK4KqmTkq6CiaTKpp4GVaepBvMXNWKdq9%2B6XLiN4BNTGMdur1Qd8mzRwwgRZNxTcumDDVMw%2FLrYEei0zO%2BSrbvfeYJbUapiQ1jvZTspJ0EtwsxJSb7HuPe62wjrudJ4"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=rFnc4mO7fh3D40YxZccFyT5kZjXk7hq2bwMldtllr0M-1699410600-0-AdXO4HUPGOCx0dgSaLGMJs/VeATVFETMpQ7yHq525GpGBJt/x8ConevGdmXrWpvLE7I5cQFSqXn6SM2PxKHquxk=; path=/; expires=Wed, 08-Nov-23 03:00:00 GMT; domain=.programs.callsign.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=300c3d75a323299ccde444dce6b25f85084b2295-1699410600; path=/; domain=.programs.callsign.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+82f

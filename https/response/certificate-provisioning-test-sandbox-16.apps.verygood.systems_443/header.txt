@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-16.apps.verygood.systems
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:50 GMT
+Server: nginx
+Vgs-Request-Id: 26c3a56d3af07f504f4b942257da6859
+Via: 1.1 reverse-http-proxy-69744fc8dc-6d25b
+X-Envoy-Upstream-Service-Time: 3
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 26c3a56d3af07f504f4b942257da6859.
+
+
+https://certificate-provisioning-test-sandbox-16.apps.verygood.systems:443

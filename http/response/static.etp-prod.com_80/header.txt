@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: static.etp-prod.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:12:20 GMT
+Server: AmazonS3
+Via: 1.1 9adf50a068a92adaab58cf6a21118640.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kxiwg-YiRaUDlr3uFADrk_Ussp0I4LquodCLBPBqTXQECfl3-aFkVw==
+X-Amz-Cf-Pop: AMS58-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XV5RCVCWNJV1K0EF</RequestId><HostId>od7IBNbqnLq/drnkwfa27Zqmcg7P3PiqUKYU651p93R/Mbf7O8O+S//xZN1YE258r0LfxW0jRkk=</HostId></Error>
+0
+
+
+
+
+http://static.etp-prod.com:80

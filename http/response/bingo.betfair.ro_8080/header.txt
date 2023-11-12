@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: bingo.betfair.ro:8080
+User-Agent: facebookexternalhit/1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b72bac328749-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:42:20 GMT
+Expires: Tue, 07 Nov 2023 18:42:35 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KyQ8XvZ%2FapQy5vwVZnZv%2Fi%2Br0FGsAgNSG0AdpT6nlRz0t8g8gd88vMUtZIwzC5Un48sk5g6oIRN%2BIajocvnqgxC9f%2FXLbfxrr2Uj3B09YpHOpQVwLztosgxNTFTiWDuruEPPNe7q3g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=gRsrCs2rbXQuAf0KbEzD2Eaqc08T6U25ipQFpgzHDeA-1699382540-0-AXWb/TmZZk8NdCHLAY3unbJRB6JNEz6+uSHl2gvIc7VD2bS0gzdMx0nb/iqaghBuuqFhNqCJpc+u7l7xdF2KBa0=; path=/; expires=Tue, 07-Nov-23 19:12:20 GMT; domain=.betfair.ro; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

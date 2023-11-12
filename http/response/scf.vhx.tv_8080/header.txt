@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: scf.vhx.tv:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3191.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 4824
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822b0a5b9d2e7a42-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 04:23:24 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=6fDpPSOF9Zf.dePiJ2Zr_nukA_eW6x1FQXeQo4FXaiI-1699417404-0-AWlLZRI9lsBdoJu6bNBr+a04r7xdTgNcHpSWchlo5xDflxvNzGVS7xX/f38j8ZnCHF5OZTFqL0vfWVj+5GthGFI=; path=/; expires=Wed, 08-Nov-23 04:53:24 GMT; domain=.vhx.tv; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+

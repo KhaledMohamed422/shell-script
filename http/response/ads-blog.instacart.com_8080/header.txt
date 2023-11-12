@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: ads-blog.instacart.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 10; SM-A315F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822732aa9928cb1e-DUS
+Date: Tue, 07 Nov 2023 17:11:52 GMT
+Expires: Tue, 07 Nov 2023 18:11:52 GMT
+Location: https://ads-blog.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7WP2GQ4hmPTfLUd2fVJkXcFNuC%2BCUEBFgLf0quoIZyDrY1MbbqhzZj9AP1KXI9VQAKD0C13IKNtIrbC2ccEs6zZoMNCui0%2B%2BzAw6H%2FqLWsmGjpsFlPosEl3r5cqWT8tNjVA81lrbqCmT32touQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=I6ZLXrOkwniCGzFyZntEGwGT5.85EBka6M6IjrxL6Fo-1699377112-0-AdYQNcmnYLDpl6d2APBQqz0rFCyAsUvKOfQXL+10OMbf+qNxH/9y9jKs3jdjItewKScosawP2k0T0AmkCUCj3WI=; path=/; expires=Tue, 07-Nov-23 17:41:52 GMT; domain=.ads-blog.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://ads-blog.instacart.com:8080

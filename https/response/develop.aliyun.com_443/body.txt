@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>开发者社区-开发者资源-API</title>
+<meta name="spm-id" content="5176">
+<meta name="description" content="您可以通过调用API来实现对产品、应用、资源和数据进行统一入口的管理，实现更灵活的部署、更快速的操作、更精确的使用、更及时的监控。">
+<meta name="keyword" content="开发者资源、API、SDK、开发者工具">
+<script src="https://www.aliyun.com/ace-lego/core/rgn/aliyun-assets?nonce=NONCE_PLACEHOLDER"></script>
+<link rel="stylesheet" href="//g.alicdn.com/tbc/global/0.0.8/index-min.css" />
+<link rel="stylesheet" href="//g.alicdn.com/ali-mod/??wb-zc-aliyun-develop-api/0.0.6/index.css,www-common-tohome/0.0.2/index.css">
+<link rel="stylesheet" href="https://g.alicdn.com/tms/layouts/0.1.8/layout-hangye-pc.css" />
+<script src='//g.alicdn.com/tbc/global/0.0.8/index-min.js'></script>
+<script src='//alinw.alicdn.com/platform/c/jquery/1.11.3/dist/jquery.min.js'></script>
+<script src='//g.alicdn.com/aliyun/ali-init/0.0.7/index-min.js'></script>
+</head>
+<body data-spm='7926440'><script type="text/javascript">(function(d) {var cookies=d.cookie.split(';').map(function(item){return item.trim().split('=')});function getcookie(name){var item=cookies.find(function(item){return item[0]==name});return item?encodeURIComponent(item[1]):'';}
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";t.setAttribute("exparams","category=&userid=&aplus&yunid="+getcookie("login_aliyunid")+"&yunpk="+getcookie("login_aliyunid_pk")+"&channel="+getcookie("channel")+"&cps="+getcookie("cps"));t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";d.getElementsByTagName("head")[0].appendChild(t);})(document);</script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??www-aliyun-common-allinone/0.0.1/index.css,aliyun-individuation-hook/0.0.7/index.css"/>
+<div data-spm="1363609" data-moduleid="176654" data-name="www-aliyun-common-allinone" data-guid="1363609" id="guid-1363609" data-scene-id="2205983" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="www-aliyun-common-allinone J_Module" tms="www-aliyun-common-allinone/0.0.1" tms-datakey="tce/2205983"><div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"javascripts_count":[{"count_phone":1,"count":1}],"styles_count":[{"count_phone":0,"count":0}],"htmls_count":[{"count_phone":2,"count":2}]},"htmls":[{"text":"<script src=\"https://www.aliyun.com/assets/ace-base-assets\"></script>"},{"text":"<script src=\"//www.aliyun.com/assets/ace-channel-topbar\"></script>"}],"styles":[],"javascripts":[{"text":"window.solution={};"}],"countinfo":{"javascripts":{"length_pc":0,"length":0},"htmls":{"length_pc":0,"length":0},"styles":{}},"$tmsId":"tce/2205983"}
+  </textarea>
+<script src="https://www.aliyun.com/assets/ace-base-assets"></script>
+<script src="//www.aliyun.com/assets/ace-channel-topbar"></script>
+<script>window.solution={};</script>
+</div>
+</div>
+<div data-spm="731957" data-moduleid="0" data-name="aliyun-individuation-hook" data-guid="731957" id="guid-731957" data-scene-id="861126" data-scene-version="1" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-individuation-hook J_Module" tms="aliyun-individuation-hook/0.0.7" tms-datakey="tce/861126"><div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"tms_count":[{"count_phone":5,"count":5}]},"tms":[{"link":"/markets/aliyun/lego/icon"},{"link":"/markets/aliyun/topbar/2016"},{"link":"/markets/aliyun/lego/individuation/topbar/search"},{"link":"/markets/aliyun/topbar/individual/products"},{"link":"/markets/aliyun/topbar/individual/activity"}],"lego":[],"countinfo":{"lego":{},"tms":{"length_pc":0,"length":0}},"$tmsId":"tce/861126"}
+  </textarea>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??aliyun-common-icon/0.0.7/index.css"/>
+<div data-spm="727489" data-moduleid="0" data-name="aliyun-common-icon" data-guid="727489" id="guid-727489" data-scene-id="856318" data-scene-version="2" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-common-icon J_Module" tms="aliyun-common-icon/0.0.7" tms-datakey="tce/856318"><div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<style>[class^="dbl-icon-"],[class*=" dbl-icon-"]{speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}[class^="dbl-icon-base-"],[class*="dbl-icon-base-"]{font-family:"dbl-icon-base" !important;}[class^="dbl-icon-product-"],[class*="dbl-icon-product-"]{font-family:"dbl-icon-product" !important;}</style>
+<link type="text/css" rel="stylesheet" href="//at.alicdn.com/t/font_276948_28ii451l5wi.css" />
+<link type="text/css" rel="stylesheet" href="//at.alicdn.com/t/font_274588_awiw0453uq8.css" />
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??aliyun-common-icon/0.0.7/index.js"></script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??www-aliyun-common-allinone/0.0.1/index.css,aliyun-common-topbar-2019/0.0.67/index.css,www-intl-redirect/0.0.2/index.css"/>
+<div data-spm="1246094" data-moduleid="176654" data-name="www-aliyun-common-allinone" data-guid="1246094" id="guid-1246094" data-scene-id="1869400" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="www-aliyun-common-allinone J_Module" tms="www-aliyun-common-allinone/0.0.1" tms-datakey="tce/1869400"><div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"javascripts_count":[{"count_phone":0,"count":0}],"styles_count":[{"count_phone":0,"count":0}],"htmls_count":[{"count_phone":3,"count":3}]},"htmls":[{"text":"<script type=\"text/javascript\" src=\"https://g.alicdn.com/dawn/polyfill/1.0.6/js/index.js\" ></script>"},{"text":"<link rel=\"stylesheet\" type=\"text/css\" href=\"//g.alicdn.com/??aliyun/util/1.0.95/css/index.css\"/>"},{"text":"<script type=\"text/javascript\" src=\"//g.alicdn.com/??aliyun/util/1.0.185/index.js\" ></script>"}],"styles":[],"javascripts":[],"countinfo":{"javascripts":{},"htmls":{"length_pc":0,"length":0},"styles":{}},"$tmsId":"tce/1869400"}
+  </textarea>
+<script type="text/javascript" src="https://g.alicdn.com/dawn/polyfill/1.0.6/js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/??aliyun/util/1.0.95/css/index.css"/>
+<script type="text/javascript" src="//g.alicdn.com/??aliyun/util/1.0.185/index.js"></script>
+</div>
+</div>
+<div data-spm="1280361" data-moduleid="0" data-name="aliyun-common-topbar-2019" data-guid="1280361" id="guid-1280361" data-scene-id="2047602" data-scene-version="1" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-common-topbar-2019 J_Module" tms="aliyun-common-topbar-2019/0.0.67" tms-datakey="tce/2047602">
+<link rel="stylesheet" href="//g.alicdn.com/dawn/topbar-dawn/2.0.5/css/index.css">
+<script src="//g.alicdn.com/dawn/topbar-dawn/2.0.5/js/index.js"></script>
+<link rel="stylesheet" href="//at.alicdn.com/t/font_276948_7szs5lm5sqs.css">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"allNavBottom_count":[{"count_phone":3,"count":3}],"allNav_count":[{"count_phone":9,"count":9}],"menu_count":[{"count_phone":10,"count":10}],"version":"2.0.5"},"menu":[{"link":"https://www.aliyun.com/activity?#/promotionArea","tip":"hot","text":"最新活动"},{"link":"https://www.aliyun.com/product/list","tip":"none","text":"产品"},{"link":"https://www.aliyun.com/solution/all","tip":"none","text":"解决方案","source":"12107786"},{"link":"https://www.aliyun.com/price/","tip":"none","text":"定价"},{"link":"https://et.aliyun.com/","tip":"none","text":"ET大脑","source":"12451963"},{"link":"https://ai.aliyun.com/","tip":"none","text":"数据智能","source":"12238354"},{"link":"https://security.aliyun.com/","tip":"none","text":"安全","source":"12291684"},{"link":"https://market.aliyun.com/","tip":"none","text":"云市场","source":"12387179"},{"link":"https://www.aliyun.com/service","tip":"none","text":"支持与服务","source":"12590287"},{"link":"https://partner.aliyun.com/","tip":"none","text":"合作伙伴","source":"12516804"}],"allNav":[{"text":"阿里云计算","source":"12408042","key":"aboutme"},{"link":"https://www.aliyun.com/product/list","text":"产品","key":"product"},{"link":"https://www.aliyun.com/solution/all","text":"解决方案","source":"12107786","key":"solution"},{"link":"https://market.aliyun.com/","text":"云市场","source":"12387179","key":"yunmarket"},{"link":"https://developer.aliyun.com/index","text":"开发者","source":"12417620","key":"developer"},{"link":"https://www.aliyun.com/support","text":"支持与服务","source":"12167223","key":"support"},{"link":"https://yq.aliyun.com/","text":"云栖社区","source":"12752935","key":"community"},{"link":"https://edu.aliyun.com","text":"阿里云大学","source":"12349588","key":"edu"},{"link":"https://partner.aliyun.com/","text":"合作与生态","source":"12213740","key":"corporate"}],"allNavBottom":[{"link":"https://www.aliyun.com/solution/govcloud","text":"政府通道"},{"link":"https://chuangke.aliyun.com/","text":"创业孵化"},{"link":"https://www.aliyun.com/contact","text":"联系我们"}],"countinfo":{"allNav":{"length_pc":0,"length":0},"allNavBottom":{"length_pc":0,"length":0},"menu":{"length_pc":0,"length":0}},"$tmsId":"tce/2047602"}
+  </textarea>
+<div id="J_topbar_2016" class="common-topbar-body www-aliyun-common-menu no-change">
+<div class="common-topbar-top">
+<div class="all-nav">
+<img src="https://img.alicdn.com/tfs/TB17mppCFOWBuNjy0FiXXXFxVXa-36-28.png" width="18" alt="">
+</div>
+<div class="topbar-top-content">
+<a class="common-topbar-logo" href="//www.aliyun.com/">
+<img src="//img.alicdn.com/tfs/TB1lopON9zqK1RjSZFjXXblCFXa-160-40.png">
+<img class="inner-gif" src="//img.alicdn.com/tfs/TB1IaF0N3HqK1RjSZFkXXX.WFXa-160-40.gif">
+</a>
+<a class="common-topbar-register-btn" href="//account.aliyun.com/register/register.htm?oauth_callback=https%3A%2F%2Fwww.aliyun.com%2F">免费注册</a>
+<div class="common-topbar-user-info">
+<div class="common-topbar-user-image-wrapper"><img src=""></div>
+<span class="common-topbar-user-message-count"></span>
+</div>
+<div class="common-topbar-menu">
+<div class="common-topbar-menu-link">
+<div id="J-goto-cart" data-role="item" data-spm-click="gostr=/aliyun;locaid=good-cart">
+<i class="common-topbar-cart-icon"></i>
+购物车
+<span class="common-topbar-cart-num"></span>
+</div>
+</div>
+<div class="common-topbar-menu-link">
+<a href="//home.console.aliyun.com/">控制台</a>
+</div>
+<div class="common-topbar-menu-link">
+<a href="//help.aliyun.com/">文档</a>
+</div>
+<div class="common-topbar-menu-link">
+<a href="//beian.aliyun.com/">备案</a>
+</div>
+<div class="common-topbar-menu-link">
+<a href="//qiye.aliyun.com/">邮箱</a>
+</div>
+<div id="common-topbar-login-btn" class="common-topbar-menu-link">
+<a href="//account.aliyun.com/login/login.htm?qrCodeFirst=false&oauth_callback=https%3A%2F%2Fwww.aliyun.com%2F">登录
+</a>
+</div>
+</div>
+<div class="common-topbar-site-switch">
+中国站&nbsp;
+<i class="down-icon dbl-icon-base-arrow-down"></i>
+<i class="up-icon dbl-icon-base-arrow-up"></i>
+<ul class="topbar-site-switch-dropdown">
+<li choice="INTL" lang="zh">
+<a href="https://aliyun.com">
+<span class="nav-site">中国</span>
+<span class="nav-lang">简体中文</span>
+</a>
+</li>
+<li choice="INTL" lang="en">
+<a href="https://www.alibabacloud.com/en">
+<span class="nav-site">International</span>
+<span class="nav-lang">English</span>
+</a>
+</li>
+<li choice="INTL" lang="zh">
+<a href="https://www.alibabacloud.com/zh">
+<span class="nav-site"></span>
+<span class="nav-lang">简体中文</span>
+</a>
+</li>
+<li choice="INTL" lang="ko">
+<a href="https://www.alibabacloud.com/ko">
+<span class="nav-site"></span>
+<span class="nav-lang">한국어</span>
+</a>
+</li>
+<li choice="INTL" lang="zh-TW">
+<a href="https://www.alibabacloud.com/tc">
+<span class="nav-site"></span>
+<span class="nav-lang">繁體中文</span>
+</a>
+</li>
+<li choice="INTL" lang="de">
+<a href="https://www.alibabacloud.com/de">
+<span class="nav-site"></span>
+<span class="nav-lang">Deutsch</span>
+</a>
+</li>
+<li choice="INTL" lang="fr">
+<a href="https://www.alibabacloud.com/fr">
+<span class="nav-site"></span>
+<span class="nav-lang">Français</span>
+</a>
+</li>
+<li class="divider"></li>
+<li choice="INTL" lang="en">
+<a href="https://au.alibabacloud.com">
+<span class="nav-site">Australia</span>
+<span class="nav-lang">English</span>
+</a>
+</li>
+<li choice="INTL" lang="en">
+<a href="https://my.alibabacloud.com">
+<span class="nav-site">Malaysia</span>
+<span class="nav-lang">English</span>
+</a>
+</li>
+<li choice="INTL" lang="en">
+<a href="https://sg.alibabacloud.com">
+<span class="nav-site">Singapore</span>
+<span class="nav-lang">English</span>
+</a>
+</li>
+<li choice="INTL" lang="en">
+<a href="https://us.alibabacloud.com">
+<span class="nav-site">United States</span>
+<span class="nav-lang">English</span>
+</a>
+</li>
+<li choice="INTL" lang="zh">
+<a href="https://hk.alibabacloud.com">
+<span class="nav-site">中國香港</span>
+<span class="nav-lang">繁體中文</span>
+</a>
+</li>
+<li choice="INTL" lang="zh-TW">
+<a href="https://tw.alibabacloud.com">
+<span class="nav-site">中國台灣</span>
+<span class="nav-lang">繁體中文</span>
+</a>
+</li>
+<li choice="JP" lang="jp">
+<a href="https://jp.alibabacloud.com">
+<span class="nav-site">日本</span>
+<span class="nav-lang">日本語</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="common-topbar-search">
+</div>
+</div>
+</div>
+<div class="common-topbar-bottom">
+<div class="common-topbar-nav">
+<ul class="common-topbar-nav-list">
+<li data-index=0 data-text="最新活动" data-source="">
+<a href="https://www.aliyun.com/activity?#/promotionArea">
+最新活动
+</a>
+</li>
+<li data-index=1 data-text="产品" data-source="">
+<a href="https://www.aliyun.com/product/list">
+产品
+</a>
+</li>
+<li data-index=2 data-text="解决方案" data-source="12107786">
+<a href="https://www.aliyun.com/solution/all">
+解决方案
+</a>
+</li>
+<li data-index=3 data-text="定价" data-source="">
+<a href="https://www.aliyun.com/price/">
+定价
+</a>
+</li>
+<li data-index=4 data-text="ET大脑" data-source="12451963">
+<a href="https://et.aliyun.com/">
+ET大脑
+</a>
+</li>
+<li data-index=5 data-text="数据智能" data-source="12238354">
+<a href="https://ai.aliyun.com/">
+数据智能
+</a>
+</li>
+<li data-index=6 data-text="安全" data-source="12291684">
+<a href="https://security.aliyun.com/">
+安全
+</a>
+</li>
+<li data-index=7 data-text="云市场" data-source="12387179">
+<a href="https://market.aliyun.com/">
+云市场
+</a>
+</li>
+<li data-index=8 data-text="支持与服务" data-source="12590287">
+<a href="https://www.aliyun.com/service">
+支持与服务
+</a>
+</li>
+<li data-index=9 data-text="合作伙伴" data-source="12516804">
+<a href="https://partner.aliyun.com/">
+合作伙伴
+</a>
+</li>
+<div class="line"></div>
+</ul>
+<a class="common-topbar-register-btn" href="//account.aliyun.com/register/register.htm?oauth_callback=https%3A%2F%2Fwww.aliyun.com%2F">免费注册</a>
+<div class="common-topbar-user-info">
+<div class="common-topbar-user-image-wrapper"><img src=""></div>
+<span class="common-topbar-user-message-count"></span>
+</div>
+</div>
+<div class="common-topbar-dropdown">
+<div class="triangle1"></div>
+<div class="common-topbar-dropdown-inner">
+<div class="common-topbar-dropdown-category-container" data-text="最新活动">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container common-topbar-dropdown-all-product">
+<div class="block-product block-product-container">
+<div class="block-left">
+</div>
+<div class="block-overflow">
+<div class="block-center-search">
+<i class="dbl-icon-base dbl-icon-base-Search block-center-search-icon"></i>
+<input class="block-center-search-input" type="text" placeholder="搜索" />
+<div class="center-search-block">
+<div class="block-left">
+</div>
+</div>
+</div>
+<div class="block-overflow-innerhtml">
+</div>
+</div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="解决方案">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="定价">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="ET大脑">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="数据智能">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="安全">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="云市场">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="支持与服务">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+<div class="common-topbar-dropdown-category-container" data-text="合作伙伴">
+<div class="common-topbar-dropdown-category-list">
+<div class="dropdown-content"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="common-topbar-all-nav-dropdown">
+<div class="common-topbar-level1-nav">
+<div class="level-inner">
+<ul>
+<li class="slide-animation inner-text" data-key=aboutme>
+阿里云计算<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</li>
+<li class="slide-animation inner-text" data-key=product>
+<a href="https://www.aliyun.com/product/list">产品
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=solution>
+<a href="https://www.aliyun.com/solution/all">解决方案
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=yunmarket>
+<a href="https://market.aliyun.com/">云市场
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=developer>
+<a href="https://developer.aliyun.com/index">开发者
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=support>
+<a href="https://www.aliyun.com/support">支持与服务
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=community>
+<a href="https://yq.aliyun.com/">云栖社区
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=edu>
+<a href="https://edu.aliyun.com">阿里云大学
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+<li class="slide-animation inner-text" data-key=corporate>
+<a href="https://partner.aliyun.com/">合作与生态
+<i class="dbl-icon-base-arrow-right icon-indicator"></i>
+</a>
+</li>
+</ul>
+<div class="space-line slide-animation"></div>
+<div>
+<div class="slide-animation inner-text">
+<a href="https://www.aliyun.com/solution/govcloud">政府通道
+<img src="
+                      https://img.alicdn.com/tfs/TB1yoKYXMmTBuNjy1XbXXaMrVXa-24-24.png" class="inner-text-img icon-indicator">
+</a>
+</div>
+<div class="slide-animation inner-text">
+<a href="https://chuangke.aliyun.com/">创业孵化
+<img src="
+                      https://img.alicdn.com/tfs/TB1yoKYXMmTBuNjy1XbXXaMrVXa-24-24.png" class="inner-text-img icon-indicator">
+</a>
+</div>
+<div class="slide-animation inner-text">
+<a href="https://www.aliyun.com/contact">联系我们
+<img src="
+                      https://img.alicdn.com/tfs/TB1yoKYXMmTBuNjy1XbXXaMrVXa-24-24.png" class="inner-text-img icon-indicator">
+</a>
+</div>
+</div>
+<div class="dock-bottom">售前咨询 95187转1</div>
+</div>
+</div>
+</div>
+<div class="common-topbar-user-info-dropdown">
+</div>
+</div>
+</div>
+</div>
+<div data-spm="806741" data-moduleid="0" data-name="www-intl-redirect" data-guid="806741" id="guid-806741" data-scene-id="952622" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="www-intl-redirect J_Module" tms="www-intl-redirect/0.0.2" tms-datakey="tce/952622">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"name":"just a test","tmsDef_count":[{"count_phone":24,"count":24}]},"tmsDef":[{"src":"https://free.aliyun.com","dist":"https://intl.aliyun.com/campaign/free-trial"},{"src":"https://promotion.aliyun.com/ntms/act/qwbk.html","dist":"https://intl.aliyun.com/campaign/ecs-ssd-cloud-server"},{"src":"https://www.aliyun.com/product/ecs","dist":"https://intl.aliyun.com/product/ecs"},{"src":"https://www.aliyun.com/product/ecs/detail","dist":"https://intl.aliyun.com/product/ecs"},{"src":"https://www.aliyun.com/product/cdn","dist":"https://intl.aliyun.com/product/cdn"},{"src":"https://www.aliyun.com/product/oss","dist":"https://intl.aliyun.com/product/oss"},{"src":"https://www.aliyun.com/product/ddos","dist":"https://intl.aliyun.com/product/ddos-pro"},{"src":"https://www.aliyun.com/product/waf","dist":"https://intl.aliyun.com/product/waf"},{"src":"https://www.aliyun.com/price","dist":"https://intl.aliyun.com/pricing"},{"src":"https://cn.aliyun.com/product/ecs","dist":"https://intl.aliyun.com/product/ecs"},{"src":"https://cn.aliyun.com/product/ecs/detail","dist":"https://intl.aliyun.com/product/ecs"},{"src":"https://cn.aliyun.com/product/cdn","dist":"https://intl.aliyun.com/product/cdn"},{"src":"https://cn.aliyun.com/product/oss","dist":"https://intl.aliyun.com/product/oss"},{"src":"https://cn.aliyun.com/product/ddos","dist":"https://intl.aliyun.com/product/ddos-pro"},{"src":"https://cn.aliyun.com/product/waf","dist":"https://intl.aliyun.com/product/waf"},{"src":"https://cn.aliyun.com/price","dist":"https://intl.aliyun.com/pricing"},{"src":"https://wanwang.aliyun.com/hosting/","dist":"https://www.alibabacloud.com/product/hosting"},{"src":"https://wanwang.aliyun.com/domain/dns","dist":"https://www.alibabacloud.com/product/dns"},{"src":"https://wanwang.aliyun.com/","dist":"https://www.alibabacloud.com/domain"},{"src":"https://www.aliyun.com/product/vpc","dist":"https://www.alibabacloud.com/product/vpc"},{"src":"https://www.aliyun.com/product/slb","dist":"https://www.alibabacloud.com/product/server-load-balancer"},{"src":"https://cn.aliyun.com/product/vpc","dist":"https://www.alibabacloud.com/product/vpc"},{"src":"https://cn.aliyun.com/product/slb","dist":"https://www.alibabacloud.com/product/server-load-balancer"},{"src":"https://data.aliyun.com","dist":"https://intl.data.aliyun.com"}],"countinfo":{"tmsDef":{"length_pc":0,"length":0}},"$tmsId":"tce/952622"}
+  </textarea>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??www-aliyun-common-allinone/0.0.1/index.js,aliyun-common-topbar-2019/0.0.67/index.js,www-intl-redirect/0.0.2/index.js"></script>
+<script></script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??aliyun-individuation-topbar-search/0.0.6/index.css"/>
+<div data-spm="747766" data-moduleid="0" data-name="aliyun-individuation-topbar-search" data-guid="747766" id="guid-747766" data-scene-id="879629" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-individuation-topbar-search J_Module" tms="aliyun-individuation-topbar-search/0.0.6" tms-datakey="tce/879629">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"rule_count":[{"count_phone":4,"count":4}]},"rule":[{"textList":[{"text":"视频直播"},{"text":"人脸识别"},{"text":"媒体处理"},{"text":"云AP"},{"text":"IoT"},{"text":"ECS"},{"text":"云服务器"},{"text":"海外服务器"},{"text":"数据可视化"},{"text":"BI分析"},{"text":"云盾"},{"text":"云防火墙"},{"text":"CDN"},{"text":"钉钉智能前台"},{"text":"短信服务"},{"text":"短信服务"},{"text":"Redis"},{"text":"Redis"},{"text":"物联网"},{"text":"渗透测试"}],"code":"noesc"},{"textList":[{"text":"IoT"},{"text":"人脸识别"},{"text":"云投屏"},{"text":"API"},{"text":"Redis"},{"text":"CDN"},{"text":"钉钉智能前台"},{"text":"钉钉智能前台"},{"text":"短信服务"},{"text":"短信服务"},{"text":"Redis"},{"text":"物联网"},{"text":"物联网市场"},{"text":"渗透测试"}],"code":"haveecs"},{"textList":[{"text":"人脸识别"},{"text":"云投屏"},{"text":"云AP"},{"text":"数据可视化"},{"text":"数据报表"},{"text":"码栈"},{"text":"短信服务"},{"text":"短信服务"},{"text":"Redis"},{"text":"Redis"},{"text":"IoT"},{"text":"物联网"},{"text":"物联网市场"},{"text":"IoT"},{"text":"渗透测试"}],"code":"haverds"},{"textList":[{"text":"视频直播"},{"text":"闪电立方"},{"text":"容器服务"},{"text":"Redis"},{"text":"云投屏"},{"text":"人脸识别"},{"text":"ECS"},{"text":"云服务器"},{"text":"大数据"},{"text":"数据可视化"},{"text":"BI分析"},{"text":"钉钉智能前台"},{"text":"Redis"},{"text":"短信服务"},{"text":"短信服务"},{"text":"IoT"},{"text":"物联网"},{"text":"物联网"},{"text":"渗透测试"}],"code":"moren"}],"countinfo":{"rule":{"length_pc":0,"length":0}},"$tmsId":"tce/879629"}
+  </textarea>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??aliyun-individuation-topbar-search/0.0.6/index.js"></script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??aliyun-intelligent-new/0.0.43/index.css,aliyun-individuation-topbar-hot-product/0.0.5/index.css"/>
+<div data-spm="772060" data-moduleid="0" data-name="aliyun-intelligent-new" data-guid="772060" id="guid-772060" data-scene-id="909825" data-scene-version="1" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-intelligent-new J_Module" tms="aliyun-intelligent-new/0.0.43" tms-datakey="tce/909825"><div class="module-wrap J_tb_lazyload dbl_tms_module_wrap" style="display: none;" version="0.0.25">
+<input style="display: none;" name="debug_module" />
+<textarea style="display: none;" name="priority_module">[{"name":"haveecs"},{"name":"haverds"},{"name":"websiteit"},{"name":"personal"}]</textarea>
+<textarea style="display: none;" name="cell_module">[{"customer_type":[{"0":"false","1":"false","tce_rule_count":"1"}],"go_to_aboad_demand_level":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"lost_risk_score":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"user_tech_strength":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"association":"not_effective","aliyun_site_activity_level":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"main_browse_prd":[{"rds":"false","ecs":"false","mail":"false","vm":"false","domain":"false","tce_rule_count":"1","slb":"false","cdn":"false","oss":"false"}],"longTailUser":"false","result":"websiteit","user_dentity_des":[{"技术/运维":"false","技术部副负责人":"false","其它":"false","高级架构师":"false","tce_rule_count":"1","平台工程师":"false","站长":"false","CEO":"false","CEO （法人）":"false","项目负责人":"false","技术负责人":"false","财务负责人":"false","股东":"false","技术运维负责人":"false","运维负责人":"false","技术人员":"false"}],"new_user_ecs_buy_level":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"aliyun_prd_retain":[{"rds":"false","ecs":"false","mail":"false","vm":"false","domain":"false","tce_rule_count":"1","slb":"false","cdn":"false","oss":"false"}],"prob_cal_level_churn":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}],"user_level_yun":[{"tce_rule_count":"1","V0":"false","V1":"false","V2":"false","V3":"false","V4":"false"},{"tce_rule_count":"1","V0":"false","V1":"false","V2":"false","V3":"false","V4":"false"}],"user_level":[],"user_cat_level1":[{"0":"true","1":"false","2":"false","tce_rule_count":"1"}],"user_cat_name_level1":[{"网站":"true","其它":"false","通讯社交":"false","tce_rule_count":"1","o2o":"false","金融":"false","IT与软件开发":"true","能源/交通运输/生产制造":"false","移动APP":"true","教育":"false","音视频":"false","医疗健康":"false","政府/事业单位":"false","游戏":"false","物联网":"false","电子商务":"false","旅游":"false"}],"interested_prd":[{"rds":"false","ecs":"false","mail":"false","vm":"false","domain":"false","tce_rule_count":"1","slb":"false","cdn":"false","oss":"false"}],"ecs_res_use_stage":[{"0":"false","1":"false","2":"false","tce_rule_count":"1"}]},{"result":"haveecs","customer_type":[{"0":"false","1":"false","tce_rule_count":"1"}],"association":"not_effective","is_ecs_retain":"1","longTailUser":"false"},{"result":"haverds","is_rds_retain":"1","association":"not_effective","longTailUser":"false"},{"result":"personal","customer_type":[{"0":"true","1":"false","tce_rule_count":"1"}],"association":"not_effective","longTailUser":"false"}] </textarea>
+<input name="site" value="navigation5product" type="hidden">
+</div>
+</div>
+<div data-spm="772061" data-moduleid="0" data-name="aliyun-individuation-topbar-hot-product" data-guid="772061" id="guid-772061" data-scene-id="909826" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-individuation-topbar-hot-product J_Module" tms="aliyun-individuation-topbar-hot-product/0.0.5" tms-datakey="tce/909826">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"name":"just a test","rules_count":[{"count_phone":4,"count":4}]},"rules":[{"code":"haveecs","products":[{"name":"短信服务","link":"https://www.aliyun.com/product/sms"},{"name":"云数据库 MySQL 版","link":"https://www.aliyun.com/product/rds/mysql"},{"name":"DDoS高防IP","link":"https://www.aliyun.com/product/ddos"},{"name":"DataV 数据可视化","link":"https://data.aliyun.com/visual/datav"},{"name":"Quick BI","link":"https://data.aliyun.com/product/bi"},{"name":"云数据库 Redis 版","link":"https://www.aliyun.com/product/kvstore"},{"name":"Web应用防火墙","link":"https://www.aliyun.com/product/waf"},{"name":"企业邮箱","link":"https://wanwang.aliyun.com/mail/"},{"name":"钉钉M1S智能考勤机","link":"https://www.aliyun.com/product/dingdingm1s"}]},{"code":"haverds","products":[{"name":"云服务器 ECS","link":"https://www.aliyun.com/product/ecs?scene=basic"},{"name":"DataV 数据可视化","link":"https://data.aliyun.com/visual/datav"},{"name":"Quick BI","link":"https://data.aliyun.com/product/bi"},{"name":"DDoS高防IP","link":"https://www.aliyun.com/product/ddos"},{"name":"对象存储 OSS","link":"https://www.aliyun.com/product/oss"},{"name":"CDN","link":"https://www.aliyun.com/product/cdn"},{"name":"Web应用防火墙","link":"https://www.aliyun.com/product/waf"},{"name":"企业邮箱","link":"https://wanwang.aliyun.com/mail/"},{"name":"短信服务","link":"https://www.aliyun.com/product/sms"}]},{"code":"websiteit","products":[{"name":"云服务器 ECS","link":"https://www.aliyun.com/product/ecs?scene=basic"},{"name":"对象存储 OSS","link":"https://www.aliyun.com/product/oss"},{"name":"DDoS高防IP","link":"https://www.aliyun.com/product/ddos"},{"name":"域名","link":"https://wanwang.aliyun.com/"},{"name":"Web应用防火墙","link":"https://www.aliyun.com/product/waf"},{"name":"云数据库 Redis 版","link":"https://www.aliyun.com/product/kvstore"},{"name":"企业邮箱","link":"https://wanwang.aliyun.com/mail/"},{"name":"短信服务","link":"https://www.aliyun.com/product/sms"}]},{"code":"personal","products":[{"name":"云服务器 ECS","link":"https://www.aliyun.com/product/ecs?scene=basic"},{"name":"对象存储 OSS","link":"https://www.aliyun.com/product/oss"},{"name":"DDoS高防IP","link":"https://www.aliyun.com/product/ddos"},{"name":"域名","link":"https://wanwang.aliyun.com/"},{"name":"云解析 DNS","link":"https://wanwang.aliyun.com/domain/dns"},{"name":"DataV 数据可视化","link":"https://data.aliyun.com/visual/datav"},{"name":"Web应用防火墙","link":"https://www.aliyun.com/product/waf"},{"name":"短信服务","link":"https://www.aliyun.com/product/sms"},{"name":"钉钉M1S智能考勤机","link":"https://www.aliyun.com/product/dingdingm1s"}]}],"countinfo":{"rules":{"length_pc":0,"length":0}},"$tmsId":"tce/909826"}
+  </textarea>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??aliyun-intelligent-new/0.0.43/index.js,aliyun-individuation-topbar-hot-product/0.0.5/index.js"></script>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??aliyun-individuation-topbar-hot-activity/0.0.1/index.css,qrqm-home-horn/0.0.10/index.css"/>
+<div data-spm="781938" data-moduleid="0" data-name="aliyun-individuation-topbar-hot-activity" data-guid="781938" id="guid-781938" data-scene-id="922055" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="aliyun-individuation-topbar-hot-activity J_Module" tms="aliyun-individuation-topbar-hot-activity/0.0.1" tms-datakey="tce/922055">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"name":"just a test","rules_count":[{"count_phone":10,"count":10}]},"rules":[{"code":"alluser","activities":[{"tce_rule_count":"1","link":"https://promotion.aliyun.com/ntms/act/main20171111.html","text":"阿里云双11，充值返券，消费再返。"}]},{"code":"allpersonaluser","activities":[{"tce_rule_count":"1","link":"https://promotion.aliyun.com/ntms/act/qwbk.html","text":"高性能云服务器2折起，低成本搭建网站/应用"}]},{"code":"chuhai","activities":[{"tce_rule_count":"1","link":"https://www.aliyun.com/chinaglobal/promotion/virtual2017","text":"海外独享虚拟主机全面上线"}]},{"code":"haverds","activities":[{"tce_rule_count":"1","link":"https://data.aliyun.com/commercial/datav","text":"互联网金融数据大屏上线"}]},{"code":"yuming","activities":[{"tce_rule_count":"1","link":"https://wanwang.aliyun.com/domain/1xin","text":".xin域名，网络诚信专属域名特惠推荐"}]},{"code":"haveesc","activities":[{"tce_rule_count":"1","link":"https://promotion.aliyun.com/ntms/act/sasfree.html","text":"态势感知：一键免费开启大数据安全分析平台"}]},{"code":"anquanjianzhan","activities":[{"tce_rule_count":"1","link":"https://promotion.aliyun.com/ntms/act/jianzhandefend.html?open_id=9d76412a-8f0a-4dfe-a373-e7740aa47dfa-162793709&open_cid=1417","text":"护航网站安全 WAF增强版限时优惠"}]},{"code":"weibo","activities":[{"tce_rule_count":"1","link":"https://yq.aliyun.com/articles/142869#yqblog","text":"35+产品免费用，每日100个名额>>"}]},{"code":"smsbag","activities":[{"tce_rule_count":"1","link":"https://www.aliyun.com/product/sms","text":"短信神器上线，低至0.036元/条，99%到达率！"}]},{"code":"xujibaoyou","activities":[{"tce_rule_count":"1","link":"https://netcn.console.aliyun.com/core/host/list2","text":"升级至独享虚机，低至0.7元/天，再送域名"}]}],"countinfo":{"rules":{"length_pc":0,"length":0}},"$tmsId":"tce/922055"}
+  </textarea>
+</div>
+</div>
+<div data-spm="862157" data-moduleid="0" data-name="qrqm-home-horn" data-guid="862157" id="guid-862157" data-scene-id="1023407" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="qrqm-home-horn J_Module" tms="qrqm-home-horn/0.0.10" tms-datakey="tce/1023407">
+<div class="module-wrap J_tb_lazyload dbl_tms_module_wrap">
+<textarea class="schemaData" style="display:none;">
+    {"moduleinfo":{"url":"//oa-panther.data.aliyun.com/get_creative_aliyun?did=293847040&pid=1367&t=1505283840581&tpt=2&c=43005&vt=1&as=120*240&at=1&ct=3&n=1&s=0"},"$tmsId":"tce/1023407"}
+  </textarea>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??aliyun-individuation-topbar-hot-activity/0.0.1/index.js,qrqm-home-horn/0.0.10/index.js"></script>
+<script>if(window.Aliyun_Lego_System_Manual_Init &&typeof window.Aliyun_Lego_System_Manual_Init ==='function') {window.Aliyun_Lego_System_Manual_Init();}
+</script>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??www-aliyun-common-allinone/0.0.1/index.js,aliyun-individuation-hook/0.0.7/index.js"></script>
+<div class=" page-layout page-main-content" data-page-id="52602">
+<div class="layout layout-grid-0">
+<div class="grid-0">
+<div class="col col-main">
+<div class="main-wrap J_Region">
+<div data-spm="941195" data-moduleid="0" data-name="www-common-tohome" data-guid="941195" id="guid-941195" data-scene-id="1293793" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="www-common-tohome J_Module" tms="www-common-tohome/0.0.2" tms-datakey="tce/1293793"><div class="module-wrap J_tb_lazyload">
+<script>(function() {var host =window.location.host;if (host =='develop.aliyun.com') {window.location.href ="http://developer.aliyun.com/api";}
+})();</script>
+</div>
+</div>
+<div data-spm="772176" data-moduleid="187426" data-name="wb-zc-aliyun-develop-api" data-guid="772176" id="guid-772176" data-scene-id="909942" data-scene-version="0" data-hidden="" data-gitgroup="ali-mod" data-ext="" data-engine="tce" class="wb-zc-aliyun-develop-api J_Module" tms="wb-zc-aliyun-develop-api/0.0.6" tms-datakey="tce/909942"><script src="//g.alicdn.com/kg/kmd-adapter/0.1.5/index.js"></script>
+<div style="width:100%;height:220px;" aliyun-lego-data="//www.aliyun.com/lego/www/common/apibanner"></div>
+<div class="module-wrap J_tb_lazyload">
+<div style="width:100%;height:100px;" aliyun-lego-data="//www.aliyun.com/lego/www/common/apibar"> </div>
+<div id="J_tab" class="J_tab">
+<div class="tab-nav">
+<ul class="clearfix">
+<li class="selected"><a href="">如何调用 API</a></li>
+<li><a href="">API 异常</a></li>
+</ul>
+</div>
+<div class="tab-content">
+<div class="tab-pannel howto">
+<div class="pannel-area sdk">
+<div class="con-top">
+<h2 class="title"><span>使用 SDK 调用 API</span><i class="line"></i></h2>
+<p class="intr">首先需要初始化一个AliyunClient，SDK的操作都是通过AliyunClient完成的。AliyunClient可以复用，建议设置成全局唯一。 <a href="https://develop.aliyun.com/tools" target="_blank">了解AliyunSDK</a></p>
+</div>
+<div class="contentBox clearfix">
+<div class="step-tab clearfix">
+<p class="step step1 selected" id="1">
+<span class="num">1</span>
+Aliyun Client
+</p>
+<p class="jiantou"><img src="//gtms02.alicdn.com/tps/i2/TB1hUvOJVXXXXXJXFXXgjyUFVXX-27-17.png"></p>
+<p class="step step2" id="2">
+<span class="num">2</span>
+调用接口
+</p>
+</div>
+<div class="stepCon-wrap">
+<div class="stepContent">
+<ul class="clearfix">
+<li class="items">
+<p class="code">import com.aliyuncs.DefaultAcsClient;<br>import com.aliyuncs.IAcsClient;</p>
+<div class="des"></div>
+</li>
+<li class="items">
+<p class="code">public class CreateAliyunClientDemo {<br>private static AliyunClient client;<br>static {<br>String serverUrl = &quot;&quot;;</p>
+<div class="des"><br><br>配置服务地址例如：<br>http://ecs.aliyuncs.com/</div>
+</li>
+<li class="items">
+<p class="code">String accessKeyId = &quot;&quot;;<br>String accessKeySecret = &quot;&quot;;</p>
+<div class="des">使用API和SDK之前，首先要拥有<br>AccessKey，用于对请求加密签名，<a href="//ak-console.aliyun.com/?spm=5176.100054.2.1.mF3kc6#/accesskey" target="_blank">点击创建和管理AccessKey</a></div>
+</li>
+<li class="items">
+<p class="code">client = new DefaultAliyunClient(serverUrl, accessKeyId, accessKeySecret);<br>}<br><br>public static void main(String[] args) {<br>}<br>}</p>
+<div class="des"><br><br>初始化一个AliyunClient</div>
+</li>
+</ul>
+<div class="bottomText">阿里云所有产品和云服务，都会陆续推出自己的API。</div>
+</div>
+<div class="stepContent" style="display:none;">
+<ul class="clearfix">
+<li class="items">
+<p class="code">public void createInstance() {<br> CreateInstanceRequest createInstanceRequest = new CreateInstanceRequest();<br> createInstanceRequest.setRegionId(&quot;<regionid>&quot;);<br> createInstanceRequest.setImageId(&quot;<imageid>&quot;);<br> createInstanceRequest.setInstanceType(&quot;<instancetype style=&quot;color: rgb(102, 102, 102); border: 1px solid rgb(255, 255, 255);&quot;>&quot;);<br> createInstanceRequest.setSecurityGroupId(&quot;<securitygroupid>&quot;);</p>
+<div class="des"><br><br>以创建ECS实例为例<br>实例化一个请求类并给请求实例赋参<br><br>Region是产品地域，Region是内网隔离的。<br>同时建议选择靠近业务所在地域的节点。</div>
+</li>
+<li class="items">
+<p class="code">try {<br> CreateInstanceResponse createInstanceResponse <br> = client.execute(createInstanceRequest);<br></p>
+<div class="des"><br><br>发送请求</div>
+</li>
+<li class="items">
+<p class="code">if (StringUtils.isEmpty(createInstanceResponse.getErrCode())) { <br> String instanceId = createInstanceResponse.getInstanceId();<br> } <br></p>
+<div class="des"><br><br>创建成功，获取实例ID</div>
+</li>
+<li class="items">
+<p class="code">else {<br> String errCode = createInstanceResponse.getErrorCode(); <br> String message = createInstanceResponse.getMessage(); <br> }<br> } catch (ApiException e) {<br> }<br> }<br></p>
+<div class="des">创建失败，获取错误码、错误信息<br> 所有的request返回的值都封装在<br> 相应的response对象里。<br><br> 假定我们的response对象名就叫response，<br> 则可以通过response.get&lt;成员变量名&gt;()获取。<br><br> 每一个request返回的response里含有的成员<br> 变量可以从各产品OpenAPI文档中查看到。<br></div>
+</li>
+</ul>
+<div class="bottomText">阿里云所有产品和云服务，都会陆续推出自己的API。</div>
+</div>
+</div>
+</div>
+</div>
+<div class="pannel-area cli">
+<div class="con-top">
+<h2 class="title"><span>使用 API Explorer 在线调用 API</span><i class="line"></i></h2>
+<p class="intr">API Explorer 是阿里云官方提供的在线 API 调试工具，支持的 API 是阿里云官方云产品开放的 OpenAPI。<br> 支持在线 API 及文档搜索，支持可见即可得的在线调试能力，支持直接生成 SDK。<br> 整合了 API 文档、SDK 和 CLI 的功能，目前尚未覆盖到阿里云全站产品，但产品在陆续接入，敬请期待。<a href="https://api.aliyun.com/" target="_blank">现在就去试试 API Explorer &gt;&gt;</a></p>
+</div>
+<div class="pic"><img data-ks-lazyload="//img.alicdn.com/tfs/TB1JA0KQVXXXXa_XFXXXXXXXXXX-778-400.png" alt=""></div>
+</div>
+<div class="pannel-area api">
+<div class="con-top">
+<h2 class="title"><span>API 请求结构</span><i class="line"></i></h2>
+</div>
+<ul class="apiNav">
+<li class="apiTab firstTab selected">请求API样例</li>
+<li class="apiTab ">系统返回样例</li>
+</ul>
+<div class="apiContent">
+<div class="apipanel">
+<ul>
+<li class="qa">
+<p class="code">https://ecs.aliyuncs.com/?Action=CreateInstance<br> &amp;RegionId=cn-hangzhou<br> &amp;ImageId=_32_23c472_20120822172155_aliguest.vhd<br> &amp;SecurityGroupId=sg-c0003e8b9<br> &amp;HostName=Bctest01<br> &amp;InstanceType=ecs.t1.small<br></p>
+<div class="des"><br><br>API名称：CreateInstance<br> 功能：创建实例<br> 服务地址：ecs.aliyuncs.com<br> &amp;参数名=参数值</div>
+</li>
+<li class="qa">
+<p class="code">?Format=xml<br> &amp;Version=2014-05-26</p>
+<div class="des"><br><br>声明返回格式（支持XML和JSON）<br> 声明API版本</div>
+</li>
+<li class="qa">
+<p class="code">&amp;Signature=Pc5WB8gokVn0xfeu%2FZV%2BiNM1dgI%3D<br> &amp;SignatureMethod=HMAC-SHA1<br> &amp;SignatureNonce=15215528852396<br> &amp;SignatureVersion=1.0</p>
+<div class="des"><br><br>签名机制相关声明</div>
+</li>
+<li class="qa">
+<p class="code">&amp;AccessKeyId=key-test<br> &amp;Timestamp=2012-06-01T12:00:00Z</p>
+<div class="des">要使用阿里云API，您首先需要拥有AccessKey，<br> 用于对API请求进行加密签名。<a href="//ak-console.aliyun.com/?spm=5176.100054.2.1.mF3kc6#/accesskey" target="_blank"><br><br>创建和管理AccessKey&gt;&gt;</a></div>
+</li>
+</ul>
+</div>
+<div class="apipanel" style="display: none;">
+<div class="info " style="padding-bottom: 130px;">
+<h6 class="apitile"><img src="//img.alicdn.com/tps/i2/TB1iRsaJVXXXXa4XFXXCBGNFFXX-24-24.png" style="vertical-align: bottom;padding-right: 10px;">成功返回结果示例</h6>
+<p class="Code1">
+XML示例<br> &lt;CreateInstanceResponse&gt;<br> &lt;!--接口名称+Response--&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;RequestId&gt;04F0F334-1335-436C-A1D7-6C044FE73368&lt;/RequestId&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;InstanceId&gt;i-instance1&lt;/InstanceId&gt;<br> &lt;!--返回请求标签和结果--&gt;<br> &lt;/CreateInstanceResponse&gt;<br> <br> JSON示例<br> {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;RequestId&quot;: &quot;04F0F334-1335-436C-A1D7-6C044FE73368&quot;,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;InstanceId&quot;: &quot;i-instance1&quot;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*返回结果数据*/<br> }<br>
+</p>
+</div>
+<div class="info error">
+<h6 class="apitile"><img src="//img.alicdn.com/tps/i1/TB1ZUj9JVXXXXb.XFXXCBGNFFXX-24-24.png" style="vertical-align: bottom;padding-right: 10px;">错误返回结果示例</h6>
+<p class="Code1">
+XML示例<br> &lt;Error&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;RequestId&gt;8906582E-6722-409A-A6C4-0E7863B733A5&lt;/RequestId&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;HostId&gt;ecs.aliyuncs.com&lt;/HostId&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Code&gt;UnsupportedOperation&lt;/Code&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Message&gt;The specified action is not supported.&lt;/Message&gt;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--返回错误代码和详细说明--&gt;<br> &lt;/Error&gt;<br> <br> JSON示例<br> {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;RequestId&quot;: &quot;8906582E-6722-409A-A6C4-0E7863B733A5&quot;,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;HostId&quot;: &quot;ecs.aliyuncs.com&quot;,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Code&quot;: &quot;UnsupportedOperation&quot;,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;Message&quot;: &quot;The specified action is not supported.&quot;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*返回错误代码和详细说明*/<br> }<br>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pannel errorQuestion">
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>实名认证</span><i class="line"></i></h2>
+</div>
+<div class="err-box">
+<p>为保证阿里云平台的稳定和安全，阿里云产品的API早已接入实名认证系统，只有已进行了实名认证的账户才被允许发起API调用。<br>如果您未进行实名认证，调用API会出现如下错误：</p>
+<table>
+<tr>
+<th>错误代码</th>
+<th>描述</th>
+<th>HTTP 状态码</th>
+<th>语义</th>
+</tr>
+<tr>
+<td>RealNameAuthenticationError</td>
+<td>Your account has not passed the real-name authentication yet.</td>
+<td>403</td>
+<td>用户未进行实名认证</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>流量控制</span><i class="line"></i></h2>
+</div>
+<div class="err-box">
+<p>为了预防恶意攻击，阿里云网关网络层设置了针对IP的访问次数限制。单个IP的API调用不能超过100次/秒。同时各产品为了保障服务的稳定性，也会对一些API接口的并发量进行限制，具体请看各产品业务和资源限制说明。<br> 如果您收到如下反馈，说明您的调用由于流量控制而失败，需要重试：</p>
+<table>
+<tr>
+<th>错误代码</th>
+<th>描述</th>
+<th>HTTP 状态码</th>
+<th>语义</th>
+</tr>
+<tr>
+<td>Throttling</td>
+<td>Request was denied due to request throttling.</td>
+<td>400</td>
+<td>因系统流控拒绝访问</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>余额不足</span><i class="line"></i></h2>
+</div>
+<div class="err-box">
+<p>阿里云API可以完成资源创建、资源变配等操作，大部分的操作对象是后付费类型的资源。<br> 用户发起API调用时，要求用户账号内余额不少于100元，否则会返回如下错误：</p>
+<table>
+<tr>
+<th>错误代码</th>
+<th>描述</th>
+<th>HTTP 状态码</th>
+<th>语义</th>
+</tr>
+<tr>
+<td>InsufficientBalance</td>
+<td>Your account does not have enough balance.</td>
+<td>400</td>
+<td>余额不足</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>幂等性</span><i class="line"></i></h2>
+</div>
+<div class="err-box">
+<p>用户通过API进行资源创建时，如果遇到了请求超时或者服务器内部错误，客户端可以尝试重发请求。<br>此时客户端可以通过提供ClientToken参数保证请求的幂等性，避免资源的重复创建。<br>ClientToken是由客户端生成的唯一的、区分大小写、不超过64个ASCII字符的字符串。 <br>保证ClientToken一致的同时，如果相关的其他参数不同，则会报如下错误：</p>
+<table>
+<tr>
+<th>错误代码</th>
+<th>描述</th>
+<th>HTTP 状态码</th>
+<th>语义</th>
+</tr>
+<tr>
+<td>InvalidIdempotenceParameter.Mismatch</td>
+<td>The specified parameters are different from before.</td>
+<td>403</td>
+<td>幂等参数不匹配</td>
+</tr>
+</table>
+</div>
+<div class="err-box">
+<p>需要注意的是，参数SignatureNonce、Timestamp和Signature参数在重试时是需要变化的，<br>SignatureNonce用来防止重放攻击，Timestamp用来标记请求时间，<br>这二者需要保持唯一性，且这两个参数的变化会导致Signature的变化。<br>重试或者正常调用使用用过的SignatureNonce时，会反馈如下错误：</p>
+<table>
+<tr>
+<th>错误代码</th>
+<th>描述</th>
+<th>HTTP 状态码</th>
+<th>语义</th>
+</tr>
+<tr>
+<td>SignatureNonceUsed</td>
+<td>The request signature nonce has been used.</td>
+<td>400</td>
+<td>无效的 SignatureNonce（该 SignatureNonce 值已被使用过）</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>错误码</span><i class="line"></i></h2>
+</div>
+<div class="err-box">
+<p>API调用后返回数据具备一定的规范性。HTTP状态码均为三位数字，对应意义如下表：</p>
+<table>
+<tr>
+<th>HTTP状态码<br>（5XX表示首位是5，后面两位为任意数）</th>
+<th>含义</th>
+<th>幂等性相关</th>
+</tr>
+<tr>
+<td>2XX</td>
+<td>调用成功</td>
+<td>无</td>
+</tr>
+<tr>
+<td>4XX</td>
+<td>调用失败。客户端错误或者超出限制</td>
+<td>通常重试是不能成功的，<br>除非提示信息出现”Try it later”</td>
+</tr>
+<tr>
+<td>5XX</td>
+<td>调用失败。服务器内部错误</td>
+<td>建议重试</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="tab-pannel SLA">
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>服务范围</span><i class="line"></i></h2>
+</div>
+<p class="thT"></p>
+<p class="des">阿里云产品均会陆续开放API接口，您可以基于阿里云开源的SDK通过编写代码来调用API，也可以使用AliyunCLI工具来调用API，从而实现对应用、资源和数据进行更灵活的部署、更快速的操作、更精确的使用、更及时的监控。</p>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>服务等级指标</span><i class="line"></i></h2>
+</div>
+<p class="thT">响应时间：</p>
+<p class="des">一次API调用，响应时间不超过30s。<br>说明：30s的时间不包括请求从用户端到服务器端的网络消耗。<br>部分产品响应超时会反馈为服务器错误InternalError，此时建议重试。</p>
+<p class="thT">可用性：</p>
+<p class="des">API不可用定义：若一个用户某次请求收到反馈结果为服务器错误（Http码500，错误码InternalError，Http码503，错误码ServiceUnavailable），<br>且重试三次反馈结果均为服务器错误，则记为1分钟不可用。<br>API可用性定义：对于一个用户在一个计费周期内，可用性计算公式为：100% - 不可用时间/总服务时间。<br>阿里云承诺API可用性达到99.8%。</p>
+<p class="thT">错误说明：</p>
+<p class="des">阿里云API有完善的错误码机制，API调用失败会返回响应的Http码、错误码以及错误描述。<br>Http码为4XX的是客户端错误，建议用户解读错误描述，修正请求。<br>Http码为5XX的是服务器错误，此时建议重试。</p>
+<p class="thT">幂等性：</p>
+<p class="des">用户通过API进行资源创建时，如果遇到了请求超时或者服务器错误，客户端可以尝试重新发送请求。<br>阿里云API有完善机制来保证请求的幂等性，避免资源的重复创建。详情请您查看产品API文档。</p>
+<p class="thT">版本维护说明：</p>
+<p class="des">推荐用户使用最新版本的API，旧版本的API如无通知会继续维护。<br>API旧版本下线周期为通知用户的时间点开始12个月。维护内容为错误修正，不做新功能。</p>
+</div>
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>其他</span><i class="line"></i></h2>
+</div>
+<p class="thT"></p>
+<p class="des">阿里云有权根据变化适时对本服务等级协议部分服务指标作出调整，<br>并及时在阿里云官网www.aliyun.com发布公告或发送邮件或书面通知向用户提示修改内容。</p>
+</div>
+</div>
+<div class="tab-pannel openP">
+<div class="pannel-area">
+<div class="con-top">
+<h2 class="title"><span>以下产品均已开放 API，选择产品查看其 API 手册</span><i class="line"></i></h2>
+</div>
+<div class="box clearfix">
+<div class="openPList">
+<h6 class="openPName">弹性计算</h6>
+<a href="//help.aliyun.com/document_detail/ecs/open-api/summary.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">云服务器 ECS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/ess/api-document/api-use-notes.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">弹性伸缩</p>
+</a>
+<a href="//help.aliyun.com/document_detail/26043.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">容器服务</p>
+</a>
+<a href="//help.aliyun.com/document_detail/44717.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">批量计算</p>
+</a>
+<a href="//help.aliyun.com/document_detail/35201.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">高性能计算 HPC</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">数据库</h6>
+<a href="//help.aliyun.com/document_detail/rds/OpenAPI-manual/RDS-OpenAPI-Invoke/rquest-structure.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">云数据库 RDS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/ots/APIReference/actions/ActionsSummary.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">表格存储</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">存储与 CDN</h6>
+<a href="//help.aliyun.com/document_detail/oss/api-reference/abstract.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">对象存储 OSS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/cdn/api-reference/summary.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">CDN</p>
+</a>
+<a href="//help.aliyun.com/document_detail/27384.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">归档存储</p>
+</a>
+<a href="//help.aliyun.com/document_detail/25513.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">块存储</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">网络</h6>
+<a href="//help.aliyun.com/document_detail/slb/api-reference/brief-introduction.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">负载均衡</p>
+</a>
+<a href="//help.aliyun.com/document_detail/34962.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">专有网络 VPC</p>
+</a>
+<a href="//help.aliyun.com/document_detail/27795.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">高速通道</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">应用服务</h6>
+<a href="//help.aliyun.com/document_detail/sls/api/overview.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">日志服务</p>
+</a>
+<a href="//help.aliyun.com/document_detail/opensearch/api-reference/terminology.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">开放搜索</p>
+</a>
+<a href="//help.aliyun.com/document_detail/mts/api-reference/intro/intro.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">媒体转码</p>
+</a>
+<a href="//help.aliyun.com/document_detail/29434.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">邮件推送</p>
+</a>
+<a href="//help.aliyun.com/document_detail/43595.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">API 网关</p>
+</a>
+<a href="//help.aliyun.com/document_detail/27475.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">消息服务</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">域名与网站（万网）</h6>
+<a href="//help.aliyun.com/document_detail/dns/api-reference/summary.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">云解析</p>
+</a>
+<a href="//help.aliyun.com/document_detail/30139.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">移动解析 HTTPDNS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/29434.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">邮件推送</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">管理与监控</h6>
+<a href="//help.aliyun.com/document_detail/keymanagementservice/api-guide/common-sections.html?spm=5176.product9195711_keymanagementservice.6.95.aVhF9Y" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">密钥管理服务 KMS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/28615.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">云监控</p>
+</a>
+<a href="//help.aliyun.com/document_detail/28672.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">访问控制</p>
+</a>
+<a href="//help.aliyun.com/document_detail/28899.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">资源编排</p>
+</a>
+<a href="//help.aliyun.com/document_detail/28833.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">操作审计</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">分析</h6>
+<a href="//help.aliyun.com/document_detail/28140.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">E-MapReduce</p>
+</a>
+<a href="//help.aliyun.com/document_detail/35204.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">高性能计算 HPC</p>
+</a>
+<a href="//help.aliyun.com/document_detail/29140.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">开放搜索</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">云通信</h6>
+<a href="//help.aliyun.com/document_detail/44364.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">短信服务</p>
+</a>
+<a href="//help.aliyun.com/document_detail/30074.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">移动推送</p>
+</a>
+<a href="//help.aliyun.com/document_detail/27475.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">消息服务</p>
+</a>
+<a href="//help.aliyun.com/document_detail/29434.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">邮件推送</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">互联网中间件</h6>
+<a href="//help.aliyun.com/document_detail/42924.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">业务实时监控 ARMS</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">移动服务</h6>
+<a href="//help.aliyun.com/document_detail/30074.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">移动推送</p>
+</a>
+<a href="//help.aliyun.com/document_detail/44364.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">短信服务</p>
+</a>
+<a href="//help.aliyun.com/document_detail/30139.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">HTTPDNS</p>
+</a>
+<a href="//help.aliyun.com/document_detail/35037.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">移动安全</p>
+</a>
+</div>
+<div class="openPList">
+<h6 class="openPName">视频服务</h6>
+<a href="//help.aliyun.com/document_detail/44428.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">视频点播</p>
+</a>
+<a href="//help.aliyun.com/document_detail/29212.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">媒体转码</p>
+</a>
+<a href="//help.aliyun.com/document_detail/35416.html" target="_blank" class="icoLINk">
+<span class=" icon"></span>
+<p class="des">视频直播</p>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>window.aliyun_develop_nav ='API';</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" type="text/css" href="//g.alicdn.com/ali-mod/??www-common-fotter/0.0.3/index.css"/>
+<div data-spm="52157" data-moduleid="29242" data-name="www-common-fotter" data-guid="52157" id="guid-52157" data-scene-id="79681" data-scene-version="0" data-hidden="" class="www-common-fotter J_Module" tms="www-common-fotter/0.0.3" tms-datakey="79681"><div class="module-wrap J_tb_lazyload">
+<script type="text/javascript" src="//www.aliyun.com/rgn/aliyun_footer?renderer=js"></script>
+</div>
+</div>
+<script src="//g.alicdn.com/ali-mod/??www-common-fotter/0.0.3/index.js"></script>
+<script src="//g.alicdn.com/ali-mod/??wb-zc-aliyun-develop-api/0.0.6/index.js,www-common-tohome/0.0.2/index.js"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://develop.aliyun.com:443

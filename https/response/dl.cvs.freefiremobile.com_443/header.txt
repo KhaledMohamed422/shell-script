@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: dl.cvs.freefiremobile.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; AC2001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 304
+Access-Control-Allow-Origin: *
+Age: 48
+Cf-Cache-Status: HIT
+Cf-Ray: 8227e6a6cad4671e-AMS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:14:44 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCS9ZjvgO9FOxHSs737S08nIJAzmIP/NG
+X-Obs-Request-Id: 0000018BAB309A70901394CF6A2C5035
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB309A70901394CF6A2C5035</RequestId><HostId>6xKfW2sqHjkPgrrcchWwmNvqht/4KOJGF4US4JHzczfxtWBLvMDee6baRVdXp8iM</HostId><Key>mgames/ffmhk/</Key></Error>
+
+
+https://dl.cvs.freefiremobile.com:443

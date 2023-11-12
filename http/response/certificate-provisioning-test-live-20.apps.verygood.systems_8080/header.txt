@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-20.apps.verygood.systems:8080
+User-Agent: Lynx/2.8.5rel.1 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/0.8.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:55:39 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

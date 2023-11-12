@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: iot.prod.latchaccess.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Content-Length: 72
+Connection: keep-alive
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:54:44 GMT
+X-Amzn-Errortype: ResourceNotFoundException:
+X-Amzn-Requestid: 4bca220b-a6e8-05ea-3a14-1483d8c2cf7d
+
+{"message":"Not Found","traceId":"4bca220b-a6e8-05ea-3a14-1483d8c2cf7d"}
+
+
+https://iot.prod.latchaccess.com:443

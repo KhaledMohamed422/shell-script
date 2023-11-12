@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: report-uri.highwebmedia.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 11
+Alt-Svc: h3=":443"; ma=86400
+Cf-Ray: 823046ddcb89cb2f-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 08 Nov 2023 19:38:31 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SrNL%2B2jSdoRs3gj4eu2vLvMJBRPkDVTBakROtDios6a48YMJa30ONXp3bogDl1QeY4au0Wgg77fI7XLbqWG9VdF9Z4JFJvSul%2FkWejsryk8k%2FdmStC5dy15Pis4p%2BiPEuI9FXWoh0wPu2T0A9w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _cfuvid=4cCDZpoN7u2jezfC_h7m5C0_pkP8FkVUL3kXJ.yinO0-1699472311978-0-604800000; path=/; domain=.highwebmedia.com; HttpOnly
+Vary: Accept-Encoding
+
+E001 - Nope
+
+
+https://report-uri.highwebmedia.com:443

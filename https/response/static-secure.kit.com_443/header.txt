@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: static-secure.kit.com
+User-Agent: Opera/9.20 (Macintosh; Intel Mac OS X; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 214
+Content-Type: text/html; charset=iso-8859-1
+Date: Sat, 11 Nov 2023 19:22:01 GMT
+Location: https://static-secure.kit.com/
+Server: Apache
+Service-Worker-Allowed: /
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+

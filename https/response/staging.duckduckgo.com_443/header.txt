@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: staging.duckduckgo.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:30:37 GMT
+Location: https://use-login.duckduckgo.com/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9zdGFnaW5nLmR1Y2tkdWNrZ28uY29tLyIsICJzdmMiOiAic3RhZ2luZy5kdWNrZHVja2dvLmNvbSJ9%7C161.97.145.139%7C1699410637%7C34c1b40c2bbd9c52fa61f7b63f1c6dfb75b7bf94ce52a6d9c9c5a035126d2a80
+Server: Duo/1.0
+Strict-Transport-Security: max-age=31536000
+

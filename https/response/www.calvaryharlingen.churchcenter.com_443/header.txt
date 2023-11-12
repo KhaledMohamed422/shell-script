@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: www.calvaryharlingen.churchcenter.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-N986U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 951
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:35:51 GMT
+Server: CloudFront
+Via: 1.1 4a502b22092e94faddf9a5b056e273ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: orV7Gbc5ZafkAXemkuo1Jejs8RJPNht3Fj4kut9wH-acy7iOSmCggA==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Error from cloudfront
+

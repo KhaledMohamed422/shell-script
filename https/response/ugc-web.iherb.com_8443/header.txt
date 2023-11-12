@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: ugc-web.iherb.com:8443
+User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822c21949f367166-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 07:34:01 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=RUyoY266MDsWT4u0UZ.51eB_6q7XA2yvS_wG3okQoHU-1699428841-0-Adx2Gb6pZ5ONnEUro+DEnWNOeo8j73KQ5nW6qg1ZuGrUrszQXExyWnNDCNm06lueAn2D4phJ1GFYmREWxT18cmXC2/m2kga4QgWvj3gMhg7u; path=/; expires=Wed, 08-Nov-23 08:04:01 GMT; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1010
+
+
+https://ugc-web.iherb.com:8443

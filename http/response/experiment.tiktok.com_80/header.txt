@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: experiment.tiktok.com
+User-Agent: Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3 like Mac OS X; de-de) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8F190
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:39:29 GMT
+Location: https://experiment.tiktok.com/
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1203, origin; dur=7
+Strict-Transport-Security: max-age=31536000
+X-Akamai-Request-Id: e1b81dc.1a98bb2
+X-Cache: TCP_MISS from a23-55-162-23.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51931778) (-)
+X-Cache-Remote: TCP_MISS from a23-211-140-86.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Origin-Response-Time: 7,23.211.140.86
+X-Parent-Response-Time: 1208,23.55.162.23
+X-Tt-Logid: 202311081839288E5E5324ACC6E126E91D
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a5bf05e3af37a3c6cc0568356d09d23c02ca1182a85349894d6ff3814c452f248d6290a6d0816212b93af314d060c77d89375395231d1aa0f71e18a32a539d717
+X-Tt-Trace-Id: 00-2311081839288E5E5324ACC6E126E91D-77CD6D543B8C9129-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

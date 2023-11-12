@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: server.exodus.io:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.32 (KHTML, like Gecko) Chromium/25.0.1349.2 Chrome/25.0.1349.2 Safari/537.32 Epiphany/3.8.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=15
+Cf-Ray: 822ac652de7a161f-DUS
+Content-Security-Policy: default-src 'self' exodus.com *.exodus.com exodus.io *.exodus.io *.a.exodus.io;
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 03:36:58 GMT
+Expires: Wed, 08 Nov 2023 03:37:13 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+5002d

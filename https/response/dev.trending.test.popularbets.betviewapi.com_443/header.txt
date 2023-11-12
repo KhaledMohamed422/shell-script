@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: dev.trending.test.popularbets.betviewapi.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Flipboard/4.2.142
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:56:57 GMT
+Server: AmazonS3
+Via: 1.1 18fab39b23fb6b3013058d6df5faf0bc.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: 1B6iSIgTP8UbUKbLr3BZHFniNNb-dNSuWSkTchimw44VKkYwrZjyjQ==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>13KV3WZ6YYG8QCJ5</RequestId><HostId>CXTX/0XKha+exyp8NUt0Hkb7Il6iVYX5oBrPP0XDXrscROPxIUB0FIfrI4cmwC4ELkDMODWAJVM=</HostId></Error>
+0
+
+
+
+
+https://dev.trending.test.popularbets.betviewapi.com:443

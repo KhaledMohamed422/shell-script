@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: demo.dev.dynatracelabs.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Content-Security-Policy: default-src 'self' ;script-src 'self' 'nonce-7el3KNCSRgClR86EYhDOKw==' 'sha256-0wfzvDul79Gfk1ghh0UKlD/ZD3KnKBt8gb/A/Xb88C0=' 'unsafe-hashes';style-src 'self' 'nonce-7el3KNCSRgClR86EYhDOKw==' ;font-src 'self' ;img-src 'self' 'nonce-7el3KNCSRgClR86EYhDOKw==' data: ;connect-src 'self' ;child-src ;worker-src 'self' blob: ;form-action 'self' ; report-uri /reportCPSViolations
+Content-Type: text/html;charset=utf-8
+Cross-Origin-Embedder-Policy-Report-Only: require-corp;report-to="default"
+Cross-Origin-Opener-Policy: same-origin
+Date: Tue, 07 Nov 2023 22:02:21 GMT
+Dynatrace-Response-Id: DWPTH8AAK9FZ
+Dynatrace-Response-Source: Cluster
+Expires: Tue, 07 Nov 2023 22:02:21 GMT
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Server-Timing: dtRpid;desc="1675632005", dtSInfo;desc="0"
+Set-Cookie: dtCookie=v_4_srv_4_sn_2D4ACD5813F61D7BC015ECF9EFF6F0A7_perc_100000_ol_0_mul_1_app-3A400b27c3413348ea_1; Path=/; Domain=.dynatracelabs.com; Secure
+Set-Cookie: apmsessionid=node0e7i1d1ap17sm14nsikeo5ii8n2569.node0; Path=/; HttpOnly; SameSite=Lax; Secure
+Set-Cookie: SRV=server8; path=/; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+Traffic-Source: UNKNOWN
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Oneagent-Js-Injection: true
+X-Xss-Protection: 1; mode=block
+
+
+
+
+

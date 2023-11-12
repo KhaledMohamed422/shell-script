@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: promociones.betfair.com.co:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; YAL-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 8227bbe41c4c7a3d-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 07 Nov 2023 18:45:33 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BoXypOLT3IEdsor%2BWD1genhDKaE8172tB45c8h4MEROGxuw%2Bs0DRDzj6P9yJAThzyMAzyM0s02XEhYlFZyKHBceIwYaCiDZBawpuJty1O19pRiFe4mHk0Eixo4fHBlGpR5F7b6aWnmEtHGgG38YG2zs%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=qhhVBZo0oeYVn8zkg23k7ntCz13yMkN1A4bvIUHLynE-1699382733-0-AcZvy9E9OvfyKSWK83cDPayOjM4vC2bHst552A/2lwEXMZBtPCbMEQ0uNVP3NJ+/Zmeja86wqC3NrgKfGCVZQrM=; path=/; expires=Tue, 07-Nov-23 19:15:33 GMT; domain=.betfair.com.co; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+1886

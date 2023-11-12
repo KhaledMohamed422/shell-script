@@ -1,0 +1,46 @@
+GET / HTTP/1.1
+Host: ns1.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e9a70c14160e-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:16:48 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BpQcxLbCovD2ZboE6njOihyJ0H9Q51FyFF8CGIc5XbjeQ1t0qM69yx8v1RQEWN4eeJDf9qwd0QuAq%2BW2I9O8Mq0Fr05Y190KL41UVEZusASlSGEzckkR%2FCxqaeVntOLkZUxdLA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=rGv2UEPuhklldx9e77qHyftpLD0hHFJ9LGzHR6xg7gk-1699384608-0-Af9GFhaKYyiVGQnTTkmDFvhtUxYINVWwpKocRtLQsxhAHToR84fHq3hfh3TfGSMVPn/cQ/3MN6bqj4FJW0p6LNE=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=nR3QggQvWA5ma9ZPau_jsDnGGiCdfvkSQGb5wy7KEU0-1699384608-0-Abu9bfQUlwsn0FZXEfyuj+7hGE8zLSJlkp+2ILH87DKbufR1573o4xLr4kxohTGAiyggiYs7VogThOBHpPLHk88=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=WRn1Ond2t1c84GleqeWmu4uVxVgky9wK_jSE0lf1nRk-1699384608-0-Af06sJpvUNl4WO2EZXazKHvtlHDW5hJjUM3QgjDAN1RW9U0ck+7lZh5TlTLwDe/iQjgKMf/c91iXsge4utgOyl8=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=agZMRXC1IE71jPvMj8lIP1XAH6nplybB49gXd.4H0nM-1699384608-0-AXd8K87mMJVXNwXuEOqHl2FRXGgNVd+GRj6aWcEXRkMTrT1ooQtSecPIzU/nZLtbuIE7yJZTNr+vMbps/2kL96w=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=ZsqwoLEFUvJkWIHgjENnqjgJEs57sHzLYD3UvbSupUk-1699384608-0-AV/oq0hNeyU+mahq2/4RBBu3EKZQWpUm0wOrMo+p/zPJPlBCNbU1XhMisLGaSGy6dhIbzi0sPeaAs9a+qNX0c6g=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=d_qCkN8dku.qUSYXWTG8Us4tDViHSLyv9i6CeH1D6RA-1699384608-0-AWPZ6tWFUmJU+3ttgwN7BY9DY5tgoCioNukAshXwiR6NevGKbCZudtS4srSjBcUzl2AgoEEsQTjKVQy1Fcy760k=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=.8rZBsmLjc6Juq5eHrZbHh3_qbMDL.vIT5Q6G44Q90w-1699384608-0-AXMaTdlZsChNwBLbg5Mee4P54q+GeFPAM8h6jK5JOX3zCC+mRs4a3La5aNQi8tPtKAFTUR5+c1NtTnkXRNWJZII=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=FxL0AWEAk2jZl5u_cxIdcaEhd4DQmJr2FZMp8DpXeRc-1699384608-0-AeBBLawCzpf33YyfsK7MWwnSqEMYvw9TEYfX3Qb3bYmGglrFf9TQvuP0Yv30hml62dBh6DOg7Ur5NdcISaaamQA=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=yk2zJGv4n7T3kCbpNnOXf9P4YpKoXZ_u2EiiCT8UYSM-1699384608-0-ASglySCPqiLtIRNURoaBXVtEi9Y9YSH71srwPP5SFCdibMKAi4jO8Bu8MrWEoOBMBQsjqrA3o9Lq6SSUDYkscI0=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=IMFmoyFpj2Azgnby.5_leSTpX6FkfBBal9jlF7nr5DI-1699384608-0-AeVDXRIEHmFoM10Vds28bYeD07d8HEPQymRcv6Zd9yn/KqZatoGIU9o2edKJTUdzmmfLKT0Rla8MAA7i3zfgoW0=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=0b.0bQKnV5epYX8K9Gc8iP79beiPa6Q69s3dSXg1r7Y-1699384608-0-Ace+oo8Al3CZwTdrE0BrHNPw6hU1VoknU7iSXuL7TLhekTXBRT4al6MDkKeJnnP/gfgUyRNCZwh5BIbTHLJQ5hM=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=KFfg.CbbBXCOhlvvY8TXQyBGuViDCMqE3RzgxdzFHhA-1699384608-0-Af51SdhQbC6QhOL1+r488SPN6mSyHhNJcqgQcm1e9jGRH7Cnyg5Hz5GKcbZFiD5j2RfU0RkQCcS2pnqMG/IPPM0=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=iYaWzc2Sd1mAehBbZUboHMOBlC3UT83HzQ_joLvpLe0-1699384608-0-AYwT/meDWi6XWGKvOpt35Hu6POokeiWXN8Fe4CIsyW1SlGDXtjBgtgy84kQ9AmqqVmT1mRZS7B7Nt9gkLo+YR1Y=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=PO23kGuX0Wyauq8ulCa5WI.xF4fUZeYCx.yuUv8.FRM-1699384608-0-AQng1AQdg+34VQg48KBPe1bmqfQvYMuIEbEpys9aMY+FbxLxAKvnSBU+ctE73gyAvql6Jw56jU1ymnEu6VZJKeY=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=NWiCWgd81ECdnCFADcrI.FxxCo417iawzxmbK786zgU-1699384608-0-AdYUKhP7yG5SgkKZGKsFB6TuGSgJVB3+Ip6+1Q9CNlVnaaJX4DvCOJ3lPq8k/XXLMctwJiDMiH+3vbgU5ywboHA=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=cjkUxD_dszvUqsV7SiN0m49vbCYb0zdGaKwG3vR2Rvw-1699384608-0-AWFSy0UAo0VqfRSsLHq9wnj+5DgMC31xMyAEs6lDc/GW2d/jjsWTwSUvjY/TJdbeZwrUFLsNa8itdENuIkDN6uA=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=w2oZxRKEiQnvhsqiIRW5RamM9q8STNKZDlyS0Q5sfhU-1699384608-0-AXwvPk4Al4HLip6N19ujzXZBkD8qdzoL8vZkOMpXRbfNGn8ORiMEtl8ExurOkONeGKoCLcwWjV+c7w+5PXW7KlI=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=qAhwVa7ggMd2Y18GuB3nU27XPllpTe2OYgWX.aOd9CM-1699384608-0-Aa1keoDozyxh+AuSdK2sBYgBpdBOAj9rqPbY4QsOSpLDZfHZjb+W3tUtNyn+cEae8Gbix2pOiDV/80JOwFTLQPI=; path=/; expires=Tue, 07-Nov-23 19:46:48 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1000
+
+
+https://ns1.cloudflare.com:443

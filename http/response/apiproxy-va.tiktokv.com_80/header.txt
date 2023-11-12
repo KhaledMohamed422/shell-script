@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: apiproxy-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:38:46 GMT
+Proxy-Status: 0000201404026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=358, origin; dur=9
+Vary: Accept-Encoding
+X-Origin-Response-Time: 9,23.220.106.18
+X-Parent-Response-Time: 364,23.15.178.156
+X-Tt-Logid: 20231108183845743E2C9DF64C6DABDF11
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a492a66a534046da969a3e9dbb4b5752fe635fa8550d99bf0d65097f2a0929d8d702b5ea10880449a979a5c55011e28b60d8344675ce572296fe94769bb887cc2
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

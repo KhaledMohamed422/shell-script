@@ -1,0 +1,52 @@
+GET / HTTP/1.1
+Host: pre-eureka-gateway.alibaba-inc.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A5362a Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Bxuuid: 269b9a9fe604fc4b2b3f2d96ecd29b8b
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:17:25 GMT
+Eagleeye-Traceid: 212a769016994386457424831ee3f7
+Server: Tengine/Aserver
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+
+458
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=Jpuan-YE_EsrPy2W7NKbiw|ZUtgNQ|MWrYXQ_0&uuid=269b9a9fe604fc4b2b3f2d96ecd29b8b&action=deny&origin=https%3A%2F%2Fpre-eureka-gateway.alibaba-inc.com%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=Jpuan-YE_EsrPy2W7NKbiw|ZUtgNQ|MWrYXQ_0&uuid=269b9a9fe604fc4b2b3f2d96ecd29b8b&action=deny&origin=https%3A%2F%2Fpre-eureka-gateway.alibaba-inc.com%2F"
+};
+</script>
+<!--rgv587_flag:sm-->Deny from x5
+0
+
+
+
+
+https://pre-eureka-gateway.alibaba-inc.com:443

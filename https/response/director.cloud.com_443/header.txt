@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: director.cloud.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.9999.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 159
+Access-Control-Expose-Headers: Request-Context
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:17:27 GMT
+Location: https://director.cloud.com/director/
+Referrer-Policy: no-referrer
+Request-Context: appId=cid-v1:d7dabb58-4d7b-4858-bb60-903cbf22cf8a
+Server: 
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://director.cloud.com/director/">here</a></body>
+
+
+https://director.cloud.com:443

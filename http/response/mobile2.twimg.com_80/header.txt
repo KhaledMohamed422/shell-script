@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: mobile2.twimg.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.1 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:51:54 GMT
+Server: AmazonS3
+Via: 1.1 1ee1abe42f3acbda66e5d1252319566a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: o8pQmxzPWUdzOQH4RG-eFNhj4FJ4Ied_htLSEDdxV4jueG6Clypk7Q==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>TEW424ZTA92CCVWQ</RequestId><HostId>ASOnoeRBm/0DC8i58gHS6PqhkwCsFW0x7AKR50rU8f1F4lqLUCc3VS7QGZLPdMyD3B6UbYk7Wq2hXuCcFygasQ==</HostId></Error>
+0
+
+
+
+
+http://mobile2.twimg.com:80

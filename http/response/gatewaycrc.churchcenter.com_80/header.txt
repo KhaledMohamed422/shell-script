@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: gatewaycrc.churchcenter.com
+User-Agent: Python-urllib/2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:52:15 GMT
+Location: https://gatewaycrc.churchcenter.com/
+Server: CloudFront
+Via: 1.1 83f1b8f73f37458f38e2ee1fc0b9e68c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yZKahSmosMEppp_GIQc2cpRLAC7e1QKn94VSoJUb1NvqMtuaADqeLw==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

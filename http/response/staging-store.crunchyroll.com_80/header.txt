@@ -1,0 +1,43 @@
+GET / HTTP/1.1
+Host: staging-store.crunchyroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e31e0830876a-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:12:20 GMT
+Location: https://staging-store.crunchyroll.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BG20npaRdPoLZy18M2UrKngjtenKEKVXO75MCL2jsLxlRFBO1wCAxY9PFVu26cM0Mcehv0%2Fa5C1env%2FpZBXqynGzhUy76hbLri7KmSu%2F9buu03AIWCFv3amOxsDGJpYDTqP9pbikvSjNJZV6Zi1a"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=7, db;dur=3, asn;desc="51167", edge;desc="DUS", country;desc="DE", pageType;desc="index", servedBy;desc="s59n", requestID;desc="689fe3ba-3376-4b04-90d2-dd67445ed87d"
+Server-Timing: cfRequestDuration;dur=48.999786
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Redirect-Reason: https_required
+X-Request-Id: 689fe3ba-3376-4b04-90d2-dd67445ed87d
+X-Shardid: 61
+X-Shopid: 1144455230
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 61
+X-Sorting-Hat-Shopid: 1144455230
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+http://staging-store.crunchyroll.com:80

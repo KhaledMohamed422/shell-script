@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: auth.staging.tfdev.typeform.com
+User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store
+Content-Language: en
+Content-Security-Policy: frame-ancestors 'self' https://embed-admin.defective-tomato.tfdev.typeform.com
+Content-Security-Policy-Report-Only: frame-ancestors 'self' https://embed-admin.defective-tomato.tfdev.typeform.com
+Content-Type: text/html;charset=utf-8
+Date: Tue, 07 Nov 2023 23:12:07 GMT
+Expires: 0
+P3p: CP="HONK"
+Pragma: no-cache
+Server: nginx
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0
+Set-Cookie: autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Set-Cookie: JSESSIONID=8D15ECB56F4A209A58563481B2FCCADF; Path=/; Secure; HttpOnly
+Set-Cookie: t=default; Path=/
+Set-Cookie: DT=DI1BIhwM3f6Q-eZH98-CCQHZw;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 06 Nov 2025 23:12:07 GMT;HttpOnly
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Okta-Request-Id: ZUrER1B4QghfPcavtzSX_QAAByQ
+X-Rate-Limit-Limit: 1200
+X-Rate-Limit-Remaining: 1199
+X-Rate-Limit-Reset: 1699398787
+X-Robots-Tag: noindex,nofollow
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 0
+
+2222

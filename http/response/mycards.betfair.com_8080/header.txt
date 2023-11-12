@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: mycards.betfair.com:8080
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Flipboard/4.2.142
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b8752866874d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:12 GMT
+Expires: Tue, 07 Nov 2023 18:43:27 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LlfVrX4%2FBFluZ0FKRVgJviFG8NORXdp5qpIyJLZD4VP%2Bjk4hJy5DSvv0Yn%2FnH9rufeFICuG50SavzLimn4fDSmM0R1OzTqrYUFpnZSc7bQvh2V8NuU4EItCDbkz%2Bod6HqcauVcmmGMziMg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

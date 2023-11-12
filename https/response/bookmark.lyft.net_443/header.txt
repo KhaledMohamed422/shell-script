@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: bookmark.lyft.net
+User-Agent: Mozilla/5.0 (Linux; Android 11; ONEPLUS A6000) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:01:53 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9ib29rbWFyay5seWZ0Lm5ldC8iLCAic3ZjIjogImJvb2ttYXJrLmx5ZnQubmV0In0%3D%7C10.0.210.124%7C1699394513%7C35caf7cf3df29c58e7560ffc29cb943841cd5af18aa04dfd7999b0e0902a07b5
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: family-fare.pbis-cf.instacart.com:8443
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2869.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227481c99127a40-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:26:31 GMT
+Expires: Tue, 07 Nov 2023 17:26:46 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=XlIbUFskDiy4y.ooEd.5aevkmmgMS_fBx_Laxni_fK4-1699377991-0-AVsfHLnkzav6wraZzC9Zv1oDLq6PtEIDr2KO4qPdqmOXpuxnBYFSGYFMULqoB1q5QSab49Ibu+L2+VtVp97fVZ8=; path=/; expires=Tue, 07-Nov-23 17:56:31 GMT; domain=.family-fare.pbis-cf.instacart.com; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11b9

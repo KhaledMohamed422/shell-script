@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Error Page</title>
+</head>
+<body>
+<div>
+    <p id="errorMessage">Unable to connect to the server.<br/>
+        The network may be busy, or there may be a problem with the server.<br/>
+        Please try again later.</p>
+    <p id="errorCode">[9001-2402]</p>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(function() {
+
+  var domain = location.host;
+  var regexp1 = /hac(\.[a-z]+\d?)?\.paymentweb\.nintendo\.com/;
+  var regexp2 = /mnsjp(\.[a-z]+\d?)?\.paymentweb\.nintendo\.com/;
+  var regexp3 = /hac-apm(\.[a-z]+\d?)?\.paymentweb\.nintendo\.com/;
+  var regexp4 = /ec-apm(\.[a-z]+\d?)?\.paymentweb\.nintendo\.com/;
+  if (domain.match(regexp1) != null) {
+    $('#errorCode').html('[2813-2402]');
+  } else if (domain.match(regexp2) != null) {
+    $('#errorCode').html('[9008-2402]')
+  } else if (domain.match(regexp3) != null) {
+    $('#errorCode').html('[2813-1402]')
+  } else if (domain.match(regexp4) != null) {
+    $('#errorCode').html('[9001-1402]')
+  }
+
+  var param = getQueryString();
+  var judgeLang = param["lang"];
+
+  if (typeof judgeLang === 'undefined') {
+    var browserLang = window.navigator.language || window.navigator.userLanguage || window.navigator.browserLanguage;
+    browserLang = browserLang ? browserLang.toLowerCase() : "";
+
+    if (browserLang == "en-us") {
+      judgeLang = "en_US";
+    } else if (browserLang == "en-au") {
+      judgeLang = "en_US";
+    } else if (browserLang == "en-nz") {
+      judgeLang = "en_US";
+    } else if (browserLang == "de") {
+      judgeLang = "de";
+    } else if (browserLang == "es-mx" || browserLang == "es-us") {
+      judgeLang = "es_US";
+    } else if (browserLang == "fr-ca") {
+      judgeLang = "fr_US";
+    } else if (browserLang == "fr") {
+      judgeLang = "fr";
+    } else if (browserLang == "it") {
+      judgeLang = "it";
+    } else if (browserLang == "ja") {
+      judgeLang = "ja";
+    } else if (browserLang == "nl") {
+      judgeLang = "nl";
+    } else if (browserLang == "pt") {
+      judgeLang = "pt";
+    } else if (browserLang == "ru") {
+      judgeLang = "ru";
+    } else if (browserLang == "zh-tw") {
+      judgeLang = "zh_TW";
+    } else if (browserLang == "ko") {
+      judgeLang = "ko";
+    } else if (browserLang == "pt-us") {
+      judgeLang = "pt_US";
+    } else {
+      judgeLang = "en_US";
+    }
+  }
+
+  // country
+  if (judgeLang == "en_US") {
+    $('#errorMessage').html('Unable to connect to the server.<br/>The network may be busy, or there may be a problem with the server.<br/>Please try again later.');
+  } else if (judgeLang == "de") {
+    $('#errorMessage').html('Es konnte keine Verbindung zum Server hergestellt werden.<br/>Möglicherweise ist das Netzwerk ausgelastet oder im Zusammenhang mit dem Server ist ein Fehler aufgetreten.<br/>Bitte versuche es später erneut.');
+  } else if (judgeLang == "en") {
+    $('#errorMessage').html('Unable to connect to the server.<br/>The network may be busy, or there may be a problem with the server.<br/>Please try again later.');
+  } else if (judgeLang == "es_US") {
+    $('#errorMessage').html('No se ha podido establecer la conexión con el servidor.<br/>Es posible que la red esté saturada o que se haya producido un problema en el servidor.<br/>Inténtalo de nuevo más tarde.');
+  } else if (judgeLang == "es") {
+    $('#errorMessage').html('No se ha podido establecer la conexión con el servidor.<br/>Es posible que la red esté saturada o que se haya producido un problema en el servidor.<br/>Inténtalo de nuevo más tarde.');
+  } else if (judgeLang == "fr_US") {
+    $('#errorMessage').html('La connexion au serveur a échoué.<br/>Il se peut que le réseau soit surchargé ou que le signal soit perturbé.<br/>Réessayez ultérieurement.');
+  } else if (judgeLang == "fr") {
+    $('#errorMessage').html('La connexion au serveur a échoué.<br/>Il se peut que le réseau soit surchargé ou que le signal soit perturbé.<br/>Réessayez ultérieurement.');
+  } else if (judgeLang == "it") {
+    $('#errorMessage').html('Impossibile collegarsi al server.<br/>La rete potrebbe essere occupata o potrebbe essersi verificato un problema con il server.<br/>Riprova più tardi.');
+  } else if (judgeLang == "ja") {
+    $('#errorMessage').html('サーバーに接続できませんでした。<br/>ネットワークが混み合っているか、サーバーに問題が発生しています。<br/>しばらく待って、やりなおしてください。');
+  } else if (judgeLang == "nl") {
+    $('#errorMessage').html('Er kan geen verbinding worden gemaakt met de server.<br/>Mogelijk is het netwerk overbelast of is er een probleem met de server.<br/>Probeer het later nog eens.');
+  } else if (judgeLang == "pt") {
+    $('#errorMessage').html('Não foi possível estabelecer ligação ao servidor.<br/>É possível que a rede esteja sobrecarregada ou que a intensidade do sinal sem fios seja fraca.<br/>Tenta novamente mais tarde.');
+  } else if (judgeLang == "ru") {
+    $('#errorMessage').html('Невозможно подключиться к серверу.<br/>Возможно, сеть занята или возникли проблемы с сервером.<br/>Повторите попытку позже.');
+  } else if (judgeLang == "zh_TW") {
+    $('#errorMessage').html('無法連接到伺服器。<br/>可能是網路發生阻塞，或伺服器出現故障。<br/>請稍待片刻，重新進行連接。');
+  } else if (judgeLang == "ko") {
+    $('#errorMessage').html('서버에 접속하지 못했습니다.<br/>네트워크에 접속이 집중되고 있거나 서버에 문제가 발생했습니다.<br/>잠시 후 다시 시도해 주십시오.');
+  } else if (judgeLang == "pt_US") {
+    $('#errorMessage').html('Não foi possível estabelecer uma conexão com o servidor.<br/>É possível que a rede esteja sobrecarregada ou que o servidor esteja enfrentando problemas.<br/>Tente novamente mais tarde.<br/><br/>Para mais informações, visite a página do serviço de atendimento.<br/>support.nintendo.com');
+  } else {
+    $('#errorMessage').html('Unable to connect to the server.<br/>The network may be busy, or there may be a problem with the server.<br/>Please try again later.');
+  }
+
+  function getQueryString() {
+
+    // 最初の1文字 (記号) を除いた文字列を取得する
+    var query = document.location.search.substring(1);
+
+    // 分割文字列の定義
+    var splitString = "&amp;";
+    splitString = splitString.replace("amp;", "");
+
+    // クエリの区切り記号で文字列を配列に分割する
+    var parameters = query.split(splitString);
+    var result = new Object();
+    for ( var pname in parameters) {
+      // パラメータ名とパラメータ値に分割する
+      var element = parameters[pname].split('=');
+      var paramName = decodeURIComponent(element[0]);
+      var paramValue = decodeURIComponent(element[1]);
+
+      // パラメータ名をキーとして連想配列に追加する
+      result[paramName] = decodeURIComponent(paramValue);
+    }
+    return result;
+  }
+})
+</script>
+</html>
+0
+
+
+
+
+http://ec.paymentweb.nintendo.com:80

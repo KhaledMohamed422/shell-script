@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: trust.tinderwebstaging.com
+User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:36.0) Gecko/20100101 Firefox/36.0 SeaMonkey/2.33.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: must-revalidate, public, max-age=3600
+Content-Security-Policy: script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline' blob:; img-src * data: blob:; media-src * data:
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:47 GMT
+Etag: W/"5e680-E40CUbT2nmracUhr6+/gG68prxI"
+Referrer-Policy: origin-when-cross-origin
+Server: nginx
+Set-Cookie: AWSALB=RH6WrpkomrffqcahyHlQSJVsfErIJD3Jj4XNKvAkmSiMnk0T5oAnVewtIS/OGb3GKZ2ZLi1onkkauyB3AloQ0SM9EF88Cw5ClpHUoMt5usVaEUGwKF28MT0NaWP/; Expires=Wed, 15 Nov 2023 18:46:47 GMT; Path=/
+Set-Cookie: AWSALBCORS=RH6WrpkomrffqcahyHlQSJVsfErIJD3Jj4XNKvAkmSiMnk0T5oAnVewtIS/OGb3GKZ2ZLi1onkkauyB3AloQ0SM9EF88Cw5ClpHUoMt5usVaEUGwKF28MT0NaWP/; Expires=Wed, 15 Nov 2023 18:46:47 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 00746b020527dcdbeca0dab6f6de299a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RiXyjhochOVpdPLMQYYdXXmM98nZSUp2Qcvrj-NGXsj6hmfMWtc9rg==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Miss from cloudfront
+X-Content-Security-Policy: script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline' blob:; img-src * data: blob:; media-src * data:
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: on
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Render-Method: ssr
+X-Response-Time: 13.402ms
+X-Robots-Tag: noindex
+X-Webkit-Csp: script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline' blob:; img-src * data: blob:; media-src * data:
+X-Xss-Protection: 1; mode=block
+
+5e680

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: dog-qa1.bingo.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.14) Gecko/20110218 AlexaToolbar/alxf-2.0 Firefox/3.6.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:27:43 GMT
+Server: kindred-loadbalancer
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: U
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ooops-Debug: /500-pages/dog.bingo.com/index.html
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

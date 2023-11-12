@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: nerdscholar.nerdwallet.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.11) Gecko/2009060309 Ubuntu/9.10 (karmic) Firefox/3.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 166
+Content-Security-Policy: frame-ancestors 'none';
+Content-Security-Policy-Report-Only: default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:03:46 GMT
+Location: https://nerdscholar.nerdwallet.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Nerd: Edge
+X-Xss-Protection: 1; mode=block;
+

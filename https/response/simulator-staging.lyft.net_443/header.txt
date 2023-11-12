@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: simulator-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:13 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9zaW11bGF0b3Itc3RhZ2luZy5seWZ0Lm5ldC8iLCAic3ZjIjogInNpbXVsYXRvci1zdGFnaW5nLmx5ZnQubmV0In0%3D%7C10.47.140.59%7C1699394713%7Cbfafaa928073c463d8d08982fb2c55e733ac85d0711d266e6502bc0c4067c037
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

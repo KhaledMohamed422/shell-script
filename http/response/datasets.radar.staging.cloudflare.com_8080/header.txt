@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: datasets.radar.staging.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.4997.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ddca1a1b8749-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:08:41 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=W8x0j8XjHnAwkpEBoVOGUaqF_k_JbM.DTHWe4tO4h_g-1699384121-0-AVxVHrW9KMT1p5pe+9qmDgbUOzyszGJKRmJ7B9aDDXabuDyNp9OQsV/lcPCH6H3b8aA9Ay3psh0DfNhULZ92YmE=; path=/; expires=Tue, 07-Nov-23 19:38:41 GMT; domain=.radar.staging.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+419a

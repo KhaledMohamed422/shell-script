@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: findmycela.githubapp.com
+User-Agent: Mozilla/5.0 (PLAYSTATION 3; 2.00)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:21:37 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3D4ce84b76-2a5e-4304-8b4d-f5b907b87822%26page_id%3D27836331%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=4ce84b76-2a5e-4304-8b4d-f5b907b87822; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 94353d8dd388f1cc82afe014014c27cfbea46d1e
+X-Github-Request-Id: E3B6:DB58:23CA66:248037:654AF0B1
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230063-FRA
+X-Timer: S1699410097.105239,VS0,VE189
+

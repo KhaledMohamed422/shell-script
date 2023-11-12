@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: en.alibaba.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A526U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:51:40 GMT
+Eagleid: 2103285b16994371003565794e8792
+Location: https://m.alibaba.com/
+Server: Tengine
+Server-Timing: rt;dur=0.003,eagleid;desc=2103285b16994371003565794e8792
+Set-Cookie: ali_apache_id=33.3.40.91.1699437100361.301497.3; path=/; domain=.alibaba.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+

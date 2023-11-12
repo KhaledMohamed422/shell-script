@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: onboarding-us.cloud.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows XP) Gecko MultiZilla/1.6.1.0a
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Connection: keep-alive
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:25:35 GMT
+Etag: W/"7e7-xnqSt9VeNTaYR0lD0ZvztmEwWHg"
+Keep-Alive: timeout=5
+Pragma: no-cache
+Set-Cookie: customer=root; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure
+Set-Cookie: customer=; Domain=.cloud.com; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: c057ebab-4a08-4152-a2b9-90725e2a2958
+X-Frame-Options: DENY
+
+7e7

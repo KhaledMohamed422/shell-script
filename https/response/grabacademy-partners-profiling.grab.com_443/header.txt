@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: grabacademy-partners-profiling.grab.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 Safari/537.36 Edg/98.0.1108.76
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval'; font-src * data: blob; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:27:20 GMT
+Permissions-Policy: geolocation=*, midi=(), sync-xhr=(), accelerometer=(), gyroscope=(), magnetometer=(), payment=(), camera=(), microphone=(), usb=(), fullscreen=(self)
+Referrer-Policy: strict-origin-when-cross-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 db3ad39d2b444e5c9e38affc6638a5cc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: X_ix2lSi9tBDwdpn1hmF9c7Uw6IdNIrhZx5A1YQ0_guxGkpfsKS1Gg==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

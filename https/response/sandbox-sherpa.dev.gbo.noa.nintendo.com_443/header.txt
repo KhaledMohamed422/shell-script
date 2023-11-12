@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: sandbox-sherpa.dev.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Android 6.0.1; Mobile; rv:48.0) Gecko/48.0 Firefox/48.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:39:12 GMT
+X-Amz-Apigw-Id: OGCLGEM6vHcEvpA=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 491b0995-173b-4694-9b6c-9c1ed867108c
+
+{"message":"Forbidden"}
+
+
+https://sandbox-sherpa.dev.gbo.noa.nintendo.com:443

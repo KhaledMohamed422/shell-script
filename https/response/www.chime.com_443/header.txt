@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: www.chime.com
+User-Agent: Download Demon/3.5.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Age: 21272
+Cache-Control: public, max-age=86400
+Content-Security-Policy: frame-ancestors 'self' https://app.chime.com; base-uri 'none'; form-action 'self' https://www.facebook.com/tr/; object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https:; font-src https: data:; media-src https:; style-src 'unsafe-inline' https:; worker-src https:; img-src https: data:
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-site
+Date: Tue, 07 Nov 2023 21:29:40 GMT
+Link: <https://www.chime.com/sscms-rest/>; rel="https://api.w.org/"
+Link: <https://www.chime.com/sscms-rest/wp/v2/pages/2>; rel="alternate"; type="application/json"
+Link: <https://www.chime.com/>; rel=shortlink
+Permissions-Policy: display-capture=(), screen-wake-lock=(), microphone=(), payment=(), usb=()
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx
+Strict-Transport-Security: max-age=31622400; includeSubDomains; preload
+Vary: Accept-Encoding, X-OS-Name, Cookie, Cookie, orig-host
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+X-Cache: HIT, HIT, MISS, MISS
+X-Cache-Hits: 30, 9, 0, 0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Pantheon-Styx-Hostname: styx-fe1-a-79799f755-cdg9n
+X-Pingback: https://www.chime.com/xmlrpc.php
+X-Served-By: cache-chi-kigq8000152-CHI, cache-fra-eddf8230122-FRA, cache-fra-eddf8230122-FRA, cache-fra-eddf8230126-FRA
+X-Styx-Req-Id: 3b65bd4c-7d83-11ee-ad54-9a1d7a7c031a
+X-Timer: S1699392580.458527,VS0,VE8
+
+

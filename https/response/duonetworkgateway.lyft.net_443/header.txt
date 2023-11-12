@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: duonetworkgateway.lyft.net
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: default-src 'self'; child-src 'self' https://*.duosecurity.com https://*.duofederal.com https://*.fed.trustedpath.info; frame-src 'self' https://*.duosecurity.com https://*.duofederal.com https://*.fed.trustedpath.info; object-src 'none'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 22:02:38 GMT
+Location: /login
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 15
+X-Frame-Options: DENY
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://duonetworkgateway.lyft.net:443

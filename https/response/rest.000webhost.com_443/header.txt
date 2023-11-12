@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: rest.000webhost.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 33
+Access-Control-Allow-Origin: https://www.000webhost.com
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228aae6fc00716f-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 21:28:43 GMT
+Server: cloudflare
+Set-Cookie: __cflb=0H28vvf3EmW8dJWYGfSXqCHM2cnwSCQpSavm9rUMfdN; SameSite=Lax; path=/; expires=Wed, 08-Nov-23 20:28:43 GMT; HttpOnly
+Strict-Transport-Security: max-age=2592000
+X-Content-Type-Options: nosniff
+X-Frame-Options: sameorigin
+X-Hostinger-Datacenter: gcp
+X-Hostinger-Node: europe-west2
+X-Xss-Protection: 1; mode=block
+
+
+{"result":"REST API","error":[]}
+
+
+https://rest.000webhost.com:443

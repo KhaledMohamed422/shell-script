@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: tv-recorder-storage-us.tradingview.com
+User-Agent: SonyEricssonT68/R201A
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:07:11 GMT
+Server: AmazonS3
+Via: 1.1 983a038711eb4948a85355a04c2ba67c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RCix9yTSP12wCXaqxsK4pflYT7Xf-1ZZxN46R6Ls12LlltmIJjadAg==
+X-Amz-Cf-Pop: AMS58-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ZZ9PQT7D2Q3MGP0S</RequestId><HostId>SznMuwbq+esiP3JH85c2lUgj4wUnD1biQXnE+/7PWtt5y/d2LMa1c739AMTIRep0ImLjBcIVtSU=</HostId></Error>
+0
+
+
+
+
+https://tv-recorder-storage-us.tradingview.com:443

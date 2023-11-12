@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: luban-img2.aliyun.com
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaX7-00/021.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.21 Mobile Safari/533.4 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 371
+Ali-Swift-Global-Savetime: 1699437620
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:00:20 GMT
+Eagleid: 65e21ca716994376200152144e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[40,40,403-1280,M], cache13.l2cn1827[42,0], vcache1.cn4757[78,78,403-1280,M], vcache19.cn4757[88,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5C34F79106323341CAC4
+X-Oss-Server-Time: 1
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:00:20 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5C34F79106323341CAC4</RequestId>
+  <HostId>luban-ai.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://luban-img2.aliyun.com:443

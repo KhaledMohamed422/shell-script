@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: tmall-tel-marketing.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 379
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:24:46 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B53DE1F32A832380AC03D
+X-Oss-Server-Time: 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B53DE1F32A832380AC03D</RequestId>
+  <HostId>tmall-tel-marketing.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://tmall-tel-marketing.cn-hangzhou.oss.aliyun-inc.com:80

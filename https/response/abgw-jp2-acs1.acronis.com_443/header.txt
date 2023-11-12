@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: abgw-jp2-acs1.acronis.com
+User-Agent: Peach/1.01 (Ubuntu 8.04 LTS; U; en)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:10:03 GMT
+Server: nginx
+X-Amz-Err-Code: NoSuchBucket
+X-Amz-Err-Message: The specified bucket does not exist
+X-Amz-Req-Time-Micros: 1523
+X-Amz-Request-Id: 800000000000001800006a22f43bdbd4
+
+84
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message></Error>
+0
+
+
+
+
+https://abgw-jp2-acs1.acronis.com:443

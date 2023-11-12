@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="en" class="sub-site-nav alicloud-header alicloud-footer">
+<head>
+  <meta charset="UTF-8">
+  <title>Alibaba Cloud Community</title>
+  <link rel="shortcut icon" href="https://img.alicdn.com/tfs/TB1ugg7M9zqK1RjSZPxXXc4tVXa-32-32.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="alibaba cloud,cloud computing,java,database,mobile,big data,algorithm,artificial intelligence,machine learning,docker,spark" />
+  <meta name="description" content="Alibaba Cloud Community is an open platform for developers and users to learn the latest technologies in cloud computing, share technical knowlege know-how, and interact with the techical community.">
+  <meta name="csrf-param" content="yunqi_csrf"/>
+  <meta name="csrf-token" content="SHEESELCHY"/>
+  <meta name="data-spm" content="a2c65">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="aplus-rhost-v" content="sg.mmstat.com">
+  <meta name="aplus-rhost-g" content="sg.mmstat.com">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" type="text/css" href="//g.alicdn.com/??alicloud-components/alicloud-ui3/0.0.7/acUI.css,alicloud-components/acApp/0.0.3/app.css,alicloud-components/i18n/0.0.29/css/en-us/index.css,alicloud-components/iconfont/0.0.7/product-icon.css">
+  <link rel="stylesheet" type="text/css" href="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/css/index.css">
+  <link rel="stylesheet" type="text/css" href="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/css/nav.css">
+      <link rel="stylesheet" type="text/css" href="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/fonts/iconfont.css">
+  <link rel="stylesheet"  type="text/css" href="https://g.alicdn.com/ali-mod/b-alicloud-v3-bottom/0.0.19/index.css">
+    <script src="//g.alicdn.com/??alicloud-components/kloud/0.0.31/vendor/requirejs/require.js,alicloud-components/kloud/0.0.1/scripts/vendor/jquery/jquery.min.js,alicloud-components/common/scripts/layout.js,alicloud-components/alicloud-ui3/0.0.7/acUI.js"></script>
+  <script src="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/js/layout.js"></script>
+</head>
+
+<body data-spm="11461433"><script type="text/javascript">
+(function (d) {
+var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");
+t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+
+    <div class="blog-nav">
+    <div class="container">
+      <div class="row">
+        <h1>
+          Community
+        </h1>
+        <main class="blog-nav-center">
+          <a href="https://www.alibabacloud.com/blog/" class="bg">
+             Blog
+          </a>
+          
+          <a href="https://resource.alibabacloud.com/event/index">
+             Events
+          </a>
+          <a href="https://resource.alibabacloud.com/webinar/index.htm">
+             Webinars
+          </a>
+          
+          <a href="https://community.alibabacloud.com/tags/type_blog-tagid_28404/">
+              Tutorials
+          </a>
+          <a href="https://www.alibabacloud.com/forum">
+              Forum
+          </a>
+        </main>
+       
+        <ul class="blog-nav-right">
+          <li class="search"><input type="text" placeholder="Search" id="search">
+          <i class="search-btn k-iconfont icon-sousuo1"></i>
+           <div class="close-box"><img data-original="https://img.alicdn.com/tfs/TB1BIBBsbPpK1RjSZFFXXa5PpXa-24-24.png"
+                                data-toggle="lazy-loading" class="off" /><img data-original="https://img.alicdn.com/tfs/TB1vrJ2shnaK1RjSZFBXXcW7VXa-24-24.png"
+                                data-toggle="lazy-loading" class="on" /></div>         
+                        
+                        </li>
+                       </ul>
+       
+        <div class="blog-nav-right-m">
+          <i class="k-iconfont icon-sousuo1 show-search"></i>
+          <i class="show-more"></i>
+        </div>
+      </div>
+      <div class="blog-nav-main-m">
+        <ol>
+          <li><a href="https://community.alibabacloud.com">Blog</a></li>
+           <li>
+            <a href="https://resource.alibabacloud.com/event/index">
+             Events
+            </a>
+           </li>
+           <li>
+             <a href="https://resource.alibabacloud.com/webinar/index.htm">
+              Webinars
+             </a>
+           </li>
+           <li>
+             <a href="https://www.alibabacloud.com/getting-started/projects">
+               Tutorials
+             </a>
+           </li>
+           <li>
+              <a href="https://www.alibabacloud.com/forum">
+                Forum
+              </a>
+           </li>
+                  </ol>
+        <div class="btn-box">
+                    <a href="https://account.alibabacloud.com/register/register.htm?from_type=yqclub&amp;oauth_callback=https%3A%2F%2Fcommunity.alibabacloud.com%2F%3Fdo%3Dlogin" class="free" style="display: block;">
+             Create Account
+          </a>
+          <a href="https://account.alibabacloud.com/login/login.htm?from_type=yqclub&amp;oauth_callback=https%3A%2F%2Fcommunity.alibabacloud.com%2F%3Fdo%3Dlogin" class="login" style="display: block;">
+             Log In
+          </a>
+                  </div>
+      </div>
+      <div class="container blog-nav-search-m">
+        <div class="blog-nav-search-m-top">
+          <input type="text" placeholder="Search" class="int-search">
+          <button>
+            <i class="k-iconfont icon-sousuo1"></i>
+          </button>
+          <span>
+             ×
+          </span>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+    <div class="wrap container">
+    <div class="top clearfix">
+      <div class="top-left col-sm-8">
+        <a href="https://www.alibabacloud.com/blog/meet-the-2023-autumn-alibaba-cloud-mvps_600504"></a>
+        <div  class="banner"   data-bg-original="https://yqintl.alicdn.com/53661448727a843bd2640e3c63f71f1a84639570.png" data-toggle="lazy-loading"></div>
+        <main>
+          <div>
+            <h1>
+                <a href="https://www.alibabacloud.com/blog/meet-the-2023-autumn-alibaba-cloud-mvps_600504">Meet the 2023 Autumn Alibaba Cloud MVPs</a>
+            </h1>
+            <p>
+              <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+              <span>
+                <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt=""> October 20, 2023
+              </span>
+            </p>
+          </div>
+        </main>
+      </div>
+      <div class="top-right col-sm-4">
+        <div class="items">
+          <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526"></a>
+          <div  alt="" class="banner"   data-bg-original="https://yqintl.alicdn.com/9b9fdd31a393bb74281d0ce3a0e204c38a88c384.jpeg" data-toggle="lazy-loading"></div>
+          <main>
+            <div>
+              <h1>
+                <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526">Alibaba Cloud Launches Tongyi Qianwen 2.0 and Industry-specific Models to Support Customers Reap Benefits of Generative AI</a>
+              </h1>
+              <p>
+                <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+                <span>
+                  <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt=""> October 31, 2023
+                </span>
+              </p>
+            </div>
+          </main>
+        </div>
+        <div class="items">
+          <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522"></a>
+          <div   class="banner"   data-bg-original="https://yqintl.alicdn.com/23a27397c97351b0efcadec8893a0e2a1cc51e51.jpeg" data-toggle="lazy-loading"></div>
+          <main>
+            <div>
+              <h1>
+                <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522">19th Asian Games Tech Video Series | Digital Smart Technologies from Alibaba Cloud</a>
+              </h1>
+              <p>
+                <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+                <span>
+                  <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt=""> October 30, 2023
+                </span>
+              </p>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <div class="m-top swiper-container">
+      <div class="m-top-main swiper-wrapper">
+                <div class="swiper-slide"  data-bg-original = "https://yqintl.alicdn.com/53661448727a843bd2640e3c63f71f1a84639570.png"  data-toggle="lazy-loading">
+          <a href="https://www.alibabacloud.com/blog/meet-the-2023-autumn-alibaba-cloud-mvps_600504"></a>
+          <main>
+            <div>
+                <h1>
+                    <a href="https://www.alibabacloud.com/blog/meet-the-2023-autumn-alibaba-cloud-mvps_600504">Meet the 2023 Autumn Alibaba Cloud MVPs</a>
+                </h1>
+              <p>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+                <span>
+                    <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt="">October 20, 2023
+                </span>
+              </p>
+            </div>
+          </main>
+        </div>
+                <div class="swiper-slide"  data-bg-original = "https://yqintl.alicdn.com/9b9fdd31a393bb74281d0ce3a0e204c38a88c384.jpeg"  data-toggle="lazy-loading">
+          <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526"></a>
+          <main>
+            <div>
+                <h1>
+                    <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526">Alibaba Cloud Launches Tongyi Qianwen 2.0 and Industry-specific Models to Support Customers Reap Benefits of Generative AI</a>
+                </h1>
+              <p>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+                <span>
+                    <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt="">October 31, 2023
+                </span>
+              </p>
+            </div>
+          </main>
+        </div>
+                <div class="swiper-slide"  data-bg-original = "https://yqintl.alicdn.com/23a27397c97351b0efcadec8893a0e2a1cc51e51.jpeg"  data-toggle="lazy-loading">
+          <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522"></a>
+          <main>
+            <div>
+                <h1>
+                    <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522">19th Asian Games Tech Video Series | Digital Smart Technologies from Alibaba Cloud</a>
+                </h1>
+              <p>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+                <span>
+                    <img src="https://img.alicdn.com/tfs/TB1zuigpQCWBuNjy0FaXXXUlXXa-30-30.png" alt="">October 30, 2023
+                </span>
+              </p>
+            </div>
+          </main>
+        </div>
+              </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="main clearfix">
+      <section class="main-left col-sm-8">
+    <div class="btns clearfix">
+            <!-- <button id="postBtn" data-url="/blog/new" data-canpost="false">
+                <i class="icon icon-brush"></i> Post a blog
+            </button> -->
+            <a class="col-xs-6" href="https://community.alibabacloud.com/series/" target="_blank">
+                <dl>
+                    <dt>
+                        <img data-original="https://img.alicdn.com/tfs/TB1zWWdp9rqK1RjSZK9XXXyypXa-64-64.png"
+                            data-toggle="lazy-loading" class="off" />
+                        <img data-original="https://img.alicdn.com/tfs/TB1M71Ip4naK1RjSZFtXXbC2VXa-64-64.png"
+                            data-toggle="lazy-loading" class="on" />
+                    </dt>
+                    <dd>
+                        Series
+                    </dd>
+                </dl>
+            </a>
+            <a class="col-xs-6" href="https://community.alibabacloud.com/topic/" target="_blank">
+                <dl>
+                    <dt>
+                        <img data-original="https://img.alicdn.com/tfs/TB1u1OmpYvpK1RjSZPiXXbmwXXa-64-64.png"
+                            data-toggle="lazy-loading" class="off" />
+                        <img data-original="https://img.alicdn.com/tfs/TB1KqSgp9zqK1RjSZFLXXcn2XXa-64-64.png"
+                            data-toggle="lazy-loading" class="on" />
+                    </dt>
+                    <dd>
+                        Topics
+                    </dd>
+                </dl>
+            </a>
+        </div>
+        <div id="wrapper">
+          <div class="nav-box clearfix" id="scroller">
+            <ul>
+              <!--
+              <li class="bg" data-index="0" data-name="blog-trending">
+                Trending
+              </li>
+              -->
+              <li class="bg" data-index="0" data-name="blog-latest">
+                Latest
+              </li>
+                                <li data-index="3" data-name="2">Trends</li>
+                                <li data-index="17" data-name="16">GenAI</li>
+                                <li data-index="2" data-name="1">A.I.</li>
+                                <li data-index="4" data-name="3">Big Data</li>
+                                <li data-index="5" data-name="4">Computing </li>
+                                <li data-index="15" data-name="14">Cloud Native</li>
+                                <li data-index="6" data-name="5">Database</li>
+                                <li data-index="11" data-name="10">Networking</li>
+                                <li data-index="10" data-name="9">News</li>
+                                <li data-index="8" data-name="7">Storage</li>
+                                <li data-index="9" data-name="8">Web Dev</li>
+                                <li data-index="7" data-name="6">Security</li>
+                                <li data-index="12" data-name="11">Tutorials</li>
+                                <li data-index="13" data-name="12">IoT</li>
+                                <li data-index="16" data-name="15">Partner</li>
+                                <li data-index="14" data-name="13">Training and Certification</li>
+                          </ul>
+             
+          </div>
+        </div>
+        <main class="list">
+          <!--
+          <div class="list-top on" data-id="Trending">
+                      </div>
+          -->
+          <div class="list-top on" data-id="Latest">
+            
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/announcement-of-the-release-of-apache-flink-1-18_600540">Announcement of the Release of Apache Flink 1.18</a>
+      </h2>
+      <p>
+          The Apache Flink PMC is pleased to announce the release of Apache Flink 1.18.0. As usual, we are looking at a packed release with a wide variety of improvements and new features.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5782759541479310">Apache Flink Community China</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 8, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 33
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/announcement-of-the-release-of-apache-flink-1-18_600540">
+      <img src="https://yqintl.alicdn.com/136827a95e2db30cb184b89b71d8d476336179d3.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5782759541479310">Apache Flink Community China</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 8, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/using-airbyte-to-migrate-data-from-google-bigquery-to-alibaba-cloud-database-_600539">Using Airbyte to migrate data from Google BigQuery to Alibaba Cloud Database.</a>
+      </h2>
+      <p>
+          Airbyte is an open-source tool that offers flexibility for data migration (Extract) from various systems or databases through Connectors that support more than 200+.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5549430390463667">Pum</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 7, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 181
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/using-airbyte-to-migrate-data-from-google-bigquery-to-alibaba-cloud-database-_600539">
+      <img src="https://yqintl.alicdn.com/e138ff7075bc73dd364a3424f2b7b877a8d5c627.png" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5549430390463667">Pum</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 7, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%8B%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88-apsara-conference-2023-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-alibaba-cloud-%E0%B8%93-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%88%E0%B8%A7-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%88%E0%B8%B5%E0%B8%99_600538">รีวิวประสบการณ์ในวันที่ 2 ไม่ซ้ำใครที่ Apsara Conference 2023: สองวันแห่งนวัตกรรมกับ Alibaba Cloud ณ เมืองหางโจว ประเทศจีน</a>
+      </h2>
+      <p>
+          การเดินทางครั้งนี้นำพาหมวยไปยัง Alibaba Cloud Valley Park ในหัวใจของเมืองหางโจว ประเทศจีน ซึ่งเป็นสำนักงานใหญ่แห่งใหม่และสถาปัตยกรรมอันน่าตื่นตาตื่นใจ...
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5683569885296996">Yossavadee.Sak</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 6, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 316
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88-2-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%8B%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88-apsara-conference-2023-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-alibaba-cloud-%E0%B8%93-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%88%E0%B8%A7-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%88%E0%B8%B5%E0%B8%99_600538">
+      <img src="https://yqintl.alicdn.com/5bc3bfb43df456dae52f1735cf362f92243cf0c3.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5683569885296996">Yossavadee.Sak</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 6, 2023
+    </span>
+ </main>
+</section>
+
+
+<div class="album">
+    <h2>
+        Popular Series
+        <a href="https://community.alibabacloud.com/series/" target="_blank">
+            See all series >
+        </a>
+    </h2>
+    <main class="clearfix">
+            <dl class="col-sm-4">
+            <dt>
+            <a href="https://community.alibabacloud.com/series/164" target="_blank" data-bg-original="https://yqintl.alicdn.com/6c040252160e7c81887a3cf31e2ee2df6c87a53c.jpeg"
+                data-toggle="lazy-loading"></a>
+            </dt>
+            <dd>
+            <a href="https://community.alibabacloud.com/series/164" target="_blank">
+                    Generative AI
+                </a>
+            </dd>
+        </dl>
+                 <dl class="col-sm-4">
+            <dt>
+            <a href="https://community.alibabacloud.com/series/165" target="_blank" data-bg-original="https://yqintl.alicdn.com/5f0bcff35c14b8bd8b61560de03c241eff911b3b.png"
+                data-toggle="lazy-loading"></a>
+            </dt>
+            <dd>
+            <a href="https://community.alibabacloud.com/series/165" target="_blank">
+                    Optimization Solver
+                </a>
+            </dd>
+        </dl>
+                 <dl class="col-sm-4">
+            <dt>
+            <a href="https://community.alibabacloud.com/series/163" target="_blank" data-bg-original="https://yqintl.alicdn.com/8883c7cbeedb5541a7ddfc79f6f562c971b6f459.png"
+                data-toggle="lazy-loading"></a>
+            </dt>
+            <dd>
+            <a href="https://community.alibabacloud.com/series/163" target="_blank">
+                    Use ASM to Manage Knative Services
+                </a>
+            </dd>
+        </dl>
+             </main>
+</div>
+
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/alibaba-cloud-supports-cloud-migration-for-%E2%80%9Cmawdoo3%E2%80%9D-to-deliver-greater-effectiveness-business-performance-and-growth_600537">Alibaba Cloud Supports Cloud Migration for “Mawdoo3” to Deliver Greater Effectiveness, Business Performance and Growth</a>
+      </h2>
+      <p>
+          The largest Online Arabic Content Publisher will leverage the cloud leader‘s stable, secure, and high-performance IaaS and PaaS solutions and hosting services via STS.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 6, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 226
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/alibaba-cloud-supports-cloud-migration-for-%E2%80%9Cmawdoo3%E2%80%9D-to-deliver-greater-effectiveness-business-performance-and-growth_600537">
+      <img src="https://yqintl.alicdn.com/756268175f210c678b6f654e0a4e097fd69fd2d5.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 6, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%8B%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88-apsara-conference-2023-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-alibaba-cloud-%E0%B8%93-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%88%E0%B8%A7-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%88%E0%B8%B5%E0%B8%99_600536">ประสบการณ์ไม่ซ้ำใครที่ Apsara Conference 2023: สองวันแห่งนวัตกรรมกับ Alibaba Cloud ณ เมืองหางโจว ประเทศจีน</a>
+      </h2>
+      <p>
+          ในโลกที่เทคโนโลยีกำลังเปลี่ยนแปลงทุกมิติของชีวิต Alibaba cloud  ได้เปิดตัวแพลตฟอร์มสำหรับนักนวัตกรรม นักพัฒนา  และผู้ประกอบการจากทั่วโลก
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5683569885296996">Yossavadee.Sak</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 6, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 435
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%8B%E0%B9%89%E0%B8%B3%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88-apsara-conference-2023-%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A-alibaba-cloud-%E0%B8%93-%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%82%E0%B8%88%E0%B8%A7-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%88%E0%B8%B5%E0%B8%99_600536">
+      <img src="https://yqintl.alicdn.com/5bc3bfb43df456dae52f1735cf362f92243cf0c3.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5683569885296996">Yossavadee.Sak</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 6, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/optimizing-costs-with-alibaba-cloud-reserved-instances_600535">Optimizing Costs with Alibaba Cloud Reserved Instances</a>
+      </h2>
+      <p>
+          This article introduces Alibaba Cloud&#039;s Reserved Instances (RIs) and explains how you can benefit from them.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5687067885878999">blog.acpn</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 6, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 213
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/optimizing-costs-with-alibaba-cloud-reserved-instances_600535">
+      <img src="https://yqintl.alicdn.com/53bf54340e695e55254a7e8e71b807530382815b.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5687067885878999">blog.acpn</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 6, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/migrating-wordpress-between-simple-application-server_600534">MIGRATING WORDPRESS BETWEEN SIMPLE APPLICATION SERVER</a>
+      </h2>
+      <p>
+          This overview guides you through the process of migrating your WordPress website from Simple Application Server (SAS) A to Simple Application Server B on Alibaba Cloud.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5933690047162806">Alibaba Cloud Indonesia</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 6, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 220
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/migrating-wordpress-between-simple-application-server_600534">
+      <img src="https://yqintl.alicdn.com/6d2335d2b9fced3dbe5606d5f9f4da92c57c51b8.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5933690047162806">Alibaba Cloud Indonesia</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 6, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/alibaba-cloud-announces-availability-of-salesforce-sales-cloud-service-cloud-and-salesforce-platform-on-alibaba-cloud-beginning-december-2023_600533">Alibaba Cloud Announces Availability of Salesforce Sales Cloud, Service Cloud and Salesforce Platform on Alibaba Cloud beginning December 2023</a>
+      </h2>
+      <p>
+          Alibaba Cloud announced the general availability of Salesforce Sales Cloud, Service Cloud, and Salesforce Platform on Alibaba Cloud starting December 18, 2023.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 3, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 398
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/alibaba-cloud-announces-availability-of-salesforce-sales-cloud-service-cloud-and-salesforce-platform-on-alibaba-cloud-beginning-december-2023_600533">
+      <img src="https://yqintl.alicdn.com/6b31e4b33d0e3e9b668677dfbf1b7ee59677aefa.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 3, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/tr%E1%BB%B0c-quan-h%C3%93a-d%E1%BB%AE-li%E1%BB%86u-x%C3%82y-d%E1%BB%B0ng-data-dashboard-v%E1%BB%9Ai-alibaba-cloud-data-v_600532">TRỰC QUAN HÓA DỮ LIỆU: XÂY DỰNG DATA DASHBOARD VỚI ALIBABA CLOUD DATA-V</a>
+      </h2>
+      <p>
+          Bài viết này sẽ hướng dẫn cách trực quan hoá dữ liệu
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 2, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 693
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/tr%E1%BB%B0c-quan-h%C3%93a-d%E1%BB%AE-li%E1%BB%86u-x%C3%82y-d%E1%BB%B0ng-data-dashboard-v%E1%BB%9Ai-alibaba-cloud-data-v_600532">
+      <img src="https://yqintl.alicdn.com/78850afaaadb0f9e947fd3b1ffb5d9f97df0c31b.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 2, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/tri%E1%BB%82n-khai-c%C6%A0-s%E1%BB%9E-d%E1%BB%AE-li%E1%BB%86u-tr%C3%8An-alibaba-cloud-th%E1%BB%B0c-hi%E1%BB%86n-di-chuy%E1%BB%82n-load-d%E1%BB%AE-li%E1%BB%86u-t%E1%BB%AA-rds-sang-analyticsdb_600531">TRIỂN KHAI CƠ SỞ DỮ LIỆU TRÊN ALIBABA CLOUD: THỰC HIỆN DI CHUYỂN/ LOAD DỮ LIỆU TỪ RDS SANG ANALYTICSDB</a>
+      </h2>
+      <p>
+          Bài viết này hướng dẫn cách triển khai cơ sở dữ liệu trên Alibaba Cloud
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 2, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 599
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/tri%E1%BB%82n-khai-c%C6%A0-s%E1%BB%9E-d%E1%BB%AE-li%E1%BB%86u-tr%C3%8An-alibaba-cloud-th%E1%BB%B0c-hi%E1%BB%86n-di-chuy%E1%BB%82n-load-d%E1%BB%AE-li%E1%BB%86u-t%E1%BB%AA-rds-sang-analyticsdb_600531">
+      <img src="https://yqintl.alicdn.com/bcc55311ca710e56f02d9a4e331cab4f525dad26.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 2, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/apsaravideo-live-enhancing-engagement-and-reach-for-news-organizations-through-live-streaming_600530">ApsaraVideo Live: Enhancing Engagement and Reach for News Organizations Through Live Streaming</a>
+      </h2>
+      <p>
+          This blog discusses one of the major featured products facilitated by Alibaba Cloud, ApsaraVideo Live.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5764402037887925">Rupal_Click2Cloud</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 2, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 241
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/apsaravideo-live-enhancing-engagement-and-reach-for-news-organizations-through-live-streaming_600530">
+      <img src="https://yqintl.alicdn.com/cac3f765128d65e645b6d1edef8dc9b10437fdc7.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5764402037887925">Rupal_Click2Cloud</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 2, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/t%E1%BA%A0o-m%E1%BB%98t-instance-analyticsdb-%C4%90%E1%BB%82-t%E1%BB%94-ch%E1%BB%A8c-kho-d%E1%BB%AE-li%E1%BB%86u-tr%C3%8An-alibaba-cloud_600529">TẠO MỘT INSTANCE ANALYTICSDB ĐỂ TỔ CHỨC KHO DỮ LIỆU TRÊN ALIBABA CLOUD</a>
+      </h2>
+      <p>
+          Bài viết này hướng dẫn tạo một INSTANCE ANALYTICSDB để tổ chức kho dữ liệu trên Alibaba Cloud
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 2, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 220
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/t%E1%BA%A0o-m%E1%BB%98t-instance-analyticsdb-%C4%90%E1%BB%82-t%E1%BB%94-ch%E1%BB%A8c-kho-d%E1%BB%AE-li%E1%BB%86u-tr%C3%8An-alibaba-cloud_600529">
+      <img src="https://yqintl.alicdn.com/885c648d105b2553b531844ff96d14527b6267e8.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 2, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/thao-t%C3%81c-v%E1%BB%9Ai-c%C6%A0-s%E1%BB%9E-d%E1%BB%AE-li%E1%BB%86u-v%E1%BB%9Ai-alibaba-cloud-dms_600528">THAO TÁC VỚI CƠ SỞ DỮ LIỆU VỚI ALIBABA CLOUD DMS</a>
+      </h2>
+      <p>
+          Bài viết này sẽ hướng dẫn cách thao tác với cơ sở dữ liệu của Alibaba Cloud DMS.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 2, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 570
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/thao-t%C3%81c-v%E1%BB%9Ai-c%C6%A0-s%E1%BB%9E-d%E1%BB%AE-li%E1%BB%86u-v%E1%BB%9Ai-alibaba-cloud-dms_600528">
+      <img src="https://yqintl.alicdn.com/0a23856eeba8b677052d16a84c899dba362ff04c.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 2, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/host-database-on-rds-instance_600527">HOST DATABASE ON RDS INSTANCE</a>
+      </h2>
+      <p>
+          Bài viết hướng dẫn bạn cách tạo một instance RDS, tạo người dùng và cơ sở dữ liệu cho instance RDS.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> November 1, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 285
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/host-database-on-rds-instance_600527">
+      <img src="https://yqintl.alicdn.com/8ad36f325fc711760956b08e35dba03b9cb4e272.png" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5887938963054610">Alibaba Cloud Vietnam</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        November 1, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526">Alibaba Cloud Launches Tongyi Qianwen 2.0 and Industry-specific Models to Support Customers Reap Benefits of Generative AI</a>
+      </h2>
+      <p>
+          New AI Model Building Platform and a suite of innovative cloud products were launched to cater for the surging demand among customers and developers.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 31, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 2,386
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/alibaba-cloud-launches-tongyi-qianwen-2-0-and-industry-specific-models-to-support-customers-reap-benefits-of-generative-ai_600526">
+      <img src="https://yqintl.alicdn.com/9b9fdd31a393bb74281d0ce3a0e204c38a88c384.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 31, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/implementing-security-protection-capability-in-cloud-native-gateway_600525">Implementing Security Protection Capability in Cloud-Native Gateway</a>
+      </h2>
+      <p>
+          This article describes  the evolution of the cloud-native gateway architecture and how to realize security protection capability with cloud-native gateway.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 31, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 527
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/implementing-security-protection-capability-in-cloud-native-gateway_600525">
+      <img src="https://yqintl.alicdn.com/3f66afac70f41d7e5abd6a912ad403e77b45f68b.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 31, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/how-does-spring-cloud-introduce-cloud-native-gateway-and-innovate-microservice-architecture_600524">How Does Spring Cloud Introduce Cloud-native Gateway and Innovate Microservice Architecture</a>
+      </h2>
+      <p>
+          This article explores how to leverage Higress to implement best practices for Spring Cloud Alibaba application deployment.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 31, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 879
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/how-does-spring-cloud-introduce-cloud-native-gateway-and-innovate-microservice-architecture_600524">
+      <img src="https://yqintl.alicdn.com/45be649dec38c0ff32a8c937e3d3930def2998bf.png" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 31, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/a-new-paradigm-for-cloud-native-gateway-deployment-%7C-higress-1-1-supports-non-kubernetes-deployment_600523">A New Paradigm for Cloud-native Gateway Deployment | Higress 1.1 Supports Non-Kubernetes Deployment</a>
+      </h2>
+      <p>
+          This article introduces the core features of Higress 1.1.0.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 31, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 362
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/a-new-paradigm-for-cloud-native-gateway-deployment-%7C-higress-1-1-supports-non-kubernetes-deployment_600523">
+      <img src="https://yqintl.alicdn.com/6c171f39aef4340f60a2b141c2e27bd6e1dc21f2.png" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5375432405181568">Alibaba Cloud Native Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 31, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522">19th Asian Games Tech Video Series | Digital Smart Technologies from Alibaba Cloud</a>
+      </h2>
+      <p>
+          Watch this tech video series on the 19th Asian Games Hangzhou to learn about digital smart technologies from Alibaba Cloud.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 30, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 757
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/19th-asian-games-tech-video-series-%7C-digital-smart-technologies-from-alibaba-cloud_600522">
+      <img src="https://yqintl.alicdn.com/23a27397c97351b0efcadec8893a0e2a1cc51e51.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5337701737861729">Alibaba Cloud Community</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 30, 2023
+    </span>
+ </main>
+</section>
+
+<section>
+  <dl>
+    <dd>
+      <h2>
+          <a href="https://www.alibabacloud.com/blog/about-database-kernel-%7C-polardb-query-optimization-predicate-pushdown_600521">About Database Kernel | PolarDB Query Optimization: Predicate Pushdown</a>
+      </h2>
+      <p>
+          This article describes the definition of predicate pushdown and why databases should perform predicate pushdown.
+      </p>
+      <aside>
+        <a href="https://community.alibabacloud.com/users/5190830865598772">ApsaraDB</a>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img"> October 30, 2023
+        </span>
+        <span>
+          <img src="https://img.alicdn.com/tfs/TB19L9AbXuWBuNjSspnXXX1NVXa-40-26.png" alt="" class="eye-img"> 262
+        </span>
+      </aside>
+    </dd>
+        <dt>
+      <a href="https://www.alibabacloud.com/blog/about-database-kernel-%7C-polardb-query-optimization-predicate-pushdown_600521">
+      <img src="https://yqintl.alicdn.com/46248b11003219713159a7bf89a1dbe8232fcb1f.jpeg" alt="">
+      </a>
+    </dt>
+      </dl>
+  <main>
+    <a href="https://community.alibabacloud.com/users/5190830865598772">ApsaraDB</a>
+    <span>
+        <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt="" class="time-img">
+        October 30, 2023
+    </span>
+ </main>
+</section>
+
+   
+          </div>
+          
+          <div class="loading-more">
+            <span>
+              Loading More…
+            </span>
+          </div>
+          <div class="loading-more-btn">
+            <button>
+              Load More
+            </button>
+          </div>
+        </main>
+      </section>
+      <section class="main-right col-sm-4">
+      
+      
+        <div class="main-right-top clearfix">
+ 
+          
+        	<a class="col-sm-4 col-xs-6" href="javascript:;"   id="postBtn" data-url="/blog/new"
+                        data-canpost="false">
+                        <dl>
+                            <dt>
+                                <img data-original="https://img.alicdn.com/tfs/TB12iGipZbpK1RjSZFyXXX_qFXa-64-64.png"
+                                    data-toggle="lazy-loading" class="off" />
+                                <img data-original="https://img.alicdn.com/tfs/TB1ineip9zqK1RjSZFpXXakSXXa-64-64.png"
+                                    data-toggle="lazy-loading" class="on" />
+                            </dt>
+                            <dd>
+                                New Post
+                            </dd>
+                        </dl>
+                    </a>
+           
+                    <a class="col-sm-4 col-xs-6" href="https://community.alibabacloud.com/series/" target="_blank">
+                        <dl>
+                            <dt>
+                                <img data-original="https://img.alicdn.com/tfs/TB1zWWdp9rqK1RjSZK9XXXyypXa-64-64.png"
+                                    data-toggle="lazy-loading" class="off" />
+                                <img data-original="https://img.alicdn.com/tfs/TB1M71Ip4naK1RjSZFtXXbC2VXa-64-64.png"
+                                    data-toggle="lazy-loading" class="on" />
+                            </dt>
+                            <dd>
+                                Series
+                            </dd>
+                        </dl>
+                    </a>
+                    <a class="col-sm-4 col-xs-6" href="https://community.alibabacloud.com/topic/" target="_blank">
+                        <dl>
+                            <dt>
+                                <img data-original="https://img.alicdn.com/tfs/TB1u1OmpYvpK1RjSZPiXXbmwXXa-64-64.png"
+                                    data-toggle="lazy-loading" class="off" />
+                                <img data-original="https://img.alicdn.com/tfs/TB1KqSgp9zqK1RjSZFLXXcn2XXa-64-64.png"
+                                    data-toggle="lazy-loading" class="on" />
+                            </dt>
+                            <dd>
+                                Topics
+                            </dd>
+                        </dl>
+                    </a>
+        
+         </div>
+                <div class="main-right-list">
+          <div class="main-right-list-nav">
+            <p>
+              Top Posts
+            </p>
+            <aside>
+                          <span class="bg">
+                Week
+              </span>
+                                          <span >
+                Month
+              </span>
+                          </aside>
+          </div>
+                      <div class="main-right-list-main on">
+                        <section>
+              <p>                  01
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/analysis-of-alibaba-cloud-container-network-data-link-1-flannel_600081">Analysis of Alibaba Cloud Container Network Data Link (1): Flannel</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5691256246350893">
+                      Alibaba Cloud Native
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> June 7, 2023
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  02
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/ushering-in-the-era-of-serverless-containers-with-elastic-container-instance-eci_594408">Ushering in the Era of Serverless Containers with Elastic Container Instance (ECI)</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5315936041518246">
+                      Alibaba Cloud ECS
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> January 23, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  03
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/from-distributed-consensus-algorithms-to-the-blockchain-consensus-mechanism_595315">From Distributed Consensus Algorithms to the Blockchain Consensus Mechanism</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5833760738321929">
+                      Wei Kuo
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> August 30, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  04
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/simplified-management-with-service-mesh_597354">Simplified Management with Service Mesh</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5040995529404844">
+                      Alibaba Clouder
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> February 22, 2021
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  05
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/meetmumz-connecting-mothers-across-asia-%7C-video-story_599108">MeetMumz: Connecting Mothers across Asia | Video Story</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5212856411468440">
+                      AsiaStar Focus
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> July 5, 2022
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  06
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/the-art-of-code-comments-does-good-code-need-comments_600184">The Art of Code Comments: Does Good Code Need Comments?</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">
+                      Alibaba Cloud Community
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> July 12, 2023
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  07
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/best-practice-create-a-chatbot-with-llm-and-analyticdb-for-postgresql-on-alibaba-cloud_600186">Best Practice: Create a Chatbot with LLM and AnalyticDB for PostgreSQL on Alibaba Cloud</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5190830865598772">
+                      ApsaraDB
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> July 13, 2023
+                  </span>
+                </aside>
+              </main>
+            </section>
+                          <section>
+              <p>                  08
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/renew-your-alibaba-cloud-certification-and-propel-your-career_600471">Renew Your Alibaba Cloud Certification and Propel Your Career</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5206027474531918">
+                      Alibaba Cloud_Academy
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> October 11, 2023
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        </div>
+                                 <div class="main-right-list-main ">
+                        <section>
+              <p>                  01
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/from-distributed-consensus-algorithms-to-the-blockchain-consensus-mechanism_595315">From Distributed Consensus Algorithms to the Blockchain Consensus Mechanism</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5833760738321929">
+                      Wei Kuo
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> August 30, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  02
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/how-to-use-nginx-as-an-https-forward-proxy-server_595799">How to Use NGINX as an HTTPS Forward Proxy Server</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5001858778414039">
+                      William Pan
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> February 6, 2020
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  03
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/why-is-a-sql-log-file-huge-and-how-should-i-deal-with-it_598491">Why Is a SQL Log File Huge and How Should I Deal with It?</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">
+                      Alibaba Cloud Community
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> January 18, 2022
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  04
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/kubernetes-volume-basics-emptydir-and-persistentvolume_594834">Kubernetes Volume Basics: emptyDir and PersistentVolume</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5040995529404844">
+                      Alibaba Clouder
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> May 21, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  05
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/how-to-bind-mysql-server-to-more-than-one-ip-address_598515">How to Bind MySQL Server to More Than One IP Address</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">
+                      Alibaba Cloud Community
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> January 25, 2022
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  06
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/how-to-write-a-high-performance-sql-join-implementation-and-best-practices-of-joins_599145">How to Write a High-Performance SQL Join: Implementation and Best Practices of Joins</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729">
+                      Alibaba Cloud Community
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> July 15, 2022
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  07
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/java-programming-skills-boilerplate-code_598058">Java Programming Skills – Boilerplate Code</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5187276649439743">
+                      Changyi
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> September 2, 2021
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  08
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/ant-financials-going-all-in-on-cloud-native_595519">Ant Financial&#039;s Going All in on Cloud Native</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5483361956545157">
+                      Alipay Technology
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> November 6, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                  09
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/the-now-and-future-of-financial-data-intelligence-at-ant-financial_595520">The Now and Future of Financial Data Intelligence at Ant Financial</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5483361956545157">
+                      Alipay Technology
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> November 6, 2019
+                  </span>
+                </aside>
+              </main>
+            </section>
+                        <section>
+              <p>                      10
+                  </p>
+              <main>
+                <h2>
+                    <a href="https://www.alibabacloud.com/blog/what-is-the-default-username-and-password-for-elasticsearch_599610">What is the Default Username and Password for Elasticsearch</a>
+                </h2>
+                <aside>
+                  <a href="https://community.alibabacloud.com/users/5543061340222535">
+                      Nick Fan
+                  </a>
+                  <span>
+                    <img src="https://img.alicdn.com/tfs/TB1h1SxbkOWBuNjSsppXXXPgpXa-28-28.png" alt=""> December 30, 2022
+                  </span>
+                </aside>
+              </main>
+            </section>
+                      </div>
+                  </div>
+           
+                <div class="main-right-table">
+          <div class="main-right-table-nav">
+            <p>
+              Top Bloggers
+            </p>
+            <aside>
+                            <span class="bg">
+                Week
+              </span>
+                                          <span >
+                Month
+              </span>
+                          </aside>
+          </div>
+          <div class="main-right-table-main on">
+            <table>
+              <thead>
+              <tr>
+                <td>
+                  Ranking
+                </td>
+                <td>
+                  Blogger
+                </td>
+                <td>
+                  Posts
+                </td>
+              </tr>
+              </thead>
+                            <tbody class="on">
+                            <tr>
+                <td>
+                  1
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5683569885296996" target="_brank" rel="nofollow">Yossavadee.Sak</a>
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  2
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5933690047162806" target="_brank" rel="nofollow">Alibaba Cloud Indonesia</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  3
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5782759541479310" target="_brank" rel="nofollow">Apache Flink Community China</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  4
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5687067885878999" target="_brank" rel="nofollow">blog.acpn</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  5
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729" target="_brank" rel="nofollow">Alibaba Cloud Community</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  6
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5549430390463667" target="_brank" rel="nofollow">Pum</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            </tbody>
+                                          <tbody>
+                            <tr>
+                <td>
+                  1
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5887938963054610" target="_brank" rel="nofollow">Alibaba Cloud Vietnam</a>
+                </td>
+                <td>
+                  5
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  2
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5337701737861729" target="_brank" rel="nofollow">Alibaba Cloud Community</a>
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  3
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5683569885296996" target="_brank" rel="nofollow">Yossavadee.Sak</a>
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  4
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5933690047162806" target="_brank" rel="nofollow">Alibaba Cloud Indonesia</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  5
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5782759541479310" target="_brank" rel="nofollow">Apache Flink Community China</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  6
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5687067885878999" target="_brank" rel="nofollow">blog.acpn</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  7
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5549430390463667" target="_brank" rel="nofollow">Pum</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            <tr>
+                <td>
+                  8
+                </td>
+                <td>
+                  <a href="https://community.alibabacloud.com/users/5764402037887925" target="_brank" rel="nofollow">Rupal_Click2Cloud</a>
+                </td>
+                <td>
+                  1
+                </td>
+              </tr>
+                            </tbody>
+                          </table>
+          </div>
+        </div>
+                                <div class="main-right-user">
+          <div class="main-right-user-top">
+            Popular Bloggers
+          </div>
+          <div class="main-right-user-main">
+                          <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_ab2363a06f15f1afc6dc7717ccd2769d.jpg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="digoal" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5840330778398571" target="_brank" rel="nofollow">digoal</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  271 posts | 24 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_3ca334f2191242902ade04c10079ce3d.png?x-oss-process=image/resize,m_fixed,h_64,w_64" title="JDP" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5892183505326952" target="_brank" rel="nofollow">JDP</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  71 posts | 151 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_9087f645694d32e2a74e0e9b790cd26e.png?x-oss-process=image/resize,m_fixed,h_64,w_64" title="Xi Ning Wang(王夕宁)" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5708633029319438" target="_brank" rel="nofollow">Xi Ning Wang(王夕宁)</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  56 posts | 8 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_9b533ac514791ff418b5d8b9fffe6293.jpg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="Alex" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5310506505340619" target="_brank" rel="nofollow">Alex</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  53 posts | 8 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_f202aba622af7d5b5c4d3e5774a8270c.jpg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="PM - C2C_Yuan" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/1077970544931979" target="_brank" rel="nofollow">PM - C2C_Yuan</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  47 posts | 2 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_527fda93c0c1b57f97ad204338ac5f84.jpg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="Rupal_Click2Cloud" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5764402037887925" target="_brank" rel="nofollow">Rupal_Click2Cloud</a>
+                  <button data-original-title="Master" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1HHs2BgHqK1RjSZFPXXcwapXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  55 posts | 6 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_b73c92b85e5ad83ac64731197398a72f.JPG?x-oss-process=image/resize,m_fixed,h_64,w_64" title="Hiteshjethva" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5324802646619651" target="_brank" rel="nofollow">Hiteshjethva</a>
+                  <button data-original-title="Expert" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1hOUZBkvoK1RjSZFNXXcxMVXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  37 posts | 4 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/8bda66bd7e4470ab5ca53fc0904f1871.jpeg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="francisndungu" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5694112635729083" target="_brank" rel="nofollow">francisndungu</a>
+                  <button data-original-title="Contributor" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1jkFlBxnaK1RjSZFtXXbC2VXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  31 posts | 8 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_0446233af09853516eba6cf655245d3a.jpg?x-oss-process=image/resize,m_fixed,h_64,w_64" title="JJ Lim" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5308521474000332" target="_brank" rel="nofollow">JJ Lim</a>
+                  <button data-original-title="Expert" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1hOUZBkvoK1RjSZFNXXcxMVXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  20 posts | 4 followers
+                </p>
+              </dd>
+            </dl>
+                        <dl>
+              <dt>
+                <img data-original="https://yqintl.alicdn.com/img_67225b90f418c09022cfe42f462a107c.png?x-oss-process=image/resize,m_fixed,h_64,w_64" title="Farruh" data-toggle="lazy-loading">
+              </dt>
+              <dd>
+                <h2>
+                  <a href="https://community.alibabacloud.com/users/5611950958141783" target="_brank" rel="nofollow">Farruh</a>
+                  <button data-original-title="Expert" 
+                   data-container="body" data-toggle="popover" data-placement="top"
+                    data-trigger="hover"><img data-original="https://img.alicdn.com/tfs/TB1hOUZBkvoK1RjSZFNXXcxMVXa-54-64.png" data-toggle="lazy-loading"></button>
+                </h2>
+                <p>
+                  16 posts | 11 followers
+                </p>
+              </dd>
+            </dl>
+                      </div>
+        </div>
+              </section>
+    </div>
+  </div>
+  <div class="white-list">
+    <div class="white-list-main">
+      <h1>Sorry, you’re not an Alibaba Cloud Blog Author right now
+        <a class="white-list-close"></a>
+      </h1>
+      <main>
+        <h3>How to become a blog author?</h3>
+        <p>
+          Drop us an email at
+          <a href="mailto:community@list.alibaba-inc.com">community@list.alibaba-inc.com</a>
+        </p>
+        <p>
+             <b>Subject Line</b>: Application for Alibaba Cloud Blog Author with these information:
+        </p>
+        <ul>
+          <li>Name</li>
+          <li>Email Address</li>
+          <li>Nationality</li>
+          <li>Alibaba Cloud User ID (eg. 5401557977611340)</li>
+          <li>Areas of Expertise / Specialty</li>
+          <li>Link to Social Profile or Blog</li>
+        </ul>
+        <p>
+         We will review your submission and get back to you as soon as possible. We look forward to receiving your application.
+        </p>
+        <aside>
+          Alibaba Cloud Community Team
+        </aside>
+      </main>
+    </div>
+  </div>
+
+    
+  <script type="text/javascript"  nonce="FWY1E4AO8B">
+  window.configs = {
+      "csrf-param": "yunqi_csrf",
+      "csrf-token": "SHEESELCHY",
+      "islogin": false,
+      "registerurl": "https://account.alibabacloud.com/register/register.htm?from_type=yqclub&oauth_callback=https%3A%2F%2Fcommunity.alibabacloud.com%2F%3Fdo%3Dlogin",
+      "loginurl": "https://account.alibabacloud.com/login/login.htm?from_type=yqclub&oauth_callback=https%3A%2F%2Fcommunity.alibabacloud.com%2F%3Fdo%3Dlogin",
+      "isNeedNickname": false,
+      "baseurl": ""
+  };
+  </script>
+
+  <script src="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/js/index.js"></script>
+  <script src="//g.alicdn.com/aliyun-international/blog-assert/0.0.23/js/nav.js"></script>
+  <script type="text/javascript"  nonce="FWY1E4AO8B">
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-86123020-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
+
+0
+
+
+
+
+https://community.alibabacloud.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: linux.cloudflare.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; BLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227dff2c828cb33-DUS
+Date: Tue, 07 Nov 2023 19:10:10 GMT
+Expires: Tue, 07 Nov 2023 20:10:10 GMT
+Location: https://linux.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ovd7XIunKUb34SiSurn7xP1Kdp3lAHcLrM4iw4ZR3p2QOIIwYpkPzXvAzAguL4EXqhx%2Bn4svHaPLUzVax7cYENVEDNG26jlEwxKT1DrABjXvVRJSAtzsocWAyyB3e%2FpI0DNrsrLI7g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://linux.cloudflare.com:80

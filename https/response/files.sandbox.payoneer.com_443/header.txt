@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: files.sandbox.payoneer.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 17:26:32 GMT
+Server: CloudFront
+Via: 1.1 68b2682a924ac399aa2724b5b439e75c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BrqCEh7Ip0A2-xF91m818ndjIU5p16KMbnOWOEan_SOi5CBlwsLByQ==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://files.sandbox.payoneer.com:443

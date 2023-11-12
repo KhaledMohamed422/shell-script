@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: xlog.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.14) Gecko/20110218 AlexaToolbar/alxf-2.0 Firefox/3.6.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:32 GMT
+Expires: Wed, 08 Nov 2023 18:42:32 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: inner; dur=10
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=346
+X-Akamai-Request-Id: 5b1f575e
+X-Cache: TCP_MISS from a92-123-13-202.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Origin-Response-Time: 346,92.123.13.202
+X-Tt-Logid: 20231108184230DEBC792A53DFEFC3DCF8
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5af67fca9ba1a283086a68c6eab63a2d555b1b013beb1748c59d1d33b517aff36ddee84156b62245d13b3470090af624f30115dc3ad8b9db38b7f04e5db647c6b466241b048c947ec78368d88012e5364f
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://xlog.tiktokv.com:80

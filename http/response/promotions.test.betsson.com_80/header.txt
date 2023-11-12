@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: promotions.test.betsson.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:59:31 GMT
+Location: https://promotions.test.betsson.com/
+Server: CloudFront
+Via: 1.1 62e2e45895008240d70f26081269c850.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PVDoHd_FHJuX88YRdQsQZTtgqjWltXjceZ6DKyKPksZUL4F6-RcROg==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

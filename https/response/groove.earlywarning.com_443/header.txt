@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: groove.earlywarning.com
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 91
+Cache-Control: no-cache
+Content-Security-Policy-Report-Only: default-src 'self' https: https://assets.grooveapp.com/; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: 'sha256-rnCv9YsRc1bPlcjF00cdflQoGKAh1VBbXcY4IFrDaFY=' 'sha256-ikUayDGcXFig9AxzcG35foXLtbwEsFwiT0gFrJ1erL8=' 'sha256-s0761h4ra0f3WSBdCyYY/WCsxbzcluVUNo382Ih+MbM=' 'sha256-u1yGwJFi9M3J1F4zp3irCfQ3Rz3GwOtJvLi977huBS4=' 'sha256-UOznA/BJ/9/07F8TgEcynmZLlMi4DiGQpsBtru7D7Jk=' 'sha256-mpFoYteLwvADVs0q0OdXnHxLl3XqmJILMtDU1HTWRhI=' 'sha256-c0t3PPc4LDcn2l4hF+I543XwLOrCV55CQSPcsIdtEiQ=' 'sha256-lDH8McbfOHqmJMPPHCM62xAGypzlKdKpzTLAI5Nq+pM='; style-src 'self' https: 'unsafe-hashes' https://maxcdn.bootstrapcdn.com 'sha256-Go04rLD+KX2EmFTIQELVhuU9gVIzmh+CF1xznFMryB4=' 'sha256-PH3fp8v60qAAUApooitjlghBCXWIn85KYiIQUdAjprc=' 'sha256-jeqF/KOZQUN09P6WureBhg6KaSU3byjxxUBt0mQk5DA=' 'sha256-vQ0Nt5YJ+gCaOMe793su/EY9kpw+MgaAyDDmAJt1UlA=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-oA2TsMXCOcliP9C8+49BsWemU0VGhW/ZfZAubA96S98=' 'sha256-LQJVtx4E+7QLc/27JAyT2VdFebLxE4jtchXdGNHy8js=' 'sha256-/FaXk81zz9YAIcWbnkOXLTr42pk0EB8Ny17MP08gnRE=' 'sha256-aN7pZlOLpMw5LW8Qi3fxXCcxWI76QiXUreAdRogjrL0=' 'sha256-7jANdddfwNT7B2o9/7oV7zbSWwOqiOMMWHQfUuqgsIg='; connect-src 'self' https://api-js.mixpanel.com https://api.segment.io https://api-iam.intercom.io https://cdn.segment.com wss://notifications.grooveapp.com wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io; report-uri https://o84998.ingest.sentry.io/api/1190271/security/?sentry_key=c13ce42a7e244ce3b1e1493e1a678cd5&sentry_environment=production
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:44:35 GMT
+Location: https://engine.groove.co/
+Permissions-Policy: accelerometer=(), gyroscope=(), magnetometer=(), payment=(), usb=()"
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=0; includeSubDomains
+Vary: Origin
+Via: 1.1 spaces-router (devel)
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: a54c5aea-78e0-f1e7-e017-4cd841db3dbf
+X-Runtime: 0.002376
+X-Xss-Protection: 1; mode=block
+

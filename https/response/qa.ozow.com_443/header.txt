@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: qa.ozow.com
+User-Agent: Bloglines/3.1 (http://www.bloglines.com)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 12
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228dfe8f8659c00-FRA
+Date: Tue, 07 Nov 2023 22:04:54 GMT
+Server: cloudflare
+Via: 1.1 ae1b2f64d909bc787f8b2cb1e91446cc.cloudfront.net (CloudFront)
+Www-Authenticate: Basic
+X-Amz-Cf-Id: NDgH031SRq4Cuq17yD1a-IDCEGQkQD9877t124FckRTB5Pz6UcZIEA==
+X-Amz-Cf-Pop: CDG53-C1
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Unauthorized
+
+
+https://qa.ozow.com:443

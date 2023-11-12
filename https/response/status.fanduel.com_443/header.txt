@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: status.fanduel.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.89 Vivaldi/1.0.94.2 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 19:40:35 GMT
+Server: AmazonS3
+Via: 1.1 b4904c5988fd0eaae341a12cc47f3766.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: DwX029-85tSmsVBrF0OJs2rdXWKgt2hhjPedO_KFak5KtjH47_BTxw==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>903X12R8P1P1G600</RequestId><HostId>+2jg3fqdWrteqCgkB0H5KhWsSOELdic6E5BdiFTqG4nf4xwoipowX6V7mkWQb7JebWKfE9RRpJc=</HostId></Error>
+0
+
+
+
+
+https://status.fanduel.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: dashboard-api.instacart.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822738debb538741-DUS
+Date: Tue, 07 Nov 2023 17:16:06 GMT
+Expires: Tue, 07 Nov 2023 18:16:06 GMT
+Location: https://dashboard-api.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ucG3q%2FXsvB92g9fneA7r6m6dxNnH2RFcmbPu%2FtZeL%2BfpG5H0BMjSsMd263wf5b8zjjFpQV9ARWWNurEly0K97jQmAY2B5Jre%2F4gkg0Tt0zqE2X4ZpDm%2Fp2tSFyKCaL%2Fzb9j2xb6dZOVERQivOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=bzY.Y1gFIUcJ.LZVWGxIPqA0Y.cwhzXHFlcR9o8Lk6Q-1699377366-0-AS/kaZAstrF+EHhEcfhuFD8ZuqdXxxvE1VHYEiVYPKKE5it+gPvQgLlujalxJl8ApR0bTPqRmLFmBwYBm2WZ8qQ=; path=/; expires=Tue, 07-Nov-23 17:46:06 GMT; domain=.dashboard-api.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://dashboard-api.instacart.com:80

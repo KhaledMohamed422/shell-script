@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: web01.monday.com
+User-Agent: Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822cc7435ead8741-DUS
+Date: Wed, 08 Nov 2023 09:27:08 GMT
+Expires: Wed, 08 Nov 2023 10:27:08 GMT
+Location: https://web01.monday.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=5IgE.q46edeKfWTLSGSytZ27DH7f3xQxtUQDhW5DKIE-1699435628-0-AaH9K5NJ5n98lY78HfNVh7kvG8Dp6SbsWEwfOfFrkbDnAHGuY9gwNu+Zclak72PB3XoBOhbyWEqSt0aACktzgVrrGlItZ28Unsp9e7VEUZzu; path=/; expires=Wed, 08-Nov-23 09:57:08 GMT; domain=.monday.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://web01.monday.com:80

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: prodhpadmin.zomans.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:35.0) Gecko/20100101 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 427
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:04:04 GMT
+Expires: Tue, 07 Nov 2023 18:04:04 GMT
+Location: https://prodhpadmin.zomans.com/
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=254
+Server-Timing: origin; dur=4
+Server-Timing: ak_p; desc="1699380243844_386904468_45590894_25770_8198_3_0_-";dur=1
+X-Ray-Error: 302
+

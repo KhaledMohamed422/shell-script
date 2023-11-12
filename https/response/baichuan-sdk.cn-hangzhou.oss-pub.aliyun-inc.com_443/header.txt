@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: baichuan-sdk.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: BlackBerry9700/5.0.0.351 Profile/MIDP-2.1 Configuration/CLDC-1.1 VendorID/123
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 376
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:44:09 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B586914A30E3432B31613
+X-Oss-Server-Time: 6
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B586914A30E3432B31613</RequestId>
+  <HostId>baichuan-sdk.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://baichuan-sdk.cn-hangzhou.oss-pub.aliyun-inc.com:443

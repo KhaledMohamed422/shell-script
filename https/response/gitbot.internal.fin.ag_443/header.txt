@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: gitbot.internal.fin.ag
+User-Agent: Mozilla/5.0 (Linux; Android 11; DN2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 574
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:20:06 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Www-Authenticate: Basic realm=""
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+

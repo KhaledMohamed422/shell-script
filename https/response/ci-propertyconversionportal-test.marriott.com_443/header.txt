@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: ci-propertyconversionportal-test.marriott.com
+User-Agent: Opera/9.80 (X11; FreeBSD 8.1-RELEASE i386; Edition Next) Presto/2.12.388 Version/12.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:25:48 GMT
+Etag: "644b9b12-500"
+Last-Modified: Fri, 28 Apr 2023 10:08:18 GMT
+Server: nginx/1.17.6
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=131
+Server-Timing: origin; dur=91
+Server-Timing: ak_p; desc="1699377947960_34628910_219593003_22176_33145_4_35_-";dur=1
+Set-Cookie: ea3978e9e8e754ec4bc916b499a619e3=02f14852499c96d4bd9a482237424862; path=/; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 1280 0 pmb=mRUM,2
+

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: messaging.betfair.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b83e4968cafd-DUS
+Date: Tue, 07 Nov 2023 18:43:04 GMT
+Expires: Tue, 07 Nov 2023 19:43:04 GMT
+Location: https://messaging.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PXMwwEPVDNnXJcBxNxVUbGFba7m6gKy2t%2BuNekN2tcvnbrI4ldsIcYmr2JztQ0CztNkaFAN%2Fw7ZqEYcdAFAFUIw%2FST0FGtKbD0IOH4EesqcFRC8cAAq4iqnf6IqlYlZCi46MP8lqg5Zvc48g"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://messaging.betfair.com:8080

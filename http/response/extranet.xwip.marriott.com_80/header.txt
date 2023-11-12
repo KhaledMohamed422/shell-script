@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: extranet.xwip.marriott.com
+User-Agent: Mozilla/5.0 (X11; FreeBSD amd64; rv:54.0) Gecko/20100101 Firefox/54.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: https://extranet.xwip.marriott.com/
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://extranet.xwip.marriott.com:80

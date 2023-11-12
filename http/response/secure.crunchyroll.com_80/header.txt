@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: secure.crunchyroll.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e1ebfc2a7a4f-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:11:31 GMT
+Location: https://www.crunchyroll.com
+Server: cloudflare
+Set-Cookie: X-EEC-GLOBAL-ID=26f7f965-3c16-4ea6-880e-697ee421be12; expires=Tue, 07-Nov-2023 19:16:31 GMT; Max-Age=300; path=/; domain=secure.crunchyroll.com; secure; httponly; samesite=strict
+Set-Cookie: __cfruid=83f3601bcd2e8d6382fe5605646322634ee0e5e6-1699384291; path=/; domain=.secure.crunchyroll.com; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 4445c4223f8c2460ef5d29a08d1cc6ac.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yYHmFDgj0fXQFanXfLKDAUSrcf0GHVReqs0OA5qMn5eI9Y5FxbllRQ==
+X-Amz-Cf-Pop: AMS54-C1
+X-Cache: Miss from cloudfront
+X-Frame-Options: DENY
+
+162

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: artemis.spine-hardening.internal.dynatracelabs.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9pre) Gecko/2008072421 Minefield/3.0.2pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'self' *.dynatrace.com; script-src 'self' 'unsafe-inline' *.dynatrace.com www.google-analytics.com; style-src 'self' 'unsafe-inline' *.dynatrace.com
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:56:17 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server-Timing: dtSInfo;desc="0", dtRpid;desc="-2027964781"
+Set-Cookie: dtCookie=v_4_srv_3_sn_B7AA0D87963B1938DACE6F958DCD9883_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; Path=/; Domain=.dynatracelabs.com
+Traceresponse: 00-eb7b89d9f7184421439f140e756db6a9-687344c4b02b9025-01
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dt-Tracestate: f148e083-4b338275@dt
+X-Frame-Options: SAMEORIGIN
+X-Oneagent-Js-Injection: true
+X-Ruxit-Js-Agent: true
+
+305

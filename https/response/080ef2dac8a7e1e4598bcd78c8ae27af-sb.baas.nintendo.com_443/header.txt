@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: 080ef2dac8a7e1e4598bcd78c8ae27af-sb.baas.nintendo.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.8.1.12) Gecko/20080303 SeaMonkey/1.1.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 251
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/problem+json
+Date: Wed, 08 Nov 2023 19:24:38 GMT
+Server: Google Frontend
+Via: 1.1 google, 1.1 google
+X-Cloud-Trace-Context: f946978698ee4150bcd21ed30c946285;o=1
+
+{"type":"https://baas.nintendo.com/errors/v1/404/resource_is_not_found","status":404,"errorCode":"resource_is_not_found","title":"Specified resource is not found","detail":"","instance":"https://080ef2dac8a7e1e4598bcd78c8ae27af-sb.baas.nintendo.com/"}
+
+
+https://080ef2dac8a7e1e4598bcd78c8ae27af-sb.baas.nintendo.com:443

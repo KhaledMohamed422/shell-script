@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: tntlddnqfr4-test.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:57:22 GMT
+Server: nginx
+Vgs-Request-Id: a7cc3883202eed3dcf5a8fb0d807f1fd
+Via: 1.1 reverse-http-proxy-699d868cb5-shr68
+X-Envoy-Upstream-Service-Time: 68
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: a7cc3883202eed3dcf5a8fb0d807f1fd.
+
+
+https://tntlddnqfr4-test.verygoodsecurity.io:443

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: it.cloudflare.com:8443
+User-Agent: Opera/9.80 (X11; Linux x86_64; U; pl) Presto/2.7.62 Version/11.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e86e2b6b7a3d-DUS
+Content-Security-Policy-Report-Only: default-src https: data: wss: 'unsafe-eval' 'unsafe-inline'; report-uri https://it.cloudflare.com/cdn-cgi/beacon/csp?req_id=8227e86e2b6b7a3d
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:15:57 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=25080Y4XN8OPnZ0l9xqjXXBHCGYcQdQlpcXhRYkjSLVgqqnuQg%2BKBgxW6dmU0aXYVnKImacW2%2BmStd%2F5v16xkScF5NnzpHtF1IMwOlWJ3mlBJy0%2FeeG2g69n07oHej%2FpFgRPbdijaq8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://it.cloudflare.com:8443

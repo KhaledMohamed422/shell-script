@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: jubileum.regiobank.nl
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, must-revalidate, private
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self'; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; media-src 'none'; object-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; frame-ancestors 'none'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 03:35:12 GMT
+Expires: Wed, 08 Nov 2023 03:35:12 GMT
+Pragma: no-cache
+Referrer-Policy: same-origin
+Server: nginx
+Set-Cookie: PHPSESSID=etg0jjv9qijge4lg1cijstth9d; path=/; secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

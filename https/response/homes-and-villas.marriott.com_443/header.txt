@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: homes-and-villas.marriott.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 285
+Cache-Control: max-age=3600
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:26:52 GMT
+Expires: Tue, 07 Nov 2023 18:26:52 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699378012403_388276232_62358589_17_5389_4_11_-";dur=1
+Set-Cookie: origin=prodeast.homes-and-villas.akadns.net; path=/
+Strict-Transport-Security: max-age=63072000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+

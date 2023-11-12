@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: assets.betfair.se:8443
+User-Agent: Mozilla/5.0 (PLAYSTATION 3; 1.10)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba4198c6161d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:26 GMT
+Expires: Tue, 07 Nov 2023 18:44:41 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H5B6cd4Ge%2FX%2BWJriKVdumnkGypggDRwo85hGES6GthFZHjeoL7pdccT7f5j9p3WNNWNfdEZ7bgvtpbShLdqIJzZMPJpuK5xg1KYLP49sLhhk3k2x3ZXdyWC6k9z%2BeIAgFUjVZjMUKIY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=jn_3ClHz..6WfRerzI_lKuzAxOlNf20yuqdgq_c9CXI-1699382666-0-AV9s/DJ44s5Yv5u1e2/ii8a6p0T7nHaGX6Mdu2BGMZ55VVZ2XLIaitzc73FsTrcGOw4+Jhvz/jgKYBhiNLRAdro=; path=/; expires=Tue, 07-Nov-23 19:14:26 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

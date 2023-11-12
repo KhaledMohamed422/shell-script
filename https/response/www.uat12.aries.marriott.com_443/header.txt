@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.uat12.aries.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 285
+Akamai-Grn: 0.1d284317.1699378248.e4be247
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:48 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:48 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699378248552_390277149_239854151_18_22648_9_30_-";dur=1
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Www-Authenticate: Basic realm="Secure Area"
+

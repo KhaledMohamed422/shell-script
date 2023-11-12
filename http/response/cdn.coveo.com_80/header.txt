@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: cdn.coveo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; GM1910) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Server-Timing
+Cache-Control: private, no-transform, max-age=60
+Date: Wed, 08 Nov 2023 02:20:34 GMT
+Location: https://cloudinary.com
+Server: Cloudinary
+Server-Timing: cld-fastly;mitm=p;dur=1;cpu=0;start=2023-11-08T02:20:34.108Z;desc=hit,rtt;dur=4
+Timing-Allow-Origin: *
+Content-Length: 0
+
+
+
+
+http://cdn.coveo.com:80

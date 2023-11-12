@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: vcs-ru.tiktokv.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaE90-1/07.24.0.3; Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.2.3.18.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:12 GMT
+Expires: Wed, 08 Nov 2023 18:42:12 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=840, origin; dur=431
+Server-Timing: inner; dur=6
+X-Akamai-Request-Id: 1f54cbd.12a74af4
+X-Cache: TCP_MISS from a184-25-126-89.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a2-22-31-21.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 431,2.22.31.21
+X-Parent-Response-Time: 1270,184.25.126.89
+X-Tt-Logid: 20231108184211739B34E3685239B2E8A3
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a70427925683ed4bac0ed15064213bb3cbd57f7c396a2e76cc83f60dc2386aeadff5dd7d2442e16e380ee30e29be4bf3f8a64accd92efb23d96119b4d389bb8656f36032589238980fd8d801d732e8b7f9c19171840075c089c4cce9c20fce264
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://vcs-ru.tiktokv.com:80

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: account-cdn.stg.svc.ui.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:41:21 GMT
+Server: AmazonS3
+Via: 1.1 432282689bafd802e8ec9636c256a3b0.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: fPv6MMedlZ3Vcq2RM9ijI6WXec2AL7Od3YJxfdmddhCXAnz8KJsObA==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>Z9H24JBJVGGA6VQ0</RequestId><HostId>FLvYdWxsHBpUe7ZAnoO3ATMYjcB4+/30jJxC/DwhydsVxLTSrjfM3PB1jg1VzS1+iho2lWnrIr0=</HostId></Error>
+0
+
+
+
+
+https://account-cdn.stg.svc.ui.com:443

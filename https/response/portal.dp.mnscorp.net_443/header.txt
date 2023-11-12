@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: portal.dp.mnscorp.net
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.2) Gecko/20090803 Ubuntu/9.04 (jaunty) Shiretoko/3.5.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: Close
+Location: /my.policy
+Server: BigIP
+Set-Cookie: LastMRH_Session=d6144b17;path=/;secure;HttpOnly
+Set-Cookie: MRHSession=ff9e867ead64e31769497c23d6144b17;path=/;secure;HttpOnly
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+Content-Length: 0
+
+
+
+
+https://portal.dp.mnscorp.net:443

@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: fliggy.m.taobao.com
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/125.2 (KHTML, like Gecko) Safari/125.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 370
+Ali-Swift-Global-Savetime: 1699433449
+Cache-Control: public, max-age=0
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:50:49 GMT
+Eagleid: 6a0fda9b16994334495945482e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache36.l2cm10-2[59,59,403-1280,M], cache29.l2cm10-2[60,0], cache6.cn879[84,84,403-1280,M], cache7.cn879[86,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B4BE99B53B238361CFAA2
+X-Oss-Server-Time: 0
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 08:50:49 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B4BE99B53B238361CFAA2</RequestId>
+  <HostId>pigeon-assets.oss-cn-beijing.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://fliggy.m.taobao.com:80

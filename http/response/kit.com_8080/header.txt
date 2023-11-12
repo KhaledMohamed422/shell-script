@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: kit.com:8080
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:38.0) Gecko/20100101 Firefox/38.0 SeaMonkey/2.35
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8248e66dd83b7180-DUS
+Date: Sat, 11 Nov 2023 19:21:45 GMT
+Expires: Sat, 11 Nov 2023 20:21:45 GMT
+Location: https://kit.com
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://kit.com:8080

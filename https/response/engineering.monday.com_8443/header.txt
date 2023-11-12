@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: engineering.monday.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; GM1913) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822ceb42cda3caf9-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 09:51:42 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ynQ%2Fph4wKahD0jzO%2Fs%2FNjU7sFJnkyOQUcSrWI6s8ZKwd3VjXxjKPJgrXMnRIDMuNOrVT7g5T2%2BWkvv9%2FVgG3sTyGYfPmkhfpoS3Qsj3gBXXEtAt%2F8NXY6z49TtMLI0h9%2BqQ8vwdqb3AKig44KA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1020
+
+
+https://engineering.monday.com:8443

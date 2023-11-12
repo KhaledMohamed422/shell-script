@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: www.staging.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Firefox/1.5.0.7 MG(Novarra-Vision/6.9)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e46ceec621ab-DUS
+Date: Tue, 07 Nov 2023 19:13:13 GMT
+Expires: Tue, 07 Nov 2023 20:13:13 GMT
+Location: https://www.staging.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sPehICpRsvBkQhOCZQH2rwwjnUT47O2t7rhh3tr6EqntX4bMG7aGH%2FJsD1UdvBUk2XPIdt0h1ca6PSoKwPf%2Fz5ElVQEjMADVgiRuY%2BxYTeVs%2BmHDwOui59SLKP%2BSiHYegsdTAk49aKGF%2B8bDBJYdwjY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=M1c436aklezR4qmpkwbfzJZc61sn8evyt435fPRg7BY-1699384393-0-AZm7wnA9q5ITaLRkpXyVo+MuT0fe8V+L07Ek6GABDAy4TBDIakQic5TCAmC74AFW3BlfmTVWbHUbYM/jQ9WuZ0E=; path=/; expires=Tue, 07-Nov-23 19:43:13 GMT; domain=.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://www.staging.cloudflare.com:8080

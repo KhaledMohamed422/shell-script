@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: mobile-state.chime.com
+User-Agent: Mozilla/5.0 (Linux; webOS/2.2.4; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) webOSBrowser/221.56 Safari/534.6 Pre/3.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 21:28:19 GMT
+Server: AmazonS3
+Via: 1.1 142ded88048f806cc40a5a225130cc8a.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: Y-tf-66h-G8K7c8pPD6jiDWDyAfMOg132BtkDo2lnmyJg-gk6H7xvg==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>025HVHZ6G6T9GMSN</RequestId><HostId>zgFGMQurybP7gpdf1U0i6K5NQywtv5U6lU2U/R3jVEROiwkkYBnSv8ykpcM66GVlwueladqNIn4=</HostId></Error>
+0
+
+
+
+
+https://mobile-state.chime.com:443

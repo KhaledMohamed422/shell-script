@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: support.tiktok.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 39
+Cache-Control: max-age=0, no-cache, no-store
+Content-Security-Policy: frame-ancestors self *.bytedance.net *.tiktok.com *.tiktok.tc;worker-src https 'self';report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_web_article
+Content-Security-Policy-Report-Only: frame-ancestors self *.bytedance.net *.tiktok.com *.tiktok.tc;default-src 'self' data: blob: *.tiktokcdn.com *.tiktokcdn-us.com *.akamaized.net *.muscdn.com *.tiktok.com *.byteoversea.com *.ibytedtos.com;connect-src *.ibytedtos.com *.bytedanceapi.com *.tiktokv.com *.snssdk.com *.tiktok.com *.byteoversea.com *.tiktokcdn.com *.tiktokcdn-us.com *.hypstarcdn.com *.bytedance.net cdn.ampproject.org *.googletagmanager.com *.bytedapm.com sf16-website-login.neutral.ttwstatic.com;worker-src https 'self';script-src 'unsafe-eval' *.tiktokcdn-us.com *.googleapis.com sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com;style-src 'unsafe-inline' *.tiktokcdn.com *.tiktokcdn-us.com *.muscdn.com *.akamaized.net *.ibytedtos.com *.tiktok.com *.ibyteimg.com *.googleapis.com;img-src data: blob: *.muscdn.com *.akamaized.net *.tiktokcdn.com *.tiktokcdn-us.com *.ibytedtos.com *.ibyteimg.com *.tiktok.com *.hypstarcdn.com *.facebook.com *.byted.org *.googletagmanager.com sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com;frame-src *.tiktok.com;media-src *.tiktokcdn.com *.tiktokcdn-us.com *.akamaized.net *.muscdn.com *.ibytedtos.com *.byted.org *.tiktok.com;font-src *.gstatic.com *.ibytedtos.com *.tiktokcdn.com *.tiktokcdn-us.com sf16-website-login.neutral.ttwstatic.com s20.tiktokcdn.com;report-uri https://mon-va.byteoversea.com/log/sentry/v2/api/slardar/main/?ev_type=csp&bid=tiktok_web_article
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:36 GMT
+Expires: Wed, 08 Nov 2023 18:46:36 GMT
+Location: /en/
+Pragma: no-cache
+Server: TLB
+Server-Timing: inner; dur=34
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=386
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Akamai-Request-Id: 23073430
+X-Cache: TCP_MISS from a2-19-121-198.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Origin-Response-Time: 386,2.19.121.198
+X-Tt-Logid: 20231108184635AC5E6A404B5AC36478D0
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a8024cc7452437af44103f10523285fbbe38402733e8863aa57db377f0149ae4e75cc1c8346ff863897bf2f897c160ec36dd5a25a8ffc294005ba8df4609e2113e562260898c3a35081b143ad0061f1a8
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X-Ua-Compatible: IE=Edge,chrome=1
+X-Xss-Protection: 1; mode=block
+
+Redirecting to <a href="/en/">/en/</a>.
+
+
+https://support.tiktok.com:443

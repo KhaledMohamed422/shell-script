@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: sdfp-va.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; CPH2373) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:23 GMT
+Proxy-Status: 0000201502005104
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=340
+X-Akamai-Request-Id: 3f6635e
+X-Cache: TCP_MISS from a2-19-121-211.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Origin-Response-Time: 341,2.19.121.211
+X-Tt-Logid: 20231108184622BF5575D06E72DA2EF946
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ac53dca9490437de4dcf87199ca26018ac4d0a1797c26febf3fffed77379e4f67c98230851925045f3f14b199c1f53e82
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

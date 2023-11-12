@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: dc1.monday.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822c8cba0e4a6a9a-DUS
+Date: Wed, 08 Nov 2023 08:47:10 GMT
+Expires: Wed, 08 Nov 2023 09:47:10 GMT
+Location: https://dc1.monday.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=5Tbe2.8eA.pA.fO98itaAV7D8UxVV4teVZAwVyfNsJM-1699433230-0-ARrbBWtt3zfoIkfLgXTjzpfyZIrZZIKErRiD295VOnRR2SqRj6P8SF+N+xHskcE2uMJvdNHhUIV1yTZjLYjwzH9dJQWvrrPdsVZ0DaqMNgUr; path=/; expires=Wed, 08-Nov-23 09:17:10 GMT; domain=.monday.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://dc1.monday.com:8080

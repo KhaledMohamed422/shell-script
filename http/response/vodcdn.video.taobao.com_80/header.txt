@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: vodcdn.video.taobao.com
+User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 356
+Ali-Swift-Global-Savetime: 1699435599
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:26:39 GMT
+Eagleid: 2ff6029816994355987682504e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[462,462,403-1280,M], cache26.l2de2[463,0], cache16.ru3[599,599,403-1280,M], cache4.ru3[601,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Ec: 0003-00001201
+X-Oss-Request-Id: 654B544F7262F43230B33C62
+X-Oss-Server-Time: 13
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:26:39 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous access is forbidden for this operation.</Message>
+  <RequestId>654B544F7262F43230B33C62</RequestId>
+  <HostId>vodcdn.video.taobao.com</HostId>
+  <EC>0003-00001201</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00001201</RecommendDoc>
+</Error>
+
+
+
+http://vodcdn.video.taobao.com:80

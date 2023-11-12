@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: yuntaisupport.cn-shanghai.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 378
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:34:58 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5642E3367F363505BD76
+X-Oss-Server-Time: 7
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5642E3367F363505BD76</RequestId>
+  <HostId>yuntaisupport.cn-shanghai.oss.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://yuntaisupport.cn-shanghai.oss.aliyun-inc.com:80

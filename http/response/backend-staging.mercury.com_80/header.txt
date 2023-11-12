@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: backend-staging.mercury.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a56249ca92181-DUS
+Date: Wed, 08 Nov 2023 02:20:23 GMT
+Expires: Wed, 08 Nov 2023 03:20:23 GMT
+Location: https://backend-staging.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=jq89hzY15YkIaZR7IdltZhwJi1BvZrixIkuwe.PV7SY-1699410023-0-AVbEbFpoiKAb6Lk9YbkNdrLalpz0KETbDn6OBX9RSpRM7Dc+XCGqb77LYSQEsZtNE0m/I+jdNwU/Uts+XruSdcQ=; path=/; expires=Wed, 08-Nov-23 02:50:23 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://backend-staging.mercury.com:80

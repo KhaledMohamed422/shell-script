@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: players-runningball-test.awsdev.feeds.skybet.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:28 GMT
+Via: 1.1 699bd7d370e4b5a92b0d886ffabffa5a.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCnXWGgdjoEEKFg=
+X-Amz-Cf-Id: LQxsgi3u8PRa3NTQNLyrnK43SYuxyiVcL_tVdgQMRAye7hPkN63kew==
+X-Amz-Cf-Pop: DUS51-P3
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 4b894778-25a2-4f67-87de-97336f3375f8
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://players-runningball-test.awsdev.feeds.skybet.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: my.alibaba.com
+User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 239
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:51:00 GMT
+Eagleid: 21032caf16994406607122598e3315
+Location: https://my.alibaba.com/
+Server: Tengine
+Server-Timing: rt;dur=0.000,eagleid;desc=21032caf16994406607122598e3315
+Timing-Allow-Origin: *
+

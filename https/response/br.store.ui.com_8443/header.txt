@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: br.store.ui.com:8443
+User-Agent: Opera/9.80 (Macintosh; Intel Mac OS X 10.4.11; U; en) Presto/2.7.62 Version/11.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822b2aa68cf16a85-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 04:45:27 GMT
+Expires: Wed, 08 Nov 2023 04:45:42 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=l%2F06EcRlbTC3BbZD2uFXYLzkMqoMPpeZ%2FaCtZE9EtojmYy4wat13n7i4YiKQY6D2c6Uy3VufIZe2NXp78Qd%2BzPhSF5c12CLadI5%2B%2F44j8JGDTHWylFXjy3nWCGPRERdpIzCKCl1O"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=6.000042
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

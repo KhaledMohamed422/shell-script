@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: updates.nerdwallet.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/49.0.2623.109 Mobile/14A5335b Safari/601.1.46
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227843e6ccbcaed-DUS
+Date: Tue, 07 Nov 2023 18:07:34 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://nerdwallet.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ud1VgRw%2BDwQ4X8z8Ko0YhzBLPLXo4TlsFWel4qFNfl8Y4TnCm9rj%2BdTsvSrqW9UT7qkmSI1zq5BjBE6KrQFBvysIrAY69Om9e8QngesCZyln39hmNZcZ%2FxFTbyNCSJRhUqhEU8d%2B7xuh"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://updates.nerdwallet.com:443

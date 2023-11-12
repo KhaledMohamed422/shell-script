@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: chimebank.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Date: Tue, 07 Nov 2023 21:23:40 GMT
+Location: https://chimebank.com/
+Retry-After: 0
+Server: Varnish
+Strict-Transport-Security: max-age=31622400; includeSubDomains; preload
+Surrogate-Control: max-age=86400, stale-while-revalidate=300, stale-if-error=172800
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230133-FRA
+Content-Length: 0
+
+
+
+
+http://chimebank.com:80

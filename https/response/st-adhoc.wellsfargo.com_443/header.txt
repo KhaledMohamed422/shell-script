@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: st-adhoc.wellsfargo.com
+User-Agent: P3P Validator
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 1335
+Accept-Ranges: bytes
+Cache-Control: must-revalidate,no-cache,no-store
+Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval' 'unsafe-inline';
+Content-Type: text/html;charset=utf-8
+Date: Wed, 08 Nov 2023 19:40:29 GMT
+Features: CHPWD;RTCK;STCK;ASC;DNDISP
+Pragma: no-cache
+Set-Cookie: FDX=34687a7a315865596945764b4b535153757644524b6f546a7677314d4c3866476e366d334b744e757669773d; Path=/; Secure; HttpOnly; SameSite=Lax
+Set-Cookie: wf-axst2-al_443_infra_2=!iTgtFHzmdT4acHLpPCmw0sPZAbWT1wIfFuElMyI7Iy7sXWNXtYYuXxPWb2vNmJD82iqsPd6xuNeMZE4=; path=/; Httponly; Secure
+Set-Cookie: TS0189b603=0114d6d85c6328d89a654a28ca1dc7227b61d810938c5cfe0f0c428ddd45067785073257d5e91f6e64eee8a00befdbbe60dbb52af705c9fa106cbba35fc28a15967eb9126f01e106538e48dc9934bb4328f5cc2b03; Path=/
+Set-Cookie: wf-axst2-al_443_infra_1=!FF+pgiY5MXkMCALpPCmw0sPZAbWT16ZZeGhYAn96LfrpFUi0LBD2oElb1nlCZYRZ9AVl+xWozDso4dc=; path=/; Httponly; Secure
+Set-Cookie: DCID=UK%2fYVzVhM6Am8PAvWtsviZZh3XwF0bY4zO6FfQa0mzI%3d; Domain=st-adhoc.wellsfargo.com; Path=/; Expires=Wed, 08 Nov 2023 19:55:28 GMT;Httponly; Secure
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Www-Authenticate: basic realm="Please enter username and password"
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,321 @@
+<!DOCTYPE HTML> <html lang="en"> <head> <link rel='preload' as='image' href='https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image1.jpg'><meta name="twitter:card" content="summary"><meta name="twitter:description" content="Marriott International, Inc. is the largest global lodging company, with an expansive portfolio of brands and a dynamic sales and marketing platform."><meta name="twitter:image" content="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image1.jpg"><meta name="twitter:site" content="#"><meta name="twitter:title" content="Hotel Development | Marriott International "><meta property="og:image" content="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image1.jpg"><meta property="og:title" content="Hotel Development | Marriott International "><meta property="og:description" content="Marriott International, Inc. is the largest global lodging company, with an expansive portfolio of brands and a dynamic sales and marketing platform."> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Hotel Development | Marriott International </title> <meta name="ROBOTS" content="NOARCHIVE"> <meta name="description" content="Marriott International, Inc. is the largest global lodging company, with an expansive portfolio of brands and a dynamic sales and marketing platform."> <link href="https://www.hotel-development.marriott.com/dynamic/css/home.aspx" type="text/css" rel="stylesheet"> <script>
+function deferCssLoad(URL, delaySec) {
+  setTimeout(function() {
+    var headSection = document.getElementsByTagName("head")[0];
+    var elementCSS = document.createElement("link");
+    elementCSS.type = "text/css";
+    elementCSS.rel = "stylesheet";
+    elementCSS.href = URL;
+    headSection.appendChild(elementCSS);
+  }, delaySec);
+}
+deferCssLoad("https://www.hotel-development.marriott.com/css/fonts.aspx", "");
+deferCssLoad("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap", "");
+deferCssLoad("https://www.hotel-development.marriott.com/css/print.aspx", "");
+deferCssLoad("https://www.hotel-development.marriott.com/css/mimpl-icon.aspx", "");
+
+</script> <script>
+ var dataLayer = window.dataLayer || [];
+setTimeout(function() {
+ function AdobiScriptLoad(srcUrl, callback) {
+  var d = document,
+   t = 'script',
+   o = d.createElement(t),
+   s = d.getElementsByTagName(t)[0];
+  o.src = srcUrl;
+  if (callback) {
+   o.addEventListener('load', function(e) {
+    callback(null, e);
+   }, false);
+  }
+  s.parentNode.insertBefore(o, s);
+ }
+ AdobiScriptLoad('//assets.adobedtm.com/launch-EN3963523be4674e5591a9c4d516697352.min.js', function() {
+  env_gdpr = "true";
+  env_ccpa = "true";
+  const myInterval1 = setInterval(function() {
+   if (GtmToRender()) {
+    /**************** START::: GTM HERE ***********************/
+    (function(w, d, s, l, i) {
+     w[l] = w[l] || [];
+     w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+     });
+     var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+     j.async = true;
+     j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+     f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJP3XGM');
+
+    /**************** END::: GTM HERE ***********************/
+   }
+   clearInterval(myInterval1);
+  }, 1000);
+
+  function GtmToRender() {
+   var UrlString = getCookieData("OptanonConsent");
+   var UrlStrDeCoded = decodeURIComponent(UrlString);
+   var GroupVal = getQuerystring("groups", "", UrlStrDeCoded);
+   console.log(GroupVal);
+   var string = GroupVal;
+   string = string.split(",");
+   var stringArray = new Array();
+   for (var i = 0; i < string.length; i++) {
+    stringArray.push(string[i]);
+   }
+   if (stringArray[2] == "4:1" || stringArray[3] == "6:1" || typeof(stringArray[3]) == "undefined") {
+    return true;
+   }
+   else {
+    return false;
+   }
+  }
+
+  function getCookieData(name) {
+   name += '=';
+   for (var ca = document.cookie.split(/;\s*/), i = ca.length - 1; i >= 0; i--)
+    if (!ca[i].indexOf(name)) return ca[i].replace(name, '');
+  }
+
+  function getQuerystring(key, default_, Ustring) {
+   if (default_ == null) default_ = "";
+   key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+   var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+   var qs = regex.exec(Ustring);
+   if (qs == null) return default_;
+   else return qs[1];
+  }
+ });
+}, 5000); </script> <script>window.MSInputMethodContext && document.documentMode && 
+document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');</script> <link rel='canonical' href='https://www.hotel-development.marriott.com'><link rel='amphtml' href='https://www.hotel-development.marriott.com/amp'><meta name="generator" content="Milestone CMS 6.0"><script id="mjdata" type="application/ld+json">[{
+ "@context": "http://schema.org",
+ "@type": [
+  "WebPage"
+ ],
+ "speakable": {
+  "xpath": [
+   "/html/head/title",
+   "/html/head/meta[@name='description']/@content"
+  ],
+  "@type": "SpeakableSpecification"
+ },
+ "dateCreated": "2023-10-12",
+ "dateModified": "2023-10-17",
+ "datePublished": "2023-10-22",
+ "name": "Hotel Development | Marriott International ",
+ "description": "Marriott International, Inc. is the largest global lodging company, with an expansive portfolio of brands and a dynamic sales and marketing platform.",
+ "url": "https://www.hotel-development.marriott.com/",
+ "primaryImageOfPage": [
+  {
+   "@type": "ImageObject",
+   "contentUrl": "https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image1.jpg",
+   "name": "",
+   "caption": ""
+  }
+ ],
+ "breadcrumb": [],
+ "text": "",
+ "hasPart": null,
+ "mainentity": null
+},{
+ "@context": "http://schema.org",
+ "@type": [
+  "Hotel"
+ ],
+ "name": "Marriott International Hotel Development",
+ "alternateName": null,
+ "url": "https://www.hotel-development.marriott.com/",
+ "sameAs": [
+  "https://www.linkedin.com/showcase/marriott-development"
+ ],
+ "logo": "https://www.hotel-development.marriott.com/images/header-logo.svg",
+ "image": "https://www.hotel-development.marriott.com/images/header-logo.svg",
+ "description": null,
+ "award": null,
+ "legalName": null,
+ "contactPoint": {
+  "@type": "ContactPoint",
+  "telephone": "+1-301-380-1180",
+  "contactType": "Reservations and Booking"
+ },
+ "telephone": "+1-301-380-1180",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "7750 Wisconsin Ave",
+  "addressLocality": "Bethesda",
+  "addressRegion": "Maryland",
+  "postalCode": "20814",
+  "addressCountry": "United States"
+ },
+ "geo": null,
+ "aggregateRating": null,
+ "brand": null,
+ "photo": null,
+ "review": null,
+ "starRating": null,
+ "priceRange": null,
+ "subOrganization": null,
+ "parentOrganization": null,
+ "hasOfferCatalog": null,
+ "petsAllowed": null
+},{
+ "@context": "http://schema.org",
+ "@type": "WebSite",
+ "name": "Marriott International Hotel Development",
+ "alternateName": "Marriott International Hotel Development",
+ "url": "https://www.hotel-development.marriott.com/"
+},{
+"@context":"http://schema.org",
+"@type":"ItemList",
+"itemListElement":
+[
+{
+"@type": "ListItem",
+"position": 1,
+"name": "Careers",
+"url":"https://www.careers.marriott.com/"
+},
+{
+"@type": "ListItem",
+"position": 2,
+"name": "Core Values &amp; Heritage",
+"url":"https://www.marriott.com/culture-and-values/core-values.mi"
+},
+{
+"@type": "ListItem",
+"position": 3,
+"name": "Corporate Social Responsibility",
+"url":"https://www.marriott.com/corporate-social-responsibility/corporate-responsibility.mi"
+},
+{
+"@type": "ListItem",
+"position": 4,
+"name": "Diversity",
+"url":"https://www.marriott.com/diversity/diversity-and-inclusion.mi"
+},
+{
+"@type": "ListItem",
+"position": 5,
+"name": "Branded Residences",
+"url":"https://marriottresidences.com"
+},
+{
+"@type": "ListItem",
+"position": 6,
+"name": "Investor",
+"url":"https://marriott.gcs-web.com/"
+},
+{
+"@type": "ListItem",
+"position": 7,
+"name": "News",
+"url":"https://news.marriott.com/"
+}
+
+]
+}
+,{
+"@context": "https://schema.org/",
+"@type": "VideoObject",
+"description": "Marriott succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.&nbsp;",
+"name": "Developing the Future Together",
+"@id": "https://player.vimeo.com/video/808344518",
+"datePublished": "2022-04-13",
+"thumbnailUrl": "https://www.hotel-development.marriott.com/resourcefiles/home-overview-video/ac-hotel-melbourne-southbank.jpg",
+"uploadDate": "2022-04-13",
+"thumbnail": "https://www.hotel-development.marriott.com/resourcefiles/home-overview-video/ac-hotel-melbourne-southbank.jpg"
+}
+]</script><link rel="manifest" href="https://www.hotel-development.marriott.com/manifest.json"><meta id="theme-color" name="theme-color" content="#fff"><script>if (top.location.host != self.location.host) {
+  top.location = self.location;
+}
+</script></head> <body class="home-page" data-home-page=""> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJP3XGM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <a role="button" class="skip-to-content-btn" href="#main-content">Skip to main content</a> <header class="header" id="header" data-uk-sticky="top:750;animation: uk-animation-slide-top;"> <div class="uk-container header__container"> <a href="https://www.hotel-development.marriott.com/" class="header__logo"> <span class="sr-only">Marriott International Hotel Development</span> <img src="https://www.hotel-development.marriott.com/images/header-logo.svg" data-nodeferimage="true" class="header__logo-img" width="120" height="63" data-uk-svg="" alt="Marriott International Hotel Development"> <span class="sr-only">Marriott International Hotel Development</span> </a> <div class="header__collapsible navmenu" id="navmenu"> <ul class="navmenu__list"> <li class="navmenu__list-item navmenu__dropdown submenulist"> <a href="javascript:" class="navmenu__list-link nav">The Marriott Advantage</a> <div class="uk-dropdown navmenu__dropmenu" data-uk-dropdown="pos: bottom-justify"> <a href="https://www.hotel-development.marriott.com/power-of-marriott" class="navmenu__dropmenu-link nav ">Power of Marriott</a> <a href="https://www.hotel-development.marriott.com/power-of-marriott/our-story" class="navmenu__dropmenu-link nav ">Our Story and Culture</a> </div> </li> <li class="navmenu__list-item"> <a href="https://www.hotel-development.marriott.com/hotel-development" class="navmenu__list-link nav ">Hotel Development</a> </li> <li class="navmenu__list-item navmenu__dropdown submenulist"> <a href="javascript:;" class="navmenu__list-link nav">Brands</a> <div class="uk-dropdown navmenu__dropmenu" data-uk-dropdown="pos: bottom-justify"> <a href="https://www.hotel-development.marriott.com/brands" class="navmenu__dropmenu-link nav ">Overview</a> <a href="https://www.hotel-development.marriott.com/brands/luxury-brands" class="navmenu__dropmenu-link nav ">Luxury Brands</a> <a href="https://www.hotel-development.marriott.com/brands/premium-brands" class="navmenu__dropmenu-link nav ">Premium Brands</a> <a href="https://www.hotel-development.marriott.com/brands/select-brands" class="navmenu__dropmenu-link nav ">Select Brands</a> <a href="https://www.hotel-development.marriott.com/brands/extended-stay-brands" class="navmenu__dropmenu-link nav ">Extended Stay Brands</a> <a href="https://www.hotel-development.marriott.com/brands/midscale" class="navmenu__dropmenu-link nav ">Midscale Brands</a> <a href="https://www.hotel-development.marriott.com/brands/all-inclusive" class="navmenu__dropmenu-link nav ">All-Inclusive</a> <a href="https://www.hotel-development.marriott.com/brands/apartments" class="navmenu__dropmenu-link nav ">Apartments</a> </div> </li> <li class="navmenu__list-item navmenu__dropdown submenulist"> <a href="javascript:;" class="navmenu__list-link nav">How We Work Together</a> <div class="uk-dropdown navmenu__dropmenu" data-uk-dropdown="pos: bottom-justify"> <a href="https://www.hotel-development.marriott.com/how-we-work-together/new-to-franchising" class="navmenu__dropmenu-link nav ">Franchising</a> <a href="https://www.hotel-development.marriott.com/how-we-work-together/managed-by-marriott" class="navmenu__dropmenu-link nav ">Managed By Marriott</a> <a href="https://www.hotel-development.marriott.com/how-we-work-together/diversity" class="navmenu__dropmenu-link nav ">Diversity</a> <a href="https://www.hotel-development.marriott.com/how-we-work-together/resources" class="navmenu__dropmenu-link nav ">Download an FDD</a> </div> </li> <li class="navmenu__list-item"> <a href="https://www.hotel-development.marriott.com/meet-the-team" class="navmenu__list-link nav ">Meet the Team</a> </li> </ul> <div class="mobnavmenu__list1"> <div class="header-footer-links"> <div class="footer-primary-links"> <ul class="footer__links uk-list"> <li class="footer__links-item dynamiccomponenteditenable" data-id='283566' data-editbuttontext='' data-editable='True'> <a href="https://www.careers.marriott.com/" class="" target="_blank" rel="nofollow">Careers</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284235' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/culture-and-values/core-values.mi" class="" target="_blank" rel="nofollow">Core Values &amp; Heritage</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284236' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/corporate-social-responsibility/corporate-responsibility.mi" class="" target="_blank" rel="nofollow">Corporate Social Responsibility</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284237' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/diversity/diversity-and-inclusion.mi" class="" target="_blank" rel="nofollow">Diversity</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284238' data-editbuttontext='' data-editable='True'> <a href="https://marriottresidences.com" class="" target="_blank" rel="nofollow">Branded Residences</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284239' data-editbuttontext='' data-editable='True'> <a href="https://marriott.gcs-web.com/" class="" target="_blank" rel="nofollow">Investor</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284240' data-editbuttontext='' data-editable='True'> <a href="https://news.marriott.com/" class="" target="_blank" rel="nofollow">News</a> </li> </ul> </div> </div> </div> </div> <div class="web-header-right"> <div class="header-linkdin-btn"><a href="https://www.linkedin.com/showcase/marriott-development" target="_blank" rel="nofollow"><span class="mim-icon-linkedin"></span> <span class="sr-only">Linkdin URL</span></a></div> <a href="https://www.hotel-development.marriott.com/contact-us" role="button" class="uk-button reserve header-contactus-btn" data-autodatalayer="" onclick="pushToGtmRenderByDom(this)" data-msevent="events" data-mscategory="contact us" data-msaction="click"> <span class="formslable" aria-hidden="true">contact us - Home</span> <span class="mim-icon-phone-icon"></span> CONTACT US <span class="sr-only">CONTACT US</span></a> </div> <div class="header__toggler"> <button type="button" class="header__toggler-btn" data-uk-toggle="target: #navmenu; cls: mobile-menu-active; animation: uk-animation-slide-right"> <span class="header__toggler-icon"></span> <span class="header__toggler-text"><span class="sr-only">Menu</span></span> </button> </div> </div> </header> <div class="uk-position-relative uk-visible-toggle hero-slideshow" tabindex="-1" data-uk-slideshow="finite: true;"> <input type="hidden" id="hdnRestrictImageEdit" value="False"><div data-uk-slideshow="autoplay: true"> <ul id="mainimage" class="uk-slideshow-items" data-uk-height-viewport="offset-top: true; offset-bottom: 0"> <li class="uk-transform-origin-center-left"> <img data-nodeferimage="true" src="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image1.jpg" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">Own the Future</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0">More Power Today, More Value Tomorrow</div> </div> <div class="slider-action"> <a href="#" class="button-link"> <span class="sr-only">click on Own the Future </span> </a> </div> </div> <div class="slider-small-title">Sheraton Phoenix Downtown</div> </li> <li class="uk-transform-origin-center-left"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image5.jpg"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">Introducing Four Points Express by Sheraton</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0">A New Midscale Development Opportunity in EMEA</div> </div> <div class="slider-action"> <a href="https://www.hotel-development.marriott.com/brands/fourpointsexpress" class="button-link">Learn More <span class="sr-only">click on Introducing Four Points Express by Sheraton Learn More</span> </a> </div> </div> <div class="slider-small-title">Four Points Express</div> </li> <li class="uk-transform-origin-center-left"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image-new-1.jpg"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">Introducing StudioRes</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0">A New Midscale Extended Stay Development Opportunity in the US & Canada</div> </div> <div class="slider-action"> <a href="https://www.hotel-development.marriott.com/brands/studiores" class="button-link">Learn More <span class="sr-only">click on Introducing StudioRes Learn More</span> </a> </div> </div> <div class="slider-small-title"></div> </li> <li class="uk-transform-origin-center-left"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image2.jpg"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">Introducing City Express by Marriott</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0">A New Midscale Development Opportunity in CALA</div> </div> <div class="slider-action"> <a href="https://www.hotel-development.marriott.com/brands/cityexpress" class="button-link">Learn More <span class="sr-only">click on Introducing City Express by Marriott Learn More</span> </a> </div> </div> <div class="slider-small-title">City Express Plus Tampico</div> </li> <li class="uk-transform-origin-center-left"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/amb-carousel.jpg"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">INTRODUCING APARTMENTS BY MARRIOTT BONVOY™</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0"></div> </div> <div class="slider-action"> <a href="https://www.hotel-development.marriott.com/brands/apartments" class="button-link">Learn More <span class="sr-only">click on INTRODUCING APARTMENTS BY MARRIOTT BONVOY™ Learn More</span> </a> </div> </div> <div class="slider-small-title"></div> </li> <li class="uk-transform-origin-center-left"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Marriott International Hotel Development" width="1800" class="hero-slideshow__media" height="1200" data-uk-parallax="y: 100" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-hero-slider/hero-image4.jpg"> <div class="slider-content"> <div class="slider-title-subtitle"> <div class="hero-slideshow__caption-title slider-title" tabindex="0">Welcome Home</div> <div class="hero-slideshow__caption-subtitle slider-subtitle" tabindex="0">Marriott's Portfolio of Branded Residences</div> </div> <div class="slider-action"> <a href="https://www.hotel-development.marriott.com/hotel-development#mixed-use-residential-development" class="button-link">Learn More <span class="sr-only">click on Welcome Home Learn More</span> </a> </div> </div> <div class="slider-small-title">The Residences at the West Hollywood EDITION</div> </li> </ul> </div><div class="slider-nav"> <a class="slider-nav__arrow slider-nav__arrow--prev uk-invisible" href="#" data-uk-slidenav-previous="" data-uk-slideshow-item="previous"><span class="sr-only">Previous Slide</span></a> <a class="slider-nav__arrow slider-nav__arrow--next uk-invisible" href="#" data-uk-slidenav-next="" data-uk-slideshow-item="next"><span class="sr-only">Next Slide</span></a> </div> </div> <main id="main-content" class="wrapper"> <div class="home-overview-wrapper dynamiccomponenteditenable" data-id='284194' data-editbuttontext='' data-editable='True'> <div class="uk-container"> <div class="home-overview uk-flex uk-grid" data-uk-grid=""> <div class="home-overview-left uk-width-3-5@m"> <h1 class="overview-title" tabindex="0" data-uk-scrollspy="cls: uk-animation-slide-bottom;delay: 300; repeat: true">Developing the Future Together</h1> <div class="line-description" tabindex="0" data-uk-scrollspy="cls: uk-animation-slide-bottom;delay: 400; repeat: true">Marriott succeeds when you do. Our team looks forward to working with you to understand your hotel development goals, offer our hospitality expertise and support your business objectives to achieve long-term success.&nbsp;</div> <div class="overview-content" tabindex="0" data-uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> Marriott International is the world's largest travel company, offering unmatched choice for guests and driving unrivaled value for owners. With our expansive portfolio of brands, dynamic sales and marketing platform, and the world&#39;s most admired guest loyalty program, Marriott Bonvoy, we focus on driving long-term profitable partnerships with owners. It's never been easier for owners to tap into the power of the world's leading hospitality company. </div> <div class="button-wrapper" data-uk-scrollspy="cls: uk-animation-slide-bottom;delay: 500; repeat: true"> <a href="https://www.hotel-development.marriott.com/power-of-marriott" role="button" class="uk-button uk-button-primary">Learn More<span class="sr-only">Learn More about Developing the Future Together</span></a> </div> </div> <div class="home-overview-right uk-width-2-5@m"> <div class="home-video-sec"> <div> <a href="#modal-media-vimeo" data-uk-toggle=""> <div class="video-play-button">Watch the Video <span class="mim-icon-play"></span></div> <span class="sr-only">Watch the Video</span> </a> <div id="modal-media-vimeo" class="video-popup-show uk-flex-top" data-uk-modal=""> <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical"> <button class="uk-modal-close-outside" type="button" data-uk-close=""> <span class="sr-only">click on close</span> </button> <iframe src="https://player.vimeo.com/video/808344518?autoplay=0&loop=1&autopause=0" width="1067" height="600" data-uk-video="automute: false" data-uk-responsive=""></iframe> </div> </div> <div class="video-img" data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true"> <img src="https://www.hotel-development.marriott.com/resourcefiles/home-overview-video/ac-hotel-melbourne-southbank.jpg" alt="Shaping the Future Together&#8203; At Marriott International Development" width="505" height="673" data-nodeferimage="true"> <div class="brand-video-name">AC Hotel Melbourne Southbank</div> </div> </div> </div> </div> </div> </div> </div> <div class="home-map-section dynamiccomponenteditenable" data-id='285748' data-editbuttontext='' data-editable='True'> <div class="uk-container"> <div class="sec-heading uk-text-center"> <h2 class="overview-title" tabindex="0" data-uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: true">A World of Opportunities</h2> </div> <div class="home-map-section-inner"> <div class="desktop-map-image" data-uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true"><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="All region map " width="900" height="495" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-map-section/home-new-map.png"></div> <div class="all-regions-count"> <div class="all-regions-count-inner brands" tabindex="0"> <div class="total-counts" data-n="30">30</div> <span class="regions-category-text">Brands</span> </div> <div class="all-regions-count-inner members" tabindex="0"> <div class="total-counts" data-n="175">175</div> <span class="regions-category-text">Million Loyalty Members</span> </div> <div class="all-regions-count-inner properties" tabindex="0"> <div class="total-counts" data-n="8300">8300</div> <span class="regions-category-text">Properties</span> </div> <div class="all-regions-count-inner countries" tabindex="0"> <div class="total-counts" data-n="138">138</div> <span class="regions-category-text">Countries &amp; Territories</span> </div> <div class="button-wrapper"> <a href="https://www.hotel-development.marriott.com/meet-the-team" role="button" class="uk-button uk-button-primary">MEET THE TEAM<span class="sr-only">MEET THE TEAM</span></a> </div> </div> </div> </div> </div> <div class="home-our-brand" data-uk-scrollspy="cls:addBG"> <div class="home-our-brand-title"> <div class="uk-container"> <h2 class="overview-title dynamiccomponenteditenable" data-id='301686' data-editbuttontext='' data-editable='True' tabindex="0" data-uk-scrollspy="cls: uk-animation-fade; delay: 300; repeat: true"> Our Brands </h2> </div> </div> <div class="portfolio-matrix portfolio-matrix-home"> <div class="uk-container"> <div class="logos-image dynamiccomponenteditenable" data-id='301686' data-editbuttontext='' data-editable='True'> <div class="desktop-image"> <a href="https://www.hotel-development.marriott.com/brands"> <span class="sr-only">Portfolio Matrix Of Marriott International Development</span> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="1202" height="533" alt="Portfolio Matrix Of Marriott International Development" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/portfolio-matrix-logos/desktop-home-brands-logos.png"></a> </div> <div class="mobile-image"> <a href="https://www.hotel-development.marriott.com/brands"> <span class="sr-only">Portfolio Matrix Of Marriott International Development</span> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="600" height="1321" alt="Portfolio Matrix Of Marriott International Development" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/portfolio-matrix-logos/mobile-home-brands-logos.png"></a> </div> </div> </div> </div> </div> <div class="home-contact-us-section"> <div class="uk-container"> <div class="home-contact-us-inner dynamiccomponenteditenable" data-id='284223' data-editbuttontext='' data-editable='True'> <div class="uk-inline" tabindex="0" data-uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true"> <div class="image-with-overlay"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="1240" height="500" alt="Finding the Right Fit At Marriott International Development" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/home-contact-us-section/finding-right-fit.png"> <div class="uk-overlay-default uk-position-cover contact-us-overlay"></div> </div> <div class="before-hover-sec"> <h2 class="home-contact-us-title" tabindex="0">Finding the Right Fit</h2></div> <div class="uk-overlay uk-position-center uk-dark uk-text-center home-contact-us-info"> <div class="after-hover-sec"> <div class="description" tabindex="0">Whether conversion or new build, managed or franchised, residential or all-inclusive, let us help bring your vision to life. ​</div> <div class="button"><a href="https://www.hotel-development.marriott.com/hotel-development" role="button" class="uk-button uk-button-primary"><span class="sr-only">LEARN MORE about Finding the Right Fit</span>LEARN MORE</a></div> </div> </div> <div class="contact-small-title">Residence Inn Al Jaddaf, Dubai </div> </div> </div> </div> </div> <div class="home-linkedin-section"> <div class="home-linkedin-title"> <div class="uk-container uk-text-center" data-uk-scrollspy="cls: uk-animation-slide-bottom; delay: 300; repeat: true"> <h2 class="overview-title dynamiccomponenteditenable" data-id='284225' data-editbuttontext='' data-editable='True' tabindex="0">Follow Us on LinkedIn</h2> <a href="https://www.linkedin.com/showcase/marriott-development" role="button" class="button-link" target="_blank" rel="nofollow">SEE OUR FULL PROFILE<span class="sr-only">SEE OUR FULL PROFILE</span></a> </div> </div> </div> <div class="footer-contact-us-section"> <div class="uk-container"> <div class="footer-contact-us-inner"> <div class="footer-contact-us-left" data-uk-grid="" data-uk-scrollspy="cls: uk-animation-fade; delay:300; repeat: true"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="429" height="400" alt="Get Started Today And Own The Future At Marriott International Development" data-mimg="https://www.hotel-development.marriott.com/resourcefiles/footer-contact-us-section/learn-more-marriott-new.jpg"> <div class="footer-brand-name">AC Hotel by Marriott Seoul Gangnam </div> </div> <div class="footer-contact-us-right" data-uk-scrollspy="cls:addBG"> <h2 class="overview-title dynamiccomponenteditenable" data-id='284234' data-editbuttontext='' data-editable='True' tabindex="0" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay:300; repeat: true">GET STARTED TODAY AND OWN THE FUTURE. &#8203;</h2> <div class="button" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay:300; repeat: true"><a href="https://www.hotel-development.marriott.com/contact-us" role="button" class="uk-button uk-button-primary"><span class="sr-only">CONTACT US</span>CONTACT US</a></div> </div> </div> </div> </div> </main> <footer class="footer"> <div class="uk-container footer__container"> <div class="uk-grid footer__grid"> <div class="footer__col footer__col--links"> <div class="footer-primary-links"> <ul class="footer__links uk-list"> <li class="footer__links-item dynamiccomponenteditenable" data-id='283566' data-editbuttontext='' data-editable='True'> <a href="https://www.careers.marriott.com/" class="" target="_blank" rel="nofollow">Careers</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284235' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/culture-and-values/core-values.mi" class="" target="_blank" rel="nofollow">Core Values &amp; Heritage</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284236' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/corporate-social-responsibility/corporate-responsibility.mi" class="" target="_blank" rel="nofollow">Corporate Social Responsibility</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284237' data-editbuttontext='' data-editable='True'> <a href="https://www.marriott.com/diversity/diversity-and-inclusion.mi" class="" target="_blank" rel="nofollow">Diversity</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284238' data-editbuttontext='' data-editable='True'> <a href="https://marriottresidences.com" class="" target="_blank" rel="nofollow">Branded Residences</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284239' data-editbuttontext='' data-editable='True'> <a href="https://marriott.gcs-web.com/" class="" target="_blank" rel="nofollow">Investor</a> </li> <li class="footer__links-item dynamiccomponenteditenable" data-id='284240' data-editbuttontext='' data-editable='True'> <a href="https://news.marriott.com/" class="" target="_blank" rel="nofollow">News</a> </li> </ul> </div> </div> </div> <div class="footer-bottom"> <div class="footer-sub-menu"> <ul> <li><a href="http://www.marriott.com/about/terms-of-use.mi" rel="nofollow" class="footer__menu-item dynamiccomponenteditenable" data-id='283570' data-editbuttontext='' data-editable='True'>Terms of Use</a> </li> <li><a href="http://www.marriott.com/about/privacy.mi" rel="nofollow" class="footer__menu-item dynamiccomponenteditenable" data-id='283571' data-editbuttontext='' data-editable='True'>Privacy and Cookie Statement</a> </li> <li><a href="http://www.marriott.com/help/default.mi" rel="nofollow" class="footer__menu-item dynamiccomponenteditenable" data-id='283572' data-editbuttontext='' data-editable='True'>Help</a> </li> <li><a href="https://www.hotel-development.marriott.com/sitemap" rel="nofollow" class="footer__menu-item dynamiccomponenteditenable" data-id='284244' data-editbuttontext='' data-editable='True'>Site Map</a> </li> <li><a href="https://www.marriott.com/about/ccpa/do-not-sell.mi" rel="nofollow" class="footer__menu-item dynamiccomponenteditenable" data-id='308597' data-editbuttontext='' data-editable='True'>Do Not Sell My Personal Information</a> </li> <li class="l-universal-footer-link footer__links-item" id="teconsent"></li> </ul> </div> <div class="footer-bottom-right"> <div class="footer-social"> <div class="footer__social"> <a href="https://www.linkedin.com/showcase/marriott-development" class="footer__social-link" title="LinkedIn" target="_blank" rel="nofollow"> <span class="mim-icon-linkedin"></span> <span class="sr-only">LinkedIn</span> </a> </div> </div> <div class="footer-logo"> <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="footer__logo-img" width="197" height="31" data-uk-svg="" alt="Marriott Bonvoy" data-mimg="https://www.hotel-development.marriott.com/images/footer-logo.svg"> </div> </div> </div> <div class="footer__copyright footer__copyright--home1"> <span tabindex="0" class="dynamiccomponenteditenable" data-id='284722' data-editbuttontext='' data-editable='True'>Copyright &copy; 1996 - 2023 Marriott International, Inc. All rights reserved</span> <div class="powered-statement"> <span><a href="https://mgscloud.marriott.com/common/sales-mktg-and-rev-mgmt/ecommerce/marriott-digital-services" target="_blank" rel="nofollow">Powered by MDS</a></span> </div> </div> <div class="footer__backtotop"> <button type="button" data-uk-scroll="" class="uk-icon footer__backtotop-action"> <span class="sr-only">Back to Top</span> <span class="mim-icon-right-arrow-calandar"></span> </button> </div> </div>     </footer> <nav class="mobile-footer"> <a href="https://www.hotel-development.marriott.com/contact-us" role="button" class="uk-button reserve footer-contactus-btn nav"><span class="mim-icon-phone-icon"></span> CONTACT US</a> </nav> <script type="text/javascript">
+var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+if(isiOS)
+{
+  if ('serviceWorker' in navigator) {
+   navigator.serviceWorker
+   .register('https://www.hotel-development.marriott.com/serviceworker.js')
+   .then(function() { });
+	}
+
+}
+else
+{
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1594362511.2451456
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1636608248.3566823
+!function(n,r,e,t,c){var i,o="Promise"in n,u={then:function(){return u},catch:function(n){
+return n(new Error("Airship SDK Error: Unsupported browser")),u}},s=o?new Promise((function(n,r){i=function(e,t){e?r(e):n(t)}})):u
+;s._async_setup=function(n){if(o)try{i(null,n(c))}catch(n){i(n)}},n[t]=s;var a=r.createElement("script");a.src=e,a.async=!0,a.id="_uasdk",
+a.rel=t,r.head.appendChild(a)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+ 'UA', {
+  
+  // Only needed when used on insecure hosts:
+  // secureIframeUrl: 'https://your.secure.domain/path/to/web-push-secure-bridge.html',
+
+  vapidPublicKey: 'BCJ6a-0oqdtwjnY_b-BP3HN-zarWAXZbbDvokGbXSBHn8EoV5-ekMx8uVIllsc17NFZlGys4cwPzpQW1dqlVWTc=',
+  appKey: '7AIvO4RVQ0qNWiEMxsejxQ',
+  token: 'MTo3QUl2TzRSVlEwcU5XaUVNeHNlanhROjlkRFgwSkc2NW1OQ0RhQWNhbWVVcnJhOWQ3bWhFLU9ub3I4RTFta1RzdTQ',
+  workerUrl: 'https://www.hotel-development.marriott.com/serviceworker.js'
+ });
+}</script><script>
+document.write(unescape("%3Cscript src='https://www.hotel-development.marriott.com/dynamic/js/home.aspx' type='text/javascript'%3E%3C/script%3E"));</script> <input type='hidden' id='hdnparentpageid' value='0'><input type='hidden' id='hdnpageid' value='297528'><input type='hidden' id='hdntemplatename' value='Home.aspx'><input type='hidden' id='hdnpagealias' value='milestone'><input type='hidden' id='hdnclientaccess' value='0'><input type='hidden' id='hdndevicetype' value='desktop'><input type='hidden' id='hdntabletdetection' value='2'><input type='hidden' id='hdnmobiledetection' value='2'><input type='hidden' id='hdnismobile' value='0'><input type='hidden' id='hdnclientmoderation' value=''><input type='hidden' id='hdnVersionControlPlugin' value='0'><input type='hidden' id='hdndifferenttabletcontent' value='0'><input type='hidden' id='hdndifferentmobilecontent' value='0'><input type='hidden' id='hdnusertypeid' value=''><input type='hidden' id='hdnmilestoneSiteID' value='11977'><input type='hidden' id='Pod-ID' value='16'><input type='hidden' id='hdnlanguagepages' value='{"languagepages":[{"en": "https://www.hotel-development.marriott.com/milestone"}]}'><input type='hidden' id='hdnCFDeviceType' value='desktop'><input type='hidden' id='hdnIsClientAdmin' value='false'><input type='hidden' id='hdnIsEnableWorkFlowModeration' value='False'><input type='hidden' id='hdnMainRequestURL' value='https://www.hotel-development.marriott.com/'><input type='hidden' id='hdnIsDamEnabled' value='False'><input type='hidden' id='hdnIsCopyPageEnabled' value='False'><input type='hidden' id='hdncacheFileName' value='keyB8B2F9B0FE7DC8AC4D436A352AB195A2102EA4781E2B9B7C39009B6BFB70D8F0#2023-11-03T10--06--52'><input type='hidden' id='hdnmemberemail' value=''><input type='hidden' id='hdnmembername' value=''><input type='hidden' id='hdnexternalpage' value='0'><input type='hidden' id='hdnpagestatus' value='1'><input type='hidden' id='hdnmilestoneSiteURL' value='https://www.hotel-development.marriott.com/'><input id="hddevicetype" value="desktop" type="hidden"><script id="msLoadDefer" type="text/javascript">
+var allImgTags = null;
+var eleImg = null;
+allImgTags = document.getElementsByTagName("img");
+function imgInViewport(el) {
+ var top = el.offsetTop;
+ var left = el.offsetLeft;
+ var width = el.offsetWidth;
+ var height = el.offsetHeight;
+
+ while(el.offsetParent) {
+ el = el.offsetParent;
+ top += el.offsetTop;
+ left += el.offsetLeft;
+ }
+
+ return (
+ top < (window.pageYOffset + window.innerHeight) &&
+ left < (window.pageXOffset + window.innerWidth) &&
+ (top + height) > window.pageYOffset &&
+ (left + width) > window.pageXOffset
+ );
+}
+setTimeout(function(){
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg'))
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+	},3000);
+window.onscroll = function() {
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg')&& imgInViewport(allImgTags[i]) )
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+}
+</script><script id="autoAnalyticsManager" src="https://www.hotel-development.marriott.com/milestone_common/autoanalyticsmanager.min.js"></script><input type="hidden" value="cache version"></body> </html>
+0
+
+
+
+
+https://www.hotel-development.marriott.com:443

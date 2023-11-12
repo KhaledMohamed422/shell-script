@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: dl.dir.freefiremobile.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/101.0.4951.44 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 304
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 8227ddf259147a58-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:08:48 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSHSuRIsQbUJTebyduXdx/dRKQzQobdN
+X-Obs-Request-Id: 0000018BAB2FF3F4980C7D8983CA4C98
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB2FF3F4980C7D8983CA4C98</RequestId><HostId>SaU4K79fP7AoQJxHuvpbtMe/XzFK2f0n3bqHhOOJzZZzpdQ9ihB7cyTXyPxzYrZG</HostId><Key>mgames/ffmhk/</Key></Error>
+
+
+http://dl.dir.freefiremobile.com:80

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: gma.tiktok.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; SPN-AL00 Build/HUAWEISPN-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.4.9.201 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 550
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:44:29 GMT
+Proxy-Status: 0000201502005104
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=279, origin; dur=21
+X-Akamai-Request-Id: 8128c48.4e7490a
+X-Cache: TCP_MISS from a23-55-109-156.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Cache-Remote: TCP_MISS from a23-218-219-25.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Origin-Response-Time: 21,23.218.219.25
+X-Parent-Response-Time: 299,23.55.109.156
+X-Tt-Logid: 202311081844281B47DEB7185D6A4E33B6
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5acc2b34058232f96da04a71f90478fa856b2adb2c88476d23e400d598b876e4c2e081590ac0a3d6e130ed71a800338061b3cc4812fd6552cc53fcdd9d46db7f71
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: portal-test.say.rocks
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413 es50
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://portal-test.say.rocks/
+Refresh: 0;url=https://portal-test.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://portal-test.say.rocks:80

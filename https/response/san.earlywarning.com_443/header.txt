@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: san.earlywarning.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20100101 Firefox/10.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: self
+Content-Security-Policy: script-src 'self' 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Location: /dana-na/auth/url_default/welcome.cgi
+Set-Cookie: DSSIGNIN=url_default; path=/dana-na/; expires=Thu, 31-Dec-2037 00:00:00 GMT; secure
+Set-Cookie: DSIVS=; path=/; expires=Thu, 01 Jan 1970 22:00:00 GMT; secure
+Set-Cookie: DSSignInURL=/; path=/; secure
+Set-Cookie: SUPPORTCHROMEOS=1; path=/; secure
+Set-Cookie: PHC_DISABLED=1; path=/; secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://san.earlywarning.com:443

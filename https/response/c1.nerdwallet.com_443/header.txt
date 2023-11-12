@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: c1.nerdwallet.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; LE2121) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 507
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:05:25 GMT
+Expires: Tue, 07 Nov 2023 18:05:25 GMT
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 bc3ecf5f025b0be9b8c39c5dd2dace2e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: I9qfW4yK5rb6OWRi9BMkJW2XEUj0wdiz9vGJXVmrkdXjJXQP9MvWig==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+

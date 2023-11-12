@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: ads-api.twitter.com
+User-Agent: BlackBerry9530/4.7.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 UP.Link/6.3.1.20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Disposition: attachment; filename=json.json
+Content-Type: application/json;charset=utf-8
+Date: Tue, 07 Nov 2023 20:16:32 GMT
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938819277325536; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:16:32 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+Timing-Allow-Origin: https://twitter.com, https://mobile.twitter.com
+X-Connection-Hash: 748184616a4f601ae0ef4b6b22e48a8b1e0ffb0e3d20052686c4216603cb55d3
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 104
+X-Transaction: defd90b0f70ae55e
+X-Transaction-Id: defd90b0f70ae55e
+X-Xss-Protection: 0
+
+{"errors":[{"code":"ROUTE_NOT_FOUND","message":"The requested resource could not be found"}],"request":{"params":{}}}
+
+
+https://ads-api.twitter.com:443

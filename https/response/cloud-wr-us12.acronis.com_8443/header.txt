@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: cloud-wr-us12.acronis.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/51.0.2704.79 Chrome/51.0.2704.79 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Type: text/xml; charset=utf-8
+Date: Tue, 07 Nov 2023 23:14:24 GMT
+Front-End-Https: on
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: openresty/1.15.8.2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: c6134b16053841b48d40bb08538c133e
+X-Request-Id: 068fbcc1272da2665d5717e1b8263373
+
+b8
+<?xml version='1.0' encoding='utf-8'?>
+<methodResponse><params><param><value><string>Acronis Registration Server (MSP implementation)</string></value></param></params></methodResponse>
+0
+
+
+
+
+https://cloud-wr-us12.acronis.com:8443

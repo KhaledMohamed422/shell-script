@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: status.developer.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc685af37a5e-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:54 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wiK5vsSEY6pailKVjh%2FbOeturbhVNw5dntYZC5R3s3tvpjI3Ueelh59sPwY7%2FRYzcIinPD2kJ5qcLIfWSjjP7SUR0W0E5QMpKCtpR%2F3DLq2F9rUg7sdre%2F6cTGDKjwuN7f8uyPGQFfh0VpiOutY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlBpeGhzQzFvWUtCbnBhVTc3S0pzc0E9PSIsInZhbHVlIjoiaDlua0twaVNcL1BRY3FDV3ppYnJIWGNUempFYTFmUmVpeW1MeHJSRXhcL0dDU0lYem1wTjdJNnBFXC9EOEFPcldHNSIsIm1hYyI6IjMyZDkwY2IyZDNkYTY0ODJlMGY5ZTUxZWEzMWE0YzcxOTUyNjQ4MmVkNzZhOWE4NWY3OGJlZGIzMDZlZTJhNDQifQ%3D%3D; expires=Tue, 07-Nov-2023 20:45:44 GMT; Max-Age=7200; path=/
+Set-Cookie: laravel_session=eyJpdiI6IjhvV04xUjVaa0dtckpSVG5FUGhDQ1E9PSIsInZhbHVlIjoiRFVsOWdPTytrXC9yXC9aQW9FUDZ5SWN1REp2QklGdTlkYk8rM0lXWXZvZTRiQjJTZjN5cHdMZmI5YWZ2OW5ycWFuIiwibWFjIjoiMDhjMzk2MDE4NzAxYThjNDAwMzljNjI5NTgxOGUxZjhiZWM5MmY2ZWI3OGFmYWYwZTNjYzM3NjM5NmFiOWMzZSJ9; expires=Tue, 07-Nov-2023 20:45:44 GMT; Max-Age=7200; path=/; httponly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Cache: HIT
+X-Content-Type-Options: nosniff
+
+3b4e

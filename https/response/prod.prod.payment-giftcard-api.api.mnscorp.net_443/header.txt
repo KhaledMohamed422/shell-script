@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: prod.prod.payment-giftcard-api.api.mnscorp.net
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Date: Wed, 08 Nov 2023 02:29:54 GMT
+Retry-After: 60
+X-Azure-Ref: 20231108T022954Z-4b80m9ypkt6913wy09gqa48gp400000001k0000000009tez
+X-Cache: CONFIG_NOCACHE
+
+19d
+<div style="display: block; margin: auto;  width: 600px; height: 500px; text-align: center; font-family: 'Courier', cursive, sans-serif;"><h1 style="color: 747474">:( Application Error</h1><p style="color:#666">If you are the application administrator, you can access the <a style="color: grey"href="https://prod-payment-giftcard-v1-eun-layer3-app.scm.azurewebsites.net/detectors">diagnostic resources</a>.</div>
+
+0
+
+
+
+
+https://prod.prod.payment-giftcard-api.api.mnscorp.net:443

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: spill.betfair.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227b93d0fc321bd-DUS
+Date: Tue, 07 Nov 2023 18:43:44 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://betting.betfair.com
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2Au1%2BTKws2iAfqfgMToDzqm2GDT4jW%2B8vCMI5EqOXnNrHBmxK8dZOzbRcFrzLQnjywDzYWo1VQTXxjPKL16s%2ByfdS1SUfDSNw4EQJz3pA5ok7FAkmYomKZfzZF98%2FJm6B91XKz%2BIN%2F8%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://spill.betfair.com:8080

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dl2.acronis.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 42
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 22:48:19 GMT
+Location: http://acronis.com/
+Server: Google Frontend
+Via: 1.1 google
+X-Cloud-Trace-Context: 8a39c6c5eb34953f91ec301998853590
+
+<a href="http://acronis.com/">Found</a>.
+
+
+
+
+http://dl2.acronis.com:80

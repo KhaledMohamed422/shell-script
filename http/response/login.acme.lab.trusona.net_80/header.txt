@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: login.acme.lab.trusona.net
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/101.0.4951.58 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 177
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:49:56 GMT
+Location: https://login.acme.lab.trusona.net/
+Server: openresty/1.19.9.1
+

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dev2.webhook.hvmi.marriott.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; POCOPHONE F1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:26:11 GMT
+Expires: Tue, 07 Nov 2023 17:26:11 GMT
+Pragma: no-cache
+X-Amz-Apigw-Id: OCbwDGhSIAMEIYA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: e649303b-0283-4db4-a5a5-c6880b78586e
+
+{"message":"Missing Authentication Token"}
+
+
+https://dev2.webhook.hvmi.marriott.com:443

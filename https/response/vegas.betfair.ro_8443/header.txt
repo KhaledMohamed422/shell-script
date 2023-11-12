@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: vegas.betfair.ro:8443
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A346 Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bc9b2c96cb2f-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:46:02 GMT
+Expires: Tue, 07 Nov 2023 18:46:17 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8OBRITyjHFK%2BflL5wKgWD58hkZaG6i9D%2BuG4nFCA0k8vLznPnRhKjArXcdvtMybr4UYn4Up7ay%2BqpQrZBtXLtvhPcuxeK4gUS1gFEiHGFHguJ%2BQNs6N5IN09sf%2FO0UUvsX4sgqljGg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=tfQpqY4skVYDDXfDeNh_atgye.KKaQ9qse5H0rPTuww-1699382762-0-AV3KtjeFOynBjW2L/0wxHMKKRt0nh5Iiw0mYMrdK0ygavY4UvOz3mIQ1A6SkY7UqltKVMyztjqBv4ujeqaasZSM=; path=/; expires=Tue, 07-Nov-23 19:16:02 GMT; domain=.betfair.ro; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

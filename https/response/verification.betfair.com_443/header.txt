@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: verification.betfair.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:8.0) Gecko/20100101 Firefox/8.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc9b7b441635-DUS
+Date: Tue, 07 Nov 2023 18:46:02 GMT
+Location: https://identitysso.betfair.com/view/login?product=my-account&redirectMethod=GET&url=https%3A%2F%2Fmyaccount.betfair.com%2Fsummary%2Faccountsummary
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aPN5IHwpXWwC9%2BXHDleZx1qua1F4vwZDGJWE4wsK9xmw5xPLXSR2JKSMxY%2BMKLmM2A2JVAs0mvux0kqQyp9BQrqAiuwEIN%2BvL8riw8Eg%2F3ElfKOA%2FZ%2BI3mpmWjtC334Gf4CazGyT9yTFZQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: wsid=3ad61eeb-f0b5-407c-bd98-bc2dc433dd7e; Domain=betfair.com; Path=/; HttpOnly
+Set-Cookie: vid=30863e42-dc13-4437-b617-ccb69ab49302; Max-Age=315360000; Expires=Fri, 04-Nov-2033 18:46:02 GMT; Domain=betfair.com; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Length: 0
+
+
+
+
+https://verification.betfair.com:443

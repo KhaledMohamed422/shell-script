@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-13.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Pixel Build/NHG47N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:50 GMT
+Server: nginx
+Vgs-Request-Id: c91afe3b328cec485ec0aa57da26fb7f
+Via: 1.1 reverse-proxy-01-6fdcccfc7f-kxfw4
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: c91afe3b328cec485ec0aa57da26fb7f.
+
+
+https://certificate-provisioning-test-sandbox-13.verygoodsecurity.io:443

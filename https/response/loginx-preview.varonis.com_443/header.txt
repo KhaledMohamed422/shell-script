@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: loginx-preview.varonis.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; TECNO LA7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: default-src 'self' varonisx.oktapreview.com loginx-preview.varonis.com *.oktacdn.com; connect-src 'self' varonisx.oktapreview.com varonisx-admin.oktapreview.com loginx-preview.varonis.com *.oktacdn.com *.mixpanel.com *.mapbox.com app.pendo.io data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com *.mtls.oktapreview.com varonisx.kerberos.oktapreview.com varonisx.mtls.oktapreview.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data:; script-src 'unsafe-inline' 'unsafe-eval' 'self' varonisx.oktapreview.com loginx-preview.varonis.com *.oktacdn.com; style-src 'unsafe-inline' 'self' varonisx.oktapreview.com loginx-preview.varonis.com *.oktacdn.com app.pendo.io cdn.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; frame-src 'self' varonisx.oktapreview.com varonisx-admin.oktapreview.com loginx-preview.varonis.com login.okta.com com-okta-authenticator:; img-src 'self' varonisx.oktapreview.com loginx-preview.varonis.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com app.pendo.io data.pendo.io cdn.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com data: blob:; font-src 'self' varonisx.oktapreview.com loginx-preview.varonis.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self' https://uat-central.varonis.com https://uat-help.varonis.com https://myvaronis-stg.varonis.com
+Content-Type: text/html;charset=ISO-8859-1
+Date: Tue, 07 Nov 2023 17:27:59 GMT
+Location: https://loginx-preview.varonis.com/app/UserHome?iss=https%3A%2F%2Floginx-preview.varonis.com&session_hint=AUTHENTICATED
+P3p: CP="HONK"
+Server: nginx
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0
+Set-Cookie: autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+X-Okta-Request-Id: ZUpznzcleo7ZQLyK_OCWoQAACMk
+X-Robots-Tag: noindex,nofollow
+X-Xss-Protection: 0
+Content-Length: 0
+
+
+
+
+https://loginx-preview.varonis.com:443

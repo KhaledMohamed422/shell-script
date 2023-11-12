@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: core-australiaeast-release-a.citrixworkspacesapi.net
+User-Agent: Mozilla/5.0 (Linux; Android 10; BLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:45:59 GMT
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+http://core-australiaeast-release-a.citrixworkspacesapi.net:80

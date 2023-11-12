@@ -1,0 +1,43 @@
+GET / HTTP/1.1
+Host: www.typeform.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-A515F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Age: 44069
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=86400, no-cache
+Content-Security-Policy-Report-Only: default-src 'self' https:; upgrade-insecure-requests; script-src 'self' 'unsafe-eval' https: 'unsafe-inline'; script-src-attr 'self' 'unsafe-inline' https:; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https:; font-src 'self' https: data:; img-src 'self' https: data:; media-src 'self' https: data: blob:; style-src 'self' 'unsafe-inline' https:; frame-src 'self' https:; child-src 'self' blob: https:; manifest-src 'self'; frame-ancestors 'self' https:; worker-src 'self' https: blob:; form-action 'self' *.twitter.com *.google.com *.facebook.com connect.facebook.net forms.hsforms.com forms.hubspot.com; base-uri 'self'; object-src 'self'; connect-src 'self' https: data:; report-uri https://typeformwww.report-uri.com/r/t/csp/reportOnly
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Opener-Policy: same-origin
+Date: Tue, 07 Nov 2023 11:19:48 GMT
+Etag: W/"9bp3k6k04b92m8"
+Server: istio-envoy
+Set-Cookie: experiments-fingerprint=c63cabc0-e940-4dd9-9428-3902f7695859; Domain=typeform.com; Expires=Wed, 08 May 2024 11:34:17 GMT; Path=/; Secure
+Set-Cookie: experiments-raw=25775880969:25766800762:25812970724:Replace_Enterprise_Pricing_Module_with_Regular_Pricing_Module:variation-25218711238:25244980973:25309820261:cello_experiment:variation-26076810006:25997102671:25968772693:home_page_hero_animation_v2_only_new_visitors:control-25877630491:25862920557:25877980378:navigation_revamp_mobile:control-25718260005:25656560178:25689050232:personalized_homepage_for_b2c:control; Domain=typeform.com; Expires=Wed, 08 May 2024 11:34:17 GMT; Path=/; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 d357d5d597708d2b41e0fea397aa2620.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8Er_v9SLAfWif8_u3rKXPBTkyXtjHOWBWkUatKzGzo6TZeknWhS7fQ==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Hit from cloudfront
+X-Device: mobile
+X-Envoy-Upstream-Service-Time: 199
+X-Experiments: 25775880969:25766800762:25812970724:Replace_Enterprise_Pricing_Module_with_Regular_Pricing_Module:variation-25218711238:25244980973:25309820261:cello_experiment:variation-26076810006:25997102671:25968772693:home_page_hero_animation_v2_only_new_visitors:control-25877630491:25862920557:25877980378:navigation_revamp_mobile:control-25718260005:25656560178:25689050232:personalized_homepage_for_b2c:control
+X-Experiments-Raw: 25775880969:25766800762:25812970724:Replace_Enterprise_Pricing_Module_with_Regular_Pricing_Module:variation-25218711238:25244980973:25309820261:cello_experiment:variation-26076810006:25997102671:25968772693:home_page_hero_animation_v2_only_new_visitors:control-25877630491:25862920557:25877980378:navigation_revamp_mobile:control-25718260005:25656560178:25689050232:personalized_homepage_for_b2c:control
+X-Language: en
+X-Powered-By: Express
+X-Promote-Business: false
+X-Promote-Enterprise: undefined
+X-Userid: c63cabc0-e940-4dd9-9428-3902f7695859
+X-Viewer-Country: DE
+X-Visitor-Authenticated: false
+X-Visitor-Registered: false
+
+675c6

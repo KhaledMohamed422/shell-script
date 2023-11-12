@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: www.blogs.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82273f34ebe3715d-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:20:26 GMT
+Location: https://www.marriott.com/marriott/aboutmarriott.mi
+Server: cloudflare
+

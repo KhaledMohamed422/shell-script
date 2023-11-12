@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api21-normal-c-alisg.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:25 GMT
+Server: TLB
+Server-Timing: cdn-cache;desc=miss, edge;dur=158, origin;dur=3
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Served-By: cache-qpg1227-QPG, cache-fra-eddf8230137-FRA
+X-Timer: S1699469005.896248,VS0,VE161
+X-Tt-Logid: 20231108184323112BB925C497322EE8BB
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a847b8c354533bf0c68055c4a6b67341488f39995d4d5ff1c3adcceec31f0cc78b4fe36f5ddb667a514529ed1ef4856456f55823e9257b41ab3a10ab378e02e56
+X-Tt-Trace-Id: 00-231108184323112BB925C497322EE8BB-0938B8D13138D5AF-00
+X-Tt-Trace-Tag: id=19;cdn-cache=miss;type=dyn
+
+222

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api-acceptance.8x8.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228a8b7ebc5cb11-DUS
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 21:27:14 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=vkQvZcsTvnvdiTfofnIK2fJnhBlACrmlMGZKJt6yipI-1699392434-0-Af7p8EOqSiQd8HsHCsBHg7xwiFecdoWZTkC2P6zBCDwLEDts9khQRV+CGznZwb0N5K3QbnGOg1yj8gukv3zu/hY=; path=/; expires=Tue, 07-Nov-23 21:57:14 GMT; domain=.8x8.com; HttpOnly; Secure; SameSite=None
+X-Kong-Response-Latency: 0
+
+34
+{
+  "message":"no Route matched with those values"
+}
+0
+
+
+
+
+https://api-acceptance.8x8.com:443

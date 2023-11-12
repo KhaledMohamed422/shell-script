@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: api.klauret-dra.dap-risk-nonprod.collegeboard.org
+User-Agent: NokiaN73-1/3.0649.0.0.1 Series60/3.0 Profile/MIDP2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:02 GMT
+X-Amz-Apigw-Id: OCbJQEuRIAMEXCQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 3d1eec02-c9b8-46e5-b8b3-e893a504dc60
+X-Amzn-Trace-Id: Root=1-654a723a-1136186e140bcec65ef9c02a
+
+{"message":"Missing Authentication Token"}
+
+
+https://api.klauret-dra.dap-risk-nonprod.collegeboard.org:443

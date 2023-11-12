@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: bingo.betfair.ro
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b72bb9c87a4c-DUS
+Date: Tue, 07 Nov 2023 18:42:20 GMT
+Expires: Tue, 07 Nov 2023 19:42:20 GMT
+Location: https://vegas.betfair.ro
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bJ%2FMHAjV2OPYzLokTiqLkzcLf3TZWIjjO0K1cmHgrXuBi165AjGC%2BEwJEMmwO7lw1eFSHkTlGZSIim%2FNvIi8plqMZmpXytfUcZCX6Tors8IGKUKuHim4AsAkp0vyHvEofKU%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=.ilUO5CsaA5hqkJnaMnEQ7CWo2IL9Atfe_igwxp3LRY-1699382540-0-AaumFMSCY386AL1EFQ/Z/qvO8It8oVCj/x4XwXRr4ixxLIR582TzcFW+Zlmet4iyrqGg3Nr7I5S4zrJAzYSzjt0=; path=/; expires=Tue, 07-Nov-23 19:12:20 GMT; domain=.betfair.ro; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://bingo.betfair.ro:80

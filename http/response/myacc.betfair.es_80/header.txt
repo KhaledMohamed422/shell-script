@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: myacc.betfair.es
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb2fa942cae5-DUS
+Date: Tue, 07 Nov 2023 18:55:59 GMT
+Expires: Tue, 07 Nov 2023 19:55:59 GMT
+Location: https://myacc.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TdndE5annSIBo%2F3%2FDmE6wUPwvLDEUmjKjQlS3XWugubf6YhAvtXh0zCLEGyFVMwQt7t0v5jzgp08YAJypNkXmbwxiZZBa0DRHuLJStV2Wm%2Fb7eM17%2FGk7Q6xHnJ3bAwn9bg%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=iEkfVVXNHVLeXiKhiiCW8_DrzOVzGS8gbsASTg_cMBc-1699383359-0-AfGqMTW5dN2/DTNgXt2O0Bb4c19To3VZwM1lMiOeGdh+DOGuKUYqSa+0iVMxQY7Uqx2ZnE/eiZFz7rwb73qxppQ=; path=/; expires=Tue, 07-Nov-23 19:25:59 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://myacc.betfair.es:80

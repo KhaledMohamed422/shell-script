@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: dida-oss.aliexpress.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 375
+Ali-Swift-Global-Savetime: 1699437012
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:50:12 GMT
+Eagleid: a3b55c9f16994370116905215e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[630,629,403-1280,M], cache15.l2de2[631,0], ens-cache15.de5[632,632,403-1280,M], ens-cache11.de5[635,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B59D4E9CC4C3937EBCCAE
+X-Oss-Server-Time: 1
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:50:12 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B59D4E9CC4C3937EBCCAE</RequestId>
+  <HostId>dida-oss.oss-ap-southeast-1.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.alibabacloud.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://dida-oss.aliexpress.com:443

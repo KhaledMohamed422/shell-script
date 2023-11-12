@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: no-challenger.research.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e9a08de5caed-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:16:46 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iuy5m%2BMfofmXljYs%2BxHqUMo7XLiIvPh%2B7icSgebYVlv6e9Lj6pxjXb01Tz914DW7%2FRv%2BNaozdRGf%2BnB%2BblGk46eoux2%2Bg1OXOfTicTFGeqSjBY4WFi39PuTTMBzEMoUYPpDfypyBXSYbT%2FhjIjPoabcVg7Gg5Tfl"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+https://no-challenger.research.cloudflare.com:443

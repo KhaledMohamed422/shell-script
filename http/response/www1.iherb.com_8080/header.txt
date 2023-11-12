@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www1.iherb.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4950.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bfc1208cf6a89-DUS
+Date: Wed, 08 Nov 2023 07:08:25 GMT
+Expires: Wed, 08 Nov 2023 08:08:25 GMT
+Location: https://www1.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=Na9ei0jYpWe0yOOYHKe7KTTi8R5s_9IMeFDbOMy.6SU-1699427305-0-AcWiPGt25FIG5Jx8lCBfjd/2U9XhyQnGTRxeRkfOwcZ0E8lEMaQfKgCs9a/O5yh6WDbCs07x2NZV45qm06PTay6J9SanACMnHEXCPZq9xmLQ; path=/; expires=Wed, 08-Nov-23 07:38:25 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://www1.iherb.com:8080

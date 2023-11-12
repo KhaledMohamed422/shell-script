@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: pokemon.nintendo.be
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.59
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 181
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:18:52 GMT
+Location: https://www.pokemon.com/be?red_source=pokemon.nintendo.be&redirect=true
+
+Redirecting to <a href="https://www.pokemon.com/be?red_source=pokemon.nintendo.be&amp;redirect=true">https://www.pokemon.com/be?red_source=pokemon.nintendo.be&amp;redirect=true</a>.
+
+
+http://pokemon.nintendo.be:80

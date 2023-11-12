@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: report-uri.highwebmedia.com:8443
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/4.51 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 11
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 823046ddffd02187-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 08 Nov 2023 19:38:32 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AwMI29wbz%2B7U3YeTc3xod%2FddyV4OXmgDSOTKHsv2qY9aZAm5ZzWExodRE7ibhK2YpAgKoHu05WTezVekHtCb2X%2FUgTCm2bVW6ymLyjmIKnvtaH3pIiT8jQybYGFvJi4SjmeruKBLwm9%2BdoWFsrXL4jl7"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _cfuvid=U.4ZBcaG_JsLSXfnmcj7tUeoTPB0RypF2NEYentrUYY-1699472312009-0-604800000; path=/; domain=.highwebmedia.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+
+E001 - Nope
+
+
+https://report-uri.highwebmedia.com:8443

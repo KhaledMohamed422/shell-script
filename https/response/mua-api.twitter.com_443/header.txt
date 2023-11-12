@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: mua-api.twitter.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 91
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 20:34:12 GMT
+Server: t3_mua2
+X-Connection-Hash: 36e9ff470bb8a0ee54d40860aa1946420e6feb1a47f1d815d78e0f797955521a
+
+upstream connect error or disconnect/reset before headers. reset reason: connection failure
+
+
+https://mua-api.twitter.com:443

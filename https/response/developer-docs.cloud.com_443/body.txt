@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="The Cloud Software Group developer documentation site is the home of Citrix and NetScaler documentation for developers"
+    />
+    <title>Developer Documentation for Cloud Software Group</title>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T4Z6T6XF');</script>
+  <!-- End Google Tag Manager -->
+
+    <link rel="icon" sizes="180x180" href="images/cloud-favicon-large.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/cloud-favicon-medium.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/cloud-favicon-small.png"
+    />
+    <link rel="shortcut icon" href="images/cloud-favicon-shortcut.ico" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://use.typekit.net/ykh1tth.css" />
+    <link rel="stylesheet" href="css/core.min.3.24.7.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.min.css" type="text/css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://assets.adobedtm.com/3af873facf65/1932226fde55/launch-2c1d1529c076.min.js"></script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4Z6T6XF"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div id="consent_blackbar" style="position: relative; z-index: 99999"></div>
+    <!--main-content -->
+    <div id="docs-banner">
+      <div id="banner-div" class="dismissible dismissible-info on">
+        <p id="text-banner">
+          API docs are now hosted under developer-docs with enhanced features.
+          Please update your bookmarks to point to the new website. We look
+          forward to your feedback on the content and site experience; use the
+          feedback option to share your inputs.
+        </p>
+        <span class="docs-icon icon-close"></span>
+      </div>
+    </div>
+    <div id="main-content">
+      <div class="cloud-rsgrid">
+        <div class="ctx-cloud-sub-rsgrid responsivegrid">
+          <div class="aem-Grid aem-Grid--12 aem-Grid--default--12">
+            <div class="layout-tool aem-GridColumn aem-GridColumn--default--12">
+              <div
+                class="evg-select ctx-columns col-count-1 center default drop-padding top no-bg-img bg-color ctx-video-1-bg"
+              >
+                <div class="bg" data-value="layoutTool_63191">
+                  <div style="max-width: 1340px" class="content">
+                    <div class="row collapse-columns" style="min-height: 500px">
+                      <div>
+                        <div class="columns large-12">
+                          <div>
+                            <div class="responsivegrid">
+                              <div
+                                class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                              >
+                                <div
+                                  class="reference parbase aem-GridColumn aem-GridColumn--default--12"
+                                >
+                                  <div class="cq-dd-paragraph">
+                                    <div class="layout_tool_header layout-tool">
+                                      <div
+                                        class="evg-select ctx-columns col-count-2 center inverted middle maintain-columns no-bg-img csg-header"
+                                      >
+                                        <div
+                                          class="bg"
+                                          data-value="layoutTool_78472"
+                                        >
+                                          <div
+                                            style="max-width: 1340px"
+                                            class="content"
+                                          >
+                                            <div class="row">
+                                              <div style="height: px">
+                                                <div
+                                                  class="columns large-6 medium-6"
+                                                >
+                                                  <div>
+                                                    <div class="responsivegrid">
+                                                      <div
+                                                        class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                      >
+                                                        <div
+                                                          class="text aem-GridColumn aem-GridColumn--default--12"
+                                                        >
+                                                          <div
+                                                            class="ctx-text drop-padding"
+                                                          >
+                                                            <p class="csg_logo">
+                                                              <span
+                                                                class="ctx-style-h4-size"
+                                                              >
+                                                                <a
+                                                                  href="https://www.cloud.com/"
+                                                                  ><img
+                                                                    alt="Cloud Software Group home"
+                                                                    title=""
+                                                                    src="images/cloud-software-group-logo.svg"
+                                                                /></a>
+                                                              </span>
+                                                            </p>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="html-embed aem-GridColumn aem-GridColumn--default--12"
+                                                        >
+                                                          <div
+                                                            class="ctx-html-embed drop-padding"
+                                                          >
+                                                            <div>
+                                                              <style
+                                                                type="text/css"
+                                                              ></style>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div
+                                                  class="columns large-6 medium-6"
+                                                >
+                                                  <div>
+                                                    <div class="responsivegrid">
+                                                      <div
+                                                        class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                      ></div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  class="layout-tool aem-GridColumn aem-GridColumn--default--12"
+                                >
+                                  <div
+                                    class="evg-select ctx-columns col-count-2 center inverted drop-padding top no-bg-img"
+                                  >
+                                    <div
+                                      class="bg"
+                                      data-value="layoutTool_52226"
+                                    >
+                                      <div
+                                        style="max-width: 1340px"
+                                        class="content"
+                                      >
+                                        <div class="row">
+                                          <div>
+                                            <div class="columns large-8">
+                                              <div>
+                                                <div class="responsivegrid">
+                                                  <div
+                                                    class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                  >
+                                                    <div
+                                                      class="text aem-GridColumn aem-GridColumn--default--12"
+                                                    >
+                                                      <div class="ctx-text">
+                                                        <h1>
+                                                          <span
+                                                            class="ctx-style-semi"
+                                                            >Developer
+                                                            Documentation</span
+                                                          >
+                                                        </h1>
+                                                        <p>
+                                                          The Cloud Software
+                                                          Group developer
+                                                          documentation site is
+                                                          the home of Citrix and
+                                                          NetScaler
+                                                          documentation for
+                                                          developers.
+                                                        </p>
+                                                      </div>
+                                                    </div>
+                                                    <div
+                                                      class="buttons aem-GridColumn aem-GridColumn--default--12"
+                                                    >
+                                                      <div
+                                                        class="ctx-button-wrap ctx-left"
+                                                      >
+                                                        <a
+                                                          class="ctx-button primary ctx-blue ctx-medium-btn"
+                                                          href="https://www.cloud.com/news/press-release.html"
+                                                        >
+                                                          <span
+                                                            >LEARN MORE ABOUT CLOUD SOFTWARE GROUP</span
+                                                          >
+                                                        </a>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="columns large-5">
+                                              <div>
+                                                <div class="responsivegrid">
+                                                  <div
+                                                    class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                  ></div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="html-embed aem-GridColumn aem-GridColumn--default--12">
+              <div class="ctx-html-embed drop-padding">
+                <div></div>
+              </div>
+            </div>
+            <div class="layout-tool aem-GridColumn aem-GridColumn--default--12">
+              <div
+                class="evg-select ctx-columns col-count-1 center default drop-padding top no-bg-img bg-color ctx-rounded-bg ctx-show-overflow"
+              >
+                <div
+                  style="
+                    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4c161d6f', endColorstr='#4c161d6f');
+                  "
+                  class="bg"
+                  data-value="layoutTool_74130"
+                >
+                  <div style="max-width: 1340px" class="content">
+                    <div class="row collapse-columns">
+                      <div>
+                        <div class="columns large-12">
+                          <div>
+                            <div class="responsivegrid">
+                              <div
+                                class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                              >
+                                <div
+                                  class="layout-tool aem-GridColumn aem-GridColumn--default--12"
+                                >
+                                  <div
+                                    class="evg-select ctx-columns col-count-3 center collapse-padding default drop-padding top no-bg-img negative-margin ctx-same-height"
+                                    style="margin-top: -200px"
+                                  >
+                                    <div
+                                      class="bg"
+                                      data-value="layoutTool_74087"
+                                    >
+                                      <div
+                                        style="max-width: 1340px"
+                                        class="content"
+                                      >
+                                        <div class="row">
+                                          <div>
+                                            <!-- Citrix -->
+                                            <div class="columns large-4">
+                                              <div>
+                                                <div class="responsivegrid">
+                                                  <div
+                                                    class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                  >
+                                                    <div
+                                                      class="layout-tool aem-GridColumn aem-GridColumn--default--12"
+                                                    >
+                                                      <div
+                                                        class="evg-select ctx-columns col-count-1 center default top no-bg-img bg-color"
+                                                      >
+                                                        <div
+                                                          style="
+                                                            background-color: rgba(
+                                                              255,
+                                                              255,
+                                                              255,
+                                                              1
+                                                            );
+                                                            margin: 20px;
+                                                          "
+                                                          class="bg"
+                                                          data-value="layoutTool_40197"
+                                                        >
+                                                          <a
+                                                            href="https://developer-docs.citrix.com"
+                                                          >
+                                                            <div
+                                                              style="
+                                                                max-width: 1340px;
+                                                              "
+                                                              class="content"
+                                                            >
+                                                              <div
+                                                                class="row"
+                                                                style="
+                                                                  min-height: 310px;
+                                                                "
+                                                              >
+                                                                <div
+                                                                  class="columns large-12"
+                                                                >
+                                                                  <div
+                                                                    class="responsivegrid"
+                                                                  >
+                                                                    <div
+                                                                      class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                                    >
+                                                                      <div
+                                                                        class="image parbase aem-GridColumn aem-GridColumn--default--12"
+                                                                      >
+                                                                        <!-- Check if the linkUrl is not empty -->
+                                                                        <div
+                                                                          class="ctx-image left"
+                                                                          style="
+                                                                            position: relative;
+                                                                          "
+                                                                        >
+                                                                          <div
+                                                                            class="ctx-image-inner"
+                                                                          >
+                                                                            <div
+                                                                              data-picture
+                                                                              style="
+                                                                                max-width: px;
+                                                                                max-height: px;
+                                                                              "
+                                                                            >
+                                                                              <picture>
+                                                                                <source
+                                                                                  data-src="images/citrix.png"
+                                                                                  data-jpeg
+                                                                                  type="image/jpeg"
+                                                                                />
+                                                                                <img
+                                                                                  src="images/citrix.png"
+                                                                                  alt=""
+                                                                                  title=""
+                                                                                />
+                                                                              </picture>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div
+                                                                        class="text aem-GridColumn aem-GridColumn--default--12"
+                                                                      >
+                                                                        <div
+                                                                          class="ctx-text"
+                                                                        >
+                                                                          <p>
+                                                                            Secure,
+                                                                            unified
+                                                                            digital
+                                                                            workspace
+                                                                            technology
+                                                                            for
+                                                                            a
+                                                                            work-anywhere
+                                                                            world
+                                                                            <br />
+                                                                          </p>
+                                                                          <p>
+                                                                            <span
+                                                                              class="ctx-style-xs"
+                                                                            >
+                                                                              <a
+                                                                                class="cta-link inverted"
+                                                                                href="https://developer-docs.citrix.com"
+                                                                                target="_blank"
+                                                                                >Developer
+                                                                                Documentation</a
+                                                                              >
+                                                                            </span>
+                                                                          </p>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <!-- NetScaler -->
+                                            <div
+                                              class="columns large-4"
+                                              style="float: left"
+                                            >
+                                              <div>
+                                                <div class="responsivegrid">
+                                                  <div
+                                                    class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                  >
+                                                    <div
+                                                      class="layout-tool aem-GridColumn aem-GridColumn--default--12"
+                                                    >
+                                                      <div
+                                                        class="evg-select ctx-columns col-count-1 center default top no-bg-img bg-color"
+                                                      >
+                                                        <div
+                                                          style="
+                                                            background-color: rgba(
+                                                              255,
+                                                              255,
+                                                              255,
+                                                              1
+                                                            );
+                                                            margin: 20px;
+                                                          "
+                                                          class="bg"
+                                                          data-value="layoutTool_82409"
+                                                        >
+                                                          <a
+                                                            href="https://developer-docs.netscaler.com"
+                                                          >
+                                                            <div
+                                                              style="
+                                                                max-width: 1340px;
+                                                              "
+                                                              class="content"
+                                                            >
+                                                              <div
+                                                                class="row"
+                                                                style="
+                                                                  min-height: 310px;
+                                                                "
+                                                              >
+                                                                <div
+                                                                  class="columns large-12"
+                                                                >
+                                                                  <div
+                                                                    class="responsivegrid"
+                                                                  >
+                                                                    <div
+                                                                      class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                                    >
+                                                                      <div
+                                                                        class="image parbase aem-GridColumn aem-GridColumn--default--12"
+                                                                        style="
+                                                                          margin-top: 21px;
+                                                                        "
+                                                                      >
+                                                                        <!-- Check if the linkUrl is not empty -->
+                                                                        <div
+                                                                          class="ctx-image left"
+                                                                          style="
+                                                                            position: relative;
+                                                                          "
+                                                                        >
+                                                                          <div
+                                                                            class="ctx-image-inner"
+                                                                          >
+                                                                            <div
+                                                                              data-picture
+                                                                              style="
+                                                                                max-width: px;
+                                                                                max-height: px;
+                                                                              "
+                                                                            >
+                                                                              <picture>
+                                                                                <source
+                                                                                  data-src="images/netscaler-logo-blue-padded.png"
+                                                                                  data-jpeg
+                                                                                  type="image/jpeg"
+                                                                                />
+                                                                                <img
+                                                                                  src="images/netscaler-logo-blue-padded.png"
+                                                                                  alt=""
+                                                                                  title=""
+                                                                                />
+                                                                              </picture>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div
+                                                                        class="text aem-GridColumn aem-GridColumn--default--12"
+                                                                      >
+                                                                        <div
+                                                                          class="ctx-text"
+                                                                        >
+                                                                          <p>
+                                                                            Comprehensive
+                                                                            application
+                                                                            delivery
+                                                                            and
+                                                                            load
+                                                                            balancing
+                                                                            for
+                                                                            better
+                                                                            UX
+                                                                            <br />
+                                                                          </p>
+                                                                          <p>
+                                                                            <span
+                                                                              class="ctx-style-xs"
+                                                                            >
+                                                                              <a
+                                                                                class="cta-link inverted"
+                                                                                href="https://developer-docs.netscaler.com"
+                                                                                target="_blank"
+                                                                                >Developer
+                                                                                Documentation</a
+                                                                              >
+                                                                            </span>
+                                                                          </p>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                  </div>
+                                                                </div>
+                                                              </div>
+                                                            </div>
+                                                          </a>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="foot">
+              <div
+                class="evg-select ctx-columns col-count-1 center inverted drop-padding top no-bg-img bg-color"
+              >
+                <div class="bg" data-value="layoutTool_26140">
+                  <div style="max-width: 1340px" class="content">
+                    <div class="row collapse-columns">
+                      <div>
+                        <div class="columns large-12">
+                          <div>
+                            <div class="responsivegrid">
+                              <div
+                                class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                              >
+                                <div
+                                  class="reference parbase aem-GridColumn aem-GridColumn--default--12"
+                                >
+                                  <div class="cq-dd-paragraph">
+                                    <div class="layout_tool_footer layout-tool">
+                                      <div
+                                        class="evg-select ctx-columns col-count-2 center collapse-padding inverted drop-padding top no-bg-img csg-footer"
+                                      >
+                                        <div
+                                          class="bg"
+                                          data-value="layoutTool_29854"
+                                        >
+                                          <div class="content">
+                                            <div class="row">
+                                              <div>
+                                                <div class="columns large-7">
+                                                  <div>
+                                                    <div class="responsivegrid">
+                                                      <div
+                                                        class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                      >
+                                                        <div
+                                                          class="text aem-GridColumn aem-GridColumn--default--12"
+                                                        >
+                                                          <div class="ctx-text">
+                                                            <p>
+                                                              <span
+                                                                class="ctx-style-xxs"
+                                                              >
+                                                                <a
+                                                                  href="https://www.cloud.com/privacy-policy.html"
+                                                                  >Privacy
+                                                                  Policy</a
+                                                                >
+                                                                |
+                                                                <a
+                                                                  href="https://www.cloud.com/terms-of-use.html"
+                                                                  >Terms&nbsp;of
+                                                                  Use</a
+                                                                >
+                                                                |&nbsp;
+                                                                <a
+                                                                  href="https://www.cloud.com/do-not-sell-my-information.html"
+                                                                  >Do Not Sell
+                                                                  My Personal
+                                                                  Information</a
+                                                                >&nbsp;
+                                                                <span
+                                                                  style="
+                                                                    color: inherit;
+                                                                  "
+                                                                  >|&nbsp;</span
+                                                                >
+                                                                <a
+                                                                  onclick="event.preventDefault(); window.evidon.notice.showConsentTool();"
+                                                                  href="https://www.cloud.com/#"
+                                                                  >Cookie
+                                                                  Preferences</a
+                                                                >&nbsp;|
+                                                                <a
+                                                                  href="https://cloud.citrix.com"
+                                                                  target="_blank"
+                                                                  >Citrix
+                                                                  Cloud</a
+                                                                >
+                                                              </span>
+                                                            </p>
+                                                          </div>
+                                                        </div>
+                                                        <div
+                                                          class="html-embed aem-GridColumn aem-GridColumn--default--12"
+                                                        >
+                                                          <div
+                                                            class="ctx-html-embed drop-padding"
+                                                          >
+                                                            <div></div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="columns large-5">
+                                                  <div>
+                                                    <div class="responsivegrid">
+                                                      <div
+                                                        class="aem-Grid aem-Grid--12 aem-Grid--default--12"
+                                                      >
+                                                        <div
+                                                          class="text aem-GridColumn aem-GridColumn--default--12"
+                                                        >
+                                                          <div class="ctx-text">
+                                                            <p
+                                                              style="
+                                                                text-align: right;
+                                                              "
+                                                            >
+                                                              <span
+                                                                class="ctx-style-xxs"
+                                                                >© 2023 Cloud
+                                                                Software Group
+                                                                Holdings, Inc.
+                                                                All rights
+                                                                reserved.</span
+                                                              >
+                                                            </p>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end main-content -->
+    <div class="footer">
+      <script type="text/javascript">
+        $(".icon-close").click(function () {
+          $("#docs-banner").hide();
+        });
+      </script>
+    </div>
+  </body>
+</html>
+
+
+https://developer-docs.cloud.com:443

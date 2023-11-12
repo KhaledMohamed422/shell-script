@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: kc.reddit.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; ARM; Lumia 950 Dual SIM) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:30:20 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf4rtr9ze.2.1699389019363.Z0FBQUFBQmxTcDViejEyWktrVnAwNE9wZEpCdmljdEVCWjAzS09WYjdOVEo4ZEJNcUstWFViUnRrcGxCbXhJWkxhLUEzMnA0aWx2MjN0MWluR3pvX01MRXVXM2YtNTE1Q0NwSTEyek5GRmxGOEJLM1JMbk4tV1gyM0hXVS1WaDlqV3QtaUR4R1J1VGk; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:30:19 GMT; secure
+Set-Cookie: session_tracker=roaomggfkgqnhhcnbe.0.1699389019366.Z0FBQUFBQmxTcDViLVpDWG1xaGxCSTFDLVFuQzlWaXNCeEoyYUU2VVhfSVhZdkJJc3VUZWZFQ2U1M2JwVzJOaVVJcGpRTWJjNnd4Nll2V1N2UDVDbEx4Qzd6dE1kS3NKanVFMTRELVVoOU1tWm83ektfUVFGS0xITlBEc0VHbXB0a0I5andrMXA2cXE; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:30:19 GMT; secure
+Set-Cookie: edgebucket=MJgPPO53VccZqVLMJy; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

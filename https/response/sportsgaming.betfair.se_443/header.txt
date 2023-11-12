@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: sportsgaming.betfair.se
+User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.7.3) Gecko/20040924 Epiphany/1.4.4 (Ubuntu)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bc580b317a3c-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:45:52 GMT
+Location: https://www.betfair.com/de_restricted_territories/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b01oaiszBTUPJBKSpYSbTGUFy7ewnUd40KIn0t8t%2FpKqdqjPQqPuXtobVL9HvA5%2FWTP%2BtYBJdDsTU8kqqX%2F7wwY8arIz3HmnemX56OUu%2FfsSVpmnFI0B4cb2l9WxS1EHPkUVbzMlJGWM"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=qlwX1yWEWQccqjaTqu17IxM75BRHwKy02pR.3rnBpOg-1699382752-0-ARybsKa/xcrz8/C1wOemrPXO1w6PtIvGJ20iBHvHkPqD2xEJtYV8qhA8qGE2daQ/dSiwXrMS8bacxn3sY98ILQc=; path=/; expires=Tue, 07-Nov-23 19:15:52 GMT; domain=.betfair.se; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+205

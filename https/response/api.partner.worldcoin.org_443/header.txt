@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api.partner.worldcoin.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 118
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 07 Nov 2023 23:11:29 GMT
+Via: 1.1 3fdf3aacaef6ec40c4eedb85c8144da2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5hIL1Lpy5v-9XHkzDop40pjc4cg7sWIK5hUC6-Z4joP1HByJgyBwlA==
+X-Amz-Cf-Pop: FRA56-C2
+X-Amzn-Errortype: UnknownOperationException
+X-Amzn-Requestid: 28587217-9de0-47d6-ac29-fcdfda1efe42
+X-Cache: Error from cloudfront
+
+{
+  "errors" : [ {
+    "errorType" : "UnknownOperationException",
+    "message" : "Unknown Operation Request."
+  } ]
+}
+
+
+https://api.partner.worldcoin.org:443

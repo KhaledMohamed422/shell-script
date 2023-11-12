@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: wallet.ozow.com
+User-Agent: UCWEB/8.8 (SymbianOS/9.2; U; en-US; NokiaE63) AppleWebKit/534.1 UCBrowser/8.8.0.245 Mobile
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:05:55 GMT
+X-Amz-Apigw-Id: ODEunEY2joEEnew=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 32ce049a-62c5-4333-ae66-239040d344ff
+
+{"message":"Missing Authentication Token"}
+
+
+https://wallet.ozow.com:443

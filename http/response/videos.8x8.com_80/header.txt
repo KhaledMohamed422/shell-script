@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: videos.8x8.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Security-Policy: default-src * mailto: tel:; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 21:25:36 GMT
+Location: https://videos.8x8.com/
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Request-Id: 3d0f668c-a913-474e-8056-c52ad8a2eab6
+X-Runtime: 0.011756
+X-Xss-Protection: 1; mode=block
+
+59

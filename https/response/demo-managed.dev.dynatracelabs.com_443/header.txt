@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: demo-managed.dev.dynatracelabs.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 61
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:02:21 GMT
+Location: https://oqr47576.sprint.apps.dynatracelabs.com
+Via: 1.1 803246727539350977d724c9e4a027c6.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODENHG4fCYcEr9Q=
+X-Amz-Cf-Id: x-f5Yg8Z7SEN27o1Ydl31bKn0_hNktp4LQ3lzTgadWEG1MGU3r2ngw==
+X-Amz-Cf-Pop: FRA56-P4
+X-Amzn-Requestid: f9b2fe72-424f-4885-9c63-23bc6df40a28
+X-Amzn-Trace-Id: Root=1-654ab3ed-633c438008f75aff217dc59b;Sampled=0;lineage=d2b9fc39:0
+X-Cache: Miss from cloudfront
+
+{"Location":"https://oqr47576.sprint.apps.dynatracelabs.com"}
+
+
+https://demo-managed.dev.dynatracelabs.com:443

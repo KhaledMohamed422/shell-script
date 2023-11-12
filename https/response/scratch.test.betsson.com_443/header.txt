@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: scratch.test.betsson.com
+User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.39 (KHTML, like Gecko) Chrome/89.0.4389.111 Safari/537.39'
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:11 GMT
+Server: CloudFront
+Via: 1.1 ca1ae3b3ff3d7a9e41b26e307972401e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nC_-BquIBhW0eOx7jfNh4iDfBcHYyVIF3tXeLgYWU_zRIr6xbMo3xw==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Error from cloudfront
+

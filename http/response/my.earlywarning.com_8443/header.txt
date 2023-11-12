@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: my.earlywarning.com:8443
+User-Agent: Konqueror/3.0-rc4; (Konqueror/3.0-rc4; i686 Linux;;datecode)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:48 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 8c07ee6dcc7c3b358859586c74c385ea
+
+4109

@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: secure.backend.mercury.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.59
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 3
+Access-Control-Allow-Origin: *
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a64d49f7c05cb-IAD
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:30:24 GMT
+Ec2-Instance-Id: i-0d73ff9f60585f017
+Ec2-Instance-Name: mercury-web-backend-4.production.internal.mercury.com
+Git-Commit: dd49a3b625dba0484e9c791e502a6098180d199c
+Mercury-Honeycomb-Link: https://ui.honeycomb.io/mercury/environments/production/datasets/backend/trace?trace_id=0ee7357cbf5b0c5e374b6561993d9ca4&trace_start_ts=1699407024&trace_end_ts=1699414224
+Server: nginx
+Set-Cookie: _SESSION=QjFC4vQpTEc+/Q035QqNZaYHgDQ6zkhrY8o20hj/z6XKI1t9iLF2HfTLuD7ajmu06MhFvPPn+VzO+FpJwyQYRWDzYMGvclcBXKiZc0OG3oqHF3dLBwPjLu6KVdR8aWkL1wa04jjUYNgFr1TBvxkiiEovivpFkjZ8xp5diD/Xg55cnO85htM=; Path=/; Expires=Wed, 08-Nov-2023 04:30:19 GMT; Domain=backend.mercury.com; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: XSRF-TOKEN=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+Set-Cookie: XSRF-TOKEN=78kIZNWSo8fiA06xY68InjfryRkCzTedD3bKB5N4; Path=/; Domain=mercury.com; Secure; SameSite=Lax
+Set-Cookie: __cf_bm=8_B4pCiGpSxNooss0hF3A__u01bf38XJhlPh8IOuS4g-1699410624-0-ATxwgRKQ6ofjizwYbBQIf4ipSKy7cqZxD8Kc6hcDo0EFqkLcbIP0ppUSwRpXEqT0UgM+CgBDEkHfmvMn1/1lAwU=; path=/; expires=Wed, 08-Nov-23 03:00:24 GMT; domain=.mercury.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Traceparent: 00-0ee7357cbf5b0c5e374b6561993d9ca4-09f5d483dd014ebc-01
+Tracestate: 
+Vary: Accept-Encoding, Accept, Accept-Language
+Vgs-Request-Id: 4c4add955679c89d14b6c25ff454f09b
+Via: 1.1 reverse-http-proxy-6f8b595cbc-hrbhl
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 66
+X-Xss-Protection: 1; mode=block
+
+[1]
+
+
+https://secure.backend.mercury.com:443

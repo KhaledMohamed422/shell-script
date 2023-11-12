@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: kamps.vhx.tv
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b39c36be71611-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:55:46 GMT
+Location: https://ondemand.kampsfit.com/
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699419346&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2I6qQ2thI54YCLF8enHn5dak91sOHgbVlUaYkPAhnbY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699419346&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2I6qQ2thI54YCLF8enHn5dak91sOHgbVlUaYkPAhnbY%3D
+Server: cloudflare
+Set-Cookie: __cf_bm=L97vDIQ.mbcH5gtshUl6R.8YNbV030iN78_TLwEFYH0-1699419346-0-AWl9TgZiaC9hX0yPQ3oFHx40M0Ol95aw/NR3VtqZzdYBDvBa9INLAAsL6oJuclNRV0MrxA57UFaSVrT8hSJ5jRs=; path=/; expires=Wed, 08-Nov-23 05:25:46 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 301 Moved Permanently
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: cdd52d71-b299-471f-90ac-031f2894bb5f
+X-Runtime: 0.007730
+X-Xss-Protection: 1; mode=block
+
+60

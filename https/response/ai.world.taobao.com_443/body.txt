@@ -1,0 +1,57 @@
+          <!DOCTYPE html><html><head>
+    <script>
+    let linkUrl='';
+    if (window && window.screen.availWidth < 640 ){
+      if(window.location.hostname === "pre-wormhole.tmall.com") 
+      {
+        linkUrl=window.location.pathname.indexOf('ovs-ai-search-test-search')===-1?
+        'https://pre-wormhole.tmall.com/wow/z/oversea/gam/ovs-ai-m-test-home'+window.location.search:
+        'https://pre-wormhole.tmall.com/wow/z/oversea/gam/ovs-ai-m-test-search'+window.location.search
+      }
+      else
+      {
+        linkUrl=window.location.pathname.indexOf('/search')===-1?
+        'https://ai.world.taobao.com/wap'+window.location.search:
+        'https://ai.world.taobao.com/wap'+window.location.pathname+window.location.search
+      }
+      window.open(linkUrl,'_self');
+    }
+    </script>
+    
+    <meta name="spm-id" content="a21wu.24120628">
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"><link rel="stylesheet" href="//g.alicdn.com/tbhome/tb-gnav/1.0.20/index.css"><link rel="preconnect" href="https://uland.taobao.com/" crossorigin="true"><link rel="dns-prefetch" href="https://uland.taobao.com/"><title>海外爱淘宝PC端</title>
+      <script src="https://g.alicdn.com/trace/trace/??sdk.js,resourceError-plugin.js,perf-plugin.js,pv-plugin.js"></script>
+      <script>
+        const trace = TraceSdk({
+            pid: 'ovs-ai-pc',
+            errorEnable: true,
+            env: 'prod',
+            plugins: [
+            [TracePvPlugin, {autoPV: true}],
+            [TracePerfPlugin, {enableLCP: true}],
+            [TraceResourceErrorPlugin]
+          ],
+        })
+        // 执行
+        trace.install();
+      </script>
+    <link rel="stylesheet" href="https://g.alicdn.com/code/npm/@ali/pegasus-project-ovs-ai-taobao-pc/1.0.25/pages/home/index.css"></head><body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&pre=&req_url=http%3a%2f%2fai%2eworld%2etaobao%2ecom%2f&aplus&udpid=&asid=AQAAAADDV0tlfb01fgAAAAD7NzM00+5ssA==&sidx=0&ckx=|",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_wap.js")
+</script>
+
+    
+    
+  <!--__BEFORE_ROOT__--><div id="root"></div><!--__AFTER_ROOT__-->
+    <script>
+      window.g_config = {
+        overseasites: false, // 是否显示国家和地区&合作伙伴
+      }
+    </script>
+    <script src="//g.alicdn.com/tbhome/tb-gnav/1.0.20/index.js"></script>
+    <script src="//g.alicdn.com/mtb/lib-mtop/2.5.1/mtop.js"></script><script crossorigin="anonymous" src="https://g.alicdn.com/code/npm/@ali/pegasus-project-ovs-ai-taobao-pc/1.0.25/pages/home/index.js"></script></body></html>
+0
+
+
+
+
+https://ai.world.taobao.com:443

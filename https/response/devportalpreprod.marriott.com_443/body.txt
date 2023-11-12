@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="">
+		<title></title>
+		<link href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/images/favicon.ico" type="image/vnd.microsoft.icon" rel="icon">
+		<link href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/images/favicon.ico" rel="shortcut icon">
+
+		<link rel="stylesheet" href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/thirdparty.css">
+		<link rel="stylesheet" href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/style.css">
+		<link rel="stylesheet" href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/supplement.css">
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/ie.css">
+		<![endif]-->
+		<style type="text/css">
+			#spinner {
+				background: #fff;
+				background: rgba(255,255,255,.5);
+				position: fixed;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: 10;
+				cursor: default;
+			}
+			#spinner span {
+				width: 220px;
+				font: bold 9px Helvetica, Arial, sans-serif;
+				color: #89a3b3;
+				letter-spacing: 1px;
+				text-align: center;
+				text-transform: uppercase;
+				margin: -26px 0 0 -110px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+			}
+			#spinner div.spinner_logo {
+				background: url("/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/images/loader_bar.gif");
+				margin: -10px 0 0 -110px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				width: 220px;
+				height: 19px;
+			}
+
+		</style>
+		<link rel="stylesheet" href="/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/style/custom.css">
+		<script>
+            //frame buster
+            if(self !== top) {
+                top.location = self.location;
+            }
+			if (typeof window.console == "undefined") {
+			            window.console = {};
+			            window.console.log = function(msg) {
+			                // handling ie console error
+			            };
+			}
+		</script>
+	
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="6S46Q-KDK53-AC77W-BK8HL-MASHS",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"6S46Q-KDK53-AC77W-BK8HL-MASHS";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="ufqzdc24pnud6zkkom2a-f-ced57fee7-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"36","ak.cp":"1192975","ak.ai":parseInt("712943",10),"ak.ol":"0","ak.cr":4,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"159ea3d4","ak.r":40609,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.bpcip":"161.97.145.0","ak.cport":60064,"ak.gh":"23.41.167.191","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1699377972","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Ac1oyYoRzheSwRdR/axHr/BsSHWwUAs8GTMWt2kSaNL2SrZ5IlgAQQIQoRtbFyqKsNlakLN5IXJ4HuTGeYIAWMkCpg7XVfPntzPKGRp1mQ5saJ6nUZCVDSfnw24gCjHYthvs8bhKEuFFdp/wp7aRFLsl6gUqGix/j4keoD7s96kqBaMQ9z9IKojQNNoBKGsOMlYmbCjSt1lYnWzxwfDCJr2B1REU+darPHaVaa4Wl6l+f9+BqHsIZs1+mCAUGzgiVjUvOnJ31/rgwaacvUrmADrslGrXmEAI0qjBc33GNvLNZxV2/hU6S8h2dFQpTF5KxE4kxVlUm/hu5OiXu/zNVrpj4OaYcGwZxm4ZlwCbWu+V72KXKR3/TwWVEZpgeQcQC5PNCKHo7KWFxlujm+OZzr2sY96NlKFAZz9txU0RH70=","ak.pv":"13","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+	<body class="body perm_scroll" id="body_content">
+		<noscript>
+	<h1>Home</h1>
+	<ul>
+		<li><a href="/apis">APIs</a></li>
+		<li><a href="/apps">Apps</a></li>
+	</ul>
+	<ul>
+				<li><a href="/tenants/marriott/content/api">api</a></li>
+				<li><a href="/tenants/marriott/content/css">css</a></li>
+				<li><a href="/tenants/marriott/content/home">home</a></li>
+				<li><a href="/tenants/marriott/content/images">images</a></li>
+				<li><a href="/tenants/marriott/content/js">js</a></li>
+	</ul>
+	<ul>
+	</ul>
+</noscript>
+		<div id="fb-root">
+		</div>
+		<div id="divFileManager" style="display:none;">
+			<iframe id="ifFileManager" style="width:100%;height:100%;border:0px;" src="/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/console/global/upload.html?dynamic=true">
+			</iframe>
+		</div>
+
+		<div id="container_Header" class="soa-control-cm-header-container">
+		</div>
+		<div id="Main" class="container_wrap Main clearthis">
+			<div id="container_Content" role="main" aria-live="assertive">
+				<div id="container_Left" class="soa-ui-cm-subnav" aria-live="polite"></div>
+				<div id="container_Right" aria-live="polite"></div>
+			</div>
+		</div>
+		<div id="Footer" class="soa-control-cm-footer-container">
+		</div>
+		<div id="spinner">
+			<span>Loading</span>
+			<div class="spinner_logo">
+			</div>
+		</div>
+		<!-- #spinner -->
+		<div id="soa-control-cm-notifications-container" class="soa-ui-cm-bootstrap-iso soa-control-cm-notifications-container soa-ui-cm-notifications-container">
+		</div>
+		<script type="text/javascript">
+			var initTime = new Date ().getTime();
+			var startTime = new Date ().getTime();
+		</script>
+		<script type="text/javascript">
+			var theme = "default";
+			var application = "atmosphere";
+			var tenantId = "marriott";
+			var contextPath = "";
+			var useHistoryState = "false";
+			var documentDomain = "";
+			var analyticsAccountId = "";
+	
+			if ("".length > 0) {
+				document.domain = documentDomain;
+			}
+	
+			SOA = {
+				Framework : {
+					Common : {
+						Configurator : {
+							params : {
+								"contextPath" : "",
+								"pmContextPath" : "/noaccess",
+								"themeImplName" : "default",
+								"themeName" : "hermosa",
+								"siteTitle" : "",
+								"documentDomain" : "",
+								// changes every time a resource is uploaded to CMS or tenant is changed
+								"resourceVersion" : "_VRU_pULIX8IaSx7Bb3fmarg",
+								 // changes every time a bundle is uploaded
+								"scriptsVersion" : "_VluEoe_vjLcNIKjCxlc3kbQ",
+								"resourcePathQueryString" : "?property.theme=hermosa&property.tenant=marriott",
+								"metadataUrl" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/metadata?property.theme=hermosa&property.tenant=marriott",
+								"cdnRoot" : "",
+								"userData" : {},
+								"hasFederation" : "false",
+								
+								"environment": "production",
+	
+								"iframework" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/",
+								"iconsole" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/console/",
+								"theme" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/",
+								"tenant" : "/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/",
+	
+								"iframework/" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/",
+								"iconsole/" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/console/",
+								"theme/" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/",
+								"tenant/" : "/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/",
+								"baseUrl" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/SOA/CM/"
+							}
+						}
+					}
+				}
+			};
+	
+			steal = {
+				"paths" : {
+					"can/*" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/can/*.js",
+					"jquery/*" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/jquery/*.js",
+					"jquery" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/jquery/jquery.js",
+					"iframework/*" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/uiframework/*.js",
+					"iconsole/*" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/console/*.js",
+					"theme/*" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/*.js",
+					"tenant/*" : "/ui/apps/atmosphere/_VRU_pULIX8IaSx7Bb3fmarg/resources/theme/hermosa/*.js"
+				},
+				"main" : "init",
+				"baseUrl" : "/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/SOA/CM/"
+			};
+		</script>
+		<script>
+			console.log("Time taken to do basic initialization before loading javscript ", new Date ().getTime() - startTime);
+			startTime = new Date ().getTime();
+		</script>
+		<script type="text/javascript" src="/ui/apps/atmosphere/_VluEoe_vjLcNIKjCxlc3kbQ/resources/theme/hermosa/SOA/CM/dist/bundles/init.js"></script>
+		<script id="ValidateTemplate" type="text/x-jQuery-tmpl">
+			<div id="${id}Box">
+			<div id="${id}Container">
+			</div>
+			</div>
+		</script>
+		<script type="text/javascript">
+			if (typeof steal !== "function") {
+				// steal is not supported
+				alert("The developer portal failed to load. Please clear cache, refresh your browser, and try again. If there is still a problem, contact the Site Administrator for assistance.");
+			}
+		</script>
+        <script id="SOAPopupTemplate" type="text/x-jQuery-tmpl">
+            <div id="${id}" class="soapopup ${cssClass}">
+                {{if titleBar.visible}}
+                    <h2 class="titleBar">${titleBar.title}</h2>
+                {{/if}}
+                <div class="content">{{html content}}</div>
+                <ul class="buttonBar ${buttonsBar.buttonsAlignment}Aligned">
+                    {{each(i, button) buttonsBar.buttons}}
+                        <li><button class="soa-ui-cm-button soa-ui-cm-button-page-level btn ${button.cssClass}" tabindex="${i}">${button.label}</button></li>
+                    {{/each}}
+                </ul>
+            </div>
+        </script>
+	</body>
+</html>
+
+
+
+https://devportalpreprod.marriott.com:443

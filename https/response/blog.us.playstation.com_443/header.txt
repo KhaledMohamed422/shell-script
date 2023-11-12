@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: blog.us.playstation.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:13:02 GMT
+Location: https://blog.playstation.com/
+Server: nginx
+Via: 1.1 a2cac9c5f0e90f8b7fede4ac9aca75ca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oXzag27EC9tARm-AhGi1ucXwl6kt9Nc8ZAyP4TmKRkJuDDLve-1-lA==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Miss from cloudfront
+

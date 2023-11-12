@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: bridges.playstation.com
+User-Agent: Mozilla/2.0 (compatible; Ask Jeeves/Teoma)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Access-Control-Allow-Origin: bridges.playstation.com
+Cache-Control: max-age=0, no-cache, no-store
+Date: Tue, 07 Nov 2023 23:13:11 GMT
+Expires: Tue, 07 Nov 2023 23:13:11 GMT
+Location: https://api.bridges.playstation.com/web/auth/okta/login?back_to=https://bridges.playstation.com/auth/okta/jwt/
+Pragma: no-cache
+Server: Apache/2.4.56 ()
+Set-Cookie: bridges-auth-back-to=/; path=/; expires=Tue, 07 Nov 2023 23:13:20 GMT; httponly
+Strict-Transport-Security: max-age=86400 ; includeSubDomains ; preload
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+
+
+
+
+https://bridges.playstation.com:443

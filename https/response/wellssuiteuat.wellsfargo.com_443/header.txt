@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: wellssuiteuat.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0 x64; en-US; rv:1.9pre) Gecko/2008072421 Minefield/3.0.2pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Security-Policy: default-src 'none'; object-src 'self'; base-uri 'none'; form-action 'self' http://*.wellsfargo.com https://*.wellsfargo.com; img-src 'self' data: http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; script-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; style-src 'self' 'unsafe-inline' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; frame-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; frame-ancestors 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; font-src 'self' 'unsafe-inline' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; connect-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com;
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:46:01 GMT
+Server: Web Server
+Set-Cookie: wellssuite_443_infra_2=!2qIn3uvtLeWqDYwaT1jrK5+OH7tOgBcXfQKR2mgIvu2KYuLIxTINA9TLndJZSdlecyutocMNhBSxcrM=; path=/; Httponly; Secure
+Set-Cookie: wellssuite_443_infra_1=!Fj3iKWMCR26CPjAaT1jrK5+OH7tOgBQwgM9B4s6NGdERCOW3B2Xc7UbWe7pTwAazeQQfmZa1OBTwv5Y=; path=/; Httponly; Secure
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<h1>Error 404</h1>
+
+
+https://wellssuiteuat.wellsfargo.com:443

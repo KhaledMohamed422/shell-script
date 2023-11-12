@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: api1-blue.dev.zellepay.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Mi A3 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.41 YaBrowser/22.1.0.194 (lite) Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 39
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+Pragma: no-cache
+
+{"supportID": "13789697548462634809"}
+
+
+
+https://api1-blue.dev.zellepay.com:443

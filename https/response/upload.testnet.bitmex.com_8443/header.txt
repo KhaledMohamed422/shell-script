@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: upload.testnet.bitmex.com:8443
+User-Agent: Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13F69 Safari/601.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:07:34 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="en dir-ltr  no-js " >
+
+        
+
+
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="LimeSurvey http://www.limesurvey.org" />
+
+        
+
+    <link rel="stylesheet" type="text/css" href="/tmp/assets/ab902fd6/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/464521aa/survey.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/6fcf705/build/embeddables.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/b48f7127/template-core.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/b48f7127/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2520e03a/noto.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/83088d41/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/83088d41/yiistrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/1118230f/css/ajaxify.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/1118230f/./css/noTablesOnMobile.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/1118230f/./css/survey-list.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/e85c1e3c/css/animate.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/e85c1e3c/css/variations/sea_green.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/e85c1e3c/css/variations/purple_tentacle.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/5a067712/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/5a067712/css/custom.css" />
+<script type='text/javascript'>window.debugState = {frontend : (0 === 1), backend : (0 === 1)};</script><script type="text/javascript" src="/tmp/assets/da162aa0/jquery-3.5.1.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/da162aa0/jquery-migrate-3.3.2.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/487d9c38/moment-with-locales.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/7ab711e8/em_javascript.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/464521aa/survey.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/b48f7127/template-core.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/b59aa7eb/build/lslog.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/d41119c5/pjax.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/83088d41/bootstrap.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/83088d41/plugins/bootstrapconfirm/bootstrapconfirm.min.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/1118230f/scripts/theme.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/1118230f/scripts/ajaxify.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/1118230f/scripts/custom.js" class="headScriptTag"></script>
+<script type="text/javascript" src="/tmp/assets/f9a12af4/nojs.js" class="headScriptTag"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+LSvar= LSvar || {};
+/*]]>*/
+</script>
+<title>
+        LimeSurvey
+    </title>
+            <link rel="shortcut icon" href="/tmp/assets/827782ed/favicon.ico" />
+        <script type="text/javascript">
+        if(window.basicThemeScripts === undefined){ 
+            window.basicThemeScripts = new ThemeScripts(); 
+        } 
+    </script>
+        
+        
+    
+
+<style>
+    
+    
+    body {
+         padding-bottom: 10px;
+         padding-top: 60px;/* now is redefine in JS to fit any title length */
+         background-color:#ffffff ;
+         color: #444444;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #444444;
+    }
+
+
+    .question-container {
+      background-color: #ffffff;
+
+              border:  1px solid #e6e6e6;
+      
+              box-shadow: 0 1px 2px rgba(0,0,0,.2);
+          }
+
+        .checkbox-item input[type="checkbox"]:checked + label::after, .checkbox-item input[type="radio"]:checked + label::after {
+        content: "\f00c";
+    }
+
+    
+                            
+        .checkbox-item input[type="checkbox"]:checked + label::after{
+            animation-name: ;
+            animation-duration: 500ms;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            display: inline-block;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+        .checkbox-item input[type="checkbox"] + label::after{
+            display: none;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+    
+    
+                            
+        .radio-item input[type="radio"]:checked + label::after{
+            animation-name: ;
+            animation-duration: 500ms;
+            animation-fill-mode: both;
+            animation-iteration-count: 1;
+            display: inline-block;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+        .radio-item input[type="radio"] + label::after{
+            display:none;
+            -webkit-transform: none;
+            -ms-transform: none;
+            -o-transform: none;
+            transform: none;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+</style>
+
+
+
+
+
+    
+</head>
+
+
+    <body class=" extends_fruity_ntd fruity vanilla font-roboto lang-en  "  >
+
+                <div id="beginScripts">
+            <script type="text/javascript" src="/tmp/assets/b0aa1a77/decimal.js"></script>
+<script type="text/javascript" src="/tmp/assets/16218d29/decimalcustom.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+var LEMmode='group';
+var LEMgseq='';
+ExprMgr_process_relevance_and_tailoring = function(evt_type,sgqa,type){
+if (typeof LEM_initialized == 'undefined') {
+LEM_initialized=true;
+LEMsetTabIndexes();
+}
+if (evt_type == 'onchange' && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa) && (typeof last_evt_type !== 'undefined' && last_evt_type == 'TAB' && type != 'checkbox')) {
+  last_evt_type='onchange';
+  last_sgqa=sgqa;
+  return;
+}
+if (evt_type == 'updated'  && (typeof last_sgqa !== 'undefined' && sgqa==last_sgqa)) {
+  last_evt_type='updated';
+  last_sgqa=sgqa;
+  return;
+}
+last_evt_type = evt_type;
+last_sgqa=sgqa;
+
+}
+
+/*]]>*/
+</script>
+
+        </div>
+
+                <article>
+
+            <div id="dynamicReloadContainer">
+            
+
+                                                    <div class="container-fluid">
+                    
+                
+                    <div class="   row" id="surveys-list-container" >
+
+                                                
+
+<!-- No JavaScript alert -->
+<div class=' ls-js-hidden warningjs  alert alert-danger '    data-type='checkjavascript'>
+    Caution: JavaScript execution is disabled in your browser or for this website. You may not be able to answer all questions in this survey. Please, verify your browser parameters.
+</div>
+
+
+
+                    </div>
+
+
+                </div>
+                
+
+                        
+
+                        </div>
+        </article>
+                    
+                <div id="bottomScripts">
+            <script type="text/javascript" src="/tmp/assets/6fcf705/build/embeddables.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+ if(window.basicThemeScripts === undefined){ window.basicThemeScripts = new ThemeScripts(); } basicThemeScripts.initGlobal(); 
+
+            try{ 
+                triggerEmClassChange(); 
+            } catch(e) {
+                console.ls.warn('triggerEmClassChange could not be run. Is survey.js correctly loaded?');
+            }
+
+triggerEmRelevance();
+jQuery(document).off('pjax:scriptcomplete.mainBottom').on('ready pjax:scriptcomplete.mainBottom', function() {
+activateActionLink();
+activateConfirmButton();
+updateMandatoryErrorClass();
+});
+/*]]>*/
+</script>
+
+        </div>
+                <script>
+            window.basicThemeScripts.init();
+        </script>
+            </body>
+</html>
+
+
+
+https://survey.ntd.nintendo.com:443

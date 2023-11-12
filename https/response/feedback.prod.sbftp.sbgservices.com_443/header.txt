@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: feedback.prod.sbftp.sbgservices.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20100101 Firefox/10.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:05:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 04e9e9d9b90b8bb096dac156f847c1a6.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OChj1ED9joEETEg=
+X-Amz-Cf-Id: TmaRFfZkrkio2z-tKzuN7BJdLKMRUbrkrrEODqYKKr1WfS15xhc1UQ==
+X-Amz-Cf-Pop: DUS51-P3
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: c9ec7296-3075-40c4-8705-56511e95ed8a
+X-Cache: Error from cloudfront
+
+{ "message": "Not found" }
+
+
+https://feedback.prod.sbftp.sbgservices.com:443

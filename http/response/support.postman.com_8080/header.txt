@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: support.postman.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822bf71229136a9a-DUS
+Date: Wed, 08 Nov 2023 07:05:00 GMT
+Expires: Wed, 08 Nov 2023 08:05:00 GMT
+Location: https://support.postman.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SpgxveJ3NkbFdrxI4uxKMuGTbT14yNKWZAh0lrCm10Zk6nEDFMPbmCs71qujyXcGCtZ8ZBkRQKGH48BheJ5nsqoPOQUGYbnmLcpGh%2FIx0bfCWthhfm4V6EkxrHeH%2FsbBZi9dFSJZbhShOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=b48d68a6452e6142da1f6a682114c552009c5a93-1699427100; path=/; domain=.support.postman.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://support.postman.com:8080

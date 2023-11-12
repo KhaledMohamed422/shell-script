@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: retailer-platform-mesh.instacart.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 82274c267f10c4d1-DUS
+Content-Security-Policy: default-src 'none'
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:16 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8lyl5%2BfjAfcFZZtk%2FzQg6h4DksL3LO53bvW686UWrWs0dc4A5ctgKTU8FNZS0f4tz%2Bk38EBbng1tOfASy5uCYugSfea%2BRSi9H0KUmXhoAMjS%2FystrUKWVb7g14GutG5ek8IhIJRmQIgJnSfkJLnGb2dxfxozvQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=WRdWE1AtCA17mrj.gf3rPMlCFXw90rOpvJcD70_ZRcM-1699378156-0-Ad7Y9of0gja4ypk6bpkSwJqkRveYO7O9IP3O38UtJ7t3tbu2glcTAVJBaRqdsXj4kP6LylraIgbqFiZY6x9OPF8=; path=/; expires=Tue, 07-Nov-23 17:59:16 GMT; domain=.retailer-platform-mesh.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Datadog-Trace-Id: 4331947219021664668
+
+8b

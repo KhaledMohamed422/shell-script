@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: betfair.net.prf.ppbdev.com:8080
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.6; Windows NT 6.1; Trident/5.0; InfoPath.2; SLCC1; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727) 3gpp-gba UNTRUSTED/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b7299ae7cb2b-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:42:19 GMT
+Expires: Tue, 07 Nov 2023 18:42:34 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L%2FBACC6TahnhUwSbibdTGqpWaeP1idhb85u0fGA7gBK%2FrzP9dE2%2FlvDsYOapgCsyT4kKK8xcmB90QjcDEGM5q17MaR7qrAerzkzHMl6BO%2B6Vc%2FX2mcQEahaXeeQ01dWe8%2BW0GPPlLP93BCfLICRx2GY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=P9AhbE5lCWNYnzCtZGLY.a.1hH5_hQiKRkoH8KHa3x4-1699382539-0-AeqUZfL66cCtFd1Braajl3AKQrPqnXdXIBsgCXRn4ICx0ojtQ3FSNY1vR7YtxfpxvHfx+6wNeyC2p5FEKg1z8ZQ=; path=/; expires=Tue, 07-Nov-23 19:12:19 GMT; domain=.ppbdev.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: video.betfair.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b9843d407169-DUS
+Date: Tue, 07 Nov 2023 18:43:56 GMT
+Expires: Tue, 07 Nov 2023 19:43:56 GMT
+Location: https://video.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IdnZgLpAI%2FYcxzxE%2FE4%2FKL56q35z9C%2FkdYg0bgKgblqm%2B7MeOtGzCjnysE5IeUq4vLN85LaZBGwQspTFZFof%2FaosSIR5G73BWZEa70t1yuBaRRT9G52fkmd%2F%2FjmUwC7r7zvf"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://video.betfair.com:80

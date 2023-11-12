@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: category-tile-images.grab.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:49.0) Gecko/20100101 Firefox/49.0 SeaMonkey/2.46
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:20:44 GMT
+Server: AmazonS3
+Via: 1.1 8eee0c5143f92bd7600d25e3dc25ce5e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZPj7AwjBbl_zrxPsv2IjJ6bzEEe04NC4dY6AEm7xVX9qv8hi8ydQow==
+X-Amz-Cf-Pop: FRA60-P1
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>MYYG2CYKHJMYM67P</RequestId><HostId>aoOhcDhnW/jSn8kEsCus403iHNuSKWcYLJX6x4/bStQZI1HpYPS2Xy1i0mRfQUoM0LyvAO4lWWA=</HostId></Error>
+0
+
+
+
+
+https://category-tile-images.grab.com:443

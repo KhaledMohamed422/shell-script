@@ -1,0 +1,44 @@
+GET / HTTP/1.1
+Host: consent-auth2.zomato.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Alt-Svc: h3=":443"; ma=93600
+Cache-Control: max-age=0, no-cache, no-store, no-transform
+Content-Security-Policy: frame-ancestors 'self' https://microapps.google.com/ https://pwa.zomato.com; default-src *; font-src * data:; child-src 'self' * blob:; img-src * 'self' data: blob: ; media-src * blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' browser.sentry-cdn.com *.jwpcdn.com *.licdn.com *.cloudflare.com *.twitter.com *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com *.googleapis.com *.google.com *.google.co.in *.facebook.com sdk.accountkit.com *.doubleclick.net *.googletagservices.com *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com *.cdninstagram.com *.googlesyndication.com *.spreedly.com *.instagram.com *.twimg.com d1m0gkspj3l6or.cloudfront.net d3mvnvhjmkxpjz.cloudfront.net d36mpcpuzc4ztk.cloudfront.net d2weczhvl823v0.cloudfront.net d2z9qv80fklwtv.cloudfront.net d32l4mqe5xk032.cloudfront.net *.serving-sys.com *.pubnub.com *.branch.io app.link cdn.poll-maker.com *.ampproject.org rec.smartlook.com static.hotjar.com script.hotjar.com zba.se *.googletagmanager.com eff.org cdn.plot.ly 3717.tm.zedo.com *.bing.com static.criteo.net sslwidget.criteo.com gum.criteo.com mddigital.in static.zdassets.com zomato.zendesk.com cdn.taboola.com trc.taboola.com ds-aksb-a.akamaihd.net service.force.com zomato.my.salesforce.com zomato.secure.force.com d.la1-c1-hnd.salesforceliveagent.com; style-src * 'unsafe-inline'; worker-src 'self' https: blob:;
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:05:34 GMT
+Expires: Tue, 07 Nov 2023 18:05:34 GMT
+Location: https://www.zomato.com/cs/karlovy-vary/goodbye
+Pragma: no-cache
+Server: envoy
+Set-Cookie: AWSALBTG=pEnqpjwgGkIIubdxbr4nmsSi7Z3fL9mMonhwnEJ1n+4U3ZN6F7KtHD3K8E01RplEAfGWl3BRebJpDYuBJszIQIHK6c6qKB51kjFq8Sw0qYWLA6Cdvefw51x3pLiYa9YMsJfl3LxgSXzV/yYycucmfbskFfLBsDzVZAAeMBssDFnApbS70w4=; Expires=Tue, 14 Nov 2023 18:05:34 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=pEnqpjwgGkIIubdxbr4nmsSi7Z3fL9mMonhwnEJ1n+4U3ZN6F7KtHD3K8E01RplEAfGWl3BRebJpDYuBJszIQIHK6c6qKB51kjFq8Sw0qYWLA6Cdvefw51x3pLiYa9YMsJfl3LxgSXzV/yYycucmfbskFfLBsDzVZAAeMBssDFnApbS70w4=; Expires=Tue, 14 Nov 2023 18:05:34 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: PHPSESSID=eaa74b6304c0a3ca8eaa0728a8f4d9e3; path=/; domain=.zomato.com; secure; HttpOnly
+Set-Cookie: csrf=8d27d8e7a4eb5d49ab4d13bcf4c3d60d; expires=Wed, 08-Nov-2023 18:05:34 GMT; Max-Age=86400; path=/; domain=.zomato.com; secure
+Set-Cookie: fbcity=191; expires=Sun, 05-May-2024 18:05:34 GMT; Max-Age=15552000; path=/; domain=.zomato.com; secure
+Set-Cookie: hy-en=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=zomato.com
+Set-Cookie: fre=0; expires=Mon, 13-Sep-2077 12:11:18 GMT; Max-Age=1699380344; path=/; domain=zomato.com
+Set-Cookie: ttaz=0; expires=Tue, 07-Nov-2023 18:05:33 GMT; Max-Age=0; path=/; domain=zomato.com
+Set-Cookie: rd=1380000; expires=Mon, 13-Sep-2077 12:11:18 GMT; Max-Age=1699380344; path=/; domain=zomato.com
+Set-Cookie: lme=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.zomato.com
+Set-Cookie: zl=cs; expires=Sun, 05-May-2024 18:05:34 GMT; Max-Age=15552000; path=/; domain=.zomato.com; secure
+Set-Cookie: fbtrack=ea6dcfb4bb0b456198d959efc0f78d50; expires=Fri, 01-Nov-2024 18:05:34 GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
+Set-Cookie: fbcity=191; expires=Sun, 05-May-2024 18:05:34 GMT; Max-Age=15552000; path=/; domain=.zomato.com; secure
+Set-Cookie: fbcity=191; expires=Sun, 05-May-2024 18:05:34 GMT; Max-Age=15552000; path=/; domain=.zomato.com; secure
+Set-Cookie: ltv=191; expires=Thu, 07-Dec-2023 18:05:34 GMT; Max-Age=2592000; path=/
+Set-Cookie: lty=191; expires=Thu, 07-Dec-2023 18:05:34 GMT; Max-Age=2592000; path=/
+Set-Cookie: locus=%7B%22addressId%22%3A0%2C%22lat%22%3A50.227549%2C%22lng%22%3A12.866718%2C%22cityId%22%3A191%2C%22ltv%22%3A191%2C%22lty%22%3A%22city%22%2C%22fetchFromGoogle%22%3Afalse%2C%22dszId%22%3A0%2C%22fen%22%3A%22Karlovy+Vary%22%7D; expires=Thu, 07-Dec-2023 18:05:34 GMT; Max-Age=2592000; path=/; secure
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 87
+X-Xss-Protection: 1; mode=block; report=https://www.zomato.com/cspreport.php
+Content-Length: 0
+
+
+
+
+https://consent-auth2.zomato.com:443

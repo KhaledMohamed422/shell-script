@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: annotation-service.synapse.postman.tech
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 07:10:01 GMT
+X-Amz-Apigw-Id: OEUbgGbAoAMEUNQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 2ff6ed3d-73ae-4492-b908-15f6ff8d271c
+
+{"message":"Missing Authentication Token"}
+
+
+https://annotation-service.synapse.postman.tech:443

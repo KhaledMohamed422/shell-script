@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: iam.int.creditkarma.com
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 36
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:15:50 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=149112121038-ide6bljdbgnbrohuftev5g2fkd24aci0.apps.googleusercontent.com&response_type=code&scope=openid+email&redirect_uri=https://iap.googleapis.com/v1/oauth/clientIds/149112121038-ide6bljdbgnbrohuftev5g2fkd24aci0.apps.googleusercontent.com:handleRedirect&code_challenge=WCiz6K66zfiiFCvDoylRGnuYRyzDFNOAP7vVXkES2po&code_challenge_method=S256&cred_ref=true&state=AZFKIDEE1Dt0ZKqYFc6XKXra2mcq8Kv8GmqCxa6aGGmzAVEoP-x9dO5lc11XX9zVYzdLllrOz7zlNnJYM2eu-lJ62TQCaxd-7UBULYXuzLoJcb0bp8LLlr20P4bcl5A-CWSv8rqT0LaKbApD_SL3MVDedvvR7MT4fmjUoetvyt8Gc7uNBPRwpD3UvfZtNW79H1nMvaaQsRBHhp16bxFccb98TCGPGyU0y9NSA_DaVgrBDzO_NAMlwiAN-_bDb_411OQP7foUPxWw2gcnWZb30OpaXoE82DGI54WePK3e7TQKS9ircl_a4lN3n7jEpz9QShK36nrDr-RCop5PsNAhZ9jEkrqq1LO_eSX_GwEbxjLWvYPADBPx0wz_Qm5KwUKblptyrp9JT4vOTf72E49p_YiIMg17r4J7gHlOwGMaprFj3Azgda6KNqBWdtVWSNFQu9Gtvh1bwpr0dgh0etWtp0cWsPWrRY0LNkLdVcclZNv0SUGeUdKLGGQkq_Cl9Dg70RDhyBDyoGEaINCDwxCm33VuTrgoOGGXb6eSy7WtDXPfq6hfcqBeI3ajOpeGOcoThIy6RUbayNPhF1gEHX1Y8dJtT2qIhwM7On6LeVwj8YuyxqGIGzXMCqh3HDQl1zsiDA-Ex0G6Bfuwd6gjP9I5pc7bHWN0SeqZ7gTqfcFU7z9lkOKqw4s_T1GlVuw7T_Jmnhma79gsXJXBTcYKiigQAbZfIJ4veR4n55jq1VRqXSZMph1AVYm5ie6CVFNMZQfstOAE3A4WIiLIMpsNs_h8nVaZC4yzVLbXkWxpxkLqCnyVFR5uiXMBZnFm4mAfz8sEZooK1V7eP4ogMbGFAnoJE64kpV1V-48mWBld6FHNjXhHoZwMv6QlNiAYAzfLxFGiSUzAaqK4vnI6-0e1tgCMECN5pFpFyiwshcFkAIhDVbmtzVuIUnSaO4ysFTXKBNu9PHVR8185nKIi-eAScy_EXIDHnmx5j5e4S2h9i0c5LFSwCuy4Wt40PkUoSdx6hB33Q7mUJmcOERebiodisdpif2NsniiW5x-3eVg
+Set-Cookie: GCP_IAP_XSRF_NONCE_XqrFPvge8GEQW2ozvKvaWA=1; expires=Tue, 07-Nov-2023 19:25:50 GMT; path=/; Secure; HttpOnly
+X-Goog-Iap-Generated-Response: true
+
+Invalid IAP credentials: empty token
+
+
+https://iam.int.creditkarma.com:443

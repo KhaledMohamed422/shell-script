@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: advertising.flipkart.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.186 Safari/535.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: base-uri 'self'; connect-src 'self' * blob:; default-src 'self' https://*.flipkart.com https://*.flixcart.com http://*.flixcart.com https://www.googletagmanager.com blob:; font-src 'self' https://*.flixcart.com data: https://fonts.gstatic.com; frame-src 'self' https://*.flipkart.com http://*.flipkart.com https://accounts.google.com/ https://survey.zohopublic.in/ blob: https://www.youtube.com/ https://www.facebook.com/ https://www.google.com/; img-src 'self' * data: blob:; media-src 'self' http://*.akamaized.net https://*.akamaized.net blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.ravenjs.com https://*.flixcart.com http://*.flixcart.com https://static-assets-web.flixcart.com http://static-assets-web.flixcart.com https://apis.google.com/js/api.js https://fonts.googleapis.com/css https://www.googletagmanager.com https://www.youtube.com/ blob: 'nonce-796456823'; style-src 'self' 'unsafe-inline' https://*.flixcart.com https://fonts.googleapis.com/css https://fonts.googleapis.com/css2; worker-src 'self' https://*.flipkart.com blob:
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 22:01:26 GMT
+Server: nginx
+Set-Cookie: nonce=ss-796456823; Max-Age=13434242; Path=/; Expires=Thu, 11 Apr 2024 09:45:29 GMT; HttpOnly
+Strict-Transport-Security: max-age=31536000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-E-Id: 10.64.95.198
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+1327

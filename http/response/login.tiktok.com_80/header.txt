@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: login.tiktok.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; KB2005) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:40:28 GMT
+Expires: Wed, 08 Nov 2023 18:40:28 GMT
+Location: https://login.tiktok.com/
+Pragma: no-cache
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=480, origin; dur=4
+X-Akamai-Request-Id: 308f0f67.25c66b
+X-Cache: TCP_MISS from a92-123-132-14.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-44-214-28.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 4,23.44.214.28
+X-Parent-Response-Time: 482,92.123.132.14
+X-Tt-Logid: 202311081840278A4A105497462D305A8D
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a96a7b61ce752141d529c3c0cc29ccf0f02d41d54a6316b7524820b0ac855a50eefdbcd1f8c52f2fd37d33bf9aa3f418c3f39059e2cd1dbfea4752c01ca0fac24
+X-Tt-Trace-Id: 00-2311081840278A4A105497462D305A8D-4C0281B83C71ABB0-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

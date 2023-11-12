@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: orca-bulkupload-api.apps.mnscorp.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 89
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Auth-Token,Accept, X-Requested-With, remember-me
+Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3600
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:29:26 GMT
+Expires: 0
+Pragma: no-cache
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+{"timestamp":"2023-11-08T02:29:26.545+00:00","status":404,"error":"Not Found","path":"/"}
+
+
+https://orca-bulkupload-api.apps.mnscorp.net:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.uat01.aries.marriott.com
+User-Agent: Mozilla/5.0 (X11; NetBSD x86; en-us) AppleWebKit/666.6+ (KHTML, like Gecko) Chromium/20.0.0000.00 Chrome/20.0.0000.00 Safari/666.6+
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 286
+Akamai-Grn: 0.2f651002.1699378247.1138bc85
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:30:47 GMT
+Er_information: ER_EXECUTED:;ER_EXECUTED_RULE:
+Expires: Tue, 07 Nov 2023 17:30:47 GMT
+Mime-Version: 1.0
+Pragma: no-cache
+Retry-After: 28800
+Retry-After: 28800
+Server: AkamaiGHost
+Server-Timing: cdn-cache; desc=HIT
+Server-Timing: edge; dur=1
+Server-Timing: ak_p; desc="1699378247489_34628911_288930949_13_15073_4_9_-";dur=1
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Www-Authenticate: Basic realm="Secure Area"
+

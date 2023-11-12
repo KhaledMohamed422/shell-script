@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: jaq-upload-img.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 383
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:57:53 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5BA1E3367F3332CB2084
+X-Oss-Server-Time: 6
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5BA1E3367F3332CB2084</RequestId>
+  <HostId>jaq-upload-img.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://jaq-upload-img.cn-hangzhou.oss-pub.aliyun-inc.com:443

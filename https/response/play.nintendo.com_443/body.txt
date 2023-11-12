@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" id="ng-app" ng-app="playNintendoApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="Play Nintendo">
+    <meta property="og:image" content="https://play.nintendo.com/static/assets/icons/PN-OG-kids-2.jpg">
+    <meta name="description" content="The official Nintendo site for kids. Watch videos, find games, take quizzes, read Nintendo news and more at Play Nintendo - a fun place for
+kids.">
+    <meta property="og:description" content="The official Nintendo site for kids. Watch videos, find games, take quizzes, read Nintendo news and more at Play Nintendo - a fun place for
+kids.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="//media.nintendo.com/share/nclood/stable/en-us/bundles/microsite.css" media="all">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic|Viga" rel="stylesheet" type="text/css">
+    <link rel="preload" href="https://use.typekit.net/dgc6plu.css" as="style" crossOrigin="true">
+    <link rel="stylesheet" href="https://use.typekit.net/dgc6plu.css"><link rel="stylesheet" href="https://play.nintendo.com/static/assets/css/screen.b24fc2ae20a0.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://play.nintendo.com/static/assets/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://play.nintendo.com/static/assets/icons/apple-touch-icon-152x152.png">
+    <meta name="apple-mobile-web-app-title" content="Play Nintendo">
+    <link rel="icon" type="image/png" href="https://play.nintendo.com/static/assets/icons/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://play.nintendo.com/static/assets/icons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="https://play.nintendo.com/static/assets/icons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://play.nintendo.com/static/assets/icons/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://play.nintendo.com/static/assets/icons/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ff3f3f">
+    <meta name="msapplication-TileImage" content="https://play.nintendo.com/static/assets/icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://play.nintendo.com/static/assets/icons/browserconfig.xml">
+    <meta name="application-name" content="Play Nintendo">
+    <meta name="google-site-verification" content="lcC2m3GxLFXRpw4s4cKbn8Q6jDs8zHPXp9CC1xHn70c">
+<title>Play Nintendo</title>
+<meta name="google-site-verification" content="2oRwt7x7G0A4Au8TewNveD9lc_27-ue36DrRXwTgYW4"/>
+<meta name="google-site-verification" content="_dDfdtN3vdt5u57AvKw3XyVHSVpNkeV6D1To1J06t5g"/>
+  </head>
+  <body>
+    <div id="top">
+      <div class="nclood-nav-container">
+        <nclood-micro-nav></nclood-micro-nav>
+      </div>
+      <div id="skippers" class="skippers"><a href="#main-content" class="button skippers__item skippers__item--content">Skip to main content</a>
+      </div>
+<nav id="main-nav" aria-label="Main navigation" class="main-nav">
+  <button aria-expanded="false" class="main-nav__label">Menu</button>
+  <ul class="main-nav__list">
+    <li class="main-nav__item main-nav__item--friends "><a href="/themes/friends/" class="a--simple"><span>Friends</span></a>
+    </li>
+    <li class="main-nav__item main-nav__item--activities "><a href="/activities/" class="a--simple"><span>Activities</span></a>
+    </li>
+    <li class="main-nav__item main-nav__item--media "><a href="/media/" class="a--simple"><span>Media</span></a>
+    </li>
+    <li class="main-nav__item main-nav__item--logo"><a href="/" title="Homepage" class="main-nav__logo a--simple"><img src="https://play.nintendo.com/static/assets/img/common/logo-play-nintendo.3c5005a1de2a.png" alt="Play Nintendo"/></a>
+    </li>
+    <li class="main-nav__item main-nav__item--printables "><a href="/printables/" class="a--simple"><span>Printables</span></a>
+    </li>
+    <li class="main-nav__item main-nav__item--news-tips "><a href="/news-tips/" class="a--simple"><span>News &amp; Tips</span></a>
+    </li>
+    <li class="main-nav__item main-nav__item--parent"><a href="/parents" title="Nintendo website" class="a--simple">Parents</a>
+    </li>
+  </ul><a href="/" title="Homepage" class="main-nav__logo a--simple"><img src="https://play.nintendo.com/static/assets/img/common/logo-play-nintendo.3c5005a1de2a.png" alt="Play Nintendo"/></a>
+  <div class="main-nav__search">
+    <play-search-box></play-search-box>
+  </div><a href="/parents" class="main-nav__parents a--simple">Parents</a>
+</nav>
+    </div>
+    <div class="page-wrapper">
+<main>
+  <h1 id="main-content" class="visually-hidden">Play Nintendo</h1>
+  <div class="page page--home">
+    <play-home-hero>
+      <play-grid aria-live="polite" data-endpoint="api/v1/content/" data-param-sort="importance" data-param-context="main" data-param-tiletype="featured" data-param-page_size="3" data-omitsurprise="true" data-omitpager="true"></play-grid>
+    </play-home-hero>
+    <section class="section section--characters">
+      <h2 class="section__title">You can meet friends from the world of video games!</h2>
+      <ul class="grid">
+        <li class="grid__item">
+          <play-tile-theme ng-href="/themes/friends/mario/" data-profileimage="'https://play.nintendo.com/images/profile-mk-mario.7bf2a8f2.aecb04f1.png'" data-title="'Mario'" data-colour="'#00d2ff'"></play-tile-theme>
+        </li>
+        <li class="grid__item">
+          <play-tile-theme ng-href="/themes/friends/luigi/" data-profileimage="'https://play.nintendo.com/images/profile-mk-luigi.7bf2a8f2.aecb04f1.png'" data-title="'Luigi'" data-colour="'#b42ff5'"></play-tile-theme>
+        </li>
+        <li class="grid__item">
+          <play-tile-theme ng-href="/themes/friends/princess-peach/" data-profileimage="'https://play.nintendo.com/images/profile-mk-peach.7bf2a8f2.aecb04f1.png'" data-title="'Princess Peach'" data-colour="'#00d2ff'"></play-tile-theme>
+        </li>
+        <li class="grid__item">
+          <play-tile-theme ng-href="/themes/friends/bowser/" data-profileimage="'https://play.nintendo.com/images/profile-mk-bowser.7bf2a8f2.aecb04f1.png'" data-title="'Bowser'" data-colour="'#484848'"></play-tile-theme>
+        </li>
+        <li class="grid__item">
+          <play-tile-theme ng-href="/themes/friends/toad/" data-profileimage="'https://play.nintendo.com/images/profile-mk-toad.7bf2a8f2.aecb04f1.png'" data-title="'Toad'" data-colour="'#1ddb81'"></play-tile-theme>
+        </li>
+        <li class="grid__item more-characters">
+          <play-tile-theme ng-href="/themes/friends/" data-title="'See more characters'"></play-tile-theme>
+        </li>
+      </ul>
+    </section>
+    <section class="section section--categories">
+      <h2 class="section__title">You can find lots of fun stuff right here!</h2>
+      <play-doodle data-name="'scribble'"></play-doodle>
+      <play-doodle data-name="'ziggylines'"></play-doodle>
+      <play-swiper>
+        <li class="swiper__item"><a href="/activities/play/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'play'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Play</h3>
+              <p class="categories-card__desc">Make custom creations and play character match-ups.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/personality-quizzes/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'personality-quizzes'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Personality Quizzes</h3>
+              <p class="categories-card__desc">Discover something new about yourself.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/skill-quizzes/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'skill-quizzes'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Skill Quizzes</h3>
+              <p class="categories-card__desc">Put your trivia skills to the test.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/memory-match/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'memory-match'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Memory Match-up</h3>
+              <p class="categories-card__desc">Flip cards to make matching pairs.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/paint-by-numbers/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'paint-by-numbers'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Paint-by-number</h3>
+              <p class="categories-card__desc">Fill in a picture by matching numbers to colors.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/puzzles/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'puzzles'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Puzzles</h3>
+              <p class="categories-card__desc">Put together puzzles and try to beat your best time.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/activities/opinion-polls/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'opinion-polls'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Opinion Polls</h3>
+              <p class="categories-card__desc">We ask the questions, you choose the answers.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/media/videos/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'videos'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Videos</h3>
+              <p class="categories-card__desc">Watch game trailers and other videos.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/media/pics/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'pics'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Pics</h3>
+              <p class="categories-card__desc">Click through photos, screenshots, and galleries.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/media/wallpapers/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'wallpapers'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Wallpapers</h3>
+              <p class="categories-card__desc">Download wallpapers for your computer or smart device.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/printables/cards/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'cards'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Cards</h3>
+              <p class="categories-card__desc">Celebrate special days with clever cards.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/printables/crafts/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'crafts'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Crafts</h3>
+              <p class="categories-card__desc">Create crafty projects using everyday items.</p>
+            </div></a>
+        </li>
+        <li class="swiper__item"><a href="/printables/print-and-play/" class="icon-hover categories-card">
+            <div class="categories-card__wrapper">
+              <play-icon data-type="'print-and-play'" class="categories-card__icon"></play-icon>
+              <h3 class="categories-card__name">Print and Play</h3>
+              <p class="categories-card__desc">Print out games and activities to play later.</p>
+            </div></a>
+        </li>
+      </play-swiper>
+    </section>
+    <section class="section section--list">
+      <h2 class="visually-hidden">More fun</h2>
+      <play-grid data-endpoint="api/v1/content/" data-param-sort="importance" data-param-context="main" data-param-exclude="3"></play-grid>
+    </section>
+  </div>
+</main>
+      <footer id="main-site-footer">
+        <play-top-button></play-top-button>
+        <div class="row">
+          <div class="col12">
+            <p aria-hidden="true" class="cta">You can find friendly characters, fun activities, and fantastic video games on Play Nintendo!
+            </p>
+
+          </div>
+          <div class="col2"><a href="http://www.nintendo.com" target="_blank" class="iconf-nintendo">Nintendo</a>
+          </div>
+          <div class="col8">
+            <ul style="margin-bottom: 5px" aria-label="Footer links" class="footer-links">
+              <li><a href="/parents/" class="a-box">For Parents</a>
+              </li>
+              <li><a href="https://en-americas-support.nintendo.com/app/contact" target="_blank" class="a-box">Contact Us</a>
+              </li>
+            </ul>
+            <ul aria-label="Footer links continuation" class="footer-links">
+              <li><a href="http://www.nintendo.com/corp/webform.jsp" target="_blank" class="a-box">Website Feedback</a>
+              </li>
+              <li><a href="https://www.nintendo.com/privacy-policy/" target="_blank" class="a-box">Privacy Notice</a>
+              </li>
+              <li><a href="http://www.nintendo.com/terms-of-use" target="_blank" class="a-box">Terms of Use</a>
+              </li>
+            </ul>
+            <p style="transform:translateY(1em)">Find us on:</p>
+            <ul aria-label="Social links" class="footer-social">
+              <li><a target="_blank" href="http://www.facebook.com/nintendo" rel="nofollow" class="iconf-facebook">Facebook</a>
+              </li>
+              <li><a target="_blank" href="http://twitter.com/NintendoAmerica" rel="nofollow" class="iconf-twitter">Twitter</a>
+              </li>
+              <li><a target="_blank" href="https://www.youtube.com/c/playnintendo" rel="nofollow" class="iconf-youtube">YouTube</a>
+              </li>
+              <li><a target="_blank" href="http://instagram.com/nintendo" rel="nofollow" class="iconf-instagram">Instagram</a>
+              </li>
+            </ul><a target="_blank" href="http://www.esrb.org/" rel="nofollow" class="footer-esrb"><img src="https://play.nintendo.com/static/assets/img/ESRBs/E-E10+.png" alt="ESRB: E to E 10+"></a>
+          </div>
+          <div class="col2"><a target="_blank" href="http://www.esrb.org/confirm/nintendo-confirmation.jsp" rel="nofollow" class="footer-logo-esrb"><img srcset="https://play.nintendo.com/static/assets/img/footer/global-footer-esrb.png 1x, https://play.nintendo.com/static/assets/img/footer/global-footer-esrb-2x.png 2x" src="https://play.nintendo.com/static/assets/img/footer/global-footer-esrb.png" alt="Privacy Certified ESRB"></a>
+          </div>
+          <div class="col12 footer-copyright"><ul><li>For Nintendo 3DS systems, use Parental Controls to restrict 3D mode for kids&nbsp;6 and under.</li><li>Broadband Internet access required for online features. For more info, check out&nbsp;<strong><a href="http://support.nintendo.com" target="_blank">support.nintendo.com</a></strong>.</li><li>&copy; 2022 Nintendo.&nbsp;Games are property of their respective owners.&nbsp;Nintendo of America Inc. Headquarters are in Redmond, Washington.</li></ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="//media.nintendo.com/share/nclood/stable/en-us/bundles/microsite.min.js"></script><script src="https://play.nintendo.com/static/assets/js/site.db5b218e0540.js"></script>
+    <script type="text/javascript">window.wtc.pageTrackName = window.location.pathname;
+
+    </script>
+
+    <script>try {
+  const { PERFORMANCE, FUNCTIONAL, TARGETING } = window.nclood.CookieConsent.Groups;
+  const trackingConsent = window.nclood.CookieConsent.hasConsentedTo([PERFORMANCE, TARGETING])
+
+  if (trackingConsent) {
+    // load google tag manager
+    window.dataLayer = window.dataLayer || [];
+
+    window.gtag = function() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-55271715-1', {
+      'anonymize_ip': true,
+      'cookie_expires': 0,
+      'client_storage': 'none' ,
+      'allow_google_signals': false
+    });
+
+    const newScript = document.createElement("script");
+    newScript.type = "text/javascript";
+    newScript.onload = function() {
+      console.log('Cookie enabled, gtag loaded');
+    }
+    newScript.setAttribute("async", "true");
+    newScript.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=UA-55271715-1");
+    document.documentElement.firstChild.appendChild(newScript);
+
+  } else {
+    console.warn('Script blocked due to cookie preferences');
+  }
+} catch (_) {}
+    </script>
+<script>(function(){
+  var colors = ['blue', 'green', 'purple', 'red'];
+  var colorsLen = colors.length;
+
+  //- shuffle array
+  var j, x;
+  for (var i = colorsLen - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = colors[i];
+      colors[i] = colors[j];
+      colors[j] = x;
+  }
+
+  var items = document.querySelectorAll('.categories-card');
+  var colorI = 0;
+  for(var i = 0; i < items.length; i++) {
+    items[i].classList.add('categories-card--' + colors[colorI]);
+
+    colorI++;
+    if (colorI >= colorsLen) colorI = 0;
+  }
+})()
+</script>
+  </body>
+</html>
+
+
+https://play.nintendo.com:443

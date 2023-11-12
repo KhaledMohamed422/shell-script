@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: dl.mbmtw.cdn.garenanow.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 304
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:08:51 GMT
+Server: OBS
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSaVlvOxTCK4smGUu1Xfu6jzPfFp8MEp
+X-Obs-Request-Id: 0000018BAB2FFE42980C7DF188234AC2
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB2FFE42980C7DF188234AC2</RequestId><HostId>SaU4K79fP7AoQJxHuvpbtMe/XzFK2f0n3bqHhOOJzZZzpdQ9ihB7cyTXyPxzYrZG</HostId><Key>mgames/mbmtw/</Key></Error>
+
+
+http://dl.mbmtw.cdn.garenanow.com:80

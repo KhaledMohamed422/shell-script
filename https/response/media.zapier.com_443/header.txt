@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: media.zapier.com
+User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.39 (KHTML, like Gecko) Chrome/89.0.4389.111 Safari/537.39'
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy-Report-Only: default-src 'self'; child-src https://*; connect-src 'self' https://d1gx5xnbxsi8e4.cloudfront.net https://d8ejoa1fys2rk.cloudfront.net https://sentry10.bynder.cloud https://api2.amplitude.com https://analytics.com https://*.google-analytics.com https://stats.g.doubleclick.net https://*.amazonaws.com fast.appcues.com https://api.appcues.com https://api.appcues.net wss://api.appcues.net wss://media.zapier.com https://staging2-apiv2.webdamdb.com/oauth2/token https://apiv2.webdamdb.com/oauth2/token; font-src https://* data: ; img-src https://* data: blob:; media-src https://*; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://d1gx5xnbxsi8e4.cloudfront.net https://d8ejoa1fys2rk.cloudfront.net https://www.googletagmanager.com https://www.google-analytics.com https://cdn.amplitude.com https://js.hs-analytics.net fast.appcues.com browser.sentry-cdn.com bynder-static.s3.amazonaws.com; style-src 'self' 'unsafe-inline' https://d1gx5xnbxsi8e4.cloudfront.net https://d8ejoa1fys2rk.cloudfront.net https://fonts.googleapis.com fast.appcues.com; report-uri https://sentry10.bynder.cloud/api/1817/security/?sentry_key=54eb95cff224477bbb80958bc3e5f251
+Content-Type: text/html;charset=UTF-8
+Cross-Origin-Resource-Policy: cross-origin
+Date: Wed, 08 Nov 2023 02:29:05 GMT
+Location: /login/
+Permissions-Policy: camera=(), geolocation=(), microphone=()
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Set-Cookie: bynder=354EC7F6-D47A-4F89-90391094001E224E;Path=/;Secure;HttpOnly
+Set-Cookie: DEFAULTLOCALE=en_US;Path=/
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+Via: 1.1 2fb699a7d2ee3ddd9b1caad139f90e76.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 4DG3YtVdxm-aSQfpJsIYenJdikbQr0MxRGnfPPP47A7D5_DsawOxbA==
+X-Amz-Cf-Pop: AMS58-P6
+X-Api-Correlation-Id: 08fe6bc1-8b6a-26f0-99e5-5e3a51c9bdcb
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://media.zapier.com:443

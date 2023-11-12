@@ -1,0 +1,51 @@
+GET / HTTP/1.1
+Host: meal.taobao.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100101 Firefox/55.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:08:15 GMT
+Server: Tengine
+Set-Cookie: x5secdata=xd0fa2ae9b96119d31c893ad575974534998fe05927c7a0c281699438095a-717315356a1578588781abaae2aaa__bx__meal.taobao.com%3A443; Max-Age=20; Expires=Wed, 08-Nov-2023 10:08:35 GMT; Domain=taobao.com; Path=/
+Vary: Accept-Encoding
+Via: tengine-ingress.033080071078.na620[web,200]
+X5-Punish-Cache: miss
+X5-Punish-Cache-Expires: 1000
+
+411
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:baba:default_30762744.html?qrcode=yJOtV1l0U0mY_gWSfHoMKA|ZUteDw|XhdabQ_0&uuid=c893ad575974534998fe05927c7a0c28&action=wait&origin=https%3A%2F%2Fmeal.taobao.com%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+ window._config_ = {
+   "action": "wait",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:baba:default_30762744.html?qrcode=yJOtV1l0U0mY_gWSfHoMKA|ZUteDw|XhdabQ_0&uuid=c893ad575974534998fe05927c7a0c28&action=wait&origin=https%3A%2F%2Fmeal.taobao.com%2F"
+};
+</script>
+<!--rgv587_flag:sm-->
+0
+
+
+
+
+https://meal.taobao.com:443

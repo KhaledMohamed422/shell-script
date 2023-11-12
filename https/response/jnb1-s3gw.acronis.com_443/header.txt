@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: jnb1-s3gw.acronis.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2859.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:22:00 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 554
+X-Amz-Request-Id: 800000000000002600020b137dfce767
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://jnb1-s3gw.acronis.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: emea.cloud.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Content-Security-Policy: frame-ancestors 'none'
+Date: Tue, 07 Nov 2023 22:49:06 GMT
+Location: https://emea.cloud.com/
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: 15a7ae32-fa12-4057-842c-77a31f70bbb2
+X-Frame-Options: DENY
+Content-Length: 0
+
+
+
+
+http://emea.cloud.com:80

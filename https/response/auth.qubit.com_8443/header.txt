@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: auth.qubit.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 26
+Alt-Svc: h3=":8443"; ma=86400
+Cf-Ray: 822a5f5a4fee7a5e-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:40 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+Bad Request (Invalid Port)
+
+
+https://auth.qubit.com:8443

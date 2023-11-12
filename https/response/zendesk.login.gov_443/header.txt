@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: zendesk.login.gov
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4a (5G)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274e760e911635-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:30:51 GMT
+Location: https://zendesk.login.gov/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pzEePhbQuZc1nDaDKSZJAR5WWAPWzSB83yyKg8PU%2BDSUNDWaOdAvInnFlSA9woh4badkaoZyrGd9HssKeDT7AzJeDw9Lrj8hLMAWrX93WLmGx1TtnZhZO9yoA%2BGj3m%2BwJB62"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=WTFaUkJjR2hYM3U0a2IvL2hOMndnRyswMkczR1plV1liVVJUN1ZaVXVtdnAwZ1VZYTRaQUdiRCtCNDJ6eW1aR01HU1hWa05JT211cHZTZXp0b2p2ZEE9PS0tTG12cUlCeDdYckFZanhKR3FUNFdnZz09--b43e37ecb81b74863d35abe5492d704ef3c26eeb; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=c8ff0a9262bb77dd4cddb10754374cd4d3e0887e-1699378251; path=/; domain=.zendesk.login.gov; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=259200;
+X-Request-Id: 82274e760e911635-DUS
+X-Request-Id: 82274e760e911635-DUS
+X-Runtime: 0.033326
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-558cdbc6fb-9bf74
+X-Zendesk-Processed-Host-Header: zendesk.login.gov
+X-Zendesk-Zorg: yes
+
+5e

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: privacycenter-rsit.evetest.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Server: KONICHIWA/1.3
+Set-Cookie: LastMRH_Session=cd3c7f29; domain=wellsfargo.com;path=/;secure;HttpOnly
+Set-Cookie: MRHSession=6c31c891b1220130fa645ef8cd3c7f29; domain=wellsfargo.com;path=/;secure;HttpOnly
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure
+Content-Length: 0
+
+
+
+
+https://privacycenter-rsit.evetest.wellsfargo.com:443

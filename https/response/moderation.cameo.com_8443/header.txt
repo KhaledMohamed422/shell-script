@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: moderation.cameo.com:8443
+User-Agent: Mozilla/4.0 (PSP (PlayStation Portable); 2.00)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 822ac4c5f8257168-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Wed, 08 Nov 2023 03:35:54 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=6BHg6cTuC0R5IEnjskynkkAKq9ifIlRRJWkuN.BYRaU-1699414554-0-ASiZTsrRaXu/qnCQcz3a0WEsWU6sNG9Rns3u5bQNQEENDMcDHDH2m6stCZ7Nay0zpfaE902g4MVcgLvbIRdWA2uMlSOOeigwODEPeJWk7JD2; path=/; expires=Wed, 08-Nov-23 04:05:54 GMT; domain=.cameo.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+162f

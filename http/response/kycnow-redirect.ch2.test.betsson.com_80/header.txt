@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: kycnow-redirect.ch2.test.betsson.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:16 GMT
+Location: https://kycnow-redirect.ch2.test.betsson.com/
+Server: CloudFront
+Via: 1.1 671c13f54b1ad36c801a07e5c548b1c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 69w3h_Mt2RL-E2l3u8upZIJe0ampKhqOBg89QWBzOBmVZGTCJeTKbA==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

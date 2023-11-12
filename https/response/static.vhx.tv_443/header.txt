@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: static.vhx.tv
+User-Agent: w3m/0.5.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Access-Control-Allow-Credentials: true
+Cache-Control: public, max-age=2592000
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:03:58 GMT
+Server: AmazonS3
+Via: 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: 9Z/IkCb1+3untyuhahOYWoGZ2EbgxtDdrT5LQVcLEsRLmRE35ygL5knqj6m4t30PH08bGRUjPNM=
+X-Amz-Request-Id: YTVW9NW791DFVJZV
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230074-FRA
+X-Timer: S1699419838.418111,VS0,VE193
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>YTVW9NW791DFVJZV</RequestId><HostId>9Z/IkCb1+3untyuhahOYWoGZ2EbgxtDdrT5LQVcLEsRLmRE35ygL5knqj6m4t30PH08bGRUjPNM=</HostId></Error>
+0
+
+
+
+
+https://static.vhx.tv:443

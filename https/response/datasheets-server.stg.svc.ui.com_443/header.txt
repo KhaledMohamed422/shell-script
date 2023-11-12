@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: datasheets-server.stg.svc.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; KB2003) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 26
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'self'
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:49:41 GMT
+Etag: W/"1a-NHZUAzP5hreHHlezWDSKL5iDLPI"
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 7f0813b44b225b7cfed233d5c2caab52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: omq_P9zdU1GfeE41piOjVvkVhx_F4WwFn6-Udz3PEuSG9wef-VYtAw==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+X-Content-Security-Policy: default-src 'self'
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Ratelimit-Limit: 300
+X-Ratelimit-Remaining: 298
+X-Ratelimit-Reset: 1699419003
+X-Webkit-Csp: default-src 'self'
+X-Xss-Protection: 1; mode=block
+
+{"datasheets":"generator"}
+
+
+https://datasheets-server.stg.svc.ui.com:443

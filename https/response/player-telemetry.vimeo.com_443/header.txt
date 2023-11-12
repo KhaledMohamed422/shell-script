@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: player-telemetry.vimeo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 405 Method Not Allowed
+Connection: close
+Content-Length: 18
+Allow: OPTIONS
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:00:37 GMT
+Via: 1.1 google
+
+Method Not Allowed
+
+
+https://player-telemetry.vimeo.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: try.hellorory.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-A5070) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/17.0 Chrome/96.0.4664.104 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8248e671ff5d1619-DUS
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Expires: Sat, 11 Nov 2023 20:21:46 GMT
+Location: https://try.hellorory.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8YvAWDr1RGqLG7TI4kC4SwmrvtFNNCrObI99vsDxHNeBxx2n7ADDqAzQQVHdss9s65PJg6zfRFOFqNsHapNCELPpuHCA%2FBJMX%2Fph%2BQGX6w8AakR%2BTXBXjoyYpriXQnz4GGhCeg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://try.hellorory.com:80

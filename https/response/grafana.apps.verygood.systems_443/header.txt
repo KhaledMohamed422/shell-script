@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: grafana.apps.verygood.systems
+User-Agent: Mozilla/5.0 (Linux; Android 11; LM-V500N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Cache-Control: no-store
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:57:02 GMT
+Location: /login
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-Xss-Protection: 1; mode=block
+
+<a href="/login">Found</a>.
+
+
+
+
+https://grafana.apps.verygood.systems:443

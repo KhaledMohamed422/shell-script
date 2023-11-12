@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: intercom-ota.sandbox.latchaccess.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 04:54:40 GMT
+Server: CloudFront
+Via: 1.1 d13436be9e793d00b0273db3f7904816.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: j_yzx3i3cPlJVtmovK-LGUTnXOV3gRJ04we9sTJr2Nj-tXhd1Lcpaw==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://intercom-ota.sandbox.latchaccess.com:443

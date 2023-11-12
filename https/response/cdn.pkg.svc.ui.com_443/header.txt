@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: cdn.pkg.svc.ui.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=31536000, immutable
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:46:49 GMT
+Server: AmazonS3
+Via: 1.1 93b0598b43d63761f1a129690721f888.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: uNwLBM5bdMsZVzS0GyoPSroEtwRnqSaMuiBSFhdT1CnF6rDMfSynqQ==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>RWN2FTWM3P8XH8ER</RequestId><HostId>N/EoGwJOYZyEbrj+Wh6cV2NjHCdTaEddQA3UU46DmKxa2CjpPtAoXNAs9d9SfAYZ+rQVCf2ypfY=</HostId></Error>
+0
+
+
+
+
+https://cdn.pkg.svc.ui.com:443

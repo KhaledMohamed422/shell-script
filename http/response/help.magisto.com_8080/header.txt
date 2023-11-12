@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.magisto.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822afd139ab6876a-DUS
+Date: Wed, 08 Nov 2023 04:14:20 GMT
+Expires: Wed, 08 Nov 2023 05:14:20 GMT
+Location: https://help.magisto.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3%2BzjIEgBSLslnt5HVDeq9gXzDCbKc43JDGhh7pjp0LWhUe2E7oXDjm8l2rblN5LfnW5jm5sKmKJByz0xrAJxT%2FcYoeLh04gj15Rmdt0HlSjdUk3OoxWhoDPEMC2sswmq801fWbSabw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=308cd9749b7c532dce5652f60c795ec0b5a7055a-1699416860; path=/; domain=.help.magisto.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help.magisto.com:8080

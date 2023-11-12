@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ua1dev.coveo.com:8443
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Language: en-US
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com https://staticdev.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:31:00 GMT
+Location: https://platformdev.cloud.coveo.com/admin/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: 76dce085-fdc0-4502-9bcd-fcaf8da511a6
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://ua1dev.coveo.com:8443

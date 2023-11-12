@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: vm.tiktok.com
+User-Agent: Mozilla/5.0 (iPod; U; CPU iPhone OS 2_2_1 like Mac OS X; en-us) AppleWebKit/525.18.1 (KHTML, like Gecko) Version/3.1.1 Mobile/5H11a Safari/525.20
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 160
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:13 GMT
+Location: https://vm.tiktok.com/
+Proxy-Status: 0000201301026000
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=267, origin; dur=3
+Strict-Transport-Security: max-age=31536000
+X-Akamai-Request-Id: 5d06ab0e.ab77c6d
+X-Cache: TCP_MISS from a23-55-109-142.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52183077) (-)
+X-Cache-Remote: TCP_MISS from a23-218-219-19.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51934483) (-)
+X-Origin-Response-Time: 3,23.218.219.19
+X-Parent-Response-Time: 269,23.55.109.142
+X-Tt-Logid: 2023110818421278DEBD357275DD62ADF2
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a249a0652bfbff9734e01822c726d0f12563801dcdfba353d868c179633f6549a69e0c522fd20aa42c975f6c1c659512362b3b98f461907308a21be725668c551
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

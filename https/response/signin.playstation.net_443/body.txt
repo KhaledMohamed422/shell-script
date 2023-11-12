@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="none" />
+  	<link rel="stylesheet" href="https://partners.playstation.net/disclosuremanagement/assets/sign-in-page.css">
+    <title>Sign in</title>
+    <!-- Core widget js and css -->
+<script type="text/javascript"
+        src="https://ok4static.oktacdn.com/assets/js/sdk/okta-signin-widget/7.11.3/js/okta-sign-in.min.js"></script>
+<link rel="stylesheet"
+      type="text/css"
+      href="https://ok4static.oktacdn.com/assets/js/sdk/okta-signin-widget/7.11.3/css/okta-sign-in.min.css">
+
+<!-- Customizable css theme options. Link your own stylesheet or override styles inline. -->
+<link rel="stylesheet"
+      type="text/css" href="">
+
+<!-- styles for custom sign in -->
+<link rel="stylesheet" type="text/css" href="https://ok4static.oktacdn.com/assets/loginpage/css/custom-signin.737a914842b846fb44d117b7a2900fcb.css">
+
+
+</head>
+<body>
+  <div id="app">
+    <div class="gsi-grid-container">
+      <div class="gsi-header-row">
+        <div class="gsi-header">
+          <div class="gsi-header-logo"></div>
+          <a href="https://snqasaas01.service-now.com/csm?id=kb_article2&sys_id=8f761a8ddb786300ef1c2ded0b96197c&sso=true&smcid=partnerportal:help">
+            <svg height="24px" width="24px" version="1.1" viewBox="0 0 16 25"><defs></defs><g id="Symbols" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="Header-/-Gradient" fill="#F4F4F4" transform="translate(-1355.000000, -18.000000)"><g id="Nav-/-Icons"><g transform="translate(1242.000000, 0.000000)"><g id="Icon-/-Help-24" transform="translate(109.000000, 18.000000)"><path id="Page-1" d="M9.466,24.8798 L13.947,24.8798 L13.947,20.0678 L9.466,20.0678 L9.466,24.8798 Z M9.592,17.7718 C9.592,14.4818 9.9,13.0438 12.732,10.8158 C13.936,9.8898 14.647,8.8278 14.647,7.4228 C14.647,4.7498 12.948,4.0298 11.655,4.0298 C8.898,4.0298 8.503,6.3608 8.352,7.9718 L8.352,8.0058 L4,8.0058 C4,2.0498 8.043,-0.0002 11.377,-0.0002 C13.226,-0.0002 19.253,0.5808 19.253,7.2868 C19.253,10.0618 17.901,11.7058 15.537,13.5908 C14.214,14.6538 13.657,15.3048 13.657,17.7718 L9.592,17.7718 Z"></path></g></g></g></g></g></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="gsi-content-row gsi-gradient">
+        <div class="gsi-content-wrapper">
+          <div class="gsi-content-container">
+            <div style="display: block;">
+              <div>
+                <div id="okta-login-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <div class="gsi-footer-row">
+        <footer class="gsi-footer">
+          <div class="gsi-footer-logo">
+            <img src="https://partners.playstation.net/disclosuremanagement/assets/images/ps-logo.svg" class="qa-ps-logo" alt="PlayStation Logo" width="42" height="34">
+          </div>
+          <div class="gsi-footer-copyright qa-copyright">
+            <span class="qa-copyright-year"/>
+          </div>
+          <div class="gsi-footer-links">
+            <a href="https://snqasaas01.service-now.com/csm?id=kb_article2&amp;sys_id=73d198dadb43fa00088cfba61d96190c&amp;smcid=partnerportal:help" rel="noopener noreferrer" target="_blank" class="gsi-footer-link qa-footer-about-us">
+              <span>About Us</span>
+            </a>
+            <a href="https://snqasaas01.service-now.com/csm?id=kb_article2&amp;sys_id=129548c1db16a6002ff7bc2ffe9619ec&amp;smcid=partnerportal:help" rel="noopener noreferrer" target="_blank" class="gsi-footer-link qa-footer-terms">
+              <span>Terms of Use</span>
+            </a>
+            <a href="https://snqasaas01.service-now.com/csm?id=kb_article2&amp;sys_id=1295c8c1db16a6002ff7bc2ffe9619d9&amp;smcid=partnerportal:help" rel="noopener noreferrer" target="_blank" class="gsi-footer-link qa-footer-privacy">
+              <span>Privacy</span>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+    <!--
+        "OktaUtil" defines a global OktaUtil object
+        that contains methods used to complete the Okta login flow.
+     -->
+    
+<div id="okta-sign-in" class="auth-container main-container unsupported-message-container" style="display:none">
+    <div id="unsupported-cookie" class="unsupported-message" style="display:none">
+        <h2 class="o-form-head">Cookies are required</h2>
+        <p>Cookies are disabled on your browser. Please enable Cookies and refresh this page.</p>
+        <a class="button button-primary" target="_blank" href=".">
+            Refresh
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript" nonce="fveoRaH5xW244LehN_NGJ2HDYssGWL1cePMU1D5huns">
+  var signInSuccessCallBackFunction;
+  var oktaData = {"redirectUri":"https\x3A\x2F\x2Fsignin.playstation.net","isMobileSso":false,"fromUri":"","isMobileClientLogin":false,"inactiveTab":{"elementId":"inactive\x2Dtab\x2Dmain\x2Ddiv","avoidPageRefresh":false,"enabled":false},"signIn":{"logoText":"PlayStation\x20Partners\x20logo","features":{"emailRecovery":true,"deviceFingerprinting":true,"consent":true,"useDeviceFingerprintForSecurityImage":true,"customExpiredPassword":true,"router":true,"showPasswordToggleOnSignInPage":false,"securityImage":false,"autoPush":true,"smsRecovery":false,"idpDiscovery":false,"selfServiceUnlock":true,"webauthn":true,"showPasswordRequirementsAsHtmlList":true,"registration":false,"rememberMe":true,"callRecovery":false,"multiOptionalFactorEnroll":true},"baseUrl":"https\x3A\x2F\x2Fsignin.playstation.net","assets":{"baseUrl":"https\x3A\x2F\x2Fok4static.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.11.3"},"customButtons":[],"idpDiscovery":{"requestContext":""},"logo":"https\x3A\x2F\x2Fok4static.oktacdn.com\x2Ffs\x2Fbco\x2F1\x2Ffs0tl74lwxUnLjcDP1t7","language":"en","helpLinks":{"help":"","forgotPassword":"","unlock":"","custom":[]},"piv":{},"i18n":{"en":{"mfa.challenge.password.placeholder":"Password","help":"Help","password.forgot.email.or.username.tooltip":"Email\x20or\x20Username","needhelp":"Need\x20help\x20signing\x20in\x3F","primaryauth.username.placeholder":"Username","password.forgot.email.or.username.placeholder":"Email\x20or\x20Username","account.unlock.email.or.username.tooltip":"Email\x20or\x20Username","unlockaccount":"Unlock\x20account\x3F","account.unlock.email.or.username.placeholder":"Email\x20or\x20Username","primaryauth.password.placeholder":"Password","primaryauth.title":"Sign\x20In","forgotpassword":"Forgot\x20password\x3F"}}},"accountChooserDiscoveryUrl":"https\x3A\x2F\x2Flogin.okta.com\x2Fdiscovery\x2Fiframe.html"};
+
+  var runLoginPage = function(fn) {
+    var mainScript = document.createElement('script');
+    mainScript.src = "https://ok4static.oktacdn.com/assets/js/mvc/loginpage/initLoginPage.pack.58de3be0c9b511a0fdfd7ea4f69b56fc.js";
+    document.getElementsByTagName('head')[0].appendChild(mainScript);
+    fn && mainScript.addEventListener('load', function () { setTimeout(fn, 1) });
+  };
+
+  var OktaUtil = {
+    _addClass: function(el, className) {
+      if(el) {
+        var elementClasses = el.className.split(" ");
+        if (elementClasses.indexOf(className) == -1) {
+          el.className += " " + className;
+        }
+      }
+    },
+
+    _removeElement: function(el) {
+      if(el) {
+        el.parentNode.removeChild(el);
+      }
+    },
+
+    _hideElement: function(el) {
+      if(el) {
+        el.style.display = 'none';
+      }
+    },
+
+    _isDocumentVisible: function() {
+      return document.visibilityState === 'visible';
+    },
+
+    addLoginContainerClass: function () {
+      this._addClass(document.getElementById('okta-login-container'), 'login-container');
+    },
+
+    showUnsupportedCookieWarning: function () {
+      document.getElementById('okta-sign-in').removeAttribute('style');
+      document.getElementById('unsupported-cookie').removeAttribute('style');
+    },
+
+    removeUnsupportedCookieWarning: function () {
+      this._removeElement(document.getElementById('okta-sign-in'));
+    },
+
+    hideOktaLoginContainer: function () {
+      this._hideElement(document.getElementById('okta-login-container'));
+    },
+
+    isChromeOs:  function () {
+      return /\bCrOS\b/.test(navigator.userAgent);
+    },
+
+    addChromeOSScript: function() {
+      var chromeOSScript = document.createElement('script');
+      chromeOSScript.src = "/js/google/users-1.0.js";
+      document.getElementsByTagName('head')[0].appendChild(chromeOSScript);
+    },
+
+    getSignInWidgetConfig: function () {
+        if (oktaData.inactiveTab && oktaData.inactiveTab.enabled && !this._isDocumentVisible() && !oktaData.inactiveTab.avoidPageRefresh) {
+            // Show a loading state and wait for the visibility event
+            this.hideOktaLoginContainer();
+            // remove stateToken so SIW does not attempt a login flow
+            oktaData.signIn.stateToken = undefined;
+        }
+        return oktaData.signIn;
+    },
+
+    completeLogin: function (res) {
+      signInSuccessCallBackFunction(res);
+    },
+
+    getRequestContext: function () {
+      return oktaData.requestContext;
+    },
+
+    setRedirectUri: function (uri) {
+      oktaData.redirectUri = uri;
+    },
+
+    init: function () {
+      if (!navigator.cookieEnabled) {
+        this.showUnsupportedCookieWarning();
+        this.hideOktaLoginContainer();
+      } else {
+        this.removeUnsupportedCookieWarning();
+
+
+        // add class if app login banner is present
+        if (oktaData.isAppBannerVisible) {
+          this.addLoginContainerClass();
+        }
+
+        oktaData.isCustomSignIn = true;
+        oktaData.hasChromeOSFeature = this.isChromeOs();
+        if (oktaData.hasChromeOSFeature) {
+          this.addChromeOSScript();
+        }
+        runLoginPage(function () {
+          var res = OktaLogin.initLoginPage(oktaData);
+          oktaData.signIn = res.signIn;
+          signInSuccessCallBackFunction = res.signInSuccessCallbackFn;
+
+        });
+      }
+    }
+  };
+  OktaUtil.init();
+  //# sourceURL=OktaUtil.js
+</script>
+
+
+
+    <script type="text/javascript">
+        // "config" object contains default widget configuration
+        // with any custom overrides defined in your admin settings.
+        var config = {"logoText":"PlayStation\x20Partners\x20logo","features":{"emailRecovery":true,"deviceFingerprinting":true,"consent":true,"useDeviceFingerprintForSecurityImage":true,"customExpiredPassword":true,"router":true,"showPasswordToggleOnSignInPage":false,"securityImage":false,"autoPush":true,"smsRecovery":false,"idpDiscovery":false,"selfServiceUnlock":true,"webauthn":true,"showPasswordRequirementsAsHtmlList":true,"registration":false,"rememberMe":true,"callRecovery":false,"multiOptionalFactorEnroll":true},"baseUrl":"https\x3A\x2F\x2Fsignin.playstation.net","assets":{"baseUrl":"https\x3A\x2F\x2Fok4static.oktacdn.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.11.3"},"customButtons":[],"idpDiscovery":{"requestContext":""},"logo":"https\x3A\x2F\x2Fok4static.oktacdn.com\x2Ffs\x2Fbco\x2F1\x2Ffs0tl74lwxUnLjcDP1t7","language":"en","helpLinks":{"help":"","forgotPassword":"","unlock":"","custom":[]},"piv":{},"i18n":{"en":{"mfa.challenge.password.placeholder":"Password","help":"Help","password.forgot.email.or.username.tooltip":"Email\x20or\x20Username","needhelp":"Need\x20help\x20signing\x20in\x3F","primaryauth.username.placeholder":"Username","password.forgot.email.or.username.placeholder":"Email\x20or\x20Username","account.unlock.email.or.username.tooltip":"Email\x20or\x20Username","unlockaccount":"Unlock\x20account\x3F","account.unlock.email.or.username.placeholder":"Email\x20or\x20Username","primaryauth.password.placeholder":"Password","primaryauth.title":"Sign\x20In","forgotpassword":"Forgot\x20password\x3F"}}};
+
+        // Render the Okta Sign-In Widget
+        var oktaSignIn = new OktaSignIn(config);
+        oktaSignIn.renderEl({ el: '#okta-login-container' },
+            OktaUtil.completeLogin,
+            function(error) {
+                // Logs errors that occur when configuring the widget.
+                // Remove or replace this with your own custom error handler.
+                console.log(error.message, error);
+            }
+        );
+    </script>
+  
+  	<script type="text/javascript">
+      window.addEventListener('load', (event) => {
+  		document.querySelector('.auth-org-logo').src = 'https://partners.playstation.net/disclosuremanagement/assets/images/ps-auth-org-logo.svg';
+      });
+      var currentYear = new Date().getFullYear();
+      document.querySelector('.qa-copyright-year').innerText = `© ${currentYear} Sony Interactive Entertainment`;
+    </script>
+</body>
+</html>
+
+
+
+
+https://signin.playstation.net:443

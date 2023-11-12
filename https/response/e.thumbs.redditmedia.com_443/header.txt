@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: e.thumbs.redditmedia.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Mi A3 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/101.0.4951.41 YaBrowser/22.1.0.194 (lite) Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Accept-Ranges: bytes
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 20:24:14 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 0.05, "failure_fraction": 0.05}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Retry-After: 0
+Server: snooserv
+Vary: Accept-Encoding,Origin
+Via: 1.1 varnish, 1.1 varnish
+
+404 Not Found
+
+
+https://e.thumbs.redditmedia.com:443

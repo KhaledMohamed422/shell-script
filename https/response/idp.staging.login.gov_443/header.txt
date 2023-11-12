@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: idp.staging.login.gov
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-store
+Content-Security-Policy: default-src 'self'; child-src 'self'; form-action 'self'; block-all-mixed-content; font-src 'self' data: https://idp.staging.login.gov; img-src 'self' data: login.gov https://idp.staging.login.gov https://s3.us-west-2.amazonaws.com; media-src 'self'; object-src 'none'; style-src 'self' https://idp.staging.login.gov; base-uri 'self'; script-src 'self' https://idp.staging.login.gov dap.digitalgov.gov www.google-analytics.com 'nonce-9e5f024cda043a706fb5d4c2879be4ea'; connect-src 'self' www.google-analytics.com
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:27:30 GMT
+Link: <https://idp.staging.login.gov/assets/public-sans/PublicSans-Bold-7ae9760d.woff2>; rel=preload; as=font; type=font/woff2; crossorigin=anonymous,<https://idp.staging.login.gov/assets/public-sans/PublicSans-Regular-838cb6e3.woff2>; rel=preload; as=font; type=font/woff2; crossorigin=anonymous,</assets/application-1f72173a.css>; rel=preload; as=style; nopush,</assets/tab_navigation_component-6311b2de.css>; rel=preload; as=style; nopush,</assets/password_toggle_component-9050b0a0.css>; rel=preload; as=style; nopush,</packs/js/application-7d7c7ae0.digested.js>; rel=preload; as=script; integrity=sha512-sHCZ6RAEsjl17zvl8Hdw+Z1BpYeAadFggDQeKXtdmY0UCv286uxeGg3zmLM9TlLNzCBsT9re/RGqebZopDwnBg==; nopush,</packs/js/validated_field_component-0c6b7b4f.digested.js>; rel=preload; as=script; integrity=sha512-I4O4F3gPIUgyckfkBeU8crcIkzuWtc65RsTYNHp0DYSZE4Wvmm2VW8UxhlRbV0e6fu3LCY/q7HWn0soTiySfPA==; nopush
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Set-Cookie: ahoy_visitor=b9a5e1f9-0522-4053-8cf2-e628f1a39726; path=/; expires=Fri, 07 Nov 2025 17:27:30 GMT; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ahoy_visit=d4873d84-aebe-4098-85ed-d7e260e77cd0; path=/; expires=Tue, 07 Nov 2023 17:42:30 GMT; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: ahoy_track=true; path=/; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: _identity_idp_session=9e5f024cda043a706fb5d4c2879be4ea; path=/; secure; HttpOnly; SameSite=Lax
+Status: 200 OK
+Strict-Transport-Security: max-age=31556952; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 7b20af4202adb6ef25a7920ed74908dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _bIT4tZ545pj-DbaY72TbJsxePRJdt0pHI2Vk2eYges0PMR--EJUNA==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: d408975e-9ed4-4fd3-b357-4b13ff323db0
+X-Runtime: 0.013203
+X-Xss-Protection: 1; mode=block
+
+3024
+

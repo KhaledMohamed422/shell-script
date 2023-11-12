@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: inperson.id.me
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.15 Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 83
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:28:36 GMT
+Expires: Wed, 08 Nov 2023 02:28:36 GMT
+Location: https://www.id.me
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=97
+Server-Timing: origin; dur=75
+Server-Timing: ak_p; desc="1699410516675_399876322_639740181_17204_10151_4_6_-";dur=1
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Node: gold-eagle-11.idmeinc.net
+X-Request-Id: 8b162225-4584-459e-9355-af22986707d9
+X-Runtime: 0.001319
+

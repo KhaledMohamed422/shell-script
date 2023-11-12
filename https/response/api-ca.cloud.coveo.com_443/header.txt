@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: api-ca.cloud.coveo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-T500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.73 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:26:18 GMT
+Via: 1.1 57eb57a4c7d431365ab5b2e18c495bf4.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODq3uFJAYosEK7Q=
+X-Amz-Cf-Id: fZtdX8rxsPWDc9O--XTD8AdhYKXk48fOX8dvC5h_3jnAIqpQSlNLng==
+X-Amz-Cf-Pop: FRA56-P6
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: b2d915fe-4874-4d92-84c2-e7ec7932ff34
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://api-ca.cloud.coveo.com:443

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: policies.tinderwebstaging.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Age: 431882
+Cache-Control: public,max-age=0,must-revalidate
+Content-Security-Policy: default-src 'unsafe-inline' 'self'; frame-src; script-src 'unsafe-inline' 'self' data: www.google-analytics.com; img-src * data:; connect-src 'self' www.google-analytics.com
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 18:46:07 GMT
+Etag: "200b68204c2cdb57737f09facef472f8-ssl-df"
+Referrer-Policy: origin-when-cross-origin
+Server: Netlify
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Nf-Request-Id: 01HER433A09JQPG6CNRF6RTY8A
+X-Xss-Protection: 1; mode=block
+

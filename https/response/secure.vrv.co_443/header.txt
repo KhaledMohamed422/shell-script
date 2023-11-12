@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: secure.vrv.co
+User-Agent: Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 302
+Cache-Control: no-cache, private
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:17:30 GMT
+Location: https://vrv.co
+Server: nginx
+Via: 1.1 22b9ddafebf39d72780d68dad970d218.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GlMWWmKOxNsoYYzaJWXmvdy6DRaoxbui4KMDPAaWrzRZ0hvGYwvsjQ==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Miss from cloudfront
+X-Frame-Options: DENY
+

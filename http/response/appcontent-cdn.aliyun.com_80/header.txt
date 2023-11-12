@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: appcontent-cdn.aliyun.com
+User-Agent: Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Ali-Swift-Global-Savetime: 1699432826
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 08:40:26 GMT
+Eagleid: 3daa501516994328265386091e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[3,3,403-1280,M], cache15.l2cn1827[4,0], vcache10.cn6012[17,15,403-1280,M], vcache1.cn6012[17,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 08:40:26 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: sao-api.twitter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Type: text/plain;charset=utf-8
+Date: Tue, 07 Nov 2023 19:58:26 UTC
+Perf: 7626143928
+Server: tsa_d
+Set-Cookie: guest_id=v1%3A169938710643182479; Max-Age=34214400; Expires=Sat, 07 Dec 2024 19:58:26 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+X-Connection-Hash: e2b37c8eba041377d09c5bd41fa62acd81432492f87b7a36c22908a84c98fb50
+X-Response-Time: 118
+X-Transaction-Id: acdcb8dd190e77d3
+
+SSL is required
+
+
+
+http://sao-api.twitter.com:80

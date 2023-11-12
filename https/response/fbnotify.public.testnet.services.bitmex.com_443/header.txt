@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: fbnotify.public.testnet.services.bitmex.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; M2007J3SY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:05:45 GMT
+Server: gunicorn
+Vary: Accept
+
+{"title": "404 Not Found"}
+
+
+https://fbnotify.public.testnet.services.bitmex.com:443

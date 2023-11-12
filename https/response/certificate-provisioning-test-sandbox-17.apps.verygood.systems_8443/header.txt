@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-17.apps.verygood.systems:8443
+User-Agent: Opera/9.80 (Windows NT 6.1; U; es-ES) Presto/2.9.181 Version/12.00
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:50 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

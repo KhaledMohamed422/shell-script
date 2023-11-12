@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: pt.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227e17368accb2b-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:11:11 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r1%2B5Ai9s2hxYSD7f5II72hB%2BUHpzcpDQ5V5r064VJwD4p5eX65nkr75Nm9jySCHW%2Bv2EDhJiEj5jLsuihBahvKHboOVuHN22lA3MrP1olCjmx13BR%2B9aAFkDK4veKo5ey5G5"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1014
+
+
+http://pt.cloudflare.com:80

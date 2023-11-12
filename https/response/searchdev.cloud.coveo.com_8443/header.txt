@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: searchdev.cloud.coveo.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.google-analytics.com/analytics.js https://static.cloud.coveo.com https://api.appcues.cloud.coveo.com https://platform.cloud.coveo.com https://staticdev.cloud.coveo.com; object-src 'none'
+Date: Wed, 08 Nov 2023 02:30:24 GMT
+Location: https://platformdev.cloud.coveo.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding, User-Agent
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Request-Id: c66891cb-3671-4fe6-8275-2dad8b65b312
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://searchdev.cloud.coveo.com:8443

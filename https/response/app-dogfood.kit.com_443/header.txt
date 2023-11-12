@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: app-dogfood.kit.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.82 Safari/537.36 OPR/29.0.1795.41
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e6c37c357a5e-DUS
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:59 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=h47T3%2BqNn1yQdOlYWkweTzNKaZUY%2BN4QLw4l65dG8vR59GcCfBtPwygjKMVucRlWTqO0bmn6pNmeh1UCf2ZzrgcpXQbqAhIu02phjoO3BxPOnk8G%2FLYI7mbFZE%2F2YDaBv7JBM69X"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+13ac

@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: segment-api-auth.qutics.com
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.0.3) Gecko/2008092414 Firefox/3.0.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:25 GMT
+Server: nginx
+
+bd
+{
+ "code": 5,
+ "message": "Method does not exist.",
+ "details": [
+  {
+   "@type": "type.googleapis.com/google.rpc.DebugInfo",
+   "stackEntries": [],
+   "detail": "service_control"
+  }
+ ]
+}
+
+0
+
+
+
+
+https://segment-api-auth.qutics.com:443

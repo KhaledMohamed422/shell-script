@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: sift-events.turo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:07:21 GMT
+X-Amz-Apigw-Id: OChyFHAtIAMEA8A=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 9e70d166-a0e2-4ed0-a7ab-3fa8a13f24b2
+
+{"message":"Forbidden"}
+
+
+https://sift-events.turo.com:443

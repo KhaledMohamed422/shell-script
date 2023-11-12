@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: jay.ns.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e8777fff7a3a-DUS
+Date: Tue, 07 Nov 2023 19:15:59 GMT
+Expires: Tue, 07 Nov 2023 20:15:59 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j3kgL8fznvXscv4rNUvCBG1Nfrh7qqqAi5rUGEzmHjEaSwHpYWppBGBPhHvde2tk1zIJIbMFD4db9zbdtwnph1nW1aSe1OK1yEoFjn9vjYIWkaJqCoaupmDPu3mQ2XAcABGb4yNFRg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://jay.ns.cloudflare.com:443

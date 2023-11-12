@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: api.cmeadows-drcta.dap-risk-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.113 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:22:00 GMT
+X-Amz-Apigw-Id: OCbI8GnHIAMESFQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 717d6c48-f7de-4680-9d79-a4998addd868
+X-Amzn-Trace-Id: Root=1-654a7238-731f0ef4797e4dd5705df1e3
+
+{"message":"Missing Authentication Token"}
+
+
+https://api.cmeadows-drcta.dap-risk-nonprod.collegeboard.org:443

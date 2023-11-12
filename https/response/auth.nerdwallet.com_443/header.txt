@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: auth.nerdwallet.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.1; en-us; HTC Legend Build/cupcake) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 45
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822780fdce03cb19-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:21 GMT
+Location: https://nerdwallet.com/
+Ot-Baggage-Auth0-Request-Id: 822780fdf4decb19
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 57be15387f0db2c2
+Ot-Tracer-Traceid: 7be3691d4829b49d
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=ZbFkgkXCfYewcplQte8iZLcgZ1Atfbaw0v9yN95Th0I-1699380321-0-ATVZ4RnqKrlKiNRSpfpwRRofh2lLQ6r2djZxihFa9q4kCIxk3pT7KAbrrWFBMY7TTkjw9DpeV0IMQUr2+qe5EsQ+y32fRCoqXpIM/GIMlBvc; path=/; expires=Tue, 07-Nov-23 18:35:21 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-00000000000000007be3691d4829b49d-57be15387f0db2c2-01
+Tracestate: auth0-request-id=822780fdf4decb19,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: 889d08a810f334c5267a
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://nerdwallet.com/
+
+
+https://auth.nerdwallet.com:443

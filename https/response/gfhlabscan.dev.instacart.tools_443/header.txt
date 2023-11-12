@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: gfhlabscan.dev.instacart.tools
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 28
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227486088d56a89-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:26:42 GMT
+Expect-Ct: max-age=0
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Location: /login
+Pragma: no-cache
+Server: cloudflare
+Set-Cookie: ahoy_visit=8707ee55-080a-4438-a8fc-a31a07ed74f3; Path=/; Expires=Tue, 07 Nov 2023 21:26:42 GMT; SameSite=Lax
+Set-Cookie: __cf_bm=VFDV0GwUnPYJIAERwEtNo.R7H2wu_1b9gJJOJ0PbXak-1699378002-0-AcH3wssFCV9u8cn4lskELYpPiZ1iN2konpyW8pokervP3TNCnfKsEZZU3WHYNGX2%2B2FdRCsb3jcrZQZyarc87VA%3D; Domain=.customers.dev.instacart.tools; Path=/; Expires=Tue, 07 Nov 2023 17:56:42 GMT; HttpOnly; Secure; SameSite=None
+Set-Cookie: ahoy_track=true; Path=/
+Set-Cookie: ahoy_visitor=4af4ea10-6f7f-4afd-86d9-344dc56d0631; Max-Age=63072000; Path=/; Expires=Thu, 06 Nov 2025 17:26:42 GMT
+Set-Cookie: __cf_bm=8FtXwuc5yADMABBqIjFzf7Og_NN2WNmTOcXCmpmlxBI-1699378002-0-Aecf0inzP43pa3g7l4t/IlvVOqC2rRzalaThc+Dz/tMD2ce03dpuW5xpT9lzWieLolEx/X2a/qc/dP2LpyxtUhY=; path=/; expires=Tue, 07-Nov-23 17:56:42 GMT; domain=.gfhlabscan.dev.instacart.tools; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to /login
+
+
+https://gfhlabscan.dev.instacart.tools:443

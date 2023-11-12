@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: npc.finaidservices-prod.collegeboard.org
+User-Agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; MDA Pro/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+Date: Tue, 07 Nov 2023 17:18:40 GMT
+Location: https://npc.finaidservices-prod.collegeboard.org/
+Retry-After: 0
+Server: Varnish
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230037-FRA
+X-Timer: S1699377520.230336,VS0,VE0
+Content-Length: 0
+
+
+
+
+http://npc.finaidservices-prod.collegeboard.org:80

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: delta.taobao.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Content-Length: 240
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 09:49:42 GMT
+Eagleeye-Traceid: 215048bd16994369821815437e123d
+S_group: tao-session
+S_ip: 457079564a634d69564f514678684861
+S_status: STATUS_SYS_ERR
+S_tag: 285873027481716|134217728^|^^
+S_tid: 215048bd16994369821815437e123d
+S_ucode: CN:CENTER
+S_v: 4.0.4.9
+Server: Tengine
+Strict-Transport-Security: max-age=31536000
+Ups-Target-Key: delta.taobao.com
+X-Protocol: HTTP/1.1
+
+{"serverInfo":{"appName":"ald-lamp","ip":"33.63.240.20","appGroupName":"ald-lamphost-rmc","hostName":"ald-lamp033063240020.center.na620","bizGroup":"TAO","bizIds":["20130909"],"envType":"PRODUCT","unit":"sh","site":"na620"},"env":"PRODUCT"}
+
+
+https://delta.taobao.com:443

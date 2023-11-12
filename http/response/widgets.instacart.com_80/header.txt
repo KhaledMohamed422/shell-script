@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: widgets.instacart.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5030.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273f136bf91621-DUS
+Date: Tue, 07 Nov 2023 17:20:21 GMT
+Expires: Tue, 07 Nov 2023 18:20:21 GMT
+Location: https://widgets.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QsDWGC%2Bw8t3nQcRRS4CxQmTVpzwRvcWGr9hWDrO205wVzFWCBMz0fgdBeKBr%2BRl1x36uUaAC%2BKk%2FPfTJcIJ8VnptFCwUySygF6Uhu8qDJA2xSu3GOqP1gBqVaGN04Pvx0EzOc2pPWw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=dpnhuV40nNErflHRTl4HCY1Ns2h0Wm9McPPkd7veq_E-1699377621-0-ARkYKSY0Gda59J/DmQ8yzN65VBj0SABmSaAlxwClLk5Hr2h+U33DPil2mZi7IMv2fzbK+T+vkTuH427PUpfvGpo=; path=/; expires=Tue, 07-Nov-23 17:50:21 GMT; domain=.widgets.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://widgets.instacart.com:80

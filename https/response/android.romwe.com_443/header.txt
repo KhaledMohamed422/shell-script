@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: android.romwe.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:25:31 GMT
+Expires: Wed, 08 Nov 2023 19:25:31 GMT
+Server: openresty
+Vary: Accept-Encoding
+
+{
+                "result": "error",
+                "msg": "Notice_update_app",
+                "errormsg": "Sorry. The version of your app is too old. Please try again after updating it to the latest version.",
+                "code": "122",
+                "info": []
+            }
+
+
+https://android.romwe.com:443

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: test-university.browserstack.com
+User-Agent: Mozilla/5.0 (compatible; alexa site audit/1.0; +http://www.alexa.com/help/webmasters; )
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:32:36 GMT
+Expect-Ct: enforce, max-age=30
+Location: https://test-university.browserstack.com/dashboard
+P3p: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Set-Cookie: _LearnUpon_session=bdc777ae314272b34e226e8dfa78cb85; domain=.test-university.browserstack.com; path=/; expires=Wed, 08 Nov 2023 19:32:36 GMT; HttpOnly;; secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 8ad9598b-c15e-427c-8efe-190385673128
+X-Runtime: 0.011075
+X-Xss-Protection: 1; mode=block
+
+74

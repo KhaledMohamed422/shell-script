@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: blog.es.playstation.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=300, must-revalidate
+Content-Security-Policy: object-src 'none'; base-uri 'self'
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 01:21:30 GMT
+Last-Modified: Wed, 08 Nov 2023 01:21:29 GMT
+Link: <https://blog.es.playstation.com/wp-json/>; rel="https://api.w.org/"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Cookie,Origin
+Via: 1.1 94328d2509009edc0657f5c786a93e42.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: najQbywPpDlO32jzJpXcdQUePW6KWnzltk3ktn2KV-97uzC_qO5rew==
+X-Amz-Cf-Pop: FRA56-P4
+X-Batcache: MISS
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+2f45f

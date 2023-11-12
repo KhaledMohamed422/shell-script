@@ -1,0 +1,42 @@
+GET / HTTP/1.1
+Host: www-tokopedia-com.amp.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Audit-Id: 896c3b51-8085-40ec-b73d-3d1867fecdac
+Cache-Control: no-cache, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227eceacfe2160e-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:19:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Zl3l2H5unb9IXfNfAXvqtgfT1J%2BmjF9caE%2FWdE93jzP1JRN%2F4UwYxlVs7kHQLhFa3OE%2BOfrsECSgJQks6cncBbDRPGI0trA6Ue6bF%2BEgQyQgcT3QnC19yvQ%2B%2BhWTrM%2BQeJo1hgXsHJk5prUN8zLCypmP6MVibw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=yfZ_e96s1K11Mc9OktIAj9ryvgEo4yCdJ9MG71xWL08-1699384741-0-AXUSId2eTCA00GnK6/btCWcwc1hN16seGvd2HOHKDeoZeaz1Ui0R60ZKDbRkI8yDSp2vtt3LNd6Q6iaE1v05ico=; path=/; expires=Tue, 07-Nov-23 19:49:01 GMT; domain=.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Kubernetes-Pf-Flowschema-Uid: dd938950-3278-4198-b90c-51d78e8182e2
+X-Kubernetes-Pf-Prioritylevel-Uid: f83df36d-3928-4504-858d-f71166adca4d
+
+d9
+{
+  "kind": "Status",
+  "apiVersion": "v1",
+  "metadata": {},
+  "status": "Failure",
+  "message": "forbidden: User \"system:anonymous\" cannot get path \"/\"",
+  "reason": "Forbidden",
+  "details": {},
+  "code": 403
+}
+0
+
+
+
+
+https://www-tokopedia-com.amp.cloudflare.com:443

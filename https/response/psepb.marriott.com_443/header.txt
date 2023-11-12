@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: psepb.marriott.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Akamai-Grn: 0.3f601302.1699378144.afedbc
+Cache-Control: no-cache,no-store,max-age=0
+Date: Tue, 07 Nov 2023 17:29:04 GMT
+Expires: 0
+Location: https://extranetcloud.marriott.com/userauth/as/authorization.oauth2?response_type=code&code_challenge=CuVXZqKFGwfyub4RyCZ0cR3z4k1tr0JcUi3zlJghTME&code_challenge_method=S256&client_id=PA_EXT_WAM&redirect_uri=https%3A%2F%2Fpsepb.marriott.com%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiMU1vcGdFSmxlSm4zVXc0QkJ5QVJjdmhLMWNVIiwic3VmZml4IjoiUHljdmpoLjE2OTkzNzg0NDQifQ..TYpQH4AGKAnhosYXdekwww.-3afzF1lhPlkjSrqZgdoaMAGMU1qbr5djBxH2yx29RU1UjdkLSJcJshxqCGaD9IFedet4STJgPmvxn3j-kh8yjJ24FXnS4wEjnz8pYKiL23DVHGcrrwfrsUm4MSC8EIwArchfuRodzQscgaBz5cbYn_CSAnCz0OVhO7XbkBGkpxm2wK66BsrgSD79__JffLFbHKC3t0a4G3i6ZNbzdUwpg.mE03E4w3bUimcbZpNYsWBg&nonce=j91yOGhfDmLYlii0xRjDNLPQNGUDJ45ma5L2Kci37jw&acr_values=RED%20X509&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fpsepb.marriott.com%2F&vnd_pi_application_name=PeopleSoft+EPM%28epf2%29+-+Virtual+Host
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=197
+Server-Timing: origin; dur=52
+Server-Timing: ak_p; desc="1699378144223_34824255_11529660_24862_7679_4_9_-";dur=1
+Set-Cookie: nonce.Pycvjh.1699378444=7c1c9d91-24aa-4e47-a85e-ec1045b2b8c2; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_EXT.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://psepb.marriott.com:443

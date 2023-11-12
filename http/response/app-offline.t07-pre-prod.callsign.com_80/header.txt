@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: app-offline.t07-pre-prod.callsign.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20120813 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:20:02 GMT
+Location: https://app-offline.t07-pre-prod.callsign.com/
+Server: CloudFront
+Via: 1.1 c56940b696de15630f45de7e4da7bb32.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: aV4VMX3M6v8AuaT7bqKVLzi37Lj-cm5jPsZmoCOYIB19UGiUVkeolw==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Redirect from cloudfront
+

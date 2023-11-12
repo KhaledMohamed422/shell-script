@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: drand.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227de190f7cc4b8-DUS
+Date: Tue, 07 Nov 2023 19:08:54 GMT
+Expires: Tue, 07 Nov 2023 20:08:54 GMT
+Location: https://drand.cloudflare.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://drand.cloudflare.com:8080

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: chm-merchants.qa-ext.chmfin.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:21:13 GMT
+Server: AmazonS3
+Vary: Origin
+Via: 1.1 b0fa8632832c868a30d3acd573712a74.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: gIo5c_Dkinshp5nihSUQPE5oPIU5iqruJW7HzAe22xrd3e3hCK12mw==
+X-Amz-Cf-Pop: DUS51-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XAMD4XSC05EE59S0</RequestId><HostId>VReTLIzGZqINxXs4R2KdNx40tAgBlRvhsupTWpUevd2civrG5SHM8pudbv0i3yIBxHHTDSnrxXQ=</HostId></Error>
+0
+
+
+
+
+https://chm-merchants.qa-ext.chmfin.com:443

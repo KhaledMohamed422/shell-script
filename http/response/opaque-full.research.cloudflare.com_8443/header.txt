@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: opaque-full.research.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:10:53 GMT
+Server: cloudflare
+

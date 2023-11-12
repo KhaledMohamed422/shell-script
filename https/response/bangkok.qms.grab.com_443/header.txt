@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: bangkok.qms.grab.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 84
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 20:19:10 GMT
+Etag: W/"54-9c8Er81MnQvWaQkd+a7NqxCey/E"
+Vary: Accept-Encoding
+X-Request-Id: f0c22636a24046c3972f9b60d1698eb5
+
+{"name":"FORBIDDEN","message":"Forbidden [161.97.145.139]","status":403,"errors":[]}
+
+
+https://bangkok.qms.grab.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: zendesk.login.gov:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273facdc1bcb22-DUS
+Date: Tue, 07 Nov 2023 17:20:45 GMT
+Expires: Tue, 07 Nov 2023 18:20:45 GMT
+Location: https://zendesk.login.gov/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wGN6p9AJJfXfqahrnHqNL8V3c8eweiR%2BjxtMxWPSH8jEgb%2FuWsqcgrhlK9gNKaDJydrMLKFaZJvH%2B%2BePlw6gZ8q0jtiCEoEDLbG4lO2Len4bieK%2B0FCV7pR%2BedTPU2ec7fR%2FHdhTEWQ%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=af05015aa20ff4e25b1d36b6ab47137d6499a64d-1699377645; path=/; domain=.zendesk.login.gov; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://zendesk.login.gov:8080

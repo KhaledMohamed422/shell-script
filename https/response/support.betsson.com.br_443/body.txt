@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Central de Ajuda | Betsson</title>
+		<meta name="description" content="Perguntas mais frequentes. Para mais informações, entre em contato com o atendimento ao cliente. ">
+		<link href="https://cslobby-cdn.servisson.com/css/bootstrap.min.cd1e4d61e28320d9.css" rel="stylesheet">
+        <link href="https://cslobby-cdn.servisson.com/css/betsson.b346513330211838.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cslobby-cdn.servisson.com/css/font-awesome.min.b7fea28a42994ac2.css">
+        <link rel="icon" type="image/x-icon" href="https://cslobby-cdn.servisson.com/images/betsson/icons.favicon_v4.30a50f9e3591cddc.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="https://cslobby-cdn.servisson.com/images/betsson/icons.favicon_v4.30a50f9e3591cddc.ico">
+        <script src="https://cslobby-cdn.servisson.com/scripts/lib/jquery.min.220afd743d9e9643.js"></script>
+        <script src="https://cslobby-cdn.servisson.com/scripts/lib/geolocation.6dc927c7f7947ef9.js"></script>
+        <style>
+        #ajaxProgress{
+        	display:block;
+        	position:fixed;
+        	top:0px;
+        	left:0px;
+            background:#ffffff;
+        	z-index:99;
+        	width:100vw;
+        	height:100vh;
+        	line-height:100vh;
+            text-align: center;
+        }
+        .progress--container{
+        	display:inline-block;
+            margin:0 auto;
+        	line-height:18px;
+        }
+        .progress--header{
+        	font-family: 'Open Sans',Arial,sans-serif;
+        	display:block;
+        	width:100%;
+        	color:#2d2d2d;
+        	font-size:1em;
+        }
+        .progress--wrapper{
+        	display:block;
+        	width:100%;
+        }
+        .progress-bar-info{
+            background-color:#2d2d2d;
+        }
+        #faq_subtitle_text:before{
+          content:"Perguntas Frequentes";
+        }
+        </style>
+    <script src="https://cslobby-cdn.servisson.com/scripts/lib/cookieconsent.b481f701d63b945a.js"></script>
+</head>
+    <body>
+      <!--BEFORE GTM script-->
+         <script name="global-vars-gtm">
+              window.dataLayer = window.dataLayer || [];
+              dataLayer.push({
+                  "gtm_init_brand": "betssonbr",
+                   "Language": "BR",
+                  "gtm_is_cookie_consent_disabled": "0", // this variable is already provided
+                  ...countryCodeGtm
+              });
+          </script>
+
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDC24PL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script name="gtm">
+                        (function (w, d, s, l, i) {
+                            w[l] = w[l] || []; w[l].push({
+                                'gtm.start':
+                                    new Date().getTime(), event: 'gtm.js'
+                            }); var f = d.getElementsByTagName(s)[0],
+                                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                                '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+                        })(window, document, 'script', 'dataLayer', "GTM-KDC24PL");
+                    </script>
+        <!-- End Google Tag Manager -->
+    <section id="site" class="mb_site_show">
+	    <div class="container-fluid">
+        <div class="row header_large" id="faq_heading_row">
+                      <div id="faq_heading_content_container">
+                        <div class="mb_hamburger_slide hamburger_reg" id="mb_hamburger"><span class="helper"></span><i class="fa fa-bars"></i></div>
+
+                          <span class="helper"></span>
+                          <div id="faq_heading_language_container">
+                              <span class="helper"></span>
+                              <div id="faq_language">
+                                  <ul>
+                                      <li><div class="language_icon">BR</div><span class="language_name">Português - Brazil</span>
+                                          <ul>
+                                              <a href="/br.html"><li class="faq_language_selected"><i class="fa fa-check"></i>Português - Brazil</li></a>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+            					<a href="https://www.betsson.com.br">
+            						<div class="header-logo" ></div>
+            					</a>
+                              <div id="faq_header_devider"></div>
+                              <span id="faq_header_name">Central de Ajuda</span>
+                      </div>
+  			</div>
+			<div class="row" id="template">
+
+			</div>
+			<div class="row">
+				<div class="col-xs-12" id="faq_div_footer">
+
+				</div>
+
+      <!-- Footer -->
+      <div id="footer">
+      <p id="footer_content">
+
+        <img id="underage_logo" src="https://s3-eu-west-1.amazonaws.com/servisson-cs-lobby/production/s3-images/site/betsson/18%2Blogo.png" />
+        <strong>Betsson</strong> <br/><br/>
+        Av Brigadeiro Faria Lima<br/>
+        1811, Andar 9 Conj 919, <br/>
+        Jardim Paulistano, Sao Paulo, SP, CEP 01452-001.<br/><br/>
+        0800 111 2627  </br/><br/>
+        Leia sobre jogos responsáveis ​​e nossas ferramentas de proteção ao jogador
+        <a href="https://www.betsson.com/br/jogar-com-responsabilidade/information">aqui</a>.
+
+      </p>
+      </div>
+
+      </div>
+		</div>
+
+        <div class="cmb_div">
+           <!-- Request a call back form -->
+           <div id="callmeback_div" class="callmeback" style="visibility:hidden; opacity:0">
+             <span class="callback_title">Solicitar uma chamada de retorno</span>
+             <i id="close_callmeback" class="fa fa-times"></i>
+             <span class="call_recorded">Observe que, para fins de qualidade e garantia, esta ligação pode ser gravada.</span>
+             <span id="cmb_note"></span>
+             <form id="cmb_form" class="callmeback_form">
+               <label>Nome completo</label>
+               <input type="text" id="cmb_name" name="cmb_name" required>
+               <br />
+               <label>Endereço de e-mail</label>
+               <input type="email" id="cmb_email" name="cmb_email" required>
+               <br />
+               <label>Número de telefone</label><span> <i>(Inclua o código / prefixo do país)</i></span>
+               <input type="tel" id="cmb_tel" name="cmb_tel" required>
+               <br />
+               <label>Selecionar hora para retorno de chamada</label>
+               <br />
+               <div class="cmb_time">
+                 <input type="radio" name="cmb_time" id="cmb_time_1" value="assim que possível" checked />
+                 <label for="cmb_time_1"> assim que possível </label>
+             </br>
+                 <input type="radio" name="cmb_time" id="cmb_time_2" value="15-30" />
+                 <label for="cmb_time_2"> 15-30 minutos </label>
+             </br>
+                 <input type="radio" name="cmb_time" id="cmb_time_3" value="30-60" />
+                 <label for="cmb_time_3"> 30 a 60 minutos </label>
+               </div>
+               <label>Descrição</label>
+               <textarea id="cmb_message" name="cmb_message" rows="4" placeholder="Digite uma breve descrição sobre o problema." required></textarea>
+               <input id="callmeback_submit" type="submit" name="submit" value="Enviar">
+             </form>
+           </div>
+           <!-- Call back request sent confirmation -->
+           <div id="callmeback_confirmation" class="callmeback" style="visibility:hidden; opacity:0"> </div>
+           <!-- Call back disabled -->
+           <div id="callmeback_disabled" class="callmeback" style="visibility:hidden; opacity:0"> </div>
+           <!-- blanket unfocuses content on the back to make the form more focused and limits background functionality -->
+           <div class="background_blanket" style="visibility:hidden"></div>
+       </div>
+
+    <!--  Cookie policy snackbar -->
+    <div id="cookie-policy" class="clearfix" style="display:none"></div>
+	</section>
+<section id="ajaxProgress" style="display:block;position:fixed;top:0px;left:0px;background:#ffffff;z-index:99;width:100%;height:100%;line-height:100vh;text-align: center;">
+    <div class="progress--container" style="display:inline-block;margin:0 auto;line-height:18px;">
+    <div class="progress--header" id="progress--header" style="font-family: 'Open Sans',Arial,sans-serif;display:block;width:100%;color:#2d2d2d;font-size:0.8em;"><i class="fa fa-hourglass-o"></i> Carregando...</div>
+    <div class="progress--wrapper" style="display:block;width:100%;">
+            <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="10"
+aria-valuemin="0" aria-valuemax="100" style="width:10%" id="ajaxProgressBar"></div></div>
+    </div>
+    </div>
+    </section>
+	<div class="font_preload" style="opacity: 0">
+    <span style="font-family: 'Open Sans', Arial, sans-serif;"></span>
+	</div>
+
+
+    <script src="https://cslobby-cdn.servisson.com/scripts/lib/jquery.validate.min.08ea8682652b05be.js"></script>
+    <script src="https://cslobby-cdn.servisson.com/scripts/lib/validation-methods.046e54adb516d132.js"></script>
+    <script src="https://cslobby-cdn.servisson.com/scripts/lib/purify.min.0069a7beac92cb74.js"></script>
+    <script src="https://cslobby-cdn.servisson.com/scripts/lib/faqapp.5f79fda4f73d36f4.js"></script>
+    <script>
+    if(typeof faqApp === "undefined"){
+        var faqApp = {func:{},vars:{},obj:{}};
+    }
+    faqApp.obj.Initialize = {
+      brand:'bet-br',
+      language:'pt-br',
+      settings:{type: 'uri', gtm: true}
+    };
+    faqApp.vars.language = 'pt-br';
+    </script>
+    </body>
+</html>
+
+
+
+https://support.betsson.com.br:443

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-17.apps.verygood.systems
+User-Agent: AdsBot-Google ( http://www.google.com/adsbot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:50 GMT
+Server: nginx
+Vgs-Request-Id: b21a496379cdf4b19c81506acd38e227
+Via: 1.1 reverse-http-proxy-69744fc8dc-5d7ct
+X-Envoy-Upstream-Service-Time: 3
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: b21a496379cdf4b19c81506acd38e227.
+
+
+https://certificate-provisioning-test-sandbox-17.apps.verygood.systems:443

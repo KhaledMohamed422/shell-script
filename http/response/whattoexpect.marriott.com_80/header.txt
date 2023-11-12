@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: whattoexpect.marriott.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari Line/12.6.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 151
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 17:20:21 GMT
+Expires: Tue, 07 Nov 2023 17:20:21 GMT
+Location: https://whattoexpect.marriott.com/
+Pragma: no-cache
+Request-Context: appId=cid-v1:2222bae7-6b65-488b-a7a8-8f50b5e55838
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=301
+Server-Timing: origin; dur=58
+Server-Timing: ak_p; desc="1699377620650_34824428_248232824_35975_16172_4_0_-";dur=1
+X-Frame-Options: SAMEORIGIN
+X-Trace-Id: 3a8b9378-c140-4585-a261-16fab3c556c1
+

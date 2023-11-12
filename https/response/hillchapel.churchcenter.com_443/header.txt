@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: hillchapel.churchcenter.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; AC2001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:20:40 GMT
+Location: https://churchcenter.com/missing_organization
+Referrer-Policy: strict-origin-when-cross-origin
+Server: openresty
+Set-Cookie: church_center_session=eyJhbGciOiJFUzI1NiJ9.eyJqdGkiOiI0MzRiNDM0NzFkZmQxZDgyMTM4MmQzNTFjMmI1YWE5NyIsImlhdCI6MTY5OTQyODA0MCwiZXhwIjoxNzAwNjM3NjQwLCJpc3MiOiIvcGNvL3Nlc3Npb24ifQ.vlcUhFMeLanHCbvFW_n-ITyZQcjatn3SLR1zjNZL-eb3O_MCFIWrTRc796BdZjksidmuR41CnkO6pbGwO-zqeg; path=/; expires=Wed, 22 Nov 2023 07:20:40 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Via: 1.1 44b457512f742b4e48fc7f0c87d8ed92.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gecwSHPYCm-JMw4lEG0i0gQDJOKFkcNFn_lzy4fs30m1Kwz4LZ6Pgg==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 34709723-ad18-4d02-8eae-98bb541d6816
+X-Runtime: 0.014256
+X-Xss-Protection: 1; mode=block
+
+6f

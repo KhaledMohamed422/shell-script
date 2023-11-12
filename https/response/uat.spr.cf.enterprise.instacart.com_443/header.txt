@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: uat.spr.cf.enterprise.instacart.com
+User-Agent: Mozilla/5.0 (BlackBerry; U; BlackBerry 9800; en) AppleWebKit/534.1  (KHTML, Like Gecko) Version/6.0.0.141 Mobile Safari/534.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274d8cfef3cadd-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:30:14 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=v2o.ip8ruc4qQlDtsFxVmzklx1e8jeKXbnRcFfJMDxQ-1699378214-0-AaWdwYFq0JZ35IG+3qdFkAhFOcQxPqkNIcQqawuRHgHmy2fMlC/bHmRQn7/4OTsPJoyYhjoaxdA00lyBc0+hWW4=; path=/; expires=Tue, 07-Nov-23 18:00:14 GMT; domain=.uat.spr.cf.enterprise.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 1
+
+20
+Ambassador is ready and waiting
+
+0
+
+
+
+
+https://uat.spr.cf.enterprise.instacart.com:443

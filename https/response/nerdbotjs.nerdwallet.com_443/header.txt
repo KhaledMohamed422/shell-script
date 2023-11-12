@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: nerdbotjs.nerdwallet.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822782ff1a9a8766-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Security-Policy-Report-Only: default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval';
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 18:06:43 GMT
+Etag: W/"3f-5X1zaWNIj5dCCwznHiJpsxqppsE"
+Server: cloudflare
+Set-Cookie: AWSALBTG=oyTDtI1ALvG67cxHXiSCgraD1Kj08/XQuLZsXqrPhaF+Ol6x1Q+0MIoDYPXBLj+s98vY26mxzKQM8rHc5U9EQ9t9nrRVRQfdjE1DEsO9VygiTnqn3qcC9Bk3g8XlPSnyy+29IDXuIG4/TQiBUpRVhFrEvOXUGbyDtkGkXz3Eo/9O; Expires=Tue, 14 Nov 2023 18:06:43 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=oyTDtI1ALvG67cxHXiSCgraD1Kj08/XQuLZsXqrPhaF+Ol6x1Q+0MIoDYPXBLj+s98vY26mxzKQM8rHc5U9EQ9t9nrRVRQfdjE1DEsO9VygiTnqn3qcC9Bk3g8XlPSnyy+29IDXuIG4/TQiBUpRVhFrEvOXUGbyDtkGkXz3Eo/9O; Expires=Tue, 14 Nov 2023 18:06:43 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: __cf_bm=RAEIY4OxBTYeUAn0QI3GVd2tSY08B.S48GAJoQTVmDA-1699380403-0-AUDp9RbizKRXg43UWdzsuKdwyYZUA++OqxloX9UcaTc67f3bKgnCuZrWUcgJDlZEv9FpH13kY7tZ5TPAv1sm34yuUodwNAvDnQ+/dLQ3ENRY; path=/; expires=Tue, 07-Nov-23 18:36:43 GMT; domain=.nerdwallet.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Nerd: Edge
+X-Xss-Protection: 1; mode=block;
+
+3f
+{"status":404,"message":"The requested resource was not found"}
+0
+
+
+
+
+https://nerdbotjs.nerdwallet.com:443

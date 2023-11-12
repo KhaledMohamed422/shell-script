@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: help.livestream.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b365eea37cb11-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:53:27 GMT
+Location: https://help.livestream.com/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bApvmUYWRqBCnRIrrqPhCPQSahIRE9REg1UzTrCVD%2FMf9DsAy7%2F1oUSRO2NvzR6gnKKb7Y%2BbJZD9e%2BDWCa2mk6MvkBc64IQlVCb5k5B98ZEw3iMoffcdkQBegJAeROh4G9f9Zzk%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=eUxGQThNZ1owTHBrNkdWNTRIclhrbXFnOEZXMzVPYVJLdERiR1ZCQnVzMm1qSTI3NWVFMUpocHhLYmk3YnVUa1BPZWlob3dKMGhXSGVkNnJXSVpRdlE9PS0tN2k0ZWNvcWI5TnFtNm4vSXBzMVR4UT09--9d5f765063ffb51babc7a2d07b402b8af44ffbb2; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=43f6337592bf121face16b4a53b199bc18c1a2e6-1699419207; path=/; domain=.help.livestream.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=259200;
+X-Request-Id: 822b365eea37cb11-DUS
+X-Request-Id: 822b365eea37cb11-DUS
+X-Runtime: 0.032221
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-75d55449d5-ts54x
+X-Zendesk-Processed-Host-Header: help.livestream.com
+X-Zendesk-Zorg: yes
+
+60

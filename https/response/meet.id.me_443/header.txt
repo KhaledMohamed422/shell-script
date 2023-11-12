@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: meet.id.me
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Content-Security-Policy: upgrade-insecure-requests; default-src 'self'; frame-src 'self' https://telemetryservice.firstpartyapps.oaspapps.com/telemetryservice/telemetryproxy.html https://*.microsoft.com https://*.office.com; style-src 'self' 'unsafe-inline' https://*.microsoft.com https://*.office.com; object-src 'self'; font-src 'self' https://*.microsoft.com https://*.office.com; img-src 'self' https://www.adobe.com data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.microsoft.com https://*.office.com https://ajax.aspnetcdn.com https://api.keen.io; media-src 'self' blob:; connect-src 'self' https://*.microsoft.com https://*.office.com https://example.com https://*.id.me https://*.idmeinc.net https://*.sentry.io https://*.idme.co https://api.fpjs.io https://use1.fptls.com https://use1.fptls3.com
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:29:06 GMT
+Location: https://meet.id.me/webapp2/
+Referrer-Policy: same-origin
+Server: Pexip Infinity
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+

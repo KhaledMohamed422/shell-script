@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: staging.store.nintendo.it
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://staging.store.nintendo.it/
+Refresh: 0;url=https://staging.store.nintendo.it/
+Server: Vercel
+
+Redirecting...
+
+
+http://staging.store.nintendo.it:80

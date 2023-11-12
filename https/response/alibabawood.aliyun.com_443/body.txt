@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+    <title>alibabawood</title>
+    <!-- web.vm -->
+            <link rel="stylesheet" type="text/css" href="//g.alicdn.com/alibabawood-aliyun-com/alibabawood-common/0.1.532/index.css">
+            <script>
+        function parse2Obj(input)
+        {
+            var doc = new DOMParser().parseFromString(input, "text/html");
+            var text = doc.documentElement.textContent;
+            return text && JSON.parse(text);
+        };
+        window.CONFIGS = {
+            subAccountAdminUrl: "",
+            ramAdminUrl: "https://ram.console.aliyun.com",
+            ramLoginUrl: "https://signin.aliyun.com/login.htm?callback=https%3A%2F%2Falibabawood.aliyun.com%2Flogin%2Fcallback%2Faliyun",
+            aliyunLoginUrl: "https://account.aliyun.com/login/login.html?oauth_callback=https%3A%2F%2Falibabawood.aliyun.com%2Flogin%2Fcallback%2Faliyun",
+            tbLoginUrl: "https://oauth.taobao.com/authorize?state=lb_login&response_type=code&client_id=25064201&redirect_uri=https://alibabawood.aliyun.com/login/callback/top",
+            tbAdminUrl: "http://zizhanghao.taobao.com/subaccount/index.htm",
+            bindHelpUrl:"https://gw.alicdn.com/bao/uploaded/TB1hBRUmxnaK1RjSZFBXXcW7VXa.html",
+            videoPublish:true,
+            cbuVipDetailUrl:"https://pc.1688.com/product/detail.htm?productCode=bmfOXG6xzVEI1H08OLIJ9GlwxB%2B8XseiFN7TVo0VXMo%3D&productType=GROUP",
+            alibabawoodDomain:"https://alibabawood.aliyun.com",
+            depEnv:"3"
+
+        };
+
+        window.FRONT_CONFIGS =  {};
+                        window.FRONT_CONFIGS["index_config"] = parse2Obj("{&quot;recommend_list&quot;:[{&quot;internal&quot;:true,&quot;pic&quot;:&quot;https://img.alicdn.com/tfs/TB1kngcoIKfxu4jSZPfXXb3dXXa-278-147.jpg&quot;,&quot;title&quot;:&quot;新能力之智能拼图使用教学&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;/web/UserManual?id=6000&quot;},{&quot;internal&quot;:true,&quot;pic&quot;:&quot;https://img.alicdn.com/tfs/TB1OYOtreL2gK0jSZPhXXahvXXa-558-294.jpg&quot;,&quot;title&quot;:&quot;编辑器功能使用教学&quot;,&quot;type&quot;:&quot;image&quot;,&quot;url&quot;:&quot;/web/UserManual?id=4000-4006&quot;}]}");
+            
+                window.CURRENT_USER = (function (input)
+        {
+            // DOMParser is supported on IE10+, Chrome30+, FF12+, Safari7+, Edge
+            var doc = new DOMParser().parseFromString(input, "text/html");
+            var text = doc.documentElement.textContent;
+            return text && JSON.parse(text);
+        })("null");
+            </script>
+    <script type="text/javascript" src="https://alinw.alicdn.com/platform/c/jquery/1.11.3/dist/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="https://img.alicdn.com/tfs/TB1c2AmiYPpK1RjSZFFXXa5PpXa-48-48.png">
+</head>
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&trid=0a032a1316994365065484095e3b4c&asid=AQAAAADaV0tl46ZvBAAAAAAhskVST+XssA==",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+
+    <div id="app"></div>
+        <script src="//g.alicdn.com/alibabawood-aliyun-com/alibabawood-common/0.1.532/index.js"></script>
+        <script src="//g.alicdn.com/alilog/mlog/aplus_int.js"></script>
+        <script src="//g.alicdn.com/axdata/yunlog/yunlog.js"></script>
+    </body>
+</html>
+
+0
+
+
+
+
+https://alibabawood.aliyun.com:443

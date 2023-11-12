@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: result4-ireland.cdn.magisto.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:22:40 GMT
+Server: AmazonS3
+Via: 1.1 c6b364b1181abfafd7a69f210841edca.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: P-IFBQZVo2H1S1NhcCKRCyRtAZfAHd7ECrfegpDQG9_vv1Ot_7OzZA==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4CCPW3W2338WNE95</RequestId><HostId>3/K/NYMgKGrcModv50VualuTswB42pwRnOhseQkIO+dag8o2ucMUGW+nho9OvFtCPYkleP/VGEo=</HostId></Error>
+0
+
+
+
+
+http://result4-ireland.cdn.magisto.com:80

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: realtime.pa.highwebmedia.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 111
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 19:19:43 GMT
+Via: 1.1 191dcfd852a6f06df8cf0ecc80b99d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: g9_r6Txa62Jc1HL4jVIwhSMLWzxu0lciAVPAEgg9q5L7Cd6onAcNUw==
+X-Amz-Cf-Pop: DUS51-P2
+X-Cache: Error from cloudfront
+
+{"message":"Invalid WebSocket Request","href":"https://help.ably.io/error/40000","code":40000,"statusCode":400}
+
+
+http://realtime.pa.highwebmedia.com:80

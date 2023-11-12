@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dl-ind-sandbox.freefiremobile.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:20.0) Gecko/20100101 Firefox/20.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 300
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0
+Cache-Control: public, max-age=3600
+Content-Type: application/xml; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:08:48 GMT
+Expires: Tue, 07 Nov 2023 19:08:48 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPo2YRuPwqz0utOnf6diUi1jmFmaXUmqK3qBLidhoZJFswkthidb1iw_bQKvwNHF2ZZS5Ho
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>Anonymous caller does not have storage.objects.list access to the Google Cloud Storage bucket. Permission 'storage.objects.list' denied on resource (or it may not exist).</Details></Error>
+
+
+http://dl-ind-sandbox.freefiremobile.com:80

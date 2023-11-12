@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: api-staging.8x8.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G781U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+8x8env: staging-us-west-2-and-us-east-1
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228a8b8ff6b7a54-DUS
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 21:27:14 GMT
+Forwarded: host=api-staging.8x8.com
+Server: cloudflare
+Set-Cookie: __cf_bm=TlKrc5OUSZYaZV3KZyOIn4D9SLvZmfyHq0jROLIRtHg-1699392434-0-ARL+Zug0B48MERXsvnpE2uC0WKZsEpHvnESXnN1XHP55HD9uWZDp0R3NTfsq+hAwRqwaC8PhdWZH0GzzeyQSy50=; path=/; expires=Tue, 07-Nov-23 21:57:14 GMT; domain=.8x8.com; HttpOnly; Secure; SameSite=None
+X-Kong-Response-Latency: 0
+
+34
+{
+  "message":"no Route matched with those values"
+}
+0
+
+
+
+
+https://api-staging.8x8.com:443

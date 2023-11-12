@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ns0110.secondary.cloudflare.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G990E) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/17.0 Chrome/96.0.4664.104 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e9a5fd601632-DUS
+Date: Tue, 07 Nov 2023 19:16:47 GMT
+Expires: Tue, 07 Nov 2023 20:16:47 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=U9chIeMnA4tDeaF9cI4mzFflMerMBTYNijSGCBLEMgIqYbiFtd5jxvynlcimrQvWI%2BN92x5%2F74NEh%2FpjPYaBxsYtas%2FF5v%2FUct3xFrGh6uQBTwRmCle13154Uy3F14G3fQvV1GYRkWuhSElCI8U5D4g%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://ns0110.secondary.cloudflare.com:443

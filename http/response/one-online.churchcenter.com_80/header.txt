@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: one-online.churchcenter.com
+User-Agent: Python-urllib/2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:41:40 GMT
+Location: https://one-online.churchcenter.com/
+Server: CloudFront
+Via: 1.1 985c0b2ec44bdebc7f24f26d1e427d30.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Q3BWDdINPZp2sLLrWrHgeyYyPRPMEWvtFMq2R3KuebRNJX7iXO8sXg==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Redirect from cloudfront
+

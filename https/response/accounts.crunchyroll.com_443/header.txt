@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: accounts.crunchyroll.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 32
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e4dc6eff7a4c-DUS
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:13:31 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=DqnTUBi.tMeYnpey7f.1q43CN4.qo9i0eDPMQaSWpUI-1699384411-0-AWh1BVLst+ff3iPciGHS3OEJsLCgYIrrSlBsvDF1fPPaPCaLDC3nFQKfVxNkkvDx/i8/cuMC1Y3GXBG8JZzttS2z2U5c8G+TepsKGKkUFlPQ; path=/; expires=Tue, 07-Nov-23 19:43:31 GMT; domain=.crunchyroll.com; HttpOnly; Secure; SameSite=None
+Via: 1.1 6750d77433312fa1bf305e9ae7af80ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NpzB0gMvfgdX_ATztlg4fvQJBNxbAdVm-Rleiy0nGuJCQazcVO0Kdw==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Error from cloudfront
+
+119
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>index.html</Key><RequestId>JAGA04DJQB0R71N4</RequestId><HostId>sLUWlHDO8vVzdpR3BlVvIyh0TDkpx/ZSMnjx06bn4O7FYzb2y71b5qEzUMdjL+L9XldkoEMWRl8=</HostId></Error>
+0
+
+
+
+
+https://accounts.crunchyroll.com:443

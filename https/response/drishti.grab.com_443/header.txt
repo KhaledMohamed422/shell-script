@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: drishti.grab.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Ubuntu/10.10 Chromium/12.0.703.0 Chrome/12.0.703.0 Safari/534.24
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 5
+Cache-Control: no-cache,no-store,must-revalidate
+Content-Security-Policy: default-src 'self'; connect-src 'self' https://api.grab.com https://*.cloudfront.net https://prd-galaxy-assets.s3.ap-southeast-1.amazonaws.com https://d3nk6pcgpmbqy2.azureedge.net; img-src 'self' https://*.cloudfront.net https://prd-galaxy-assets.s3.ap-southeast-1.amazonaws.com https://d3nk6pcgpmbqy2.azureedge.net https://cdn.jsdelivr.net/gh/ https://twemoji.maxcdn.com/; script-src 'self'; media-src 'self' https://*.cloudfront.net https://prd-galaxy-assets.s3.ap-southeast-1.amazonaws.com https://d3nk6pcgpmbqy2.azureedge.net https://cdn.jsdelivr.net/gh/ https://twemoji.maxcdn.com/; frame-src 'self' https://*.cloudfront.net https://prd-galaxy-assets.s3.ap-southeast-1.amazonaws.com https://d3nk6pcgpmbqy2.azureedge.net; style-src 'self' 'unsafe-hashes' 'unsafe-inline' https://*.googleapis.com https://*.google.com; font-src 'self' https://at.alicdn.com https://fonts.gstatic.com; worker-src 'self' blob:
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:24:05 GMT
+Etag: W/"e50d67ed839175f24128108faf5ee14d"
+Last-Modified: Wed, 11 Oct 2023 08:47:22 GMT
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubDomain
+Vary: Accept-Encoding
+Via: 1.1 ffde4ac468ae53bebcf62edbe5888ab6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6YH5kBoadFHAT03oUUfv-hKaTj3A1vLobaak3JdViZBZ4cygfcv7xw==
+X-Amz-Cf-Pop: AMS58-P5
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+X-Frame-Options: DENY
+
+61b

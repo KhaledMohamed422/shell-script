@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: api-service.shein.com
+User-Agent: Mozilla/5.0 (X11; Linux 3.8-6.dmz.1-liquorix-686) KHTML/4.8.4 (like Gecko) Konqueror/4.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8230340aa81bfb5c-DUS
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:25:40 GMT
+Origin: origin-eur.shein.com
+Server: cloudflare
+Set-Cookie: __cf_bm=63dn2Wn_W7.E0jejYuHa7v0EMLeeG3q2yml4DFUSYGE-1699471540-0-AQyxZkJuC9L8WFs7n5riS6ROMRPQMuuOqjxWyuwWLZmWb70r90e7M0fo5FvU+cWnj+uHLuSicmZ+dfZigSX1L4I=; path=/; expires=Wed, 08-Nov-23 19:55:40 GMT; domain=.shein.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=2cKW3z3A2xyEW8rh7jUWRlzXMRGjAgjxRGx1gdqYMQs-1699471540946-0-604800000; path=/; domain=.shein.com; HttpOnly; Secure; SameSite=None
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+Via: 1.1 google
+Via-Shein-Gateway: c-shein-app-java
+X-Terminal-Config: 1_ttttest_6_953
+
+47
+{"timestamp":1699471540941,"status":404,"error":"Not Found","path":"/"}
+0
+
+
+
+
+https://api-service.shein.com:443

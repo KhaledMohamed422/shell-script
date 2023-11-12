@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: betcalculator.paddypower.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ba573d33caf5-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:44:29 GMT
+Expires: Tue, 07 Nov 2023 18:44:44 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zx4rDIRG9pXoQ4thJxe9gCX1V%2BW8pjqGEk4BnWPhHJSQ%2BqPmzUWtcii0maKNt%2BRTzAvVKjM%2BZl%2F7Q5fR6QD0ZofLTkfbdgYpZvjwtnaE%2Fb%2F4ptd%2FKFUS%2FpclubR8d%2BXiMtywA7V71nODe%2FwFU4tdJTg33g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=aDxfr3skI1O48r0eEAs185bUgu44rlbEep3lRiSoyIY-1699382669-0-AYy4UBuqXDvkXcUNRD+FNzAsJLXM7RbdUAWB3+Ll2Y2X431PrMsA+LFo3URwKqXPCBJngalRy3zxB9MJbQGuGKE=; path=/; expires=Tue, 07-Nov-23 19:14:29 GMT; domain=.paddypower.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: jaas-public-keys.jitsi.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 21:24:15 GMT
+Server: AmazonS3
+Via: 1.1 2a6277094357eb47f8dbeacb06ed96c2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: MjWoWFsdIvWTrfDvbJwPXmZ7bYlNALbIZqlBTSOZMRLlZK47AKchsg==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>35MS9B1E3436NKR4</RequestId><HostId>cindOtlsLio7B74cMK+6Zz5H9ZBTHvfaekNfPiyuEWsp+RnpsccnDRpbLUYsXJ00mwCgCN8Stls=</HostId></Error>
+0
+
+
+
+
+http://jaas-public-keys.jitsi.net:80

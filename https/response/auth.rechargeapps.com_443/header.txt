@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: auth.rechargeapps.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/0.14.6 Chrome/100.0.4896.75 Electron/18.0.4 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 47
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822741ec9d1f7a4e-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:22:17 GMT
+Location: https://rechargeapps.com/
+Ot-Baggage-Auth0-Request-Id: 822741ec9d1f7a4e
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 494162974df9ffc3
+Ot-Tracer-Traceid: 4b79decd49ce6727
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Traceparent: 00-00000000000000004b79decd49ce6727-494162974df9ffc3-01
+Tracestate: auth0-request-id=822741ec9d1f7a4e,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: 5a643ff742bb922d053f
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://rechargeapps.com/
+
+
+https://auth.rechargeapps.com:443

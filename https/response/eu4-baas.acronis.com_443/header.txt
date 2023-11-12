@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: eu4-baas.acronis.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.0; Series80/2.0 Nokia9500/4.51 Profile/MIDP-2.0 Configuration/CLDC-1.1)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: ETag,Content-Length,Content-Type,Retry-After
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:18:38 GMT
+Front-End-Https: on
+Location: /login
+P3p: CP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"
+Server: nginx
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Int-Request-Id: Hu5FtHkUqFrhH87qz2ky6f
+X-Request-Id: 61e32e6d0ab520f793583ed058622e15
+Content-Length: 0
+
+
+
+
+https://eu4-baas.acronis.com:443

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: prod-api.154310543964.hellopublic.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 915
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:23:26 GMT
+Server: CloudFront
+Via: 1.1 d7e55181ad8192e74c103c6003cd4d9c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: f3aszBpbbZtcSm-FzBxAxWkCnCN983pQGeYrgPMQlLmMuGe9mDMVEA==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: consumer-api.moonpay.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 21
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822ce601dde1160d-DUS
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 09:48:07 GMT
+Etag: W/"15-5KajTCx0AJD0xogoSeOjjV2M8K0"
+Server: cloudflare
+Set-Cookie: __cf_bm=S0fw9cO.D0YM17bl1zThFE6MGPakGAzPjhFBqw7Y6l4-1699436887-0-AQPgthFiXdtX9hztF/+8d6ie41L4BIZAdTZWP90yzgZGx0X5HiFvsFKAS835u4KzgLAsM5IpHfXLCGoApggdx/s=; path=/; expires=Wed, 08-Nov-23 10:18:07 GMT; domain=.moonpay.com; HttpOnly; Secure; SameSite=None
+Via: 1.1 google
+X-Powered-By: Express
+
+{"error":"Not Found"}
+
+
+https://consumer-api.moonpay.com:443

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .internal-error {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E5E5;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .internal-error__card {
+    flex-direction: column;
+    align-items: center;
+    height: 532px;
+    width: 458px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(146, 151, 155, .15);
+    border-radius: 6px;
+  }
+
+  .internal-error__logo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .internal-error__content {
+    width: 296px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 80px;
+  }
+
+  .text {
+    font-family: 'Roboto', serif;
+    margin: 0;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .font-20 {
+    font-size: 20px;
+  }
+
+  .font-16 {
+    font-size: 14px;
+  }
+
+  .font-14 {
+    font-size: 14px;
+  }
+
+  .font-black {
+    color: #36393A;
+  }
+
+  .font-gray {
+    color: #62676A;
+  }
+
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .margin-bottom-20 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<head>
+  <title>Cloudflare Proxy Error</title>
+</head>
+
+<body>
+  <div class="internal-error flex">
+    <div class="internal-error__card flex">
+      <div class="internal-error__logo flex">
+        Cloudflare
+      </div>
+      <p class="flex text font-black font-20 margin-bottom-20">Forbidden</p>
+      <p class="flex text font-black font-bold font-20 margin-bottom-20">HTTP Response Code: 403</p>
+      <p class="flex text font-16 font-gray">1c4cce427e0000876a17cd6400000001</p>
+      <p class="flex text font-16 font-gray">2023-11-07 19:14:30.142909750 UTC</p>
+    </div>
+</body>
+
+</html>
+
+
+https://cp5.cloudflare.com:443

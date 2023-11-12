@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api-au.betfair.com
+User-Agent: Mozilla/5.0 (Maemo; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b6ec0da4cb11-DUS
+Date: Tue, 07 Nov 2023 18:42:09 GMT
+Expires: Tue, 07 Nov 2023 19:42:09 GMT
+Location: https://api-au.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=341%2F1m6QgFBgqP7DDZdm4cs%2FkJBIE6wKNR5pG3m9DfbOlu9gtX7ObCo9cQg32lCB3ejUB2meVo1ShbhsqCMajFcsklD0T2ZePAxDRFdjxIG0lzveBIhUNkXeTZL3tzBHYDJ8KQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://api-au.betfair.com:80

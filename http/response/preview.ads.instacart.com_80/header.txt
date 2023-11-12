@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: preview.ads.instacart.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273d1b7de57a54-DUS
+Date: Tue, 07 Nov 2023 17:19:00 GMT
+Expires: Tue, 07 Nov 2023 18:19:00 GMT
+Location: https://preview.ads.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WlJmQeK0uJHM43oAamEUjAW6pbNuT7jBqViU9iTo%2FzGyejvIoXyZVDaXVDZ%2BmGwS%2BlzDnXqHc0ayIM4CTFBH1dVhCU3R1scITX3jCfDeQ%2B%2FV38HwFm7StlaxFKo48Z4F7mIt%2B4rBxV%2B9u1o%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=6uX5XT5pxwWHuM3.eG7w.Nj6UbzrLaY29mhIf9UjV_g-1699377540-0-AfNjMRE77GwRu+on/3od+Fq00hJATEIBRSz+FnD0PY/54yZYVLC9Mxar7nwBIvQ4dAYcSRdTbkYjjo7bTAqIWcM=; path=/; expires=Tue, 07-Nov-23 17:49:00 GMT; domain=.preview.ads.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://preview.ads.instacart.com:80

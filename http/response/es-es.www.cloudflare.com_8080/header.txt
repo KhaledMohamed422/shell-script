@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: es-es.www.cloudflare.com:8080
+User-Agent: libwww-perl/5.820
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227de5169457a5a-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 19:09:03 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JHXbybqeCq7KWHFndQN1%2FzILTC9I5GagKQvS%2BU8w70oBUzuyVMgBNPC2Bjyz8oZ5d%2Fvukl8gVSya%2BjKqRo1gPuVKQeMLJBIILKIdNtMcfchbl0Zaahq3BJ4EhaCeBkTLvntyRQrY1WxrOHPbO0DG"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=y.ErkvIEMIjp7K5nIPoiKQYZ19WtvL8yS_reRIIDroo-1699384143-0-AZlEFltyYj+EVO+SjLS45K2Zjd9YKKko9//3UF7qLezELKR2aKwwg8LbbEQ0xWvsRV8KW30+6NYqqAM7UmbqtyUMfgJEkQFjMTM0nWx1ldUX; path=/; expires=Tue, 07-Nov-23 19:39:03 GMT; domain=.www.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1010
+
+
+http://es-es.www.cloudflare.com:8080

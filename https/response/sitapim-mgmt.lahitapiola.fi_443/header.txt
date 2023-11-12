@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: sitapim-mgmt.lahitapiola.fi
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.866 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 585
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:29:26 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+
+{"error":{"code":"MissingOrIncorrectVersionParameter","message":"API version query parameter is not specified or was specified incorrectly.  Supported versions: 2014-02-14-preview,2014-02-14,2015-09-15,2016-07-07,2016-10-10,2017-03-01,2018-01-01,2018-06-01-preview,2019-01-01,2019-12-01-preview,2019-12-01,2020-06-01-preview,2020-12-01,2021-01-01-preview,2021-04-01-preview,2021-08-01,2021-12-01-preview,2022-04-01-preview,2022-08-01,2022-09-01-preview,2023-03-01-preview,2023-05-01-preview,2023-09-01-preview  Example query param format: api-version=SupportedVersion","details":null}}
+
+
+https://sitapim-mgmt.lahitapiola.fi:443

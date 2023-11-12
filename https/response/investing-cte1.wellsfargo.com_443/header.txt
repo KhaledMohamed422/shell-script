@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: investing-cte1.wellsfargo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 257
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:32:52 GMT
+Location: https://qa-connect.secure.evetest.wellsfargo.com:23612/auth/login/present
+Set-Cookie: wfa-c-bw-web-v-00_1bw_48544_infra_2=261724055.41149.0000; path=/; Httponly; Secure
+Set-Cookie: TS01f546c5=01e03094dae0dcc5d16f8fee86efb4124ac7622f512c75281210826b521e6edfd92b6219207a35b37acd0c9022f496838b8ab080e7ecac663b282c70ef728a2776db87bc4e; Path=/
+Set-Cookie: wfadvisors-cte1_1bw_443_infra_1=!87BxGQOdDYLPJISixKyu7lNDQuio6y4Ai38czLtXRkDLnWy+Kb9Tqfx0XQsJnSmY05e+jklabiEIe2Q=; path=/; Httponly; Secure
+

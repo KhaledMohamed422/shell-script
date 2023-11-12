@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: shootme.vhx.tv
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b44ca3f981536-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:03:18 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+P3p: CP="ALL DSP COR CURa ADMa DEVa OUR IND COM NAV"
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699419798&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=SMU0DTLZ4tbhPLkJcYknewjaI43unvxK0fKzmsj5qLU%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699419798&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=SMU0DTLZ4tbhPLkJcYknewjaI43unvxK0fKzmsj5qLU%3D
+Server: cloudflare
+Set-Cookie: _session=b05iTnVFRzJBcDFodzVLMHlzK0ROc2Z4c1gyb1BkZUpoTW05d1g3bUNZc2VPblBQMHY0NWVvT1ZhTnpURFdYR3JDbDd4dHNQYTBaZzd3UHl6Z3JTd2FnUEh2cEtZTjJmVTNIUkFnM2pXYVN4NEZIOCtNdTBRUmpBN0FGV05KaUoxM05VWTkvOFYzZzJ6UnBVZUlZS2xqaFIzTVVpVjhJQ09rMlVnVWIvaXBuMTA1TW45L1pBZFVMRlJaSnN5STNjLS1ZN2pQelEzelpvR2h6UFFZN3VLQnlRPT0%3D--ffb6ce2094ef38cb5a3338b9a27ef75a29710206; domain=.vhx.tv; path=/; expires=Fri, 08 Nov 2024 05:03:18 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: __cf_bm=RUe1TlSTqUopWWW.P4a0Zxe.KykWzcOFUcA51HP_nkw-1699419798-0-AfHm1maKjYTI6e3bYWzu89m9BCyjm9XyRxL89EEkZ7hDYLxiI/my7hl22ut3Na/ViBHDYy8BeYvDzTOnkDiGrtw=; path=/; expires=Wed, 08-Nov-23 05:33:18 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 200 OK
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: 7eea8db1-db4f-448e-bcc7-1f15c733c64f
+X-Runtime: 0.241819
+X-Xss-Protection: 1; mode=block
+
+19b55

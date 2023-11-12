@@ -1,0 +1,39 @@
+GET / HTTP/1.1
+Host: geo.datav.aliyun.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; HWI-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 373
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699437259
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:54:19 GMT
+Eagleid: a3b55c9516994372590448084e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[818,817,403-1280,M], cache25.l2de2[819,0], ens-cache15.de5[823,824,403-1280,M], ens-cache1.de5[827,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B5ACB565BBE3839DA69CE
+X-Oss-Server-Time: 1
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:54:19 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B5ACB565BBE3839DA69CE</RequestId>
+  <HostId>datavmap-public.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://geo.datav.aliyun.com:443

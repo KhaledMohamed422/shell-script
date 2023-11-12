@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: auth.kit.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.91 Safari/537.36 Vivaldi/1.92.917.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8248e66e3e612163-DUS
+Date: Sat, 11 Nov 2023 19:21:45 GMT
+Expires: Sat, 11 Nov 2023 20:21:45 GMT
+Location: https://auth.kit.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://auth.kit.com:8080

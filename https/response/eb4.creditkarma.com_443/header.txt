@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: eb4.creditkarma.com
+User-Agent: Opera/9.80 (Android; Opera Mini/7.5.33361/31.1543; U; en) Presto/2.8.119 Version/11.1010
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 170
+Cache-Control: private, must-revalidate, post-check=0, pre-check=0
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:17:55 GMT
+Expires: 0
+Pragma: private
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block;
+
+<script LANGUAGE=JavaScript>
+window.location="/global-protect/login.esp"; 
+</script>

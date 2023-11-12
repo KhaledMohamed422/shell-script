@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: new-leaf.pbis-cf.instacart.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82273c795938717b-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:18:34 GMT
+Expires: Tue, 07 Nov 2023 17:18:49 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=0oUx0ef3vv9yq9iHxZ85KzAwc7DOF7lqBUVb_wFZO4o-1699377514-0-AVZehqxm24IPgXx5tGQ/tdQl+f+rlhbeO4cO9jH9/TQYqzKF/qE4kcPZbc4e+tPuLMCUm0URiYK1iq6RsgB0fZc=; path=/; expires=Tue, 07-Nov-23 17:48:34 GMT; domain=.new-leaf.pbis-cf.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11b6

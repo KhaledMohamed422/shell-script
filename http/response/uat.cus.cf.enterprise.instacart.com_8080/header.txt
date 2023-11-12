@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: uat.cus.cf.enterprise.instacart.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273ebc2f897166-DUS
+Date: Tue, 07 Nov 2023 17:20:07 GMT
+Expires: Tue, 07 Nov 2023 18:20:07 GMT
+Location: https://uat.cus.cf.enterprise.instacart.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=D0RBMmpeWIWrzcOHX.tx8WxZnrLuAIlclh9AnFM8czc-1699377607-0-Acr2BJXtoqBXZwdAzVtKJPwgOY7kbARIpGgT1fHUwtlDlHhLgg4roUO10r4otNCHAc7Qqr/bbP7q77PgzMehl8k=; path=/; expires=Tue, 07-Nov-23 17:50:07 GMT; domain=.uat.cus.cf.enterprise.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://uat.cus.cf.enterprise.instacart.com:8080

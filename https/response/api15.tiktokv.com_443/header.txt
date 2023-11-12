@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: api15.tiktokv.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:18 GMT
+Expires: Wed, 08 Nov 2023 18:43:18 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=245, origin; dur=4
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 79272ab9b399ee696b329d4f677dca48.cloudfront.net (CloudFront)
+X-Akamai-Request-Id: 11d8487d.2f28d62
+X-Amz-Cf-Id: n8oBGTLusrBWBClcvaOyBhGSge6qthzv4w25J3KHpHPm_VQX23m5hA==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+X-Cache-Remote: TCP_MISS from a23-75-21-24.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 4,23.75.21.24
+X-Parent-Response-Time: 246,23.36.160.84
+X-Tt-Logid: 20231108184317CB9F018D92CF7825E647
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5abd731c0c1fee1e5e3a8e5ef9f4feaf298c9fb1c1c9e241d1ca7e4bc64fa3b207ebef7da0fdf344d70396f4b6549aec527902e549dc29bef2e64d7165a0a345e5e9c5b80d29cbd65be84414a978367c75
+X-Tt-Trace-Id: 00-231108184317CB9F018D92CF7825E647-686A1C5E1C555FE1-00
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: checkout1.iherb.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bdbf958ad1627-DUS
+Date: Wed, 08 Nov 2023 06:46:30 GMT
+Expires: Wed, 08 Nov 2023 07:46:30 GMT
+Location: https://checkout1.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=9UO3ooNXQ0utrVepx26I9Z2sdgycDJo2MhdRXRfAmdY-1699425990-0-AVnl+aBVoozUWNNlftVeBZCbiBIZtEI+vlavoH0ao0gM9bDxvu8EwRmwfVshaQxRI67dJFXB8d5NFOHOJL7jDWGk6eBf7gjx07268vE6ziRk; path=/; expires=Wed, 08-Nov-23 07:16:30 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=b2f112e93d07524b3f2ac4dde9b33609218df34c-1699425990; path=/; domain=.iherb.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://checkout1.iherb.com:80

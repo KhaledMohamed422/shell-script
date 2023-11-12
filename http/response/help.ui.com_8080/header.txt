@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.ui.com:8080
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; de) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822afd159f81cb2f-DUS
+Date: Wed, 08 Nov 2023 04:14:21 GMT
+Expires: Wed, 08 Nov 2023 05:14:21 GMT
+Location: https://help.ui.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ouhu7plQngzPj4fBWucf0ZhWJamQxe19Q2yEURgflIu4oZqEiV0wBDmlIopdEDlMprlyWAV2eh0HS32U01tdCvDFwh63SOcuYsgW2PcJ%2BplPytoTKU1%2BIG3WeJW95GwZpNY%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=74e2d2438c01272a2ed6f043c70a7dc3dfc8a1fd-1699416861; path=/; domain=.help.ui.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help.ui.com:8080

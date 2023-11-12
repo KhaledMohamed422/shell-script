@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: media.newegg.com
+User-Agent: Mozilla/5.0 (iPhone; CPU OS 13_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/28.0  Mobile/15E148 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Access-Control-Allow-Origin: apis.newegg.com
+Cache-Control: private
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.newegg.com http://*.newegg.com http://*.neweggimages.com https://ssl.google-analytics.com https://unpkg.com/swiper/swiper-bundle.min.js https://cdnjs.cloudflare.com https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' https://media.newegg.com http://media.newegg.com https://fonts.googleapis.com http://fonts.googleapis.com https://unpkg.com/swiper/swiper-bundle.min.css; object-src 'none'; base-uri 'self'; connect-src 'self' https://*.newegg.com; font-src 'self' https://media.newegg.com http://media.newegg.com https://fonts.gstatic.com data:; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; img-src 'self' http://*.newegg.com https://media.newegg.com https://*.newegg.com http://media.newegg.com https://ssl.google-analytics.com http://*.gravatar.com https://ps.w.org data:; manifest-src 'self'; media-src 'self'; worker-src 'none';
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:34:45 GMT
+Set-Cookie: NVTC=248326808.0001.224ae5b87.1699472078.1699472078.1699472078.1; Expires=Sat, 07-Nov-26 19:34:45 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NID=722Q1j8O2Q0M0M4M9D; Expires=Sat, 07-Nov-26 19:34:45 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NV_NVTCTIMESTAMP=1699472079; Expires=Sat, 07-Nov-26 19:34:45 GMT; Domain=newegg.com; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Device: mobile
+X-Frame-Options: SAMEORIGIN
+X-Served-By: 40001
+X-Ver: 10221901
+X-Xss-Protection: 1; report=https://pf.newegg.com/csp?source=xss
+

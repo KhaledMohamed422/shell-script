@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: story-assets.ue1.stg1.tstaging.com
+User-Agent: Mozilla/5.0 (Linux; Android 5.1; C6740N Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 18:46:34 GMT
+Server: CloudFront
+Via: 1.1 e7377cc861b31102786678df3616bf68.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CswdoQap_7egESsM8ZRau3LYsYd6vAR6uXv0e1jwamx5l9F7JrxP4w==
+X-Amz-Cf-Pop: FRA53-C1
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://story-assets.ue1.stg1.tstaging.com:443

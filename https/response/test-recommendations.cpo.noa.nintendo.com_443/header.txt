@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: test-recommendations.cpo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.11) Gecko/2009060309 Ubuntu/9.10 (karmic) Firefox/3.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:41:17 GMT
+X-Amz-Apigw-Id: OGCepG_gSK4EAsw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: f06c0601-d057-4d06-b94a-a273cd6a8c6a
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://test-recommendations.cpo.noa.nintendo.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: hub-use.browserstack.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Mi 9 SE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 07:21:13 GMT
+Server: nginx
+Source-From: 01
+
+27
+{"value":{"message":"Invalid Command"}}
+0
+
+
+
+
+https://hub-use.browserstack.com:443

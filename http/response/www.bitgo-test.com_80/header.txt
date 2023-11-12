@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: www.bitgo-test.com
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 630) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227cbb4ec507a5b-DUS
+Content-Security-Policy: connect-src 'self' wss://app.bitgo-dev.com bitgo.com openpgpkey.bitgo.com *.bitgo-dev.com *.google-analytics.com *.analytics.google.com *.googletagmanager.com *.stripe.com *.hsforms.com fonts.googleapis.com https://cdn.linkedin.oribi.io https://px.ads.linkedin.com *.g.doubleclick.net; font-src 'self'; frame-ancestors 'self'; frame-src *.stripe.com withpersona.com *.googletagmanager.com *.google.com; img-src 'self' data: *.bitgo-test.com *.bitgo.com images.ctfassets.net *.google-analytics.com *.googletagmanager.com *.hubspot.com *.google.co.in *.google.com https://googleads.g.doubleclick.net; object-src 'none'; script-src 'self' 'sha256-/JheBQo8zngg+5vHRIX/QNvr1ByByfgi9QCQnAbks6c=' 'sha256-v1oYH69RcooFs6F5XhMTzHiWlftYwnuQHDxIz0suNeo=' 'sha256-Jr+UYZNi4mC3eaOrVHrSWKrnFJsbd2Z2H6kC8y1KnPc=' 'sha256-gfxaZBtLG6iJhfVf6Dp9ppzDuR7XyfVLGuHv1QCDSbw=' 'sha256-5VrVgGfPbUH5IoPb+tGodpswZad/XDHQfqHeVD0LMG4=' 'sha256-f4b7rBPvi31A16IdFzFJ0WLjQhPQTVnBawkEVn1oJ8w=' 'sha256-HOOdAB25XoL5GyreygJQ8OZ7hg5xF60xZIgtJS0rt+s=' 'sha256-NMfoNGOY8cJIkH8JBZOZ+/t2PXUfgxzx565/Lsi53pU=' 'wasm-unsafe-eval' *.googletagmanager.com *.stripe.com *.google-analytics.com *.bitgo-dev.com *.hs-scripts.com *.gstatic.com *.google.com *.google.co.in *.googleadservices.com *.licdn.com *.cookielaw.org *.hs-analytics.net *.hs-banner.com; style-src 'self' 'unsafe-inline'; worker-src 'self' blob;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:56:21 GMT
+Location: https://www.bitgo-test.com
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block; report=/xss/report
+

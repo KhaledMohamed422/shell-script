@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www-ng-stg.nintendo.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) GSA/8.0.57838 Mobile/12H321 Safari/600.1.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 425
+Accept-Ranges: bytes
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:46:39 GMT
+Retry-After: 0
+Server: Varnish
+Strict-Transport-Security: max-age=300
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-fra-etou8220095-FRA
+X-Timer: S1699472799.003954,VS0,VE1
+
+
+<?xml version="1.0" encoding="utf-8"?>

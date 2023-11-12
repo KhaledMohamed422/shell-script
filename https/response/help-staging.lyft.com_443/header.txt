@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: help-staging.lyft.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi Note 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.101 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Date: Tue, 07 Nov 2023 22:03:15 GMT
+Location: hc/en-us
+Server: envoy-iad
+Set-Cookie: sessId=f6e8f60b-5fa4-4ed0-8a64-60ef18dc371fL1699394595; Domain=.lyft.com; Path=/; Expires=Sun, 05 Nov 2028 22:03:15 GMT; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Envoy-Upstream-Service-Time: 11
+X-Frame-Options: DENY
+X-Request-Id: a222e011-c6c7-4f13-9168-07c3a93bdfc9
+
+0
+
+
+
+
+https://help-staging.lyft.com:443

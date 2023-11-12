@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: se-qa1.bingo.com
+User-Agent: Lynx/2.8.7dev.4 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.8d
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 190
+Content-Security-Policy: default-src 'unsafe-inline' 'unsafe-eval' http: https: data: wss: blob: jockey: unibetpro: *;
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:28:48 GMT
+Server: kindred-loadbalancer
+Strict-Transport-Security: max-age=63072000; preload
+X-Browser-Class: M
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ooops-Debug: /500-pages/se.bingo.com/index.html
+X-Os-Class: M
+X-Xss-Protection: 1; mode=block
+

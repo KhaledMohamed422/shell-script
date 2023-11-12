@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: i8.reddit.com
+User-Agent: Links/0.9.1 (Linux 2.4.24; i386;)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:28:40 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf4np0ylm.2.1699388920145.Z0FBQUFBQmxTcDM0Y09LVVh2Q2t0Z0F2Smk3bFdjbVNMMUtVSmpZbjE1Y0VQbVZMZWsxQW15NHJLdUlvcHZUX2VJb2R6RVN1Q3lISERxSXVqdkF5RkxObmNjUzRGNldydVFjdV9UdEN0TkhxdE5hZmFIVzV3Q0VkbVhSSFFmREhQalhKM1pEcy16ZWU; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:28:40 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=emercnqhimeiijobcc.0.1699388920147.Z0FBQUFBQmxTcDM0YVYwVHp0WXdtU1BZQTRhQlpvWlB3bEJqcm0zMEgweXJtN1JqWDYxdDBQN0dTVU5ZMEF3UTRqSnFLSTNMRUt4VmdlNk9WY2tPa0xaT2dZcmF6a0xMSHQ1SUtfTXNoVEZ4OWxON2RkcWVBdkV1WVBudzI5aW5ibXE0TnNueUY4MEo; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:28:40 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=Lgr51j3XNTLXY4DSEA; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

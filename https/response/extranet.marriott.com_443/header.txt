@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: extranet.marriott.com
+User-Agent: Mozilla/5.0 (Linux; arm; Android 10; HRY-LX1T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 YaBrowser/22.3.1.87.00 SA/3 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Akamai-Grn: 0.9da72917.1699377989.96080d6
+Cache-Control: no-cache
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:26:30 GMT
+P3p: CP="NON CUR OTPi OUR NOR UNI"
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=201
+Server-Timing: origin; dur=37
+Server-Timing: ak_p; desc="1699377989896_388605853_157319382_23766_7579_4_10_-";dur=1
+Set-Cookie: PD-S-SESSION-ID=hYFcfR1dDb3hhaR35844PQ==:1_2_0_w2kdksYVc47A0p1dATaWFLemSQ4Lo5S4Mfw9rKcBVmZEJI0i|; Domain=.marriott.com; Path=/; Secure
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 1129 0 pmb=mNONE,1mRUM,2
+

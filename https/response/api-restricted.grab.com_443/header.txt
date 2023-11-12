@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: api-restricted.grab.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1729) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:17:31 GMT
+Server: CloudFront
+Via: 1.1 ff2bcb2d3b4a3d9e0615ddd1033c38c4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: c1n_TxAwx3Dr1q4Pb75BbMhe8g-s68Q1O-K_A5cCRob1vh2RpJRdAA==
+X-Amz-Cf-Pop: FRA2-C2
+X-Cache: Error from cloudfront
+

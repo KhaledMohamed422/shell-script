@@ -1,0 +1,132 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name=apple-mobile-web-app-capable content=yes><meta http-equiv=X-UA-Compatible content="ie=edge"><meta http-equiv=Cache-Control content="no-cache, no-store, must-revalidate"><meta http-equiv=Pragma content=no-cache><meta http-equiv=Expires content=0><meta name=format-detection content="telephone=no"><title>[FF] Recommend</title><link rel="shortcut icon" href=https://dl.dir.freefiremobile.com//common/web_event/common/images/favicon.png><style>body {
+      background-color: #000
+    }
+
+    .wp_pop {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #091222;
+      z-index: 9999;
+      display: none
+    }
+
+    .wp_content {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%)
+    }
+
+    .wp_pop_img {
+      width: 50vw;
+      height: 30vw;
+      margin: auto;
+      animation: rotateA 1.5s ease infinite alternate;
+      background: url('https://dl.dir.freefiremobile.com/common/web_event/common/images/scape.png') center / contain no-repeat
+    }
+
+    .wp_tips {
+      width: 60%;
+      font-size: 5vw;
+      color: #fff;
+      text-align: center;
+      margin: 12vw auto 0;
+      line-height: 1.1
+    }
+
+    @keyframes rotateA {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      30% {
+        transform: rotate(0deg)
+      }
+
+      70% {
+        transform: rotate(-90deg)
+      }
+
+      100% {
+        transform: rotate(-90deg)
+      }
+    }
+
+    @media screen and (max-aspect-ratio: 1/1) and (orientation:portrait) {
+      .wp_pop {
+        display: block
+      }
+    }
+
+    .loading {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 1000;
+      background-color: #111620
+    }
+
+    .loading.opacity {
+      background-color: rgba(0, 0, 0, 0.5)
+    }
+
+    .spinner {
+      width: 8.6957vh;
+      height: 8.6957vh;
+      animation: rotator 1.4s linear infinite
+    }
+
+    .path {
+      stroke-dasharray: 187;
+      stroke-dashoffset: 0;
+      transform-origin: center;
+      animation: dash 1.4s ease-in-out infinite, colors 1.4s ease-in-out infinite
+    }
+
+    @keyframes rotator {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(270deg)
+      }
+    }
+
+    @keyframes colors {
+      0% {
+        stroke: #f56b33
+      }
+
+      100% {
+        stroke: #f56b33
+      }
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dashoffset: 187
+      }
+
+      50% {
+        stroke-dashoffset: 47;
+        transform: rotate(135deg)
+      }
+
+      100% {
+        stroke-dashoffset: 187;
+        transform: rotate(450deg)
+      }
+    }</style><link href=https://dl.dir.freefiremobile.com/common/web_event/recommend/css/app.a820d0ec7b78f34405d12590c2f165c4.css rel=stylesheet></head><body><div id=app><div class=loading><svg class=spinner width=65px height=65px viewBox="0 0 66 66" xmlns=https://www.w3.org/2000/svg><circle class=path fill=none stroke=#30f9fd stroke-width=6 stroke-linecap=round cx=33 cy=33 r=30></circle></svg></div></div><div class=wp_pop><div class=wp_content><div class=wp_pop_img></div><p class=wp_tips>Please rotate your phone for the best browsing experience</p></div></div><script src=https://dl.dir.freefiremobile.com/common/web_event/garenaAnalyticsFrontend/garenaGA.e35731bf6e5e18865a26.js></script><script>var analyticsId="UA-167104710-27",src="https://www.googletagmanager.com/gtag/js?id="+analyticsId;function gtag(){dataLayer.push(arguments)}document.write("<script async src='"+src+"'><\/script>"),window.dataLayer=window.dataLayer||[],gtag("js",new Date),window.onload=function(){document.addEventListener("touchstart",function(t){1<t.touches.length&&t.preventDefault()},{passive:!1});var e=0;document.addEventListener("touchend",function(t){var a=(new Date).getTime();a-e<=300&&t.preventDefault(),e=a},!1)}</script><script type=text/javascript src=https://dl.dir.freefiremobile.com/common/web_event/recommend/js/manifest.80640f6d10ce139e3eac.js></script><script type=text/javascript src=https://dl.dir.freefiremobile.com/common/web_event/recommend/js/vendor.79d5f658b85e2492a1e8.js></script><script type=text/javascript src=https://dl.dir.freefiremobile.com/common/web_event/recommend/js/app.2d4c3a92efd7ea12ce16.js></script></body></html>
+
+
+https://recommend.sea.freefiremobile.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: staging.store.nintendo.es
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko, Foregenix) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://staging.store.nintendo.es/
+Refresh: 0;url=https://staging.store.nintendo.es/
+Server: Vercel
+
+Redirecting...
+
+
+http://staging.store.nintendo.es:80

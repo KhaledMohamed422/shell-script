@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: inbound.grindr.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; HUAWEI CAN-L11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822a58c15cc02169-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:22:10 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=CRUmSo7yPb5axBZ5FO3HHCgY19P70GXRVxtQDQos_ao-1699410130-0-Ad6S71pyE2//7Yv2ZwLdGY5zf07tS1Cxn4fVr5Op/xsOYU5Oqqyc5VQR3NigKHr9uGDBL1nN/b/7W645/2f0IhI=; path=/; expires=Wed, 08-Nov-23 02:52:10 GMT; domain=.grindr.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1005
+
+
+http://inbound.grindr.com:80

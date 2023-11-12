@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>RegioBank</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link sizes="16x16" rel="shortcut icon" type="image/x-icon" href="/build/images/favicon.ico" />
+        <link sizes="16x16" rel="shortcut icon" type="image/png" href="/build/images/favicon-16x16.png" />
+        <link sizes="32x32" rel="shortcut icon" type="image/png" href="/build/images/favicon-32x32.png" />
+        <link sizes="96x96" rel="shortcut icon" type="image/png" href="/build/images/favicon-96x96.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+                    <link rel="stylesheet" href="/build/app.e44cb63d.css">
+        
+                    <script src="/build/runtime.686d9699.js" defer></script><script src="/build/460.8241427c.js" defer></script><script src="/build/app.e0bab003.js" defer></script>
+            </head>
+    <body>
+        <header class="header">
+    <div class="container">
+        <a href="https://www.regiobank.nl/home.html">
+            <img class="header_logo" src="/build/images/logo.svg" alt="RegioBank" />
+        </a>
+    </div>
+</header>
+        <main class="main">
+            <div class="container">
+    <h1 class="text-center">Wie verrast u met een kaart?</h1>
+    <p>Er is altijd wel een reden om iemand in uw buurt een kaart te sturen. Gebruik hiervoor uw persoonlijke code uit de e-mail of kaart die u van RegioBank heeft ontvangen. Kies een leuke kaart uit, schrijf zelf uw tekst en vul de adresgegevens in. Wij zorgen ervoor dat de kaart binnen 3 werkdagen verstuurd wordt.</p>
+
+    <div class="text-center">
+        <form name="code_usage" method="post"><div id="code_usage"><div class="form-group"><input type="text" id="code_usage_code" name="code_usage[code]" required="required" placeholder="Voer uw code in" class="form-control" /></div><div class="form-group"><button type="submit" id="code_usage_submit" name="code_usage[submit]" class="btn-primary btn">Controleer code</button></div><input type="hidden" id="code_usage__token" name="code_usage[_token]" value="3.4GzBXWMxUCC4RxnkZyWVIseFNHbrma-lZgFuFrA5DUU.0SH0MQBmIBbidm-rKBGkEpLrTiOl1oLzA0UcU_VYYnOrDfA_MQcgb_Edag" /></div></form>
+        <p class="privacy-note">
+            Door verder te gaan stemt u in met ons <a href="https://www.regiobank.nl/privacy-en-cookiereglement.html" target="_blank">privacy statement</a>
+        </p>
+    </div>
+</div>
+        </main>
+        <footer class="footer" style="padding-top: 100px;">
+    <div class="container">
+        <div class="text-center">
+            <a href="https://www.regiobank.nl/home.html" target="_blank">
+                <img width="400" src="/build/images/footer-logo-3.png" alt="De Volksbank">
+            </a>
+        </div>
+    </div>
+</footer>
+    </body>
+</html>
+
+
+
+https://jubileum.regiobank.nl:443

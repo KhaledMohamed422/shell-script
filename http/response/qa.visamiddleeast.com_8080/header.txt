@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: qa.visamiddleeast.com:8080
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Chrome/10.0.613.0 Safari/534.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8228a53eddf9162c-DUS
+Date: Tue, 07 Nov 2023 21:24:51 GMT
+Expires: Tue, 07 Nov 2023 22:24:51 GMT
+Location: https://qa.visamiddleeast.com/
+Server: cloudflare
+Set-Cookie: __cfruid=94ae70f92279dee18ebff73ffb5f8f73c61132f1-1699392291; path=/; domain=.qa.visamiddleeast.com; HttpOnly
+Set-Cookie: _cfuvid=xOuihlHx93Z2BkIovL8FqsiJ4hfIS5O7khItVFROqw4-1699392291682-0-604800000; path=/; domain=.qa.visamiddleeast.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://qa.visamiddleeast.com:8080

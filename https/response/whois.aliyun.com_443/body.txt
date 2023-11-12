@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="baidu-site-verification" content="grhOqNb9av" />
+    <meta name="keywords" content="whois查询,域名查询,域名交易,域名注册,whois信息,阿里云企航,万网">
+    <meta name="description" content="whois查询是阿里云企航（原万网）名下的域名查询服务，在此您可以免费查询域名whois信息，包括域名注册情况、域名当前所有者联系方式以及域名状态等信息。">
+    <meta name="data-spm" content="5176"/>
+    <meta name="nav-config" content="topbar=channel,footer=default">
+    <title>whois查询_域名查询_域名交易_阿里云企航(原万网)-阿里云</title>
+    <link rel="stylesheet" href="//g.alicdn.com/hichina/home/2.0.0/style/index.css">
+    <link rel="stylesheet" href="//g.alicdn.com/hichina/home/4.0.1/dpl/style/base.css">
+        <link rel="stylesheet" type="text/css" href="/css/whois.css"/>
+            <link rel="canonical" href="https://whois.aliyun.com/" />
+    
+    <script src="//g.alicdn.com/hichina/user-center/1.0.0/vendor/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//g.alicdn.com/hichina/home/4.0.0/dpl/vendor/script/jquery.plugins.js" charset="utf-8"></script>
+        <script src="/js/domainparser.js" type="text/javascript" charset="utf-8"></script>
+
+<!--[if lt IE 9]>
+    <script src="//wanwang.aliyun.com/static/home/js/html5shiv-min.js"></script>
+<![endif]-->
+<script language="javascript">
+var nav_tab_index = -1;
+</script>
+    <!-- 公共库（包括KISSY,jQuery）,公共样式dpl,iconfont -->
+    <script type="text/javascript" src="//www.aliyun.com/rgn/aliyun_assets?renderer=js"></script>
+    <!-- 基础资源 -->
+    <link rel="stylesheet" href="https://g.alicdn.com/aliyun/nav-loader/css/index.css">
+    <script src="https://g.alicdn.com/aliyun/nav-loader/js/index.js"></script>
+</head>
+
+<body 
+    data-spm="7477273"
+
+><script  type="text/javascript">
+(function  (d)  {
+var  t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+t.setAttribute("exparams","category=&userid=&aplus&yunid=&yunpk=&channel=&cps=");
+t.src="//g.alicdn.com/alilog/mlog/aplus_v2.js";
+d.getElementsByTagName("head")[0].appendChild(t);
+})(document);
+</script>
+<div data-role-topbar="channel"></div>
+    
+
+
+
+
+
+<script language="javascript">
+
+$(document).ready(function(){
+    $("form[name=form01]").keypress(function (event) {
+        var keyCode = event.which;
+        if(keyCode==13){
+            var domain =$("input[name=domain]").val();
+            var parser = new DomainParser(jQuery.trim(domain));
+            parser.parse();
+            if (parser.hasError()) {
+                $(".search-main").find(".error-tip").html(parser.getMessage());
+                $(".search-main").find(".error-tip").show();
+                return false;
+            }
+            domain = encodeURI(parser.getModifyName());
+            document.form01.action="/domain/"+domain;
+            document.form01.submit();
+        }
+    });
+    
+    $("input[name=btnWhois]").click(function (event){
+        var domain =$("input[name=domain]").val();
+        var parser = new DomainParser(jQuery.trim(domain));
+        parser.parse();
+        if (parser.hasError()) {
+            $(".search-main").find(".error-tip").html(parser.getMessage());
+            $(".search-main").find(".error-tip").show();
+            $("input[name=domain]").focus();
+            return;
+        }
+        domain = encodeURI(parser.getModifyName());
+        document.form01.action="/domain/"+domain;
+        document.form01.submit();
+     });
+     $("input[name=domain]").focus();
+});
+
+</script>
+
+<h1 style="position:absolute;opacity:0;">whois查询_域名查询_域名交易_阿里云企航(原万网)</h1>
+<div class="whois-index">
+    <div class="crumb" data-spm="10">
+        <p><a href="//www.aliyun.com">阿里云首页</a> > <a href="http://wanwang.aliyun.com">域名与网站</a> > <a href="http://wanwang.aliyun.com/domain/">域名服务</a> > 域名信息查询（WHOIS）</a> </p>
+    </div>
+	<div class="whois-index-main" data-spm="3">
+        <div class="whois-index-search">
+            <p class="index-title"><span class="index-title-main">域名信息查询（WHOIS）</span></p>
+            <div class="search-main">
+              <form action="#" name="form01"  method="post">
+                <input type="text" value="" name="domain" placeholder="请输入域名，如：wanwang.com" class="whois-search-input" />
+                <input type="button" value="查&nbsp;&nbsp;询" name="btnWhois" class="whois-search-btn" data-ga="域名.whois.查询" />
+                <div class="error-tip"></div>
+            </div>
+        </div>
+    </div>
+    <div class="whois-index-info" data-spm="4">
+    	<div class="info-center-main">
+        	<ul class="clear">
+            	<li class="right-dashed dis-padding2">
+                	<p class="p1">什么是Whois查询？</p>
+                    <div class="info-list-txt">您可以用Whois来查看域名的当前信息状态，包括域名是否已被注册、注册日期、过期日期、域名状态、DNS解析服务器等。</div>
+                </li>
+			  <!--
+            	<li class="right-dashed dis-padding1">
+                	<p class="p2">不想暴露所有者信息？</p>-->
+               <!--    <div class="info-list-txt">在万网注册的域名（含转入），可使用免费<a href="http://wanwang.aliyun.com/domain/whoisprotect/" target="_blank" data-ga="域名.whois.域名注册保护">"域名注册信息保护功能"</a>。启用该服务后，用户提交的有关注册信息将不在whois数据库中公开显示，同时不影响域名使用，您仍拥有完全的域名所有权。</div>
+                </li> -->
+            	<li class="dis-padding1">
+                	<p class="p3">如何提升域名曝光率？</p>
+                    <div class="info-list-txt">在万网注册的域名（含转入），可以在<a href="https://mi.aliyun.com/" target="_blank" data-ga="域名.whois.淘域名专题">"域名交易平台"</a>免费发布域名售卖信息。买家可以在万网域名查询结果页面和域名交易产品页面查询购买。买卖域名，像淘宝一样简单！</div>
+                </li>                                
+            </ul>
+        </div>
+    </div>
+        <div class="whois-index-hot-domain">
+      <p class="whois-index-hot-domain-title">热搜域名</p>
+      <p class="whois-index-hot-domain-list">
+              <a href="//whois.aliyun.com/domain/www.net.cn" target="_blank">www.net.cn</a>
+              <a href="//whois.aliyun.com/domain/taobao.com" target="_blank">taobao.com</a>
+              <a href="//whois.aliyun.com/domain/tmall.com" target="_blank">tmall.com</a>
+              <a href="//whois.aliyun.com/domain/sina.com.cn" target="_blank">sina.com.cn</a>
+              <a href="//whois.aliyun.com/domain/weibo.com" target="_blank">weibo.com</a>
+              <a href="//whois.aliyun.com/domain/baidu.com" target="_blank">baidu.com</a>
+            </p>
+    </div>
+        
+</div>
+
+<!--尾部标记，值要和meta标签里的保持一致 -->
+<div data-role-footer="default"></div>
+
+
+</body>
+</html>
+
+0
+
+
+
+
+https://whois.aliyun.com:443

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: s3-eu3-acs1.acronis.com
+User-Agent: Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:28:08 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 496
+X-Amz-Request-Id: 80000000000000180005323305874432
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://s3-eu3-acs1.acronis.com:443

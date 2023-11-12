@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: backend-sandbox.mercury.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822a5f97ba321537-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:26:50 GMT
+Expires: Wed, 08 Nov 2023 02:27:05 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=vnVJU_K9TjKCga4RIhXHydNMrmrG7Ba2gN5nNOkATpc-1699410410-0-AdzACGctVZG7EcXmVG36cOfWZjEU9CSsnmQYm3FZhOLw2cUG7EJytHbfL09Pl8xtAkPGP7kdan6Xr1DgRQuTKcw=; path=/; expires=Wed, 08-Nov-23 02:56:50 GMT; domain=.mercury.com; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11a3

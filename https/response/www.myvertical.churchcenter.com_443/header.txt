@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: www.myvertical.churchcenter.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/3.5; Linux; en_US) KHTML/3.5.6 (like Gecko) (Kubuntu)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 951
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:36:27 GMT
+Server: CloudFront
+Via: 1.1 22993faf725ff29c940e58cb14ddf668.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rP-mSLvU2YG4n9m6YWdddc26R6p8qMYXHGaJ84qrFen0qwRHvJAwnQ==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Error from cloudfront
+

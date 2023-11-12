@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: my-account.qa.betsson.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 915
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:48 GMT
+Server: CloudFront
+Via: 1.1 34fdfb7c7c11559df7e622af2b62f5ca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: r5qtCqVsTwuqlzt_PE-TpziQ0MJj2UeEmHMSIQvZjogyaeCimXY-1Q==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Error from cloudfront
+

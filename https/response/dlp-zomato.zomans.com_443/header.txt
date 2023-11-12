@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: dlp-zomato.zomans.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Content-Security-Policy: default-src 'self' 'unsafe-eval' 'unsafe-inline'; worker-src blob:
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:41 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: akamai/nginx
+Set-Cookie: ratool=085c16fc2e2d2a986608996930dbb5ed; path=/; secure; HttpOnly
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=15552000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dialin-Rtt: 2197
+X-Frame-Options: SAMEORIGIN
+X-Ray-Id: 11505235243083865336
+X-Spx-Origin-Agent-Addr: 10.0.0.36:39286
+X-Xss-Protection: 1; mode=block
+
+1c76

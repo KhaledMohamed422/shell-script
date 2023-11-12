@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ai.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 8227dc52d9dd7a46-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 07 Nov 2023 19:07:41 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=qhsC1YEkKbfHprzH1I8fmcJyNrfHEBVxtji5juw.3VM-1699384061-0-AX940ed4Ebpw8LA1DtTuR2DwyebDkmcJf62ecCWRItLLNv3xZ0W3gJLyA3Ap/3WMhcrCvnr7IlftFdqG4pLu5S8=; path=/; expires=Tue, 07-Nov-23 19:37:41 GMT; domain=.ai.cloudflare.com; HttpOnly
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+12e7

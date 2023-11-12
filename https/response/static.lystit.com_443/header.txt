@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: static.lystit.com
+User-Agent: Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaE6-00/021.002; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.16 Mobile Safari/533.4 3gpp-gba
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822d1c949cd5161a-DUS
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:25:22 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; preload
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Id-2: QTjwZgtpmFrQ//RvXuiu0J80fnHmhlOUnCj5z9fVcBVAmTbbRTs1kyhLeU3buxp/HR93nU6owbk=
+X-Amz-Request-Id: YQAYF1J1YG8V6ZT9
+X-Content-Type-Options: nosniff
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>YQAYF1J1YG8V6ZT9</RequestId><HostId>QTjwZgtpmFrQ//RvXuiu0J80fnHmhlOUnCj5z9fVcBVAmTbbRTs1kyhLeU3buxp/HR93nU6owbk=</HostId></Error>
+0
+
+
+
+
+https://static.lystit.com:443

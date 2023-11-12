@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: my.taobao.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:11:06 GMT
+Eagleeye-Traceid: 21081aba16994382661207104e1095
+Location: http://err.taobao.com/error2.html
+Server: Tengine/Aserver
+Strict-Transport-Security: max-age=0
+Timing-Allow-Origin: *
+

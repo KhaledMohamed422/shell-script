@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: verification.static.callsign.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:31:14 GMT
+Server: AmazonS3
+Via: 1.1 2f471134491a4de5cfcaef646caf9dde.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: 8XQ0oKCPJ_b7iGUjTUiw9uoc_zJZFyAjUxltrYD-TmFekcjycp7daw==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1587X0DEWDZC9TNH</RequestId><HostId>+Cpf8jwv8olLfQ7XYiaCAcvMJO9p3HQYYKf2j/FkFsGdlVyA9X7rur5FylOxJTyXNgZ2yR3Gv+8=</HostId></Error>
+0
+
+
+
+
+https://verification.static.callsign.com:443

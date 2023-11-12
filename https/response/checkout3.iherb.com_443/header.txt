@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: checkout3.iherb.com
+User-Agent: msnbot/0.11 ( http://search.msn.com/msnbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c02f06eed1614-DUS
+Date: Wed, 08 Nov 2023 07:13:06 GMT
+Location: https://www.iherb.com/not_found?correlationId=a55cd7aee0c433b5d7719f06ff9e37dc
+Server: cloudflare
+Set-Cookie: iher-pref1=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/
+Set-Cookie: iher-pref1=sccode=US&scurcode=USD&lan=en-US&storeid=0&ctd=www; expires=Thu, 07 Nov 2024 07:13:06 GMT; domain=.iherb.com; path=/; samesite=none
+Set-Cookie: ihr-temse=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/
+Set-Cookie: ihr-temse=tempses=99b59003-5fab-4f2f-949e-f82317b0420b&expires=08%20Nov%202023%2008:13:06Z; expires=Wed, 08 Nov 2023 08:13:06 GMT; domain=.iherb.com; path=/; secure; samesite=none
+Set-Cookie: __cf_bm=e2XHviRF7jGHa5nhR0KOaFcZaHqy6VHh7EN5ttunC.Q-1699427586-0-AXZgfV5qpma8VCeZD8OeerNHRp+E/QJD0/dDmggl/3dcsMgsGdFrmmgPC1UYOaKazv+5rbCGDWGg4ya163KDr4Oc6yXFsBBg9UY7EUgA+4RW; path=/; expires=Wed, 08-Nov-23 07:43:06 GMT; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cfruid=423454242fdbf9fdd030a538058d84a215a953cb-1699427586; path=/; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Envoy-Decorator-Operation: checkout-web.checkout.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 21
+Content-Length: 0
+
+
+
+
+https://checkout3.iherb.com:443

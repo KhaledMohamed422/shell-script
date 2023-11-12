@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: du.test.betsson.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS sun4m; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:57:15 GMT
+Location: https://du.test.betsson.com/
+Server: CloudFront
+Via: 1.1 29d6db1b5ecb170f22487453430df556.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bMzsXylCG6GwAmmUPe-h8HnYWmdAykIAy7_9tzLLN7lHiXJD3-wDXg==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Redirect from cloudfront
+

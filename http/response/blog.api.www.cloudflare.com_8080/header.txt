@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: blog.api.www.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/99.3  Mobile/15E148 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227dcee78151536-DUS
+Date: Tue, 07 Nov 2023 19:08:06 GMT
+Expires: Tue, 07 Nov 2023 20:08:06 GMT
+Location: https://blog.api.www.cloudflare.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mkbF0PmtcBuOCuPIlv9lzegFtEBmufA%2F%2B4daGOoOEVzvsPiJfWxdPjw8ohrJ5us21LoiRKRHQfLsY9lyFRtkGHIW2%2BoteJgoJ%2F8sOJZvicj1cZFms1wLzhZNBwef491HOG4zVDE8ILPRjLZJGBdGDy%2FC"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=voLwc5RDZ5JzLi2l3QWus1dqWyBLikYuZzMaQuv7n9o-1699384086-0-ARVr8vuGyiICkQjB8xzvwxRgr98jVdIL5Cdgm2xF04ys1bcpmc3gsHDinM7745/b88U4d4Z816uj4hIrgTqI0cb4sqKohk17meMnyof9b35+; path=/; expires=Tue, 07-Nov-23 19:38:06 GMT; domain=.www.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://blog.api.www.cloudflare.com:8080

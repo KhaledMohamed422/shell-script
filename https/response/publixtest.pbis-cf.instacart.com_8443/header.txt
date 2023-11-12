@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: publixtest.pbis-cf.instacart.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82274c00ba0e7178-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:29:10 GMT
+Expires: Tue, 07 Nov 2023 17:29:25 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=_o62gttzPUnR.VqLeQjHL9ZYW_Oyr.IopofO6NzWH9E-1699378150-0-AaDbQardzIwyEdjw42OxrHUvgkhD+Q0Tp4m7cr8qr+c/Op1cZmKhv+A9+e2Lb98+NZA7djfqi7xPyyQfHAIbjUQ=; path=/; expires=Tue, 07-Nov-23 17:59:10 GMT; domain=.publixtest.pbis-cf.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11b8

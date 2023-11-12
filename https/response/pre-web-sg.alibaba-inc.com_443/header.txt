@@ -1,0 +1,52 @@
+GET / HTTP/1.1
+Host: pre-web-sg.alibaba-inc.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:45.0) Gecko/20100101 Firefox/45.0 SeaMonkey/2.42.9esr
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Bxpunish: 1
+Bxuuid: ed632e0adf74f53a00bf9203c55256f3
+Cache-Control: no-store
+Content-Type: text/html;charset=UTF-8
+Date: Wed, 08 Nov 2023 10:17:35 GMT
+Eagleeye-Traceid: 212a769016994386551355759ee3f2
+Server: Tengine/Aserver
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+
+448
+
+
+<a id="a-link"
+    href="https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=7WMuCt909ToAv5IDxVJW8w|ZUtgPw|MWrYXQ_0&uuid=ed632e0adf74f53a00bf9203c55256f3&action=deny&origin=https%3A%2F%2Fpre-web-sg.alibaba-inc.com%2F"></a>
+<script>
+var host = location.host;
+var parts = host.split('.');
+if (parts.length > 2){
+  host = parts.pop();
+  host = "." + parts.pop() + "." + host;
+}
+var exp = new Date();
+var maxAge = -100;
+exp.setTime(exp.getTime() + maxAge);
+var cookie = "x5secdata=;maxAge=" + maxAge + ";expires=" + exp.toUTCString() + ";path=/;domain=" + host + ";";
+document.cookie = cookie;
+document.cookie = cookie + 'Secure;SameSite=None';
+document.getElementById("a-link").click();
+window._config_ = {
+   "action": "deny",
+   "url": "https://bixi.alicdn.com/punish/punish:resource:template:lazadaSpace:exefqahalk_29083419.html?qrcode=7WMuCt909ToAv5IDxVJW8w|ZUtgPw|MWrYXQ_0&uuid=ed632e0adf74f53a00bf9203c55256f3&action=deny&origin=https%3A%2F%2Fpre-web-sg.alibaba-inc.com%2F"
+};
+</script>
+<!--rgv587_flag:sm-->Deny from x5
+0
+
+
+
+
+https://pre-web-sg.alibaba-inc.com:443

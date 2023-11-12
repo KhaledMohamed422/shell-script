@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: staging-lb.kickstarter.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 8T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273e47dbf2caf5-DUS
+Date: Tue, 07 Nov 2023 17:19:48 GMT
+Expires: Tue, 07 Nov 2023 18:19:48 GMT
+Location: https://staging-lb.kickstarter.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=pp4eqVESFiFXSpIpYHnwEAKeUJ.EWLPfZh3Jds5OLL8-1699377588-0-ASZzTgQm/qT30YI3mwkCWLOyOzsBKOlfoSeQNOetIjQwNMYqL4j3jfA7nqmk6hbkiOaBw69/4DNj6nRnag5sDvM=; path=/; expires=Tue, 07-Nov-23 17:49:48 GMT; domain=.kickstarter.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://staging-lb.kickstarter.com:80

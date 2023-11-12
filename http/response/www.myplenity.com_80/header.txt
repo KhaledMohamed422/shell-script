@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: www.myplenity.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 149
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e67e6c896a7f-DUS
+Content-Security-Policy: default-src https: wss: ; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *; font-src 'self' data: *; connect-src 'self' *; frame-src 'self' *
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:48 GMT
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Location: https://www.myplenity.com/
+Server: cloudflare
+Set-Cookie: TiPMix=38.247391068688465; path=/; HttpOnly; Domain=www.myplenity.com; Max-Age=3600
+Set-Cookie: x-ms-routing-name=self; path=/; HttpOnly; Domain=www.myplenity.com; Max-Age=3600
+Set-Cookie: ARRAffinity=76d52a08f4dfc2763a23aba484fe88ab77f0187b910656ad1ab0959e31b301aa;Path=/;HttpOnly;Domain=www.myplenity.com
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.myplenity.com/">here</a></body>
+
+
+http://www.myplenity.com:80

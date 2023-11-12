@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: lyncdiscover.acronis.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Client-Request-Id: 44bd65a3-20f4-4130-8db2-024c7ea9a0b0
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:23:15 GMT
+Expires: -1
+Pragma: no-cache
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Correlation-Id: 2147537883
+X-Ms-Server-Fqdn: Uk-lync-fe-1.corp.acronis.com
+
+{"_links":{"self":{"href":"https://uklyncweb.acronis.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=acronis.com"},"user":{"href":"https://uklyncweb.acronis.com/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=acronis.com"},"xframe":{"href":"https://uklyncweb.acronis.com/Autodiscover/XFrame/XFrame.html"}}}
+
+
+https://lyncdiscover.acronis.com:443

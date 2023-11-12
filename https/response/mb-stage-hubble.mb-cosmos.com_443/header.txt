@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: mb-stage-hubble.mb-cosmos.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:16:29 GMT
+Via: 1.1 ac979e099d122e39d3a8fac95688a69a.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCr6GFNuoAMEv3A=
+X-Amz-Cf-Id: VDBuoSnDyCfAPESHbFlCYBjbRiIY7n-nrA04yhcC36mUwscpJjiy-A==
+X-Amz-Cf-Pop: AMS50-C1
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: c7e89508-b59b-43e8-94b5-55b45517136a
+X-Amzn-Trace-Id: Root=1-654a8d0d-505c9f93368ac6c038282165
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://mb-stage-hubble.mb-cosmos.com:443

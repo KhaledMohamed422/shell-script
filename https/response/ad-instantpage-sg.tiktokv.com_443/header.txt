@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: ad-instantpage-sg.tiktokv.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:42:57 GMT
+Expires: Wed, 08 Nov 2023 18:42:57 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=221, origin; dur=11
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 206d9b0.23f359a.75b41d
+X-Cache: TCP_MISS from a23-62-61-188.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-15-178-133.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 11,184.86.250.137
+X-Parent-Response-Time: 166,23.15.178.133
+X-Parent-Response-Time: 232,23.62.61.188
+X-Tt-Logid: 2023110818425602C8D0BEE763831146F2
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5adefdd61b9c34a1936dc6a03318e3d33aebce084b3efe3f94c3097414e4277e217edd0a16a34e1a1c6e97bed2557bd4aaf1a10bd45ac68973aec0df13ed638a72460f41f6d1a1a2546cc60551daadbed9
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ro.liberapay.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 9; POT-LX2J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bf3cc7bb27a42-DUS
+Date: Wed, 08 Nov 2023 07:02:46 GMT
+Expires: Wed, 08 Nov 2023 08:02:46 GMT
+Location: https://ro.liberapay.com/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mLb1cr7KNUrDMkqSnB63ySnOS657gv2VGNLhv0cz3xKNhgB9OI666zJeHam7Xb8hsXufxxHpYTC87SV%2FFSzDaf3ZMWwe7YO10RUwU7jumVMKMwzTpNYRmFd7mqgBEMEExpXkX45oK8I%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://ro.liberapay.com:8080

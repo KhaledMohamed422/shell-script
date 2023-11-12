@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: as2.newegg.com
+User-Agent: msnbot/1.0 ( http://search.msn.com/msnbot.htm)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 76
+Accept-Ranges: bytes
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 08 Nov 2023 19:26:05 GMT
+Expires: Wed, 08 Nov 2023 19:26:05 GMT
+Pragma: no-cache
+Set-Cookie: NVTC=248326808.0001.bbadf826a.1699471565.1699471565.1699471565.1; Expires=Sat, 07-Nov-26 19:26:05 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NID=34345z0M6I9D6I4M72; Expires=Sat, 07-Nov-26 19:26:05 GMT; Domain=newegg.com; Path=/; Secure
+Set-Cookie: NV_NVTCTIMESTAMP=1699471566; Expires=Sat, 07-Nov-26 19:26:05 GMT; Domain=newegg.com; Path=/; Secure; HttpOnly
+Set-Cookie: NE_STC_V1=5ccba3d81487f86280ac2115494eb4ec231251f8a9307c669579f6273c5e1f6bec139e0f;expires=Wed, 08-Nov-2023 20:23:22 GMT;path=/;secure;httponly
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; report=https://pf.newegg.com/csp?source=xss
+
+{"errorCode":"403","errorMessage":"We were unable to locate your API Key."}
+
+
+
+https://as2.newegg.com:443

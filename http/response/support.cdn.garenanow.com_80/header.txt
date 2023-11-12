@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: support.cdn.garenanow.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Content-Length: 309
+Content-Disposition: inline
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:12:32 GMT
+Server: Google-Edge-Cache
+X-Cache-Status: ams;uncacheable, ham;uncacheable
+X-Frame-Options: SAMEORIGIN
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSOhoQr0uoZnwq6UnlwI9dU4O1BQFxwb
+X-Obs-Request-Id: 0000018BAB335D479812C272B148C157
+X-Request-Id: 18f19565-80d4-48ef-9ab3-5594ca83c597
+X-Xss-Protection: 0
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB335D479812C272B148C157</RequestId><HostId>q1rb+jt7RUXkzCNQbTnPWvPU7heuCUXcc6LzRwm+rgiTbPDPjNGt0ORP475EkTir</HostId><Key>cdn.garenanow.com/</Key></Error>
+
+
+http://support.cdn.garenanow.com:80

@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: cxqam.repairs.playstation.com:8443
+User-Agent: Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Security-Policy: script-src 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:47:04 GMT
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+X-Sfdc-Edge-Err: true
+X-Sfdc-Request-Id: 14eea8a26392501a2c0ffc894cb2375f
+
+4109

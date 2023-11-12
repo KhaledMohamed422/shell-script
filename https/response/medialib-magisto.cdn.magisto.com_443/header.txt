@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: medialib-magisto.cdn.magisto.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:57:41 GMT
+Server: AmazonS3
+Via: 1.1 b0062bb33b961b53be87d688f2bdd9f8.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: PIL6CHuj5gXpku7x2T2oRHMlXxYaexni2BDkWv3gpEWh3LBFwAikEg==
+X-Amz-Cf-Pop: AMS1-P1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>4M0H1TDEM5WZXG9D</RequestId><HostId>CM6V9VP/119jC+/Ke+GvV60hc/LaO1D2i35aylG0gWcVPa6BnfKzkT9xnQMOwnvv6A6/lZ2Swe4=</HostId></Error>
+0
+
+
+
+
+https://medialib-magisto.cdn.magisto.com:443

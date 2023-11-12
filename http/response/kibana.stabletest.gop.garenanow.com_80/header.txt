@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: kibana.stabletest.gop.garenanow.com
+User-Agent: MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 145
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:10:05 GMT
+Location: http://kibana.stabletest.gop.garenanow.com/api/v1/namespaces/kube-system/services/kibana-logging/proxy
+Server: nginx/1.19.1
+

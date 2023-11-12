@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: grabacademy-merchants-profiling.grab.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 919
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval'; font-src * data: blob; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:27:20 GMT
+Permissions-Policy: geolocation=*, midi=(), sync-xhr=(), accelerometer=(), gyroscope=(), magnetometer=(), payment=(), camera=(), microphone=(), usb=(), fullscreen=(self)
+Referrer-Policy: strict-origin-when-cross-origin
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 35c75b7f0ca8c787d67c8ebd22bc7fc2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JZOO18Bzprytz17QyRIjcSWPIzb5h1XDyFnxW2J1ZXS7BmdCdV1zFw==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

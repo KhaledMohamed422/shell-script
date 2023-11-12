@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: myadmin.8x8.com
+User-Agent: HTMLParser/1.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: default-src 'self' *.8x8.com:*; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.8x8.com:* *.jquery.com:* *.google-analytics.com:*; connect-src 'self' *.8x8.com:* *.google-analytics.com:*; img-src 'self' https:; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action 'self' https: http://*.8x8.com:* http://192.168.130.225:8111 http://10.140.16.153:8111 http://10.160.16.37:8111; frame-ancestors 'self' https: http://*.8x8.com:*
+Date: Tue, 07 Nov 2023 21:28:23 GMT
+Location: https://sso.8x8.com/v2/oauth/authorize?response_type=code&client_id=acctmgr
+Server: Apache Tomcat
+Set-Cookie: JSESSIONID=355CFBAAA2E155310476E54063B7C397; Path=/; Secure; HttpOnly
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Length: 0
+
+
+
+
+https://myadmin.8x8.com:443

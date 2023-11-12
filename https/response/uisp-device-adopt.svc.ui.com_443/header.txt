@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: uisp-device-adopt.svc.ui.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; YAL-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 83
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 05:07:41 GMT
+Via: 1.1 a4ca822be9cc438f72a2d23c1e665d80.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OECgpFFhvHcEI5g=
+X-Amz-Cf-Id: rGVmTku7AXbFaYXSKDjISJZCWTAkg4024HbBSSrLnE2wlHPH-4rIFA==
+X-Amz-Cf-Pop: AMS1-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 7cf9d3b7-53fc-4480-a9ca-3b89fc8e022f
+X-Cache: Error from cloudfront
+
+{"code": "FORBIDDEN", "message": "You are not authorized to access this resource."}
+
+
+https://uisp-device-adopt.svc.ui.com:443

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: oss-cn-hangzhou-wangshang-d01-a.res.aliyun-inc.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 275
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:10:31 GMT
+Server: AliyunOSS
+X-Oss-Request-Id: 654B508753E92831C12E5246
+X-Oss-Server-Time: 0
+X-Oss-Transfer-Acc-Type: acc-none
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous access is forbidden for this operation.</Message>
+  <RequestId>654B508753E92831C12E5246</RequestId>
+  <HostId>oss-cn-hangzhou-wangshang-d01-a.res.aliyun-inc.com</HostId>
+</Error>
+
+
+
+http://oss-cn-hangzhou-wangshang-d01-a.res.aliyun-inc.com:80

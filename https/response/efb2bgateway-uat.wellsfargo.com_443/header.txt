@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: efb2bgateway-uat.wellsfargo.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1) Gecko/20061024 Firefox/2.0 (Swiftfox)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 500 Internal Server Error
+Connection: close
+Content-Type: text/xml
+X-Backside-Transport: FAIL FAIL
+
+<?xml version='1.0' ?>
+<env:Envelope xmlns:env='http://schemas.xmlsoap.org/soap/envelope/'>
+<env:Body>
+<env:Fault>
+<faultcode>env:Client</faultcode>
+<faultstring>Internal Error</faultstring>
+</env:Fault>
+</env:Body>
+</env:Envelope>
+
+
+
+https://efb2bgateway-uat.wellsfargo.com:443

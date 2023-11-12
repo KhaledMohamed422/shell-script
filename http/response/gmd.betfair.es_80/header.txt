@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: gmd.betfair.es
+User-Agent: SearchExpress
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227caf8de3dcb0d-DUS
+Date: Tue, 07 Nov 2023 18:55:51 GMT
+Expires: Tue, 07 Nov 2023 19:55:51 GMT
+Location: https://gmd.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3FkyHJuvsmxvIH5jWfDeoudAc%2BsCYYT39088OVAH4mPKentyIEFw8X7o1txpE3d5khHG41k0wXlop4f34%2BDPZMMVhyDxWnAg1VAMzeZMOCv%2FUWXis9mwzBjsMHLCjy%2Fe"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=jhVrCT31tlWnAC1hjM7MqORljLt60b.wt2iNXgZ6er4-1699383351-0-AY38sZjuXa66RSbD2aP9n+yzqgaOzDHDP/VnuT6FSmsKXrYTAautuE3l2nsyBsYd5I3vjtgOL5LC5JIBdJyTmz4=; path=/; expires=Tue, 07-Nov-23 19:25:51 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://gmd.betfair.es:80

@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: xlog16-platform-ycru.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:32 GMT
+Expires: Wed, 08 Nov 2023 18:42:32 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=280, origin; dur=450
+Server-Timing: inner; dur=5
+X-Akamai-Request-Id: 97e5562.240756b
+X-Cache: TCP_MISS from a23-62-61-180.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a2-21-240-45.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 450,2.21.240.45
+X-Parent-Response-Time: 721,23.62.61.180
+X-Tt-Logid: 202311081842314CE52B4A9DD8078EFFDE
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aff20eeacb2ce334a8628362084c9df16b1bfe5e12a6a27b35492b1686a24eb7cd96f506a2bc73bb2ef9e96723081e9d76982a676f1907d7b91f7756ef1f11cba43b1766c849172f54971ead8f35c0334
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://xlog16-platform-ycru.tiktokv.com:80

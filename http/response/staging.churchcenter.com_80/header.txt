@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: staging.churchcenter.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 2 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:04:34 GMT
+Location: https://staging.churchcenter.com/
+Server: CloudFront
+Via: 1.1 5c14dc328191a14142654d833f772c6c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OHTifA442OMuQqPltprCO0b_zTQOEeiJe39N5r6pRUYV94JisZJtjA==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Redirect from cloudfront
+

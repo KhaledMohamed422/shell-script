@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: s3-ru2-acs1.acronis.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent,X-Amz-Object-Map,Range,Content-MD5,if-match
+Access-Control-Allow-Methods: GET, DELETE, POST, PUT, OPTIONS, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,ETag,X-Amz-Meta-Custom-Header,X-Amz-Notary-Provider,X-Amz-Cert,X-Amz-Notary-Hash,X-Amz-Notary-Protocol
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:28:09 GMT
+Server: nginx
+X-Amz-Err-Code: AccessDenied
+X-Amz-Err-Message: 
+X-Amz-Req-Time-Micros: 783
+X-Amz-Request-Id: 800000000000001700073001cf33a1df
+
+61
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>AccessDenied</Code><Message></Message></Error>
+0
+
+
+
+
+https://s3-ru2-acs1.acronis.com:443

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preload" as="script" href="/bundle.js" nonce="1aaf7e66e04f4dbb8dab31feb857365a">
+</head>
+<body>
+    
+    <script defer src="https://creditkarmacdn-a.akamaihd.net/res/content/bundles/3ps/2.6.0/sentry/6.1.0/bundle.min.js" nonce="1aaf7e66e04f4dbb8dab31feb857365a" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/bundle.js" nonce="1aaf7e66e04f4dbb8dab31feb857365a"></script>
+    <script type="text/javascript" nonce="1aaf7e66e04f4dbb8dab31feb857365a">
+        var validDomains = "https://cms.creditkarma.com,https://cms.creditkarma.ca,https://www.creditkarma.com,https://www.creditkarma.ca,https://creditkarma.ca,https://accounts.creditkarma.com,https://tax.creditkarma.com";
+        var isCkEnvProd = "production" === 'production';
+        var facts = `{}`;
+
+        window.addEventListener('message', function(e) {
+            try {
+                if (!(validDomains.indexOf(e.origin) > -1)) {
+                    return;
+                }
+
+                var utagEnv = e.data.IS_PRODUCTION && isCkEnvProd ? 'prod' : 'dev';
+                var geoAuthData = {
+                    authStatus: "Unauth",
+                    state: "",
+                    zipcode: ""
+                }
+
+                var cookieHash = ""
+
+                if (typeof e.data.utag !== 'undefined') {
+                    var href = e.data.utag.url_custom
+
+                    for (var key in geoAuthData) { e.data.utag[key] = geoAuthData[key] }
+                    window.TRACE_ID = e.data.TRACE_ID;
+                    window.utag_data = e.data.utag;
+                    window.top_url = e.data.top_url;
+
+                    // utag override settings
+                    // https://docs.tealium.com/platforms/javascript/settings/#readywait
+                    window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+                    window.utag_cfg_ovrd.readywait = true;
+
+                    (function(a,b,c,d){
+                        a='//tags.tiqcdn.com/utag/creditkarma/main/' + utagEnv + '/utag.js'; b=document;c='script';d=b.createElement(c);d.src=a; d.type='text/java'+c;d.async=true; a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a)
+                    })()
+
+                    if ( facts !== "{}" && window.cktags && typeof window.cktags.captureRecency === 'function') {
+                        window.cktags.captureRecency(facts)
+                    }
+                } else if (typeof e.data.utag_event !== 'undefined' && typeof utag !== 'undefined' && typeof utag.link === 'function') {
+                    // utag.js should be available on the page at this point
+                    // the mapping is already done so send the payload with authstatus and location appended
+                    for (var key in geoAuthData) { e.data.utag_event[key] = geoAuthData[key] }
+                    e.data.utag_event['capi_id'] = cookieHash
+                    utag.link(e.data.utag_event);
+                } else if (typeof e.data.utag_view !== 'undefined' && typeof utag !== 'undefined' && typeof utag.view === 'function') {
+                    for (var key in geoAuthData) { e.data.utag_view[key] = geoAuthData[key] }
+                    utag.view(e.data.utag_view);
+                }
+            } catch (err) {
+                window.cktags && window.cktags.sentryReporter.report('tags-service', err);
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+https://tags.creditkarma.ca:443

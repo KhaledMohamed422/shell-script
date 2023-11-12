@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: r2.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; LGL84VL Build/NRD90U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:38:43 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf59yijbg.2.1699389522500.Z0FBQUFBQmxTcUJUR000TmM4MzFsU3JxWUloUXkzbFloaU1UeHczdWlRMmhUSE53dEZldDQxRUx0aXlwNXNwYzc1RHozZDh5WFk4d3JyZDFfUHRKbEVaSWt4OTlSSjhoeHlhYVZWYVdIQy10bzZZeVFYbnc2ZlZXRFN6TGZXQWNFdGdCOW54S3lQX3Q; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:38:43 GMT; secure
+Set-Cookie: session_tracker=nfgeamincrnqeblbbj.0.1699389522502.Z0FBQUFBQmxTcUJUbEEwMlBSZFFWczdVSTZ0MUlxaTlYWnF1MFJRUDNCbThSdWF6eHE5MXA2cEVCdnFqRFdFeGp1Z2NMLUhXR3RyMmJ3SEhoZ1dHbndJYkZuOGQ2WHBtQnVTRW5iMVB0cW1WNXROVExjTG1zMkxIR1pReUcydXVVX0RCVE9BdXRzYVk; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:38:43 GMT; secure
+Set-Cookie: edgebucket=2gn5q8ulx5FVJIT725; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Moose: majestic
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: test-account.palm.tech
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; de-de) AppleWebKit/534.15  (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 133
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:56 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{"timestamp":"2023-11-08T02:30:56.012+00:00","path":"/","status":404,"error":"Not Found","message":null,"requestId":"520c7a5e-85199"}
+
+
+https://test-account.palm.tech:443

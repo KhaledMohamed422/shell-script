@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: shop.turo.com:8443
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822783edaa41717a-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:07:21 GMT
+Expires: Tue, 07 Nov 2023 18:07:36 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HoQ%2BqvEK9%2BMoOMNmIDiaJsWAPcbGG8o2Xi%2BMKgTzDEViLI8cnym%2BHz%2FVa%2BJGEcCcPwblm%2FIzTIZq9WE2QBG1ECfzKsrAKqIAF4%2Fln5iUi%2BYFKNRjzgucqza3Tfyx3wiwIAA5RQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=9.999990
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

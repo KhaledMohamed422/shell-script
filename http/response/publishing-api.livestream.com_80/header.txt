@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: publishing-api.livestream.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Accept-Ranges: bytes
+Age: 0
+Cache-Control: private
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:21:35 GMT
+Server: Google Frontend
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Cloud-Trace-Context: f9e5d9c6f102bec39837a4db7bc72885
+X-Served-By: cache-fra-etou8220027-FRA
+X-Timer: S1699417295.404702,VS0,VE120
+
+{"code":404,"message":"HTTP 404 Not Found"}
+
+
+http://publishing-api.livestream.com:80

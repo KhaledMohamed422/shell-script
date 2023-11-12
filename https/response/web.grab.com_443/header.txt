@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: web.grab.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 9
+Cache-Control: no-cache,no-store,must-revalidate
+Content-Security-Policy: default-src 'self'; script-src 'self' https://*.googleapis.com https://*.gstatic.com https://*.googletagmanager.com https://*.google-analytics.com 'sha256-S+Ug9UJ5aGyN/pR0q9+dAgtnXBhPRSEEmYEfhHGQjs0=' 'sha256-HLpGDZHPO56tmwa3rVmYn7DqxtCq4qw/Pg2p2EuyLwQ='; img-src data: 'self' https://*.googleapis.com https://*.gstatic.com https://d1hl8xn407evp1.cloudfront.net https://myteksi-stg.s3.amazonaws.com https://myteksi.s3.amazonaws.com; style-src 'self' https://*.googleapis.com 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-/4YlUlisxufO6wbKvYp4xV8Hkzxm85+1Tb31SjmAox0=' 'sha256-a2VR/Wq1VPr0+3GRY+lEmAQm7wjwwnDtPpcCPs2zTrw=' 'sha256-/VVOq+Ws/EiUxf2CU6tsqsHdOWqBgHSgwBPqCTjYD3U=' 'sha256-2WQZQFa8KGAig8CPptpS8JDqetQ2jb5arMlI6fTGWiU=' 'sha256-g9aHNH7iF2hhGZYtVVd5mKQSnyLPmXWw5gwiuxBVonI=' 'sha256-VjKqXV9i0mo5RzxvaQpz7qQA91PkjLVqLQGYNI4Cc/I='; font-src 'self' https://at.alicdn.com https://fonts.gstatic.com; child-src 'none'; worker-src 'self'; connect-src 'self' https://api.stg-myteksi.com https://portal.stg-myteksi.com https://api.grab.com https://portal.grab.com https://*.google-analytics.com; object-src 'none'; frame-src 'self' https://*.gstatic.com https://*.googletagmanager.com; frame-ancestors 'none'
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:47:07 GMT
+Etag: W/"d8c93a4bdeb2c208768f9188ff7f5c77"
+Last-Modified: Wed, 25 Nov 2020 06:57:55 GMT
+Server: AmazonS3
+Strict-Transport-Security: max-age=86400; includeSubDomain
+Vary: Accept-Encoding
+Via: 1.1 9ab847fabb8c9edbd39cff57c2a2f4c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZVdE_tRQ0qvQUx12o1LxvGwnpg9_FkKOOEjyCdtYigCVmNwf8Ugp7A==
+X-Amz-Cf-Pop: FRA50-C1
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+X-Frame-Options: sameorigin
+
+638

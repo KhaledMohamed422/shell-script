@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: support.betfair.es:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cb71e8f27a55-DUS
+Date: Tue, 07 Nov 2023 18:56:10 GMT
+Expires: Tue, 07 Nov 2023 19:56:10 GMT
+Location: https://support.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=25IU2b1NQR1%2FdR2KPsZVOxSW1ObEpwqYRLCP%2FLW3UUO9UL20MT4DlMz9zlr4MxGamOKHZ2S7QHvDkWYbXMNygVibEyDCTYN5sOFf8M7UVwGmRWQw7%2ByVaE9i1rVcc39nRHCO%2BVBCMynz"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=D7zuJrKkpXfhKc4YmW354a1.DjIH7OPaOPLgsMDsexM-1699383370-0-AaytkFJKZ6+Irt5qh5/tdKKbzYF69KsTxIoEBsFJa9S4ZFYbpVAagThEhZ08mIP4HUjeKxpdMoqA09ZWPnwZku0=; path=/; expires=Tue, 07-Nov-23 19:26:10 GMT; domain=.betfair.es; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://support.betfair.es:8080

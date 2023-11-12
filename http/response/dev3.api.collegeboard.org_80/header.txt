@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: dev3.api.collegeboard.org
+User-Agent: Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.2; U; de-DE) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.40.1 Safari/534.6 TouchPad/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 596 596
+Connection: close
+Content-Length: 30
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 17:16:13 GMT
+Server: Mashery Proxy
+X-Mashery-Error-Code: ERR_596_SERVICE_NOT_FOUND
+
+<h1>596 Service Not Found</h1>
+
+
+http://dev3.api.collegeboard.org:80

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: dev.criteo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Accept-Ranges: bytes
+Age: 79735
+Cache-Control: public, max-age=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:42:00 GMT
+Location: https://dev.criteo.com/
+Server: nginx
+Vary: Cookie, Cookie
+Via: 1.1 varnish, 1.1 varnish
+X-Cache: HIT, HIT
+X-Cache-Hits: 16, 1
+X-Pantheon-Styx-Hostname: styx-fe4-b-5f789cc6cc-x6zdf
+X-Served-By: cache-chi-kigq8000049-CHI, cache-fra-eddf8230065-FRA
+X-Styx-Req-Id: 12b5076d-7cec-11ee-a726-ceabca648f7c
+X-Timer: S1699386121.981574,VS0,VE2
+

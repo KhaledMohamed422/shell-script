@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: acc.vhx.tv
+User-Agent: Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b248c3fe27178-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:41:17 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699418477&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=MyUwPWvIH49PBMrCvP7WzCoMiXGKo8YAxsqk%2FbwEp2U%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699418477&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=MyUwPWvIH49PBMrCvP7WzCoMiXGKo8YAxsqk%2FbwEp2U%3D
+Server: cloudflare
+Set-Cookie: _session=SzR1TE9abkphRzRvRWRqSW1pNXViL0dhOHdhVXQrSkV6VFh4RDZoU1FHaUlnbTNZUGJEaFdqekFob2FGdmNjQkZXWFJ2VVNqRExZSHkvMVlmWDVIUzFmUXZsSGNLeDU2K2FSZmRhZXBVUkxLSnJPVi9GQ0pXcEVFUTMwNnhCN1NDQzlxbHJOUXovWGVWdFkrRmlLSFJ3VWx4aGl4Mkdia2JJYytuMGtQYVpQNklXUys0c1k3VkNzc1ZQQmd0a1dOLS15ckYraUNLaGNTRDNjWVV2L29KY3pRPT0%3D--14dbb90a4c7716fe38a75c8ab8be4715935a2563; domain=.vhx.tv; path=/; expires=Fri, 08 Nov 2024 04:41:17 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: __cf_bm=Jd62y98.slIa6s4peQ3C_iZp7a6gTNJPX61.pEZ6ay4-1699418477-0-AZJyzZOSBy7D3nCOa7iu3OiqeUHnLG64MLtPQnqfwyV3+Qyd3hjeaeMMK4aaGM71gIxduMXRl3W/gp31wRhmoPQ=; path=/; expires=Wed, 08-Nov-23 05:11:17 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 200 OK
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: 8739c45f-fd06-4bba-aa41-549c19de29d1
+X-Runtime: 0.175076
+X-Xss-Protection: 1; mode=block
+
+13a5a

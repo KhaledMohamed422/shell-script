@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: avtrajectories-staging.lyft.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:01:45 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9hdnRyYWplY3Rvcmllcy1zdGFnaW5nLmx5ZnQubmV0LyIsICJzdmMiOiAiKi5seWZ0Lm5ldCJ9%7C10.44.252.105%7C1699394505%7C7f3e7f20d0d28da060c0b755f1de8390e419f974a17e6805e935d9fd8212f0ff
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 2
+

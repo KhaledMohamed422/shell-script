@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: www.whatnot.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.9.1b3) Gecko/20090429 Firefox/3.1b3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b4f637bbc717e-DUS
+Content-Security-Policy: frame-ancestors https://*.whatnot.com 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 05:10:32 GMT
+Server: cloudflare
+Set-Cookie: whatnot-app-session-id=13f06e53-59af-4a1d-9737-1f745ef2a2d2; Path=/
+Set-Cookie: __cf_bm=lFBcwh5oTpdtWDQCGt_lMjxBaP6xiYhCMQhVNbp93nk-1699420232-0-ATv9qyW6GWpa/x7P/3HtpnBopnZE0+jX2Jt97/NROQL0dJgpNlOJoB6jWM2587l7aaZE2LOB/8Byo1FPixeLpQo=; path=/; expires=Wed, 08-Nov-23 05:40:32 GMT; domain=.whatnot.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+33ea

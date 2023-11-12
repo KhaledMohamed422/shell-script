@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: assets.saytechnologies.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6120c/3.70; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=60
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:22:13 GMT
+Server: AmazonS3
+Via: 1.1 f038e7175be9761825b2eefc2b0a832e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: f0Gjq5fCYHs3-9bBewEEJ2yIa14vvUSAL1UJIMFnKYak_0ZVgtBGzA==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>X5V93Z16ND6D0DQZ</RequestId><HostId>4DVn8H/w4HpkgxBPjXfUvuzvtagW19FKcLjiACmL/Q0scQgbuqdml2tFNU2jOvdrgnqDlGCeT7TF7URbVm0qrPS7xdHu28iyNQ6enapsSd8=</HostId></Error>
+0
+
+
+
+
+https://assets.saytechnologies.com:443

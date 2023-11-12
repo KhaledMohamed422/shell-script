@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: assets.betfair.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ba410ad51621-DUS
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 18:44:26 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JgbN950bMFoNsgvfCxLET%2FL8desn2D3uWaSptnG3u0CgrBR98aeEqbiz2XMRhmf%2BaEU6cSDyh9vxkyixhQlATLhFXj1UkkWtHV4jMipb2Fl4ZUfh9bVWQA3I71a1vKafqWsDDw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+244

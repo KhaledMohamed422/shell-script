@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: go.duckduckgo.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-US) AppleWebKit/534.13 (KHTML, like Gecko) Chrome/9.0.597.15 Safari/534.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:28:16 GMT
+Location: https://use-login.duckduckgo.com/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9nby5kdWNrZHVja2dvLmNvbS8iLCAic3ZjIjogImdvLmR1Y2tkdWNrZ28uY29tIn0%3D%7C161.97.145.139%7C1699410496%7Cc68393aa2caa6e938278ba8bab129b717cfdf446cba8a56d6aec8a6b344447a9
+Server: Duo/1.0
+Strict-Transport-Security: max-age=31536000
+

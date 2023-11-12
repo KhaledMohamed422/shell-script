@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: result2-frankfurt.cdn.magisto.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:02:10 GMT
+Server: AmazonS3
+Via: 1.1 e5b747ffd1713cb17ddd7d55234a3300.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-central-1
+X-Amz-Cf-Id: XZAB8GRYfPkyBNWIaTalSsrrlk8pyDm3j7-RF7-3Yg1SG-0MSEcIMQ==
+X-Amz-Cf-Pop: FRA2-C2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>X9TEC7Y3F4KHMY3M</RequestId><HostId>byB1hd09OlvWrX+yBxIEIVcW4WA4uyt0ycy8HOhEpxjQl824x1mRoPUs0wCQlsEqmn/7vIuPkAU=</HostId></Error>
+0
+
+
+
+
+https://result2-frankfurt.cdn.magisto.com:443

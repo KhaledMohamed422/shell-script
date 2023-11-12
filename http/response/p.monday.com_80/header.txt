@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: p.monday.com
+User-Agent: Download Demon/3.5.0.11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822cb3c369c1cb19-DUS
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:13:49 GMT
+Ki-Cache-Type: None
+Ki-Cf-Cache-Status: BYPASS
+Ki-Edge: v=20.2.4;mv=2.4.2
+Ki-Origin: g1p
+Location: https://p.monday.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tLFVpe%2BJzsOrsyVReVX3h1WQzoTF6khVA6O3C1UISFq1V3jIoriEu4xBha%2Fq2ymimxmsMa0MqUl05w8kSl7HGNfonLt9jqUC7WrJDog47JjCuEJUb337Xo%2BDzMwSlA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Edge-Location-Klb: 1
+

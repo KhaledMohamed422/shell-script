@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: info.tradingview.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 04:54:29 GMT
+Server: AmazonS3
+Via: 1.1 89c822bb1ce1445a7be6d1057088cfbe.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-2
+X-Amz-Cf-Id: -wbxDMnqpyDpNT861TlSEeVtnCkaqPK5yjFjQQRm8FBWGkro5LxP9w==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2CB55NSPV1GPJJ35</RequestId><HostId>btspjrLPySsqxWSVnH7UMV+yBsCPaPe50gtePqhVx3IjlACkls8EQgAt7qQkjDN6nvNVf70VWCw=</HostId></Error>
+0
+
+
+
+
+https://info.tradingview.com:443

@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: prod-psapi.infra-ext.activision.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 189
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 05:00:54 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"timestamp":"2023-11-08T05:00:54.893+00:00","path":"/","status":404,"error":"Not Found","requestId":"b48eb3f8-1556468","exception":"org.springframework.web.server.ResponseStatusException"}
+
+
+https://prod-psapi.infra-ext.activision.com:443

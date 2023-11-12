@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: dl.kgth.garenanow.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Pixel Build/NHG47N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 97
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:08:53 GMT
+Server: OBS
+X-Cache-Lookup: Cache Miss
+X-Cache-Lookup: Hit From Inner Cluster
+X-Cache-Lookup: Cache Miss
+X-Nws-Log-Uuid: 16217470310050105816
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSXo+CDwn0oJ7caTs4PQ4mml/ZfGpWav
+X-Obs-Request-Id: 0000018BAB30090A9814BD697D62D7D0
+X-Oef-Request-Id: 65323563366538376432613a32342e32303a6530
+X-Request-Id: 0000018BAB30090A9814BD697D62D7D0
+X-Reserved-Indicator: 372
+
+{"message":"Object not found","code":"SYS.0015","request_id":"0000018BAB30090A9814BD697D62D7D0"}
+
+
+
+http://dl.kgth.garenanow.com:8080

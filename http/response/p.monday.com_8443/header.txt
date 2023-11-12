@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: p.monday.com:8443
+User-Agent: Mozilla/5.0 (iPad; CPU OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) Mobile/12A405 Version/7.0 Safari/9537.53
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:13:49 GMT
+Server: cloudflare
+

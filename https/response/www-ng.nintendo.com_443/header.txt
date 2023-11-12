@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www-ng.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SM-G930F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 425
+Accept-Ranges: bytes
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:46:37 GMT
+Retry-After: 0
+Server: Varnish
+Strict-Transport-Security: max-age=31557600
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-fra-eddf8230110-FRA
+X-Timer: S1699472797.365376,VS0,VE1
+
+
+<?xml version="1.0" encoding="utf-8"?>

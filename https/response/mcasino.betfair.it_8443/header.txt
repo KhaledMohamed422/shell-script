@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: mcasino.betfair.it:8443
+User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(40) fusion) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227ccd90ec76a85-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:08 GMT
+Expires: Tue, 07 Nov 2023 18:57:23 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pz8JsWUAQtHZ8fMwUSTIAVFp%2BgEAQ%2Bf7acoKKMDVT8tPWgbiLTHIJdy7q1WHZ0HNy1HESxvLlKL7DDBgj4va1PFi9vK9%2FSHUnOrsRJxI3GHnCcrqyzIY%2FRbm%2FrmSwyHwhVj%2FmxKJxSuj"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=9lIF1bY8YRLKcrihTu7rzvOtTeD5mdLQly4he53Gbzs-1699383428-0-AV8BePmSYWK+3NS1gSdQYIQ0aIvoPLy5d2dJzg8LWmQP0x39hWNxzk2G6Pr8qDWdA1L8aA3aRdoTctBy9BS18Js=; path=/; expires=Tue, 07-Nov-23 19:27:08 GMT; domain=.betfair.it; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+c97

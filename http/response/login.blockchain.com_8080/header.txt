@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: login.blockchain.com:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82277e8c3cb721bd-DUS
+Content-Security-Policy-Report-Only: script-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=2xFPeNS1UxLBBAeReDp213WO5PVkWELiHT88d6z2B.w-1699380220-0-AXMZYOSfgZ9q14GeZwgLkuEAyB11NLn6dABhnWI0vSTt3cRptMyMXEZby8wX4Q7S4D8CyUeMjcCLEY_A7eaWTKUvd3nh5ffoJ6gqVVzlZMISCNQxiU47XceAaE10IwAoDk4uTNqIrQ3CEU7LQsmA8OT0th6FPo0SMf4_IcSLoP2Y; report-to cf-csp-endpoint
+Date: Tue, 07 Nov 2023 18:03:40 GMT
+Expires: Tue, 07 Nov 2023 19:03:40 GMT
+Location: https://login.blockchain.com/
+Report-To: {"endpoints":[{"url":"https:\/\/csp-reporting.cloudflare.com\/cdn-cgi\/script_monitor\/report?m=2xFPeNS1UxLBBAeReDp213WO5PVkWELiHT88d6z2B.w-1699380220-0-AXMZYOSfgZ9q14GeZwgLkuEAyB11NLn6dABhnWI0vSTt3cRptMyMXEZby8wX4Q7S4D8CyUeMjcCLEY_A7eaWTKUvd3nh5ffoJ6gqVVzlZMISCNQxiU47XceAaE10IwAoDk4uTNqIrQ3CEU7LQsmA8OT0th6FPo0SMf4_IcSLoP2Y"}],"group":"cf-csp-endpoint","max_age":86400}
+Server: cloudflare
+Set-Cookie: __cfruid=238f9f7d3a5721a5de1d848a46c8e983278da306-1699380220; path=/; domain=.blockchain.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://login.blockchain.com:8080

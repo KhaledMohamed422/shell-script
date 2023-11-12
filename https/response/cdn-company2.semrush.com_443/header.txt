@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: cdn-company2.semrush.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G998U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 111
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private, max-age=0
+Content-Type: application/xml; charset=UTF-8
+Date: Wed, 08 Nov 2023 07:12:47 GMT
+Expires: Wed, 08 Nov 2023 07:12:47 GMT
+Server: UploadServer
+X-Guploader-Uploadid: ABPtcPoU26B82jmlc-JRxx9JmRHYRkWyWSqPNvbb_DLwZJgJH6w5T2MFVQ0rNF7b3Hdl6FCxUbf7nxwc5Z-cfbgGsjWwSg
+
+<?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message></Error>
+
+
+https://cdn-company2.semrush.com:443

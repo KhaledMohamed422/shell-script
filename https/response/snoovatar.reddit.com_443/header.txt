@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: snoovatar.reddit.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 2.0; en-us; Milestone Build/ SHOLS_U2_01.03.1) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Accept-Ranges: bytes
+Content-Security-Policy: default-src 'self'; form-action 'none'; font-src 'self' *.redditmedia.com *.redditstatic.com; frame-ancestors 'self' *.reddit.com *.snooguts.net; frame-src 'self' *.reddit.com *.snooguts.net; connect-src 'self' i.redd.it wss://*.wss.redditmedia.com; img-src 'self' www.redditstatic.com i.redd.it data:; style-src www.redditstatic.com; script-src www.redditstatic.com;report-to w3-reporting-csp;report-uri https://w3-reporting-csp.reddit.com/reports;
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:41:57 GMT
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: envoy
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 2
+X-Reddit-Backend: 91169809dee8653b7cfd9aa761b8d69116b7433762e44c80210a1ba6eda3
+X-Reddit-Pod-Ip: 10.110.96.201:9090
+X-Xss-Protection: 1; mode=block
+
+404 Not Found
+
+The resource could not be found.
+
+
+/
+
+
+
+
+https://snoovatar.reddit.com:443

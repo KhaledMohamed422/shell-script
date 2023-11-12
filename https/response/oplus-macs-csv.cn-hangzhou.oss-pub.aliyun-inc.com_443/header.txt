@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: oplus-macs-csv.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 383
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:12:39 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B5F17E3367F3134755F8D
+X-Oss-Server-Time: 11
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B5F17E3367F3134755F8D</RequestId>
+  <HostId>oplus-macs-csv.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+https://oplus-macs-csv.cn-hangzhou.oss-pub.aliyun-inc.com:443

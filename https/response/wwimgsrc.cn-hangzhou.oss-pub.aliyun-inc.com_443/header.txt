@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: wwimgsrc.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux i686 on x86_64; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 372
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:34:51 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B644BB09677393301F3E7
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B644BB09677393301F3E7</RequestId>
+  <HostId>wwimgsrc.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://wwimgsrc.cn-hangzhou.oss-pub.aliyun-inc.com:443

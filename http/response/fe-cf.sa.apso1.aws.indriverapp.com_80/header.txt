@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: fe-cf.sa.apso1.aws.indriverapp.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.3; Linux) KHTML/4.3.1 (like Gecko) Fedora/4.3.1-3.fc11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 07 Nov 2023 18:02:46 GMT
+Location: https://fe.sa.apso1.aws.indriverapp.com/
+Server: istio-envoy
+Via: 1.1 a823be133adad65df6d3bf471a742792.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Gs4Kq-tTeXrMZBEIIGwWtw0RMy_CJ7zl4GyeZBTSLesmLLynOwXDUg==
+X-Amz-Cf-Pop: FRA56-P4
+X-Cache: Miss from cloudfront
+Content-Length: 0
+
+
+
+
+http://fe-cf.sa.apso1.aws.indriverapp.com:80

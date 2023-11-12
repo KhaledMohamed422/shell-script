@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: www.paddypartners.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b9954cf521a5-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:58 GMT
+Expires: Tue, 07 Nov 2023 18:44:13 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dh6a44cEDr8TKnDZ9uCft9ZJo8c4MN2gGvIJg14Vy2HtIDmZb4L4FT%2FEwXNzfxscArwzCcsAnYogGSwLG6JobyfzT7IwK0jTyR%2BO6vkFmBIdMM%2B6xr4aoKCUTC33xG0DKSsunGKAgMjPXu%2Fb"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ojfXuVG9F3LZkF.XVulk9dp8b8sg3wNfTLFjOHiy8uU-1699382638-0-Af2tSdxhj99zltcMwNC4yt5bn+9KabaOZL2/rjaMfu7OApzofFhmkug+0WS46TCxZoOGIT2YMjKQDWd6dObiinc=; path=/; expires=Tue, 07-Nov-23 19:13:58 GMT; domain=.paddypartners.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+15ec

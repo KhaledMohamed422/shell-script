@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: sitapim-api.lahitapiola.fi
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:24.0) Gecko/20100101 Firefox/24.0 SeaMonkey/2.21
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Resource Not Found
+Connection: close
+Content-Length: 54
+Access-Control-Allow-Credentials: true
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:29:26 GMT
+Request-Context: appId=cid-v1:970f2b92-1f0f-42af-8a46-e6ba60695747
+
+{ "statusCode": 404, "message": "Resource not found" }
+
+
+https://sitapim-api.lahitapiola.fi:443

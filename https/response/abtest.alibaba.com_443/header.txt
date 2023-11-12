@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: abtest.alibaba.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:40:45 GMT
+Eagleeye-Traceid: 211b458d16994364447987360e10c4
+Etag: W/"238-1696904879000"
+Expires: 0
+Pragma: no-cache
+Server: Tengine
+Strict-Transport-Security: max-age=0
+Ups-Target-Key: ant.2023-02-06-16-40
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Protocol: HTTP/1.1
+X-Xss-Protection: 1; mode=block
+
+238
+

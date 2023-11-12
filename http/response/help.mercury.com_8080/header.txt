@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.mercury.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.147 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a58802dba1623-DUS
+Date: Wed, 08 Nov 2023 02:21:59 GMT
+Expires: Wed, 08 Nov 2023 03:21:59 GMT
+Location: https://mercury.com/help-redirect/
+Server: cloudflare
+Set-Cookie: __cf_bm=4Ic.IMrHT.mU1di2aweHn0MsbrmTUyU3V4Jvh9MZ4bY-1699410119-0-Acz1Q3Dd4Mus2j5ODC7gRc0GiStuYoV3uey2B0vJZ1Xv5cRPe6iSadzgNYFRi7I6SNGTGM9JvsoeKvnzK7P4BYA=; path=/; expires=Wed, 08-Nov-23 02:51:59 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://help.mercury.com:8080

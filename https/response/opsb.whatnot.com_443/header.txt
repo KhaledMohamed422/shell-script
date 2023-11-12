@@ -1,0 +1,36 @@
+GET / HTTP/1.1
+Host: opsb.whatnot.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b3fb45899fb5c-DUS
+Content-Security-Policy: default-src 'none'; connect-src 'self' https:; script-src 'self'; img-src 'self' data: https://w3.org; style-src 'self'; frame-ancestors 'none'; form-action 'none'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:59:50 GMT
+Expires: 0
+Location: /app/
+Referrer-Policy: no-referrer
+Request-Id: cl5hbhgdivnfpg2amihg
+Server: cloudflare
+Set-Cookie: __cf_bm=PAPHllIZvtgLjUOItIrAb95napLrVQMcjS8lLg20UgU-1699419590-0-ATNkX1ww4LEmZ/9eHoegsJth48j4kjtRo+5ADBfwtQAKyL9MaKqr9YzOnxefzkfWGWSOS4o1a+IaLdEVCeR5jmc=; path=/; expires=Wed, 08-Nov-23 05:29:50 GMT; domain=.whatnot.com; HttpOnly; Secure; SameSite=None
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Robots-Tag: none
+X-Xss-Protection: 1; mode=block
+
+29
+<a href="/app/">Temporary Redirect</a>.
+
+
+0
+
+
+
+
+https://opsb.whatnot.com:443

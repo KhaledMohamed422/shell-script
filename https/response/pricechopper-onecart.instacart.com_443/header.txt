@@ -1,0 +1,37 @@
+GET / HTTP/1.1
+Host: pricechopper-onecart.instacart.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A505G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 51
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274bc98fb9cb22-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:01 GMT
+Expect-Ct: max-age=0
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Location: https://shop.pricechopper.com
+Pragma: no-cache
+Server: cloudflare
+Set-Cookie: ahoy_visit=9fede70b-1f6f-4df3-aaae-d6f9664aa803; Path=/; Expires=Tue, 07 Nov 2023 21:29:01 GMT; SameSite=Lax
+Set-Cookie: ahoy_track=true; Path=/
+Set-Cookie: ahoy_visitor=dd8b0b48-d899-436c-b22d-cc78f9ded803; Max-Age=63072000; Path=/; Expires=Thu, 06 Nov 2025 17:29:01 GMT
+Set-Cookie: __cf_bm=mLKntKkIPnEANAe8FoViIekUcmSs.kNZhTJb.trH8WM-1699378141-0-AdKOUui1t05/CBCh7Yz7aFnpH0x1Jr4bh0457qZT+37GJY7zjpU+aowN/kIGuTFXUGGp/nHwE8AgkqT3wXh/Foo=; path=/; expires=Tue, 07-Nov-23 17:59:01 GMT; domain=.pricechopper-onecart.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://shop.pricechopper.com
+
+
+https://pricechopper-onecart.instacart.com:443

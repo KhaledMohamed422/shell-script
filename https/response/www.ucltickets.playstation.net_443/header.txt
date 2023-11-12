@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: www.ucltickets.playstation.net
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Allow: GET, POST
+Cache-Control: no-store, private
+Cache-Control: no-cache, no-store
+Content-Security-Policy: connect-src 'self' uclticketplay-pri.s3.eu-west-2.amazonaws.com uclticketplay.s3.eu-west-2.amazonaws.com; default-src 'self' uclticketplay-pri.s3.eu-west-2.amazonaws.com; font-src 'self'; form-action 'self'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/; img-src 'self' data: uclticketplay-pri.s3.eu-west-2.amazonaws.com uclticketplay.s3.eu-west-2.amazonaws.com; script-src 'self' data: https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline'
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: unsafe-none
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: cross-origin
+Date: Tue, 07 Nov 2023 23:34:17 GMT
+Permissions-Policy: accelerometer=(self), ambient-light-sensor=(self), autoplay=(self), battery=(self), camera=(self), cross-origin-isolated=(self), display-capture=(self), document-domain=*, encrypted-media=(self), execution-while-not-rendered=*, execution-while-out-of-viewport=*, fullscreen=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), midi=(self), navigation-override=(self), payment=(self), picture-in-picture=*, publickey-credentials-get=(self), screen-wake-lock=(self), sync-xhr=*, usb=(self), web-share=(self), xr-spatial-tracking=(self)
+Referrer-Policy: same-origin
+Server: nginx
+Set-Cookie: AWSALB=HgKgSEL7B1sodJhET4UkUgquD8UjH8VcYAZf6jIpq9rt/AvTHpm0X2XQkyhtz0AoQlOoimALjjfOYkHvJln9h+PiMLIGbxiWp7AEhhjSljaWbJ8zQ4VAB9kP1gKK; Expires=Tue, 14 Nov 2023 23:34:17 GMT; Path=/
+Set-Cookie: AWSALBCORS=HgKgSEL7B1sodJhET4UkUgquD8UjH8VcYAZf6jIpq9rt/AvTHpm0X2XQkyhtz0AoQlOoimALjjfOYkHvJln9h+PiMLIGbxiWp7AEhhjSljaWbJ8zQ4VAB9kP1gKK; Expires=Tue, 14 Nov 2023 23:34:17 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IjdCNElJd0Y1YmsrVnIxcndXMGJaMXc9PSIsInZhbHVlIjoid3Rsd3lQdUlsNDZSSXZZWml4d3BqK1RlMFB6S2grSXhUR1lrd3NSaXYrVkNQZG9NMWJBT0lwVVlDejNzOWNZY3pmeUdEUEEzSHMvTFAwaEFvMDQ4MjRDODVHRnlKZUNXL0p0R0hPdHFwbXdkaTZFVDFmTGdGeUVEb3lTTGJ4QXQiLCJtYWMiOiI4MjQ3MGE5N2FiODZkOGRjMDk3N2M4MTgzYzUxMmI3ZDAwOThkNGViNmE3MTVkOWFkYWQwMmVjN2VlMzkwZmFiIiwidGFnIjoiIn0%3D; expires=Wed, 08 Nov 2023 01:34:17 GMT; Max-Age=7200; path=/; secure; samesite=lax
+Set-Cookie: playstation_ucl_ticket_portal_session=eyJpdiI6ImFCUldVTC90elRnZEp1c1hMbEhrS2c9PSIsInZhbHVlIjoiYnRPZ0JlZ1g5SnFDWXNFNDFpWU03dnJqMmd4ejVHVEJ4VCtlbUVPMndMNG5YZHVjUXN4NjVjVFJ1a1dieTl4Sy9zRm13MXd4U0xwdDZrWldhZkM5QWI5ZStiRFhxMDNLUU1wdjNRbUJVcDhjSGlrNW1xaVgxZTR1RlI1TVA1a1EiLCJtYWMiOiJkNGQ2Y2Q0ZjMwMGEzOWIxMmY5M2VlZmRhZDM0YmMyZmZlMmNkYmZmYTliZjg1NTRkZTUzZGVkOWMzNTU2ODc0IiwidGFnIjoiIn0%3D; expires=Wed, 08 Nov 2023 01:34:17 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 1; mode=block
+
+1352

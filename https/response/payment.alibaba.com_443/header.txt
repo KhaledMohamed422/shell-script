@@ -1,0 +1,42 @@
+GET / HTTP/1.1
+Host: payment.alibaba.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.9999.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Expose-Headers: Date,x-fc-request-id,x-fc-error-type,x-fc-code-checksum,x-fc-invocation-duration,x-fc-max-memory-usage,x-fc-log-result,x-fc-invocation-code-version,x-fc-instance-id
+Bq-Traceid: 212b0b9316994385910758869e9784
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 10:16:31 GMT
+Eagleeye-Trace-Id: 212b0b9316994385910758869e9784
+Eagleid: 212b0b9316994385910758869e9784
+Server: Tengine
+Server-Timing: rt;dur=0.203,eagleid;desc=212b0b9316994385910758869e9784
+Set-Cookie: _tb_token_=5yToSlGScb5x9KJYGdZ8vblG; path=/; domain=.alibaba.com; secure
+Set-Cookie: acs_usuc_t=acs_rt=23e082f16aae-4ac8-aad0-a0d831059221; path=/; domain=.alibaba.com; samesite=none; secure
+Set-Cookie: xman_t=G49n7tq5+UwM+5FZaP16E4ccrcpGAQFVzo1gVKCz35LvDnSih6h5vG7WgYx+Wx2G; path=/; domain=.alibaba.com; samesite=none; secure; httponly
+Set-Cookie: xman_f=G49n7tq5+Uys8GyMgxNCGAjAfT5ytq3xE9/ofHzwoPQnt4A0wiWUp4Ku2GAlXL6zAwoJhspghYYhdvJBG/vfFuSdIcD4lClqIJ3/Hf9/y8gs9JYay172Hw==; path=/; max-age=2147484; expires=Sun, 03 Dec 2023 06:47:54 GMT; domain=.alibaba.com; samesite=none; secure; httponly
+Set-Cookie: xman_us_f=x_l=1; path=/; max-age=2147484; expires=Sun, 03 Dec 2023 06:47:54 GMT; domain=.alibaba.com; samesite=none; secure
+Set-Cookie: intl_common_forever=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=.alibaba.com; samesite=none; secure; httponly
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Fc-Code-Checksum: 12402845132231809762
+X-Fc-Instance-Id: c-654b4c6f-fd4fa7bdce59479e9e06
+X-Fc-Invocation-Duration: 197
+X-Fc-Invocation-Service-Version: 130
+X-Fc-Max-Memory-Usage: 0.00
+X-Fc-Request-Id: 1-654b5fff-4e746937198dea98669e1c13
+X-Frame-Options: SAMEORIGIN
+X-Readtime: 189
+X-Xss-Protection: 1; mode=block
+
+c0cc
+

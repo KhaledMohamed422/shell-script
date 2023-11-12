@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: cdn.test.dev.kes.kindredext.net
+User-Agent: Mozilla/5.0 (Windows; U; ; en-NZ) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.8.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 134
+Age: 23982
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 15:22:20 GMT
+Location: https://test-lb-133784930.eu-central-1.elb.amazonaws.com:443/
+Server: awselb/2.0
+Via: 1.1 b25bc331cb2e5e7e25d9488f5ecdc940.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hg4cMTzN2KI0DJqpdkUQkNp5LrFzqGE4DdOwkeJMYxjNUHgqMU-H0w==
+X-Amz-Cf-Pop: FRA56-C2
+X-Cache: Hit from cloudfront
+

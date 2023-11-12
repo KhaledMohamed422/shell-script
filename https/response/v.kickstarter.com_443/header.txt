@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: v.kickstarter.com
+User-Agent: Googlebot-News
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 38
+Cf-Ray: 82274da10992161f-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 17:30:17 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=szO_js43c9E3y6pNHGp6HMYE0aYcSEx9JUhuGSTCZnM-1699378217-0-AVNCTWypcgfCgxK7nURik1e47cjKGVSDEv5fF26dzAnMhaUT0H9HReM1fT50y865Qlk4y5PB0Xyqc1LO844jEyE=; path=/; expires=Tue, 07-Nov-23 18:00:17 GMT; domain=.kickstarter.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+
+{"Message":"Missing HMAC in URL path"}
+
+
+https://v.kickstarter.com:443

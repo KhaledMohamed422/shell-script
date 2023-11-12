@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: assets.grab.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; DN2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:18:02 GMT
+Server: AmazonS3
+Via: 1.1 1c7275102c069b3b4bff7bcc191ded2e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: ap-southeast-1
+X-Amz-Cf-Id: L6K2QzGK4jIvHoztOZY6PMwmkG7BuzVvXS397A71CLfPyl_vcKecPQ==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>K2J2MC1EAV7F33DP</RequestId><HostId>9Po8GwN5iWEGKblUACoRsv+qgRMjwDY/jbyb0dpOX7KO6Z7QoPmZsu3wiflfvD6CGyqjdPJsTzU=</HostId></Error>
+0
+
+
+
+
+https://assets.grab.com:443

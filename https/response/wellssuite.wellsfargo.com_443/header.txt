@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: wellssuite.wellsfargo.com
+User-Agent: Opera/9.80 (Windows NT 5.1; U; zh-tw) Presto/2.8.131 Version/11.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Security-Policy: default-src 'none'; object-src 'self'; base-uri 'none'; form-action 'self' http://*.wellsfargo.com https://*.wellsfargo.com; img-src 'self' data: http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; script-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; style-src 'self' 'unsafe-inline' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; frame-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; frame-ancestors 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; font-src 'self' 'unsafe-inline' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com; connect-src 'self' http://*.wellsfargo.com https://*.wellsfargo.com https://*.wf.com;
+Content-Type: text/html; charset=iso-8859-1
+Date: Wed, 08 Nov 2023 19:46:01 GMT
+Set-Cookie: wellssuite_443_infra_2=!9Mp8j3oW8fJvmbwGaX/pFxEpLVdfipefRNxa+a+ThRwW/pdRd6doKKFErSlUFWyfiTghgwKK3HEw1vI=; path=/; Httponly; Secure
+Set-Cookie: wellssuite_443_infra_1=!t6r4ekStl1WPIokGaX/pFxEpLVdfit8c8EYUmWaFcdXz84lZEbn0d366XybiAqJ3ICC/nLGwFzywBwM=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<h1>Error 404</h1>
+
+
+https://wellssuite.wellsfargo.com:443

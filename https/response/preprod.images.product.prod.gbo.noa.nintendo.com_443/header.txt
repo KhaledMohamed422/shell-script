@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: preprod.images.product.prod.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (iPhone; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.25 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:37:31 GMT
+X-Amz-Apigw-Id: OGB7ZEvFvHcEDjg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 754ac7b3-8d4a-4bc6-989a-af18e04502ba
+X-Amzn-Trace-Id: Root=1-654be37b-7183a6fe42dc4f607e88e046
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://preprod.images.product.prod.gbo.noa.nintendo.com:443

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: testing.modernfertility.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8248e6719f8a1611-DUS
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Expires: Sat, 11 Nov 2023 20:21:46 GMT
+Location: https://testing.modernfertility.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://testing.modernfertility.com:8080

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: lb.iherb.com:8080
+User-Agent: Mozilla/5.0 (X11; CentOS; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822be9d95da67181-DUS
+Date: Wed, 08 Nov 2023 06:55:58 GMT
+Expires: Wed, 08 Nov 2023 07:55:58 GMT
+Location: https://lb.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=LJ_7bBakzBhpv28HzNIuVYJWehLECRKxMhxI.x7NY6Q-1699426558-0-AX6Dl9LC/n2xCzyWG1cw2ht3rLbzRCKDM3i9VlowWqH3Ozreriho0vm9gh2h3pxd+xEb3u5wOhIrXIEmZ8v2VlPeNUljfnwbzAp6OZTDVMpp; path=/; expires=Wed, 08-Nov-23 07:25:58 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://lb.iherb.com:8080

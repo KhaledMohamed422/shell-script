@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: myfunds.betfair.es
+User-Agent: Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227cce1d9be7a58-DUS
+Date: Tue, 07 Nov 2023 18:57:09 GMT
+Location: /error?loginReturnURL=%2F
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+P3p: CP='IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT'
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ubAZdYv3GpMDKv%2FuCH9iExK3dvlP8DM48PRd5p%2BJZ036XD0mwEZv81B5TzOf%2FcEbwHshZWVDnRctZkZ4giiFD5WrDFSaqcKRmzUzc5PB%2BBblC1ekRKCPcqgVY6y2ypPSYqQc6g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: wsid=74110a91-7d9f-11ee-92d8-fa163e7afd29; Domain=.betfair.es; Path=/
+Set-Cookie: vid=74110a92-7d9f-11ee-92d8-fa163e7afd29; Domain=.betfair.es; Expires=Wed, 06-Nov-2024 18:57:09 GMT; Path=/
+Set-Cookie: __cf_bm=ah98dmgIEXrOCTA7cAXO7VQHlhQ.4noCBkJYwwzA7CY-1699383429-0-AcwpzUV06gokdhFiLuyUXeshnEhagxWpTDK+7GdHdpLjuAZxBytPQ9CCFpylVyjygywpiWdvPhn0yP7CVYkn/Ls=; path=/; expires=Tue, 07-Nov-23 19:27:09 GMT; domain=.betfair.es; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://myfunds.betfair.es:443

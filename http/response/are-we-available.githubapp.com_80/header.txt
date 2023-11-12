@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: are-we-available.githubapp.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.15 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.613.0 Chrome/10.0.613.0 Safari/534.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:20:06 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3Da6bc51a2-8f6e-4daf-a78b-5c7c247403bc%26page_id%3D36210912%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=a6bc51a2-8f6e-4daf-a78b-5c7c247403bc; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: bcc316c5f00f7932367c0acec16e5d5f3c85012b
+X-Github-Request-Id: E35C:A6CE:62377C7:63EF5D8:654AF056
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230120-FRA
+X-Timer: S1699410007.725463,VS0,VE211
+

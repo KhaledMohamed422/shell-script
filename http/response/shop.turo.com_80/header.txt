@@ -1,0 +1,43 @@
+GET / HTTP/1.1
+Host: shop.turo.com
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82277f996a9ccb19-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:04:23 GMT
+Location: https://shop.turo.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EHDjuFRqK%2BL9mKDLqqUsncJig7GDr1K%2BbOmXaIr2hbO85NRRBiJ40nHyp4MGscKV6ZMF2ernlglyE5zIz0AAtr6EmuHq2nDrWn3khSJW%2Bd87aElfpC3eQ05EwLmssvI%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=7, db;dur=2, asn;desc="51167", edge;desc="DUS", country;desc="DE", pageType;desc="index", servedBy;desc="vd87", requestID;desc="ee5db003-7b53-4ce9-8a6a-3525f85bd305"
+Server-Timing: cfRequestDuration;dur=43.999910
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Redirect-Reason: https_required
+X-Request-Id: ee5db003-7b53-4ce9-8a6a-3525f85bd305
+X-Shardid: 172
+X-Shopid: 13422531
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 172
+X-Sorting-Hat-Shopid: 13422531
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+http://shop.turo.com:80

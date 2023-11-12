@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-26.apps.verygood.systems:8443
+User-Agent: Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:51 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

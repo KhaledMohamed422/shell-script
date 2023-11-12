@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: tickets.internal.fin.ag
+User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; LGMS323 Build/KOT49I.MS32310b) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.103 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Date: Tue, 07 Nov 2023 23:31:13 GMT
+Location: https://login.microsoftonline.com/72300c8a-a2d9-4945-aa3b-fd416c6849f7/oauth2/v2.0/authorize?client_id=87be3296-d498-48a6-b029-bf9eeccb29cc&response_type=id_token+code&redirect_uri=https://tickets.internal.fin.ag/signin-oidc/&response_mode=form_post&scope=openid+profile&nonce=908c3a86-bc73-42f6-8f83-f49e06120c22
+Set-Cookie: GOADOIDC=MTY5OTM5OTg3M3xOd3dBTkZOYVNGY3lWMWhHVUU1Q1YwWklVbEZNVmxaUlVWRkxUMGxMTWs5VFVsZExNMUJYV1VRelVGRkVNbGxMTlVJeVNWYzFUVkU9fJlaqneVOrlRIGuU1SXU3FZZKIvuDyEyybpbfcUx6lmo; Path=/; Expires=Thu, 07 Dec 2023 23:31:13 GMT; Max-Age=2592000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://tickets.internal.fin.ag:443

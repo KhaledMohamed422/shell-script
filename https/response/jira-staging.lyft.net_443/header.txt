@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: jira-staging.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.141 YaBrowser/22.3.3.852 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Security-Policy: frame-ancestors 'self'
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 22:03:29 GMT
+Location: /plugins/servlet/samlsso?redirectTo=%2F
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Set-Cookie: atlassian.xsrf.token=B6PJ-BJUS-1N5R-G7CP_e30d5a4c4efd1b0f304f6c230e788e325b0a5043_lout; Path=/; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000
+X-Arequestid: 843x420853x1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://jira-staging.lyft.net:443

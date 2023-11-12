@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: app-v1.finary.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c82cafce0c4d1-DUS
+Date: Wed, 08 Nov 2023 08:40:23 GMT
+Expires: Wed, 08 Nov 2023 09:40:23 GMT
+Location: https://app-v1.finary.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1;mode=block
+
+0
+
+
+
+
+http://app-v1.finary.com:80

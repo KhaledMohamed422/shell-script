@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: profiler.antibot.dev.fin.ag
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 14
+Content-Security-Policy: frame-ancestors 'self' https://*.private.fin.ag https://*.live.fin.ag https://*.dev.fin.ag https://*.flinks.io
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 23:26:39 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+
+Hello, Nagios!
+
+
+https://profiler.antibot.dev.fin.ag:443

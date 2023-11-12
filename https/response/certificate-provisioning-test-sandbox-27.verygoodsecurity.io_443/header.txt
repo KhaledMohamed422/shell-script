@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-27.verygoodsecurity.io
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 429 Too Many Requests
+Connection: close
+Content-Length: 156
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:52 GMT
+Server: nginx
+Vgs-Request-Id: 8298c43b6bc70aa7c2a7bc52cb8f0839
+Via: 1.1 reverse-proxy-01-6fdcccfc7f-kxfw4
+
+Rate limit reached. Please contact us (support@verygoodsecurity.com) in case you need to increase your limits. Request id: 8298c43b6bc70aa7c2a7bc52cb8f0839.
+
+
+https://certificate-provisioning-test-sandbox-27.verygoodsecurity.io:443

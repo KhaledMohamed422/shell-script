@@ -1,0 +1,11 @@
+GET / HTTP/1.1
+Host: my.cert.com
+User-Agent: Opera/7.51 (Windows NT 5.1; U) [en]
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 429 Too Many Requests
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+

@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: h3.speed.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 12; RMX3081) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 8227df274cd17a4c-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:09:37 GMT
+Etag: W/"index.426b5f8dab.html"
+Feature-Policy: none
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: unsafe-url
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KAsKXRmok%2FLykD6qKN6nAjTno1uRc0%2F63KiXwLipV7V3h4afJb05UunnxZf%2Bbb%2BMoQUZp1YkYTX%2FXgDKmGfLTKnq7xWr6zCvg1cQDxBkKjn2qd0PIRE3zF3sM2TO8vQHaiQajtMjpkRhEeqprIM%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=90.999842
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+c03

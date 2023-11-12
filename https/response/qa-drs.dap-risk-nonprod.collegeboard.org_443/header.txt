@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: qa-drs.dap-risk-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:11 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+Vary: Origin
+Via: 1.1 699bd7d370e4b5a92b0d886ffabffa5a.cloudfront.net (CloudFront), 1.1 7dc1e6ca5d933ea10694c61d8475b502.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCcMLHfboAMEPEg=
+X-Amz-Cf-Id: j1LavRz7Sa6NNmXJ7-OWwY2537nYFTEgCGdwoDo7qhH4LLgIIwgDfA==
+X-Amz-Cf-Pop: DUS51-P3
+X-Amz-Cf-Pop: DUS51-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 3991631f-f492-4c40-a5d5-7f25ab2db5a3
+X-Amzn-Trace-Id: Root=1-654a73e7-3a7ff33916661f392a5f11a1
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Missing Authentication Token"}
+
+
+https://qa-drs.dap-risk-nonprod.collegeboard.org:443

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: upload.twitter.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; rv:19.0) Gecko/20100101 Slackware/13 Firefox/19.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 410 Gone
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Type: text/plain;charset=utf-8
+Date: Tue, 07 Nov 2023 20:45:42 UTC
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938994226796275; Max-Age=34214400; Expires=Sat, 07 Dec 2024 20:45:42 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+Strict-Transport-Security: max-age=631138519
+X-Connection-Hash: b5b24bc33ac5314cadc82b2f0c7aa8e4886057e030b5da026ea1945170ccb588
+X-Response-Time: 99
+X-Transaction-Id: bf9887edae9a54c4
+
+The Twitter REST API v1 is no longer active. Please migrate to API v1.1. https://dev.twitter.com/docs/api/1.1/overview.
+
+
+
+https://upload.twitter.com:443

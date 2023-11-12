@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: app-offline.t14-pre-prod.callsign.com
+User-Agent: MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 162
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:30 GMT
+Server: awselb/2.0
+Via: 1.1 df327bd0c8709a81ade8602ac9ef16e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: s7ij_cxqd_eKcpIkTpMMRseywxw3Y1Ejj8-eJ2d4xYm7FINgWspBHw==
+X-Amz-Cf-Pop: FRA56-P7
+X-Cache: Error from cloudfront
+

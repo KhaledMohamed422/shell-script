@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: amp.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Alt-Svc: h3=":443"; ma=86400
+Cf-Ray: 8227dc5f185dcaf1-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:07:43 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hJP4MdLYzfRpis851s9fNtmhNYeeVB3PctEFSF0Id28ziFYB6JhJreQXrgoa1itRcnRcB7N6CMoOJmmsz5HoEgJpvsH48FMEumDexEaeKZu%2FI%2FQXMM0wUbP0LBQVp7ZurlP3vNjyT%2Byh"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=reRQp8RZ09rdnitY2AgoX.dOCoikFKCqHX2jHqs5Up8-1699384063-0-AZ7w5ihTdfkEU2cfvhuTCrSbe9Vxx3jjolzjythBYaViAQOrgBNMbOTo4t/vhgfvOcU8mSjqc75IzAW8SPtml/g=; path=/; expires=Tue, 07-Nov-23 19:37:43 GMT; domain=.cloudflare.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+Not found
+
+
+http://amp.cloudflare.com:8080

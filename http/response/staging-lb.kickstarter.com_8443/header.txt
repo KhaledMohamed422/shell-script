@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: staging-lb.kickstarter.com:8443
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 NokiaN95/10.0.018; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413 UP.Link/6.3.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:19:48 GMT
+Server: cloudflare
+

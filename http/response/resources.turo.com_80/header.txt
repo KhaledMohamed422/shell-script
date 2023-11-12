@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: resources.turo.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:04:18 GMT
+Server: AmazonS3
+Via: 1.1 d80c34bef63175e408b52241ca38d75e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: tx9-OlnI6kWIYIljX2mpLUBdS03WdFmM0NJAONG_FbavZlTnvUua8g==
+X-Amz-Cf-Pop: DUS51-P4
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>ZJ26C8XGGF6RTSX1</RequestId><HostId>NBn1kN/jup+kpuZnnYOl5UmxRVdPYIVBPPeewzTEj7ObjIOOc7wm1vl/nZhsKKpY56m+ALs3/Y0=</HostId></Error>
+0
+
+
+
+
+http://resources.turo.com:80

@@ -1,0 +1,41 @@
+GET / HTTP/1.1
+Host: lab2-test-hangzhou.alibaba-inc.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.11) Gecko/2009060215 Firefox/3.0.11 (.NET CLR 3.5.30729)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 747
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 08:57:02 GMT
+Eagleid: 65e21a9916994338225014263e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache75.l2cm10-9[9,0], vcache5.cn3775[31,0]
+X-Via: 172.16.230.73
+
+GET / HTTP/1.1
+X-Client-Scheme: http
+Ali-Cdn-AppView-Name: cdn-tengine
+Ali-Swift-Force-Ttl-Code: 400=0
+Host: src-china.finalexam.cn
+VIA: cn3775.l1, l2cm10-9.l2
+Ali-Swift-Origin-Host: src-china.finalexam.cn
+EagleEye-TraceId: 65e21a9916994338225014263e
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-GB; rv:1.9.0.11) Gecko/2009060215 Firefox/3.0.11 (.NET CLR 3.5.30729)
+Ali-CDN-Real-Port: 36928
+x-alicdn-da-via: 101.226.26.140,183.131.238.121
+Ali-CDN-Real-IP: 161.97.145.139
+Accept-Encoding: gzip
+Ali-Swift-LOG-Host: lab2-test-hangzhou.alibaba-inc.com
+Accept-Charset: utf-8
+Ali-Swift-Stat-Host: lab2-test-hangzhou.alibaba-inc.com
+X-Forwarded-For: 161.97.145.139
+Remote-Address: 47.114.215.95
+Scheme: http
+OriginHost: src-china.finalexam.cn
+
+
+
+http://lab2-test-hangzhou.alibaba-inc.com:80

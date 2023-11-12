@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: pphbf.betfair.it
+User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3178.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227ccf42c27cafd-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:57:12 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TVGQHXhwEDRIXvXMifcVBNAzKSBAB8Gag3W0VPOEwQ0NbSS3B0Ho6K6mCLGvUc93EJaI%2BduOWsX7ibqDfjkvIxYeTtOfJj%2BfuWRsxr%2FL2fJYWCsSMcs9U%2FLKRjh3uaAzLvw%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=6TG4qZCoEUuZDNlMiDeuWbsEFx.5gx8d7GaU7fBeRTc-1699383432-0-AaglQ5jykbURHLgyU6ePFu4WtlR9EzF6g94zteGokHI/sdbWemDC8zY/G2MiwEMwwHkCpGrZb+HNQrJBfviYKeo=; path=/; expires=Tue, 07-Nov-23 19:27:12 GMT; domain=.betfair.it; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin,access-control-request-method,access-control-request-headers,accept-encoding
+X-Content-Type-Options: nosniff
+
+54
+{"timestamp":"2023-11-07T18:57:12.415Z","status":404,"error":"Not Found","path":"/"}
+0
+
+
+
+
+https://pphbf.betfair.it:443

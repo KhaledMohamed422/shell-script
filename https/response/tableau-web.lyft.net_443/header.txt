@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: tableau-web.lyft.net
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.6; en-us; SonyEricssonX10i Build/R1AA056) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:31 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly90YWJsZWF1LXdlYi5seWZ0Lm5ldC8iLCAic3ZjIjogInRhYmxlYXUtd2ViLmx5ZnQubmV0In0%3D%7C10.44.106.14%7C1699394731%7C3f6c68db333458b148d4bb517d75895f6e7cd2102007e17548d2b8f9d29c2b65
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+

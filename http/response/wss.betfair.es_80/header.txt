@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: wss.betfair.es
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.310.0 Safari/532.9
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227cbb3ed692199-DUS
+Date: Tue, 07 Nov 2023 18:56:21 GMT
+Expires: Tue, 07 Nov 2023 19:56:21 GMT
+Location: https://wss.betfair.es/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K7djGJRCrUVhBLdqQJ%2Fhh0j00eCBI%2B114J2PaoCwiC9cnfOgjQ4sxqYOzZXI%2FsKK2MR57eXBUvkpngBKhlxv29ytlEFWEIBDjR18h6zeqs8tjXfNswou16wZg%2FLnQrkK"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=2ADqGzNK1UAR03LXYollTJzldu690eveGJwbZwi9tt4-1699383381-0-AeWulPUPbvDxMKNWoYZsSUcICY4pjVqai62MZsCZaCI9ioL4dwyWbiMGb1HO/yfklyAyKGOajqwiRDO5Mc6ySS4=; path=/; expires=Tue, 07-Nov-23 19:26:21 GMT; domain=.betfair.es; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://wss.betfair.es:80

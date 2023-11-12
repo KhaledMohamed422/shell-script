@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: public.hey.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822bf1840e91716e-DUS
+Date: Wed, 08 Nov 2023 07:01:12 GMT
+Expires: Wed, 08 Nov 2023 08:01:12 GMT
+Location: https://public.hey.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://public.hey.com:8080

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible" />
+      <title>Nintendo Switch Network Restriction Checker</title>
+      <link rel="stylesheet" media="all" href="/assets/application.css" />
+       <script src="/conf.js" type="text/javascript"></script>
+      <script src="/srs.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <header class="navbar">
+         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+               <a class="navbar-brand hidden-xs-down mr-2" href="/">Nintendo Switch Network Restriction Checker </a>
+               <p class="pull-right"><a href="#" class="btn btn-primary btn hidden" id='logout'><span class="glyphicon glyphicon-plus" aria-hidden="true">Logout</span> <span class="sr-only">Logout</span></a></p>
+            </div>
+         <ul class="nav nav-tabs" role="tablist">
+           <li role="presentation" class="active" id="hometab"><a href="#" role="tab">Home</a></li>
+           <li role="presentation" id="filestab" class="hidden"><a href="#" role="tab">Batch Operation</a></li>
+         </ul>
+         </nav>
+      </header>
+      <br><br>
+      <main class="container-fluid">
+         <div class="row hidden" id="logindiv" role="region" aria-labelledby="login-heading">
+            <div class="col-md-6 col-md-offset-3">
+               <div class="alert alert-danger hidden" role="alert" id="loginalert"></div>
+               <form action="#" accept-charset="UTF-8" method="post" id="loginform">
+                  <div class="form-group"><label for="username">Username</label><input id="username" class="form-control" autofocus="autofocus" type="text" name="username" placeholder="username" /></div>
+                  <div class="form-group"><label for="password">Password</label><input id="password" class="form-control" autofocus="autofocus" type="password" name="password" placeholder="password"/></div>
+                  <div class="form-group"><input type="button" name="commit" value="Submit" class="btn btn-primary btn-block" data-disable-with="Search" id="login" aria-label="Login"/></div>
+               </form>
+            </div>
+         </div>
+
+         <div class="row hidden" id="serial_num_div" role="region" aria-labelledby="serial-number-heading">
+            <div class="col-md-6 col-md-offset-3" id="hometabcontent">
+               <div class="alert alert-danger hidden" role="alert" id="cachealert"></div>
+               <div class="alert alert-danger hidden" role="alert" id="serialalert"></div>
+               <form action="/status" accept-charset="UTF-8" method="post" id="statusform">
+                  <input name="utf8" type="hidden" value="&#x2713;" />
+                  <div class="form-group"><label class="col-form-label" for="device_serial_number">Serial Number</label><input id="device_serial_number" class="form-control" autofocus="autofocus" type="text" name="serial_number" /></div>
+                  <div class="form-group"><input type="submit" name="commit" value="Search" class="btn btn-primary btn-block" data-disable-with="Search" id="searchbutton" aria-label="Search Serial Number"/></div>
+               </form>
+               <div class="hidden" id="status_dialog">
+                  <dl>
+                     <dt>Serial Number</dt>
+                     <dd id="serial_number_output"></dd>
+                  </dl>
+                  <dl>
+                     <dt>BAN Status</dt>
+                     <dd id="status_msg" class=""></dd>
+                  </dl>
+                  <dl>
+                     <dt>Digital Bundle</dt>
+                     <dd>
+                        <table id="bundled_titles" class="table"></table>
+                     </dd>
+                  </dl>
+               </div>
+            </div>
+            <div class="col-md-6 col-md-offset-3 hidden" id="filestabcontent">
+               <div class="alert alert-success hidden" role="alert" id="alertbox"></div>
+               <div class="alert alert-danger hidden" role="alert" id="alertboxerror"></div>
+               <form action="#" accept-charset="UTF-8" method="post">
+                  <div class="form-group"><input id="file" class="form-control" autofocus="autofocus" type="file" name="file"/></div>
+                  <div class="form-group"><input type="button" name="commit" value="Submit File" class="btn btn-primary btn-block" data-disable-with="Search" id="submitFile" aria-label="Submit File"/></div>
+               </form>
+               <div class="panel panel-default">
+                 <!-- Default panel contents -->
+                 <div class="panel-heading">Processed Files <span class="glyphicon glyphicon-refresh" aria-hidden="true" id="refreshdoclist"></span> <span class="sr-only">Refresh Document List</span></div>
+                 <!-- Table -->
+                 <table class="table">
+                    <tbody id="documentlist">
+                     <tr>
+                        <td>File Name</td>
+                        <td>Size</td>
+                        <td>Processed Date</td>
+                        <td><span class="glyphicon glyphicon-download" aria-hidden="true"></span> <span class="sr-only">Download</span></td>
+                        <td><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> <span class="sr-only">Delete</span></td>
+                      </tr>
+                    </tbody>
+                 </table>
+               </div>
+              <div class="panel-footer">Files will be retained for 90 days</div>
+            </div>
+         </div>
+      </main>
+      <footer>
+         <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+               <ul class="footer-links">
+                  <li><a href="https://www.nintendo.com/terms-of-use" target="_blank"><span class="link-text">Terms of Use</span></a></li>
+                  <li><a href="https://www.nintendo.com/privacy-policy" target="_blank"><span class="link-text">Privacy Policy</span></a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+               <p class="text-right">&copy; Nintendo</p>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
+
+
+https://smartreturnsystem-uat.noa.nintendo.com:443

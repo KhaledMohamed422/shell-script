@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: proxy.alibaba.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS i86pc; en-US; rv:1.8.1.12) Gecko/20080303 SeaMonkey/1.1.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 178
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 13:19:53 GMT
+Location: https://proxy.alibaba.com/
+Server: nginx
+

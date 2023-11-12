@@ -1,0 +1,54 @@
+GET / HTTP/1.1
+Host: zendesk3.betfair.it
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 530 
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227cd6de8d27a48-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:57:31 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+861
+<html manifest="" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head><body>CTYPE html&gt;
+
+<title>Betfair</title>
+<meta name="theme-color" content="#004833">
+<style>*{margin:0;padding:0}body,html{height:100%}body{background:#000;font-family:Arial,sans-serif}.container{width:100%;height:100%;display:table;border-collapse:collapse}section{display:table-cell;vertical-align:middle;text-align:center;padding:1em;width:60%}section>div{width:80%;margin:0 auto}.message{text-align:left;background:#f5b942;color:#fff;border-radius:20px 20px 0 0}.message h1{font-size:32px;padding:24px 28px}.content{padding:24px 28px;line-height:1.5;background:#fff;text-align:left;border-radius:0 0 20px 20px}.content p{font-size:22px}.content a{text-decoration:none;color:#f5b942;font-weight:700}@media screen and (orientation:portrait){.message h1{font-size:44px}.content p{font-size:32px;margin:0}}</style>
+
+<div class="container"><section><div>
+<div class="message"><h1>Restricted</h1></div>
+<div class="content">
+<p>Our Software detects that you may be accessing the Betfair website from a country that Betfair does not accept bets from or the traffic from your network was detected as being unusual. If you believe that this detection has occurred in error, please <a href="https://support.betfair.com/app/contact_us">Contact us</a> for further assistance.</p>
+<hr>
+<p><div class="cf-error-details cf-error-1016">
+  <h1>Origin DNS error</h1>
+  <p>You've requested a page on a website (zendesk3.betfair.it) that is on the <a href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a> network. Cloudflare is currently unable to resolve your requested domain (zendesk3.betfair.it).
+  <ul class="cferror_details">
+    <li>Ray ID: 8227cd6de8d27a48</li>
+    <li>Timestamp: 2023-11-07 18:57:31 UTC</li>
+    <li>Your IP address: 161.97.145.139</li>
+    <li class="XXX_no_wrap_overflow_hidden">Requested URL: zendesk3.betfair.it/ </li>
+    <li>Error reference number: 1016</li>
+    <li>Server ID: FL_48F103</li>
+    <li>User-Agent: </li>
+  </ul>
+</div>
+</p>
+</div></div></section></div>
+</body></html>
+
+0
+
+
+
+
+https://zendesk3.betfair.it:443

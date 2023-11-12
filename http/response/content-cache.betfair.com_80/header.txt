@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: content-cache.betfair.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b75b0c3921a5-DUS
+Date: Tue, 07 Nov 2023 18:42:27 GMT
+Expires: Tue, 07 Nov 2023 19:42:27 GMT
+Location: https://content-cache.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xHxg4wCvz1d3nRA5w7nTv6JgBDYJA6GOQKfJ7CYMN71LGTLiCBoLafId2Blz31epMysSSpYu39QjrgJjde44ZlJZLlnIBhMA2CAitk%2BfL8E1JU%2BRAzQMP0Kg4JaUXkC8EJAfUULsimstboM%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://content-cache.betfair.com:80

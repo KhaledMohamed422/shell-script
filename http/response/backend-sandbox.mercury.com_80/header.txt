@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: backend-sandbox.mercury.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.5; FreeBSD) KHTML/4.5.4 (like Gecko)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822a56242c261619-DUS
+Date: Wed, 08 Nov 2023 02:20:23 GMT
+Expires: Wed, 08 Nov 2023 03:20:23 GMT
+Location: https://backend-sandbox.mercury.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=y.3PzS5qOpXJr4OLwWQVuJHEKrfBRoIvyBTX2YtVLpo-1699410023-0-Abb9A7IMaemZAHwbqt4XVxB8XSUzMSaRdm0isgx9zd4NuY/MPhtwIAI3QeAvbJLGp5iw1i+smQOjr7/gpEZzv00=; path=/; expires=Wed, 08-Nov-23 02:50:23 GMT; domain=.mercury.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://backend-sandbox.mercury.com:80

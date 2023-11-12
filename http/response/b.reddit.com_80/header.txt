@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: b.reddit.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 13
+Accept-Ranges: bytes
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 19:37:36 GMT
+Retry-After: 0
+Server: Varnish
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+404 Not Found
+
+
+http://b.reddit.com:80

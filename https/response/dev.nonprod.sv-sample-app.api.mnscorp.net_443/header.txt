@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: dev.nonprod.sv-sample-app.api.mnscorp.net
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4a (5G)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Date: Wed, 08 Nov 2023 02:27:32 GMT
+Retry-After: 60
+X-Azure-Ref: 20231108T022732Z-eqx3kaz9ap609dkc4gyptcm3z8000000019g00000001s1ms
+X-Cache: CONFIG_NOCACHE
+
+199
+<div style="display: block; margin: auto;  width: 600px; height: 500px; text-align: center; font-family: 'Courier', cursive, sans-serif;"><h1 style="color: 747474">:( Application Error</h1><p style="color:#666">If you are the application administrator, you can access the <a style="color: grey"href="https://dev-sv-sample-app-v1-eun-layer3-app.scm.azurewebsites.net/detectors">diagnostic resources</a>.</div>
+
+0
+
+
+
+
+https://dev.nonprod.sv-sample-app.api.mnscorp.net:443

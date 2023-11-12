@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: hub-use-1a-node-7.browserstack.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 06:54:37 GMT
+Server: nginx
+Source-From: 01
+
+27
+{"value":{"message":"Invalid Command"}}
+0
+
+
+
+
+http://hub-use-1a-node-7.browserstack.com:80

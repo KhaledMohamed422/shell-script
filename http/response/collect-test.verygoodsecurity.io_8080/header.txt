@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: collect-test.verygoodsecurity.io:8080
+User-Agent: Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:55:42 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

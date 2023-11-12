@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: docs.hypermint.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.61 Safari/537.36 ArchiveBox/0.6.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c8e270a237a43-DUS
+Date: Wed, 08 Nov 2023 08:48:08 GMT
+Expires: Wed, 08 Nov 2023 09:48:08 GMT
+Location: https://docs.hypermint.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://docs.hypermint.com:8080

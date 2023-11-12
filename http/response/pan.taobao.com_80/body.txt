@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="大众评审是采用西方评审团投票机制，实现互联网纠纷争议的在线解决！">
+    <link rel="icon" href="//www.taobao.com/favicon.ico">
+
+    <title>大众评审</title>
+
+    <link href="//g.alicdn.com/pxd-fe/pan/1.0.1/bootstrap.min.css" rel="stylesheet">
+    <link href="//g.alicdn.com/pxd-fe/pan/1.0.1/carousel.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom border-light">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/logo.jpg" alt="大众评审">
+            </a>
+            <form class="form-inline">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item offset60 border-warning border-bottom">
+                            <a class="nav-link text-danger" href="#n1">首页</a>
+                        </li>
+                        <li class="nav-item offset60">
+                            <a class="nav-link" href="#n2">业务覆盖</a>
+                        </li>
+                        <li class="nav-item offset60">
+                            <a class="nav-link" href="#n3">评审员故事</a>
+                        </li>
+                        <li class="nav-item offset60">
+                            <a class="nav-link" href="#n4">关于我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+</header>
+
+
+<main role="main">
+
+    <div id="n1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#n1" data-slide-to="0" class="active"></li>
+            <li data-target="#n1" data-slide-to="1"></li>
+            <li data-target="#n1" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide"
+                     src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/slide1.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide"
+                     src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/slide2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img class="third-slide"
+                     src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/slide3.jpg">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#n1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">上一页</span>
+        </a>
+        <a class="carousel-control-next" href="#n1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">下一页</span>
+        </a>
+    </div>
+    <hr class="featurette-divider">
+    <div class="featurette" id="n2">
+        <img src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/yewufugai.jpg" width="100%"/>
+    </div>
+    <hr class="featurette-divider">
+    <div class="featurette" id="n3">
+        <img src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/pingshenyuangushi.jpg" width="100%"/>
+    </div>
+    <hr class="featurette-divider">
+    <div class="featurette" id="n4">
+        <img src="//g.alicdn.com/pxd-fe/pan/1.0.1/image/aboutus.jpg" width="100%"/>
+    </div>
+
+    <hr class="featurette-divider">
+    <footer class="container">
+        <p class="float-right"><a href="#">回到顶部</a></p>
+        <p>&copy; 2017-2018 Alibaba, Inc. </p>
+    </footer>
+</main>
+
+
+<script src="//g.alicdn.com/pxd-fe/pan/1.0.1/vendor/jquery-slim.min.js"></script>
+<script src="//g.alicdn.com/pxd-fe/pan/1.0.1/vendor/popper.min.js"></script>
+<script src="//g.alicdn.com/pxd-fe/pan/1.0.1/bootstrap.min.js"></script>
+<script src="//g.alicdn.com/pxd-fe/pan/1.0.1/vendor/holder.min.js"></script>
+
+<script>
+
+    $(function () {
+        $(window).scroll(function () {
+            var wst = $(window).scrollTop();
+            for (i = 1; i < 5; i++) {
+                if ($("#n" + i).offset().top <= wst + 80) {
+                    $('nav li').removeClass("border-warning border-bottom");
+                    $(".nav-link").removeClass("text-danger");
+
+                    $("[href='#n" + i + "']").addClass("text-danger");
+                    $("[href='#n" + i + "']").parent().addClass("border-warning border-bottom");
+                }
+            }
+
+        });
+
+        $('.nav-link').click(function () {
+            $(this).addClass("text-danger");
+            $(this).parent().addClass("border-warning border-bottom");
+        });
+    });
+
+</script>
+
+</body>
+</html>
+
+
+
+http://pan.taobao.com:80

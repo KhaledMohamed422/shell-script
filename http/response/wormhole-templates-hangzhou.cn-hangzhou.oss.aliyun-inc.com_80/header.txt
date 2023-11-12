@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: wormhole-templates-hangzhou.cn-hangzhou.oss.aliyun-inc.com
+User-Agent: Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia5700/3.27; Profile/MIDP-2.0 Configuration/CLDC-1.1) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 446
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:32:10 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B559ADB7A57333156BDDD
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B559ADB7A57333156BDDD</RequestId>
+  <HostId>wormhole-templates-hangzhou.cn-hangzhou.oss.aliyun-inc.com</HostId>
+  <Bucket>wormhole-templates-hangzhou</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+http://wormhole-templates-hangzhou.cn-hangzhou.oss.aliyun-inc.com:80

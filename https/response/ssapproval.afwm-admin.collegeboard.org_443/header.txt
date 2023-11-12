@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: ssapproval.afwm-admin.collegeboard.org
+User-Agent: Opera/9.80 (Android; Opera Mini/7.5.33361/31.1543; U; en) Presto/2.8.119 Version/11.1010
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:45 GMT
+Via: 1.1 d31720c3c9aa8c1463d4432230db8a9a.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCcRiG8KoAMEj8g=
+X-Amz-Cf-Id: clH84qBzKDM8xJCgPOvZM9zhIwDVCyVm3kpn7GRmmUYwUxmqHWM_TA==
+X-Amz-Cf-Pop: LHR62-C2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 6260f7d9-8549-47ce-9688-32cca0953a82
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://ssapproval.afwm-admin.collegeboard.org:443

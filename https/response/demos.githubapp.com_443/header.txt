@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: demos.githubapp.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:27:25 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3D939cb920-afe6-4665-abfb-247ee5caeb15%26page_id%3D26107745%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=939cb920-afe6-4665-abfb-247ee5caeb15; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: f048d02cfa2883dea765f1f15578662b5523205c
+X-Github-Request-Id: 335A:DB58:24FD67:25B9BC:654AF20C
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230095-FRA
+X-Timer: S1699410445.958374,VS0,VE192
+

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: vasp.bitmex.com:8443
+User-Agent: Mozilla/5.0 (X11; NetBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227844aed1b7166-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:07:36 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=Sv0NEdl_a4jXaagt7GLLjiqJcTWzskgXvnbMgD4ouDM-1699380456-0-AUKyzvWAzZVQUeAdHMZ4GFvOHK+voKxor6T3hqVWudD+SY4Hbd8MRQCHmuAr2nUeWVUSEYq2Axlh4suTv57TyQY=; path=/; expires=Tue, 07-Nov-23 18:37:36 GMT; domain=.bitmex.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1006
+
+
+https://vasp.bitmex.com:8443

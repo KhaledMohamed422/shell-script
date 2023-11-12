@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: ci.api.ff.sbgservices.com
+User-Agent: Opera/7.50 (Windows ME; U) [en]
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:05:30 GMT
+Via: 1.1 a4af9b42c2ec29f616825af32712c204.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OChgtF7OjoEEqKA=
+X-Amz-Cf-Id: 7o4b7UMwl5NQereJ_RCLfw5291RAWOdKdfMsHMyur7kiFCMr9fcr0Q==
+X-Amz-Cf-Pop: FRA56-C2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 134d951d-b630-4a96-97a3-bead4fe755a5
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://ci.api.ff.sbgservices.com:443

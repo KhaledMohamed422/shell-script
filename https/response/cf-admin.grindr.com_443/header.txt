@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cf-admin.grindr.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:35.0) Gecko/20100101 Firefox/35.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:27:01 GMT
+Server: AmazonS3
+Via: 1.1 604f8ac78ed3ba5235c1a14794f2ac64.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: R7QK8VcXL82KxvsODGaLsZE5pb7ygASX6HBI_VFf_TBp6ttbeaRziw==
+X-Amz-Cf-Pop: FRA56-P5
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>W2F02H2KRAQYDRRM</RequestId><HostId>3YYZQbQBYWAl3LLpxAPwZfE0rTsBkC9q0pkPE/Qs1q36t19bl4Lxrjn7JyFuiXecQf941urkPcI=</HostId></Error>
+0
+
+
+
+
+https://cf-admin.grindr.com:443

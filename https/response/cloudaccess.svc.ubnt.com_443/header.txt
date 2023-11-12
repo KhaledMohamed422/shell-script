@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cloudaccess.svc.ubnt.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:47:20 GMT
+Strict-Transport-Security: max-age=15768000; includeSubDomains
+Via: 1.1 0be6ab2f92b7567e05a874f049abbbe6.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OD_hzGoOPHcEjAg=
+X-Amz-Cf-Id: j7HZpPRoRH673bLG0nfDiMxWGSLTn1bDRIED7S_YZhO9HbJhhCMVaQ==
+X-Amz-Cf-Pop: AMS58-P1
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 09b197ef-119d-4a6f-ab57-5fa18dbfbcde
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{"message":"Missing Authentication Token"}
+
+
+https://cloudaccess.svc.ubnt.com:443

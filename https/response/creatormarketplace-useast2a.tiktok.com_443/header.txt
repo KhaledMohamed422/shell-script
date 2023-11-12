@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: creatormarketplace-useast2a.tiktok.com
+User-Agent: Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 148
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:56 GMT
+Expires: Wed, 08 Nov 2023 18:43:56 GMT
+Pragma: no-cache
+Proxy-Status: 0000201502005104
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=136, origin; dur=11
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Akamai-Request-Id: 7bdddb0.8597a7b
+X-Cache: TCP_MISS from a23-15-178-85.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-220-106-14.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 11,23.220.106.14
+X-Parent-Response-Time: 147,23.15.178.85
+X-Tt-Logid: 202311081843555BCE2D5DB9F3EB9137B3
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a90aecd2f0b09588fcdea79338880df7a84591759c1962b27c1e61237e1d0c55a527c67bca9aad70d1c2eca39fe598faf814ed3cdc9b1df1506f853df35d1f747
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

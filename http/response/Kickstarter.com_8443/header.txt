@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: Kickstarter.com:8443
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14526.89.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.133 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 655
+Cf-Ray: -
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:11:52 GMT
+Server: cloudflare
+

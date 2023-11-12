@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: euwe-echoserver.test.ue1.snooguts.net
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:43.0) Gecko/20100101 Firefox/43.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 162
+Cache-Control: private, no-cache
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:25:07 GMT
+Location: https://auth-all.test.ue1.snooguts.net/oauth2/start?rd=%2Feuwe-echoserver.test.ue1.snooguts.net/
+Server: nginx
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+

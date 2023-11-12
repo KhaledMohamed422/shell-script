@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: scoredelivery-api.collegeboard.org
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Cache-Control: max-age=0
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:27 GMT
+Expires: Tue, 07 Nov 2023 17:29:27 GMT
+X-Amz-Apigw-Id: OCcOyEOpIAMEahA=
+X-Amz-Cf-Id: 8fm7Iue7R0LjutT3tFBRoGZ7Nnp2UTg0vVP2XYOqhj7TRy2BIdpSjg==
+X-Amz-Cf-Pop: ORD51-C2
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: 722220ef-51bc-44c5-bdf1-0f16b16451c9
+
+{"message":"Forbidden"}
+
+
+https://scoredelivery-api.collegeboard.org:443

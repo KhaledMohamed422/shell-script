@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: community.coveo.com
+User-Agent: ELinks (0.4.3; NetBSD 3.0.2PATCH sparc64; 141x19)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 178
+Content-Security-Policy: default-src * 'unsafe-inline' 'unsafe-eval' data:; object-src 'none'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:20:45 GMT
+Feature-Policy: accelerometer 'none'; camera 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Location: https://community.coveo.com/
+Server: nginx/1.18.0 (Ubuntu)
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-7.apps.verygood.systems:8443
+User-Agent: MSIE (MSIE 6.0; X11; Linux; i686) Opera 7.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:52 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: login.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Security-Policy: script-src 'self'
+Date: Tue, 07 Nov 2023 21:58:25 GMT
+Location: https://login.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com:8443/
+Server-Timing: dtRpid;desc="-9750318", dtSInfo;desc="0"
+Set-Cookie: dtCookie=v_4_srv_8_sn_F84AF7CA286C2BA029A1B17080F53F94_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1_rcs-3Acss_0; Path=/; Domain=.dynatracelabs.com
+X-Oneagent-Js-Injection: true
+X-Vcap-Request-Id: cae8230a-b462-49c1-5a7e-f7fbfbb9bdf3
+Content-Length: 0
+
+
+
+
+http://login.sys.demo-pcf-2-10.demo-pcf.nimbus.dev.dynatracelabs.com:80

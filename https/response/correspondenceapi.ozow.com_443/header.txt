@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: correspondenceapi.ozow.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228dc09bbdc3614-FRA
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:02:16 GMT
+Server: cloudflare
+X-Amz-Apigw-Id: ODEMTG_oDoEEqrA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 6f13b410-3a50-448d-b5f4-3676687a0682
+
+{"message":"Missing Authentication Token"}
+
+
+https://correspondenceapi.ozow.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: playerprotection.betfair.com
+User-Agent: ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227bbc2de451536-DUS
+Date: Tue, 07 Nov 2023 18:45:28 GMT
+Location: https://identitysso.betfair.com/view/login?product=my-account&redirectMethod=GET&url=https%3A%2F%2Fplayerprotection.betfair.com%2F
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FLeSwjgO9potuR8hsbO9GkoYlz%2FlPfYyIcLUPpEUX01BN6KldMXX3WwqPxoEjd%2BWWhW9%2FVYh375LcaLFqlbl4te3wb5%2F%2FnHBqzSjIKHU9m4DyPIr24yiMyM96rFCqR%2FO5V%2FnEu%2BqDzfimUJYg0g%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: vid=d208e5c0-7d9d-11ee-9833-fa163ecccc33; Max-Age=315360000; Expires=Fri, 04-Nov-2033 18:45:28 GMT; Domain=betfair.com; Path=/
+Set-Cookie: wsid=d208e5c1-7d9d-11ee-9833-fa163ecccc33; Max-Age=315360000; Expires=Fri, 04-Nov-2033 18:45:28 GMT; Domain=betfair.com; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+
+
+https://playerprotection.betfair.com:443

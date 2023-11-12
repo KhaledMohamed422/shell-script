@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cdn.front.com
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:05:30 GMT
+Server: AmazonS3
+Via: 1.1 8b889e35789d2b97f2ba8771acc9a008.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-west-1
+X-Amz-Cf-Id: LuhNVdKoQxKxXTD-QQyKQxKnpJd6Q0q88KYOOgxutMBRvbLNZV95uw==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1VE2P80DRRFDX2BM</RequestId><HostId>C5D1+j4PU72D4HY6gWzRsPBHH+/gr1R/pZgyVVmYlLDYIvzjoT000JFp3vAgcGG19/CcDeThTLQ=</HostId></Error>
+0
+
+
+
+
+https://cdn.front.com:443

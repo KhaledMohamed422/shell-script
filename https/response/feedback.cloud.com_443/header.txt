@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: feedback.cloud.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Content-Security-Policy: frame-ancestors 'none'
+Date: Tue, 07 Nov 2023 23:19:04 GMT
+Location: https://citrixcloud.uservoice.com/forums/255803-citrix-workspace-cloud
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: 1d12264d-1b0e-4be6-baf0-cf6145bbebf5
+X-Frame-Options: DENY
+Content-Length: 0
+
+
+
+
+https://feedback.cloud.com:443

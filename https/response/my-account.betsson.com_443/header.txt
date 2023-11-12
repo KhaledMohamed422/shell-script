@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: my-account.betsson.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=30
+Date: Tue, 07 Nov 2023 22:04:09 GMT
+Location: https://my-account.betsson.com/maintenance-pages/betsson.com/country-blocked.html
+Server: CloudFront
+Via: 1.1 24f924c22589fd0429b4463876b2c576.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IfbL8REF137_v0mhQDcRCnFe-HFJRi08JRmZFdTIFiQueysbDJgcIg==
+X-Amz-Cf-Pop: AMS58-P2
+X-Cache: Miss from cloudfront
+X-Obg-Country-Block: Country blocked
+Content-Length: 0
+
+
+
+
+https://my-account.betsson.com:443

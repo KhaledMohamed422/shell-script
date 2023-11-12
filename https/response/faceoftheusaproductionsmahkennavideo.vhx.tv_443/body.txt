@@ -1,0 +1,997 @@
+<!doctype html>
+<!--
+ __   __  __  __    __  __
+/\ \ | | /\ \_\ \  /\_\_\_\
+\ \ \' | \ \  __ \ \/_/\_\/_
+ \ \__|   \ \_\ \_\  /\_\/\_\
+  \/_/     \/_/\/_/  \/_/\/_/
+-->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Face of the USA Productions, Mahkenna Video</title>
+
+  <meta name="title" content="Face of the USA Productions, Mahkenna Video">
+  <meta name="description" content="">
+  <meta name="keywords" content="movie, video, streaming, downloads, vhx, distribution, filmmaker, donate, artist, diy">
+
+  <link rel="alternate" type="application/json+oembed" href="https://embed.vhx.tv/oembed?url=https://faceoftheusaproductionsmahkennavideo.vhx.tv&format=json" title="Face of the USA Productions, Mahkenna Video" />
+  <link rel="alternate" type="text/xml+oembed" href="https://embed.vhx.tv/oembed?url=https://faceoftheusaproductionsmahkennavideo.vhx.tv&format=xml" title="Face of the USA Productions, Mahkenna Video" />
+
+  <link rel="shortcut icon" href="https://cdn.vhx.tv/assets/favicon.png" type="image/png">
+  <link rel="canonical" href="http://faceoftheusaproductionsmahkennavideo.vhx.tv">
+
+  <link rel="stylesheet" href="https://static.vhx.tv/theme/stylesheets/vhx.stylesheet.css">
+  <style>
+  
+      /* -----------------------------------------------------
+  
+  	document / reset
+  
+  ------------------------------------------------------ */
+  body {
+  	font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    color: #999999;
+    background: #000000;
+    line-height: 19px;
+  }
+  ul, li {
+  	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  }
+  a:link,
+  a:visited {
+  	color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+  	color: #ffffff;
+  	text-decoration: underline;
+  }
+  
+  /* -----------------------------------------------------
+  
+  	header
+  
+  ------------------------------------------------------ */
+  .nav-pri {
+    display: none;
+    text-align: center;
+    background: #000000;
+  }
+  .nav-pri li {
+  	display: inline-block;
+   }
+  .nav-pri a {
+  	padding: 10px 25px;
+  	display: inline-block;  
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .nav-pri a:link,
+  .nav-pri a:visited {
+    background: #000000;
+    color: #ffffff;
+  }
+  .nav-pri a:hover,
+  .nav-pri a:active {
+    color: #ffffff;
+    background: none;
+    text-decoration: none;
+  	background: rgba(250,250,250,.1);
+  }
+  .subpage-grid {
+  	display: none;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+  }
+  .subpage-grid ul {
+  	width: 150%;
+    height: 110px;
+  }
+  .subpage-grid li {
+  	float: left;
+    width: 125px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    border-right: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;  
+  }
+  .subpage-grid li img {
+  	width: 150%;
+    position: relative;
+    left: -15%;
+    top: -5%;
+  }
+  
+   
+  /* -----------------------------------------------------
+  
+  	feature
+  
+  ------------------------------------------------------ */
+  .feature {
+  	background: #000000;
+    width: 100%;
+    overflow: hidden;
+    transition: all .3s;
+  	-webkit-transition: all .3s;  
+  }
+  .feature .load-msg {
+  	display: none;
+  }
+  .loading.feature {
+  	position: fixed;
+    background: #000000 url('https://dr56wvhu2c8zo.cloudfront.net/robussandbox/assets/2fdd579d-48fa-409e-bbb3-b1e7420e2c76/loader.gif') 50% 50% no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+   }
+   .social {
+  	position: absolute;
+  	top: 10px;
+  	left: 10px;
+   }
+   .social li {
+    float: left;
+    margin-right: 3px;
+   }
+   .social .email {
+  	display: inline-block;
+    max-width: 200px;
+    padding: 3px 5px;
+    margin: 0px 4px 10px 14px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #FFF;
+    border: 1px solid #F7F7F7;
+    color: #333;
+    letter-spacing: 0;
+    line-height: 1;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+    background: #FFF;
+    background: -moz-linear-gradient(top, #FFF 0%, #DFDFDF 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(100%, #DFDFDF));
+    background: -webkit-linear-gradient(top, #FFF 0%, #DFDFDF 100%);
+    background: -o-linear-gradient(top, #FFF 0%, #DFDFDF 100%);
+    background: -ms-linear-gradient(top, #FFF 0%, #DFDFDF 100%);
+    background: linear-gradient(to bottom, #FFF 0%, #DFDFDF 100%);
+    position: relative;
+  	top: -5px;
+   }
+   #vhx-preview-container {
+  	 background: #000000 \9;
+   }
+  @media screen and (max-width: 450px){
+  	.feature {
+    	margin-top: 30px;
+   	}
+  }
+  
+  	/* account
+  	-------------------------------------------------- */
+    .account {
+  	  position: absolute;
+    	top: 0;
+  	  right: 0;
+      z-index: 50;    
+     }
+     .account a {
+  	  display: block;
+  		padding: 5px 35px;
+  		text-transform: uppercase;
+  		font-size: 12px;
+     }
+  	.account a:link,
+    .account a:visited {
+  	  background: #000000;
+    	color: #ffffff;
+  	}
+    .account a:hover,
+    .account a:active {
+  		color: #ffffff;
+  	  background: #000000;
+    	text-decoration: none;
+    }
+  	@media screen and (max-width: 450px){
+  		.account {
+      	top: -30px;
+  			width: 100%;
+        padding: 5px 0px;
+        text-align: center;
+   		}
+  	}  
+    
+  	/* image grid
+  	-------------------------------------------------- */
+    .loading.feature .image-grid {
+      position: absolute;
+      top: -999999px;
+    }
+    .feature .image-grid {
+      left: -3.8%;
+      width: 120%;
+      overflow: absolute;
+      position: relative;
+      background: #000000;
+     }
+    .feature .image-grid img {
+      width: 150%;
+      position: relative;
+      top: -5%;
+      left: -12.5%;
+      display: block;
+      height: auto;
+      background: #000000;
+    }
+    .feature .image-grid li {
+      float: left;
+      width: 15%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;   
+      height: auto;
+      overflow: hidden;
+      border-bottom: 5px solid #fff;
+      border-right: 5px solid #fff;
+      background: #999;    
+     }
+    .feature .image-grid img:hover {
+      opacity: .7;
+      cursor: pointer;
+    }
+    
+  	/* header title
+  	-------------------------------------------------- */  
+    .loading.feature h1 {
+  	  left: -999999px;
+    }
+  	.feature h1 {
+     	pointer-events: none;
+      position: absolute;
+      top: auto;
+      width: 100%;
+      text-align: center;
+      line-height: 54px;
+      z-index: 10;
+      height: auto;
+      background: url('https://dr56wvhu2c8zo.cloudfront.net/onthemove/assets/ba29caf5-61d4-46aa-9d1f-d4d2dcc530c8/bg-white-transparent.png') repeat 0 0 \9;
+      background: rgba(255,255,255,.6);
+      margin: 0 auto 0 auto;
+    }
+    .feature h1:hover {
+      cursor: pointer;
+    } 
+    .feature h1 span {
+      position: relative;
+      top: 0;
+      display: inline-block;
+      transition: all .5s;
+      -webkit-transition: all .5s;
+    }
+    
+  	/* options
+  	-------------------------------------------------- */  
+    .loading.feature .feature-options {
+  	  left: -999999px;
+    }
+  	.feature-options {
+      position: relative;
+      text-align: center;
+      margin: auto;
+      max-width: 650px;
+    }
+    .feature-options li {
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      width: 40%;
+      display: inline-block;
+  		margin: 0px 3% 40px 3%
+    }
+    .feature-options a:link,
+    .feature-options a:visited {
+      display: block;
+      background: #e35118;
+      padding: 15px 0px;
+      text-align: center;
+      width: 100%;
+      color: #fff;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    .feature-options a:hover,
+    .feature-options a:active {
+      transition: all .4s;
+      -webkit-transition: all .4s;
+      color: #fff;
+      background: #a63508;
+      text-decoration: none;
+    }
+    
+  	/* media queries
+  	-------------------------------------------------- */  
+    @media screen and (max-width: 750px){
+  		.feature h1 {
+  			line-height: 48px;
+       }
+  		.feature h1 span { 
+        font-size: 42px;
+      }
+      .feature-options a:link,
+      .feature-options a:visited {
+         font-size: 18px;
+      }
+    }
+    @media screen and (max-width: 650px){
+  		.feature h1 {
+  			line-height: 38px;
+       }
+  		.feature h1 span { 
+        font-size: 34px;
+      }
+      .feature-options a:link,
+      .feature-options a:visited {
+         font-size: 16px;
+      }
+    }
+    @media screen and (max-width: 550px){
+  		.feature h1 {
+  			line-height: 32px;
+       }
+  		.feature h1 span { 
+        font-size: 28px;
+      }
+      .feature-options li {
+  			display: block;
+        margin: 20px auto;
+        width: 70%;
+      }
+      .feature-options a:link,
+      .feature-options a:visited {
+         font-size: 14px;
+      }
+    }
+    @media screen and (max-width: 450px){
+  		.feature h1 {
+  			line-height: 24px;
+       }
+  		.feature h1 span { 
+        font-size: 21px;
+      }
+      .feature-options li {
+        width: 100%;
+      }
+    }
+    
+  /* -----------------------------------------------------
+  
+  	primary
+  
+  ------------------------------------------------------ */
+  .primary {
+  	background: #000000;
+    font-size: 13px;
+    color: #999999;
+    width: 70%;
+    max-width: 1000px;
+    margin: 40px auto 50px auto;
+  }
+  .primary .col-3-5 {
+  	float: right;
+  }
+  .primary .group {
+  	text-align: center;
+  }
+  .primary .btn {
+  	display: inline-block;
+    text-align: center;
+   }
+   @media screen and (max-width: 450px){
+  	.primary .btn {
+  		float: none;
+      width: 100%;
+   	}
+  }
+  .synopsis {
+    font-size: 14px;
+    padding: 25px 0;
+    line-height: 21px;
+    max-width: 700px;
+    margin: 25px auto;
+    border-top: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  .synopsis .title-2 {
+  	text-align: center;
+  }
+  .primary .main {
+  	max-width: 700px;
+  	margin: auto;
+  }
+  .callout {
+    width: 400px;
+    margin: auto;
+    bottom: 25px;
+    color: #fff;
+    text-align: center;
+  }
+  .callout img {
+    width: 150px;
+   }
+  @media screen and (max-width: 650px){
+  	.callout {
+  		width: 100%;
+  	}
+  	.callout img {
+    	width: 125px;
+  	}
+  }
+  @media screen and (max-width: 450px){
+  	.callout .col-1-2 {
+  		float: none;
+  	  width: 100%;
+  	}
+  }
+   
+  /* packages
+  -------------------------------------------------- */  
+  .packages {
+  	padding-left: 60px;
+  }
+  .packages .desc {
+  	margin: 20px 0;
+    text-align: left;
+  }
+  .packages img {
+  	width :100%;
+   }
+  @media screen and (max-width: 650px){
+  	.packages {
+    	padding-left: 0;
+      border-bottom: 2px solid #fff;
+      margin-bottom: 40px;
+    }
+    .packages li {
+  		margin-bottom: 50px;
+    }
+  }
+   
+  /* twitter
+  -------------------------------------------------- */  
+  .twitter li {
+  	margin: 20px 0;
+  	line-height: 18px;
+  }
+  .twitter li a:link,
+  .twitter li a:visited {
+  	color: #ffffff;
+  	text-decoration: none; 	
+  }
+  .twitter li a:hover,
+  .twitter li a:active {
+  	color: #ffffff;
+    opacity: .7;  
+  	text-decoration: underline;
+  }
+  .twitter .time-ago a:link,
+  .twitter .time-ago a:visited {
+  	color: #ffffff;
+    opacity: .5;
+  	display: block;
+  }
+  .mid {
+  	width: 600px;
+  	margin: auto;
+  }
+  .mid .packages .title-2 {
+  	text-align: center;
+  }
+  .mid .packages .btn {
+  	float: none;
+    width: 350px;
+    margin: auto;
+    display: block;
+  }
+  
+  
+  /* -----------------------------------------------------
+  
+  	footer
+  
+  ------------------------------------------------------ */
+  	.footer {
+  	  width: 100%;
+      border-top: 2px solid #fff;
+      margin: 20px auto 0 auto;
+    }
+    .nav-site {
+    	width: 70%;
+    	max-width: 1000px;    
+    	padding: 25px 0;
+  	  font-size: 12px;
+      margin: auto;
+      text-align: center;
+      position: relative;
+     }
+   	.nav-site li {
+    	display: inline-block;
+  	  padding-right: 10px;
+  	 }
+    .brand-vhx {
+  		position: absolute;
+      right: 0;
+      top: 15px;
+     }
+  	.brand-vhx img {
+    	width: 60px;
+    }
+    @media screen and (max-width: 650px){
+    	.brand-vhx {
+      	position: static;
+        display: block;
+        text-align: center;
+        margin: 20px auto 0 auto;
+      }
+   	}
+    @media screen and (max-width: 450px){
+  	  .nav-site li.brand-vhx {
+      	display: none;
+      }
+    }
+  
+  /* -----------------------------------------------------
+  
+  	global
+  
+  ------------------------------------------------------ */
+  
+  	/* headers
+  	-------------------------------------------------- */
+  	.title-1 {
+      font-size: 54px;
+      text-align: center;
+      font-weight: 400;
+      letter-spacing: 2px;
+      color: #000;
+      border-top: 2px solid #000;
+      border-bottom: 2px solid #000;
+      padding: 5px 0;
+      display: inline-block;
+      text-transform: uppercase;
+   	}
+  	.title-2 {
+  		color: #fff;
+      text-transform: uppercase;
+  		font-size: 16px;
+  	}
+    
+    /* buttons
+  	-------------------------------------------------- */
+  	.btn,
+    a.btn {
+  	  display: block;
+    	background: #e35118;
+  	  padding: 15px 0px;
+  	  text-align: center;
+    	width: 100%;
+  	  color: #fff;
+    	font-weight: 600;
+  	  text-transform: uppercase;
+  	  font-size: 14px;
+      width: 200px;
+    }
+    a.btn:hover,
+    a.btn:active {
+  	  text-decoration: none;
+      background: #a63508;
+    }
+    
+  /* -----------------------------------------------------
+  
+  	utiltiies
+  
+  ------------------------------------------------------ */	
+  
+  	/* grid row
+  	-------------------------------------------------- */
+  	.row:after {
+  		content: ""; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  
+  	/* grid column
+  	-------------------------------------------------- */
+  	.col { float: left; }
+    .col-push { float: right; }
+  	.col-1-1 { float: left; width: 100%; }
+  	.col-1-2 { float: left; width: 50%; }
+  	.col-1-3 { float: left; width: 33.33333%; }
+  	.col-2-3 { float: left; width: 66.66667%; }
+  	.col-1-4 { float: left; width: 25%; }
+  	.col-2-4 { float: left; width: 50%; }
+  	.col-3-4 { float: left; width: 75%; }
+    .col-1-5 { float: left; width: 20%; }
+  	.col-2-5 { float: left; width: 40%; }
+  	.col-3-5 { float: left; width: 60%; }
+    .col-4-5 { float: left; width: 80%; }
+    @media screen and (max-width: 650px){
+  	.col-2-5 { float: none; width: 100%; }
+  	.col-3-5 { float: none; width: 100%; }  
+    }
+    
+  	/* misc
+  	-------------------------------------------------- */
+  	.group:after {
+  		content: "."; 
+  		display: block;
+  		height: 0; 
+  		clear: both;
+  		visibility: hidden;
+  	}
+  </style>
+
+  
+
+  <script src="https://dr56wvhu2c8zo.cloudfront.net/assets/theme/javascripts/modernizr.js?v=6"></script>
+
+
+    <script>
+      window.Tracking = {
+        EVENTS:     {"EVENT_SALE_INITIATED":"sale_initiated","EVENT_SALE_COMPLETE":"sale_complete","EVENT_SALE_COMPLETE_GIFT":"sale_conversion-gift","EVENT_SALE_ERROR":"sale_error","EVENT_SALE_COMPLETE_SAVE_CARD":"sale_complete_save_card","EVENT_SALE_MISSING_EMAIL":"sale_missing_email","EVENT_SALE_UNCONFIRMED_EMAIL":"sale_unconfirmed_email","EVENT_SALE_MISSING_CC":"sale_missing_cc","EVENT_SALE_MISSING_CVC":"sale_missing_cvc","EVENT_SALE_MISSING_EXP":"sale_missing_exp","EVENT_SALE_MISSING_ZIP":"sale_missing_zip","EVENT_SALE_INVALID_CC":"sale_invalid_cc","EVENT_SALE_INVALID_CVC":"sale_invalid_cvc","EVENT_SALE_INVALID_EXP":"sale_invalid_exp","EVENT_SALE_INVALID_ZIP":"sale_invalid_zip","EVENT_SALE_INVALID_COUPON":"sale_invalid_coupon","EVENT_SALE_INACTIVE_COUPON":"sale_inactive_coupon","EVENT_SALE_GEOBLOCKED_COUPON":"sale_geoblocked_coupon","EVENT_SALE_EXPIRED_CC":"sale_expired_cc","EVENT_SALE_PLAY_TRAILER":"sale_play_trailer","EVENT_SALE_PROCESSING_ERROR":"sale_processing_error","EVENT_SALE_UNKNOWN_ERROR":"sale_unknown_error","EVENT_SALE_INCOMPLETE_FORM":"sale_incomplete_form","EVENT_SALE_SHARE_FACEBOOK":"sale_share_facebook","EVENT_SALE_SHARE_TWITTER":"sale_share_twitter","EVENT_SALE_SHARE_EMAIL":"sale_share_email","EVENT_SALE_START_WATCHING":"sale_start_watching","EVENT_SALE_SAVE_CARD":"sale_save_card","EVENT_SALE_SHOW_PAYMENT_TAB":"sale_show_payment_tab","EVENT_SALE_SHOW_DETAILS_TAB":"sale_show_details_tab","EVENT_ADMIN_SIGNUP":"admin_signup","EVENT_ADMIN_ADD_SITE":"admin_add_site","EVENT_ADMIN_PUBLISH_THEME":"admin_publish_theme","EVENT_ADMIN_CREATE_VIDEO":"admin_create_video","EVENT_ADMIN_UPLOAD_VIDEO":"admin_upload_video","EVENT_ADMIN_UPLOAD_VIDEO_NATIVE":"admin_upload_video_native","EVENT_ADMIN_UPLOAD_VIDEO_DROPBOX":"admin_upload_video_dropbox","EVENT_ADMIN_TRANSCODE_VIDEO":"admin_transcode_video","EVENT_ADMIN_CREATE_EXTRA":"admin_create_extra","EVENT_ADMIN_UPLOAD_EXTRA":"admin_upload_extra","EVENT_ADMIN_UPLOAD_EXTRA_NATIVE":"admin_upload_video_native","EVENT_ADMIN_CONNECT_PAYOUT":"admin_connect_payout","EVENT_ADMIN_CREATE_SCREENER":"admin_create_screener","EVENT_ADMIN_CREATE_COUPON":"admin_create_coupon","EVENT_ADMIN_CREATE_UPDATE":"admin_create_update","EVENT_ADMIN_PUBLISH_UPDATE":"admin_publish_update","EVENT_ADMIN_CREATE_PARTNER":"admin_create_partner","EVENT_ADMIN_UPLOADED_FOLLOWERS_CS":"admin_uploaded_followers_csv","EVENT_ADMIN_ADDED_FOLLOWERS":"admin_added_followers","EVENT_ADMIN_CREATE_SUBSCRIPTION":"admin_create_subscription","EVENT_ADMIN_LINK_HELP":"admin_link_help","EVENT_ADMIN_LINK_FAQ":"admin_link_faq","EVENT_ADMIN_LINK_GETTING_STARTED":"admin_link_getting_started","EVENT_ADMIN_LINK_HOWTO":"admin_link_howto","EVENT_ADMIN_LINK_BEST_PRACTICES":"admin_link_best_practices","EVENT_ADMIN_LINK_DEV_DOCS":"admin_link_dev_docs","EVENT_FORUM_CREATE_THREAD":"forum_create_thread","EVENT_FORUM_CREATE_POST":"forum_create_post","EVENT_UPDATE_COMMENT":"comment_update","EVENT_CONCURRENT_LIMIT":"concurrent_limit","EVENT_VIDEO_COMMENT":"video_comment","EVENT_SITE_HERO_WATCH_TRAILER":"site_hero_watch_trailer","EVENT_SITE_HERO_BUY":"site_hero_buy","EVENT_SITE_FOOTER_BUY":"site_footer_buy","EVENT_SITE_FOOTER_IOS":"site_footer_ios","EVENT_SITE_BUY":"site_buy","EVENT_SITE_UNAVAILABLE_REQUEST":"site_unavailable_request","EVENT_SITE_SEARCH":"site_search","EVENT_SITE_SEARCH_EMPTY":"site_search_empty","EVENT_SITE_SEARCH_VIDEO_CLICK":"search_video","EVENT_SITE_SEARCH_COLLECTION_CLICK":"search_collection","EVENT_SITE_SEARCH_PRODUCT_CLICK":"search_product","EVENT_SITE_SEARCH_ITEM_SELECTION":"site_search_item_selected","EVENT_SITE_VIDEO_BUY":"site_video_buy","EVENT_SITE_VIDEO_WATCH_TRAILER":"site_video_watch_trailer","EVENT_SITE_COLLECTION_BUY":"site_collection_buy","EVENT_SITE_PRODUCT_PREORDER":"site_product_preorder","EVENT_SITE_PRODUCT_BUY":"site_product_buy","EVENT_SITE_PRODUCT_RENT":"site_product_rent","EVENT_SITE_CAROUSEL_NEXT":"site_carousel_next","EVENT_SITE_CAROUSEL_PREV":"site_carousel_prev","EVENT_SITE_CAROUSEL_COIN":"site_carousel_coin","EVENT_SITE_CAROUSEL_WATCH_NOW":"site_carousel_watch_now","EVENT_SITE_CAROUSEL_TRAILER":"site_carousel_trailer","EVENT_SITE_HOME":"site_home","EVENT_SITE_BROWSE":"site_browse","EVENT_SITE_SETTINGS":"site_settings","EVENT_SITE_FORUMS":"site_forums","EVENT_SITE_SUPPORT":"site_help","EVENT_SITE_CONTACT":"site_contact","EVENT_SITE_CONTACT_HELP":"site_contact_help","EVENT_SITE_VIEW_PRODUCTS":"site_products","EVENT_SITE_VIEW_PRODUCT":"site_product","EVENT_SITE_COLLECTION_CLICK":"site_collection","EVENT_SITE_VIDEO_CLICK":"site_video","EVENT_SITE_EXTRA_CLICK":"site_extras","EVENT_SITE_CATEGORY_CLICK":"site_category","EVENT_SITE_MOVIE_CLICK":"site_movie","EVENT_SITE_PLAYLIST_CLICK":"site_playlist","EVENT_SITE_SERIES_CLICK":"site_series","EVENT_SITE_SEASON_CLICK":"site_season","EVENT_SITE_TERMS":"site_tos","EVENT_SITE_PRIVACY":"site_privacy","EVENT_SITE_COOKIES":"site_cookies","EVENT_SITE_COPYRIGHT":"site_copyright","EVENT_SITE_DATA_PROCESSING":"site_data_processing","EVENT_SITE_WATCHLIST_REMOVE":"site_removewatchlist","EVENT_SITE_WATCHLIST_ADD":"site_addwatchlist","EVENT_SITE_PAGE_VIEW":"site_page_view","EVENT_SITE_CONTEXT_HOMEPAGE":"site_context_homepage","EVENT_SITE_CONTEXT_COLLECTION":"site_context_collection","EVENT_SITE_CONTEXT_CATEGORY":"site_context_category","EVENT_SITE_CONTEXT_MOVIE":"site_context_movie","EVENT_SITE_CONTEXT_PLAYLIST":"site_context_playlist","EVENT_SITE_CONTEXT_SERIES":"site_context_series","EVENT_SITE_CONTEXT_UPNEXT":"site_context_upnext","EVENT_AUTHENTICATION_LOGIN":"authentication_login","EVENT_AUTHENTICATION_ACTIVATION_STARTED":"activationstarted","EVENT_AUTHENTICATION_ACTIVATION_COMPLETE":"activation","EVENT_AUTHENTICATION_SIGNIN_VIEW":"signin","EVENT_AUTHENTICATION_SIGNIN_STARTED":"signinstarted","EVENT_AUTHENTICATION_SIGNIN_COMPLETE":"authentication","EVENT_AUTHENTICATION_SIGNUP_VIEW":"signup","EVENT_AUTHENTICATION_SIGNUP_STARTED":"signupstarted","EVENT_AUTHENTICATION_PURCHASE_STARTED":"purchasestarted","EVENT_AUTHENTICATION_PURCHASE_COMPLETED":"purchasecompleted","EVENT_AUTHENTICATION_CONVERSION":"conversion","EVENT_AUTHENTICATION_REGISTRATION":"register","EVENT_AUTHENTICATION_IDENTIFY_USER":"identify_user","EVENT_SETTINGS_SAVE_PROFILE":"settings_save_profile","EVENT_SETTINGS_SAVE_NOTIFICATIONS":"settings_save_notifications","EVENT_SETTINGS_SAVE_CARD":"settings_save_card","EVENT_DEVICES_DOWNLOAD_IOS":"devices_download_ios","EVENT_DEVICES_DOWNLOAD_APPLETV":"devices_download_appletv","EVENT_DEVICES_DOWNLOAD_ANDROID":"devices_download_android","EVENT_DEVICES_DOWNLOAD_ANDROIDTV":"devices_download_androidtv","EVENT_DEVICES_DOWNLOAD_AMAZON_FIRE":"devices_download_amazon_fire","EVENT_DEVICES_DOWNLOAD_XBOX":"devices_download_xbox","EVENT_DEVICES_DOWNLOAD_ROKU":"devices_download_roku","EVENT_DEVICES_DOWNLOAD_TIZEN":"devices_download_tizen","EVENT_DEVICES_DOWNLOAD_CHROMECAST":"devices_download_chromecast","EVENT_NEWSLETTER_SIGNUP":"event_newsletter_signup","EVENT_METADATA_ADVISORY":"metadata_click_advisory","EVENT_METADATA_CAST":"metadata_click_cast","EVENT_METADATA_CREW":"metadata_click_crew","EVENT_METADATA_GENRES":"metadata_click_genres","EVENT_METADATA_RATING":"metadata_click_rating","EVENT_METADATA_TAGS":"metadata_click_tags","EVENT_SEGMENT_AUTHENTICATION_CONVERSION":"Order Completed","EVENT_SEGMENT_AUTHENTICATION_PURCHASE_STARTED":"Checkout Started","EVENT_SEGMENT_AUTHENTICATION_REGISTRATION":"Registration Completed","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_COMPLETE":"Sign In Complete","EVENT_SEGMENT_AUTHENTICATION_SIGNIN_VIEW":"Sign In Viewed","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_STARTED":"Signed Up","EVENT_SEGMENT_AUTHENTICATION_SIGNUP_VIEW":"Sign Up Viewed","EVENT_SEGMENT_EXTRA_VIEWED":"Extra Content Viewed","EVENT_SEGMENT_SEARCH_EXECUTED":"Search Executed","EVENT_SEGMENT_SEARCH_ITEM_SELECTED":"Search Result Selected","EVENT_SEGMENT_VIDEO_AD_START":"Video Ad Started","EVENT_SEGMENT_VIDEO_AD_CLICKED":"Video Ad Clicked","EVENT_SEGMENT_VIDEO_AD_FINISH":"Video Ad Completed","EVENT_SEGMENT_VIDEO_AD_FAIL":"Video Ad Failed","EVENT_SEGMENT_VIDEO_AD_SKIP":"Video Ad Skipped","EVENT_SEGMENT_VIDEO_COMMENT_ADDED":"Video Comment Added","EVENT_SEGMENT_VIDEO_COMPLETE_PROGRESS_PERCENTILE":"Video Content Completed","EVENT_SEGMENT_VIDEO_ENDED":"Video Content Ended","EVENT_SEGMENT_VIDEO_END_BUFFER":"Video Playback Buffer Completed","EVENT_SEGMENT_VIDEO_HALF_PROGRESS_PERCENTILE":"50% Content Completed","EVENT_SEGMENT_VIDEO_PAUSE":"Video Playback Paused","EVENT_SEGMENT_VIDEO_PLAY":"Video Playback Started","EVENT_SEGMENT_VIDEO_QUARTER_PROGRESS_PERCENTILE":"25% Content Completed","EVENT_SEGMENT_VIDEO_RESUME":"Video Playback Resumed","EVENT_SEGMENT_VIDEO_SEEKED":"Video Playback Seek Completed","EVENT_SEGMENT_VIDEO_SEEKING":"Video Playback Seek Started","EVENT_SEGMENT_VIDEO_START_BUFFER":"Video Playback Buffer Started","EVENT_SEGMENT_VIDEO_TIMEUPDATE":"Video Content Playing","EVENT_SEGMENT_VIDEO_THIRD_PROGRESS_PERCENTILE":"75% Content Completed","EVENT_SEGMENT_VIDEO_WATCHLIST_ADD":"Added to Watch List","EVENT_SEGMENT_VIDEO_WATCHLIST_REMOVE":"Removed from Watch List","EVENT_SEARCH":"search","EVENT_SEARCH_ITEM_SELECTED":"searchitemselected","EVENT_EXTRA_VIEWED":"extraviewed"},
+        PROPERTIES: {"PROPERTY_COLLECTOR_URL":"https://collector.vhx.tv/pixel.gif","PROPERTY_COLLECTION_ID":"collection_id","PROPERTY_DEVICE":"device","PROPERTY_DEVICE_ID":"device_id","PROPERTY_NAME":"name","PROPERTY_PLATFORM":"platform","PROPERTY_PLATFORM_ID":"platform_id","PROPERTY_PLATFORM_VERSION":"platform_version","PROPERTY_PRODUCT_ID":"product_id","PROPERTY_REFERRER":"referrer","PROPERTY_SESSION_ID":"session_id","PROPERTY_SITE_ID":"site_id","PROPERTY_TIMESTAMP":"timestamp","PROPERTY_TYPE":"type","PROPERTY_URL":"url","PROPERTY_USER_AGENT":"user_agent","PROPERTY_USER_EMAIL":"user_email","PROPERTY_USER_ID":"user_id","PROPERTY_VIDEO_ID":"video_id","PROPERTY_VIEW":"view"},
+      };
+  
+        window._vhx = {
+          environment: 'production',
+          site: { id: '8008', domain: 'faceoftheusaproductionsmahkennavideo.vhx.tv', host: 'faceoftheusaproductionsmahkennavideo.vhx.tv' },
+          geo:  { country: 'de' }
+        };
+  
+        (function() {
+          var vhx = document.createElement('script'); vhx.type = 'text/javascript'; vhx.async = true;
+          vhx.src = 'https://cdn.vhx.tv/assets/tracker.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vhx, s);
+        })();
+  
+      window._current_user = {"id":null,"email":null,"name":null};
+  
+      window._current_site = {"id":8008,"facebook_pixel_codes":[],"twitter_pixel_codes":[],"adwords_pixel_codes":[],"key":"faceoftheusaproductionsmahkennavideo"};
+    </script>
+</head>
+<body class="sites sites-show">
+  <section>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+
+
+<div class="subpage-grid">
+	<ul class="group">
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/bdb8c3c6-c263-44be-995c-df1eef1570e1/11.22.2.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/38544c90-5d99-4f17-82c0-0173d22b6e23/11.22.6.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/07a37cee-455d-4917-97b9-2a59370460ca/11.22.5.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/8412cdf5-1799-4da0-92ed-a19b184e10f2/11.22.7.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/21533da1-5925-4265-99b0-55935f1a17c7/11.22.3.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/21533da1-5925-4265-99b0-55935f1a17c7/11.22.3.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/56e8a432-c64e-4e1c-af15-e5586dfd0e8a/MAHKENNA+24.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/0044bae5-bf8f-4e31-ae13-70fe5e4762f4/MAHKENNA+22.jpg" /></li>
+	  <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/2945c291-6b6c-4541-987f-3c0d25a3c42c/MAHKENNA+23.jpg" /></li>
+  </ul>
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <section>
+    <!-- Feature -->
+    <div class="feature loading">
+    
+    	<h1><span class="title-1">Music Video and Album coming soon!</span></h1>
+    
+      <!-- trailer -->
+      <section class="trailer">
+          
+    	 <!-- slideshow -->
+        <ul class="image-grid" data-gallery>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/bdb8c3c6-c263-44be-995c-df1eef1570e1/11.22.2.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/38544c90-5d99-4f17-82c0-0173d22b6e23/11.22.6.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/07a37cee-455d-4917-97b9-2a59370460ca/11.22.5.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/8412cdf5-1799-4da0-92ed-a19b184e10f2/11.22.7.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/21533da1-5925-4265-99b0-55935f1a17c7/11.22.3.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/21533da1-5925-4265-99b0-55935f1a17c7/11.22.3.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/56e8a432-c64e-4e1c-af15-e5586dfd0e8a/MAHKENNA+24.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/0044bae5-bf8f-4e31-ae13-70fe5e4762f4/MAHKENNA+22.jpg" /></li>
+          <li><img src="https://dr56wvhu2c8zo.cloudfront.net/faceoftheusaproductionsmahkennavideo/assets/2945c291-6b6c-4541-987f-3c0d25a3c42c/MAHKENNA+23.jpg" /></li>
+        </ul>
+        
+        <ul class="social">
+          <li>
+            <a href="https://twitter.com/share" class="twitter-share-button" 
+              data-via="FaceoftheUSA" 
+              data-text="" 
+              data-counturl="http://faceoftheusaproductionsmahkennavideo.vhx.tv" 
+              data-url="http://faceoftheusaproductionsmahkennavideo.vhx.tv">Tweet</a>
+          </li>
+          <li>
+            <a class="email" href="/cdn-cgi/l/email-protection#fcc38f899e96999f88c1be8985dcba9d9f99dc939adc889499dca9afbddcac8e9398899f889593928fd0dcb19d94979992929ddcaa95989993dc9392dcaab4a4ddda9e939885c19488888cc6d3d39a9d9f99939a889499898f9d8c8e9398899f889593928f919d94979992929d8a95989993d28a9484d2888a"><i class="icon-envelope-alt"></i> Share</a>
+          </li>
+        </ul>
+      </section>
+    
+    </div>
+    
+    <!-- Primary -->
+    <section class="primary">
+      
+      <section class="row">
+      	<div class="col-1-1">
+        <!-- options -->
+        <ul class="feature-options">
+          
+          <li class="buy-btn"><a href="/buy">$1 Pre-order</a></li>
+          <li class="trailer-btn"><a href="" data-preview-url="">Preview</a></li>
+        </ul>
+    
+    		<ul class="callout row">
+    			<li class="col-1-2">
+            <img src="https://dr56wvhu2c8zo.cloudfront.net/onthemove/assets/a9e5b5c4-edbb-4dca-b9a0-bc0cff573cae/watch-anytime-white.png" />
+    	    	<h4>Watch Anytime</h4>
+    			</li>
+    			<li class="col-1-2">
+    			<img src="https://dr56wvhu2c8zo.cloudfront.net/brick/assets/7b894f98-b595-4745-b6e3-b412ef60b198/drm-free-white.png" />
+    	    	<h4>Download DRM Free</h4>
+    			</li>
+    		</ul>
+        
+        <div class="synopsis">
+        	<h2 class="title-2">Face of the USA Productions, Mahkenna Video</h2>
+          <p>I want to thank everyone involved and their support of my album and future film.  Your support and our efforts together is for a great cause.  I'm dedicating a portion of the proceeds from my album sales will reach multiple charity organizations working with Expet2Win a Non-Profit organization. </p>
+        </div>
+      </section>
+      
+      <section class="row main">
+        <div class="col-3-5">
+        
+          <!-- Packages -->
+          <ul class="packages group">
+                <li class="group">
+    
+                    <h3 class="title-2">Mahkenna Tyson - New Album and Video </h3>
+                    <div class="visual"><img src="https://vhx.imgix.net/faceoftheusaproductionsmahkennavideo/assets/86ff89ff-7b9d-4041-8beb-9c84e3948cd0/MAHKENNA_GREY_SCARF_LOGO_3.jpg?auto=format%2Ccompress&amp;fit=crop&amp;h=720&amp;w=1280" /></div>
+                    <div class="desc"><p>Coming This Spring!!  Contributions and a portion of the proceeds go to Expect2Win a Non-Profit organization that supports multiple charity youth organizations with a cause.  Join our Team!</p></div>
+                    <a class="btn btn-size-15" href="/buy/mahkenna-tyson-new-album-and-video">$1 Pre-order</a>
+    
+                 </li>
+          </ul> 
+        </div>
+        
+        <div class="col-2-5">
+          <!-- Twitter Feed -->
+          <div class="twitter" data-count="10" data-twitter-handle="FaceoftheUSA">
+            <h4 class="title-2"><a href="#">@FaceoftheUSA</a></h4>
+                <ul class="scroll">
+                </ul>
+          </div>
+        </div>
+    	</section>
+    </section>    <div class="clear"></div>
+  </section>
+
+  <section>
+    <div class="footer row">
+  <!-- MODULE / Site Navigation -->
+  <nav class="nav-site">
+    <ul>
+      <li><a href="/faq">Help / FAQ</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/tos">Terms of Use</a></li>
+      <li><a href="/buy">Buy the Film</a></li>
+        <!-- VHX Link -->
+		  <li class="brand-vhx">
+    		<a href="http://vhx.tv" title="Powered by VHX" target="_blank">
+	      <img src="http://dr56wvhu2c8zo.cloudfront.net/assets/powered_by_vhx_white.png" alt="Powered by VHX">
+    		</a>
+		  </li>
+    </ul>
+  </nav>
+</div>
+    <div class="clear"></div>
+  </section>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    window._site = {
+      color:        '#22B9B0',
+      key:          'faceoftheusaproductionsmahkennavideo',
+      facebook_url: '',
+      twitter_name: 'FaceoftheUSA'
+    };
+  
+    var _config = {
+      country_code: 'de'
+    };
+  </script>
+  
+  <script src="https://static.vhx.tv/theme/javascripts/vhx.javascript.min.js"></script>
+  
+<script>
+  window._flash = {
+    alert:  "",
+    notice: ""
+  };
+
+  
+      $(document).ready(function() {
+        var	grid = {
+        parent: 		$('.feature'),
+        container: 	$('.image-grid'),
+        item: 			$('.image-grid li'),
+        header: 		$('.feature h1'),
+        title: 			$('.feature h1 span'),
+        buy: 				$('.feature .buy-btn'),
+        trailer: 		$('.feature .trailer-btn')
+      };
+      
+  var	THM = {
+  
+      /* init grid
+      ---------------------------------------------*/
+      initGrid: function() {
+        var self = this;
+        
+        if (grid.item.length < 18) {
+      
+          var how_many = 18 - grid.item.length;
+        
+          for (var i=0;i<how_many;i++) {
+            grid.container.append('<li class="grid-empty"></li>');
+          }
+      
+          grid.item = $('.image-grid li');
+        }
+      
+        self.shuffleList(grid.container);
+      
+        $(window).on('resize', function() {
+          self.adjustGrid();
+        });
+      
+        $(window).trigger('resize');
+      
+        self.showGrid(grid.container, function() {
+          grid.header.fadeIn(1000);
+          grid.buy.fadeIn(1000);
+          grid.trailer.fadeIn(1000);
+        });
+      },
+          
+      /* adjust grid
+      ---------------------------------------------*/
+      adjustGrid: function() {
+        var grid_height = (.15 * $(window).width()),
+            header_margin_top = (grid_height - grid.title.outerHeight()) / 2,
+            trailer_margin_top = (grid_height - grid.trailer.outerHeight()) / 2,
+            buy_margin_top = ((grid_height - grid.buy.outerHeight()) / 2) + (2*grid_height) + 10;
+        
+        grid.container.height((grid_height*3)+20);
+        grid.item.height(grid_height);
+        grid.header.css({'top': grid_height + 5, 'height': grid_height});
+        grid.title.css({'marginTop': header_margin_top + 'px'});
+        grid.buy.css({'marginTop': buy_margin_top + 'px' });
+        grid.trailer.css({'marginTop': trailer_margin_top + 'px' });
+        
+        if (grid.parent.hasClass('loading')) {
+          grid.item.hide();
+          grid.header.hide();
+          grid.buy.hide();
+          grid.trailer.hide();
+          grid.parent.removeClass('loading');
+        }
+     	},
+  
+      /* show images
+      ---------------------------------------------*/
+      showGrid: function(grid, callback) {
+        var interval = 0,
+            loaded = true,
+            images = grid.find('li');
+    
+        var loading_images = setInterval(function() { 
+          interval++;
+          grid.find('li').each(function() {
+            if ($(this).height() === 0) {
+              loaded = false;
+            }
+          });
+            
+          if (loaded || interval >= 20) {
+              clearInterval(loading_images);
+              var x = 50;
+              
+              count = images.length;
+    
+              for (i=0;i<count;i++) {
+                if (i === count-1){
+                  $(images[i]).delay(x).fadeIn(30,function(){
+                    callback();
+                  });
+                }
+                else {
+                  $(images[i]).delay(x).fadeIn(30);              
+                }
+                x += 25;              
+              }
+          }
+        }, 300);
+      },
+        
+      /* shuffle utility
+      ---------------------------------------------*/
+      shuffle: function(items) {
+        var cached = items.slice(0), temp, i = cached.length, rand;
+        while(--i) {
+          rand = Math.floor(i * Math.random());
+          temp = cached[rand];
+          cached[rand] = cached[i];
+          cached[i] = temp;
+        }
+        return cached;
+      },
+    
+      /* shuffle list
+      ---------------------------------------------*/
+      shuffleList: function(list) {
+        var self = this,
+            nodes = list.children(), i = 0;
+            
+        nodes = Array.prototype.slice.call(nodes);
+        nodes = self.shuffle(nodes);
+        while(i < nodes.length) {
+            list.append(nodes[i]);
+            ++i;
+        }
+      }
+        
+  }	
+  
+  if ($('.image-grid').length > 0 ) {
+  	THM.initGrid();
+  }
+      });
+    </script>
+
+<script src="https://cdn.vhx.tv/assets/shared/flash.js"></script>
+
+
+    <script src="https://cdn.vhx.tv/assets/api.js" data-vhx-site="faceoftheusaproductionsmahkennavideo.vhx.tv"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://faceoftheusaproductionsmahkennavideo.vhx.tv:443

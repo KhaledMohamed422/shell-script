@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: cainiaosec.cn-hangzhou.img-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.1 (like Gecko) Fedora/4.4.1-1.fc12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 379
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 08:43:47 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000002
+X-Oss-Request-Id: 654B4A4359DE0D3432518559
+X-Oss-Server-Time: 5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Anonymous user has no right to access this bucket.</Message>
+  <RequestId>654B4A4359DE0D3432518559</RequestId>
+  <HostId>cainiaosec.cn-hangzhou.img-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000002</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000002</RecommendDoc>
+</Error>
+
+
+
+http://cainiaosec.cn-hangzhou.img-pub.aliyun-inc.com:80

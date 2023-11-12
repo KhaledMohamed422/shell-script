@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: zonk.qubit.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari Line/12.6.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 74
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 02:31:45 GMT
+Etag: W/"4a-cRplg3UGwHl3wNcZzj4Zmhx69Bs"
+X-Powered-By: Express
+
+{"status":200,"data":{"visitorEngine":"14","aura":"15","smartserve":"78"}}
+
+
+https://zonk.qubit.com:443

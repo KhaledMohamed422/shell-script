@@ -1,0 +1,44 @@
+GET / HTTP/1.1
+Host: acapi.vhx.tv
+User-Agent: Opera/9.80 (X11; Linux i686) Presto/2.12.388 Version/12.16
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate, no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b2494fe4f21ab-DUS
+Content-Type: application/json; charset=utf-8
+Date: Wed, 08 Nov 2023 04:41:18 GMT
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1699418478&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=WZq5epH5c5irv4x%2FNG0eIS2AVLD4cYAwsKEUsWqyrC4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1699418478&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=WZq5epH5c5irv4x%2FNG0eIS2AVLD4cYAwsKEUsWqyrC4%3D
+Server: cloudflare
+Set-Cookie: __cf_bm=UPR10ec4YijqMuXLysNfP23xcNRgo_QxSgBxtp18l4Y-1699418478-0-AQXD+ReX7qJDC6VmLzKjtpu/TeKpRoAQh7M2qlrsKQxkL25RKwGjARkTI+89o39p+CoZgOG0DEfXUjhihNFa7v0=; path=/; expires=Wed, 08-Nov-23 05:11:18 GMT; domain=.vhx.tv; HttpOnly; Secure; SameSite=None
+Status: 404 Not Found
+Surrogate-Control: no-cache
+Vary: Accept-Encoding, Origin
+Via: 1.1 vegur
+X-App-Commit: 27b0763f
+X-App-Release: v24986
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Powered-By: Phusion Passenger(R)
+X-Rack-Cache: miss
+X-Request-Id: b945eed5-84a4-4f20-b524-1f4334dd32c1
+X-Runtime: 0.008190
+X-Xss-Protection: 1; mode=block
+
+45
+{"message":"Not Found (404)","documentation_url":"http://dev.vhx.tv"}
+0
+
+
+
+
+https://acapi.vhx.tv:443

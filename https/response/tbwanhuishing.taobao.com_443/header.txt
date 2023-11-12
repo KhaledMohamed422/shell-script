@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: tbwanhuishing.taobao.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 13982.88.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.162 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 410
+Ali-Swift-Global-Savetime: 1699439188
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:26:27 GMT
+Eagleid: de49212216994391877786094e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache35.l2cn1827[142,141,403-1280,M], cache14.l2cn1827[145,0], vcache27.cn5626[178,221,403-1280,M], vcache14.cn5626[226,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Oss-Cdn-Auth: success
+X-Oss-Ec: 0003-00000101
+X-Oss-Request-Id: 654B625392403C3537E573BF
+X-Oss-Server-Time: 19
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 10:26:28 GMT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>Access denied by bucket policy.</Message>
+  <RequestId>654B625392403C3537E573BF</RequestId>
+  <HostId>tbwanhuish.oss-cn-shanghai.aliyuncs.com</HostId>
+  <Bucket>tbwanhuish</Bucket>
+  <User>nosuchuser</User>
+  <EC>0003-00000101</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000101</RecommendDoc>
+</Error>
+
+
+
+https://tbwanhuishing.taobao.com:443

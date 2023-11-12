@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: app.alibaba.com
+User-Agent: Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 215
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:42:45 GMT
+Eagleid: 2103273b16994365654085656e3061
+Location: https://m.alibaba.com/mobile/phonevpc.html?refer=https%3A%2F%2Fapp.alibaba.com%2F
+Server: Tengine
+Server-Timing: rt;dur=0.002,eagleid;desc=2103273b16994365654085656e3061
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+

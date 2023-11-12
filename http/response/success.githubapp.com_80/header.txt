@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: success.githubapp.com
+User-Agent: DoCoMo/2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1;  http://www.google.com/bot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:24:18 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3D3aa4b6cd-8e4d-4d74-b968-15e0d80c87f1%26page_id%3D38795980%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=3aa4b6cd-8e4d-4d74-b968-15e0d80c87f1; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: 63d5be8f517ae6f03661d8bca015a2bbd388137e
+X-Github-Request-Id: FC74:F7B5:6390DD5:65493F4:654AF152
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230101-FRA
+X-Timer: S1699410259.570410,VS0,VE183
+

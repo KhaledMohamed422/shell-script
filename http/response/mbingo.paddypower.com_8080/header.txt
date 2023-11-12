@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: mbingo.paddypower.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b8372b76715c-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:43:02 GMT
+Expires: Tue, 07 Nov 2023 18:43:17 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7l3Cx8KE7hzBfehqfWhnlugoMzj8F0Y4xW2ZSdqqRpbgfF5Pc2IkAMJ6ZTyUMK%2BEafwIAZ8W7vRtJK4yOG5n2N9j6lvSX4cFEtKaocobvCrGaYk%2BGgKu51jbNoREKPGsKYMvj32fIfZLQnr%2F"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=DVPMsepXTLYNpcrJmwxN7E2LJAuvJvvSAR3EAtI6F7Q-1699382582-0-AcCuCFwaeGgc5YI7aaXewojC4tarEzynP2hEO/uiUyRcQIwZ25KiDiFPTAa5S6Sk2f5ftZtMtixuLQnsPXHISXQ=; path=/; expires=Tue, 07-Nov-23 19:13:02 GMT; domain=.paddypower.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+caa

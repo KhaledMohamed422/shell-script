@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: ocsp.cloudflare.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36 Edg/101.0.1210.32
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 5
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=0, no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e0f53ef28751-DUS
+Content-Type: application/ocsp-response
+Date: Tue, 07 Nov 2023 19:10:51 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UlKan1OdmlODkXXGNmDBfT9yg92l9SSJu7kETDjD%2F%2Fw8zSK%2FkOSaSQFLN0ZjsB9qC2NnG3A0N9886HM7Gj8MlHGya%2FGyZa9xPZLdbEBJ5TuQqbvKAS8w1QOVXron3eueJEoN3IU%3D"}],"group":"cf-nel","max_age":604800}
+Served-In-Seconds: 0.005
+Server: cloudflare
+Set-Cookie: __cf_bm=XV.BOOzsO0.bS9B0Oli1ilM6FlRD2.Dzno2El25Jv.c-1699384251-0-AS8Qgb1wzZ7qnGPiHk3kvIm4LOQmPsq+EVidR806x97tV0ZHYAM1EwYIgz9kAaVib/0X2+d8EB42LSHHq6RbTNk=; path=/; expires=Tue, 07-Nov-23 19:40:51 GMT; domain=.cloudflare.com; HttpOnly; SameSite=None
+X-Envoy-Upstream-Service-Time: 0
+
+0
+
+
+
+http://ocsp.cloudflare.com:80

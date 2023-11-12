@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<link href="/css/bundles/tailwind.css?11-07T14:54:05Z"
+    rel="stylesheet" type="text/css" />
+
+<style media="all" type="text/css">
+    /* Terkuin tailwind.tpl */
+            :root {
+            /* On CSS variables: https://tailwindcss.com/docs/customizing-colors#using-css-variables */
+            --primary-color-50: 204 242 254; --primary-color-100: 154 230 255; --primary-color-200: 105 218 255; --primary-color-300: 55 207 255; --primary-color-400: 6 195 255; --primary-color-500: 0 161 212; --primary-color-600: 0 130 171; --primary-color-700: 0 99 131; --primary-color-800: 0 69 91; --primary-color-900: 0 38 51; --primary-color-500-complement: 0 38 51; --primary-color-50-complement: 0 99 131; --secondary-color: 0 161 212; --tertiary-color: 255 255 255;
+            /* If $currentThemeOrg is not set, no worries. Tailwind defaults to Granite orange on the React side. */
+
+                            --custom-theme-logo-path: url('/files/854d20c47b06ad69d438a1a3b01de37c.jpg');
+                                        --custom-report-logo-path: url('/files/9c90b343165078d0fec86d93da4c1793.jpg');
+                        /* Again, Tailwind has default logos set. */
+        }
+
+    </style>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex" />
+	<meta name="robots" content="noarchive" />
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, user-scalable=1, height=device-height, width=device-width" />
+  <meta name="apple-mobile-web-app-title" content="Granite"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+
+<link rel="apple-touch-icon" href="images/icons/logo_512.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="images/icons/logo_152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="images/icons/logo_180.png"/>
+<link rel="apple-touch-icon" sizes="167x167" href="images/icons/logo_167.png"/>
+
+<link href="images/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="images/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<title>Granite</title>
+
+	<link rel="stylesheet" href="/css/bundles/client.css?11-07T14:54:05Z" type="text/css" />
+
+  
+
+  <script src="/js/bundles/vendor.bundle.js?11-07T14:54:05Z"></script>
+  <script src="/vendor/bootstrap/js/collapse.js?11-07T14:54:05Z"></script>
+
+    <style media="all" type="text/css">
+        .top-holder .logo span { background-image: url('/files/854d20c47b06ad69d438a1a3b01de37c.jpg'); }
+    
+          .theme-color-bg, .theme-color-bg.btn-default.primary:hover, .theme-color-bg.btn-default.primary:focus, .theme-color-bg.btn-default.primary:focus:active {
+        background-color:#00A1D4;
+        color:#FFFFFF;
+      }
+      .theme-highlight {
+        box-shadow: 0 0 3px 1.5px #00A1D4;
+      }
+      .toolbar-holder .bg{ background-color:#00A1D4; }
+
+      .top-holder .top ul li a:hover, .top-holder .top ul li.active a{ color:#00A1D4; }
+      .toolbar-holder .toolbar ul li a:hover { color:#00A1D4; }
+      .main-tabs .tab-list .tab.active, .main-tabs .tab-list .tab:hover { border-bottom-color: #00A1D4; }
+      body .main-content .panel-content.assessment .section .section-topics .topic .content .content-list .progressbar .progress { background-color:#00A1D4; }
+      body .btn-default {
+        background-color:#00A1D4;
+        color:#FFFFFF;
+      }
+
+      .btn-default.secondary.active {
+        background-color: #00A1D4;
+        border-color: #00A1D4;
+      }
+      .btn-default.secondary.active div {
+        border-color: #00A1D4;
+      }
+      body .btn-default:hover, body.assessment .btn-default:focus, body .btn-default:focus:active {
+        color:#FFFFFF;
+      }
+      .top-holder .navbar .navbar-collapse { border-bottom-color:#00A1D4; }
+      .fa-layers[data-count]::after {
+        background: #00A1D4;
+      }
+
+      .filter-notification {
+        border-left: 6px solid #00A1D4;
+      }
+
+      .filter-notification > svg {
+        color: #00A1D4;
+      }
+
+      .filter-dropdown-menu .szh-menu__item.active {
+        background: #00A1D4;
+      }
+
+            .training .control div a, .training .control div button{ color:#00A1D4; }
+      .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { background-color:#00A1D4; }
+      .top-holder .top ul li a:hover, .top-holder .top ul li.active a{ color:#00A1D4; }
+      .toolbar-holder .toolbar ul li a:hover { color:#00A1D4; }
+      body.training .content-holder .main-content-column .term { color:#00A1D4; }
+      .top-holder .navbar .navbar-collapse { border-bottom-color:#00A1D4; }
+
+    
+          #answerlist-content #answerlist-table_wrapper #answerlist-table_paginate a.paginate_button.current:not(.next):not(.previous) {
+        color: #FFFFFF;
+      }
+      .btn-default.secondary.active {
+        color: #FFFFFF;
+      }
+
+            body.training .control .buttons .btn-default span { color:#FFFFFF; }
+      .theme-color-text-on-bar{ color:#FFFFFF; }
+      .block .sub-heading, .block .sub-heading div{ color:#FFFFFF; }
+      .block .sub-heading a, .block .sub-heading h4{ color:#FFFFFF; }
+      .block .sub-heading a, .block .sub-heading h5{ color:#FFFFFF; }
+      .navigation ul li a{ color:#FFFFFF; }
+      #header .holder ul li.active a{ color:#FFFFFF; }
+
+    
+                  .instance-navigation a.content-page-link { color:#00A1D4; }
+      .theme-color, .notice-title, a.lastpage-viewed { color:#00A1D4; }
+      .top-holder .top ul li a:hover, .top-holder .top ul li.active a{ color:#00A1D4; }
+      .subnavigation ul li a:hover, .subnavigation ul li.active a{ color:#00A1D4; }
+      .subnavigation ul.content_menu li a:hover, .subnavigation ul.content_menu li.active a{ color:#00A1D4!important; }
+      .training .navigation ul li.active a span span { color:#00A1D4; }
+      .training .navigation ul li a:hover, .training .navigation ul li.active a{ color:#00A1D4; }
+      .summary .sidebar ul li a:hover, .summary .sidebar ul li.active a{ color:#00A1D4; }
+      .summary .sidebar ul ul li a:hover, .summary .sidebar ul ul li.active a{ color:#00A1D4; }
+      #combined-answerlist-selector.panel li.active span, #combined-answerlist-selector.panel span:hover { color: #00A1D4; }
+      .rating_explanation_toggle:hover{ color:#00A1D4; }
+      a { color:#00A1D4; }
+      body.training .content-holder .main-content-column .term { color:#00A1D4; }
+      .glossary dl dt  { color:#00A1D4; }
+      .glossary_all dl dt { color:#00A1D4; }
+
+            .theme-color, .notice-title, a.lastpage-viewed { color:#00A1D4; }
+      .top-holder .top ul li a:hover, .top-holder .top ul li.active a{ color:#00A1D4; }
+
+            .form-control-static a{ color:#00A1D4; }
+      .navbar.navbar-custom a { color:#00A1D4; }
+
+      .navbar .header-dropdown a:hover { color:#00A1D4; }
+
+    
+    a.new_links { color:#00A1D4; }
+    .link_name_column a { color:#00A1D4; }
+
+          .pdf-document .pdf-logo { background-image: url('/files/9c90b343165078d0fec86d93da4c1793.jpg'); }
+    
+  </style>
+      <style media="all" type="text/css">
+              .pdf-document .pdf-logo { background-image: url('/files/9c90b343165078d0fec86d93da4c1793.jpg'); }
+          </style>
+  </head>
+
+<body class="login">
+
+    <div class="container">
+
+      <div class="row login-row">
+        <div class="login-column">
+
+          <div class="logo">
+                          <img alt="Logo" src="/files/854d20c47b06ad69d438a1a3b01de37c.jpg" height="45" />
+                      </div>
+
+          <div class="username-password clearfix">
+                                            <h1>Kirjaudu sisään</h1>
+
+                                
+                <form id="loginForm" method="post">
+                  <input type="hidden" name="604dd2b82ffc2f43ce5d0374ce707cae514f5615" value="604dd2b82ffc2f43ce5d0374ce707cae514f5615" />
+                  <input type="hidden" name="91b4ededb48d41f2d1e140cb1b4f09453c4a7110" value="813a947fdf8f13325e9ab605521c956511ad8dbc6a7fff25b6d7dac203b71e6e5d7fdcaaebc060bb4d9cba9c5b63ae34593880de7814d2dd26248e598f3876b6" />
+
+                                                                                                
+                    <div class="form-group">
+                      <input autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" id="username-field" class="form-control" type="text" name="username" value="" placeholder="Käyttäjätunnus" aria-label="Käyttäjätunnus" />
+                    </div>
+                    <div class="form-group">
+                      <input id="password-field" class="form-control" type="password" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" name="passwd" placeholder="Salasana" aria-label="Salasana" />
+                    </div>
+
+                    <div class="clearfix form-group">
+                      <button type="submit" class="pull-right btn btn-default theme-color-bg primary" id="login"><div>Kirjaudu sisään</div></button>
+                    </div>
+
+                    <div class="pull-right forgotton-password clearfix">
+                      <a href="?lang1=1&amp;forgottenpassword" aria-label="Oletko unohtanut käyttäjätunnuksesi tai salasanasi?" >Oletko unohtanut käyttäjätunnuksesi tai salasanasi?</a>
+                    </div>
+                                  </form>
+              </div>
+
+              
+
+              <div class="bottom-block">
+                                  <div class="language-selector">
+                    <div class="form-group">
+                      <select class="form-control" id="language-selector">
+                                                  <option value="1" selected="selected">Suomi</option>
+                                                  <option value="2" >English</option>
+                                                  <option value="3" >Svenska</option>
+                                              </select>
+                    </div>
+                  </div>
+                
+                <div class="cookie-info">
+                  <p>Järjestelmän toimivuuden vuoksi evästeiden ("cookies") käytön on oltava selainohjelmassa sallittua (yleensä onkin, joten tämä aiheuttaa harvoin ongelmia).</p>
+                  <p>Ongelmatilanteissa ota yhteyttä Graniten tukipalveluun: <a href="mailto:tuki@granite.fi">tuki@granite.fi</a>.</p>
+                </div>
+              </div>
+                      </div>
+      </div>
+
+	</div>
+
+<script>
+      document.getElementById("username-field").focus();
+    </script>
+
+<script>
+$(document).ready(function() {
+  $("#language-selector").on('change', function() {
+    window.location.href = "?lang1="+$(this).val();
+  });
+});
+</script>
+</body>
+</html>
+
+0
+
+
+
+
+https://turvallisuuspoikkeamat.lahitapiola.fi:443

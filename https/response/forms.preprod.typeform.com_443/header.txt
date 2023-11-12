@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: forms.preprod.typeform.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G935F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: X-Typeform-Key, Content-Type, Authorization, Typeform-Version, typeform-app
+Access-Control-Allow-Methods: GET, OPTIONS, POST, PUT, PATCH, DELETE
+Access-Control-Expose-Headers: Location, X-Request-Id
+Date: Tue, 07 Nov 2023 23:19:20 GMT
+Location: https://typeform.com/
+Server: istio-envoy
+Set-Cookie: AWSALBTG=9myxMp+kmf6RSPSk8As1EXWntHyYP892XAzPXDVL90A6mtQjZRLFCxfOwVy71VgjxxDeKRgGBj5/MiImZtm5663eiKwiajkRjQJMhO118jxuw2T19v5IZWKtykHFtWrEvYzlanfP+WxuEZkD/VdJRwIJzcn9s8vIY73PXyDgi204; Expires=Tue, 14 Nov 2023 23:19:20 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=9myxMp+kmf6RSPSk8As1EXWntHyYP892XAzPXDVL90A6mtQjZRLFCxfOwVy71VgjxxDeKRgGBj5/MiImZtm5663eiKwiajkRjQJMhO118jxuw2T19v5IZWKtykHFtWrEvYzlanfP+WxuEZkD/VdJRwIJzcn9s8vIY73PXyDgi204; Expires=Tue, 14 Nov 2023 23:19:20 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+
+0
+
+
+
+
+https://forms.preprod.typeform.com:443

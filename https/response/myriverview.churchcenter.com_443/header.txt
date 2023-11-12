@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: myriverview.churchcenter.com
+User-Agent: Mozilla/5.0 (Linux; Android 9; SM-G950F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:25:22 GMT
+Location: https://churchcenter.com/missing_organization
+Referrer-Policy: strict-origin-when-cross-origin
+Server: openresty
+Set-Cookie: church_center_session=eyJhbGciOiJFUzI1NiJ9.eyJqdGkiOiI4NjY5NDQ0MmE0N2ExOTMwNTZhZWQ5ZGQyNzNmMDEzNiIsImlhdCI6MTY5OTQyODMyMiwiZXhwIjoxNzAwNjM3OTIyLCJpc3MiOiIvcGNvL3Nlc3Npb24ifQ.x_Y_FJRwsOFuDehwGkBXErK144JOTGlOvHEZO7vUTcupxsntyIhDQxX3lwn_S8Xkinf7e_tziG6F2CADGL8V9A; path=/; expires=Wed, 22 Nov 2023 07:25:22 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Via: 1.1 666eddda46892ed48d8d771b6142ac24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2oa7ufmKfaEdEu8tYHg3G7Pq7gdDNupNp1yYv-5JWzW_FlphKmJvDQ==
+X-Amz-Cf-Pop: FRA56-P2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 3a86bcd6-9993-4356-bec2-726799147b26
+X-Runtime: 0.019737
+X-Xss-Protection: 1; mode=block
+
+6f

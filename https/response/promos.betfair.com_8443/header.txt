@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: promos.betfair.com:8443
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bbe52b9ccb01-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:33 GMT
+Expires: Tue, 07 Nov 2023 18:45:48 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?0
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=noMX6z4Qt7DTZLx5AWL0AMpJdX%2BzrFeng12hzjPcsMvFG0sk4c%2BxDi%2FOkXSS3njE4jUBx%2FGBOcSXPcRwZ2hko7I8H38Jme4lqUk2pxklJuSTNWLYWUapDRNS0PTQhiZHAaxNHFE3hX2P"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

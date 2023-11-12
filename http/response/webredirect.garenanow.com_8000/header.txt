@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: webredirect.garenanow.com:8000
+User-Agent: Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0 )
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 BAD REQUEST
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:13:01 GMT
+X-Frame-Options: SAMEORIGIN
+
+1a
+<h1>Bad Request (400)</h1>
+0
+
+
+
+
+http://webredirect.garenanow.com:8000

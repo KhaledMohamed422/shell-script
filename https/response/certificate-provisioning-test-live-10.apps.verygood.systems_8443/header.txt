@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-live-10.apps.verygood.systems:8443
+User-Agent: SonyEricssonT68/R201A
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:49 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: app-dog-cdn.captivateiq.com:8443
+User-Agent: Mozilla/5.0 (X11; OpenBSD amd64; rv:30.0) Gecko/20100101 Firefox/30.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 253
+Cf-Ray: -
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 19:07:52 GMT
+Server: cloudflare
+

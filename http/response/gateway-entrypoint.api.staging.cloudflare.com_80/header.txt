@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: gateway-entrypoint.api.staging.cloudflare.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 522 
+Connection: close
+Cache-Control: no-store, no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227dee8e9147a3c-DUS
+Date: Tue, 07 Nov 2023 19:09:27 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=YBuH1PeJc1ZUYqJhL5viA.tC26xSxY2Zt_ywZtPtVYM-1699384167-0-AavBNDPKu6rs7yrr/Da5itbHP7U3UPGkawYupFsFyEvVU3G69DBjbk+ZtmyxnKZ8TlZ2xMl++sYyaN5qROcRhC4=; path=/; expires=Tue, 07-Nov-23 19:39:27 GMT; domain=.api.staging.cloudflare.com; HttpOnly; SameSite=None
+Content-Length: 0
+
+
+
+
+http://gateway-entrypoint.api.staging.cloudflare.com:80

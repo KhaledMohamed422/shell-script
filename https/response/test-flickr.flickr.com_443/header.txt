@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: test-flickr.flickr.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Redmi Note 9 Pro Max) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Mobile Safari/537.36 OPR/68.3.3557.64528
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 960
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:05:33 GMT
+Server: CloudFront
+Via: 1.1 58bcd6f2e1bc29fb83f080f1743cfeca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nSfgKrIrfnurLzIPQby2M12IG9CvPh2rVx1UxC8MU2tJBiBd2nVfWA==
+X-Amz-Cf-Pop: FRA50-C1
+X-Cache: Error from cloudfront
+

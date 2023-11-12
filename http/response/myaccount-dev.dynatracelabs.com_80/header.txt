@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: myaccount-dev.dynatracelabs.com
+User-Agent: Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Content-Security-Policy: default-src 'self'; connect-src https://*.dynatracelabs.com https://*.dynatrace.com https://dt-cdn.net wss://*.dynatrace.com; style-src 'self' 'unsafe-inline' https://*.dynatracelabs.com https://*.dynatrace.com https://fonts.googleapis.com https://dt-cdn.net; img-src 'self' blob: data: https://*.dynatracelabs.com https://*.dynatrace.com; font-src 'self' data: https://*.dynatracelabs.com https://*.dynatrace.com https://fonts.gstatic.com https://dt-cdn.net; script-src 'self' https://*.dynatracelabs.com https://*.dynatrace.com; worker-src blob:; frame-src 'self' https://*.dynatracelabs.com https://*.dynatrace.com; frame-ancestors 'self'; object-src 'self'
+Content-Type: text/html
+Cross-Origin-Opener-Policy: same-origin
+Date: Tue, 07 Nov 2023 21:58:48 GMT
+Location: https://myaccount-dev.dynatracelabs.com/
+Referrer-Policy: same-origin
+Server: CloudFront
+Via: 1.1 7efdfc8e9ebc26758933b0151e22707e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UQwaikSpujTe41BFtKcOmX1NT3llFaijeIqtRwn5zKbPt1LF1WU7xg==
+X-Amz-Cf-Pop: FRA60-P4
+X-Cache: Redirect from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

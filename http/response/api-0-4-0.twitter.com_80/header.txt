@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: api-0-4-0.twitter.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5042.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0
+Content-Type: text/plain;charset=utf-8
+Date: Tue, 07 Nov 2023 19:35:59 UTC
+Perf: 7626143928
+Server: tsa_o
+Set-Cookie: guest_id=v1%3A169938575988078679; Max-Age=34214400; Expires=Sat, 07 Dec 2024 19:35:59 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+X-Connection-Hash: 48229d67bef20fbe937a5f13d634ffb4649d22c314dfcce663897d604fc247bd
+X-Response-Time: 99
+X-Transaction-Id: 17ac69d4e9b2d4a0
+
+SSL is required
+
+
+
+http://api-0-4-0.twitter.com:80

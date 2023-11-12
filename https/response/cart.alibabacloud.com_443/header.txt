@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: cart.alibabacloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79 (Edition Campaign 76)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 
+Connection: close
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Security-Policy-Report-Only: default-src 'self' 'unsafe-inline' data: https://*.daily.taobao.net https://*.mmstat.com https://*.aliyun-inc.com https://*.alibaba-inc.com https://*.alicdn.com https://*.alibaba.com https://*.aliyuncs.com; report-uri /report-csp
+Date: Wed, 08 Nov 2023 09:46:23 GMT
+Eagleeye-Traceid: 0a58314116994367832565978e4b55
+Expires: 0
+Location: https://account-intl.aliyun.com/login/login.htm?oauth_callback=http%3A%2F%2Fcart.alibabacloud.com%2F
+Pragma: no-cache
+Server: Tengine
+Set-Cookie: XSRF-TOKEN=85c1b47e-ff3b-4c67-a0a4-fc7000eb8b1b; Path=/; HttpOnly
+Set-Cookie: aliyun_lang=en; Domain=alibabacloud.com; Path=/
+Set-Cookie: aliyun_site=INTL; Domain=alibabacloud.com; Path=/
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *
+X-Application-Context: cart-aliyun-com:7001
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://cart.alibabacloud.com:443

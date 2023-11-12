@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: help.kickstarter.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 10; POCO F1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822739fb1c1ccb19-DUS
+Date: Tue, 07 Nov 2023 17:16:52 GMT
+Expires: Tue, 07 Nov 2023 18:16:52 GMT
+Location: https://help.kickstarter.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rEcgOWfV1GDDQ%2FeS7Qvd2mj13zkGC4zSwadWwUG6o5wse1Rd3STcUokiw9IgMfrB%2ByUHYZOD2aclgSU%2F5PQ3l%2FEMNaAtl7Lo2Ll6YpWvJMHLK%2FVXfPDyttDbMRV3qxafB5h6nxlgX1Es%2F88%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=9b3b4032bd8e0dce1f9cae146b8b1cb914d0d6f9-1699377412; path=/; domain=.help.kickstarter.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://help.kickstarter.com:8080

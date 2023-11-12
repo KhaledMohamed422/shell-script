@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: display.instacart.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h2=":443"; ma=60
+Cache-Control: max-age=3600
+Cf-Ray: 8227391629bdcb2b-DUS
+Date: Tue, 07 Nov 2023 17:16:15 GMT
+Expires: Tue, 07 Nov 2023 18:16:15 GMT
+Location: https://display.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QNFU9UMLI4%2BHBmhDMPyIPiblMRGCJSQzSheZtv2gVN1Qnet9RIhbncwRlcY5n8wdYackMEQiUobwnLTvwOmQ5dwxddrg3UuL9FU75ZMtJakIMH0lcYvJ2DpBRmfOkcdDd76R35Rujw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=TvHieKFaq4AqDSNTjhjKJhtHKfuxzQCxOlKD3BPbZ.E-1699377375-0-Aaj+xkPbLWhkcCPfj7WI8CkKxiYLOWukVNiBgbOINx0jP55GWp8Zd6HRZhhA6rW8MqLUVVrxtJD389mcgSonZDw=; path=/; expires=Tue, 07-Nov-23 17:46:15 GMT; domain=.display.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://display.instacart.com:80

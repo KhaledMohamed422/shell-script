@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: www.kit.com:8443
+User-Agent: Mozilla/5.0 (Linux; Android 10; SM-N960F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8248e6d54fea161d-DUS
+Content-Security-Policy: upgrade-insecure-requests
+Date: Sat, 11 Nov 2023 19:22:02 GMT
+Expires: Sat, 11 Nov 2023 20:22:02 GMT
+Location: https://domains.snagged.com/domain/kit.com
+Permissions-Policy: fullscreen=(self)
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+https://www.kit.com:8443

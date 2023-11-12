@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: w.promo.newegg.ca
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Moved Temporarily
+Connection: close
+Location: https://w.promo.newegg.ca/
+Server: BigIP
+Content-Length: 0
+
+
+
+
+http://w.promo.newegg.ca:80

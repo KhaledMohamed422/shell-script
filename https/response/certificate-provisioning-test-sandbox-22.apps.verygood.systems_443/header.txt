@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: certificate-provisioning-test-sandbox-22.apps.verygood.systems
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/101.0.4951.44 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:56:51 GMT
+Server: nginx
+Vgs-Request-Id: e34ef33241736dfa833fde69e69e204e
+Via: 1.1 reverse-http-proxy-69744fc8dc-2p2ht
+X-Envoy-Upstream-Service-Time: 4
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: e34ef33241736dfa833fde69e69e204e.
+
+
+https://certificate-provisioning-test-sandbox-22.apps.verygood.systems:443

@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><meta name="format-detection" content="telephone=no"><meta property="og:type" content="website"><meta property="og:url" content="{{ share_url }}"><meta property="og:title" content="{{ share_title }}"><meta property="og:description" content="{{ share_content }}"><meta property="og:image" content="{{ share_img }}"><title>newyearwish</title><link rel="shortcut icon" href="https://dl.dir.freefiremobile.com/common/web_event/common/images/favicon.png"><link rel="stylesheet" href="{{ style_url }}"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/css/app.e09c3c6d.css" rel="preload" as="style"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/css/chunk-vendors.91aa3c18.css" rel="preload" as="style"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/js/app.0c29aee4.js" rel="preload" as="script"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/js/chunk-vendors.74a53f23.js" rel="preload" as="script"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/css/chunk-vendors.91aa3c18.css" rel="stylesheet"><link href="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/css/app.e09c3c6d.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but newyearwish doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>var config = {
+      share_img: "{{ share_img }}", vehicle_title: "{{ vehicle_title }}", vehicle_transify: "{{ vehicle_transify | safe }}"
+    }</script><script>var analyticsId = 'G-969H55PVHV'
+    var src = 'https://www.googletagmanager.com/gtag/js?id=' + analyticsId
+    var script = document.createElement('script')
+    script.async = true
+    script.setAttribute('src', src)
+    document.body.appendChild(script)
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      window.dataLayer.push(arguments)
+    }
+    gtag('js', new Date())
+    document.addEventListener(
+      'touchstart',
+      function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault()
+        }
+      },
+      { passive: false }
+    )
+    var lastTouchEnd = 0
+    document.addEventListener(
+      'touchend',
+      function (event) {
+        var now = new Date().getTime()
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault()
+        }
+        lastTouchEnd = now
+      },
+      false
+    )
+    var promises = {}
+    function nativePromiseThen(promiseId, data, error) {
+      if (error) {
+        promises[promiseId].reject(data)
+      } else {
+        promises[promiseId].resolve(data)
+      }
+      delete promises[promiseId]
+    }
+    //添加多语言配置
+    let lang = window.location.search.substring(1);
+    let vars = lang.split('&');
+    let k = '';
+    vars.map(item => {
+      let l = item.split('=');
+      if (l[0] === 'lang') {
+        k = l[1]
+      }
+    })
+    document.body.setAttribute('data-lang', k)</script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/vue.min.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/vue-router.min.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/common/js/axios.min.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/js/chunk-vendors.74a53f23.js"></script><script src="https://dl.dir.freefiremobile.com/common/web_event/newyearwish/js/app.0c29aee4.js"></script></body></html><script src="https://dl.dir.freefiremobile.com/common/web_event/gaFe/GA.8c8849937e3958e738c4.js"></script>
+
+
+https://newy23rwish.sea.freefiremobile.com:443

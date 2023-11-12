@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: grafana.lyft.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 140
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 22:03:09 GMT
+Location: https://duonetworkgateway.lyft.net/check?final_redirect=eyJ1cmwiOiAiaHR0cHM6Ly9ncmFmYW5hLmx5ZnQubmV0LyIsICJzdmMiOiAiZ3JhZmFuYS5seWZ0Lm5ldCJ9%7C10.45.158.229%7C1699394589%7C3371ba96af975dd890533a41edca54043a9fc07eac15edbe0f7a3c76a14bad9c
+Server: envoyinternalfront-iad
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 3
+

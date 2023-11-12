@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: ugc-web.iherb.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.5; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822c21946b3ccaed-DUS
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 07:34:01 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=vY06Dr2XV823YZgtds8xugL3MSXz_dUse85DOXdlud4-1699428841-0-AXmUfav42ip08nwkPL5dGqH88soEcbuWj1VgTLHSop9Yn6nmf6NA5tjDAhlvJM5/hpiUIVa2UnIrbuwS2N4PyDLEru2aMH9CII5gnrC/aqQo; path=/; expires=Wed, 08-Nov-23 08:04:01 GMT; domain=.iherb.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Envoy-Decorator-Operation: ugc-new-web.ugc.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 188
+X-Powered-By: Next.js
+
+b7887

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: www.8x8.com
+User-Agent: Java/1.6.0_13
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public,max-age=0,must-revalidate
+Content-Security-Policy: default-src 'self' * data: blob: 'unsafe-inline' 'unsafe-eval'; object-src 'none'
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 21:29:40 GMT
+Etag: "38e51bcc9233533ed1ad1f2e6c19227c-ssl-df"
+Referrer-Policy: no-referrer-when-downgrade
+Server: Netlify
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff, nosniff
+X-Nf-Request-Id: 01HENV1TT30J6S5Q3D2H66MV6Y
+X-Xss-Protection: 1; mode=block
+
+19edb9

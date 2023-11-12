@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: prd.top.cf.enterprise.instacart.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; CPH2373) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 82274bc01ea61537-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 17:29:00 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=QgHy7tqO3Cpm8BsIB1_cboVhidgWr3rYA0317tT_qlE-1699378140-0-AUQd20EbdQEweRl7sgl/2H3liWqOQv7G1ZqBoJ010N8Xk8BosL3u6xpa5IFLekSi2MB0AO3soodCERM/iig8S0Y=; path=/; expires=Tue, 07-Nov-23 17:59:00 GMT; domain=.prd.top.cf.enterprise.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 112
+
+20
+Ambassador is ready and waiting
+
+0
+
+
+
+
+https://prd.top.cf.enterprise.instacart.com:443

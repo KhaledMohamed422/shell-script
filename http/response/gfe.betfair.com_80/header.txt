@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: gfe.betfair.com
+User-Agent: SonyEricssonT100/R101
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227b7b62f5b7168-DUS
+Date: Tue, 07 Nov 2023 18:42:42 GMT
+Expires: Tue, 07 Nov 2023 19:42:42 GMT
+Location: https://gfe.betfair.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j6t5nsVQBSUxJJ3QLOv7qNfPZf%2FVXFMYRlULDQwXMKZmv7bgpR9S4u76eAqCHsszrOLbpheuy%2Bo6xVG8%2FclertgG1kPDqDf1fDWUVBT3FtGrZniV03HW4BbUCqQpSMSPXA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://gfe.betfair.com:80

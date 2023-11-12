@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: payoutsapi.ozow.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4950.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8228df646de51e60-FRA
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 22:04:33 GMT
+Server: cloudflare
+X-Amz-Apigw-Id: ODEhxEr3joEEr0w=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 2c55c4a6-1c47-4398-9805-b84e626cd891
+
+{"message":"Missing Authentication Token"}
+
+
+https://payoutsapi.ozow.com:443

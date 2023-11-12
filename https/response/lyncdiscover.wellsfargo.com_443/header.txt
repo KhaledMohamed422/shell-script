@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: lyncdiscover.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 5.2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 SeaMonkey/2.7.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: no-cache
+Client-Request-Id: 12455990-d7a1-49a8-b392-a2e19a4f6a18
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:33:55 GMT
+Expires: -1
+Pragma: no-cache
+Set-Cookie: dirpool01_emocs_prod_443_infra_1=!jv/zKw4yhj02vKbQJrM0RhZMFpKrI43V09Ghf0MlleKZ/C+eHdO+Va5VvZEHL6PX3ZxS8ZigFUNjNG8=; path=/; Httponly; Secure
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Ms-Correlation-Id: 2147585140
+X-Ms-Server-Fqdn: MSGPUCDRSV0102.ent.wfb.bank.corp
+
+{"_links":{"self":{"href":"https://dirpool01-ext.wellsfargo.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=wellsfargo.com"},"user":{"href":"https://dirpool01-ext.wellsfargo.com/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=wellsfargo.com"},"xframe":{"href":"https://dirpool01-ext.wellsfargo.com/Autodiscover/XFrame/XFrame.html"}}}
+
+
+https://lyncdiscover.wellsfargo.com:443

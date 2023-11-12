@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: exchange.blockchain.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; itel L5006C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.181 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822781918ec4c4bd-DUS
+Content-Security-Policy: default-src *.blockchain.com; script-src 'self' 'unsafe-eval' https://cdn.polyfill.io https://www.facebook.com http://www.google-analytics.com https://www.google.com https://www.gstatic.com *.blockchain.com *.blockchain.info https://www.googletagmanager.com nonce-ffwGlbLSZ6538XAOIzapbOxKHHhXijt8 data:; script-src-elem 'self' 'unsafe-inline' https://cdn.polyfill.io http://www.google-analytics.com https://www.googletagmanager.com https://analytics.twitter.com http://static.ads-twitter.com https://connect.facebook.net nonce-ffwGlbLSZ6538XAOIzapbOxKHHhXijt8; connect-src 'self' *.blockchain.com *.blockchain.info *.cryptocompare.com https://script.google.com https://webto.salesforce.com/* wss://streamer.cryptocompare.com https://blockchain.info https://api.greenhouse.io *.doubleclick.net *.google.com *.googleusercontent.com https://www.google-analytics.com https://cdn.embedly.com nonce-ffwGlbLSZ6538XAOIzapbOxKHHhXijt8; frame-src 'self' *.blockchain.com *.blockchain.info *.apple.com https://www.google.com https://www.youtube.com https://www.googletagmanager.com https://cdn.embedly.com https://dxmfp9dfv1uwi.cloudfront.net/; img-src 'self' *.blockchain.com *.blockchain.info *.medium.com https://www.googletagmanager.com *.adsrvr.org data: *.cryptocompare.com *.googleusercontent.com https://www.facebook.com http://www.google-analytics.com https://www.google.com http://t.co/i/adsct https://raw.githubusercontent.com *.medium.com; style-src 'self' 'unsafe-inline' https://rsms.me https://fonts.googleapis.com nonce-ffwGlbLSZ6538XAOIzapbOxKHHhXijt8; font-src 'self' https://rsms.me https://fonts.gstatic.com data:; manifest-src 'self'; object-src 'self'; media-src 'self' *.archive.org;
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:05:44 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Blockchain-Cp-B: blockchain-com
+X-Blockchain-Cp-F: zz5d 0.003 - da7bbf7f14d6d5daa55f007c31f37dc0
+X-Blockchain-Language: en
+X-Blockchain-Language-Id: 0:0:0 (en:en:en)
+X-Blockchain-Server: BlockchainFE/1.0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Original-Host: exchange.blockchain.com
+X-Request-Id: da7bbf7f14d6d5daa55f007c31f37dc0
+X-Xss-Protection: 1; mode=block
+
+1923ba

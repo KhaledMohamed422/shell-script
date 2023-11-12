@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: beta.myplenity.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 11; zh-CN; V2121A Build/RP1A.200720.012) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Quark/5.4.9.201 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 150
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8248e66d7d3a21a5-DUS
+Content-Security-Policy: default-src https: wss: ; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *; font-src 'self' data: *; connect-src 'self' *; frame-src 'self' *
+Content-Type: text/html; charset=utf-8
+Date: Sat, 11 Nov 2023 19:21:46 GMT
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'self'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Location: https://beta.myplenity.com/
+Server: cloudflare
+Set-Cookie: TiPMix=55.14506753956373; path=/; HttpOnly; Domain=beta.myplenity.com; Max-Age=3600
+Set-Cookie: x-ms-routing-name=self; path=/; HttpOnly; Domain=beta.myplenity.com; Max-Age=3600
+Set-Cookie: ARRAffinity=76d52a08f4dfc2763a23aba484fe88ab77f0187b910656ad1ab0959e31b301aa;Path=/;HttpOnly;Domain=beta.myplenity.com
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://beta.myplenity.com/">here</a></body>
+
+
+http://beta.myplenity.com:80

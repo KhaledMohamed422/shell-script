@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: tw.store.ui.com:8443
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.2; Trident/5.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 822b4a958a5ecadd-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 05:07:15 GMT
+Expires: Wed, 08 Nov 2023 05:07:30 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qf9dETgxM%2Fz4JgFDwLgnTzYi5CKczgkDNMCYpFvzrv6YZVv0%2FPi7RCU6nFgePXkrwENvoXFksOyUEAE2MN8gfdKt4aWbPdj%2F83YcZIIGxGAO%2BCtfvPXZANdjGN2DQun8AbJb8yDd"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: cfRequestDuration;dur=5.999804
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+11a5

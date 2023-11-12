@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: webrelay-eastus-release-b.citrixworkspacesapi.net
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; pl-PL; rv:1.9.0.2) Gecko/20121223 Ubuntu/9.25 (jaunty) Firefox/3.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Content-Security-Policy: frame-ancestors 'none'
+Date: Tue, 07 Nov 2023 23:32:56 GMT
+Location: https://webrelay-eastus-release-b.citrixworkspacesapi.net/swagger/ui/index
+Pragma: no-cache
+Server: Microsoft-HTTPAPI/2.0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Cc-Localgeo: US
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: a0d8eb64-9f88-40ee-b79c-ccb4b2d562a5
+X-Frame-Options: deny
+Content-Length: 0
+
+
+
+
+https://webrelay-eastus-release-b.citrixworkspacesapi.net:443

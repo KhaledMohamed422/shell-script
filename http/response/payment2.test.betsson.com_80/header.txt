@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: payment2.test.betsson.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; SM-A415F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:59:12 GMT
+Location: https://payment2.test.betsson.com/
+Server: CloudFront
+Via: 1.1 c1e31c801257ebc563cbb890e887cb1e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zfP8dkD9M_fY3BCQia4I3LzQ6tRP7ysx3mTvndDG4NjXWuW-MenUww==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

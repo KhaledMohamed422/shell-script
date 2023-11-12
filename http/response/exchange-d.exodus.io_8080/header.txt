@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: exchange-d.exodus.io:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:2.0b6pre) Gecko/20100907 Firefox/4.0b6pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=15
+Cf-Ray: 822aa4833a82716c-DUS
+Content-Security-Policy: default-src 'self' exodus.com *.exodus.com exodus.io *.exodus.io *.a.exodus.io;
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 03:13:53 GMT
+Expires: Wed, 08 Nov 2023 03:14:08 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+5002d

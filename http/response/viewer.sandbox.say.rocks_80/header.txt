@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: viewer.sandbox.say.rocks
+User-Agent: Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.14320/554; U; cs) Presto/2.2.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 308 Permanent Redirect
+Connection: close
+Content-Type: text/plain
+Location: https://viewer.sandbox.say.rocks/
+Refresh: 0;url=https://viewer.sandbox.say.rocks/
+Server: Vercel
+
+Redirecting...
+
+
+http://viewer.sandbox.say.rocks:80

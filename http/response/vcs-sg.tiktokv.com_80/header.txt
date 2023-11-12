@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: vcs-sg.tiktokv.com
+User-Agent: Links (2.3pre1; Linux 2.6.38-8-generic x86_64; 170x48)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/plain
+Date: Wed, 08 Nov 2023 18:42:11 GMT
+Expires: Wed, 08 Nov 2023 18:42:11 GMT
+Pragma: no-cache
+Server: TLB
+Server-Timing: cdn-cache; desc=MISS, edge; dur=472, origin; dur=14
+Server-Timing: inner; dur=3
+X-Akamai-Request-Id: 2cb185e7.3a24b85
+X-Cache: TCP_MISS from a23-15-178-189.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-75-21-20.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 14,23.75.21.20
+X-Parent-Response-Time: 486,23.15.178.189
+X-Tt-Logid: 202311081842101FAF35B163E8DA5A91AE
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5aeca219051ce738f52e31134ef1228c39ed91546ef12df9b2ba362ec6de58295c0c1bf53d648d987d678f375d40dadcdab0b25d4ae07ba7e931ab6e6123ddfee516583dc7e6d5ff804ae1b2fba72868fc1c52fd405c9024782e7e2b0e5b6c3cd3
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+
+404 page not found
+
+
+http://vcs-sg.tiktokv.com:80

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: adrisk-sample.taobao.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Ali-Swift-Global-Savetime: 1699436466
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:41:06 GMT
+Eagleid: de49212c16994364667614971e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache47.l2cn3037[,0], vcache13.cn5626[30,61,403-1280,M], vcache24.cn5626[77,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:41:06 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

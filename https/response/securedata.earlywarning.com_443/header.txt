@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: securedata.earlywarning.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 561
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 18:46:24 GMT
+Expires: -1
+Location: https://securedata.earlywarning.com/Web/Account/Login.htm
+Referrer-Policy: no-referrer
+Set-Cookie: savedpath=/,https; expires=Thursday, 07-Nov-24 18:46:24 GMT; path=/; secure; HttpOnly; SameSite=Strict
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: 1-costatest-alb-okta-default.k8s-dev.dev-go.ubnt.com:8080
+User-Agent: Mozilla/5.0 (iPod; U; CPU iPhone OS 3_1_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7C145
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 497
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 03:53:01 GMT
+Etag: "634fd641-1f1"
+Server: nginx/1.22.1
+

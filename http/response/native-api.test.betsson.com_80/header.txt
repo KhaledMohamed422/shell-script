@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: native-api.test.betsson.com
+User-Agent: Mozilla/5.0 (Linux; U; Android 1.5; de-ch; HTC Hero Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 21:58:49 GMT
+Location: https://native-api.test.betsson.com/
+Server: CloudFront
+Via: 1.1 6ce3814cb60a4c907ac701e60e4c1e5a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: aNtndUs_W6aLqwo5x6V9xlq_TZEPUNdUjgp46nj3230qlen-zWgdGQ==
+X-Amz-Cf-Pop: FRA60-P5
+X-Cache: Redirect from cloudfront
+

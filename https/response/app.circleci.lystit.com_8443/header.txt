@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: app.circleci.lystit.com:8443
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:14.0) Gecko/20100101 Firefox/14.0.1 Iceweasel/14.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822cde17c86e2175-DUS
+Date: Wed, 08 Nov 2023 09:42:43 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://lyst.cloudflareaccess.com/cdn-cgi/access/login/app.circleci.lystit.com?kid=657d35045bb396f46e1aae1e11cc39d8bb0734310b8d5431069ab9af27aa339f&redirect_url=%2F&meta=eyJraWQiOiIyMmYzYjBkZWNhYjY0ZjM2MjdhNGQyOTg3ZDlhOTA3NTc1NTg0MjRkYzcyODU5MDQzNWYzNDgxZjVhNjliYmUxIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTQzNjU2Mywic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjY1N2QzNTA0NWJiMzk2ZjQ2ZTFhYWUxZTExY2MzOWQ4YmIwNzM0MzEwYjhkNTQzMTA2OWFiOWFmMjdhYTMzOWYiLCJob3N0bmFtZSI6ImFwcC5jaXJjbGVjaS5seXN0aXQuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjE4ZGIwMjY4YWE1MGRhYTI1YmY4MDdiMGRlZjk0YTdmOGZhNTNmMjdmZmY1MWUwM2YwNTRhNTVlZjZjYjAwMWYiLCJuYmYiOjE2OTk0MzY1NjMsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcLyIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfZG4iOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.GAtsqceuw5PiWGSd1MNnWkCPTgmCxfRVj0I3Brz6esWBqma3WkHUw5PjghFxKWrgIIP1WI33lQCYeLlftw3BO6FArtoeKVP12I9A3pyxAyJQ1QNdLpaaWDSTyEKyQ4mxBRF90MjQYrh5q4waFpk-TL7dK3u1j5Sl50cnreXSoboeikCVGnZsKaq-ryHNP4KrGj757MlRJcyQxwYykh0mjiUNQaQ8nme9cERKjIRP1PdUJPDPagQznJ7Syznd4hFWmroNB1DLzY0EsLUzXyje12zS0Mk4JpV5ZF68Vo8bSxRjPeP2qF53KTWJLON5E54YL3RG9yB1VZ1RAAESYUFtgg
+Server: cloudflare
+Set-Cookie: CF_AppSession=n2678a36b84c49d51; Expires=Thu, 09 Nov 2023 09:42:43 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=15552000; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://app.circleci.lystit.com:8443

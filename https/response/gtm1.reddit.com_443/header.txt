@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: gtm1.reddit.com
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:27:32 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf4lcfh2j.2.1699388851449.Z0FBQUFBQmxTcDJ6X0YtY2NmWDg0ZTRQbDBKTENhRVRSREctUFFIZm9hYWQwbnpUMGFGeDZRVHZ1Zkw1eEN4LTY1N1RBYmlVcDlJVXd4UzFzZHdreDBBT2Q3VlVmdUpyTF9WRWI0cVRKNXFuZVBvNHJuNHdUNGNLOThwYzBYVTFLRnVIMWdJb1FOLXY; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:27:31 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=mbgeemimehnagijdng.0.1699388851452.Z0FBQUFBQmxTcDJ6dXZJd2lfT1hnSzFRZG14bml2QXljSGlmblVNLXlvXzdnTklVelBVUnA4eVpmdFFLV21xdWlpeFVIUjBnanMtTUFSSHdkdkNQdHlBX2RWUGwzQmx5T29NbVlxRDZLOGJXdXQzZEptektzN3EzaktRaVdpcmhyNG12TlVfdUllVXg; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:27:31 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=Pl2IWShaCsduN0zisi; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

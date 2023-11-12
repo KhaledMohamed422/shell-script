@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: vault.ads-staging.ue1.snooguts.net
+User-Agent: Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/49.0.2623.109 Mobile/14A5335b Safari/601.1.46
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 162
+Cache-Control: private, no-cache
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 20:45:58 GMT
+Location: https://auth-all.ads-staging.ue1.snooguts.net/oauth2/start?rd=%2Fvault.ads-staging.ue1.snooguts.net/
+Server: nginx
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+

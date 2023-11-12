@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: secure.iherb.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822bf4c2ce7d7a48-DUS
+Date: Wed, 08 Nov 2023 07:03:25 GMT
+Expires: Wed, 08 Nov 2023 08:03:25 GMT
+Location: https://secure.iherb.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=gUGIARXoOnDoD5ef1GQ05IScMwN0G8r1mqAWz2y2sS8-1699427005-0-AcqFshCI4Hg9649pPeduRHM4kMhtJNxH7DvdouLq75uFerZHp7/FWhPrLTlbHcYWl4MGdLd4ulgz7ZyAVXMkWN8h/ht+9dItZ9E04Ys744XT; path=/; expires=Wed, 08-Nov-23 07:33:25 GMT; domain=.iherb.com; HttpOnly; SameSite=None
+Set-Cookie: __cfruid=3cfd613585167089dca47514cc73a9ce3eb7887c-1699427005; path=/; domain=.iherb.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://secure.iherb.com:8080

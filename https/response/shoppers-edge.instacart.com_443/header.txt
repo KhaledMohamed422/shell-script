@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: shoppers-edge.instacart.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 82274ca45b1a8749-DUS
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:29:36 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bzHj65tt%2B2jUnjIAWABA8PyUZKfqr5tFlDya4MfhszDgF%2BrOUNzOv%2BULTOsMjfhnq7KyFVNMh3JVYhQJ9jO9qVPJ0CM1mKap7fddvDwTMbMKWGpc3Jx8gcG4EzVm7HM7BVtXM2UWULCUv2WnZA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: ahoy_track=true; Path=/
+Set-Cookie: ahoy_visit=325A5054-dcd2-4abe-ac14-e9a932db225c; Max-Age=14400; Path=/; Expires=Tue, 07 Nov 2023 21:29:36 GMT
+Set-Cookie: ahoy_visitor=6F9147B4-55de-405f-8bef-d7b4bc3eba81; Max-Age=63072000; Path=/; Expires=Thu, 06 Nov 2025 17:29:36 GMT
+Set-Cookie: __cf_bm=EXRpvLquifc8OAEd6nxVwAr6Zy7MmiRWoHt4PG.F.uk-1699378176-0-AZjwagSQOtmHvxUFbChz962pEEMDBLR37zNGze/sce/0EAIVteAbHZyEeVDJ18jMhL5TgJtuMz1rFijvRxb/5wY=; path=/; expires=Tue, 07-Nov-23 17:59:36 GMT; domain=.shoppers-edge.instacart.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex, nofollow
+
+234

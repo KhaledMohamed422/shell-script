@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: identitychek.earlywarning.com
+User-Agent: Mozilla/5.0 (X11; U; Linux; i686; en-US; rv:1.6) Gecko Epiphany/1.2.5
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.0 302 Found
+Connection: close
+Location: /my.policy
+Set-Cookie: LastMRH_Session=d52c1b73;path=/;secure;HttpOnly
+Set-Cookie: MRHSession=f222fccd1f6721c2b3d368f4d52c1b73;path=/;secure;HttpOnly
+Set-Cookie: MRHSHint=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/;secure; HTTPonly;
+Set-Cookie: TS015de520=01f97ecd31cf5b861f54bab53f40921f20e97f8fafe6a1008c258992226ad9bc3c56a94db9683ff331ae3e02e60f1828036afb77ae640694f78a67e8f126543ad78cecef5a1291a56a5ea5cb3d3ec5eff8501227826bdf46ff07a5a3db908335ff69c1a538; Path=/; Domain=.earlywarning.com; Secure; HTTPOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+https://identitychek.earlywarning.com:443

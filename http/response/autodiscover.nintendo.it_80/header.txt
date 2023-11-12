@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: autodiscover.nintendo.it
+User-Agent: Mozilla/5.0 (compatible; YandexNews/4.0; +http://yandex.com/bots)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found : Moved Temporarily
+Connection: close
+Cache-Control: no-cache
+Location: https://autodiscover.nintendo.it/
+Pragma: no-cache
+
+
+
+
+http://autodiscover.nintendo.it:80

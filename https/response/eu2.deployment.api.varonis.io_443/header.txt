@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: eu2.deployment.api.varonis.io
+User-Agent: Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.2b) Gecko/20021001 Phoenix/0.2
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Value for one of the query parameters specified in the request URI is invalid.
+Connection: close
+Content-Length: 351
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:26:28 GMT
+X-Azure-Ref: 20231107T172628Z-nsu3umnr6130r9zdvkgw1abb7s00000000ng00000000yxq7
+X-Cache: TCP_MISS
+X-Ms-Request-Id: 528f9b30-701e-0046-509f-1109a5000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>InvalidQueryParameterValue</Code><Message>Value for one of the query parameters specified in the request URI is invalid.
+RequestId:528f9b30-701e-0046-509f-1109a5000000
+Time:2023-11-07T17:26:28.7625466Z</Message><QueryParameterName>comp</QueryParameterName><QueryParameterValue /><Reason /></Error>
+
+
+https://eu2.deployment.api.varonis.io:443

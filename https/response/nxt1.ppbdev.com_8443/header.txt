@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: nxt1.ppbdev.com:8443
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":8443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227bb9ab9777166-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:45:21 GMT
+Expires: Tue, 07 Nov 2023 18:45:36 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yTk61xBxUw5AH2UyK0fz8IcOmXJZwdA%2FsHfGXTzuDqHTq7JV5rX9rAgLjY8OZ4L7vfLBDnHqvD%2FB0Gz7KXrLooQJ%2FddCjyMHGL6s9vqIkpvkTRjILKP%2BMu14XjYxeVzDiCzVt73X"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=CIC7zPOOTCDziZwaVpKLfwVgvjAHVqTx8U5o.y1vgc4-1699382721-0-AbLy0iTcZxk3CCCVstThgL+pudzSs2rjNAkXr6JBNS4sm7G+qoZSv+V5DHq57pTNAzR2rnSY3lqQz0sIatAN6m0=; path=/; expires=Tue, 07-Nov-23 19:15:21 GMT; domain=.ppbdev.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+175f

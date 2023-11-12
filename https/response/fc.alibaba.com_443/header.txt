@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: fc.alibaba.com
+User-Agent: ELinks/0.12~pre5-4
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 238
+Access-Control-Allow-Methods: GET,POST,PUT,DELETE,HEAD
+Access-Control-Allow-Origin: *
+Ali-Swift-Global-Savetime: 1699437162
+Cache-Control: no-cache
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 09:52:42 GMT
+Eagleid: a3b55c9716994371627551786e
+Server: Tengine
+Timing-Allow-Origin: *
+Via: cache21.l2de2[0,0,403-1280,M], cache23.l2de2[2,0], ens-cache15.de5[4,4,403-1280,M], ens-cache3.de5[7,0]
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Cachetime: 1
+X-Swift-Error: orig response 4XX error
+X-Swift-Savetime: Wed, 08 Nov 2023 09:52:42 GMT
+X-Tengine-Error: You are forbidden to list buckets
+

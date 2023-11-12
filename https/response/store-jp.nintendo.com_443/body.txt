@@ -1,0 +1,3580 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width">
+<title>My Nintendo Store（マイニンテンドーストア）</title>
+
+<script>
+    //<![CDATA[
+    !function(t){function e(o){if(n[o])return n[o].exports;var a=n[o]={exports:{},id:o,loaded:!1};return t[o].call(a.exports,a,a.exports,e),a.loaded=!0,a.exports}var n={};return e.m=t,e.c=n,e.p="",e(0)}([function(t,e,n){var o,a,i;o=n(2),a=new o,a.addAccessInfo(),i=function(t){var e,n;n=t.detail,e=window.Alps.CONST.SESSION_MSG,n.on(e.CONNECT_FAILED,function(t){a.addGuestInfo(),a.send()}),n.on(e.GET_USER_DATA,function(t,e,n){e?a.addAccountInfo(e.getRawData()):a.addGuestInfo(),a.send()})},document.addEventListener("alpsAccountReady",i)},function(t,e){var n;t.exports=n=function(){function t(){}return t.extend=function(t,e){return Object.keys(e).forEach(function(n){t[n]=e[n]}),t},t}()},function(t,e,n){var o;t.exports=o=function(){function t(t){this.global=t||window,this.dataLayer=this.global.dataLayer||[],this.global.dataLayer=this.dataLayer,this.isSent=!1,this.navigator=this.global.navigator,this.location=this.global.location}var e,o;return e=n(1),t.prototype.send=function(){this.isSent||(!function(t,e,n,o,a){t[o]=t[o]||[],t[o].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var i=e.getElementsByTagName(n)[0],s=e.createElement(n),r="dataLayer"!=o?"&l="+o:"";s.async=!0,s.src="//www.googletagmanager.com/gtm.js?id="+a+r,i.parentNode.insertBefore(s,i)}(window,document,"script","dataLayer","GTM-T4M5X4X"),this.isSent=!0)},t.prototype._addAttr=function(t){this.dataLayer.push(t)},o=null,t.prototype._addEvent=function(t,n){(t!==o||"logout"!==o)&&(this._addAttr(e.extend({event:t},n)),o=t)},t.prototype._addEventOrAttr=function(t,e){this.isSent?this._addEvent(t,e):this._addAttr(e)},t.prototype.addAccessInfo=function(){this._addAttr({regionCd:"JPN",pageDevice:this._getPageDevice(),uDevice:this._getUserDevice(this.navigator.userAgent)})},t.prototype.addAccountInfo=function(t){this._addEventOrAttr("login",{uId:t.id,upc01:t.birthday,upc02:t.gender,uCountry:t.country,uLanguage:t.language})},t.prototype.addGuestInfo=function(){this._addEventOrAttr("logout",{uId:null})},t.prototype._getPageDevice=function(){var t;return/\/[A-Za-z0-9]{4}\/sp\//.test(this.location.pathname)?"SP":(t=this.global.matchMedia&&!this.global.matchMedia("screen and (min-width: 641px)").matches,t?"SP":"PC")},t.prototype._getUserDevice=function(t){return t=t.toLowerCase(),/opera/.test(t)&&/nintendo\swii/.test(t)?"WII":/nintendo\swiiu/.test(t)?"WIIU":/nintendo\sdsi/.test(t)?"DSI":/new\snintendo\s3ds/.test(t)?"NEW3DS":/nintendo\s3ds/.test(t)?"3DS":null},t}()}]);
+    //]]>
+</script>
+
+<meta name="description" content="任天堂の公式オンラインストア。ニンテンドースイッチ本体やダウンロードソフトをはじめ、よりゲームを楽しむための追加コンテンツやグッズ、ここでしか手に入らないストア限定商品もご用意しています。" />
+<meta property="og:title" content="My Nintendo Store（マイニンテンドーストア）" />
+<meta property="og:description" content="任天堂の公式オンラインストア。ニンテンドースイッチ本体やダウンロードソフトをはじめ、よりゲームを楽しむための追加コンテンツやグッズ、ここでしか手に入らないストア限定商品もご用意しています。" />
+<meta property="og:site_name" content="My Nintendo Store（マイニンテンドーストア）" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://store-jp.nintendo.com/" />
+<meta property="og:image" content="https://store-jp.nintendo.com/on/demandware.static/Sites-MNS-Site/-/default/dw4ee23df9/images/mns_ogp.png" />
+<meta name="twitter:title" content="My Nintendo Store（マイニンテンドーストア）" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Nintendo" />
+<meta name="twitter:creator" content="@Nintendo" />
+<link rel="canonical" href="https://store-jp.nintendo.com/" />
+<link rel="shortcut icon" href="/on/demandware.static/Sites-MNS-Site/-/default/dwa35998f6/images/favicon.ico" />
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Roboto:400,700&display=swap&subset=japanese" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css" />
+<link rel="stylesheet" href="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/css/styles.css" />
+<meta name="google-site-verification" content="45tH6_WSDTpFHIN6Jhcx9aVV_Relvl_B3QtMbNGypdQ" />
+<script src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/js/bundle.js"></script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-active_data.js) */
+var dw = (window.dw || {});
+dw.ac = {
+    _analytics: null,
+    _events: [],
+    _category: "",
+    _searchData: "",
+    _anact: "",
+    _anact_nohit_tag: "",
+    _analytics_enabled: "true",
+    _timeZone: "Asia/Tokyo",
+    _capture: function(configs) {
+        if (Object.prototype.toString.call(configs) === "[object Array]") {
+            configs.forEach(captureObject);
+            return;
+        }
+        dw.ac._events.push(configs);
+    },
+	capture: function() { 
+		dw.ac._capture(arguments);
+		// send to CQ as well:
+		if (window.CQuotient) {
+			window.CQuotient.trackEventsFromAC(arguments);
+		}
+	},
+    EV_PRD_SEARCHHIT: "searchhit",
+    EV_PRD_DETAIL: "detail",
+    EV_PRD_RECOMMENDATION: "recommendation",
+    EV_PRD_SETPRODUCT: "setproduct",
+    applyContext: function(context) {
+        if (typeof context === "object" && context.hasOwnProperty("category")) {
+        	dw.ac._category = context.category;
+        }
+        if (typeof context === "object" && context.hasOwnProperty("searchData")) {
+        	dw.ac._searchData = context.searchData;
+        }
+    },
+    setDWAnalytics: function(analytics) {
+        dw.ac._analytics = analytics;
+    },
+    eventsIsEmpty: function() {
+        return 0 == dw.ac._events.length;
+    }
+};
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (head-cquotient.js) */
+var CQuotient = window.CQuotient = {};
+CQuotient.clientId = 'bfgj-MNS';
+CQuotient.realm = 'BFGJ';
+CQuotient.siteId = 'MNS';
+CQuotient.instanceType = 'prd';
+CQuotient.locale = 'ja_JP';
+CQuotient.fbPixelId = '__UNKNOWN__';
+CQuotient.activities = [];
+CQuotient.cqcid='';
+CQuotient.cquid='';
+CQuotient.cqeid='';
+CQuotient.cqlid='';
+CQuotient.apiHost='api.cquotient.com';
+/* Turn this on to test against Staging Einstein */
+/* CQuotient.useTest= true; */
+CQuotient.useTest = ('true' === 'false');
+CQuotient.initFromCookies = function () {
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+	  var c = ca[i];
+	  while (c.charAt(0)==' ') c = c.substring(1,c.length);
+	  if (c.indexOf('cqcid=') == 0) {
+		CQuotient.cqcid=c.substring('cqcid='.length,c.length);
+	  } else if (c.indexOf('cquid=') == 0) {
+		  var value = c.substring('cquid='.length,c.length);
+		  if (value) {
+		  	var split_value = value.split("|", 3);
+		  	if (split_value.length > 0) {
+			  CQuotient.cquid=split_value[0];
+		  	}
+		  	if (split_value.length > 1) {
+			  CQuotient.cqeid=split_value[1];
+		  	}
+		  	if (split_value.length > 2) {
+			  CQuotient.cqlid=split_value[2];
+		  	}
+		  }
+	  }
+	}
+}
+CQuotient.getCQCookieId = function () {
+	if(window.CQuotient.cqcid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqcid;
+};
+CQuotient.getCQUserId = function () {
+	if(window.CQuotient.cquid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cquid;
+};
+CQuotient.getCQHashedEmail = function () {
+	if(window.CQuotient.cqeid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqeid;
+};
+CQuotient.getCQHashedLogin = function () {
+	if(window.CQuotient.cqlid == '')
+		window.CQuotient.initFromCookies();
+	return window.CQuotient.cqlid;
+};
+CQuotient.trackEventsFromAC = function (/* Object or Array */ events) {
+try {
+	if (Object.prototype.toString.call(events) === "[object Array]") {
+		events.forEach(_trackASingleCQEvent);
+	} else {
+		CQuotient._trackASingleCQEvent(events);
+	}
+} catch(err) {}
+};
+CQuotient._trackASingleCQEvent = function ( /* Object */ event) {
+	if (event && event.id) {
+		if (event.type === dw.ac.EV_PRD_DETAIL) {
+			CQuotient.trackViewProduct( {id:'', alt_id: event.id, type: 'raw_sku'} );
+		} // not handling the other dw.ac.* events currently
+	}
+};
+CQuotient.trackViewProduct = function(/* Object */ cqParamData){
+	var cq_params = {};
+	cq_params.cookieId = CQuotient.getCQCookieId();
+	cq_params.userId = CQuotient.getCQUserId();
+	cq_params.emailId = CQuotient.getCQHashedEmail();
+	cq_params.loginId = CQuotient.getCQHashedLogin();
+	cq_params.product = cqParamData.product;
+	cq_params.realm = cqParamData.realm;
+	cq_params.siteId = cqParamData.siteId;
+	cq_params.instanceType = cqParamData.instanceType;
+	cq_params.locale = CQuotient.locale;
+	
+	if(CQuotient.sendActivity) {
+		CQuotient.sendActivity(CQuotient.clientId, 'viewProduct', cq_params);
+	} else {
+		CQuotient.activities.push({activityType: 'viewProduct', parameters: cq_params});
+	}
+};
+/* ]]> */
+// -->
+</script>
+<meta id="state" content>
+<meta id="session_state" content>
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4M5X4X"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<form id="loginForm" method="post" action="https://store-jp.nintendo.com/on/demandware.store/Sites-MNS-Site/ja_JP/Login-Nas">
+<input type="hidden" name="csrf_token" value="9CHY80rlarifCs5eGu5K_yQh83KNtVX6U3f4Tx2PYxZfag3N0ctGQuuHr3qT-0FHL_mEmVsH5HBTo3PHPGucKhhurUx601ue5g-JdAARznnukqzA1k8KWvtTlA34_M6NfupfPD6ttOkiO18RzxpqR7uRdURxeS7UXLlebDR-7TidEyAjHdE=" />
+<input type="hidden" name="nasLoginSession" id="nasLoginSession" />
+<input type="hidden" name="sessionState" id="sessionState" />
+</form>
+<form id="logoutForm" method="post" action="https://store-jp.nintendo.com/on/demandware.store/Sites-MNS-Site/ja_JP/Login-CCLogout">
+<input type="hidden" name="csrf_token" value="qunfreJ7dcZH2tlIbn0oIr3wQZ5s9wj8A0yyuA9lJjQyfvS8dav7XJeXqV0mcFAB5Jdiwc-hUVyOxNh-7B1tZXutzkQ-szKfwJT4KJvHUndA45Kc17jDeHUDb4FirFqKTZgmF1M7WHUTDmbRcwg3sbsSDb7X7bfP6TUqAfXE2usPZHPd3Js=" />
+</form>
+<script>
+    var alpsClientInfo = {
+        clientOrigin : location.protocol + '//' + location.hostname,
+        clientId: '79b30a8f0242d16f',
+        scope: ['openid', 'user', 'user.mii', 'user.email', 'userinfo.profile','user.birthday', 'user.links[].id', 'user.membership', 'missionStatus',
+            'missionStatus:progress', 'eshopPrice', 'eshopDemo', 'eshopDevice', 'pointWallet',
+            'userNotificationMessage:anyClients', 'userNotificationMessage:anyClients:write', 'offline'
+        ]
+    };
+</script>
+<script src="https://alps.cdn.nintendo.net/v1/js/account_ja_JPN.js"></script>
+<script>
+    var isLoggedIn = false;
+    var jwtError = null;
+    var sessionState = '';
+    var nasCountryError = null;
+    var missionId = 'd30eb6725b36e954';
+
+    var CSRF_TOKEN_NAME = 'csrf_token';
+    var CSRF_VALUE = 'Luy5-i4tJXSnKxEY0TmGn9Omz2ZUNVNEBC1daGAOZzVQqF5ou446CRhcgNmp9Wl84zyXH6Qn5KUVqpNQo9Zywodj5CoaBxTCiXIH8CKP1TGM8_MmvMijo1tAU8HtMR9h4Lbx5vI_EmCgBVljmzBewf2C1IYj1lLplbn8ZeyubxGGFYHrUKs=';
+    var CREATE_VA_ACCOUNT_URL = '/on/demandware.store/Sites-MNS-Site/ja_JP/Login-CreateVAAccount';
+    var hasVirtualAccount = null;
+
+    Alps.Api.setLoginMissionId(missionId);
+</script>
+<script>
+var GET_NAINFO_HTML_URL = '/on/demandware.store/Sites-MNS-Site/ja_JP/Page-GetNAInfoHtml';
+// iOSのボタン初回タッチ無反応の対策
+document.addEventListener('touchstart', function() {});
+</script>
+<script>
+(function(){
+    var decodeResource = function (text) {
+        return text.replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    }
+    window.RESOURCES = {
+        currency: decodeResource("円"),
+        taxIncluded: decodeResource("税込"),
+        purchased: decodeResource("購入済み"),
+        setDiscount: decodeResource("単品で買うより{0}円お得！"),
+        freePrice: decodeResource("無料"),
+        waitAMinute: decodeResource("エラーが発生しました。&lt;br&gt;時間をおいてもう一度お試しください。"),
+        waitAMinuteWithErrorCode: decodeResource("エラーが発生しました。&lt;br&gt;時間をおいてもう一度お試しください。&lt;br&gt;このエラーがなんども発生する場合は、お問い合わせに記載されている窓口へエラーコードをお伝えください。&lt;br&gt;9008-{0}"),
+        nsoJoinAlert: decodeResource("この商品は、&lt;a href=&quot;{0}&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nintendo Switch Online&lt;/a&gt;の有料プランへの加入中（決済後）に購入できます。無料体験のみ利用している場合、購入はできません。"),
+        nsoJoinAlertFreeDownload: decodeResource("この商品は、&lt;a href=&quot;{0}&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Nintendo Switch Online&lt;/a&gt;の有料プランへの加入中（決済後）にダウンロードできます。無料体験のみ利用している場合、ダウンロードはできません。"),
+        failedToDownloadTrial: decodeResource("体験版のダウンロードに失敗しました"),
+        waitAMinuteBecauseOfNetworkError: decodeResource("通信エラーが発生しました。&lt;br&gt;しばらく時間をおいてから再度お試しください。"),
+        addToCart: decodeResource("カートに入れる"),
+        soldOut: decodeResource("品切れ"),
+        notEnoughPlatinumPoints: decodeResource("ポイントが足りません"),
+        formError_lastNameRequired: decodeResource("お名前（姓）を入力してください"),
+        formError_firstNameRequired: decodeResource("お名前（名）を入力してください"),
+        formError_lastNameKanaRequired: decodeResource("お名前（セイ）を入力してください"),
+        formError_firstNameKanaRequired: decodeResource("お名前（メイ）を入力してください"),
+        formError_postalCodeRequired: decodeResource("郵便番号を入力してください"),
+        formError_postalCodePattern: decodeResource("郵便番号の形式が正しくありません"),
+        formError_postalCodeRange: decodeResource("郵便番号は7桁入力してください"),
+        formError_states_stateCodeRequired: decodeResource("都道府県を入力してください"),
+        formError_address1Required: decodeResource("市区町村・番地を入力してください"),
+        formError_phoneRequired: decodeResource("電話番号を入力してください"),
+        formError_phonePattern: decodeResource("電話番号の形式が正しくありません"),
+        formError_fullWidthKana: decodeResource("全角カタカナで入力してください"),
+        formError_between10and20number: decodeResource("10～20文字の数字を入力してください（ハイフン除く）"),
+        salesPeriod: decodeResource("{0} まで割引価格でお買い求めいただけます。"),
+    }
+}());
+</script>
+<div class="l-page" data-action="Sites-MNS-Site" data-querystring>
+<div class="l-page__banner">
+<a href="https://store-jp.nintendo.com/feature_carriage.html" target="_blank" rel="noopener" class="l-banner" style="background-color: #f0f0f0;">
+<div class="l-banner__inner">
+<img class="l-banner__img--sp u-responsive--notPc" src="/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwef5d14d6/headerBanner/SP_header_banner B2.jpg" alt="ダウンロードソフトも合算対象になりました。5,500円以上で送料無料。">
+<img class="l-banner__img--pc u-responsive--pc" src="/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw0a1e064a/headerBanner/PC_header_banner B2.jpg" alt="ダウンロードソフトも合算対象になりました。5,500円以上で送料無料。">
+</div>
+</a>
+</div>
+<div class="l-header js-header js-headerSuggest__header ">
+<header class="l-header__content">
+<div class="l-header__contentInner js-fixed-header">
+<div class="l-header__header">
+<button type="button" class="js-gnav-trigger l-header__gnavButton">
+<i class="l-header__gnavButtonIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>メニュー</title>
+<path fill-rule="evenodd" d="M21.5 20.035c.829 0 1.5.671 1.5 1.5s-.671 1.5-1.5 1.5h-15c-.828 0-1.5-.671-1.5-1.5s.672-1.5 1.5-1.5zm0-7.517c.829 0 1.5.671 1.5 1.5s-.671 1.5-1.5 1.5h-15c-.828 0-1.5-.671-1.5-1.5s.672-1.5 1.5-1.5zM21.5 5c.829 0 1.5.672 1.5 1.5 0 .829-.671 1.5-1.5 1.5h-15C5.672 8 5 7.329 5 6.5 5 5.672 5.672 5 6.5 5z" />
+</svg>
+</i>
+</button>
+<h1 class="l-header__logo">
+<a href="https://store-jp.nintendo.com/" class="l-header__logoLink">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw85685d10/images/logo-mns.svg" alt="My Nintendo Store" class="l-header__logoImg">
+</a>
+</h1>
+<div class="l-header__iconMenuWrap--sp">
+<ul class="l-header__iconMenu--sp">
+<li class="l-header__iconMenuItem--sp">
+<button type="button" class="l-header__iconMenuLink--sp js-headerSuggest__toggleButton">
+<i class="l-header__iconMenuIcon--sp">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>Search</title>
+<path fill-rule="evenodd" d="M7 12.5C7 9.467 9.467 7 12.5 7S18 9.467 18 12.5 15.533 18 12.5 18 7 15.533 7 12.5m15.06 7.438l-2.586-2.585C20.434 15.976 21 14.305 21 12.5 21 7.806 17.195 4 12.5 4 7.806 4 4 7.806 4 12.5S7.806 21 12.5 21c1.806 0 3.476-.567 4.853-1.526l2.585 2.585c.272.273.647.441 1.062.441.829 0 1.5-.671 1.5-1.5 0-.415-.168-.79-.44-1.062" />
+</svg>
+</i>
+</button>
+</li>
+<li class="l-header__iconMenuItem--sp">
+<a href="/wishlist/" class="l-header__iconMenuLink--sp">
+<i class="l-header__iconMenuIcon--sp">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>ほしいものリスト</title>
+<path fill-rule="evenodd" d="M9.542 8.318c-.479 0-.926.139-1.317.423-.628.456-1.037 1.199-1.152 2.092-.178 1.402.384 2.98 1.587 4.443 1.638 1.993 3.947 3.442 5.349 4.316l.074-.046c1.388-.864 3.71-2.31 5.26-4.26 1.211-1.526 1.772-3.14 1.58-4.547-.116-.85-.51-1.557-1.109-1.992-1.23-.894-3.017-.325-4.666 1.484l-.74.81c-.199.219-.541.218-.739 0l-.738-.812c-1.137-1.25-2.342-1.911-3.389-1.911zm4.467 14.375c-.451 0-.903-.127-1.306-.38l-.24-.15c-1.554-.968-4.153-2.59-6.121-4.982-1.733-2.108-2.529-4.498-2.244-6.73.219-1.72 1.059-3.19 2.363-4.137 2.214-1.608 5.078-1.257 7.581.83 2.493-2.07 5.34-2.42 7.536-.824 1.267.92 2.09 2.346 2.318 4.013.303 2.225-.479 4.646-2.204 6.818-1.873 2.359-4.471 3.976-6.024 4.942l-.349.218c-.403.254-.856.382-1.31.382z" />
+</svg>
+</i>
+</a>
+</li>
+<li class="l-header__iconMenuItem--sp">
+<a href="/cart/" class="l-header__iconMenuLink--sp">
+<i class="l-header__iconMenuIcon--sp">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>カート</title>
+<path fill-rule="evenodd" d="M19.504 20.361c-.911 0-1.65.74-1.65 1.65 0 .912.739 1.65 1.65 1.65.912 0 1.65-.738 1.65-1.65 0-.91-.738-1.65-1.65-1.65zm-9.957 0c-.911 0-1.649.74-1.649 1.65 0 .912.738 1.65 1.649 1.65.912 0 1.65-.738 1.65-1.65 0-.91-.738-1.65-1.65-1.65zm.54-4.245h8.855l1.049-6.342H9.039l1.048 6.342zm9.28 3H9.663c-1.229 0-2.266-.88-2.466-2.092L5.543 7.016H4.115c-.829 0-1.5-.67-1.5-1.5 0-.828.671-1.5 1.5-1.5h1.852c1.229 0 2.266.88 2.466 2.093l.11.665h13.216c.44 0 .859.194 1.144.53.285.336.408.78.336 1.215l-1.406 8.505c-.2 1.212-1.237 2.092-2.466 2.092z" />
+</svg>
+</i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="l-header__searchWrap">
+<div class="l-header__search js-headerSuggest__search ">
+<form class="l-header__searchBox js-headerSearch" action="/search/" method="get" name="simpleSearch">
+<label class="l-header__searchIcon" for="l-header__searchInput">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Search</title>
+<path fill-rule="evenodd" d="M6.756 10.29c-.975-.974-.975-2.56 0-3.534.487-.487 1.128-.732 1.768-.732.64 0 1.281.245 1.768.732.975.974.975 2.56 0 3.535-.974.974-2.56.976-3.536 0m7.778 2.122l-1.226-1.226c1.162-2.092.88-4.778-.895-6.552-2.143-2.144-5.633-2.146-7.778 0-1.039 1.038-1.61 2.42-1.61 3.888 0 1.469.571 2.85 1.61 3.889 1.072 1.072 2.48 1.608 3.89 1.608.921 0 1.835-.253 2.662-.712l1.226 1.226c.293.293.677.44 1.061.44.384 0 .767-.147 1.06-.44.586-.585.586-1.535 0-2.121" />
+</svg>
+</i>
+</label>
+<div class="l-header__searchInput">
+<input class="js-headerSuggest__input js-headerSearch__input" id="l-header__searchInput" type="text" name="q" value autocomplete="off" placeholder="商品をさがす" data-url-suggest="/on/demandware.store/Sites-MNS-Site/ja_JP/SearchServices-GetSuggestions?q=" data-url-search="/search/">
+</div>
+</form>
+<div class="l-header__searchController">
+<button type="button" class="l-header__searchControllerClear js-headerSuggest__clear">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Close</title>
+<path fill-rule="evenodd" d="M11.106 9.003l2.458-2.46c.582-.582.582-1.524 0-2.106-.581-.58-1.523-.58-2.105 0L9 6.897l-2.458-2.46c-.583-.58-1.525-.58-2.106 0-.582.582-.582 1.524 0 2.106l2.458 2.46L4.44 11.46c-.582.581-.582 1.524 0 2.106.29.291.672.436 1.053.436.38 0 .76-.145 1.052-.436L9 11.11l2.454 2.456c.29.291.672.436 1.052.436s.763-.145 1.053-.436c.582-.582.582-1.525 0-2.106l-2.454-2.456z" />
+</svg>
+</i>
+</button>
+<button type="button" class="l-header__searchControllerCancel js-headerSuggest__close">キャンセル</button>
+</div>
+<div class="l-header__suggest js-headerSuggest__suggest">
+<div class="l-header__suggestBackground js-headerSuggest__background"></div>
+<div class="l-header__popular js-headerSuggest__popular">
+<p class="l-header__suggestLabel">よく検索されているワード</p>
+<ul class="l-header__suggestItems js-headerSuggest__popularItems">
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%82%B9%E3%82%A4%E3%82%AB%E3%82%B2%E3%83%BC%E3%83%A0">スイカゲーム</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%83%94%E3%82%AF%E3%83%9F%E3%83%B3">ピクミン</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=amiibo">amiibo</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=amiibo%20%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3">amiibo スプラトゥーン</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%82%BC%E3%83%AB%E3%83%80">ゼルダ</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%83%9E%E3%83%AA%E3%82%AA">マリオ</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%82%B9%E3%83%97%E3%83%A9%E3%83%88%E3%82%A5%E3%83%BC%E3%83%B3">スプラトゥーン</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3">ポケモン</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A8">ドラクエ</a></li>
+<li class="l-header__suggestItem"><a href="/search/?q=%E3%82%AB%E3%82%A4%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88">カイロソフト</a></li>
+</ul>
+</div>
+<div class="l-header__autocomplete js-headerSuggest__autocomplete">
+<div class="l-header__autocompleteLoading js-headerSuggest__autocompleteLoading">
+<div class="c-dotsLoading is-loading"></div>
+</div>
+<ul class="l-header__suggestItems js-headerSuggest__autocompleteItems">
+</ul>
+</div>
+</div>
+</div>
+<ul class="l-header__iconMenu--pc">
+<li class="l-header__iconMenuItem--pc">
+<a href="/wishlist/" class="l-header__iconMenuLink--pc">
+<i class="l-header__iconMenuIcon--pc">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>ほしいものリスト</title>
+<path fill-rule="evenodd" d="M9.542 8.318c-.479 0-.926.139-1.317.423-.628.456-1.037 1.199-1.152 2.092-.178 1.402.384 2.98 1.587 4.443 1.638 1.993 3.947 3.442 5.349 4.316l.074-.046c1.388-.864 3.71-2.31 5.26-4.26 1.211-1.526 1.772-3.14 1.58-4.547-.116-.85-.51-1.557-1.109-1.992-1.23-.894-3.017-.325-4.666 1.484l-.74.81c-.199.219-.541.218-.739 0l-.738-.812c-1.137-1.25-2.342-1.911-3.389-1.911zm4.467 14.375c-.451 0-.903-.127-1.306-.38l-.24-.15c-1.554-.968-4.153-2.59-6.121-4.982-1.733-2.108-2.529-4.498-2.244-6.73.219-1.72 1.059-3.19 2.363-4.137 2.214-1.608 5.078-1.257 7.581.83 2.493-2.07 5.34-2.42 7.536-.824 1.267.92 2.09 2.346 2.318 4.013.303 2.225-.479 4.646-2.204 6.818-1.873 2.359-4.471 3.976-6.024 4.942l-.349.218c-.403.254-.856.382-1.31.382z" />
+</svg>
+</i>
+</a>
+</li>
+<li class="l-header__iconMenuItem--pc">
+<a href="/cart/" class="l-header__iconMenuLink--pc">
+<i class="l-header__iconMenuIcon--pc">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>カート</title>
+<path fill-rule="evenodd" d="M19.504 20.361c-.911 0-1.65.74-1.65 1.65 0 .912.739 1.65 1.65 1.65.912 0 1.65-.738 1.65-1.65 0-.91-.738-1.65-1.65-1.65zm-9.957 0c-.911 0-1.649.74-1.649 1.65 0 .912.738 1.65 1.649 1.65.912 0 1.65-.738 1.65-1.65 0-.91-.738-1.65-1.65-1.65zm.54-4.245h8.855l1.049-6.342H9.039l1.048 6.342zm9.28 3H9.663c-1.229 0-2.266-.88-2.466-2.092L5.543 7.016H4.115c-.829 0-1.5-.67-1.5-1.5 0-.828.671-1.5 1.5-1.5h1.852c1.229 0 2.266.88 2.466 2.093l.11.665h13.216c.44 0 .859.194 1.144.53.285.336.408.78.336 1.215l-1.406 8.505c-.2 1.212-1.237 2.092-2.466 2.092z" />
+</svg>
+</i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<nav class="l-header__navigation js-header-nav">
+<ul class="l-header__navigationGroup">
+<li class="l-header__navigationItem is-current" aria-current="page">
+<a href="https://store-jp.nintendo.com/" class="l-header__navigationLink">
+<span>トップ</span>
+</a>
+</li>
+<li class="l-header__navigationItem">
+<a href="/software/" class="l-header__navigationLink">
+<span>ソフト</span>
+</a>
+</li>
+<li class="l-header__navigationItem">
+<a href="/hardware-accessory/" class="l-header__navigationLink">
+<span>本体・周辺機器</span>
+</a>
+</li>
+<li class="l-header__navigationItem">
+<a href="/goods/" class="l-header__navigationLink">
+<span>グッズ</span>
+</a>
+</li>
+<li class="l-header__navigationItem">
+<a href="/point-item/" class="l-header__navigationLink">
+<span>交換グッズ</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+</div>
+<div class="js-gnav l-gnav" data-gnav-level="1" data-gnav-product>
+<div class="js-gnav-drawer l-gnav__drawer">
+<div class="l-gnav__header">
+<div class="l-gnav__headerBack">
+<button type="button" class="js-gnav-back">
+<i class="l-gnav__headerBackIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>Backward</title>
+<path fill-rule="evenodd" d="M17.706 5.28c-.673-.482-1.611-.327-2.093.348l-5.333 7.466c-.362.508-.373 1.184-.03 1.704l5.01 7.533c.288.434.765.67 1.25.67.285 0 .574-.082.829-.252.69-.458.878-1.39.419-2.08l-4.436-6.671 4.733-6.625c.48-.676.325-1.612-.35-2.094" />
+</svg>
+</i>
+</button>
+</div>
+<div class="l-gnav__headerClose">
+<button type="button" class="js-gnav-close">
+<i class="l-gnav__headerCloseIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>Close</title>
+<path fill-rule="evenodd" d="M21.218 7.782c.585.586.585 1.536 0 2.122l-4.596 4.595 4.596 4.597c.585.586.585 1.536 0 2.122-.586.585-1.536.585-2.122 0L14.5 16.62l-4.596 4.597c-.586.585-1.536.585-2.122 0-.585-.586-.585-1.536 0-2.122L12.38 14.5 7.782 9.904c-.585-.586-.585-1.536 0-2.122.586-.585 1.536-.585 2.122 0L14.5 12.38l4.596-4.597c.586-.585 1.536-.585 2.122 0z" />
+</svg>
+</i>
+</button>
+</div>
+</div>
+<div class="l-gnav__body ">
+<div class="js-gnav-container l-gnav__main">
+<div class="js-NAInfo">
+
+<div class="l-gnav__login">
+<div class="l-gnav__loginDialog">
+<p>ニンテンドーアカウントにログインすると、ポイントやご注文履歴などが確認できます。</p>
+</div>
+<div class="l-gnav__loginButton">
+<a href="#" class="js-link-alpsLogin">ログイン ・ 新規作成</a>
+</div>
+</div>
+<div class="l-gnav__account--logout">
+<div class="l-gnav__accountMii--logout">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw063be230/images/mii-default.png" alt>
+</div>
+<div class="l-gnav__accountBalance--logout">
+<div class="l-gnav__accountBalanceGroup--logout">
+<div class="l-gnav__accountBalanceECash--logout">
+<div class="l-gnav__accountBalanceECashLabel--logout">
+<span class="l-gnav__accountBalanceECashNumber--logout">---</span>
+<span class="l-gnav__accountBalanceECashUnit--logout">円</span>
+</div>
+</div>
+<ul class="l-gnav__accountBalancePointGroup--logout">
+<li class="l-gnav__accountBalancePointGold--logout">
+<span class="l-gnav__accountBalancePointGoldIcon--logout">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw33c12de0/images/icons/coin-g-lv1.png" alt="Coin P">
+</span>
+<span class="l-gnav__accountBalancePointGoldNumber--logout">---</span>
+</li>
+<li class="l-gnav__accountBalancePointPlatinum--logout">
+<span class="l-gnav__accountBalancePointPlatinumIcon--logout">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw9c672e31/images/icons/coin-p-lv1.png" alt="Coin P">
+</span>
+<span class="l-gnav__accountBalancePointPlatinumNumber--logout">---</span>
+</li>
+</ul>
+</div>
+<div class="l-gnav__accountBalancePoint__link">
+<a href="https://my.nintendo.com/about_gold_point" target="_blank" rel="noopener">
+マイニンテンドーゴールドポイントとは
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Forward</title>
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<ul class="l-gnav__mypageNav">
+<li class="l-gnav__mypageNavItem">
+<a href="https://store-jp.nintendo.com/order-history/">
+<i class="l-gnav__mypageNavIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>History</title>
+<path fill-rule="evenodd" d="M14 16c0-.553-.448-1-1-1h-1c-.552 0-1 .447-1 1 0 .552.448 1 1 1h1c.552 0 1-.448 1-1zm3-3c0-.553-.448-1-1-1h-4c-.552 0-1 .447-1 1 0 .552.448 1 1 1h4c.552 0 1-.448 1-1zm0-3c0-.553-.448-1-1-1h-4c-.552 0-1 .447-1 1 0 .552.448 1 1 1h4c.552 0 1-.448 1-1zm-7-2.6c-.331 0-.6.268-.6.6v12c0 .33.269.6.6.6h8c.331 0 .6-.27.6-.6V8c0-.332-.269-.6-.6-.6h-8zm8 16h-8c-1.875 0-3.4-1.525-3.4-3.4V8c0-1.875 1.525-3.4 3.4-3.4h8c1.875 0 3.4 1.525 3.4 3.4v12c0 1.875-1.525 3.4-3.4 3.4z" />
+</svg>
+</i>
+<span class="l-gnav__mypageNavLabel">ご注文履歴</span>
+</a>
+</li>
+<li class="l-gnav__mypageNavItem">
+<a href="https://store-jp.nintendo.com/payment/">
+<i class="l-gnav__mypageNavIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>Card</title>
+<path fill-rule="evenodd" d="M20 18.6H8c-.33 0-.6-.269-.6-.6v-5.5h13.2V18c0 .331-.269.6-.6.6M8 9.4h12c.331 0 .6.27.6.6v.5H7.4V10c0-.33.27-.6.6-.6m12-2.8H8c-1.875 0-3.4 1.526-3.4 3.4v8c0 1.875 1.525 3.4 3.4 3.4h12c1.875 0 3.4-1.524 3.4-3.4v-8c0-1.874-1.525-3.4-3.4-3.4" />
+</svg>
+</i>
+<span class="l-gnav__mypageNavLabel">お支払い方法</span>
+</a>
+</li>
+<li class="l-gnav__mypageNavItem">
+<a href="https://store-jp.nintendo.com/address-list/">
+<i class="l-gnav__mypageNavIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>Address</title>
+<path fill-rule="evenodd" d="M14 14c1.104 0 2-.896 2-2s-.896-2-2-2-2 .896-2 2 .896 2 2 2m0-6.5c-2.481 0-4.5 2.018-4.5 4.5 0 .938.616 3.149 4.5 7.72 3.884-4.571 4.5-6.781 4.5-7.72 0-2.482-2.019-4.5-4.5-4.5m0 16c-.426 0-.832-.181-1.116-.498C8.528 18.148 6.5 14.652 6.5 12c0-4.136 3.364-7.5 7.5-7.5s7.5 3.364 7.5 7.5c0 2.652-2.028 6.148-6.384 11.002-.284.317-.69.498-1.116.498" />
+</svg>
+</i>
+<span class="l-gnav__mypageNavLabel">お届け先</span>
+</a>
+</li>
+<li class="l-gnav__mypageNavItem">
+<a href="https://store-jp.nintendo.com/wishlist/">
+<i class="l-gnav__mypageNavIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<title>ほしいものリスト</title>
+<path fill-rule="evenodd" d="M9.542 8.318c-.479 0-.926.139-1.317.423-.628.456-1.037 1.199-1.152 2.092-.178 1.402.384 2.98 1.587 4.443 1.638 1.993 3.947 3.442 5.349 4.316l.074-.046c1.388-.864 3.71-2.31 5.26-4.26 1.211-1.526 1.772-3.14 1.58-4.547-.116-.85-.51-1.557-1.109-1.992-1.23-.894-3.017-.325-4.666 1.484l-.74.81c-.199.219-.541.218-.739 0l-.738-.812c-1.137-1.25-2.342-1.911-3.389-1.911zm4.467 14.375c-.451 0-.903-.127-1.306-.38l-.24-.15c-1.554-.968-4.153-2.59-6.121-4.982-1.733-2.108-2.529-4.498-2.244-6.73.219-1.72 1.059-3.19 2.363-4.137 2.214-1.608 5.078-1.257 7.581.83 2.493-2.07 5.34-2.42 7.536-.824 1.267.92 2.09 2.346 2.318 4.013.303 2.225-.479 4.646-2.204 6.818-1.873 2.359-4.471 3.976-6.024 4.942l-.349.218c-.403.254-.856.382-1.31.382z" />
+</svg>
+</i>
+<span class="l-gnav__mypageNavLabel">ほしいものリスト</span>
+</a>
+</li>
+<li class="l-gnav__mypageNavItem">
+<a href="https://ec.nintendo.com/redeem?_closebutton=1" target="_blank" rel="opener">
+<i class="l-gnav__mypageNavIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<path fill-rule="evenodd" d="M17.878 11.897l-1.792-1.793 1.524-1.525 1.785 1.8-1.517 1.518zm-7.613 7.612l-1.718-.074-.074-1.72 4.784-4.783 1.793 1.793-4.785 4.784zM21.607 8.332L19.65 6.376c-1.09-1.092-2.879-1.2-3.843-.236L6.15 15.795c-.471.473-.714 1.12-.685 1.824l.113 2.599c.051 1.156 1.032 2.136 2.188 2.186l2.596.112c.039.002.079.003.119.003.657 0 1.259-.243 1.707-.69l9.655-9.654c1.011-1.012.907-2.701-.236-3.843z" />
+</svg>
+</i>
+<span class="l-gnav__mypageNavLabel">プリペイドカード番号・ダウンロード番号入力</span>
+</a>
+</li>
+</ul>
+<div class="l-gnav__navArea">
+<p class="l-gnav__navHeadline">商品を探す</p>
+<ul class="l-gnav__nav">
+<li class="l-gnav__navItem">
+<a href="/list/software/?prefn1=hasReleased&amp;prefv1=true&amp;srule=new-arrival">
+最新ソフト
+</a>
+</li>
+<li class="l-gnav__navItem">
+<a href="/list/software/?prefn1=isSale&amp;prefv1=true&amp;prefn2=softType&amp;prefv2=TITLE&amp;srule=most-popular">
+セール中ソフト
+</a>
+</li>
+<li class="l-gnav__navItem">
+<a href="/list/software/?pmax=1&amp;prefn1=softType&amp;prefv1=TITLE&amp;srule=new-arrival">
+無料ソフト
+</a>
+</li>
+<li class="l-gnav__navItem">
+<a href="/list/software/?prefn1=hasTrial&amp;prefv1=true&amp;srule=new-arrival">
+体験版のあるソフト
+</a>
+</li>
+<li class="l-gnav__navItem">
+<a href="#" class="js-gnav-next">
+商品カテゴリー
+<i class="l-gnav__navItemForward">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Forward</title>
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="js-gnav-container l-gnav__product">
+<div class="l-gnav__productInner">
+<p class="l-gnav__productHeadline">商品を探す</p>
+<ul class="l-gnav__productNav">
+<li class="l-gnav__productNavItem">
+<a href="/list/software/" class="js-gnav-next" data-gnav-product="software">
+<span class="l-gnav__productNavItemLabel">ソフト</span>
+<i class="l-gnav__productNavItemForward">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Forward</title>
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</li>
+<li class="l-gnav__productNavItem">
+<a href="/list/hardware-accessory/" class="js-gnav-next" data-gnav-product="hardware-accessory">
+<span class="l-gnav__productNavItemLabel">本体・周辺機器</span>
+<i class="l-gnav__productNavItemForward">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Forward</title>
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</li>
+<li class="l-gnav__productNavItem">
+<a href="/list/goods/" class="js-gnav-next" data-gnav-product="goods">
+<span class="l-gnav__productNavItemLabel">グッズ</span>
+<i class="l-gnav__productNavItemForward">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Forward</title>
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</li>
+<li class="l-gnav__productNavItem">
+<a href="/point-item/">
+<span class="l-gnav__productNavItemLabel">プラチナポイント交換グッズ</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="js-gnav-container l-gnav__category">
+<div class="l-gnav__categoryInner--software">
+<p class="l-gnav__categoryHeadline">ソフト</p>
+<ul class="l-gnav__categoryNav">
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/action/">
+<span class="l-gnav__categoryNavItemLabel">アクション</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/adventure/">
+<span class="l-gnav__categoryNavItemLabel">アドベンチャー</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/shooting/">
+<span class="l-gnav__categoryNavItemLabel">シューティング</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/role-playing/">
+<span class="l-gnav__categoryNavItemLabel">ロールプレイング</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/simulation/">
+<span class="l-gnav__categoryNavItemLabel">シミュレーション</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/sports/">
+<span class="l-gnav__categoryNavItemLabel">スポーツ</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/fighting/">
+<span class="l-gnav__categoryNavItemLabel">格闘</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/racing/">
+<span class="l-gnav__categoryNavItemLabel">レース</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/rhythm/">
+<span class="l-gnav__categoryNavItemLabel">音楽ゲーム</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/puzzle/">
+<span class="l-gnav__categoryNavItemLabel">パズル</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/table/">
+<span class="l-gnav__categoryNavItemLabel">テーブルゲーム</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/party/">
+<span class="l-gnav__categoryNavItemLabel">パーティ</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/communication/">
+<span class="l-gnav__categoryNavItemLabel">コミュニケーション</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/education/">
+<span class="l-gnav__categoryNavItemLabel">学習・教育</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/training/">
+<span class="l-gnav__categoryNavItemLabel">トレーニング</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/software/tool/">
+<span class="l-gnav__categoryNavItemLabel">ツール</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="l-gnav__categoryInner--hardware-accessory">
+<p class="l-gnav__categoryHeadline">本体・周辺機器</p>
+<ul class="l-gnav__categoryNav">
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/hardware/">
+<span class="l-gnav__categoryNavItemLabel">本体</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/controller/">
+<span class="l-gnav__categoryNavItemLabel">コントローラー</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/amiibo/">
+<span class="l-gnav__categoryNavItemLabel">amiibo</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/dock-battery/">
+<span class="l-gnav__categoryNavItemLabel">ドック・バッテリー</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/case/">
+<span class="l-gnav__categoryNavItemLabel">ケース</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/sd-card/">
+<span class="l-gnav__categoryNavItemLabel">microSDカード</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/hardware-accessory/other-hardware-accessory/">
+<span class="l-gnav__categoryNavItemLabel">その他</span>
+</a>
+</li>
+</ul>
+</div>
+<div class="l-gnav__categoryInner--goods">
+<p class="l-gnav__categoryHeadline">グッズ</p>
+<ul class="l-gnav__categoryNav">
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/hobby/">
+<span class="l-gnav__categoryNavItemLabel">おもちゃ・フィギュア</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/stationery/">
+<span class="l-gnav__categoryNavItemLabel">文房具・ステーショナリー</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/fashion/">
+<span class="l-gnav__categoryNavItemLabel">ファッション</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/bag-pouch/">
+<span class="l-gnav__categoryNavItemLabel">バッグ・ポーチ</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/general-goods/">
+<span class="l-gnav__categoryNavItemLabel">雑貨・小物</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/home-kitchen/">
+<span class="l-gnav__categoryNavItemLabel">ホーム・キッチン</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/book-music-poster/">
+<span class="l-gnav__categoryNavItemLabel">本・音楽・ポスター</span>
+</a>
+</li>
+<li class="l-gnav__categoryNavItem">
+<a href="/list/goods/smartphone-goods/">
+<span class="l-gnav__categoryNavItemLabel">スマホグッズ</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="js-gnav-close l-gnav__overlay"></div>
+</div>
+<div role="main" id="maincontent" class="l-page__main">
+<div class="top">
+<div class="top__alert">
+<div class="top__alertBox">
+<div class="top__alertBox--inner">
+<i class="top__alertIcon">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>label.alert</title>
+<path fill-rule="evenodd" d="M9 1C4.582 1 1 4.582 1 9s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8m0 12c-.552 0-1-.447-1-1 0-.552.448-1 1-1s1 .448 1 1c0 .553-.448 1-1 1m0-8c.552 0 1 .449 1 1v3c0 .553-.448 1-1 1s-1-.447-1-1V6c0-.551.448-1 1-1" />
+</svg>
+</i>
+<p class="top__alertText">＜重要なおしらせ＞<BR>
+以下の日時にマイニンテンドーストアのメンテナンスを実施します。<BR>
+　・11月13日(月)　12:30～15:30 予定<BR>
+　　マイニンドーストアをご利用いただけません。<BR>
+　・11月14日(火)　3:00 〜 5:00 予定<BR>
+　　一部のダウンロードコード/ダウンロード番号の引換えができません。<BR>
+恐れ入りますが、あらかじめご了承ください。</p>
+</div>
+</div>
+</div>
+<div class="top--carousel">
+<div class="c-heroCarousel--feature">
+<ul class="c-heroCarousel__imageList js-heroCarousel js-heroCarousel--autoplay">
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/feature_odoruwario.html"><span><img alt="超おどるメインインワリオ特集(総合トップカルーセル)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw157e5dd7/231103_wario_chidori.jpg" /></span></a>
+</div>
+</li>
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/feature_pokemonsv_dlc.html"><span><img alt="『ポケットモンスター スカーレット・バイオレット ゼロの秘宝』特集(総合トップカルーセル)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwa40fb93f/230228_pokemonsv_dlc.jpg" /></span></a>
+</div>
+</li>
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/feature_mariokart8dx.html"><span><img alt="マリオカート8デラックス特集(総合トップカルーセル)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwd02f7946/featureHome/220210_mariokart8dx_aoc.jpg" /></span></a>
+</div>
+</li>
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/feature_mariowonder.html"><span><img alt="スーパーマリオブラザーズワンダー特集新垣さんバナー1(総合トップカルーセル)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwa32c8389/231019_mariowonder_aragaki1.jpg" /></span></a>
+</div>
+</li>
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/list/software/70010000052738.html"><span><img alt="桃鉄ワールド(総合トップカルーセルバナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw2c9816f7/231102_momotetsu.jpg" /></span></a>
+</div>
+</li>
+<li class="c-heroCarousel__image--feature">
+<div class="c-heroCarousel__imageContent">
+<a href="https://store-jp.nintendo.com/feature_mariorpg.html"><span><img alt="マリオRPG特集（総合トップ特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw70406ef3/230622_supermarioRPG.jpg" /></span></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="top--container">
+<div class="top--feature">
+<ul class="top--feature__list">
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/switch/compare"><span><img alt="Nintendo Switchファミリー(総合トップ特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw28f9934e/carouselHardwareAccessory/210924_HEG.jpg" /></span><span>【本体をお探しの方へ】<br>Nintendo Switchファミリー</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/feature_mariowonder.html"><span><img alt="スーパーマリオブラザーズワンダー特集カタチケ訴求付き(総合TOP特集)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw78b0ef4b/231019_mariowonder_catachike.jpg" /></span><span>【2本でお得】マリオと仲間でワンダーな世界へ</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/feature_zelda_2110.html"><span><img alt="ゼルダの伝説のゲーム特集(総合トップ特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw7277526d/211012_zelda_bunner_0930.jpg" /></span><span>ゼルダの伝説のゲームを集めました。 </span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/feature-pikmin/"><span><img alt="ピクミンのゲーム・グッズ特集(総合トップ特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwdf168533/230622_pikmin.jpg" /></span><span>色とりどりのピクミンといっしょに。</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/feature_500ika.html"><span><img alt="500円以下ソフト特集(総合TOP特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw9cac163b/231025_500特集.jpg" /></span><span>「スイカゲーム」など手軽に遊べるゲームを集めました。</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/feature_amiibo.html"><span><img alt="amiibo 特集(総合トップ特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw9414e5ab/231131_amiibo.jpg" /></span><span>「大乱闘スマッシュブラザーズシリーズ」などを販売中</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/list/software/70010000029215.html"><span><img alt="サクナヒメ いっせいトライアルバナー(総合TOP特集)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwe662499f/231106_sakunahime_issei.jpg" /></span><span>【期間限定】『天穂のサクナヒメ』をまるっとすべて遊ぶことができます</span></a>
+</li>
+<li class="top--feature__item">
+<a href="https://store-jp.nintendo.com/download_ranking_2310.html"><span><img alt="2023年10月 ダウンロードソフトランキング(総合TOP特集バナー)" src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dwff967ce1/mynin_ranking_banner_2023_10.jpg" /></span><span>2023年10月の月間ダウンロードランキングをご紹介します。</span></a>
+</li>
+</ul>
+<div class="top--feature__showAll">
+<a href="/feature/" class="top--feature__showAllButton">すべて見る</a>
+</div>
+</div>
+<ul class="top--banner">
+<li class="top--banner__item">
+<a href="https://store-jp.nintendo.com/list/software/?prefn1=isSale&amp;prefv1=true&amp;prefn2=softType&amp;prefv2=TITLE&amp;srule=most-popular"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw1a3397ac/campaignBanner/banner_sale_864.png" alt="セール ダウンロードソフト（固定バナー）"></a>
+</li>
+<li class="top--banner__item">
+<a href="https://store-jp.nintendo.com/list/software/70020000000021.html"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw873e666b/campaignBanner/banner_ticket_864.png" alt="2本でお得 ニンテンドーカタログチケット（固定バナー）"></a>
+</li>
+<li class="top--banner__item">
+<a href="https://store-jp.nintendo.com/nintendo-tokyo/"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw73c98219/campaignBanner/banner_NintendoTokyo_864.png" alt="Nintendo Tokyo（固定バナー）"></a>
+</li>
+<li class="top--banner__item">
+<a href="https://store-jp.nintendo.com/feature_charactergoods.html"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw92c0df1c/220824_4ipfixedbanner.jpg" alt="キャラクターのゲーム・グッズ特集（固定バナー）"></a>
+</li>
+<li class="top--banner__item">
+<a href="https://ec.nintendo.com/JP/ja/membership" target="_blank" rel="noopener"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw29be1808/campaignBanner/banner_NSO_864.png" alt="NintendoSwitchOnlineバナー（固定バナー）"></a>
+</li>
+<li class="top--banner__item">
+<a href="https://www.nintendo.co.jp/mynintendo/app/index.html" target="_blank" rel="noopener"><img src="https://store-jp.nintendo.com/on/demandware.static/-/Library-Sites-MNSSharedLibrary/ja_JP/dw25a6ab21/230428_apbanner2.jpg" alt="MyNintendoアプリ（固定バナー）"></a>
+</li>
+</ul>
+<div class="top--category">
+<h2 class="top--category__heading">カテゴリーからさがす</h2>
+<ul class="top--category__list">
+<li class="top--category__item">
+<a href="/software/" class="top--category__link">
+<div class="top--category__label">
+ソフト
+</div>
+<div class="top--category__imgArea">
+<div class="top--category__img--rectangle">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw9e8eda8a/images/home_category_soft.jpg" alt>
+</div>
+</div>
+</a>
+</li>
+<li class="top--category__item">
+<a href="/hardware-accessory/" class="top--category__link">
+<div class="top--category__label">
+本体・周辺機器
+</div>
+<div class="top--category__imgArea">
+<div class="top--category__img--rectangle">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw589b5731/images/home_category_hard.jpg" alt>
+</div>
+</div>
+</a>
+</li>
+<li class="top--category__item">
+<a href="/goods/" class="top--category__link">
+<div class="top--category__label">
+グッズ
+</div>
+<div class="top--category__imgArea">
+<div class="top--category__img--square">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dw7a53ba89/images/home_category_goods.jpg" alt>
+</div>
+</div>
+</a>
+</li>
+<li class="top--category__item">
+<a href="/point-item/" class="top--category__link">
+<div class="top--category__label">
+交換グッズ
+</div>
+<div class="top--category__imgArea">
+<div class="top--category__img--square">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dwcbe2b03d/images/home_category_pointitem.jpg" alt>
+</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="top--login">
+<div class="top--login__textArea">
+<h2 class="top--login__heading">もっと便利にお買いもの</h2>
+<div class="top--login__text">
+<p>ニンテンドーアカウントにログインすると、ほしいものリストの利用やお持ちのポイントの確認ができます。</p>
+</div>
+<div class="top--login__buttonArea">
+<a href="#" class="top--login__button js-link-alpsLogin">ログイン ・ 新規作成</a>
+</div>
+</div>
+<div class="top--login__img">
+<img src="/on/demandware.static/Sites-MNS-Site/-/default/dwc314fcaf/images/img_top_mario.png" alt>
+</div>
+</div>
+</div>
+<div class="top--cardCarousel">
+<aside class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<h2 class="c-cardCarousel--cardList__title">
+まずはお試し！体験版のあるゲームをピックアップ。
+</h2>
+<div class="c-cardCarousel--itemsArea c-cardCarousel--itemsArea--small">
+<ul class="c-cardCarousel--itemList js-cardList--small">
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000005309',
+			sku: '70010000005309',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000005309", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000005309.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd7648add/products/D70010000005309/squareHeroBanner/c96cf9d741721bcd0f22953d1fee1da483539441eb7dbde862fd12242e32196c.jpg?sw=346&amp;strip=false" alt="Pikmin 4 (ピクミン４)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Pikmin 4 (ピクミン４)</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000018271',
+			sku: '70010000018271',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000018271", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000018271.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw1d686b78/products/D70010000018271/squareHeroBanner/985984489a820a98ed89d028d511e537bb823b19f5f8b63b06e1ff36783edc57.jpg?sw=346&amp;strip=false" alt="桃太郎電鉄 ～昭和 平成 令和も定番！～">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">桃太郎電鉄 ～昭和 平成 令和も定番！～</h3>
+<div class="c-cardLists--item__price">
+<span>6,930</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000029014',
+			sku: '70010000029014',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000029014", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000029014.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwef7ad612/products/D70010000029014/squareHeroBanner/dc13da86719e25cbba6552cbf9237e3aae030fdace8ba5fff7d0feff034d3f9d.jpg?sw=346&amp;strip=false" alt="モンスターハンターライズ">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">モンスターハンターライズ</h3>
+<div class="c-cardLists--item__price">
+<span>3,990</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000028021',
+			sku: '70010000028021',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000028021", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000028021.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwdf137a46/products/D70010000028021/squareHeroBanner/9e885e227ce8b02c79322815fd062527f1bb698314f991f2284f8e21fe5eb8fd.jpg?sw=346&amp;strip=false" alt="ゼルダ無双 厄災の黙示録">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ゼルダ無双 厄災の黙示録</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>5,544</span><small>円</small>
+</div>
+<em>30%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000029715',
+			sku: '70010000029715',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000029715", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000029715.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwbccdc6c7/products/D70010000029715/squareHeroBanner/5b42a1522a037c649eb07fefa6e37a2ae99dd15dca25d6b09fb46c3caee77d25.jpg?sw=346&amp;strip=false" alt="世界のアソビ大全51">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">世界のアソビ大全51</h3>
+<div class="c-cardLists--item__price">
+<span>4,378</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000046404',
+			sku: '70010000046404',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000046404", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000046404.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwf655e386/products/D70010000046404/squareHeroBanner/9318f3ae5cb434b84739051367bf74372dd251befe393047b870cf204932532e.jpg?sw=346&amp;strip=false" alt="星のカービィ　ディスカバリー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">星のカービィ　ディスカバリー</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000058796',
+			sku: '70010000058796',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000058796", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000058796.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw7703f854/products/D70010000058796/squareHeroBanner/7b1cb408b79ac6d14c24d5993e90fcb4e330d53bda4d8918f120dce580c599ba.jpg?sw=346&amp;strip=false" alt="星のカービィ Wii デラックス">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">星のカービィ Wii デラックス</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000016353',
+			sku: '70010000016353',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000016353", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000016353.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwe852f9be/products/D70010000016353/squareHeroBanner/410fb197f30eaff4980e7750764bdead46986ad6db188e336f738851d165ca4a.jpg?sw=346&amp;strip=false" alt="ケイデンス・オブ・ハイラル:　クリプト・オブ・ネクロダンサー feat. ゼルダの伝説">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ケイデンス・オブ・ハイラル:　クリプト・オブ・ネクロダンサー feat. ゼルダの伝説</h3>
+<div class="c-cardLists--item__price">
+<span>2,980</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000057243',
+			sku: '70010000057243',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000057243", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000057243.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw39f91026/products/D70010000057243/squareHeroBanner/a2ab47f67fdae1545a7e7c59ff5f9ec4c7cd7df234199c8971dd38fbaa2d4d8c.jpg?sw=346&amp;strip=false" alt="マリオ＋ラビッツ ギャラクシーバトル">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">マリオ＋ラビッツ ギャラクシーバトル</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000061845',
+			sku: '70010000061845',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000061845", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000061845.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw2498e8b4/products/D70010000061845/squareHeroBanner/25409f7caf350503ef97dbf3be64e4760aa52d60e8fa2770b5e46061a1f4aa0f.jpg?sw=346&amp;strip=false" alt="ベヨネッタ オリジンズ: セレッサと迷子の悪魔">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ベヨネッタ オリジンズ: セレッサと迷子の悪魔</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000053640',
+			sku: '70010000053640',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000053640", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000053640.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw576a3863/products/D70010000053640/squareHeroBanner/9bbd57aa8c6cb27045856ed67585c54eb8518c59c645a0c099a750338f316405.jpg?sw=346&amp;strip=false" alt="ゴースト トリック">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ゴースト トリック</h3>
+<div class="c-cardLists--item__price">
+<span>3,990</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000041266',
+			sku: '70010000041266',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000041266", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000041266.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw1b9665b0/products/D70010000041266/squareHeroBanner/9e30014a10e2337866396b628917dfd19a4f9fbccd7c00fb0ecf8998d4c25c7d.jpg?sw=346&amp;strip=false" alt="ナビつき！ つくってわかる　はじめてゲームプログラミング">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ナビつき！ つくってわかる　はじめてゲームプログラミング</h3>
+<div class="c-cardLists--item__price">
+<span>2,980</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000028187',
+			sku: '70010000028187',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000028187", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000028187.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd51d204d/products/D70010000028187/squareHeroBanner/07898485d0d3a6e20203e95edeec04fcf842f60e98ccb0e4037dfb8a148a0afc.jpg?sw=346&amp;strip=false" alt="Fit Boxing 2 -リズム＆エクササイズ-">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Fit Boxing 2 -リズム＆エクササイズ-</h3>
+<div class="c-cardLists--item__price">
+<span>6,380</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000035478',
+			sku: '70010000035478',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000035478", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000035478.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw82781ff7/products/D70010000035478/squareHeroBanner/ee83fc8f1eb1d5894484685eb91a76c98e15de17182ed1cfc32994f81465d5a2.jpg?sw=346&amp;strip=false" alt="太鼓の達人 ドンダフルフェスティバル">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">太鼓の達人 ドンダフルフェスティバル</h3>
+<div class="c-cardLists--item__price">
+<span>6,578</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000034898',
+			sku: '70010000034898',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000034898", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000034898.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw318b6bdd/products/D70010000034898/squareHeroBanner/90a7a582dcdf7f24188f648d470d476d00dd11a7cc1a1e9af4bc3ce6b331a3d0.jpg?sw=346&amp;strip=false" alt="釣りスピリッツ 釣って遊べる水族館">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">釣りスピリッツ 釣って遊べる水族館</h3>
+<div class="c-cardLists--item__price">
+<span>6,578</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000044950',
+			sku: '70010000044950',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000044950", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000044950.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw9b5d983b/products/D70010000044950/squareHeroBanner/5bc5e3f14c900d586dda3109867d9a1e1fa3b4a9be039ef1d887b0c1c0270277.jpg?sw=346&amp;strip=false" alt="やわらかあたま塾 いっしょにあたまのストレッチ">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">やわらかあたま塾 いっしょにあたまのストレッチ</h3>
+<div class="c-cardLists--item__price">
+<span>3,200</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000058127',
+			sku: '70010000058127',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000058127", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000058127.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwe95e6407/products/D70010000058127/squareHeroBanner/e8785c88fc2bae5574a67bf1686f0464b602db509946dd14e4cd1799002e5b47.jpg?sw=346&amp;strip=false" alt="オクトパストラベラー II">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">オクトパストラベラー II</h3>
+<div class="c-cardLists--item__price">
+<span>7,800</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+(function(){
+try {
+	if(window.CQuotient) {
+		var cq_params = {};
+		cq_params.cookieId = window.CQuotient.getCQCookieId();
+		cq_params.userId = window.CQuotient.getCQUserId();
+		cq_params.emailId = CQuotient.getCQHashedEmail();
+		cq_params.loginId = CQuotient.getCQHashedLogin();
+		cq_params.accumulate = true;
+		cq_params.products = [{
+			id: 'D70010000037869',
+			sku: '70010000037869',
+			type: '',
+			alt_id: ''
+		}];
+		cq_params.recommenderName = '__UNDEFINED__';
+		cq_params.realm = "BFGJ";
+		cq_params.siteId = "MNS";
+		cq_params.instanceType = "prd";
+		cq_params.locale = window.CQuotient.locale;
+		cq_params.slotId = '';
+		cq_params.slotConfigId = '';
+		cq_params.slotConfigTemplate = '';
+		if(window.CQuotient.sendActivity)
+			window.CQuotient.sendActivity( CQuotient.clientId, 'viewReco', cq_params );
+		else
+			window.CQuotient.activities.push( {activityType: 'viewReco', parameters: cq_params} );
+	}
+} catch(err) {}
+})();
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript">//<!--
+/* <![CDATA[ (viewProduct-active_data.js) */
+dw.ac._capture({id: "70010000037869", type: "recommendation"});
+/* ]]> */
+// -->
+</script>
+<a href="/list/software/70010000037869.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw23a6a9d3/products/D70010000037869/squareHeroBanner/32db40b3b4fee997bc69f63e4bce81d7a28d5e005b0d661ef6177f6d54c79cd9.jpg?sw=346&amp;strip=false" alt="トライアングルストラテジー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">トライアングルストラテジー</h3>
+<div class="c-cardLists--item__price">
+<span>7,680</span><small>円</small>
+</div>
+</a>
+</li>
+</ul>
+<div class="c-cardCarousel--navigation"></div>
+</div>
+</div>
+</aside>
+<script>
+        jQuery(function () {
+            window.initCardCarouselSmall();
+        });
+    </script>
+</div>
+<div class="top--cardCarousel">
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+var recommender = '[[&quot;viewed-recently&quot;]]';
+// removing any leading/trailing square brackets and escaped quotes:
+recommender=recommender.replace(/\[|\]|&quot;/g,'');
+var separator = '|||';
+var slotConfigurationUUID = 'f5afd09b2bbdc51f2a236b195f';
+var contextAUID = '';
+var contextSecondaryAUID = '';
+var contextAltAUID = '';
+var contextType = '';
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = 'home-recently-viewed';
+var slotConfigId = 'home-recently-viewed';
+var slotConfigTemplate = 'slots/recommendation/cardListSmall.isml';
+if (contextAUIDs.length == contextSecondaryAUIDs.length)
+{
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({id: contextAUIDs[i], sku: contextSecondaryAUIDs[i], type: contextTypes[i], alt_id: contextAltAUIDs[i]});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-MNS-Site/ja_JP/CQRecomm-Start';
+var params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+};
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+
+<div id="cq_recomm_slot-f5afd09b2bbdc51f2a236b195f"></div>
+
+</div>
+<div class="top--cardCarousel">
+
+<script>
+(function(){
+// window.CQuotient is provided on the page by the Analytics code:
+var cq = window.CQuotient;
+if (cq && ('function' == typeof cq.getCQUserId)
+&& ('function' == typeof cq.getCQCookieId)
+&& ('function' == typeof cq.getCQHashedEmail)
+&& ('function' == typeof cq.getCQHashedLogin)) {
+var recommender = '[[&quot;home-recommendations&quot;]]';
+// removing any leading/trailing square brackets and escaped quotes:
+recommender=recommender.replace(/\[|\]|&quot;/g,'');
+var separator = '|||';
+var slotConfigurationUUID = 'a31598a36edeaba6ed54f8c5f3';
+var contextAUID = '';
+var contextSecondaryAUID = '';
+var contextAltAUID = '';
+var contextType = '';
+var anchorsArray = [];
+var contextAUIDs = contextAUID.split(separator);
+var contextSecondaryAUIDs = contextSecondaryAUID.split(separator);
+var contextAltAUIDs = contextAltAUID.split(separator);
+var contextTypes = contextType.split(separator);
+var slotName = 'home-recommendations';
+var slotConfigId = 'home-recommendations';
+var slotConfigTemplate = 'slots/recommendation/cardListSmall.isml';
+if (contextAUIDs.length == contextSecondaryAUIDs.length)
+{
+for (i = 0; i < contextAUIDs.length; i++) {
+anchorsArray.push({id: contextAUIDs[i], sku: contextSecondaryAUIDs[i], type: contextTypes[i], alt_id: contextAltAUIDs[i]});
+}
+} else {
+anchorsArray = [{id: contextAUID, sku: contextSecondaryAUID, type: contextType, alt_id: contextAltAUID}];
+}
+var urlToCall = '/on/demandware.store/Sites-MNS-Site/ja_JP/CQRecomm-Start';
+var params = {
+userId: cq.getCQUserId(),
+cookieId: cq.getCQCookieId(),
+emailId: cq.getCQHashedEmail(),
+loginId: cq.getCQHashedLogin(),
+anchors: anchorsArray,
+slotId: slotName,
+slotConfigId: slotConfigId,
+slotConfigTemplate: slotConfigTemplate,
+ccver: '1.03'
+};
+if (cq.getRecs) {
+cq.getRecs(cq.clientId, recommender, params, cb);
+} else {
+cq.widgets = cq.widgets || [];
+cq.widgets.push({
+recommenderName: recommender,
+parameters: params,
+callback: cb
+});
+}
+};
+function cb(parsed) {
+var arr = parsed[recommender].recs;
+if (arr && 0 < arr.length) {
+var filteredProductIds = '';
+for (i = 0; i < arr.length; i++) {
+filteredProductIds = filteredProductIds + 'pid' + i + '=' + encodeURIComponent(arr[i].id) + '&';
+}
+filteredProductIds = filteredProductIds.substring(0, filteredProductIds.length - 1);//to remove the trailing '&'
+var formData = 'auid=' + encodeURIComponent(contextAUID)
++ '&scid=' + slotConfigurationUUID
++ '&' + filteredProductIds;
+var request = new XMLHttpRequest();
+request.open('POST', urlToCall, true);
+request.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+request.onreadystatechange = function() {
+if (this.readyState === 4) {
+// Got the product data from DW, showing the products now by changing the inner HTML of the DIV:
+var divId = 'cq_recomm_slot-' + slotConfigurationUUID;
+document.getElementById(divId).innerHTML = this.responseText;
+//find and evaluate scripts in response:
+var scripts = document.getElementById(divId).getElementsByTagName('script');
+if (null != scripts) {
+for (var i=0;i<scripts.length;i++) {//not combining script snippets on purpose
+var srcScript = document.createElement('script');
+srcScript.text = scripts[i].innerHTML;
+srcScript.asynch = scripts[i].asynch;
+srcScript.defer = scripts[i].defer;
+srcScript.type = scripts[i].type;
+srcScript.charset = scripts[i].charset;
+document.head.appendChild( srcScript );
+document.head.removeChild( srcScript );
+}
+}
+}
+};
+request.send(formData);
+request = null;
+}
+};
+})();
+</script>
+
+<div id="cq_recomm_slot-a31598a36edeaba6ed54f8c5f3"></div>
+
+</div>
+<div class="top--cardCarousel">
+<div class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<h2 class="top--cardCarousel__title">
+<a href="/software/ranking/">
+ダウンロードランキング
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</h2>
+<aside class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<div class="c-cardCarousel--itemsArea c-cardCarousel--itemsArea--small">
+<ul class="c-cardCarousel--itemList js-cardList--small">
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000043363.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwef9da019/products/D70010000043363/squareHeroBanner/2f14153ce8900c0a6d8a629094c3b085145f9c2f75150b8e260f25a097ebb67f.jpg?sw=346&amp;strip=false" alt="スイカゲーム">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">スイカゲーム</h3>
+<div class="c-cardLists--item__price">
+<span>240</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000068687.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw37739fb2/products/D70010000068687/squareHeroBanner/3bfaf21862744d9ab64b2ab140ade9d47e569397af2f569a77de15c6c0bac3d3.jpg?sw=346&amp;strip=false" alt="スーパーマリオブラザーズ ワンダー">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">スーパーマリオブラザーズ ワンダー</h3>
+<div class="c-cardLists--item__price">
+<span>6,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000059973.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa529bf5b/products/D70010000059973/squareHeroBanner/31c2d00b73b1524c2c007bebf807ae3440904a9ee4ac85c3ccf0ea930b948eb3.jpg?sw=346&amp;strip=false" alt="ファッションドリーマー">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ファッションドリーマー</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>5,920</span><small>円</small>
+</div>
+<em>10%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000060371.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw519ac86f/products/D70010000060371/squareHeroBanner/11d735d40e8c54db9e4ae402168907c0484d4456f8038a19bc9c8a7c7a9ab98d.jpg?sw=346&amp;strip=false" alt="デイヴ・ザ・ダイバー">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">デイヴ・ザ・ダイバー</h3>
+<div class="c-cardLists--item__price">
+<span>2,400</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000068677.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw40dac1c5/products/D70010000068677/squareHeroBanner/197d29f2108794c6beeab2467977405b3a2f184fe8c3a282240d63883731ed30.jpg?sw=346&amp;strip=false" alt="超おどる メイド イン ワリオ">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">超おどる メイド イン ワリオ</h3>
+<div class="c-cardLists--item__price">
+<span>5,400</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000062078.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw83115fb2/products/D70010000062078/squareHeroBanner/28272febace4711e82c5c388ce3906298a608a2db7bcaf4c464c64b4055f889a.jpg?sw=346&amp;strip=false" alt="STAR OCEAN THE SECOND STORY R">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">STAR OCEAN THE SECOND STORY R</h3>
+<div class="c-cardLists--item__price">
+<span>6,578</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000015847.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd036a9d9/products/D70010000015847/squareHeroBanner/0be30ef934ce2d0331b2c7ca37265c0b1216dfda2fbafcb950041a4bf356d683.jpg?sw=346&amp;strip=false" alt="逆転裁判123 成歩堂セレクション">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">逆転裁判123 成歩堂セレクション</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>990</span><small>円</small>
+</div>
+<em>66%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000052256.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwde418c2c/products/D70010000052256/squareHeroBanner/9c3ddda8f9c8106311f41ab7c6e0cfe3abc0d8f6d7c234f9dd5cb236b432521d.jpg?sw=346&amp;strip=false" alt="人生ゲーム for Nintendo Switch">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">人生ゲーム for Nintendo Switch</h3>
+<div class="c-cardLists--item__price">
+<span>6,600</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70070000013655.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc401c451/products/D70070000013655/heroBanner/bfa77aafd990dcd2ad7e965cd5976d3c29fdbe3b1f5c47f32f69f89c69a11481.jpg?sw=550&amp;strip=false" alt="モンスターハンターライズ ＋ サンブレイク セット">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">モンスターハンターライズ ＋ サンブレイク セット</h3>
+<div class="c-cardLists--item__price">
+<span>5,990</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000059001.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd096b04f/products/D70010000059001/squareHeroBanner/66513f86c6f32aa7b0fe03f40be9a636e9bcaab5b0fcbf45df827f3c7cab3449.jpg?sw=346&amp;strip=false" alt="Vampire Survivors">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">Vampire Survivors</h3>
+<div class="c-cardLists--item__price">
+<span>499</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000036715.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw5e6bb60b/products/D70010000036715/squareHeroBanner/9fda54f268c70c2a26ae631db1b0e21e6e85c7fdc2fc2f2789d85c14653ab4c6.jpg?sw=346&amp;strip=false" alt="Dicey Dungeons">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">Dicey Dungeons</h3>
+<div class="c-cardLists--item__price">
+<span>1,520</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000036097.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw222c6a2f/products/D70010000036097/squareHeroBanner/b754def90714731c38bfb75ae40b597cfb080861b4581840610f2b50f310947d.jpg?sw=346&amp;strip=false" alt="Among Us">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">Among Us</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>312</span><small>円</small>
+</div>
+<em>40%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000038834.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw364d5186/products/D70010000038834/squareHeroBanner/7f48d0c0d0c44c06f859ac733b927f21e0c6e008fee632b0f8eaf34c1e1745d9.jpg?sw=346&amp;strip=false" alt="Hunting Simulator 2">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">Hunting Simulator 2</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>490</span><small>円</small>
+</div>
+<em>90%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000063713.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc152363c/products/D70010000063713/squareHeroBanner/b727c11ad3629fffbef4a9115e2d14c2a3595890a913a7fefd7a72a72844afa9.jpg?sw=346&amp;strip=false" alt="ゼルダの伝説　ティアーズ オブ ザ キングダム">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ゼルダの伝説　ティアーズ オブ ザ キングダム</h3>
+<div class="c-cardLists--item__price">
+<span>7,900</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/70010000027618.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwe81fffa7/products/D70010000027618/squareHeroBanner/ee827d6ff0ec5159fd3e5298e2a646aa34a8581c8271fe083acc8c1fd0b89c03.jpg?sw=346&amp;strip=false" alt="あつまれ　どうぶつの森">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">あつまれ　どうぶつの森</h3>
+<div class="c-cardLists--item__price">
+<span>6,578</span><small>円</small>
+</div>
+</a>
+</li>
+</ul>
+<div class="c-cardCarousel--navigation"></div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="top--cardCarousel">
+<div class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<h2 class="top--cardCarousel__title">
+<a href="/list/software/?prefn1=hasReleased&amp;prefv1=true&amp;srule=new-arrival">
+最新ソフト
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</h2>
+<aside class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<div class="c-cardCarousel--itemsArea c-cardCarousel--itemsArea--small">
+<ul class="c-cardCarousel--itemList js-cardList--small">
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000057183.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw0c8b4c34/products/D70010000057183/squareHeroBanner/c926ab6bb33e9ab92d38dc2aeae17c87c5bb051b99a4bc2289527d3638bb8de2.jpg?sw=346&amp;strip=false" alt="ダブルドラゴン アドバンス">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ダブルドラゴン アドバンス</h3>
+<div class="c-cardLists--item__price">
+<span>990</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073049.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw64196fb7/products/D70010000073049/squareHeroBanner/f78cfa3cf78a343a71a18292defd1627b75112a36ace9e30a4ea165a9bf1933b.jpeg?sw=346&amp;strip=false" alt="ドラゴンウィングズ">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ドラゴンウィングズ</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>1,189</span><small>円</small>
+</div>
+<em>30%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000057178.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa7348f25/products/D70010000057178/squareHeroBanner/89e9e6fcc0ae1724c3670269a439f1cfccb968ae664047f8873c5ec141634613.jpg?sw=346&amp;strip=false" alt="リターン・オブ・ダブルドラゴン">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">リターン・オブ・ダブルドラゴン</h3>
+<div class="c-cardLists--item__price">
+<span>990</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000069337.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw29351256/products/D70010000069337/squareHeroBanner/3a49c0ce9b60726562563c59da26781be81ee8a59b288c9df138b33705ba537d.jpg?sw=346&amp;strip=false" alt="Cobalt Core (コバルトコア)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Cobalt Core (コバルトコア)</h3>
+<div class="c-cardLists--item__price">
+<span>2,300</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000069103.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwf6a18b90/products/D70010000069103/squareHeroBanner/ad963dd834d224739ea95bffe4e5579df97c51e9adb1702e2d952a0906315701.jpg?sw=346&amp;strip=false" alt="プリゾン・ブレーク ジェール・エスケープ・シミュレーター">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">プリゾン・ブレーク ジェール・エスケープ・シミュレーター</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>699</span><small>円</small>
+</div>
+<em>50%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000070626.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwed33c1db/products/D70010000070626/squareHeroBanner/44e3414cd7b6f2ea9fda22851bafc9415bf5acff1939f5c77d4c4321a1e4fc51.jpg?sw=346&amp;strip=false" alt="ウォー・ゾーン・ソルジャー バトル・ロイアル・シューター">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ウォー・ゾーン・ソルジャー バトル・ロイアル・シューター</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>999</span><small>円</small>
+</div>
+<em>28%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000072619.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwe9eb62e7/products/D70010000072619/squareHeroBanner/cb5421042086fb231305e07e226f80b41df7f0e7339490791e885ec14fe431da.jpg?sw=346&amp;strip=false" alt="推しと話せる! ハングル基礎フレーズークイズで推し活韓国語かんたん勉強学習語学ゲームー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">推しと話せる! ハングル基礎フレーズークイズで推し活韓国語かんたん勉強学習語学ゲームー</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>252</span><small>円</small>
+</div>
+<em>40%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073424.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw39140ef2/products/D70010000073424/squareHeroBanner/b8e75a75e57436d1b27e294ccc770e2fa9fe85eaa2b904976d353ce01cb2668c.jpg?sw=346&amp;strip=false" alt="いろちみっけ!ー1か所間違い探しで脳トレ脳活アハ活色彩感覚テストー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">いろちみっけ!ー1か所間違い探しで脳トレ脳活アハ活色彩感覚テストー</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>252</span><small>円</small>
+</div>
+<em>40%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073428.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw0be164cc/products/D70010000073428/squareHeroBanner/f63931216012806e00012fdd5ce1b0eeda26465b7b4f7986493f4b6864ede46f.jpg?sw=346&amp;strip=false" alt="もっと知りたい古代エジプトーゲームで楽しく歴史発見雑学教養豆知識学習クイズー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">もっと知りたい古代エジプトーゲームで楽しく歴史発見雑学教養豆知識学習クイズー</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>252</span><small>円</small>
+</div>
+<em>40%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073714.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw3ecb40c5/products/D70010000073714/squareHeroBanner/658cf8cb792fea562272b8265e052fdd8156f0445a8a11014dab66b29df75b70.jpg?sw=346&amp;strip=false" alt="ものしりクイズ 太古の恐竜ー学べる雑学教養豆知識学習ゲームー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ものしりクイズ 太古の恐竜ー学べる雑学教養豆知識学習ゲームー</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>252</span><small>円</small>
+</div>
+<em>40%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000056927.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw623472f5/products/D70010000056927/squareHeroBanner/53215b396d38f624cb7ff00347f723a08babccdf60a5d00aec9aad692a62d2b1.jpg?sw=346&amp;strip=false" alt="Spells &amp; Secrets">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Spells &amp; Secrets</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>3,432</span><small>円</small>
+</div>
+<em>20%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000071972.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw0f484a16/products/D70010000071972/squareHeroBanner/7153f69d215860dc141d89e200c72686967558688c419f41c2aeab12b6dcc62a.jpg?sw=346&amp;strip=false" alt="Seven Spirits">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Seven Spirits</h3>
+<div class="c-cardLists--item__price">
+<span>1,150</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000074098.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwbcab40b5/products/D70010000074098/squareHeroBanner/d08f512fb29c944921f90b11418e763117342a2f7bd8b257d69492d0f8d645d8.jpg?sw=346&amp;strip=false" alt="Dolmenjord - Viking Islands (ドルメンヨルド - バイキング諸島)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Dolmenjord - Viking Islands (ドルメンヨルド - バイキング諸島)</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>336</span><small>円</small>
+</div>
+<em>20%OFF</em>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073898.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw8aa78e50/products/D70010000073898/squareHeroBanner/dc205fda1d062f722a6deeccec6fb477c887b93b4a965564835363173beab934.jpg?sw=346&amp;strip=false" alt="君の未来 ２ 未来予知">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">君の未来 ２ 未来予知</h3>
+<div class="c-cardLists--item__price">
+<span>150</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/software/D70010000073889.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw9855af62/products/D70010000073889/squareHeroBanner/ac37f691caddb9c8ed40de06e1756e3984a9c8f3125567424f4d928f14ebf8c1.jpg?sw=346&amp;strip=false" alt="Real Car Parking 2024: Driving Simulator">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Real Car Parking 2024: Driving Simulator</h3>
+<div class="c-cardLists--item__price--onSale">
+<div class="c-cardLists--item__pricePrice">
+<span>300</span><small>円</small>
+</div>
+<em>60%OFF</em>
+</div>
+</a>
+</li>
+</ul>
+<div class="c-cardCarousel--navigation"></div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="top--cardCarousel">
+<div class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<h2 class="top--cardCarousel__title">
+<a href="/goods/ranking/">
+人気グッズランキング
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</h2>
+<aside class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<div class="c-cardCarousel--itemsArea c-cardCarousel--itemsArea--small">
+<ul class="c-cardCarousel--itemList js-cardList--small">
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_BZAC2.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw2910a761/products/VM_NSJ_8_BZAC2/heroBanner/bfd54b31c21ba848c2f3233d1b354533cdc984edfc7dbbe25d3519dbf6fd03748da319995e54b36626e41a774aab343d8ff8081292bfd7e791138e338db7a8d2.jpg?sw=550&amp;strip=false" alt="【単品】せまる原生生物コレクション PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">【単品】せまる原生生物コレクション PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>1,485</span><small>円</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_ALAQJ.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwf622b63e/products/VM_NSJ_8_ALAQJ/heroBanner/cc8ac27b1ef3e3cecfcbfae8e59e67b4cbf159afbc2086154fea7254167f4d6792d7f9518e17864e0e75e1b915f559cfdad25c43d1b9562a90aeab4a4687b486.jpg?sw=550&amp;strip=false" alt="ピクミン ぬいぐるみ PK12 オッチン">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ピクミン ぬいぐるみ PK12 オッチン</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>3,300</span><small>円</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/fashion/VM_NSJ_8_BZAAV.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwab205934/products/VM_NSJ_8_BZAAV/heroBanner/24fd1bbd8762ffc8223e388f1134cb570ecb35b5bb612a537c91b44d687a34f9deb8794674bd879b3dacbaaa795f5eeee249b04b77ce2a7a7a0895ec8a10bbf8.jpg?sw=550&amp;strip=false" alt="シャツ お宝回収 PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">シャツ お宝回収 PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>7,700</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACC.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc2a0b951/products/VM_NSL_8_AAACC/heroBanner/56ef27fe9cd136118bcdfe5820d4359d0e775a17660d3199db38ace6ee9c61cb46a5dd3d72bd19e4dba8ba2d35aed692accc9ac5f7f8f752c79111137c4f766b.jpg?sw=550&amp;strip=false" alt="ピクミン　ラッピング&times;エコバッグ L（ピクミン＆フルーツ）">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ピクミン　ラッピング&times;エコバッグ L（ピクミン＆フルーツ）</h3>
+<div class="c-cardLists--item__price">
+<span>1,870</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_BZAB9.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw953634ca/products/VM_NSJ_8_BZAB9/heroBanner/601e22b095e83b70b2bdbeb8be6c1e797130eea776ac4a49f0ee8fb429bdd1885a52cf7a93b1ecadb37deaa3648848af816ff1c0e2a63e3f51ede762cbd320ab.jpg?sw=550&amp;strip=false" alt="時計 PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">時計 PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>7,700</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/fashion/VM_NSJ_8_BZAAZ.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc6a650a6/products/VM_NSJ_8_BZAAZ/heroBanner/42cd4fbe735c87e85d6b9a8e1b19fa671a2646abdf8bd6db30ffd7f2513fda1ff76bb84a6cbe772d09c524692c06a99d1439f903dda1927d5a907627a07ebc0e.jpg?sw=550&amp;strip=false" alt="Tシャツ お宝回収 PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">Tシャツ お宝回収 PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>3,300</span><small>円〜</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_AEADK.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwedd2a532/products/VM_NSJ_8_AEADK/heroBanner/7fb179413ab0b7b3c7cc7d3e5b48c5f1c5cd1a0ae6b1a6c57cbe243ec5a12a68142b65597e9c82210593e23ffa9690f6e9e19623748ce11e2ab8c25f7a7db200.jpg?sw=550&amp;strip=false" alt="クッションスツール スーパーマリオ クリボー【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">クッションスツール スーパーマリオ クリボー【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>5,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_AEADH.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd10d010a/products/VM_NSJ_8_AEADH/heroBanner/edac43316cb128ba13fc1fe7b942f8f7d9dd9f2a5026f4c25a75f34e88eb3ebfbd66ba6a074658697a49476c04ca24ce8bf5566b919af6ff7877eb61e9c76086.jpg?sw=550&amp;strip=false" alt="キーホルダー スーパーマリオ ワンワン【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">キーホルダー スーパーマリオ ワンワン【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>1,650</span><small>円</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/hobby/VM_NSJ_8_BWAA7.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw9b9e782a/products/VM_NSJ_8_BWAA7/heroBanner/7b211ab14a6e165608168f9a6a75fda320a618a2934f8c8a99f8d73e979d7e78ee2daac297a538f38261835dc092b782794fb17bb6c210ba1a1315267af1445f.jpg?sw=550&amp;strip=false" alt="【単品】走るコジャケコレクション Splatoon 3【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">【単品】走るコジャケコレクション Splatoon 3【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/fashion/VM_NSJ_8_AEAC8.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw6642c2bc/products/VM_NSJ_8_AEAC8/heroBanner/53539ca8d7535e67882d6e58972bd281ba9a7b01224d456028b3bbef1a25732167cf1ae149bfd78ec085a28e57d187f417bdd57b26d59812b4a148502719f004.jpg?sw=550&amp;strip=false" alt="パーカー スーパーマリオ 青【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">パーカー スーパーマリオ 青【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>6,930</span><small>円〜</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/fashion/VM_NSJ_8_BZAAA.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwd335071c/products/VM_NSJ_8_BZAAA/heroBanner/271d181cc2e7a3586e264733871a00e2aecda68907a5c5ca1b6e0193179680791ba29a2ce727429aa5ae30b1379bd06628c36d7b20da82852d1b16306f91833f.jpg?sw=550&amp;strip=false" alt="パーカー 赤 PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">パーカー 赤 PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>6,600</span><small>円〜</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/home-kitchen/VM_NSJ_8_BZABQ.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw7d2410d2/products/VM_NSJ_8_BZABQ/heroBanner/0a89445c42e1dc6cb5bf52f0e64a680d363c0cbbddffd88650a5bea7b61e7c6db44e4226df440ce53f0e2c81ca689be264bda6bb1b35b6708aa86b1898baa1a4.jpg?sw=550&amp;strip=false" alt="保存容器セット ペレット PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">保存容器セット ペレット PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>2,090</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACG.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw72c484a0/products/VM_NSL_8_AAACG/heroBanner/cc19e9caa175cd10f4f524fc5824ee6928e81da3cdd27403879e2d38cab3f3b48e705cd3d3f9ec13f40c18241c7ad8152b75f63ced11df372a0e968ac0b8ba04.jpg?sw=550&amp;strip=false" alt="ピクミン　ラッピング&times;エコバッグ S（ピクミン＆チャッピー）">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ピクミン　ラッピング&times;エコバッグ S（ピクミン＆チャッピー）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_BZACU.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw19d95b7c/products/VM_NSJ_8_BZACU/heroBanner/28e7a6bf0f2bc404482c5c8e98baa3510b60b4f409fea8ed6b0c4eb54ed49a2114e1040e622ec455f3d9e8a4142ef5cb3be30515499f92156fb1fb5b65853df0.jpg?sw=550&amp;strip=false" alt="ブランケット チャッピー PIKMIN【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">ブランケット チャッピー PIKMIN【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>5,500</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/fashion/VM_NSJ_8_AEADS.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw6dec3a05/products/VM_NSJ_8_AEADS/heroBanner/87ca27353054be30b8e3fb034fd3884438e18c86eec4c49e1694c9f3395537383011d7df084a4b7f479c8cbf1dd0bb4d2d9ad98832e8350d3a2d6126c3d97830.jpg?sw=550&amp;strip=false" alt="パーカー スーパーマリオ 黒【Nintendo TOKYO取り扱い商品】">
+</div>
+<div class="c-cardLists--item__rankingLabel"></div>
+</div>
+<h3 class="c-cardCarousel--item__title">パーカー スーパーマリオ 黒【Nintendo TOKYO取り扱い商品】</h3>
+<div class="c-cardLists--item__price">
+<span>6,930</span><small>円〜</small>
+</div>
+</a>
+</li>
+</ul>
+<div class="c-cardCarousel--navigation"></div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+<div class="top--cardCarousel">
+<div class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<h2 class="top--cardCarousel__title">
+<a href="/list/goods/?srule=new-arrival">
+最新グッズ
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937" />
+</svg>
+</i>
+</a>
+</h2>
+<aside class="c-cardCarousel">
+<div class="c-cardCarousel--cardList">
+<div class="c-cardCarousel--itemsArea c-cardCarousel--itemsArea--small">
+<ul class="c-cardCarousel--itemList js-cardList--small">
+<li class="c-cardCarousel--item">
+<a href="/list/goods/hobby/VM_NSJ_8_BBAB6.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw6f0b004c/products/VM_NSJ_8_BBAB6/heroBanner/9ccebe391b17f974fe8139fee83c0ee8329a4a56c51ec170f9502d7df2e678ae2ac88fdcd9b9f3a35c39777d0a27c0869e4c8f2ae0f56286c9c7ebfeefebbc40.jpg?sw=550&amp;strip=false" alt="レゴ&reg;スーパーマリオ パックンフラワー">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">レゴ&reg;スーパーマリオ パックンフラワー</h3>
+<div class="c-cardLists--item__price--soldOut">
+<div class="c-cardLists--item__pricePrice">
+<span>8,910</span><small>円</small>
+<em>品切れ</em>
+</div>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACM.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw7ed011c1/products/VM_NSL_8_AAACM/heroBanner/d06fc6d375928ce6c81f80c9d303745d65b046e128f82c4f777a20dfda1e6233b3f6bc1fddc4f59d2cae118ce212b8a09bb710d624c2017907c4eb878f7b9c77.jpg?sw=550&amp;strip=false" alt="ラッピング&times;エコバッグ S（ゆきだるま［キノピオ］）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ラッピング&times;エコバッグ S（ゆきだるま［キノピオ］）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACL.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw4732063f/products/VM_NSL_8_AAACL/heroBanner/e9eacd602c921119b8b6ea9fa24339a2e1e2e5007747d114a829b7c124c1049d6c9ef57a39909e6cc2445720b9228aba2f7d09fd0320c2109e1aa3a258fd270f.jpg?sw=550&amp;strip=false" alt="ラッピング&times;エコバッグ L（ゆきだるま［マリオ＆ルイージ］）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ラッピング&times;エコバッグ L（ゆきだるま［マリオ＆ルイージ］）</h3>
+<div class="c-cardLists--item__price">
+<span>1,870</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_ALAQF.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw5b437202/products/VM_NSJ_8_ALAQF/heroBanner/ef6f80525e55c4d2ab8aeb4a8ccd9981e79764a76c85ddd9c35d01fcfe4981361969e9645a5c5425a90f9152221d3b79799242615428276dc7b6edf9c516bb12.jpg?sw=550&amp;strip=false" alt="Splatoon3 ALL STAR COLLECTION SP46 ウツホ (S)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Splatoon3 ALL STAR COLLECTION SP46 ウツホ (S)</h3>
+<div class="c-cardLists--item__price">
+<span>3,300</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_ALAQG.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw93e2c09a/products/VM_NSJ_8_ALAQG/heroBanner/5e975ed6021018e9ed6598536fa7fc82ff55576afaf723146a81b0b0eb0e8bf985cdf5637fae69b7cb0a54b14c49ddc86e8eb3b9ae851584a33f7b623b040373.jpg?sw=550&amp;strip=false" alt="Splatoon3 ALL STAR COLLECTION SP47 マンタロー (S)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Splatoon3 ALL STAR COLLECTION SP47 マンタロー (S)</h3>
+<div class="c-cardLists--item__price">
+<span>3,300</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSJ_8_ALAQE.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw74049b87/products/VM_NSJ_8_ALAQE/heroBanner/35d300d1c310bc60b5f5b0cbc62135b39e55f316efd4c792d703274f981629742cc969327dbf95dacced9d558fe99bdf135c2fdade3e343269fbef0ffe6dbd7c.jpg?sw=550&amp;strip=false" alt="Splatoon3 ALL STAR COLLECTION SP45 フウカ (S)">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">Splatoon3 ALL STAR COLLECTION SP45 フウカ (S)</h3>
+<div class="c-cardLists--item__price">
+<span>3,300</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACH.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw90ae1c92/products/VM_NSL_8_AAACH/heroBanner/c34fec32573927daa6615be17bf9928e2d8ca1fbb059ff1fb375599b9b206d973782c2397267b4a1e53d57239e66662da907374aad0a8e1c214863cbe9cc5138.jpg?sw=550&amp;strip=false" alt="スプラトゥーン3　ラッピング&times;エコバッグ S（イカ［ライトブルー］）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">スプラトゥーン3　ラッピング&times;エコバッグ S（イカ［ライトブルー］）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/home-kitchen/VM_NSL_8_AAACK.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwf83278a6/products/VM_NSL_8_AAACK/heroBanner/93bf31912d3d459625d6a8be8ef39cbac3be2533ede96560a80f81b43b069699f2696a82f140da945198b93faa93ac398b12ae3d1b4a55b19a3321d7c8601933.jpg?sw=550&amp;strip=false" alt="スーパーマリオ　ガーランド（バースデイ＆パーティ）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">スーパーマリオ　ガーランド（バースデイ＆パーティ）</h3>
+<div class="c-cardLists--item__price">
+<span>1,430</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACC.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwc2a0b951/products/VM_NSL_8_AAACC/heroBanner/56ef27fe9cd136118bcdfe5820d4359d0e775a17660d3199db38ace6ee9c61cb46a5dd3d72bd19e4dba8ba2d35aed692accc9ac5f7f8f752c79111137c4f766b.jpg?sw=550&amp;strip=false" alt="ピクミン　ラッピング&times;エコバッグ L（ピクミン＆フルーツ）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ピクミン　ラッピング&times;エコバッグ L（ピクミン＆フルーツ）</h3>
+<div class="c-cardLists--item__price">
+<span>1,870</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACD.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw33344943/products/VM_NSL_8_AAACD/heroBanner/0d80c505ea09257b00bb568063f3b1d73f1a121645c6def73fea7c119b77405dab10f043c0f8c85a243db5d95f93591a463bc06d87d666b5aa2ed4a61090f33d.jpg?sw=550&amp;strip=false" alt="スプラトゥーン3　ラッピング&times;エコバッグ L（ナワバリバトル）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">スプラトゥーン3　ラッピング&times;エコバッグ L（ナワバリバトル）</h3>
+<div class="c-cardLists--item__price">
+<span>1,870</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACJ.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw0f04c708/products/VM_NSL_8_AAACJ/heroBanner/fccccc88a7812457bc6572284bc2335c0f2edba7cb8be4e57ba2f519abb32e0d24238b3074602e03c42b472bb6732a80b0a9c6533766fe0eae4637c0abc8a88e.jpg?sw=550&amp;strip=false" alt="あつまれ　どうぶつの森　ラッピング&times;エコバッグ S（しずえ）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">あつまれ　どうぶつの森　ラッピング&times;エコバッグ S（しずえ）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACE.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwa3283bb0/products/VM_NSL_8_AAACE/heroBanner/7a6a58268b7902038034bc8ba734d5a61df696e8465298a137e2f7d012099932920f443cf78c92b70f96e0d7bfd00a4d4b8d44b7b3b27790413235ac90eed01e.jpg?sw=550&amp;strip=false" alt="あつまれ　どうぶつの森　ラッピング&times;エコバッグ L（まめきち＆つぶきち）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">あつまれ　どうぶつの森　ラッピング&times;エコバッグ L（まめきち＆つぶきち）</h3>
+<div class="c-cardLists--item__price">
+<span>1,870</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACG.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw72c484a0/products/VM_NSL_8_AAACG/heroBanner/cc19e9caa175cd10f4f524fc5824ee6928e81da3cdd27403879e2d38cab3f3b48e705cd3d3f9ec13f40c18241c7ad8152b75f63ced11df372a0e968ac0b8ba04.jpg?sw=550&amp;strip=false" alt="ピクミン　ラッピング&times;エコバッグ S（ピクミン＆チャッピー）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ピクミン　ラッピング&times;エコバッグ S（ピクミン＆チャッピー）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/general-good/VM_NSL_8_AAACF.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwfc1ab4db/products/VM_NSL_8_AAACF/heroBanner/9ba5e96a35156823485cb4ab0c576c2d3ad25c700423ebe25c0395acfd0ce78635f79c0f46cb8b02709ba55cd38e36f0231a2f3bbc536d088688b5e6b2b62c2d.jpg?sw=550&amp;strip=false" alt="スーパーマリオ　ラッピング&times;エコバッグ S（ハテナブロック）">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">スーパーマリオ　ラッピング&times;エコバッグ S（ハテナブロック）</h3>
+<div class="c-cardLists--item__price">
+<span>1,540</span><small>円</small>
+</div>
+</a>
+</li>
+<li class="c-cardCarousel--item">
+<a href="/list/goods/book-music-poster/VM_NSJ_8_CFAAA.html">
+<div class="c-cardCarousel--item__image">
+<div class="c-itemImage">
+<img src="https://store-jp.nintendo.com/dw/image/v2/BFGJ_PRD/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw1fe0f749/products/VM_NSJ_8_CFAAA/heroBanner/d0e074fe07b60585f168e61d1a0558627fe1db9e806a6ab7c7051d3a57ccdc08fc0c6b6d879c1f446e1fe70d003140fec2819c8836341cdaba55ddd0e24e48b6.jpg?sw=550&amp;strip=false" alt="ザ・スーパーマリオブラザーズ・ムービー　ブルーレイ＋ＤＶＤ">
+</div>
+</div>
+<h3 class="c-cardCarousel--item__title">ザ・スーパーマリオブラザーズ・ムービー　ブルーレイ＋ＤＶＤ</h3>
+<div class="c-cardLists--item__price">
+<span>5,280</span><small>円</small>
+</div>
+</a>
+</li>
+</ul>
+<div class="c-cardCarousel--navigation"></div>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+<div class="c-messageModal c-modal js-modal__close" id="messageModal">
+<div class="c-modal__bg"></div>
+<div class="c-modal__size">
+<button class="c-modal__close js-modal__close">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Close</title>
+<path fill-rule="evenodd" d="M11.106 9.003l2.458-2.46c.582-.582.582-1.524 0-2.106-.581-.58-1.523-.58-2.105 0L9 6.897l-2.458-2.46c-.583-.58-1.525-.58-2.106 0-.582.582-.582 1.524 0 2.106l2.458 2.46L4.44 11.46c-.582.581-.582 1.524 0 2.106.29.291.672.436 1.053.436.38 0 .76-.145 1.052-.436L9 11.11l2.454 2.456c.29.291.672.436 1.052.436s.763-.145 1.053-.436c.582-.582.582-1.525 0-2.106l-2.454-2.456z" />
+</svg>
+</i>
+</button>
+<div class="c-modal__frame js-modal__stop">
+<div class="c-modal__content">
+<p class="js-modal__text"></p>
+<div class="c-modal__footer">
+<div class="c-modal__closeButton">
+<button type="button" class="js-modal__close">閉じる</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="l-footer">
+<footer class="l-footer__container">
+<div class="l-footer__content">
+<div class="l-footer__band">
+<ul class="l-footer__bandGroup">
+<li class="l-footer__bandItem">
+<a href="/list/software/?prefn1=hasReleased&amp;prefv1=true&amp;srule=new-arrival">
+最新ソフト
+</a>
+</li>
+<li class="l-footer__bandItem">
+<a href="/list/software/?prefn1=isSale&amp;prefv1=true&amp;prefn2=softType&amp;prefv2=TITLE&amp;srule=most-popular">
+セール中ソフト
+</a>
+</li>
+<li class="l-footer__bandItem">
+<a href="/list/software/?pmax=1&amp;prefn1=softType&amp;prefv1=TITLE&amp;srule=new-arrival">
+無料ソフト
+</a>
+</li>
+<li class="l-footer__bandItem">
+<a href="/list/software/?prefn1=hasTrial&amp;prefv1=true&amp;srule=new-arrival">
+体験版のあるソフト
+</a>
+</li>
+</ul>
+</div>
+<div class="l-footer__menu">
+<ul class="l-footer__menuGroup">
+<li class="l-footer__menuItem js-footerAccordion">
+<h4 class="l-footer__menuTitle">
+<a href="/software/" class="l-footer__menuLink js-footerAccordion__title">
+ソフト
+</a>
+</h4>
+<ul class="l-footer__menuSecondGroup js-footerAccordion__items">
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/action/">
+アクション
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/adventure/">
+アドベンチャー
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/shooting/">
+シューティング
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/role-playing/">
+ロールプレイング
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/simulation/">
+シミュレーション
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/sports/">
+スポーツ
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/fighting/">
+格闘
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/racing/">
+レース
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/rhythm/">
+音楽ゲーム
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/puzzle/">
+パズル
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/table/">
+テーブルゲーム
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/party/">
+パーティ
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/communication/">
+コミュニケーション
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/education/">
+学習・教育
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/training/">
+トレーニング
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/software/tool/">
+ツール
+</a>
+</li>
+</ul>
+</li>
+<li class="l-footer__menuItem js-footerAccordion">
+<h4 class="l-footer__menuTitle">
+<a href="/hardware-accessory/" class="l-footer__menuLink js-footerAccordion__title">
+本体・周辺機器
+</a>
+</h4>
+<ul class="l-footer__menuSecondGroup js-footerAccordion__items">
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/hardware/">
+本体
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/controller/">
+コントローラー
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/amiibo/">
+amiibo
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/dock-battery/">
+ドック・バッテリー
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/case/">
+ケース
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/sd-card/">
+microSDカード
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/hardware-accessory/other-hardware-accessory/">
+その他
+</a>
+</li>
+</ul>
+</li>
+<li class="l-footer__menuItem js-footerAccordion">
+<h4 class="l-footer__menuTitle">
+<a href="/goods/" class="l-footer__menuLink js-footerAccordion__title">
+グッズ
+</a>
+</h4>
+<ul class="l-footer__menuSecondGroup js-footerAccordion__items">
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/hobby/">
+おもちゃ・フィギュア
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/stationery/">
+文房具・ステーショナリー
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/fashion/">
+ファッション
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/bag-pouch/">
+バッグ・ポーチ
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/general-goods/">
+雑貨・小物
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/home-kitchen/">
+ホーム・キッチン
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/book-music-poster/">
+本・音楽・ポスター
+</a>
+</li>
+<li class="l-footer__menuSecondItem">
+<a href="/list/goods/smartphone-goods/">
+スマホグッズ
+</a>
+</li>
+</ul>
+</li>
+<li class="l-footer__menuItem js-footerAccordion">
+<h4 class="l-footer__menuTitle">
+<a href="/point-item/" class="l-footer__menuLink--notAccordion">
+プラチナポイント交換グッズ
+</a>
+</h4>
+</li>
+</ul>
+</div>
+</div>
+<div class="l-footer__footer">
+<div class="l-footer__footerContact">
+<a href="https://www.nintendo.co.jp/support/inquiry/store_qa.html?loc=f" target="_blank" rel="noopener">
+<div class="l-footer__footerContactIcon">
+<title>Contact</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<path fill-rule="evenodd" d="M12.388 9.001c0-.44-.358-.8-.8-.8-.442 0-.775.36-.775.8 0 .441.333.8.775.8s.8-.359.8-.8m-2.575 0c0-.44-.358-.8-.8-.8-.442 0-.8.36-.8.8 0 .441.358.8.8.8.442 0 .8-.359.8-.8m-2.6 0c0-.44-.358-.8-.801-.8-.441 0-.8.36-.8.8 0 .441.359.8.8.8.443 0 .8-.359.8-.8M8.94 4.546c-1.466 0-2.988.657-3.974 1.715-.518.556-1.12 1.473-1.035 2.686.093 1.318.653 2.33 1.713 3.088 1.939 1.39 5.302 1.646 7.967 1.225l-.617-1.094c-.218-.384-.141-.868.184-1.166.44-.405.84-1.388.84-2.064 0-2.587-2.676-4.39-5.078-4.39m2.245 10.807c-2.385 0-4.868-.502-6.646-1.773-1.505-1.079-2.371-2.635-2.501-4.5-.104-1.476.443-2.937 1.539-4.114C4.93 3.514 6.934 2.648 8.939 2.648c3.37 0 6.977 2.526 6.977 6.288 0 .947-.383 2.064-.945 2.87l.93 1.65c.146.255.164.564.049.836-.114.271-.348.473-.632.548-1.214.32-2.655.513-4.134.513" />
+</svg>
+</div>
+<h3 class="l-footer__footerContactText">
+よくあるご質問・お問い合わせ
+</h3>
+</a>
+</div>
+<div class="l-footer__links">
+<ul class="l-footer__linksGroup">
+<li class="l-footer__linksItem">
+<a href="https://accounts.nintendo.com/term/eula/JP?lang=ja-JP" target="_blank" rel="noopener">
+ご利用規約
+</a>
+</li>
+<li class="l-footer__linksItem">
+<a href="https://accounts.nintendo.com/term/privacy_policy/JP?lang=ja-JP" target="_blank" rel="noopener">
+プライバシーポリシー
+</a>
+</li>
+<li class="l-footer__linksItem">
+<a href="https://www.nintendo.co.jp/support/legal-notes/payment-services.html" target="_blank" rel="noopener">
+資金決済法に基づく表示
+</a>
+</li>
+<li class="l-footer__linksItem">
+<a href="https://www.nintendo.co.jp/about_hp.html" target="_blank" rel="noopener">
+任天堂ウェブサイトポリシー
+</a>
+</li>
+<li class="l-footer__linksItem">
+<a href="https://www.nintendo.co.jp/" target="_blank" rel="noopener">
+任天堂公式ホームページ
+</a>
+</li>
+</ul>
+</div>
+<div class="l-footer__copyright">
+<small>&copy;Nintendo</small>
+<small class="l-footer__country">Japan</small>
+</div>
+<div class="l-footer__pagetop">
+<a href="#" class="js-pagetop l-footer__pagetopButton">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Page Top</title>
+<path fill-rule="evenodd" d="M9 5.795c-.316 0-.634.1-.9.3l-4 3c-.662.497-.797 1.437-.3 2.1.498.662 1.437.796 2.1.3L9 9.17l3.1 2.325c.665.496 1.603.362 2.1-.3.497-.663.362-1.603-.3-2.1l-4-3c-.266-.2-.584-.3-.9-.3" />
+</svg>
+</i>
+</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<div class="error-messaging"></div>
+<div class="c-countryErrorModal c-modal js-modal__close" id="c-countryErrorModal">
+<div class="c-modal__bg"></div>
+<div class="c-modal__size">
+<button class="c-modal__close js-modal__close">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+<title>Close</title>
+<path fill-rule="evenodd" d="M11.106 9.003l2.458-2.46c.582-.582.582-1.524 0-2.106-.581-.58-1.523-.58-2.105 0L9 6.897l-2.458-2.46c-.583-.58-1.525-.58-2.106 0-.582.582-.582 1.524 0 2.106l2.458 2.46L4.44 11.46c-.582.581-.582 1.524 0 2.106.29.291.672.436 1.053.436.38 0 .76-.145 1.052-.436L9 11.11l2.454 2.456c.29.291.672.436 1.052.436s.763-.145 1.053-.436c.582-.582.582-1.525 0-2.106l-2.454-2.456z" />
+</svg>
+</i>
+</button>
+<div class="c-modal__frame js-modal__stop">
+<div class="c-modal__content">
+<div class="c-modal__header">
+<h2>
+このページはあなたのアカウント設定とあっていません
+</h2>
+</div>
+<div class="c-countryErrorModal__text">
+<p>ご登録されている国ではご利用いただけません。ニンテンドーアカウントの設定をご確認ください。</p>
+</div>
+<div class="c-countryErrorModal__footer">
+<ul class="c-countryErrorModal__buttonGroup">
+<li class="c-countryErrorModal__selectCountryButton">
+<button type="button" class="js-link-regionSelector">国を選びなおす</button>
+</li>
+<li class="c-countryErrorModal__closeButton">
+<button type="button" class="js-modal__close">このページを見る</button>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="c-pageLoading">
+<div class="c-pageLoading__icon">
+<i>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<title>Loading</title>
+<path fill-rule="evenodd" d="M15,3c0,1.7-1.3,3-3,3S9,4.7,9,3s1.3-3,3-3S15,1.3,15,3z M12,18c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,18,12,18z M3,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S4.7,9,3,9z M21,9c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S22.7,9,21,9z" />
+</svg>
+</i>
+</div>
+</div>
+<script type="text/template" data-prev-arrow>
+    <div class="slick-prev"><button><i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><title> Backward</title><path fill-rule="evenodd" d="M4.926 9c0 .332.109.663.329.937l4 5c.518.647 1.46.751 2.108.234.646-.517.753-1.459.234-2.109L8.347 9l3.25-4.062c.519-.65.412-1.592-.234-2.109-.647-.517-1.59-.413-2.108.234l-4 5c-.22.274-.33.605-.33.937"></path></svg></i></button></div>
+</script>
+<script type="text/template" data-next-arrow>
+    <div class="slick-next"><button><i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"><title> Forward</title><path fill-rule="evenodd" d="M13.076 9c0 .332-.11.663-.33.937l-4 5c-.517.647-1.46.751-2.107.234-.646-.517-.753-1.459-.234-2.109L9.655 9l-3.25-4.062c-.52-.65-.412-1.592.234-2.109.647-.517 1.59-.413 2.108.234l4 5c.22.274.329.605.329.937"></path></svg></i></button></div>
+</script>
+<script src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/js/scripts.js"></script>
+<script type="text/javascript" src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/js/carousel.js">
+    </script>
+<script type="text/javascript" src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/js/login.js">
+    </script>
+
+<script type="text/javascript">//<!--
+/* <![CDATA[ */
+function trackPage() {
+    try{
+        var trackingUrl = "https://store-jp.nintendo.com/on/demandware.store/Sites-MNS-Site/ja_JP/__Analytics-Start";
+        var dwAnalytics = dw.__dwAnalytics.getTracker(trackingUrl);
+        if (typeof dw.ac == "undefined") {
+            dwAnalytics.trackPageView();
+        } else {
+            dw.ac.setDWAnalytics(dwAnalytics);
+        }
+    }catch(err) {};
+}
+/* ]]> */
+// -->
+</script>
+<script type="text/javascript" src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/internal/jscript/dwanalytics-22.2.js" async="async" onload="trackPage()"></script>
+
+<script src="/on/demandware.static/Sites-MNS-Site/-/ja_JP/v1699460626642/internal/jscript/dwac-21.7.js" type="text/javascript" async="async"></script>
+<script src="https://cdn.cquotient.com/js/v2/gretel.min.js" type="text/javascript" async="async"></script>
+</body>
+</html>
+
+0
+
+
+
+
+https://store-jp.nintendo.com:443

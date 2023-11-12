@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: slide-heroes.githubapp.com
+User-Agent: Mozilla/5.0 (OS/2; Warp 4.5; rv:31.0) Gecko/20100101 Firefox/31.0 SeaMonkey/2.28
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 138
+Accept-Ranges: bytes
+Cache-Control: private, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:30:30 GMT
+Fastly-Restarts: 1
+Location: https://github.com/login?return_to=%2Fpages%2Fauth%3Fnonce%3D4cfb7f50-a8fe-43d2-8705-917339ec7481%26page_id%3D13444348%26path%3DLw
+Server: GitHub.com
+Set-Cookie: __Host-gh_pages_session=4cfb7f50-a8fe-43d2-8705-917339ec7481; Secure; path=/; HttpOnly
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Fastly-Request-Id: ac98512ee960b8efdd3d6938cfe9ce60c373dec0
+X-Github-Request-Id: 93FA:12C06:68ABB1C:6A6BFF7:654AF2C3
+X-Origin-Cache: no-store
+X-Pages-Private: 1
+X-Served-By: cache-fra-eddf8230128-FRA
+X-Timer: S1699410630.204617,VS0,VE201
+

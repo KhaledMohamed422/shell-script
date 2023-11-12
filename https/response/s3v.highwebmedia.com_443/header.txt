@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: s3v.highwebmedia.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.9999.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/xml
+Date: Wed, 08 Nov 2023 19:39:04 GMT
+Server: CloudFront
+Via: 1.1 dc85053069397a282d87170bb1bcab4a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zlu6T-QYa4YFJBh_7HwnvP3dRYKZLOX4_Pomxdg-QH7dj3y0VRyaxg==
+X-Amz-Cf-Pop: FRA56-P6
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://s3v.highwebmedia.com:443

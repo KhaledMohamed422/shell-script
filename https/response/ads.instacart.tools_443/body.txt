@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+  body {
+    background-color: #eee;
+    padding-top: 200px;
+    text-align: center;
+    font-family: Helvetica;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px 17px;
+    border-radius: 3px;
+    color: white;
+    background-color: #43B02A;
+    text-decoration: none;
+  }
+  .alert.flash-alert {
+    margin: 2rem auto;
+    max-width: 40rem;
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+<h3>Ads Admin login</h3>
+<a class="button" href="/login">Login with Okta</a>
+<style>
+  .flash-alert {
+    margin: 0px 0px 2px 0px;
+    padding: 8px; }
+</style>
+
+</body>
+</html>
+
+0
+
+
+
+
+https://ads.instacart.tools:443

@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: connected.alibabacloud.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.6 (Change: )
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 08 Nov 2023 09:48:04 GMT
+Eagleeye-Traceid: 21038edc16994368843155507eece4
+Expires: 0
+Pragma: no-cache
+Server: Tengine
+Set-Cookie: XSRF-TOKEN=4266bf1d-f84c-4ab7-bf6b-ccd57d2c1576; Path=/; HttpOnly
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+Vary: Accept-Encoding
+X-Application-Context: aidc-connected:prod:7002
+X-Content-Type-Options: nosniff
+
+68
+{"timestamp":1699436884564,"status":404,"error":"Not Found","message":"No message available","path":"/"}
+0
+
+
+
+
+https://connected.alibabacloud.com:443

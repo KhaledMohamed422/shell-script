@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: web17123.reddit.com
+User-Agent: Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:47:59 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf5u879kw.2.1699390079222.Z0FBQUFBQmxTcUpfeTJ6dThrYVFYRFJQVmpteldaRVI2MWRFUklMblJMcmYwSjNlanVuRVpwTlZvMmpYUmVpV0Z1OUdvOFZrZnJNYTRQVUpWdFpULXllUGNGRHhrRk9ScTJHLTFBbkJLLWNZejEzdWI1RmVMYzdXYkFWQW1ET0hScWxVcHdYVlhjY0g; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:47:59 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=pbbpohqfmlefgagkfo.0.1699390079224.Z0FBQUFBQmxTcUpfM3V4Nk5KUF9nZmQ5M2tkUXV1SVlEem5JV2lYTGpqM3FuMlFkM0FfNXZwX0xUX0ZVeDZabDRibU5XQmFQTkI2M0ZWZ3RiTVhQaXFKTGQ3amhnakswSHExSnFmTGtJWHZWQlMtQ1l3eVhTdDFMOTJDM1dBb3FabWtZTl9Jb21Tb3k; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:47:59 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=6rKQNO2GiZJB7dX312; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+

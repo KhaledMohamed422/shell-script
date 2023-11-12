@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: keyper-api.pnakakeeto.monitoring-nonprod.collegeboard.org
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.14) Gecko/20110218 AlexaToolbar/alxf-2.0 Firefox/3.6.14
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:27:46 GMT
+X-Amz-Apigw-Id: OCb-7E1ioAMFsfQ=
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: af88ee58-72a5-4557-bea5-f88aebb9ae8d
+
+{"message":"Forbidden"}
+
+
+https://keyper-api.pnakakeeto.monitoring-nonprod.collegeboard.org:443

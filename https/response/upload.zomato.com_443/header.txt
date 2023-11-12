@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: upload.zomato.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 568
+Alt-Svc: h3=":443"; ma=93600
+Cache-Control: max-age=0, no-cache, no-store, no-transform
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 18:07:34 GMT
+Strict-Transport-Security: max-age=31536000
+

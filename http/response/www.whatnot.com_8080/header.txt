@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: www.whatnot.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5030.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 822b12205a34cb09-DUS
+Date: Wed, 08 Nov 2023 04:28:42 GMT
+Expires: Wed, 08 Nov 2023 05:28:42 GMT
+Location: https://www.whatnot.com/
+Server: cloudflare
+Set-Cookie: __cf_bm=Mtj9HSS0Y8WqQPBn4VPxWGVdEmNoOMd8.AqrUdtH13w-1699417722-0-AfmTSjeLmYuGbMBrQgBwWqPRf2HhB7PrhmJi3NX8qyvWoYN84F2yxaMZhHsy3UODyEuXLFUEsTBKyV1EsiWllSs=; path=/; expires=Wed, 08-Nov-23 04:58:42 GMT; domain=.whatnot.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://www.whatnot.com:8080

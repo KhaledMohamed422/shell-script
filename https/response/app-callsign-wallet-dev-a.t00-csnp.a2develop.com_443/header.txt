@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: app-callsign-wallet-dev-a.t00-csnp.a2develop.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 524
+Content-Security-Policy: default-src 'self'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:26:29 GMT
+Permissions-Policy: autoplay=(), camera=(self), encrypted-media=(), fullscreen=(), geolocation=(self), microphone=(self), midi=(), payment=(), sync-xhr=(), usb=(), vr=()
+Referrer-Policy: strict-origin
+Server: awselb/2.0
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Via: 1.1 b2340053ff948864db4d5e3c0ab3f3ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -n6xudjQJtOII8DYIuCGw3yBVSe0VyVcRKmTr20OzB1OHPBUFNnBQg==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

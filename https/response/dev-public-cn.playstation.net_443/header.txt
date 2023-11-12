@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: dev-public-cn.playstation.net
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cache_control: no-cache, no-store
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 23:17:16 GMT
+Eagleid: 3adad01616993990360384295e
+Location: http://dev-public-cn.playstation.net/index.html
+Pragma: no-cache
+Server: Tengine
+Timing-Allow-Origin: *
+Via: kunlun2.cn192[,403004]
+X-Tengine-Error: denied by IP ACL = not in whitelist
+
+13e

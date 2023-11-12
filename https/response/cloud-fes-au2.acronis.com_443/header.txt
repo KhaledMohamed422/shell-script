@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: cloud-fes-au2.acronis.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.3; Linux) KHTML/4.3.1 (like Gecko) Fedora/4.3.1-3.fc11
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:14:23 GMT
+Server: nginx
+X-Amz-Err-Code: NoSuchBucket
+X-Amz-Err-Message: The specified bucket does not exist
+X-Amz-Req-Time-Micros: 2024
+X-Amz-Request-Id: 800000000000001700034a7eeaf01e5f
+
+84
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>NoSuchBucket</Code><Message>The specified bucket does not exist</Message></Error>
+0
+
+
+
+
+https://cloud-fes-au2.acronis.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: preprod-slot.prod.payment-giftcard-api.api.mnscorp.net
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Date: Wed, 08 Nov 2023 02:29:47 GMT
+Retry-After: 60
+X-Azure-Ref: 20231108T022947Z-k8xwycsk1d1hfas6p789mkxhu400000001k0000000013814
+X-Cache: CONFIG_NOCACHE
+
+1a5
+<div style="display: block; margin: auto;  width: 600px; height: 500px; text-align: center; font-family: 'Courier', cursive, sans-serif;"><h1 style="color: 747474">:( Application Error</h1><p style="color:#666">If you are the application administrator, you can access the <a style="color: grey"href="https://prod-payment-giftcard-v1-eun-layer3-app-preprod.scm.azurewebsites.net/detectors">diagnostic resources</a>.</div>
+
+0
+
+
+
+
+https://preprod-slot.prod.payment-giftcard-api.api.mnscorp.net:443

@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: intheknowtest.corp.8x8.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4853.129 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Content-Security-Policy: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'report-sample' 'nonce-r-__M8kJ31ixZV7Vme7GUQ' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: same-site
+Date: Tue, 07 Nov 2023 21:28:03 GMT
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Pragma: no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+
+d340

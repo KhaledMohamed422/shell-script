@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="preconnect" href="http://creditkarma-cms.imgix.net">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.12 (Yoast SEO v20.13) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Credit Karma Engineering Blog - How Credit Karma engineers are helping 100 million members make financial progress</title>
+	<meta name="description" content="How Credit Karma engineers are helping 100 million members make financial progress" />
+	<link rel="canonical" href="https://engineering.creditkarma.com/" />
+	<link rel="next" href="https://engineering.creditkarma.com/page/2" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="CreditKarma Engineering Blog" />
+	<meta property="og:description" content="How Credit Karma engineers are helping 100 million members make financial progress" />
+	<meta property="og:url" content="https://engineering.creditkarma.com/" />
+	<meta property="og:site_name" content="Credit Karma Engineering Blog" />
+	<meta property="og:image" content="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/01/ENG_Robot.png" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="600" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@CreditKarmaEng" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://engineering.creditkarma.com/","url":"https://engineering.creditkarma.com/","name":"Credit Karma Engineering Blog - How Credit Karma engineers are helping 100 million members make financial progress","isPartOf":{"@id":"https://engineering.creditkarma.com/#website"},"description":"How Credit Karma engineers are helping 100 million members make financial progress","breadcrumb":{"@id":"https://engineering.creditkarma.com/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://engineering.creditkarma.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://engineering.creditkarma.com/#website","url":"https://engineering.creditkarma.com/","name":"Credit Karma Engineering Blog","description":"How Credit Karma engineers are helping 100 million members make financial progress","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://engineering.creditkarma.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel="alternate" type="application/rss+xml" title="Credit Karma Engineering Blog &raquo; Feed" href="https://engineering.creditkarma.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Credit Karma Engineering Blog &raquo; Comments Feed" href="https://engineering.creditkarma.com/comments/feed" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/creditkarma-cms.imgix.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='all-css-0' href='https://engineering.creditkarma.com/_static/??-eJyNjkEKgzAQRS/UONiF2oV4lnEy1KmTKJmUkts3XRQsdOHy8d+DD6/dSSR9ejYgM/BiGWbdaHUqc8JUwHJRboLEpgoXOBYPg8BekJUDx/wDu2Lh5JTvSOVcXrcj/48+L0nRTMjlpYr29aYwtt1t6Pp+uLZvQp5Qow==' type='text/css' media='all' />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='global-styles-css' href='https://engineering.creditkarma.com/' media='all' />
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://engineering.creditkarma.com/_static/??/wp-content/themes/creditkarma-eng/dist/css/style.min.css,/wp-content/mu-plugins/jetpack/css/jetpack.css?m=1699368418' type='text/css' media='all' />
+<script type="text/javascript">
+	window.IS_CMS = true;
+</script>
+<link rel="https://api.w.org/" href="https://engineering.creditkarma.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://engineering.creditkarma.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://engineering.creditkarma.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.3" />
+<link rel='shortlink' href='https://wp.me/aknfo' />
+	<style>img#wpstats{display:none}</style>
+			<script>window.CDN_DOMAIN = "creditkarma-cms.imgix.net";</script>
+	<link rel="icon" href="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/03/apple-touch-icon.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/03/apple-touch-icon.png?w=180" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/03/apple-touch-icon.png?w=180" />
+<meta name="msapplication-TileImage" content="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/03/apple-touch-icon.png?w=180" />
+	</head>
+	<body class="home blog">
+
+			<div class="cornerstone-banner cornerstone-banner--desktop">
+		<div class="cornerstone-banner__primary">
+			<a href="https://www.intuit.com/" target="_blank" aria-label="Link to homepage of intuit">
+				<svg class="logo--intuit" viewBox="0 0 138 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M70.8131 16.5745C70.8131 23.5575 76.4076 28.6476 83.5161 28.6476C90.6251 28.6476 96.219 23.5575 96.219 16.5745V0.567927H89.3419V15.7541C89.3419 19.5191 86.8185 22.0431 83.4952 22.0431C80.1722 22.0431 77.6479 19.5191 77.6479 15.7541V0.567927H70.7708L70.8131 16.5745ZM114.621 6.96203H122.845V28.1217H129.722V6.98308H137.945V0.546878H114.643V6.96203H114.621ZM110.163 0.546878H103.286V28.1217H110.163V0.546878ZM42.9879 6.96203H51.2114V28.1217H58.0887V6.98308H66.2915V0.546878H42.9879V6.96203ZM6.87711 0.546878H0V28.1217H6.87711V0.546878ZM39.371 12.0732C39.371 5.09012 33.7764 0 26.6681 0C19.559 0 13.9643 5.09012 13.9643 12.0732V28.1217H20.8426V12.9356C20.8426 9.17063 23.3661 6.64662 26.6888 6.64662C30.0119 6.64662 32.5354 9.17063 32.5354 12.9356V28.1217H39.4134L39.371 12.0732Z" />
+				</svg>
+			</a>
+		</div>
+
+		<div class="cornerstone-banner__list">
+			<a href="https://turbotax.intuit.com/" target="_blank" aria-label="Link to homepage of turbotax">
+				<svg class="logo--turbotax" viewBox="0 0 417 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--mark">
+						<path d="M44.9551 88.822C69.2841 88.822 89.0071 69.0989 89.0071 44.7702C89.0071 20.4413 69.2841 0.718811 44.9551 0.718811C20.6261 0.718811 0.904053 20.4413 0.904053 44.7702C0.904053 69.0989 20.6261 88.822 44.9551 88.822Z" />
+					</g>
+
+					<path d="M35.186 60.8344C30.04 57.1837 25.207 53.2896 20.548 49.1175C18.845 52.7681 17.3851 56.6621 15.9241 60.591C23.2601 66.9186 33.2391 74.011 40.0881 78.149C48.8491 55.48 62.549 40.5644 75.691 30.0992C73.987 26.4485 71.7971 23.2498 68.8411 20.6074C54.9341 31.3161 43.461 44.98 35.186 60.8344Z" fill="white" />
+					<g class="logo--text">
+						<path d="M216.781 43.7611V15.877H206.975V78.529H216.398V72.5494H216.535C219.212 77.069 224.602 79.642 230.163 79.642C242.263 79.642 249.708 70.1847 249.708 58.4334C249.708 46.6817 241.743 37.5724 230.409 37.5724C223.109 37.5724 219.11 41.1883 217.055 43.7611H216.781ZM216.466 58.5724C216.466 52.3837 220.849 45.6734 228.149 45.6734C235.867 45.6734 239.586 52.2098 239.586 58.4334C239.586 64.6568 235.867 71.3325 228.149 71.3325C220.883 71.3325 216.466 64.7609 216.466 58.5724ZM99.819 38.7545V46.6816V46.7163H106.771V65.2478C106.771 72.8274 109.175 79.294 119.707 79.294C121.899 79.294 124.576 78.877 126.316 78.216L125.967 70.4284C124.85 70.9845 123.077 71.2626 121.755 71.2626C117.379 71.2626 116.543 68.7246 116.543 65.1437V46.6816H126.487V38.7545H116.543V27.2461H106.771V38.7545H99.819ZM158.75 78.459H168.173V38.7189H158.229V60.5535C158.229 65.8381 155.312 71.2968 148.95 71.2968C142.588 71.2968 141.506 65.3861 141.506 60.6925V38.6494H131.597V63.5087C131.597 71.6447 135.945 79.572 146.272 79.572C152.148 79.572 156.873 76.06 158.613 72.0618H158.75V78.459ZM187.711 38.7202V45.3262H187.854C190.012 40.7715 194.251 37.5381 199.428 37.5381C200.195 37.5381 201.167 37.6077 201.832 37.8163V46.9256C200.51 46.5779 199.674 46.5083 198.736 46.5083C189.799 46.5083 188.06 54.2964 188.06 57.1822V78.461H178.116V38.7202H187.676H187.711ZM276.827 37.5732C288.82 37.5732 298.45 45.9176 298.45 58.4342C298.45 70.9511 288.82 79.643 276.827 79.643C264.829 79.643 255.2 70.9511 255.2 58.4342C255.2 45.9176 264.795 37.5732 276.827 37.5732ZM276.827 71.3332C284.68 71.3332 288.33 64.6575 288.33 58.4342C288.33 52.2106 284.68 45.6742 276.827 45.6742C268.965 45.6742 265.315 52.2106 265.315 58.4342C265.315 64.6575 268.965 71.3332 276.827 71.3332ZM300.78 38.7545V46.6816V46.7163H307.73V65.2478C307.73 72.8274 310.14 79.294 320.67 79.294C322.86 79.294 325.54 78.877 327.27 78.216L326.93 70.4284C325.81 70.9845 324.04 71.2626 322.72 71.2626C318.34 71.2626 317.5 68.7246 317.5 65.1437V46.6816H327.45V38.7545H317.5V27.2461H307.73V38.7545H300.78ZM358.42 73.384H358.18C356.2 76.896 351.51 79.434 345.84 79.434C339.44 79.434 330.96 76.374 330.96 67.0912C330.96 55.2351 345.84 53.6011 358.29 53.6011V52.6275C358.29 47.7252 354.15 45.3262 349.18 45.3262C344.97 45.3262 340.91 47.308 338.36 49.8808L333.22 43.8312C337.71 39.6937 343.96 37.5381 350.01 37.5381C364.26 37.5381 367.71 46.2997 367.71 54.2616V78.426H358.42V73.384ZM358.32 60.3461H356.09C349.8 60.3461 340.94 61.111 340.94 66.9522C340.94 70.742 344.52 71.924 347.89 71.924C354.7 71.924 358.35 68.0644 358.35 61.7368V60.3461H358.32ZM374.07 38.7549L388.4 57.356H388.43L372.3 78.46H384.05L394.51 63.9967L404.84 78.46H416.91L400.67 57.356L414.93 38.7549H403.48L394.62 51.0976L385.99 38.7549H374.07Z" />
+					</g>
+				</svg>
+			</a>
+
+			<a href="https://creditkarma.com/" aria-label="Link to homepage of creditkarma">
+				<svg class="logo--creditkarma" viewBox="0 0 534 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--text">
+						<path d="M252.86 16H243.02V43.634H242.78C240.73 41.092 236.79 37.484 229.58 37.484C218.34 37.484 210.47 46.504 210.47 58.148C210.47 69.628 217.85 79.14 229.82 79.14C235.32 79.14 240.65 76.598 243.35 72.088H243.52V77.992H252.86V16ZM220.47 58.148C220.47 51.998 224.16 45.52 231.79 45.52C239.01 45.52 243.35 52.162 243.35 58.312C243.35 64.462 239.01 70.94 231.79 70.94C224.16 70.94 220.47 64.298 220.47 58.148ZM134.92 43.634C131.8 39.78 125.81 37.484 120.07 37.484C108.51 37.484 99 45.52 99 58.312C99 71.432 108.68 79.14 120.32 79.14C126.14 79.14 131.55 77.172 134.83 73.646L128.68 67.414C126.8 69.71 123.44 70.94 120.4 70.94C112.94 70.94 109.25 64.462 109.25 58.312C109.25 52.162 112.86 45.684 120.07 45.684C123.27 45.684 126.63 47.324 128.19 49.538L134.92 43.634ZM140.34 77.992H150.18V56.918C150.18 54.048 151.9 46.34 160.75 46.34C161.66 46.34 162.48 46.422 163.79 46.75V37.73C163.13 37.566 162.15 37.484 161.41 37.484C156.24 37.484 152.06 40.682 149.93 45.192H149.77V38.632H140.34V77.992ZM186.21 44.864C180.39 44.864 175.72 48.882 175.31 54.376H195.48C195.48 49.292 192.61 44.864 186.21 44.864ZM186.29 37.484C197.28 37.484 205.32 44.618 205.32 58.804C205.32 59.706 205.32 60.526 205.24 61.428H175.31C175.72 67.004 180.8 71.104 186.54 71.104C191.46 71.104 194.74 69.136 196.95 66.02L203.51 71.268C199.66 76.516 194.08 79.14 186.62 79.14C174.49 79.14 165.47 71.35 165.47 58.558C165.47 45.848 174.4 37.484 186.29 37.484ZM272.82 77.992H262.98V38.632H272.82V77.992ZM267.82 31.17C264.21 31.17 261.59 28.382 261.59 25.266C261.59 22.15 264.21 19.362 267.82 19.362C271.43 19.362 274.22 21.904 274.22 25.266C274.22 28.628 271.43 31.17 267.82 31.17ZM286.99 46.504V64.872C286.99 72.416 289.37 78.812 299.78 78.812C302 78.812 304.62 78.402 306.34 77.746L306.01 70.038C304.87 70.612 303.14 70.858 301.83 70.858C297.49 70.858 296.67 68.316 296.67 64.79V46.504H306.51V38.632H296.67V27.234H286.99V38.632H280.1V46.504H286.99ZM323.63 77.992H313.79V16H323.63V55.196H323.88L338.8 38.632H351.43L334.37 56.426L352.5 77.992H339.46L323.88 57.82H323.63V77.992ZM381.11 77.992H390.29V54.048C390.29 46.176 386.85 37.484 372.74 37.484C366.76 37.484 360.52 39.616 356.1 43.716L361.18 49.702C363.72 47.16 367.74 45.192 371.92 45.192C376.84 45.192 380.94 47.57 380.94 52.408V53.392C368.64 53.392 353.88 55.032 353.88 66.758C353.88 75.942 362.33 78.976 368.64 78.976C374.22 78.976 378.89 76.434 380.86 72.99H381.11V77.992ZM380.94 61.428C380.94 67.66 377.33 71.514 370.61 71.514C367.25 71.514 363.72 70.366 363.72 66.594C363.72 60.772 372.5 60.034 378.73 60.034H380.94V61.428ZM408.59 77.992H398.75V38.632H408.18V45.192H408.35C410.48 40.682 414.66 37.484 419.83 37.484C420.57 37.484 421.55 37.566 422.21 37.73V46.75C420.89 46.422 420.07 46.34 419.17 46.34C410.32 46.34 408.59 54.048 408.59 56.918V77.992ZM476.61 37.484C470.71 37.484 466.28 40.19 463.65 44.946C461.44 40.518 457.42 37.484 451.35 37.484C445.04 37.484 440.86 41.092 439.14 44.946H438.97V38.632H429.62V77.992H439.46V56.344C439.46 51.096 442.17 45.684 448.07 45.684C453.08 45.684 455.37 49.374 455.37 54.212V77.992H465.21V56.508C465.21 51.424 467.75 45.684 473.9 45.684C480.22 45.684 481.28 51.506 481.28 56.18V77.992H491.12V53.392C491.12 45.356 486.86 37.484 476.61 37.484ZM533.2 77.992H524.01V72.99H523.77C521.8 76.434 517.12 78.976 511.55 78.976C505.23 78.976 496.79 75.942 496.79 66.758C496.79 55.032 511.55 53.392 523.85 53.392V52.408C523.85 47.57 519.75 45.192 514.83 45.192C510.65 45.192 506.63 47.16 504.09 49.702L499 43.716C503.43 39.616 509.66 37.484 515.65 37.484C529.75 37.484 533.2 46.176 533.2 54.048V77.992ZM513.52 71.514C520.24 71.514 523.85 67.66 523.85 61.428V60.034H521.63C515.4 60.034 506.63 60.772 506.63 66.594C506.63 70.366 510.15 71.514 513.52 71.514Z" />
+					</g>
+
+					<g class="logo--mark">
+						<path d="M44.05 88.1C68.38 88.1 88.1 68.3781 88.1 44.05C88.1 19.7219 68.38 0 44.05 0C19.72 0 0 19.7219 0 44.05C0 68.3781 19.72 88.1 44.05 88.1Z" />
+					</g>
+					<path d="M21.83 48.4656C21.83 40.8863 25.48 36.9924 31.36 36.9924C35.74 36.9924 38.4501 38.696 39.4301 39.1828C40.1601 38.4527 40.64 37.2358 40.64 36.0189C40.64 33.8286 38.21 31.6383 31.12 31.6383C22.81 31.6383 15.75 37.4792 15.75 48.4656C15.75 59.452 22.11 65.2929 30.39 65.2929C35.5 65.2929 39.43 63.5893 40.64 63.1026V57.0183C39.43 57.9918 35.29 59.9388 31.36 59.9388C26.01 59.9388 21.83 56.0448 21.83 48.4656ZM62.34 48.2222C65.99 43.8415 69.43 38.696 71.86 32.125L66.51 30.1781C63.1 39.4609 57.96 45.7885 51.87 50.9341V18.9482H46.03V64.5976H51.87V57.7484C54.06 56.0448 56.01 54.3413 58.23 52.3943L63.59 61.6771C64.81 63.8675 66.7501 65.0843 69.4301 65.0843C70.8901 65.0843 71.86 64.5976 72.11 64.3542L62.34 48.257V48.2222Z" fill="white" />
+				</svg>
+			</a>
+
+			<a href="https://mint.intuit.com/" target="_blank" aria-label="Link to homepage of mint">
+				<svg class="logo--mint" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 261 88">
+					<g class="logo--text">
+						<path d="M150.58 36.91c-5.14 0-9.3 2.69-11.74 6.85-1.95-2.94-5.62-6.85-11.73-6.85-5.13 0-9.53 3.91-11.49 6.85h-.24v-5.63h-10.02v37.9h10.5v-20.8c0-4.64 2.45-9.28 7.58-9.28 5.63 0 6.36 5.13 6.36 7.33v22.73h10.51V55.5c0-4.65 2.69-9.29 7.82-9.29 4.9 0 6.36 4.4 6.36 9.04v20.78H165V52.56c-.49-7.34-4.16-15.65-14.42-15.65Zm23.7 38.87h10.52v-37.9h-10.51v37.9Zm41.07-38.87c-5.37 0-9.53 3.91-11.48 6.85h-.25v-5.63H193.6v37.9h10.51v-20.8c0-4.4 2.69-9.28 8.07-9.28 5.13 0 6.35 4.64 6.35 9.04v20.78h10.51V52.3c0-7.09-3.42-15.4-13.69-15.4Zm44.98 9.29v-8.31h-9.04V27.38h-10.27v10.5h-6.35v8.32h6.35v16.62c0 5.87 1.47 13.7 12.71 13.7 2.2 0 4.9-.5 6.6-.99l-.24-8.06c-.98.24-2.69.73-4.65.73-2.93 0-4.15-2.2-4.15-5.38V46.2h9.04Z" />
+					</g>
+					<g class="logo--mark">
+						<path d="M44 88c24.2 0 44-19.8 44-44S68.2 0 44 0 0 19.8 0 44s19.8 44 44 44Z" />
+					</g>
+					<path fill="#fff" d="M44 12.22c-2.93 2.94-22.73 23.47-22.73 39.36 0 11.24 9.04 15.15 22.73 24.44 13.69-9.29 22.73-13.2 22.73-24.44 0-16.14-19.8-36.42-22.73-39.36Zm-.49 55.74c-.73-.5-1.47-.98-2.2-1.47-11-7.09-13.69-9.53-13.69-15.16 0-8.8 8.56-21.02 15.89-29.33v45.96Z" />
+				</svg>
+			</a>
+
+			<a href="https://quickbooks.intuit.com/" target="_blank" aria-label="Link to homepage of quickbooks">
+				<svg class="logo--quickbooks" viewBox="0 0 523 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--mark">
+						<path d="M44.4698 89.022C68.7998 89.022 88.5199 69.2995 88.5199 44.9704C88.5199 20.6415 68.7998 0.918884 44.4698 0.918884C20.1398 0.918884 0.419922 20.6415 0.419922 44.9704C0.419922 69.2995 20.1398 89.022 44.4698 89.022Z" />
+					</g>
+					<path d="M12.6899 44.9707C12.6899 54.2886 20.27 61.729 29.76 61.729H32.1899V55.5055H29.76C23.92 55.5055 19.05 50.7422 19.05 44.9707C19.05 39.1992 23.92 34.4359 29.76 34.4359H35.6V67.0137C35.6 70.3865 38.52 73.2374 41.97 73.2374V28.1776H29.76C20.27 28.1776 12.6899 35.6181 12.6899 44.936V44.9707ZM59.0699 28.2124H56.64V34.4359H59.0699C64.9099 34.4359 69.78 39.1992 69.78 44.9707C69.78 50.7422 64.9099 55.5055 59.0699 55.5055H53.23V22.9276C53.23 19.5551 50.31 16.7041 46.87 16.7041V61.729H59.0699C68.5599 61.729 76.15 54.2886 76.15 44.9707C76.15 35.6528 68.5599 28.2124 59.0699 28.2124Z" fill="white" />
+					<g class="logo--text">
+						<path d="M257.71 17.1895H267.61V56.0604H267.85L282.95 39.6498H295.71L278.5 57.3121L296.82 78.695H283.67L267.92 58.7028H267.68V78.695H257.71V17.1895ZM132.47 98.131H142.37L142.45 98.166H142.52V39.6161H132.99V45.0747H132.75C130.73 41.9803 126.28 38.4688 118.98 38.4688C107.61 38.4688 99.6499 47.5433 99.6499 58.9473C99.6499 70.3514 107.09 79.773 119.19 79.773C124.71 79.773 129.75 77.374 132.33 73.4454H132.47V98.131ZM132.78 59.0863C132.78 65.1708 128.4 71.6032 121.1 71.6032C113.38 71.6032 109.66 65.0317 109.66 58.9125C109.66 52.7932 113.38 46.3959 121.1 46.3959C128.4 46.3959 132.78 53.0019 132.78 59.0863ZM179.33 78.626H188.76L188.79 78.557V39.5469H178.81V60.9989C178.81 66.1796 175.9 71.5685 169.53 71.5685C163.17 71.5685 162.09 65.7968 162.09 61.1727V39.5469H152.18V63.9542C152.18 71.9506 156.53 79.739 166.86 79.739C172.73 79.739 177.46 76.297 179.2 72.3683H179.33V78.626ZM198.87 39.6162H208.86V78.626H198.87V39.6162ZM245.873 50.4192L245.88 50.4292L245.78 50.4987L245.873 50.4192ZM252.59 44.6577L245.873 50.4192C244.31 48.2339 240.905 46.6394 237.67 46.6394C230.37 46.6394 226.72 53.0368 226.72 59.1561C226.72 65.2753 230.44 71.6723 237.99 71.6723C241.08 71.6723 244.45 70.4554 246.37 68.1613L252.56 74.35C249.25 77.861 243.76 79.809 237.89 79.809C226.13 79.809 216.33 72.1592 216.33 59.1908C216.33 46.2222 225.96 38.5732 237.61 38.5732C243.41 38.5732 249.47 40.8332 252.59 44.6577ZM311.39 44.5869V17.1895H301.55V78.66H310.97V72.8189H311.11C313.82 77.269 319.21 79.807 324.77 79.807C336.87 79.807 344.31 70.524 344.31 58.9809C344.31 47.4378 336.35 38.5024 325.02 38.5024C317.72 38.5024 313.72 42.0488 311.66 44.5869H311.39ZM322.76 71.6369C315.46 71.6369 311.07 65.2045 311.07 59.12C311.07 53.0356 315.46 46.4296 322.76 46.4296C330.47 46.4296 334.19 52.827 334.19 58.9461C334.19 65.0654 330.47 71.6369 322.76 71.6369ZM371.47 38.5039C383.49 38.5039 393.09 46.7092 393.09 58.9824C393.09 71.2556 383.46 79.808 371.47 79.808C359.47 79.808 349.84 71.2556 349.84 58.9824C349.84 46.7092 359.47 38.5039 371.47 38.5039ZM371.47 71.6727C379.32 71.6727 382.97 65.1016 382.97 58.9824C382.97 52.8633 379.32 46.4659 371.47 46.4659C363.61 46.4659 359.96 52.8633 359.96 58.9824C359.96 65.1016 363.61 71.6727 371.47 71.6727ZM441.73 58.9824C441.73 46.7092 432.1 38.5039 420.1 38.5039C408.11 38.5039 398.48 46.7092 398.48 58.9824C398.48 71.2556 408.11 79.808 420.1 79.808C432.1 79.808 441.73 71.2556 441.73 58.9824ZM431.62 58.9824C431.62 65.1016 427.97 71.6727 420.1 71.6727C412.25 71.6727 408.6 65.1016 408.6 58.9824C408.6 52.8633 412.25 46.4659 420.1 46.4659C427.97 46.4659 431.62 52.8633 431.62 58.9824ZM449.63 17.1895H459.5V56.0604H459.78L474.87 39.6498H487.66L470.45 57.3121L488.77 78.695H475.63L459.88 58.7028H459.6V78.695H449.63V17.1895ZM507.13 45.8053C510.78 45.8053 514.08 47.7523 515.82 50.0122L515.86 49.9775V50.047L522.33 44.4493C519.09 40.4509 513.11 38.5039 507.41 38.5039C499.55 38.5039 491.59 42.2241 491.59 50.9162C491.59 58.2523 497.43 60.5818 503.34 61.9725C509.36 63.3632 512.45 64.3368 512.45 67.5699C512.45 71.0467 508.94 72.1945 506.06 72.1945C501.74 72.1945 498.02 70.0736 495.87 67.3268L489.33 73.3416C493.12 77.514 499.52 79.774 505.64 79.774C514.36 79.774 522.22 76.297 522.22 66.7707C522.22 59.1215 515.27 56.5139 509.36 55.1232L509.135 55.0696C503.746 53.7825 500.74 53.0645 500.74 50.0122C500.74 46.9178 503.97 45.8053 507.13 45.8053Z" />
+					</g>
+				</svg>
+			</a>
+
+			<a href="https://mailchimp.com/" target="_blank" aria-label="Link to homepage of mailchimp">
+				<svg class="logo--mailchimp" viewBox="0 0 481 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--text">
+						<path d="M239.76 13.626H249.74V76.765H239.76V13.626ZM225.02 30.3839C228.36 30.3839 231.11 27.6372 231.11 24.2647C231.11 20.8922 228.39 18.1455 225.02 18.1455C221.65 18.1455 218.94 20.8922 218.94 24.2647C218.94 27.6372 221.65 30.3839 225.02 30.3839ZM200.51 71.863H200.23C198.25 75.374 193.52 77.947 187.85 77.947C181.46 77.947 172.9 74.853 172.9 65.5003C172.9 53.5399 187.85 51.9057 200.3 51.9057V50.8975C200.3 45.9604 196.13 43.5266 191.16 43.5266C186.91 43.5266 182.85 45.5083 180.31 48.116L175.16 42.0316C179.65 37.8593 185.94 35.6689 192.03 35.6689C206.31 35.6689 209.79 44.5349 209.79 52.5315V76.904H200.51V71.863ZM200.37 58.7203H198.11C191.78 58.7203 182.92 59.4852 182.92 65.3955C182.92 69.2202 186.5 70.4022 189.91 70.4022C196.72 70.4022 200.37 66.5083 200.37 60.1458V58.7203ZM165.85 51.9403V77.008H155.87V54.7565C155.87 49.9933 154.79 44.0479 148.39 44.0479C142 44.0479 139.6 49.9238 139.6 55.1042V77.008H129.66V52.7747C129.66 47.8377 127.32 44.0827 122.25 44.0827C116.27 44.0827 113.52 49.6109 113.52 54.9304V76.974H103.58V36.8856H113.04V43.3178H113.17C114.91 39.4237 119.15 35.7383 125.55 35.7383C131.95 35.7383 135.77 38.8326 138.03 43.3178C140.71 38.485 145.16 35.7383 151.14 35.7383C161.5 35.7383 165.85 43.735 165.85 51.9403ZM229.78 36.8857H219.84V76.973H229.78V36.8857ZM356.55 24.4737C356.55 27.8463 353.81 30.5929 350.47 30.5929C347.09 30.5929 344.38 27.8463 344.38 24.4737C344.38 21.1012 347.09 18.3545 350.47 18.3545C353.84 18.3545 356.55 21.1012 356.55 24.4737ZM287.182 47.9219C287.195 47.9401 287.207 47.9584 287.22 47.9767L287.19 47.9419L287.08 48.0115L287.182 47.9219ZM293.9 41.9966L287.182 47.9219C285.604 45.6904 282.184 44.0827 278.98 44.0827C271.68 44.0827 268 50.6886 268 56.9469C268 63.2052 271.72 69.811 279.26 69.811C282.36 69.811 285.73 68.5598 287.64 66.1951L293.86 72.558C290.56 76.174 285.07 78.156 279.16 78.156C267.37 78.156 257.53 70.2979 257.53 56.9469C257.53 43.5959 267.16 35.7383 278.88 35.7383C284.72 35.7383 290.77 38.0678 293.9 41.9966ZM335.69 77.009H325.75V54.9658C325.75 50.2026 324.74 44.3615 318.34 44.3615C311.94 44.3615 308.96 49.8201 308.96 55.1397V77.043H299.01V13.835H308.96V42.484H309.09C310.65 39.1463 315.07 35.7042 320.98 35.7042C331.34 35.7042 335.69 43.7009 335.69 51.9062V77.009ZM355.44 36.8857H345.49V76.973H355.44V36.8857ZM427.83 51.9403V77.008H417.85V54.7565C417.85 49.9933 416.77 44.0479 410.37 44.0479C403.98 44.0479 401.58 49.9238 401.58 55.1042V77.008H391.63V52.7747C391.63 47.8377 389.3 44.0827 384.22 44.0827C378.25 44.0827 375.5 49.6109 375.5 54.9304V76.974H365.56V36.8856H375.01V43.3178H375.15C376.89 39.4237 381.13 35.7383 387.53 35.7383C393.93 35.7383 397.75 38.8326 400.01 43.3178C402.69 38.485 407.17 35.7383 413.12 35.7383C423.48 35.7383 427.83 43.735 427.83 51.9403ZM447.33 42.4839V36.8862H437.91V97H447.89V71.6201H448.03C450.56 75.618 455.64 78.121 461.21 78.121C473.3 78.121 480.78 68.5603 480.78 56.739C480.78 44.9177 472.81 35.7041 461.41 35.7041C454.08 35.7041 449.59 39.32 447.61 42.4839H447.33ZM447.4 56.9476C447.4 50.6892 451.78 43.9094 459.12 43.9094C466.87 43.9094 470.59 50.4806 470.59 56.7737C470.59 63.0668 466.87 69.8121 459.12 69.8121C451.82 69.8121 447.4 63.2058 447.4 56.9476Z" />
+					</g>
+					<g class="logo--mark">
+						<path d="M44.3301 88.204C68.6601 88.204 88.3799 68.4808 88.3799 44.152C88.3799 19.8231 68.6601 0.100586 44.3301 0.100586C20.0001 0.100586 0.280029 19.8231 0.280029 44.152C0.280029 68.4808 20.0001 88.204 44.3301 88.204Z" />
+					</g>
+					<path class="logo--icon" d="M71.2071 51.1653C71.2339 51.2618 71.2521 51.3269 71.2601 51.3527C72.1501 51.3527 73.5501 52.3863 73.5501 54.8447C73.5501 57.3031 72.5301 60.0856 72.2901 60.7045C68.6201 69.5075 59.85 74.407 49.4 74.097C39.67 73.808 31.3601 68.6693 27.7301 60.2958C25.5401 60.2958 23.2701 59.3323 21.5501 57.8053C19.7301 56.1994 18.61 54.1177 18.39 51.9483C18.22 50.2579 18.43 48.687 18.96 47.3148L16.92 45.5863C7.58001 37.7001 36.79 5.23291 46.14 13.376C46.18 13.4169 49.3102 16.4885 49.3202 16.4972C49.3302 16.4913 51.0501 15.7643 51.0601 15.7614C59.2501 12.3687 65.9 14.0067 65.91 19.4198C65.91 22.2373 64.1201 25.5191 61.2501 28.4972C62.2801 29.4636 63.1202 30.9761 63.6002 32.7016C64.0002 33.9775 64.0702 35.2739 64.1102 36.1031C64.1409 36.808 64.1716 38.0893 64.193 38.9835C64.2064 39.5449 64.2162 39.9537 64.2201 39.9717C64.2672 39.9874 64.6592 40.0959 64.9865 40.1864C65.1451 40.2303 65.2886 40.27 65.3702 40.2929C67.5702 40.9089 69.14 41.7323 69.9 42.5352C70.67 43.3381 71.04 44.1177 71.18 45.0286C71.31 45.7644 71.3002 47.0636 70.3202 48.5148C70.3202 48.5148 70.5802 49.0607 70.8202 49.8374C70.9958 50.4057 71.1339 50.9022 71.2071 51.1653ZM27.5601 58.0126C27.8901 58.0213 28.2101 58.0009 28.5301 57.9455L28.5401 57.9425C31.9501 57.3586 32.8401 53.6535 32.2701 50.0125C31.6401 45.9045 28.8601 44.4534 26.9701 44.3513C26.4501 44.325 25.9701 44.3717 25.5601 44.4534C22.1901 45.1337 20.29 47.9979 20.67 51.7206C21 55.087 24.4101 57.9279 27.5601 58.0126ZM19.93 45.4666C21.06 43.8257 22.9101 42.6374 25.0101 42.2286V42.2228C27.6801 35.0608 32.1301 28.4593 38.0301 23.9191C42.4101 20.2695 47.13 17.6505 47.13 17.6505C47.13 17.6505 44.5902 14.7015 43.8202 14.4855C39.1002 13.2096 28.9 20.2432 22.38 29.5425C19.75 33.303 15.9801 39.9629 17.7801 43.3877C18.0001 43.814 19.26 44.9031 19.93 45.4666ZM58.2201 56.3717C58.2401 56.4476 58.1802 56.5264 58.1202 56.5557V56.5644C58.1202 56.5644 54.3301 58.3279 48.2901 56.4622C48.4601 57.8753 49.8401 58.5089 50.5001 58.7659C51.3301 59.0899 52.2401 59.2389 52.2401 59.2389C59.7001 60.5235 66.6901 56.252 68.2601 55.1775C68.3801 55.0958 68.4502 55.1746 68.3602 55.3177C68.334 55.3577 68.3153 55.3868 68.3007 55.4098C68.265 55.4655 68.2526 55.485 68.2101 55.5367C66.2801 58.0184 61.11 60.8914 54.38 60.8914C51.44 60.8885 48.51 59.8549 47.44 58.2666C45.76 55.7994 47.35 52.2023 50.13 52.5761L51.3502 52.7133C54.8402 53.0987 59.8801 52.6111 64.0301 50.6841C67.8301 48.9206 69.2601 46.979 69.0501 45.4082C68.9901 44.9849 68.8 44.541 68.39 44.1235C67.71 43.4549 66.6301 42.9352 64.8001 42.4213C64.6705 42.3847 64.5498 42.351 64.4357 42.3192C64.0216 42.2035 63.6951 42.1124 63.3502 41.9979C62.5602 41.7381 62.1802 41.5308 62.0902 40.0563C62.0502 39.414 61.94 37.1658 61.9 36.2374C61.82 34.6111 61.6301 32.3863 60.2501 31.4695C59.8901 31.2301 59.4902 31.1162 59.0702 31.0928C58.7374 31.0763 58.543 31.1212 58.4335 31.1465C58.408 31.1524 58.3872 31.1573 58.3702 31.16C57.6244 31.2884 57.1619 31.6758 56.6158 32.1332C56.5907 32.1542 56.5655 32.1753 56.5401 32.1965C54.8101 33.6301 53.3601 33.8666 51.7401 33.7965C51.239 33.7752 50.7216 33.7244 50.1751 33.6708C49.6745 33.6216 49.1495 33.5701 48.5902 33.5366C48.4595 33.5303 48.3347 33.5231 48.211 33.5159C48.1075 33.51 48.0048 33.504 47.9 33.4987C45.19 33.3586 42.2901 35.6972 41.8101 39.0169C41.2657 42.7149 43.3044 44.9831 44.6316 46.4598C44.9622 46.8276 45.2486 47.1463 45.44 47.4257C45.57 47.5921 45.71 47.8287 45.71 48.0535C45.71 48.3221 45.5302 48.5352 45.3702 48.7162C42.6002 51.5542 41.7201 56.0651 42.7601 59.8257C42.9001 60.2958 43.0501 60.7454 43.2501 61.1746C45.7001 66.8799 53.27 69.537 60.67 67.1189C61.66 66.7949 62.6001 66.395 63.4801 65.9307C65.1401 65.1192 66.5901 63.9981 67.7801 62.7133C69.7501 60.6637 70.9202 58.4331 71.3702 55.6855C71.5902 54.2169 71.2602 53.6476 70.8202 53.3732C70.3502 53.0812 69.7901 53.1834 69.7901 53.1834C69.7901 53.1834 69.5301 51.4228 68.8001 49.8257C66.6501 51.525 63.8701 52.722 61.7601 53.3293C59.3101 54.0301 56.0202 54.5673 52.3302 54.3484C51.9314 54.3159 51.5589 54.2669 51.2139 54.2216C49.794 54.035 48.8384 53.9094 48.42 55.2388C53.09 56.9498 58.0401 56.217 58.0401 56.217C58.1301 56.2053 58.2201 56.2754 58.2201 56.3717ZM44.7601 23.195C42.2001 24.5001 39.3601 26.8271 37.0401 29.5016V29.4987C36.9601 29.5921 37.08 29.7264 37.18 29.6534C39.18 28.1965 41.9201 26.8447 45.5101 25.9687C49.5401 24.9877 53.4101 25.3994 55.7801 25.9425C55.8901 25.9717 55.9702 25.7644 55.8702 25.706C54.3102 24.8271 51.9 24.2315 50.2 24.2198C50.11 24.2198 50.0702 24.1235 50.1202 24.0564C50.4202 23.6622 50.82 23.2709 51.18 22.9877C51.26 22.9264 51.2202 22.7921 51.1102 22.7979C48.6802 22.9468 45.9202 24.1059 44.3302 25.1892C44.2602 25.2447 44.16 25.1746 44.18 25.0811C44.3 24.4855 44.69 23.7001 44.9 23.3322C44.94 23.2446 44.8501 23.1512 44.7601 23.195ZM59.0701 41.393C59.5201 41.3375 59.9502 41.3375 60.3502 41.393C60.5802 40.8645 60.62 39.9506 60.41 38.958C60.1 37.4806 59.6801 36.5871 58.8301 36.7273C57.9601 36.8674 57.93 37.9361 58.24 39.4134C58.41 40.2426 58.7201 40.955 59.0701 41.393ZM51.6598 42.5614L51.7486 42.6003C52.3163 42.8494 52.6673 43.0034 52.81 42.8563C52.9 42.757 52.8699 42.573 52.7199 42.3307C52.4199 41.8344 51.7898 41.3292 51.1298 41.046C49.7698 40.4621 48.1398 40.6548 46.8998 41.5541C46.4898 41.8577 46.0898 42.2753 46.1498 42.5293C46.1598 42.611 46.2298 42.6723 46.3798 42.6927C46.5128 42.7075 46.7745 42.6245 47.126 42.513C47.6725 42.3395 48.436 42.0973 49.2699 42.0475C50.2399 41.9891 51.0398 42.2898 51.6598 42.5614ZM48.8799 43.9066C49.1699 43.6584 49.6099 43.3927 50.4199 43.2672L50.4099 43.2701C51.5199 43.1387 52.33 43.6526 52.52 43.9591C52.6 44.0905 52.57 44.1752 52.55 44.216C52.4601 44.3532 52.2603 44.3299 51.8606 44.2833H51.8606L51.8601 44.2832C51.1301 44.1985 50.39 44.1518 49.27 44.5518C49.27 44.5518 48.8699 44.7154 48.6799 44.7154C48.6399 44.7154 48.59 44.6978 48.55 44.6657L48.5479 44.6632C48.5273 44.6392 48.49 44.5957 48.49 44.5197C48.49 44.3533 48.6399 44.1197 48.8799 43.9066ZM56.56 45.8684C57.11 46.137 57.7099 46.0319 57.9099 45.6319C58.0999 45.2348 57.82 44.6946 57.27 44.4261C56.72 44.1574 56.1199 44.2625 55.9299 44.6625C55.7299 45.0597 56.02 45.5998 56.56 45.8684ZM59.25 43.889C59.26 43.2817 59.63 42.7941 60.07 42.8029C60.52 42.8116 60.8701 43.3109 60.8601 43.9182C60.8501 44.5255 60.48 45.0131 60.04 45.0043C59.59 44.9956 59.24 44.4963 59.25 43.889ZM30.29 53.7668C30.18 53.6296 29.9901 53.6704 29.8201 53.7113C29.7001 53.7405 29.5599 53.7727 29.4099 53.7697C29.0799 53.7639 28.8099 53.6237 28.6499 53.3872C28.4499 53.0778 28.4599 52.6135 28.6899 52.0851C28.7081 52.0215 28.7428 51.9482 28.779 51.8718L28.79 51.8485C29.15 51.0515 29.7401 49.7142 29.0701 48.4441C28.5701 47.4865 27.75 46.8909 26.76 46.7654C25.82 46.6456 24.84 46.996 24.22 47.6821C23.24 48.7653 23.08 50.2369 23.28 50.7566C23.34 50.9463 23.45 50.9989 23.53 51.0106C23.69 51.0339 23.9501 50.9113 24.1001 50.4967C24.1042 50.4846 24.1101 50.4695 24.1169 50.4518L24.1169 50.4517C24.1266 50.4267 24.1382 50.3966 24.1499 50.3624C24.2099 50.1434 24.3401 49.7317 24.5501 49.4047C24.8001 49.0077 25.1999 48.7361 25.6599 48.6368C26.1299 48.5347 26.62 48.6252 27.02 48.8909C27.71 49.3405 27.9699 50.1814 27.6799 50.9872C27.5199 51.4018 27.2801 52.196 27.3301 52.85C27.4401 54.1727 28.25 54.7011 28.99 54.7595C29.69 54.7858 30.1901 54.3887 30.3201 54.0967C30.3901 53.9245 30.33 53.8194 30.29 53.7755V53.7668Z" fill="black" />
+				</svg>
+			</a>
+		</div>
+	</div>
+	
+		<header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="site-header__inner">
+				<h1 class="site-title" itemscope itemtype="http://schema.org/Organization">
+					<a href="https://engineering.creditkarma.com" rel="home" class="site-link" itemprop="url">
+						<img class="site-logo site-logo--mobile" src="https://engineering.creditkarma.com/wp-content/themes/creditkarma-eng/assets/svg/logo.svg" itemprop="logo" alt="" />
+						<img class="site-logo site-logo--desktop" src="https://engineering.creditkarma.com/wp-content/themes/creditkarma-eng/assets/svg/logo-trademark.svg" itemprop="logo" alt="" />
+						<span class="screen-reader-text">Credit Karma Engineering Blog</span>
+						<span>Engineering</span>
+					</a>
+				</h1>
+
+				<nav class="site-navigation" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+					<a href="#primary-menu" id="js-menu-toggle" class="site-menu-toggle">
+						<span class="screen-reader-text">
+							Menu						</span>
+						<span aria-hidden="true">☰</span>
+					</a>
+
+					<div class="menu-primary-menu-container"><ul id="menu-main-nav" class="primary-menu"><li id="menu-item-7" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7"><a href="https://engineering.creditkarma.com/category/all-news">All News</a></li>
+<li id="menu-item-10" class="ga-hiring-page menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="https://www.creditkarma.com/careers/jobs/search?ck-department=engineering">Join The Team</a></li>
+</ul></div>	<div class="cornerstone-banner cornerstone-banner--mobile">
+		<div class="cornerstone-banner__primary">
+			<a href="https://www.intuit.com/" target="_blank" aria-label="Link to homepage of intuit">
+				<svg class="logo--intuit" viewBox="0 0 138 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M70.8131 16.5745C70.8131 23.5575 76.4076 28.6476 83.5161 28.6476C90.6251 28.6476 96.219 23.5575 96.219 16.5745V0.567927H89.3419V15.7541C89.3419 19.5191 86.8185 22.0431 83.4952 22.0431C80.1722 22.0431 77.6479 19.5191 77.6479 15.7541V0.567927H70.7708L70.8131 16.5745ZM114.621 6.96203H122.845V28.1217H129.722V6.98308H137.945V0.546878H114.643V6.96203H114.621ZM110.163 0.546878H103.286V28.1217H110.163V0.546878ZM42.9879 6.96203H51.2114V28.1217H58.0887V6.98308H66.2915V0.546878H42.9879V6.96203ZM6.87711 0.546878H0V28.1217H6.87711V0.546878ZM39.371 12.0732C39.371 5.09012 33.7764 0 26.6681 0C19.559 0 13.9643 5.09012 13.9643 12.0732V28.1217H20.8426V12.9356C20.8426 9.17063 23.3661 6.64662 26.6888 6.64662C30.0119 6.64662 32.5354 9.17063 32.5354 12.9356V28.1217H39.4134L39.371 12.0732Z" />
+				</svg>
+			</a>
+		</div>
+
+		<div class="cornerstone-banner__list">
+			<a href="https://turbotax.intuit.com/" target="_blank" aria-label="Link to homepage of turbotax">
+				<svg class="logo--turbotax" viewBox="0 0 417 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--mark">
+						<path d="M44.9551 88.822C69.2841 88.822 89.0071 69.0989 89.0071 44.7702C89.0071 20.4413 69.2841 0.718811 44.9551 0.718811C20.6261 0.718811 0.904053 20.4413 0.904053 44.7702C0.904053 69.0989 20.6261 88.822 44.9551 88.822Z" />
+					</g>
+
+					<path d="M35.186 60.8344C30.04 57.1837 25.207 53.2896 20.548 49.1175C18.845 52.7681 17.3851 56.6621 15.9241 60.591C23.2601 66.9186 33.2391 74.011 40.0881 78.149C48.8491 55.48 62.549 40.5644 75.691 30.0992C73.987 26.4485 71.7971 23.2498 68.8411 20.6074C54.9341 31.3161 43.461 44.98 35.186 60.8344Z" fill="white" />
+					<g class="logo--text">
+						<path d="M216.781 43.7611V15.877H206.975V78.529H216.398V72.5494H216.535C219.212 77.069 224.602 79.642 230.163 79.642C242.263 79.642 249.708 70.1847 249.708 58.4334C249.708 46.6817 241.743 37.5724 230.409 37.5724C223.109 37.5724 219.11 41.1883 217.055 43.7611H216.781ZM216.466 58.5724C216.466 52.3837 220.849 45.6734 228.149 45.6734C235.867 45.6734 239.586 52.2098 239.586 58.4334C239.586 64.6568 235.867 71.3325 228.149 71.3325C220.883 71.3325 216.466 64.7609 216.466 58.5724ZM99.819 38.7545V46.6816V46.7163H106.771V65.2478C106.771 72.8274 109.175 79.294 119.707 79.294C121.899 79.294 124.576 78.877 126.316 78.216L125.967 70.4284C124.85 70.9845 123.077 71.2626 121.755 71.2626C117.379 71.2626 116.543 68.7246 116.543 65.1437V46.6816H126.487V38.7545H116.543V27.2461H106.771V38.7545H99.819ZM158.75 78.459H168.173V38.7189H158.229V60.5535C158.229 65.8381 155.312 71.2968 148.95 71.2968C142.588 71.2968 141.506 65.3861 141.506 60.6925V38.6494H131.597V63.5087C131.597 71.6447 135.945 79.572 146.272 79.572C152.148 79.572 156.873 76.06 158.613 72.0618H158.75V78.459ZM187.711 38.7202V45.3262H187.854C190.012 40.7715 194.251 37.5381 199.428 37.5381C200.195 37.5381 201.167 37.6077 201.832 37.8163V46.9256C200.51 46.5779 199.674 46.5083 198.736 46.5083C189.799 46.5083 188.06 54.2964 188.06 57.1822V78.461H178.116V38.7202H187.676H187.711ZM276.827 37.5732C288.82 37.5732 298.45 45.9176 298.45 58.4342C298.45 70.9511 288.82 79.643 276.827 79.643C264.829 79.643 255.2 70.9511 255.2 58.4342C255.2 45.9176 264.795 37.5732 276.827 37.5732ZM276.827 71.3332C284.68 71.3332 288.33 64.6575 288.33 58.4342C288.33 52.2106 284.68 45.6742 276.827 45.6742C268.965 45.6742 265.315 52.2106 265.315 58.4342C265.315 64.6575 268.965 71.3332 276.827 71.3332ZM300.78 38.7545V46.6816V46.7163H307.73V65.2478C307.73 72.8274 310.14 79.294 320.67 79.294C322.86 79.294 325.54 78.877 327.27 78.216L326.93 70.4284C325.81 70.9845 324.04 71.2626 322.72 71.2626C318.34 71.2626 317.5 68.7246 317.5 65.1437V46.6816H327.45V38.7545H317.5V27.2461H307.73V38.7545H300.78ZM358.42 73.384H358.18C356.2 76.896 351.51 79.434 345.84 79.434C339.44 79.434 330.96 76.374 330.96 67.0912C330.96 55.2351 345.84 53.6011 358.29 53.6011V52.6275C358.29 47.7252 354.15 45.3262 349.18 45.3262C344.97 45.3262 340.91 47.308 338.36 49.8808L333.22 43.8312C337.71 39.6937 343.96 37.5381 350.01 37.5381C364.26 37.5381 367.71 46.2997 367.71 54.2616V78.426H358.42V73.384ZM358.32 60.3461H356.09C349.8 60.3461 340.94 61.111 340.94 66.9522C340.94 70.742 344.52 71.924 347.89 71.924C354.7 71.924 358.35 68.0644 358.35 61.7368V60.3461H358.32ZM374.07 38.7549L388.4 57.356H388.43L372.3 78.46H384.05L394.51 63.9967L404.84 78.46H416.91L400.67 57.356L414.93 38.7549H403.48L394.62 51.0976L385.99 38.7549H374.07Z" />
+					</g>
+				</svg>
+			</a>
+
+			<a href="https://creditkarma.com/" aria-label="Link to homepage of creditkarma">
+				<svg class="logo--creditkarma" viewBox="0 0 534 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--text">
+						<path d="M252.86 16H243.02V43.634H242.78C240.73 41.092 236.79 37.484 229.58 37.484C218.34 37.484 210.47 46.504 210.47 58.148C210.47 69.628 217.85 79.14 229.82 79.14C235.32 79.14 240.65 76.598 243.35 72.088H243.52V77.992H252.86V16ZM220.47 58.148C220.47 51.998 224.16 45.52 231.79 45.52C239.01 45.52 243.35 52.162 243.35 58.312C243.35 64.462 239.01 70.94 231.79 70.94C224.16 70.94 220.47 64.298 220.47 58.148ZM134.92 43.634C131.8 39.78 125.81 37.484 120.07 37.484C108.51 37.484 99 45.52 99 58.312C99 71.432 108.68 79.14 120.32 79.14C126.14 79.14 131.55 77.172 134.83 73.646L128.68 67.414C126.8 69.71 123.44 70.94 120.4 70.94C112.94 70.94 109.25 64.462 109.25 58.312C109.25 52.162 112.86 45.684 120.07 45.684C123.27 45.684 126.63 47.324 128.19 49.538L134.92 43.634ZM140.34 77.992H150.18V56.918C150.18 54.048 151.9 46.34 160.75 46.34C161.66 46.34 162.48 46.422 163.79 46.75V37.73C163.13 37.566 162.15 37.484 161.41 37.484C156.24 37.484 152.06 40.682 149.93 45.192H149.77V38.632H140.34V77.992ZM186.21 44.864C180.39 44.864 175.72 48.882 175.31 54.376H195.48C195.48 49.292 192.61 44.864 186.21 44.864ZM186.29 37.484C197.28 37.484 205.32 44.618 205.32 58.804C205.32 59.706 205.32 60.526 205.24 61.428H175.31C175.72 67.004 180.8 71.104 186.54 71.104C191.46 71.104 194.74 69.136 196.95 66.02L203.51 71.268C199.66 76.516 194.08 79.14 186.62 79.14C174.49 79.14 165.47 71.35 165.47 58.558C165.47 45.848 174.4 37.484 186.29 37.484ZM272.82 77.992H262.98V38.632H272.82V77.992ZM267.82 31.17C264.21 31.17 261.59 28.382 261.59 25.266C261.59 22.15 264.21 19.362 267.82 19.362C271.43 19.362 274.22 21.904 274.22 25.266C274.22 28.628 271.43 31.17 267.82 31.17ZM286.99 46.504V64.872C286.99 72.416 289.37 78.812 299.78 78.812C302 78.812 304.62 78.402 306.34 77.746L306.01 70.038C304.87 70.612 303.14 70.858 301.83 70.858C297.49 70.858 296.67 68.316 296.67 64.79V46.504H306.51V38.632H296.67V27.234H286.99V38.632H280.1V46.504H286.99ZM323.63 77.992H313.79V16H323.63V55.196H323.88L338.8 38.632H351.43L334.37 56.426L352.5 77.992H339.46L323.88 57.82H323.63V77.992ZM381.11 77.992H390.29V54.048C390.29 46.176 386.85 37.484 372.74 37.484C366.76 37.484 360.52 39.616 356.1 43.716L361.18 49.702C363.72 47.16 367.74 45.192 371.92 45.192C376.84 45.192 380.94 47.57 380.94 52.408V53.392C368.64 53.392 353.88 55.032 353.88 66.758C353.88 75.942 362.33 78.976 368.64 78.976C374.22 78.976 378.89 76.434 380.86 72.99H381.11V77.992ZM380.94 61.428C380.94 67.66 377.33 71.514 370.61 71.514C367.25 71.514 363.72 70.366 363.72 66.594C363.72 60.772 372.5 60.034 378.73 60.034H380.94V61.428ZM408.59 77.992H398.75V38.632H408.18V45.192H408.35C410.48 40.682 414.66 37.484 419.83 37.484C420.57 37.484 421.55 37.566 422.21 37.73V46.75C420.89 46.422 420.07 46.34 419.17 46.34C410.32 46.34 408.59 54.048 408.59 56.918V77.992ZM476.61 37.484C470.71 37.484 466.28 40.19 463.65 44.946C461.44 40.518 457.42 37.484 451.35 37.484C445.04 37.484 440.86 41.092 439.14 44.946H438.97V38.632H429.62V77.992H439.46V56.344C439.46 51.096 442.17 45.684 448.07 45.684C453.08 45.684 455.37 49.374 455.37 54.212V77.992H465.21V56.508C465.21 51.424 467.75 45.684 473.9 45.684C480.22 45.684 481.28 51.506 481.28 56.18V77.992H491.12V53.392C491.12 45.356 486.86 37.484 476.61 37.484ZM533.2 77.992H524.01V72.99H523.77C521.8 76.434 517.12 78.976 511.55 78.976C505.23 78.976 496.79 75.942 496.79 66.758C496.79 55.032 511.55 53.392 523.85 53.392V52.408C523.85 47.57 519.75 45.192 514.83 45.192C510.65 45.192 506.63 47.16 504.09 49.702L499 43.716C503.43 39.616 509.66 37.484 515.65 37.484C529.75 37.484 533.2 46.176 533.2 54.048V77.992ZM513.52 71.514C520.24 71.514 523.85 67.66 523.85 61.428V60.034H521.63C515.4 60.034 506.63 60.772 506.63 66.594C506.63 70.366 510.15 71.514 513.52 71.514Z" />
+					</g>
+
+					<g class="logo--mark">
+						<path d="M44.05 88.1C68.38 88.1 88.1 68.3781 88.1 44.05C88.1 19.7219 68.38 0 44.05 0C19.72 0 0 19.7219 0 44.05C0 68.3781 19.72 88.1 44.05 88.1Z" />
+					</g>
+					<path d="M21.83 48.4656C21.83 40.8863 25.48 36.9924 31.36 36.9924C35.74 36.9924 38.4501 38.696 39.4301 39.1828C40.1601 38.4527 40.64 37.2358 40.64 36.0189C40.64 33.8286 38.21 31.6383 31.12 31.6383C22.81 31.6383 15.75 37.4792 15.75 48.4656C15.75 59.452 22.11 65.2929 30.39 65.2929C35.5 65.2929 39.43 63.5893 40.64 63.1026V57.0183C39.43 57.9918 35.29 59.9388 31.36 59.9388C26.01 59.9388 21.83 56.0448 21.83 48.4656ZM62.34 48.2222C65.99 43.8415 69.43 38.696 71.86 32.125L66.51 30.1781C63.1 39.4609 57.96 45.7885 51.87 50.9341V18.9482H46.03V64.5976H51.87V57.7484C54.06 56.0448 56.01 54.3413 58.23 52.3943L63.59 61.6771C64.81 63.8675 66.7501 65.0843 69.4301 65.0843C70.8901 65.0843 71.86 64.5976 72.11 64.3542L62.34 48.257V48.2222Z" fill="white" />
+				</svg>
+			</a>
+
+			<a href="https://mint.intuit.com/" target="_blank" aria-label="Link to homepage of mint">
+				<svg class="logo--mint" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 261 88">
+					<g class="logo--text">
+						<path d="M150.58 36.91c-5.14 0-9.3 2.69-11.74 6.85-1.95-2.94-5.62-6.85-11.73-6.85-5.13 0-9.53 3.91-11.49 6.85h-.24v-5.63h-10.02v37.9h10.5v-20.8c0-4.64 2.45-9.28 7.58-9.28 5.63 0 6.36 5.13 6.36 7.33v22.73h10.51V55.5c0-4.65 2.69-9.29 7.82-9.29 4.9 0 6.36 4.4 6.36 9.04v20.78H165V52.56c-.49-7.34-4.16-15.65-14.42-15.65Zm23.7 38.87h10.52v-37.9h-10.51v37.9Zm41.07-38.87c-5.37 0-9.53 3.91-11.48 6.85h-.25v-5.63H193.6v37.9h10.51v-20.8c0-4.4 2.69-9.28 8.07-9.28 5.13 0 6.35 4.64 6.35 9.04v20.78h10.51V52.3c0-7.09-3.42-15.4-13.69-15.4Zm44.98 9.29v-8.31h-9.04V27.38h-10.27v10.5h-6.35v8.32h6.35v16.62c0 5.87 1.47 13.7 12.71 13.7 2.2 0 4.9-.5 6.6-.99l-.24-8.06c-.98.24-2.69.73-4.65.73-2.93 0-4.15-2.2-4.15-5.38V46.2h9.04Z" />
+					</g>
+					<g class="logo--mark">
+						<path d="M44 88c24.2 0 44-19.8 44-44S68.2 0 44 0 0 19.8 0 44s19.8 44 44 44Z" />
+					</g>
+					<path fill="#fff" d="M44 12.22c-2.93 2.94-22.73 23.47-22.73 39.36 0 11.24 9.04 15.15 22.73 24.44 13.69-9.29 22.73-13.2 22.73-24.44 0-16.14-19.8-36.42-22.73-39.36Zm-.49 55.74c-.73-.5-1.47-.98-2.2-1.47-11-7.09-13.69-9.53-13.69-15.16 0-8.8 8.56-21.02 15.89-29.33v45.96Z" />
+				</svg>
+			</a>
+
+			<a href="https://quickbooks.intuit.com/" target="_blank" aria-label="Link to homepage of quickbooks">
+				<svg class="logo--quickbooks" viewBox="0 0 523 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--mark">
+						<path d="M44.4698 89.022C68.7998 89.022 88.5199 69.2995 88.5199 44.9704C88.5199 20.6415 68.7998 0.918884 44.4698 0.918884C20.1398 0.918884 0.419922 20.6415 0.419922 44.9704C0.419922 69.2995 20.1398 89.022 44.4698 89.022Z" />
+					</g>
+					<path d="M12.6899 44.9707C12.6899 54.2886 20.27 61.729 29.76 61.729H32.1899V55.5055H29.76C23.92 55.5055 19.05 50.7422 19.05 44.9707C19.05 39.1992 23.92 34.4359 29.76 34.4359H35.6V67.0137C35.6 70.3865 38.52 73.2374 41.97 73.2374V28.1776H29.76C20.27 28.1776 12.6899 35.6181 12.6899 44.936V44.9707ZM59.0699 28.2124H56.64V34.4359H59.0699C64.9099 34.4359 69.78 39.1992 69.78 44.9707C69.78 50.7422 64.9099 55.5055 59.0699 55.5055H53.23V22.9276C53.23 19.5551 50.31 16.7041 46.87 16.7041V61.729H59.0699C68.5599 61.729 76.15 54.2886 76.15 44.9707C76.15 35.6528 68.5599 28.2124 59.0699 28.2124Z" fill="white" />
+					<g class="logo--text">
+						<path d="M257.71 17.1895H267.61V56.0604H267.85L282.95 39.6498H295.71L278.5 57.3121L296.82 78.695H283.67L267.92 58.7028H267.68V78.695H257.71V17.1895ZM132.47 98.131H142.37L142.45 98.166H142.52V39.6161H132.99V45.0747H132.75C130.73 41.9803 126.28 38.4688 118.98 38.4688C107.61 38.4688 99.6499 47.5433 99.6499 58.9473C99.6499 70.3514 107.09 79.773 119.19 79.773C124.71 79.773 129.75 77.374 132.33 73.4454H132.47V98.131ZM132.78 59.0863C132.78 65.1708 128.4 71.6032 121.1 71.6032C113.38 71.6032 109.66 65.0317 109.66 58.9125C109.66 52.7932 113.38 46.3959 121.1 46.3959C128.4 46.3959 132.78 53.0019 132.78 59.0863ZM179.33 78.626H188.76L188.79 78.557V39.5469H178.81V60.9989C178.81 66.1796 175.9 71.5685 169.53 71.5685C163.17 71.5685 162.09 65.7968 162.09 61.1727V39.5469H152.18V63.9542C152.18 71.9506 156.53 79.739 166.86 79.739C172.73 79.739 177.46 76.297 179.2 72.3683H179.33V78.626ZM198.87 39.6162H208.86V78.626H198.87V39.6162ZM245.873 50.4192L245.88 50.4292L245.78 50.4987L245.873 50.4192ZM252.59 44.6577L245.873 50.4192C244.31 48.2339 240.905 46.6394 237.67 46.6394C230.37 46.6394 226.72 53.0368 226.72 59.1561C226.72 65.2753 230.44 71.6723 237.99 71.6723C241.08 71.6723 244.45 70.4554 246.37 68.1613L252.56 74.35C249.25 77.861 243.76 79.809 237.89 79.809C226.13 79.809 216.33 72.1592 216.33 59.1908C216.33 46.2222 225.96 38.5732 237.61 38.5732C243.41 38.5732 249.47 40.8332 252.59 44.6577ZM311.39 44.5869V17.1895H301.55V78.66H310.97V72.8189H311.11C313.82 77.269 319.21 79.807 324.77 79.807C336.87 79.807 344.31 70.524 344.31 58.9809C344.31 47.4378 336.35 38.5024 325.02 38.5024C317.72 38.5024 313.72 42.0488 311.66 44.5869H311.39ZM322.76 71.6369C315.46 71.6369 311.07 65.2045 311.07 59.12C311.07 53.0356 315.46 46.4296 322.76 46.4296C330.47 46.4296 334.19 52.827 334.19 58.9461C334.19 65.0654 330.47 71.6369 322.76 71.6369ZM371.47 38.5039C383.49 38.5039 393.09 46.7092 393.09 58.9824C393.09 71.2556 383.46 79.808 371.47 79.808C359.47 79.808 349.84 71.2556 349.84 58.9824C349.84 46.7092 359.47 38.5039 371.47 38.5039ZM371.47 71.6727C379.32 71.6727 382.97 65.1016 382.97 58.9824C382.97 52.8633 379.32 46.4659 371.47 46.4659C363.61 46.4659 359.96 52.8633 359.96 58.9824C359.96 65.1016 363.61 71.6727 371.47 71.6727ZM441.73 58.9824C441.73 46.7092 432.1 38.5039 420.1 38.5039C408.11 38.5039 398.48 46.7092 398.48 58.9824C398.48 71.2556 408.11 79.808 420.1 79.808C432.1 79.808 441.73 71.2556 441.73 58.9824ZM431.62 58.9824C431.62 65.1016 427.97 71.6727 420.1 71.6727C412.25 71.6727 408.6 65.1016 408.6 58.9824C408.6 52.8633 412.25 46.4659 420.1 46.4659C427.97 46.4659 431.62 52.8633 431.62 58.9824ZM449.63 17.1895H459.5V56.0604H459.78L474.87 39.6498H487.66L470.45 57.3121L488.77 78.695H475.63L459.88 58.7028H459.6V78.695H449.63V17.1895ZM507.13 45.8053C510.78 45.8053 514.08 47.7523 515.82 50.0122L515.86 49.9775V50.047L522.33 44.4493C519.09 40.4509 513.11 38.5039 507.41 38.5039C499.55 38.5039 491.59 42.2241 491.59 50.9162C491.59 58.2523 497.43 60.5818 503.34 61.9725C509.36 63.3632 512.45 64.3368 512.45 67.5699C512.45 71.0467 508.94 72.1945 506.06 72.1945C501.74 72.1945 498.02 70.0736 495.87 67.3268L489.33 73.3416C493.12 77.514 499.52 79.774 505.64 79.774C514.36 79.774 522.22 76.297 522.22 66.7707C522.22 59.1215 515.27 56.5139 509.36 55.1232L509.135 55.0696C503.746 53.7825 500.74 53.0645 500.74 50.0122C500.74 46.9178 503.97 45.8053 507.13 45.8053Z" />
+					</g>
+				</svg>
+			</a>
+
+			<a href="https://mailchimp.com/" target="_blank" aria-label="Link to homepage of mailchimp">
+				<svg class="logo--mailchimp" viewBox="0 0 481 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g class="logo--text">
+						<path d="M239.76 13.626H249.74V76.765H239.76V13.626ZM225.02 30.3839C228.36 30.3839 231.11 27.6372 231.11 24.2647C231.11 20.8922 228.39 18.1455 225.02 18.1455C221.65 18.1455 218.94 20.8922 218.94 24.2647C218.94 27.6372 221.65 30.3839 225.02 30.3839ZM200.51 71.863H200.23C198.25 75.374 193.52 77.947 187.85 77.947C181.46 77.947 172.9 74.853 172.9 65.5003C172.9 53.5399 187.85 51.9057 200.3 51.9057V50.8975C200.3 45.9604 196.13 43.5266 191.16 43.5266C186.91 43.5266 182.85 45.5083 180.31 48.116L175.16 42.0316C179.65 37.8593 185.94 35.6689 192.03 35.6689C206.31 35.6689 209.79 44.5349 209.79 52.5315V76.904H200.51V71.863ZM200.37 58.7203H198.11C191.78 58.7203 182.92 59.4852 182.92 65.3955C182.92 69.2202 186.5 70.4022 189.91 70.4022C196.72 70.4022 200.37 66.5083 200.37 60.1458V58.7203ZM165.85 51.9403V77.008H155.87V54.7565C155.87 49.9933 154.79 44.0479 148.39 44.0479C142 44.0479 139.6 49.9238 139.6 55.1042V77.008H129.66V52.7747C129.66 47.8377 127.32 44.0827 122.25 44.0827C116.27 44.0827 113.52 49.6109 113.52 54.9304V76.974H103.58V36.8856H113.04V43.3178H113.17C114.91 39.4237 119.15 35.7383 125.55 35.7383C131.95 35.7383 135.77 38.8326 138.03 43.3178C140.71 38.485 145.16 35.7383 151.14 35.7383C161.5 35.7383 165.85 43.735 165.85 51.9403ZM229.78 36.8857H219.84V76.973H229.78V36.8857ZM356.55 24.4737C356.55 27.8463 353.81 30.5929 350.47 30.5929C347.09 30.5929 344.38 27.8463 344.38 24.4737C344.38 21.1012 347.09 18.3545 350.47 18.3545C353.84 18.3545 356.55 21.1012 356.55 24.4737ZM287.182 47.9219C287.195 47.9401 287.207 47.9584 287.22 47.9767L287.19 47.9419L287.08 48.0115L287.182 47.9219ZM293.9 41.9966L287.182 47.9219C285.604 45.6904 282.184 44.0827 278.98 44.0827C271.68 44.0827 268 50.6886 268 56.9469C268 63.2052 271.72 69.811 279.26 69.811C282.36 69.811 285.73 68.5598 287.64 66.1951L293.86 72.558C290.56 76.174 285.07 78.156 279.16 78.156C267.37 78.156 257.53 70.2979 257.53 56.9469C257.53 43.5959 267.16 35.7383 278.88 35.7383C284.72 35.7383 290.77 38.0678 293.9 41.9966ZM335.69 77.009H325.75V54.9658C325.75 50.2026 324.74 44.3615 318.34 44.3615C311.94 44.3615 308.96 49.8201 308.96 55.1397V77.043H299.01V13.835H308.96V42.484H309.09C310.65 39.1463 315.07 35.7042 320.98 35.7042C331.34 35.7042 335.69 43.7009 335.69 51.9062V77.009ZM355.44 36.8857H345.49V76.973H355.44V36.8857ZM427.83 51.9403V77.008H417.85V54.7565C417.85 49.9933 416.77 44.0479 410.37 44.0479C403.98 44.0479 401.58 49.9238 401.58 55.1042V77.008H391.63V52.7747C391.63 47.8377 389.3 44.0827 384.22 44.0827C378.25 44.0827 375.5 49.6109 375.5 54.9304V76.974H365.56V36.8856H375.01V43.3178H375.15C376.89 39.4237 381.13 35.7383 387.53 35.7383C393.93 35.7383 397.75 38.8326 400.01 43.3178C402.69 38.485 407.17 35.7383 413.12 35.7383C423.48 35.7383 427.83 43.735 427.83 51.9403ZM447.33 42.4839V36.8862H437.91V97H447.89V71.6201H448.03C450.56 75.618 455.64 78.121 461.21 78.121C473.3 78.121 480.78 68.5603 480.78 56.739C480.78 44.9177 472.81 35.7041 461.41 35.7041C454.08 35.7041 449.59 39.32 447.61 42.4839H447.33ZM447.4 56.9476C447.4 50.6892 451.78 43.9094 459.12 43.9094C466.87 43.9094 470.59 50.4806 470.59 56.7737C470.59 63.0668 466.87 69.8121 459.12 69.8121C451.82 69.8121 447.4 63.2058 447.4 56.9476Z" />
+					</g>
+					<g class="logo--mark">
+						<path d="M44.3301 88.204C68.6601 88.204 88.3799 68.4808 88.3799 44.152C88.3799 19.8231 68.6601 0.100586 44.3301 0.100586C20.0001 0.100586 0.280029 19.8231 0.280029 44.152C0.280029 68.4808 20.0001 88.204 44.3301 88.204Z" />
+					</g>
+					<path class="logo--icon" d="M71.2071 51.1653C71.2339 51.2618 71.2521 51.3269 71.2601 51.3527C72.1501 51.3527 73.5501 52.3863 73.5501 54.8447C73.5501 57.3031 72.5301 60.0856 72.2901 60.7045C68.6201 69.5075 59.85 74.407 49.4 74.097C39.67 73.808 31.3601 68.6693 27.7301 60.2958C25.5401 60.2958 23.2701 59.3323 21.5501 57.8053C19.7301 56.1994 18.61 54.1177 18.39 51.9483C18.22 50.2579 18.43 48.687 18.96 47.3148L16.92 45.5863C7.58001 37.7001 36.79 5.23291 46.14 13.376C46.18 13.4169 49.3102 16.4885 49.3202 16.4972C49.3302 16.4913 51.0501 15.7643 51.0601 15.7614C59.2501 12.3687 65.9 14.0067 65.91 19.4198C65.91 22.2373 64.1201 25.5191 61.2501 28.4972C62.2801 29.4636 63.1202 30.9761 63.6002 32.7016C64.0002 33.9775 64.0702 35.2739 64.1102 36.1031C64.1409 36.808 64.1716 38.0893 64.193 38.9835C64.2064 39.5449 64.2162 39.9537 64.2201 39.9717C64.2672 39.9874 64.6592 40.0959 64.9865 40.1864C65.1451 40.2303 65.2886 40.27 65.3702 40.2929C67.5702 40.9089 69.14 41.7323 69.9 42.5352C70.67 43.3381 71.04 44.1177 71.18 45.0286C71.31 45.7644 71.3002 47.0636 70.3202 48.5148C70.3202 48.5148 70.5802 49.0607 70.8202 49.8374C70.9958 50.4057 71.1339 50.9022 71.2071 51.1653ZM27.5601 58.0126C27.8901 58.0213 28.2101 58.0009 28.5301 57.9455L28.5401 57.9425C31.9501 57.3586 32.8401 53.6535 32.2701 50.0125C31.6401 45.9045 28.8601 44.4534 26.9701 44.3513C26.4501 44.325 25.9701 44.3717 25.5601 44.4534C22.1901 45.1337 20.29 47.9979 20.67 51.7206C21 55.087 24.4101 57.9279 27.5601 58.0126ZM19.93 45.4666C21.06 43.8257 22.9101 42.6374 25.0101 42.2286V42.2228C27.6801 35.0608 32.1301 28.4593 38.0301 23.9191C42.4101 20.2695 47.13 17.6505 47.13 17.6505C47.13 17.6505 44.5902 14.7015 43.8202 14.4855C39.1002 13.2096 28.9 20.2432 22.38 29.5425C19.75 33.303 15.9801 39.9629 17.7801 43.3877C18.0001 43.814 19.26 44.9031 19.93 45.4666ZM58.2201 56.3717C58.2401 56.4476 58.1802 56.5264 58.1202 56.5557V56.5644C58.1202 56.5644 54.3301 58.3279 48.2901 56.4622C48.4601 57.8753 49.8401 58.5089 50.5001 58.7659C51.3301 59.0899 52.2401 59.2389 52.2401 59.2389C59.7001 60.5235 66.6901 56.252 68.2601 55.1775C68.3801 55.0958 68.4502 55.1746 68.3602 55.3177C68.334 55.3577 68.3153 55.3868 68.3007 55.4098C68.265 55.4655 68.2526 55.485 68.2101 55.5367C66.2801 58.0184 61.11 60.8914 54.38 60.8914C51.44 60.8885 48.51 59.8549 47.44 58.2666C45.76 55.7994 47.35 52.2023 50.13 52.5761L51.3502 52.7133C54.8402 53.0987 59.8801 52.6111 64.0301 50.6841C67.8301 48.9206 69.2601 46.979 69.0501 45.4082C68.9901 44.9849 68.8 44.541 68.39 44.1235C67.71 43.4549 66.6301 42.9352 64.8001 42.4213C64.6705 42.3847 64.5498 42.351 64.4357 42.3192C64.0216 42.2035 63.6951 42.1124 63.3502 41.9979C62.5602 41.7381 62.1802 41.5308 62.0902 40.0563C62.0502 39.414 61.94 37.1658 61.9 36.2374C61.82 34.6111 61.6301 32.3863 60.2501 31.4695C59.8901 31.2301 59.4902 31.1162 59.0702 31.0928C58.7374 31.0763 58.543 31.1212 58.4335 31.1465C58.408 31.1524 58.3872 31.1573 58.3702 31.16C57.6244 31.2884 57.1619 31.6758 56.6158 32.1332C56.5907 32.1542 56.5655 32.1753 56.5401 32.1965C54.8101 33.6301 53.3601 33.8666 51.7401 33.7965C51.239 33.7752 50.7216 33.7244 50.1751 33.6708C49.6745 33.6216 49.1495 33.5701 48.5902 33.5366C48.4595 33.5303 48.3347 33.5231 48.211 33.5159C48.1075 33.51 48.0048 33.504 47.9 33.4987C45.19 33.3586 42.2901 35.6972 41.8101 39.0169C41.2657 42.7149 43.3044 44.9831 44.6316 46.4598C44.9622 46.8276 45.2486 47.1463 45.44 47.4257C45.57 47.5921 45.71 47.8287 45.71 48.0535C45.71 48.3221 45.5302 48.5352 45.3702 48.7162C42.6002 51.5542 41.7201 56.0651 42.7601 59.8257C42.9001 60.2958 43.0501 60.7454 43.2501 61.1746C45.7001 66.8799 53.27 69.537 60.67 67.1189C61.66 66.7949 62.6001 66.395 63.4801 65.9307C65.1401 65.1192 66.5901 63.9981 67.7801 62.7133C69.7501 60.6637 70.9202 58.4331 71.3702 55.6855C71.5902 54.2169 71.2602 53.6476 70.8202 53.3732C70.3502 53.0812 69.7901 53.1834 69.7901 53.1834C69.7901 53.1834 69.5301 51.4228 68.8001 49.8257C66.6501 51.525 63.8701 52.722 61.7601 53.3293C59.3101 54.0301 56.0202 54.5673 52.3302 54.3484C51.9314 54.3159 51.5589 54.2669 51.2139 54.2216C49.794 54.035 48.8384 53.9094 48.42 55.2388C53.09 56.9498 58.0401 56.217 58.0401 56.217C58.1301 56.2053 58.2201 56.2754 58.2201 56.3717ZM44.7601 23.195C42.2001 24.5001 39.3601 26.8271 37.0401 29.5016V29.4987C36.9601 29.5921 37.08 29.7264 37.18 29.6534C39.18 28.1965 41.9201 26.8447 45.5101 25.9687C49.5401 24.9877 53.4101 25.3994 55.7801 25.9425C55.8901 25.9717 55.9702 25.7644 55.8702 25.706C54.3102 24.8271 51.9 24.2315 50.2 24.2198C50.11 24.2198 50.0702 24.1235 50.1202 24.0564C50.4202 23.6622 50.82 23.2709 51.18 22.9877C51.26 22.9264 51.2202 22.7921 51.1102 22.7979C48.6802 22.9468 45.9202 24.1059 44.3302 25.1892C44.2602 25.2447 44.16 25.1746 44.18 25.0811C44.3 24.4855 44.69 23.7001 44.9 23.3322C44.94 23.2446 44.8501 23.1512 44.7601 23.195ZM59.0701 41.393C59.5201 41.3375 59.9502 41.3375 60.3502 41.393C60.5802 40.8645 60.62 39.9506 60.41 38.958C60.1 37.4806 59.6801 36.5871 58.8301 36.7273C57.9601 36.8674 57.93 37.9361 58.24 39.4134C58.41 40.2426 58.7201 40.955 59.0701 41.393ZM51.6598 42.5614L51.7486 42.6003C52.3163 42.8494 52.6673 43.0034 52.81 42.8563C52.9 42.757 52.8699 42.573 52.7199 42.3307C52.4199 41.8344 51.7898 41.3292 51.1298 41.046C49.7698 40.4621 48.1398 40.6548 46.8998 41.5541C46.4898 41.8577 46.0898 42.2753 46.1498 42.5293C46.1598 42.611 46.2298 42.6723 46.3798 42.6927C46.5128 42.7075 46.7745 42.6245 47.126 42.513C47.6725 42.3395 48.436 42.0973 49.2699 42.0475C50.2399 41.9891 51.0398 42.2898 51.6598 42.5614ZM48.8799 43.9066C49.1699 43.6584 49.6099 43.3927 50.4199 43.2672L50.4099 43.2701C51.5199 43.1387 52.33 43.6526 52.52 43.9591C52.6 44.0905 52.57 44.1752 52.55 44.216C52.4601 44.3532 52.2603 44.3299 51.8606 44.2833H51.8606L51.8601 44.2832C51.1301 44.1985 50.39 44.1518 49.27 44.5518C49.27 44.5518 48.8699 44.7154 48.6799 44.7154C48.6399 44.7154 48.59 44.6978 48.55 44.6657L48.5479 44.6632C48.5273 44.6392 48.49 44.5957 48.49 44.5197C48.49 44.3533 48.6399 44.1197 48.8799 43.9066ZM56.56 45.8684C57.11 46.137 57.7099 46.0319 57.9099 45.6319C58.0999 45.2348 57.82 44.6946 57.27 44.4261C56.72 44.1574 56.1199 44.2625 55.9299 44.6625C55.7299 45.0597 56.02 45.5998 56.56 45.8684ZM59.25 43.889C59.26 43.2817 59.63 42.7941 60.07 42.8029C60.52 42.8116 60.8701 43.3109 60.8601 43.9182C60.8501 44.5255 60.48 45.0131 60.04 45.0043C59.59 44.9956 59.24 44.4963 59.25 43.889ZM30.29 53.7668C30.18 53.6296 29.9901 53.6704 29.8201 53.7113C29.7001 53.7405 29.5599 53.7727 29.4099 53.7697C29.0799 53.7639 28.8099 53.6237 28.6499 53.3872C28.4499 53.0778 28.4599 52.6135 28.6899 52.0851C28.7081 52.0215 28.7428 51.9482 28.779 51.8718L28.79 51.8485C29.15 51.0515 29.7401 49.7142 29.0701 48.4441C28.5701 47.4865 27.75 46.8909 26.76 46.7654C25.82 46.6456 24.84 46.996 24.22 47.6821C23.24 48.7653 23.08 50.2369 23.28 50.7566C23.34 50.9463 23.45 50.9989 23.53 51.0106C23.69 51.0339 23.9501 50.9113 24.1001 50.4967C24.1042 50.4846 24.1101 50.4695 24.1169 50.4518L24.1169 50.4517C24.1266 50.4267 24.1382 50.3966 24.1499 50.3624C24.2099 50.1434 24.3401 49.7317 24.5501 49.4047C24.8001 49.0077 25.1999 48.7361 25.6599 48.6368C26.1299 48.5347 26.62 48.6252 27.02 48.8909C27.71 49.3405 27.9699 50.1814 27.6799 50.9872C27.5199 51.4018 27.2801 52.196 27.3301 52.85C27.4401 54.1727 28.25 54.7011 28.99 54.7595C29.69 54.7858 30.1901 54.3887 30.3201 54.0967C30.3901 53.9245 30.33 53.8194 30.29 53.7755V53.7668Z" fill="black" />
+				</svg>
+			</a>
+		</div>
+	</div>
+					</nav>
+			</div>
+		</header>
+
+<main role="main" id="main">
+	
+<div class="hero__animation">
+	<section id="banner">
+		<div class="background"></div>
+		<div class="midground">
+			<i class="cloud cloud1"></i>
+			<i class="cloud cloud2"></i>
+			<i class="cloud cloud3"></i>
+			<i class="cloud cloud4"></i>
+		</div>
+		<div class="foreground">
+			<img class="bot1" src="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/hero/banner_bot_1.png" alt="robot 1">
+			<img class="bot2" src="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/hero/banner_bot_2.png" alt="robot 2">
+			<img class="bot3" src="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/hero/banner_bot_3.png" alt="robot 3">
+			<img class="bot4" src="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/hero/banner_bot_4.png" alt="robot 4">
+		</div>
+	</section>
+</div>
+
+	<div class="container container__main">
+		<div class="content">
+			
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/karmahack-2021-recap-what-makes-a-good-hackathon">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2021/11/kh-logo-1.png?auto=compress&#038;w=800" alt="Karmahack 2021 Recap: What Makes a Good Hackathon?" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/karmahack-2021-recap-what-makes-a-good-hackathon">
+				Karmahack 2021 Recap: What Makes a Good Hackathon?			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/engineering-blog-editorial-team">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2018/08/CreditKarma_LogoTile_RGB.png?w=32" class="avatar avatar-32 photo wp-post-image" alt="" />						</a>
+						<a href="https://engineering.creditkarma.com/author/engineering-blog-editorial-team"><span>Engineering Blog Editorial Team</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Nov 22, 2021" content="Nov 22, 2021">Nov 22, 2021</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>In 2017, Credit Karma launched Karmahack, its first-ever hackathon. The event brought together more than 100 employees from across the business to develop the most compelling product concept within 72 hours.&nbsp; This was a time of rapid growth for Credit Karma. We had just launched internationally, expanded into new business verticals, and had grown our [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/karmahack-2021-recap-what-makes-a-good-hackathon" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/optimizing-circleci">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2021/03/blog_image_3-30-21@2x.png?auto=compress&#038;w=800" alt="Optimizing CircleCI" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/optimizing-circleci">
+				Optimizing CircleCI			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/christian-klug">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2021/03/Christian.Klug_.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/christian-klug"><span>Christian Klug</span></a>
+									</span>
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/spencer-hivert">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2021/03/Spencer.Hivert.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/spencer-hivert"><span>Spencer Hivert</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Mar 31, 2021" content="Mar 31, 2021">Mar 31, 2021</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>While it is always important to think about time and cost efficiency, some issues are only noticeable with scale and increased complexity. Build systems like CircleCI offer many configurations but reach their limitations in the context of a mono repo. This article will provide you with a better understanding of these limitations, and show you [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/optimizing-circleci" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/getting-started-with-gcp-identity-management">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/08/saleh_article_image.png?auto=compress&#038;w=800" alt="Getting Started with GCP Identity Management" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/getting-started-with-gcp-identity-management">
+				Getting Started with GCP Identity Management			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/saleh-sedighi">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/08/saleh-sedighi-3.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/saleh-sedighi"><span>Saleh Sedighi</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Aug 18, 2020" content="Aug 18, 2020">Aug 18, 2020</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>Building products and services using Google Cloud Platform (GCP) has been a big ingredient in&nbsp; Credit Karma’s hyper growth. GCP’s PaaS and SaaS offerings allow teams and individuals to focus on their real goal and deliverables vs building and maintaining infrastructure components from scratch. Leveraging GCP is very straightforward in pet projects and POCs. But [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/getting-started-with-gcp-identity-management" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/checking-your-bias-as-a-leader">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2021/03/1_recognize_update_2.png?auto=compress&#038;w=800" alt="Checking Your Bias as a Leader" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/checking-your-bias-as-a-leader">
+				Checking Your Bias as a Leader			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/andy-jenkins">
+							<img alt='' src='https://secure.gravatar.com/avatar/20e1ec1dd584193dfc6c7371dac42df6?s=32&#038;d=mm&#038;r=g' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' />						</a>
+						<a href="https://engineering.creditkarma.com/author/andy-jenkins"><span>Andy Jenkins</span></a>
+									</span>
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/ash-coleman">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/07/Ash.Coleman.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/ash-coleman"><span>Ash Coleman</span></a>
+									</span>
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/jared-hoffman">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/07/Jared.Hoffman.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/jared-hoffman"><span>Jared Hoffman</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Jul 09, 2020" content="Jul 09, 2020">Jul 09, 2020</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>Introduction These past few weeks we’ve seen the Black Lives Matter movement create incredible energy and action around long-standing issues in American society. During this time, I have been reflecting on my own experiences and conversations, particularly within Credit Karma. One of these I’d like to share with you is a key learning moment during [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/checking-your-bias-as-a-leader" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/identity-aware-encryption">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/02/Screen-Shot-2020-02-27-at-4.36.36-PM.png?auto=compress&#038;w=800" alt="Identity-Aware Encryption" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/identity-aware-encryption">
+				Identity-Aware Encryption			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/danny-zion">
+							<img alt='' src='https://secure.gravatar.com/avatar/7e81be49e70ad1b8f18f2292dd85fe4d?s=32&#038;d=mm&#038;r=g' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' />						</a>
+						<a href="https://engineering.creditkarma.com/author/danny-zion"><span>Danny Zion</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Feb 28, 2020" content="Feb 28, 2020">Feb 28, 2020</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>As architectures become more complex, hackers become more sophisticated and security becomes more important — and so data protection must evolve to meet the challenge. In the beginning, it may have been enough to encrypt just the disk, database or use application level encryption. But now, if you’re dealing with PII or other sensitive data, [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/identity-aware-encryption" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/a-framework-for-interrupting-bias-within-oneself-with-another-and-amongst-others">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/09/EngBlogHighfive.png?auto=compress&#038;w=800" alt="A Framework for Interrupting Bias &#8211; Within Oneself, With Another, and Amongst Others" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/a-framework-for-interrupting-bias-within-oneself-with-another-and-amongst-others">
+				A Framework for Interrupting Bias &#8211; Within Oneself, With Another, and Amongst Others			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/jared-hoffman">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/07/Jared.Hoffman.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/jared-hoffman"><span>Jared Hoffman</span></a>
+									</span>
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/ash-coleman">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/07/Ash.Coleman.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/ash-coleman"><span>Ash Coleman</span></a>
+									</span>
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/andy-jenkins">
+							<img alt='' src='https://secure.gravatar.com/avatar/20e1ec1dd584193dfc6c7371dac42df6?s=32&#038;d=mm&#038;r=g' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' />						</a>
+						<a href="https://engineering.creditkarma.com/author/andy-jenkins"><span>Andy Jenkins</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Sep 23, 2020" content="Sep 23, 2020">Sep 23, 2020</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>. “Movements don’t emerge because everyone suddenly decides to face the same direction at once&#8230;they rely on social patterns that begin as the habit of friendship, grow through the habits of communities, and are sustained by new habits that change participants’ sense of self.” Charles Duhigg, The Power of Habit (New York:Random House Publishing Group: [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/jakebrower" title="View posts by the author">
+					<span itemprop="name">jakebrower</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/a-framework-for-interrupting-bias-within-oneself-with-another-and-amongst-others" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/embedded-web-apps-at-credit-karma">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/01/GettyImages-1054541696-1.jpg?auto=compress&#038;w=800" alt="Embedded Web Apps at Credit Karma" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/embedded-web-apps-at-credit-karma">
+				Embedded Web Apps at Credit Karma			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/hannaha-lee">
+							<img width="32" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2020/01/HannahaLee.jpg?w=32" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/hannaha-lee"><span>Hannaha Lee</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Jan 16, 2020" content="Jan 16, 2020">Jan 16, 2020</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>The good things on the front end: EWAs Credit Karma’s cornerstone mission is to champion financial progress for all. From an engineering perspective, this means ensuring a seamless experience from start to finish.&nbsp; So when we discovered that some of our members were experiencing delays when viewing web content on native platforms, our front-end and [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/hannahalee" title="View posts by the author">
+					<span itemprop="name">hannahalee</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/embedded-web-apps-at-credit-karma" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/effectively-attending-a-tech-conference">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/04/cartoon-presentation.jpg?auto=compress&#038;w=800" alt="Effectively attending a tech conference" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/effectively-attending-a-tech-conference">
+				Effectively attending a tech conference			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/shine-garg">
+							<img width="29" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/04/cutmypic.png?w=29" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/shine-garg"><span>Shine Garg</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Apr 29, 2019" content="Apr 29, 2019">Apr 29, 2019</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>I’d like to share with you some tips and tricks I’ve discovered that will help you get the most out of every conference you go to. I’ll cover selecting the right talks, how to plan your time efficiently, what to do while you’re there and how to make sure you hold on to what you learn. </p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/aprilaaronsonck" title="View posts by the author">
+					<span itemprop="name">aprilaaronsonck</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/effectively-attending-a-tech-conference" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/fraud-protection-at-scale">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/03/GettyImages-918047166-e1553098382136.jpg?auto=compress&#038;w=800" alt="Fraud protection at scale" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/fraud-protection-at-scale">
+				Fraud protection at scale			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/dan-petty-ron-liu">
+							<img alt='' src='https://secure.gravatar.com/avatar/?s=32&#038;d=mm&#038;r=g' class='avatar avatar-32 photo avatar-default' height='32' width='32' loading='lazy' />						</a>
+						<a href="https://engineering.creditkarma.com/author/dan-petty-ron-liu"><span>Dan Petty &amp; Ron Liu</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Mar 20, 2019" content="Mar 20, 2019">Mar 20, 2019</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>At Credit Karma, we want our members to make financial progress — and we believe that the security of our members’ personal, financial and tax information is the cornerstone of that mission. This is why we invest heavily in security measures to help protect our members from fraud, abuse and cyber crime. &nbsp;&nbsp;&nbsp; The systems [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+					</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/aprilaaronsonck" title="View posts by the author">
+					<span itemprop="name">aprilaaronsonck</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/fraud-protection-at-scale" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+<article class="content__card" itemscope itemtype="https://schema.org/BlogPosting">
+			<div class="content__card--image">
+			<a href="https://engineering.creditkarma.com/microservices-from-rest-to-thrift-and-graphql">
+				<img itemprop="image" itemscope itemtype="https://schema.org/ImageObject" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/02/GettyImages-517746344-e1550686221107.jpg?auto=compress&#038;w=800" alt="Microservices: From REST to Thrift and GraphQL" />
+			</a>
+		</div> <!-- / content__card--image -->
+	
+	<div class="content__card--details">
+		<h4 class="content__card--title" itemprop="headline">
+			<a href="https://engineering.creditkarma.com/microservices-from-rest-to-thrift-and-graphql">
+				Microservices: From REST to Thrift and GraphQL			</a>
+		</h4>
+		<!-- / content__card--title -->
+
+		<div class="content__card--meta">
+							<span class="content__card--meta--author">
+											<a href="https://engineering.creditkarma.com/author/volodymyr-ladnik">
+							<img width="30" height="32" src="https://creditkarma-cms.imgix.net/wp-content/uploads/sites/4/2019/02/cutmypic.png?w=30" class="avatar avatar-32 photo wp-post-image" alt="" loading="lazy" />						</a>
+						<a href="https://engineering.creditkarma.com/author/volodymyr-ladnik"><span>Volodymyr Ladnik</span></a>
+									</span>
+						<time class="content__card--date" pubdate itemprop="datePublished" datetime="Feb 20, 2019" content="Feb 20, 2019">Feb 20, 2019</time>
+		</div>
+		<!-- / content__card--meta -->
+
+		<div class="content__card--excerpt" itemprop="description">
+			<p>Microservices architecture is very popular these days, and is coming into increasing use at Credit Karma. While there are many reasons to develop microservices, their use comes with a number of potential pitfalls. This article describes a couple of those drawbacks and what we’re doing about them. Our first microservices presented REST APIs. REST provides [&hellip;]</p>
+		</div>
+		<!-- / content__card--excerpt -->
+
+		<div class="content__card--tags">
+			<b>Tags</b>: <a href="https://engineering.creditkarma.com/tag/graphql" rel="tag">graphql</a> , <a href="https://engineering.creditkarma.com/tag/microservices" rel="tag">microservices</a> , <a href="https://engineering.creditkarma.com/tag/open-source" rel="tag">open source</a>		</div>
+		<!-- / content__card--tags -->
+
+		<div class="screen-reader-text">
+			<span itemprop="author" itemscope itemtype="https://schema.org/Person">
+				<a rel="author" itemprop="url" href="https://engineering.creditkarma.com/author/aprilaaronsonck" title="View posts by the author">
+					<span itemprop="name">aprilaaronsonck</span>
+				</a>
+			</span>
+			
+			<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+				<meta itemprop="name" content="Credit Karma">
+				<span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://creditkarma-cms.imgix.net/wp-content/themes/creditkarma-eng/assets/images/src/logo.png?auto=compress">
+				</span>
+			</span>
+		</div>
+		<!-- / screen-reader-text -->
+	</div>
+	<!-- / content__card--details -->
+
+	<a href="https://engineering.creditkarma.com/microservices-from-rest-to-thrift-and-graphql" class="content__card--read-more">Read more <span></span></a>
+</article>
+<!-- / content__card -->
+
+				<div class="container__pagination">
+		
+	<nav class="navigation pagination" aria-label="Posts">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><ul class='page-numbers'>
+	<li><span class="page-numbers current">1</span></li>
+	<li><a class="page-numbers" href="https://engineering.creditkarma.com/page/2">2</a></li>
+	<li><span class="page-numbers dots">&hellip;</span></li>
+	<li><a class="page-numbers" href="https://engineering.creditkarma.com/page/4">4</a></li>
+	<li><a class="next page-numbers" href="https://engineering.creditkarma.com/page/2">Next</a></li>
+</ul>
+</div>
+	</nav>	</div>
+			</div>
+		<!-- / content -->
+
+		<aside class="sidebar" role="complementary">
+			<section class="sidebar__section">		<h3 class="sidebar__title">
+			GitHub		</h3><!-- / sidebar__title -->
+
+		<div class="sidebar__content">
+							<p>Check out our open source projects.</p>
+			
+							<a href="https://github.com/creditkarma" class="btn">View GitHub</a>
+					</div><!-- / sidebar__content -->
+
+		</section><section class="sidebar__section">		<h3 class="sidebar__title">
+			Most Popular		</h3><!-- / sidebar__title -->
+
+		<div class="sidebar__content">
+			<ul>
+									<li>
+						
+													<h4>
+								<a href="https://engineering.creditkarma.com/general-engineering/frequentist-stopping-rules">
+									Frequentist Stopping Rules								</a>
+							</h4>
+											</li>
+									<li>
+						
+													<h4>
+								<a href="https://engineering.creditkarma.com/general-engineering/making-an-impact-building-web-push-notifications">
+									Making an Impact as an Intern: Building Web Push Notifications								</a>
+							</h4>
+											</li>
+									<li>
+						
+													<h4>
+								<a href="https://engineering.creditkarma.com/methodology/engaging-with-a-candidate">
+									Engaging with a Candidate								</a>
+							</h4>
+											</li>
+									<li>
+						
+											</li>
+									<li>
+						
+											</li>
+							</ul>
+			<!-- / sidebar__connect -->
+		</div>
+		<!-- / sidebar__content -->
+
+		</section><section class="sidebar__section">		<h3 class="sidebar__title">
+			Explore Tags		</h3><!-- / sidebar__title -->
+
+		<div class="sidebar__content">
+			<ul class="sidebar__tags">
+									<li>
+						<a href="https://engineering.creditkarma.com/tag/infrastructure">
+							infrastructure						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/women-in-tech">
+							women in tech						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/scala">
+							scala						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/proof-of-concept">
+							proof of concept						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/product">
+							product						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/microservices">
+							microservices						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/methodology">
+							methodology						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/maven">
+							maven						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/machine-learning">
+							machine learning						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/leadership">
+							leadership						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/jar">
+							jar						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/interviewing">
+							interviewing						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/internship">
+							internship						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/akka">
+							akka						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/influence">
+							influence						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/graphql">
+							graphql						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/general-engineering">
+							general engineering						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/frontend">
+							frontend						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/experimentation">
+							experimentation						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/executable">
+							executable						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/data-engineering">
+							data engineering						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/data">
+							data						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/continuous-integration">
+							continuous integration						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/cloud">
+							cloud						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/career">
+							career						</a>
+					</li>
+										<li>
+						<a href="https://engineering.creditkarma.com/tag/candidate">
+							candidate						</a>
+					</li>
+								</ul><!-- / sidebar__connect -->
+
+			<a href="" class="btn sidebar__tags--view-more">
+				<span>View More</span>
+				<span>View Less</span>
+			</a>
+		</div>
+		<!-- / sidebar__content -->
+
+		</section>		</aside>
+		<!-- / sidebar -->
+	</div>
+	<!-- / container -->
+</main>
+<!-- / main -->
+
+		<footer class="footer" id="footer" role="contentinfo">
+			<div class="footer__skyline"></div>
+
+			<div class="container">
+				
+<div class="footer-logos footer-logos--desktop">
+	<div class="footer-logos__primary">
+		<a href="https://www.intuit.com/" target="_blank" aria-label="Link to homepage of intuit">
+			<svg class="logo--intuit" width="138" height="29" viewBox="0 0 138 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M70.8131 16.5745C70.8131 23.5575 76.4076 28.6476 83.5161 28.6476C90.6251 28.6476 96.219 23.5575 96.219 16.5745V0.567927H89.3419V15.7541C89.3419 19.5191 86.8185 22.0431 83.4952 22.0431C80.1722 22.0431 77.6479 19.5191 77.6479 15.7541V0.567927H70.7708L70.8131 16.5745ZM114.621 6.96203H122.845V28.1217H129.722V6.98308H137.945V0.546878H114.643V6.96203H114.621ZM110.163 0.546878H103.286V28.1217H110.163V0.546878ZM42.9879 6.96203H51.2114V28.1217H58.0887V6.98308H66.2915V0.546878H42.9879V6.96203ZM6.87711 0.546878H0V28.1217H6.87711V0.546878ZM39.371 12.0732C39.371 5.09012 33.7764 0 26.6681 0C19.559 0 13.9643 5.09012 13.9643 12.0732V28.1217H20.8426V12.9356C20.8426 9.17063 23.3661 6.64662 26.6888 6.64662C30.0119 6.64662 32.5354 9.17063 32.5354 12.9356V28.1217H39.4134L39.371 12.0732Z" fill="white"/>
+			</svg>
+		</a>
+	</div>
+
+	<div class="footer-logos__list">
+		<a href="https://turbotax.intuit.com/" target="_blank" aria-label="Link to homepage of turbotax">
+			<svg class="logo--turbotax" width="417" height="89" viewBox="0 0 417 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M44.9551 88.822C69.2841 88.822 89.0071 69.0989 89.0071 44.7702C89.0071 20.4413 69.2841 0.718811 44.9551 0.718811C20.6261 0.718811 0.904053 20.4413 0.904053 44.7702C0.904053 69.0989 20.6261 88.822 44.9551 88.822Z" fill="#D52B1E"/>
+				<path d="M35.186 60.8344C30.04 57.1837 25.207 53.2896 20.548 49.1175C18.845 52.7681 17.3851 56.6621 15.9241 60.591C23.2601 66.9186 33.2391 74.011 40.0881 78.149C48.8491 55.48 62.549 40.5644 75.691 30.0992C73.987 26.4485 71.7971 23.2498 68.8411 20.6074C54.9341 31.3161 43.461 44.98 35.186 60.8344Z" fill="white"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M216.781 43.7611V15.877H206.975V78.529H216.398V72.5494H216.535C219.212 77.069 224.602 79.642 230.163 79.642C242.263 79.642 249.708 70.1847 249.708 58.4334C249.708 46.6817 241.743 37.5724 230.409 37.5724C223.109 37.5724 219.11 41.1883 217.055 43.7611H216.781ZM216.466 58.5724C216.466 52.3837 220.849 45.6734 228.149 45.6734C235.867 45.6734 239.586 52.2098 239.586 58.4334C239.586 64.6568 235.867 71.3325 228.149 71.3325C220.883 71.3325 216.466 64.7609 216.466 58.5724ZM99.819 38.7545V46.6816V46.7163H106.771V65.2478C106.771 72.8274 109.175 79.294 119.707 79.294C121.899 79.294 124.576 78.877 126.316 78.216L125.967 70.4284C124.85 70.9845 123.077 71.2626 121.755 71.2626C117.379 71.2626 116.543 68.7246 116.543 65.1437V46.6816H126.487V38.7545H116.543V27.2461H106.771V38.7545H99.819ZM158.75 78.459H168.173V38.7189H158.229V60.5535C158.229 65.8381 155.312 71.2968 148.95 71.2968C142.588 71.2968 141.506 65.3861 141.506 60.6925V38.6494H131.597V63.5087C131.597 71.6447 135.945 79.572 146.272 79.572C152.148 79.572 156.873 76.06 158.613 72.0618H158.75V78.459ZM187.711 38.7202V45.3262H187.854C190.012 40.7715 194.251 37.5381 199.428 37.5381C200.195 37.5381 201.167 37.6077 201.832 37.8163V46.9256C200.51 46.5779 199.674 46.5083 198.736 46.5083C189.799 46.5083 188.06 54.2964 188.06 57.1822V78.461H178.116V38.7202H187.676H187.711ZM276.827 37.5732C288.82 37.5732 298.45 45.9176 298.45 58.4342C298.45 70.9511 288.82 79.643 276.827 79.643C264.829 79.643 255.2 70.9511 255.2 58.4342C255.2 45.9176 264.795 37.5732 276.827 37.5732ZM276.827 71.3332C284.68 71.3332 288.33 64.6575 288.33 58.4342C288.33 52.2106 284.68 45.6742 276.827 45.6742C268.965 45.6742 265.315 52.2106 265.315 58.4342C265.315 64.6575 268.965 71.3332 276.827 71.3332ZM300.78 38.7545V46.6816V46.7163H307.73V65.2478C307.73 72.8274 310.14 79.294 320.67 79.294C322.86 79.294 325.54 78.877 327.27 78.216L326.93 70.4284C325.81 70.9845 324.04 71.2626 322.72 71.2626C318.34 71.2626 317.5 68.7246 317.5 65.1437V46.6816H327.45V38.7545H317.5V27.2461H307.73V38.7545H300.78ZM358.42 73.384H358.18C356.2 76.896 351.51 79.434 345.84 79.434C339.44 79.434 330.96 76.374 330.96 67.0912C330.96 55.2351 345.84 53.6011 358.29 53.6011V52.6275C358.29 47.7252 354.15 45.3262 349.18 45.3262C344.97 45.3262 340.91 47.308 338.36 49.8808L333.22 43.8312C337.71 39.6937 343.96 37.5381 350.01 37.5381C364.26 37.5381 367.71 46.2997 367.71 54.2616V78.426H358.42V73.384ZM358.32 60.3461H356.09C349.8 60.3461 340.94 61.111 340.94 66.9522C340.94 70.742 344.52 71.924 347.89 71.924C354.7 71.924 358.35 68.0644 358.35 61.7368V60.3461H358.32ZM374.07 38.7549L388.4 57.356H388.43L372.3 78.46H384.05L394.51 63.9967L404.84 78.46H416.91L400.67 57.356L414.93 38.7549H403.48L394.62 51.0976L385.99 38.7549H374.07Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://creditkarma.com/" aria-label="Link to homepage of creditkarma">
+			<svg class="logo--creditkarma" width="534" height="89" viewBox="0 0 534 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M252.86 16H243.02V43.634H242.78C240.73 41.092 236.79 37.484 229.58 37.484C218.34 37.484 210.47 46.504 210.47 58.148C210.47 69.628 217.85 79.14 229.82 79.14C235.32 79.14 240.65 76.598 243.35 72.088H243.52V77.992H252.86V16ZM220.47 58.148C220.47 51.998 224.16 45.52 231.79 45.52C239.01 45.52 243.35 52.162 243.35 58.312C243.35 64.462 239.01 70.94 231.79 70.94C224.16 70.94 220.47 64.298 220.47 58.148ZM134.92 43.634C131.8 39.78 125.81 37.484 120.07 37.484C108.51 37.484 99 45.52 99 58.312C99 71.432 108.68 79.14 120.32 79.14C126.14 79.14 131.55 77.172 134.83 73.646L128.68 67.414C126.8 69.71 123.44 70.94 120.4 70.94C112.94 70.94 109.25 64.462 109.25 58.312C109.25 52.162 112.86 45.684 120.07 45.684C123.27 45.684 126.63 47.324 128.19 49.538L134.92 43.634ZM140.34 77.992H150.18V56.918C150.18 54.048 151.9 46.34 160.75 46.34C161.66 46.34 162.48 46.422 163.79 46.75V37.73C163.13 37.566 162.15 37.484 161.41 37.484C156.24 37.484 152.06 40.682 149.93 45.192H149.77V38.632H140.34V77.992ZM186.21 44.864C180.39 44.864 175.72 48.882 175.31 54.376H195.48C195.48 49.292 192.61 44.864 186.21 44.864ZM186.29 37.484C197.28 37.484 205.32 44.618 205.32 58.804C205.32 59.706 205.32 60.526 205.24 61.428H175.31C175.72 67.004 180.8 71.104 186.54 71.104C191.46 71.104 194.74 69.136 196.95 66.02L203.51 71.268C199.66 76.516 194.08 79.14 186.62 79.14C174.49 79.14 165.47 71.35 165.47 58.558C165.47 45.848 174.4 37.484 186.29 37.484ZM272.82 77.992H262.98V38.632H272.82V77.992ZM267.82 31.17C264.21 31.17 261.59 28.382 261.59 25.266C261.59 22.15 264.21 19.362 267.82 19.362C271.43 19.362 274.22 21.904 274.22 25.266C274.22 28.628 271.43 31.17 267.82 31.17ZM286.99 46.504V64.872C286.99 72.416 289.37 78.812 299.78 78.812C302 78.812 304.62 78.402 306.34 77.746L306.01 70.038C304.87 70.612 303.14 70.858 301.83 70.858C297.49 70.858 296.67 68.316 296.67 64.79V46.504H306.51V38.632H296.67V27.234H286.99V38.632H280.1V46.504H286.99ZM323.63 77.992H313.79V16H323.63V55.196H323.88L338.8 38.632H351.43L334.37 56.426L352.5 77.992H339.46L323.88 57.82H323.63V77.992ZM381.11 77.992H390.29V54.048C390.29 46.176 386.85 37.484 372.74 37.484C366.76 37.484 360.52 39.616 356.1 43.716L361.18 49.702C363.72 47.16 367.74 45.192 371.92 45.192C376.84 45.192 380.94 47.57 380.94 52.408V53.392C368.64 53.392 353.88 55.032 353.88 66.758C353.88 75.942 362.33 78.976 368.64 78.976C374.22 78.976 378.89 76.434 380.86 72.99H381.11V77.992ZM380.94 61.428C380.94 67.66 377.33 71.514 370.61 71.514C367.25 71.514 363.72 70.366 363.72 66.594C363.72 60.772 372.5 60.034 378.73 60.034H380.94V61.428ZM408.59 77.992H398.75V38.632H408.18V45.192H408.35C410.48 40.682 414.66 37.484 419.83 37.484C420.57 37.484 421.55 37.566 422.21 37.73V46.75C420.89 46.422 420.07 46.34 419.17 46.34C410.32 46.34 408.59 54.048 408.59 56.918V77.992ZM476.61 37.484C470.71 37.484 466.28 40.19 463.65 44.946C461.44 40.518 457.42 37.484 451.35 37.484C445.04 37.484 440.86 41.092 439.14 44.946H438.97V38.632H429.62V77.992H439.46V56.344C439.46 51.096 442.17 45.684 448.07 45.684C453.08 45.684 455.37 49.374 455.37 54.212V77.992H465.21V56.508C465.21 51.424 467.75 45.684 473.9 45.684C480.22 45.684 481.28 51.506 481.28 56.18V77.992H491.12V53.392C491.12 45.356 486.86 37.484 476.61 37.484ZM533.2 77.992H524.01V72.99H523.77C521.8 76.434 517.12 78.976 511.55 78.976C505.23 78.976 496.79 75.942 496.79 66.758C496.79 55.032 511.55 53.392 523.85 53.392V52.408C523.85 47.57 519.75 45.192 514.83 45.192C510.65 45.192 506.63 47.16 504.09 49.702L499 43.716C503.43 39.616 509.66 37.484 515.65 37.484C529.75 37.484 533.2 46.176 533.2 54.048V77.992ZM513.52 71.514C520.24 71.514 523.85 67.66 523.85 61.428V60.034H521.63C515.4 60.034 506.63 60.772 506.63 66.594C506.63 70.366 510.15 71.514 513.52 71.514Z" fill="white"/>
+				<path d="M44.05 88.1C68.38 88.1 88.1 68.3781 88.1 44.05C88.1 19.7219 68.38 0 44.05 0C19.72 0 0 19.7219 0 44.05C0 68.3781 19.72 88.1 44.05 88.1Z" fill="#008600"/>
+				<path d="M21.83 48.4656C21.83 40.8863 25.48 36.9924 31.36 36.9924C35.74 36.9924 38.4501 38.696 39.4301 39.1828C40.1601 38.4527 40.64 37.2358 40.64 36.0189C40.64 33.8286 38.21 31.6383 31.12 31.6383C22.81 31.6383 15.75 37.4792 15.75 48.4656C15.75 59.452 22.11 65.2929 30.39 65.2929C35.5 65.2929 39.43 63.5893 40.64 63.1026V57.0183C39.43 57.9918 35.29 59.9388 31.36 59.9388C26.01 59.9388 21.83 56.0448 21.83 48.4656ZM62.34 48.2222C65.99 43.8415 69.43 38.696 71.86 32.125L66.51 30.1781C63.1 39.4609 57.96 45.7885 51.87 50.9341V18.9482H46.03V64.5976H51.87V57.7484C54.06 56.0448 56.01 54.3413 58.23 52.3943L63.59 61.6771C64.81 63.8675 66.7501 65.0843 69.4301 65.0843C70.8901 65.0843 71.86 64.5976 72.11 64.3542L62.34 48.257V48.2222Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://quickbooks.intuit.com/" target="_blank" aria-label="Link to homepage of quickbooks">
+			<svg class="logo--quickbooks" width="523" height="99" viewBox="0 0 523 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M44.4698 89.022C68.7998 89.022 88.5199 69.2995 88.5199 44.9704C88.5199 20.6415 68.7998 0.918884 44.4698 0.918884C20.1398 0.918884 0.419922 20.6415 0.419922 44.9704C0.419922 69.2995 20.1398 89.022 44.4698 89.022Z" fill="#2CA01C"/>
+				<path d="M12.6899 44.9707C12.6899 54.2886 20.27 61.729 29.76 61.729H32.1899V55.5055H29.76C23.92 55.5055 19.05 50.7422 19.05 44.9707C19.05 39.1992 23.92 34.4359 29.76 34.4359H35.6V67.0137C35.6 70.3865 38.52 73.2374 41.97 73.2374V28.1776H29.76C20.27 28.1776 12.6899 35.6181 12.6899 44.936V44.9707ZM59.0699 28.2124H56.64V34.4359H59.0699C64.9099 34.4359 69.78 39.1992 69.78 44.9707C69.78 50.7422 64.9099 55.5055 59.0699 55.5055H53.23V22.9276C53.23 19.5551 50.31 16.7041 46.87 16.7041V61.729H59.0699C68.5599 61.729 76.15 54.2886 76.15 44.9707C76.15 35.6528 68.5599 28.2124 59.0699 28.2124Z" fill="white"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M257.71 17.1895H267.61V56.0604H267.85L282.95 39.6498H295.71L278.5 57.3121L296.82 78.695H283.67L267.92 58.7028H267.68V78.695H257.71V17.1895ZM132.47 98.131H142.37L142.45 98.166H142.52V39.6161H132.99V45.0747H132.75C130.73 41.9803 126.28 38.4688 118.98 38.4688C107.61 38.4688 99.6499 47.5433 99.6499 58.9473C99.6499 70.3514 107.09 79.773 119.19 79.773C124.71 79.773 129.75 77.374 132.33 73.4454H132.47V98.131ZM132.78 59.0863C132.78 65.1708 128.4 71.6032 121.1 71.6032C113.38 71.6032 109.66 65.0317 109.66 58.9125C109.66 52.7932 113.38 46.3959 121.1 46.3959C128.4 46.3959 132.78 53.0019 132.78 59.0863ZM179.33 78.626H188.76L188.79 78.557V39.5469H178.81V60.9989C178.81 66.1796 175.9 71.5685 169.53 71.5685C163.17 71.5685 162.09 65.7968 162.09 61.1727V39.5469H152.18V63.9542C152.18 71.9506 156.53 79.739 166.86 79.739C172.73 79.739 177.46 76.297 179.2 72.3683H179.33V78.626ZM198.87 39.6162H208.86V78.626H198.87V39.6162ZM245.873 50.4192L245.88 50.4292L245.78 50.4987L245.873 50.4192ZM252.59 44.6577L245.873 50.4192C244.31 48.2339 240.905 46.6394 237.67 46.6394C230.37 46.6394 226.72 53.0368 226.72 59.1561C226.72 65.2753 230.44 71.6723 237.99 71.6723C241.08 71.6723 244.45 70.4554 246.37 68.1613L252.56 74.35C249.25 77.861 243.76 79.809 237.89 79.809C226.13 79.809 216.33 72.1592 216.33 59.1908C216.33 46.2222 225.96 38.5732 237.61 38.5732C243.41 38.5732 249.47 40.8332 252.59 44.6577ZM311.39 44.5869V17.1895H301.55V78.66H310.97V72.8189H311.11C313.82 77.269 319.21 79.807 324.77 79.807C336.87 79.807 344.31 70.524 344.31 58.9809C344.31 47.4378 336.35 38.5024 325.02 38.5024C317.72 38.5024 313.72 42.0488 311.66 44.5869H311.39ZM322.76 71.6369C315.46 71.6369 311.07 65.2045 311.07 59.12C311.07 53.0356 315.46 46.4296 322.76 46.4296C330.47 46.4296 334.19 52.827 334.19 58.9461C334.19 65.0654 330.47 71.6369 322.76 71.6369ZM371.47 38.5039C383.49 38.5039 393.09 46.7092 393.09 58.9824C393.09 71.2556 383.46 79.808 371.47 79.808C359.47 79.808 349.84 71.2556 349.84 58.9824C349.84 46.7092 359.47 38.5039 371.47 38.5039ZM371.47 71.6727C379.32 71.6727 382.97 65.1016 382.97 58.9824C382.97 52.8633 379.32 46.4659 371.47 46.4659C363.61 46.4659 359.96 52.8633 359.96 58.9824C359.96 65.1016 363.61 71.6727 371.47 71.6727ZM441.73 58.9824C441.73 46.7092 432.1 38.5039 420.1 38.5039C408.11 38.5039 398.48 46.7092 398.48 58.9824C398.48 71.2556 408.11 79.808 420.1 79.808C432.1 79.808 441.73 71.2556 441.73 58.9824ZM431.62 58.9824C431.62 65.1016 427.97 71.6727 420.1 71.6727C412.25 71.6727 408.6 65.1016 408.6 58.9824C408.6 52.8633 412.25 46.4659 420.1 46.4659C427.97 46.4659 431.62 52.8633 431.62 58.9824ZM449.63 17.1895H459.5V56.0604H459.78L474.87 39.6498H487.66L470.45 57.3121L488.77 78.695H475.63L459.88 58.7028H459.6V78.695H449.63V17.1895ZM507.13 45.8053C510.78 45.8053 514.08 47.7523 515.82 50.0122L515.86 49.9775V50.047L522.33 44.4493C519.09 40.4509 513.11 38.5039 507.41 38.5039C499.55 38.5039 491.59 42.2241 491.59 50.9162C491.59 58.2523 497.43 60.5818 503.34 61.9725C509.36 63.3632 512.45 64.3368 512.45 67.5699C512.45 71.0467 508.94 72.1945 506.06 72.1945C501.74 72.1945 498.02 70.0736 495.87 67.3268L489.33 73.3416C493.12 77.514 499.52 79.774 505.64 79.774C514.36 79.774 522.22 76.297 522.22 66.7707C522.22 59.1215 515.27 56.5139 509.36 55.1232L509.135 55.0696C503.746 53.7825 500.74 53.0645 500.74 50.0122C500.74 46.9178 503.97 45.8053 507.13 45.8053Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://mailchimp.com/" target="_blank" aria-label="Link to homepage of mailchimp">
+			<svg class="logo--mailchimp" width="481" height="97" viewBox="0 0 481 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M239.76 13.626H249.74V76.765H239.76V13.626ZM225.02 30.3839C228.36 30.3839 231.11 27.6372 231.11 24.2647C231.11 20.8922 228.39 18.1455 225.02 18.1455C221.65 18.1455 218.94 20.8922 218.94 24.2647C218.94 27.6372 221.65 30.3839 225.02 30.3839ZM200.51 71.863H200.23C198.25 75.374 193.52 77.947 187.85 77.947C181.46 77.947 172.9 74.853 172.9 65.5003C172.9 53.5399 187.85 51.9057 200.3 51.9057V50.8975C200.3 45.9604 196.13 43.5266 191.16 43.5266C186.91 43.5266 182.85 45.5083 180.31 48.116L175.16 42.0316C179.65 37.8593 185.94 35.6689 192.03 35.6689C206.31 35.6689 209.79 44.5349 209.79 52.5315V76.904H200.51V71.863ZM200.37 58.7203H198.11C191.78 58.7203 182.92 59.4852 182.92 65.3955C182.92 69.2202 186.5 70.4022 189.91 70.4022C196.72 70.4022 200.37 66.5083 200.37 60.1458V58.7203ZM165.85 51.9403V77.008H155.87V54.7565C155.87 49.9933 154.79 44.0479 148.39 44.0479C142 44.0479 139.6 49.9238 139.6 55.1042V77.008H129.66V52.7747C129.66 47.8377 127.32 44.0827 122.25 44.0827C116.27 44.0827 113.52 49.6109 113.52 54.9304V76.974H103.58V36.8856H113.04V43.3178H113.17C114.91 39.4237 119.15 35.7383 125.55 35.7383C131.95 35.7383 135.77 38.8326 138.03 43.3178C140.71 38.485 145.16 35.7383 151.14 35.7383C161.5 35.7383 165.85 43.735 165.85 51.9403ZM229.78 36.8857H219.84V76.973H229.78V36.8857ZM356.55 24.4737C356.55 27.8463 353.81 30.5929 350.47 30.5929C347.09 30.5929 344.38 27.8463 344.38 24.4737C344.38 21.1012 347.09 18.3545 350.47 18.3545C353.84 18.3545 356.55 21.1012 356.55 24.4737ZM287.182 47.9219C287.195 47.9401 287.207 47.9584 287.22 47.9767L287.19 47.9419L287.08 48.0115L287.182 47.9219ZM293.9 41.9966L287.182 47.9219C285.604 45.6904 282.184 44.0827 278.98 44.0827C271.68 44.0827 268 50.6886 268 56.9469C268 63.2052 271.72 69.811 279.26 69.811C282.36 69.811 285.73 68.5598 287.64 66.1951L293.86 72.558C290.56 76.174 285.07 78.156 279.16 78.156C267.37 78.156 257.53 70.2979 257.53 56.9469C257.53 43.5959 267.16 35.7383 278.88 35.7383C284.72 35.7383 290.77 38.0678 293.9 41.9966ZM335.69 77.009H325.75V54.9658C325.75 50.2026 324.74 44.3615 318.34 44.3615C311.94 44.3615 308.96 49.8201 308.96 55.1397V77.043H299.01V13.835H308.96V42.484H309.09C310.65 39.1463 315.07 35.7042 320.98 35.7042C331.34 35.7042 335.69 43.7009 335.69 51.9062V77.009ZM355.44 36.8857H345.49V76.973H355.44V36.8857ZM427.83 51.9403V77.008H417.85V54.7565C417.85 49.9933 416.77 44.0479 410.37 44.0479C403.98 44.0479 401.58 49.9238 401.58 55.1042V77.008H391.63V52.7747C391.63 47.8377 389.3 44.0827 384.22 44.0827C378.25 44.0827 375.5 49.6109 375.5 54.9304V76.974H365.56V36.8856H375.01V43.3178H375.15C376.89 39.4237 381.13 35.7383 387.53 35.7383C393.93 35.7383 397.75 38.8326 400.01 43.3178C402.69 38.485 407.17 35.7383 413.12 35.7383C423.48 35.7383 427.83 43.735 427.83 51.9403ZM447.33 42.4839V36.8862H437.91V97H447.89V71.6201H448.03C450.56 75.618 455.64 78.121 461.21 78.121C473.3 78.121 480.78 68.5603 480.78 56.739C480.78 44.9177 472.81 35.7041 461.41 35.7041C454.08 35.7041 449.59 39.32 447.61 42.4839H447.33ZM447.4 56.9476C447.4 50.6892 451.78 43.9094 459.12 43.9094C466.87 43.9094 470.59 50.4806 470.59 56.7737C470.59 63.0668 466.87 69.8121 459.12 69.8121C451.82 69.8121 447.4 63.2058 447.4 56.9476Z" fill="white"/>
+				<path d="M44.3301 88.204C68.6601 88.204 88.3799 68.4808 88.3799 44.152C88.3799 19.8231 68.6601 0.100586 44.3301 0.100586C20.0001 0.100586 0.280029 19.8231 0.280029 44.152C0.280029 68.4808 20.0001 88.204 44.3301 88.204Z" fill="#FFE01B"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M71.2071 51.1653C71.2339 51.2618 71.2521 51.3269 71.2601 51.3527C72.1501 51.3527 73.5501 52.3863 73.5501 54.8447C73.5501 57.3031 72.5301 60.0856 72.2901 60.7045C68.6201 69.5075 59.85 74.407 49.4 74.097C39.67 73.808 31.3601 68.6693 27.7301 60.2958C25.5401 60.2958 23.2701 59.3323 21.5501 57.8053C19.7301 56.1994 18.61 54.1177 18.39 51.9483C18.22 50.2579 18.43 48.687 18.96 47.3148L16.92 45.5863C7.58001 37.7001 36.79 5.23291 46.14 13.376C46.18 13.4169 49.3102 16.4885 49.3202 16.4972C49.3302 16.4913 51.0501 15.7643 51.0601 15.7614C59.2501 12.3687 65.9 14.0067 65.91 19.4198C65.91 22.2373 64.1201 25.5191 61.2501 28.4972C62.2801 29.4636 63.1202 30.9761 63.6002 32.7016C64.0002 33.9775 64.0702 35.2739 64.1102 36.1031C64.1409 36.808 64.1716 38.0893 64.193 38.9835C64.2064 39.5449 64.2162 39.9537 64.2201 39.9717C64.2672 39.9874 64.6592 40.0959 64.9865 40.1864C65.1451 40.2303 65.2886 40.27 65.3702 40.2929C67.5702 40.9089 69.14 41.7323 69.9 42.5352C70.67 43.3381 71.04 44.1177 71.18 45.0286C71.31 45.7644 71.3002 47.0636 70.3202 48.5148C70.3202 48.5148 70.5802 49.0607 70.8202 49.8374C70.9958 50.4057 71.1339 50.9022 71.2071 51.1653ZM27.5601 58.0126C27.8901 58.0213 28.2101 58.0009 28.5301 57.9455L28.5401 57.9425C31.9501 57.3586 32.8401 53.6535 32.2701 50.0125C31.6401 45.9045 28.8601 44.4534 26.9701 44.3513C26.4501 44.325 25.9701 44.3717 25.5601 44.4534C22.1901 45.1337 20.29 47.9979 20.67 51.7206C21 55.087 24.4101 57.9279 27.5601 58.0126ZM19.93 45.4666C21.06 43.8257 22.9101 42.6374 25.0101 42.2286V42.2228C27.6801 35.0608 32.1301 28.4593 38.0301 23.9191C42.4101 20.2695 47.13 17.6505 47.13 17.6505C47.13 17.6505 44.5902 14.7015 43.8202 14.4855C39.1002 13.2096 28.9 20.2432 22.38 29.5425C19.75 33.303 15.9801 39.9629 17.7801 43.3877C18.0001 43.814 19.26 44.9031 19.93 45.4666ZM58.2201 56.3717C58.2401 56.4476 58.1802 56.5264 58.1202 56.5557V56.5644C58.1202 56.5644 54.3301 58.3279 48.2901 56.4622C48.4601 57.8753 49.8401 58.5089 50.5001 58.7659C51.3301 59.0899 52.2401 59.2389 52.2401 59.2389C59.7001 60.5235 66.6901 56.252 68.2601 55.1775C68.3801 55.0958 68.4502 55.1746 68.3602 55.3177C68.334 55.3577 68.3153 55.3868 68.3007 55.4098C68.265 55.4655 68.2526 55.485 68.2101 55.5367C66.2801 58.0184 61.11 60.8914 54.38 60.8914C51.44 60.8885 48.51 59.8549 47.44 58.2666C45.76 55.7994 47.35 52.2023 50.13 52.5761L51.3502 52.7133C54.8402 53.0987 59.8801 52.6111 64.0301 50.6841C67.8301 48.9206 69.2601 46.979 69.0501 45.4082C68.9901 44.9849 68.8 44.541 68.39 44.1235C67.71 43.4549 66.6301 42.9352 64.8001 42.4213C64.6705 42.3847 64.5498 42.351 64.4357 42.3192C64.0216 42.2035 63.6951 42.1124 63.3502 41.9979C62.5602 41.7381 62.1802 41.5308 62.0902 40.0563C62.0502 39.414 61.94 37.1658 61.9 36.2374C61.82 34.6111 61.6301 32.3863 60.2501 31.4695C59.8901 31.2301 59.4902 31.1162 59.0702 31.0928C58.7374 31.0763 58.543 31.1212 58.4335 31.1465C58.408 31.1524 58.3872 31.1573 58.3702 31.16C57.6244 31.2884 57.1619 31.6758 56.6158 32.1332C56.5907 32.1542 56.5655 32.1753 56.5401 32.1965C54.8101 33.6301 53.3601 33.8666 51.7401 33.7965C51.239 33.7752 50.7216 33.7244 50.1751 33.6708C49.6745 33.6216 49.1495 33.5701 48.5902 33.5366C48.4595 33.5303 48.3347 33.5231 48.211 33.5159C48.1075 33.51 48.0048 33.504 47.9 33.4987C45.19 33.3586 42.2901 35.6972 41.8101 39.0169C41.2657 42.7149 43.3044 44.9831 44.6316 46.4598C44.9622 46.8276 45.2486 47.1463 45.44 47.4257C45.57 47.5921 45.71 47.8287 45.71 48.0535C45.71 48.3221 45.5302 48.5352 45.3702 48.7162C42.6002 51.5542 41.7201 56.0651 42.7601 59.8257C42.9001 60.2958 43.0501 60.7454 43.2501 61.1746C45.7001 66.8799 53.27 69.537 60.67 67.1189C61.66 66.7949 62.6001 66.395 63.4801 65.9307C65.1401 65.1192 66.5901 63.9981 67.7801 62.7133C69.7501 60.6637 70.9202 58.4331 71.3702 55.6855C71.5902 54.2169 71.2602 53.6476 70.8202 53.3732C70.3502 53.0812 69.7901 53.1834 69.7901 53.1834C69.7901 53.1834 69.5301 51.4228 68.8001 49.8257C66.6501 51.525 63.8701 52.722 61.7601 53.3293C59.3101 54.0301 56.0202 54.5673 52.3302 54.3484C51.9314 54.3159 51.5589 54.2669 51.2139 54.2216C49.794 54.035 48.8384 53.9094 48.42 55.2388C53.09 56.9498 58.0401 56.217 58.0401 56.217C58.1301 56.2053 58.2201 56.2754 58.2201 56.3717ZM44.7601 23.195C42.2001 24.5001 39.3601 26.8271 37.0401 29.5016V29.4987C36.9601 29.5921 37.08 29.7264 37.18 29.6534C39.18 28.1965 41.9201 26.8447 45.5101 25.9687C49.5401 24.9877 53.4101 25.3994 55.7801 25.9425C55.8901 25.9717 55.9702 25.7644 55.8702 25.706C54.3102 24.8271 51.9 24.2315 50.2 24.2198C50.11 24.2198 50.0702 24.1235 50.1202 24.0564C50.4202 23.6622 50.82 23.2709 51.18 22.9877C51.26 22.9264 51.2202 22.7921 51.1102 22.7979C48.6802 22.9468 45.9202 24.1059 44.3302 25.1892C44.2602 25.2447 44.16 25.1746 44.18 25.0811C44.3 24.4855 44.69 23.7001 44.9 23.3322C44.94 23.2446 44.8501 23.1512 44.7601 23.195ZM59.0701 41.393C59.5201 41.3375 59.9502 41.3375 60.3502 41.393C60.5802 40.8645 60.62 39.9506 60.41 38.958C60.1 37.4806 59.6801 36.5871 58.8301 36.7273C57.9601 36.8674 57.93 37.9361 58.24 39.4134C58.41 40.2426 58.7201 40.955 59.0701 41.393ZM51.6598 42.5614L51.7486 42.6003C52.3163 42.8494 52.6673 43.0034 52.81 42.8563C52.9 42.757 52.8699 42.573 52.7199 42.3307C52.4199 41.8344 51.7898 41.3292 51.1298 41.046C49.7698 40.4621 48.1398 40.6548 46.8998 41.5541C46.4898 41.8577 46.0898 42.2753 46.1498 42.5293C46.1598 42.611 46.2298 42.6723 46.3798 42.6927C46.5128 42.7075 46.7745 42.6245 47.126 42.513C47.6725 42.3395 48.436 42.0973 49.2699 42.0475C50.2399 41.9891 51.0398 42.2898 51.6598 42.5614ZM48.8799 43.9066C49.1699 43.6584 49.6099 43.3927 50.4199 43.2672L50.4099 43.2701C51.5199 43.1387 52.33 43.6526 52.52 43.9591C52.6 44.0905 52.57 44.1752 52.55 44.216C52.4601 44.3532 52.2603 44.3299 51.8606 44.2833H51.8606L51.8601 44.2832C51.1301 44.1985 50.39 44.1518 49.27 44.5518C49.27 44.5518 48.8699 44.7154 48.6799 44.7154C48.6399 44.7154 48.59 44.6978 48.55 44.6657L48.5479 44.6632C48.5273 44.6392 48.49 44.5957 48.49 44.5197C48.49 44.3533 48.6399 44.1197 48.8799 43.9066ZM56.56 45.8684C57.11 46.137 57.7099 46.0319 57.9099 45.6319C58.0999 45.2348 57.82 44.6946 57.27 44.4261C56.72 44.1574 56.1199 44.2625 55.9299 44.6625C55.7299 45.0597 56.02 45.5998 56.56 45.8684ZM59.25 43.889C59.26 43.2817 59.63 42.7941 60.07 42.8029C60.52 42.8116 60.8701 43.3109 60.8601 43.9182C60.8501 44.5255 60.48 45.0131 60.04 45.0043C59.59 44.9956 59.24 44.4963 59.25 43.889ZM30.29 53.7668C30.18 53.6296 29.9901 53.6704 29.8201 53.7113C29.7001 53.7405 29.5599 53.7727 29.4099 53.7697C29.0799 53.7639 28.8099 53.6237 28.6499 53.3872C28.4499 53.0778 28.4599 52.6135 28.6899 52.0851C28.7081 52.0215 28.7428 51.9482 28.779 51.8718L28.79 51.8485C29.15 51.0515 29.7401 49.7142 29.0701 48.4441C28.5701 47.4865 27.75 46.8909 26.76 46.7654C25.82 46.6456 24.84 46.996 24.22 47.6821C23.24 48.7653 23.08 50.2369 23.28 50.7566C23.34 50.9463 23.45 50.9989 23.53 51.0106C23.69 51.0339 23.9501 50.9113 24.1001 50.4967C24.1042 50.4846 24.1101 50.4695 24.1169 50.4518L24.1169 50.4517C24.1266 50.4267 24.1382 50.3966 24.1499 50.3624C24.2099 50.1434 24.3401 49.7317 24.5501 49.4047C24.8001 49.0077 25.1999 48.7361 25.6599 48.6368C26.1299 48.5347 26.62 48.6252 27.02 48.8909C27.71 49.3405 27.9699 50.1814 27.6799 50.9872C27.5199 51.4018 27.2801 52.196 27.3301 52.85C27.4401 54.1727 28.25 54.7011 28.99 54.7595C29.69 54.7858 30.1901 54.3887 30.3201 54.0967C30.3901 53.9245 30.33 53.8194 30.29 53.7755V53.7668Z" fill="black"/>
+			</svg>
+		</a>
+	</div>
+
+</div>
+
+				<nav>
+					<div class="menu-social-menu-container"><ul id="menu-social-menu" class="menu footer__social"><li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15"><a href="https://www.facebook.com/CreditKarma">Facebook</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="https://twitter.com/CreditKarmaEng">Twitter</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18"><a href="https://linkedin.com/company/credit-karma/">LinkedIn</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19"><a href="http://itunes.apple.com/us/app/credit-karma-mobile-free-credit/id519817714?ls=1&#038;mt=8">iOS</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20"><a href="https://play.google.com/store/apps/details?id=com.creditkarma.mobile">Android</a></li>
+</ul></div>					<!-- / footer__social -->
+
+					<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu footer__links"><li id="menu-item-11" class="ga-hiring-page menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="https://www.creditkarma.com/careers">Careers</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12"><a href="https://www.creditkarma.com/about">About Credit Karma</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13"><a href="https://www.creditkarma.com/about/press">In The News</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14"><a href="https://www.creditkarma.com/about/privacy">Privacy Policy</a></li>
+</ul></div>					<!-- / footer__links -->
+				</nav>
+
+				<div class="footer__colophon">
+					<p>
+						© 2007–2023 Credit Karma, Inc. Credit Karma™ is a registered trademark of Credit Karma, Inc. All Rights Reserved. Product name, logo, brands, and other trademarks featured or referred to within Credit Karma are the property of their respective trademark holders. This site may be compensated through third party advertisers.					</p>
+					<p>iPhone is a trademark of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+					<p>Android is a trademark of Google Inc.</p>
+					<p>The Equifax logo is a registered trademark owned by Equifax in the United States and other countries.</p>
+					<p>Mortgage products and services offered through Credit Karma Mortgage, Inc. NMLS ID# 1588622 | Licenses | NMLS Consumer Access</p>
+					<p>Loan services offered through Credit Karma Offers, Inc., NMLS ID# 1628077 | Licenses | NMLS Consumer Access . California loans arranged pursuant to a California Financing Law license.</p>
+					<p>Insurance services offered through Credit Karma Insurance Services, LLC (dba Karma Insurance Services, LLC; CA resident license #0172748).</p>
+					<p>The Credit Karma site is not authorized by the New York State Department of Financial Services. No mortgage solicitation activity or loan applications for properties located in the State of New York can be facilitated through this site. Credit Karma Offers, Inc. is not licensed by the New York Department of Financial Services.</p>
+				</div>
+				<!-- / footer__colophon -->
+
+				
+<div class="footer-logos footer-logos--mobile">
+	<div class="footer-logos__primary">
+		<a href="https://www.intuit.com/" target="_blank" aria-label="Link to homepage of intuit">
+			<svg class="logo--intuit" width="138" height="29" viewBox="0 0 138 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M70.8131 16.5745C70.8131 23.5575 76.4076 28.6476 83.5161 28.6476C90.6251 28.6476 96.219 23.5575 96.219 16.5745V0.567927H89.3419V15.7541C89.3419 19.5191 86.8185 22.0431 83.4952 22.0431C80.1722 22.0431 77.6479 19.5191 77.6479 15.7541V0.567927H70.7708L70.8131 16.5745ZM114.621 6.96203H122.845V28.1217H129.722V6.98308H137.945V0.546878H114.643V6.96203H114.621ZM110.163 0.546878H103.286V28.1217H110.163V0.546878ZM42.9879 6.96203H51.2114V28.1217H58.0887V6.98308H66.2915V0.546878H42.9879V6.96203ZM6.87711 0.546878H0V28.1217H6.87711V0.546878ZM39.371 12.0732C39.371 5.09012 33.7764 0 26.6681 0C19.559 0 13.9643 5.09012 13.9643 12.0732V28.1217H20.8426V12.9356C20.8426 9.17063 23.3661 6.64662 26.6888 6.64662C30.0119 6.64662 32.5354 9.17063 32.5354 12.9356V28.1217H39.4134L39.371 12.0732Z" fill="white"/>
+			</svg>
+		</a>
+	</div>
+
+	<div class="footer-logos__list">
+		<a href="https://turbotax.intuit.com/" target="_blank" aria-label="Link to homepage of turbotax">
+			<svg class="logo--turbotax" width="417" height="89" viewBox="0 0 417 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M44.9551 88.822C69.2841 88.822 89.0071 69.0989 89.0071 44.7702C89.0071 20.4413 69.2841 0.718811 44.9551 0.718811C20.6261 0.718811 0.904053 20.4413 0.904053 44.7702C0.904053 69.0989 20.6261 88.822 44.9551 88.822Z" fill="#D52B1E"/>
+				<path d="M35.186 60.8344C30.04 57.1837 25.207 53.2896 20.548 49.1175C18.845 52.7681 17.3851 56.6621 15.9241 60.591C23.2601 66.9186 33.2391 74.011 40.0881 78.149C48.8491 55.48 62.549 40.5644 75.691 30.0992C73.987 26.4485 71.7971 23.2498 68.8411 20.6074C54.9341 31.3161 43.461 44.98 35.186 60.8344Z" fill="white"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M216.781 43.7611V15.877H206.975V78.529H216.398V72.5494H216.535C219.212 77.069 224.602 79.642 230.163 79.642C242.263 79.642 249.708 70.1847 249.708 58.4334C249.708 46.6817 241.743 37.5724 230.409 37.5724C223.109 37.5724 219.11 41.1883 217.055 43.7611H216.781ZM216.466 58.5724C216.466 52.3837 220.849 45.6734 228.149 45.6734C235.867 45.6734 239.586 52.2098 239.586 58.4334C239.586 64.6568 235.867 71.3325 228.149 71.3325C220.883 71.3325 216.466 64.7609 216.466 58.5724ZM99.819 38.7545V46.6816V46.7163H106.771V65.2478C106.771 72.8274 109.175 79.294 119.707 79.294C121.899 79.294 124.576 78.877 126.316 78.216L125.967 70.4284C124.85 70.9845 123.077 71.2626 121.755 71.2626C117.379 71.2626 116.543 68.7246 116.543 65.1437V46.6816H126.487V38.7545H116.543V27.2461H106.771V38.7545H99.819ZM158.75 78.459H168.173V38.7189H158.229V60.5535C158.229 65.8381 155.312 71.2968 148.95 71.2968C142.588 71.2968 141.506 65.3861 141.506 60.6925V38.6494H131.597V63.5087C131.597 71.6447 135.945 79.572 146.272 79.572C152.148 79.572 156.873 76.06 158.613 72.0618H158.75V78.459ZM187.711 38.7202V45.3262H187.854C190.012 40.7715 194.251 37.5381 199.428 37.5381C200.195 37.5381 201.167 37.6077 201.832 37.8163V46.9256C200.51 46.5779 199.674 46.5083 198.736 46.5083C189.799 46.5083 188.06 54.2964 188.06 57.1822V78.461H178.116V38.7202H187.676H187.711ZM276.827 37.5732C288.82 37.5732 298.45 45.9176 298.45 58.4342C298.45 70.9511 288.82 79.643 276.827 79.643C264.829 79.643 255.2 70.9511 255.2 58.4342C255.2 45.9176 264.795 37.5732 276.827 37.5732ZM276.827 71.3332C284.68 71.3332 288.33 64.6575 288.33 58.4342C288.33 52.2106 284.68 45.6742 276.827 45.6742C268.965 45.6742 265.315 52.2106 265.315 58.4342C265.315 64.6575 268.965 71.3332 276.827 71.3332ZM300.78 38.7545V46.6816V46.7163H307.73V65.2478C307.73 72.8274 310.14 79.294 320.67 79.294C322.86 79.294 325.54 78.877 327.27 78.216L326.93 70.4284C325.81 70.9845 324.04 71.2626 322.72 71.2626C318.34 71.2626 317.5 68.7246 317.5 65.1437V46.6816H327.45V38.7545H317.5V27.2461H307.73V38.7545H300.78ZM358.42 73.384H358.18C356.2 76.896 351.51 79.434 345.84 79.434C339.44 79.434 330.96 76.374 330.96 67.0912C330.96 55.2351 345.84 53.6011 358.29 53.6011V52.6275C358.29 47.7252 354.15 45.3262 349.18 45.3262C344.97 45.3262 340.91 47.308 338.36 49.8808L333.22 43.8312C337.71 39.6937 343.96 37.5381 350.01 37.5381C364.26 37.5381 367.71 46.2997 367.71 54.2616V78.426H358.42V73.384ZM358.32 60.3461H356.09C349.8 60.3461 340.94 61.111 340.94 66.9522C340.94 70.742 344.52 71.924 347.89 71.924C354.7 71.924 358.35 68.0644 358.35 61.7368V60.3461H358.32ZM374.07 38.7549L388.4 57.356H388.43L372.3 78.46H384.05L394.51 63.9967L404.84 78.46H416.91L400.67 57.356L414.93 38.7549H403.48L394.62 51.0976L385.99 38.7549H374.07Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://creditkarma.com/" aria-label="Link to homepage of creditkarma">
+			<svg class="logo--creditkarma" width="534" height="89" viewBox="0 0 534 89" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M252.86 16H243.02V43.634H242.78C240.73 41.092 236.79 37.484 229.58 37.484C218.34 37.484 210.47 46.504 210.47 58.148C210.47 69.628 217.85 79.14 229.82 79.14C235.32 79.14 240.65 76.598 243.35 72.088H243.52V77.992H252.86V16ZM220.47 58.148C220.47 51.998 224.16 45.52 231.79 45.52C239.01 45.52 243.35 52.162 243.35 58.312C243.35 64.462 239.01 70.94 231.79 70.94C224.16 70.94 220.47 64.298 220.47 58.148ZM134.92 43.634C131.8 39.78 125.81 37.484 120.07 37.484C108.51 37.484 99 45.52 99 58.312C99 71.432 108.68 79.14 120.32 79.14C126.14 79.14 131.55 77.172 134.83 73.646L128.68 67.414C126.8 69.71 123.44 70.94 120.4 70.94C112.94 70.94 109.25 64.462 109.25 58.312C109.25 52.162 112.86 45.684 120.07 45.684C123.27 45.684 126.63 47.324 128.19 49.538L134.92 43.634ZM140.34 77.992H150.18V56.918C150.18 54.048 151.9 46.34 160.75 46.34C161.66 46.34 162.48 46.422 163.79 46.75V37.73C163.13 37.566 162.15 37.484 161.41 37.484C156.24 37.484 152.06 40.682 149.93 45.192H149.77V38.632H140.34V77.992ZM186.21 44.864C180.39 44.864 175.72 48.882 175.31 54.376H195.48C195.48 49.292 192.61 44.864 186.21 44.864ZM186.29 37.484C197.28 37.484 205.32 44.618 205.32 58.804C205.32 59.706 205.32 60.526 205.24 61.428H175.31C175.72 67.004 180.8 71.104 186.54 71.104C191.46 71.104 194.74 69.136 196.95 66.02L203.51 71.268C199.66 76.516 194.08 79.14 186.62 79.14C174.49 79.14 165.47 71.35 165.47 58.558C165.47 45.848 174.4 37.484 186.29 37.484ZM272.82 77.992H262.98V38.632H272.82V77.992ZM267.82 31.17C264.21 31.17 261.59 28.382 261.59 25.266C261.59 22.15 264.21 19.362 267.82 19.362C271.43 19.362 274.22 21.904 274.22 25.266C274.22 28.628 271.43 31.17 267.82 31.17ZM286.99 46.504V64.872C286.99 72.416 289.37 78.812 299.78 78.812C302 78.812 304.62 78.402 306.34 77.746L306.01 70.038C304.87 70.612 303.14 70.858 301.83 70.858C297.49 70.858 296.67 68.316 296.67 64.79V46.504H306.51V38.632H296.67V27.234H286.99V38.632H280.1V46.504H286.99ZM323.63 77.992H313.79V16H323.63V55.196H323.88L338.8 38.632H351.43L334.37 56.426L352.5 77.992H339.46L323.88 57.82H323.63V77.992ZM381.11 77.992H390.29V54.048C390.29 46.176 386.85 37.484 372.74 37.484C366.76 37.484 360.52 39.616 356.1 43.716L361.18 49.702C363.72 47.16 367.74 45.192 371.92 45.192C376.84 45.192 380.94 47.57 380.94 52.408V53.392C368.64 53.392 353.88 55.032 353.88 66.758C353.88 75.942 362.33 78.976 368.64 78.976C374.22 78.976 378.89 76.434 380.86 72.99H381.11V77.992ZM380.94 61.428C380.94 67.66 377.33 71.514 370.61 71.514C367.25 71.514 363.72 70.366 363.72 66.594C363.72 60.772 372.5 60.034 378.73 60.034H380.94V61.428ZM408.59 77.992H398.75V38.632H408.18V45.192H408.35C410.48 40.682 414.66 37.484 419.83 37.484C420.57 37.484 421.55 37.566 422.21 37.73V46.75C420.89 46.422 420.07 46.34 419.17 46.34C410.32 46.34 408.59 54.048 408.59 56.918V77.992ZM476.61 37.484C470.71 37.484 466.28 40.19 463.65 44.946C461.44 40.518 457.42 37.484 451.35 37.484C445.04 37.484 440.86 41.092 439.14 44.946H438.97V38.632H429.62V77.992H439.46V56.344C439.46 51.096 442.17 45.684 448.07 45.684C453.08 45.684 455.37 49.374 455.37 54.212V77.992H465.21V56.508C465.21 51.424 467.75 45.684 473.9 45.684C480.22 45.684 481.28 51.506 481.28 56.18V77.992H491.12V53.392C491.12 45.356 486.86 37.484 476.61 37.484ZM533.2 77.992H524.01V72.99H523.77C521.8 76.434 517.12 78.976 511.55 78.976C505.23 78.976 496.79 75.942 496.79 66.758C496.79 55.032 511.55 53.392 523.85 53.392V52.408C523.85 47.57 519.75 45.192 514.83 45.192C510.65 45.192 506.63 47.16 504.09 49.702L499 43.716C503.43 39.616 509.66 37.484 515.65 37.484C529.75 37.484 533.2 46.176 533.2 54.048V77.992ZM513.52 71.514C520.24 71.514 523.85 67.66 523.85 61.428V60.034H521.63C515.4 60.034 506.63 60.772 506.63 66.594C506.63 70.366 510.15 71.514 513.52 71.514Z" fill="white"/>
+				<path d="M44.05 88.1C68.38 88.1 88.1 68.3781 88.1 44.05C88.1 19.7219 68.38 0 44.05 0C19.72 0 0 19.7219 0 44.05C0 68.3781 19.72 88.1 44.05 88.1Z" fill="#008600"/>
+				<path d="M21.83 48.4656C21.83 40.8863 25.48 36.9924 31.36 36.9924C35.74 36.9924 38.4501 38.696 39.4301 39.1828C40.1601 38.4527 40.64 37.2358 40.64 36.0189C40.64 33.8286 38.21 31.6383 31.12 31.6383C22.81 31.6383 15.75 37.4792 15.75 48.4656C15.75 59.452 22.11 65.2929 30.39 65.2929C35.5 65.2929 39.43 63.5893 40.64 63.1026V57.0183C39.43 57.9918 35.29 59.9388 31.36 59.9388C26.01 59.9388 21.83 56.0448 21.83 48.4656ZM62.34 48.2222C65.99 43.8415 69.43 38.696 71.86 32.125L66.51 30.1781C63.1 39.4609 57.96 45.7885 51.87 50.9341V18.9482H46.03V64.5976H51.87V57.7484C54.06 56.0448 56.01 54.3413 58.23 52.3943L63.59 61.6771C64.81 63.8675 66.7501 65.0843 69.4301 65.0843C70.8901 65.0843 71.86 64.5976 72.11 64.3542L62.34 48.257V48.2222Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://quickbooks.intuit.com/" target="_blank" aria-label="Link to homepage of quickbooks">
+			<svg class="logo--quickbooks" width="523" height="99" viewBox="0 0 523 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M44.4698 89.022C68.7998 89.022 88.5199 69.2995 88.5199 44.9704C88.5199 20.6415 68.7998 0.918884 44.4698 0.918884C20.1398 0.918884 0.419922 20.6415 0.419922 44.9704C0.419922 69.2995 20.1398 89.022 44.4698 89.022Z" fill="#2CA01C"/>
+				<path d="M12.6899 44.9707C12.6899 54.2886 20.27 61.729 29.76 61.729H32.1899V55.5055H29.76C23.92 55.5055 19.05 50.7422 19.05 44.9707C19.05 39.1992 23.92 34.4359 29.76 34.4359H35.6V67.0137C35.6 70.3865 38.52 73.2374 41.97 73.2374V28.1776H29.76C20.27 28.1776 12.6899 35.6181 12.6899 44.936V44.9707ZM59.0699 28.2124H56.64V34.4359H59.0699C64.9099 34.4359 69.78 39.1992 69.78 44.9707C69.78 50.7422 64.9099 55.5055 59.0699 55.5055H53.23V22.9276C53.23 19.5551 50.31 16.7041 46.87 16.7041V61.729H59.0699C68.5599 61.729 76.15 54.2886 76.15 44.9707C76.15 35.6528 68.5599 28.2124 59.0699 28.2124Z" fill="white"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M257.71 17.1895H267.61V56.0604H267.85L282.95 39.6498H295.71L278.5 57.3121L296.82 78.695H283.67L267.92 58.7028H267.68V78.695H257.71V17.1895ZM132.47 98.131H142.37L142.45 98.166H142.52V39.6161H132.99V45.0747H132.75C130.73 41.9803 126.28 38.4688 118.98 38.4688C107.61 38.4688 99.6499 47.5433 99.6499 58.9473C99.6499 70.3514 107.09 79.773 119.19 79.773C124.71 79.773 129.75 77.374 132.33 73.4454H132.47V98.131ZM132.78 59.0863C132.78 65.1708 128.4 71.6032 121.1 71.6032C113.38 71.6032 109.66 65.0317 109.66 58.9125C109.66 52.7932 113.38 46.3959 121.1 46.3959C128.4 46.3959 132.78 53.0019 132.78 59.0863ZM179.33 78.626H188.76L188.79 78.557V39.5469H178.81V60.9989C178.81 66.1796 175.9 71.5685 169.53 71.5685C163.17 71.5685 162.09 65.7968 162.09 61.1727V39.5469H152.18V63.9542C152.18 71.9506 156.53 79.739 166.86 79.739C172.73 79.739 177.46 76.297 179.2 72.3683H179.33V78.626ZM198.87 39.6162H208.86V78.626H198.87V39.6162ZM245.873 50.4192L245.88 50.4292L245.78 50.4987L245.873 50.4192ZM252.59 44.6577L245.873 50.4192C244.31 48.2339 240.905 46.6394 237.67 46.6394C230.37 46.6394 226.72 53.0368 226.72 59.1561C226.72 65.2753 230.44 71.6723 237.99 71.6723C241.08 71.6723 244.45 70.4554 246.37 68.1613L252.56 74.35C249.25 77.861 243.76 79.809 237.89 79.809C226.13 79.809 216.33 72.1592 216.33 59.1908C216.33 46.2222 225.96 38.5732 237.61 38.5732C243.41 38.5732 249.47 40.8332 252.59 44.6577ZM311.39 44.5869V17.1895H301.55V78.66H310.97V72.8189H311.11C313.82 77.269 319.21 79.807 324.77 79.807C336.87 79.807 344.31 70.524 344.31 58.9809C344.31 47.4378 336.35 38.5024 325.02 38.5024C317.72 38.5024 313.72 42.0488 311.66 44.5869H311.39ZM322.76 71.6369C315.46 71.6369 311.07 65.2045 311.07 59.12C311.07 53.0356 315.46 46.4296 322.76 46.4296C330.47 46.4296 334.19 52.827 334.19 58.9461C334.19 65.0654 330.47 71.6369 322.76 71.6369ZM371.47 38.5039C383.49 38.5039 393.09 46.7092 393.09 58.9824C393.09 71.2556 383.46 79.808 371.47 79.808C359.47 79.808 349.84 71.2556 349.84 58.9824C349.84 46.7092 359.47 38.5039 371.47 38.5039ZM371.47 71.6727C379.32 71.6727 382.97 65.1016 382.97 58.9824C382.97 52.8633 379.32 46.4659 371.47 46.4659C363.61 46.4659 359.96 52.8633 359.96 58.9824C359.96 65.1016 363.61 71.6727 371.47 71.6727ZM441.73 58.9824C441.73 46.7092 432.1 38.5039 420.1 38.5039C408.11 38.5039 398.48 46.7092 398.48 58.9824C398.48 71.2556 408.11 79.808 420.1 79.808C432.1 79.808 441.73 71.2556 441.73 58.9824ZM431.62 58.9824C431.62 65.1016 427.97 71.6727 420.1 71.6727C412.25 71.6727 408.6 65.1016 408.6 58.9824C408.6 52.8633 412.25 46.4659 420.1 46.4659C427.97 46.4659 431.62 52.8633 431.62 58.9824ZM449.63 17.1895H459.5V56.0604H459.78L474.87 39.6498H487.66L470.45 57.3121L488.77 78.695H475.63L459.88 58.7028H459.6V78.695H449.63V17.1895ZM507.13 45.8053C510.78 45.8053 514.08 47.7523 515.82 50.0122L515.86 49.9775V50.047L522.33 44.4493C519.09 40.4509 513.11 38.5039 507.41 38.5039C499.55 38.5039 491.59 42.2241 491.59 50.9162C491.59 58.2523 497.43 60.5818 503.34 61.9725C509.36 63.3632 512.45 64.3368 512.45 67.5699C512.45 71.0467 508.94 72.1945 506.06 72.1945C501.74 72.1945 498.02 70.0736 495.87 67.3268L489.33 73.3416C493.12 77.514 499.52 79.774 505.64 79.774C514.36 79.774 522.22 76.297 522.22 66.7707C522.22 59.1215 515.27 56.5139 509.36 55.1232L509.135 55.0696C503.746 53.7825 500.74 53.0645 500.74 50.0122C500.74 46.9178 503.97 45.8053 507.13 45.8053Z" fill="white"/>
+			</svg>
+		</a>
+
+		<a href="https://mailchimp.com/" target="_blank" aria-label="Link to homepage of mailchimp">
+			<svg class="logo--mailchimp" width="481" height="97" viewBox="0 0 481 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M239.76 13.626H249.74V76.765H239.76V13.626ZM225.02 30.3839C228.36 30.3839 231.11 27.6372 231.11 24.2647C231.11 20.8922 228.39 18.1455 225.02 18.1455C221.65 18.1455 218.94 20.8922 218.94 24.2647C218.94 27.6372 221.65 30.3839 225.02 30.3839ZM200.51 71.863H200.23C198.25 75.374 193.52 77.947 187.85 77.947C181.46 77.947 172.9 74.853 172.9 65.5003C172.9 53.5399 187.85 51.9057 200.3 51.9057V50.8975C200.3 45.9604 196.13 43.5266 191.16 43.5266C186.91 43.5266 182.85 45.5083 180.31 48.116L175.16 42.0316C179.65 37.8593 185.94 35.6689 192.03 35.6689C206.31 35.6689 209.79 44.5349 209.79 52.5315V76.904H200.51V71.863ZM200.37 58.7203H198.11C191.78 58.7203 182.92 59.4852 182.92 65.3955C182.92 69.2202 186.5 70.4022 189.91 70.4022C196.72 70.4022 200.37 66.5083 200.37 60.1458V58.7203ZM165.85 51.9403V77.008H155.87V54.7565C155.87 49.9933 154.79 44.0479 148.39 44.0479C142 44.0479 139.6 49.9238 139.6 55.1042V77.008H129.66V52.7747C129.66 47.8377 127.32 44.0827 122.25 44.0827C116.27 44.0827 113.52 49.6109 113.52 54.9304V76.974H103.58V36.8856H113.04V43.3178H113.17C114.91 39.4237 119.15 35.7383 125.55 35.7383C131.95 35.7383 135.77 38.8326 138.03 43.3178C140.71 38.485 145.16 35.7383 151.14 35.7383C161.5 35.7383 165.85 43.735 165.85 51.9403ZM229.78 36.8857H219.84V76.973H229.78V36.8857ZM356.55 24.4737C356.55 27.8463 353.81 30.5929 350.47 30.5929C347.09 30.5929 344.38 27.8463 344.38 24.4737C344.38 21.1012 347.09 18.3545 350.47 18.3545C353.84 18.3545 356.55 21.1012 356.55 24.4737ZM287.182 47.9219C287.195 47.9401 287.207 47.9584 287.22 47.9767L287.19 47.9419L287.08 48.0115L287.182 47.9219ZM293.9 41.9966L287.182 47.9219C285.604 45.6904 282.184 44.0827 278.98 44.0827C271.68 44.0827 268 50.6886 268 56.9469C268 63.2052 271.72 69.811 279.26 69.811C282.36 69.811 285.73 68.5598 287.64 66.1951L293.86 72.558C290.56 76.174 285.07 78.156 279.16 78.156C267.37 78.156 257.53 70.2979 257.53 56.9469C257.53 43.5959 267.16 35.7383 278.88 35.7383C284.72 35.7383 290.77 38.0678 293.9 41.9966ZM335.69 77.009H325.75V54.9658C325.75 50.2026 324.74 44.3615 318.34 44.3615C311.94 44.3615 308.96 49.8201 308.96 55.1397V77.043H299.01V13.835H308.96V42.484H309.09C310.65 39.1463 315.07 35.7042 320.98 35.7042C331.34 35.7042 335.69 43.7009 335.69 51.9062V77.009ZM355.44 36.8857H345.49V76.973H355.44V36.8857ZM427.83 51.9403V77.008H417.85V54.7565C417.85 49.9933 416.77 44.0479 410.37 44.0479C403.98 44.0479 401.58 49.9238 401.58 55.1042V77.008H391.63V52.7747C391.63 47.8377 389.3 44.0827 384.22 44.0827C378.25 44.0827 375.5 49.6109 375.5 54.9304V76.974H365.56V36.8856H375.01V43.3178H375.15C376.89 39.4237 381.13 35.7383 387.53 35.7383C393.93 35.7383 397.75 38.8326 400.01 43.3178C402.69 38.485 407.17 35.7383 413.12 35.7383C423.48 35.7383 427.83 43.735 427.83 51.9403ZM447.33 42.4839V36.8862H437.91V97H447.89V71.6201H448.03C450.56 75.618 455.64 78.121 461.21 78.121C473.3 78.121 480.78 68.5603 480.78 56.739C480.78 44.9177 472.81 35.7041 461.41 35.7041C454.08 35.7041 449.59 39.32 447.61 42.4839H447.33ZM447.4 56.9476C447.4 50.6892 451.78 43.9094 459.12 43.9094C466.87 43.9094 470.59 50.4806 470.59 56.7737C470.59 63.0668 466.87 69.8121 459.12 69.8121C451.82 69.8121 447.4 63.2058 447.4 56.9476Z" fill="white"/>
+				<path d="M44.3301 88.204C68.6601 88.204 88.3799 68.4808 88.3799 44.152C88.3799 19.8231 68.6601 0.100586 44.3301 0.100586C20.0001 0.100586 0.280029 19.8231 0.280029 44.152C0.280029 68.4808 20.0001 88.204 44.3301 88.204Z" fill="#FFE01B"/>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M71.2071 51.1653C71.2339 51.2618 71.2521 51.3269 71.2601 51.3527C72.1501 51.3527 73.5501 52.3863 73.5501 54.8447C73.5501 57.3031 72.5301 60.0856 72.2901 60.7045C68.6201 69.5075 59.85 74.407 49.4 74.097C39.67 73.808 31.3601 68.6693 27.7301 60.2958C25.5401 60.2958 23.2701 59.3323 21.5501 57.8053C19.7301 56.1994 18.61 54.1177 18.39 51.9483C18.22 50.2579 18.43 48.687 18.96 47.3148L16.92 45.5863C7.58001 37.7001 36.79 5.23291 46.14 13.376C46.18 13.4169 49.3102 16.4885 49.3202 16.4972C49.3302 16.4913 51.0501 15.7643 51.0601 15.7614C59.2501 12.3687 65.9 14.0067 65.91 19.4198C65.91 22.2373 64.1201 25.5191 61.2501 28.4972C62.2801 29.4636 63.1202 30.9761 63.6002 32.7016C64.0002 33.9775 64.0702 35.2739 64.1102 36.1031C64.1409 36.808 64.1716 38.0893 64.193 38.9835C64.2064 39.5449 64.2162 39.9537 64.2201 39.9717C64.2672 39.9874 64.6592 40.0959 64.9865 40.1864C65.1451 40.2303 65.2886 40.27 65.3702 40.2929C67.5702 40.9089 69.14 41.7323 69.9 42.5352C70.67 43.3381 71.04 44.1177 71.18 45.0286C71.31 45.7644 71.3002 47.0636 70.3202 48.5148C70.3202 48.5148 70.5802 49.0607 70.8202 49.8374C70.9958 50.4057 71.1339 50.9022 71.2071 51.1653ZM27.5601 58.0126C27.8901 58.0213 28.2101 58.0009 28.5301 57.9455L28.5401 57.9425C31.9501 57.3586 32.8401 53.6535 32.2701 50.0125C31.6401 45.9045 28.8601 44.4534 26.9701 44.3513C26.4501 44.325 25.9701 44.3717 25.5601 44.4534C22.1901 45.1337 20.29 47.9979 20.67 51.7206C21 55.087 24.4101 57.9279 27.5601 58.0126ZM19.93 45.4666C21.06 43.8257 22.9101 42.6374 25.0101 42.2286V42.2228C27.6801 35.0608 32.1301 28.4593 38.0301 23.9191C42.4101 20.2695 47.13 17.6505 47.13 17.6505C47.13 17.6505 44.5902 14.7015 43.8202 14.4855C39.1002 13.2096 28.9 20.2432 22.38 29.5425C19.75 33.303 15.9801 39.9629 17.7801 43.3877C18.0001 43.814 19.26 44.9031 19.93 45.4666ZM58.2201 56.3717C58.2401 56.4476 58.1802 56.5264 58.1202 56.5557V56.5644C58.1202 56.5644 54.3301 58.3279 48.2901 56.4622C48.4601 57.8753 49.8401 58.5089 50.5001 58.7659C51.3301 59.0899 52.2401 59.2389 52.2401 59.2389C59.7001 60.5235 66.6901 56.252 68.2601 55.1775C68.3801 55.0958 68.4502 55.1746 68.3602 55.3177C68.334 55.3577 68.3153 55.3868 68.3007 55.4098C68.265 55.4655 68.2526 55.485 68.2101 55.5367C66.2801 58.0184 61.11 60.8914 54.38 60.8914C51.44 60.8885 48.51 59.8549 47.44 58.2666C45.76 55.7994 47.35 52.2023 50.13 52.5761L51.3502 52.7133C54.8402 53.0987 59.8801 52.6111 64.0301 50.6841C67.8301 48.9206 69.2601 46.979 69.0501 45.4082C68.9901 44.9849 68.8 44.541 68.39 44.1235C67.71 43.4549 66.6301 42.9352 64.8001 42.4213C64.6705 42.3847 64.5498 42.351 64.4357 42.3192C64.0216 42.2035 63.6951 42.1124 63.3502 41.9979C62.5602 41.7381 62.1802 41.5308 62.0902 40.0563C62.0502 39.414 61.94 37.1658 61.9 36.2374C61.82 34.6111 61.6301 32.3863 60.2501 31.4695C59.8901 31.2301 59.4902 31.1162 59.0702 31.0928C58.7374 31.0763 58.543 31.1212 58.4335 31.1465C58.408 31.1524 58.3872 31.1573 58.3702 31.16C57.6244 31.2884 57.1619 31.6758 56.6158 32.1332C56.5907 32.1542 56.5655 32.1753 56.5401 32.1965C54.8101 33.6301 53.3601 33.8666 51.7401 33.7965C51.239 33.7752 50.7216 33.7244 50.1751 33.6708C49.6745 33.6216 49.1495 33.5701 48.5902 33.5366C48.4595 33.5303 48.3347 33.5231 48.211 33.5159C48.1075 33.51 48.0048 33.504 47.9 33.4987C45.19 33.3586 42.2901 35.6972 41.8101 39.0169C41.2657 42.7149 43.3044 44.9831 44.6316 46.4598C44.9622 46.8276 45.2486 47.1463 45.44 47.4257C45.57 47.5921 45.71 47.8287 45.71 48.0535C45.71 48.3221 45.5302 48.5352 45.3702 48.7162C42.6002 51.5542 41.7201 56.0651 42.7601 59.8257C42.9001 60.2958 43.0501 60.7454 43.2501 61.1746C45.7001 66.8799 53.27 69.537 60.67 67.1189C61.66 66.7949 62.6001 66.395 63.4801 65.9307C65.1401 65.1192 66.5901 63.9981 67.7801 62.7133C69.7501 60.6637 70.9202 58.4331 71.3702 55.6855C71.5902 54.2169 71.2602 53.6476 70.8202 53.3732C70.3502 53.0812 69.7901 53.1834 69.7901 53.1834C69.7901 53.1834 69.5301 51.4228 68.8001 49.8257C66.6501 51.525 63.8701 52.722 61.7601 53.3293C59.3101 54.0301 56.0202 54.5673 52.3302 54.3484C51.9314 54.3159 51.5589 54.2669 51.2139 54.2216C49.794 54.035 48.8384 53.9094 48.42 55.2388C53.09 56.9498 58.0401 56.217 58.0401 56.217C58.1301 56.2053 58.2201 56.2754 58.2201 56.3717ZM44.7601 23.195C42.2001 24.5001 39.3601 26.8271 37.0401 29.5016V29.4987C36.9601 29.5921 37.08 29.7264 37.18 29.6534C39.18 28.1965 41.9201 26.8447 45.5101 25.9687C49.5401 24.9877 53.4101 25.3994 55.7801 25.9425C55.8901 25.9717 55.9702 25.7644 55.8702 25.706C54.3102 24.8271 51.9 24.2315 50.2 24.2198C50.11 24.2198 50.0702 24.1235 50.1202 24.0564C50.4202 23.6622 50.82 23.2709 51.18 22.9877C51.26 22.9264 51.2202 22.7921 51.1102 22.7979C48.6802 22.9468 45.9202 24.1059 44.3302 25.1892C44.2602 25.2447 44.16 25.1746 44.18 25.0811C44.3 24.4855 44.69 23.7001 44.9 23.3322C44.94 23.2446 44.8501 23.1512 44.7601 23.195ZM59.0701 41.393C59.5201 41.3375 59.9502 41.3375 60.3502 41.393C60.5802 40.8645 60.62 39.9506 60.41 38.958C60.1 37.4806 59.6801 36.5871 58.8301 36.7273C57.9601 36.8674 57.93 37.9361 58.24 39.4134C58.41 40.2426 58.7201 40.955 59.0701 41.393ZM51.6598 42.5614L51.7486 42.6003C52.3163 42.8494 52.6673 43.0034 52.81 42.8563C52.9 42.757 52.8699 42.573 52.7199 42.3307C52.4199 41.8344 51.7898 41.3292 51.1298 41.046C49.7698 40.4621 48.1398 40.6548 46.8998 41.5541C46.4898 41.8577 46.0898 42.2753 46.1498 42.5293C46.1598 42.611 46.2298 42.6723 46.3798 42.6927C46.5128 42.7075 46.7745 42.6245 47.126 42.513C47.6725 42.3395 48.436 42.0973 49.2699 42.0475C50.2399 41.9891 51.0398 42.2898 51.6598 42.5614ZM48.8799 43.9066C49.1699 43.6584 49.6099 43.3927 50.4199 43.2672L50.4099 43.2701C51.5199 43.1387 52.33 43.6526 52.52 43.9591C52.6 44.0905 52.57 44.1752 52.55 44.216C52.4601 44.3532 52.2603 44.3299 51.8606 44.2833H51.8606L51.8601 44.2832C51.1301 44.1985 50.39 44.1518 49.27 44.5518C49.27 44.5518 48.8699 44.7154 48.6799 44.7154C48.6399 44.7154 48.59 44.6978 48.55 44.6657L48.5479 44.6632C48.5273 44.6392 48.49 44.5957 48.49 44.5197C48.49 44.3533 48.6399 44.1197 48.8799 43.9066ZM56.56 45.8684C57.11 46.137 57.7099 46.0319 57.9099 45.6319C58.0999 45.2348 57.82 44.6946 57.27 44.4261C56.72 44.1574 56.1199 44.2625 55.9299 44.6625C55.7299 45.0597 56.02 45.5998 56.56 45.8684ZM59.25 43.889C59.26 43.2817 59.63 42.7941 60.07 42.8029C60.52 42.8116 60.8701 43.3109 60.8601 43.9182C60.8501 44.5255 60.48 45.0131 60.04 45.0043C59.59 44.9956 59.24 44.4963 59.25 43.889ZM30.29 53.7668C30.18 53.6296 29.9901 53.6704 29.8201 53.7113C29.7001 53.7405 29.5599 53.7727 29.4099 53.7697C29.0799 53.7639 28.8099 53.6237 28.6499 53.3872C28.4499 53.0778 28.4599 52.6135 28.6899 52.0851C28.7081 52.0215 28.7428 51.9482 28.779 51.8718L28.79 51.8485C29.15 51.0515 29.7401 49.7142 29.0701 48.4441C28.5701 47.4865 27.75 46.8909 26.76 46.7654C25.82 46.6456 24.84 46.996 24.22 47.6821C23.24 48.7653 23.08 50.2369 23.28 50.7566C23.34 50.9463 23.45 50.9989 23.53 51.0106C23.69 51.0339 23.9501 50.9113 24.1001 50.4967C24.1042 50.4846 24.1101 50.4695 24.1169 50.4518L24.1169 50.4517C24.1266 50.4267 24.1382 50.3966 24.1499 50.3624C24.2099 50.1434 24.3401 49.7317 24.5501 49.4047C24.8001 49.0077 25.1999 48.7361 25.6599 48.6368C26.1299 48.5347 26.62 48.6252 27.02 48.8909C27.71 49.3405 27.9699 50.1814 27.6799 50.9872C27.5199 51.4018 27.2801 52.196 27.3301 52.85C27.4401 54.1727 28.25 54.7011 28.99 54.7595C29.69 54.7858 30.1901 54.3887 30.3201 54.0967C30.3901 53.9245 30.33 53.8194 30.29 53.7755V53.7668Z" fill="black"/>
+			</svg>
+		</a>
+	</div>
+
+</div>
+			</div>
+			<!-- / container -->
+		</footer>
+		<!-- / footer -->
+
+			<script type="text/javascript"> linkedinpartner_id = "1190348";
+		window.linkedindata_partner_ids = window.linkedindata_partner_ids || [];
+		window.linkedindata_partner_ids.push( linkedinpartner_id ); </script>
+	<script type="text/javascript"> (function() {
+			var s = document.getElementsByTagName( "script" )[ 0 ];
+			var b = document.createElement( "script" );
+			b.type = "text/javascript";
+			b.async = true;
+			b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+			s.parentNode.insertBefore( b, s );
+		})(); </script>
+	<noscript><img height="1" width="1" style="display:none;" alt=""
+				   src="https://px.ads.linkedin.com/collect/?pid=1190348&fmt=gif"/></noscript>
+		<div style="display:none">
+			<div class="grofile-hash-map-20e1ec1dd584193dfc6c7371dac42df6">
+		</div>
+		<div class="grofile-hash-map-7e81be49e70ad1b8f18f2292dd85fe4d">
+		</div>
+		</div>
+		<script src='https://secure.gravatar.com/js/gprofiles.js?ver=202345' id='grofiles-cards-js'></script>
+<script id='wpgroho-js-extra'>
+var WPGroHo = {"my_hash":""};
+</script>
+<script type="text/javascript" src="https://engineering.creditkarma.com/_static/??/wp-content/mu-plugins/jetpack/modules/wpgroho.js,/wp-content/themes/creditkarma-eng/dist/js/frontend.min.js?m=1699368418j" ></script><script defer src='https://stats.wp.com/e-202345.js' id='jetpack-stats-js'></script>
+<script id='jetpack-stats-js-after'>
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'152619286',post:'0',tz:'0',srv:'engineering.creditkarma.com',hp:'vip',j:'1:12.7.1'} ]);
+_stq.push([ "clickTrackerInit", "152619286", "0" ]);
+</script>
+	</body>
+</html>
+
+
+
+https://engineering.creditkarma.com:443

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: grafana-failover.bitgo-test.com
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040614 Firefox/0.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227ccb22e331632-DUS
+Date: Tue, 07 Nov 2023 18:57:01 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitgo.cloudflareaccess.com/cdn-cgi/access/login/grafana-failover.bitgo-test.com?kid=68a7cbae69cb20ac3a3c9ccd76bb68825d5df82076fcbf1f8de8ca99184278f6&redirect_url=%2F&meta=eyJraWQiOiIxOWRkYWJjZWZkYjU5MWZhNDJlYjUyZThhMzQwZjMzYzU0NjI4NzNlNTMwMDM1ODYxYzdiNjg2ZjEzNjFkYTU5IiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTY5OTM4MzQyMSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjY4YTdjYmFlNjljYjIwYWMzYTNjOWNjZDc2YmI2ODgyNWQ1ZGY4MjA3NmZjYmYxZjhkZThjYTk5MTg0Mjc4ZjYiLCJob3N0bmFtZSI6ImdyYWZhbmEtZmFpbG92ZXIuYml0Z28tdGVzdC5jb20iLCJhcHBfc2Vzc2lvbl9oYXNoIjoiNmZmMTA4M2E1ZmE0YjA4YjRmNTFmNTc5MDA5NDIyNDMxMDFjOGM0MGFhMzlmYjQ1N2YwYzYzYmM2NzliODRkMiIsIm5iZiI6MTY5OTM4MzQyMSwiaXNfd2FycCI6ZmFsc2UsImlzX2dhdGV3YXkiOmZhbHNlLCJ0eXBlIjoibWV0YSIsInJlZGlyZWN0X3VybCI6IlwvIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9kbiI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJhdXRoX3N0YXR1cyI6Ik5PTkUifQ.0dpy75KdwQ5XvvAgex9KDC0QaPudvG2Xok_V2AQdPDN_RDjsewy2qufI93aNyVa0HzspHb3Qt1_q34eufgG6gIPfDgkuli0A8SZOszM6Dx-6Lmh8NrASuH_pUye9VelQE1gZ9bVZf6YydXjimVCY3L0J85D-1jXI7sfND-wPf2Z4oZBrejglsoUlwnQXf-l_0qjFuy3q6FuFTVZzeb2_qifmPzjv5E8AT6RR0lJRxWlb5DRAycdNpcSH_J04TYMQP8Diz97BfGLgUAeG8eVVNQ49H1f9VScqt1rRZJ2kNUwqVV6S0M5TlT2gq0j_gO3PO7K-MBxZ3EGIzK14i_F7CQ
+Server: cloudflare
+Set-Cookie: CF_AppSession=n7c4125a9396e13e3; Expires=Wed, 08 Nov 2023 18:57:01 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+
+0
+
+
+
+
+https://grafana-failover.bitgo-test.com:443

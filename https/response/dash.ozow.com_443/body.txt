@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <title>Merchant Dashboard Log In</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/Fonts/gordita.css" rel="stylesheet" />
+    <link href="/Content/Ozow-Green.css" rel="stylesheet" />
+    <link href="/Content/styles.css" rel="stylesheet" />
+    <link href="/Content/Ozow/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="/Content/Ozow/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="back-section-wrapper  ozow-white">
+        <div class="wrapper-content">
+            <header class="ozow-desktop-hide ozow-mobile-header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <a href="https://ozow.com" title="Instant EFT Payment | Ozow">
+                                        <img class="site-logo" src="/images/ozow-black-plain.png" alt="Instant EFT Payment | Ozow">
+                                    </a>
+                                </div>
+                                <div class="col-xs-5 col-md-10 text-center">
+                                    <a href="https://signup.ozow.com" class="get-started-menu">
+                                        Register Now
+                                    </a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <span style="font-size:30px;cursor:pointer" onclick="openNavR()">
+                                        <img src=" https://ozow.com/wp-content/themes/sydney/images/menu-black.svg ">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="display: none">
+                    <div class="col-md-12 text-center">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Why Ozow <i class="la la-angle-down"></i>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="#CustomerBenefits">Customer Benefits</a>
+                                <a class="dropdown-item" href="#MerchantBenefits">Merchant Benefits</a>
+                                <a class="dropdown-item" href="#TestimonialsSection">Testimonial</a>
+                                <a class="dropdown-item" href="#Security">Security</a>
+                                <a class="dropdown-item" href="#Integrations">Integrations</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mySidenavR" class="sidenavR">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNavR()">×</a>
+                    <a href="https://ozow.com/why-ozow/ozow-pin/">Ozow Pin</a>
+                    <a href="https://ozow.com/ozowme/">Ozow.ME</a>
+                    <a href="https://ozow.com/pricing/">Pricing</a>
+                    <a href="https://ozow.com/integrations/">Integrations</a>
+                    <ul class="integration-sub-items">
+                        <li>
+                            <a href="https://ozow.com/integrations/shopify">Shopify</a>
+                        </li>
+                        <li>
+                            <a href="https://ozow.com/integrations/xero">Xero</a>
+                        </li>
+                    </ul>
+                    <a href="https://ozow.com/ozow-demo/">Demo</a>
+                    <ul>
+                        <li>
+                            <a href="https://ozow.com/blog/"> Blog</a>
+                        </li>
+                        <li>
+                            <a href="https://ozow.com/careers/vacancies"> Career</a>
+                        </li>
+                        <li>
+                            <a href="https://ozow.com/faq/">  FAQs</a>
+                        </li>
+                        <li>
+                            <a href="https://ozow.com/contact/"> Contact</a>
+                        </li>
+                    </ul>
+                    <div class="ozow-actions-menu">
+                        <a href="https://signup.ozow.com" class="get-started-button">
+                            Register
+                        </a>
+
+                        <a href="https://ozow.com/login/" class="ozow-login">
+                            Merchant
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <header id="masthead" class="site-header ozow-mobile-hide" role="banner">
+                <div class="header-wrap">
+                    <div class="ozow-top-nav-menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-ozow-top-menu-container">
+                                        <ul id="menu-ozow-top-menu" class="menu">
+                                            <li id="" class="menu-item ">
+                                                <a href="https://ozow.com/blog/">Blog</a>
+                                            </li>
+                                            <li id="" class="menu-item">
+                                                <a href="https://ozow.com/careers/">Careers</a>
+                                            </li>
+                                            <li id="" class="menu-item">
+                                                <a href="https://ozow.com/faqs/">FAQ</a>
+                                            </li>
+                                            <li id="" class="menu-item">
+                                                <a href="https://ozow.com/contact/">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                                <a href="https://ozow.com/" title="Instant EFT Payment | Ozow">
+                                    <img class="site-logo" src="/images/ozow-black-plain.png" alt="Instant EFT Payment | Ozow">
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-sm-4 col-xs-12">
+                                <div class="btn-menu"></div>
+                                <nav id="mainnav" class="mainnav" role="navigation">
+                                    <div class="menu-ozow-main-menu-container">
+                                        <ul id="menu-ozow-main-menu" class="menu">
+                                            <li id="menu-item-235" class="menu-item">
+                                                <a href="https://ozow.com/why-ozow/ozow-pin/">Ozow Pin</a>
+                                            </li>
+                                            <li id="menu-item-235" class="menu-item">
+                                                <a href="https://ozow.com/ozowme/">Ozow.ME</a>
+                                            </li>
+                                            <li id="menu-item-232" class="menu-item">
+                                                <a href="https://ozow.com/pricing/">Pricing</a>
+                                            </li>
+                                            <li id="menu-item-234" class="menu-item dropdown integration-items">
+                                                <a href="https://ozow.com/integrations/" class="dropdown-toggle" data-toggle="dropdown">Integrations</a>
+                                                <ul class="integration-sub-items dropdown-menu clearfix">
+                                                    <li>
+                                                        <a href="https://ozow.com/integrations/shopify">Shopify</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="https://ozow.com/integrations/xero">Xero</a>
+                                                    </li>
+
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-233" class="menu-item">
+                                                <a href="https://ozow.com/ozow-demo/">Demo</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <nav class="ozow-actions">
+                                    <ul>
+                                        <li>
+                                            <a href="/Account/OzowLogin" class="ozow-login">Sign In</a>
+                                        </li>
+                                        <li class="get-started-button">
+                                            <a href="https://signup.ozow.com" class="">Register now</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <section class="login">
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div role="form" class="ozow-form">
+                            <h2 class="">Log in into your merchant account</h2>
+
+<form action="/" class="ozow-form" id="registrationForm" method="post"><input name="__RequestVerificationToken" type="hidden" value="vxSas3qHXPw-wesYfxZI9tCt6fOJUVXOP6PIZiL65Yus6FV5UOCiVQzcFUYJJ9OekXAFT0Z6fiz4iKfYvQaANtU0Sxk1" />                                <div style="display:none"><input class="input-imp-long" id="User-Phone" name="User-Phone" type="text" value="" /><input name="__hpKey" type="hidden" value="OJSe1k+d1STCJMAUyS+Xuu4j4zxYdBkGHqq4Wh/aii16zAycEL7aqBrMCHXQaI9n1WyPp7ARwGRZy0mW5o5IqcYedmHFeS0pvNospbzDEaV8vwpjn7vHUjRXQNhxnIA+9JzDBVYD4DOcWxond7pxreogWMVFi+Ca7h3RQhiY5EsufFc7" /></div>
+                                <div class="form-group">
+                                    <input data-val="true" data-val-maxlength="The&#32;field&#32;Email&#32;must&#32;be&#32;a&#32;string&#32;or&#32;array&#32;type&#32;with&#32;a&#32;maximum&#32;length&#32;of&#32;&#39;256&#39;." data-val-maxlength-max="256" data-val-required="The&#32;Email&#32;field&#32;is&#32;required." id="Email" name="Email" placeholder="Email&#32;Address" type="text" value="" />
+                                    <span class="field-validation-valid&#32;validation-error" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input data-val="true" data-val-maxlength="The&#32;field&#32;Password&#32;must&#32;be&#32;a&#32;string&#32;or&#32;array&#32;type&#32;with&#32;a&#32;maximum&#32;length&#32;of&#32;&#39;70&#39;." data-val-maxlength-max="70" data-val-required="The&#32;Password&#32;field&#32;is&#32;required." id="Password" name="Password" placeholder="Password" type="password" />
+                                    <span autocomplete="off" class="field-validation-valid&#32;validation-error" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                                </div>
+                                <div class="form-group rememberMe">
+                                    <input data-val="true" data-val-required="The&#32;Stay&#32;signed&#32;in&#32;field&#32;is&#32;required." id="RememberMe" name="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+                                    <label for="RememberMe">Stay signed in</label>
+                                </div>
+<input Value="" id="ReturnUrl" name="ReturnUrl" type="hidden" value="" />                                <div class="login-page-info">
+                                    <h3>Forgot your password?</h3>
+                                    <p>No worries <a href="/Account/ForgotPassword">click here</a> to reset your password</p>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn ozow-form-control ozow-btn ozow-submit" id="load" data-loading-text="<i class='fas fa-circle-o-notch fa-spinner fa-spin'></i> Login">Login</button>
+                                </div>
+</form>                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
+        <div class="container ozow-footer-bottom">
+            <div class="sidebar-column col-md-3">
+                <aside id="custom_html-2" class="widget widget_custom_html">
+                    <div class="textwidget custom-html-widget">
+                        <table border="0">
+                            <tbody>
+                                <tr>
+                                    <td colspan="3" style="height: 110px;vertical-align: top;">
+                                        <a href="https://ozow.com">
+                                            <img src="/images/mono-colour@3x.png" width="110px" height="30px">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>  <img src="/images/pci-seal.png" width="67px" height="38px"></td>
+                                    <td> <img src="/images/secure-seal.png" width="126px" height="32px" style="padding-top: 5px;"></td>
+                                    <td>
+                                        <!--img src="./wp-content/uploads/2019/02/award-seal.png" width="59px" height="48px" /-->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+            <div class="sidebar-column col-md-3">
+                <aside id="custom_html-5" class="widget widget_custom_html">
+                    <h3>Cape Town Office</h3>
+                    <div class="textwidget custom-html-widget">
+                        <p>
+                            10th Floor,
+                            <br> Portside Building,
+                            <br> 5 Buitengracht Street 
+                            <br> Western Cape,
+                            <br> Cape Town,
+                            <br> South Africa, 8001
+                        </p>
+                        <a href="https://goo.gl/maps/8XdcVcNPSZCwYHNh7" target="blank">View on Google Maps</a>
+                    </div>
+                </aside>
+            </div>
+            <div class="sidebar-column col-md-3">
+                <aside id="custom_html-6" class="widget widget_custom_html footer-menu">
+                    <div class="custom-html-widget">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="menu-ozow-main-menu-container">
+                                            <ul id="menu-ozow-main-menu-1" class="menu">
+                                             
+                                                <li class="menu-item"><a href="https://ozow.com/pricing/">Pricing</a></li>
+                                                <li class="menu-item"><a href="https://ozow.com/integrations/">Integrations</a></li>
+                                                <li class="menu-item"><a href="https://ozow.com/ozow-demo/">Demo</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                    <td style="vertical-align: top;">
+                                        <div class="menu-ozow-top-menu-container">
+                                            <ul id="menu-ozow-top-menu-1" class="menu">
+                                                <li class="menu-item"><a href="https://ozow.com/blog/">Blog</a></li>
+                                                <li class="menu-item"><a href="https://ozow.com/careers/vacancies">Careers</a></li>
+                                                <li class="menu-item"><a href="https://ozow.com/faqs/">FAQ</a></li>
+                                                <li class="menu-item"><a href="https://ozow.com/contact/">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <h3>Legal</h3>
+                                        <div class="menu-legal-container">
+                                            <ul id="menu-legal" class="menu">
+                                                <li id="menu-item-1279" class="menu-item"><a href="https://ozow.com/privacy-policy/">Privacy Policy and Zero-Rated T's and C's</a></li>
+                                                <li id="menu-item-1279" class="menu-item"><a href="https://ozow.com/terms-and-conditions/">Terms &amp; Conditions</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+            <div class="sidebar-column col-md-3">
+                <aside id="sydney_contact_info-2" class="widget sydney_contact_info_widget">
+                    <div class="contact-phone"><span style="color: #2cdd9d;">t / </span><a href="tel:+27 11 054 4744 ">+27 11 054 4744 </a></div>
+                    <div class="contact-email"><span style="color: #2cdd9d;">m / </span><a href="/cdn-cgi/l/email-protection#a0d3c1ccc5d3e0cfdacfd78ec3cfcd"><span class="__cf_email__" data-cfemail="bfccded3daccffd0c5d0c891dcd0d2">[email&#160;protected]</span></a></div>
+                </aside>
+                <aside id="custom_html-3" class="widget_text widget widget_custom_html">
+                    <div class="textwidget custom-html-widget">
+                        <table border="0" class="footer-social">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/OzowPay/" target="blank" rel="nofollow noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/OzowPay" target="blank" rel="nofollow noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://www.linkedin.com/company/ozowsecurepayments/" target="blank" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                                        <a href="https://www.instagram.com/OzowPay/" target="blank" rel="nofollow noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" style="height: 110px;vertical-align: top;">
+                                        &copy; Ozow&trade;. All rights reserved.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+            <div class="sidebar-column col-md-3 mobi-security-logos" style="display: none;">
+                <table border="0">
+                    <tbody>
+                        <tr>
+                            <td>  <img src="/images/pci-seal.png" width="67px" height="38px"></td>
+                            <td> <img src="/images/secure-seal.png" width="126px" height="32px" style="padding-top: 5px;"></td>
+                            <td>
+                                <!--img src="./wp-content/uploads/2019/02/award-seal.png" width="59px" height="48px" /-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/bundles/jquery?v=9ktsOtIo0upvJP7-7FiXuOoOJe58RLFJ__wIRPL2vGo1"></script>
+
+    <script src="/bundles/jquery-migrate?v=j31sfFtBt-7fsm9fEco4tWwFrmMsyEocgMaQEok1n2k1"></script>
+
+    <script src="/bundles/jqueryval?v=MnOg6IEOn70hJy5AL_erbPyyKAb2p70aK8o8IGvwf201"></script>
+
+    <script src="/bundles/unobtrusive?v=MnOg6IEOn70hJy5AL_erbPyyKAb2p70aK8o8IGvwf201"></script>
+
+    <script src="/bundles/bootstrap-js?v=zWfNZhZl1FFp3zFMdSVM7JwgfvJ2VqqfaNLErZFsvqc1"></script>
+
+    <script src="/bundles/framework-js?v=JHwhWH7SHnAaIYU4Alchb-Nn8ZSDIqgEn0Q_c58pOE01"></script>
+
+
+    <script src="/Scripts/obs-scripts.js"></script>
+    <script src="/Scripts/obs-form.js"></script>
+    <script src="/Scripts/Spinner.js"></script>
+    <script src="/Scripts/enter-form-submit.js"></script>
+
+</body>
+</html>
+
+0
+
+
+
+
+https://dash.ozow.com:443

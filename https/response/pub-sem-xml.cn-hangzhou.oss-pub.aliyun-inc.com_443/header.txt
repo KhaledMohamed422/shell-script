@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: pub-sem-xml.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: facebookexternalhit/1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 375
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 10:17:54 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B605259DE0D3635A16B93
+X-Oss-Server-Time: 6
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B605259DE0D3635A16B93</RequestId>
+  <HostId>pub-sem-xml.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+https://pub-sem-xml.cn-hangzhou.oss-pub.aliyun-inc.com:443

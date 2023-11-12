@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: collect-ios-testing.verygoodsecurity.io:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:55:42 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

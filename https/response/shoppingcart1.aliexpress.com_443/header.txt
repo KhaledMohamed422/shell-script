@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: shoppingcart1.aliexpress.com
+User-Agent: Mozilla/5.0 (Linux; Android 4.4; Nexus 5 Build/BuildID) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:24:15 GMT
+Eagleeye-Traceid: 2103255b16994390551768505e15fd
+Server: Tengine
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=618
+Server-Timing: origin; dur=61
+Server-Timing: ak_p; desc="1699439054211_386904623_145586473_67928_319913_0_39_-";dur=1
+Set-Cookie: ali_apache_id=33.3.37.91.1699439055178.276185.6; path=/; domain=.aliexpress.com; expires=Wed, 30-Nov-2084 01:01:01 GMT
+Vary: Accept-Encoding
+

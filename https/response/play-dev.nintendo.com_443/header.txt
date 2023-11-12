@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: play-dev.nintendo.com
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G925R6 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 120
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:37:05 GMT
+Server: gunicorn/20.0.4
+Set-Cookie: sessionid=wx2orfup8dw3p3pqszvso7smh7ujwgzb; expires=Wed, 22 Nov 2023 19:37:05 GMT; HttpOnly; Max-Age=1209600; Path=/; SameSite=Lax
+Vary: Origin,Cookie
+Via: 1.1 d390587b2b73705e1ef5dfc214323e28.cloudfront.net (CloudFront)
+Www-Authenticate: Basic realm="Secure resource"
+X-Amz-Cf-Id: mf2rxQXutkWtKhrCeNvCNAk65tvqt89diRkjg6q45mCVYmaHxna9HQ==
+X-Amz-Cf-Pop: DUS51-P3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+

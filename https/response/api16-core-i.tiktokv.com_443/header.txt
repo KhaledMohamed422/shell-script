@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: api16-core-i.tiktokv.com
+User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 144
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:19 GMT
+Expires: Wed, 08 Nov 2023 18:43:19 GMT
+Pragma: no-cache
+Server: nginx
+Server-Timing: inner; dur=4
+Server-Timing: cdn-cache; desc=MISS, edge; dur=266, origin; dur=441
+X-Akamai-Request-Id: ebfbdec
+X-Cache: TCP_MISS from a92-123-181-6.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Origin-Response-Time: 685,92.123.181.6
+X-Tt-Logid: 202311081843190101040281093F033FBA
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5ae86d8b4ce6425b456c92543f6b2398dff45e954d461fce15033abb196ca7786c13c37c837cade06fe4eed89626437e85c7424b588525574bebce6fde4f0817cc7a549472a4f0007591527f2716ae53f985641d410b0a30cae9040a23427e3e8f
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+

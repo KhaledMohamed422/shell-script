@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: gws-qa.www.8x8.com:8080
+User-Agent: Mozilla/5.0 (iPad; CPU OS 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/100.0.4896.85 Mobile/15E148 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 530 
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8228a41ef9e7faea-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 21:24:05 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1016
+
+
+http://gws-qa.www.8x8.com:8080

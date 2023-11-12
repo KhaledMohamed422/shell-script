@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: preenn-1.rc.dev.ges.aws.sbgorigin.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
+Access-Control-Allow-Methods: GET,OPTIONS,PUT
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:30 GMT
+X-Amz-Apigw-Id: OCnXtEYujoEEKcQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 0579fe78-456c-4514-8803-ed6105327f29
+X-Amzn-Trace-Id: Root=1-654a85ca-688c402f2cc440ef1d8ad68b
+
+{"message":"Missing Authentication Token"}
+
+
+https://preenn-1.rc.dev.ges.aws.sbgorigin.com:443

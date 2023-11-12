@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="Endpoint Protector - Reporting and Administration Tool" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="SIE" />
+<meta name="keywords" content="secure network" />
+<meta name="language" content="en" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Endpoint Protector - Reporting and Administration Tool</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/epp/anon-epp-main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+
+</head>
+
+<body class="epp_body login-page" oncontextmenu="return false">
+    <div class="page-wrap">
+        <div class="language-container">
+            
+                        <form class="form-horizontal">
+                <input type="hidden" name="csrf_token_lang" id="csrf_token_lang" value="MTY5OTM4MDMzNUJhbFp0YllzN2MzVmJvU243aklzc3N3MElqYTZ3Q2R3" />
+                <select name="lang" id="lang" class="form-control" onchange="
+                        $jq.ajax({
+                            url: '/index.php/preferences/language',
+                            type: 'POST',
+                            data : {
+                                lang : $jq(this).val(),
+                                csrf_token_lang: $jq('#csrf_token_lang').val()
+                            },
+                            success: function(result) {
+                                window.location.reload(true);
+                            }
+                        });
+                    ">
+                                            <option value="en" selected=selected>English</option>
+                                            <option value="de" >Deutsch</option>
+                                            <option value="fr" >French</option>
+                                            <option value="es" >Spanish</option>
+                                            <option value="pt" >Portuguese</option>
+                                            <option value="it" >Italian</option>
+                                            <option value="ko" >Korean</option>
+                                            <option value="ja" >Japanese</option>
+                                            <option value="ct" >Chinese Traditional</option>
+                                            <option value="ch" >Chinese Simplified</option>
+                                            <option value="th" >Thai</option>
+                                            <option value="vi" >Vietnamese</option>
+                                            <option value="ru" >Russian</option>
+                                            <option value="pl" >Polish</option>
+                                            <option value="fa" >Persian</option>
+                                            <option value="cs" >Czech</option>
+                                            <option value="hu" >Hungarian</option>
+                                            <option value="ro" >Romanian</option>
+                                            <option value="tr" >Turkish</option>
+                                            <option value="uk" >Ukrainian</option>
+                                    </select>
+            </form>
+        </div>
+
+        
+        <div id="login_form" class="login-form-container-outher">
+            <div class="login-form-container-inner">
+                <div class="login-form-container-centered">
+                    <div class="logo">
+                        <a href="/index.php" class="epp_logo svg" title="Endpoint Protector - Reporting and Administration Tool">
+                            <object type="image/svg+xml" data="/images/epp/epp_logo.svg">
+                            </object>
+                        </a>
+                    </div>
+                    <div id="errors">
+                    </div>
+
+
+                    <form id="login-form" class="form-horizontal" name="login-form" action="/index.php/login" method="post" enctype="multipart/form-data">
+                        <div class="first ">
+                            <input type="hidden" name="csrf_token_anon" id="csrf_token_anon" value="MTY5OTM4MDMzNUVleFY3b1h6YWJyWkZZYWJlbGNKendKZXFkcnd4Tloz" />
+                            <input name="username" autocomplete="off" placeholder="Username" value="" class="form-control input-text" type="text" autofocus="autofocus" />
+                            <input name="password" autocomplete="off" placeholder="Password" value="" class="form-control input-text" type="password" />
+                                                        <input type="hidden" name="useGoogleAuth" id="two_fa_auth" value="0">
+                            <button type="submit" id="submit_form" class="btn epp-btn">Login</button>
+                        </div>
+
+                        <div class="second hidden">
+                            <div class="login-form-container-inner">
+                                <div class="login-form-container-centered">
+
+                                    <input type="text" name="code" id="google_code" placeholder="Authentication Code" autofocus="autofocus" class="form-control input-text">
+                                    <button type="submit" name="btnValidate" class="btn epp-btn"> Validate </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="epp-login-footer">
+        <div class="footer-description">
+            <p>
+                <strong>Data Loss Prevention</strong> <br />
+                Content Aware Protection | Device Control | Enforced Encryption | eDiscovery <br />
+            </p>
+            <span class="globe-container">
+                <object type="image/svg+xml" data="/images/epp/globe.svg">
+                </object>
+            </span>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2004 - 2023 CoSoSys Ltd.
+        </div>
+    </div>
+</body>
+
+
+<script type="text/javascript" src="/js/jquery/jquery-3.6.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery/functions.js"></script>
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var loadingText = "Loading ...";
+    </script>
+<script type="text/javascript">
+    $jq(document).ready(function() {
+        if (!$jq('.second').hasClass('hidden')) {
+            $jq("#google_code").focus();
+        }
+
+        login_form(0, $jq.parseJSON('{\"restrictedIP\":\"You do not have privileges to access the interface!\",\"failedLogin\":\"Failed Login! \",\"blockedUI\":\"Maximum failed login attempts reached. Account temporarily blocked!\"}'));
+    });
+</script>
+
+</html
+0
+
+
+
+
+https://dlp-zomato.zomans.com:443

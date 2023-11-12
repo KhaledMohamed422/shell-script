@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: zendesk4.coveo.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.2; ARM; Trident/7.0; Touch; rv:11.0; WPDesktop; NOKIA; Lumia 920) like Geckoo
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 409 Conflict
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 822a5d514d3a1638-DUS
+Content-Type: text/plain; charset=UTF-8
+Date: Wed, 08 Nov 2023 02:25:17 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+error code: 1001
+
+
+http://zendesk4.coveo.com:8080

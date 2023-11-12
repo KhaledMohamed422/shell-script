@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: ctx-ws-assets.cloud.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.1 (KHTML, like Gecko) Maxthon/3.0.8.2 Safari/533.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 The specified resource does not exist.
+Connection: close
+Content-Length: 223
+Access-Control-Allow-Origin: *
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:15:41 GMT
+X-Azure-Ref: 20231107T231540Z-zrex4m4mu94yrex8ctwqtqkx6c00000000ag000000001dge
+X-Cache: TCP_MISS
+X-Ms-Request-Id: 65d4872e-d01e-006b-6ed0-11d95f000000
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>ResourceNotFound</Code><Message>The specified resource does not exist.
+RequestId:65d4872e-d01e-006b-6ed0-11d95f000000
+Time:2023-11-07T23:15:41.2362449Z</Message></Error>
+
+
+https://ctx-ws-assets.cloud.com:443

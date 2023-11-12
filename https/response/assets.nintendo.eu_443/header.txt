@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: assets.nintendo.eu
+User-Agent: Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/49.0.2623.109 Mobile/14A5335b Safari/601.1.46
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length,Content-Disposition,Content-Range,Etag,Server-Timing,Vary,X-Cld-Error
+Cache-Control: private, no-transform, max-age=0, no-cache, no-store
+Date: Wed, 08 Nov 2023 18:43:34 GMT
+Location: https://cloudinary.com
+Server: Cloudinary
+Server-Timing: cld-akam;dur=4;start=2023-11-08T18:43:34.651Z;desc=miss,rtt;dur=8
+Strict-Transport-Security: max-age=604800
+Timing-Allow-Origin: *
+Content-Length: 0
+
+
+
+
+https://assets.nintendo.eu:443

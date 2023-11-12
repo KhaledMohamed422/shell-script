@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: whitepaper.cdn.worldcoin.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Flipboard/4.2.142
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 23:33:02 GMT
+Server: AmazonS3
+Via: 1.1 6165dcc1fdf84ac65e8204c05709f1ca.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-central-1
+X-Amz-Cf-Id: xS3WzSsUkfNfhjXNET8rMCjpo3rM2g_wIgMyttCEvR2meQBB1IiFng==
+X-Amz-Cf-Pop: FRA56-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>N1Q51PASSCQY4XR2</RequestId><HostId>O/l8q5M0HhYIM17i5eM7x05vraVV6Y3HiIbWw188Q/lr69T+rO86+ILw566VeYhiMY7IoO4oHgY=</HostId></Error>
+0
+
+
+
+
+https://whitepaper.cdn.worldcoin.org:443

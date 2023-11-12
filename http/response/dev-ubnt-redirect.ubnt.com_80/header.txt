@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: dev-ubnt-redirect.ubnt.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0 Iceweasel/38.2.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 162
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 04:11:00 GMT
+Location: https://help.ui.com/hc/en-us
+Server: nginx
+

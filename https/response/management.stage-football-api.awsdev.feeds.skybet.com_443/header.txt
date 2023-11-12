@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: management.stage-football-api.awsdev.feeds.skybet.com
+User-Agent: Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like Gecko
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:45:11 GMT
+X-Amz-Apigw-Id: OCnUrFozjoEEP_g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 64386023-3d52-4655-a161-b96cc84986f4
+
+{"message":"Missing Authentication Token"}
+
+
+https://management.stage-football-api.awsdev.feeds.skybet.com:443

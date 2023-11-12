@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: login.criteo.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-US) AppleWebKit/532.8 (KHTML, like Gecko) Chrome/4.0.302.2 Safari/532.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: default-src 'self' criteo-prod.okta.com login.criteo.com *.oktacdn.com; connect-src 'self' criteo-prod.okta.com criteo-prod-admin.okta.com login.criteo.com *.oktacdn.com *.mixpanel.com *.mapbox.com app.pendo.io data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com *.mtls.okta.com criteo-prod.kerberos.okta.com criteo-prod.mtls.okta.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data:; script-src 'unsafe-inline' 'unsafe-eval' 'self' criteo-prod.okta.com login.criteo.com *.oktacdn.com; style-src 'unsafe-inline' 'self' criteo-prod.okta.com login.criteo.com *.oktacdn.com app.pendo.io cdn.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; frame-src 'self' criteo-prod.okta.com criteo-prod-admin.okta.com login.criteo.com login.okta.com com-okta-authenticator: api-585f3b27.duosecurity.com; img-src 'self' criteo-prod.okta.com login.criteo.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com app.pendo.io data.pendo.io cdn.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com data: blob:; font-src 'self' criteo-prod.okta.com login.criteo.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+Content-Type: text/html;charset=ISO-8859-1
+Date: Tue, 07 Nov 2023 20:31:27 GMT
+Location: https://my-account.criteo.com
+P3p: CP="HONK"
+Server: nginx
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0
+Set-Cookie: autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+X-Okta-Request-Id: ZUqen67My8q9eWQIUBzltwAADzw
+X-Robots-Tag: noindex,nofollow
+X-Xss-Protection: 0
+Content-Length: 0
+
+
+
+
+https://login.criteo.com:443

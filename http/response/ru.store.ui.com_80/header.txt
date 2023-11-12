@@ -1,0 +1,45 @@
+GET / HTTP/1.1
+Host: ru.store.ui.com
+User-Agent: POLARIS/6.01 (BREW 3.1.5; U; en-us; LG; LX265; POLARIS/6.01/WAP) MMP/2.0 profile/MIDP-2.1 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822b09d42a057175-DUS
+Content-Security-Policy: frame-ancestors 'none';
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:23:03 GMT
+Location: https://ru.store.ui.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4%2BtQb84CCUXDPRni3KTI4Pp%2Bj%2F%2FSYttVpagvTWjCniyMy%2BlnvvRowWq%2BEZG3ShIiU3K2ICsOIn3kpDv4U%2Bub9u6%2F8PrTWZf0BmlWSAjbSvEeGSvP4tjYTYB1h2Anhc%2FuyA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=6, db;dur=2, asn;desc="51167", edge;desc="DUS", country;desc="DE", pageType;desc="index", servedBy;desc="f7rr", requestID;desc="69ae5ea1-18d0-4a37-94bf-b609e0e79152"
+Server-Timing: cfRequestDuration;dur=47.999859
+X-Content-Type-Options: nosniff
+X-Dc: gcp-europe-west4,gcp-europe-west1,gcp-europe-west1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Redirect-Reason: https_required
+X-Request-Id: 69ae5ea1-18d0-4a37-94bf-b609e0e79152
+X-Sfr-Self-Verification-Request: 1
+X-Shardid: 102
+X-Shopid: 4853923943
+X-Shopify-Stage: production
+X-Sorting-Hat-Podid: 102
+X-Sorting-Hat-Shopid: 4853923943
+X-Storefront-Renderer-Rendered: 1
+X-Storefront-Renderer-Verified: 1
+X-Xss-Protection: 1; mode=block
+
+0
+
+
+
+
+http://ru.store.ui.com:80

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: rpki.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/540.0 (KHTML, like Gecko) Ubuntu/10.10 Chrome/9.1.0.0 Safari/540.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 8227ea958a302175-DUS
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 19:17:26 GMT
+Feature-Policy: none
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: unsafe-url
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=09LgoVZUJGxuDi%2B1%2FN5OcpDlaZO%2BtTk1J4p9V0tWM5NV2IMZS11sIUyACxSfnp8diuSyWvTg9UCrEDOOBbRaY9H5%2BvtUbdZoG8B1QOFEw1HSehqJCNFHtqWauiME9X3ZQtX2BFOWw4zrmg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+84e

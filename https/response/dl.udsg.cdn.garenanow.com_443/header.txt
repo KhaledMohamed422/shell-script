@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: dl.udsg.cdn.garenanow.com
+User-Agent: Mozilla/5.0 (compatible; Konqueror/4.4; Linux) KHTML/4.4.1 (like Gecko) Fedora/4.4.1-1.fc12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 305
+Content-Disposition: inline
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:14:52 GMT
+Server: OBS
+X-Obs-Id-2: 32AAAQAAEAABAAAQAAEAABAAAQAAEAABCSxG0I7c1JFKFXsC1FMz1IF5mRzS/F+o
+X-Obs-Request-Id: 0000018BAB3581E7941E5B7DBEAAAAB6
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><RequestId>0000018BAB3581E7941E5B7DBEAAAAB6</RequestId><HostId>FpEN9LanCbpcP56A6lPjJma5IpAdt733rzFa7Y6F4gLu24hvpVHUITMfNV5qonoW</HostId><Key>mgames/undawn/</Key></Error>
+
+
+https://dl.udsg.cdn.garenanow.com:443

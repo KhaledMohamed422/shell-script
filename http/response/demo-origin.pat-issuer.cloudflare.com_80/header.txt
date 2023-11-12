@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: demo-origin.pat-issuer.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 20
+Alt-Svc: h3=":443"; ma=86400
+Cf-Ray: 8227ddd17e1b8745-DUS
+Content-Type: text/html;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:08:43 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SKB%2BSx7gUbP6j31mlDgfJcxxp0jbcqjED%2FvZZ%2B4ogd5GJw6P%2BkqLvpCEV%2BBeXjVsqG3IMciYOGJ7jmQYwAhN677C74F%2FgqGQaYcSuS0367zKQ6SLQG4uUBFn2ZrqQBoiIlh8%2BMiAFHxeE28xAAnVPnSN0Dwmy3%2B8"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+Unsupported resource
+
+
+http://demo-origin.pat-issuer.cloudflare.com:80

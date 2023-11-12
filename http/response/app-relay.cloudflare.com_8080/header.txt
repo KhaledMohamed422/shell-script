@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: app-relay.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:16.0) Gecko/20100101 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 15
+Alt-Svc: h3=":443"; ma=86400
+Cf-Ray: 8227dc973a9321ab-DUS
+Content-Type: text/plain;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:07:52 GMT
+Server: cloudflare
+Vary: Accept-Encoding
+
+Invalid request
+
+
+http://app-relay.cloudflare.com:8080

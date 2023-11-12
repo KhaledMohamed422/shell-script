@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: feedback.s6.sbgservices.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; moto g(40) fusion) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 26
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 18:05:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 bc841916063a49c638b48e73f77a28e8.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OChj1GX5joEEcvg=
+X-Amz-Cf-Id: ouabvFpPfrElXldxGnaeOgJI4xPUecg6sicM3vlexVd1UEbCJ1exQw==
+X-Amz-Cf-Pop: FRA60-P5
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 5cf3494d-4de1-41e1-b4b7-5ebe056b3ef6
+X-Cache: Error from cloudfront
+
+{ "message": "Not found" }
+
+
+https://feedback.s6.sbgservices.com:443

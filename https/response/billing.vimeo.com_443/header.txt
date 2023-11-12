@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: billing.vimeo.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 04:45:03 GMT
+Etag: "b5f0k3zmzcd2n"
+Server: Google Frontend
+Vary: Accept-Encoding
+Via: 1.1 google, 1.1 google
+X-Powered-By: Next.js
+
+4231

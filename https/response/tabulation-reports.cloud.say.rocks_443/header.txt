@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: tabulation-reports.cloud.say.rocks
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 146
+Content-Type: text/xml
+Date: Tue, 07 Nov 2023 17:29:56 GMT
+Server: CloudFront
+Via: 1.1 172e63b20fb363ed969de28ae3937e20.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Uet7B3FHw-ywE6LVjhFpBzsvSD-ft7AcD-vVwHE_hTyTfEpcskyAyg==
+X-Amz-Cf-Pop: FRA2-C1
+X-Cache: Error from cloudfront
+
+<?xml version="1.0" encoding="UTF-8"?><Error><Code>MissingKey</Code><Message>Missing Key-Pair-Id query parameter or cookie value</Message></Error>
+
+
+https://tabulation-reports.cloud.say.rocks:443

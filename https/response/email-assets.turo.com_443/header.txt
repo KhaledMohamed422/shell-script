@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: email-assets.turo.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:05:42 GMT
+Server: AmazonS3
+Via: 1.1 e026b2802d48048e9935caadbecf124e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: CI6GoQ9AAjo_S3nhvgIVZ5dwUPKQBd4pgpl9J6BxEN-8nWRL0oD_wQ==
+X-Amz-Cf-Pop: FRA56-P3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8FJ38EWMX8647WRJ</RequestId><HostId>ue32ta+s3tDx8q/4ObfND23COzdi7ICORSHSy2Qm2ql6h5R9sjqdnS3o0wJFYa/sQPqnXEVNBG0=</HostId></Error>
+0
+
+
+
+
+https://email-assets.turo.com:443

@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: integration-attributes.ca.dev.fin.ag
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:21:42 GMT
+Via: 1.1 0e11402be5d2f88aebf400ebe3216a3a.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODP1BGk-4osETzg=
+X-Amz-Cf-Id: eia-6-OSpudbEikfZkZ-_fysxDynqF6zqDdvxqFg9x6IpTCU-a5mCQ==
+X-Amz-Cf-Pop: HAM50-P2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 8e8a7591-2716-4b8b-8765-5bf19ecef3f3
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://integration-attributes.ca.dev.fin.ag:443

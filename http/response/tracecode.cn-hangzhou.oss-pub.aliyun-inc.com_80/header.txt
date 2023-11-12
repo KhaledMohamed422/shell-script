@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: tracecode.cn-hangzhou.oss-pub.aliyun-inc.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:16.0) Gecko/20100101 Firefox/16.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 373
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 09:25:05 GMT
+Server: AliyunOSS
+X-Oss-Ec: 0003-00000905
+X-Oss-Request-Id: 654B53F101F2EF3431022115
+X-Oss-Server-Time: 1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>AccessDenied</Code>
+  <Message>The bucket you access does not belong to you.</Message>
+  <RequestId>654B53F101F2EF3431022115</RequestId>
+  <HostId>tracecode.cn-hangzhou.oss-pub.aliyun-inc.com</HostId>
+  <EC>0003-00000905</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0003-00000905</RecommendDoc>
+</Error>
+
+
+
+http://tracecode.cn-hangzhou.oss-pub.aliyun-inc.com:80

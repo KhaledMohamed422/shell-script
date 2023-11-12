@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: api-frontend.prod.latch.com
+User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:14.0) Gecko/20100101 Firefox/14.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Apigw-Requestid: OD-6nhUrIAMEaIw=
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 04:43:09 GMT
+Referrer-Policy: no-referrer
+Vary: Accept-Encoding,Origin
+Via: 1.1 7158aa4ac648947d564b98d9769b5b2a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8rgnRPoBfSXFtm8KMlmyEQOWyaLHkSv1QqVzXqLsD13NOlpbdRkuMw==
+X-Amz-Cf-Pop: FRA2-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: master-only
+X-Xss-Protection: 1; mode=block
+
+{"header":{"messageType":"client","apiVersion":"NONE","sendingTime":1699418589263},"payload":{"message":""},"trailer":{"checkSum":3580438593}}
+
+
+https://api-frontend.prod.latch.com:443

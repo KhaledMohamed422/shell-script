@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: watchdog-do-not-remove-pt1.verygoodsecurity.io:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b4pre) Gecko/20100815 Minefield/4.0b4pre
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 407 Proxy Authentication Required
+Content-Length: 408
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 18:56:20 GMT
+Proxy-Authenticate: Basic realm="Secured Proxy"
+

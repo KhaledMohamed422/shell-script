@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: pokemon.nintendo.es
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 181
+Content-Type: text/html; charset=utf-8
+Date: Wed, 08 Nov 2023 19:18:54 GMT
+Location: https://www.pokemon.com/es?red_source=pokemon.nintendo.es&redirect=true
+
+Redirecting to <a href="https://www.pokemon.com/es?red_source=pokemon.nintendo.es&amp;redirect=true">https://www.pokemon.com/es?red_source=pokemon.nintendo.es&amp;redirect=true</a>.
+
+
+http://pokemon.nintendo.es:80

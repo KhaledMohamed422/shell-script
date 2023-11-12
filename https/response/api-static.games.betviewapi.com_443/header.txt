@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: api-static.games.betviewapi.com
+User-Agent: Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:56:39 GMT
+Server: AmazonS3
+Via: 1.1 49140b838a62cd29e30f20e39a82dad0.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: eu-west-1
+X-Amz-Cf-Id: PuoIG1QenGFePlz6NkFkc-pKRieOww0L1-rPUXF5-qv-p3lyNLZxdA==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BNDWPRS9TPEBJ9RW</RequestId><HostId>mMN4F2AOsvKF6yOTUBs4mcPxMLYard2h2XaEDOAiq33bIevBu/GfDLO9+QLjmA4qdTYQHrAI2zk=</HostId></Error>
+0
+
+
+
+
+https://api-static.games.betviewapi.com:443

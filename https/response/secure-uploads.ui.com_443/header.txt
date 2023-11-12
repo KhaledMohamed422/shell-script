@@ -1,0 +1,14 @@
+GET / HTTP/1.1
+Host: secure-uploads.ui.com
+User-Agent: Mozilla/5.0 (X11; U; SunOS sun4m; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:03:03 GMT
+Location: https://secure-uploads.ui.com:443/secure/home/
+Server: awselb/2.0
+

@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: simulator.betfair.ro
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.101 Safari/537.36 OPR/40.0.2308.62
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 8227bc48ae161627-DUS
+Date: Tue, 07 Nov 2023 18:45:49 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.betfair.ro/exchange/plus/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k8nVWfxPhZ6V6aHYE5RiGL3dgIV7maWobFgxxMNr%2FOMWgSP2DDHt3tMt2SKCnwvcCnN4vuwKNFALMmNWl2LoDjHQgAm5JmqUXKadCJa1LgqWFzsR4yXrDmb%2Fw3I86I2N%2BWKFNEMg"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=VD8EZ6lmaiew0kFZuCC_nd77y_q.PtwMyw5au8euRAA-1699382749-0-AWzHS3ukkgjSFV1EkjJgLpU2DOLG3C98AaopUQk4gPjnDHSxLb9g3EQL4ROXT+EXKEqRfcc6pg9SsjR2oV3ed90=; path=/; expires=Tue, 07-Nov-23 19:15:49 GMT; domain=.betfair.ro; HttpOnly; Secure
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+https://simulator.betfair.ro:443

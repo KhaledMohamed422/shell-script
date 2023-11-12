@@ -1,0 +1,191 @@
+<html><head><style>
+a:link {COLOR: #227bc1; TEXT-DECORATION: none;}
+a:visited {COLOR: #227bc1; TEXT-DECORATION: none;}
+a:active {COLOR: #227bc1; TEXT-DECORATION: none;}
+a:hover {color: #9d102d; text-decoration: underline; }
+#onetrust-consent-sdk, #teconsent, #ccpacontainer {display: none;}</STYLE>
+
+
+<script>
+function openRegistration() {
+if (document.getElementById("registration").value != "selectone") {
+    location.href=document.getElementById("registration").value;
+	}
+}
+function openSiteHelp() {
+if (document.getElementById("sitehelp").value != "selectone") {
+    location.href=document.getElementById("sitehelp").value;
+	}
+}
+</script>
+ 
+<title>Marriott EID and Password Support</title>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+ 
+<script src="//assets.adobedtm.com/launch-EN3963523be4674e5591a9c4d516697352.min.js" async></script>
+	<script>
+			var dataLayer = {};
+			dataLayer.site_id="MIHUB";
+			dataLayer.browser_loc_country="";
+			dataLayer.browser_loc_state="";
+	</script>
+</head>
+ 
+<body>
+ 
+<p>&nbsp;</p>
+ 
+<div align="center">
+ 
+ 
+ 
+      <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse" bordercolor="#3a4c65" width="620">
+ 
+            
+<tr>
+          <TD height="20">
+<IMG src="images/marriott_gray1.gif" style="padding: 0px 10px 0px 5px" border=0 align="left"><font face="Verdana" size="2">
+                This page provides access to ID support for 
+                Marriott associates, franchisees and owners. Some 
+                features require an ID & password to protect company 
+                confidential and proprietary information.</font></TD>      
+            </tr>
+ 
+ 
+ 
+        <tr>
+          <td width="100%" height="59">
+ 
+              <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <tr>
+                  <td width="50%" valign="top">
+				  
+				  
+				                        <span style="COLOR: #333333; FONT-FAMILY: Verdana">
+                      <font size="2">Enterprise ID (EID) Registration</font></span>
+
+					  
+					  </td>
+                  <td width="50%" valign="top">
+				  
+				    
+                  <p>
+                  <select id="registration" ONCHANGE="openRegistration()" size="1" style="width:236px; FONT-FAMILY: Verdana;"> 
+                  <OPTION value="selectone">
+                            Select One</OPTION>
+                  <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                  Canadian Marriott Associates
+                  </option>
+                  <option value="https://extranet.marriott.com/marrforms/unauth/marrwebid/default_start.asp">
+                  Canadian Franchisees
+                  </option>
+                  <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                  International Associates
+                  </option>
+                  <option value="/marrforms/intlownfransplash.htm">
+                  International Franchisees
+                  </option>
+                  <option value="/marrforms/intlownfransplash.htm">
+                  International Owners</option>
+                  <option value="mgshelp/North_American_Associates.htm">North 
+                  American Associates
+                  </option>
+                  <option value="/marrforms/naownfransplash.htm">
+                  North American Franchisees
+                  </option>
+                  <OPTION value="/marrforms/naownfransplash.htm">
+                  North American Owners</OPTION> 
+                  <option value="mgshelp/North_American_Associates.htm">
+                  Ritz-Carlton United States
+                  </option>
+                  <option value="https://extranet.marriott.com/marrforms/unauth/InternationalGateway/IntlEIDReg/">
+                  Ritz-Carlton International
+                  </option>
+                  <option value="/marrforms/consplash.htm">
+                  Consultants/Contractors</option>
+                  <option value="/marrforms/vensplash.htm">
+                  Vendors</option>
+                            </SELECT>
+						
+							
+							
+							</td>
+                </tr>
+  <tr>
+                  <td width="50%" valign="top" height="20">
+				  
+				  
+				  
+                      <font color="#333333" size="2">
+                      <span style="FONT-FAMILY: Verdana">Enterprise ID (EID) and Password Support</span></font>
+					  
+					  </td>
+                  <td width="50%" align="left" valign="top" height="20">
+				  	
+                      <p>
+                  <select id="sitehelp" ONCHANGE="openSiteHelp()" size="1" style="width:236px; FONT-FAMILY: Verdana;"> 
+                  <OPTION value="selectone"> 
+                            Select One</OPTION> 
+                  <option value="mgshelp/Canadian_Marriott_Associates.htm">Canadian Marriott Associates
+                  </option>
+                  <option value="mgshelp/North_American_Franchisees.htm">Canadian Franchisees
+                  </option>
+                  <option value="mgshelp/International_Associates.htm">International Associates
+                  <option value="mgshelp/International_Franchisees.htm">International Franchisees
+                  </option>
+                            <option value="mgshelp/International_Owners.htm">
+                            International Owners</option>
+                  <option value="mgshelp/MVW.htm">Marriott Vacations Worldwide
+                  </option>
+                  <option value="mgshelp/North_American_Associates.htm">North American Associates
+                  </option>
+                  <option value="mgshelp/North_American_Franchisees.htm">North American Franchisees
+                  </option>
+                            <OPTION value="mgshelp/North_American_Owners.htm">North American Owners</OPTION> 
+                            <option value="mgshelp/Consultants_Contractors.htm">Consultants/Contractors
+                  </option>
+		  <option value="mgshelp/Severance_Associate_(Active).htm">
+                            Severance Associate (Active)
+                  </option>
+                  <option value="mgshelp/Separated_Employee.htm">Separated Employee
+                  </option>
+                  <option value="mgshelp/Vendors.htm">Vendors</option>
+                            </SELECT>
+				</td>
+                </tr>
+ 
+              </table>
+ 
+          </td>
+        </tr>
+ 
+        <tr>
+          <td width="100%" height="45" align="center">
+<p align="center">
+                      <font face="Verdana" size="2"> 
+                      <a target="_blank" href="https://marriott.com">Marriott.com</a>&nbsp; |&nbsp; 
+                      <a target="_blank" href="http://news.marriott.com/">Company News &amp; Information</a></font><BR /></P></td>
+        </tr>
+ 
+ 
+              <tr>
+                <td bgcolor="#3A4C65">
+                <font face="Verdana" size="1" color="#ffffff">
+		<div style="float:left;width:80%;">&nbsp;&nbsp;© 2002 - <script type=text/javascript>var today = new Date(); document.write(today.getFullYear());</script> Marriott International, Inc.</div>
+		<div style="float:right;width:20%;">All rights reserved.</div>
+		<span style="display:none !important;"><span id="teconsent"></span><span id="ccpacontainer"></span></span>
+		</font>
+		</td>
+              </tr>
+ 
+ 
+  </table>
+ 
+</div>
+
+</body>
+ 
+</html>
+
+
+http://eidhelp.marriott.com:80

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: media.grab.com
+User-Agent: Opera/10.61 (J2ME/MIDP; Opera Mini/5.1.21219/19.999; en-US; rv:1.9.3a5) WebKit/534.5 Presto/2.6.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:32:51 GMT
+Server: AmazonS3
+Via: 1.1 82382b373bb37f94b23638d0711cc150.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 99p9J7hKwMHb1dwLMtas6sOEyfQ3tOhloGKceVKa4ZoGOSyMRerMpQ==
+X-Amz-Cf-Pop: LHR50-P6
+X-Cache: Error from cloudfront
+
+172
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region 'ap-southeast-1' is wrong; expecting 'us-east-1'</Message><Region>us-east-1</Region><RequestId>QJ6ED9NJKM295MMF</RequestId><HostId>4dOqoW9Dfx/9K+xnsCjpSRyHVVbF7ai28u72SlbAd0+JDmHaPwQK0WKKUoQJ5YfuTFmDk2k9HgQ=</HostId></Error>
+0
+
+
+
+
+https://media.grab.com:443

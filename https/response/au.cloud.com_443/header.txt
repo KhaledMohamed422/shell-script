@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: au.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 410 Gone
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Expose-Headers: X-Cws-TransactionId
+Cache-Control: no-store, must-revalidate, no-cache, max-age=0, private
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=utf-8
+Date: Tue, 07 Nov 2023 23:11:50 GMT
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: 50b35628-cf76-4371-b9ad-53d960e842e4
+X-Frame-Options: DENY
+
+4f
+{
+  "Healthy": true,
+  "Message": "Could not find Host for 'au.cloud.com'"
+}
+0
+
+
+
+
+https://au.cloud.com:443

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: media.videoask.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 16051
+Alt-Svc: h3=":443"; ma=86400
+Content-Security-Policy: default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' 'nonce-aOPXhHj7rLAJdxPVosCC2w=='; object-src 'none'; media-src media.giphy.com; font-src font.typeform.com
+Date: Tue, 07 Nov 2023 23:23:47 GMT
+Server: CloudFront
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 a4ca822be9cc438f72a2d23c1e665d80.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Xzn68cuwzzrp6nZFg8EKw4bpG6Z4axJgKzVsrc9ECUUzjr-iji_bgg==
+X-Amz-Cf-Pop: AMS1-P2
+X-Cache: Miss from cloudfront
+

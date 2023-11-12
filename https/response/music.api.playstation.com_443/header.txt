@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: music.api.playstation.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.17) Gecko/20110123 SeaMonkey/2.0.12
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 130
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 23:24:21 GMT
+Expires: Tue, 07 Nov 2023 23:24:21 GMT
+Pragma: no-cache
+Set-Cookie: _abck=AD5F987C51419DEB153B3C6B807154BA~-1~YAAQ1GZWuHU8TKWLAQAAUekZrAo3SMLSoWlaUK2Y8uNof2+8bvWFqcuqkEz4Dy9f9YqhW/++vJ3hxIBcIDz0fXQHTEIcwvDahLvvu7HaR3Xgmf/IjeT/yEF4yeo3YU3k+JOiDOHeycw5FTf8/hprdDPUmA0U+aBmfYpwZZvCzaykfkBgBTRne9F0bW1yaVqcYLX5dRghlEKucObC8mCFn1f4BZ2zFEKgUKQ/yrzBVW31b9ZyH3M0PzfGibLJb8kh+wG9w8mbjkEFFFD0GG2jDyXExazV7YnRgZu++m5c65l+nWfCY1KINXqxBX8Xz9fQ8AlT9s69OCPNtAzOHd4uZXoVSTA8SaH4ITivtj6hEHVZdf4=~-1~-1~-1; Domain=.playstation.com; Path=/; Expires=Tue, 14 Nov 2023 23:24:21 GMT; Max-Age=604800; SameSite=None; Secure
+Set-Cookie: bm_sz=01E3DC73D3AD792E1F5D1D4629DD7F37~YAAQ1GZWuHY8TKWLAQAAUekZrBWn3Ow8CdGWTWhytpDbyAfeOwbajyMa/XUtcx93jskhjidbiWGqReQnrh6mKYNQttsLfd2SiAUpCNTwjavRcw5jdDtzHAOpJLJIb4allMI7ezLHm8Vh2v/l//BnCJazirkUL5LdFPCqRIAk6TqPi+q5/vJiJpWwySJBmtfmPX3oe42d71Ks8VyYYWsUf4Y8UknGPEdkhOFg0YcnAY4AbQdBPfOmPZ8sFt5zahlTqWNKDGKZVlqXKC+T8SEdLaKIneHdTm9Uj/F44hh/MdpdgHdIBJTneH1L6uM+g2l5ErBzqTRDC+Mgkb/PZTd4BLWqJlLrbK2qtimEdxRwjiKjZVaQf2aPNI40eC+CcPdfLKTBP5g5~3748665~4405043; Domain=.playstation.com; Path=/; Expires=Wed, 08 Nov 2023 03:24:21 GMT; Max-Age=14400; SameSite=None; Secure
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+
+{"message":"No handler found for GET /","uuid":"948678b5-bb4f-4529-9688-3c462628dc24","data":null,"code":3264260,"httpStatus":404}
+
+
+https://music.api.playstation.com:443

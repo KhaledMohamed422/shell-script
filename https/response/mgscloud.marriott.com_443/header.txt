@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: mgscloud.marriott.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 303 See Other
+Connection: close
+Content-Length: 333
+Cache-Control: private, max-age=0, must-revalidate
+Cache-Control: no-cache="set-cookie"
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:28:17 GMT
+Location: https://mgscloud.marriott.com/mellon/login?ReturnTo=https%3A%2F%2Fmgscloud.marriott.com%2F&IdP=urn%3Amgscloud.marriott.com
+Server: Apache
+Set-Cookie: AWSELB=0B13575D1A83B304F6282EB919A9781F39F2EE633A63A6514BF30761B040B84805EC1029F47FE279DED5E3A680B44A927C8CF9D29F2EEFE3F2316881386B62F8CF4D60E1BF;PATH=/
+Set-Cookie: AWSELBCORS=0B13575D1A83B304F6282EB919A9781F39F2EE633A63A6514BF30761B040B84805EC1029F47FE279DED5E3A680B44A927C8CF9D29F2EEFE3F2316881386B62F8CF4D60E1BF;PATH=/;SECURE;SAMESITE=None
+

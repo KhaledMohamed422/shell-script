@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>IRCCloud Blog</title>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200i,300,300i,600,400i,600i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/main.css?v=20180406">
+        <link rel="alternate" href="/feed.xml" type="application/atom+xml">
+        <link rel="icon" type="image/png" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    </head>
+    
+    <body>
+        <div id="header">
+            <h1><a href="/"><img src="/logo@2x.png" width="52" height="52">IRC<span class="cloud">Cloud</span> Blog</a></h1>
+        </div>
+        
+        <div id="content">
+            <div id="postList">
+
+    
+    <div class="postHeader">
+    <p class="meta">
+        <span class="date">
+            Saturday December 03
+            <span class="year">2022</span>
+        </span>
+        
+            <span class="author">• posted by james</span>
+        
+    </p>
+    <h1><a href="/2023-price-increase/" rel="self">2023 Price increase</a></h1>
+</div>
+
+<div class="post">
+    
+        <p><strong>Update 9 Jan 2023:</strong> The new pricing is now active for all new subscriptions.</p>
+
+<p>For the first time since we launched, we’re raising our prices. The new pricing will come into effect on <strong>Monday, January 9th 2023</strong> and will be as follows:</p>
+
+<h4 id="monthly-solo-and-team-members">Monthly (solo and team members)</h4>
+
+<table>
+<tr>
+    <th></th>
+    <th>Old price</th>
+    <th>New price</th>
+</tr>
+<tr>
+    <td>USD</td>
+    <td>$5.00</td>
+    <td><b>$6.00</b></td>
+</tr>
+<tr>
+    <td>GBP</td>
+    <td>£3.50</td>
+    <td><b>£5.00</b></td>
+</tr>
+<tr>
+    <td>EUR</td>
+    <td>€4.00</td>
+    <td><b>€5.75</b></td>
+</tr>
+</table>
+
+<h4 id="yearly-solo">Yearly (solo)</h4>
+
+<table>
+<tr>
+    <th></th>
+    <th>Old price</th>
+    <th>New price</th>
+</tr>
+<tr>
+    <td>USD</td>
+    <td>$50.00</td>
+    <td><b>$60.00</b></td>
+</tr>
+<tr>
+    <td>GBP</td>
+    <td>£35.00</td>
+    <td><b>£50.00</b></td>
+</tr>
+<tr>
+    <td>EUR</td>
+    <td>€40.00</td>
+    <td><b>€57.50</b></td>
+</tr>
+</table>
+
+<p>This will initially apply to new subscriptions only, but we may need to adjust existing subscriptions in the future. If you cancel and resubscribe after this change comes into effect, you’ll be charged at the new rates.</p>
+
+<p>You can still subscribe to our yearly plan to get 12 months for the price of 10. And subscribing now will lock in the “old price” for 12 months. We’re not making any changes to the free plan.</p>
+
+<h3 id="why">Why?</h3>
+
+<p>We know there’s never a good time for a price increase, but prices everywhere have been going up, including our upstream providers, and we need to maintain a sustainable business. We hope you’ll understand why this is necessary for us to continue offering the service.</p>
+
+<p>This is the first time we’ve raised our prices since starting IRCCloud in 2010. In fact, the new prices are less than half the cost of our earliest unlimited plans.</p>
+
+<h3 id="updates">Updates</h3>
+
+<p>As well as adapting to a global pandemic, over the past few years we’ve been focusing on improving and maintaining our service stability following some difficult periods of downtime. A few highlights:</p>
+
+<ul>
+  <li>May 2021 - Began sponsoring InspIRCd development, to help promote wider adoption of IRCv3.</li>
+  <li>Sep 2021 - Completed a full migration of all our servers to a new ISP, which has greatly improved our availability. We’ve had no serious outages for over a year.</li>
+  <li>Oct 2022 - Upgraded the irc.irccloud.com support server to the latest version of InspIRCd. This enables new features such as emoji reactions, <a href="/reply-threads/">replies</a>, and typing indicators.</li>
+</ul>
+
+<p>We’ve also continued to ship releases to our mobile apps to keep them up to date with all our features and the latest OS updates.</p>
+
+<p>We appreciate all our customers who’ve supported us over the years, and we hope to continue to provide a valuable service for many more years to come.</p>
+
+    
+</div>
+
+
+    
+    <div class="postHeader">
+    <p class="meta">
+        <span class="date">
+            Sunday July 19
+            <span class="year">2020</span>
+        </span>
+        
+            <span class="author">• posted by james</span>
+        
+    </p>
+    <h1><a href="/july-2020-log-exposure/" rel="self">July 2020 log exposure incident</a></h1>
+</div>
+
+<div class="post">
+    
+        <p>At 14:54 UTC on Saturday, July 18th, 2020 we discovered that a small number of IRCCloud users were seeing logs from other users. This affected certain users on our “hathersage” and “stonehaven” connection servers between 12:53 UTC on Friday July 17th, and around 16:00 UTC on Saturday July 18th.</p>
+
+<p>In order to resolve this issue, we have had to delete some logs for users during this period. All users affected by this issue will receive an email with more details of exactly which logs were affected.</p>
+
+<p>This incident was triggered by a mis-configuration error on our part, and we’re very sorry for this failure to maintain your data integrity. We take seriously the trust placed in us to safeguard your data privacy and security, and we are committed to restoring that trust.</p>
+
+<h2 id="how-this-happened">How this happened</h2>
+
+<p>This issue was related to our ongoing work to move our connection servers to a more decentralised architecture, which, <a href="https://blog.irccloud.com/extended-outage/">as we’ve mentioned before</a>, will allow us more flexibility on where we can host these servers.</p>
+
+<p>Part of this work involves connection and buffer (channel/private message) metadata being stored in a separate, local database for each connection server, for performance and reliability reasons. This means that connection and buffer IDs are generated independently on each server, rather than by a single central database. These IDs are namespaced with the ID of the server they were generated on, and each server stores the offset of the IDs it’s currently issuing.</p>
+
+<p>We had originally started to migrate users to hathersage on March 22nd, in the final step of a rolling upgrade of all of our connection servers. However, this migration was aborted when the server suffered a hardware failure on April 18th. As part of the rollback, we moved these users back to another server (stonehaven).</p>
+
+<p>When we finally received replacement hardware for hathersage, we restarted the migration at 12:53 UTC on July 17th. This was the first time we had placed users back on a freshly-configured server which reused a server ID, and our server deployment procedure did not prompt us to configure the offset. The considerable amount of time which had elapsed since the previous migration, due to the hardware failure and other factors, also meant that this process was not fresh in our minds.</p>
+
+<p>Because of this, hathersage started to issue connection and buffer IDs which duplicated those which already existed on stonehaven. These duplicated IDs meant that logs from multiple users’ buffers were being combined together in our log data store. When one user fetched a backlog, the logs from both buffers were returned.</p>
+
+<h2 id="the-fix">The fix</h2>
+
+<p>The immediate fix involved correctly setting the offset, and this was completed at 15:45 UTC on Saturday 18th. At 16:07 UTC, we disabled backlog fetching for all users on hathersage and stonehaven to prevent incorrect logs from being displayed to users.</p>
+
+<p>We then deleted all new buffers and connections created on hathersage during the 27 hour window since the start of the issue. This was completed at 16:28 UTC and backlog fetching was restored on hathersage.</p>
+
+<p>Since the reused IDs had been in use on stonehaven for much longer, deleting all affected logs would have caused considerable data loss for those users. Instead, we began a more involved process of purging those logs of any data leaked from other users. This was completed at 22:03 UTC and backlog fetching was subsequently restored on stonehaven.</p>
+
+<h2 id="summary-of-the-impact-to-users">Summary of the impact to users</h2>
+
+<p>hathersage: Users who created new buffers and connections between 12:53 UTC on Friday July 17th, and around 16:00 UTC on Saturday July 18th may have seen logs from stonehaven accounts in those buffers. They may also have had those newly created logs exposed back to the stonehaven accounts. Those connections and buffers have now been deleted from accounts on hathersage.</p>
+
+<p>stonehaven: Some users who were initially moved during the aborted migration earlier this year may have had some of their logs exposed to users now on hathersage. They may also have seen newly created logs from the affected users on hathersage in their own accounts.</p>
+
+<p>All log entries that were inadvertently shared between users has now been deleted from log storage.</p>
+
+<p>We will be emailing both sets of users with details on their affected logs.</p>
+
+<h2 id="how-well-avoid-this-in-future">How we’ll avoid this in future</h2>
+
+<p>We will require a manual confirmation step to set the offsets on a connection server before it can be brought into use.</p>
+
+<p>We will implement additional checks when backlogs are fetched to ensure that stored logs cannot be leaked to the wrong users in the case of a buffer ID collision.</p>
+
+    
+</div>
+
+
+    
+    <div class="postHeader">
+    <p class="meta">
+        <span class="date">
+            Thursday July 09
+            <span class="year">2020</span>
+        </span>
+        
+            <span class="author">• posted by russ</span>
+        
+    </p>
+    <h1><a href="/july-2020-outage/" rel="self">Report on the July 2020 extended outage</a></h1>
+</div>
+
+<div class="post">
+    
+        <p>The IRCCloud service experienced an extended period of downtime between around 22:40 on 07/07/2020 and 19:10 on 08/07/2020 (UTC) due to a fault with our internet service provider. This was the second time such an outage has occurred this year, and we are as frustrated as you are with this unacceptable situation.</p>
+
+<p>This outage affected seven of the eight servers we use to handle our outgoing IRC connections. As we explained in our <a href="/extended-outage/">report on the previous outage</a>, these outbound connection servers have a fairly unique networking configuration which means they are hosted by a specialist ISP, which we cannot quickly migrate away from.</p>
+
+<p>We have built sufficient redundancy to ensure that we can survive the loss of one or two of these eight servers, but we don’t yet have the capability to survive the loss of all of them.</p>
+
+<p>Although we haven’t yet received a full explanation from our ISP, it appears that this problem was caused by some kind of networking failure which required a technician to visit the datacenter to resolve. For reasons which are unclear, it took more than 12 hours for this to be arranged.</p>
+
+<p>As we mentioned in our previous report, we have been working on making changes to our system so we can move to a new ISP. These changes are almost complete and we will now accelerate our migration away from this ISP, which we hope to complete within the next few months.</p>
+
+<p>If you’re an IRCCloud subscriber, we’re happy to issue you a month’s refund in compensation for this downtime - drop us an email at <a href="mailto:team@irccloud.com">team@irccloud.com</a> with the email address associated with your account.</p>
+
+    
+</div>
+
+
+    
+    <div class="postHeader">
+    <p class="meta">
+        <span class="date">
+            Friday April 24
+            <span class="year">2020</span>
+        </span>
+        
+            <span class="author">• posted by james</span>
+        
+    </p>
+    <h1><a href="/pinned-channels/" rel="self">Pinned Channels</a></h1>
+</div>
+
+<div class="post">
+    
+        <p>Pinned channels are a new way to keep your channels and conversations organised.</p>
+
+<p>
+<video width="270" height="490" autoplay="" controls="" loop="">
+    <source src="/static/2020-04-24-pinned-channels/pinned-channels-android-scale.mp4" type="video/mp4" />
+</video>
+</p>
+
+<p>You can pin any channel or private message to the top of your list from the menu (gear icon) or by pressing and holding in the mobile apps.</p>
+
+<p>Pinned private messages won’t automatically archive so you can keep easy access to them.</p>
+
+    
+</div>
+
+
+    
+    <div class="postHeader">
+    <p class="meta">
+        <span class="date">
+            Thursday January 16
+            <span class="year">2020</span>
+        </span>
+        
+            <span class="author">• posted by russ</span>
+        
+    </p>
+    <h1><a href="/extended-outage/" rel="self">Report on the January 2020 extended outage</a></h1>
+</div>
+
+<div class="post">
+    
+        <p>Last night we experienced approximately 12 hours of downtime between around 18:00 and 06:40 UTC, caused by a prolonged period of internet routing issues which our ISP has attributed to a failed line card in one of their routers. This was our longest period of downtime in many years and we’re very sorry for the disruption it caused.</p>
+
+<p>Running a large service which interfaces with the venerable IRC protocol poses a different set of challenges to most modern web services: Firstly, we have to manage a large number of outbound IRC connections while ensuring as few disconnections as possible. Secondly, IRC networks expect our users to connect from a consistent set of IP addresses, and lastly, IRCCloud is subject to a high volume of distributed denial of service (DDoS) attacks.</p>
+
+<p>These constraints mean that our outbound connection servers, which actually make your outbound IRC connections, have been hosted for years by a specialist DDoS-resistant hosting service provided by a major ISP. This is a costly part of our infrastructure, and it wouldn’t be economical for us to completely duplicate these servers elsewhere to mitigate against rare situations like the one last night. Switching to another ISP - even if we could find one to provide the required servers at short notice - would involve a long process of getting new IP addresses whitelisted by IRC networks.</p>
+
+<p>Our current architecture also restricts us to running our outbound connection servers in relatively close proximity to the rest of our infrastructure (which is hosted on Amazon Web Services). Over the last few months we’ve been working on a significant update of our backend software to remove this restriction - in fact, we started rolling this update out yesterday.</p>
+
+<p>These improvements will make it easier for us to investigate other approaches for our outbound connection servers in future, and we’ll certainly be discussing network redundancy with our ISP and future providers.</p>
+
+<p>If you’re an IRCCloud subscriber, we’re happy to issue you a month’s refund in compensation for this downtime - drop us an email at <a href="mailto:team@irccloud.com">team@irccloud.com</a>.</p>
+
+    
+</div>
+
+
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  
+  
+  
+    <a href="/page2" class="page_next">Older posts →</a>
+  
+</div>
+
+            
+            <div id="footer">
+                <p>
+                    <a href="https://www.irccloud.com/">IRCCloud</a> •
+                    <a href="https://www.irccloud.com/about">About</a> •
+                    <a href="https://www.irccloud.com/jobs">Jobs</a> •
+                    <a href="https://www.irccloud.com/changelog">Changelog</a> •
+                    <a href="https://www.irccloud.com/faq">FAQ</a> •
+                    <a href="https://www.irccloud.com/?/upgrade">Subscriptions</a> •
+                    <a href="https://www.twitter.com/irccloud">@irccloud</a> •
+                    <a href="mailto:team@irccloud.com">team@irccloud.com</a>
+                </p>
+                <p>© IRCCloud Ltd.</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+0
+
+
+
+
+https://blog.irccloud.com:443

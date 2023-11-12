@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: atlantis.haven.instacart.tools
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/36.0.1985.125 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 110
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 17:22:15 GMT
+Location: https://instacart.okta.com/oauth2/v1/authorize?client_id=0oaa1ga1p4bfyiWWT357&redirect_uri=https%3A%2F%2Fatlantis.haven.instacart.tools%2Foauth2%2Fidpresponse&response_type=code&scope=openid&state=qgUwax1mGTgYBXcO4fmDzVNCicq%2BRfqAUsY7F79OAeqH5juaJ0Rs06kZl1MKiZZZszT%2BpfvfTfIEKn8V0DbvHeHXbwthwUDCn0Ial1mCZJVS3u5mTJl8o5sBuTSrqCtNLgGTFE4%2F48KybtI2aUyXX%2F17OIJvNjSAhp379hdarodkEpEfITy0MmUZh0pxrMDD9Fn2P15z%2F4oo1hjdEN5z%2F1AVd3mWMQOBUzBN9PNF%2BNDQ08sgyg%3D%3D
+Server: awselb/2.0
+Set-Cookie: AWSALBAuthNonce=PhOLdah0U2760aZm; Expires=Tue, 07 Nov 2023 17:37:15 GMT; Path=/; Secure; HttpOnly
+

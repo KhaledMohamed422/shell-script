@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: static.postman.co
+User-Agent: Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 929) like iPhone OS 7_0_3 Mac OS X AppleWebKit/537 (KHTML, like Gecko) Mobile Safari/537
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 07:31:47 GMT
+Server: AmazonS3
+Via: 1.1 bc3ecf5f025b0be9b8c39c5dd2dace2e.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: VohzNKhg0ivwztAZyS2w7GktEwj6Zv3eVKQ1kFaHuZBzQ9w3bjQ-iw==
+X-Amz-Cf-Pop: FRA60-P6
+X-Cache: Error from cloudfront
+
+ff
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>MX9CYJ45C99HREFM</RequestId><HostId>rafu5fExnho++79+P3FP7iELyGITTmsmPk/Pydnk06HkNvRuOXSczYrfANv2nd1lV3hge4h0dNK/e/4Tc1RWTQ==</HostId></Error>
+0
+
+
+
+
+https://static.postman.co:443

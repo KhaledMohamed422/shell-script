@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: api.staging.cloudflare.com:8443
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.7 (KHTML, like Gecko) Chrome/16.0.912.36 Safari/535.7
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8227e54e682e7a5e-DUS
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 19:13:49 GMT
+Server: cloudflare
+Set-Cookie: __cf_bm=eiztZ_Qx7hGipYx3fznL3uRJdP2PRNNbgcvM3MvsTGU-1699384429-0-AcCsBv54rd57oEHNxNK1dZIZDYde8WsyZ2SmQuuFQH4hZZShB5rNPU1LA6xRUFm96ZXviHGu8ZkvsgTpIluM2hI=; path=/; expires=Tue, 07-Nov-23 19:43:49 GMT; domain=.api.staging.cloudflare.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=qlz._BfhNFUl03JVxRhxACd12mT9mI9cKTpVI10ZZiI-1699384429-0-AX4J2On2IAUl9F43hLvabC5XxRTJ0rfCTliZ4PSUCR1B4XnWgBXilbBsiklM9xpsiHfCOLwviCOOm3ElRB/kYSI=; path=/; expires=Tue, 07-Nov-23 19:43:49 GMT; domain=.api.staging.cloudflare.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+
+4c
+{"success":false,"errors":[{"code":7000,"message":"No route for that URI"}]}
+0
+
+
+
+
+https://api.staging.cloudflare.com:8443

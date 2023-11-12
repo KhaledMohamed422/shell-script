@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: wem-productionaps-webconsole-a.wem.cloud.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 337
+Cache-Control: max-age=604800
+Content-Type: text/html
+Date: Tue, 07 Nov 2023 23:03:37 GMT
+Expires: Tue, 14 Nov 2023 23:03:38 GMT
+Server: Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0
+X-Ms-Error-Code: AccountRequiresHttps
+X-Ms-Request-Id: 5025c165-801e-00b2-63ce-119207000000
+X-Ms-Version: 2018-03-28
+

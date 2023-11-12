@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: cdn.em2.cloudflare.com
+User-Agent: iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 19:14:12 GMT
+Server: AmazonS3
+Via: 1.1 428178e04c8c5f5460c3935b1e7203be.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: WxR37H_hK5Ua4ch9p39sFv3YoL6V5ukkLOvVdzSAzoxl7VfNHB7Jbw==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>H1D69HRECJ20BFH7</RequestId><HostId>kzcqXisrd9Arz9d9MqYtEaXN1iIDAhTlYuoq+CaHw/5v2TWdIoRhuEkVtCdkhx6xY9Pm+x9m4KU=</HostId></Error>
+0
+
+
+
+
+https://cdn.em2.cloudflare.com:443

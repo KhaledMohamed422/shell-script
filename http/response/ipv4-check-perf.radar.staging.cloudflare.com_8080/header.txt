@@ -1,0 +1,38 @@
+GET / HTTP/1.1
+Host: ipv4-check-perf.radar.staging.cloudflare.com:8080
+User-Agent: Opera/7.51 (Windows NT 5.1; U) [en]
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Cf-Ray: 8227dfa2ad20cafd-DUS
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 07 Nov 2023 19:09:57 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: __cf_bm=rm2Nvv3OAtic_px8aRZbe7_rETYwtkcWjl7vQNIDblE-1699384197-0-AUMwfOiP79LWp7seDrCVdNq3sIvhcdda41sHXsjgfrsGzc9ah4fMPhA9Uf3NMFkWrdtPHvkVROP4IsgLPLHLZz4=; path=/; expires=Tue, 07-Nov-23 19:39:57 GMT; domain=.radar.staging.cloudflare.com; HttpOnly; SameSite=None
+Timing-Allow-Origin: *
+Vary: Accept-Encoding
+
+c4
+{
+  "colo": "DUS",
+  "asn": 51167,
+  "continent": "EU",
+  "country": "DE",
+  "region": "North Rhine-Westphalia",
+  "city": "Düsseldorf",
+  "ip_address": "161.97.145.139",
+  "ip_version": "IPv4"
+}
+0
+
+
+
+
+http://ipv4-check-perf.radar.staging.cloudflare.com:8080

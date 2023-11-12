@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: player.vhx.tv
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: public, max-age=3600
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:00:37 GMT
+Server: AmazonS3
+Via: 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: GEYVChkgYryqwVLoUrAMiqaDT5dt3LwxPHPsPH+KJn4vvsLMgsUsI1NOi1nnLnGDEsNzzGbi25k=
+X-Amz-Request-Id: F52W0PR2B1Z0WSXR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Served-By: cache-fra-etou8220058-FRA
+X-Timer: S1699419637.390145,VS0,VE204
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F52W0PR2B1Z0WSXR</RequestId><HostId>GEYVChkgYryqwVLoUrAMiqaDT5dt3LwxPHPsPH+KJn4vvsLMgsUsI1NOi1nnLnGDEsNzzGbi25k=</HostId></Error>
+0
+
+
+
+
+https://player.vhx.tv:443

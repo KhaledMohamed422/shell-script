@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: intranet.seagroup.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; IN2025) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Security-Policy: base-uri 'self';object-src 'none';report-uri /_/view/cspreport;script-src 'report-sample' 'nonce-AF_-8fruHqKvdaaZx0U-dA' 'unsafe-inline' 'unsafe-eval';worker-src 'self';frame-ancestors https://google-admin.corp.google.com/
+Content-Type: application/binary
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: same-site
+Date: Tue, 07 Nov 2023 19:15:55 GMT
+Location: https://accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://sites.google.com/seagroup.com/sea-sg-intranet&followup=https://sites.google.com/seagroup.com/sea-sg-intranet
+Server: ESF
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 0
+Content-Length: 0
+
+
+
+
+https://intranet.seagroup.com:443

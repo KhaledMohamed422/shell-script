@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: docsstaging.coveo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 28
+Date: Wed, 08 Nov 2023 02:27:37 GMT
+Location: https://accounts.google.com/o/oauth2/v2/auth?client_id=756914321212-q330te6a798musrgtvcn288kpst684us.apps.googleusercontent.com&response_type=code&scope=openid%20email&redirect_uri=https%3A%2F%2Fdocsstaging.coveo.com%2F_callback&hd=coveo.com&nonce=169941045692900&state=%2F
+Server: CloudFront
+Set-Cookie: TOKEN=; Path=/; Expires=Sun, 01 Feb 1970 00:00:00 GMT
+Via: 1.1 68b2682a924ac399aa2724b5b439e75c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 4tegFjGkoqAlA51KSgiCO_inKRSVlvUBKHnqww9qAoLZLTh7CCddsw==
+X-Amz-Cf-Pop: FRA60-P3
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Redirecting to OIDC provider
+
+
+https://docsstaging.coveo.com:443

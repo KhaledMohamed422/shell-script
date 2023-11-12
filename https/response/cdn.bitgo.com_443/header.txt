@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cdn.bitgo.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; 100011886A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 18:56:48 GMT
+Server: AmazonS3
+Via: 1.1 6eb77e673c2aa566dbadbc817458b976.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: aHw1Km9AzDLFopyJl0EElS3jls7A99hH2OspXn_L4JH4PxxRyCSduw==
+X-Amz-Cf-Pop: DUS51-P2
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2TB28BZ81WNZE5Q1</RequestId><HostId>224LRVNQsI8HX1tZ2hza9Xp1mnMT+5JNdAxvP5cQBEmorvGHg85Cr9M8+xFySqHTb/kuRkJx5vc=</HostId></Error>
+0
+
+
+
+
+https://cdn.bitgo.com:443

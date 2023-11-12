@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: preprod.airline-partner.marriott.com
+User-Agent: Nokia6230i/2.0 (03.80) Profile/MIDP-2.0 Configuration/CLDC-1.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 381
+Content-Type: text/html; charset=iso-8859-1
+Date: Tue, 07 Nov 2023 17:29:01 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Www-Authenticate: Basic realm="Password Protected Area"
+X-Frame-Options: deny
+

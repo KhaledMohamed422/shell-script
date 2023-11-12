@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en" class="no-touch">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1" />
+
+		<title>Nintendo @ E3 2017 – Videos, livestreams, and more</title>
+		<meta name="description" content="Videos, livestreams, and more from Nintendo at E3 2017." />
+
+		<meta property="fb:app_id" content="775678255785283" />
+		<meta property="og:title" content="Nintendo @ E3 2017 – Videos, livestreams, and more" />
+		<meta property="og:description" content="Videos, livestreams, and more from Nintendo at E3 2017." />
+		<meta property="og:type" content="game" />
+
+		
+		<meta property="og:url" content="http://e3.nintendo.com/" />
+		
+
+		
+
+		
+		<meta property="og:image" content="/e3-assets/images/global/fb-share.jpg" />
+		
+		<script>
+			var supportsWebP = document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') === 0;
+			if (supportsWebP) {
+				document.documentElement.classList.add('webp');
+			} else {
+				document.documentElement.classList.add('no-webp');
+			}
+		</script>
+
+		<link rel="stylesheet" href="https://alps.cdn.nintendo.net/v1/css/alps.css" />
+		<link rel="stylesheet" href="/e3-assets/css/all.min.css" />
+
+		<link rel="shortcut icon" href="/favicon.ico" />
+
+		<meta name="google-site-verification" content="lcC2m3GxLFXRpw4s4cKbn8Q6jDs8zHPXp9CC1xHn70c" />
+		<meta name="msvalidate.01" content="CD9A42A71E67EDC970DE6AD9919B5D79" />
+	</head>
+<body class="home pip-hidden">
+
+	<!-- pinned video -->
+
+		<div id="pinned-video-container">
+
+			<div id="pinned-video-header" class="header">
+				<span class="icon"></span>
+				<span class="text">Livestream </span>
+
+				<button id="btn-mob-ls-close" class="btn-close hover-pop hide-desktop hide-tablet"> </button>
+
+				<span id="player-toggle" class="toggle">
+					<span class="min">&nbsp;</span>
+					<span class="max">&nbsp;</span>
+				</span>
+			</div>
+
+			<div id="pip-video-replace" class="video-player">
+
+			</div>
+
+			<a id="popout-stream" class="popout" href="/popout-stream/">Popout player <span class="popout-icon"></span></a>
+
+		</div>
+
+		<div id="pinned-video-containment"> </div>
+	<!-- pinned video -->
+
+
+	<!-- Navigation -->
+
+	<div class="nin-header-wrapper">
+		<div class="nin-header" id="nin-header">
+			
+			<div class="nav-element">
+				<div class="nav-toggle" id="nav-toggle">
+					<div class="nav-icon">
+						<div class="top-line"></div>
+						<div class="mid-line"></div>
+						<div class="bottom-line"></div>
+					</div>
+					<span>Menu</span>
+				</div>
+				
+				<a class="link-home" href="/">
+					<img src="/e3-assets/images/global/navigation/nintendo-e3.svg" alt="Nintendo @ E3 2017" />
+				</a>
+			</div>
+			
+			<div id="nintendo-account-element" class="nav-account nav-element">
+				<alps-account-nav></alps-account-nav>
+			</div>
+		</div>
+		<div class="section-header" id="section-header">
+			<div id="games-section-tab" class="inactive">
+				<img src="/e3-assets/images/global/navigation/nav-games.svg">
+				<span>Games</span>
+			</div>
+			<div id="videos-section-tab" class="inactive">
+				<img src="/e3-assets/images/global/navigation/nav-videos.svg">
+				<span>Videos</span>
+			</div>
+			<div id="tournaments-section-tab" class="inactive">
+				<img src="/e3-assets/images/global/navigation/nav-tournaments.svg">
+				<span>Tournaments</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="nav-gradient" id="nav-gradient"></div>
+
+	<nav class="nav-overlay wrapper-flex-wide" id="nav-overlay">
+		
+		<a href="/" id="nav-home" class="nav-item sub-nav nav-home">
+			<div class="nav-wrapper">
+				<svg id="Layer_1" viewBox="0 0 87 87"><style>.st0{fill:#fff}</style><path id="icon-HOME" class="st0 shady" d="M56.6 64.1c0 1.9-.8 2.6-2.6 2.6H33.1c-1.9 0-2.6-.8-2.6-2.6V48.4c0-1.8.8-2.6 2.6-2.6H54c1.8 0 2.5.7 2.6 2.5v15.8zm27.6-25.6l-39-33.3c-1.2-1.1-2.2-1.1-3.4 0l-39 33.3c-2.3 2-1.4 4.6 1.7 4.6h5.1c1.8 0 2.6.8 2.6 2.7v34c0 1.9.8 2.6 2.6 2.6h57.5c1.8 0 2.6-.8 2.6-2.6v-34c0-1.9.8-2.7 2.6-2.7h5c3.1.1 4-2.5 1.7-4.6z"/></svg>
+				<span>Home</span>
+			</div>
+		</a>
+		
+		<a href="/games/" id="nav-games" class="nav-item sub-nav  nav-games">
+			<div class="nav-wrapper">
+				<svg id="Layer_1" viewBox="0 0 87 87"><style>.st0{fill:#fff}</style><path id="games-icon" class="st0 shady" d="M74 45.1H59.9c-.9 0-1.6-.7-1.6-1.6s.7-1.6 1.6-1.6H74c.9 0 1.6.7 1.6 1.6s-.7 1.6-1.6 1.6zm-28.9-18c0 .9-.7 1.6-1.6 1.6-.9 0-1.6-.7-1.6-1.6V13c0-.9.7-1.6 1.6-1.6.9 0 1.6.7 1.6 1.6v14.1zm0 46.9c0 .9-.7 1.6-1.6 1.6-.9 0-1.6-.7-1.6-1.6V59.9c0-.9.7-1.6 1.6-1.6.9 0 1.6.7 1.6 1.6V74zm-18-28.9H13c-.9 0-1.6-.7-1.6-1.6s.7-1.6 1.6-1.6h14.1c.9 0 1.6.7 1.6 1.6s-.7 1.6-1.6 1.6zM82 32H58.7c-1.8 0-3.7-1.9-3.7-3.7V5c0-2.1-1.4-3.5-3.5-3.5H36.4c-2.2 0-4.3 1.4-4.3 3.5v23.3c0 1.8-1.1 3.7-2.9 3.7H5.8c-2.1 0-4.3 1.4-4.3 3.5v15.1c0 2.2 2.2 4.3 4.3 4.3h23.3c1.8 0 2.9 1.1 2.9 2.9v23.3c0 2.2 2.2 4.3 4.3 4.3h15.2c2.2 0 3.5-2.2 3.5-4.3V57.9c0-1.8 1.9-2.9 3.7-2.9H82c2.2 0 3.5-2.2 3.5-4.3V35.5c0-2.1-1.4-3.5-3.5-3.5z"/></svg>
+				<span>Games</span>
+			</div>
+		</a>
+		
+		<a href="/videos/" id="nav-videos" class="nav-item sub-nav  nav-videos">
+			<div class="nav-wrapper">
+				<svg id="Layer_1" viewBox="0 0 87 87"><style>.st0{fill:#fff}</style><path id="Oval" class="st0 shady" d="M43.9 79.5c20.2 0 36.6-16.4 36.6-36.6S64.1 6.3 43.9 6.3 7.3 22.7 7.3 42.9s16.4 36.6 36.6 36.6zm0 4.6c-22.8 0-41.2-18.5-41.2-41.2S21.1 1.6 43.9 1.6s41.2 18.5 41.2 41.2-18.5 41.3-41.2 41.3z"/><path id="Triangle-2" class="st0 shady" d="M38.2 60.5c-3.8 2.3-6.9.5-6.9-3.9V28.7c0-4.4 3.1-6.2 6.9-3.9L61 38.6c3.8 2.3 3.8 6 0 8.2L38.2 60.5z"/></svg>
+				<span>Videos</span>
+			</div>
+		</a>
+		
+		<a href="/tournaments/" id="nav-tournaments" class="nav-item sub-nav  nav-tournaments">
+			<div class="nav-wrapper">
+				<svg id="Layer_1" viewBox="0 0 87 87"><style>.st0{fill:#fff}</style><path class="st0" d="M85.5 35v17c0 1.1-.9 2-2 2h-17c-1.1 0-2-.9-2-2V35c0-1.1.9-2 2-2h17c1.1 0 2 .9 2 2zM1.5 3.5v17c0 1.1.9 2 2 2h17c1.1 0 2-.9 2-2v-17c0-1.1-.9-2-2-2h-17c-1.1 0-2 .9-2 2zm44 41.5h17.4v-3H45.5V10.5H24.2v3h18.3v60H24.2v3h21.3zm-44 21.5v17c0 1.1.9 2 2 2h17c1.1 0 2-.9 2-2v-17c0-1.1-.9-2-2-2h-17c-1.1 0-2 .9-2 2z"/></svg>
+				<span>Tournaments</span>
+			</div>
+		</a>
+
+		<div id="nav-livestream" class="nav-item sub-nav nav-livestream hide-desktop hide-tablet">
+			<div class="nav-wrapper">
+				<div class="icon-wrapper">
+					<svg width="80" height="42" viewBox="0 0 80 42"><title>livestream outline</title><g fill="#FFF" fill-rule="evenodd"><path d="M69.367 3.405a27.16 27.16 0 0 1 1 1.402 37.077 37.077 0 0 1 2.287 3.937c2.065 4.11 3.299 8.392 3.299 12.603 0 4.195-1.224 8.266-3.273 12.044a30.208 30.208 0 0 1-2.264 3.565c-.267.36-.513.675-.732.94-.126.151-.21.249-.248.29a1.74 1.74 0 1 0 2.577 2.336c.255-.281.672-.786 1.198-1.495a33.668 33.668 0 0 0 2.526-3.978c2.306-4.25 3.694-8.868 3.694-13.702 0-4.82-1.38-9.608-3.669-14.165a40.536 40.536 0 0 0-2.503-4.307 25.338 25.338 0 0 0-1.176-1.643 1.74 1.74 0 1 0-2.716 2.173z" fill-rule="nonzero"/><path d="M61.25 5.724a23.23 23.23 0 0 1 .865 1.211 32.218 32.218 0 0 1 1.987 3.42c1.793 3.568 2.862 7.283 2.862 10.928 0 3.63-1.06 7.157-2.837 10.432a26.208 26.208 0 0 1-1.964 3.093c-.392.53-.69.89-.843 1.06a1.74 1.74 0 1 0 2.577 2.335c.849-.936 2.072-2.588 3.288-4.83 2.033-3.748 3.258-7.821 3.258-12.09 0-4.254-1.216-8.475-3.233-12.489a35.677 35.677 0 0 0-2.203-3.791 22.366 22.366 0 0 0-1.04-1.452 1.74 1.74 0 0 0-2.716 2.173z" fill-rule="nonzero"/><path d="M40.58 41.74c-11.526 0-20.87-9.344-20.87-20.87C19.71 9.344 29.054 0 40.58 0c11.526 0 20.87 9.344 20.87 20.87 0 11.526-9.344 20.87-20.87 20.87zm-3.432-11.213l12.957-7.777c1.891-1.135 1.894-2.98 0-4.116l-12.957-7.776c-1.89-1.135-3.429-.264-3.429 1.95v15.769c0 2.22 1.535 3.086 3.43 1.95z"/><path d="M16.331 3.551c-.22.276-.583.767-1.04 1.452a35.677 35.677 0 0 0-2.203 3.791c-2.017 4.014-3.233 8.235-3.233 12.489 0 4.269 1.225 8.342 3.258 12.09 1.216 2.242 2.439 3.894 3.287 4.83a1.74 1.74 0 1 0 2.578-2.336 15.28 15.28 0 0 1-.844-1.059 26.208 26.208 0 0 1-1.964-3.093c-1.776-3.275-2.837-6.802-2.837-10.432 0-3.645 1.07-7.36 2.863-10.927a32.218 32.218 0 0 1 1.987-3.42 22.606 22.606 0 0 1 .864-1.211 1.74 1.74 0 0 0-2.716-2.174z" fill-rule="nonzero"/><path d="M7.928 1.232c-.247.31-.658.866-1.177 1.643a40.536 40.536 0 0 0-2.503 4.307C1.96 11.739.58 16.527.58 21.347c0 4.834 1.388 9.451 3.694 13.702A33.668 33.668 0 0 0 6.8 39.027c.526.71.943 1.214 1.198 1.495a1.74 1.74 0 0 0 2.577-2.336 9.824 9.824 0 0 1-.248-.29 22.412 22.412 0 0 1-.732-.94 30.208 30.208 0 0 1-2.264-3.565c-2.049-3.778-3.273-7.849-3.273-12.044 0-4.211 1.233-8.493 3.299-12.603a37.077 37.077 0 0 1 2.287-3.937c.27-.405.52-.76.742-1.061.13-.175.218-.29.258-.34a1.74 1.74 0 0 0-2.716-2.174z" fill-rule="nonzero"/></g></svg>
+				</div>
+
+				
+				<span>Livestream</span>
+			</div>
+		</div>
+	
+	</nav>
+	
+<!-- End Navigation -->
+
+
+	<a href="#top" class="back-to-top is-hidden is-menu display-none" id="mobileToaster">
+		<div class="menu"><img src="/e3-assets/images/global/mobilenav/menu.png" alt="Menu"/></div>
+		<div class="menuclose"><img src="/e3-assets/images/global/mobilenav/close.png" alt="Close"/></div>
+		<div class="top"><img src="/e3-assets/images/global/mobilenav/top.png" alt="Top"/></div>
+	</a>
+
+	<div id="smoothstate-container">
+		<!-- You write code for this content block in another file -->
+		
+	<main id="page-container" class="home-page">
+		<div data-pagetype="home" data-pagefunctionality="masonry" data-metrics="home">
+			<div data-pagetype="home">
+				<section id="featured-videos" class="featured-videos">
+
+					<div class="video-container">
+						<div class="hero-frame">
+							<img class="lazyload" src="/e3-assets/images/home/mario-toss.png">
+						</div>
+						<div class="video-tabs">
+							<div class="hero-message">
+								<span>Thank you for watching!</span>
+								<p>E3 2017 may be over, but the fun is just beginning. Be sure to check out the Games section to learn more about <em>Super&nbsp;Mario&nbsp;Odyssey</em>, <em>Splatoon™&nbsp;2</em>, <em>Metroid™:&nbsp;Samus&nbsp;Returns</em> and more great games featured at E3 this year, and catch up on Nintendo game presentations and footage of the exciting game tournaments on our Video page. </p>
+							</div>
+
+							<a href="/videos/#nintendo-spotlight" class="video-tab auto-video video-link">
+								<div class="copy-container">
+									<h4>Nintendo Spotlight</h3>
+									<p>Miss the live event? Catch the replay of the Nintendo Digital Event at E3 and find out about the newest Nintendo games that are on the way.</p>
+								</div>
+								<div class="thumb-container"><img class="lazyload" src="/e3-assets/images/videos/nintendo-spotlight-thumb.jpg"></div>
+							</a>
+						</div>
+					</div>
+
+					<nav class="nav-overlay" id="nav-overlay">
+						<div class="wrapper-flex">
+							<a href="/games/" id="nav-games" class="nav-item home-nav  nav-games">
+								<div class="nav-wrapper">
+									<img src="/e3-assets/images/global/navigation/nav-games.svg">
+									<span>Games</span>
+								</div>
+							</a>
+
+							<a href="/videos/" id="nav-videos" class="nav-item home-nav  nav-videos">
+								<div class="nav-wrapper">
+									<img src="/e3-assets/images/global/navigation/nav-videos.svg">
+									<span>Videos</span>
+								</div>
+							</a>
+
+							<a href="/tournaments/" id="nav-tournaments" class="nav-item home-nav  nav-tournaments">
+								<div class="nav-wrapper">
+									<img src="/e3-assets/images/global/navigation/nav-tournaments.svg">
+									<span>Tournaments</span>
+								</div>
+							</a>
+
+						</div>
+					</nav>
+				</section>
+
+				<section id="featured-news" class="featured-news">
+					<div class="wrapper-flex-wide">
+						<div class="row-flex align-top">
+							<div class="news-items">
+
+								<div class="news-header">
+									<div class="news-stripe"></div>
+									<h2>Nintendo News from E3&nbsp;2017</h2>
+									<img class="lazyload" src="/e3-assets/images/home/mario-mask.png">
+								</div>
+
+								<div class="masonry">
+									<div class="gutter-sizer"></div>
+									<div class="grid-sizer"></div>
+
+									
+									<a href="http://www.nintendo.com/games/detail/super-mario-odyssey-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/super-mario-2-player.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 15, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Super Mario Odyssey can be played with 2 players. By sharing, Player 2 can support the game by operating Cappy.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://everoasis.nintendo.com/" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/ever-oasis-demo.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 15, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Explore a perilous desert, deep caves, and puzzling dungeons in Ever Oasis, available June 23 for Nintendo 3DS family of systems.&nbsp;</p>
+<p>Download the demo in the eShop today at 12pm PST / 3pm EST.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/tournaments/#arms" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/arms-tournament-winner.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 14, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Congratulations to the 2017 ARMS Open Invitational champion Zerk.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/games/sushi-striker-the-way-of-sushido-3ds" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/sushi-striker.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 14, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>In Sushi Striker: The Way of Sushido, the fast-paced world of conveyer-belt sushi fighting, match colored plates and different types of sushi to hurl tall stacks of plates at your opponent! The ultimate food fight is about to begin on Nintendo 3DS.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://miitopia.nintendo.com/" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/miitopia-demo.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 14, 2014</time>
+											
+
+											
+											<div class="content-container">
+												<p>Demo available today&nbsp;in the eShop.</p>
+<p>Manage friendships and deepen bonds between your allies to make your own personalized RPG adventure in Miitopia, available July 28<strong>.&nbsp;</strong>Download the demo today in the eShop and your saved data will carry over into the full game.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="https://www.reddit.com/r/NintendoSwitch/comments/6h9s6l/hi_im_mr_koizumi_producer_of_super_mario_odyssey/" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/mr-koizumis-ama.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 14, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Mr. Koizumi, Super Mario Odyssey producer, answers questions on a Reddit AMA.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/tournaments/" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/pokken-winners.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 14, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Here are your 2017 Pokk&eacute;n Tournament DX Invitational champions: StDxALLISTER and MatPatGT.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/tournaments" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/splatoon-winners.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Congratulations to USA's Deadbeat, the 2017 Splatoon 2 World Inkling Invitational champions.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/mario-luigi-superstar-saga-bowsers-minions-3ds" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/mario-and-luigi.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>A remake of the classic GBA game, Mario &amp; Luigi Superstar Saga + Bowser&rsquo;s Minions brings the same humor and gameplay from the original with updated graphics, new items, and a brand new mode, Minion Quest.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/metroid-samus-returns-3ds" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/metroid-samus-returns.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Explore the depths of planet SR388 in Metroid: Samus Returns, coming exclusively to Nintendo 3DS on Sept. 15, 2017.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/metroid-samus-returns-3ds" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/samus-amiibo.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Two new amiibo&mdash;Samus Aran and Metroid&mdash;will be released alongside the game.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/metroid-samus-returns-3ds" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/metroid-samus-special-edition.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>A special edition of Metroid: Samus Returns will be available for Nintendo 3DS, which includes a physical copy of the game, a sound-selection CD featuring 25 tracks from across the Metroid franchise, and a reversible title-sheet insert for the game case.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/super-mario-odyssey-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/super-mario-amiibo.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Three new amiibo figures&mdash;Mario, Princess Peach, and Bowser in their wedding outfits&mdash;will be released at the launch of Super Mario Odyssey.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/super-mario-odyssey-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/smo-spotlight.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Super Mario Odyssey roars onto Nintendo Switch Oct. 27, 2017. Take control of friends, enemies, and more with the power of Mario&rsquo;s hat.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/games/yoshi-for-nintendo-switch-working-title/" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/yoshi-announce.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Join Yoshi in a new action platforming game with an adorable diorama art style in Yoshi for Nintendo Switch (working title). Coming 2018.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/xenoblade-chronicles-2-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/xenoblade-chronicles-announce.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Journey to Elysium in Xenoblade Chronicles 2, exclusively for Nintendo Switch. Coming Holiday 2017.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/games/kirby-for-nintendo-switch-working-title" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/kirby-is-back.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Kirby is back - and he's bringing friends.&nbsp;</p>
+<p>Play with up to three friends in a new Kirby adventure in Kirby for Nintendo Switch. Coming 2018.&nbsp;</p>
+<p>&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/videos/#metroid-4" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/metroid-4.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Metroid Prime 4 is now in development for Nintendo Switch.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/the-elder-scrolls-v-skyrim-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/skyrim-mastersword.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Feeling like a hero? Wield the Master Sword and don Link&rsquo;s outfit while you explore a vast, mysterious land in The Elder Scrolls V: Skyrim for Nintendo Switch.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href=" http://www.nintendo.com/games/detail/fire-emblem-warriors-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/fire-emblem-warriors-news.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Team up with legendary heroes from across the Fire Emblem universe in Fire Emblem Warriors. Coming Holiday 2017 to Nintendo Switch.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/fire-emblem-warriors-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/fire-emblem-warriors-amiibo.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>In addition to these upcoming new Chrom and Tiki amiibo, Fire Emblem Warriors will support all previous Fire Emblem amiibo as well.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a  class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Mr. Ishihara of The Pok&eacute;mon Company is pleased to announce a core RPG Pok&eacute;mon title will be coming to Nintendo Switch!</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.zelda.com/breath-of-the-wild/expansion-pass" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/loz-dlc-1.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>The Master Trials, DLC Pack 1 for The Legend of Zelda: Breath of the Wild, arrives June 30.&nbsp;</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="/games/rocket-league-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/rocket-league.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Rocket League arrives on Nintendo Switch with exclusive Mario &amp; Luigi hats and cars, cross-network support, and wireless multiplayer. Coming Holiday 2017.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.zelda.com/breath-of-the-wild/expansion-pass" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/loz-dlc-2.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>The Legend of Zelda: Breath of the Wild DLC pack 2, The Champion&rsquo;s Ballad, is coming Holiday 2017.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/mario-rabbids-kingdom-battle-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/mario-rabids.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>Join Mario and his friends in an epic quest to put the kingdom back in order in the strategic action game Mario + Rabbids Kingdom Battle. Coming to Nintendo Switch August 29.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+									<a href="http://www.nintendo.com/games/detail/ea-sports-fifa-18-switch" class="social-container left-aligned masonryItem">
+										<div class="news-item">
+											
+											
+											<div class="image">
+												<picture>
+													<img src="/e3-assets/images/news/fifa-announce.jpg" />
+												</picture>
+											</div>
+											
+
+											
+											<time class="date timestamp system-tag">June 13, 2017</time>
+											
+
+											
+											<div class="content-container">
+												<p>FIFA18 is feature packed, complete with FIFA Ultimate Team built for Nintendo Switch.</p>
+<p>Play the World&rsquo;s Game anywhere, anytime on the most social FIFA yet! Built for Nintendo Switch.</p>
+											</div>
+											
+
+										</div>
+									</a>
+
+
+								
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="pre-footer" class="pre-footer">
+					<img src="/e3-assets/images/global/footer/hat.png" class="footer-hat">
+					<img src="/e3-assets/images/global/footer/mario.png" class="footer-mario">
+				</section>
+			</div>
+	 	</div>
+
+	 </main>
+
+
+	</div>
+
+	<div id="fullwrap-modal" class="fullwrap-modal">
+		<div class="wrapper-flex">
+			<div class="row-flex close-row">
+				<a id="btn-close-modal" class="btn-close hover-pop dark" href="#"> <span>X</span> </a>
+			</div>
+			<div id="container-replace"></div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="logo-section">
+			<div class="wrapper-flex">
+				<div class="row-flex middle">
+					<div class="col">
+						<img class="footer-logo" src="/e3-assets/images/global/n-logo.svg" alt="Nintendo logo" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="social-section dots-white">
+			<div class="wrapper-flex">
+				<div class="row-flex align-center">
+					<div class="footer-social">
+						<a href="https://www.facebook.com/Nintendo" class="social-icon" title="Facebook" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/facebook.png" alt="Facebook icon" />
+						</a>
+						<a href="https://twitter.com/nintendoamerica" class="social-icon" title="Twitter" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/twitter.png" alt="Twitter icon" />
+						</a>
+						<a href="https://instagram.com/nintendo/" class="social-icon" title="Instagram" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/instagram.png" alt="Instagram icon" />
+						</a>
+						<a href="http://nintendo.tumblr.com/" class="social-icon" title="Tumblr" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/tumblr.png" alt="Tumblr icon" />
+						</a>
+						<a href="https://www.youtube.com/user/Nintendo" class="social-icon" title="YouTube" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/youtube.png" alt="YouTube icon" />
+						</a>
+						<a href="https://www.twitch.tv/nintendo" class="social-icon" title="Twitch.tv" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/twitch.png" alt="Twitch icon" />
+						</a>
+						<a href="https://www.snapchat.com/add/NintendoAmerica" class="social-icon mobile-app" title="Snapchat" target="_blank">
+							<img class="social-icon" src="/e3-assets/images/global/footer/icons/snapchat.png" alt="Snapchat icon" />
+						</a>
+					</div>
+					<div class="footer-rating">
+
+						<img class="rating-icon sale-icon" src="/e3-assets/images/global/footer/em-rating.svg" alt="Rated EVERYONE to MATURE 17+" />
+
+						<img class="rating-icon" src="/e3-assets/images/global/footer/compilation-rating.svg" alt="RATING PENDING to EVERYONE 10+. Rating Pending titles(s) may contain content inappropriate for children." />
+
+					</div>
+					<div class="footer-copy">
+						<p>© 2017 Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington.</p>
+						<p>
+							<a href="https://accounts.nintendo.com/term/privacy_policy/US?lang=en-US" class="triangle-link"/>Privacy Policy</a>
+							<a href="https://www.nintendo.com/corp/feedback.jsp" class="triangle-link"/>Website Feedback</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Video Modal -->
+		<div id="gallery-video-container" class="gallery-video-container">
+	<div class="wrapper-flex-wide">
+		<div class="row-flex align-middle highest-row">
+			<div class="video-modal-container">
+				<div class="mobile-bar">
+				<button class="btn-close hover-pop"></button>
+				</div>
+				<div class="row-flex">
+					<h2 id="video-title" class="video-title">&nbsp;</h2>
+				</div>
+		
+				<div class="row-flex">
+					<div class="video-main" id="video-main">
+						<div class="video-player">
+							<div id="gallery-video-replace"> </div>
+						</div>
+					</div>
+					
+					<div id="video-extras" class="video-extras">
+						<div id="xtraimg" class="img"> </div>
+						
+						<div class="xtracopy">
+							<div id="xtracaption" class="xtracaption"></div>
+						</div>
+						
+						<div class="xtrabuttons">
+							<a id="xtra-learnmore" class="btn-learn-more hover-pop" href="#">Learn more</a>
+							<a id="xtra-preorder" class="btn-preorder-now hover-pop" href="#" data-openmodalbyurl>Pre-order now</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row-block row-mobile-scroll">
+					
+					<div id="video-extras-mobile" class="video-extras">
+						
+						<div class="xtracopy">
+							<p id="xtratitle-mobile" class="xtratitle"></p>
+							<div id="xtracaption-mobile" class="xtracaption"></div>
+						</div>
+						
+						<div class="xtrabuttons">
+							<a id="xtra-learnmore-mobile" class="btn-learn-more hover-pop" href="#">Learn more</a>
+							<a id="xtra-preorder-mobile" class="btn-preorder-now hover-pop" href="#" data-openmodalbyurl>Pre-order now</a>
+						</div>
+					</div>
+					
+					<span class="related-caption">Related Videos</span>
+					<div class="related-holder" id="related-holder"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- //Video Modal -->
+
+	<!-- Toaster -->
+
+	<div class="toaster">
+		<span class="toaster-arrow"><img src="/e3-assets/images/poll/arrow.svg"></span>
+		<span>Back to top</span>
+	</div>
+
+	<!-- //Toaster -->
+
+	<!-- Missions popup -->
+	
+	<div class="missions-modal-overlay">		
+		
+		<div class="missions-modal">
+			
+			
+			<div class="header-container">
+			
+				<div class="logo-mynintendo">
+					<img src="/e3-assets/images/missions/logo-mynintendo.svg" alt="My Nintendo">
+				</div>
+
+				<h1 id="missions-title">
+					You found something!
+				</h1>
+				
+				<div id="mission-img" class="mission-img center"> </div>
+			
+			</div>
+
+
+			<div class="msg-container missions-show-for-loggedout">
+				<p>
+					Log in or sign up for a Nintendo Account at My.Nintendo.com now to complete this mission and earn My Nintendo points.
+				</p>
+				<a class="txt-major btn-log-in-trigger" href="https://accounts.nintendo.com/" target="_blank">Log in <img class="link-img" src="/e3-assets/images/missions/icon-link.svg" alt=""></a>			
+			</div>
+
+
+			<div class="msg-container missions-show-for-success">
+				<p>
+					You’ve earned My Nintendo Platinum Points for completing this mission (one time only).<p>Visit <a href="https://my.nintendo.com" target="_blank">My.Nintendo.com</a> to view more missions.</p>
+				</p>				
+				<div class="center">
+					<img src="/e3-assets/images/missions/coin.png" alt="">
+					<div id="coin-amount"></div>
+				</div>
+			</div>
+
+
+			<div class="msg-container missions-show-for-error">
+				<p>
+					If you’ve already finished this mission, please visit <a href="https://my.nintendo.com" target="_blank">My.Nintendo.com</a> to see more missions. If you haven’t yet completed this mission, please check back again soon.
+				</p>
+				<p>
+					
+				</p>
+			</div>
+			
+			
+			<div class="center">
+				<a href="#" class="btn-close-mission-modal btn-cancel missions-show-for-loggedout">
+					Not now, thanks.
+				</a>
+
+				<a href="#" class="btn-close-mission-modal btn-ok missions-show-for-success">
+					OK
+				</a>
+
+				<a href="#" class="btn-close-mission-modal btn-ok missions-show-for-error">
+					OK
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+
+<!-- //Missions popup -->
+
+	<!-- Preorder popup -->
+
+	<div id="#nclood-retailers"></div>
+
+	<!-- //Preorder popup -->
+
+	<!-- smoothState SVG -->
+	<div class="svg-container">
+			<svg width="102%" height="102%" viewBox="0 0 1 1" preserveAspectRatio="none" style="z-index: 1000;width: 100%;position: absolute; top: 0px; left: 0px; pointer-events: none;" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon id="polygon-page-transition" fill="#e60012" points="0 0 1 0 1 1 1 0"></polygon></svg>
+	</div>
+	<!-- //smoothState SVG -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" async defer></script>
+	<script src="https://media.nintendo.com/share/nclood/stable/en-us/bundles/analytics.min.js" async defer></script>
+	<script type="text/javascript">
+
+		var NE3 = NE3 || {};
+		NE3.rootURL = "/";
+
+		/* Twitch Configuration */
+		NE3.twitchChannel = "";
+		NE3.twitchKey = ""
+
+		/* YouTube Configuration */
+		NE3.youtubeChannel = "";
+
+		/* Stream Source - Twitch or YouTube */
+		NE3.streamSource = "";
+
+		NE3.liveStream2017 = {
+			id: "DJABBMAqZsU"
+		}
+
+		function loadStyleSheet( src ) {
+	        if (document.createStyleSheet) {
+	        	document.createStyleSheet(src);
+            } else {
+                var stylesheet = document.createElement('link');
+                stylesheet.href = src;
+                stylesheet.rel = 'stylesheet';
+                stylesheet.type = 'text/css';
+                document.getElementsByTagName('head')[0].appendChild(stylesheet);
+            }
+	    };
+
+		function loadJS( src ) {
+			var element = document.createElement("script");
+			element.src = src;
+			document.body.appendChild(element);
+		}
+
+		function waitUntilJquery() {
+          if (window.jQuery && window.nclood) {
+            loadJS( "/e3-assets/js/app.min.js" );
+          } else {
+               setTimeout(function() { waitUntilJquery() }, 50);
+          }
+     	};
+
+		function loadRequiredFiles() {
+			loadStyleSheet( "/cdn/css/analytics.css" );
+			loadJS( "https://alps.cdn.nintendo.net/v1/js/account_en_USA.js" );
+			loadJS( "/cdn/js/ovpplayer.min.js" );
+			//loadJS( "http://player.twitch.tv/js/embed/v1.js" );
+			waitUntilJquery();
+
+			// loadJS( "//s7.addthis.com/js/300/addthis_widget.js#pubid=dccnoa" );
+		    ;(function (g) {
+		        var d = document, i, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0],
+		                aex = {
+		                    "src": "//gateway.answerscloud.com/nintendo-com/production/gateway.min.js",
+		                    "type": "text/javascript",
+		                    "async": "true",
+		                    "data-vendor": "acs",
+		                    "data-role": "gateway"
+		                };
+			        for (var attr in aex) { am.setAttribute(attr,aex[attr]); }
+			        h.appendChild(am);
+			        g['acsReady'] = function () {var aT = '__acsReady__', args = Array.prototype.slice.call(arguments, 0),k = setInterval(function () {if (typeof g[aT] === 'function') {clearInterval(k);for (i = 0; i < args.length; i++) {g[aT].call(g, function(fn) { return function() { setTimeout(fn, 1) };}(args[i]));}}}, 50);};
+			})(window);
+		}
+
+
+		if (window.addEventListener) {
+			window.addEventListener("load", loadRequiredFiles, false);
+		} else if (window.attachEvent) {
+			window.attachEvent("onload", loadRequiredFiles);
+		} else { window.onload = loadRequiredFiles; }
+
+	</script>
+
+</body>
+</html>
+
+
+
+http://e3src.nintendo.com:80

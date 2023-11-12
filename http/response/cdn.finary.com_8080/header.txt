@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: cdn.finary.com:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.59
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 822c886419cc717b-DUS
+Date: Wed, 08 Nov 2023 08:44:12 GMT
+Expires: Wed, 08 Nov 2023 09:44:12 GMT
+Location: https://cdn.finary.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1;mode=block
+
+0
+
+
+
+
+http://cdn.finary.com:8080

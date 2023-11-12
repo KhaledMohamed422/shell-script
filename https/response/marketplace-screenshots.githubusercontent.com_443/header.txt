@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: marketplace-screenshots.githubusercontent.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 243
+Accept-Ranges: bytes
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 02:29:03 GMT
+Fastly-Io-Error: invalid status
+Fastly-Io-Served-By: vpop-mnz1300701
+Fastly-Stats: io=1
+Server: GitHub Cloud
+Timing-Allow-Origin: https://github.com
+Via: 1.1 varnish, 1.1 varnish
+X-Amz-Bucket-Region: us-east-1
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Fastly-Request-Id: b16dc19bbd6405a1b0d5b7af0f4acdce8ed4066c
+X-Served-By: cache-iad-kcgs7200075-IAD, cache-fra-eddf8230135-FRA
+X-Timer: S1699410544.758531,VS0,VE112
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>QN8BMWCGWJ71DP3S</RequestId><HostId>V8Vk6QPQTnOC916Wb718axln3btdeqnp7nagRimHd+ckCnyX3spTlqCLsBo4z+40RRo4bzYBE3o=</HostId></Error>
+
+
+https://marketplace-screenshots.githubusercontent.com:443

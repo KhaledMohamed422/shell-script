@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: member1.taobao.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 258
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 10:08:24 GMT
+Eagleeye-Traceid: 2150447b16994381043893038e0e4c
+Location: http://err.taobao.com/error1.html
+Server: Tengine
+Strict-Transport-Security: max-age=0
+Ups-Target-Key: member1.taobao.com
+X-Protocol: HTTP/1.1
+

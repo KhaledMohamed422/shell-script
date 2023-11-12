@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: alertmanager-failover.bitgo-test.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; SAMSUNG SM-G925R6 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/5.4 Chrome/51.0.2704.106 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 8227ca6cbdd88741-DUS
+Date: Tue, 07 Nov 2023 18:55:28 GMT
+Expires: Tue, 07 Nov 2023 19:55:28 GMT
+Location: https://alertmanager-failover.bitgo-test.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://alertmanager-failover.bitgo-test.com:8080

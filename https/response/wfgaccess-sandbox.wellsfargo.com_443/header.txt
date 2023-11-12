@@ -1,0 +1,15 @@
+GET / HTTP/1.1
+Host: wfgaccess-sandbox.wellsfargo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Type: application/json
+X-Backside-Transport: FAIL FAIL
+
+{ "errors":[ { "error_code":"404-003", "description":"Requested API does not exist.", "api_specification_url":"https://developer.wellsfargo.com" } ] }
+
+
+https://wfgaccess-sandbox.wellsfargo.com:443

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: verify.bankaletihad.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; ONEPLUS A5010) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 2887
+Accept-Ranges: bytes
+Content-Security-Policy: default-src 'self' https://*.bankaletihad.com; font-src *; img-src 'self' https://www.google-analytics.com blob: data:; script-src 'self' https://*.bankaletihad.com https://*.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com 'unsafe-inline'; connect-src 'self' https://*.bankaletihad.com https://www.google-analytics.com; style-src 'self' https://*.bankaletihad.com 'unsafe-inline'
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 05:08:57 GMT
+Permissions-Policy: geolocation=(),midi=(),sync-xhr=(self),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+

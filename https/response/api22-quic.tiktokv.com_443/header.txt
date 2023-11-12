@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: api22-quic.tiktokv.com
+User-Agent: Mozilla/5.0 (Linux; Android 5.0.1; SCH-R970 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:43:28 GMT
+Server: TLB
+Server-Timing: inner; dur=4
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Tt-Logid: 20231108184327E7F85AD42F7C21665929
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a80b09d3440fcc44809733a6db55e47209706061a1e4a45f1dc827d30e78e3b02d260d87efe04de9b02234de37416396827f4fc960d3f1e6ec0dc1fab2b16dba52215f25bbb6bddc1b7476f48a7d820bf
+X-Tt-Trace-Id: 00-231108184327E7F85AD42F7C21665929-2F0931DA542E461E-00
+X-Tt-Trace-Tag: id=22;cdn-cache=miss
+
+222

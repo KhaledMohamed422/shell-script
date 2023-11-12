@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: challenges.cloudflare.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko, Foregenix) Chrome/91.0.4472.77 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227dd397e3f7174-DUS
+Date: Tue, 07 Nov 2023 19:08:18 GMT
+Expires: Tue, 07 Nov 2023 20:08:18 GMT
+Location: https://challenges.cloudflare.com/
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://challenges.cloudflare.com:80

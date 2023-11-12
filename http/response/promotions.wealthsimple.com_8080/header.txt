@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: promotions.wealthsimple.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.119 YaBrowser/22.3.0.2539 Yowser/2.5 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cf-Ray: 82273d292e41cae5-DUS
+Date: Tue, 07 Nov 2023 17:19:02 GMT
+Expires: Tue, 07 Nov 2023 18:19:02 GMT
+Location: https://promotions.wealthsimple.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pa0gusHselQg4%2FXcFp%2FJiwLIrNKEiQBrtUVFOReYGrpGFTS5gQvE%2F2T562NgxLdGxkHzu8UjKNoFTt7YLPf5ITpZXGv04wTiLg9EqvuzuhpG%2Fz5G6%2BmXnsNJvre4QnlY1yB5BwLq2DKLCXHUXNAKLSsH"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cfruid=1d65753d8fc860b67bfa0e1867e72f4a0c872969-1699377542; path=/; domain=.promotions.wealthsimple.com; HttpOnly
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://promotions.wealthsimple.com:8080

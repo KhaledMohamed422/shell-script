@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: teleport.test.uw2.snooguts.net
+User-Agent: Opera/10.61 (J2ME/MIDP; Opera Mini/5.1.21219/19.999; en-US; rv:1.9.3a5) WebKit/534.5 Presto/2.6.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 27
+Cache-Control: no-cache, no-store, must-revalidate
+Content-Security-Policy: base-uri 'self'; default-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: blob:; object-src 'none'; script-src 'none'; style-src 'self' 'unsafe-inline';
+Content-Type: text/html; charset=utf-8
+Date: Tue, 07 Nov 2023 20:43:59 GMT
+Expires: 0
+Location: /web
+Pragma: no-cache
+Referrer-Policy: strict-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<a href="/web">Found</a>.
+
+
+
+
+https://teleport.test.uw2.snooguts.net:443

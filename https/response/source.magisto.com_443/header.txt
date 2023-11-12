@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: source.magisto.com
+User-Agent: Gregarius/0.5.2 ( http://devlog.gregarius.net/docs/ua)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Wed, 08 Nov 2023 05:03:33 GMT
+Server: AmazonS3
+Via: 1.1 a7dcca466407f1871feceef50bc84272.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: exo97w_pK1cVcXceyqqURyK8phlL0rC70iPJwdU4PnFJ8l7vTdEV6Q==
+X-Amz-Cf-Pop: FRA6-C1
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>GZ5TZX9EG230ZZ41</RequestId><HostId>oUgnsDoqLvnBoQn2nMjIbfO8RqkGO2av37gr/rMDZEtKwlgWH5ylmuH05uQ4lRbzo7Ktdt4ltOQ=</HostId></Error>
+0
+
+
+
+
+https://source.magisto.com:443

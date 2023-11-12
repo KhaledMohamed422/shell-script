@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: staging.community.cloudflare.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 13982.88.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.162 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 8227ebde393d6a89-DUS
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 07 Nov 2023 19:18:18 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4GD9FcUbsMq5sInyp9t33w5zn0nLfUybgox0AYgf1L4Qy75vS674w7o3MDT0QgiKox7yD3IevvtU24Rv0SLi2lxY13fVAd2HjjBDizFhgy8FRuDaj8DsBnlN3M6hEyapNnqBffqzX%2BUkkgLuwOiGO4Rh"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=UYaZuqX1QB6AT6kOAHoWnApRw6yAoqkvEygnVhfaPW0-1699384698-0-AU1+yHsvHCwrSmyvZOene6ZOBAs4UYP23xMy8dySNmJR5EFQNSht+qDuNXo+Vi+fscezSv2gjLQGyg1mTIUfcLP5u47lO10S78VJfp+NRWZJ; path=/; expires=Tue, 07-Nov-23 19:48:18 GMT; domain=.community.cloudflare.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+
+1652

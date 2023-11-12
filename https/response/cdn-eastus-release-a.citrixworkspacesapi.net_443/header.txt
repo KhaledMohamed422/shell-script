@@ -1,0 +1,40 @@
+GET / HTTP/1.1
+Host: cdn-eastus-release-a.citrixworkspacesapi.net
+User-Agent: Mozilla/5.0 (SymbianOS/9.1; U; en-us) AppleWebKit/413 (KHTML, like Gecko) Safari/413
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 833
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store, private
+Content-Security-Policy: base-uri 'self';connect-src https:;default-src https:;form-action 'none';frame-ancestors 'none';font-src https:;frame-src https://www.youtube.com/embed/ https://app.pendo.io;img-src https: data:;manifest-src 'none';media-src https:;object-src 'none';prefetch-src https:;report-to csp-violations;report-uri /csp-violations;script-src 'nonce-5fvQBuaXAA6KhcCFDbiXsQ==' 'unsafe-inline' 'strict-dynamic' https: googletagmanager.com google-analytics.com app.pendo.io cdn.pendo.io data.pendo.io pendo-io-static.storage.googleapis.com citrix-cloud-content.customer.pendo.io citrix-cloud-data.customer.pendo.io pendo-static-6508245000126464.storage.googleapis.com 'sha256-Kk3x6TBlDpQxJPh9EFIkBC81EU79d/BJCYFSx1O/3pA';style-src https: 'unsafe-inline';worker-src blob:
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:13:48 GMT
+Expect-Ct: max-age=0
+Location: https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly91cy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGc0TWpnN1ltVXpZMkZqWkRCaU5UVTFNREptTmpnek5tUmhNVEZsWmpOa01qQmxZVFU3YlZoaFoyb3hVSHBWVG5ocWQyWjBhbU15ZEhOMFZGbElNak5pU0RsQ2NEZE9RMlJKV0M5clJGZEdSV05UYVhVeFNUQmtXbVpCVjA4cmRGUlZVRmRqV0hwWFZrNUpXV2d5S3pRMVJuZDZPVTk2ZFhwMk5VaGhOMDlXWm1WbFdsWnNTVlJXYVdNcmJWSk5VamxLUjI1elFrWjJOM05xY2tSeGNrNVJSQ3MwWlZJNWNUWnpSRTFPYjFnM01HVXJhVUYyYWtsR1dXRkhRWFZKWlhsM2QwSlpNVzQyU25kaEsxcG1UV3RHYTJad1RWRk5VSGxHZG5CTE4waEdaREZPVVdFMFZtSXJiMjR6VFc4ek5HMUhSekZHT0VKSU4wdE9hbnB5VFVZMmRraHFOVE5sTUVrNFowOW5OM1UwTWtaU1ZYaFlPVFkyUmtnNU9VUjFhaTlJY1hneloyZHlOWFpLVTBnMWNYQjFlVFZCUzNCNmFVcFljRXBEV1dOeWFYa3dORFJDWjFwMFluQktNWE5MV1U5dU4xaDJUWEVyVUcxamFHMDJORE40WW1OT2VsUXhSbWcxU0RacFRsUnZZbUp2YkhVMWRYbDRRbXBCUFQwN1EyOXVjMjlzWlE9PQ==
+Referrer-Policy: no-referrer
+Report-To: {"group":"csp-violations","max_age":1800,"endpoints":[{"url":"https://console-eastus-release-a.citrixworkspacesapi.net/csp-violations"}]}
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=286
+Server-Timing: origin; dur=59
+Server-Timing: ak_p; desc="1699398828623_1752388103_129479285_34539_1064_0_6_-";dur=1
+Set-Cookie: X-Cws-TransactionId=99365c90-47e2-4afa-bb1e-dcf08fe21589; Domain=.citrixworkspacesapi.net; Path=/; Expires=Wed, 08 Nov 2023 23:13:48 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: idp=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderConfirmationId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderOrgId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: orderPersonId=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: state=; Domain=.citrixworkspacesapi.net; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly; Secure; SameSite=Lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Cws-Transactionid: 99365c90-47e2-4afa-bb1e-dcf08fe21589
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+Found. Redirecting to https://citrix.cloud.com/login?redirectUrl=aHR0cHM6Ly91cy5jbG91ZC5jb20vO1EwTXRVbE5CTFZOSVFUSTFOaTB5T3pFMk9Ua3pPVGc0TWpnN1ltVXpZMkZqWkRCaU5UVTFNREptTmpnek5tUmhNVEZsWmpOa01qQmxZVFU3YlZoaFoyb3hVSHBWVG5ocWQyWjBhbU15ZEhOMFZGbElNak5pU0RsQ2NEZE9RMlJKV0M5clJGZEdSV05UYVhVeFNUQmtXbVpCVjA4cmRGUlZVRmRqV0hwWFZrNUpXV2d5S3pRMVJuZDZPVTk2ZFhwMk5VaGhOMDlXWm1WbFdsWnNTVlJXYVdNcmJWSk5VamxLUjI1elFrWjJOM05xY2tSeGNrNVJSQ3MwWlZJNWNUWnpSRTFPYjFnM01HVXJhVUYyYWtsR1dXRkhRWFZKWlhsM2QwSlpNVzQyU25kaEsxcG1UV3RHYTJad1RWRk5VSGxHZG5CTE4waEdaREZPVVdFMFZtSXJiMjR6VFc4ek5HMUhSekZHT0VKSU4wdE9hbnB5VFVZMmRraHFOVE5sTUVrNFowOW5OM1UwTWtaU1ZYaFlPVFkyUmtnNU9VUjFhaTlJY1hneloyZHlOWFpLVTBnMWNYQjFlVFZCUzNCNmFVcFljRXBEV1dOeWFYa3dORFJDWjFwMFluQktNWE5MV1U5dU4xaDJUWEVyVUcxamFHMDJORE40WW1OT2VsUXhSbWcxU0RacFRsUnZZbUp2YkhVMWRYbDRRbXBCUFQwN1EyOXVjMjlzWlE9PQ==
+
+
+https://cdn-eastus-release-a.citrixworkspacesapi.net:443

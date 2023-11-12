@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: auth.dev.videoask.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 47
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822942386d3421a5-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 07 Nov 2023 23:12:01 GMT
+Location: https://dev.videoask.com/
+Ot-Baggage-Auth0-Request-Id: 822942386d3421a5
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 114c36bf1febd5fd
+Ot-Tracer-Traceid: 42643db90ce95523
+Server: cloudflare
+Set-Cookie: __cf_bm=VRE1zE1ubRx.JTXihEdGwkBf2zh9xxRzo8eZskGqQaA-1699398721-0-ASH5fEFnH1cKDeMp8JIvuaBOUcmp7WlRWjYXuiCb9EiVa9OW405AJbbjliNYXz/obMECnEOgqTr2RmxckNwqB/E=; path=/; expires=Tue, 07-Nov-23 23:42:01 GMT; domain=.auth.dev.videoask.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Traceparent: 00-000000000000000042643db90ce95523-114c36bf1febd5fd-01
+Tracestate: auth0-request-id=822942386d3421a5,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: 92cc23c7982c5576d73e
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://dev.videoask.com/
+
+
+https://auth.dev.videoask.com:443

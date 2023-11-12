@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: roi-calculator-api-staging.coveo.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 02:30:14 GMT
+Via: 1.1 a5010656f4f762c0fdffac3448496b86.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: ODrcmFvjoAMEm2Q=
+X-Amz-Cf-Id: qIwNlSt0X0BEHEOLlwrf1OuUMg1S3L2xzyxflRVsbbeE97JXNJH1Bg==
+X-Amz-Cf-Pop: FRA56-P7
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 0fa53339-9f04-494d-add4-4d977f521db2
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+https://roi-calculator-api-staging.coveo.com:443

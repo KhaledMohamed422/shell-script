@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: watchlist.dev.bitmex.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 163
+Access-Control-Allow-Origin: *
+Content-Type: text/plain
+Date: Tue, 07 Nov 2023 18:07:37 GMT
+Server: nginx
+Vgs-Request-Id: 9cada2ec64a8cfea7e524623efbbb9fc
+Via: 1.1 reverse-http-proxy-69744fc8dc-5d7ct
+X-Envoy-Upstream-Service-Time: 5
+
+Invalid proxy configuration: 'No upstream provided for reverse proxy or source IP 161.97.145.139 is not whitelisted'. Request id: 9cada2ec64a8cfea7e524623efbbb9fc.
+
+
+https://watchlist.dev.bitmex.com:443

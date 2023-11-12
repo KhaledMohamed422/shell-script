@@ -1,0 +1,48 @@
+GET / HTTP/1.1
+Host: scm-us.tiktok.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 08 Nov 2023 18:46:22 GMT
+Expires: Wed, 08 Nov 2023 18:46:22 GMT
+Pragma: no-cache
+Server: nginx
+Server-Timing: cdn-cache; desc=MISS, edge; dur=367, origin; dur=13
+Server-Timing: inner; dur=5, Goofy;dur=1
+Set-Cookie: gd_worker_v2_random_3534=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDAwNzM5ODIsImlhdCI6MTY5OTQ2OTE4MiwibWF0Y2giOmZhbHNlLCJuYmYiOjE2OTk0NjkxODIsInBhdGgiOiIvIiwicGVyY2VudCI6MC45Mjg4MDgyMzIxNzY3MTY2fQ.NwSdmoba3CBjd3Lx21YGB6cnq1H9A4xG1VeLd9-T-2E; Path=/; Max-Age=604800; HttpOnly
+Vary: Accept-Encoding
+X-Akamai-Request-Id: 14710996.19ce839
+X-Bytefaas-Execution-Duration: 1.354
+X-Bytefaas-Function-Id: oguqko4l
+X-Bytefaas-Gateway-Duration: 2.05
+X-Bytefaas-Request-Id: a2756771-6628-424a-9438-713ac7d74297
+X-Bytefaas-Worker-Duration: 1.458
+X-Bytefaas-Worker-Schedule-Duration: 0.079
+X-Cache: TCP_MISS from a23-15-178-30.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+X-Cache-Remote: TCP_MISS from a23-15-7-192.deploy.akamaitechnologies.com (AkamaiGHost/11.3.0.1-51931778) (-)
+X-Content-Type-Options: nosniff
+X-Deploy-Channel-Id: 3534
+X-Deploy-Dest-Psm: goofy_web.ttp.3534
+X-Deploy-Scm-Version: 2.0.0.223
+X-Deploy-Web-Server-Cache-Hit: memory
+X-Dns-Prefetch-Control: off
+X-Ggw-Server: goofy-gateway/2.0.0.18/20231013_081627
+X-Ggw-Traffic-Split-Random: 0.9288082321767166
+X-Goofy-Deploy-Version: 2.0.0.223
+X-Goofy-Runtime: webserver
+X-Micro-Cache: 1
+X-Micro-Cost: 1
+X-Micro-Snapshot-Version: 364
+X-Origin-Response-Time: 13,23.15.7.192
+X-Parent-Response-Time: 379,23.15.178.30
+X-Powered-By: Goofy
+X-Tt-Logid: 20231108184622DDCA24391319E40292A6
+X-Tt-Trace-Host: 01454734f992591d000afbd702d9293b5a5c1116a28af5c5112b554fbed7e172caf9ec8feefecd98b066d28e5380670aa4b2224ff78a45b8242f629cec1ae9d78dbbaf427344ba81405de310c7a347f39d356b81c58c8467619a6d09efd3bc89d1f47a90f0b711dbf470ea91e25f0d65cc
+X-Tt-Trace-Tag: id=16;cdn-cache=miss;type=dyn
+X-Xss-Protection: 0
+

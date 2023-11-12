@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: auth.qubit.com
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/hspr-H102; Blazer/4.0) 16;320x320
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Found
+Connection: close
+Content-Length: 40
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: public, max-age=60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822a5f5a5b527163-DUS
+Content-Type: text/plain; charset=utf-8
+Date: Wed, 08 Nov 2023 02:26:40 GMT
+Location: https://qubit.com/
+Ot-Baggage-Auth0-Request-Id: 822a5f5a5b527163
+Ot-Tracer-Sampled: true
+Ot-Tracer-Spanid: 1074447b3a8b1566
+Ot-Tracer-Traceid: 4a8ec349672dabf1
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Traceparent: 00-00000000000000004a8ec349672dabf1-1074447b3a8b1566-01
+Tracestate: auth0-request-id=822a5f5a5b527163,auth0=true
+Vary: Accept, Accept-Encoding
+X-Auth0-Requestid: c69639bb75acb057c03a
+X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://qubit.com/
+
+
+https://auth.qubit.com:443

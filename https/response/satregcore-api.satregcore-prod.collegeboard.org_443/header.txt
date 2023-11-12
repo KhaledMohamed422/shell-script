@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: satregcore-api.satregcore-prod.collegeboard.org
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-P615) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 23
+Content-Type: application/json
+Date: Tue, 07 Nov 2023 17:29:24 GMT
+Via: 1.1 2c4f54cad5da50a372b086710d5ffc62.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: OCcOOFBKIAMEacQ=
+X-Amz-Cf-Id: coinhYRZoFBknLrYbpc9yDm4gyCpG5XX6BW-rIy8WTHcwTN7-aDytg==
+X-Amz-Cf-Pop: DUS51-P1
+X-Amzn-Errortype: ForbiddenException
+X-Amzn-Requestid: eb15b253-6c4d-4c57-914e-1fe651827b75
+X-Cache: Error from cloudfront
+
+{"message":"Forbidden"}
+
+
+https://satregcore-api.satregcore-prod.collegeboard.org:443

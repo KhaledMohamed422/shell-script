@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: test-management.browserstack.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600
+Cache-Control: private, no-cache, no-store, must-revalidate, max-age=0
+Cf-Ray: 822bf79adb077a5a-DUS
+Content-Security-Policy: script-src https: http: 'unsafe-eval' 'unsafe-inline'; frame-ancestors https://*.browserstack.com; worker-src https: http: blob: 'unsafe-eval' 'unsafe-inline'; style-src https: http: 'unsafe-inline'; img-src https: http: data: blob: about:; font-src https: http: data:; connect-src https: http: wss:; object-src https: http:
+Date: Wed, 08 Nov 2023 07:05:22 GMT
+Expires: Wed, 08 Nov 2023 08:05:22 GMT
+Location: https://test-management.browserstack.com/
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block;
+
+0
+
+
+
+
+http://test-management.browserstack.com:8080

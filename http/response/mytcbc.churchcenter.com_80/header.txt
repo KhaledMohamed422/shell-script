@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: mytcbc.churchcenter.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 06:58:33 GMT
+Location: https://mytcbc.churchcenter.com/
+Server: CloudFront
+Via: 1.1 f5a3dd79e879ec195790fd94291f3198.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ogf_o1FDE-2uqezS6HBn4lFs2AYBBk9-e98UUCABZJMA17OYknFRfQ==
+X-Amz-Cf-Pop: AMS58-P1
+X-Cache: Redirect from cloudfront
+

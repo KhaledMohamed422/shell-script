@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: ns0105.secondary.cloudflare.com
+User-Agent: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko ) Version/5.1 Mobile/9B176 Safari/7534.48.3
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227e0e8ebb21614-DUS
+Date: Tue, 07 Nov 2023 19:10:49 GMT
+Expires: Tue, 07 Nov 2023 20:10:49 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UpexvvCku1cFBfmJ1yUp5U99dqtHX%2Fi2asxmMXXm%2B34i2fx01ZP1UOJbQ9%2B%2BGl4jRFs8NwCRN05XNAvIgUC%2F6Ug%2FJmGpBQE%2Bzf9G6ggPgx9zAgHWHAVjh5PTjdteEfouCeFFgjmsFU7%2Bmu%2BrwvIyQdc%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://ns0105.secondary.cloudflare.com:80

@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: mtest.nintendo.eu:8080
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.10) Gecko/2009042316 Firefox/3.0.10
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 734
+Cache-Control: no-cache
+Content-Type: text/html
+Set-Cookie: visid_incap_2336546=fgtC8wXMQuKGakKGsZ10EinWS2UAAAAAQUIPAAAAAABIugpeZ45mnlR+ju0mwZKL; expires=Thu, 07 Nov 2024 00:28:55 GMT; HttpOnly; path=/; Domain=.nintendo.eu; Secure; SameSite=None
+Set-Cookie: incap_ses_473_2336546=k3gsRRT1bkt4ii0gQnCQBkrXS2UAAAAA9+UaPjfapDvg8S4xG6i3xA==; path=/; Domain=.nintendo.eu; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Iinfo: 8-51619661-0 0NNN RT(1699469130044 15) q(0 -1 -1 0) r(0 -1) B16 U18
+
+<html style="height:100%"><head><META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"><meta name="format-detection" content="telephone=no"><meta name="viewport" content="initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></head><body style="margin:0px;height:100%"><iframe id="main-iframe" src="/_Incapsula_Resource?CWUDNSAI=23&xinfo=8-51619661-0%200NNN%20RT%281699469130044%2015%29%20q%280%20-1%20-1%200%29%20r%280%20-1%29%20B16%20U18&incident_id=473001390183910008-274411636735419080&edet=16&cinfo=ffffffff&rpinfo=0&mth=GET" frameborder=0 width="100%" height="100%" marginheight="0px" marginwidth="0px">Request unsuccessful. Incapsula incident ID: 473001390183910008-274411636735419080</iframe></body></html>
+
+
+https://mtest.nintendo.eu:8080

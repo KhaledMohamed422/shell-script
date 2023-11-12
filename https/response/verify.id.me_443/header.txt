@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: verify.id.me
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 83
+Cache-Control: max-age=0, no-cache, no-store
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 02:31:15 GMT
+Expires: Wed, 08 Nov 2023 02:31:15 GMT
+Location: https://www.id.me
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=97
+Server-Timing: origin; dur=32
+Server-Timing: ak_p; desc="1699410675397_399876315_362547580_12889_9313_4_5_-";dur=1
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Node: war-machine-18.idmeinc.net
+X-Request-Id: 7b95ba4e-9cb1-42f4-96c2-e5f76e65e713
+X-Runtime: 0.013222
+

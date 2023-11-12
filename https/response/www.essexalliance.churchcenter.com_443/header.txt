@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: www.essexalliance.churchcenter.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 502 Bad Gateway
+Connection: close
+Content-Length: 951
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 07:52:03 GMT
+Server: CloudFront
+Via: 1.1 51ef2d5f52dad26e2bbdf93520deaaee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9ubBCDrOW_Y_o_rrmbEM-us05_Fd4UAXaYypuqlerCSQPHO_FleC4A==
+X-Amz-Cf-Pop: SFO53-P3
+X-Cache: Error from cloudfront
+

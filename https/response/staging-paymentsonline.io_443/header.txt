@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: staging-paymentsonline.io
+User-Agent: Mozilla/5.0 (Linux; Android 12; Pixel 4a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 822ffab0acf0162d-DUS
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html
+Date: Wed, 08 Nov 2023 18:46:32 GMT
+Last-Modified: Wed, 01 Nov 2023 15:53:15 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Permissions-Policy: geolocation=(), microphone=()
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vKWUdLYCCmppes33vgz2FUFAcoHq9BFbq6UsCZ2%2FLiKPOnptDrprBH1aEz3J46s%2FBLo7WoPFQPBhI3fYsideyl3cjl2WKurDaGPrB9nywrPBKQS2%2F7C693ydCMquIkHVEBV%2FiqQP%2FqNPvSYj"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=2592000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 4b204087b0bf47138f08161893f143c2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jhl0Xx6YPOBtutXJW3gZUmPSM2wWRVoboCA8gjQ_H2PM8r7ClvMLVA==
+X-Amz-Cf-Pop: DUS51-P3
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: RefreshHit from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+45e0

@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: news.instacart.com:8080
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 82273c7d8ec07a40-DUS
+Date: Tue, 07 Nov 2023 17:18:35 GMT
+Expires: Tue, 07 Nov 2023 18:18:35 GMT
+Location: https://news.instacart.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2Eu0FfZijHB3zt5IxEp%2FQ7gMcn5jEGJKF9kY0X3coNM1cFwr2mdOsYWCVYSRanv6TPBG3HX%2B3rtD9dnHMB2GXntjOLTOIUdcS4U0ljBO2u9OHWpN0tajc34zYnb46%2Bq7AR0uDfStgDdD"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=2mNe2eviRNFY9HMWD951qLcdC5QSrpe1V03RLKMDKp8-1699377515-0-AcO+SFX29zBOAVQPvI8nAApF0O4Eumd7VKAxuxxHLciVYcY4Y8Dmmo4nk+jphevq2GhzNPEcGYUqdjI/j2kkTNA=; path=/; expires=Tue, 07-Nov-23 17:48:35 GMT; domain=.news.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+0
+
+
+
+
+http://news.instacart.com:8080

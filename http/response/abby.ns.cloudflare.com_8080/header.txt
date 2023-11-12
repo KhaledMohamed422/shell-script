@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: abby.ns.cloudflare.com:8080
+User-Agent: Mozilla/5.0 (Linux; U; Android 4.3; en-us; sdk Build/MR1) AppleWebKit/536.23 (KHTML, like Gecko) Version/4.3 Mobile Safari/536.23
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=3600
+Cf-Ray: 8227dc21588dc4db-DUS
+Date: Tue, 07 Nov 2023 19:07:33 GMT
+Expires: Tue, 07 Nov 2023 20:07:33 GMT
+Location: https://www.cloudflare.com/dns/
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ifa9SOdjNARoVxKpFcR66BzXzUMh1FyfEhE6e7PGLSA0p1gniDHaqBivpVOheAqgcK9vjH8s55%2FYPEk8SolYhWjd%2FnMurZ0kAltC%2BaTJgqwfWnMfMcwm75Jm1zEjk2DXRuySEBFka8cZgmmtGw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://abby.ns.cloudflare.com:8080

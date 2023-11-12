@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: psepbtst.marriott.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Akamai-Grn: 0.0f601302.1699378144.1beefdd
+Cache-Control: no-cache,no-store,max-age=0
+Date: Tue, 07 Nov 2023 17:29:04 GMT
+Expires: 0
+Location: https://extranetdev.marriott.com/userauth/as/authorization.oauth2?response_type=code&code_challenge=YxL064IGlGVqUoLC432FDUJqIbVy7GQrFpuft6z_U1M&code_challenge_method=S256&client_id=PA_EXT_WAM&redirect_uri=https%3A%2F%2Fpsepbtst.marriott.com%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoibm80QXFFOGhxTVBiUE1vYWgzTXB2emxFWF9rIiwic3VmZml4IjoiWjYxcHZULjE2OTkzNzg0NDQifQ..d4QGoBOILE8Rit5V6yDB_Q.jtC3APfBAlUGmu57XzCQj5XjqDHEEP0I1ZGf0HLt9r7N7_njDX94mAHso66QfoLW551LaBaIo5maPwgrI6uZg8gUPA13W8cPxYXIZXr44dl3MjdUzvhV6tqRe3VwO8zs7rMSfYqSEFnX8hpyxUvH5ojnkqHVd9myXblujcqEkul9uUMWI7RLYcwXl4Hapddb_z5z0svw6vcq429siR7WxiNphxG6k1kf8HzkwW04Pgw.g6CR0S__c-9etqvI1oSwDA&nonce=opMG1ZR45-zGl4ggLqteXIvBVBSnmOEFzGU-y1wDiqo&acr_values=RED%20X509&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fpsepbtst.marriott.com%2F&vnd_pi_application_name=PeopleSoft+EPM%28epb2%29+-+Virtual+Host
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=193
+Server-Timing: origin; dur=18
+Server-Timing: ak_p; desc="1699378144492_34824207_29290461_21123_6380_4_9_-";dur=1
+Set-Cookie: AWSALB=NmYBAJNP57wx/GOIziHFoHoGuphLA5480K2QFm9CyGu7PvDVIwoc0jRiOBISVUMtBULY6YVsPTskvdjFGwv3itFAChHQFuF+esW/vgNlzEDIFuHil4+K8mAeMHf3; Expires=Tue, 14 Nov 2023 17:29:04 GMT; Path=/
+Set-Cookie: AWSALBCORS=NmYBAJNP57wx/GOIziHFoHoGuphLA5480K2QFm9CyGu7PvDVIwoc0jRiOBISVUMtBULY6YVsPTskvdjFGwv3itFAChHQFuF+esW/vgNlzEDIFuHil4+K8mAeMHf3; Expires=Tue, 14 Nov 2023 17:29:04 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: nonce.Z61pvT.1699378444=f81b10b6-0238-44af-a125-8da41f67f2ee; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_EXT.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://psepbtst.marriott.com:443

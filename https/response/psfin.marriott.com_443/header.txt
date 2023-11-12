@@ -1,0 +1,28 @@
+GET / HTTP/1.1
+Host: psfin.marriott.com
+User-Agent: Mozilla/5.0 (Linux; Android 8.1.0; TECNO KA7O Build/O11019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/91.0.4472.120 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Akamai-Grn: 0.3f601302.1699378144.aff0d5
+Cache-Control: no-cache,no-store,max-age=0
+Date: Tue, 07 Nov 2023 17:29:04 GMT
+Expires: 0
+Location: https://extranetcloud.marriott.com/userauth/as/authorization.oauth2?response_type=code&code_challenge=P8LJvp6_rYEI6iVf7aK0ySlHkafsYeA5EhAX87-APAk&code_challenge_method=S256&client_id=PA_EXT_WAM&redirect_uri=https%3A%2F%2Fpsfin.marriott.com%2Fpa%2Foidc%2Fcb&state=eyJ6aXAiOiJERUYiLCJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiMU1vcGdFSmxlSm4zVXc0QkJ5QVJjdmhLMWNVIiwic3VmZml4IjoicnZSRDE5LjE2OTkzNzg0NDQifQ..18l1KhcVFrGzqy9VaxPv_Q.AK2mDyZrqWAMrYsK6YHm7FZFSyudYK5RL6ScBE8hqozGgPZYtnpDqjkCT4fyIUNKNjR9WRZYUnfRws3iI6nxVG7o5M0XI7oonglXO3dCqgl14WU2GhN0-cHK1Z_l6hx9boDGCv3Md1cTwRLZQAXECW984dIRdpB_Fj2RVIxUSLI_wfKxKddAFw0GT2Jtj5wfDdZHrirhMl7kcrAT_twNPjxH5ywEaouqDy91Hsw5Dlw.9vhueRlhK58TuM3CLxNxvA&nonce=H8xfsjUOO2u3KHXDgHSxxxyop64v2zzVN5oQggLuq3U&acr_values=RED%20X509&scope=openid%20address%20email%20phone%20profile&vnd_pi_requested_resource=https%3A%2F%2Fpsfin.marriott.com%2F&vnd_pi_application_name=PeopleSoft+Enterprise+AP+%28+and+AM%29+-+Virtual+Host
+Pragma: no-cache
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=125
+Server-Timing: origin; dur=18
+Server-Timing: ak_p; desc="1699378144712_34824255_11530453_14267_7276_4_10_-";dur=1
+Set-Cookie: nonce.rvRD19.1699378444=108839c9-5ffa-4736-906a-18c1bd5bdcb7; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_EXT.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Set-Cookie: PA_STATE.global=; Path=/; Expires=Thu, 01-Jan-1970 00:00:00 GMT; Secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=86400 ; includeSubDomains
+Content-Length: 0
+
+
+
+
+https://psfin.marriott.com:443

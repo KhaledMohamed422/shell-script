@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: token.bitmex.com:8080
+User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Plus Build/NPNS25.137-35-5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.107 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 82277fd878f7cb22-DUS
+Date: Tue, 07 Nov 2023 18:04:34 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.bitmex.com/BMEX
+Server: cloudflare
+Vary: Accept-Encoding
+
+0
+
+
+
+
+http://token.bitmex.com:8080

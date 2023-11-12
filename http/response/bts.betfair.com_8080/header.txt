@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: bts.betfair.com:8080
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 8227b7390c74cb11-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 18:42:22 GMT
+Expires: Tue, 07 Nov 2023 18:42:37 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FppBQMuxDwqBzipj0TGBNbagVIESLZq0o8jZawU2LFJoblo8CvHAFEpeeA3xjrzYyikteiV08Sk%2BLtxRIGI9W7LzMJy%2Bqkt8vmJU61rHtPq6Ws2pJ%2FNlwPanBTfSro%2FTxCdTYZln"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+854

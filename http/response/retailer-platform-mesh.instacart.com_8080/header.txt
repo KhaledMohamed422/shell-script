@@ -1,0 +1,25 @@
+GET / HTTP/1.1
+Host: retailer-platform-mesh.instacart.com:8080
+User-Agent: AdsBot-Google ( http://www.google.com/adsbot.html)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: max-age=15
+Cf-Ray: 82273d780e6c2193-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 17:19:15 GMT
+Expires: Tue, 07 Nov 2023 17:19:30 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OG5gAa33f7DZNGQG%2FrybiyCzV19blnV%2F9QRkBAfHa01mxjqkJcpgn6bKFI%2Fe9z5Vdcmt0ak54fQqtEkjdHFWvgS4jWOYRTlek3sUZKDoB8dCFDQd7wTzVTgYp84OhXumaUm7DbsKiubl%2BzGzxpWiWqPV4gube9aDia8u"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=eys8tdL61sD.yvHbzpmQyeTET04LFJgIA4owoT3MEZg-1699377555-0-AVP/sjosKDyo0NPwEQSfyGd+u7SzcEfmOMZloXEBF4Q1mtXS5NW6Qb9ZLvPsZkmaJ0ggra0bk8ahluMreQnP4og=; path=/; expires=Tue, 07-Nov-23 17:49:15 GMT; domain=.retailer-platform-mesh.instacart.com; HttpOnly; SameSite=None
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+11bc

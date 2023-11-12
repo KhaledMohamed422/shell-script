@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: dcdn.dev.instacart.tools
+User-Agent: Mozilla/5.0 (Linux; Android 10; Redmi Note 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 17:26:07 GMT
+Server: AmazonS3
+Via: 1.1 3fd7afcdda21f0b562dfcbf7920c44a0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HAlnHlPescUveP3-EAoaSU5Bnm6O1Z-M0Xo7OFRaYrLxUbuXQv2byQ==
+X-Amz-Cf-Pop: FRA60-P2
+X-Cache: Error from cloudfront
+
+107
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XNHN8EQKFB9WND1K</RequestId><HostId>Jbw/uHt38lvaFNjEPirYzV90viKqanKfQWjNUyjC5sA4FptpxFXnnVO1zE3bjtQ5pLlBiTdINFGBZdbZBoAih0F+myKDlLZ3</HostId></Error>
+0
+
+
+
+
+https://dcdn.dev.instacart.tools:443

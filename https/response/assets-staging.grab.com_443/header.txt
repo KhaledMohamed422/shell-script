@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: assets-staging.grab.com
+User-Agent: Mozilla/5.0 (Linux; Android 10; ELE-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.61 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Tue, 07 Nov 2023 20:18:02 GMT
+Server: AmazonS3
+Via: 1.1 41fcd719412f2befdcf66654c7db4572.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: ap-southeast-1
+X-Amz-Cf-Id: oOAoWeoF_Md4IPNBMtCEIqkkxeK-SKDuk3xnCxBIyV0Pk6UDn2Ee_A==
+X-Amz-Cf-Pop: AMS58-P6
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>K2J5G7AH31BMV5NB</RequestId><HostId>sv+gMWwF7QfLHP+NFQybWQHBMxfSc7TL7daHMQbv2u8XM3ReS1rWQKe0UN6pNhra6kH1KckPvRk=</HostId></Error>
+0
+
+
+
+
+https://assets-staging.grab.com:443

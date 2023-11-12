@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: td1.images.product.test.gbo.noa.nintendo.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 86
+Access-Control-Allow-Headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,client_id,engine_parameters
+Access-Control-Allow-Methods: GET,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Wed, 08 Nov 2023 19:41:13 GMT
+X-Amz-Apigw-Id: OGCd9Fs-vHcEfqw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: e17450ab-6cfd-46b5-bd01-4515757572bc
+X-Amzn-Trace-Id: Root=1-654be459-3c74c6533040b75573d29492
+
+{"request_status":"error","message_id":"510","message":"Missing Authentication Token"}
+
+
+https://td1.images.product.test.gbo.noa.nintendo.com:443

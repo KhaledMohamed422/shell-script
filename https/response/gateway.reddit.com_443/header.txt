@@ -1,0 +1,32 @@
+GET / HTTP/1.1
+Host: gateway.reddit.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Accept-Ranges: bytes
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:26:39 GMT
+Server: envoy
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Reddit-Backend: e72265ed6c07039a18e35e3912485e132effa1415499a3b3dc40620d3ca6
+X-Xss-Protection: 1; mode=block
+
+404 Not Found
+
+The resource could not be found.
+
+
+/
+
+
+
+
+https://gateway.reddit.com:443

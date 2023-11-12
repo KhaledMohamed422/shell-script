@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: s1.reddit.com
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Cache-Control: private, max-age=3600
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 07 Nov 2023 20:40:00 GMT
+Nel: {"report_to": "w3-reporting-nel", "max_age": 14400, "include_subdomains": false, "success_fraction": 1.0, "failure_fraction": 1.0}
+Report-To: {"group": "w3-reporting-nel", "max_age": 14400, "include_subdomains": true,  "endpoints": [{ "url": "https://w3-reporting-nel.reddit.com/reports" }]}, {"group": "w3-reporting", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting.reddit.com/reports" }]}, {"group": "w3-reporting-csp", "max_age": 14400, "include_subdomains": true, "endpoints": [{ "url": "https://w3-reporting-csp.reddit.com/reports" }]}
+Server: snooserv
+Set-Cookie: loid=000000000nf5cfgpj4.2.1699389599537.Z0FBQUFBQmxTcUNndVB5MzE1NXJQYjQ4UnNWUnEwOTRYZGw1QkNfSXctaW5UNEZpdldXMVpubm9BXzYwazFURnBLVGMyQ2ZPSGQ4ZnVkdDhCbk5vZktZeURyV0ZQd2kzZU1oUlpjcFJock5lMWhlcE1UWEh3eHBFVlBvNUNwa09LaERTOUIzS1lWVm0; Domain=reddit.com; Max-Age=63071999; Path=/; expires=Thu, 06-Nov-2025 20:40:00 GMT; secure; SameSite=None; Secure
+Set-Cookie: session_tracker=nqepmkeoqdornaccle.0.1699389599540.Z0FBQUFBQmxTcUNnOHkwQ3RvSWVXQ0JfWHNGVzR6bFpBNmcwdFVYOGNzMkl4SkVUNTVuMXVsaGZ4di1oZzlmWVZqQmVQbUlmbnMtM2tjRzExd2NUaHlwYURQOEJjZHREQ0hJWm1JWG1sbi1VRk1ISmpyQXBjcXh6M2FSYmUwb0gxUElBVW4tcnJIOEk; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 07-Nov-2023 22:40:00 GMT; secure; SameSite=None; Secure
+Set-Cookie: csv=2; Max-Age=63072000; Domain=.reddit.com; Path=/; Secure; SameSite=None
+Set-Cookie: edgebucket=OccT0TxMc7BSutKSJO; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+Vary: accept-encoding
+Via: 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+
