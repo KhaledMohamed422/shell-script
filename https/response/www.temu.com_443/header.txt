@@ -1,0 +1,34 @@
+GET / HTTP/1.1
+Host: www.temu.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cache-Control: no-cache, must-revalidate, proxy-revalidate, max-age=0
+Cip: 161.97.145.139
+Content-Language: de
+Content-Security-Policy-Report-Only: default-src *.temu.com *.kwcdn.com wss://*.temu.com *.paypal.com *.googleapis.com *.gstatic.com *.googletagmanager.com *.google-analytics.com *.analytics.google.com *.doubleclick.net *.google.com *.googlesyndication.com *.googleusercontent.com www.googleadservices.com www.google.cn www.google.com.hk www.google.co.uk www.google.ca www.google.com.au www.google.co.nz google.com connect.facebook.net www.facebook.com appleid.cdn-apple.com socialplugin.facebook.net *.cash.app *.forter.com www.paypalobjects.com *.braintree-api.com *.braintreegateway.com cash-f.squarecdn.com api.squareup.com api.lab.amplitude.com *.paidy.com blob: data: 'unsafe-eval' 'unsafe-inline' 'wasm-eval'; report-uri /api/sec-csp/110000006/sec-gif
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 13 Nov 2023 13:30:50 GMT
+Expires: 0
+Pragma: no-cache
+Server: nginx
+Set-Cookie: region=76; Expires=Sat, 11-May-24 13:30:50 GMT; Path=/
+Set-Cookie: language=de; Expires=Sat, 11-May-24 13:30:50 GMT; Path=/
+Set-Cookie: currency=EUR; Expires=Sat, 11-May-24 13:30:50 GMT; Path=/
+Set-Cookie: api_uid=CnKYsWVSJQp4+ABZ84wSAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.temu.com; path=/
+Strict-Transport-Security: max-age=2592000
+Surrogate-Control: no-store
+Vary: Accept-Encoding
+Vary: User-Agent
+X-Accel-Buffering: no
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Yak-Request-Id: 1699882250620-ff8b34312087385972fff8bd990b89f8
+
+78ff3

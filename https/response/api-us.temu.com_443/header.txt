@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: api-us.temu.com
+User-Agent: Mozilla/5.0 (Linux; Android 11; M2007J3SY) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cip: 161.97.145.139
+Content-Type: application/json
+Date: Mon, 13 Nov 2023 13:30:50 GMT
+Server: nginx
+Set-Cookie: api_uid=Cm9V3WVSJQobngBUY/mXAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.temu.com; path=/
+Strict-Transport-Security: max-age=2592000
+Vary: Accept-Encoding
+X-Yak-Request-Id: 1699882250626-427bad79a6fc78bc68865f0f031b3aa5
+
+24
+{"error_code":40003,"error_msg":""}
+
+0
+
+
+
+
+https://api-us.temu.com:443

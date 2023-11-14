@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: pfs-us.file.temu.com
+User-Agent: Mozilla/5.0 (Linux; Android 12; SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Mobile Safari/537.36 EdgA/101.0.1210.39
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 140
+Cip: 161.97.145.139
+Content-Type: application/json
+Date: Mon, 13 Nov 2023 13:30:50 GMT
+Server: nginx
+X-Pos-Avi-Request-Id: 55be043b50b1e47b7453f020c6a0f032
+
+{"status":"Unauthorized","message":"Authorized failed.","resource":"//pfs-us.file.temu.com/","requestId":"55be043b50b1e47b7453f020c6a0f032"}
+
+
+https://pfs-us.file.temu.com:443

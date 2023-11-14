@@ -1,0 +1,21 @@
+GET / HTTP/1.1
+Host: qa.temu.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.166 Safari/537.36 OPR/20.0.1396.73172
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 166
+Alt-Svc: h3=":443"; ma=86400
+Cip: 161.97.145.139
+Content-Type: text/html
+Date: Mon, 13 Nov 2023 13:30:50 GMT
+Location: https://www.temu.com/
+Server: nginx
+Set-Cookie: api_uid=CnB+VGVSJQo4ywCYq9oTAg==; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.temu.com; path=/
+Strict-Transport-Security: max-age=2592000
+Vary: User-Agent
+X-Frame-Options: SAMEORIGIN
+X-Yak-Request-Id: 1699882250581-99c1e88d37473cf047ae47f60fea0f0a
+
