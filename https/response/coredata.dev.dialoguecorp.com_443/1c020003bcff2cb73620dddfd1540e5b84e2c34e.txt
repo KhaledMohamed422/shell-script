@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: coredata.dev.dialoguecorp.com
+User-Agent: ELinks (0.4pre5; Linux 2.6.10-ac7 i686; 80x33)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8263d0d649c47a5a-DUS
+Content-Type: application/json
+Date: Wed, 15 Nov 2023 01:45:37 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 5
+
+{"detail":"Not Found"}
+
+
+https://coredata.dev.dialoguecorp.com:443

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: notepad.dev.dialoguecorp.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:14.0) Gecko/20100101 Firefox/14.0.1 Iceweasel/14.0.1
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8263d0d68e95715d-DUS
+Content-Type: application/json
+Date: Wed, 15 Nov 2023 01:45:37 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 5
+
+{"detail":"Not Found"}
+
+
+https://notepad.dev.dialoguecorp.com:443

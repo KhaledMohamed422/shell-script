@@ -1,0 +1,975 @@
+GET / HTTP/1.1
+Host: ehh-moodgym-de.dev.dialoguecorp.com
+User-Agent: Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 8263d0d659c5161d-DUS
+Content-Type: text/html; charset=UTF-8
+Date: Wed, 15 Nov 2023 01:45:37 GMT
+Expires: Wed, 15 Nov 2023 01:45:37 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: cloudflare
+Set-Cookie: PHPSESSID=38e4c81e715a10a29447186d17fad171; path=/; secure; httponly; samesite=lax
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 132
+X-Xss-Protection: 1; mode=block
+
+b5fa
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>    moodgym - aktiv aus der Depression
+</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="DC.Title" content="moodgym - aktiv aus der Depression">
+    <meta name="DC.Description" content="moodgym ist ein interaktives Trainingsprogramm zur Vorbeugung und
+    Verringerung von depressiven Symptomen. ">
+    <meta name="description" content="moodgym ist ein interaktives Trainingsprogramm zur Vorbeugung und
+    Verringerung von depressiven Symptomen. "/>
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+<meta name="msapplication-TileImage" content="/build/images/moodgym_fav_144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/build/images/moodgym_fav_152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/build/images/moodgym_fav_144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/build/images/moodgym_fav_120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/build/images/moodgym_fav_114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/build/images/moodgym_fav_72.png">
+
+
+<link rel="shortcut icon" href="/build/images/moodgym_favicon.ico"/>
+<link rel="icon" sizes="16x16 24x24 32x32 48x48 64x64 128x128" href="/build/images/moodgym_favicon.ico">
+
+        <link rel="stylesheet" href="/build/css/reset.fc200aa2.css">
+    <link rel="stylesheet" href="/build/9138.12b354df.css"><link rel="stylesheet" href="/build/frontpage.b0e49e8f.css">
+    <link rel="stylesheet" href="/build/css/content_frontpage.e485e8f9.css">
+    <link rel="stylesheet" href="/build/css/frontpage_ext.03dea4e3.css">
+        <script src="/build/runtime.bb0b0262.js"></script><script src="/build/9755.f7cf02db.js"></script><script src="/build/9989.8e6c758e.js"></script><script src="/build/1857.51774777.js"></script><script src="/build/1281.ec7a6832.js"></script><script src="/build/7543.a1cb13df.js"></script><script src="/build/9150.166620d2.js"></script><script src="/build/frontpage.fdf9d2d7.js"></script>
+    <script src="/build/8175.e545ae72.js"></script><script src="/build/base_app.f9da6a88.js"></script>
+    
+    </head>
+<body>
+        
+
+    <div class="mobile-navigation__block">
+                <div class="mobile-navigation__wrapper">
+
+            <div class="mobile-navigation__logo">
+                <img src="/build/images/moodgym_de_logo.c03d046a.svg" class="header-logo" alt=""
+                     aria-hidden="true">
+            </div>
+
+            <ul class="mobile-navigation__list">
+                <li class="mobile-navigation__list-item active ">
+                    <a href="/" class="link" data-focusin="true">Startseite</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/home/notfall" class="link">Hilfe im Notfall</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/home/nutzungsbedingungen" class="link">Nutzungsbedingungen</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/home/datenschutz" class="link">Datenschutz</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/fachkreise" class="link">Informationen für Fachkreise</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/home/impressum" class="link">Kontakt und Impressum</a>
+                </li>
+                <li class="mobile-navigation__list-item ">
+                    <a href="/home/uber_moodgym" class="link">Über moodgym</a>
+                </li>
+            </ul>
+
+            <div class="mobile-account">
+                                    <div class="mobile-navigation__session" id="sign-in-form">
+                        
+
+<div class="form shorter ">
+    <form action="/moodgym/login_check" method="post" name="login" class="nomargintop">
+        <div>
+            <div class="formRow">
+                <label for="username" class="sr-only" tabindex="-1"><span id="username">Benutzername</span>:</label>
+                <input type="text"
+                       id="username"
+                       name="_username"
+                       placeholder="Benutzername:"
+                       autocomplete="username"
+                       required="required"
+                       aria-required="true"
+                       value=""                                        />
+            </div>
+        </div>
+
+        <div>
+            <div class="formRow">
+                <label for="password" id="password" class="sr-only" tabindex="-1">Passwort:</label>
+                <input type="password"
+                       id="password"
+                       name="_password"
+                       placeholder="Passwort:"
+                       autocomplete="current-password"
+                       required="required"
+                       aria-required="true"
+                                        />
+            </div>
+        </div>
+        <input type="hidden" name="_csrf_token" value="1ce47eceecf2d2236a0.sozjWgEPtIDPh_N5D0ZagtGWC9Z1MFcUDvRQmI05CEs.hdSuCmlihsX88J9LTD8N8pb0ZKwnBQNGUYEC3fhQZR_k9tQ_dGr80p_Wug"/>
+        
+        <a class="internal-link" href="/recovery/username">
+            <i class="fa fa-angle-double-right" aria-hidden="true" role="presentation"></i>
+            Passwort zurücksetzen
+        </a>
+
+        <div class="clearBoth">
+            <button class="button right" type="submit" id="login_button">
+                Log in
+            </button>
+        </div>
+    </form>
+</div>
+
+                    </div>
+
+                    <button type="button" class="link-btn" aria-controls="sign-in-form" id="mobile-sign-in">Login</button>
+                    <a href="/registration/register" class="link-btn bg-purple">Registrieren</a>
+                            </div>
+        </div>
+    </div>
+    <div id="container">
+            <header class="header" id="header">
+        <div class="page-width-wrapper header-wrapper">
+            <div class="header-logo-wrapper">
+                <a href="/" title="Startseite">
+                    <img src="/build/images/moodgym_de_logo.c03d046a.svg" class="header-logo" alt="">
+                </a>
+            </div>
+            <nav class="header-navigation">
+                                <button type="button" class="nav-mobile-btn" aria-label="Menü öffnen">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item active ">
+                        <a href="/"
+                           class="nav-link link" title="Startseite">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-list__item ">
+                        <a href="/home/notfall" class="nav-link link-icon">Hilfe im Notfall</a>
+                    </li>
+                    <li class="nav-list__item ">
+                        <a href="/fachkreise" class="nav-link link-icon">Fachkreise</a>
+                    </li>
+                    <li class="nav-list__item ">
+                        <a href="/home/impressum" class="nav-link link-icon">Impressum</a>
+                    </li>
+                    <li class="nav-list__item ">
+                        <a href="/home/uber_moodgym" class="nav-link link-icon">Über moodgym</a>
+                    </li>
+
+                                            <li class="nav-list__item">
+                            <button type="button" class="nav-link link-btn text-uppercase" id="signIn">Login</button>
+                        </li>
+                                    </ul>
+            </nav>
+        </div>
+    </header>
+                
+        <main class="main bg-white">
+        <section class="section section-top bg-img-blue intro">
+            <div class="section-wrapper">
+    <div class="introductory">
+        <h1 class="introductory-title">
+            Herzlich willkommen <br/>bei moodgym!
+        </h1>
+    </div>
+
+    <div class="introductory__card-group">
+        <div class="session-card">
+            <div class="card-icon-wrapper">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+            </div>
+            <h4 class="session-card__title">Login</h4>
+            <p class="session-card__description">
+                 Bereits bestehende Benutzer<br/>melden sich hier an
+            </p>
+            <div class="card-form">
+                
+
+<div class="form shorter ">
+    <form action="/moodgym/login_check" method="post" name="login" class="nomargintop">
+        <div>
+            <div class="formRow">
+                <label for="username" class="sr-only" tabindex="-1"><span id="username">Benutzername</span>:</label>
+                <input type="text"
+                       id="username"
+                       name="_username"
+                       placeholder="Benutzername:"
+                       autocomplete="username"
+                       required="required"
+                       aria-required="true"
+                       value=""                                        />
+            </div>
+        </div>
+
+        <div>
+            <div class="formRow">
+                <label for="password" id="password" class="sr-only" tabindex="-1">Passwort:</label>
+                <input type="password"
+                       id="password"
+                       name="_password"
+                       placeholder="Passwort:"
+                       autocomplete="current-password"
+                       required="required"
+                       aria-required="true"
+                                        />
+            </div>
+        </div>
+        <input type="hidden" name="_csrf_token" value="301f3531f0846a68121dc2ec0be6.u5UOR6xSBFJc4YcGHflSO67TNn7MKV2IZFEytUQsrYo.jM1DF8Q_Nhdvlus0XoAFS-mxWQSeHAnaOyRg8DFFwN7t7zki2TdMAAywzg"/>
+        
+        <a class="internal-link" href="/recovery/username">
+            <i class="fa fa-angle-double-right" aria-hidden="true" role="presentation"></i>
+            Passwort zurücksetzen
+        </a>
+
+        <div class="clearBoth">
+            <button class="button right" type="submit" id="login_button">
+                Log in
+            </button>
+        </div>
+    </form>
+</div>
+
+            </div>
+        </div>
+        <div class="session-card">
+            <div class="card-icon-wrapper rotate-180">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+            </div>
+
+            <h4 class="session-card__title">Registrieren</h4>
+
+            <p class="session-card__description">
+                Sie haben noch kein Konto?
+            </p>
+            <a href="/registration/register">
+                <button class="session-btn">Registrieren</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <section class="section bg-white">
+            <div class="section-wrapper">
+    <h2 class="section-title">Hilfe bei Depression</h2>
+    <p class="section-description">Antriebslos, niedergeschlagen, freudlos? Das können Symptome einer Depression sein.
+        moodgym bietet Ihnen eine interaktive Hilfe zur Selbsthilfe!</p>
+    <p class="section-description">
+        <strong>moodgym</strong> wurde von australischen Wissenschaftlern entwickelt. Der Name bedeutet „Fitness für die
+        Stimmung“. Das Online-Selbsthilfeprogramm bietet Ihnen zusätzliche Hilfe zur Vorbeugung oder Verringerung von
+        depressiven Symptomen. Es hilft Ihnen, aktiv erste Schritte zu gehen, um Ihre Depression zu überwinden. In fünf
+        verschiedenen Bausteinen lernen Sie, negative Gedankenmuster zu erkennen und durch neue zu ersetzen. Dadurch
+        kann sich auch Ihr Befinden zum Positiven verändern.
+    </p>
+    <div class="aok__logo">
+        <img src="/build/images/aok_logo.6284698c.svg" class="header-logo aok-logo" alt="" aria-hidden="true">
+        <p class="section-description">Die deutsche Version von moodgym wurde ermöglicht von der AOK.</p>
+    </div>
+    <ul class="benefits-list animation">
+        <li class="benefits-list__item">
+            <div class="circle">
+                <i class="fa fa-user-secret icon" aria-hidden="true"></i>
+            </div>
+            <p class="benefit-text">
+                Anonym und sicher
+            </p>
+        </li>
+        <li class="benefits-list__item">
+            <div class="circle">
+                <i class="fa fa-euro icon" aria-hidden="true"></i>
+            </div>
+            <p class="benefit-text">
+                Unbürokratisch und kostenfrei
+            </p>
+        </li>
+
+        <li class="benefits-list__item">
+            <div class="circle">
+                <i class="fa fa-suitcase icon" aria-hidden="true"></i>
+            </div>
+            <p class="benefit-text">
+                Flexibel von zu Hause oder unterwegs nutzbar
+            </p>
+        </li>
+        <li class="benefits-list__item">
+            <div class="circle">
+                <i class="fa fa-stethoscope icon" aria-hidden="true"></i>
+            </div>
+            <p class="benefit-text">
+                Von Experten empfohlen
+            </p>
+        </li>
+        <li class="benefits-list__item">
+            <div class="circle">
+                <i class="fa fa-bar-chart icon" aria-hidden="true"></i>
+            </div>
+            <p class="benefit-text">
+                Wissenschaftlich geprüft
+            </p>
+        </li>
+    </ul>
+
+
+
+    <div style="padding:56.25% 0 0 0;position:relative;">
+        <iframe src="https://player.vimeo.com/video/241986641?h=3acb3d78ba&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="moodgym Deutschland"></iframe>
+    </div>
+    <!--suppress JSUnresolvedLibraryURL -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+
+        </section>
+
+        <section class="section parallax">
+            <div class="parallax-block"></div>
+        </section>
+
+        <section class="section bg-light-gray">
+            <div class="section-wrapper">
+    <h2 class="section-title">Schritt für Schritt</h2>
+    <p class="section-description">
+        <strong>moodgym</strong> besteht aus fünf interaktiven Programmbausteinen.
+    </p>
+
+    <p class="section-description">
+        Diese Bausteine können Sie in selbst gewählter Geschwindigkeit und Intensität bearbeiten, so lange und wann
+        immer Sie möchten. Einzig die Reihenfolge ist vorgegeben. Lassen Sie sich nach jedem Baustein Zeit, um die
+        Erkenntnisse und Übungen im Alltag auszuprobieren und zu trainieren. Veränderung braucht Zeit!
+    </p>
+
+    <p class="section-description">
+        Sie werden von mehreren Beispielpersonen durch das gesamte moodgym-Programm begleitet. Wenn Sie die einzelnen
+        Personen anklicken, erfahren Sie mehr über sie. Anhand dieser Charaktere erleben Sie Beispielsituationen aus dem
+        alltäglichen Leben und erfahren, wie diese Personen mit solchen Problemen im Alltag umgehen.
+    </p>
+
+    <div class="toggle-card__block">
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn feelings_mod" aria-expanded="false">
+                    Baustein 1: Gefühle<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    In diesem Baustein (Dauer: ca. 20 Minuten) liegt der Fokus auf Gefühlen und wie diese unsere
+                    Gedanken beeinflussen. Die einzelnen Übungen beschäftigen sich mit verschiedenen grundsätzlichen
+                    Fragen: Wie nehmen wir Situationen wahr? Wie fühlen wir uns dabei?</p>
+                <p>Ziel soll es sein, die eigene
+                    verzerrte Wahrnehmung von unterschiedlichen Situationen zu erkennen und an ihnen zu arbeiten.
+                    Negative Gefühle, Hoffnungslosigkeit und negative Denkstrukturen sollen aufgedeckt werden.
+                    Dadurch lassen sie sich Schritt für Schritt in positives Denken und Fühlen umwandeln.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn thoughts_mod" aria-expanded="false">
+                    Baustein 2: Gedanken<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    In diesem Baustein (Dauer: ca. 25 Minuten) liegt der Fokus auf unseren Wünschen und Hoffnungen.
+                    Die einzelnen Übungen beschäftigen sich mit der Art und Weise unseres Denkens und unserer
+                    Gedankeninhalte. Warum denken wir so wie wir denken? Was denken wir von uns selbst? Was würden
+                    wir stattdessen lieber denken?</p>
+                <p>Ziel soll es sein, die eigenen Bedürfnisse überhaupt einmal
+                    wahrzunehmen, verzerrte Ansprüche an sich selbst sowie über Jahre erlernte Denk-Schemata zu
+                    identifizieren.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn unwarping_mod" aria-expanded="false">
+                    Baustein 3: Alternative Gedanken entwickeln<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    In diesem Baustein (Dauer: mindestens 30 Minuten) werden Strategien vermittelt, wie Sie
+                    verzerrte Gedanken und Bedürfnisse hinterfragen und verändern können. Der Fokus liegt auf der
+                    aktiven Bearbeitung der vorher von Ihnen identifizierten negativen Denkmuster und Ansprüche.
+                    Zudem beschäftigen Sie sich hier mit positiven Aktivitäten.</p>
+                <p>Ziel dieses Bausteins ist es, zu
+                    lernen, so sein zu dürfen, wie Sie sind. Sie lernen Denkmuster zu verändern, die nicht hilfreich
+                    sind, und wieder mehr Freude durch angenehme Aktivitäten zu erleben.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn destressing_mod" aria-expanded="false">
+                    Baustein 4: Weg mit dem Stress<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Im vierten Baustein (Dauer: individuell, je nach Anteil der Entspannungsmethoden) liegt der
+                    Fokus auf Ihren persönlichen Stressfaktoren im Alltag, wie Sie diese erleben und wie Sie mit
+                    ihnen umgehen.</p>
+                <p>Das Ziel soll es sein, dass Sie verstehen, wie Stress entsteht, welche
+                    Möglichkeiten der Entspannung es für Sie gibt und wie Sie Ihren persönlichen Umgang mit Stress
+                    positiv verändern können.
+                </p>
+                <p>
+                    moodgym enthält neben psychoedukativen Informationen zur Stressentstehung und Stressprävention
+                    konkrete Entspannungsübungen, die jeder Mensch anwenden kann. Dazu gehören eine Übung zu
+                    Progressiver Muskelrelaxation, eine Achtsamkeitsmeditation und eine Entspannung mit Musik.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn relationships_mod" aria-expanded="false">
+                    Baustein 5: Beziehungen<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    In diesem Baustein (Dauer: individuell, ca. 25 Minuten) liegt der Fokus auf Problemen in Ihren
+                    derzeit bestehenden Beziehungen und einem besseren Umgang mit Beziehungsproblemen.</p>
+                <p>Ziel soll es
+                    sein, „typische“ Gedanken und Gefühle in Ihren verschiedenen Beziehungen zu bearbeiten und
+                    einfache Problemlösestrategien für einen besseren Umgang mit solchen Problemen zu erlernen.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card program-structure">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn workbook_mod" aria-expanded="false">
+                    Arbeitsbuch-Bereich<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Ihre Ergebnisse und Antworten in den interaktiven Fragebögen und zu den Wissensfragen werden in
+                    Ihrem persönlichen Arbeitsbuch gespeichert.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <section class="section parallax">
+            <div class="parallax-block-3"></div>
+        </section>
+
+        <section class="section bg-white evidence">
+            <div class="section-wrapper">
+    <div class="description">
+        <h2 class="section-title">Hilft es mir?</h2>
+        <p class="section-description ">Internetbasierte Selbstmanagementprogramme wie moodgym können in verschiedenen
+            Phasen bei Menschen mit psychischen Belastungen dazu beitragen, Symptome zu lindern. </p>
+
+        <p class="large">
+            <i class="fa fa-check icon green double-size" aria-hidden="true"></i> Sie können vorbeugend genutzt werden,
+            im Rahmen einer Beratung bzw. Behandlung oder in der Nachsorge nach einer stationären Behandlung.
+        </p>
+        <p class="large">
+            <i class="fa fa-check icon green double-size" aria-hidden="true"></i> Darüber hinaus können solche Programme
+            Menschen erreichen, die bislang noch keinen Kontakt zum Versorgungssystem haben oder diesen (noch) nicht
+            wollen.
+        </p>
+        <p class="large clearBoth">
+            <i class="fa fa-check icon green double-size" aria-hidden="true"></i> Mittlerweile zeigen viele Studien,
+            dass Online-Programme bei psychischen Problemen wie Depressionen wirksam sein können. moodgym ist ein
+            Selbsthilfe-Tool, bei dem Sie sich selbständig durch das Programm arbeiten. Ziel von moodgym ist die
+            Verhaltensänderung und Stärkung von gesundheitsförderlichen Verhaltensweisen.
+        </p>
+        <p class="large">
+            <i class="fa fa-check icon green double-size" aria-hidden="true"></i> moodgym nutzt hierfür die Techniken
+            der kognitiven Verhaltenstherapie, einem bewährten Verfahren in der Behandlung von Depressionen. Diese
+            Techniken sind universell einsetzbar - auch im Alltag von gesunden Menschen. Die besten Resultate werden von
+            Menschen erreicht, die alle fünf Bausteine des Programms durcharbeiten.
+        </p>
+        <p class="large clearBoth">
+            <i class="fa fa-check icon green double-size" aria-hidden="true"></i> Wissenschaftliche Untersuchungen zur
+            Wirksamkeit von moodgym zeigen, dass moodgym für seine Nutzer hilfreich sein kann und die Durchführung von
+            zwei oder mehr Bausteinen mit einer Verringerung von Depressions-und Angst-Symptomen verbunden ist.
+        </p>
+        <div class="img-wrapper animation">
+            <img src="/build/images/evidence-icon.e26176d1.png" class="" alt="">
+        </div>
+        <p class="large clearBoth">
+            <i class="fa fa-search icon secondary-colour double-size margin-top-2" aria-hidden="true"></i> <a
+                    href="https://www.moodgym-deutschland.de"
+                    target="_blank" class="external">Das Team von Prof. Dr. med. Steffi G. Riedel-Heller, MPH, der
+                Universität Leipzig</a> untersuchte die Wirksamkeit der deutschen moodgym-Version. In dieser Studie empfahlen
+            Hausärzte ihren leicht bis mittelschwer depressiven Patienten moodgym zusätzlich zur klassischen Behandlung
+            – mit positivem Ergebnis. Viele weitere Aspekte wurden wissenschaftlich untersucht.
+        </p>
+    </div>
+    <div class="toggle-card__block">
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Literatur <i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>Löbner M, et al. (2022) What Comes after the Trial? An Observational Study of the Real-World Uptake
+                    of an E-Mental Health Intervention by General Practitioners to Reduce Depressive Symptoms in Their
+                    Patients. Int J Environ Res Public Health. 19(10):6203.</p>
+                <p>Weitzel EC, et al. (2022) Are self-managed online interventions for depression effective in improving
+                    behavioral activation? A secondary analysis of a cluster-randomized controlled trial. Journal of
+                    Affective Disorders. 308: 413–20. </p>
+                <p>Pabst, A, et al. (2020) Internet-Based Cognitive Behavior Therapy Only for the Young? A Secondary
+                    Analysis of a Randomized Controlled Trial of Depression Treatment. Frontiers in Psychiatry.
+                    11:735.</p>
+                <p>Löbner M, et al. (2019) Nutzungsakzeptanz einer Online-Intervention zur Verbesserung depressiver
+                    Symptome bei Menschen mit Adipositas: Ergebnisse einer Pilotstudie. Psychiatr Prax. 46(8):451-9.</p>
+                <p>Löbner M, et al. (2019) Online-Selbstmanagement bei Depressionen – Die Beziehung von Dosis und Wirksamkeit im
+                    hausärztlichen Versorgungssetting. Fortschritte der Neurologie Psychiatrie. 87(03):181–6.</p>
+                <p>Dorow M, et al. (2018) Der komplementäre Einsatz des internetbasierten Selbstmanagementprogramms
+                    „moodgym“ bei Menschen mit depressiven Erkrankungen in der stationären Versorgung – die Perspektive
+                    von Patienten und Behandlern. Psychiatrische Praxis. 45(5):256–62. </p>
+                <p>Dorow M, et al. (2018) Online-Selbstmanagement in der Klinik? Der Einsatz von moodgym. PiD -
+                    Psychotherapie im Dialog. 19(04): 77–81.</p>
+                <p>Löbner M, et al. (2018) Computerized cognitive behavior therapy for patients with mild to moderately
+                    severe depression in primary care: a pragmatic cluster randomized controlled trial (@ktiv). Journal
+                    of Affective Disorders. 238: 317-326.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="expert">
+        <p class="large nomarginbottom"><i class="fa fa-exclamation-triangle icon colour"></i> <strong class="colour">Bitte
+                beachten Sie:</strong></p>
+        <p>Obwohl moodgym zur Reduktion depressiver Symptome bei vielen Teilnehmern beiträgt, kann es im individuellen
+            Fall anders sein. Beachten Sie daher, dass die Behandlung der Krankheit Depression immer in die Hände von
+            Experten für seelische Gesundheit gehört.</p>
+    </div>
+</div>
+
+        </section>
+
+        <section class="section parallax">
+            <div class="parallax-block-2"></div>
+        </section>
+
+        <section class="section bg-light-gray">
+            <div class="section-wrapper brochure">
+    <h2 class="section-title">Empfehlen Sie moodgym weiter</h2>
+    <div class="flex-row half-width ">
+        <div class="img-wrapper">
+            <img src="/build/images/download1.9ec4151f.png" alt="" class="left" role="presentation"/>
+        </div>
+
+        <div class="text">
+            <p class="primary-text">
+                Sie suchen Informationen über moodgym kurz und knapp zusammengefasst oder Sie möchten moodgym
+                weiterempfehlen?</p>
+            <p><a href="/build/pdf/Info_moodgym_fuer_Patienten.pdf" target="_blank">
+                    &raquo; Eine Information für Patienten herunterladen (ca. 214 kb)
+                </a></p>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <section class="section bg-white">
+            <div class="section-wrapper">
+    <h2 class="section-title">Das sagen die Expertinnen</h2>
+
+    <div class="expert">
+        <img src="/build/images/expert_griffiths.746ce8b8.png" alt="" class="left"
+             role="presentation"/>
+        <div class="right expert_text">
+            „Mit moodgym haben wir vor vielen Jahren unsere Vision umgesetzt: Alle interessierten Menschen
+            sollen einen einfachen Zugang zu Wissen und Information bekommen und lernen können, wie man
+            depressiven Symptomen begegnen kann. Als Mitentwicklerin von moodgym freue ich mich, dass sich
+            das Programm weltweit zu einem wertvollen Hilfsangebot entwickelt hat.“<br><br>
+
+            <strong class="colour">Prof. em. Dr. Kathy Griffiths,</strong><br>
+            Centre for Mental Health Research, Australian National University
+        </div>
+        <br style="clear: both">
+    </div>
+
+    <div class="expert">
+        <div class="left2 expert_text">
+            „moodgym hat uns überzeugt – und die Vision, dass es auch in Deutschland für alle Menschen
+            kostenfrei nutzbar ist. So können sehr viele Menschen erreicht werden. Es ist ein Angebot, das
+            Betroffenen wirklich weiterhelfen kann. Deshalb engagieren wir uns, moodgym wissenschaftlich zu
+            begleiten.“ <br><br>
+
+            <strong class="colour">Prof. Dr. med. Steffi G. Riedel-Heller, MPH</strong><br>
+            Fachärztin für Psychiatrie und Psychotherapie, Direktorin des Instituts für Sozialmedizin,
+            Arbeitsmedizin und Public Health der Universität Leipzig
+        </div>
+        <img src="/build/images/expert_riedel_heller.e2dbf9eb.png" alt="" class="right2"
+             role="presentation"/>
+        <br style="clear: both">
+    </div>
+</div>
+
+        </section>
+
+        <section class="section parallax">
+            <div class="parallax-block-4"></div>
+        </section>
+
+        <section class="section faq">
+            <div class="section-wrapper">
+    <h2 class="section-title">Sie haben weitere Fragen zu moodgym?</h2>
+    <div class="toggle-card__block">
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Was bedeutet der Begriff „moodgym“?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Der Begriff stammt aus dem Englischen, da dieses Internetprogramm ursprünglich von
+                    Australischen Wissenschaftlern entwickelt wurde. „mood“ bedeutet im Englischen Laune
+                    oder Stimmung und „gym“ kann für Fitnessstudio, Sporthalle oder auch Gymnastik stehen.
+                    In der Übersetzung heißt „moodgym“ also so viel wie „Fitness für die Stimmung“.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Wer hat moodgym entwickelt?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Moodgym wurde vor über 15 Jahren von Wissenschaftlern der Australian National University
+                    entwickelt. Die Inhalte von moodgym wurden unter der Leitung von Prof. Helen Christensen
+                    und Prof. Kathy Griffiths erstellt. Seit seiner Einführung im Jahr 2001 hat moodgym
+                    weltweit mehr als eine Million registrierte Nutzer. Die Weiterentwicklung und
+                    Bereitstellung von moodgym liegt inzwischen in den Händen von e-hub Health, einem
+                    Spin-Off (also einer Ausgliederung) der Australian National University,
+                    das von Mitgliedern des moodgym-Führungsteams geleitet wird. Die englischsprachige
+                    Version von moodgym ist unter
+                    <a href="https://moodgym.com.au/" target="_blank">moodgym.com.au  <i class="fa fa-external-link" aria-hidden="true"></i></a> zu finden.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Wer hat die deutsche Version von moodgym erstellt?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Moodgym wurde am Institut für Sozialmedizin, Arbeitsmedizin und Public Health an der
+                    Medizinischen Fakultät der Universität Leipzig unter der Leitung von Frau Professor Dr.
+                    med. Steffi G. Riedel-Heller, MPH übersetzt und an deutsche Gegebenheiten angepasst.
+                    Die AOK hat diese deutsche Fassung ermöglicht, die seit 2016 frei im Internet verfügbar
+                    ist.
+
+                    Weitere umfangreiche Informationen zum Programm erhalten Fachleute auch unter
+                    <a href="https://www.moodgym-deutschland.de"
+                       target="_blank">www.moodgym-deutschland.de <i class="fa fa-external-link" aria-hidden="true"></i></a>.
+                    Dabei handelt es sich um die Projektseite der Universität Leipzig.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Für wen ist moodgym geeignet?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    moodgym ist für Erwachsene jeden Alters geeignet und kann vorbeugend als auch
+                    behandlungsbegleitend genutzt werden. Moodgym ist kein Ersatz für eine ärztliche oder
+                    psychotherapeutische Beratung oder Behandlung.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Kann ich moodgym kostenfrei nutzen?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Ja. Moodgym wird von eHubHealth kostenlos zur Verfügung gestellt. Die AOK ermöglicht die
+                    deutsche Version. Den australischen Wissenschaftlern, die moodgym ursprünglich
+                    entwickelt haben, liegt es besonders am Herzen, dass jeder Mensch das Programm für sich frei
+                    verwenden kann.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Kann moodgym einen Arztbesuch ersetzen? <i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Jegliche Inhalte und Informationen von moodgym dienen ausschließlich der Information und
+                    Weiterentwicklung Ihrer Fertigkeiten. moodgym stellt keinen Ersatz für die Diagnose und
+                    Behandlung durch eine fachkundige Person dar. Bitte konsultieren Sie in jedem Fall einen
+                    qualifizierten Allgemein- oder Facharzt, wenn Sie eine Diagnostik beziehungsweise
+                    Behandlung von Depressionen, Angststörungen oder von anderen psychischen Störungen benötigen. Dies
+                    ist unter anderem deshalb wichtig, weil Depressionen auch durch körperliche Erkrankungen
+                    oder bestimmte Medikamente ausgelöst werden können und dies der Abklärung durch einen Arzt
+                    bedarf. Außerdem sollten Sie gemeinsam mit einem Fachexperten besprechen, welcher Weg
+                    für Sie der passende ist. Jugendlichen unter 18 Jahren mit depressiven Symptomen wird
+                    empfohlen, sich gemeinsam mit ihren Eltern um fachgerechte Hilfe durch einen Arzt oder
+                    Psychotherapeuten zu bemühen.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Warum engagiert sich die AOK für moodgym?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Ungefähr jeder fünfte Deutsche ist einmal in seinem Leben von einer Depression
+                    betroffen. Die Förderung der psychischen Gesundheit ist ein wichtiges Thema für die AOK - sowohl in der
+                    Prävention als auch in der Behandlung. Mit der deutschen Version von moodgym ermöglicht
+                    die AOK, dass eine große Anzahl von Menschen einfach Unterstützung auch im Internet finden
+                    kann. Die erste Anlaufstelle für Gesundheitsinformationen ist inzwischen für viele Menschen
+                    das Internet. Als selbständig nutzbares Angebot stärkt moodgym die Autonomie der
+                    Betroffenen. Um moodgym zu nutzen, ist eine AOK-Mitgliedschaft nicht notwendig.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Erhalten Krankenkassen Daten von mir?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Nein. Die Nutzung von moodgym ist anonym! Zur Registrierung ist lediglich ein
+                    selbstgewählter Nickname und ein Passwort notwendig. Klarnamen oder Emailadresse werde nicht benötigt.
+                    Für weitere Informationen lesen Sie bitte auch die <a href="/home/datenschutz">Datenschutzhinweise</a>.
+                </p>
+            </div>
+        </div>
+
+        <div class="toggle-card">
+            <div class="toggle-card__header">
+                <button type="button" class="toggle-btn" aria-expanded="false">
+                    Bekomme ich ein Teilnahmezertifikat oder Bonuspunkte?<i class="fa fa-caret-down icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="toggle-card__content">
+                <p>
+                    Nein, moodgym ist anonym. Daher können weder ein Teilnahmezertifikat ausgestellt oder
+                    Bonuspunkte für Präventionsprogramme oder Gesundheitsprogramme gesammelt werden. Sie
+                    erhalten jedoch am Ende des Programms eine „Urkunde“ als motivierenden Anreiz, bis zum
+                    Schluss durchzuhalten.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </section>
+
+        <section class="section bg-white">
+            <div class="section-wrapper">
+    <h2 class="section-title">Unsere Kooperationspartner</h2>
+    <ul class="partners">
+        <li>
+            <a href="https://www.anu.edu.au">
+                <img src="/build/images/anu_logo.70ec0862.svg" alt="Australian National University"
+                     style="width:140px; margin-left: 20px; margin-right:50px;"
+                     aria-hidden="true"/>
+            </a>
+            <p>
+                moodgym wurde ursprünglich von australischen Wissenschaftlern entwickelt.
+            </p>
+        </li>
+        <li>
+            <a href="https://www.uniklinikum-leipzig.de/einrichtungen/isap">
+                <img src="/build/images/uni_leipzig_logo.42d58b8c.svg" alt="Universität Leipzig"
+                     aria-hidden="true"/>
+            </a>
+            <p>
+                Wissenschaftler der Universität Leipzig haben moodgym für den deutschen Sprachraum
+                übersetzt.
+            </p>
+        </li>
+        <li>
+            <a href="https://www.ehubhealth.com/">
+                <img src="/build/images/ehub_logo_colour.ab45d1ae.svg" style="width:150px; margin-right:40px;
+                margin-left:10px;" alt="eHub Health" aria-hidden="true"/>
+            </a>
+            <p>Ein Spin-off-Unternehmen der Australian National University, Anbieter von moodgym.</p>
+        </li>
+        <li>
+            <a href="https://www.aok.de/">
+                <img src="/build/images/aok_logo.6284698c.svg" style="width:150px; margin-right:40px;
+                margin-left:10px" alt="AOK Die
+                 Gesundheitskasse" aria-hidden="true">
+            </a>
+            <p>Die deutsche Version von moodgym wurde ermöglicht von der AOK.</p>
+        </li>
+    </ul>
+    <div class="clearBoth"></div>
+</div>
+
+        </section>
+    </main>
+    
+        <div id="content-footer">
+                                <p id="page-url">Seite: https://ehh-moodgym-de.dev.dialoguecorp.com/</p>
+            <div class="clear clear-fix"></div>
+            </div>
+
+    <button type="button" class="go-top__btn">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </button>
+
+    <div class="modal-block session-modal ">
+        <div class="modal-block__bg"></div>
+        <div class="modal-block__window">
+            <div class="modal-window__header">
+                <h2 class="modal-window__title">Login</h2>
+                <button type="button" class="modal-window__header-close-btn">
+                    <i class="fa fa-times icon" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div class="modal-window__main">
+                
+
+<div class="form shorter ">
+    <form action="/moodgym/login_check" method="post" name="login" class="nomargintop">
+        <div>
+            <div class="formRow">
+                <label for="username" class="sr-only" tabindex="-1"><span id="username">Benutzername</span>:</label>
+                <input type="text"
+                       id="username"
+                       name="_username"
+                       placeholder="Benutzername:"
+                       autocomplete="username"
+                       required="required"
+                       aria-required="true"
+                       value=""                                        />
+            </div>
+        </div>
+
+        <div>
+            <div class="formRow">
+                <label for="password" id="password" class="sr-only" tabindex="-1">Passwort:</label>
+                <input type="password"
+                       id="password"
+                       name="_password"
+                       placeholder="Passwort:"
+                       autocomplete="current-password"
+                       required="required"
+                       aria-required="true"
+                                        />
+            </div>
+        </div>
+        <input type="hidden" name="_csrf_token" value="4848467d61d7e3e97a1f773ab2.GaWbpY8TTApqDodHNNPnZ_k5_d8U5t9_yTc-EEHznBM.Lv3W9ed-fk9Zeet1d6qwF75bkqVG04stlkJsVTSa8UdP36zA-nYEWDpfzg"/>
+        
+        <a class="internal-link" href="/recovery/username">
+            <i class="fa fa-angle-double-right" aria-hidden="true" role="presentation"></i>
+            Passwort zurücksetzen
+        </a>
+
+        <div class="clearBoth">
+            <button class="button right" type="submit" id="login_button">
+                Log in
+            </button>
+        </div>
+    </form>
+</div>
+
+            </div>
+        </div>
+    </div>
+            <footer class="footer">
+        <div class="page-width-wrapper footer-wrapper">
+            <ul class="footer-list">
+    <li class="footer-list__item">
+        <a class="footer-link" href="/home/notfall">Hilfe im Notfall</a>
+    </li>
+    <li class="footer-list__item">
+        <a class="footer-link" href="/home/weitere_hilfe">Weitere Hilfen</a>
+    </li>
+    <li class="footer-list__item">
+        <a class="footer-link" href="/home/nutzungsbedingungen">Nutzungsbedingungen</a>
+    </li>
+    <li class="footer-list__item">
+        <a class="footer-link" href="/home/datenschutz">Datenschutzerklärung</a>
+    </li>
+    <li class="footer-list__item">
+        <a class="footer-link" href="/home/uber_moodgym">Über moodgym</a>
+    </li>
+</ul>
+
+            <div class="footer-logo-wrapper">
+                <img src="/build/images/ehub_logo_light.5794ec3b.svg" style="width:252px;" class="footer-logo" alt="">
+            </div>
+        </div>
+    </footer>
+            </div>
+    </body>
+</html>
+
+
+
+
+
+0
+
+
+
+
+https://ehh-moodgym-de.dev.dialoguecorp.com:443
