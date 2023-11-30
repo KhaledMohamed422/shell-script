@@ -1,22 +1,3 @@
-GET / HTTP/1.1
-Host: example.com
-User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
-Accept-Charset: utf-8
-Accept-Encoding: gzip
-
-HTTP/1.1 200 OK
-Connection: close
-Age: 487038
-Cache-Control: max-age=604800
-Content-Type: text/html; charset=UTF-8
-Date: Wed, 29 Nov 2023 23:43:24 GMT
-Etag: "3147526947+gzip"
-Expires: Wed, 06 Dec 2023 23:43:24 GMT
-Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
-Server: ECS (dce/2698)
-Vary: Accept-Encoding
-X-Cache: HIT
-
 <!doctype html>
 <html>
 <head>
@@ -66,4 +47,3 @@ X-Cache: HIT
 
 
 
-http://example.com:80
